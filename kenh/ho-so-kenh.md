@@ -23,9 +23,9 @@
 ## Nhân vật và giọng
 
 - **Nhân vật Wob**: một quả địa cầu nhỏ, hơi méo nên đi lắc lư ("wobble"), chân ngắn, đeo ba lô quá to, cầm bản đồ giấy lúc nào cũng cầm ngược. Tính cách: du khách tự tin thái quá, tập nào cũng muốn chuyển tới nơi đó sống, rồi các sự thật lần lượt thuyết phục Wob đổi ý (hoặc không).
-- Dựng Wob bằng **SVG tách bộ phận** (thân, mắt, miệng, tay, chân, ba lô), chuyển động bằng GSAP trong HyperFrames. Không tạo Wob bằng AI sinh ảnh, để tập nào Wob cũng giống hệt nhau. TODO: vẽ bộ phận và 6 biểu cảm gốc (hào hứng, lạnh run, nóng chảy, sốc, ngẫm nghĩ, đóng gói ba lô).
+- Dựng Wob bằng **SVG tách bộ phận** (thân, mắt, miệng, tay, chân, ba lô), chuyển động bằng GSAP trong HyperFrames. Không tạo Wob bằng AI sinh ảnh, để tập nào Wob cũng giống hệt nhau. **Đã vẽ** (chốt 15/11/2026): 6 biểu cảm `hao-hung`, `lanh-run`, `nong-chay`, `soc`, `ngam-nghi`, `dong-goi` ở `templates/_shared/wob/`, dựng lại bằng `wob/nguon/tao_wob.py`: quả địa cầu méo màu biển `#5A9FB8` với lục địa trừu tượng (không phải bản đồ thật), nét mực viền, ba lô nâu có cuộn thảm đỏ, giày đỏ. Màu Wob cố định, không đổi theo bảng màu tập. Chưa có: tấm bản đồ giấy cầm ngược (thêm sau nếu kịch bản cần).
 - **Phán quyết mỗi tập** (dấu ấn riêng, nhận định của kênh): con dấu "Would Wob move here?" với ba nhãn cố định **WOULD MOVE** / **SUMMER ONLY** / **NOPE**, đóng đúng một lần ở cuối video, kèm 1–2 câu lý do.
-- Giọng đọc: tiếng Anh, một giọng cho cả kênh, Azure Neural HD (22 USD / 1 triệu ký tự; khoảng 0,31 USD cho video 15 phút). TODO: nghe thử 3 giọng en-US HD rồi chốt; dùng Azure (đã có key), **không** dùng gói miễn phí của ElevenLabs (cấm thương mại).
+- Giọng đọc: tiếng Anh, một giọng cho cả kênh, Azure Neural HD (22 USD / 1 triệu ký tự; khoảng 0,31 USD cho video 15 phút). TODO: nghe thử 3 giọng en-US HD rồi chốt; dùng Azure (người làm kênh đang tạo key, 15/11/2026: repo chưa có `.env`), **không** dùng gói miễn phí của ElevenLabs (cấm thương mại).
 - Giọng văn: tò mò, khô, hài kiểu nói giảm (deadpan), như người bạn kể chuyện thú vị. Đùa về thời tiết, địa hình, nỗi khổ của Wob; **không đùa về người dân** ở nơi đó, không chê nghèo, không định kiến dân tộc.
 - Mở đầu: vào thẳng câu hỏi trong 10 giây đầu, không chào, không giới thiệu kênh. Kết thúc: con dấu phán quyết + một câu hỏi kéo bình luận ("Would you last a winter here?"). Không dùng "you won't believe", "insane", "shocking", "nobody talks about".
 
@@ -34,7 +34,10 @@
 - Khung 1920×1080, 30 fps, video 10–15 phút.
 - Bản đồ: vẽ bằng code (D3 + Natural Earth, dữ liệu public domain). Bản đồ nào có Biển Đông phải theo `.claude/rules/chinh-xac-va-ban-quyen.md` mục 6 (không "đường lưỡi bò"; `ve_ban_do.mjs` dùng Natural Earth bản quan điểm Việt Nam và tự đánh dấu khung chạm vùng này); giai đoạn 1 ưu tiên đề tài không cần vẽ vùng này.
 - Minh hoạ cảnh: ảnh AI phong cách minh hoạ phẳng, **không** làm ảnh như ảnh chụp về nơi có thật (dễ gây hiểu lầm và phải gắn nhãn). Ảnh chụp thật chỉ dùng khi có giấy phép cho thương mại (ví dụ Wikimedia Commons CC BY, CC BY-SA kèm ghi công; **không** dùng CC BY-NC).
-- Tránh phong cách vector phẳng giống Kurzgesagt: YouTube từng gắn nhầm kiểu hình này là AI slop. TODO: chốt bảng màu, font (giấy phép OFL), logo, phong cách ảnh minh hoạ (`templates/_shared/phong-cach-anh.txt`) trong hệ thiết kế riêng của kênh (`templates/_shared/frame.md` đang là bản tạm, font tạm Be Vietnam Pro). Chạy `/thiet-lap-kenh`.
+- Tránh phong cách vector phẳng giống Kurzgesagt: YouTube từng gắn nhầm kiểu hình này là AI slop. Dấu riêng của kênh là **nét mực viền** (Wob, thẻ số liệu, ghim bản đồ).
+- Hệ thiết kế (chốt 15/11/2026, `/thiet-lap-kenh`, người làm kênh chọn phương án A trong 3 khung thử): bảng **"Mực & giấy"**, nền `#1E2A2B`, biển `#3F6A70`, đất/giấy `#EFE3C8`, nhấn đất nung `#E0703A`, NOPE `#E85D45`, WOULD MOVE `#5E9E6A`; font **Fraunces** (OFL, trục SOFT 100, WONK 1: nét hơi lắc, hợp tên Wobble). Lý do: khác hẳn Game Vừa Ví (Be Vietnam Pro, tím, vàng `#FFC23D`) và khác đa số kênh địa lý (font không chân trên nền navy). Màu NOPE cũ `#C2402F` bị loại vì chỉ đạt 2,9:1 trên nền. Giá trị gốc ở `templates/_shared/frame.md`.
+- Logo (chốt 15/11/2026): icon đầu Wob + chữ WORLD WOBBLE. File: `templates/_shared/logo.png`, `templates/_shared/logo-icon.svg`; ảnh đại diện `kenh/nhan-dien/avatar-800.png`, banner `kenh/nhan-dien/banner-2560x1440.png` (dựng lại bằng `kenh/nhan-dien/nguon/tao_nhan_dien.py`).
+- TODO: phong cách ảnh minh hoạ (`templates/_shared/phong-cach-anh.txt`): cần `GEMINI_API_KEY` để tạo thử 3 ảnh rồi chọn.
 - Chữ ký âm thanh: `sfx/dau-wob.wav` (tự tổng hợp), chỉ phát cùng con dấu phán quyết.
 - Nhạc: YouTube Audio Library hoặc thư viện có giấy phép thương mại, ghi vào `music/GIAY-PHEP.md` (sổ đã lập, chưa có bài). TODO: chọn 3 bài theo bảng tâm trạng trong sổ.
 
@@ -64,6 +67,8 @@ Người làm kênh **không duyệt kịch bản giữa chừng**. Mỗi video 
 
 ## Nhịp sản xuất
 
-- 1 video mỗi tuần trong 3 tháng đầu.
+- **Đợt thử ra mắt (chốt 15/11/2026, người làm kênh quyết):** đăng **5 tập liên tục trong 5 ngày**, rồi dừng để xem số liệu trước khi quyết làm tiếp tập 6–10 và có đầu tư tiếp không. Claude đã khuyên 2 tập/tuần vì đăng dồn thì tập sau không kịp học từ tập trước và dễ bị coi là làm hàng loạt; người làm kênh chọn 5/5 để có tín hiệu nhanh. Biện pháp giảm rủi ro: làm xong và sửa tập 1 trước rồi mới làm tập 2–5; 5 tập khác nhau rõ về lý do định cư, khuôn tiêu đề, câu mở, phán quyết; mọi tập vẫn qua đủ các cổng.
+- Tiêu chí sau 10 tập (ngưỡng ban đầu Claude đặt, chưa có số liệu kênh): dừng nếu mỗi video < 500 lượt hiển thị, CTR < 2%, % thời lượng xem < 25%; đáng đầu tư nếu có tập > 10.000 lượt hiển thị, CTR ≥ 4–5%, % xem ≥ 35–40%, có lượt xem từ "Suggested". Mốc YPP 8.000 giờ ≈ 96.000 lượt xem/năm nếu mỗi lượt xem trung bình 5 phút.
+- Sau đợt thử: quay về nhịp đều (mặc định 1–2 video mỗi tuần), chỉnh theo `kenh/bai-hoc.md`.
 - Chế độ: tự động; người làm kênh chỉ xem video cuối cùng báo cáo độ xác thực.
 - Dây chuyền: `/tao-video <nơi>` (repo này, dựng 15/11/2026, template `explainer`). Đã chạy thử trọn từ kịch bản tới MP4 và báo cáo trên một dự án giả; chưa làm tập thật nào.

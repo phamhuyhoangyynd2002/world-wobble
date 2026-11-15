@@ -1,2 +1,2 @@
 TODO: chốt phong cách ảnh minh hoạ của kênh bằng /thiet-lap-kenh (một đoạn tiếng Anh 1–3 câu, đặt trước mọi prompt ảnh).
-Gợi ý khởi điểm theo frame.md: "Hand-drawn editorial illustration with visible ink linework and subtle paper grain, muted earthy palette (deep navy, sand, ochre, brick red), soft flat lighting, wide 16:9 composition with empty space on the left third for titles."
+Gợi ý khởi điểm theo frame.md (bảng "Mực & giấy", chốt 15/11/2026): "Hand-drawn editorial illustration with visible ink linework and subtle paper grain, muted earthy palette (deep ink green, slate teal, paper sand, terracotta), soft flat lighting, wide 16:9 composition with empty space on the left third for titles."

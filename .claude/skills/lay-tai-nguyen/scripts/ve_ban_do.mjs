@@ -25,8 +25,7 @@ const NE_URL =
   "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_vnm.geojson";
 const W = 1920, H = 1080;
 const EAST_SEA = { lon: [99, 125], lat: [0, 26] };
-// Màu tạm (TODO: lấy từ templates/_shared/frame.md khi chốt hệ thiết kế của kênh)
-const C = { ocean: "#1d3b53", land: "#e9dcc3", border: "#9b8a6e", highlight: "#f2b544", graticule: "#ffffff22", mark: "#e4572e" };
+const C = { ocean: "#3f6a70", land: "#efe3c8", border: "#8a7a5c", highlight: "#e0703a", graticule: "#ffffff22", mark: "#e85d45" }; // theo templates/_shared/frame.md (chốt 15/11/2026)
 
 function args(argv) {
   const out = { mark: [], projection: "orthographic", zoom: 1 };
@@ -141,7 +140,7 @@ async function main() {
       console.warn(`CẢNH BÁO: điểm '${label.join(",")}' nằm ngoài khung, bỏ qua`);
       continue;
     }
-    parts.push(`<circle cx="${xy[0].toFixed(1)}" cy="${xy[1].toFixed(1)}" r="11" fill="${C.mark}" stroke="#fff" stroke-width="4"/>`);
+    parts.push(`<circle cx="${xy[0].toFixed(1)}" cy="${xy[1].toFixed(1)}" r="12" fill="${C.mark}" stroke="#1f2326" stroke-width="5"/>`);
     marks.push({ x: Math.round(xy[0]), y: Math.round(xy[1]), label: label.join(",").trim(), lon: Number(lon), lat: Number(lat) });
   }
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">\n${parts.join("\n")}\n</svg>\n`;

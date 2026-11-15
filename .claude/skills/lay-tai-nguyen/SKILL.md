@@ -35,6 +35,7 @@ python3 .claude/skills/lay-tai-nguyen/scripts/tao_anh_ai.py <dự án> --id ai-<
 - Cảnh tái hiện một sự kiện có thật (một trận bão, một lần dời thị trấn): được, nhưng thêm cờ `--tai-hien-su-kien` (manifest ghi `tai_hien_su_kien: true`) để kiểm định và SEO gắn nhãn AI (Nghị định 142/2026).
 - Mở từng ảnh bằng Read: đúng nội dung lời đọc, không chữ lạ, không lỗi hình (tay sáu ngón, nhà lơ lửng). Hỏng thì `--lam-lai` với prompt sửa; ghi số lần tạo lại vào `nhat-ky.md` (tính chi phí).
 - Ảnh đã có không tạo lại (tốn tiền).
+- Không muốn tốn API, hoặc chưa có `GEMINI_API_KEY`: tạo ảnh bằng ChatGPT web / Gemini web qua skill `/tao-anh-web` (chạy ở phiên chính, tài khoản riêng, hạn mức miễn phí thấp nên thường chỉ đủ cho ảnh quan trọng). Agent `thu-thap-tai-nguyen` không có Browser MCP: để trống id đó, ghi vào báo cáo, phiên chính tạo sau.
 
 ## Ảnh thật từ Wikimedia Commons
 

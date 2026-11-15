@@ -9,7 +9,7 @@
 (function () {
   "use strict";
 
-  var FONT = "Be Vietnam Pro";
+  var FONT = "Fraunces";
   var FADE = 0.6; // hoà tan giữa hai nhịp hình
   var STAMP_COLORS = { "WOULD MOVE": "var(--move)", "SUMMER ONLY": "var(--accent)", NOPE: "var(--accent-2)" };
 
@@ -120,7 +120,16 @@
         // nhãn bản đồ có thể bị câu hỏi mở đầu hay thẻ đè lên trong chốc lát: có chủ ý
         el("div", "ww-mark-label", m.label, mk).setAttribute("data-layout-allow-occlusion", "");
       });
-      if (show === "text") el("div", "ww-big-text", sc.on_screen_text || "", layer);
+      if (show === "text") {
+        var big = el("div", "ww-big-text", sc.on_screen_text || "", layer);
+        // cảnh kết: chữ to nhường chỗ cho con dấu phán quyết (con dấu hiện từ verdict.at - 0.8)
+        if (scene.verdict && scene.verdict.at) {
+          var vOut = Math.max(scene.start + 0.5, scene.verdict.at - 1.2);
+          parts.push({ animate: function (tl) {
+            tl.to(big, { opacity: 0, duration: 0.4, ease: "sine.inOut" }, vOut);
+          } });
+        }
+      }
       if (shot.src) lastSrc = shot.src;
       var first = i === 0;
       var inAt = first ? scene.start : Math.max(scene.start, shot.at - FADE);
@@ -250,7 +259,11 @@
     if (tlData.burn_captions) parts = parts.concat(buildCaptions(root, tlData.captions, total));
     var bugLayer = el("div", "clip", null, root);
     timed(bugLayer, 0, total, 20);
-    el("div", "ww-bug", "World Wobble", bugLayer);
+    var bug = el("div", "ww-bug", null, bugLayer);
+    var bugIcon = el("img", null, null, bug);
+    bugIcon.src = "_shared/logo-icon.svg";
+    bugIcon.alt = "";
+    el("span", null, "World Wobble", bug);
 
     return ensureFonts()
       .then(function () { return waitImages(root); })

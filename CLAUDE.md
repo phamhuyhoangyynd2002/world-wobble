@@ -23,6 +23,7 @@ Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên h�
 | Viết / sửa kịch bản | `/viet-kich-ban <thư mục dự án> [góp ý]` |
 | Kiểm chứng (hai mô hình) và báo cáo độ xác thực | `/kiem-chung <thư mục dự án>` |
 | Bản đồ, ảnh minh hoạ AI, ảnh Commons | `/lay-tai-nguyen <thư mục dự án>` |
+| Ảnh AI miễn phí qua ChatGPT web / Gemini web (Browser MCP, tài khoản riêng) | `/tao-anh-web <thư mục dự án>` |
 | Giọng đọc + timeline | `/long-tieng <thư mục dự án>` |
 | Render MP4 | `/xuat-video <thư mục dự án>` |
 | Kiểm tra trước khi giao | `/kiem-tra-video <thư mục dự án>` |
@@ -93,4 +94,4 @@ Vòng 2 kiểm chứng không phải agent mà là script gọi Gemini API: `.cl
 
 ## Việc còn mở (xem TODO trong hồ sơ kênh)
 
-Chọn giọng Azure en-US; vẽ Wob (SVG, 6 biểu cảm); bảng màu, font, logo riêng; phong cách ảnh (`templates/_shared/phong-cach-anh.txt`); sổ nhạc; `GEMINI_API_KEY`; script dựng thumbnail; tải video lên bằng YouTube Data API (hiện người làm kênh tự kéo file vào YouTube Studio vì Browser MCP chỉ nhận file dưới 50 MB); skill cắt Shorts từ video dài.
+Chọn giọng Azure en-US; phong cách ảnh (`templates/_shared/phong-cach-anh.txt`); sổ nhạc; `AZURE_SPEECH_KEY`, `GEMINI_API_KEY` (repo chưa có `.env`); script dựng thumbnail; tải video lên bằng YouTube Data API (hiện người làm kênh tự kéo file vào YouTube Studio vì Browser MCP chỉ nhận file dưới 50 MB); skill cắt Shorts từ video dài.

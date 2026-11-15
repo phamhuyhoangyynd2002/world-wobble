@@ -47,4 +47,4 @@ Với video dài, tỉ lệ nhấp thumbnail quyết định nhiều hơn video 
 
 ## Tần suất
 
-- 1 video mỗi tuần trong 3 tháng đầu (hồ sơ kênh). Đều đặn quan trọng hơn dồn nhiều video một lúc; YouTube soi kênh đăng dày theo khuôn.
+- Theo mục "Nhịp sản xuất" của hồ sơ kênh. Đợt ra mắt (chốt 15/11/2026): 5 tập trong 5 ngày rồi dừng xem số liệu; sau đó nhịp đều 1–2 video mỗi tuần. Đều đặn quan trọng hơn dồn nhiều video một lúc; YouTube soi kênh đăng dày theo khuôn, nên trong đợt dồn càng phải khác nhau rõ giữa các tập.

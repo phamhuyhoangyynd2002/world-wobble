@@ -11,4 +11,6 @@ Mỗi biểu cảm là một file SVG cùng khung (khuyên dùng viewBox vuông,
 | `ngam-nghi.svg` | ngẫm nghĩ |
 | `dong-goi.svg` | đóng gói ba lô (rời đi) |
 
-TODO (hồ sơ kênh): vẽ Wob bằng SVG tách bộ phận (thân, mắt, miệng, tay, chân, ba lô). Không tạo Wob bằng AI sinh ảnh, để tập nào Wob cũng giống hệt nhau. Khi chưa có file, template bỏ qua lớp Wob và in cảnh báo; `prepare_render.py` liệt kê các biểu cảm đã có vào dữ liệu render.
+Đã vẽ ngày 15/11/2026 bằng `nguon/tao_wob.py` (toạ độ viết tay, chạy lại ra y hệt; không dùng AI sinh ảnh). Sửa Wob thì sửa script rồi chạy lại: `python3 templates/_shared/wob/nguon/tao_wob.py` (ghi cả `templates/_shared/logo-icon.svg`), rồi chạy `python3 kenh/nhan-dien/nguon/tao_nhan_dien.py` để ảnh đại diện, banner, logo khớp theo.
+
+Các nhóm trong SVG: `chan`, `ba-lo`, `than`, `mat`, `mieng`, `tay`, `phu` (hiệu ứng phụ như sao, mồ hôi, vạch run). Lục địa trên thân là mảng trừu tượng, không phải bản đồ thật.

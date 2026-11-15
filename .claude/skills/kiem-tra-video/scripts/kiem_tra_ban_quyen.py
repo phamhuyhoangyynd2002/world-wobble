@@ -108,6 +108,14 @@ def main() -> int:
                 block.append(f"'{aid}': ảnh AI thiếu prompt hoặc model trong manifest")
             elif PHOTO.search(a["prompt"]) and "not a photograph" not in a["prompt"]:
                 block.append(f"'{aid}': prompt xin ảnh như ảnh chụp")
+            # ảnh tạo trên giao diện web (skill tao-anh-web): phải đã xem không có watermark và dùng tài khoản riêng
+            if a.get("nguon") in ("chatgpt-web", "gemini-web"):
+                if a.get("watermark_da_kiem") is not True:
+                    block.append(f"'{aid}': ảnh {a['nguon']} chưa kiểm watermark (watermark_da_kiem: true sau khi xem)")
+                if a.get("tai_khoan_rieng") is not True:
+                    block.append(f"'{aid}': ảnh {a['nguon']} không ghi đã dùng tài khoản riêng (không phải tài khoản kênh)")
+                warn.append(f"'{aid}': tạo trên {a['nguon']} (giao diện web, điều khiển bằng Browser MCP): điều khoản "
+                            "của dịch vụ hạn chế truy cập tự động; người làm kênh đã chấp nhận rủi ro ngày 15/11/2026")
             ai_list.append(aid)
         if kind == "ban-do" and a.get("vung_bien_dong") and a.get("chu_quyen_da_kiem") is not True:
             block.append(f"'{aid}': bản đồ chạm vùng Biển Đông chưa kiểm chủ quyền (chu_quyen_da_kiem: true sau khi xem)")
