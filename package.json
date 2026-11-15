@@ -1,0 +1,12 @@
+{
+  "name": "world-wobble",
+  "private": true,
+  "type": "module",
+  "description": "Dây chuyền làm video dài YouTube cho kênh World Wobble",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1"
+  }
+}

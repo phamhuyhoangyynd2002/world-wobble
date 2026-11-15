@@ -1,0 +1,103 @@
+/* World Wobble – kiểu dùng chung (khung 1920×1080). Giá trị theo templates/_shared/frame.md (bản tạm). */
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Black.ttf") format("truetype"); font-weight: 900; font-style: normal; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-ExtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+
+:root {
+  --ground: #10212e;
+  --ocean: #1d3b53;
+  --land: #e9dcc3;
+  --text: #ffffff;
+  --text-dark: #10212e;
+  --text-dim: #c8d3dc;
+  --accent: #f2b544;
+  --accent-2: #e4572e;
+  --move: #3bb273;
+  --safe-x: 96px;
+  --safe-y: 54px;
+  --font: "Be Vietnam Pro", sans-serif;
+}
+
+.ww-root-bg { position: absolute; inset: 0; background: var(--ground); }
+
+/* mỗi cảnh là một lớp xếp chồng riêng: z-index bên trong cảnh không vượt lên các lớp phủ toàn video (logo, con dấu…) */
+.ww-scene { position: absolute; inset: 0; overflow: hidden; isolation: isolate; z-index: 0; }
+.ww-shot { position: absolute; inset: 0; overflow: hidden; z-index: 1; }
+.ww-media { position: absolute; inset: 0; }
+.ww-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ww-shot-text .ww-media img { filter: blur(18px) brightness(0.55); }
+
+/* nhãn bản đồ: toạ độ pixel trên khung 1920×1080, nằm trong cùng lớp đang zoom với ảnh */
+.ww-mark { position: absolute; display: flex; align-items: center; height: 0; }
+.ww-mark-label {
+  margin-left: 26px; padding: 8px 18px; border-radius: 10px;
+  background: rgba(16, 33, 46, 0.86); color: var(--text);
+  font: 800 38px/1.1 var(--font); white-space: nowrap;
+}
+
+.ww-question-wrap {
+  position: absolute; z-index: 6; left: 0; top: 0; bottom: 0; width: 60%;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 0 0 0 var(--safe-x);
+  background: linear-gradient(90deg, rgba(16, 33, 46, 0.78) 0%, rgba(16, 33, 46, 0.45) 70%, rgba(16, 33, 46, 0) 100%);
+}
+.ww-question { color: var(--text); font: 900 104px/1.08 var(--font); max-width: 980px; }
+
+.ww-title {
+  position: absolute; z-index: 6; left: var(--safe-x); top: var(--safe-y);
+  color: var(--text); font: 800 76px/1.12 var(--font); max-width: 1300px;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
+}
+.ww-big-text {
+  position: absolute; z-index: 6; inset: 0; display: flex; align-items: center; justify-content: center;
+  padding: 0 var(--safe-x); text-align: center;
+  color: var(--text); font: 900 104px/1.1 var(--font);
+}
+
+.ww-chapter {
+  position: absolute; z-index: 10; left: var(--safe-x); bottom: calc(var(--safe-y) + 20px);
+  display: flex; align-items: center; gap: 18px;
+  padding: 14px 28px; border-radius: 12px; background: rgba(16, 33, 46, 0.88);
+  color: var(--text); font: 800 56px/1.1 var(--font);
+}
+.ww-chapter-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--accent); }
+
+.ww-fact {
+  position: absolute; right: var(--safe-x); bottom: calc(var(--safe-y) + 40px);
+  z-index: 5; min-width: 420px; padding: 22px 34px; border-radius: 14px;
+  background: var(--land); color: var(--text-dark);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.ww-fact-label { font: 600 34px/1.1 var(--font); opacity: 0.8; }
+.ww-fact-value { font: 900 72px/1.05 var(--font); }
+
+.ww-wob-layer { position: absolute; inset: 0; pointer-events: none; z-index: 9; }
+.ww-wob { position: absolute; left: 60px; bottom: 30px; height: 300px; width: auto; }
+
+.ww-stamp-layer { position: absolute; inset: 0; z-index: 10; }
+.ww-stamp-wrap {
+  position: absolute; right: 120px; top: 250px; width: 1250px;
+  display: flex; flex-direction: column; align-items: center; gap: 22px;
+}
+.ww-stamp-q { padding: 8px 20px; border-radius: 10px; background: rgba(16, 33, 46, 0.86); color: var(--text); font: 800 44px/1.1 var(--font); }
+.ww-stamp {
+  padding: 18px 48px; border: 12px solid currentColor; border-radius: 22px;
+  font: 900 120px/1 var(--font); text-transform: uppercase; white-space: nowrap;
+  background: rgba(16, 33, 46, 0.86);
+}
+
+.ww-bug {
+  position: absolute; z-index: 11; right: var(--safe-x); top: var(--safe-y); padding: 8px 14px; border-radius: 8px;
+  background: rgba(16, 33, 46, 0.86); color: var(--text);
+  font: 800 26px/1 var(--font); letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+.ww-caption-layer { position: absolute; inset: 0; z-index: 12; }
+.ww-caption {
+  position: absolute; left: 0; right: 0; bottom: 70px; display: flex; flex-direction: column; align-items: center;
+}
+.ww-caption-line {
+  padding: 4px 16px; background: rgba(0, 0, 0, 0.62); color: var(--text);
+  font: 700 46px/1.25 var(--font); white-space: nowrap;
+}

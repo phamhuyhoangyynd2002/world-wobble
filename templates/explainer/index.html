@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>World Wobble – explainer</title>
+    <!-- Template explainer (ngang 1920×1080). Không chứa nội dung cố định: prepare_render.py điền dữ liệu vào #ww-data,
+         ww.js dựng cảnh theo timeline.json. Không phát nhạc/sfx (mix_audio.py trộn sau khi render). -->
+    <script src="_shared/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="_shared/ww.css" />
+    <style>
+      /* Font khai báo cả ở đây để lint của HyperFrames thấy @font-face cục bộ ngay trong composition */
+      @font-face { font-family: "Be Vietnam Pro"; src: url("_shared/fonts/BeVietnamPro-Black.ttf") format("truetype"); font-weight: 900; font-style: normal; }
+      @font-face { font-family: "Be Vietnam Pro"; src: url("_shared/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; }
+      @font-face { font-family: "Be Vietnam Pro"; src: url("_shared/fonts/BeVietnamPro-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }
+      html, body { width: 1920px; height: 1080px; margin: 0; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="explainer" data-start="0" data-duration="60" data-width="1920" data-height="1080"></div>
+
+    <script id="ww-data" type="application/json"></script>
+
+    <script src="_shared/ww.js"></script>
+    <script>
+      window.WW.run({ compositionId: "explainer" }).then(function (built) {
+        window.__timelines = window.__timelines || {};
+        window.__timelines["explainer"] = built.timeline;
+      });
+    </script>
+  </body>
+</html>

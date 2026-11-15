@@ -1,0 +1,20 @@
+node_modules/
+.env
+.DS_Store
+__pycache__/
+
+# Dữ liệu nặng của từng video (giữ lại brief, research, script, kiem-chung, timeline, báo cáo)
+projects/*/assets/**/*.png
+projects/*/assets/**/*.jpg
+projects/*/assets/**/*.jpeg
+projects/*/assets/**/*.webp
+projects/*/audio/
+projects/*/render/
+projects/*/out/*.mp4
+projects/*/out/frames/
+
+# Bản đồ nền Natural Earth tải về (13 MB, tải lại được)
+.cache/
+
+# Ảnh chụp thử của HyperFrames
+**/snapshots/

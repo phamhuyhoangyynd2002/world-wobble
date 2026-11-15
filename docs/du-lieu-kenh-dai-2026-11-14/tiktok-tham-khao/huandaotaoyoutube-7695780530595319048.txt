@@ -1,0 +1,29 @@
+Kênh YTB này chỉ mới đăng 10 một video nhưng đã kéo về hàng trăm nghìn lượt xem mỗi tuần và kiếm hàng.
+Bí quyết của họ là biến các sự kiện lịch sử kịch tính thành hoạt hình người quay hài hước bằng AI.
+Và đây là quy trình để bạn làm ra những video như này.
+Bước 1. Tìm ý tưởng.
+Bạn copy câu lệnh số 1 và dán vào ChatGPT.
+Hệ thống sẽ tự động phân tích và đề xuất ra một loạt các sự kiện lịch sử có yếu tố kịch tính.
+Khi đã chốt được chủ đề ưng ý, bạn copy câu lệnh số 2.
+Sau đó dán trực tiếp ý tưởng vừa chọn ở bước 1 xuống ngay bên dưới.
+ChatGPT sẽ lập tức viết ra một kịch bản hoàn chỉnh theo đúng định dạng kể chuyện cho bạn.
+Đến bước tạo voice.
+Soundchap kịch bản và dán vào công cụ tạo voice mà bạn yêu thích.
+Sau đó nhấn tạo. Như vậy là bạn đã xong phần voice.
+Bước 4 là tạo hình ảnh.
+Bạn copy câu lệnh số 3.
+Rồi dán từng đoạn kịch bản vào dưới cùng.
+AI sẽ đưa lại cho bạn câu lệnh tạo ảnh và chuyển động.
+Tiếp theo, truy cập vào Google Flow.
+Dán từng prom ảnh vào.
+Là bạn sẽ có những hình ảnh như này.
+Để tạo chuyển động, bạn chuyển qua phần animation.
+Sau đó dán prom chuyển động vào.
+Lặp lại thao tác cho các ảnh là xong.
+Cuối cùng, chuyển qua cap cut, đưa tất cả âm thanh và video vào.
+Rồi edit lại là bạn đã có một video sẵn sàng để xây một kênh YTB kiếm...
+Đây là thành quả.
+Quy trình này và hàng chục công thức xây kênh YTB không lộ mặt khác...
+Đều được mình đóng gói chi tiết trong khóa FYF.
+Nếu bạn muốn chọn bộ prom chuyên cho dạng này và quan tâm đến khoa học của mình...
+Thì comment tài liệu mình sẽ gửi cho bạn nhé.

@@ -1,0 +1,46 @@
+---
+name: nghien-cuu
+description: Nghiên cứu một nơi cho tập "Why do people live here?" (lịch sử định cư, kinh tế, khí hậu, địa lý, đời sống, chi tiết bất ngờ, chất liệu hài) và ghi research.md có nguồn cho từng thông tin, ưu tiên nguồn gốc. Dùng ở bước 1 của /tao-video, khi cần tìm hiểu một nơi, hoặc khi người dùng hỏi về một nơi để làm video.
+argument-hint: "<tên nơi | thư mục dự án>"
+---
+
+# Nghiên cứu một nơi
+
+Đầu vào: `$ARGUMENTS`. Việc này nên giao agent `nghien-cuu-dia-diem`; skill này là cách làm.
+
+## Tìm gì
+
+1. **Câu trả lời cho câu hỏi trung tâm**: vì sao người ta tới đây và vì sao họ ở lại (tài nguyên, tuyến đường, tôn giáo, chính sách, gia đình, việc làm). Đây là xương sống của lập luận; tìm ít nhất 2–3 lý do có nguồn.
+2. **Cái giá phải trả**: khí hậu, độ cao, cô lập, chi phí, nguy hiểm. Con số cụ thể có năm.
+3. **Đời sống thường ngày**: đi lại, trường học, đồ ăn, internet, nhà cửa. Ưu tiên nguồn từ chính quyền địa phương, báo địa phương, nghiên cứu nhân học.
+4. **Chi tiết chỉ đúng với nơi này** (ít nhất 5): thứ người xem sẽ kể lại cho người khác.
+5. **Chất liệu hài** (có nguồn): sự tương phản, chuyện vô lý có thật, nơi này so với điều bình thường. Không lấy người dân làm trò cười.
+6. **Bản đồ cần vẽ**: toạ độ (lat, lon) của nơi và các điểm liên quan, nước cần tô, khung có chạm vùng Biển Đông hay biên giới tranh chấp không.
+7. **Ảnh thật có giấy phép** (nếu cần): chạy `commons.py --search` để biết có ảnh CC BY / CC BY-SA / CC0 dùng được không.
+
+## Nguồn
+
+Theo `.claude/rules/chinh-xac-va-ban-quyen.md` mục 2: nguồn gốc → bách khoa uy tín → báo uy tín. Wikipedia chỉ để tìm nguồn gốc ở phần chú thích. Không dùng blog du lịch, video YouTube khác, diễn đàn làm nguồn. Hai nguồn mâu thuẫn thì ghi cả hai.
+
+## Ghi `research.md`
+
+```markdown
+# Nghiên cứu: <nơi, nước> · ngày tra YYYY-MM-DD
+## Câu trả lời ngắn (3 câu)
+## Lý do người ta sống ở đây
+- <lý do> — [S1][S3]
+## Cái giá phải trả
+## Đời sống thường ngày
+## Chi tiết chỉ đúng với nơi này
+## Chất liệu hài (có nguồn)
+## Số liệu
+| Số liệu | Giá trị | Năm | Nguồn | Ghi chú (mâu thuẫn, tiêu chí) |
+## Bản đồ
+- Nơi: lat, lon · nước cần tô (ADM0_A3) · điểm phụ · có chạm vùng Biển Đông/biên giới tranh chấp không
+## Ảnh Commons dùng được (nếu có)
+## Phán quyết gợi ý của Wob (WOULD MOVE / SUMMER ONLY / NOPE) và lý do
+## Nguồn
+- S1: <tiêu đề> · <bên đăng> · <loại: goc/bach-khoa/bao/khac> · <ngày đăng> · <URL>
+```
+
+Tóm tắt bằng lời của mình, không chép nguyên văn (tối đa một câu trích có nguồn).

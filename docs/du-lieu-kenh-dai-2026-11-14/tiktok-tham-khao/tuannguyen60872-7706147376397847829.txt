@@ -1,0 +1,116 @@
+Kênh này doanh thu hơn 23.000 đô mỗi tháng, một video chỉ dài gần 4 phút.
+Các video phổ biến có từ hơn 2 triệu đến vài trăm nghìn lượt sen.
+Video dạng chạy slide 100% ảnh tĩnh với chi phí làm bằng 0.
+Sau đây là cách làm video tương tự.
+Đầu tiên, copy prompt của trợ lý kịch bản.
+Qua Gemini, chọn mục Task dán vào.
+Chọn Model Argon.
+Tiếp theo, dán link video gốc.
+Trợ lý phân tích video chi tiết video gốc.
+Sau đó gợi ý 20 tiêu đề video tương tự.
+Mình chọn tiêu đề 2, độ tuổi 30 đến 40, thời lượng 4 phút, ngôn ngữ tiếng Việt.
+Trợ lý viết kịch bản xong nhưng câu quá dài, mình yêu cầu viết lại.
+Viết lại.
+Viết xong, copy kịch bản, dán vào Notepad lưu lại.
+Tiếp theo, qua web 11lab.io để tạo giọng đọc.
+Đăng nhập Gmail vào.
+Chọn ngôn ngữ tiếng Việt.
+Mình là Đình Tâm.
+Giọng đọc đa thể loại.
+Sài Gòn buổi sáng cùng cà phê sữa đá.
+Chọn giọng đọc phù hợp.
+Dán kịch bản vào.
+Một Gmail mỗi tháng được miễn phí 10.000 credit.
+Nhấn tạo giọng đọc.
+Bạn thấy một con kiến lẻ loi bòn ngang mặt bàn làm việc.
+Thay vì giết nó, bạn tiện tay ướp một chiếc lọ thủy tinh nhỏ lên trên.
+Tạo xong, tải về, lưu tên lại.
+Quay lại trợ lý.
+Lúc này sẽ hỏi có thêm ảnh mẫu không?
+Có viết prom ảnh tham chiếu không?
+Mình chọn có, không và thêm ảnh mẫu vào.
+Trợ lý phân tích ảnh mẫu xong.
+Nhấn tiếp để qua bước viết prom ảnh.
+Viết prom xong.
+Copy dán vào notepad lưu lại.
+Tiếp theo, qua trang flow.google.com để tạo ảnh.
+Chọn các thông số để tạo ảnh.
+Ảnh được tạo miễn phí, không tốn credit.
+Copy từng prom dán vào.
+Tạo ảnh xong, tải từng ảnh về.
+Đặt tên lại theo đúng thứ tự prom.
+Đã có đủ 65 ảnh.
+Có audio, có kịch bản.
+Tiếp theo, mở phần mềm khắp khất thêm ảnh vào.
+Thêm audio vào.
+Căng chỉnh từng hình ảnh khớp với từng câu thoại.
+Chỗ nào không rõ thì đối chiếu kịch bản để căng chỉnh cho đúng.
+Một ngày trôi qua, rồi ba ngày.
+Rồi ba ngày, rồi cả một tuần lễ.
+Cùng xem kết quả cuối cùng.
+Bạn thấy một công kiến lẻ loi bò ngang mặt bạn làm việc.
+Thay vì giết nó, bạn tiện tay úp một chiếc lọ thủy tinh nhỏ lên trên.
+Bạn tùy nhủ, lát ngửa rảnh tay sẽ mang nó ra ngoài thả.
+Nhưng rồi một cuộc gọi ập đến.
+Công việc cuốn bạn đi.
+Và bạn quên bắn chiếc lọ ở góc bạn.
+Một ngày trôi qua.
+Rồi ba ngày.
+Rồi cả một tuần lễ.
+Vậy chuyện gì đang thực sự xảy ra bên trong chiếc lọ chính đó?
+Công kiến đang chết dần vì ngạc thở.
+Kiệt quệ vì đói khát.
+Hay đang trải qua một bi kịch tâm lý mà bạn không ngờ tới.
+Hãy bắt đầu với nỗi lo đầu tiên.
+Không khí.
+Nhiều người tin rằng chiếc lọ đầy kính sẽ rút cạn oxy rất nhanh.
+Nhưng sự thật hoàn toàn ngược lại.
+Kiến không hề có phổi như con người.
+Chúng hô hấp qua hàng chục lỗ khí siêu nhỏ nằm dọc hai bên sườn.
+Khi nghỉ ngơi, chúng đóng chặt các ban khí này lại.
+Và chỉ mở ra theo từng nhịp ngắt quảng.
+Đôi khi cắt nhau cả vài tiếng đồng hồ.
+Nhờ cơ chế tiết kiệm đó, lượng oxy trong chiếc lọ nhỏ cũng đủ cho nó thở suốt nhiều tuần liền.
+Vậy không khí không phải là vấn đề.
+Thế còn cái đói và cái khác thì sao?
+Nếu bạn nghĩ nó sẽ chết đói sau vài ngày, bạn đã đánh giá thấp cấu tạo của loài kiến.
+Mỗi con kiến thở sở hữu tới hai chiếc dạ dày riêng biệt.
+Chi thứ nhất dùng để nuôi sống bản thân nó.
+Còn chi thứ hai được gọi là dạ dày xã hội, hoạt động như một bình năng lượng dự trữ cho cả đàn.
+Khi bị nhốt, con kiến có thể rút dần lượng đường từ chiếc dạ dày thứ hai này để duy trì sự sống.
+Và lớp vỏ kytin phủ sáp cứng cáp bên ngoài cũng giúp nó giữ nước thực kỳ hiệu quả.
+Vậy nếu không phải ngạc thở, cũng chưa kịp chết đói hay chết khát, thì thứ gì mới thực sự giết chết con kiến dưới chiếc lọ của bạn?
+Câu trả lời nằm ở một hiện tượng sinh học tàn khốc hơn rất nhiều.
+Sự vô độc.
+
+Võng vẹn 6 ngày.
+Tuổi thò của chúng bị rút ngắn hơn 10 lần chỉ vì phải ở một mình.
+Tại sao một sinh vật nhỏ bé lại có thể chết vì cô đơn?
+Khi quan sát kỹ qua camera, các nhà khoa học đã phát hiện ra một chuỗi phản ứng đầy bi kịch.
+Trong tự nhiên, kiến giao tiếp bằng một mạng lưới hóa học gọi là pheromone.
+Mỗi lần chạm râu vào đồng loại, não của chúng nhận được tín hiệu rằng mình vẫn an toàn.
+Nhưng dưới chiếc lọ thủy tinh, mọi tín hiệu hóa học ấy đột ngột đứt rảy.
+Chẳng khác nào một người bị ném vào căn phòng các âm tối đen không lối thoát.
+Ngay trong 24 giờ đầu tiên, con kiến rơi vào trạng thái hoảng loạn tột độ.
+Nó không bao giờ chịu đứng yên.
+Nó chạy vòng quanh mép kính liên tục, chạm râu điên cuồng lên vách thủy tinh lạnh lẽo để tìm một vết mùi quen thuộc.
+Số liệu cho thấy kiến bị cô lập di chuyển quảng đường dài gấp đôi so với kiến sống trong đàn.
+Nó chạy không nghỉ, không ngủ và tự đốt cháy toàn bộ năng lượng dự trữ trong cơn tuyệt vọng.
+Nhưng sự kiệt sức vẫn chưa phải là đòn chí mạng cuối cùng.
+Bí mật thật sự nằm ở chiếc giả dày thứ hai mà chúng ta vừa nhắc tới.
+Hệ tiêu hóa của một con chiến vốn không được thiết kế để hoạt động một mình.
+Trong đàn, kiến thợ thường xuyên mớm truyền thức ăn cho nhau qua miệng.
+Hành vi này giúp chúng trao đổi các enzyme tiêu hóa thiết yếu.
+Khi bị nhốt đơn độc, ngay cả khi bạn thả vào lọ một hạt đường, nó cũng không thể tự tiêu hóa tròn vẹn.
+Thức ăn nuốt vào bị ứ động ngay tại dìu xã hội, không thể chuyển hóa thành năng lượng nuôi cơ thể.
+Nó rơi vào một nghịch lý tàn nhẫn, chết đói ngay cả khi bùng vẫn còn đầy thức ăn.
+Đến ngày thứ tư, bước chân của con chiến bắt đầu chậm dần.
+Đồi rầu rủ xuống, hệ miễn dịch sụp đổ hoàn toàn vì căng thẳng thần kinh.
+Một sinh vật có thể nâng vật nặng gấp 50 lần cơ thể, nay lại gục ngã chỉ vì bị tách khỏi bày đàn.
+Bởi về mặt sinh học, một con chiến đơn lẽ chưa bao giờ là một cá thể hoàn chỉnh.
+Nó chỉ như một tế bào máu bị tách rời khỏi cơ thể sống, không thể tự mình tồn tại.
+Vậy nên, lần tới khi bạn thấy một con chiến đi lạc trên bàn làm việc, đừng giam nó lại dưới chiếc lọ rồi lãng quên.
+Bởi thứ giết chết nó không phải là thiếu oxy hay thức ăn, mà là từng giờ phút đứt gãy kết nối với thế giới của mình.
+Chỉ cần một mảnh giấy nhỏ luồn dưới đáy lọ và thả nó ra ngoài cửa sổ,
+bạn đang trả một tế bào lạc lối trở về với cơ thể duy nhất giúp nó được sống tiếp.
+Cảm ơn các bạn đã theo dõi và hẹn gặp lại.
