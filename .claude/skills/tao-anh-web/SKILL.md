@@ -34,7 +34,7 @@ Người làm kênh chọn đường này để không tốn API, sau khi đã n
 1. **Prompt**: `python3 .claude/skills/tao-anh-web/scripts/anh_web.py prompt <dự án> --id ai-<mô-tả> --prompt "<chỉ tả cảnh, tiếng Anh>" --nguon chatgpt-web`
    - Mã 1: prompt có từ cấm, sửa prompt. Mã 2: ảnh đã có, bỏ qua. Mã 3: chạm trần ngày, chuyển nguồn hoặc dừng.
    - Prompt tả nơi, thời tiết, hoạt động, bố cục; chừa trống phía trái nếu cảnh có tiêu đề. Không ảnh chụp, không tên hoạ sĩ/studio/nhân vật, không bản đồ, không người thật nhận ra được, không Wob (Wob là SVG).
-2. **Gửi**: mở cuộc trò chuyện mới (ChatGPT: nên dùng *Temporary chat* nếu có, để không lưu lịch sử), điền prompt đầy đủ script in ra, gửi. Một prompt một ảnh, không xin nhiều phương án một lúc.
+2. **Gửi**: mở cuộc trò chuyện mới (ChatGPT: **không** dùng *Temporary chat*, vì chat tạm thời không tạo ảnh, kiểm 16/11/2026), điền prompt đầy đủ script in ra, gửi. Một prompt một ảnh, không xin nhiều phương án một lúc.
 3. **Chờ**: `wait` tới khi ảnh xuất hiện (thường 30–120 giây). Không bấm gửi lại khi đang chờ.
 4. **Dừng ngay** (không thử lại, không đổi tài khoản) khi thấy: thông báo hết lượt ("You've reached…", "limit", "Upgrade", "try again later"), captcha hay xác minh, cảnh báo vi phạm, đăng xuất. Ghi vào `nhat-ky.md` mốc giờ và nguyên văn thông báo, rồi sang bước "Khi hết lượt".
 5. **Tải ảnh gốc**: `download <phần tử ảnh> --path <scratchpad>/<id>.<đuôi>` (lấy file gốc bằng cookie của trang). Không được thì tìm URL ảnh bằng `requests --static --filter <mẫu trong selectors.md>` rồi `download <url>`. Cách cuối: bấm nút Download của trang, lấy file mới nhất trong `~/Downloads`. **Không chụp màn hình thay ảnh** (mất độ phân giải).

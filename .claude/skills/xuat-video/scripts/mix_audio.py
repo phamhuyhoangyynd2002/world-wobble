@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Trộn nhạc nền + hiệu ứng âm thanh vào video đã render (chỉ có giọng đọc), rồi master cho YouTube.
 
-Chép nguyên từ GameReel (15/11/2026); chỉ đổi phần mô tả.
+Chép từ GameReel (15/11/2026). 16/11/2026: nhạc nhiều đoạn (timeline.music.segments, đổi bài theo nhịp), nối bằng
+crossfade timeline.music.crossfade giây; không có segments thì một bài lặp cả video như cũ.
 
 Cách dùng:
   python3 mix_audio.py <thư mục dự án> [--raw out/render-raw.mp4] [--music-volume 0.25] [--fade 1.5]
@@ -57,10 +58,31 @@ def audio_graph(timeline: dict, with_music: bool, volume: float, fade: float, ba
     outro_start = scenes[-1]["start"] if len(scenes) > 1 else duration
     fade_start = max(0.0, min(duration - fade, outro_start))
     fade_len = max(0.3, duration - fade_start)
-    idx = base_input + len(inputs) // 2
-    inputs += ["-stream_loop", "-1", "-i", timeline["music"]["src"]]
+    segments = timeline["music"].get("segments") or [{"src": timeline["music"]["src"], "start": 0.0, "end": duration}]
+    xf = float(timeline["music"].get("crossfade", 1.5))
+    seg_labels = []
+    for k, seg in enumerate(segments):
+        # mỗi input "-stream_loop -1 -i file" chiếm 4 phần tử trong inputs; sfx chiếm 2
+        idx = base_input + sum(1 for x in inputs if x == "-i")
+        inputs += ["-stream_loop", "-1", "-i", seg["src"]]
+        start, end = float(seg["start"]), float(seg["end"])
+        last = k == len(segments) - 1
+        length = (end - start) + (0 if last else xf)  # chồng sang đoạn sau đúng một khoảng crossfade
+        chain = f"[{idx}:a]atrim=0:{length:.3f},asetpts=PTS-STARTPTS"
+        if k > 0:
+            chain += f",afade=t=in:st=0:d={xf}"
+        if not last:
+            chain += f",afade=t=out:st={end - start:.3f}:d={xf}"
+        ms = int(start * 1000)
+        chain += f",adelay={ms}|{ms}[ms{k}]"
+        parts.append(chain)
+        seg_labels.append(f"[ms{k}]")
+    if len(seg_labels) > 1:
+        parts.append(f"{''.join(seg_labels)}amix=inputs={len(seg_labels)}:duration=longest:normalize=0[mcat]")
+    else:
+        parts.append(f"{seg_labels[0]}anull[mcat]")
     parts += [
-        f"[{idx}:a]volume={volume},atrim=0:{duration},afade=t=out:st={fade_start}:d={fade_len}[m]",
+        f"[mcat]volume={volume},atrim=0:{duration},afade=t=out:st={fade_start}:d={fade_len}[m]",
         "[vo]asplit=2[v1][v2]",
         # Nhạc tự nhỏ khoảng 12–15 dB khi có giọng đọc
         "[m][v1]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[duck]",
@@ -181,7 +203,9 @@ def main() -> int:
         shutil.copy2(no_music, final)
     report["files"]["video.mp4"] = measure(final)
     sfx = timeline.get("sfx") or []
-    report["nhac_nen"] = music.get("src") if music else None
+    report["nhac_nen"] = ([{"src": s["src"], "mood": s.get("mood"), "start": s["start"], "end": s["end"]}
+                           for s in music["segments"]] if music and music.get("segments")
+                          else (music.get("src") if music else None))
     report["sfx_count"] = len(sfx)
     if not music or not sfx:
         thieu = [x for x, ok in (("nhạc nền", bool(music)), ("sfx", bool(sfx))) if not ok]

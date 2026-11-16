@@ -35,6 +35,8 @@ Vì sao không dừng duyệt mà vẫn an toàn: kênh sống nhờ độ tin, 
 
 ## Bước 1 – Nghiên cứu, kịch bản
 
+> **Đợt ra mắt 5 tập (16/11/2026):** sau `research.md`, viết `tom-tat-duyet.md` (tiếng Việt: một câu thông điệp, thông số, bảng mạch chương có số liệu + mức dự kiến + Wob + nhạc, những gì đổi so với khung, câu hỏi cần quyết) và **DỪNG** chờ người làm kênh duyệt. Ghi quyết định vào `nhat-ky.md` rồi mới viết kịch bản.
+
 1. Agent `nghien-cuu-dia-diem` → `research.md`.
 2. Agent `bien-kich-video` → `script.json` (có `claims`, `chapters`, `wob`, `verdict`).
 3. `python3 .claude/skills/viet-kich-ban/scripts/validate_script.py <dự án>`. Có LỖI thì sửa tới khi hết.
@@ -45,7 +47,7 @@ Vì sao không dừng duyệt mà vẫn an toàn: kênh sống nhờ độ tin, 
 
 Chạy cùng lúc, mỗi bên ghi file riêng:
 - Agent `kiem-chung-thong-tin` (vòng 1, Claude) → `kiem-chung/vong-1-claude.json`. Prompt **không** kèm kết quả Gemini.
-- `python3 .claude/skills/kiem-chung/scripts/gemini_kiem_chung.py <dự án>` (vòng 2) → `kiem-chung/vong-2-gemini.json`.
+- Vòng 2 → `kiem-chung/vong-2-gemini.json`: mặc định **Gemini web ở phiên chính** (`gemini_web.py prompt` → dán từng lô vào Gemini web → `gemini_web.py nhan`, xem skill `/kiem-chung`); có `GEMINI_API_KEY` thì `gemini_kiem_chung.py <dự án>`. Phiên chính chạy vòng 2 trong lúc agent vòng 1 và agent tài nguyên chạy nền; phiên chính không đọc `vong-1-claude.json` trước khi vòng 2 xong.
 - Agent `thu-thap-tai-nguyen` → `assets/` + `assets/manifest.json` (không phụ thuộc kết quả kiểm chứng).
 
 Rồi theo skill `/kiem-chung`: `doi_chieu.py`, xử lý từng việc (sửa lời, hedge, bỏ, tra lần ba), ghi `kiem-chung/da-sua.json`, kiểm lại phần đã đổi, lặp tới khi cổng đạt. Sửa `script.json` thì sao lưu `script.v<N>.json` và chạy lại validate.
@@ -64,7 +66,7 @@ Rồi theo skill `/kiem-chung`: `doi_chieu.py`, xử lý từng việc (sửa l�
 | 7 SEO | Agent `seo-youtube`, song song bước 6–7 | `out/seo.md` đủ mục, mô tả ≤ 5000 ký tự |
 
 - **Vòng tự sửa**: lỗi chặn, hoặc 5 việc đầu của `phan-bien-video` mà sửa được → sửa → chạy lại từ bước bị ảnh hưởng → kiểm lại. Tối đa 3 vòng.
-- Sửa lời sau khi đã kiểm chứng: khẳng định bị đổi phải kiểm lại cả hai vòng (`gemini_kiem_chung.py --only C07`, agent vòng 1 chỉ cho C07), rồi `doi_chieu.py --cong`.
+- Sửa lời sau khi đã kiểm chứng: khẳng định bị đổi phải kiểm lại cả hai vòng (`gemini_web.py prompt --only C07` hoặc `gemini_kiem_chung.py --only C07`, agent vòng 1 chỉ cho C07), rồi `doi_chieu.py --cong`.
 - Sau mỗi bước, thêm một dòng vào `nhat-ky.md`, kèm chi phí API nếu có.
 
 ## Giao video

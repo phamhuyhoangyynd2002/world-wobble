@@ -53,13 +53,14 @@ motion:
 
 ## Thành phần
 
-- **Hình nền của nhịp**: ảnh minh hoạ, ảnh Commons hoặc bản đồ phủ kín khung, tự trôi chậm. Chuyển nhịp bằng hoà tan 0,6 giây.
+- **Hình nền của nhịp**: ảnh minh hoạ, ảnh Commons hoặc bản đồ phủ kín khung, tự trôi chậm. Chuyển nhịp (bản 2, 16/11/2026): trong cảnh hoà tan 0,7 giây kèm đẩy nhẹ (ảnh mới từ 1,035 về 1); bản đồ sang bản đồ thì zoom lùi (1,12 về 1); sang cảnh cùng chương thì hoà chéo (cảnh trước kéo dài thêm 0,7 giây); sang chương mới thì **tấm giấy** màu `land` viền mực trái lướt qua (0,55 + giữ 0,85 + 0,55 giây) mang "Chapter N" + tên chương hiện từng từ + gạch mực. Nhịp cũ ẩn hẳn khi nhịp mới hiện xong. Nhịp đứng tối đa ~9,5 giây (`chia_nhip.py`).
 - **Bản đồ**: SVG của `ve_ban_do.mjs`; nhãn nơi (`marks`) dựng bằng HTML với font kênh, nền tối bo nhẹ, chữ `label`. Ghim đỏ `accent-2`.
 - **Câu hỏi mở đầu** (cảnh hook): chữ `question` ở nửa trái, có từ khung 0, đè lên hình nơi đó (dải tối mờ phía sau).
 - **Tiêu đề cảnh** (`on_screen_text`): chữ `title` góc trái trên, hiện 4 giây đầu cảnh.
 - **Thẻ chương**: khi sang chương mới, dải dưới ghi tên chương (`chapter`), 3 giây; đặt từ x = 400px, bên phải vùng Wob, để không đè lên Wob.
 - **Thẻ số liệu** (`fact:<nhãn>`): thẻ sáng `land` viền mực `ink` 4px, nhãn nhỏ + giá trị to, góc phải dưới (trừ 20 giây cuối).
-- **Wob**: góc trái dưới, cao khoảng 300px, đổi biểu cảm theo `scenes[].wob`. SVG ở `templates/_shared/wob/`, dựng bằng `wob/nguon/tao_wob.py` (quả địa cầu méo, nét mực, ba lô có cuộn thảm đỏ). Màu Wob cố định, không đổi theo tập.
+- **Wob**: góc trái dưới, cao khoảng 300px, đổi biểu cảm theo `scenes[].wob`. Bản 2: SVG nhúng thẳng, cử động từng bộ phận: thở (co giãn 2,5%), chớp mắt mỗi 3–5 giây, lắc thân quanh bàn chân, tay đung đưa; riêng từng biểu cảm: hào hứng nhún nhảy, lạnh run từng đợt, nóng chảy xệ + mồ hôi, sốc nhảy dựng, ngẫm nghĩ nghiêng chậm. Đổi biểu cảm: nhún xuống – bật lên – rơi nảy, hoà chéo 0,12 giây. Lần đầu: đi lạch bạch vào từ mép trái 1,5 giây.
+- **Người que** (`scenes[].que[]`): nét mực 9px có viền giấy, đầu tròn, tay xoè chéo, chân chữ A; đi bộ, chạy (nghiêng người), run (khép tay, rụt đầu), vẫy tay, nhảy (tay chữ V), chỉ tay. Đứng ở mép dưới bên phải Wob, cao 260px; chỉ cho người chung chung, không bao giờ cho người thật nhận ra được. SVG ở `templates/_shared/wob/`, dựng bằng `wob/nguon/tao_wob.py` (quả địa cầu méo, nét mực, ba lô có cuộn thảm đỏ). Màu Wob cố định, không đổi theo tập.
 - **Con dấu "Would Wob move here?"**: dòng câu hỏi nhỏ phía trên, nhãn to nghiêng −6° ở giữa phải, màu theo nhãn (WOULD MOVE `move`, SUMMER ONLY `accent`, NOPE `accent-2`), đóng xuống trong 0,2 giây, đứng tới hết video. Nếu cảnh kết có chữ to giữa khung (`show: text`), chữ đó mờ đi 1,2 giây trước khi con dấu đóng để không bị đè.
 - **Logo nhỏ**: icon đầu Wob (`templates/_shared/logo-icon.svg`) + chữ WORLD WOBBLE, góc phải trên, mờ 85%. Bản to: `templates/_shared/logo.png`; ảnh đại diện, banner kênh ở `kenh/nhan-dien/`.
 - **Phụ đề đốt vào hình**: chỉ khi `burn_captions`, giữa dưới, tối đa 2 dòng.

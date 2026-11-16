@@ -8,14 +8,24 @@
 
 | File | Nguồn | Giấy phép | Thương mại | Ghi công bắt buộc | Bằng chứng |
 |---|---|---|---|---|---|
+| wallpaper.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Wallpaper Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
+| inspired.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Inspired Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
+| lightless-dawn.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Lightless Dawn Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
+| frost-waltz.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Frost Waltz Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
+| investigations.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Investigations Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
+| sneaky-snitch.mp3 | Kevin MacLeod, incompetech.com (tải 16/11/2026) | CC BY 4.0 | có | "Sneaky Snitch Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/" | music/bang-chung/incompetech-2026-11-16.md |
 <!-- Ví dụ:
 | calm-curiosity.mp3 | YouTube Audio Library (tải 20/11/2026) | YouTube Audio Library | có | không | music/bang-chung/calm-curiosity.png |
 -->
 
 ## Gợi ý theo tâm trạng
 
+> Máy đọc bảng này: cột đầu có mã tâm trạng trong dấu `…`, cột hai liệt kê file trong dấu `…`. `script.json` gắn `music_mood` (mã dưới đây) cho từng cảnh; `build_timeline.py` gộp cảnh liền nhau cùng tâm trạng thành một đoạn nhạc, xoay vòng giữa các bài cùng tâm trạng, chuyển bài bằng crossfade (chốt 16/11/2026: người làm kênh muốn đổi nhạc theo nhịp video).
+
 | Tâm trạng | Bài |
 |---|---|
-| Tò mò, khám phá (mặc định) | TODO |
-| Khắc nghiệt, lạnh, hoang vắng | TODO |
-| Hài, Wob gặp nạn | TODO |
+| `to-mo` Tò mò, khám phá (mặc định) | `wallpaper.mp3`, `inspired.mp3` |
+| `khac-nghiet` Khắc nghiệt, lạnh, hoang vắng | `lightless-dawn.mp3`, `frost-waltz.mp3` |
+| `hai` Hài, Wob gặp nạn | `investigations.mp3`, `sneaky-snitch.mp3` |
+
+Bài nào chưa ai nghe thì người làm kênh nghe lại sau tập 1 và loại nếu không hợp (Claude chọn theo tên và mô tả, không nghe được).

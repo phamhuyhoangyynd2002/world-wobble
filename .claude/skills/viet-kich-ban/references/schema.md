@@ -16,9 +16,9 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `angle` | string | có | Lập luận riêng của tập (vì sao người ta sống ở đây), lấy từ `brief.md` |
 | `hook_type` | string | nên có | `cau-hoi`, `tinh-huong`, `con-so`, `wob-hanh-dong`… để `validate_script.py` tránh lặp kiểu hook 3 tập liền |
 | `target_seconds` | `[min, max]` | không | Mặc định `[600, 900]` |
-| `voice` | `{ "name", "rate"?, "style"? }` | có | Giọng Azure theo hồ sơ kênh, ví dụ `{ "name": "<giọng en-US đã chốt>", "rate": "+0%" }` |
+| `voice` | `{ "name", "rate"?, "style"? }` | có | Giọng theo hồ sơ kênh (Edge/Azure cùng tên), ví dụ `{ "name": "en-US-AndrewNeural", "rate": "+0%" }` |
 | `burn_captions` | bool | không | Mặc định `false` (phụ đề tải lên YouTube bằng `out/captions.srt`) |
-| `music_mood` | string | không | Tâm trạng nhạc theo bảng trong `music/GIAY-PHEP.md` |
+| `music_mood` | string | không | Tâm trạng nhạc mặc định của tập: `to-mo` \| `khac-nghiet` \| `hai` (bảng trong `music/GIAY-PHEP.md`). Mặc định `to-mo` |
 | `scenes` | Scene[] | có | |
 | `claims` | Claim[] | có | Mọi khẳng định có thể sai |
 | `sources` | Source[] | có | |
@@ -37,6 +37,8 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `pronunciation` | string | không | `"Tên: phiên âm; Tên: phiên âm"`, tên viết đúng như trong `narration` |
 | `shots` | Shot[] | nên có | Nhịp đổi hình, xem dưới. Không có thì tự chia mỗi ~6 giây trên các tài nguyên của cảnh |
 | `wob` | Wob[] | nên có | Wob phản ứng, xem dưới |
+| `que` | `{ "cue", "hanh_dong", "tu"?, "so_luong"?, "giu"? }[]` | không | Người que nét mực (16/11/2026): `hanh_dong` = `di-bo` \| `chay` \| `run` (co ro vì lạnh) \| `vay-tay` \| `nhay` \| `chi-tay`; `tu` = `trai` \| `phai` (hướng đi vào, cho `di-bo`, `chay`); `so_luong` 1–4; `giu` giây (mặc định 4). Dùng cho người không cụ thể (người chăn tuần lộc, học sinh, người chạy), không bao giờ cho người thật nhận ra được. Đứng ở mép dưới, bên phải Wob; tránh lúc đang có thẻ số liệu |
+| `music_mood` | string | không | Đổi nhạc theo nhịp (16/11/2026): `to-mo` \| `khac-nghiet` \| `hai`. Không ghi thì theo cảnh trước / mức tập. Đổi tâm trạng ở chỗ nhịp thật sự đổi (sang nỗi khổ, Wob gặp nạn), không đổi mỗi cảnh; đoạn < 20 giây bị gộp vào đoạn trước |
 | `sfx` | `{ "name", "cue"?, "volume"? }[]` | không | File ở `sfx/<name>.*`. Không khai báo `dau-wob` (tự thêm cùng con dấu) |
 | `verdict` | `{ "label": "WOULD MOVE"\|"SUMMER ONLY"\|"NOPE", "reason": string, "cue": string }` | cảnh outro | Đúng một lần mỗi video. `cue` là chữ trong lời đọc lúc con dấu đóng |
 | `emphasis` | string[] | không | Chỉ khi `burn_captions`: từ khoá tô màu trong phụ đề |
@@ -95,7 +97,7 @@ Mọi câu trong `narration` có con số (chữ số hoặc số viết bằng 
   "message": "This video tells curious adults that a village survives at minus sixty because of one warm spring and a road.",
   "angle": "The village exists because of what it once offered herders, not despite the cold.",
   "hook_type": "con-so",
-  "voice": { "name": "<giọng en-US đã chốt>", "rate": "+0%" },
+  "voice": { "name": "en-US-AndrewNeural", "rate": "+0%" },
   "scenes": [
     {
       "id": 1, "type": "hook", "chapter": "The coldest village",

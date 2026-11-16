@@ -5,6 +5,10 @@ Cách dùng:
   python3 build_timeline.py <thư mục dự án> [--gap 0.35] [--lead 0.2] [--tail 1.5]
                             [--music music/abc.mp3 | --music none] [--music-volume 0.18] [--fps 30]
 
+Nhạc nền mặc định (không có --music): đổi bài theo nhịp. Mỗi cảnh có thể có music_mood (to-mo | khac-nghiet | hai,
+theo bảng tâm trạng trong music/GIAY-PHEP.md); cảnh liền nhau cùng tâm trạng thành một đoạn, đoạn < 20 giây gộp vào
+đoạn trước. timeline.music.segments[] được mix_audio.py nối bằng crossfade. --music <file> thì dùng một bài cả video.
+
 Viết lại từ build_timeline.py của GameReel (15/11/2026): bỏ phần riêng của video dọc (gag, kiểu hình, tách từ tiếng
 Việt), thêm Wob, chương YouTube, mốc thời gian của từng khẳng định (cho báo cáo độ xác thực) và phụ đề SRT.
 
@@ -79,6 +83,75 @@ def ledger_files(path: Path) -> set[str]:
         if len(cells) >= 4 and cells[0] and not cells[0].startswith(("File", "---", "<!--")) and cells[3].lower() == "có":
             ok.add(cells[0])
     return ok
+
+
+MOOD_DEFAULT = "to-mo"
+MOOD_MIN_SECONDS = 20.0  # đoạn nhạc ngắn hơn thì gộp vào đoạn trước, để nhạc không đổi liên tục
+
+
+def mood_table(path: Path, music_ok: set[str], music_dir: Path) -> dict[str, list[Path]]:
+    """Đọc bảng "Gợi ý theo tâm trạng" trong music/GIAY-PHEP.md: cột đầu có `mã`, cột hai có các `file`.
+    Chỉ giữ file có trong sổ (Thương mại = có) và có thật trong music/."""
+    if not path.exists():
+        return {}
+    text = path.read_text(encoding="utf-8")
+    if "## Gợi ý theo tâm trạng" not in text:
+        return {}
+    out: dict[str, list[Path]] = {}
+    for line in text.split("## Gợi ý theo tâm trạng", 1)[1].splitlines():
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < 2:
+            continue
+        code = re.findall(r"`([a-z0-9-]+)`", cells[0])
+        files = [music_dir / f for f in re.findall(r"`([^`]+\.[a-z0-9]+)`", cells[1])]
+        files = [f for f in files if f.name in music_ok and f.exists()]
+        if code and files:
+            out[code[0]] = files
+    return out
+
+
+def music_segments(script: dict, scenes: list[dict], total: float, moods: dict[str, list[Path]], volume: float,
+                   seed: str, warnings: list[str]) -> dict | None:
+    """Nhạc đổi theo nhịp: gộp cảnh liền nhau cùng music_mood thành đoạn; đoạn < MOOD_MIN_SECONDS gộp vào đoạn trước;
+    mỗi tâm trạng xoay vòng giữa các bài (điểm xuất phát lệch theo tên dự án để các tập không cùng một bài mở đầu)."""
+    default = script.get("music_mood") or MOOD_DEFAULT
+    if default not in moods:
+        default = MOOD_DEFAULT if MOOD_DEFAULT in moods else next(iter(moods))
+    src_scenes = {s["id"]: s for s in script["scenes"]}
+    groups: list[dict] = []
+    for s in scenes:
+        mood = src_scenes.get(s["id"], {}).get("music_mood") or (groups[-1]["mood"] if groups else default)
+        if mood not in moods:
+            warnings.append(f"cảnh {s['id']}: music_mood '{mood}' không có trong music/GIAY-PHEP.md, dùng '{default}'")
+            mood = default
+        if groups and groups[-1]["mood"] == mood:
+            groups[-1]["scenes"].append(s["id"])
+        else:
+            groups.append({"mood": mood, "start": s["start"], "scenes": [s["id"]]})
+    groups[0]["start"] = 0.0
+    for i, g in enumerate(groups):
+        g["end"] = groups[i + 1]["start"] if i + 1 < len(groups) else total
+    merged: list[dict] = []
+    for g in groups:
+        if merged and (g["end"] - g["start"] < MOOD_MIN_SECONDS or g["mood"] == merged[-1]["mood"]):
+            merged[-1]["end"] = g["end"]
+            merged[-1]["scenes"] += g["scenes"]
+        else:
+            merged.append(g)
+    if len(merged) > 1 and merged[0]["end"] - merged[0]["start"] < MOOD_MIN_SECONDS:
+        merged[1]["start"] = 0.0
+        merged[1]["scenes"] = merged[0]["scenes"] + merged[1]["scenes"]
+        merged.pop(0)
+    offset = sum(map(ord, seed))
+    used = {m: 0 for m in moods}
+    segments = []
+    for g in merged:
+        files = moods[g["mood"]]
+        f = files[(offset + used[g["mood"]]) % len(files)]
+        used[g["mood"]] += 1
+        segments.append({"src": str(f.resolve()), "mood": g["mood"], "start": round(g["start"], 3),
+                         "end": round(g["end"], 3), "scenes": g["scenes"], "track_duration": round(probe(f), 3)})
+    return {"src": segments[0]["src"], "volume": volume, "segments": segments, "crossfade": 1.5}
 
 
 def mmss(t: float) -> str:
@@ -158,12 +231,36 @@ def build_wob(sc: dict, words: list[dict], start: float, end: float, warnings: l
                 warnings.append(f"cảnh {sc['id']}: không thấy wob cue '{w['cue']}', Wob đổi biểu cảm ở đầu cảnh")
             else:
                 at = words[pos]["start"]
-        out.append({"bieu_cam": w["bieu_cam"], "at": round(at, 3), "giu": w.get("giu")})
+        out.append({"bieu_cam": w["bieu_cam"], "at": round(at, 3), "giu": w.get("giu"),
+                    **({"hanh_dong": w["hanh_dong"]} if w.get("hanh_dong") else {})})
     out.sort(key=lambda x: x["at"])
     for i, e in enumerate(out):
         nxt = out[i + 1]["at"] if i + 1 < len(out) else end
         e["end"] = round(min(nxt, e["at"] + e["giu"]) if e.get("giu") else nxt, 3)
         e.pop("giu", None)
+    return out
+
+
+QUE_ACTIONS = {"di-bo", "chay", "run", "vay-tay", "nhay", "chi-tay"}
+
+
+def build_que(sc: dict, words: list[dict], start: float, end: float, warnings: list[str]) -> list[dict]:
+    """Người que (16/11/2026): scenes[].que[] = {cue, hanh_dong, tu?, so_luong?, giu?}. Mặc định giữ 4 giây, không quá cuối cảnh."""
+    out = []
+    for q in sc.get("que") or []:
+        act = q.get("hanh_dong", "di-bo")
+        if act not in QUE_ACTIONS:
+            warnings.append(f"cảnh {sc['id']}: hành động người que '{act}' không thuộc {sorted(QUE_ACTIONS)}, bỏ qua")
+            continue
+        at = start
+        if q.get("cue"):
+            pos = find_cue(words, q["cue"])
+            if pos is None:
+                warnings.append(f"cảnh {sc['id']}: không thấy que cue '{q['cue']}', người que hiện ở đầu cảnh")
+            else:
+                at = words[pos]["start"]
+        out.append({"hanh_dong": act, "tu": q.get("tu", "trai"), "so_luong": int(q.get("so_luong", 1)),
+                    "at": round(at, 3), "end": round(min(end, at + float(q.get("giu", 4))), 3)})
     return out
 
 
@@ -293,6 +390,7 @@ def main() -> int:
             "words": words, "timing": sub.get("timing"),
             "shots": build_shots(sc, words, cursor, end, assets, errors, warnings, sc["type"] == "hook"),
             "wob": build_wob(sc, words, cursor, end, warnings),
+            "que": build_que(sc, words, cursor, end, warnings),
             **({"verdict": verdict} if verdict else {}),
         })
         cursor = end
@@ -335,7 +433,10 @@ def main() -> int:
     # nhạc nền: chỉ file có trong sổ giấy phép
     music = None
     music_ok = ledger_files(root / "music/GIAY-PHEP.md")
-    if args.music != "none":
+    moods = mood_table(root / "music/GIAY-PHEP.md", music_ok, root / "music")
+    if args.music != "none" and not args.music and moods:
+        music = music_segments(script, scenes, total, moods, args.music_volume, project.name, warnings)
+    elif args.music != "none":
         if args.music:
             mp = Path(args.music)
         else:

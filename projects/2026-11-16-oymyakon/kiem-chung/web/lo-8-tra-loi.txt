@@ -1,0 +1,1 @@
+[{"id":"C12","verdict":"dung","correct_value":null,"note":"Reliable sources confirm temperature inversions in the Oymyakon valley cause cold air to pool, making surrounding mountain slopes significantly warmer in winter.","sources":[{"title":"Oymyakon","publisher":"Wikipedia","url":"https://en.wikipedia.org/wiki/Oymyakon","type":"bach-khoa","published":null}]}]

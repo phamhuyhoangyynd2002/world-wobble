@@ -20,7 +20,9 @@ WPM = 155  # tốc độ đọc ước tính (từ/phút) của giọng Azure en
 VERDICTS = {"WOULD MOVE", "SUMMER ONLY", "NOPE"}
 SCENE_TYPES = {"hook", "section", "outro"}
 SOURCE_TYPES = {"goc", "bach-khoa", "bao", "khac"}
-WOB_FACES = {"hao-hung", "lanh-run", "nong-chay", "soc", "ngam-nghi", "dong-goi"}
+WOB_FACES = {"hao-hung", "lanh-run", "nong-chay", "soc", "ngam-nghi", "dong-goi", "an"}  # "an": Wob rời khung (đoạn nghiêm túc)
+WOB_ACTIONS = {"nhay", "di-ra", "di-vao"}
+QUE_ACTIONS = {"di-bo", "chay", "run", "vay-tay", "nhay", "chi-tay"}
 MOVES = {"zoom-in", "zoom-out", "pan-left", "pan-right", "still"}
 BANNED = ["you won't believe", "insane", "shocking", "nobody talks about", "mind-blowing", "smash that like",
           "they don't want you to know"]
@@ -213,6 +215,13 @@ def main() -> int:
                 errors.append(f"cảnh {sid}: biểu cảm Wob '{w.get('bieu_cam')}' không thuộc {sorted(WOB_FACES)}")
             if w.get("cue") and norm(w["cue"]) not in lownorm:
                 errors.append(f"cảnh {sid}: wob cue '{w['cue']}' không có trong lời đọc")
+            if w.get("hanh_dong") and w["hanh_dong"] not in WOB_ACTIONS:
+                errors.append(f"cảnh {sid}: hành động Wob '{w['hanh_dong']}' không thuộc {sorted(WOB_ACTIONS)}")
+        for qq in sc.get("que") or []:
+            if qq.get("hanh_dong") not in QUE_ACTIONS:
+                errors.append(f"cảnh {sid}: người que '{qq.get('hanh_dong')}' không thuộc {sorted(QUE_ACTIONS)}")
+            if qq.get("cue") and norm(qq["cue"]) not in lownorm:
+                errors.append(f"cảnh {sid}: que cue '{qq['cue']}' không có trong lời đọc")
         for fx in sc.get("sfx") or []:
             if fx.get("cue") and norm(fx["cue"]) not in lownorm:
                 errors.append(f"cảnh {sid}: sfx cue '{fx['cue']}' không có trong lời đọc")

@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Oymyakon" (Russia). The episode asks: "Why do people live in Oymyakon?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C17: Oymyakon developed from a herders' stopping place into a permanent village in the 1920s and 1930s.
+C18: During the Soviet period a weather station was established near Oymyakon and an airfield was built near the village of Tomtor.
+C19: Oymyakon's fame as the coldest inhabited place rests largely on the minus 67.7 degrees Celsius reading taken at its weather station in 1933.
+C20: In the 1930s the Soviet Union built a network of Gulag forced labour camps across the Kolyma region of north-eastern Siberia, largely for gold mining.
+C21: Construction of the Kolyma Highway (R504) began in 1932 using Gulag prisoner labour, and forced labour was used on it until 1953.
+C22: Many of the prisoners who built the Kolyma Highway died during its construction.
+C23: Oymyakon is not on the Kolyma Highway itself but roughly 100 kilometres away, connected by a side road.
+C24: The average January temperature at Oymyakon is around minus 46 degrees Celsius.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

@@ -19,6 +19,7 @@ Cần: pip install faster-whisper (lần đầu tải model small khoảng 500MB
 """
 from __future__ import annotations
 
+import os
 import argparse
 import difflib
 import json
@@ -112,7 +113,8 @@ def main() -> None:
         from faster_whisper import WhisperModel
     except ImportError:
         sys.exit("LỖI: cần pip install faster-whisper")
-    model = WhisperModel(args.model, compute_type="int8")
+    # device="cpu": máy có GPU NVIDIA nhưng thiếu cuBLAS (Windows, 16/11/2026) thì "auto" chọn CUDA rồi lỗi
+    model = WhisperModel(args.model, device=os.environ.get("WHISPER_DEVICE", "cpu"), compute_type="int8")
     lang = (script.get("language") or "en-US").split("-")[0]
 
     report, errors = [], 0

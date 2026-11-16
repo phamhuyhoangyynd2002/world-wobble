@@ -57,7 +57,18 @@ def main() -> int:
     # biểu cảm Wob đã vẽ (templates/_shared/wob/<bieu_cam>.svg): ww.js chỉ dựng những biểu cảm có file
     wob_dir = root / "templates" / "_shared" / "wob"
     wob_files = sorted(p.stem for p in wob_dir.glob("*.svg")) if wob_dir.exists() else []
-    data = {"script": script, "timeline": timeline, "wob_files": wob_files}
+    # SVG nhúng thẳng vào trang để ww.js cử động từng bộ phận (16/11/2026). Mọi id gắn tiền tố "<bieu_cam>-" vì 6 file
+    # dùng chung tên id (wob-clip…): nhúng cùng trang mà trùng id thì url(#…) trỏ nhầm.
+    wob_svgs = {}
+    for f in sorted(wob_dir.glob("*.svg")) if wob_dir.exists() else []:
+        svg = f.read_text(encoding="utf-8")
+        svg = re.sub(r"<\?xml[^>]*>\s*", "", svg)
+        ids = set(re.findall(r'id="([^"]+)"', svg))
+        for i in sorted(ids, key=len, reverse=True):
+            svg = svg.replace(f'id="{i}"', f'id="{f.stem}-{i}"').replace(f"url(#{i})", f"url(#{f.stem}-{i})")
+            svg = svg.replace(f'href="#{i}"', f'href="#{f.stem}-{i}"')
+        wob_svgs[f.stem] = svg
+    data = {"script": script, "timeline": timeline, "wob_files": wob_files, "wob_svgs": wob_svgs}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     index = render / "index.html"
     html = index.read_text(encoding="utf-8")

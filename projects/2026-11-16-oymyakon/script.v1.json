@@ -1,0 +1,1322 @@
+{
+  "title": "Who Would Choose to Live at Minus Fifty?",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Oymyakon",
+    "country": "Russia",
+    "lat": 63.46,
+    "lon": 142.79
+  },
+  "question": "Why do people live in Oymyakon?",
+  "message": "This video tells curious adults that the coldest village on Earth grew around water that would not freeze, not by accident.",
+  "angle": "Herders stopped at warm springs that stayed open all winter; the stopping place became a village in the 1920s and 1930s, a Soviet weather station made it famous, and today the cold itself draws visitors.",
+  "hook_type": "con-so",
+  "target_seconds": [
+    600,
+    900
+  ],
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "Wob Has a Plan",
+      "role": "hook: con số đời sống + Wob muốn chuyển tới",
+      "music_mood": "to-mo",
+      "narration": "Eyelashes freeze here. Cars stay running all night. And around five hundred people live here on purpose. Wob has already packed a suitcase.",
+      "on_screen_text": "WHO LIVES HERE?",
+      "shots": [
+        {
+          "show": "asset:map-globe",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:commons-street",
+          "cue": "Cars stay running",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "Wob has already packed",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Wob has already packed",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "role": "lời hứa: câu hỏi lạ hơn, mở vòng phán quyết",
+      "narration": "This is Oymyakon, a village in the Sakha Republic, in the far east of Russia. It is often called the coldest permanently inhabited place on Earth. Most videos about it ask how people survive here. That is a fair question. But it skips a stranger one. Why is there a village here at all? Somebody chose this spot, in the middle of all this. By the end of this video, you will know why. And Wob will decide whether to unpack.",
+      "pronunciation": "Oymyakon: oy-myah-KON",
+      "shots": [
+        {
+          "show": "asset:map-yakutia",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "It is often called",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "Why is there a village here at all"
+        },
+        {
+          "show": "asset:commons-road",
+          "cue": "Somebody chose this spot",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "And Wob will decide",
+          "move": "zoom-out"
+        }
+      ],
+      "on_screen_text": "WHY HERE AT ALL?",
+      "wob": [
+        {
+          "cue": "And Wob will decide",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "How Cold Is Coldest?",
+      "role": "chương 1: kỷ lục và tranh cãi Verkhoyansk",
+      "music_mood": "khac-nghiet",
+      "narration": "So just how cold does it get? On the sixth of February, nineteen thirty-three, the weather station here recorded minus sixty-seven point seven degrees Celsius. That is about minus ninety Fahrenheit. It is the lowest temperature ever officially recorded in a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own record, from eighteen ninety-two. Some sources say it is the same number, others say it is a tenth of a degree colder. The World Meteorological Organization simply lists the two as sharing the record. Rival towns. A tenth of a degree. More than a century of arguing. Wob finds this very relatable.",
+      "pronunciation": "Verkhoyansk: vyer-khah-YANSK",
+      "on_screen_text": "HOW COLD IS COLDEST?",
+      "facts": [
+        {
+          "label": "record",
+          "value": "−67.7°C · −90°F",
+          "claim_ids": [
+            "C04"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "fact:record",
+          "cue": "minus sixty-seven point seven"
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "It is the lowest temperature",
+          "move": "zoom-in",
+          "focus": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "show": "asset:map-yakutia",
+          "cue": "Far to the northwest",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.4,
+            0.3
+          ]
+        },
+        {
+          "show": "asset:map-yakutia",
+          "cue": "The World Meteorological Organization",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:commons-road2",
+          "cue": "Rival towns",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So just how cold",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "Wob finds this",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "role": "cú lật: Tomtor cũng nhận là Pole of Cold",
+      "narration": "There is a second argument, much closer to home. The weather station behind that famous number is not in Oymyakon itself. It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield. Tomtor would like you to know this. Both villages call themselves the Pole of Cold. So Wob, who wants to move somewhere truly freezing, now has to choose between a pair of villages that are both very sure. Wob suggests sharing. Nobody is interested. It is very cold outside, and nobody is backing down.",
+      "pronunciation": "Tomtor: tom-TOR",
+      "shots": [
+        {
+          "show": "asset:map-tomtor",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:commons-tomtor",
+          "cue": "Tomtor would like you",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:map-tomtor",
+          "cue": "Both villages call themselves",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:commons-street",
+          "cue": "Wob suggests sharing",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "now has to choose",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "Why Is It So Cold Here?",
+      "role": "địa lý: áp cao Siberia + thung lũng giữ khí lạnh",
+      "narration": "But why is it so cold here to begin with? Oymyakon is not even inside the Arctic Circle. It sits a few degrees of latitude south of it. The cold is a team effort. First, in winter a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Second, there is the valley itself. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. One study found that slopes less than three hundred metres higher could be up to twenty degrees Celsius warmer in winter. So the village sits at the bottom of a giant bowl, full of the heaviest, chilliest air around. Wob would like a smaller bowl.",
+      "on_screen_text": "A BOWL OF COLD AIR",
+      "facts": [
+        {
+          "label": "slopes",
+          "value": "Slopes: up to 20°C warmer",
+          "claim_ids": [
+            "C12"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "asset:map-globe",
+          "cue": "Oymyakon is not even inside",
+          "move": "zoom-in",
+          "zoom": 1.6
+        },
+        {
+          "show": "asset:map-yakutia",
+          "cue": "First, in winter",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "Second, there is the valley",
+          "move": "zoom-in",
+          "focus": [
+            0.5,
+            0.75
+          ],
+          "zoom": 1.15
+        },
+        {
+          "show": "fact:slopes",
+          "cue": "One study found"
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "So the village sits",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "But why is it so cold",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Wob would like a smaller bowl",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "The Water That Wouldn't Freeze",
+      "role": "chương 2: nghĩa của tên, suối ấm",
+      "music_mood": "to-mo",
+      "narration": "Now the bigger question. In a place this cold, why would anyone stop here at all? Part of the answer is hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the exact roots, and some sources trace the word to the Even language while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. And if you move reindeer across a frozen landscape, open water is not a curiosity. It is the whole point. Wob, who has spent this entire trip complaining about frozen water bottles, suddenly understands.",
+      "pronunciation": "Oymyakon: oy-myah-KON",
+      "on_screen_text": "WATER THAT WON'T FREEZE",
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "Part of the answer",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-spring-herders",
+          "cue": "Nearby there were warm springs",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:commons-reindeer",
+          "cue": "if you move reindeer",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-spring-herders",
+          "cue": "It is the whole point",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Part of the answer",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "role": "lý do 1: điểm dừng thành làng",
+      "narration": "Reindeer herders stopped at the springs to water their animals and rest before long journeys. A stopping place became a regular camp. According to most accounts, the camp grew into a permanent village in the nineteen twenties and thirties. So Oymyakon did not appear despite the cold. It appeared because, in the middle of all that cold, there was one thing that refused to freeze. Wob, who has never herded anything in its life, finds this deeply moving. Wob is now looking for the spring. Wob does not find the spring. Wob finds a very surprised reindeer.",
+      "shots": [
+        {
+          "show": "asset:commons-reindeer",
+          "move": "zoom-in",
+          "focus": [
+            0.6,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-spring-herders",
+          "cue": "A stopping place",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:commons-house",
+          "cue": "the camp grew into a permanent village",
+          "move": "zoom-in"
+        },
+        {
+          "show": "text",
+          "cue": "So Oymyakon did not appear despite the cold"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "Wob, who has never herded",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Wob, who has never herded",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "Putting It on the Map",
+      "role": "chương 3: trạm khí tượng, sân bay",
+      "narration": "The village took shape at the same time the Soviet state was pushing deep into this region. A weather station was set up. An airfield was built near Tomtor. And the record that made Oymyakon famous came from that station in nineteen thirty-three, only a few years after the village took shape. In other words, Oymyakon became famous for its cold partly because someone finally put a thermometer there.",
+      "on_screen_text": "PUTTING IT ON THE MAP",
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "asset:ai-weather-station",
+          "cue": "A weather station was set up",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:map-tomtor",
+          "cue": "An airfield was built",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:ai-weather-station",
+          "cue": "In other words",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "In other words",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "role": "bối cảnh lịch sử nghiêm túc: Gulag, đường Kolyma (không đùa)",
+      "music_mood": "khac-nghiet",
+      "narration": "This was also one of the darkest periods in the region's history. In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold. Prisoners began building the Kolyma Highway in nineteen thirty-two, and forced labour continued on it until nineteen fifty-three. Many of them did not survive. Oymyakon sits around a hundred kilometres off that highway, reached by a side road. The village's story begins with the springs. But the road that links it to the rest of the world was built by people who had no choice.",
+      "shots": [
+        {
+          "show": "asset:map-kolyma",
+          "move": "zoom-in",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:commons-kolyma",
+          "cue": "Prisoners began building",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:map-kolyma",
+          "cue": "Oymyakon sits around",
+          "move": "zoom-in",
+          "zoom": 1.5
+        },
+        {
+          "show": "asset:commons-road",
+          "cue": "But the road that links it",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Many of them did not survive",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "Living Inside a Freezer",
+      "role": "chương 4: đời sống mùa đông",
+      "narration": "So what is daily life like? In January, the average temperature here is around minus forty-six Celsius. In late December the sun is up for only about four and a half hours a day. Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets. Yes, even in January. Cars are often left running for hours, or warmed with a fire before starting, because a frozen engine may refuse to start at all.",
+      "on_screen_text": "LIVING INSIDE A FREEZER",
+      "facts": [
+        {
+          "label": "january",
+          "value": "January avg ≈ −46°C",
+          "claim_ids": [
+            "C24"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "fact:january",
+          "cue": "In January, the average temperature"
+        },
+        {
+          "show": "asset:commons-house",
+          "cue": "Beneath the surface",
+          "move": "zoom-in",
+          "focus": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "show": "asset:ai-outhouse",
+          "cue": "Many homes use outdoor toilets",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:commons-street",
+          "cue": "Cars are often left running",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Yes, even in January",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "role": "mồi lại: Wob ra ngoài, đổi ý lần 1 (hài)",
+      "music_mood": "hai",
+      "narration": "Food comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible. Wob decides to test all of this personally. Wob steps outside. Wob does not technically have eyelashes. They freeze anyway. A few minutes later, Wob is back indoors, holding a cup of tea with both hands, quietly reconsidering several life choices.",
+      "shots": [
+        {
+          "show": "asset:commons-house",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "Wob decides to test",
+          "move": "zoom-in",
+          "focus": [
+            0.3,
+            0.6
+          ]
+        },
+        {
+          "show": "asset:commons-road2",
+          "cue": "Wob steps outside",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "A few minutes later",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Wob decides to test",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Wob steps outside",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "quietly reconsidering",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "role": "trường nghỉ vì lạnh (mức C, nói dè dặt)",
+      "music_mood": "khac-nghiet",
+      "narration": "Children here are tough, but not unlimited. According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two. The exact cut-off for each age group depends on who you ask. For comparison, plenty of schools elsewhere close for a light dusting of snow. Wob asks whether Oymyakon has snow days. The answer is yes. They are just extremely specific.",
+      "shots": [
+        {
+          "show": "asset:commons-road",
+          "move": "zoom-in"
+        },
+        {
+          "show": "text",
+          "cue": "younger pupils in the district"
+        },
+        {
+          "show": "asset:commons-tomtor",
+          "cue": "For comparison",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "For comparison",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "chapter": "The Summer Twist",
+      "role": "chương 5: mùa hè nóng, Wob đổi ý lần 2",
+      "music_mood": "to-mo",
+      "narration": "And then, the twist. Oymyakon is not cold all year. Summers are short, but they can be properly warm. In June, daylight lasts more than twenty hours. On the twenty-eighth of July, twenty ten, the station recorded thirty-four point six degrees Celsius. That is about ninety-four Fahrenheit. Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth swing that far in a single year. Wob, who packed nothing but fur, is suddenly optimistic again.",
+      "on_screen_text": "THE SUMMER TWIST",
+      "facts": [
+        {
+          "label": "summer",
+          "value": "+34.6°C · 94°F",
+          "claim_ids": [
+            "C31"
+          ]
+        },
+        {
+          "label": "range",
+          "value": "Range ≈ 102°C",
+          "claim_ids": [
+            "C32"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "asset:ai-summer",
+          "cue": "Summers are short",
+          "move": "zoom-in"
+        },
+        {
+          "show": "fact:summer",
+          "cue": "thirty-four point six"
+        },
+        {
+          "show": "fact:range",
+          "cue": "Put the record low"
+        },
+        {
+          "show": "asset:ai-summer",
+          "cue": "Wob, who packed nothing",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Wob, who packed nothing",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "chapter": "Why People Stay",
+      "role": "chương 6: vì sao giờ vẫn ở, dân số giảm",
+      "narration": "So why do people stay now? For many families, this is simply home. Most residents are Sakha, also known as Yakuts. People here herd reindeer, hunt and fish, and work in the school, the local administration and small businesses. Some of the toughest locals are not even human. Yakutian horses live outdoors all year in this region, right through the winter. A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats. Wob, whose only adaptation is a large backpack, is impressed. Not everyone stays, though. The wider Oymyakonsky district counted around seven thousand seven hundred people in the twenty twenty-one census, down from about ten thousand in twenty ten. Life at the Pole of Cold is a choice that families keep making, or don't, every year.",
+      "pronunciation": "Oymyakonsky: oy-myah-KON-skee",
+      "on_screen_text": "WHY PEOPLE STAY",
+      "facts": [
+        {
+          "label": "district",
+          "value": "District: 10,109 → 7,730",
+          "claim_ids": [
+            "C37"
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "show": "text"
+        },
+        {
+          "show": "asset:commons-house",
+          "cue": "For many families",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:commons-reindeer",
+          "cue": "People here herd reindeer",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-yakut-horses",
+          "cue": "Some of the toughest locals",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-yakut-horses",
+          "cue": "Wob, whose only adaptation",
+          "move": "zoom-out"
+        },
+        {
+          "show": "fact:district",
+          "cue": "The wider Oymyakonsky district"
+        },
+        {
+          "show": "asset:commons-street",
+          "cue": "Life at the Pole of Cold",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why do people stay",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "section",
+      "role": "du lịch giá lạnh: lễ hội, Chyskhaan, marathon",
+      "narration": "And the cold itself has become a reason to visit. Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor. Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence. In twenty twenty-five, there was even a marathon here. In the cold. On purpose. A village that grew up around water that wouldn't freeze now welcomes visitors because of everything that does.",
+      "pronunciation": "Chyskhaan: chis-KHAAN",
+      "shots": [
+        {
+          "show": "asset:ai-festival-ice",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:map-tomtor",
+          "cue": "with events in villages",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-festival-ice",
+          "cue": "Its star is Chyskhaan",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:commons-road2",
+          "cue": "there was even a marathon",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "A village that grew up",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "On purpose",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "outro",
+      "chapter": "Would Wob Move Here?",
+      "role": "phán quyết NOPE + câu hỏi bình luận",
+      "music_mood": "to-mo",
+      "narration": "So, would Wob move here? The springs are lovely. The summers are a genuine surprise. And the people of Oymyakon have built a real home in one of the hardest places on the planet. But Wob lasted a few minutes outside and spent most of them looking for warm water. The verdict is NOPE. This is a place for people who grew up with it, or who truly, deeply love winter: silence, clear skies, and a summer that feels earned. Wob is unpacking. Slowly. With gloves on. So, be honest. How long would you last out there?",
+      "on_screen_text": "WOULD WOB MOVE HERE?",
+      "shots": [
+        {
+          "show": "asset:ai-village-dusk",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:commons-valley",
+          "cue": "The summers are a genuine surprise",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:commons-house",
+          "cue": "And the people of Oymyakon",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-village-dusk",
+          "cue": "The verdict is NOPE",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So, would Wob move here",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "But Wob lasted",
+          "bieu_cam": "lanh-run"
+        }
+      ],
+      "verdict": {
+        "label": "NOPE",
+        "reason": "Wob lasted a few minutes outside and spent most of them looking for warm water.",
+        "cue": "NOPE"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "Eyelashes freeze here. Cars stay running all night.",
+      "statement": "In winter in Oymyakon, Russia, temperatures are cold enough that people's eyelashes freeze outdoors and residents often leave car engines running for long periods so they will restart.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 1,
+      "quote": "And around five hundred people live here on purpose.",
+      "statement": "The village of Oymyakon in the Sakha Republic, Russia, has roughly 500 permanent residents (462 in the 2010 Russian census).",
+      "source_ids": [
+        "S3",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "It is often called the coldest permanently inhabited place on Earth.",
+      "statement": "Oymyakon is often described as the coldest permanently inhabited place on Earth.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "On the sixth of February, nineteen thirty-three, the weather station here recorded minus sixty-seven point seven degrees Celsius. That is about minus ninety Fahrenheit.",
+      "statement": "The weather station at Oymyakon, Russia, recorded a temperature of minus 67.7 degrees Celsius (about minus 90 Fahrenheit) on 6 February 1933.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "It is the lowest temperature ever officially recorded in a place where people live all year.",
+      "statement": "Minus 67.7 degrees Celsius at Oymyakon in 1933 is the lowest officially recorded temperature for a permanently inhabited place.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "Far to the northwest, the town of Verkhoyansk has its own record, from eighteen ninety-two. Some sources say it is the same number, others say it is a tenth of a degree colder.",
+      "statement": "Verkhoyansk, Russia, recorded about minus 67.7 or minus 67.8 degrees Celsius in February 1892; sources differ on whether it equals Oymyakon's 1933 record or is 0.1 degrees colder.",
+      "source_ids": [
+        "S2",
+        "S1"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C07",
+      "scene": 3,
+      "quote": "The World Meteorological Organization simply lists the two as sharing the record.",
+      "statement": "The World Meteorological Organization lists Oymyakon and Verkhoyansk as sharing the record for the lowest temperature recorded in Asia.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield.",
+      "statement": "The weather station associated with Oymyakon's temperature records is located in a valley between the villages of Oymyakon and Tomtor, near the airfield at Tomtor, rather than in Oymyakon village itself.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 4,
+      "quote": "Both villages call themselves the Pole of Cold.",
+      "statement": "Both Oymyakon and the nearby village of Tomtor in the Sakha Republic claim the title Pole of Cold.",
+      "source_ids": [
+        "S12",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 5,
+      "quote": "Oymyakon is not even inside the Arctic Circle. It sits a few degrees of latitude south of it.",
+      "statement": "Oymyakon (about 63.5 degrees north) lies south of the Arctic Circle (about 66.5 degrees north).",
+      "source_ids": [
+        "S3",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 5,
+      "quote": "First, in winter a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space.",
+      "statement": "In winter, the Siberian High, a semi-permanent area of high pressure, sits over eastern Siberia, bringing clear, dry, stable air that allows strong radiative cooling of the ground around Oymyakon.",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 5,
+      "quote": "Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. One study found that slopes less than three hundred metres higher could be up to twenty degrees Celsius warmer in winter.",
+      "statement": "Oymyakon's valley setting traps dense cold air near the valley floor (a temperature inversion); a 2011 study found that surrounding mountain slopes less than about 300 metres (1,000 feet) higher could be up to about 20 degrees Celsius (36 Fahrenheit) warmer in winter.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "Oymyakon is usually explained as meaning water that does not freeze.",
+      "statement": "The name Oymyakon is usually explained as meaning unfrozen or non-freezing water.",
+      "source_ids": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C14",
+      "scene": 6,
+      "quote": "some sources trace the word to the Even language while others point to Sakha",
+      "statement": "Sources disagree on the origin of the name Oymyakon: some derive it from the Even language (for example the word kheium), others from the Sakha (Yakut) language.",
+      "source_ids": [
+        "S3",
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C15",
+      "scene": 6,
+      "quote": "Nearby there were warm springs, water that stayed open through the winter.",
+      "statement": "There are warm or thermal springs near Oymyakon whose water does not freeze in winter.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "Reindeer herders stopped at the springs to water their animals and rest before long journeys.",
+      "statement": "Reindeer herders historically stopped at the springs near Oymyakon to water their reindeer and rest.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 7,
+      "quote": "According to most accounts, the camp grew into a permanent village in the nineteen twenties and thirties.",
+      "statement": "Oymyakon developed from a herders' stopping place into a permanent village in the 1920s and 1930s.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C18",
+      "scene": 8,
+      "quote": "A weather station was set up. An airfield was built near Tomtor.",
+      "statement": "During the Soviet period a weather station was established near Oymyakon and an airfield was built near the village of Tomtor.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 8,
+      "quote": "the record that made Oymyakon famous came from that station in nineteen thirty-three, only a few years after the village took shape",
+      "statement": "Oymyakon's fame as the coldest inhabited place rests largely on the minus 67.7 degrees Celsius reading taken at its weather station in 1933.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 9,
+      "quote": "In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold.",
+      "statement": "In the 1930s the Soviet Union built a network of Gulag forced labour camps across the Kolyma region of north-eastern Siberia, largely for gold mining.",
+      "source_ids": [
+        "S14",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 9,
+      "quote": "Prisoners began building the Kolyma Highway in nineteen thirty-two, and forced labour continued on it until nineteen fifty-three.",
+      "statement": "Construction of the Kolyma Highway (R504) began in 1932 using Gulag prisoner labour, and forced labour was used on it until 1953.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 9,
+      "quote": "Many of them did not survive.",
+      "statement": "Many of the prisoners who built the Kolyma Highway died during its construction.",
+      "source_ids": [
+        "S8",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 9,
+      "quote": "Oymyakon sits around a hundred kilometres off that highway, reached by a side road.",
+      "statement": "Oymyakon is not on the Kolyma Highway itself but roughly 100 kilometres away, connected by a side road.",
+      "source_ids": [
+        "S8",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 10,
+      "quote": "In January, the average temperature here is around minus forty-six Celsius.",
+      "statement": "The average January temperature at Oymyakon is around minus 46 degrees Celsius.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 10,
+      "quote": "In late December the sun is up for only about four and a half hours a day.",
+      "statement": "Around the December solstice, Oymyakon gets roughly four and a half hours of daylight per day.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 10,
+      "quote": "Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets.",
+      "statement": "Oymyakon sits on permafrost, which makes conventional water pipes difficult to maintain, and many homes there use outdoor toilets.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 10,
+      "quote": "Cars are often left running for hours, or warmed with a fire before starting",
+      "statement": "In Oymyakon, cars are often left running for long periods or warmed with a fire before starting, because engines may not start in extreme cold.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C28",
+      "scene": 11,
+      "quote": "Food comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible.",
+      "statement": "The diet in Oymyakon relies heavily on meat and fish, fish is sold frozen in winter, and farming is very difficult because of the frozen ground.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C29",
+      "scene": 12,
+      "quote": "According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two.",
+      "statement": "In the Oymyakonsky district of Yakutia, classes for younger schoolchildren are cancelled when the temperature falls to around minus 52 degrees Celsius; exact thresholds for different ages vary between reports.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C30",
+      "scene": 13,
+      "quote": "In June, daylight lasts more than twenty hours.",
+      "statement": "In June, daylight at Oymyakon lasts more than 20 hours per day.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C31",
+      "scene": 13,
+      "quote": "On the twenty-eighth of July, twenty ten, the station recorded thirty-four point six degrees Celsius. That is about ninety-four Fahrenheit.",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) on 28 July 2010.",
+      "source_ids": [
+        "S3",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 13,
+      "quote": "Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth swing that far in a single year.",
+      "statement": "The difference between Oymyakon's record low (minus 67.7 C) and record high (34.6 C) is about 102 degrees Celsius, one of the largest temperature ranges of any place on Earth.",
+      "source_ids": [
+        "S3"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C33",
+      "scene": 14,
+      "quote": "Most residents are Sakha, also known as Yakuts.",
+      "statement": "Most residents of Oymyakon are Sakha people, also known as Yakuts.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C34",
+      "scene": 14,
+      "quote": "People here herd reindeer, hunt and fish, and work in the school, the local administration and small businesses.",
+      "statement": "Residents of Oymyakon work in reindeer herding, hunting and fishing, and in schools, local government and small businesses.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C35",
+      "scene": 14,
+      "quote": "Yakutian horses live outdoors all year in this region, right through the winter.",
+      "statement": "Yakutian horses in the Sakha Republic live outdoors all year round, including through the winter.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C36",
+      "scene": 14,
+      "quote": "A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats.",
+      "statement": "A 2015 genomic study (Librado et al., PNAS) found that Yakutian horses descend from domestic horses brought to the region a few centuries ago and adapted to the subarctic cold very quickly, with compact bodies and very hairy winter coats.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C37",
+      "scene": 14,
+      "quote": "The wider Oymyakonsky district counted around seven thousand seven hundred people in the twenty twenty-one census, down from about ten thousand in twenty ten.",
+      "statement": "The Oymyakonsky district of the Sakha Republic had a population of 7,730 in the 2021 Russian census, down from 10,109 in the 2010 census.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C38",
+      "scene": 15,
+      "quote": "Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor.",
+      "statement": "A festival called Pole of Cold (Journey to the Pole of Cold) is held each spring in the Oymyakonsky district, with events in villages including Oymyakon and Tomtor.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C39",
+      "scene": 15,
+      "quote": "Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence.",
+      "statement": "Chyskhaan, the Lord of Cold in Sakha (Yakut) tradition, is a central figure of the Pole of Cold festival and has an ice residence associated with him.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C40",
+      "scene": 15,
+      "quote": "In twenty twenty-five, there was even a marathon here.",
+      "statement": "A marathon called Pole of Cold - Oymyakon was held in the Oymyakon area in 2025.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Lowest temperature - inhabited",
+      "publisher": "Guinness World Records",
+      "type": "bach-khoa",
+      "url": "https://guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S2",
+      "title": "WMO Weather and Climate Extremes Archive: lowest temperature, Asia",
+      "publisher": "World Meteorological Organization",
+      "type": "goc",
+      "url": "https://wmo.int/asu-map?map=Temp_014",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S3",
+      "title": "Oymyakon",
+      "publisher": "Wikipedia (đầu mối, không tính là nguồn uy tín)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/Oymyakon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S4",
+      "title": "Ojmjakonskij Rajon: population (census 2010, 2021)",
+      "publisher": "City Population (Thomas Brinkhoff), dẫn Rosstat",
+      "type": "khac",
+      "url": "https://citypopulation.de/en/russia/places/sacha/98639__ojmjakonskij_rajon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S5",
+      "title": "Schools closed in Yakutia's Oymyakon as temperatures drop to minus 52",
+      "publisher": "TASS",
+      "type": "bao",
+      "url": "https://tass.com/society/977271",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S6",
+      "title": "This tiny Russian village is the coldest place you can live on Earth",
+      "publisher": "Culture Trip",
+      "type": "khac",
+      "url": "https://theculturetrip.com/europe/russia/articles/this-tiny-russian-village-is-the-coldest-place-you-can-live-on-earth-and-its-stunning",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S7",
+      "title": "Oymyakon (Village in the Sakha Republic, Russia)",
+      "publisher": "Baidu Baike",
+      "type": "khac",
+      "url": "https://baike.baidu.com/en/item/Oymyakon/1422582",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S8",
+      "title": "R504 Kolyma Highway",
+      "publisher": "Wikipedia (đầu mối)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/R504_Kolyma_Highway",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S9",
+      "title": "This is how intense life gets when you live in the coldest village on the planet",
+      "publisher": "ScienceAlert",
+      "type": "bao",
+      "url": "https://www.sciencealert.com/this-is-how-intense-life-gets-when-you-live-in-the-coldest-village-on-the-planet",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S10",
+      "title": "Coldest inhabited place on Earth sets record heat",
+      "publisher": "AccuWeather",
+      "type": "bao",
+      "url": "https://www.accuweather.com/en/weather-news/oymyakon-russia-coldest-inhabited-place-on-earth-record-heat/971813",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S11",
+      "title": "Climat Oïmiakon (Sibérie)",
+      "publisher": "Climats et Voyages",
+      "type": "khac",
+      "url": "https://www.climatsetvoyages.com/climat/siberie/oimiakon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S12",
+      "title": "Yakutia invites guests to take a trip to the Pole of Cold",
+      "publisher": "Government of Sakha (Yakutia), ERDC",
+      "type": "goc",
+      "url": "https://erdc.ru/en/news/yakutiya-priglashaet-gostey-i-turistov-sovershit-puteshestvie-na-polyus-kholoda/",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S13",
+      "title": "In Photos: Runners Brave -50 Celsius Temperatures in Yakutia Marathon",
+      "publisher": "The Moscow Times",
+      "type": "bao",
+      "url": "https://www.themoscowtimes.com/2025/09/03/in-photos-runners-brave-50-celsius-temperatures-in-yakutia-marathon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S14",
+      "title": "Kolyma",
+      "publisher": "Wikipedia (đầu mối)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/Kolyma",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S15",
+      "title": "Why the eastern corner of Siberia is the coldest inhabited place on Earth",
+      "publisher": "Gizmodo",
+      "type": "bao",
+      "url": "https://gizmodo.com/why-the-eastern-corner-of-siberia-is-the-coldest-inhabi-1822160684",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S16",
+      "title": "What is the coldest city in the world?",
+      "publisher": "Live Science",
+      "type": "bao",
+      "url": "https://www.livescience.com/what-is-the-coldest-city",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S17",
+      "title": "Tracking the origins of Yakutian horses and the genetic basis for their fast adaptation to subarctic environments (PNAS, 2015)",
+      "publisher": "PubMed / Proceedings of the National Academy of Sciences",
+      "type": "goc",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26598656/",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S18",
+      "title": "Oymyakon, Russia - climate and daylight",
+      "publisher": "Weather Atlas",
+      "type": "khac",
+      "url": "https://www.weather-atlas.com/en/russia/oymyakon-climate",
+      "published": null,
+      "accessed": "2026-11-16"
+    }
+  ]
+}

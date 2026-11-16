@@ -6,9 +6,12 @@ Kênh tách hẳn khỏi Game Vừa Ví (dự án GameReel ở `~/Desktop/Gaming
 
 Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên hình, tiêu đề, mô tả viết tiếng Anh.
 
+> **Định hướng đổi ngày 16/11/2026:** video là **hoạt hình "Wob kể chuyến đi"** (Wob tự kể ngôi thứ nhất, diễn trong cảnh vẽ, không ảnh thật). Đọc [docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md](docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md) trước mọi việc sản xuất. Template, schema, luật bên dưới còn theo kiểu trình chiếu cũ cho tới khi làm xong mục 7 của tài liệu đó; bước tiếp theo là bản thử ~75 giây. Tập 2–5 tạm dừng.
+
 ## Người làm kênh chỉ làm gì
 
 - Nêu đề tài (hoặc để Claude chọn), rồi **xem video cuối cùng báo cáo độ xác thực**. Không duyệt kịch bản, không duyệt hình giữa chừng (chốt 14/11/2026).
+- **Ngoại lệ cho đợt ra mắt 5 tập (chốt 16/11/2026):** sau nghiên cứu, Claude viết `tom-tat-duyet.md` (tiếng Việt: mạch chương, số liệu kèm mức dự kiến, chỗ đùa, phán quyết, câu hỏi cần quyết) và **dừng chờ người làm kênh duyệt** rồi mới viết kịch bản. Mục đích: thống nhất quan điểm trước khi tự động hoàn toàn. Sau đợt này người làm kênh quyết bỏ hay giữ điểm dừng.
 - Vì không có người duyệt giữa chừng, **các cổng tự động thay cho người duyệt**, quan trọng nhất là kiểm chứng hai mô hình (Claude + Gemini).
 - Đăng bài chỉ khi người làm kênh gọi `/dang-bai`.
 
@@ -82,7 +85,7 @@ brief.md ─► research.md ─► script.json ─┬─► kiem-chung/ (Claude 
 | `phan-bien-video` | "Chê thẳng" như người xem YouTube, 5 việc nên sửa |
 | `seo-youtube` | Tiêu đề, mô tả, thẻ, thumbnail |
 
-Vòng 2 kiểm chứng không phải agent mà là script gọi Gemini API: `.claude/skills/kiem-chung/scripts/gemini_kiem_chung.py`.
+Vòng 2 kiểm chứng không phải agent: mặc định chạy qua **Gemini web** ở phiên chính bằng Browser MCP (`.claude/skills/kiem-chung/scripts/gemini_web.py`, chốt 16/11/2026, tài khoản Google riêng); khi có `GEMINI_API_KEY` thì dùng `gemini_kiem_chung.py`.
 
 ## Môi trường
 

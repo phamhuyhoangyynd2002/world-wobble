@@ -14,7 +14,7 @@ argument-hint: "<thư mục dự án> [--voice ...] [--rate ...] [--only 2,5] [-
 python3 .claude/skills/long-tieng/scripts/tts.py <thư mục dự án> [--voice <giọng>] [--rate +0%] [--only 2,5]
 ```
 
-- **Azure AI Speech** (bắt buộc cho bản giao): cần `pip install azure-cognitiveservices-speech`, `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`. Có khoá thì script tự chọn Azure. `--provider edge` chỉ để nháp; `kiem_tra_ban_quyen.py` chặn bản giao dùng Edge.
+- **Azure AI Speech** (bắt buộc cho bản giao): cần `pip install azure-cognitiveservices-speech`, `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`. Có khoá thì script tự chọn Azure. `--provider edge` chỉ để nháp; `kiem_tra_ban_quyen.py` chặn bản giao dùng Edge. Tạm thời (16/11/2026, `CHO_PHEP_EDGE=1` trong `.env`) kênh giao bằng Edge: chạy `--provider edge`, giữ nguyên tên giọng Neural trong `script.json` để sau đổi sang Azure không lệch.
 - Giọng lấy từ `script.json` → `voice.name` (giọng đã chốt trong hồ sơ kênh). Chưa chốt: nghe thử 3 giọng en-US (HD nếu có) bằng một đoạn 30 giây của tập, chọn một, ghi vào hồ sơ kênh; từ đó mọi tập dùng giọng này.
 - Kết quả `timing` mỗi cảnh trong `audio/subtitles.json`:
   - `tts`: mốc từng từ khớp lời gốc. Tốt.
@@ -39,7 +39,7 @@ python3 .claude/skills/long-tieng/scripts/build_timeline.py <thư mục dự án
 - Độ dài mỗi cảnh = audio thật + 0,35 giây nghỉ; cảnh đầu 0,2 giây trước lời (hình đã có từ khung 0); cảnh cuối giữ thêm 1,5 giây.
 - `timeline.json` có: `scenes[].shots` (nhịp hình khớp `cue`, kèm `src`, nhãn bản đồ), `scenes[].wob`, `scenes[].verdict`, `sfx` (gồm chữ ký `dau-wob` cùng con dấu), `music`, `chapters`, `claims` (mốc lúc đọc mỗi khẳng định, cho báo cáo độ xác thực), `captions`.
 - Ghi thêm `out/captions.srt` (tải lên YouTube) và `out/chapters.txt` (dán vào mô tả).
-- Nhạc nền: chỉ file có dòng trong `music/GIAY-PHEP.md`; sổ trống thì không nhạc và có cảnh báo. Trộn sau khi render (`mix_audio.py`), nhạc tự nhỏ khi có lời.
+- Nhạc nền: chỉ file có dòng trong `music/GIAY-PHEP.md`; sổ trống thì không nhạc và có cảnh báo. Trộn sau khi render (`mix_audio.py`), nhạc tự nhỏ khi có lời. Mặc định đổi bài theo nhịp (16/11/2026): theo `music_mood` từng cảnh và bảng tâm trạng trong sổ, nối bằng crossfade; `--music <file>` để dùng một bài cả video.
 - LỖI (mã 1): cảnh thiếu giọng, asset không có trong manifest, chương ngắn hơn 10 giây. CẢNH BÁO: nhịp đứng > 10 giây hoặc < 2 giây, chương quá dài, độ dài ngoài mục tiêu, sfx dày. Đây là mặc định ban đầu; chỉnh theo `kenh/bai-hoc.md`.
 - Tổng độ dài vượt mục tiêu: rút lời ở chương dài nhất (khẳng định bị đổi phải kiểm chứng lại), không tăng tốc độ đọc quá +5%.
 

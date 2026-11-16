@@ -46,7 +46,7 @@ Trước khi giao video, Claude tự sửa theo kiểm định và phản biện
 | `research.md` | 1 | Ghi chú theo chủ đề, bảng số liệu có cột nguồn, chất liệu hài có nguồn, danh sách nguồn |
 | `script.json` | 1 | Đúng schema trong skill `viet-kich-ban`, gồm danh sách khẳng định `claims` |
 | `kiem-chung/vong-1-claude.json` | 2 | Kết quả agent `kiem-chung-thong-tin` |
-| `kiem-chung/vong-2-gemini.json` | 2 | Kết quả `gemini_kiem_chung.py` (không thấy vòng 1) |
+| `kiem-chung/vong-2-gemini.json` | 2 | Kết quả Gemini (web qua `gemini_web.py`, hoặc API qua `gemini_kiem_chung.py`), không thấy vòng 1; bản web lưu prompt và câu trả lời gốc ở `kiem-chung/web/` |
 | `kiem-chung/doi-chieu.json`, `kiem-chung/doi-chieu.md` | 2 | Mức A–D từng khẳng định, chỗ lệch, cách xử lý |
 | `assets/manifest.json` + ảnh, bản đồ | 3 | Mỗi tài nguyên: file, loại, căn cứ, giấy phép, tác giả, nguồn, prompt và model (ảnh AI) |
 | `audio/scene-<id>.mp3`, `audio/subtitles.json` | 4 | Mốc từng từ, tính từ đầu mỗi cảnh |

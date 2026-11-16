@@ -1,0 +1,306 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-16",
+  "ket_qua": [
+    {
+      "id": "C03",
+      "statement": "Oymyakon is often described as the coldest permanently inhabited place on Earth.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness gọi Oymyakon là nơi có người ở lâu dài lạnh nhất thế giới, NYT cũng dùng cách gọi này.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "publisher": "Guinness World Records",
+          "url": "http://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "Along Russia's 'Road of Bones,' Relics of Suffering and Despair (Andrew Higgins, NYT)",
+          "publisher": "New Zealand Herald (đăng lại New York Times)",
+          "url": "https://www.nzherald.co.nz/world/along-russias-road-of-bones-relics-of-suffering-and-despair/4JEDREJPNC7VOEANYHWV6H6TTI",
+          "type": "bao",
+          "published": "2020-11-22"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "Oymyakon's valley setting traps dense cold air near the valley floor (a temperature inversion), and studies have found that in winter the surrounding mountain slopes can be much warmer than the valley floor.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bài 2016 (Bulletin of Glaciological Research) ghi sông băng ở 2.446 m ấm hơn làng Oymyakon khoảng 10°C từ tháng 11 đến tháng 4, do nghịch nhiệt mùa đông.",
+      "nguon": [
+        {
+          "title": "Bulletin of Glaciological Research vol. 34: Glacier No. 31, Suntar-Khayata (2012–2014)",
+          "publisher": "Japanese Society of Snow and Ice / J-STAGE",
+          "url": "https://www.jstage.jst.go.jp/article/bgr/34/0/34_33/_article/-char/en",
+          "type": "goc",
+          "published": "2016"
+        },
+        {
+          "title": "Strong and weak Siberian High activity and cold anomalies (AMS 97th Annual Meeting abstract)",
+          "publisher": "American Meteorological Society",
+          "url": "https://ams.confex.com/ams/97Annual/webprogram/Paper300050.html",
+          "type": "goc",
+          "published": "2017"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "Construction of the Kolyma Highway began in the early 1930s using Gulag prisoner labour, and forced labour was used on it into the 1950s.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NYT: tù nhân làm đường từ đầu thập niên 1930; WorldAtlas: đường xây bằng lao động tù từ thập niên 1930 đến 1950.",
+      "nguon": [
+        {
+          "title": "Along Russia's 'Road of Bones,' Relics of Suffering and Despair (Andrew Higgins, NYT)",
+          "publisher": "New Zealand Herald (đăng lại New York Times)",
+          "url": "https://www.nzherald.co.nz/world/along-russias-road-of-bones-relics-of-suffering-and-despair/4JEDREJPNC7VOEANYHWV6H6TTI",
+          "type": "bao",
+          "published": "2020-11-22"
+        },
+        {
+          "title": "The Road Of Bones",
+          "publisher": "WorldAtlas",
+          "url": "https://www.worldatlas.com/places/the-road-of-bones.html",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "Many of the prisoners who built the Kolyma Highway died during its construction.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NYT dẫn một sử gia: hơn 100.000 người chết trong các trại Kolyma; WorldAtlas nói hàng nghìn tù nhân làm đường đã chết.",
+      "nguon": [
+        {
+          "title": "Along Russia's 'Road of Bones,' Relics of Suffering and Despair (Andrew Higgins, NYT)",
+          "publisher": "New Zealand Herald (đăng lại New York Times)",
+          "url": "https://www.nzherald.co.nz/world/along-russias-road-of-bones-relics-of-suffering-and-despair/4JEDREJPNC7VOEANYHWV6H6TTI",
+          "type": "bao",
+          "published": "2020-11-22"
+        },
+        {
+          "title": "The Road Of Bones",
+          "publisher": "WorldAtlas",
+          "url": "https://www.worldatlas.com/places/the-road-of-bones.html",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "Around the December solstice, Oymyakon gets roughly four and a half hours of daylight per day.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NOAA Solar Calculator: ngày 21–22/12 mặt trời mọc 10:12 và lặn 14:41, tức khoảng 4 giờ 29 phút; timeanddate cũng ghi như vậy.",
+      "nguon": [
+        {
+          "title": "NOAA Solar Calculator: sunrise/sunset table, 63.46°N 142.79°E, 2026",
+          "publisher": "NOAA Global Monitoring Laboratory",
+          "url": "https://gml.noaa.gov/grad/solcalc/table.php?lat=63.46&lon=142.79&year=2026",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Oymyakon sunrise, sunset and day length, December 2026",
+          "publisher": "timeanddate.com",
+          "url": "https://www.timeanddate.com/sun/russia/oymyakon?month=12",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "From around mid-June to the solstice, daylight at Oymyakon lasts more than 20 hours per day.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NOAA Solar Calculator: ngày 15/6 mặt trời mọc 02:14, lặn 22:45 (khoảng 20 giờ 31 phút), ngày 21/6 dài khoảng 20 giờ 37 phút; timeanddate cho thấy ngày vượt 20 giờ từ 6/6.",
+      "nguon": [
+        {
+          "title": "NOAA Solar Calculator: sunrise/sunset table, 63.46°N 142.79°E, 2026",
+          "publisher": "NOAA Global Monitoring Laboratory",
+          "url": "https://gml.noaa.gov/grad/solcalc/table.php?lat=63.46&lon=142.79&year=2026",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Oymyakon sunrise, sunset and day length, June 2026",
+          "publisher": "timeanddate.com",
+          "url": "https://www.timeanddate.com/sun/russia/oymyakon?month=6",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Dữ liệu NOAA GHCN-Daily của trạm 24688 ghi nhiệt độ cao nhất 34,6°C ngày 28/7/2010, khớp với bảng khí hậu của pogodaiklimat.",
+      "nguon": [
+        {
+          "title": "GHCN-Daily, trạm RSM00024688 (Oymyakon), TMAX 20–31/7/2010",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=RSM00024688&startDate=2010-07-20&endDate=2010-07-31&dataTypes=TMAX&units=metric",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Климат Оймякона (станция 24688): абсолютные максимумы и минимумы",
+          "publisher": "Погода и климат (pogodaiklimat.ru), dữ liệu trạm Roshydromet",
+          "url": "http://www.pogodaiklimat.ru/climate/24688.htm",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Climate Ojmjakon (station 24688)",
+          "publisher": "Weather and Climate (weatherandclimate.eu)",
+          "url": "https://www.weatherandclimate.eu/climate/24688",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "The difference between Oymyakon's record low (minus 67.7 C) and record high (34.6 C) is about 102 degrees Celsius, one of the largest temperature ranges of any place on Earth.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Từ -67,7°C (Guinness) đến 34,6°C (dữ liệu trạm) là chênh 102,3°C; Verkhoyansk còn chênh lớn hơn nên chỉ là \"một trong\" những nơi lớn nhất.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "publisher": "Guinness World Records",
+          "url": "http://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "Климат Оймякона (станция 24688): абсолютные максимумы и минимумы",
+          "publisher": "Погода и климат (pogodaiklimat.ru), dữ liệu trạm Roshydromet",
+          "url": "http://www.pogodaiklimat.ru/climate/24688.htm",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Yakutian horses in the Sakha Republic live outdoors all year round, including through the winter.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bài PNAS (Librado và cs. 2015) ghi ngựa Yakut sống ngoài trời quanh năm nhờ thân hình gọn và lông mùa đông rất dày.",
+      "nguon": [
+        {
+          "title": "Tracking the origins of Yakutian horses and the genetic basis for their fast adaptation to subarctic environments (Librado et al., PNAS 112(50), 2015)",
+          "publisher": "DTU Orbit (bản ghi bài PNAS)",
+          "url": "https://orbit.dtu.dk/en/publications/tracking-the-origins-of-yakutian-horses-and-the-genetic-basis-for/",
+          "type": "goc",
+          "published": "2015-11-23"
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "A 2015 genomic study (Librado et al., PNAS) found that Yakutian horses descend from domestic horses brought to the region a few centuries ago and adapted to the subarctic cold very quickly, with compact bodies and very hairy winter coats.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bản ghi bài PNAS 2015: ngựa nhà theo người Yakut tới đây vài thế kỷ trước, là một trong những ca thích nghi với giá lạnh nhanh nhất, gen liên quan lông và kích thước cơ thể.",
+      "nguon": [
+        {
+          "title": "Tracking the origins of Yakutian horses and the genetic basis for their fast adaptation to subarctic environments (Librado et al., PNAS 112(50), 2015)",
+          "publisher": "DTU Orbit (bản ghi bài PNAS)",
+          "url": "https://orbit.dtu.dk/en/publications/tracking-the-origins-of-yakutian-horses-and-the-genetic-basis-for/",
+          "type": "goc",
+          "published": "2015-11-23"
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "statement": "A festival called Pole of Cold (Journey to the Pole of Cold) is held each spring in the Oymyakonsky district, with events in villages including Oymyakon and Tomtor.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Chính quyền Yakutia và Rossiyskaya Gazeta: \"Hành trình tới Cực lạnh\" diễn ra 30–31/3/2024 ở Oymyakon, Tomtor và Yuchyugey, đã tổ chức 13 năm.",
+      "nguon": [
+        {
+          "title": "Yakutia invites guests to take a trip to the Pole of Cold",
+          "publisher": "ERDC, Chính phủ Cộng hòa Sakha (Yakutia)",
+          "url": "https://erdc.ru/en/news/yakutiya-priglashaet-gostey-i-turistov-sovershit-puteshestvie-na-polyus-kholoda/",
+          "type": "goc",
+          "published": "2024-02-21"
+        },
+        {
+          "title": "Весеннее путешествие на Полюс холода: выспаться в чуме и увидеть Чысхаана",
+          "publisher": "Российская газета",
+          "url": "https://rg.ru/2024/03/29/reg-dfo/vesennee-puteshestvie-na-polius-holoda-vyspatsia-v-chume-i-uvidet-chyshaana.html",
+          "type": "bao",
+          "published": "2024-03-29"
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "Chyskhaan, the Lord of Cold in Sakha (Yakut) tradition, is a central figure of the Pole of Cold festival and has an ice residence associated with him.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Gặp Chyskhaan là hoạt động chính của lễ hội; dinh thự băng của ông ở Tomtor (huyện Oymyakon).",
+      "nguon": [
+        {
+          "title": "Yakutia invites guests to take a trip to the Pole of Cold",
+          "publisher": "ERDC, Chính phủ Cộng hòa Sakha (Yakutia)",
+          "url": "https://erdc.ru/en/news/yakutiya-priglashaet-gostey-i-turistov-sovershit-puteshestvie-na-polyus-kholoda/",
+          "type": "goc",
+          "published": "2024-02-21"
+        },
+        {
+          "title": "Весеннее путешествие на Полюс холода: выспаться в чуме и увидеть Чысхаана",
+          "publisher": "Российская газета",
+          "url": "https://rg.ru/2024/03/29/reg-dfo/vesennee-puteshestvie-na-polius-holoda-vyspatsia-v-chume-i-uvidet-chyshaana.html",
+          "type": "bao",
+          "published": "2024-03-29"
+        },
+        {
+          "title": "On a visit to Chyskhaan: why go to the ice residence of the winter wizard",
+          "publisher": "Arctic Russia tourism portal",
+          "url": "https://tourism.arctic-russia.ru/en/articles/on-a-visit-to-chyskhaan-why-go-to-the-ice-residence-to-the-winter-wizard/",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "statement": "A marathon called Pole of Cold - Oymyakon was held in the Oymyakon area in 2025.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Moscow Times đưa tin giải marathon \"Pole of Cold — Oymyakon\" tháng 1/2025; Объясняем.рф nói giải chạy từ Oymyakon tới Tomtor, lần thứ 7 vào tháng 1/2026.",
+      "nguon": [
+        {
+          "title": "In Photos: Runners brave -50 Celsius temperatures in Yakutia marathon",
+          "publisher": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2025/09/03/in-photos-runners-brave-50-celsius-temperatures-in-yakutia-marathon",
+          "type": "bao",
+          "published": "2025-01-14"
+        },
+        {
+          "title": "В Якутии в январе пройдет VII зимний экстремальный марафон «Полюс Холода — Оймякон»",
+          "publisher": "Объясняем.рф (АНО «Национальные приоритеты»)",
+          "url": "https://xn--90aivcdt6dxbc.xn--p1ai/articles/news/v-yakutii-v-yanvare-proydet-vii-zimniy-ekstremalnyy-marafon-polyus-kholoda-oymyakon/",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    }
+  ]
+}

@@ -19,3 +19,13 @@
 | de-kem.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (kèn buồn đi xuống) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | im-lang.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng dế: câu đùa khô có chủ ý) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | xuoc-dia.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (dừng đột ngột) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| liu-lo-vui.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng líu lo vô nghĩa của Wob: hớn hở; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| liu-lo-hoi.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng líu lo của Wob: thắc mắc; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| liu-lo-buon.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng líu lo của Wob: xìu; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| liu-lo-soc.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng líu lo của Wob: giật mình; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| brr.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (Wob run vì lạnh; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| tach-bang.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (băng đóng, tiếng tách; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| nuot.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (tiếng ực; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| buoc-tuyet.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (bước chân trên tuyết; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| may-no.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (xe nổ máy không tắt; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| hoi-nuoc.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (hơi nước bốc; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |

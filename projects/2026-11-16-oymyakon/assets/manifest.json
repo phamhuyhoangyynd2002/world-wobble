@@ -1,0 +1,436 @@
+{
+  "assets": {
+    "map-globe": {
+      "file": "assets/ban-do/map-globe.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "orthographic",
+      "center": [
+        140,
+        58
+      ],
+      "zoom": 2.2,
+      "anchor": [
+        1320,
+        540
+      ],
+      "highlight": [
+        "RUS"
+      ],
+      "marks": [
+        {
+          "x": 1344,
+          "y": 434,
+          "label": "Oymyakon",
+          "lon": 142.79,
+          "lat": 63.46
+        }
+      ],
+      "vung_bien_dong": true,
+      "chu_quyen_da_kiem": true,
+      "scenes": [
+        1,
+        5
+      ],
+      "created": "2026-11-15",
+      "ghi_chu_chu_quyen": "16/11/2026: Claude mở bản PNG xem cả khung 1920x1080; khung cắt ở khoảng 30°N (Hàn Quốc, Nhật Bản), không hiện Biển Đông, Hoàng Sa, Trường Sa, không có đường lưỡi bò. Cảnh báo do script xét theo phạm vi quả cầu. Shot chỉ zoom-in (vào Oymyakon) nên không lộ thêm phía nam."
+    },
+    "map-yakutia": {
+      "file": "assets/ban-do/map-yakutia.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        138,
+        64
+      ],
+      "zoom": 3.2,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1042,
+          "y": 561,
+          "label": "Oymyakon",
+          "lon": 142.79,
+          "lat": 63.46
+        },
+        {
+          "x": 881,
+          "y": 392,
+          "label": "Verkhoyansk",
+          "lon": 133.39,
+          "lat": 67.55
+        },
+        {
+          "x": 819,
+          "y": 614,
+          "label": "Yakutsk",
+          "lon": 129.73,
+          "lat": 62.03
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        2,
+        3,
+        5
+      ],
+      "created": "2026-11-15"
+    },
+    "map-tomtor": {
+      "file": "assets/ban-do/map-tomtor.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        144,
+        62
+      ],
+      "zoom": 8,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 908,
+          "y": 404,
+          "label": "Oymyakon",
+          "lon": 142.79,
+          "lat": 63.46
+        },
+        {
+          "x": 924,
+          "y": 424,
+          "label": "Tomtor",
+          "lon": 143.15,
+          "lat": 63.25
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        4,
+        8,
+        15
+      ],
+      "created": "2026-11-15"
+    },
+    "map-kolyma": {
+      "file": "assets/ban-do/map-kolyma.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        140,
+        63.5
+      ],
+      "zoom": 5,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1034,
+          "y": 542,
+          "label": "Oymyakon",
+          "lon": 142.79,
+          "lat": 63.46
+        },
+        {
+          "x": 686,
+          "y": 626,
+          "label": "Yakutsk",
+          "lon": 129.73,
+          "lat": 62.03
+        },
+        {
+          "x": 1248,
+          "y": 761,
+          "label": "Magadan",
+          "lon": 150.8,
+          "lat": 59.56
+        },
+        {
+          "x": 1046,
+          "y": 475,
+          "label": "Ust-Nera",
+          "lon": 143.24,
+          "lat": 64.57
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        9
+      ],
+      "created": "2026-11-15"
+    },
+    "commons-street": {
+      "file": "assets/commons/commons-street.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_-_190228_DSC_5642.jpg",
+      "attribution": "\"Oymyakon - 190228 DSC 5642.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        1,
+        4,
+        10,
+        14
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-road": {
+      "file": "assets/commons/commons-road.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20190228_Oymyakon_Russia.jpg",
+      "attribution": "\"20190228 Oymyakon Russia.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        2,
+        9,
+        12
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-house": {
+      "file": "assets/commons/commons-house.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_-_190228_DSC_5900.jpg",
+      "attribution": "\"Oymyakon - 190228 DSC 5900.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        7,
+        10,
+        11,
+        14,
+        16
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-road2": {
+      "file": "assets/commons/commons-road2.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_-_190228_DSC_5786.jpg",
+      "attribution": "\"Oymyakon - 190228 DSC 5786.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        3,
+        11,
+        15
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-valley": {
+      "file": "assets/commons/commons-valley.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Maarten Takens",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_forests.jpg",
+      "attribution": "\"Oymyakon forests.jpg\" by Maarten Takens, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons",
+      "scenes": [
+        2,
+        3,
+        5,
+        6,
+        16
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-kolyma": {
+      "file": "assets/commons/commons-kolyma.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "FKU Uprdor \"Vilyui\" (Rosavtodor)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:R504_Kolyma_in_autumn.jpg",
+      "attribution": "\"R504 Kolyma in autumn.jpg\" by FKU Uprdor \"Vilyui\" (Rosavtodor), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons",
+      "scenes": [
+        9
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-reindeer": {
+      "file": "assets/commons/commons-reindeer.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Кулакова Раиса Константиновна",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Reindeer_husbandry_on_Bulunsky_District_02.jpg",
+      "attribution": "\"Reindeer husbandry on Bulunsky District 02.jpg\" by Кулакова Раиса Константиновна, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons",
+      "scenes": [
+        6,
+        7,
+        14
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-tomtor": {
+      "file": "assets/commons/commons-tomtor.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "BerendWorst",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tomtor.jpg",
+      "attribution": "\"Tomtor.jpg\" by BerendWorst, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        4,
+        12
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "ai-village-dusk": {
+      "file": "assets/ai/ai-village-dusk.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên ChatGPT web (gói miễn phí) (không có bản quyền ở Mỹ nếu chỉ từ prompt). Điều khoản OpenAI: người dùng sở hữu Output; dùng thương mại được",
+      "license_url": "https://openai.com/policies/row-terms-of-use/",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Create one wide landscape image (16:9). Style: Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. Scene: a small remote village of wooden houses in deep winter at dusk, smoke rising straight up from chimneys into frosty haze, a frozen river curving away, a few reindeer drinking at a small steaming spring in the foreground, snow-covered hills behind. Clearly an illustration, not a photograph. No text, no letters, no logos, no watermarks, no maps, no flags. Do not depict identifiable real people.",
+      "model": "ChatGPT web (gói miễn phí), model không hiển thị",
+      "nguon": "chatgpt-web",
+      "file_goc": "assets/ai/goc/ai-village-dusk.png",
+      "kich_thuoc_goc": [
+        1672,
+        941
+      ],
+      "watermark_da_kiem": true,
+      "tai_khoan_rieng": true,
+      "scenes": [
+        1,
+        2,
+        6,
+        10,
+        15,
+        16
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-16"
+    },
+    "commons-horse-saddle": {
+      "file": "assets/commons/commons-horse-saddle.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Maarten Takens from Germany",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Yakutian_horse_(9762345674).jpg",
+      "attribution": "\"A Yakutian horse (9762345674).jpg\" by Maarten Takens from Germany, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons",
+      "scenes": [
+        14
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-horses-snow": {
+      "file": "assets/commons/commons-horses-snow.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_-_190228_DSC_5957.jpg",
+      "attribution": "\"Oymyakon - 190228 DSC 5957.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        7,
+        14
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-horse-frost": {
+      "file": "assets/commons/commons-horse-frost.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ilya Varlamov",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oymyakon_-_190228_DSC_5693.jpg",
+      "attribution": "\"Oymyakon - 190228 DSC 5693.jpg\" by Ilya Varlamov, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons",
+      "scenes": [
+        1,
+        14
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "commons-summer": {
+      "file": "assets/commons/commons-summer.jpg",
+      "kind": "anh-commons",
+      "basis": "giay-phep",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Svetlana Ivanova",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_yakut_horses,_Namski_uluus,_Yakutia,_Siberia_-_%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%B5_%D0%9B%D0%B5%D0%BD%D1%8B_-_panoramio.jpg",
+      "attribution": "\"The yakut horses, Namski uluus, Yakutia, Siberia - Лошади на протоке Лены - panoramio.jpg\" by Svetlana Ivanova, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0), via Wikimedia Commons",
+      "scenes": [
+        13
+      ],
+      "restrictions": null,
+      "created": "2026-11-16"
+    },
+    "tu-tao-bat-khi-lanh": {
+      "file": "assets/tu-tao/so-do-bat-khi-lanh.png",
+      "kind": "tu-tao",
+      "basis": "tu-tao",
+      "author": "World Wobble",
+      "source": "assets/tu-tao/nguon/bat-khi-lanh.html (vẽ tay bằng SVG/HTML, font Fraunces OFL)",
+      "note": "Sơ đồ minh hoạ nghịch nhiệt thung lũng, không chứa số liệu",
+      "scenes": [
+        5
+      ],
+      "created": "2026-11-16"
+    }
+  }
+}

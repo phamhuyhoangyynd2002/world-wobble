@@ -19,6 +19,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { geoOrthographic, geoMercator, geoNaturalEarth1, geoPath, geoGraticule10 } from "d3-geo";
 
 const NE_URL =
@@ -80,7 +81,7 @@ async function main() {
     process.exit(2);
   }
   if (!/^[a-z0-9][a-z0-9.-]*$/.test(a.id)) throw new Error("id chỉ được chữ thường, số, dấu chấm, gạch nối");
-  const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../../../..");
+  const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../../.."); // fileURLToPath: chạy được cả Windows (16/11/2026)
   const project = path.resolve(a.project);
   const [clon, clat] = a.center.split(",").map(Number);
   const zoom = Number(a.zoom) || 1;

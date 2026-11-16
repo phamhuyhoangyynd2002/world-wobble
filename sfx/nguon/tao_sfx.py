@@ -130,8 +130,86 @@ def xuoc_dia(d=0.35):  # dừng đột ngột: nhiễu lọc quét xuống rất
         out.append((x + 0.5 * math.sin(ph)) * env(i, n, 0.001, 1.2))
     return out
 
+# ---- bổ sung 16/11/2026 cho hướng hoạt hình: tiếng líu lo của Wob và tiếng diễn ----
+def _syllable(f0, f1, d, vib=6.0):  # một âm tiết "nói" vô nghĩa: hoạ âm + đường cao độ trượt + rung nhẹ
+    n = int(SR * d); ph = 0.0; out = []
+    for i in range(n):
+        t = i / n
+        f = f0 + (f1 - f0) * t
+        f *= 1 + 0.03 * math.sin(2 * math.pi * vib * i / SR)
+        ph += 2 * math.pi * f / SR
+        a = math.sin(math.pi * t) ** 0.7
+        out.append(a * (math.sin(ph) + 0.45 * math.sin(2 * ph) + 0.2 * math.sin(3 * ph)))
+    return out
+
+def _speech(contour, gap=0.035):  # chuỗi âm tiết, contour: [(f0, f1, d), ...]
+    out = []
+    for f0, f1, d in contour:
+        out += _syllable(f0, f1, d) + [0.0] * int(SR * gap)
+    return out
+
+def liu_lo_vui():  # Wob hớn hở: lên xuống nhanh, kết đi lên
+    return _speech([(620, 760, .09), (700, 560, .08), (640, 820, .1), (760, 980, .14)])
+
+def liu_lo_hoi():  # Wob thắc mắc: kết vút lên
+    return _speech([(560, 600, .1), (600, 540, .09), (520, 900, .2)])
+
+def liu_lo_buon():  # Wob xìu: đi xuống, chậm
+    return _speech([(620, 540, .14), (560, 470, .14), (480, 330, .3)], gap=0.06)
+
+def liu_lo_soc():  # Wob giật mình: một tiếng ngắn vọt lên
+    return _speech([(500, 1150, .16)])
+
+def brr():  # Wob run: rung cao độ nhanh
+    n = int(SR * 0.7); ph = 0.0; out = []
+    for i in range(n):
+        f = 420 + 120 * math.sin(2 * math.pi * 28 * i / SR)
+        ph += 2 * math.pi * f / SR
+        out.append((math.sin(ph) + 0.4 * math.sin(2 * ph)) * env(i, n, 0.02, 1.5))
+    return out
+
+def tach_bang(d=0.6):  # băng đóng: vài tiếng tách cao + chuông thuỷ tinh
+    n = int(SR * d); out = [0.0] * n
+    for k, (t0, f) in enumerate(((0.0, 3100), (0.07, 4200), (0.15, 3600))):
+        s0 = int(SR * t0)
+        for i in range(s0, n):
+            j = i - s0
+            out[i] += math.sin(2 * math.pi * f * j / SR) * math.exp(-j / SR * 28) * 0.6
+            if j < 300: out[i] += random.uniform(-1, 1) * (1 - j / 300) * 0.5
+    return out
+
+def nuot(d=0.3):  # ực: cao độ tụt + bọt
+    n = int(SR * d); ph = 0.0; out = []
+    for i in range(n):
+        ph += 2 * math.pi * (320 * math.exp(-i / SR * 9) + 90) / SR
+        out.append(math.sin(ph) * env(i, n, 0.004, 2))
+    return out
+
+def buoc_tuyet(d=0.16):  # bước trên tuyết: nhiễu lọc ngắn, lạo xạo
+    n = int(SR * d); noise = [random.uniform(-1, 1) * (1 if random.random() < 0.6 else 0.2) for _ in range(n)]
+    f = lowpass(noise, 0.35)
+    return [x * env(i, n, 0.003, 2.5) for i, x in enumerate(f)]
+
+def may_no(d=1.6):  # xe nổ máy không tắt: xung trầm đều
+    n = int(SR * d); out = []
+    for i in range(n):
+        t = i / SR
+        pulse = math.exp(-((t * 14) % 1) * 6)
+        out.append(pulse * math.sin(2 * math.pi * 70 * t) * min(1, t * 8, (d - t) * 8))
+    return out
+
+def hoi_nuoc(d=1.2):  # hơi nước bốc: nhiễu cao, êm
+    n = int(SR * d); noise = [random.uniform(-1, 1) for _ in range(n)]
+    lo = lowpass(noise, 0.5)
+    return [(x - y) * math.sin(math.pi * i / n) for i, (x, y) in enumerate(zip(noise, lo))]
+
 for name, fn in {"whoosh": whoosh, "pop": pop, "ting": ting, "drop": drop, "rise": rise, "dau-wob": dau_wob,
                  "bonk": bonk, "boing": boing, "ka-ching": ka_ching, "buzz-sai": buzz_sai, "de-kem": de_kem,
                  "im-lang": im_lang, "xuoc-dia": xuoc_dia}.items():
+    write(name, fn())
+    print("ok", name)
+for name, fn in {"liu-lo-vui": liu_lo_vui, "liu-lo-hoi": liu_lo_hoi, "liu-lo-buon": liu_lo_buon, "liu-lo-soc": liu_lo_soc,
+                 "brr": brr, "tach-bang": tach_bang, "nuot": nuot, "buoc-tuyet": buoc_tuyet, "may-no": may_no,
+                 "hoi-nuoc": hoi_nuoc}.items():
     write(name, fn())
     print("ok", name)

@@ -37,7 +37,7 @@
 
 ## 4. Âm thanh
 
-- **Giọng đọc**: Azure AI Speech (dịch vụ chính thức, được dùng thương mại theo gói Azure). Edge TTS chỉ để nháp, `kiem_tra_ban_quyen.py` CHẶN bản giao dùng Edge. **Không** dùng gói miễn phí ElevenLabs (cấm thương mại). Không nhân bản giọng người thật.
+- **Giọng đọc**: Azure AI Speech (dịch vụ chính thức, được dùng thương mại theo gói Azure). Edge TTS chỉ để nháp, `kiem_tra_ban_quyen.py` CHẶN bản giao dùng Edge. **Ngoại lệ tạm (chốt 16/11/2026):** khi `.env` có `CHO_PHEP_EDGE=1` (kênh chưa kiếm tiền), Edge hạ xuống cảnh báo; chỉ dùng giọng Neural có cùng tên trên Azure, video làm bằng Edge không bật quảng cáo, và trước khi bật kiếm tiền phải xoá cờ, lồng lại bằng Azure. **Không** dùng gói miễn phí ElevenLabs (cấm thương mại). Không nhân bản giọng người thật.
 - **Nhạc nền** (`music/`): mỗi file một dòng trong `music/GIAY-PHEP.md` có cột Thương mại = `có` và bằng chứng; không có thì CHẶN. Không dùng nhạc phim, nhạc thương mại, nhạc tải từ YouTube, TikTok.
 - **Sfx** (`sfx/`): cùng quy tắc sổ `sfx/GIAY-PHEP.md`. Cấm âm thanh meme cắt từ phim, TV, game, hệ điều hành.
 

@@ -1,0 +1,594 @@
+{
+  "vong": 2,
+  "model": "Gemini web (Gemini Tự động)",
+  "nguon": "gemini-web",
+  "ngay": "2026-11-16",
+  "lo_da_nhan": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "In winter in Oymyakon, Russia, temperatures are cold enough that people's eyelashes freeze outdoors and residents often leave car engines running for long periods so they will restart.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reliable sources confirm that extreme winter cold freezes eyelashes and requires cars to be kept running.",
+      "nguon": [
+        {
+          "title": "Cars of Oymyakon – What Does It Take To Keep Them Running in Extreme Cold",
+          "url": "https://www.autoevolution.com/news/cars-of-oymyakon-what-does-it-take-to-keep-them-running-in-extreme-cold-178013.html",
+          "publisher": "Autoevolution",
+          "type": "bao",
+          "published": "2022-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "The village of Oymyakon in the Sakha Republic, Russia, has roughly 500 permanent residents (462 in the 2010 Russian census).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The 2010 Russian census recorded 462 residents, and general estimates place the population around 500.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikimedia Foundation",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "Oymyakon is often described as the coldest permanently inhabited place on Earth.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "[hạ từ 'dung': không còn nguồn nào mở được] Encyclopedias and major news outlets consistently describe Oymyakon as the coldest permanently inhabited place on Earth.",
+      "nguon": [
+        {
+          "title": "'Pole of Cold': life in the coldest inhabited village on Earth",
+          "url": "https://www.theguardian.com/world/2024/oct/25/pole-of-cold-life-in-the-coldest-inhabited-village-on-earth",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2024-10-25",
+          "url_song": false
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "On 6 February 1933 the weather station at Oymyakon, Russia, recorded about minus 68 degrees Celsius (about minus 90 Fahrenheit); Guinness World Records lists the value as minus 67.7 C and the World Meteorological Organization lists minus 67.8 C.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness World Records lists -67.7 C, WMO lists -67.8 C, and -68 C is a standard rounded equivalent.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "url": "https://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikipedia",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "Oymyakon's 1933 reading is the lowest recorded temperature for a permanently inhabited place, though Verkhoyansk has a comparable reading and some sources treat the record as shared.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness recognizes Oymyakon as the coldest permanently inhabited place while acknowledging Verkhoyansk's comparable reading.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "url": "https://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "Verkhoyansk, Russia, northwest of Oymyakon, recorded a temperature of about minus 67.7 to minus 67.8 degrees Celsius in February 1892.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Verkhoyansk recorded temperatures between -67.7 C and -67.8 C in February 1892.",
+      "nguon": [
+        {
+          "title": "Verkhoyansk",
+          "url": "https://en.wikipedia.org/wiki/Verkhoyansk",
+          "publisher": "Wikipedia",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "Some sources (for example Guinness World Records) describe Oymyakon and Verkhoyansk as sharing the record low for an inhabited place, while the World Meteorological Organization lists only Oymyakon and treats the Verkhoyansk reading as disputed.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness lists both locations together whereas WMO treats Verkhoyansk's historical reading as controversial.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "url": "https://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "WMO Region II (Asia): Lowest Temperature",
+          "url": "https://wmo.int/asu-map?original_nid=21824&map=Temp_014&book=21486",
+          "publisher": "World Meteorological Organization",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "statement": "The weather station associated with Oymyakon's temperature records is located in a valley between the villages of Oymyakon and Tomtor, near the airfield at Tomtor, rather than in Oymyakon village itself.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Geographic documentation notes that the official weather station is situated in the valley between Oymyakon and Tomtor.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikimedia Foundation",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "Some sources argue that the nearby village of Tomtor, where the record was measured, is the real Pole of Cold, while the official Pole of Cold monument stands in Oymyakon.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Some travel sources and accounts discuss discrepancies regarding station locations versus monuments between Tomtor and Oymyakon.",
+      "nguon": [
+        {
+          "title": "The world's coldest village: check (ver. 2022)!",
+          "url": "https://eugene.kaspersky.com/2022/04/21/the-worlds-coldest-village-check-ver-2022/",
+          "publisher": "Eugene Kaspersky's Blog",
+          "type": "bao",
+          "published": "2022-04-21",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "Oymyakon (about 63.5 degrees north) lies south of the Arctic Circle (about 66.5 degrees north).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Oymyakon is located at roughly 63.46° N latitude, which places it about 3 degrees south of the Arctic Circle (approx. 66.56° N).",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://www.britannica.com/place/Oymyakon",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Arctic Circle",
+          "url": "https://www.britannica.com/place/Arctic-Circle",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "In winter, the Siberian High, a semi-permanent area of high pressure, sits over eastern Siberia, bringing clear, dry, stable air that allows strong radiative cooling of the ground around Oymyakon.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Meteorological sources confirm that the semi-permanent Siberian High dominates eastern Siberia in winter, bringing clear, dry, calm conditions that maximize radiative heat loss.",
+      "nguon": [
+        {
+          "title": "Siberian High",
+          "url": "https://www.britannica.com/science/Siberian-high",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Siberian High",
+          "url": "https://glossary.ametsoc.org/wiki/Siberian_high",
+          "publisher": "American Meteorological Society (AMS Glossary)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "Oymyakon's valley setting traps dense cold air near the valley floor (a temperature inversion), and studies have found that in winter the surrounding mountain slopes can be much warmer than the valley floor.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reliable sources confirm temperature inversions in the Oymyakon valley cause cold air to pool, making surrounding mountain slopes significantly warmer in winter.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikipedia",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "The name Oymyakon is usually explained as meaning unfrozen or non-freezing water.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Toponymic and encyclopedic sources consistently translate Oymyakon as 'unfrozen water' or 'non-freezing patch of water', referring to nearby thermal springs.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://www.britannica.com/place/Oymyakon",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "Sources disagree on the origin of the name Oymyakon: some derive it from the Even language (for example the word kheium), others from the Sakha (Yakut) language.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": null,
+      "ghi_chu": "Linguistic sources offer competing etymologies, deriving the name either from the Even word 'kheium' (unfrozen patch of water) or the Sakha (Yakut) word 'eyum' (ice hole/spring).",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://www.britannica.com/place/Oymyakon",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "There are warm or thermal springs near Oymyakon whose water does not freeze in winter.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "There are documented thermal/mineral springs (polynias/unfrozen water patches) near Oymyakon that remain unfrozen despite extreme subzero winter air temperatures.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://www.britannica.com/place/Oymyakon",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "Reindeer herders historically stopped at the springs near Oymyakon to water their reindeer and rest.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Historical accounts confirm that nomadic Even reindeer herders used the unfrozen springs at Oymyakon as a winter stopping point to water their herds and rest.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://www.britannica.com/place/Oymyakon",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "Over time, the herders' stopping place at Oymyakon grew into a permanent village.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Historical summaries confirm Oymyakon began as a seasonal stopping place for reindeer herders before developing into a permanent settlement.",
+      "nguon": [
+        {
+          "title": "Coldest village of Russia: Oymyakon broke thermometer and froze lashes at minus 67 degrees C",
+          "url": "https://www.indiatoday.in/education-today/gk-current-affairs/story/coldest-village-of-russia-oymyakon-broke-thermometer-and-froze-lashes-at-minus-67-degrees-c-1148557-2018-01-18",
+          "publisher": "India Today",
+          "type": "bao",
+          "published": "2018-01-18",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "During the Soviet period a weather station was established near Oymyakon and an airfield was built near the village of Tomtor.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "A meteorological station was established in the area during the Soviet period, and an airfield was constructed near Tomtor for the Alaska-Siberia air route.",
+      "nguon": [
+        {
+          "title": "The Coldest Inhabited Place on Earth",
+          "url": "https://www.bbc.com/travel/article/20180507-the-coldest-inhabited-place-on-earth",
+          "publisher": "BBC",
+          "type": "bao",
+          "published": "2018-05-07",
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "Oymyakon's fame as the coldest inhabited place rests largely on the minus 67.7 degrees Celsius reading taken at its weather station in 1933.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The 1933 official weather station reading of -67.7 C is the cornerstone of Oymyakon's fame as the coldest permanently inhabited place.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "url": "https://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "In the 1930s the Soviet Union built a network of Gulag forced labour camps across the Kolyma region of north-eastern Siberia, largely for gold mining.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "In the 1930s, the Soviet Union established the Dalstroy agency and a vast network of Gulag camps across Kolyma primarily to exploit rich gold deposits.",
+      "nguon": [
+        {
+          "title": "Gulag: History, Camps, Features",
+          "url": "https://www.britannica.com/event/Gulag",
+          "publisher": "Encyclopædia Britannica",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "Construction of the Kolyma Highway began in the early 1930s using Gulag prisoner labour, and forced labour was used on it into the 1950s.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool was available in this session (Gemini web).",
+      "nguon": []
+    },
+    {
+      "id": "C22",
+      "statement": "Many of the prisoners who built the Kolyma Highway died during its construction.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "[hạ từ 'dung': không còn nguồn nào mở được] Severe conditions, brutal labor, and harsh treatment caused a massive death toll among the prisoners building the highway, earning it the moniker 'Road of Bones'.",
+      "nguon": [
+        {
+          "title": "The Road of Bones",
+          "url": "https://www.guardian.com/world/2014/jun/13/kolyma-highway-siberia-road-of-bones",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2014-06-13",
+          "url_song": false
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "The average January temperature at Oymyakon is around minus 46 degrees Celsius.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official climatological data and meteorological station records show the average January temperature in Oymyakon is approximately -46°C to -50°C.",
+      "nguon": [
+        {
+          "title": "Oymyakon Climate Normals",
+          "url": "http://pogodaiklimat.ru/climate/38357.htm",
+          "publisher": "Pogoda.ru.net",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "Around the December solstice, Oymyakon gets roughly four and a half hours of daylight per day.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Weather and astronomical data confirm that day length around the December solstice is roughly four and a half hours.",
+      "nguon": [
+        {
+          "title": "Oymyakon, Russia weather in December: average temperature",
+          "url": "https://wanderlog.com/weather/29123/12/oymyakon-weather-in-december",
+          "publisher": "Wanderlog",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "Oymyakon sits on permafrost, which makes conventional water pipes difficult to maintain, and many homes there use outdoor toilets.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Permafrost makes standard pipe maintenance extremely difficult, leading residents to rely on outdoor outhouses.",
+      "nguon": [
+        {
+          "title": "The one and only Oymyakon: the situation on the (frozen) ground.",
+          "url": "https://eugene.kaspersky.com/2021/03/10/the-one-and-only-oymyakon-the-situation-on-the-frozen-ground/",
+          "publisher": "Kaspersky",
+          "type": "bao",
+          "published": "2021-03-10",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "In Oymyakon, cars are often left running for long periods or warmed with a fire before starting, because engines may not start in extreme cold.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Extreme cold prevents engines from starting, so cars are often left running or warmed with fires.",
+      "nguon": [
+        {
+          "title": "Cars of Oymyakon – What Does It Take To Keep Them Running in Extreme Cold",
+          "url": "https://www.autoevolution.com/news/cars-of-oymyakon-what-does-it-take-to-keep-them-running-in-extreme-cold-178013.html",
+          "publisher": "Autoevolution",
+          "type": "bao",
+          "published": "2022-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "The diet in Oymyakon relies heavily on meat and fish, fish is sold frozen in winter, and farming is very difficult because of the frozen ground.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Frozen ground prevents traditional farming, making the diet heavily dependent on meat and frozen fish.",
+      "nguon": [
+        {
+          "title": "Which is the Coldest Village on Earth?",
+          "url": "https://www.jagranjosh.com/general-knowledge/coldest-inhabited-village-on-earth-1820005447-1",
+          "publisher": "Jagran Josh",
+          "type": "khac",
+          "published": "2026-01-09",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "In the Oymyakonsky district of Yakutia, classes for younger schoolchildren are cancelled when the temperature falls to around minus 52 degrees Celsius; exact thresholds for different ages vary between reports.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "School classes for younger children are indeed canceled when temperatures drop to around -52°C.",
+      "nguon": [
+        {
+          "title": "At the Pole of Cold, the Only School Closes When Temperatures Drop Under -52° Celsius",
+          "url": "https://www.odditycentral.com/news/at-the-pole-of-cold-the-only-school-closes-when-temperatures-drop-under-52-celsius.html",
+          "publisher": "Oddity Central",
+          "type": "bao",
+          "published": "2020-12-16",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "From around mid-June to the solstice, daylight at Oymyakon lasts more than 20 hours per day.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool was available in this session (Gemini web).",
+      "nguon": []
+    },
+    {
+      "id": "C31",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool was available in this session (Gemini web).",
+      "nguon": []
+    },
+    {
+      "id": "C32",
+      "statement": "The difference between Oymyakon's record low (minus 67.7 C) and record high (34.6 C) is about 102 degrees Celsius, one of the largest temperature ranges of any place on Earth.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The difference between the record low of -67.7°C and record high of 34.6°C spans over 102 degrees Celsius.",
+      "nguon": [
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikipedia",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Yakutian horses in the Sakha Republic live outdoors all year round, including through the winter.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
+      "nguon": []
+    },
+    {
+      "id": "C36",
+      "statement": "A 2015 genomic study (Librado et al., PNAS) found that Yakutian horses descend from domestic horses brought to the region a few centuries ago and adapted to the subarctic cold very quickly, with compact bodies and very hairy winter coats.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
+      "nguon": []
+    },
+    {
+      "id": "C38",
+      "statement": "A festival called Pole of Cold (Journey to the Pole of Cold) is held each spring in the Oymyakonsky district, with events in villages including Oymyakon and Tomtor.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
+      "nguon": []
+    },
+    {
+      "id": "C39",
+      "statement": "Chyskhaan, the Lord of Cold in Sakha (Yakut) tradition, is a central figure of the Pole of Cold festival and has an ice residence associated with him.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
+      "nguon": []
+    },
+    {
+      "id": "C40",
+      "statement": "A marathon called Pole of Cold - Oymyakon was held in the Oymyakon area in 2025.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
+      "nguon": []
+    }
+  ],
+  "usage": {
+    "calls": 8,
+    "ghi_chu": "giao diện web miễn phí, không tính token"
+  }
+}

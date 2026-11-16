@@ -9,7 +9,7 @@ Không có --som: kiểm bản giao (đọc timeline.json, audio/subtitles.json)
 
 CHẶN (mã thoát 1): tài nguyên không có trong manifest hoặc thiếu căn cứ; ảnh Commons NC/ND/không rõ giấy phép hoặc thiếu
 ghi công; ảnh AI thiếu prompt/model hoặc prompt xin ảnh như ảnh chụp; bản đồ chạm vùng Biển Đông chưa kiểm chủ quyền;
-nhạc, sfx, font không có trong sổ giấy phép; giọng đọc Edge TTS.
+nhạc, sfx, font không có trong sổ giấy phép; giọng đọc Edge TTS (trừ khi CHO_PHEP_EDGE=1 trong .env: hạ xuống CẢNH BÁO).
 CẢNH BÁO: lời đọc trùng > 30% với tập khác; danh sách ảnh AI cần tự xem (không giống ảnh chụp, không tái hiện sự kiện
 có thật mà chưa gắn nhãn).
 Luật: .claude/rules/chinh-xac-va-ban-quyen.md.
@@ -26,6 +26,21 @@ from pathlib import Path
 DENY = re.compile(r"\b(nc|nd)\b|non-?commercial|no ?deriv|fair use|non-free", re.I)
 PHOTO = re.compile(r"\b(photo|photograph|photorealistic|realistic photo|dslr|hyperrealistic)\b", re.I)
 BASES = {"ai-tao", "giay-phep", "public-domain", "tu-tao"}
+
+
+def cho_phep_edge(root: Path) -> bool:
+    """CHO_PHEP_EDGE=1 (biến môi trường hoặc .env ở gốc repo): tạm cho giao bản dùng Edge TTS khi kênh chưa kiếm tiền."""
+    import os
+    if os.environ.get("CHO_PHEP_EDGE") == "1":
+        return True
+    env = root / ".env"
+    if env.is_file():
+        for line in env.read_text(encoding="utf-8").splitlines():
+            if line.strip().replace(" ", "") == "CHO_PHEP_EDGE=1":
+                return True
+    return False
+
+
 AUDIO_EXT = {".mp3", ".wav", ".m4a", ".ogg", ".flac"}
 FONT_EXT = {".ttf", ".otf", ".woff", ".woff2"}
 
@@ -136,7 +151,9 @@ def main() -> int:
         sfx_l = ledger(root / "sfx" / "GIAY-PHEP.md")
         items = []
         if timeline.get("music"):
-            items.append(("nhạc", Path(timeline["music"]["src"]), music_l))
+            segs = timeline["music"].get("segments") or [{"src": timeline["music"]["src"]}]
+            for seg in segs:
+                items.append(("nhạc", Path(seg["src"]), music_l))
         for fx in timeline.get("sfx") or []:
             items.append(("sfx", Path(fx["src"]), sfx_l))
         seen = set()
@@ -172,7 +189,11 @@ def main() -> int:
         provider = subs.get("provider")
         voice_line = f"{provider or '?'} · {subs.get('voice', '?')} · {subs.get('rate', '?')}"
         if provider == "edge":
-            block.append("giọng đọc tạo bằng Edge TTS (chỉ để nháp): tạo lại bằng --provider azure")
+            if cho_phep_edge(root):
+                warn.append("giọng đọc Edge TTS (tạm cho phép, CHO_PHEP_EDGE=1): KHÔNG bật quảng cáo cho video này; "
+                            "trước khi kiếm tiền phải lồng lại bằng Azure cùng tên giọng")
+            else:
+                block.append("giọng đọc tạo bằng Edge TTS (chỉ để nháp): tạo lại bằng --provider azure")
         elif not provider:
             warn.append("không xác định được dịch vụ giọng đọc (audio/subtitles.json)")
 

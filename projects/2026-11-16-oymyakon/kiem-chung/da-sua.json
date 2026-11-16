@@ -1,0 +1,80 @@
+[
+  {
+    "id": "C04/C05/C07",
+    "loi_cu": "So just how cold does it get? On the sixth of February, nineteen thirty-three, the weather station here recorded minus sixty-seven point seven degrees Celsius. ",
+    "van_de": "Vòng 1: WMO ghi −67,8°C và chỉ ghi Oymyakon, coi Verkhoyansk là còn tranh cãi; Guinness ghi −67,7°C và nói chung kỷ lục với Verkhoyansk",
+    "xu_ly": "Nói cả hai con số kèm tên nguồn; bỏ câu 'WMO ghi hai nơi chung kỷ lục', thay bằng 'có nguồn nói chung, có nguồn coi số Verkhoyansk là còn tranh cãi'"
+  },
+  {
+    "id": "C09",
+    "loi_cu": "Both villages call themselves the Pole of Cold.",
+    "van_de": "Vòng 1: không có nguồn đáng tin nói cả hai làng cùng nhận danh hiệu; bia chính thức ở Oymyakon",
+    "xu_ly": "Sửa thành 'có nguồn cho rằng Tomtor mới là Pole of Cold; bia chính thức ở Oymyakon' (nói dè dặt)"
+  },
+  {
+    "id": "C12",
+    "loi_cu": "One study found that slopes less than three hundred metres higher could be up to twenty degrees Celsius warmer in winter.",
+    "van_de": "Vòng 1: nghiên cứu 2011 (Takahashi et al.) so thung lũng ~700 m với ~2.000 m, không phải dưới 300 m",
+    "xu_ly": "Sửa thành 'cao hơn trên một nghìn mét'"
+  },
+  {
+    "id": "C17",
+    "loi_cu": "According to most accounts, the camp grew into a permanent village in the nineteen twenties and thirties.",
+    "van_de": "Vòng 1: mốc 1920–30 chỉ có báo phổ thông, không đủ nguồn",
+    "xu_ly": "Bỏ mốc thời gian"
+  },
+  {
+    "id": "C18/C19",
+    "loi_cu": "The village took shape at the same time the Soviet state was pushing deep into this region.",
+    "van_de": "Ngầm định làng hình thành thập niên 1920–30 (không đủ nguồn)",
+    "xu_ly": "Bỏ ý 'cùng lúc' và 'chỉ vài năm sau khi làng thành hình'"
+  },
+  {
+    "id": "C21",
+    "loi_cu": "Prisoners began building the Kolyma Highway in nineteen thirty-two, and forced labour continued on it until nineteen fifty-three.",
+    "van_de": "Vòng 1: năm 1932, 1953 chỉ có trên Wikipedia",
+    "xu_ly": "Nói 'đầu thập niên 1930' và 'tới thập niên 1950'"
+  },
+  {
+    "id": "C23",
+    "loi_cu": "Oymyakon sits around a hundred kilometres off that highway, reached by a side road. The village's story begins with the springs. But the road that links it to the rest of the world was built by people who had no choice.",
+    "van_de": "Vòng 1: Oymyakon cách nút giao R504 hiện nay trên 200 km, cách Tomtor 30–40 km trên tuyến cũ; không cách đọc nào ra ~100 km",
+    "xu_ly": "Bỏ câu khoảng cách; câu kết chỉ nói đường cao tốc qua vùng do tù nhân xây"
+  },
+  {
+    "id": "C30",
+    "loi_cu": "In June, daylight lasts more than twenty hours.",
+    "van_de": "Vòng 1: trên 20 giờ chỉ từ khoảng giữa tháng 6",
+    "xu_ly": "Sửa 'By late June'"
+  },
+  {
+    "id": "C31",
+    "loi_cu": "On the twenty-eighth of July, twenty ten, the station recorded",
+    "van_de": "Ngày 28/7 chỉ có trên Wikipedia",
+    "xu_ly": "Bỏ ngày, giữ tháng/năm; tra lần ba nguồn khí tượng"
+  },
+  {
+    "id": "C33/C34",
+    "loi_cu": "Most residents are Sakha, also known as Yakuts. People here herd reindeer, hunt and fish, and work in the school, the local administration and small businesses.",
+    "van_de": "Vòng 1: không có số liệu dân tộc cấp làng (huyện 2021: 42,3% Yakut, 40,7% Nga); không có nguồn đáng tin về nghề nghiệp",
+    "xu_ly": "Nói ở cấp huyện; bỏ câu nghề nghiệp"
+  },
+  {
+    "id": "C33",
+    "loi_cu": "Across the wider district, the largest groups are Sakha, also known as Yakuts, and Russians.",
+    "van_de": "Hai vòng đều không mở được nguồn đáng tin (chỉ Wikipedia) cho tỉ lệ dân tộc 2021",
+    "xu_ly": "Bỏ câu"
+  },
+  {
+    "id": "C12",
+    "loi_cu": "One study reported that mountain slopes more than a thousand metres higher could be up to twenty degrees Celsius warmer in winter.",
+    "van_de": "Vòng 1 không mở được bài Takahashi 2011 để kiểm số 700/2.000 m, 20°C; nghiên cứu 2016 chỉ xác nhận nghịch nhiệt",
+    "xu_ly": "Bỏ con số, chỉ nói sườn núi có thể ấm hơn nhiều; bỏ thẻ số liệu"
+  },
+  {
+    "id": "C37",
+    "loi_cu": "The wider Oymyakonsky district counted around seven thousand seven hundred people in the twenty twenty-one census, down from about ten thousand in twenty ten.",
+    "van_de": "Chỉ có City Population (dẫn Rosstat); không mở được Rosstat/Sakhastat → mức D",
+    "xu_ly": "Bỏ con số dân số huyện, giữ 'Not everyone stays, though.'"
+  }
+]
