@@ -48,6 +48,7 @@ Trước khi giao video, Claude tự sửa theo kiểm định và phản biện
 | `kiem-chung/vong-1-claude.json` | 2 | Kết quả agent `kiem-chung-thong-tin` |
 | `kiem-chung/vong-2-gemini.json` | 2 | Kết quả Gemini (web qua `gemini_web.py`, hoặc API qua `gemini_kiem_chung.py`), không thấy vòng 1; bản web lưu prompt và câu trả lời gốc ở `kiem-chung/web/` |
 | `kiem-chung/doi-chieu.json`, `kiem-chung/doi-chieu.md` | 2 | Mức A–D từng khẳng định, chỗ lệch, cách xử lý |
+| `assets/ke-hoach-anh.json` | 3 | Ảnh AI nào đi nguồn ngoài, ảnh nào tạo nội bộ (ComfyUI), ảnh nào chờ, hạ hạng, nâng hạng (`ke_hoach_anh.py`, theo `anh_ai` trong `script.json`) |
 | `assets/manifest.json` + ảnh, bản đồ | 3 | Mỗi tài nguyên: file, loại, căn cứ, giấy phép, tác giả, nguồn, prompt và model (ảnh AI) |
 | `audio/scene-<id>.mp3`, `audio/subtitles.json` | 4 | Mốc từng từ, tính từ đầu mỗi cảnh |
 | `timeline.json` | 5 | Mốc tuyệt đối của cảnh, từ, nhịp hình, Wob, con dấu, sfx, nhạc, chương, mốc khẳng định |

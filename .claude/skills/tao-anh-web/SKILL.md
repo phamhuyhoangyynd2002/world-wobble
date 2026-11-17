@@ -16,7 +16,7 @@ Người làm kênh chọn đường này để không tốn API, sau khi đã n
 
 - **Điều khoản**: OpenAI cấm trích xuất Output bằng cách tự động hoặc bằng chương trình; Google có thể khoá truy cập khi thấy dùng bất thường. Bị khoá là mất tài khoản đó → **chỉ dùng tài khoản riêng**, không bao giờ dùng tài khoản Google/YouTube giữ kênh.
 - **Gemini web miễn phí ở Việt Nam có watermark ngôi sao hiện trên ảnh** (chỉ gói AI Ultra tắt được ở Việt Nam, tin 08/2026). Ảnh có watermark **không dùng**; **không** cắt, xoá, che watermark (lách điều khoản).
-- **Hạn mức miễn phí thấp và thay đổi** (ChatGPT thường được nói là 2–3 ảnh/ngày). Một tập cần 30–50 ảnh, nên đường này thường **không đủ cho cả tập**: dùng cho ảnh quan trọng, phần còn lại dùng bản đồ, nhịp `text`, ảnh Commons, hoặc API.
+- **Hạn mức miễn phí thấp và thay đổi** (ChatGPT thường được nói là 2–3 ảnh/ngày). Một tập cần 30–50 ảnh, nên đường này thường **không đủ cho cả tập**: chỉ dùng cho ảnh hạng chính trong `anh_ai`; ảnh phụ tạo nội bộ bằng ComfyUI (`lay-tai-nguyen`, `tao_anh_noi_bo.py`).
 
 ## Bước 0: một lần mỗi phiên
 
@@ -27,7 +27,7 @@ Người làm kênh chọn đường này để không tốn API, sau khi đã n
 
 ## Bước 1: danh sách ảnh cần tạo
 
-Đọc `script.json`, lấy mọi `asset:ai-…` trong `shots` chưa có file trong `assets/manifest.json` (hoặc chỉ `--only`). Xếp theo cảnh. `python3 …/anh_web.py dem` để biết hôm nay còn bao nhiêu lượt trong trần tự đặt.
+Chạy `python .claude/skills/lay-tai-nguyen/scripts/ke_hoach_anh.py <dự án>`, chỉ lấy các ảnh có việc `tao` hoặc `nang-hang` với nguồn `chatgpt-web` (hoặc chỉ `--only`). Ảnh phụ (`comfyui-noi-bo`) **không** tạo ở đây, để khỏi tốn lượt. Làm theo thứ tự điểm cao trước. `python3 …/anh_web.py dem` để biết hôm nay còn bao nhiêu lượt trong trần tự đặt.
 
 ## Bước 2: mỗi ảnh, lần lượt từng cái (không mở song song)
 
@@ -46,7 +46,7 @@ Người làm kênh chọn đường này để không tốn API, sau khi đã n
 
 ## Khi hết lượt hoặc nguồn không dùng được
 
-Theo thứ tự: (1) ChatGPT hết lượt → thử Gemini web: ảnh có ngôi sao watermark thì **dừng Gemini cho cả phiên**, không dùng ảnh đó. (2) Có `GEMINI_API_KEY` trong `.env` → hỏi người làm kênh có cho dùng API cho các ảnh còn lại không (`lay-tai-nguyen`, khoảng 0,04–0,07 USD/ảnh). (3) Không thì thay nhịp bằng bản đồ, ảnh Commons, nhịp `text`, hoặc để mai tạo tiếp; ghi CẢNH BÁO vào `nhat-ky.md` và báo lại khi giao video. Không đổi sang tài khoản khác để lấy thêm lượt.
+Theo thứ tự: (1) ChatGPT hết lượt → thử Gemini web: ảnh có ngôi sao watermark thì **dừng Gemini cho cả phiên**, không dùng ảnh đó. (2) Có `GEMINI_API_KEY` trong `.env` → hỏi người làm kênh có cho dùng API cho các ảnh còn lại không (`lay-tai-nguyen`, khoảng 0,04–0,07 USD/ảnh). (3) Không thì chạy lại `ke_hoach_anh.py <dự án> --luot-ngoai 0`, rồi chọn: để mai tạo tiếp (`--khi-thieu cho`), hoặc hạ hạng ảnh chính còn lại xuống ComfyUI nội bộ (`--khi-thieu ha-hang`, rồi `tao_anh_noi_bo.py tao … --ha-hang`). Ảnh có đồ vật, con vật cụ thể (`cu_the = 2`) mà hạ hạng thì xem kỹ, sai thì thay bằng đạo cụ SVG đặt trên ảnh phụ. Ghi CẢNH BÁO vào `nhat-ky.md` và báo lại khi giao video. Không đổi sang tài khoản khác để lấy thêm lượt.
 
 ## Xong khi
 

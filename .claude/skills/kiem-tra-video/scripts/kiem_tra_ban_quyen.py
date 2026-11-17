@@ -8,7 +8,8 @@ Cách dùng:
 Không có --som: kiểm bản giao (đọc timeline.json, audio/subtitles.json), ghi ban-quyen.md và out/ghi-cong.txt.
 
 CHẶN (mã thoát 1): tài nguyên không có trong manifest hoặc thiếu căn cứ; ảnh Commons NC/ND/không rõ giấy phép hoặc thiếu
-ghi công; ảnh AI thiếu prompt/model hoặc prompt xin ảnh như ảnh chụp; bản đồ chạm vùng Biển Đông chưa kiểm chủ quyền;
+ghi công; ảnh AI thiếu prompt/model hoặc prompt xin ảnh như ảnh chụp; ảnh AI nội bộ (ComfyUI) dùng model chưa kiểm
+giấy phép hoặc chưa xem; bản đồ chạm vùng Biển Đông chưa kiểm chủ quyền;
 nhạc, sfx, font không có trong sổ giấy phép; giọng đọc Edge TTS (trừ khi CHO_PHEP_EDGE=1 trong .env: hạ xuống CẢNH BÁO).
 CẢNH BÁO: lời đọc trùng > 30% với tập khác; danh sách ảnh AI cần tự xem (không giống ảnh chụp, không tái hiện sự kiện
 có thật mà chưa gắn nhãn).
@@ -131,6 +132,18 @@ def main() -> int:
                     block.append(f"'{aid}': ảnh {a['nguon']} không ghi đã dùng tài khoản riêng (không phải tài khoản kênh)")
                 warn.append(f"'{aid}': tạo trên {a['nguon']} (giao diện web, điều khiển bằng Browser MCP): điều khoản "
                             "của dịch vụ hạn chế truy cập tự động; người làm kênh đã chấp nhận rủi ro ngày 15/11/2026")
+            # ảnh tạo nội bộ bằng ComfyUI (tao_anh_noi_bo.py): chỉ model đã kiểm giấy phép thương mại, phải đã xem
+            if a.get("nguon") == "comfyui-noi-bo":
+                sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lay-tai-nguyen" / "scripts"))
+                from tao_anh_noi_bo import MODELS
+                if a.get("model_file") not in MODELS:
+                    block.append(f"'{aid}': model nội bộ '{a.get('model_file')}' chưa có trong danh sách đã kiểm "
+                                 "giấy phép thương mại (MODELS trong tao_anh_noi_bo.py)")
+                if a.get("da_xem") is not True:
+                    block.append(f"'{aid}': ảnh nội bộ chưa ghi đã xem (da_xem: true sau khi mở ảnh)")
+                if a.get("ha_hang"):
+                    warn.append(f"'{aid}': ảnh hạng chính nhưng tạo nội bộ vì nguồn ngoài hết lượt: xem kỹ chi tiết "
+                                "riêng của nơi đó, báo lại khi giao video")
             ai_list.append(aid)
         if kind == "ban-do" and a.get("vung_bien_dong") and a.get("chu_quyen_da_kiem") is not True:
             block.append(f"'{aid}': bản đồ chạm vùng Biển Đông chưa kiểm chủ quyền (chu_quyen_da_kiem: true sau khi xem)")
