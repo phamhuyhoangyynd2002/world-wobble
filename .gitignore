@@ -18,3 +18,21 @@ projects/*/out/frames/
 
 # Ảnh chụp thử của HyperFrames
 **/snapshots/
+
+# Bản thử (ban-thu-*): video, khung hình, audio, node_modules
+projects/*/ban-thu-*/**/out/*.mp4
+projects/*/ban-thu-*/**/out/frames/
+projects/*/ban-thu-*/**/audio/
+projects/*/ban-thu-*/**/node_modules/
+
+# Repo ngoài tải về để đọc mã (có .git riêng)
+projects/*/ban-thu-*/**/repo-ngoai/
+projects/*/ban-thu-*/**/music/
+projects/*/ban-thu-*/**/sfx/
+projects/*/ban-thu-*/**/fonts/
+projects/*/ban-thu-*/**/_shared/
+# Đoạn hoạt hình: lib/ và _chung/ do chuan_bi_doan.py chép lại từ templates/hoat-hinh/
+projects/**/hoat-hinh/doan-*/lib/
+projects/**/hoat-hinh/doan-*/_chung/
+projects/**/hoat-hinh/out/*.mp4
+projects/**/hoat-hinh/out/frames/

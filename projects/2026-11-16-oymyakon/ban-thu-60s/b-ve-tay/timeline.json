@@ -1,0 +1,230 @@
+{
+ "_ghi_chu": "Tối thiểu cho mix_audio.py, sinh bởi tools/tao_du_lieu.py",
+ "duration": 60.3,
+ "scenes": [
+  {
+   "id": 1,
+   "start": 0.4
+  },
+  {
+   "id": 2,
+   "start": 12.6
+  },
+  {
+   "id": 3,
+   "start": 27.0
+  },
+  {
+   "id": 4,
+   "start": 42.2
+  },
+  {
+   "id": 5,
+   "start": 55.4
+  }
+ ],
+ "sfx": [
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/whoosh.wav",
+   "at": 0.7,
+   "volume": 0.3
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/bonk.wav",
+   "at": 1.62,
+   "volume": 0.85
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/whoosh.wav",
+   "at": 2.38,
+   "volume": 0.22
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/whoosh.wav",
+   "at": 9.6,
+   "volume": 0.35
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/whoosh.wav",
+   "at": 11.2,
+   "volume": 0.45
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/drop.wav",
+   "at": 15.62,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/tach-bang.wav",
+   "at": 17.55,
+   "volume": 0.4
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 20.25,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 20.62,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 21.0,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/pop.wav",
+   "at": 22.15,
+   "volume": 0.75
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/tach-bang.wav",
+   "at": 22.62,
+   "volume": 0.7
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/liu-lo-soc.wav",
+   "at": 22.92,
+   "volume": 0.6
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 25.85,
+   "volume": 0.5
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 26.25,
+   "volume": 0.5
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 26.65,
+   "volume": 0.5
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 27.05,
+   "volume": 0.5
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/bonk.wav",
+   "at": 30.55,
+   "volume": 0.6
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/drop.wav",
+   "at": 32.92,
+   "volume": 0.9
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/bonk.wav",
+   "at": 32.95,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/liu-lo-hoi.wav",
+   "at": 34.0,
+   "volume": 0.6
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/pop.wav",
+   "at": 35.62,
+   "volume": 0.6
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 36.95,
+   "volume": 0.45
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 37.35,
+   "volume": 0.45
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/buoc-tuyet.wav",
+   "at": 37.75,
+   "volume": 0.45
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/ting.wav",
+   "at": 39.05,
+   "volume": 0.5
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/may-no.wav",
+   "at": 41.1,
+   "volume": 0.35
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/may-no.wav",
+   "at": 42.6,
+   "volume": 0.35
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/may-no.wav",
+   "at": 44.1,
+   "volume": 0.35
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/may-no.wav",
+   "at": 45.6,
+   "volume": 0.3
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/liu-lo-vui.wav",
+   "at": 45.25,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/bonk.wav",
+   "at": 48.3,
+   "volume": 0.4
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/drop.wav",
+   "at": 49.95,
+   "volume": 0.7
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/hoi-nuoc.wav",
+   "at": 50.85,
+   "volume": 0.45
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/tach-bang.wav",
+   "at": 52.3,
+   "volume": 0.7
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/ting.wav",
+   "at": 53.22,
+   "volume": 0.55
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/drop.wav",
+   "at": 56.7,
+   "volume": 0.25
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/sfx/brr.wav",
+   "at": 58.85,
+   "volume": 0.6
+  }
+ ],
+ "music": {
+  "volume": 0.22,
+  "crossfade": 0.5,
+  "segments": [
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/projects/2026-11-16-oymyakon/ban-thu-60s/b-ve-tay/music/frost-waltz.mp3",
+    "start": 11.1,
+    "end": 53.62,
+    "mood": "hoi-uc"
+   }
+  ]
+ }
+}

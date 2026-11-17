@@ -5,9 +5,12 @@ Cách dùng: python3 validate_script.py <thư mục dự án>
 
 LỖI (mã thoát 1, phải sửa): sai schema, câu có số/kỷ lục chưa đăng ký khẳng định, quote không nằm trong lời đọc,
 nguồn không tồn tại, verdict sai số lần hoặc sai nhãn, từ cấm, câu mở hoặc câu kết dùng lại nguyên văn,
-cue không có trong lời đọc, asset không có trong manifest (nếu đã có manifest).
+cue không có trong lời đọc, asset không có trong manifest (nếu đã có manifest), ảnh asset:ai-… chưa khai báo
+trong anh_ai hoặc hạng không khớp điểm (references/hang-anh.md).
 CẢNH BÁO: độ dài ước tính ngoài mục tiêu, kiểu hook lặp 3 tập, tiêu đề giống khuôn tập trước, cảnh hook dài,
 chương ít hơn 3, câu quá dài, câu đệm.
+Kịch bản "Wob kể chuyến đi" (cảnh có `lop`, từ 17/11/2026): thêm kiểm lop/khuon/y_hinh, ngôi thứ nhất, gag ở cảnh
+hồi ức, khuôn chương đủ đa dạng, câu chuyển và câu đôi không lặp (check_ke_chuyen, references/cong-thuc-ke-chuyen.md).
 """
 from __future__ import annotations
 
@@ -44,6 +47,55 @@ HEDGES = re.compile(r"estimates? vary|according to|some sources|other sources|re
                     r"it'?s said|by some accounts|disputed|depending on (who|how)|records (differ|disagree)|"
                     r"no one (knows|agrees)|roughly|it'?s claimed|legend has it", re.I)
 SHOW_RE = re.compile(r"^(asset:[\w.-]+|text|fact:.+)$")
+
+
+def check_anh_ai(script: dict, scenes: list, errors: list, warns: list) -> None:
+    """Mọi asset:ai-… phải khai báo trong anh_ai; mỗi mục có điểm và hạng khớp luật hang_anh.py."""
+    import os
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lay-tai-nguyen" / "scripts"))
+    from hang_anh import kiem_muc
+    from tao_anh_ai import load_env
+
+    load_env(Path(__file__).resolve().parents[4])
+    ds = script.get("anh_ai") or []
+    if not isinstance(ds, list):
+        errors.append("anh_ai phải là danh sách")
+        return
+    ids_scene = {s.get("id") for s in scenes}
+    khai = {}
+    for m in ds:
+        aid = m.get("id") if isinstance(m, dict) else None
+        if not aid or not re.fullmatch(r"ai-[a-z0-9][a-z0-9.-]*", aid):
+            errors.append(f"anh_ai: id '{aid}' phải dạng ai-<mô-tả> (chữ thường, số, gạch nối)")
+            continue
+        if aid in khai:
+            errors.append(f"anh_ai: id '{aid}' khai báo hai lần")
+        khai[aid] = m
+        if not (m.get("canh") or "").strip():
+            errors.append(f"anh_ai '{aid}': thiếu canh (nội dung cảnh tiếng Anh)")
+        sc = m.get("scenes")
+        if not sc or not isinstance(sc, list) or any(x not in ids_scene for x in sc):
+            errors.append(f"anh_ai '{aid}': scenes phải là danh sách id cảnh có thật")
+        for e in kiem_muc(m):
+            errors.append(f"anh_ai '{aid}': {e}")
+    thieu: dict[str, list] = {}
+    for sc in scenes:
+        for sh in sc.get("shots") or []:
+            show = sh.get("show", "")
+            if show.startswith("asset:ai-") and show[6:] not in khai:
+                thieu.setdefault(show[6:], [])
+                if sc.get("id") not in thieu[show[6:]]:
+                    thieu[show[6:]].append(sc.get("id"))
+    for aid, scs in thieu.items():
+        errors.append(f"'{aid}' (cảnh {', '.join(map(str, scs))}) chưa khai báo trong anh_ai (điểm + hạng)")
+    try:
+        toi_da = int(os.environ.get("ANH_CHINH_TOI_DA", "6"))
+    except ValueError:
+        toi_da = 6
+    so_chinh = sum(1 for m in khai.values() if m.get("hang") == "chinh")
+    if so_chinh > toi_da:
+        warns.append(f"anh_ai: {so_chinh} ảnh chính > {toi_da} (ANH_CHINH_TOI_DA); nguồn ngoài có hạn, "
+                     "gom chi tiết riêng vào ít ảnh hơn hoặc vẽ đồ vật bằng SVG (references/hang-anh.md)")
 
 
 def sentences(text: str) -> list[str]:
@@ -88,6 +140,90 @@ def other_scripts(project: Path) -> list[tuple[str, dict]]:
         except (json.JSONDecodeError, OSError):
             continue
     return out
+
+
+LOPS = {"hien-tai", "hoi-uc"}
+KHUONS = {"thu-hong-hieu", "doan-sai-roi-lat", "phong-quy-mo", "mot-ngay-o-day", "so-sanh-doi-thuong",
+          "trang-so-hanh-trinh", "lich-su-nghiem", "hai-mua"}
+FIRST_PERSON = re.compile(r"\b(i|i'm|i'd|i've|i'll|me|my|mine|myself)\b", re.I)
+WOB_THIRD = re.compile(r"\bWob (has|is|was|decides|decided|wants|thinks|tries|tried|goes|went|feels)\b")
+OPENER_SKIP = {"i", "the", "it", "my", "so", "and", "but", "a", "this", "that", "in", "at", "on", "then"}
+
+
+def check_ke_chuyen(script: dict, scenes: list, others: list, errors: list, warns: list) -> None:
+    """Định dạng "Wob kể chuyến đi" (cảnh có `lop`): ngôi thứ nhất, khuôn chương, gợi ý hình y_hinh, chống lặp câu chuyển.
+    Luật: references/cong-thuc-ke-chuyen.md (đúc kết 17/11/2026). Kịch bản kiểu trình chiếu cũ (không có `lop`) bỏ qua."""
+    if not any("lop" in s for s in scenes):
+        return
+    # khuôn của từng chương = khuôn khai ở cảnh mở chương (hoặc cảnh đầu tiên trong chương có khai)
+    chuong: list[dict] = []
+    for sc in scenes:
+        sid = sc.get("id")
+        if sc.get("lop") not in LOPS:
+            errors.append(f"cảnh {sid}: lop '{sc.get('lop')}' không thuộc {sorted(LOPS)}")
+        if sc.get("khuon") and sc["khuon"] not in KHUONS:
+            errors.append(f"cảnh {sid}: khuon '{sc['khuon']}' không thuộc {sorted(KHUONS)}")
+        if sc.get("chapter") or not chuong:
+            chuong.append({"ten": sc.get("chapter"), "type": sc.get("type"), "khuon": sc.get("khuon"), "canh": [sc]})
+        else:
+            chuong[-1]["canh"].append(sc)
+            chuong[-1]["khuon"] = chuong[-1]["khuon"] or sc.get("khuon")
+        narr = sc.get("narration") or ""
+        if WOB_THIRD.search(narr):
+            warns.append(f"cảnh {sid}: lời kể Wob ở ngôi thứ ba ('{WOB_THIRD.search(narr).group(0)}'); Wob tự kể: 'I …'")
+        if len(words(narr)) >= 15 and not FIRST_PERSON.search(narr):
+            warns.append(f"cảnh {sid}: không có ngôi thứ nhất (I, my, me); Wob là người kể")
+        lownorm = norm(narr)
+        yh = sc.get("y_hinh") or []
+        if not isinstance(yh, list):
+            errors.append(f"cảnh {sid}: y_hinh phải là danh sách {{cue, y, gag?}}")
+            yh = []
+        for item in yh:
+            if not item.get("y"):
+                errors.append(f"cảnh {sid}: y_hinh thiếu 'y' (ý hình)")
+            if item.get("cue") and norm(item["cue"]) not in lownorm:
+                errors.append(f"cảnh {sid}: y_hinh cue '{item['cue']}' không có trong lời đọc")
+    if scenes and scenes[0].get("lop") != "hien-tai":
+        warns.append("cảnh hook nên ở lop 'hien-tai' (Wob ở bàn, cầm kỷ vật)")
+    for ch in chuong:
+        nghiem = ch["khuon"] == "lich-su-nghiem"
+        for sc in ch["canh"]:
+            if sc.get("lop") == "hoi-uc" and not nghiem and not any((y or {}).get("gag") for y in sc.get("y_hinh") or []):
+                warns.append(f"cảnh {sc.get('id')} (hồi ức): chưa có gag bằng hình trong y_hinh")
+            if nghiem and any((y or {}).get("gag") for y in sc.get("y_hinh") or []):
+                errors.append(f"cảnh {sc.get('id')}: chương lich-su-nghiem không được có gag")
+    giua = [c for c in chuong if c["type"] not in ("hook", "outro") and any(s.get("type") == "section" for s in c["canh"])]
+    thieu = [c["ten"] for c in giua if not c["khuon"]]
+    if thieu:
+        warns.append(f"chương chưa khai khuon: {thieu}")
+    k = [c["khuon"] for c in giua if c["khuon"]]
+    if len(giua) >= 4 and len(set(k)) < 4:
+        warns.append(f"chỉ dùng {len(set(k))} khuôn chương khác nhau ({sorted(set(k))}); nên ≥ 4 để đổi cách kể, cách dựng")
+    for a, b in zip(k, k[1:]):
+        if a == b:
+            warns.append(f"hai chương liền nhau cùng khuôn '{a}'")
+    if k.count("lich-su-nghiem") > 1:
+        warns.append("lich-su-nghiem quá một chương")
+    if k and k[0] == "lich-su-nghiem":
+        warns.append("chương mở tập không nên là lich-su-nghiem")
+    # câu chuyển, câu đôi tỉnh bơ lặp
+    mo: dict[str, set] = {}
+    for sc in scenes:
+        for s in sentences(sc.get("narration") or ""):
+            w = norm(s).split()
+            if len(w) >= 3 and w[0] not in OPENER_SKIP:
+                mo.setdefault(" ".join(w[:3]), set()).add(sc.get("id"))
+    for op, ids in mo.items():
+        if len(ids) >= 3:
+            warns.append(f"cụm mở câu '{op}' lặp ở {len(ids)} cảnh {sorted(ids)}: đổi câu chuyển")
+    luck = sum(len(re.findall(r"\bunluckily\b", sc.get("narration") or "", re.I)) for sc in scenes)
+    if luck > 1:
+        warns.append(f"câu đôi 'Luckily… Unluckily…' dùng {luck} lần; tối đa 1 lần mỗi tập")
+    # chương mở tập không lặp khuôn chương mở của tập trước
+    if k and others:
+        prev = [s.get("khuon") for s in (others[-1][1].get("scenes") or []) if s.get("khuon")]
+        if prev and prev[0] == k[0]:
+            warns.append(f"chương mở dùng lại khuôn '{k[0]}' của tập {others[-1][0]}")
 
 
 def main() -> int:
@@ -228,6 +364,9 @@ def main() -> int:
             if fx.get("name") == "dau-wob":
                 errors.append(f"cảnh {sid}: không khai báo 'dau-wob' (build_timeline.py tự thêm cùng con dấu)")
 
+    # ---- ảnh AI chấm hạng (anh_ai, chốt 17/11/2026; luật ở lay-tai-nguyen/scripts/hang_anh.py)
+    check_anh_ai(script, scenes, errors, warns)
+
     # ---- verdict
     verdicts = [(s["id"], s["verdict"]) for s in scenes if s.get("verdict")]
     if len(verdicts) != 1:
@@ -305,6 +444,9 @@ def main() -> int:
     recent = [o.get("hook_type") for _, o in others[-3:]]
     if script.get("hook_type") and len(recent) == 3 and all(h == script["hook_type"] for h in recent):
         warns.append(f"kiểu hook '{script['hook_type']}' đã dùng ở 3 tập gần nhất")
+
+    # ---- kể chuyện ngôi thứ nhất: lop, khuon, y_hinh, chống lặp câu chuyển (references/cong-thuc-ke-chuyen.md)
+    check_ke_chuyen(script, scenes, others, errors, warns)
 
     # ---- độ dài
     est = total_words / WPM * 60

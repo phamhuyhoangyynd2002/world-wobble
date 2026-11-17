@@ -1,0 +1,1 @@
+{ "name": "t4-wob-3d", "private": true, "dependencies": { "three": "0.181.0" } }

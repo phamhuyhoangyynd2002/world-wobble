@@ -16,7 +16,10 @@ argument-hint: "<tên nơi | thư mục dự án>"
 4. **Chi tiết chỉ đúng với nơi này** (ít nhất 5): thứ người xem sẽ kể lại cho người khác.
 5. **Chất liệu hài** (có nguồn): sự tương phản, chuyện vô lý có thật, nơi này so với điều bình thường. Không lấy người dân làm trò cười.
 6. **Bản đồ cần vẽ**: toạ độ (lat, lon) của nơi và các điểm liên quan, nước cần tô, khung có chạm vùng Biển Đông hay biên giới tranh chấp không.
-7. **Ảnh thật có giấy phép** (nếu cần): chạy `commons.py --search` để biết có ảnh CC BY / CC BY-SA / CC0 dùng được không.
+7. **Ảnh thật có giấy phép** (nếu cần): chạy `commons.py --search` để biết có ảnh CC BY / CC BY-SA / CC0 dùng được không. Từ 16/11/2026 video là hoạt hình, không đưa ảnh thật vào video: ảnh chỉ để người vẽ tham khảo cho đúng.
+8. **Hoạt động và trải nghiệm ở nơi đó** (bắt buộc, 5–8 mục, chốt 17/11/2026): việc có thật người ở đó làm hoặc người tới thăm gặp, mỗi việc ghi: làm gì, mùa nào, ở đâu, nguồn, **trả lời mảnh nào của câu hỏi "vì sao người ta sống ở đây"**, và khuôn chương gợi ý (`.claude/skills/viet-kich-ban/references/cong-thuc-ke-chuyen.md` mục 3). Đây là xương sống chương của biên kịch: mỗi chương là một việc Wob làm hoặc tận mắt thấy.
+9. **Chất liệu để vẽ đúng**: nhà cửa (vật liệu, mái, màu), phương tiện, con vật, đồ vật đặc trưng, quần áo người dân (dạng chung), màu đất trời theo mùa, ánh sáng (giờ mặt trời mọc, lặn theo mùa). Có nguồn; người dựng hoạt hình dựa vào đây để không vẽ sai.
+10. **So sánh đời thường** (2–4 ứng viên): hình ảnh quen thuộc giải thích được cơ chế của nơi này (tủ đông, ấm nước, xe hơi buổi sáng) mà không làm sai sự thật; ghi cơ chế thật bên cạnh.
 
 ## Nguồn
 
@@ -33,6 +36,10 @@ Theo `.claude/rules/chinh-xac-va-ban-quyen.md` mục 2: nguồn gốc → bách 
 ## Đời sống thường ngày
 ## Chi tiết chỉ đúng với nơi này
 ## Chất liệu hài (có nguồn)
+## Hoạt động và trải nghiệm
+| Hoạt động | Mùa | Ở đâu | Mảnh "vì sao" | Khuôn gợi ý | Nguồn |
+## Chất liệu để vẽ đúng
+## So sánh đời thường (ứng viên)
 ## Số liệu
 | Số liệu | Giá trị | Năm | Nguồn | Ghi chú (mâu thuẫn, tiêu chí) |
 ## Bản đồ

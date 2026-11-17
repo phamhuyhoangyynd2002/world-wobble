@@ -6,7 +6,7 @@ Kênh tách hẳn khỏi Game Vừa Ví (dự án GameReel ở `~/Desktop/Gaming
 
 Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên hình, tiêu đề, mô tả viết tiếng Anh.
 
-> **Định hướng đổi ngày 16/11/2026:** video là **hoạt hình "Wob kể chuyến đi"** (Wob tự kể ngôi thứ nhất, diễn trong cảnh vẽ, không ảnh thật). Đọc [docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md](docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md) trước mọi việc sản xuất. Template, schema, luật bên dưới còn theo kiểu trình chiếu cũ cho tới khi làm xong mục 7 của tài liệu đó; bước tiếp theo là bản thử ~75 giây. Tập 2–5 tạm dừng.
+> **Định hướng đổi ngày 16/11/2026:** video là **hoạt hình "Wob kể chuyến đi"** (Wob tự kể ngôi thứ nhất, diễn trong cảnh vẽ, không ảnh thật). Đọc [docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md](docs/dinh-huong-hoat-hinh-ke-chuyen-2026-11-16.md) trước mọi việc sản xuất. Template, schema, luật bên dưới còn theo kiểu trình chiếu cũ cho tới khi làm xong mục 7 của tài liệu đó; bản thử 60 giây đã làm xong (16/11). **Mỗi video phối 3 phong cách hoạt hình theo cảnh** (cắt giấy có khớp, animatic vẽ tay, diorama 2.5D): đọc [docs/phong-cach-hoat-hinh-3-huong-2026-11-16.md](docs/phong-cach-hoat-hinh-3-huong-2026-11-16.md) và [templates/hoat-hinh/HOP-DONG.md](templates/hoat-hinh/HOP-DONG.md); dựng bằng `/dung-hoat-hinh` thay `/xuat-video`. Tập 2–5 tạm dừng.
 
 ## Người làm kênh chỉ làm gì
 
@@ -28,7 +28,8 @@ Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên h�
 | Bản đồ, ảnh minh hoạ AI, ảnh Commons | `/lay-tai-nguyen <thư mục dự án>` |
 | Ảnh AI miễn phí qua ChatGPT web / Gemini web (Browser MCP, tài khoản riêng) | `/tao-anh-web <thư mục dự án>` |
 | Giọng đọc + timeline | `/long-tieng <thư mục dự án>` |
-| Render MP4 | `/xuat-video <thư mục dự án>` |
+| Render MP4 (kiểu trình chiếu cũ) | `/xuat-video <thư mục dự án>` |
+| Dựng hoạt hình phối 3 phong cách (phân cảnh → 3 agent dựng song song → ghép) | `/dung-hoat-hinh <thư mục dự án>` |
 | Kiểm tra trước khi giao | `/kiem-tra-video <thư mục dự án>` |
 | Tiêu đề, mô tả, thumbnail | `/seo-youtube <thư mục dự án>` |
 | Thumbnail + điền form YouTube Studio | `/dang-bai <thư mục dự án>` |
@@ -81,6 +82,8 @@ brief.md ─► research.md ─► script.json ─┬─► kiem-chung/ (Claude 
 | `kiem-chung-thong-tin` | Kiểm chứng vòng 1 (Claude), độc lập với Gemini; tra lần ba khi lệch |
 | `thu-thap-tai-nguyen` | Bản đồ code, ảnh AI, ảnh Commons, `assets/manifest.json` |
 | `bien-tap-video` | Dựng HyperFrames, render, trộn âm |
+| `dao-dien-hoat-hinh` | Viết `hoat-hinh/phan-canh.json`: chia đoạn, chọn phong cách, biên đạo nhịp, gag |
+| `dung-cat-giay` · `dung-ve-tay` · `dung-diorama` | Dựng các đoạn của phong cách mình thành clip câm (chạy song song) |
 | `kiem-dinh-video` | Kỹ thuật, bản quyền, chủ quyền, xem khung hình |
 | `phan-bien-video` | "Chê thẳng" như người xem YouTube, 5 việc nên sửa |
 | `seo-youtube` | Tiêu đề, mô tả, thẻ, thumbnail |
@@ -89,11 +92,12 @@ Vòng 2 kiểm chứng không phải agent: mặc định chạy qua **Gemini we
 
 ## Môi trường
 
-- **Node 22+** cho HyperFrames. Máy này mặc định Node 20; Node 22 có qua nvm: `export PATH=$HOME/.nvm/versions/node/v22.23.3/bin:$PATH` trước mỗi lệnh `npx hyperframes` (không sửa `.npmrc`). `npm install` một lần ở gốc repo để có `d3-geo` (vẽ bản đồ).
+- **Node 22+** cho HyperFrames. Máy này mặc định Node 20; Node 22 có qua nvm: `export PATH=$HOME/.nvm/versions/node/v22.23.3/bin:$PATH` trước mỗi lệnh `npx hyperframes` trên máy Mac cũ; máy Windows hiện tại đã có Node 22.14 trong PATH (không sửa `.npmrc`). `npm install` một lần ở gốc repo để có `d3-geo` (vẽ bản đồ).
 - FFmpeg, Chrome. Python 3.9+ với `pip install azure-cognitiveservices-speech faster-whisper pillow`; `edge-tts` chỉ để nháp.
 - `.env` (mẫu ở `.env.example`): `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`, `GEMINI_API_KEY`, `GEMINI_MODEL` (có tìm kiếm web), `GEMINI_IMAGE_MODEL`. Chọn model bằng `python3 .claude/skills/kiem-chung/scripts/gemini_kiem_chung.py --list-models`.
 - Người làm kênh tự điền và **ghi sổ giấy phép**: `music/` + `music/GIAY-PHEP.md`; `sfx/` đã có bộ tự tổng hợp (`sfx/nguon/tao_sfx.py`) kèm sổ. File không có trong sổ sẽ bị chặn.
 - Bản đồ nền Natural Earth (bản quan điểm Việt Nam) tự tải vào `.cache/` lần đầu.
+- **Ảnh AI chia hạng (chốt 17/11/2026):** biên kịch chấm mỗi ảnh trong `script.json` → `anh_ai` ([hang-anh.md](.claude/skills/viet-kich-ban/references/hang-anh.md)). Ảnh chính tạo bằng nguồn ngoài (Gemini API hoặc `/tao-anh-web`). Ảnh phụ tạo nội bộ bằng ComfyUI ở `D:/ComfyUI` (SDXL base 1.0) qua `tao_anh_noi_bo.py`; chia việc bằng `ke_hoach_anh.py`. Cài đặt và kết quả thử: [docs/thu-nghiem-comfyui-2026-11-17.md](docs/thu-nghiem-comfyui-2026-11-17.md).
 
 ## Việc còn mở (xem TODO trong hồ sơ kênh)
 

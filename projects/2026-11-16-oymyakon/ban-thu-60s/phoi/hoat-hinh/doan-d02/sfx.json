@@ -1,0 +1,57 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "drop",
+  "tai": 3.058,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "ting",
+  "tai": 5.875,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 7.737,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 7.987,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 8.237,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 8.487,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "pop",
+  "tai": 9.5,
+  "am_luong": 0.75
+ },
+ {
+  "ten": "tach-bang",
+  "tai": 10.012,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "liu-lo-soc",
+  "tai": 10.312,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "tach-bang",
+  "tai": 13.12,
+  "am_luong": 0.28
+ }
+]

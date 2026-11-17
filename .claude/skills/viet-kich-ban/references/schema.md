@@ -20,6 +20,7 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `burn_captions` | bool | không | Mặc định `false` (phụ đề tải lên YouTube bằng `out/captions.srt`) |
 | `music_mood` | string | không | Tâm trạng nhạc mặc định của tập: `to-mo` \| `khac-nghiet` \| `hai` (bảng trong `music/GIAY-PHEP.md`). Mặc định `to-mo` |
 | `scenes` | Scene[] | có | |
+| `anh_ai` | AnhAI[] | khi có ảnh AI | Mọi ảnh AI tập cần, kèm điểm và hạng chính/phụ (xem dưới). Bắt buộc khi `shots` có `asset:ai-…` |
 | `claims` | Claim[] | có | Mọi khẳng định có thể sai |
 | `sources` | Source[] | có | |
 
@@ -31,7 +32,10 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `type` | `"hook"` \| `"section"` \| `"outro"` | có | Đúng một `hook` (cảnh đầu), đúng một `outro` (cảnh cuối) |
 | `chapter` | string | cảnh 1 bắt buộc | Tên chương YouTube (≤ 40 ký tự). Cảnh không có `chapter` thuộc chương của cảnh trước. Ít nhất 3 chương |
 | `role` | string | nên có | Việc của cảnh: "hook: câu hỏi + Wob muốn chuyển tới", "lý do 1: mỏ kim cương", "mồi lại: Wob đổi ý"… |
-| `narration` | string | có | Lời đọc tiếng Anh, số viết bằng chữ. Cảnh hook ≤ 35 từ; cảnh khác thường 60–250 từ |
+| `narration` | string | có | Lời đọc tiếng Anh, số viết bằng chữ. Cảnh hook ≤ 35 từ; cảnh khác thường 60–250 từ. Định dạng hoạt hình: Wob kể ngôi thứ nhất ("I went…") |
+| `lop` | `"hien-tai"` \| `"hoi-uc"` | có (hoạt hình) | Lớp thời gian (17/11/2026): `hien-tai` = Wob ở bàn kỷ vật kể, mấp máy miệng; `hoi-uc` = cảnh trong chuyến đi. Có `lop` ở bất kỳ cảnh nào thì `validate_script.py` bật kiểm định dạng hoạt hình |
+| `khuon` | string | nên có ở cảnh mở chương | Khuôn chương: `thu-hong-hieu` \| `doan-sai-roi-lat` \| `phong-quy-mo` \| `mot-ngay-o-day` \| `so-sanh-doi-thuong` \| `trang-so-hanh-trinh` \| `lich-su-nghiem` \| `hai-mua` (giải thích ở `cong-thuc-ke-chuyen.md` mục 3). ≥ 4 khuôn mỗi tập, hai chương liền không cùng khuôn |
+| `y_hinh` | `{ "cue"?, "y", "gag"? }[]` | nên có (hoạt hình) | Ý hình cho đạo diễn: `cue` là chữ có trong `narration`, `y` tả ý (Wob làm gì, đạo cụ, cỡ cảnh, "giữ hình"), `gag` tả câu đùa bằng hình (nếu có). Mỗi cảnh `hoi-uc` ít nhất một mục có `gag`, trừ chương `lich-su-nghiem` (cấm gag). Ghi ý, không ghi toạ độ hay easing |
 | `on_screen_text` | string | không | Tiêu đề cảnh/chương hiện ở đầu cảnh, ≤ 6 từ |
 | `facts` | `{ "label", "value", "claim_ids": string[] }[]` | không | Thẻ số liệu trên hình (dạng hiển thị: `−67°C · −89°F`). Mỗi thẻ trỏ tới khẳng định chứa số đó |
 | `pronunciation` | string | không | `"Tên: phiên âm; Tên: phiên âm"`, tên viết đúng như trong `narration` |
@@ -42,6 +46,19 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `sfx` | `{ "name", "cue"?, "volume"? }[]` | không | File ở `sfx/<name>.*`. Không khai báo `dau-wob` (tự thêm cùng con dấu) |
 | `verdict` | `{ "label": "WOULD MOVE"\|"SUMMER ONLY"\|"NOPE", "reason": string, "cue": string }` | cảnh outro | Đúng một lần mỗi video. `cue` là chữ trong lời đọc lúc con dấu đóng |
 | `emphasis` | string[] | không | Chỉ khi `burn_captions`: từ khoá tô màu trong phụ đề |
+
+Cảnh định dạng hoạt hình (rút gọn, số liệu chưa kiểm chứng):
+
+```json
+{
+  "id": 3, "type": "section", "chapter": "The market", "lop": "hoi-uc", "khuon": "thu-hong-hieu",
+  "narration": "So I went to the market. I asked for a bag. The fish did not need a bag.",
+  "y_hinh": [
+    { "cue": "I asked for a bag", "y": "Wob chìa cái túi; một bàn tay đeo găng đưa ra con cá cứng đờ", "gag": "cá chọc thủng túi, Wob vác cá trên vai như ván trượt" },
+    { "cue": "did not need a bag", "y": "cận con cá, giữ hình" }
+  ]
+}
+```
 
 ## Shot
 
@@ -64,6 +81,34 @@ Mặc định đổi hình mỗi 4–8 giây; `build_timeline.py` cảnh báo nh
 | `giu` | Giây giữ biểu cảm, mặc định tới lần đổi kế tiếp |
 
 File SVG ở `templates/_shared/wob/<bieu_cam>.svg`. Chưa vẽ thì template bỏ qua lớp Wob (TODO trong hồ sơ kênh).
+
+## AnhAI: ảnh AI cần tạo, kèm hạng (chốt 17/11/2026)
+
+Mỗi ảnh AI (id `ai-…`) mà `shots` hoặc bảng phân cảnh hoạt hình dùng phải khai báo ở đây. Biên kịch chấm điểm ngay lúc viết. Luật chấm và ví dụ: `references/hang-anh.md`.
+
+| Trường | Kiểu | Bắt buộc | Ghi chú |
+|---|---|---|---|
+| `id` | string | có | `ai-<mô-tả>`, trùng id trong `shots` |
+| `scenes` | số nguyên[] | có | Cảnh dùng ảnh này |
+| `canh` | string | có | Nội dung cảnh bằng tiếng Anh, chỉ tả cảnh (phong cách kênh tự thêm). Không ảnh chụp, không tên hoạ sĩ/studio, không bản đồ, không người thật nhận ra được, không Wob |
+| `diem` | `{ "vi_tri", "thoi_luong", "cu_the", "tieu_diem" }` | có | Mỗi tiêu chí 0, 1 hoặc 2 |
+| `hang` | `"chinh"` \| `"phu"` | có | `chinh`: nguồn ngoài (Gemini API / ChatGPT web). `phu`: ComfyUI nội bộ. Phải khớp hạng tính từ `diem` |
+| `ghi_de` | string | không | Lý do khi `hang` khác hạng tính |
+| `ly_do` | string | nên có | Một câu: vì sao chấm vậy |
+| `tai_hien_su_kien` | bool | không | Ảnh tái hiện sự kiện có thật: gắn nhãn AI (Nghị định 142/2026) |
+
+```json
+"anh_ai": [
+  { "id": "ai-village-dusk", "scenes": [1],
+    "canh": "a small remote village of wooden houses in deep winter at dusk, smoke rising straight up from chimneys, reindeer drinking at a small steaming spring",
+    "diem": { "vi_tri": 2, "thoi_luong": 2, "cu_the": 2, "tieu_diem": 2 }, "hang": "chinh",
+    "ly_do": "Hook và ứng viên thumbnail; cần đúng tuần lộc, suối bốc hơi" },
+  { "id": "ai-snow-hills-far", "scenes": [3, 4],
+    "canh": "distant snowy hills under a pale cold sky, frost haze",
+    "diem": { "vi_tri": 0, "thoi_luong": 2, "cu_the": 0, "tieu_diem": 0 }, "hang": "phu",
+    "ly_do": "Lớp xa sau lưng Wob, chỉ tạo không khí" }
+]
+```
 
 ## Claim: khẳng định cần kiểm chứng
 

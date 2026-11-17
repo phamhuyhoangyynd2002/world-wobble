@@ -1,0 +1,36 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.4,
+      "true_peak": -1.6
+    },
+    "video.mp4": {
+      "lufs": -14.7,
+      "true_peak": -1.8
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "hoi-uc",
+      "start": 12.6,
+      "end": 53.7
+    }
+  ],
+  "sfx_count": 72,
+  "sections": {
+    "than_video": {
+      "lufs": -14.6,
+      "true_peak": -1.8
+    },
+    "canh_cuoi": {
+      "lufs": -14.9,
+      "true_peak": -2.4
+    }
+  }
+}

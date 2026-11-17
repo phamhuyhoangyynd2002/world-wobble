@@ -19,4 +19,6 @@ Nguyên tắc:
 - Tóm tắt bằng lời của mình, không chép nguyên văn.
 - Ảnh thật: chạy `python3 .claude/skills/lay-tai-nguyen/scripts/commons.py <dự án> --search "<nơi>"` để biết có ảnh dùng được không (không tải).
 
-Chỉ ghi `research.md`. Trả về (tối đa 6 dòng): câu trả lời ngắn cho câu hỏi trung tâm, 3 chi tiết đắt nhất, số nguồn gốc tìm được, phán quyết gợi ý của Wob, rủi ro nếu có.
+- Video là hoạt hình "Wob kể chuyến đi" (16/11/2026): bắt buộc mục **Hoạt động và trải nghiệm** (5–8 việc có thật, mỗi việc trả lời một mảnh "vì sao", có mùa và nguồn), **Chất liệu để vẽ đúng**, **So sánh đời thường** (skill `nghien-cuu` mục 8–10).
+
+Chỉ ghi `research.md`. Trả về (tối đa 6 dòng): câu trả lời ngắn cho câu hỏi trung tâm, 3 chi tiết đắt nhất, số hoạt động tìm được, số nguồn gốc tìm được, phán quyết gợi ý của Wob, rủi ro nếu có.

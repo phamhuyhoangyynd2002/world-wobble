@@ -1,0 +1,365 @@
+{
+  "duration": 60.5,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.4,
+      "duration": 10.704
+    },
+    {
+      "id": 2,
+      "start": 12.6,
+      "duration": 12.624
+    },
+    {
+      "id": 3,
+      "start": 27,
+      "duration": 13.32
+    },
+    {
+      "id": 4,
+      "start": 42.2,
+      "duration": 12.264
+    },
+    {
+      "id": 5,
+      "start": 55.4,
+      "duration": 3.72
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/bonk.wav",
+      "at": 1.25,
+      "volume": 0.85
+    },
+    {
+      "src": "sfx/bonk.wav",
+      "at": 1.92,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 2.5,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/brr.wav",
+      "at": 4.92,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/ting.wav",
+      "at": 8.95,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 11.05,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 15.72,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/liu-lo-soc.wav",
+      "at": 16.05,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 20.35,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 20.6,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 20.85,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 21.1,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/pop.wav",
+      "at": 22.14,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/tach-bang.wav",
+      "at": 22.62,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/liu-lo-soc.wav",
+      "at": 22.92,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 25.693,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 25.986,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 26.279,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 26.571,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 26.864,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 27.157,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 27.45,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/liu-lo-vui.wav",
+      "at": 27.62,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/bonk.wav",
+      "at": 30.82,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 31.95,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 32.35,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/brr.wav",
+      "at": 32.5,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 33.45,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/liu-lo-hoi.wav",
+      "at": 34.15,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/pop.wav",
+      "at": 35.62,
+      "volume": 0.65
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 36.6,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/ting.wav",
+      "at": 38.7,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/ting.wav",
+      "at": 39.3,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 40.856,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 41,
+      "volume": 0.22
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 41.162,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 41.469,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 41.775,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 42.081,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 42.388,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 42.6,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 42.694,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 43,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 44.2,
+      "volume": 0.32
+    },
+    {
+      "src": "sfx/liu-lo-vui.wav",
+      "at": 44.35,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 45.8,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 47.4,
+      "volume": 0.24
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 47.883,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 48.167,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 48.45,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 48.733,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 49,
+      "volume": 0.16
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 49.017,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/buoc-tuyet.wav",
+      "at": 49.3,
+      "volume": 0.42
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 49.95,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/liu-lo-buon.wav",
+      "at": 50.05,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/may-no.wav",
+      "at": 50.6,
+      "volume": 0.12
+    },
+    {
+      "src": "sfx/hoi-nuoc.wav",
+      "at": 50.85,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/tach-bang.wav",
+      "at": 52.52,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/ting.wav",
+      "at": 53.25,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/brr.wav",
+      "at": 54.55,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 56.85,
+      "volume": 0.25
+    },
+    {
+      "src": "sfx/drop.wav",
+      "at": 57.65,
+      "volume": 0.2
+    },
+    {
+      "src": "sfx/brr.wav",
+      "at": 58.6,
+      "volume": 0.5
+    }
+  ],
+  "music": {
+    "src": "music/frost-waltz.mp3",
+    "volume": 0.2,
+    "crossfade": 0.5,
+    "segments": [
+      {
+        "src": "music/frost-waltz.mp3",
+        "mood": "khac-nghiet",
+        "start": 12,
+        "end": 53.65
+      }
+    ]
+  }
+}

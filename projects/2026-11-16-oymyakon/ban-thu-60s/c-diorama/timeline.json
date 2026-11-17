@@ -1,0 +1,335 @@
+{
+ "duration": 60.0,
+ "scenes": [
+  {
+   "id": 1,
+   "start": 0.4
+  },
+  {
+   "id": 2,
+   "start": 12.6
+  },
+  {
+   "id": 3,
+   "start": 27.0
+  },
+  {
+   "id": 4,
+   "start": 42.2
+  },
+  {
+   "id": 5,
+   "start": 55.0
+  }
+ ],
+ "sfx": [
+  {
+   "src": "sfx/bonk.wav",
+   "at": 1.47,
+   "volume": 0.75
+  },
+  {
+   "src": "sfx/bonk.wav",
+   "at": 1.84,
+   "volume": 0.6375
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 2.4,
+   "volume": 0.45
+  },
+  {
+   "src": "sfx/drop.wav",
+   "at": 2.45,
+   "volume": 0.55
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 3.15,
+   "volume": 0.5
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 3.45,
+   "volume": 0.6
+  },
+  {
+   "src": "sfx/brr.wav",
+   "at": 4.9,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 8.3,
+   "volume": 0.45
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 12.35,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 12.55,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/tach-bang.wav",
+   "at": 16.25,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 19.95,
+   "volume": 0.3
+  },
+  {
+   "src": "sfx/boing.wav",
+   "at": 20.66,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 20.913,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 21.163,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 21.413,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 22.33,
+   "volume": 0.6
+  },
+  {
+   "src": "sfx/tach-bang.wav",
+   "at": 22.6,
+   "volume": 0.6
+  },
+  {
+   "src": "sfx/liu-lo-soc.wav",
+   "at": 22.88,
+   "volume": 0.5
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 25.685,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 25.985,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 26.285,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 26.585,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 26.885,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 27.185,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 27.485,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 27.785,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 28.085,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 28.385,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/ting.wav",
+   "at": 30.75,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 31.15,
+   "volume": 0.5
+  },
+  {
+   "src": "sfx/brr.wav",
+   "at": 32.3,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 33,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/bonk.wav",
+   "at": 33.3,
+   "volume": 0.85
+  },
+  {
+   "src": "sfx/liu-lo-hoi.wav",
+   "at": 34.3,
+   "volume": 0.55
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 35.77,
+   "volume": 0.55
+  },
+  {
+   "src": "sfx/tach-bang.wav",
+   "at": 35.79,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/drop.wav",
+   "at": 36.55,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/ting.wav",
+   "at": 39.15,
+   "volume": 0.5
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 41.135,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 41.435,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 41.735,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 42.035,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/may-no.wav",
+   "at": 42.3,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 42.335,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/buoc-tuyet.wav",
+   "at": 42.635,
+   "volume": 0.32
+  },
+  {
+   "src": "sfx/may-no.wav",
+   "at": 43.9,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/liu-lo-vui.wav",
+   "at": 44.65,
+   "volume": 0.5
+  },
+  {
+   "src": "sfx/may-no.wav",
+   "at": 45.5,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/may-no.wav",
+   "at": 47.1,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/drop.wav",
+   "at": 49.8,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/hoi-nuoc.wav",
+   "at": 50.75,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/tach-bang.wav",
+   "at": 52.85,
+   "volume": 0.55
+  },
+  {
+   "src": "sfx/ting.wav",
+   "at": 53.56,
+   "volume": 0.45
+  },
+  {
+   "src": "sfx/bonk.wav",
+   "at": 53.56,
+   "volume": 0.35
+  },
+  {
+   "src": "sfx/brr.wav",
+   "at": 54.25,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/nuot.wav",
+   "at": 56.25,
+   "volume": 0.4
+  },
+  {
+   "src": "sfx/drop.wav",
+   "at": 57.05,
+   "volume": 0.3
+  },
+  {
+   "src": "sfx/brr.wav",
+   "at": 58.5,
+   "volume": 0.35
+  }
+ ],
+ "music": {
+  "volume": 0.22,
+  "crossfade": 0.5,
+  "segments": [
+   {
+    "src": "music/frost-waltz.mp3",
+    "mood": "khac-nghiet",
+    "start": 12.1,
+    "end": 54.1
+   }
+  ]
+ },
+ "_ghi_chu": "Chi de tron am cho ban thu C (mix_audio.py). sfx lay tu dio.js (sfx-out), nhac chi trong hoi uc, ngat o 'Anyway.'"
+}

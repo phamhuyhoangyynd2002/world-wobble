@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
+<script src="_shared/vendor/gsap.min.js"></script>
+<style>html,body{width:1920px;height:1080px;margin:0;background:#efe6d6}#root{position:relative;width:100%;height:100%;overflow:hidden}
+.lop{position:absolute;left:-150px;top:-80px;width:2220px;height:1249px}
+#wob{position:absolute;left:-200px;top:520px;width:380px;height:380px}#wob img{width:380px;height:380px}</style></head>
+<body><div id="root" data-composition-id="t3" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+<div class="clip" data-start="0" data-duration="6" data-track-index="0" style="position:absolute;inset:0">
+  <img id="xa" class="lop" src="lop-xa.png" alt="" />
+  <img id="giua" class="lop" src="lop-giua.png" alt="" />
+  <div id="wob"><div id="wob-sq"><img src="wob.svg" alt="" /></div></div>
+  <img id="gan" class="lop" src="lop-gan.png" alt="" />
+</div></div>
+<script>
+// Parallax: camera lia sang phải 6 s; lớp xa đi 30px, giữa 120px, gần 260px. Wob đi lắc lư (on twos: bước giữ 2 khung).
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#xa", { x: 0 }, { x: -30, duration: 6, ease: "sine.inOut" }, 0)
+  .fromTo("#giua", { x: 0 }, { x: -120, duration: 6, ease: "sine.inOut" }, 0)
+  .fromTo("#gan", { x: 0 }, { x: -260, duration: 6, ease: "sine.inOut" }, 0)
+  .fromTo("#wob", { x: 0 }, { x: 1150, duration: 6, ease: "none" }, 0);
+gsap.set("#wob-sq", { transformOrigin: "50% 100%" });
+for (let i = 0; i < 12; i++) {           // 12 bước: nhún - bật - lắc
+  const t = i * 0.5;
+  tl.fromTo("#wob-sq", { y: 0, scaleY: 0.92, scaleX: 1.05, rotation: i % 2 ? 5 : -5 },
+    { y: -26, scaleY: 1.04, scaleX: 0.97, rotation: i % 2 ? -3 : 3, duration: 0.25, ease: "steps(3)" }, t)
+    .to("#wob-sq", { y: 0, scaleY: 0.92, scaleX: 1.05, duration: 0.25, ease: "steps(3)" }, t + 0.25);
+}
+window.__timelines = { t3: tl };
+</script></body></html>

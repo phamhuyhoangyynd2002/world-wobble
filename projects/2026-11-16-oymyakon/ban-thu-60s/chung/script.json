@@ -1,0 +1,38 @@
+{
+  "title": "Ban thu 60 giay - Wob ke chuyen di Oymyakon",
+  "language": "en-US",
+  "voice": {"name": "en-US-AndrewNeural", "rate": "+0%"},
+  "scenes": [
+    {
+      "id": 1,
+      "lop": "hien-tai",
+      "narration": "This is a fish. I bought it in Oymyakon, a village often called the coldest permanently inhabited place on Earth. Roughly five hundred people live there. On purpose.",
+      "pronunciation": "Oymyakon: oy-myah-KON",
+      "claims": ["C03", "C02"]
+    },
+    {
+      "id": 2,
+      "lop": "hoi-uc",
+      "narration": "I went in January, when the average temperature is around minus forty-six Celsius. That's about minus fifty-one Fahrenheit. I stepped outside to look around. My eyelashes froze. I didn't know I had eyelashes.",
+      "claims": ["C24", "C01"]
+    },
+    {
+      "id": 3,
+      "lop": "hoi-uc",
+      "narration": "So I went to the market. In winter, the fish here is sold frozen solid. The village itself is the freezer. I asked for a bag. The fish did not need a bag. The fish needed nothing. The fish had made peace with all of this.",
+      "claims": ["C28"]
+    },
+    {
+      "id": 4,
+      "lop": "hoi-uc",
+      "narration": "Outside, a car sat running with nobody in it. People here often leave engines running, because a cold engine may not start again. I made tea to warm up. The tea did not warm up. Anyway.",
+      "claims": ["C27"]
+    },
+    {
+      "id": 5,
+      "lop": "hien-tai",
+      "narration": "Back home, the fish thawed in about an hour. I took a week.",
+      "claims": []
+    }
+  ]
+}

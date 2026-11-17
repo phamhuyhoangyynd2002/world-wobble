@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>World Wobble – ban thu B (animatic ve tay)</title>
+    <!-- Bản thử B: animatic vẽ tay kiểu storytime. Mọi hình vẽ bằng code (SVG), nét sôi bằng feTurbulence + feDisplacementMap,
+         hình vẽ nhảy bậc 12 hình/giây ("on twos"). Giọng đọc chèn tĩnh; sfx + nhạc trộn sau bằng mix_audio.py (timeline.json). -->
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      html, body { width: 1920px; height: 1080px; margin: 0; background: #EFE3C8; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: "Fraunces"; }
+      #stage { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="ban-thu-b" data-start="0" data-duration="60.3" data-width="1920" data-height="1080">
+      <audio id="vo-1" src="audio/scene-1.mp3" preload="auto" data-start="0.4" data-duration="10.704" data-track-index="1"></audio>
+      <audio id="vo-2" src="audio/scene-2.mp3" preload="auto" data-start="12.6" data-duration="12.624" data-track-index="1"></audio>
+      <audio id="vo-3" src="audio/scene-3.mp3" preload="auto" data-start="27" data-duration="13.32" data-track-index="1"></audio>
+      <audio id="vo-4" src="audio/scene-4.mp3" preload="auto" data-start="42.2" data-duration="12.264" data-track-index="1"></audio>
+      <audio id="vo-5" src="audio/scene-5.mp3" preload="auto" data-start="55.4" data-duration="3.72" data-track-index="1"></audio>
+      <svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+        <defs>
+          <filter id="boil" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1960" height="1120" color-interpolation-filters="sRGB">
+            <feTurbulence id="boil-noise" type="fractalNoise" baseFrequency="0.024" numOctaves="2" seed="1" result="n" />
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
+        <image href="assets/giay.jpg" x="0" y="0" width="1920" height="1080" />
+        <g filter="url(#boil)">
+          <g id="cam"></g>
+          <g id="over"></g>
+        </g>
+        <rect id="tint" x="0" y="0" width="1920" height="1080" fill="#F3D49B" opacity="0" style="mix-blend-mode: multiply" />
+      </svg>
+    </div>
+
+    <script src="js/du-lieu.js"></script>
+    <script src="js/loi.js"></script>
+    <script src="js/wob.js"></script>
+    <script src="js/dao-cu.js"></script>
+    <script src="js/canh.js"></script>
+    <script>
+      (function () {
+        var B = window.WWB, D = window.WWB_DATA.duration;
+        var camEl = document.getElementById("cam"), overEl = document.getElementById("over");
+        var noise = document.getElementById("boil-noise"), tint = document.getElementById("tint");
+        var lastStep = -1;
+        function draw(t) {
+          var step = Math.floor(t * B.DRAW_FPS + 1e-6), T = step / B.DRAW_FPS;
+          if (step === lastStep) return;
+          lastStep = step;
+          B.resetUid();
+          var r = B.drawShot(Math.min(T, D - 0.001));
+          var cam = r.cam || [960, 540, 1], sh = r.shake || [0, 0];
+          camEl.setAttribute("transform", "translate(" + B.f(960 + sh[0]) + " " + B.f(540 + sh[1]) + ") scale(" + cam[2] + ") translate(" + B.f(-cam[0]) + " " + B.f(-cam[1]) + ")");
+          camEl.innerHTML = r.world || "";
+          overEl.innerHTML = r.over || "";
+          noise.setAttribute("seed", String(1 + (step % 4) * 17));
+          tint.setAttribute("opacity", r.tint === "warm" ? "0.16" : "0");
+        }
+        // Đồng hồ: một tween bậc thang (12 bậc/giây) ghi vào thuộc tính có setter → vẽ lại đúng hình ở mọi lần seek.
+        var clock = { _t: 0 };
+        Object.defineProperty(clock, "t", { get: function () { return this._t; }, set: function (v) { this._t = v; draw(v); } });
+        function build() {
+          draw(0);
+          var tl = gsap.timeline({ paused: true });
+          tl.fromTo(clock, { t: 0 }, { t: D, duration: D, ease: "steps(" + Math.round(D * B.DRAW_FPS) + ")" }, 0);
+          window.__timelines = window.__timelines || {};
+          window.__timelines["ban-thu-b"] = tl;
+        }
+        document.fonts.load('900 64px "Fraunces"').then(function () { return document.fonts.ready; }).then(build);
+      })();
+    </script>
+  </body>
+</html>

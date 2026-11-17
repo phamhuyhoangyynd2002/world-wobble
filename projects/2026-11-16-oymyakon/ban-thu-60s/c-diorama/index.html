@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>World Wobble – ban thu C: diorama giay 2.5D</title>
+    <!-- Phuong an C: moi canh la san khau giay nhieu lop dat trong khong gian 3D (CSS 3D transforms),
+         camera di chuyen that (dolly, luon, nghieng). Moi hinh ve bang code trong dio.js. Khong phat nhac/sfx:
+         tron sau bang mix_audio.py (timeline.json cua thu muc nay). -->
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      html, body { width: 1920px; height: 1080px; margin: 0; background: #1E2A2B; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "Fraunces", serif; font-variation-settings: "SOFT" 100, "WONK" 1; }
+      .clip { position: absolute; inset: 0; }
+      .bgfill { background: #1E2A2B; }
+      .stage { position: absolute; inset: 0; perspective: 1200px; perspective-origin: 50% 50%; overflow: hidden; }
+      .cam { position: absolute; left: 960px; top: 540px; width: 0; height: 0; transform-style: preserve-3d; }
+      .p { position: absolute; left: 0; top: 0; width: 0; height: 0; transform-style: preserve-3d; }
+      .cut { position: absolute; overflow: visible; }
+      .face { position: absolute; box-sizing: border-box; }
+      .bfh { backface-visibility: hidden; }
+      .ovl { position: absolute; inset: 0; pointer-events: none; }
+      .m > g { display: none; }
+      .m[data-m="X"] > .mX, .m[data-m="A"] > .mA, .m[data-m="B"] > .mB, .m[data-m="C"] > .mC,
+      .m[data-m="D"] > .mD, .m[data-m="E"] > .mE, .m[data-m="F"] > .mF, .m[data-m="G"] > .mG,
+      .m[data-m="H"] > .mH, .m[data-m="O"] > .mO, .m[data-m="S"] > .mS, .m[data-m="N"] > .mN,
+      .m[data-m="K"] > .mK { display: inline; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="c-diorama" data-start="0" data-duration="60" data-width="1920" data-height="1080">
+      <audio id="vo-1" src="audio/scene-1.mp3" preload="auto" data-start="0.4" data-duration="10.704" data-track-index="30"></audio>
+      <audio id="vo-2" src="audio/scene-2.mp3" preload="auto" data-start="12.6" data-duration="12.624" data-track-index="31"></audio>
+      <audio id="vo-3" src="audio/scene-3.mp3" preload="auto" data-start="27.0" data-duration="13.32" data-track-index="30"></audio>
+      <audio id="vo-4" src="audio/scene-4.mp3" preload="auto" data-start="42.2" data-duration="12.264" data-track-index="31"></audio>
+      <audio id="vo-5" src="audio/scene-5.mp3" preload="auto" data-start="55.0" data-duration="3.72" data-track-index="30"></audio>
+      <div id="bg" class="clip bgfill"></div>
+    </div>
+    <script id="sfx-out" type="application/json"></script>
+    <script src="dio.js"></script>
+    <script>
+      // Dang ky timeline sau khi font Fraunces da tai (chu tren do vat)
+      Promise.all([window.__dioReady, document.fonts.load('900 50px "Fraunces"')]).then(function (r) {
+        window.__timelines = window.__timelines || {};
+        window.__timelines["c-diorama"] = r[0].tl;
+      });
+    </script>
+  </body>
+</html>

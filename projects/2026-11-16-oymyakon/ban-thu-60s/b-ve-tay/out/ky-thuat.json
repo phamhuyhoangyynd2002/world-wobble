@@ -1,0 +1,16 @@
+{
+  "video": "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\ban-thu.mp4",
+  "duration": 60.3,
+  "errors": [
+    "thiếu out/captions.srt (chạy build_timeline.py)",
+    "thiếu out/chapters.txt (chạy build_timeline.py)"
+  ],
+  "warnings": [],
+  "frames": [
+    "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\frames\\kt-00.jpg",
+    "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\frames\\kt-01.jpg",
+    "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\frames\\kt-02.jpg",
+    "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\frames\\kt-03.jpg",
+    "projects\\2026-11-16-oymyakon\\ban-thu-60s\\b-ve-tay\\out\\frames\\kt-04.jpg"
+  ]
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- T3: phông nền "phố làng Oymyakon mùa đông" vẽ bằng cọ p5.brush (MIT) trên p5.js 2.x (LGPL-2.1). Không ảnh AI, không ảnh thật.
+     ?lop=xa|giua|gan  → vẽ một lớp (lớp giữa, gần có nền trong suốt để làm parallax). Có seed nên chạy lại ra y hệt. -->
+<script src="node_modules/p5/lib/p5.min.js"></script>
+<script src="node_modules/p5.brush/dist/p5.brush.js"></script>
+<style>html,body{margin:0;background:#888}</style>
+</head><body>
+<script>
+const LOP = new URLSearchParams(location.search).get("lop") || "xa";
+const INK = "#1f2326";
+window.XONG = false;
+
+function setup() {
+  pixelDensity(1);
+  createCanvas(1920, 1080, WEBGL);
+  randomSeed(7); noiseSeed(7);
+  brush.scaleBrushes(2.4);
+  if (LOP === "xa") veXa(); else { clear(); LOP === "giua" ? veGiua() : veGan(); }
+  noLoop();
+  setTimeout(() => { window.XONG = true; }, 300);
+}
+
+// toạ độ WEBGL: gốc ở giữa khung (-960..960, -540..540)
+function veXa() {
+  background("#efe6d6");
+  brush.noStroke();
+  // trời: các lớp màu nước từ xanh băng nhạt xuống vàng ấm ở chân trời (mặt trời thấp mùa đông)
+  const bands = ["#cfe2ea", "#d7e7ec", "#e2ebe8", "#ecebe0", "#f3e6d2"];
+  bands.forEach((c, i) => {
+    brush.fill(c, 150); brush.fillBleed(0.25, "out"); brush.fillTexture(0.35, 0.25);
+    brush.rect(-1000, -560 + i * 120, 2000, 160);
+  });
+  brush.fill("#fbe7c0", 170); brush.fillBleed(0.15, "out"); brush.circle(420, 40, 70, 0.2);   // mặt trời nhạt sát núi
+  // dãy núi xa
+  brush.fill("#aec6d1", 140); brush.fillBleed(0.2, "out"); brush.fillTexture(0.5, 0.4);
+  brush.polygon([[-980, 120], [-760, -60], [-600, 40], [-380, -130], [-180, 20], [40, -90], [260, 30], [520, -150], [760, 10], [980, -60], [980, 260], [-980, 260]]);
+  brush.noFill();
+  brush.set("2H", "#6f8f9c", 1); brush.hatch(9, 0.9, { rand: 0.15 });
+  brush.polygon([[-380, -130], [-300, -40], [-260, 40], [-420, 60]]);
+  brush.polygon([[520, -150], [600, -40], [640, 40], [470, 50]]);
+  brush.noHatch();
+  brush.field("hand");
+  brush.set("pen", INK, 2);
+  brush.beginShape(0); [[-980, 120], [-760, -60], [-600, 40], [-380, -130], [-180, 20], [40, -90], [260, 30], [520, -150], [760, 10], [980, -60]].forEach(p => brush.vertex(p[0], p[1])); brush.endShape(false);
+  brush.noField();
+  // sương băng nằm ở thung lũng
+  brush.noStroke(); brush.fill("#ffffff", 90); brush.fillBleed(0.4, "out"); brush.fillTexture(0.2, 0.1);
+  brush.rect(-1000, 150, 2000, 120);
+  // nền tuyết
+  brush.fill("#f7f8f6", 200); brush.fillBleed(0.1, "out"); brush.fillTexture(0.3, 0.3);
+  brush.rect(-1000, 230, 2000, 360);
+}
+
+function nha(x, y, w, h, mai) {
+  brush.field("hand");
+  // tường gỗ
+  brush.set("pen", INK, 2.8);
+  brush.fill("#b8743a", 170); brush.fillBleed(0.12, "out"); brush.fillTexture(0.55, 0.45);
+  brush.rect(x, y - h, w, h);
+  brush.noFill();
+  // vân gỗ khúc
+  brush.set("HB", "#6b3f1f", 1);
+  for (let k = 1; k < 5; k++) brush.line(x + 6, y - h + (h * k) / 5, x + w - 6, y - h + (h * k) / 5 + random(-3, 3));
+  // mái phủ tuyết
+  brush.set("pen", INK, 2.8);
+  brush.fill(mai, 170); brush.fillBleed(0.1, "out"); brush.fillTexture(0.4, 0.4);
+  brush.polygon([[x - 24, y - h], [x + w / 2, y - h - h * 0.7], [x + w + 24, y - h]]);
+  brush.fill("#fbfcfb", 210); brush.fillBleed(0.05, "out");
+  brush.polygon([[x - 24, y - h], [x + w / 2, y - h - h * 0.7], [x + w + 24, y - h], [x + w + 18, y - h + 22], [x + w / 2 + 30, y - h - 6], [x + w / 2 - 20, y - h + 4], [x - 18, y - h + 22]]);
+  // cửa sổ ấm
+  brush.fill("#ffd27a", 200); brush.fillBleed(0.05, "out");
+  brush.rect(x + w * 0.2, y - h * 0.68, w * 0.2, h * 0.3);
+  brush.rect(x + w * 0.6, y - h * 0.68, w * 0.2, h * 0.3);
+  brush.noFill();
+  // ống khói + cột khói bốc thẳng đứng (không gió ở −46°C)
+  const cx = x + w * 0.72, top = y - h - h * 0.45;
+  brush.fill("#7d4a26", 190); brush.rect(cx, top, 22, h * 0.32);
+  brush.noFill(); brush.noField();
+  brush.noStroke(); brush.fill("#ffffff", 70); brush.fillBleed(0.45, "out"); brush.fillTexture(0.15, 0.1);
+  brush.polygon([[cx - 2, top], [cx + 24, top], [cx + 34, top - 140], [cx + 20, top - 320], [cx - 4, top - 320], [cx - 12, top - 140]]);
+  brush.noFill();
+  brush.set("2H", "#9fb4bd", 0.7);
+  brush.line(cx - 4, top - 10, cx - 10, top - 300); brush.line(cx + 26, top - 10, cx + 32, top - 300);
+}
+
+function veGiua() {
+  nha(-820, 300, 260, 170, "#E0703A");
+  nha(-430, 280, 210, 140, "#3F6A70");
+  nha(-120, 310, 300, 190, "#E0703A");
+  nha(330, 285, 230, 150, "#8e5527");
+  brush.field("hand"); brush.set("pen", INK, 2.6);
+  brush.fill("#fbfcfb", 230); brush.fillBleed(0.06, "out"); brush.fillTexture(0.25, 0.3);
+  brush.polygon([[-1000, 300], [-860, 270], [-700, 292], [-520, 262], [-300, 290], [-120, 266], [120, 300], [330, 268], [520, 292], [700, 270], [1000, 296], [1000, 380], [-1000, 380]]);
+  brush.noFill(); brush.noField();
+  // cột điện và dây
+  brush.field("hand");
+  brush.set("pen", INK, 3);
+  [[-560, 330], [140, 330], [720, 330]].forEach(p => { brush.line(p[0], p[1], p[0] + 4, p[1] - 360); brush.line(p[0] - 30, p[1] - 330, p[0] + 34, p[1] - 334); });
+  brush.set("HB", INK, 1);
+  brush.beginShape(0); brush.vertex(-560, -2); brush.vertex(-210, 30); brush.vertex(140, -2); brush.vertex(430, 28); brush.vertex(722, -6); brush.endShape(false);
+  brush.noField();
+}
+
+function veGan() {
+  // bờ tuyết tiền cảnh + hàng rào gỗ
+  brush.field("hand");
+  brush.set("pen", INK, 3.2);
+  brush.fill("#fbfcfb", 230); brush.fillBleed(0.08, "out"); brush.fillTexture(0.3, 0.35);
+  brush.polygon([[-1000, 420], [-700, 360], [-420, 400], [-150, 370], [120, 420], [500, 380], [820, 410], [1000, 380], [1000, 560], [-1000, 560]]);
+  brush.noStroke(); brush.fill("#b9d3de", 120); brush.fillBleed(0.3, "out");
+  brush.polygon([[-1000, 470], [-600, 450], [-200, 480], [200, 455], [600, 485], [1000, 460], [1000, 560], [-1000, 560]]);
+  brush.set("pen", INK, 3);
+  brush.fill("#8e5527", 190); brush.fillTexture(0.5, 0.4);
+  for (let i = 0; i < 9; i++) { const x = -940 + i * 70; brush.rect(x, 300 + (i % 2) * 8, 24, 110); }
+  brush.noFill();
+  brush.set("pen", INK, 3);
+  brush.line(-950, 330, -330, 338); brush.line(-950, 372, -330, 380);
+  brush.noField();
+}
+</script>
+</body></html>

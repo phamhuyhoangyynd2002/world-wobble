@@ -15,6 +15,11 @@ python3 .claude/skills/kiem-tra-video/scripts/kiem_ky_thuat.py <dự án>
 ```
 LỖI: kích thước, khung hình, codec, độ dài lệch timeline, khung đen > 0,5 giây, khung đầu tối, âm lượng lệch −14 LUFS > 1 LU, true peak > −1, thiếu `captions.srt`/`chapters.txt`, chương đầu không ở 0:00. Ghi `out/ky-thuat.json` và bảng ảnh `out/frames/tong-hop.jpg`.
 
+```bash
+python3 .claude/skills/kiem-tra-video/scripts/kiem_dong_hinh.py <dự án>/out/video.mp4 --json <dự án>/out/dong-hinh.json --bo-cuoi 1.5
+```
+Đo chuyển động từng khung (17/11/2026): LỖI khi đứng hình ≥ 24 khung, khung đen, khung giật một nhịp; CẢNH BÁO khi đứng hình 12–23 khung, khung trắng. In tỉ lệ khung có chuyển động, số cắt cứng. Video hoạt hình phải đạt; luật camera ở `templates/hoat-hinh/_the-canh/NGU-PHAP-CAMERA.md`.
+
 ## 2. Bản quyền và tuân thủ
 
 ```bash

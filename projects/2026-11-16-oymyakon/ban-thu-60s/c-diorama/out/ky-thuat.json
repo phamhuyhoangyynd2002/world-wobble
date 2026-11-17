@@ -1,0 +1,16 @@
+{
+  "video": "out\\ban-thu.mp4",
+  "duration": 60.0,
+  "errors": [
+    "thiếu out/captions.srt (chạy build_timeline.py)",
+    "thiếu out/chapters.txt (chạy build_timeline.py)"
+  ],
+  "warnings": [],
+  "frames": [
+    "out\\frames\\kt-00.jpg",
+    "out\\frames\\kt-01.jpg",
+    "out\\frames\\kt-02.jpg",
+    "out\\frames\\kt-03.jpg",
+    "out\\frames\\kt-04.jpg"
+  ]
+}

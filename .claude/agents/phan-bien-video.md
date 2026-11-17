@@ -21,6 +21,7 @@ Chấm theo 8 câu hỏi, mỗi câu có mốc thời gian và bằng chứng:
 6. **Xem trên TV**: chữ có đọc được từ xa không (tiêu đề ≥ 72px, chữ phụ ≥ 40px)? Nghe mà không nhìn có hiểu không?
 7. **Dấu ấn và nội dung gốc** (`.claude/rules/thuong-hieu.md`): che tên kênh đi còn nhận ra World Wobble không (Wob, con dấu, giọng, bản đồ)? So với 3 tập gần nhất có chỗ nào giống đến mức như làm theo khuôn (cấu trúc, câu, tiêu đề)?
 8. **Cái kết**: phán quyết có lý do thật, khớp các sự thật đã nêu? Câu hỏi cuối có khiến người xem muốn bình luận?
+9. **Hoạt hình hay trình chiếu** (từ 17/11/2026): trông như phim hoạt hình hay bộ slide? Wob có ở trong cảnh và đang làm gì ở mỗi khung đã trích không? Gag nào chỉ hình mới kể được (kèm mốc), cảnh hồi ức nào không có gag? Cách dựng có đổi đủ (phong cách, cỡ cảnh, chuyển cảnh, khuôn chương) hay lặp một kiểu suốt nhiều phút? Đọc `hoat-hinh/out/dong-hinh.json` hoặc chạy `python .claude/skills/kiem-tra-video/scripts/kiem_dong_hinh.py out/video.mp4` để có số đứng hình, cắt cứng.
 
 Ghi `out/phan-bien.md`:
 

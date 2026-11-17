@@ -1,0 +1,108 @@
+{
+ "metadata": {
+  "nguon": "tao_khau_hinh.py (bien do + moc tu)",
+  "fps": 30
+ },
+ "mouthCues": [
+  {
+   "start": 0.0,
+   "end": 0.167,
+   "value": "X"
+  },
+  {
+   "start": 0.167,
+   "end": 0.267,
+   "value": "D"
+  },
+  {
+   "start": 0.267,
+   "end": 0.4,
+   "value": "B"
+  },
+  {
+   "start": 0.4,
+   "end": 0.5,
+   "value": "D"
+  },
+  {
+   "start": 0.5,
+   "end": 0.6,
+   "value": "C"
+  },
+  {
+   "start": 0.6,
+   "end": 1.2,
+   "value": "X"
+  },
+  {
+   "start": 1.2,
+   "end": 1.333,
+   "value": "C"
+  },
+  {
+   "start": 1.333,
+   "end": 1.4,
+   "value": "X"
+  },
+  {
+   "start": 1.4,
+   "end": 1.6,
+   "value": "D"
+  },
+  {
+   "start": 1.6,
+   "end": 1.667,
+   "value": "D"
+  },
+  {
+   "start": 1.667,
+   "end": 1.8,
+   "value": "F"
+  },
+  {
+   "start": 1.8,
+   "end": 1.9,
+   "value": "F"
+  },
+  {
+   "start": 1.9,
+   "end": 2.1,
+   "value": "B"
+  },
+  {
+   "start": 2.1,
+   "end": 2.233,
+   "value": "B"
+  },
+  {
+   "start": 2.233,
+   "end": 2.333,
+   "value": "B"
+  },
+  {
+   "start": 2.333,
+   "end": 2.833,
+   "value": "X"
+  },
+  {
+   "start": 2.833,
+   "end": 2.933,
+   "value": "B"
+  },
+  {
+   "start": 2.933,
+   "end": 3.067,
+   "value": "B"
+  },
+  {
+   "start": 3.067,
+   "end": 3.233,
+   "value": "C"
+  },
+  {
+   "start": 3.233,
+   "end": 3.733,
+   "value": "X"
+  }
+ ]
+}

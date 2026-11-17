@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>World Wobble – ban thu A cat giay</title>
+    <!-- Bản thử 60 giây, phương án A "cắt giấy có khớp". Mọi hình vẽ bằng code (SVG), con rối Wob tách từ templates/_shared/wob.
+         Composition chỉ có giọng đọc; sfx + nhạc trộn sau bằng mix_audio.py theo timeline.json (sinh từ js/canh.js). -->
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      html, body { width: 1920px; height: 1080px; margin: 0; background: #1E2A2B; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "Fraunces", serif; font-variation-settings: "SOFT" 100, "WONK" 1; }
+      .clip { position: absolute; inset: 0; overflow: hidden; }
+      #stage { display: block; width: 1920px; height: 1080px; }
+      #grain { position: absolute; left: -200px; top: -200px; width: 2320px; height: 1480px; background-size: 320px 320px; mix-blend-mode: multiply; opacity: 0.56; }
+      #blot { position: absolute; inset: 0; background-size: 1920px 1080px; mix-blend-mode: multiply; opacity: 0.45; }
+      #vign { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 58%, rgba(14,20,22,0.38) 100%); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="ban-thu-a" data-start="0" data-duration="60.5" data-width="1920" data-height="1080">
+      <div class="clip" id="stage-clip" data-start="0" data-duration="60.5" data-track-index="0">
+        <svg id="stage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080"></svg>
+      </div>
+      <div class="clip" id="grain-clip" data-start="0" data-duration="60.5" data-track-index="1">
+        <div id="blot" data-layout-ignore></div>
+        <div id="grain" data-layout-ignore></div>
+        <div id="vign" data-layout-ignore></div>
+      </div>
+      <audio id="vo-1" src="audio/scene-1.mp3" preload="auto" data-start="0.4" data-duration="10.704" data-track-index="10"></audio>
+      <audio id="vo-2" src="audio/scene-2.mp3" preload="auto" data-start="12.6" data-duration="12.624" data-track-index="11"></audio>
+      <audio id="vo-3" src="audio/scene-3.mp3" preload="auto" data-start="27" data-duration="13.32" data-track-index="12"></audio>
+      <audio id="vo-4" src="audio/scene-4.mp3" preload="auto" data-start="42.2" data-duration="12.264" data-track-index="13"></audio>
+      <audio id="vo-5" src="audio/scene-5.mp3" preload="auto" data-start="55.4" data-duration="3.72" data-track-index="14"></audio>
+    </div>
+
+    <script src="js/dao-cu.js"></script>
+    <script src="js/wob-rig.js"></script>
+    <script src="js/canh.js"></script>
+    <script src="js/khau-hinh.js"></script>
+    <script src="js/dung-phim.js"></script>
+    <script>
+      (function () {
+        var fontsReady = document.fonts && document.fonts.load
+          ? Promise.all([document.fonts.load('900 44px "Fraunces"'), document.fonts.load('700 40px "Fraunces"')]).then(function () { return document.fonts.ready; })
+          : Promise.resolve();
+        fontsReady.then(function () {
+          var tl = window.DungPhim.build();
+          window.__timelines = window.__timelines || {};
+          window.__timelines["ban-thu-a"] = tl;
+        });
+      })();
+    </script>
+  </body>
+</html>

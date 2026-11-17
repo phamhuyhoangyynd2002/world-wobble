@@ -1,0 +1,109 @@
+{
+  "_ghi_chu": "Bản phối thử 60 giây (16/11/2026): cùng lời, giọng của ban-thu-60s/chung, mỗi đoạn một phong cách. Mốc tuyệt đối (giây).",
+  "fps": 30, "rong": 1920, "cao": 1080,
+  "thoi_luong": 60.3,
+  "loi": [
+    {"scene": 1, "bat_dau": 0.4},
+    {"scene": 2, "bat_dau": 12.6},
+    {"scene": 3, "bat_dau": 27.0},
+    {"scene": 4, "bat_dau": 42.2},
+    {"scene": 5, "bat_dau": 55.0}
+  ],
+  "nhac": [
+    {"src": "music/frost-waltz.mp3", "bat_dau": 12.6, "ket_thuc": 53.7, "mood": "hoi-uc"}
+  ],
+  "am_luong_nhac": 0.2,
+  "doan": [
+    {
+      "id": "d01", "phong_cach": "diorama", "bat_dau": 0.0, "ket_thuc": 12.6, "lop": "hien-tai",
+      "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm: hộp kỷ vật mở nắp, sổ du lịch đóng, kệ sách phía sau",
+      "trang_phuc": "Wob không mũ, không khăn. Đầu đoạn: cầm con cá đông cứng như tấm ván",
+      "vao": "dau-video", "ra": "giay",
+      "nhip": [
+        {"tai": 0.0, "hanh_dong": "Khung đầu đã có Wob trên bàn, đang rút con cá cứng ra khỏi hộp kỷ vật", "sfx": []},
+        {"tai": 0.5, "loi": "This is a fish.", "hanh_dong": "Wob giơ cá lên trước mặt người xem, cá thẳng đơ", "sfx": []},
+        {"tai": 1.3, "hanh_dong": "Wob gõ cá xuống bàn: cộp. Cá không cong, tự đứng thẳng trên bàn", "gag": "cá cứng như gỗ", "sfx": ["bonk"]},
+        {"tai": 2.45, "loi": "Oymyakon", "hanh_dong": "Wob lật bìa sổ du lịch; trang pop-up bật dựng: làng tuyết nhỏ + biển tên làng", "sfx": ["whoosh"]},
+        {"tai": 4.9, "loi": "coldest permanently inhabited place on Earth", "hanh_dong": "Tuyết giấy rơi trong trang pop-up; Wob run nhẹ một cái", "sfx": ["brr"]},
+        {"tai": 8.0, "loi": "Roughly five hundred people live there.", "hanh_dong": "Wob chỉ vào biển 'OYMYAKON · pop. ~500'; camera đẩy vào biển cho chữ ≥ 40px", "sfx": []},
+        {"tai": 10.1, "loi": "On purpose.", "hanh_dong": "Wob quay ra nhìn thẳng người xem, mặt tỉnh bơ, chớp mắt chậm, GIỮ HÌNH", "gag": "deadpan", "sfx": []},
+        {"tai": 11.4, "hanh_dong": "Camera lao vào trang pop-up, làng phóng to; 0,5 s cuối phủ thành toàn khung giấy phẳng #EFE3C8", "sfx": ["whoosh"]}
+      ],
+      "chu_tren_do_vat": ["OYMYAKON", "pop. ~500"],
+      "ly_do_phong_cach": "Khung hiện tại của kênh; sổ pop-up bật dựng là cửa vào hồi ức (chữ ký hình của kênh)"
+    },
+    {
+      "id": "d02", "phong_cach": "cat-giay", "bat_dau": 12.6, "ket_thuc": 27.0, "lop": "hoi-uc",
+      "boi_canh": "Phố làng tuyết Oymyakon mùa đông: nhà gỗ thấp, cột khói bốc thẳng đứng, sương băng, trời xanh nhạt lạnh; 3 lớp xa/giữa/gần trôi lệch nhau",
+      "trang_phuc": "Wob đội mũ len đỏ, quàng khăn đỏ, đeo ba lô. Từ 22,6 s: lông mi đóng băng (giữ tới hết hồi ức)",
+      "vao": "giay", "ra": "cat",
+      "nhip": [
+        {"tai": 12.6, "hanh_dong": "Từ toàn khung giấy #EFE3C8, các lớp giấy của phố làng trượt vào/bật dựng thành cảnh", "sfx": ["whoosh"]},
+        {"tai": 13.1, "loi": "I went in January", "hanh_dong": "Camera lia chậm dọc phố; khói thẳng đứng; Wob ở trong nhà, mặt sau cửa sổ", "sfx": []},
+        {"tai": 15.6, "loi": "minus forty-six Celsius", "hanh_dong": "Nhiệt kế trên tường nhà: kim tụt xuống −46°C; Wob trố mắt sau cửa sổ", "sfx": ["drop"]},
+        {"tai": 18.4, "loi": "about minus fifty-one Fahrenheit", "hanh_dong": "Mặt nhiệt kế hiện thêm −51°F (chữ ≥ 40px)", "sfx": ["ting"]},
+        {"tai": 20.07, "loi": "I stepped outside to look around.", "hanh_dong": "Cửa mở, Wob bước ra đi lắc lư trên tuyết, nhìn trái, nhìn phải", "sfx": ["buoc-tuyet"]},
+        {"tai": 21.9, "loi": "My eyelashes froze.", "hanh_dong": "Lông mi bật ra trên mắt Wob (pop), rồi đóng băng răng rắc; bong bóng '?!' + líu lo sốc", "gag": "lông mi mọc rồi đóng băng", "sfx": ["pop", "tach-bang", "liu-lo-soc"]},
+        {"tai": 23.5, "loi": "I didn't know I had eyelashes.", "hanh_dong": "Cận mặt Wob lác mắt cố nhìn lên lông mi; GIỮ HÌNH tới hết đoạn", "gag": "lác mắt", "sfx": []}
+      ],
+      "chu_tren_do_vat": ["−46°C", "−51°F"],
+      "ly_do_phong_cach": "Cảnh đến nơi, cần không gian nhiều lớp và đi bộ dọc phố"
+    },
+    {
+      "id": "d03", "phong_cach": "ve-tay", "bat_dau": 27.0, "ket_thuc": 42.2, "lop": "hoi-uc",
+      "boi_canh": "Chợ ngoài trời trong làng tuyết; quầy chợ có thùng cá đông cứng dựng đứng như bó củi",
+      "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng. Cuối đoạn: vác con cá cứng trên vai",
+      "vao": "chen", "ra": "cat",
+      "nhip": [
+        {"tai": 27.0, "hanh_dong": "Cắt vào: Wob đi lạch bạch tới quầy chợ (khung đầu đã rõ cảnh)", "sfx": ["whoosh", "buoc-tuyet"]},
+        {"tai": 29.2, "loi": "the fish here is sold frozen solid", "hanh_dong": "Cận thùng cá dựng đứng; Wob gõ thử một con: cạch", "sfx": ["bonk"]},
+        {"tai": 31.65, "loi": "The village itself is the freezer.", "hanh_dong": "Camera lùi xa: cả làng nằm trong một cái tủ đông khổng lồ, cửa tủ đóng sập", "gag": "cả làng là tủ đông", "sfx": ["drop"]},
+        {"tai": 33.87, "loi": "I asked for a bag.", "hanh_dong": "Wob chìa túi giấy; bong bóng hình cái túi + líu lo hỏi; một bàn tay đeo găng (không mặt người) đưa ra con cá cứng", "sfx": ["liu-lo-hoi"]},
+        {"tai": 35.1, "loi": "The fish did not need a bag.", "hanh_dong": "Cá chọc thủng đáy túi, túi rơi; Wob vác cá lên vai như cây ván", "gag": "cá xuyên túi", "sfx": ["pop"]},
+        {"tai": 36.8, "loi": "The fish needed nothing.", "hanh_dong": "Wob nhìn con cá, nhún vai", "sfx": []},
+        {"tai": 38.25, "loi": "The fish had made peace with all of this.", "hanh_dong": "Cận mặt con cá: mắt lim dim thanh thản, vài hạt băng lấp lánh; GIỮ HÌNH", "gag": "cá thanh thản", "sfx": ["ting"]}
+      ],
+      "chu_tren_do_vat": [],
+      "ly_do_phong_cach": "Chuỗi gag liên tục, cắt nhanh, cận mặt cho punchline: hợp nét vẽ tay"
+    },
+    {
+      "id": "d04", "phong_cach": "cat-giay", "bat_dau": 42.2, "ket_thuc": 50.5, "lop": "hoi-uc",
+      "boi_canh": "Cùng phố làng tuyết của d02 (đoạn khác của con phố): xe đỗ bên đường, nổ máy, ghế lái trống; xa hơn một xe khác phủ tuyết",
+      "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng, vác cá trên vai",
+      "vao": "cat", "ra": "cat",
+      "nhip": [
+        {"tai": 42.3, "loi": "Outside, a car sat running", "hanh_dong": "Xe rung nhẹ, ống xả phụt khói đều; Wob vác cá đi tới", "sfx": ["may-no", "buoc-tuyet"]},
+        {"tai": 44.25, "loi": "with nobody in it", "hanh_dong": "Wob nhón chân nhìn qua cửa kính: ghế lái trống; Wob vẫy tay chào cái ghế", "gag": "chào ghế trống", "sfx": ["liu-lo-vui"]},
+        {"tai": 45.4, "loi": "People here often leave engines running", "hanh_dong": "Camera lia: thêm vài xe nữa cũng đang nổ máy, khói xả bay lên đều", "sfx": []},
+        {"tai": 48.25, "loi": "a cold engine may not start again", "hanh_dong": "Thoáng thấy một xe phủ kín tuyết, tắt máy; Wob gõ lên nó, tuyết rơi trúng đầu Wob", "sfx": ["bonk"]}
+      ],
+      "chu_tren_do_vat": [],
+      "ly_do_phong_cach": "Giải thích một tập quán có thật, cần bối cảnh liền mạch với d02"
+    },
+    {
+      "id": "d05", "phong_cach": "ve-tay", "bat_dau": 50.5, "ket_thuc": 53.7, "lop": "hoi-uc",
+      "boi_canh": "Cận cảnh Wob đứng ngoài trời tuyết, cầm cốc trà",
+      "trang_phuc": "Mũ len đỏ, khăn đỏ, lông mi đóng băng (cá không cần thấy)",
+      "vao": "chen", "ra": "cat",
+      "nhip": [
+        {"tai": 50.5, "loi": "I made tea to warm up.", "hanh_dong": "Cắt vào cận: Wob ôm cốc trà bốc hơi, mặt mãn nguyện", "sfx": ["whoosh", "hoi-nuoc"]},
+        {"tai": 52.2, "loi": "The tea did not warm up.", "hanh_dong": "Hơi trà đông cứng giữa không trung; Wob dốc ngược cốc, trà là một khối cứng rơi cạch", "gag": "trà đông", "sfx": ["tach-bang", "ting"]}
+      ],
+      "chu_tren_do_vat": [],
+      "ly_do_phong_cach": "Gag chèn ngắn 3 giây, cận mặt"
+    },
+    {
+      "id": "d06", "phong_cach": "diorama", "bat_dau": 53.7, "ket_thuc": 60.3, "lop": "hien-tai",
+      "boi_canh": "Cùng bàn kỷ vật 3D của d01",
+      "trang_phuc": "Wob không mũ, quấn chăn kẻ ca-rô, ôm cốc nóng; con cá giờ mềm oặt trên bàn, có vũng nước nhỏ",
+      "vao": "cat", "ra": "cuoi-video",
+      "nhip": [
+        {"tai": 53.7, "loi": "Anyway.", "hanh_dong": "CẮT CỨNG về bàn: Wob quấn chăn nhìn thẳng người xem nói 'Anyway.' (mấp máy miệng), tỉnh bơ", "gag": "cắt cứng", "sfx": []},
+        {"tai": 55.1, "loi": "Back home, the fish thawed in about an hour.", "hanh_dong": "Camera lia sang con cá mềm oặt, nhỏ giọt vào vũng nước", "sfx": ["drop"]},
+        {"tai": 57.7, "loi": "I took a week.", "hanh_dong": "Quay lại Wob run trong chăn, nhấp cốc nóng; giữ hình tới hết (không mờ đen)", "sfx": ["brr"]}
+      ],
+      "chu_tren_do_vat": [],
+      "ly_do_phong_cach": "Trở về khung hiện tại của kênh"
+    }
+  ]
+}

@@ -45,3 +45,15 @@ Nếu đã cài plugin `hyperframes`, đọc skill `/hyperframes-core` trước 
 
 - `npx hyperframes check` là cổng chính, yêu cầu 0 lỗi. Lint có lỗi thì `check` báo "0 samples", đừng hiểu nhầm là sạch.
 - Chụp thử: `npx hyperframes snapshot --at <các mốc>`; mở bảng ảnh bằng Read, kiểm khung t = 0, giữa mỗi chương, con dấu, 20 giây cuối.
+
+## Dựng thủ tục (hoạt hình Wob diễn) — lỗi đã gặp khi thử 16/11/2026
+
+Chi tiết và bối cảnh: `docs/thu-nghiem-thu-vien-hoat-hinh-2026-11-16.md` mục 6; mẫu chạy được: `projects/2026-11-16-oymyakon/ban-thu-thu-vien/t2-canh-1/canh.js`.
+
+- **Không resolve Promise bằng timeline GSAP** (`resolve(tl)`): timeline có `.then()` nên Promise chờ nó chạy hết, timeline không bao giờ được đăng ký và render ra toàn khung 0. Bọc lại: `resolve({ tl })`.
+- HyperFrames chạy `<script src>` trước khi khối dữ liệu inline có trong trang: đọc dữ liệu sau `DOMContentLoaded`.
+- `document.fonts.load()` gọi lúc trang đang dựng có thể treo: đăng ký timeline ngay, vẽ lại khi `document.fonts.ready`.
+- Cảnh tính lại mỗi khung bằng `render(t)`: gọi trong `modifiers` của một tween đồng hồ (`tl.to(clock, { v: DUR, duration: DUR, ease: "none", modifiers: { v: v => (render(+v), v) } })`), vì `modifiers` chạy cả khi seek tắt callback.
+- `check` báo `sweep_static` ("Timeline did not advance under seek") nghĩa là timeline chưa được đăng ký hoặc không chạy theo tua (thường do lỗi Promise ở trên); luôn xác nhận bằng `snapshot` nhiều mốc và xem bảng khung hình.
+- `mix-blend-mode` làm tắt chế độ chụp nhanh; bản giao thay bằng độ mờ thường.
+- Mỗi project chỉ một file `.html` có `data-composition-id`; file mẫu đặt đuôi khác (`.tpl`).

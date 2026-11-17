@@ -4,11 +4,14 @@ Lời đọc viết **tiếng Anh**, chữ trên hình tiếng Anh. Hướng d�
 
 ## Giọng văn (hồ sơ kênh)
 
-- Tò mò, khô, hài kiểu nói giảm (deadpan), như một người bạn kể chuyện thú vị. Người kể là kênh; Wob là nhân vật trong chuyện, không phải người kể.
+- Tò mò, khô, hài kiểu nói giảm (deadpan), như một người bạn kể chuyện thú vị. **Từ 16/11/2026 Wob là người kể, ngôi thứ nhất** ("I went in January. My eyelashes froze."): Wob đi chuyến đó về rồi kể lại từ bàn kỷ vật (định hướng hoạt hình). Kịch bản kiểu trình chiếu cũ (người kể là kênh, Wob ngôi thứ ba) chỉ còn cho tập đã làm.
+- **Mỗi câu phải vẽ được** (video là hoạt hình): một việc Wob làm, một đồ vật, một phản ứng. Câu chung chung không vẽ được thì viết lại thành việc cụ thể. Công thức nhịp chương, khuôn chương, kho gag: `.claude/skills/viet-kich-ban/references/cong-thuc-ke-chuyen.md`.
 - Đùa về thời tiết, địa hình, sự vô lý của địa lý và nỗi khổ của Wob. **Không đùa về người dân** nơi đó, không chê nghèo, không định kiến.
 - Hài nằm chủ yếu **trong lời**: nói giảm ("It gets a little chilly. Minus sixty-seven."), đặt một chi tiết bình thường cạnh một con số điên rồ, Wob tự tin rồi bị sự thật đánh bại. Punchline đứng thành câu ngắn riêng sau một câu dài.
 - Nói quá phải rõ là đùa; không bao giờ đùa bằng con số nghe như thật mà sai.
 - Có chính kiến: mỗi tập kết bằng phán quyết của Wob kèm lý do thật, và nói ai sẽ thích sống ở đó, ai không.
+- Giải thích một cơ chế bằng **một so sánh đời thường** (tủ đông, xích đu, xe hơi buổi sáng). So sánh không được làm sai sự thật.
+- **Câu chuyển sang sự thật đổi cách nói** giữa các chương ("Here's the thing", "Turns out", "The reason is boring and brilliant"…); một cụm mở câu lặp ở ≥ 3 cảnh thì `validate_script.py` cảnh báo. Câu đôi tỉnh bơ ("Luckily… / Unluckily…") tối đa một lần mỗi tập.
 
 ## Viết cho tai và cho TTS
 
@@ -21,7 +24,7 @@ Lời đọc viết **tiếng Anh**, chữ trên hình tiếng Anh. Hướng d�
 
 ## Mở và kết
 
-- **Câu đầu là câu hỏi hoặc tình huống của tập**, vào thẳng trong 10 giây đầu. Không chào, không giới thiệu kênh, không "hey guys", "welcome back".
+- **Câu đầu là câu hỏi hoặc tình huống của tập**, vào thẳng trong 10 giây đầu. Không chào, không giới thiệu kênh, không "hey guys", "welcome back". Định dạng hoạt hình: Wob ở bàn cầm một kỷ vật lạ của nơi đó ("This is a fish."), outro gọi lại kỷ vật đó; kết đúng ở chữ cuối.
 - Không lặp nguyên văn câu mở, câu kết của các tập trước (`validate_script.py` so với mọi `projects/*/script.json`).
 - Cảnh cuối: đóng vòng "Would Wob move here?", nêu phán quyết (nhãn con dấu + 1–2 câu lý do), một câu hỏi kéo bình luận ("Would you last a winter here?"). Câu hỏi đổi theo từng tập.
 
