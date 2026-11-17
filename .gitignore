@@ -36,3 +36,4 @@ projects/**/hoat-hinh/doan-*/lib/
 projects/**/hoat-hinh/doan-*/_chung/
 projects/**/hoat-hinh/out/*.mp4
 projects/**/hoat-hinh/out/frames/
+projects/*/ban-thu-*/**/out/*.log
