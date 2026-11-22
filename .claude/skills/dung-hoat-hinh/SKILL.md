@@ -28,6 +28,8 @@ argument-hint: "<thư mục dự án> [--doan d03] [--chi-ghep]"
    - khung hiện tại chỉ dùng `diorama`; đoạn lịch sử nghiêm túc không có `gag`;
    - mọi chữ trong `chu_tren_do_vat` đã có trong lời hoặc trong `claims`.
 
+2b. **Duyệt phân cảnh (cổng 5a, bắt buộc từ 19/11/2026)**: giao agent `duyet-phan-canh`, chế độ `phan-canh`, chấm **từng đoạn** (D1–D10) và **tổng thể** (T1–T8) theo [references/tieu-chi-duyet.md](references/tieu-chi-duyet.md) → `hoat-hinh/duyet/duyet-phan-canh.md`. Không đạt thì giao lại đạo diễn sửa đúng các đoạn bị chấm LÀM LẠI / SỬA NHỎ, rồi duyệt lại các đoạn đó + tổng thể (tối đa 3 vòng). **Chưa qua cổng này thì không giao thợ dựng.** Vì sao: tập 1 Oymyakon giao dựng 40 đoạn khi bảng phân cảnh mới qua kiểm cấu trúc; lỗi nội dung (chữ bị che, mũ đổi màu giữa phong cách, gag khó đọc) chỉ lộ ra sau khi render, lúc sửa đã tốn gấp nhiều lần.
+
 3. **Chuẩn bị mọi đoạn** (chép `_chung`, `lib`, `khung`, sinh `du-lieu.js`, ghi `data-duration`):
    ```bash
    python .claude/skills/dung-hoat-hinh/scripts/chuan_bi_doan.py <dự án> --tat-ca
@@ -41,11 +43,23 @@ argument-hint: "<thư mục dự án> [--doan d03] [--chi-ghep]"
 
    Prompt cho mỗi agent phải đủ: thư mục dự án, danh sách id đoạn, đường dẫn `phan-canh.json`, tiêu chí xong (hợp đồng mục 6). Một phong cách có nhiều đoạn dài (> 3 phút tổng) thì tách cho 2 agent cùng phong cách, mỗi agent một nhóm đoạn. Agent chỉ ghi vào `hoat-hinh/doan-<id>/` của mình; muốn sửa thư viện thì sửa `templates/hoat-hinh/<phong-cach>/` của đúng phong cách mình, rồi chạy lại bước 3 cho đoạn đó.
 
+4b. **Duyệt hình (cổng 6a, bắt buộc từ 19/11/2026)**: khi đủ mọi `out/doan.mp4`:
+   ```bash
+   python .claude/skills/dung-hoat-hinh/scripts/to_khung.py <dự án>
+   ```
+   Ra `hoat-hinh/duyet/to-khung/<id>.jpg` (một khung tại mỗi nhịp + khung cuối, có chú thích lời và thẻ), `_tong-the.jpg` (khung giữa mỗi đoạn, tô màu theo phong cách), `_muc-luc.json`. Giao agent `duyet-phan-canh`, chế độ `hinh`: chấm từng đoạn trên tờ khung đặt cạnh ý định trong `phan-canh.json`, và chấm tổng thể → `hoat-hinh/duyet/duyet-hinh.md`. Đoạn LÀM LẠI / SỬA NHỎ: gom theo phong cách, giao lại thợ dựng của đúng phong cách (mục "Sửa một đoạn"), chạy `to_khung.py --doan <id>` rồi duyệt lại các đoạn đó (tối đa 3 vòng). Qua cổng này mới ghép bản cuối.
+
 5. **Ghép**:
    ```bash
    python .claude/skills/dung-hoat-hinh/scripts/ghep_doan.py <dự án>
    ```
    Ra `hoat-hinh/out/video.mp4`, `video-no-music.mp4`, `audio-report.json`, `timeline.json`, `out/frames/noi-*.png` + `tong-hop.jpg`. Khi đang chờ đoạn thiếu, nghe thử nhịp bằng `--cho-thieu` (đoạn thiếu thành khung giấy phẳng).
+
+   Rồi dựng `timeline.json` đầy đủ ở gốc dự án (mốc từ, chương, khẳng định, phụ đề, con dấu) theo mốc giọng thật trong `phan-canh.json`, ghi lại `out/captions.srt`, `out/chapters.txt`:
+   ```bash
+   python .claude/skills/dung-hoat-hinh/scripts/xuat_timeline.py <dự án>
+   ```
+   Bắt buộc trước kiểm định, báo cáo độ xác thực, SEO: `build_timeline.py` đặt giọng nối liền nên mốc của nó lệch video hoạt hình (đến hàng chục giây ở cuối tập).
 
 6. **Kiểm chỗ nối**: mở `hoat-hinh/out/frames/tong-hop.jpg` bằng Read.
    - Nối `giay`: khung trước và khung sau đều gần như giấy phẳng `#EFE3C8`.
@@ -65,4 +79,4 @@ argument-hint: "<thư mục dự án> [--doan d03] [--chi-ghep]"
 
 ## Ghi nhật ký
 
-Mỗi bước một dòng vào `nhat-ky.md`: tỉ lệ phong cách, số đoạn, đoạn nào làm lại vì sao, thời gian render từng phong cách.
+Mỗi bước một dòng vào `nhat-ky.md`: tỉ lệ phong cách, số đoạn, kết quả hai lần duyệt (điểm tổng thể, số đoạn ĐẠT / SỬA NHỎ / LÀM LẠI, số vòng), đoạn nào làm lại vì sao, thời gian render từng phong cách.

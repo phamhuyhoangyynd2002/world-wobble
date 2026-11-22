@@ -1,0 +1,1013 @@
+{
+ "vong": 1,
+ "che_do": "hinh",
+ "du_an": "projects/2026-11-16-oymyakon",
+ "ngay": "2026-11-19",
+ "tong_the": {
+  "T1": 2,
+  "T2": 2,
+  "T3": 2,
+  "T4": 2,
+  "T5": 1,
+  "T6": 2,
+  "T7": 0,
+  "T8": 2,
+  "tong": 13,
+  "ket_luan": "KHÔNG ĐẠT",
+  "ly_do": "T7 = 0 (liên tục toàn tập) và còn 2 đoạn LÀM LẠI (d11, d29)",
+  "nhan_xet": {
+   "T1": "Khung 0 đã có Wob rút con cá phủ sương khỏi hộp kỷ vật (d01 ô 1). 'coldest permanently inhabited place' ở 4,9 s, câu hỏi 'Why would anyone choose that?' bắt đầu 9,76 s (vừa kịp mốc 10 s). Lý do ở lại qua 30 s: 'It isn't the cold. It's something that refused to be cold' + 'whether I was unpacking' (d03, 28–35 s). Trừ điểm nhỏ: hơi nước che biển 'OYMYAKON' ở 12,7 s và chữ 'PLAN: MOVE IN' không đọc được (d01).",
+   "T2": "Mốc mồi: 1,8 cá gõ · 18,7 bản đồ ngược · 22,2 bong bóng vương miện · 28–35 lời hứa · 42 nét đứt · 52 ba lô đè · 69,5 đèn pin rọi mặt · 79 làng bé tí 3D · 85 lông mi · 89 máy ảnh bỏ cuộc · 108 sông gõ lại · 115 dấu X · 141 đi qua suối 3 lần · 147 trạm xăng · 182 chai óc ách · 195 vương miện băng · 222 thủng trang · 228 rơi vương miện · 242 đo bằng ngón tay · 275 nhiệt kế cúi chào · 289 trượt ngã · 310 nắp Siberian High · 336 gõ khí lạnh · 343 trượt về đáy bát · 345,8 đặt cá xuống (đổi giọng nghiêm) · 379,6 phố 3D buổi sáng · 395 động cơ dỗi · 400 mùa đông giữ chìa · 424–435 cá không cần túi / làng trong tủ đông · 452 đường tới chòi dài ra · 476 bong bóng vỡ · 483 trà mọc da · 500,7 cắt cứng sang tháng Bảy · 532 toàn đồ lông · 545 chớp mùa đông · 553 ngựa phồng lông · 570 ngựa thờ ơ · 590 marathon · 609 bàn tổng kết · 645,5 NOPE · 656 cá đi nghỉ trong tủ đông. Khoảng trống dài nhất không mồi mới: 609,2→645,5 s (~36 s, tổng kết ở bàn) và 153,7→182,4 s (~29 s, đoạn sepia d11). Không đoạn nào > 90 s chỉ giải thích.",
+   "T3": "Chuỗi cùng phong cách dài nhất: ve-tay 285,1–345,6 s (60,5 s) < 90 s. 83 nhịp có thẻ, 28 thẻ khác nhau, thẻ nhiều nhất chen-ve-tay 9/83 = 10,8% (< 20%); giu-tinh-bo 5 lần, đúng 1 lần mỗi chương. Ánh sáng đổi theo nhịp: đêm xanh (đến nơi) → ngày ngắn → sepia (quá khứ) → trầm (Gulag) → sáng tối 3D → chiều tím → tối vàng trong nhà → hè xanh. Điểm yếu: nhiều đoạn cắt giấy cùng góc ngang, cỡ trung toàn (d11, d14, d15, d33).",
+   "T4": "Khung đầu chương: 0,4 bàn + cá · 38,3 bàn, vẽ đường đi · 93,6 mép làng đêm, câu hỏi · 185 phố làng đi tìm chỗ lạnh nhất · 345,8 bàn, đặt cá xuống · 379,8 sáng tối ở phố · 499,1 cắt sang tháng Bảy · 609,3 bàn tổng kết. Đọc riêng vẫn ra một chuyến đi (tới → ở → hiểu → về). Hai lớp rõ: bàn diorama ấm vs hồi ức. Kỷ vật con cá mở (0 s) và đóng (tủ đông 656 s).",
+   "T5": "Cung hài lên kế hoạch tốt (~45 gag, mỗi chương ≥ 3, chương Gulag sạch gag, có khoảng lặng trước/sau: đặt cá xuống 346 s, nhắm mắt 378 s). Nhưng khi dựng, 7 gag không đọc được trên hình: d21 chào ghế trống, d23 vỗ xe như ngựa, d24 xẻng bật lại, d29 ba lô không đóng được, d31 tay kéo dài lần hai, d35 ba lô to ngang ngựa, d36 số áo trượt. Đoạn khô dài nhất ngoài chương nghiêm: d11 sepia ~29 s (153,7–182,4 s). Gag lặp: bản đồ ngược (d01, d09, d29: 3 lần, chấp nhận vì là gọi lại), vương miện băng (d02, d12, d13, d14: mạch gag chạy, chấp nhận).",
+   "T6": "Tỉ lệ: cat-giay 302,6 s (45,7%), ve-tay 223,6 s (33,8%), diorama 135,5 s (20,5%, vượt trần 20% 0,5 điểm: chấp nhận). Không cửa sổ 15 s nào có quá 2 lần đổi phong cách ngoài đoạn chèn gag (dày nhất 392–410 s: 2 lần). Mỗi lần đổi có lý do: bàn = hiện tại, vẽ tay = tưởng tượng / sơ đồ / gag, 3D = cảnh toàn có chiều sâu.",
+   "T7": "Dòng thời gian trang phục: bàn (d01–d18 không mũ, găng + cá trong tay; d18 đặt cá, găng xuống bàn; d20–d40 cá, găng trên bàn; d40 cá vào tủ đông): KHỚP. Hồi ức mùa đông (d02–d29, d39: mũ len đỏ, khăn đỏ, ba lô; lông mi đóng băng từ 85 s): KHÔNG KHỚP ở: (1) khăn CAM ở cả 4 đoạn 3D d07, d21, d23, d30 trong khi cắt giấy, vẽ tay là khăn ĐỎ; (2) d29 con cá biến mất khỏi bậu cửa sổ, ba lô đóng kín, trong khi d30 vác ba lô có đuôi cá thò ra; (3) mũ hè: d30 và d32 mũ trùm lông nâu, d31 mũ tròn màu kem; (4) đài tưởng niệm d12 (khối trắng, thuỷ ngân xanh) ≠ d13 (cột thuỷ ngân đỏ); (5) cốc trà d29 trắng ≠ d39 cam; (6) xe hộp d04/d06 kraft ≠ d10 cam; (7) biển làng có tên ở d07, d15 nhưng trống ở d08, d16. Mũ len đỏ ở mọi phong cách kể cả 3D: ĐÚNG. Mùa: đông → hè ở 500,7 s rõ bằng cắt cứng cùng khung: đúng.",
+   "T8": "Con dấu 'NOPE' đóng đúng một lần (d40, 645,2 s), đúng nhãn, cỡ lớn ở cú lao vào (646,3 s); sfx dau-wob chỉ có trong d40 lúc 0,70 s, mặt dấu chạm giấy ~0,72–0,75 s (khớp). Câu hỏi cuối 'How long would you have lasted?' có Wob quay nhìn thẳng người xem. Chữ cuối kết thúc 659,84 s, giữ hình 1,9 s tới 661,72 s, không mờ đen. Góc end screen (x > 1150, y > 560) trống chữ từ 641,72 s (d39, d40)."
+  }
+ },
+ "dem": {
+  "SỬA NHỎ": 3,
+  "ĐẠT": 35,
+  "LÀM LẠI": 2
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 0,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 · ô 8 (12,72 s): ba cột hơi nước bốc từ trang pop-up che chữ 'OYMYAKON' trên biển (còn đọc 'OY…AKON'). Sửa: tắt hơi nước trước khi lật trang, hoặc đặt cột hơi sau biển / hạ dưới mép biển.",
+    "D7 · ô 8–12 (12,4–22,2 s): chữ 'PLAN: MOVE IN' trên trang sổ chỉ cao ~18–20 px ở khung 1080, nghiêng phối cảnh, không đọc được; ở 13,5 s chữ còn chưa hiện. Sửa: camera đẩy vào trang sổ từ 12,4 s cho chữ ≥ 40 px, hiện chữ đúng lúc 'move in' (~14,2 s), gạch chân hai lần, giữ 0,8 s rồi mới lùi ra cho nhịp ba lô.",
+    "D3 · ô 3 (1,45–2,4 s): cá vung xuống sàn rồi bật lên, không thấy cá chạm mép bàn và không cong. Sửa: đuôi cá gõ đúng mép bàn, rung va chạm 7 khung, cá thẳng đơ, giữ 0,6 s trước 'I bought it'."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d02",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "(tuỳ chọn) D5 · 4 ô cùng cỡ toàn: thêm một cận mặt Wob lúc vương miện mọc (26,2 s)."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d03",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D1/D2 · ô 3 (32,6–34 s): chai nước 'lóe sáng' gần như không thấy, chai nhỏ bị tay Wob che. Sửa: Wob nhấc chai lên khỏi hộp 0,8 s, bloom nhẹ quanh chai, camera đẩy 0,6 %/khung, rồi đặt lại."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D7 · ô 3 (44,3 s): nhãn 'Oymyakon' bị cắt mép phải ('Oymyak') khi camera lướt. Sửa: giữ nhãn trong vùng an toàn (x < 1824) suốt cú lướt.",
+    "D3 · ô 6 (49,7 s): gag 'nét đứt có chính kiến' yếu: nét chỉ uốn nhẹ, xe vẫn nằm trên bản đồ. Sửa: nét đứt ngoằn ngoèo vòng xoắn rồi kéo hẳn ra khỏi mép trang 1 s trước khi xe rơi sang trang mới.",
+    "D4 · ô 4 (45,8 s): Wob ngáp không thấy (Wob ~40 px trong xe). Sửa: cận xe 1 s, Wob ló đầu to hơn khi ngáp."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d05",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d06",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D6 · ô 4 (từ ~62,6 s, 5,6 s đoạn): đồng hồ '~4.5 h', nhiệt kế và nhãn 'JAN avg' đã hiện trước lời 'sun is up' (65,3 s) và 'January' (71,8 s). Sửa: đồng hồ trượt vào lúc 8,0 s đoạn; nhiệt kế + 'JAN avg' chỉ hiện ở 14,6 s.",
+    "D7 · ô 8–9 (77,1–78,7 s): nhãn 'JAN avg' bị cắt mép trên khi camera đẩy vào nhiệt kế. Sửa: giảm độ đẩy hoặc hạ bảng nhiệt kế 80 px."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d07",
+   "phong_cach": "diorama (ngoài trời 3D)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 (bắt buộc, xem T7) · cả đoạn: khăn của Wob 3D màu CAM sọc trắng, trong khi cắt giấy và vẽ tay là khăn ĐỎ (so sánh: duyet/soi/mau_khan_d07_d06.jpg). Sửa trong rig Wob 3D (dio-3d.js) cho khăn cùng màu đỏ như mũ, render lại.",
+    "D4 · ô 2–3 (81,8–83,9 s): Wob vắng mặt hẳn kể cả lúc lời 'I stepped out to take a photo of the sign' (83,1 s); Wob chỉ quay lại ở 0,8 s cuối. Sửa: để Wob bé tí thấy được trong cảnh toàn (wob-be-ti), hoặc hạ camera về Wob sớm hơn 0,8 s.",
+    "D5 · ô 2–3 (81,8–83,9 s): vật tiền cảnh đen mờ nhọn giữa đáy khung (cây chết sát ống kính) trông như vết bẩn. Sửa: bỏ, hoặc thay bằng cọc hàng rào nhận ra được ở mép khung."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d08",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 · ô 4–5 (94–101 s): biển làng là tấm bảng xanh TRỐNG, trong khi d07 liền trước biển ghi 'OYMYAKON'. Sửa (sau khi đạo diễn thêm chữ vào chu_tren_do_vat): vẽ 'OYMYAKON' trên biển."
+   ],
+   "giao": [
+    "dung-ve-tay",
+    "dao-dien"
+   ]
+  },
+  {
+   "id": "d09",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D4 · ô 1–6 (117,3–134,5 s, ~17 s): sổ che kín Wob, chỉ thấy mũ và mắt ló trên mép sổ, mũ bị cắt mép trên khung; ô 4–5 'Wob nghiêng đầu nhìn hai bên' không thấy. Sửa: hạ sổ 120 px, Wob ló cả đầu và một tay; nghiêng đầu trái ở 'Even?' (128,2 s), phải ở 'Sakha?' (129,9 s).",
+    "D7 · ô 2–6: gáy sổ chạy dọc qua chữ 'that' của '= water that does not freeze?'. Sửa: dời dòng chữ sang trang phải hoặc ngắt dòng trước gáy."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d10",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 · cả đoạn: xe hộp của Wob màu CAM; d04/d06 xe hộp màu nâu giấy kraft. Sửa: đổi về màu kraft.",
+    "D4 · ô 1 (147–152 s): Wob chỉ ngồi trong xe ~60 px suốt 5 s. Sửa: cận kính lái, Wob dí mặt lau kính, bão tuyết quất mạnh hơn."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d11",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D4 = 0 · ô 1–6 (154,0–177,7 s, ~24 s): Wob vắng mặt 6/10 ô liền; bảng phân cảnh hẹn Wob ngồi xổm bên suối từ 171,9 s nhưng tới ~177,7 s mới hiện. Làm lại phần sepia (0–24 s đoạn); phần 2 (bình nước óc ách, ôm chai, 24–31 s) giữ nguyên.",
+    "D5 · ô 3–6 (164,8–177,7 s): cùng một khung toàn phẳng gần như đứng, chỉ thêm lều, nhà bé ~30 px: trông như slide. Sửa: ô 2 lia theo đàn tuần lộc qua 2/3 khung; ô 3 đẩy vào chấm nước tới trung cảnh; ô 4–5 lều bật dựng to gần camera (≥ 150 px), nhà gỗ mọc quanh suối.",
+    "Cách đưa Wob vào (theo đạo diễn chốt): Wob hiện đại (màu đầy đủ) ngồi ở mép khung xem 'phim quá khứ' trên trang sổ, hoặc Wob cầm đèn pin rọi vào cảnh sepia; Wob phải có mặt chậm nhất ở 171,9 s."
+   ],
+   "giao": [
+    "dung-cat-giay",
+    "dao-dien"
+   ]
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D7 · ô 2–3 (188,4–190,2 s): nhãn 'POLE OF COLD' bị cắt mép phải ('POLE OF CO') đúng lúc lời gọi tên. Sửa: cú lướt camera xong trước 189,9 s, nhãn trọn trong khung."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 · ô 1, 9–12: đài tưởng niệm vẽ tay là cột nhiệt kế thuỷ ngân ĐỎ trên bệ xám, khác hẳn d12 cắt giấy (khối trắng, thuỷ ngân XANH, bảng 'POLE OF COLD'). Sửa: đổi dáng khối trắng, thuỷ ngân xanh như d12.",
+    "D7 · ô 4 (203,4 s): Wob đứng đè lên chữ '1933' đang viết; ô 7 (214,9 s) '6 Feb 1933' cắt mép trên; ô 8 Wob che chữ số đầu của '−67.8°C'. Sửa: Wob viết từ phía dưới dòng chữ, khung chừa 60 px trên."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D4 · ô 8–11 (253,4–265,3 s, 12 s): Wob đứng yên mặt ngạc nhiên dưới trang. Sửa: Wob đi theo nhiệt kế trượt, chỉ tay vào 'Tomtor' (255,7 s), nhìn đường băng (262,2 s). Ô 1 (228,4 s) chưa có Wob, ô 4 (238,7 s) Wob chỉ còn chóp mũ ở mép dưới.",
+    "D7 · ô 3 (236,0 s): vương miện chia đôi bị cắt mép trên khung. Sửa: hạ vương miện 80 px."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D7 · ô 1 (265,7 s): 'OYMYAKON' cắt mép trái, 'TOMTO' cắt mép phải đúng lúc lời nói 'Tomtor'; ô 7 (285,0 s) 'AKON'/'TOM' cắt mép. Sửa: lùi camera hoặc dời hai biển vào trong 96 px; biển TOMTOR 'rướn cao ưỡn ngực' (nhịp 1) chưa thấy, làm rõ."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d16",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D6 · ô 4–5 (293,2–298,2 s): Wob nằm đúng chỗ cột nhiệt kế, cột như cắm xuyên đầu Wob, bong bóng '?' mọc từ đầu nhiệt kế nên đọc như nhiệt kế đang hỏi. Sửa: Wob nằm lệch khỏi cột ~200 px, bong bóng nối từ đầu Wob.",
+    "D8 · ô 1–5: hai biển làng TRỐNG trong khi d15 ghi 'OYMYAKON'/'TOMTOR'. Sửa sau khi đạo diễn thêm chữ.",
+    "D7 · ô 9 (306,1 s): 'Arctic Circle' cắt mép trái ở khung cuối. Sửa: giữ nhãn trong khung khi lao vào Wob."
+   ],
+   "giao": [
+    "dung-ve-tay",
+    "dao-dien"
+   ]
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D7 · ô 2 (310,2 s): nhãn 'Siberian High' chỉ còn 'Siber' (nắp đang hạ, chữ bị cắt mép trên) đúng lúc lời gọi tên. Sửa: nắp hạ xong trước 311,0 s.",
+    "D4 · ô 1–9 (306,5–336 s): Wob ~30 px đứng nhìn. Sửa: Wob ngước nhìn nắp úp xuống, rụt cổ khi khí lạnh đổ xuống đáy bát."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d18",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay (lịch sử)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "(nhỏ) ô 2 (356,1–361,5 s): camera lùi lộ mép trang sổ rách và mảng nền đen ~220 px bên phải khung. Sửa: giữ trang phủ kín khung hoặc lùi ít hơn. Không gag, Wob vắng có chủ ý: đúng."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d20",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d21",
+   "phong_cach": "diorama (ngoài trời 3D)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 (bắt buộc, xem T7): khăn cam, đổi đỏ như d07.",
+    "D5 · ô 2–3 (383,9–386,5 s): camera lên đồng hồ, Wob bị cắt chỉ còn chóp mũ và quả bông ở mép dưới ~2,5 s, trông như lỗi khung. Sửa: hạ camera để thấy cả đầu Wob, Wob ngước nhìn đồng hồ.",
+    "D3 · ô 4 (389,0 s): gag 'chào ghế trống' không đọc được: Wob đứng trước đầu xe nhìn camera. Sửa: Wob nhón chân cạnh cửa kính lái, ghế lái trống rõ, vẫy 2 lần, giữ 0,6 s."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d22",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d23",
+   "phong_cach": "diorama (ngoài trời 3D)",
+   "diem": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 14,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D8 (bắt buộc): khăn cam, đổi đỏ.",
+    "D4/D3 · ô 1 (403,2 s): không thấy tay Wob vỗ nắp capo. Sửa: tay chạm nắp 3 lần, nắp nhún theo.",
+    "D6/D1 · ô 2 (406,0 s): cụm khói phụt ra từ BÊN TRÁI Wob, chỗ không có xe (đầu xe hướng về Wob, ống xả ở đuôi xe ngoài khung): đọc như khói từ đâu đến. Sửa: đổi thành cú 'khịt mũi' phụt từ lưới tản nhiệt phía trước (đúng ý so sánh con ngựa) thổi khăn bay ngang 0,6 s; thân xe lắc 2–3 px như ngựa khịt."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D3 · ô 4 (420,1–422,7 s): gag 'xẻng bật lại' không thấy: xẻng chỉ giơ trên vai rồi nghiêng, không chạm đất. Sửa: lấy đà 0,15 s, xẻng đập xuống đất 'keng', nảy ngược 40 px, rung 7 khung, Wob rung theo, giữ 0,6 s."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d25",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d26",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D2 · ô 3 (445,0 s): ống nước chỉ là ống xám chấm xanh, chưa đọc ra 'đông cứng thành que kem'. Sửa: phủ băng trắng, thêm que gỗ ở đầu ống.",
+    "(nhỏ) ô 1 (438,4 s): phân cảnh nói 'Wob trong nhà' nhưng Wob đứng ngoài tường nhà trên thảm đỏ, không rõ trong hay ngoài."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D7 · từ 466,0 s: camera lùi, nhãn '≈ −52°C · −62°F' còn ~36 px (< 40). Sửa: giữ trung cảnh hoặc phóng nhãn 1,2×."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 0,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D8 = 0 · nhịp 8 (495,8–497,9 s): con cá bọc khăn kẻ ô đứng trên bậu cửa sổ ở 17,2 s đoạn (496,3 s) rồi BIẾN MẤT ở 17,9 s, không ai nhét vào ba lô; ba lô đóng kín, không có đuôi cá thò ra; Wob ngồi đè lên mà không có lý do. Mất gag 'ba lô không đóng được' và gãy liên tục với d30 (vác ba lô phồng, đuôi cá thò ra). Làm lại nhịp 8 (2 s cuối), phần còn lại giữ.",
+    "Cách làm: Wob bưng cá bọc khăn từ bậu cửa sổ (0,6 s), nhét vào ba lô, nắp bật lên 2 lần vì đuôi cá, Wob ngồi đè, khung cuối đuôi cá thò ra mép nắp (khớp d30)."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama (ngoài trời 3D)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 (bắt buộc): phần mùa đông (0–2,8 s) khăn cam, đổi đỏ. Đuôi cá thò khỏi ba lô: đúng.",
+    "D5 · ô 5 (503,2–505,5 s): mảng đen mờ nhọn giữa đáy khung (giống d07). Sửa: bỏ vật tiền cảnh này.",
+    "(nhỏ) ô 5: 'vài con ngựa xa' là cục trắng nâu trông như cừu. Sửa: dáng ngựa Yakut (thân tròn, chân ngắn) hoặc bỏ."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d31",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 0,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 = 0 · ô 3–4 (~515,9–519,9 s): chữ '+34.6°C' tràn ra ngoài mép phải thẻ nhiệt kế (chữ 'C' nằm ngoài thẻ). Sửa trong canh.js: thu cỡ chữ hoặc nới rộng thẻ 30%.",
+    "D4 · ô 2 (509,2–~512 s): Wob ra khỏi khung, chỉ còn chóp mũ ở góc trái dưới. Sửa: giữ Wob trong khung khi camera lên đồng hồ.",
+    "D8 · cả đoạn: mũ mùa hè là mũ tròn màu kem; d30 và d32 là mũ trùm lông nâu đậm viền kem. Sửa: dùng đúng mũ trùm lông như d30/d32.",
+    "D3 · ô 7 (526,2 s): gag 'tay không với tới, lần hai' yếu: Wob chỉ dang tay ngắn. Sửa: tay cao su kéo dài về hai đầu thước, run, còn thiếu ~30 px mỗi bên, giữ 0,8 s."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d32",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d33",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D3 · ô 2 (545,0–545,7 s): chớp mùa đông chỉ ~0,7 s, dễ lỡ. Sửa: giữ khung tuyết 1,0–1,2 s, ngựa phủ tuyết trên lưng, rồi về xanh.",
+    "D5: một cỡ cảnh trung toàn suốt 7,9 s; thêm một cận ngựa ngẩng lên nhìn Wob.",
+    "(chính xác hình) Ngựa vẽ chân dài, thân thon như ngựa thường; phân cảnh đòi ngựa Yakut chân ngắn, thân tròn, bờm dày. Sửa: rút chân 25%, thân tròn, lông xù (d34 vẽ tay đã đúng hơn)."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d34",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d35",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D2 · ô 1 (564,3 s): ý 'ba lô to ngang ngựa' chưa vẽ, ba lô Wob vẫn nhỏ. Sửa: phóng ba lô 2,5× đặt cạnh thân ngựa 1,5 s.",
+    "(nhịp nghiêm) ô 7–8 (583,5–589,7 s): khi đẩy vào hình Chyskhaan, đầu Wob to choán góc phải dưới, đè lên tờ rơi. Sửa: đưa Wob ra mép trái hoặc ra khỏi khung khi đẩy vào."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d36",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D1/D6 · ô 3–4 (594,3–594,9 s): cỏ vẽ thành hàng tam giác đen viền dày như hàng chông; 'ngồi phịch xuống cỏ' đọc như ngồi trên chông. Sửa: cỏ mềm, màu xanh, nét mảnh.",
+    "D3 · ô 2 (593,3 s): 'số áo dính mồ hôi trượt xuống chân' không thấy (số áo ở ngực rồi biến mất). Sửa: số áo trượt xuống tới giày trong 0,5 s, giữ 0,4 s."
+   ],
+   "giao": [
+    "dung-ve-tay"
+   ]
+  },
+  {
+   "id": "d37",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "(nhỏ) ô 1–4 (595,3–601,8 s): mặt Wob khổng lồ sau trang sổ bị cắt mép trên, không diễn. Có thể cho Wob gật theo từng mũi tên."
+   ],
+   "giao": [
+    "dung-cat-giay"
+   ]
+  },
+  {
+   "id": "d38",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D6 · ô 1–4 (609,6–620,2 s): chai nước, nhiệt kế, con dấu đã nằm sẵn trên bàn ngay từ đầu; nhịp 'Wob đặt chai nước' (611,7 s) và 'đặt nhiệt kế' (620,2 s) không có hành động. Sửa: bàn trống lúc đầu, Wob đặt từng món đúng chữ."
+   ],
+   "giao": [
+    "dung-diorama"
+   ]
+  },
+  {
+   "id": "d39",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 · ô 2–3 (642,7–644,5 s): cốc trà gọi lại d29 nhưng màu CAM; d29 là cốc trắng. Sửa: cốc trắng như d29. Góc end screen trống: đúng."
+   ],
+   "giao": [
+    "dung-ve-tay",
+    "dao-dien"
+   ]
+  },
+  {
+   "id": "d40",
+   "phong_cach": "diorama (bàn)",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [],
+   "giao": [
+    "dung-diorama"
+   ]
+  }
+ ]
+}

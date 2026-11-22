@@ -37,7 +37,7 @@
         5
       ],
       "created": "2026-11-15",
-      "ghi_chu_chu_quyen": "16/11/2026: Claude mở bản PNG xem cả khung 1920x1080; khung cắt ở khoảng 30°N (Hàn Quốc, Nhật Bản), không hiện Biển Đông, Hoàng Sa, Trường Sa, không có đường lưỡi bò. Cảnh báo do script xét theo phạm vi quả cầu. Shot chỉ zoom-in (vào Oymyakon) nên không lộ thêm phía nam."
+      "ghi_chu_chu_quyen": "19/11/2026 (bản hoạt hình, sửa ghi chú 16/11 sai): khung thật xuống tới khoảng 7°N phía tây (Sri Lanka) và chạm mép bắc vịnh Bắc Bộ, bờ nam Trung Quốc quanh 21–22°N. Phiên chính render SVG 3840×2160 bằng Chrome headless, xem từng nét vùng 99–125°E, 0–26°N: không có Hoàng Sa, Trường Sa, không đảo nào trong Biển Đông, không đường lưỡi bò; biên giới theo Natural Earth bản quan điểm Việt Nam. Kiểm định (qa-report 19/11) cùng kết luận. Trong video dùng ở d04 (trang sổ)."
     },
     "map-yakutia": {
       "file": "assets/ban-do/map-yakutia.svg",

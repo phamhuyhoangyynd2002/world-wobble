@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>World Wobble – doan hoat hinh ve tay</title>
+    <!-- Khung phong cách ve-tay (templates/hoat-hinh/ve-tay). chuan_bi_doan.py ghi data-duration của root.
+         Không có <audio>: đoạn render câm; giọng, sfx, nhạc do ghep_doan.py đặt. Biên đạo nằm trong canh.js. -->
+    <script src="_chung/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("_chung/fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      html, body { width: 1920px; height: 1080px; margin: 0; background: #EFE3C8; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: "Fraunces"; }
+      #stage-wrap { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+      svg { display: block; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="doan" data-start="0" data-duration="5.65" data-width="1920" data-height="1080">
+      <div id="stage-wrap"></div>
+    </div>
+    <script src="lib/00-loi.js"></script>
+    <script src="lib/10-wob.js"></script>
+    <script src="lib/20-dao-cu.js"></script>
+    <script src="lib/30-hieu-ung.js"></script>
+    <script src="lib/40-nen.js"></script>
+    <script src="lib/50-noi.js"></script>
+    <script src="lib/90-may.js"></script>
+    <script src="du-lieu.js"></script>
+    <script src="canh.js"></script>
+    <script>
+      (function () {
+        function go() {
+          var tl = window.VT.chay();
+          window.__timelines = window.__timelines || {};
+          window.__timelines["doan"] = tl;
+        }
+        if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", go); else go();
+      })();
+    </script>
+  </body>
+</html>

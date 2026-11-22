@@ -1,0 +1,37 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 0.599,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "liu-lo-vui",
+  "tai": 2.124,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 3.484,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "drop",
+  "tai": 3.829,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 3.834,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "bonk",
+  "tai": 4.42,
+  "am_luong": 0.7
+ }
+]

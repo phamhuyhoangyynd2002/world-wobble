@@ -233,7 +233,110 @@
       var w = hits[k || 0];
       return w ? w.start : null;
     };
-    /* Khẩu hình theo HH_DATA.loi[].khau_hinh trong [t0, t1). Chỉ dùng khi lop = "hien-tai" (hợp đồng mục 4). */
+    /* Như api.tu nhưng chỉ xét từ có mốc >= tMin (mặc định 0: bỏ các từ của câu vắt từ đoạn trước, mốc âm). k: lần thứ k (từ 0). */
+    api.tuSau = function (tu, tMin, k) {
+      var hits = [], lo = tMin == null ? 0 : tMin;
+      (data.loi || []).forEach(function (l) { (l.tu || []).forEach(function (w) { if (w.start >= lo - 1e-6 && w.text.toLowerCase().indexOf(tu.toLowerCase()) >= 0) hits.push(w); }); });
+      hits.sort(function (a, b) { return a.start - b.start; });
+      var w = hits[k || 0];
+      return w ? w.start : null;
+    };
+
+    /* Như api.tuSau nhưng so KHỚP NGUYÊN TỪ (bỏ dấu câu, không phân biệt hoa thường): "So" không khớp "sources". */
+    api.tuDung = function (tu, tMin, k) {
+      var hits = [], lo = tMin == null ? 0 : tMin, key = String(tu).toLowerCase().replace(/[^a-z0-9'\-]/g, "");
+      (data.loi || []).forEach(function (l) { (l.tu || []).forEach(function (w) { if (w.start >= lo - 1e-6 && w.text.toLowerCase().replace(/[^a-z0-9'\-]/g, "") === key) hits.push(w); }); });
+      hits.sort(function (a, b) { return a.start - b.start; });
+      var w = hits[k || 0];
+      return w ? w.start : null;
+    };
+
+    /* Đường cong mở mượt qua các điểm (Catmull-Rom), lấy mẫu đều theo độ dài.
+       Trả { d: chuỗi path đầy đủ, dai: độ dài, at(u) → {x, y, a (độ, hướng tiếp tuyến)}, den(u) → path từ đầu tới u (0..1) }.
+       Dùng cho đường nét đứt tự vẽ dần (api.moiKhung + den) và xe/máy bay chạy theo đường (at). */
+    api.duong = function (pts, o) {
+      o = o || {};
+      var n = pts.length, S = [], per = o.mau || 24;
+      function P(i) { return pts[Math.max(0, Math.min(n - 1, i))]; }
+      for (var i = 0; i < n - 1; i++) {
+        var p0 = P(i - 1), p1 = P(i), p2 = P(i + 1), p3 = P(i + 2);
+        for (var k = 0; k < per; k++) {
+          var t = k / per, t2 = t * t, t3 = t2 * t;
+          S.push([0.5 * (2 * p1[0] + (-p0[0] + p2[0]) * t + (2 * p0[0] - 5 * p1[0] + 4 * p2[0] - p3[0]) * t2 + (-p0[0] + 3 * p1[0] - 3 * p2[0] + p3[0]) * t3),
+            0.5 * (2 * p1[1] + (-p0[1] + p2[1]) * t + (2 * p0[1] - 5 * p1[1] + 4 * p2[1] - p3[1]) * t2 + (-p0[1] + 3 * p1[1] - 3 * p2[1] + p3[1]) * t3)]);
+        }
+      }
+      S.push(pts[n - 1].slice());
+      var L = [0];
+      for (var j = 1; j < S.length; j++) L.push(L[j - 1] + Math.hypot(S[j][0] - S[j - 1][0], S[j][1] - S[j - 1][1]));
+      var tot = L[L.length - 1] || 1;
+      function idx(u) {
+        var s = Math.max(0, Math.min(1, u)) * tot, lo = 0, hi = L.length - 1;
+        while (hi - lo > 1) { var m = (lo + hi) >> 1; if (L[m] <= s) lo = m; else hi = m; }
+        var f = (s - L[lo]) / ((L[hi] - L[lo]) || 1);
+        return { i: lo, f: f, x: S[lo][0] + (S[hi][0] - S[lo][0]) * f, y: S[lo][1] + (S[hi][1] - S[lo][1]) * f, j: hi };
+      }
+      function path(arr) { return "M " + arr.map(function (p) { return f1(p[0]) + " " + f1(p[1]); }).join(" L "); }
+      return {
+        d: path(S), dai: tot, diem: S,
+        at: function (u) {
+          var q = idx(u), a = S[Math.max(0, q.i)], b = S[Math.min(S.length - 1, q.j)];
+          if (q.j === q.i) { a = S[Math.max(0, q.i - 1)]; b = S[q.i]; }
+          return { x: q.x, y: q.y, a: Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI };
+        },
+        den: function (u) {
+          if (u <= 0) return "M " + f1(S[0][0]) + " " + f1(S[0][1]);
+          var q = idx(u), arr = S.slice(0, q.i + 1);
+          arr.push([q.x, q.y]);
+          return path(arr);
+        }
+      };
+    };
+
+    /* Lọc màu sepia (hồi tưởng quá khứ) có thể tan dần: trả chuỗi <filter id>; gắn filter="url(#id)" lên một nhóm KHÔNG có transform
+       bọc các lớp (vùng lọc tính theo toạ độ khung 1920×1080).
+       keys: [[t, k]] với k = 0 (màu thật) … 1 (sepia giấy cũ); nội suy smoothstep giữa hai khoá, cập nhật mỗi khung. */
+    api.locSepia = function (id, keys) {
+      var ID = [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0];
+      var SP = [0.36, 0.62, 0.15, 0, 0.06, 0.31, 0.56, 0.13, 0, 0.04, 0.24, 0.43, 0.10, 0, 0.02, 0, 0, 0, 1, 0];
+      function vals(k) { return ID.map(function (v, i) { return String(Math.round((v + (SP[i] - v) * k) * 1000) / 1000); }).join(" "); }
+      function kAt(t) {
+        var ks = keys.slice().sort(function (a, b) { return a[0] - b[0]; });
+        if (t <= ks[0][0]) return ks[0][1];
+        for (var i = 1; i < ks.length; i++) if (t <= ks[i][0]) { var u = (t - ks[i - 1][0]) / ((ks[i][0] - ks[i - 1][0]) || 1); u = u * u * (3 - 2 * u); return ks[i - 1][1] + (ks[i][1] - ks[i - 1][1]) * u; }
+        return ks[ks.length - 1][1];
+      }
+      var node = null, last = null;
+      api.moiKhung(function (t) {
+        if (!node) node = el(id + "-m");
+        var v = vals(kAt(t));
+        if (node && v !== last) { node.setAttribute("values", v); last = v; }
+      });
+      return '<filter id="' + id + '" filterUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080" color-interpolation-filters="sRGB"><feColorMatrix id="' + id + '-m" type="matrix" values="' + vals(kAt(0)) + '"/></filter>';
+    };
+
+    /* Nhoè ngang khi lia nhanh (thẻ lia-nhoe): trả chuỗi <filter id>; tự gắn/bỏ filter trên nhóm nhomId (nhóm không transform
+       bọc các lớp) chỉ trong các khoảng nhoè để không làm chậm render. khoang: [[t0, t1, đỉnh px]] – đỉnh ở giữa khoảng. */
+    api.locNhoe = function (id, nhomId, khoang) {
+      function k(t) {
+        for (var i = 0; i < khoang.length; i++) {
+          var a = khoang[i];
+          if (t > a[0] && t < a[1]) { var u = (t - a[0]) / (a[1] - a[0]); return a[2] * Math.sin(Math.PI * u); }
+        }
+        return 0;
+      }
+      var nodes = null;
+      api.moiKhung(function (t) {
+        if (!nodes) nodes = [el(nhomId), el(id + "-b")];
+        var v = k(t);
+        if (!nodes[0] || !nodes[1]) return;
+        if (v > 0.3) { nodes[1].setAttribute("stdDeviation", v.toFixed(1) + " 0"); nodes[0].setAttribute("filter", "url(#" + id + ")"); }
+        else nodes[0].removeAttribute("filter");
+      });
+      return '<filter id="' + id + '" filterUnits="userSpaceOnUse" x="-100" y="0" width="2120" height="1080"><feGaussianBlur id="' + id + '-b" stdDeviation="0 0"/></filter>';
+    };
+
+    /* Khẩu hình theo HH_DATA.loi[].khau_hinh trong [t0, t1).Chỉ dùng khi lop = "hien-tai" (hợp đồng mục 4). */
     api.khauHinh = function (wob, t0, t1, o) {
       if (data.lop !== "hien-tai" && !(o && o.epBuoc)) { warn("khauHinh bỏ qua: đoạn " + data.id + " là '" + data.lop + "' (chỉ hien-tai mới mấp máy theo lời)"); return; }
       (data.loi || []).forEach(function (l) {

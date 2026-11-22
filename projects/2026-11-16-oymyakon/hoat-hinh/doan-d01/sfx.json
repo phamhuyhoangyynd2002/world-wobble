@@ -1,0 +1,57 @@
+[
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.47,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.676,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.845,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.013,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.182,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.351,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.52,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.688,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.857,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "pop",
+  "tai": 2.692,
+  "am_luong": 0.7
+ },
+ {
+  "ten": "tach-bang",
+  "tai": 4.23,
+  "am_luong": 0.7
+ }
+]

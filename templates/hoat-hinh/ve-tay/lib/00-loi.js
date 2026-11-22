@@ -231,4 +231,39 @@
   VT._sfx = [];
   /** Khai một sfx: tên file trong sfx/ (không .wav), mốc từ đầu đoạn, âm lượng 0..1. Không phát gì trong trình duyệt. */
   VT.sfx = function (ten, tai, am_luong) { VT._sfx.push({ ten: ten, tai: Math.round(tai * 1000) / 1000, am_luong: am_luong == null ? 0.6 : am_luong }); };
+
+  // ---------- vẽ dần (thêm 18/11/2026 cho sơ đồ vẽ tay) ----------
+  /** Nét hiện dần theo k 0..1 (bút đang kẻ): pathLength = 1 nên không cần biết độ dài. o: {op, dash: "a b" nét đứt (tỉ lệ theo độ dài 1)}. */
+  VT.lineDraw = function (d, k, sw, color, o) {
+    o = o || {};
+    k = VT.clamp(k, 0, 1);
+    if (k <= 0) return "";
+    var common = ' fill="none" stroke="' + (color || INK) + '" stroke-width="' + (sw || 6) + '" stroke-linecap="round" stroke-linejoin="round"' + (o.op != null ? ' opacity="' + o.op + '"' : "");
+    if (k >= 1 && !o.dash) return '<path d="' + d + '"' + common + "/>";
+    if (!o.dash) return '<path d="' + d + '" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="' + (Math.round((1 - k) * 10000) / 10000) + '"' + common + "/>";
+    // nét đứt hiện dần: che bằng mặt nạ nét liền vẽ dần
+    var id = VT.uid("ld");
+    return '<mask id="' + id + '" maskUnits="userSpaceOnUse" x="-4000" y="-4000" width="10000" height="10000"><path d="' + d + '" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="' + (Math.round((1 - k) * 10000) / 10000) +
+      '" fill="none" stroke="#fff" stroke-width="' + ((sw || 6) + 12) + '" stroke-linecap="round"/></mask>' +
+      '<path d="' + d + '" pathLength="1" stroke-dasharray="' + o.dash + '" mask="url(#' + id + ')"' + common + "/>";
+  };
+  /** Bề rộng ước của chữ Fraunces đậm (để viết dần, đặt đầu bút). */
+  VT.textW = function (str, size) { return String(str).length * size * 0.6; };
+  /** Chữ viết dần từ trái sang phải theo k 0..1 (đúng luật VT.text: chữ phải có trong chu_tren_do_vat). Cùng tham số VT.text. */
+  VT.textWrite = function (x, y, str, size, k, o) {
+    o = o || {};
+    k = VT.clamp(k, 0, 1);
+    if (k <= 0) return "";
+    var full = VT.text(x, y, str, size, o);
+    if (!full || k >= 1) return full;
+    var w = VT.textW(str, size), an = o.anchor || "middle", x0 = an === "middle" ? x - w / 2 : an === "end" ? x - w : x, id = VT.uid("tw");
+    return '<clipPath id="' + id + '"><rect x="' + VT.f(x0 - 12) + '" y="' + VT.f(y - size * 1.2) + '" width="' + VT.f((w + 24) * k) + '" height="' + VT.f(size * 1.7) + '"/></clipPath>' +
+      '<g clip-path="url(#' + id + ')">' + full + "</g>";
+  };
+  /** Vị trí đầu bút khi viết dần chữ (toạ độ cùng hệ với VT.textWrite): [x, y]. */
+  VT.textTip = function (x, y, str, size, k, anchor) {
+    var w = VT.textW(str, size), an = anchor || "middle", x0 = an === "middle" ? x - w / 2 : an === "end" ? x - w : x;
+    k = VT.clamp(k, 0, 1);
+    return [x0 + w * k, y - size * 0.3 + Math.sin(k * 40) * size * 0.18];
+  };
 })();

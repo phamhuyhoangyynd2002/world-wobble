@@ -1,0 +1,52 @@
+[
+ {
+  "ten": "hoi-nuoc",
+  "tai": 0.998,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "tach-bang",
+  "tai": 4.785,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "bonk",
+  "tai": 5.72,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "brr",
+  "tai": 11.16,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "brr",
+  "tai": 15.511,
+  "am_luong": 0.7
+ },
+ {
+  "ten": "pop",
+  "tai": 16.718,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "pop",
+  "tai": 17.228,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "boing",
+  "tai": 17.418,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "boing",
+  "tai": 17.638,
+  "am_luong": 0.7000000000000001
+ },
+ {
+  "ten": "boing",
+  "tai": 17.978,
+  "am_luong": 0.75
+ }
+]

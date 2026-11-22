@@ -1,22 +1,21 @@
 {
-  "video": "projects\\2026-11-16-oymyakon\\out\\video.mp4",
-  "duration": 612.7,
+  "video": "out\\video.mp4",
+  "duration": 628.266016,
   "errors": [],
   "warnings": [],
   "frames": [
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-00.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-01.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-02.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-03.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-04.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-05.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-06.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-07.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-08.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-09.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-10.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-11.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-12.jpg",
-    "projects\\2026-11-16-oymyakon\\out\\frames\\kt-13.jpg"
+    "out\\frames\\kt-00.jpg",
+    "out\\frames\\kt-01.jpg",
+    "out\\frames\\kt-02.jpg",
+    "out\\frames\\kt-03.jpg",
+    "out\\frames\\kt-04.jpg",
+    "out\\frames\\kt-05.jpg",
+    "out\\frames\\kt-06.jpg",
+    "out\\frames\\kt-07.jpg",
+    "out\\frames\\kt-08.jpg",
+    "out\\frames\\kt-09.jpg",
+    "out\\frames\\kt-10.jpg",
+    "out\\frames\\kt-11.jpg",
+    "out\\frames\\kt-12.jpg"
   ]
 }

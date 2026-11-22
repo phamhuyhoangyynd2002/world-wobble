@@ -1,0 +1,42 @@
+[
+ {
+  "ten": "drop",
+  "tai": 0.32,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "pop",
+  "tai": 0.6,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "pop",
+  "tai": 7.175,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "liu-lo-vui",
+  "tai": 7.795,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "ting",
+  "tai": 13.98,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "bonk",
+  "tai": 14.56,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "pop",
+  "tai": 16.188,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "whoosh",
+  "tai": 16.9,
+  "am_luong": 0.45
+ }
+]

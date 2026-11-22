@@ -68,7 +68,7 @@ script.json (đã kiểm chứng) → audio/ + subtitles.json (long-tieng) → k
 - **Phông nền vẽ cọ màu nước p5.brush** (MIT), tách lớp nền trong suốt, có seed: nguồn phông nền miễn phí, không giới hạn lượt, hợp `cat-giay` và `ve-tay`. Thay cho ảnh AI risograph khi không cần cảnh rất chi tiết.
 - **Vật lý Matter.js** (MIT) tính trước thành dữ liệu cho gag rơi, đổ, nảy; giữ được tính tất định.
 - Tay ống cao su, ba lô con lắc theo gia tốc, co giãn giữ thể tích: đưa vào rig của cả ba phong cách khi nâng cấp.
-- **T4: Wob tấm phẳng có ánh sáng, đổ bóng trong phố 3D thật** (three.js trong HyperFrames, check đạt, 46 giây render cho 8 giây video; mẫu `ban-thu-thu-vien/t4-wob-3d/canh3d.js`, tài liệu thử nghiệm mục 9–10): ứng viên nâng cấp cho `diorama` khi cần cảnh ngoài trời có chiều sâu thật (điểm yếu "làng phẳng màu" của bản thử C). Chưa gộp vào thư viện; render chậm hơn CSS 3D khoảng 2 lần.
+- **T4: Wob tấm phẳng có ánh sáng, đổ bóng trong phố 3D thật** (three.js trong HyperFrames, check đạt, 46 giây render cho 8 giây video; mẫu `ban-thu-thu-vien/t4-wob-3d/canh3d.js`, tài liệu thử nghiệm mục 9–10): ứng viên nâng cấp cho `diorama` khi cần cảnh ngoài trời có chiều sâu thật (điểm yếu "làng phẳng màu" của bản thử C). Render chậm hơn CSS 3D khoảng 2 lần. **Chốt 18/11/2026 (người làm kênh): không tách thành phong cách thứ 4; gộp vào `diorama` làm chế độ cảnh ngoài trời 3D.** Chưa gộp vào thư viện; làm trước khi dựng các đoạn diorama ngoài trời của tập 1.
 
 ## 5. Còn mở
 

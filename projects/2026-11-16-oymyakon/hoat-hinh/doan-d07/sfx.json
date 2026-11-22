@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "pop",
+  "tai": 0.95,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "drop",
+  "tai": 1.887,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "ting",
+  "tai": 4.137,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 10.405,
+  "am_luong": 0.7
+ },
+ {
+  "ten": "tach-bang",
+  "tai": 11.3,
+  "am_luong": 0.7
+ },
+ {
+  "ten": "pop",
+  "tai": 11.5,
+  "am_luong": 0.3
+ }
+]

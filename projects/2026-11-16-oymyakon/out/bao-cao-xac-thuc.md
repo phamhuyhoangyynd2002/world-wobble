@@ -1,6 +1,6 @@
-# Báo cáo độ xác thực: Who Would Choose to Live at Minus Fifty?
+# Báo cáo độ xác thực: Why Would Anyone Live in Oymyakon? I Tried.
 
-- Video: `projects/2026-11-16-oymyakon/out/video.mp4` (10:12)
+- Video: `./out/video.mp4` (10:28)
 - Ngày kiểm chứng: Claude 2026-11-16 · Gemini 2026-11-16
 - Vòng 1: Claude (claude-opus-5-5), agent kiểm chứng độc lập
 - Vòng 2: Gemini (Gemini web (Gemini Tự động)), có tìm kiếm web, không thấy kết luận của vòng 1
@@ -10,54 +10,56 @@
 
 | Mức | Số khẳng định | Tỉ lệ |
 |---|---|---|
-| A, xác thực | 13 | 36% |
-| B, có cơ sở | 22 | 61% |
+| A, xác thực | 14 | 37% |
+| B, có cơ sở | 23 | 61% |
 | C, còn tranh cãi (đã nói rõ trong lời) | 1 | 3% |
 | D, không kiểm chứng được (đã bỏ) | 9 | – |
-| **Tổng còn trong video** | 36 | 100% |
+| **Tổng còn trong video** | 38 | 100% |
 
-Hai mô hình lệch nhau ở 11 khẳng định; cách xử lý ở mục "Đã sửa hoặc bỏ".
+Hai mô hình lệch nhau ở 12 khẳng định; cách xử lý ở mục "Đã sửa hoặc bỏ".
 
 ## Từng khẳng định
 
 | Mã | Thời điểm | Khẳng định (lời đọc) | Mức | Claude | Gemini | Nguồn | Ghi chú |
 |---|---|---|---|---|---|---|---|
-| C01 | 00:00 | "Eyelashes freeze here. Cars are left running for hours." | B | Đúng | Đúng | [S1][S2][S3] |  |
-| C02 | 00:03 | "And around five hundred people live here on purpose." | B | Đúng | Đúng | [S4][S5] |  |
-| C03 | 00:14 | "It is often called the coldest permanently inhabited place on Earth." | B | Đúng | Không rõ | [S4][S6][S7] | tra lần ba: Đúng |
-| C04 | 02:07 | "On the sixth of February, nineteen thirty-three, the weather station here recorded about minus sixty-eight degrees Celsius. That is about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight." | A | Đúng | Đúng | [S4][S8][S9][S10][S5] |  |
-| C05 | 02:28 | "Either way, it is the lowest temperature on record for a place where people live all year. Well. Almost." | A | Đúng | Đúng | [S4][S9][S8][S10] |  |
-| C06 | 02:35 | "Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number." | A | Đúng | Đúng | [S9][S4][S8][S11] |  |
-| C07 | 02:42 | "Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed." | A | Đúng | Đúng | [S4][S8][S10][S12] |  |
-| C08 | 03:05 | "It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield." | B | Đúng | Đúng | [S9][S13][S5] |  |
-| C09 | 03:13 | "Some sources argue that Tomtor, not Oymyakon, is the real Pole of Cold. Oymyakon, meanwhile, has the official monument." | B | Đúng | Đúng | [S9][S14][S15] |  |
-| C10 | 03:45 | "Oymyakon is not even inside the Arctic Circle. It sits a few degrees of latitude south of it." | A | Đúng | Đúng | [S8][S13][S16][S17] |  |
-| C11 | 03:53 | "First, in winter a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space." | A | Đúng | Đúng | [S18][S19][S20][S21] |  |
-| C12 | 04:09 | "Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor." | A | Đúng | Đúng | [S19][S18][S5] | tra lần ba: Đúng |
-| C13 | 00:55 | "Oymyakon is usually explained as meaning water that does not freeze." | A | Đúng | Đúng | [S22][S23][S5][S16] |  |
-| C14 | 01:02 | "some sources trace the word to the Even language while others point to Sakha" | C | Đúng | Nguồn mâu thuẫn | [S23][S5][S16] | lời đọc đã nói rõ còn tranh cãi |
-| C15 | 01:10 | "Nearby there were warm springs, water that stayed open through the winter." | A | Đúng | Đúng | [S22][S1][S2][S16] |  |
-| C16 | 01:33 | "Reindeer herders stopped at the springs to water their animals and rest before long journeys." | B | Đúng | Đúng | [S1][S2][S16] |  |
-| C17 | 01:40 | "Over time, the camp grew into a permanent village." | B | Đúng | Đúng | [S1][S2][S24] |  |
-| C18 | 04:42 | "A weather station was set up. An airfield was built near Tomtor." | B | Đúng | Đúng | [S9][S25][S13][S26] |  |
-| C19 | 04:46 | "the record that made Oymyakon famous came from that station in nineteen thirty-three" | B | Đúng | Đúng | [S9][S4][S10] |  |
-| C20 | 05:08 | "In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold." | B | Đúng | Đúng | [S6][S27] |  |
-| C21 | 05:17 | "Prisoners began building the Kolyma Highway in the early nineteen thirties, and forced labour continued on it into the nineteen fifties." | B | Đúng | Không rõ | [S6][S28] | tra lần ba: Đúng |
-| C22 | 05:25 | "Many of them did not survive." | B | Đúng | Không rõ | [S6][S28][S29] | tra lần ba: Đúng |
-| C24 | 05:36 | "In January, the average temperature here is around minus forty-six Celsius." | A | Đúng | Đúng | [S30][S6][S31] |  |
-| C25 | 05:40 | "In late December the sun is up for only about four and a half hours a day." | B | Đúng | Đúng | [S32][S33][S34] | tra lần ba: Đúng |
-| C26 | 05:51 | "Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets." | B | Đúng | Đúng | [S1][S2][S35] |  |
-| C27 | 06:02 | "Cars are often left running for hours, or warmed with a fire before starting" | B | Đúng | Đúng | [S1][S2][S3] |  |
-| C28 | 06:11 | "Food comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible." | B | Đúng | Đúng | [S1][S2][S36] |  |
-| C29 | 06:47 | "According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two." | B | Đúng | Đúng | [S37][S13][S5][S38] |  |
-| C30 | 07:18 | "By late June, daylight lasts more than twenty hours." | B | Đúng | Không rõ | [S39][S34] | tra lần ba: Đúng |
-| C31 | 07:22 | "In July twenty ten, the station recorded thirty-four point six degrees Celsius. That is about ninety-four Fahrenheit." | B | Đúng | Không rõ | [S40][S30][S41] | tra lần ba: Đúng |
-| C32 | 07:29 | "Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth have record highs and lows that far apart." | B | Đúng | Đúng | [S4][S30][S5][S40] | tra lần ba: Đúng |
-| C35 | 07:51 | "Yakutian horses live outdoors all year in this region, right through the winter." | B | Đúng | Không rõ | [S42] | tra lần ba: Đúng |
-| C36 | 07:57 | "A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats." | B | Đúng | Không rõ | [S42] | tra lần ba: Đúng |
-| C38 | 08:30 | "Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor." | A | Đúng | Không rõ | [S22][S43] | tra lần ba: Đúng |
-| C39 | 08:38 | "Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence." | A | Đúng | Không rõ | [S22][S44][S14][S43] | tra lần ba: Đúng |
-| C40 | 08:45 | "In twenty twenty-five, there was even a marathon here." | A | Đúng | Không rõ | [S45][S46] | tra lần ba: Đúng |
+| C01 | 00:03 | "My eyelashes froze." | B | Đúng | Đúng | [S1][S2][S3] |  |
+| C02 | 00:33 | "Roughly five hundred people live there." | B | Đúng | Đúng | [S4][S5] |  |
+| C03 | 00:18 | "often called the coldest permanently inhabited place on Earth" | B | Đúng | Không rõ | [S4][S6][S7] | tra lần ba: Đúng |
+| C04 | 03:07 | "On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight." | A | Đúng | Đúng | [S4][S8][S9][S10][S5] |  |
+| C05 | 03:26 | "Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost." | A | Đúng | Đúng | [S4][S9][S8][S10] |  |
+| C06 | 03:33 | "Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number." | A | Đúng | Đúng | [S9][S4][S8][S11] |  |
+| C07 | 03:40 | "Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed." | A | Đúng | Đúng | [S4][S8][S10][S12] |  |
+| C08 | 04:00 | "It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield." | B | Đúng | Đúng | [S9][S13][S5] |  |
+| C09 | 04:10 | "Some sources argue that Tomtor, not Oymyakon, is the real Pole of Cold. Oymyakon, meanwhile, has the official monument." | B | Đúng | Đúng | [S9][S14][S15] |  |
+| C10 | 04:42 | "Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it." | A | Đúng | Đúng | [S8][S13][S16][S17] |  |
+| C11 | 04:51 | "In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space." | A | Đúng | Đúng | [S18][S19][S20][S21] |  |
+| C12 | 05:05 | "Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor." | A | Đúng | Đúng | [S19][S18][S5] | tra lần ba: Đúng |
+| C13 | 01:44 | "Oymyakon is usually explained as meaning water that does not freeze." | A | Đúng | Đúng | [S22][S23][S5][S16] |  |
+| C14 | 01:50 | "Some sources trace the word to the Even language, while others point to Sakha." | C | Đúng | Nguồn mâu thuẫn | [S23][S5][S16] | lời đọc đã nói rõ còn tranh cãi |
+| C15 | 01:59 | "Nearby there were warm springs, water that stayed open through the winter." | A | Đúng | Đúng | [S22][S1][S2][S16] |  |
+| C16 | 02:18 | "Reindeer herders stopped at the springs to water their animals and rest before long journeys." | B | Đúng | Đúng | [S1][S2][S16] |  |
+| C17 | 02:30 | "A stopping place became a regular camp. Over time, the camp grew into a permanent village." | B | Đúng | Đúng | [S1][S2][S24] |  |
+| C18 | 04:06 | "The station and the airfield both date from the Soviet era." | B | Đúng | Đúng | [S9][S25][S13][S26] |  |
+| C19 | 03:02 | "the record that made Oymyakon famous came from the local weather station in nineteen thirty-three" | B | Đúng | Đúng | [S9][S4][S10] |  |
+| C20 | 05:36 | "In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold." | B | Đúng | Đúng | [S6][S27] |  |
+| C21 | 05:46 | "Prisoners began building the Kolyma Highway in the early nineteen thirties, and forced labour continued on it into the nineteen fifties." | B | Đúng | Không rõ | [S6][S28] | tra lần ba: Đúng |
+| C22 | 05:53 | "Many of them did not survive." | B | Đúng | Không rõ | [S6][S28][S29] | tra lần ba: Đúng |
+| C24 | 01:06 | "January averages around minus forty-six Celsius. Call it minus fifty-one Fahrenheit." | A | Đúng | Đúng | [S30][S6][S31] |  |
+| C25 | 00:59 | "Around then, the sun is up for only about four and a half hours a day." | B | Đúng | Đúng | [S32][S33][S34] | tra lần ba: Đúng |
+| C26 | 07:05 | "Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets." | B | Đúng | Đúng | [S1][S2][S35] |  |
+| C27 | 06:14 | "Cars are often left running for hours, or warmed with a fire before starting, because a frozen engine may refuse to start at all." | B | Đúng | Đúng | [S1][S2][S3] |  |
+| C28 | 06:36 | "Food here comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible." | B | Đúng | Đúng | [S1][S2][S36] |  |
+| C29 | 07:22 | "According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two. The exact cut-off for each age group depends on who you ask." | B | Đúng | Đúng | [S37][S13][S5][S38] |  |
+| C30 | 08:13 | "By late June, daylight lasts more than twenty hours." | B | Đúng | Không rõ | [S39][S34] | tra lần ba: Đúng |
+| C31 | 08:17 | "In July twenty ten, the station recorded thirty-four point six degrees Celsius. That's about ninety-four Fahrenheit." | B | Đúng | Không rõ | [S40][S30][S41] | tra lần ba: Đúng |
+| C32 | 08:24 | "Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth have record highs and lows that far apart." | B | Đúng | Đúng | [S4][S30][S5][S40] | tra lần ba: Đúng |
+| C35 | 08:45 | "Yakutian horses live outdoors all year in this region, right through the winter." | B | Đúng | Không rõ | [S42] | tra lần ba: Đúng |
+| C36 | 08:50 | "A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats." | B | Đúng | Không rõ | [S42] | tra lần ba: Đúng |
+| C38 | 09:19 | "Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor." | A | Đúng | Không rõ | [S22][S43] | tra lần ba: Đúng |
+| C39 | 09:28 | "Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence." | A | Đúng | Không rõ | [S22][S44][S14][S43] | tra lần ba: Đúng |
+| C40 | 09:34 | "In twenty twenty-five, there was even a marathon here." | A | Đúng | Không rõ | [S45][S46] | tra lần ba: Đúng |
+| C41 | 00:21 | "In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit." | A | Đúng | Đúng | [S4][S8][S9][S10][S5] |  |
+| C42 | 00:29 | "In July twenty ten, the same station hit plus thirty-four." | B | Đúng | Không rõ | [S40][S30][S41] | tra lần ba: Đúng |
 
 ## Đã sửa hoặc bỏ
 
@@ -80,7 +82,7 @@ Hai mô hình lệch nhau ở 11 khẳng định; cách xử lý ở mục "Đã
 ## Phán quyết của kênh
 
 - Con dấu: NOPE
-- Lý do trong video: "The winters are long, dark and brutally cold, and Wob packed for a weekend."
+- Lý do trong video: "The winters are long, dark and brutally cold: about four and a half hours of sun in late December and a January average around minus forty-six. I lasted one cup of tea."
 - Đây là nhận định của kênh, không phải khẳng định cần kiểm chứng; các sự thật làm căn cứ cho nhận định đã nằm trong bảng trên.
 
 ## Nguồn

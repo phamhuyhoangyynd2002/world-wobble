@@ -1,0 +1,102 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -17.2,
+      "true_peak": -3.3
+    },
+    "video.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.4
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 0.0,
+      "end": 11.0
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 11.0,
+      "end": 50.8
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 50.8,
+      "end": 131.532
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 131.532,
+      "end": 169.872
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 169.872,
+      "end": 269.972
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+      "mood": "hai",
+      "start": 269.972,
+      "end": 330.502
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 364.492,
+      "end": 419.922
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+      "mood": "hai",
+      "start": 422.992,
+      "end": 464.032
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 464.032,
+      "end": 482.822
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 482.822,
+      "end": 594.122
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 594.722,
+      "end": 603.492
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "to-mo",
+      "start": 610.292,
+      "end": 628.192
+    }
+  ],
+  "sfx_count": 374,
+  "sections": {
+    "than_video": {
+      "lufs": -14.2,
+      "true_peak": -1.4
+    },
+    "canh_cuoi": {
+      "lufs": -14.1,
+      "true_peak": -1.4
+    }
+  }
+}

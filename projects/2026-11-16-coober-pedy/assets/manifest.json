@@ -1,0 +1,134 @@
+{
+  "assets": {
+    "map-coober-pedy": {
+      "file": "assets/ban-do/map-coober-pedy.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        134,
+        -27
+      ],
+      "zoom": 6,
+      "anchor": [
+        1100,
+        560
+      ],
+      "highlight": [
+        "AUS"
+      ],
+      "marks": [
+        {
+          "x": 1124,
+          "y": 633,
+          "label": "Coober Pedy",
+          "lon": 134.755,
+          "lat": -29.013
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        1,
+        18
+      ],
+      "created": "2026-11-22"
+    },
+    "map-adelaide-route": {
+      "file": "assets/ban-do/map-adelaide-route.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        136.7,
+        -32
+      ],
+      "zoom": 16,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [
+        "AUS"
+      ],
+      "marks": [
+        {
+          "x": 794,
+          "y": 244,
+          "label": "Coober Pedy",
+          "lon": 134.755,
+          "lat": -29.013
+        },
+        {
+          "x": 1122,
+          "y": 840,
+          "label": "Adelaide",
+          "lon": 138.6,
+          "lat": -34.928
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        2,
+        14
+      ],
+      "created": "2026-11-22",
+      "ghi_chu": "Chỉ có ghim 2 điểm; đường Stuart Highway nét đứt và nhãn '~846 km' do template/thợ dựng vẽ (ve_ban_do.mjs không vẽ tuyến)."
+    },
+    "map-coober-pedy-water": {
+      "file": "assets/ban-do/map-coober-pedy-water.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        134.85,
+        -28.95
+      ],
+      "zoom": 400,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [
+        "AUS"
+      ],
+      "marks": [
+        {
+          "x": 757,
+          "y": 694,
+          "label": "Coober Pedy",
+          "lon": 134.755,
+          "lat": -29.013
+        },
+        {
+          "x": 1216,
+          "y": 345,
+          "label": "Bore (approx.)",
+          "lon": 134.97,
+          "lat": -28.87
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        14
+      ],
+      "created": "2026-11-22",
+      "ghi_chu": "Vị trí giếng PHỎNG CHỪNG (~24 km đông bắc), nhãn phải ghi 'approx.'; đường ống nét đứt và nhãn 'Bore ~60 m deep' do template vẽ.",
+      "vi_tri_phong_chung": true
+    }
+  }
+}

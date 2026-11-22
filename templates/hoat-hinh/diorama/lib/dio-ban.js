@@ -57,7 +57,7 @@
         "background:radial-gradient(ellipse 1100px 900px at 1950px 1150px, rgba(255,205,130,.55), rgba(255,205,130,0) 70%), repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 236px, rgba(40,20,8,.55) 236px 242px), repeating-linear-gradient(90deg, rgba(255,230,190,.05) 0 9px, rgba(0,0,0,0) 9px 31px), #7a4b2b;");
       // đèn bàn
       if (o.den !== false) {
-        var d = '<circle cx="330" cy="300" r="230" fill="url(#dio-glowW)"/><path d="M 300 300 L 620 700 L 60 700 Z" fill="url(#dio-coneW)" opacity=".55"/>';
+        var d = '<g class="den-sang"><circle cx="330" cy="300" r="230" fill="url(#dio-glowW)"/><path d="M 300 300 L 620 700 L 60 700 Z" fill="url(#dio-coneW)" opacity=".55"/></g>';
         d += fp("M 100 696 C 100 660 340 660 340 696 Z", "#2f3b3c", 6) + '<ellipse cx="220" cy="696" rx="124" ry="16" fill="#2f3b3c" stroke="' + INK + '" stroke-width="6"/>';
         d += sk("M 220 670 L 150 400", 18) + sk("M 220 670 L 150 400", 9, "#9aa39a") + '<circle cx="150" cy="400" r="15" fill="' + C.TERRA + '" stroke="' + INK + '" stroke-width="5"/>';
         d += sk("M 150 400 L 290 200", 18) + sk("M 150 400 L 290 200", 9, "#9aa39a") + '<circle cx="290" cy="200" r="15" fill="' + C.TERRA + '" stroke="' + INK + '" stroke-width="5"/>';
@@ -142,6 +142,23 @@
           ban.omCoc(null);
         }
       }
+      // --- thêm 18/11/2026 (chỉ thêm): ba lô to quá cỡ, tủ đông nhỏ, ống bút nhỏ cạnh sổ, dịu đèn
+      if (o.baLo) { var bl = o.baLo; ban.baLo = api.baLoTo(the, bl.x != null ? bl.x : -640, TY, bl.z != null ? bl.z : -300, { s: bl.s || 1 }); }
+      if (o.tuDong) { var td = o.tuDong; ban.tuDong = api.tuDong(the, td.x != null ? td.x : -560, TY, td.z != null ? td.z : -40, td); }
+      if (o.ongButNho) {
+        var obn = o.ongButNho;
+        ban.ongButNho = api.cut(the, 120, 170, api.ongButNhoSVG(), { pos: { x: obn.x, y: TY, z: obn.z, scale: obn.s || 0.8 }, f: api.F.AM_NHO });
+      }
+      // Lớp tối phủ sân khấu + quầng đèn: ban.diuDen(t, d, v) v ∈ [0, 1] (0 = sáng thường, 1 = dịu hẳn); t null = đặt ngay
+      var toi = api.div("dio-ovl", sk3.stage, "background:radial-gradient(ellipse 80% 75% at 35% 40%, rgba(14,12,22,.45), rgba(8,8,16,.78));");
+      gsap.set(toi, { opacity: 0 });
+      var sang = ban.den ? ban.den.svg.querySelector(".den-sang") : null;
+      ban.diuDen = function (t, d, v) {
+        var els = [toi], sv = { opacity: v };
+        if (t == null) { gsap.set(toi, sv); if (sang) gsap.set(sang, { opacity: 1 - 0.7 * v }); return; }
+        tl.to(toi, { opacity: v, duration: d || 1, ease: "sine.inOut" }, t);
+        if (sang) tl.to(sang, { opacity: 1 - 0.7 * v, duration: d || 1, ease: "sine.inOut" }, t);
+      };
       api.vignette(sk3.stage, "am");
       return ban;
     };

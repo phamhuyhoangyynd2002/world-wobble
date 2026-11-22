@@ -53,6 +53,8 @@ projects/<tập>/
 - `nhip[]`: biên đạo bằng chữ cho agent dựng (mốc tuyệt đối). Agent được thêm chi tiết, không được đổi lời, không thêm chữ, số ngoài lời.
 - `chu_tren_do_vat[]`: chữ duy nhất được phép xuất hiện trong đoạn.
 
+- `an_logo` (tuỳ chọn, mức gốc): `[[bắt đầu, kết thúc], ...]` giây tuyệt đối. Từ 19/11/2026 `ghep_doan.py` đóng logo nhỏ góc phải trên (vùng x > 1500, y < 150, mờ 85%) cho cả video; đoạn nào có chữ của cảnh nằm dưới góc đó thì khai khoảng thời gian vào đây để ẩn logo (tập 1: chữ 'Arctic Circle', 'JULY', 'POLE OF COLD'). Tốt hơn nữa: không đặt chữ ở vùng đó.
+
 ## 3. `du-lieu.js` (sinh tự động)
 
 ```js

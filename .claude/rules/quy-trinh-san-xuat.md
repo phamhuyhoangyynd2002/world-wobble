@@ -32,6 +32,8 @@
 | 3 Tài nguyên | Lấy và tạo hình | Mọi `asset:<id>` trong `shots` có trong `assets/manifest.json`, có căn cứ sử dụng; `kiem_tra_ban_quyen.py --som` không CHẶN; bản đồ vùng nhạy cảm đã kiểm chủ quyền |
 | 4 Giọng đọc | Tạo giọng | Mọi cảnh có `timing` là `tts` hoặc `whisper`; `nghe_lai.py` mã 0 |
 | 5 Timeline | Dựng timeline | `build_timeline.py` mã 0, đọc hết CẢNH BÁO và xử lý cái nào cần |
+| 5a Duyệt phân cảnh (hoạt hình) | Đạo diễn viết `phan-canh.json` | Agent `duyet-phan-canh` (chế độ `phan-canh`) chấm từng đoạn và tổng thể theo `dung-hoat-hinh/references/tieu-chi-duyet.md`: tổng thể ĐẠT, không đoạn LÀM LẠI. Chưa đạt thì không giao thợ dựng |
+| 6a Duyệt hình (hoạt hình) | Dựng đủ các đoạn | `to_khung.py` + agent `duyet-phan-canh` (chế độ `hinh`): tổng thể ĐẠT, không đoạn LÀM LẠI, SỬA NHỎ đã sửa hoặc ghi lý do. Chưa đạt thì không ghép bản cuối |
 | 6 Render | Render + trộn âm | `npx hyperframes check` 0 lỗi; có 2 bản MP4; `audio-report.json` khoảng −14 LUFS |
 | 7 Kiểm định | Tự kiểm tra | `kiem_ky_thuat.py` mã 0; `ban-quyen.md` 0 mục CHẶN; `bao_cao.py` kết luận ĐẠT |
 
@@ -53,6 +55,7 @@ Trước khi giao video, Claude tự sửa theo kiểm định và phản biện
 | `audio/scene-<id>.mp3`, `audio/subtitles.json` | 4 | Mốc từng từ, tính từ đầu mỗi cảnh |
 | `timeline.json` | 5 | Mốc tuyệt đối của cảnh, từ, nhịp hình, Wob, con dấu, sfx, nhạc, chương, mốc khẳng định |
 | `out/captions.srt`, `out/chapters.txt` | 5 | Phụ đề và mốc chương để tải lên YouTube |
+| `hoat-hinh/duyet/duyet-phan-canh.md`, `duyet-hinh.md` (+ `.json`), `hoat-hinh/duyet/to-khung/` | 5a, 6a | Kết quả duyệt từng đoạn (D1–D10) và tổng thể (T1–T8), việc cần sửa theo người làm; tờ khung hình từng đoạn |
 | `render/` | 6 | Composition HyperFrames đã chèn dữ liệu (tạo lại mỗi lần) |
 | `out/video.mp4`, `out/video-no-music.mp4`, `out/audio-report.json` | 6 | Video cuối, bản chỉ giọng + sfx, số đo âm lượng |
 | `ban-quyen.md` | 7 | Hồ sơ bản quyền do `kiem_tra_ban_quyen.py` sinh. Giữ ít nhất 12 tháng |

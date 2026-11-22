@@ -1,0 +1,12 @@
+{"vong": 1, "che_do": "hinh", "pham_vi": "d01-d08 + noi d08-d09",
+"tong_the": {"T1": 1, "T2": 2, "T3": 2, "T4": 2, "T5": 1, "T6": 2, "T7": 1, "T8": 2, "tong": 13, "ket_luan": "DAT"},
+"doan": [
+{"id": "d01", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 1, "D5": 2, "D6": 2, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 19, "ket_luan": "DAT", "viec": ["Wob hiện từ khung 0"]},
+{"id": "d02", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 2, "D5": 2, "D6": 1, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 19, "ket_luan": "DAT", "viec": ["máy ảnh nằm trong tay ở 2,35 s"]},
+{"id": "d03", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 2, "D5": 2, "D6": 2, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 20, "ket_luan": "DAT", "viec": []},
+{"id": "d04", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 1, "D5": 2, "D6": 1, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 18, "ket_luan": "DAT", "viec": ["tuỳ chọn: tăng cỡ nhãn phụ 10%"]},
+{"id": "d05", "diem": {"D1": 1, "D2": 1, "D3": 1, "D4": 2, "D5": 2, "D6": 2, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 17, "ket_luan": "DAT", "viec": ["gag ba lô 15,33 s đọc được ở trung cảnh, giữ 0,6 s"]},
+{"id": "d06", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 2, "D5": 2, "D6": 2, "D7": 2, "D8": 1, "D9": 1, "D10": 2}, "tong": 18, "ket_luan": "SỬA NHỎ", "viec": ["đèn pin sang bên trái màn hình 9,45-15,4 s", "bật đèn ~15,2 s trước khi cắt sang d07"]},
+{"id": "d07", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 2, "D5": 2, "D6": 2, "D7": 2, "D8": 1, "D9": 1, "D10": 2}, "tong": 18, "ket_luan": "SỬA NHỎ", "viec": ["khung 0 có Wob rọi đèn", "tắt đèn ~11,5 s cho khung cuối khớp d01", "kiểm cỡ chữ -51°F >= 40 px"]},
+{"id": "d08", "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 2, "D5": 2, "D6": 2, "D7": 2, "D8": 2, "D9": 2, "D10": 2}, "tong": 20, "ket_luan": "DAT", "viec": []}
+]}

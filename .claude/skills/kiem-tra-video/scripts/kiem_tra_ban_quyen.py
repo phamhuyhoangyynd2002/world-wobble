@@ -159,6 +159,7 @@ def main() -> int:
 
     # âm thanh, font, giọng (chỉ bản giao)
     audio_rows, font_rows, voice_line = [], [], ""
+    lib_rows: list[str] = []
     if timeline is not None:
         music_l = ledger(root / "music" / "GIAY-PHEP.md")
         sfx_l = ledger(root / "sfx" / "GIAY-PHEP.md")
@@ -197,6 +198,20 @@ def main() -> int:
             if not lic_file.is_file():
                 block.append(f"font '{fp.name}': thiếu file giấy phép '{row[3] if len(row) > 3 else '?'}'")
             font_rows.append(f"| {fp.name} | {row[2] if len(row) > 2 else ''} |")
+        # thư viện mã nhúng trong render (GSAP, three.js...): liệt kê từ các sổ vendor/GIAY-PHEP.md
+        for lp in [root / "templates/_shared/vendor/GIAY-PHEP.md", *sorted((root / "templates/hoat-hinh").glob("*/lib/vendor/GIAY-PHEP.md"))]:
+            if not lp.exists():
+                continue
+            rel = lp.relative_to(root).as_posix()
+            tab = [r for r in ledger(lp).values() if len(r) >= 5]
+            if tab:
+                for r in tab:
+                    if r[4].lower() not in ("có", "co", "yes"):
+                        block.append(f"thư viện '{r[1]}' ({rel}): cột Thương mại không phải 'có'")
+                    lib_rows.append(f"| {r[1]} {r[2]} | {r[3]} | {rel} |")
+            else:  # sổ dạng văn xuôi (templates/_shared/vendor)
+                txt = lp.read_text(encoding="utf-8").strip().splitlines()
+                lib_rows.append(f"| {txt[0][:90] if txt else lp.parent.name} | {(txt[1][:120] if len(txt) > 1 else '')} | {rel} |")
         subs_p = project / "audio" / "subtitles.json"
         subs = json.loads(subs_p.read_text(encoding="utf-8")) if subs_p.exists() else {}
         provider = subs.get("provider")
@@ -247,6 +262,7 @@ def main() -> int:
            "|---|---|---|---|---|---|---|", *rows, "",
            "## Âm thanh", "", "| File | Loại | Nguồn | Giấy phép | Bằng chứng |", "|---|---|---|---|---|", *audio_rows, "",
            "## Font", "", "| File | Giấy phép |", "|---|---|", *font_rows, "",
+           "## Thư viện mã", "", "| Thư viện | Giấy phép | Sổ |", "|---|---|---|", *(lib_rows or ["| Không có | | |"]), "",
            "## Ghi công đưa vào mô tả", "", *([f"- {c}" for c in dict.fromkeys(credits)] or ["- Không có"]), ""]
     (project / "ban-quyen.md").write_text("\n".join(md), encoding="utf-8")
     out = project / "out"

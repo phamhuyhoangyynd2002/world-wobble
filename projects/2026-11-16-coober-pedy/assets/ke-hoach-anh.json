@@ -1,0 +1,130 @@
+{
+  "nguon_ngoai": "chatgpt-web",
+  "luot_ngoai": null,
+  "khi_thieu": "cho",
+  "anh": [
+    {
+      "id": "ai-mullock-field",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        13,
+        15
+      ],
+      "canh": "flat stony desert plain covered with hundreds of pale cream and light pink cone-shaped piles of mining rubble, small dark round mine shaft openings between them, a few simple winch frames, harsh white sky",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-dugout-hillside",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        2,
+        6,
+        8,
+        9,
+        10,
+        11,
+        18
+      ],
+      "canh": "low rocky desert hill with small house fronts carved straight into the hillside: wooden doors and small windows set in the rock face, white ventilation pipes sticking up from the top of the hill, bright sun",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-underground-room",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        18
+      ],
+      "canh": "cosy room carved inside sandstone, curved vaulted ceiling painted pale, walls showing circular swirl marks left by a tunnelling machine, a simple bed against the rock wall, warm lamp light, no windows",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-golf-course",
+      "hang": "chinh",
+      "diem": 7,
+      "scenes": [
+        12,
+        13
+      ],
+      "canh": "desert golf course with no grass: fairway of white crushed rock, a round dark green made of oiled rock dust with a flag in the hole, low mounds of pale dirt behind, evening light",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-breakaways-dusk",
+      "hang": "chinh",
+      "diem": 7,
+      "scenes": [
+        16,
+        17
+      ],
+      "canh": "wide view of flat-topped desert mesas and broken escarpments with horizontal bands of white, yellow, orange and deep red rock, flat plain in front, dusk sky fading orange to purple, no people",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-church-underground",
+      "hang": "chinh",
+      "diem": 5,
+      "scenes": [
+        11
+      ],
+      "canh": "interior of a church carved by hand into sandstone underground, high rough rock ceiling, rock walls, warm yellow lamp light, simple wooden benches, quiet and empty",
+      "trang_thai": "tao",
+      "nguon": "chatgpt-web"
+    },
+    {
+      "id": "ai-desert-plain",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "canh": "empty flat stony desert under a pale blinding sky, heat haze on the horizon",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-night-plain",
+      "hang": "phu",
+      "diem": 2,
+      "scenes": [
+        15
+      ],
+      "canh": "flat desert at night under a dark blue starry sky, faint low mounds on the horizon",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-outback-road",
+      "hang": "phu",
+      "diem": 1,
+      "scenes": [
+        14
+      ],
+      "canh": "long straight empty road across flat red desert to the horizon, sparse low bushes",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{"vong":1,"che_do":"phan-canh","pham_vi":"d01-d08",
+"tong_the":{"ket_luan":"DAT","tong":14,"diem":{"T1":1,"T2":2,"T3":2,"T4":2,"T5":2,"T6":2,"T7":1,"T8":2}},
+"doan":[
+{"id":"d01","diem":{"D1":2,"D2":2,"D3":2,"D4":2,"D5":2,"D6":1,"D7":1,"D8":1,"D9":2,"D10":2},"tong":17,"ket_luan":"DAT","viec":"Wob thấy ngay ở khung 0; đẩy máy từ 2,9 s; chữ biển >=40px hoặc chỉ là hoạ tiết; đèn pin tay trái như d07"},
+{"id":"d02","diem":{"D1":2,"D2":2,"D3":2,"D4":2,"D5":1,"D6":2,"D7":2,"D8":2,"D9":2,"D10":2},"tong":19,"ket_luan":"DAT","viec":"Biển bé làm tiền cảnh ở nhịp 6,9 s"},
+{"id":"d03","diem":{"D1":2,"D2":2,"D3":2,"D4":2,"D5":1,"D6":2,"D7":2,"D8":2,"D9":2,"D10":2},"tong":19,"ket_luan":"DAT","viec":"Ghi cỡ cảnh/camera theo nhịp"},
+{"id":"d04","diem":{"D1":2,"D2":1,"D3":2,"D4":1,"D5":1,"D6":1,"D7":1,"D8":2,"D9":2,"D10":2},"tong":15,"ket_luan":"SUA_NHO","viec":"Chữ ≈−68°C · ≈−90°F (1933) vì C41 hedged; thêm +94°F (C42); làm mờ dòng 1933 khi tới July; mặt Wob vào ở 'plus'"},
+{"id":"d05","diem":{"D1":1,"D2":2,"D3":1,"D4":1,"D5":1,"D6":2,"D7":2,"D8":2,"D9":2,"D10":2},"tong":16,"ket_luan":"DAT","viec":"Sửa thẻ camera ở 41,06 s; gag khoá kéo ba lô ở 47,98 s; đổi cỡ cảnh theo nhịp"},
+{"id":"d06","diem":{"D1":2,"D2":2,"D3":2,"D4":2,"D5":2,"D6":1,"D7":2,"D8":2,"D9":2,"D10":2},"tong":19,"ket_luan":"DAT","viec":"Gọn thang ba bước bản đồ 55,65–57,99 s"},
+{"id":"d07","diem":{"D1":2,"D2":2,"D3":2,"D4":2,"D5":2,"D6":1,"D7":1,"D8":1,"D9":2,"D10":2},"tong":17,"ket_luan":"DAT","viec":"Dời nhãn JANUARY tới ~67,0 s; lùi xong ở 75,5 s rồi mới hạ; đổi thành 'JAN AVG'; chốt đèn pin"},
+{"id":"d08","diem":{"D1":1,"D2":1,"D3":2,"D4":2,"D5":1,"D6":2,"D7":2,"D8":2,"D9":2,"D10":2},"tong":17,"ket_luan":"DAT","viec":"Thêm nhịp 'Why is there a village here at all?' ~80,9 s; cắm cờ thay gãi đầu; đổi gag ô một; thêm thẻ camera"}]}

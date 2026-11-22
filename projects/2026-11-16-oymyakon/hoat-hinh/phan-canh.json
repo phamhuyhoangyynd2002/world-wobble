@@ -1,0 +1,3042 @@
+{
+ "_ghi_chu": [
+  "Tập 1 Oymyakon, bản hoạt hình 'Wob kể chuyến đi' phối 3 phong cách (dao-dien-hoat-hinh, 18/11/2026). Mốc tuyệt đối (giây), sinh từ audio/subtitles.json. Đoạn có 'ngoài trời 3D' trong boi_canh dùng chế độ dio-3d.js của diorama.",
+  "KHOÁ LIÊN TỤC (duyệt hình vòng 1, 19/11/2026), áp mọi phong cách: mũ len mùa đông đỏ #C9463A (vành #A8352B, bông kem #F6EEDC); khăn mùa đông đỏ #D9543C (diorama 3D cũng vậy, không dùng TERRA cam); mũ hè d30–d32 là một mũ trùm lông nâu đậm viền kem; cốc trà d29, d39 màu trắng; xe hộp của Wob màu giấy kraft (d04, d06, d10); đài tưởng niệm d12, d13 cùng dáng khối trắng có cột thuỷ ngân xanh, bảng 'POLE OF COLD'.",
+  "VÒNG TỰ SỬA 1 (19/11/2026, theo out/phan-bien.md + out/qa-report.md; sao lưu phan-canh.v2.json): lời cảnh 4 bỏ 'which I stayed for', cảnh 14 bỏ 'Yes, even in January.', cảnh 19 viết lại ngắn hơn (câu hỏi cuối 'Would you take that trade?'). Giữ nguyên loi[].bat_dau và mốc đoạn d01–d37; dời nhịp d06–d08, d27–d28 theo mốc từ mới; d38–d40 chia lại, thoi_luong 661,72 → 643,3 s. Sửa hình: d01 biển '~500 (2010)', d09 chữ không vắt gáy sổ, d11 người chăn tuần lộc đang làm việc, đèn rọi suối không rọi người, d13 vương miện không che '−90°F', d14 nhãn Tomtor đúng chữ, d31 '≈ 102°C' và nhãn hiện lần lượt, d40 giữ cận NOPE sạch ≥ 2 s rồi mới gập sổ.",
+  "LOGO: từ bản này video có logo nhỏ góc phải trên (ghep_doan.py đóng ở bước ghép, vùng x > 1500, y < 150 trên khung 1920×1080). Mọi phong cách: không đặt chữ quan trọng (nhãn, số, chữ trên đồ vật) ở vùng đó.",
+  "21/11/2026: viết lại mở đầu (cảnh 1–4: cold open lông mi trước, số −68/+34 trong 30 s đầu). d01–d08 dựng lại; d09–d40 giữ clip, dời sớm 15.108 s."
+ ],
+ "fps": 30,
+ "rong": 1920,
+ "cao": 1080,
+ "thoi_luong": 628.192,
+ "loi": [
+  {
+   "scene": 1,
+   "bat_dau": 1.2
+  },
+  {
+   "scene": 2,
+   "bat_dau": 11.4
+  },
+  {
+   "scene": 3,
+   "bat_dau": 38.2
+  },
+  {
+   "scene": 4,
+   "bat_dau": 51.1
+  },
+  {
+   "scene": 5,
+   "bat_dau": 78.5
+  },
+  {
+   "scene": 6,
+   "bat_dau": 101.876
+  },
+  {
+   "scene": 7,
+   "bat_dau": 131.516
+  },
+  {
+   "scene": 8,
+   "bat_dau": 169.868
+  },
+  {
+   "scene": 9,
+   "bat_dau": 234.236
+  },
+  {
+   "scene": 10,
+   "bat_dau": 277.7
+  },
+  {
+   "scene": 11,
+   "bat_dau": 330.704
+  },
+  {
+   "scene": 12,
+   "bat_dau": 364.696
+  },
+  {
+   "scene": 13,
+   "bat_dau": 394.408
+  },
+  {
+   "scene": 14,
+   "bat_dau": 423.04
+  },
+  {
+   "scene": 15,
+   "bat_dau": 464.08
+  },
+  {
+   "scene": 16,
+   "bat_dau": 484.024
+  },
+  {
+   "scene": 17,
+   "bat_dau": 523.024
+  },
+  {
+   "scene": 18,
+   "bat_dau": 558.136
+  },
+  {
+   "scene": 19,
+   "bat_dau": 594.16
+  }
+ ],
+ "nhac": [
+  {
+   "src": "music/frost-waltz.mp3",
+   "bat_dau": 0.0,
+   "ket_thuc": 11.0,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 11.0,
+   "ket_thuc": 50.8,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/frost-waltz.mp3",
+   "bat_dau": 50.8,
+   "ket_thuc": 131.532,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 131.532,
+   "ket_thuc": 169.872,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 169.872,
+   "ket_thuc": 269.972,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/investigations.mp3",
+   "bat_dau": 269.972,
+   "ket_thuc": 330.502,
+   "mood": "hai"
+  },
+  {
+   "src": "music/sneaky-snitch.mp3",
+   "bat_dau": 364.492,
+   "ket_thuc": 419.922,
+   "mood": "hai"
+  },
+  {
+   "src": "music/investigations.mp3",
+   "bat_dau": 422.992,
+   "ket_thuc": 464.032,
+   "mood": "hai"
+  },
+  {
+   "src": "music/frost-waltz.mp3",
+   "bat_dau": 464.032,
+   "ket_thuc": 482.822,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 482.822,
+   "ket_thuc": 594.122,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 594.722,
+   "ket_thuc": 603.492,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/frost-waltz.mp3",
+   "bat_dau": 610.292,
+   "ket_thuc": 628.192,
+   "mood": "to-mo"
+  }
+ ],
+ "am_luong_nhac": 0.2,
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "bat_dau": 0.0,
+   "ket_thuc": 4.9,
+   "lop": "hoi-uc",
+   "boi_canh": "ngoài trời 3D (dio-3d.js, api.ngoaiTroi, ánh sáng 'dem' xanh đen): mép làng tuyết giữa thung lũng rộng, núi bao quanh như vành bát; tấm biển tên làng rất nhỏ (chỉ tới vai Wob) ở mép đường; vài chục nhà gỗ thấp, cửa sổ vàng, cột khói ống khói DỰNG ĐỨNG không lay; sương băng; xe hộp kraft đỗ cạnh đường. GHI LẠI seed/bố cục/góc máy: d07 (gọi lại cold open) và d30 (tháng Bảy) dùng lại khung này.",
+   "trang_phuc": "Mũ len đỏ #C9463A (vành #A8352B, bông kem #F6EEDC), khăn đỏ #D9543C, ba lô; máy ảnh nhỏ tay phải; TAY TRÁI cầm đèn pin đã tắt (khớp d07). Lông mi mọc ra và đóng băng thành que ở 'eyelashes'/'froze', giữ sang d02.",
+   "vao": "dau-video",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 0.0,
+     "loi": "",
+     "hanh_dong": "[tien-canh-khung] Khung 0 đã đầy đủ và đang chuyển động: làng tối xanh, khói dựng đứng, Wob đã hiện ngay khung 0, nửa người ra khỏi cửa xe hộp kraft đang bật mở, nhảy xuống tuyết (không bàn, không màn đen)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 1.3,
+     "loi": "I stepped out of the car to take one photo.",
+     "hanh_dong": "Máy đặt ngang vai Wob để chữ 'OYMYAKON' trên tấm biển bé ≥ 40 px; Wob hăm hở giơ máy ảnh ngắm biển; bấm đúng 'photo' (2,71 s): flash trắng 2 khung",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 2.9,
+     "loi": "My eyelashes froze.",
+     "hanh_dong": "[lao-vao-can-canh] Ngay sau flash camera đẩy nhanh vào cận mặt (2,9–3,6, để người xem nhìn flash 0,2 s trước khi lông mi bật ra): hai hàng lông mi bé xíu bật ra đúng 'eyelashes' (3,74 s), đóng băng thành que trắng lấp lánh đúng 'froze' (4,25 s); Wob đứng im chưa biết; giữ 0,6 s",
+     "gag": "lông mi mọc ra rồi đóng băng ngay",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d07/canh.js (khung làng 3D, máy ảnh, flash, lông mi; bỏ đoạn lùi toàn cảnh, thêm xe mở cửa ở khung 0)",
+   "ly_do_phong_cach": "Cold open: cảnh đến nơi có chiều sâu thật (ngoài trời 3D); hành động ngay khung 0 thay bàn tĩnh."
+  },
+  {
+   "id": "d02",
+   "phong_cach": "ve-tay",
+   "bat_dau": 4.9,
+   "ket_thuc": 10.9,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận mặt Wob vẽ tay trong tối xanh lạnh cạnh tấm biển bé; rồi trung cảnh Wob cầm máy ảnh, làng mờ phía sau",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô; lông mi que băng (từ d01); máy ảnh tay phải, đèn pin tắt tay trái",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 4.9,
+     "loi": "I didn't know I had eyelashes.",
+     "hanh_dong": "[take-cham] Cận mặt: Wob liếc lên, lác mắt nhìn hai hàng que băng, dừng một nhịp, rồi mới hoảng đúng 'eyelashes' (5,80 s); giữ",
+     "gag": "Wob không biết mình có lông mi",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-soc"
+     ]
+    },
+    {
+     "tai": 6.9,
+     "loi": "My camera took one look at the weather and switched itself off.",
+     "hanh_dong": "[tien-canh-khung] Mép tấm biển bé đặt ở 1/3 trái làm vật tiền cảnh; máy ảnh mọc đôi mắt nhỏ, 'nhìn' trời đúng 'look' (7,86 s), phụt một làn khói đúng 'switched' (8,89 s), màn hình tắt ngấm đúng 'off' (9,65 s)",
+     "gag": "máy ảnh tự bỏ cuộc",
+     "dao_cu": [],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 9.95,
+     "loi": "",
+     "hanh_dong": "[giu-tinh-bo] Wob lắc máy một cái, máy im; Wob nhìn thẳng người xem, tỉnh bơ; giữ tới cú cắt (punchline 0,9 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "tai_dung": "hoat-hinh/_cu-21-11/d08/canh.js (phần 84,93–89,95 s cũ: take chậm lông mi, máy ảnh phụt khói; dời mốc −80,03 s)",
+   "ly_do_phong_cach": "Chuỗi punchline cận mặt biểu cảm to, cắt nhanh: ve-tay."
+  },
+  {
+   "id": "d03",
+   "phong_cach": "diorama",
+   "bat_dau": 10.9,
+   "ket_thuc": 21.7,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp (trong hộp: chai nước nhỏ đông cứng, tờ rơi gấp), sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Khung hiện tại dùng chung cả tập (cùng bàn với d18, d20, d26, d38, d40).",
+   "trang_phuc": "Wob không mũ, không khăn. Tay trái đeo găng lò nướng, cầm con cá đông cứng phủ sương (lúc cá tự đứng trên bàn thì găng vẫn đeo, cầm lại cá ngay sau đó). Tay phải rảnh/cầm bút.",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 10.9,
+     "loi": "This is a fish.",
+     "hanh_dong": "Trung cận (cá + găng chiếm 1/3 khung). Cắt cứng về bàn ấm (đổi tông lạnh sang ấm): Wob giơ con cá đông cứng phủ sương bằng găng lò nướng, thẳng đơ như tấm ván",
+     "gag": "",
+     "dao_cu": [
+      "ca-dong-cung",
+      "gang-lo-nuong"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 12.72,
+     "loi": "I bought it in that village.",
+     "hanh_dong": "Wob gõ đuôi cá vào mép bàn: cộc như gỗ, cá không cong một li",
+     "gag": "cá kêu cộc như gỗ",
+     "dao_cu": [],
+     "sfx": [
+      "bonk"
+     ]
+    },
+    {
+     "tai": 14.2,
+     "loi": "It stands up on its own.",
+     "hanh_dong": "[giu-tinh-bo] Lùi về trung cảnh thấy cá đứng một mình. Wob dựng cá đứng thẳng trên bàn, buông tay đúng 'own' (15,04 s); cá đứng im; Wob lùi một bước nhìn nó; giữ 0,6 s",
+     "gag": "cá tự đứng như tấm ván",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 15.74,
+     "loi": "The village is Oymyakon,",
+     "hanh_dong": "[lat-trang-so] Wob cầm lại cá, tay phải lật sổ: trang pop-up bật dựng map-globe, chấm 'Oymyakon' sáng đúng 'Oymyakon' (16,75 s); camera đẩy chậm vào trang pop-up",
+     "gag": "",
+     "dao_cu": [
+      "map-globe"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 18.06,
+     "loi": "often called the coldest permanently inhabited place on Earth.",
+     "hanh_dong": "Tuyết giấy rơi trong trang pop-up quanh chấm; Wob run nhẹ một cái",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "brr"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Oymyakon"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d01/canh.js (bàn, cá, gõ bàn, sổ pop-up; thêm cá tự đứng, thay biển làng bằng map-globe)",
+   "ly_do_phong_cach": "Khung hiện tại của kênh: chỉ diorama; hook kỷ vật con cá."
+  },
+  {
+   "id": "d04",
+   "phong_cach": "ve-tay",
+   "bat_dau": 21.7,
+   "ket_thuc": 33.0,
+   "lop": "hien-tai",
+   "boi_canh": "Cận trang sổ trên bàn chuyển sang nét mực vẽ tay toàn khung: một nhiệt kế vẽ tay cao gần hết khung; bàn tay Wob (găng lò nướng trái cầm cá ở mép khung, tay phải cầm bút)",
+   "trang_phuc": "Như d03 (ở bàn): không mũ, găng lò nướng tay trái cầm cá, tay phải cầm bút; bút văng ở cuối đoạn; mặt Wob (không mũ) ló vào mép khung ở 'plus'",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 21.7,
+     "loi": "In nineteen thirty-three,",
+     "hanh_dong": "[chen-ve-tay] Bút Wob vẽ nhanh một nhiệt kế; nhãn '1933' hiện đúng 'nineteen' (21,99 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 23.33,
+     "loi": "its weather station recorded about minus sixty-eight Celsius.",
+     "hanh_dong": "[nhiet-ke-tut] Cột đỏ tụt xuống đáy, chạm vạch '≈−68°C' đúng 'sixty-eight' (25,45 s); bầu nhiệt kế đóng một lớp băng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 27.11,
+     "loi": "That's about minus ninety Fahrenheit.",
+     "hanh_dong": "Bên cạnh hiện '≈−90°F' đúng 'ninety' (27,95 s) (chữ ≥ 40px, cả dòng '≈−68°C · ≈−90°F (1933)'); Wob vẽ thêm vài vết nứt băng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 29.34,
+     "loi": "In July twenty ten, the same station hit plus thirty-four.",
+     "hanh_dong": "Nhãn 'JULY 2010' đúng 'July' (29,44 s), dòng '≈−68°C · ≈−90°F (1933)' mờ xuống 40 %; máy lùi nhẹ để thấy cột vọt quá đỉnh, ra khỏi mép trang; cột đỏ vọt lên như tên lửa đúng 'plus' (31,88 s), mặt Wob ló vào mép khung giật mình, rồi cột chạm '+34°C · +94°F' đúng 'thirty-four' (32,24 s), bật quá đỉnh, bút văng khỏi tay",
+     "gag": "nhiệt kế bật vọt, Wob đánh rơi bút",
+     "dao_cu": [],
+     "sfx": [
+      "boing",
+      "drop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "≈−68°C · ≈−90°F (1933)",
+    "+34°C · +94°F (JULY 2010)"
+   ],
+   "tai_dung": "moi",
+   "ly_do_phong_cach": "Con số kỷ lục bằng sơ đồ vẽ tay, gag cường điệu nhanh: ve-tay nối chen từ trang sổ."
+  },
+  {
+   "id": "d05",
+   "phong_cach": "diorama",
+   "bat_dau": 33.0,
+   "ket_thuc": 50.6,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp (trong hộp: chai nước nhỏ đông cứng, tờ rơi gấp), sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Khung hiện tại dùng chung cả tập (cùng bàn với d18, d20, d26, d38, d40).",
+   "trang_phuc": "Wob không mũ, không khăn. Tay trái đeo găng lò nướng, cầm con cá đông cứng phủ sương (lúc cá tự đứng trên bàn thì găng vẫn đeo, cầm lại cá ngay sau đó). Tay phải rảnh/cầm bút. Cuối đoạn cầm bút vẽ trên sổ.",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 33.0,
+     "loi": "Roughly five hundred people live there.",
+     "hanh_dong": "Toàn bàn. Bút rơi lăn trên bàn; trang sổ bật dựng tấm biển làng pop-up 'OYMYAKON' / '~500 (2010)' (chữ ≥ 40px, đọc trọn) đúng 'five' (33,60 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "drop",
+      "pop"
+     ]
+    },
+    {
+     "tai": 35.41,
+     "loi": "They chose it. Why?",
+     "hanh_dong": "[giu-tinh-bo] Cận Wob, cá ở tiền cảnh. Wob quay ra nhìn thẳng người xem, cá dựng cạnh, mí 0,5; giữ hết 'Why?' + 0,8 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 38.3,
+     "loi": "I didn't go as a tourist. I went to move in.",
+     "hanh_dong": "Cận trang sổ. Wob lật trang: chữ viết tay 'PLAN: MOVE IN' hiện đúng 'move' (40,18 s), gạch chân hai lần; Wob nảy một cái trên bàn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop",
+      "liu-lo-vui"
+     ]
+    },
+    {
+     "tai": 41.06,
+     "loi": "By the end of the trip, I knew why people really live there.",
+     "hanh_dong": "[day-vao-cham] Camera đẩy chậm vào Wob; Wob gật nhẹ, nhìn người xem",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 44.31,
+     "loi": "The answer is written in the village's name,",
+     "hanh_dong": "Wob chỉ bút vào chữ 'OYMYAKON' trên trang (đúng 'name', 45,90 s); tay găng chạm chai nước nhỏ trong hộp kỷ vật, chai loé sáng; không giải thích; cuối nhịp cận chai nước",
+     "gag": "",
+     "dao_cu": [
+      "chai-nuoc-nho"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 46.64,
+     "loi": "and it isn't the cold.",
+     "hanh_dong": "Wob lắc đầu chậm, gõ nhẹ con cá",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 47.98,
+     "loi": "I also knew whether I was unpacking.",
+     "hanh_dong": "Wob liếc ba lô to quá cỡ cạnh bàn: khoá kéo ba lô tự bung một chút đúng 'unpacking' (49,19 s); Wob không nhìn, lấy bút với sang đè khoá lại; giữ 0,6 s; không lộ đáp án",
+     "gag": "khoá ba lô tự bung, Wob đè lại không nhìn",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 49.9,
+     "loi": "",
+     "hanh_dong": "[lao-vao-hinh-ve] Wob lật sang trang trắng; camera lao vào trang; 0,5 s cuối phủ giấy phẳng #EFE3C8",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON",
+    "~500 (2010)",
+    "PLAN: MOVE IN"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d03/canh.js (bàn, chai nước, ba lô, lao vào trang); lấy biển '~500 (2010)' và 'PLAN: MOVE IN' từ hoat-hinh/_cu-21-11/d01/canh.js",
+   "ly_do_phong_cach": "Khung hiện tại (diorama): câu hỏi trung tâm + lời hứa; trang sổ là cửa vào chương hành trình (nối giay)."
+  },
+  {
+   "id": "d06",
+   "phong_cach": "cat-giay",
+   "bat_dau": 50.6,
+   "ket_thuc": 66.1,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ du lịch cắt giấy nhiều lớp: map-yakutia dán như tờ dán (đã kiểm chủ quyền), chỉ nhãn chấm 'Oymyakon'; đường nét đứt vẽ dần; máy bay giấy rồi xe hộp kraft. Rồi trong xe hộp (cửa sổ tuyết trôi parallax), rồi mép làng tối xanh đen với cột có đồng hồ giấy cắt",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô; tấm bản đồ giấy; máy ảnh đeo cổ, đèn pin. Chưa có lông mi",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 50.6,
+     "loi": "Getting there took a plane,",
+     "hanh_dong": "[trang-so-ban-do] Từ giấy phẳng trang sổ bật dựng map-yakutia, chấm Oymyakon; máy bay giấy lướt theo nét đứt đúng 'plane' (51,81 s), Wob ló đầu qua cửa sổ",
+     "gag": "",
+     "dao_cu": [
+      "map-yakutia"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 52.65,
+     "loi": "then a very long drive, then more of the drive.",
+     "hanh_dong": "Máy bay đáp, gập thành xe hộp kraft; xe chạy, nét đứt dài thêm, chạy hết trang, trang lật sang trang trống đúng 'more' (54,41 s), xe vẫn chạy",
+     "gag": "nét đứt dài quá trang",
+     "dao_cu": [],
+     "sfx": [
+      "may-no",
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 55.65,
+     "loi": "My map was upside down for most of it.",
+     "hanh_dong": "[leo-thang-ba-lan] Trong xe: Wob mở tấm bản đồ giấy: ngược (55,65); xoay một vòng (56,6): vẫn ngược; xoay lần nữa (57,3): vẫn ngược, Wob liếc người xem (mỗi bước ≥ 0,7 s; bỏ bước lật mặt sau)",
+     "gag": "bản đồ xoay kiểu gì cũng ngược",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 57.99,
+     "loi": "I arrived in late December.",
+     "hanh_dong": "Xe dừng ở mép làng tối; Wob bước xuống tuyết, run",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 59.7,
+     "loi": "Around then, the sun is up for only about four and a half hours a day.",
+     "hanh_dong": "[dong-ho-troi] Đồng hồ giấy cắt trên cột: vòng tối với lát vàng mỏng, nhãn '~4.5 h' đúng 'four' (62,03 s); lát vàng trượt khỏi mặt đồng hồ",
+     "gag": "",
+     "dao_cu": [
+      "dong-ho-giay"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 63.84,
+     "loi": "I arrived during one of the hours it wasn't.",
+     "hanh_dong": "Đèn tắt phụt đúng 'wasn't' (65,40 s): toàn khung xanh đen, chỉ còn đôi mắt Wob; giữ 0,6 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-soc"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Oymyakon",
+    "~4.5 h"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d04/canh.js (trang sổ map-yakutia, máy bay, xe) + hoat-hinh/_cu-21-11/d06/canh.js (cửa sổ xe, đồng hồ, tắt đèn); nén lại, bỏ map-globe và tấm biển trôi",
+   "ly_do_phong_cach": "Hành trình trên bản đồ trang sổ và xe parallax: cat-giay."
+  },
+  {
+   "id": "d07",
+   "phong_cach": "diorama",
+   "bat_dau": 66.1,
+   "ket_thuc": 78.5,
+   "lop": "hoi-uc",
+   "boi_canh": "ngoài trời 3D (dio-3d.js, api.ngoaiTroi, ánh sáng 'dem' xanh đen): mép làng tuyết giữa thung lũng rộng, núi bao quanh như vành bát; tấm biển tên làng rất nhỏ (chỉ tới vai Wob) ở mép đường; vài chục nhà gỗ thấp, cửa sổ vàng, cột khói ống khói DỰNG ĐỨNG không lay; sương băng; xe hộp kraft đỗ cạnh đường. Cùng seed/bố cục/góc máy với d01 (gọi lại cold open); d30 cũng dùng khung này. Có cột gỗ cạnh biển treo nhiệt kế giấy.",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô; đèn pin tay trái tới hết đoạn, máy ảnh tay phải. Chưa có lông mi tới 'photo' (76,53 s); sau đó lông mi đóng băng (như d01), giữ sang d08",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 66.1,
+     "loi": "January averages around minus forty-six Celsius.",
+     "hanh_dong": "Trong tối, Wob bật đèn pin, chùm sáng rọi đúng vào mặt mình, nheo mắt; rồi quay đèn lên nhiệt kế giấy trên cột; khi đèn đã chiếu vào nhiệt kế (~67,0 s) nhãn 'JAN AVG' mới hiện; thuỷ ngân tụt chạm '−46°C' đúng 'forty-six' (67,99 s)",
+     "gag": "đèn pin rọi vào mặt chính mình",
+     "dao_cu": [],
+     "sfx": [
+      "pop",
+      "drop"
+     ]
+    },
+    {
+     "tai": 69.56,
+     "loi": "Call it minus fifty-one Fahrenheit.",
+     "hanh_dong": "Mặt nhiệt kế hiện thêm '−51°F' đúng 'fifty-one' (70,24 s); Wob rùng mình",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 71.91,
+     "loi": "The sign at the edge of the village was very small.",
+     "hanh_dong": "[wob-be-ti] Chùm đèn hạ xuống dò trên tuyết, tìm thấy tấm biển 'OYMYAKON' bé tí chỉ tới vai Wob; camera thấp ngang tầm Wob",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 74.58,
+     "loi": "So was the village.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi lên cao (74,6–75,5, smootherstep): cả làng nhỏ xíu giữa thung lũng, khói dựng đứng; giữ 0,3 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 75.89,
+     "loi": "That's where I took the photo.",
+     "hanh_dong": "Từ 75,8 s hạ về đúng khung mở đầu d01 (cùng góc máy): Wob giơ máy ảnh, flash đúng 'photo' (76,53 s); lông mi bật ra, đóng băng thành que (77,0–77,4); Wob đứng im; giữ tới cắt",
+     "gag": "gọi lại cold open",
+     "dao_cu": [],
+     "sfx": [
+      "pop",
+      "tach-bang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "JAN AVG",
+    "−46°C",
+    "−51°F",
+    "OYMYAKON"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d07/canh.js (khung làng 3D, biển bé, lùi toàn cảnh, flash, lông mi; thêm đèn pin + nhiệt kế cột)",
+   "ly_do_phong_cach": "Tới nơi, quy mô thật của làng: ngoài trời 3D, cùng khung d01 để gọi lại cold open."
+  },
+  {
+   "id": "d08",
+   "phong_cach": "ve-tay",
+   "bat_dau": 78.5,
+   "ket_thuc": 101.822,
+   "lop": "hoi-uc",
+   "boi_canh": "Mép làng trong tối xanh lạnh cạnh tấm biển bé; rồi trang sổ phác thảo của Wob: bảng đoán ba ô vẽ tay (ô 1 cửa sổ, ô 2 con sông băng, ô 3 ngôi nhà); mặt sông băng",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, ba lô; lông mi đóng băng (từ d07), giữ suốt mọi đoạn hồi ức mùa đông tới d29 và d39; nhịp đầu cất đèn pin vào ba lô, máy ảnh nhét trong khăn đỏ",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 78.562,
+     "loi": "Standing by that tiny sign, I had a question.",
+     "hanh_dong": "Cắt từ flash d07 sang vẽ tay: Wob (lông mi que băng) đứng cạnh tấm biển bé trong tối, cất đèn pin vào ba lô, nhét máy ảnh tắt vào khăn đỏ; bong bóng '?' nhỏ nhú trên đầu",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 80.9,
+     "loi": "Why is there a village here at all?",
+     "hanh_dong": "[lui-ra-toan-canh] Máy lùi ra: bong bóng '?' phình thành dấu hỏi lớn trùm lên ngôi làng nhỏ phía sau đúng 'village' (81,96 s); Wob ngước nhìn; giữ 0,6 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 83.152,
+     "loi": "Somebody picked this spot, on purpose.",
+     "hanh_dong": "Wob cắm một lá cờ giấy nhỏ không chữ xuống tuyết đúng 'on purpose' (84,60 s), rồi nhìn quanh khoảng trắng mênh mông",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 85.622,
+     "loi": "I had guesses.",
+     "hanh_dong": "[lat-the] Trang sổ: bảng đoán ba ô vẽ tay; Wob cầm bút chỉ từng ô",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 88.272,
+     "loi": "My first guess was the view. It was dark.",
+     "hanh_dong": "[day-vao-cham] Máy đẩy vào ô một: Wob vẽ cửa sổ cảnh đẹp, rồi một nét bút mực to tô đen kín ô đúng 'dark'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 90.922,
+     "loi": "My second guess was fishing. I tapped the river with a stick.",
+     "hanh_dong": "[va-cham-vat-ly] Máy trượt sang ô hai: Wob gõ que xuống mặt sông băng: cộc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 92.722,
+     "loi": "The river tapped back.",
+     "hanh_dong": "Mặt sông không suy suyển; que gãy đôi, đầu que bật vào trán Wob",
+     "gag": "sông gõ lại",
+     "dao_cu": [],
+     "sfx": [
+      "bonk",
+      "bonk"
+     ]
+    },
+    {
+     "tai": 94.202,
+     "loi": "My third guess was that nobody checked the weather before moving in.",
+     "hanh_dong": "Máy trượt sang ô ba: Ô ba: hình Wob mãn nguyện trước ngôi nhà, không thèm nhìn trời",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 97.692,
+     "loi": "I liked my third guess.",
+     "hanh_dong": "Wob gật gù trước ô ba, tay chống hông",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 99.192,
+     "loi": "My third guess was wrong.",
+     "hanh_dong": "[rung-va-cham] Máy lao vào ô ba đúng lúc dấu X đỏ to đóng mạnh xuống, mạnh tới mức Wob bật ngửa",
+     "gag": "dấu X làm Wob ngã",
+     "dao_cu": [],
+     "sfx": [
+      "buzz-sai",
+      "bonk"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON"
+   ],
+   "tai_dung": "hoat-hinh/_cu-21-11/d08/canh.js (chỉ phần từ 93,67 s cũ: bảng đoán ba ô, sông gõ lại, dấu X; trừ 15,108 s; bỏ phần lông mi/máy ảnh đã sang d02)",
+   "ly_do_phong_cach": "Khuôn doan-sai-roi-lat bằng sơ đồ vẽ tay: ve-tay. Biên đạo cảnh 5 giữ nguyên bản cũ vì lời không đổi."
+  },
+  {
+   "id": "d09",
+   "phong_cach": "cat-giay",
+   "bat_dau": 101.822,
+   "ket_thuc": 131.532,
+   "lop": "hoi-uc",
+   "boi_canh": "Wob ngồi trên đống tuyết cạnh tấm biển nhỏ, sổ mở trên đùi (cận trang sổ cắt giấy, chữ viết tay); rồi camera nâng lên thung lũng tuyết ban ngày ngắn (trời xanh nhạt): một dòng suối nhỏ không đóng băng bốc hơi giữa hai bờ băng, đồi xa; 3 lớp parallax. Bố cục chữ (phản biện #16, khung 125): mọi chữ viết tay ('OYMYAKON', '= water that does not freeze?', hai mũi tên, 'Even?', 'Sakha?') nằm gọn trên MỘT trang (trang phải), cách gáy sổ ≥ 60 px, xuống dòng trong trang; không chữ nào vắt qua gáy",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng; cầm sổ, rồi cầm tấm bản đồ giấy (ngược)",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 101.822,
+     "loi": "Turns out the answer was hiding in the name.",
+     "hanh_dong": "Cận trang sổ: Wob viết chữ 'OYMYAKON'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 106.862,
+     "loi": "Oymyakon is usually explained as meaning water that does not freeze.",
+     "hanh_dong": "Dưới chữ hiện dòng '= water that / does not freeze?' (xuống dòng trong trang phải, cách gáy ≥ 60 px) với dấu hỏi to",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 108.812,
+     "loi": "Linguists argue about the roots.",
+     "hanh_dong": "Hai mũi tên vẽ tay mọc từ chữ OYMYAKON chĩa về hai phía",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 112.692,
+     "loi": "Some sources trace the word to the Even language",
+     "hanh_dong": "Đầu mũi tên trái hiện 'Even?'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 114.462,
+     "loi": "while others point to Sakha.",
+     "hanh_dong": "Đầu mũi tên phải hiện 'Sakha?'; Wob nghiêng đầu nhìn hai bên",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 116.172,
+     "loi": "But the story told about this valley is the same.",
+     "hanh_dong": "[luot-smootherstep] Camera nâng khỏi trang sổ lên thung lũng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 119.042,
+     "loi": "Nearby there were warm springs, water that stayed open through the winter.",
+     "hanh_dong": "Dòng suối nhỏ bốc hơi giữa bờ băng; hơi nước trôi lên thành cột mềm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 123.352,
+     "loi": "So I went looking for one.",
+     "hanh_dong": "[di-bo-parallax] Wob đứng dậy, đi dọc bờ, mắt dán vào tấm bản đồ giấy",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 124.762,
+     "loi": "I walked past it twice.",
+     "hanh_dong": "[leo-thang-ba-lan] Wob đi ngang suối lần 1 không thấy, quay lại đi ngang lần 2 vẫn không thấy",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 126.362,
+     "loi": "It was steaming.",
+     "hanh_dong": "Lần ba hơi nước phủ kín mặt Wob; Wob dừng, mới nhìn xuống",
+     "gag": "đi qua suối ba lần mới thấy",
+     "dao_cu": [],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 128.722,
+     "loi": "I was reading my map. My map was upside down.",
+     "hanh_dong": "[giu-tinh-bo] Cận tấm bản đồ trong tay Wob, ngược; Wob liếc người xem; giữ hình 1 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON",
+    "= water that does not freeze?",
+    "Even?",
+    "Sakha?"
+   ],
+   "ly_do_phong_cach": "Giải thích tên làng và tìm suối: bối cảnh liền mạch, đi bộ có chu kỳ, gag vật lý chậm: cat-giay. Chữ dè dặt (dấu hỏi) khớp khẳng định mức C (C13, C14)."
+  },
+  {
+   "id": "d10",
+   "phong_cach": "ve-tay",
+   "bat_dau": 131.532,
+   "ket_thuc": 138.582,
+   "lop": "hoi-uc",
+   "boi_canh": "Bong bóng tưởng tượng vẽ tay (so sánh đời thường): đường cao tốc trống ban đêm, bão tuyết quất ngang, một trạm xăng đơn độc sáng đèn",
+   "trang_phuc": "Trong tưởng tượng: mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng; lái xe hộp nhỏ",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 131.532,
+     "loi": "Picture a single gas station on an empty highway, at night, in a blizzard.",
+     "hanh_dong": "[chen-ve-tay] Đường cao tốc đêm trống trơn, bão tuyết quất ngang (speed lines), một chấm sáng xa; xe hộp nhỏ của Wob lắc lư",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 136.802,
+     "loi": "You don't stop there because it's pretty.",
+     "hanh_dong": "Trạm xăng lớn dần; Wob tấp vào, ôm cột bơm như ôm phao cứu sinh",
+     "gag": "ôm cột bơm",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-vui"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "So sánh tưởng tượng: ve-tay nối chen (thẻ chen-ve-tay)."
+  },
+  {
+   "id": "d11",
+   "phong_cach": "cat-giay",
+   "bat_dau": 138.582,
+   "ket_thuc": 169.872,
+   "lop": "hoi-uc",
+   "boi_canh": "Phần 1 (tới 'permanent village'): cùng thung lũng có suối của d09 (cùng cấu hình phông) nhưng tông sepia giấy cũ, rõ là hình dung quá khứ: hai người chăn tuần lộc vẽ dạng chung, tôn trọng, cùng chất cắt giấy với cảnh (KHÔNG phải bóng đen không mặt: mặt đơn giản, bình thản; áo khoác lông mùa đông chung chung, không hoạ tiết dân tộc cụ thể), đang làm việc: một người cầm dây cương dắt con đầu đàn tới suối bốc hơi, một người kéo xe trượt chở đồ rồi dựng cọc lều; chùm đèn của Wob rọi vào SUỐI và đàn tuần lộc, không bao giờ rọi thẳng vào người (phản biện #10); tua nhanh: một lều, vài lều, rồi nhà gỗ thấp mọc quanh suối. Phần 2: màu trở về thung lũng mùa đông của chuyến đi, cùng góc máy, Wob ngồi xổm bên suối.",
+   "trang_phuc": "Cả đoạn: Wob hiện tại màu đầy đủ (không lọc sepia), mũ len đỏ #C9463A, khăn đỏ #D9543C, ba lô, lông mi đóng băng. Phần 1 (sepia, 153,69–171,6 s): cầm đèn pin (cùng đèn pin d06), chai nước đông cứng trong ba lô; 172,8 s cất đèn vào ba lô, rút chai ra. Phần 2: cầm chai nước nhỏ đông cứng (chính chai trong hộp kỷ vật ở bàn); cuối đoạn chai ôm trong lòng, d12 chai cất trong ba lô",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 138.582,
+     "loi": "Reindeer herders stopped at the springs to water their animals and rest before long journeys.",
+     "hanh_dong": "[tien-canh-khung] Toàn cảnh thung lũng sepia (hình dung quá khứ), NHƯNG Wob hiện tại màu đầy đủ đứng ở tiền cảnh góc trái dưới (lớp gắn khung, không lọc sepia, không trôi theo camera; cao ~420 px, mũ trọn trong khung, x ≥ 96, quay 3/4 sang phải nhìn vào cảnh) như người chiếu phim. Khung 0 Wob đã giơ đèn pin; 153,75 s bấm bật (2 khung trước 'Reindeer'): chùm sáng ấm hình nón từ tay Wob rọi vào SUỐI bốc hơi và lối đàn tuần lộc đi tới, KHÔNG rọi thẳng vào người; ngoài chùm sepia tối đi ~30% (mask có lỗ như d06), trong chùm sepia sáng rõ như màn chiếu. Đàn tuần lộc giấy (4–5 con) đi vào từ trái; hai người chăn đi cạnh đàn ở mép chùm, sáng bằng ánh sepia chung (không bị tách riêng như vật trưng bày): một người cầm dây cương dắt con đầu đàn, một người kéo xe trượt chở đồ. 'springs' (155,15 s) chùm dừng ở suối; 'water' (155,81 s) tuần lộc cúi uống, người dắt nới dây cho con đầu đàn uống; 'rest' (157,29 s) người kéo xe trượt dừng, ngồi xuống mép xe trượt nghỉ, xoa hai tay. Wob dựa lưng vào ba lô, mắt dõi theo đàn, chớp một cái. Camera đẩy rất chậm (0,15 %/khung).",
+     "gag": "",
+     "dao_cu": [
+      "den-pin"
+     ],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 144.082,
+     "loi": "If you move reindeer across a frozen landscape, open water isn't a curiosity.",
+     "hanh_dong": "[lia-theo-vat] 159,3–162,0 s camera lia sang phải theo đàn tuần lộc qua ~2/3 khung (≈1280 px, smootherstep, đỉnh ≤ 35 px/khung), lớp xa trôi 0,3×, cành thông tiền cảnh lướt qua một lần; chùm đèn quét theo đàn tuần lộc (người chăn đi ở mép chùm, không bị rọi), Wob (vẫn ở góc trái dưới) xoay người theo. 'frozen landscape' (160,6–161,6 s): đàn đi qua vùng băng trắng trống rộng. 'open water' (162,04 s): chùm đèn dừng trên chấm nước bốc hơi duy nhất giữa vùng băng, camera lắng; từ 162,0 s bắt đầu đẩy vào chấm nước. 'curiosity' (163,27 s): Wob nghiêng đầu.",
+     "gag": "",
+     "dao_cu": [
+      "den-pin"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 149.302,
+     "loi": "It's the whole point.",
+     "hanh_dong": "[day-vao-cham] Đẩy vào nhanh hơn thẻ: zoom 1 → 1,9 trong 162,0–165,2 s (smootherstep, nhấn ở 'whole point' 164,66 s) tới TRUNG CẢNH: suối bốc hơi chiếm ~1/2 bề rộng khung, vài tuần lộc uống nước ở bờ, hơi nước cuộn lên. Wob thu chùm đèn hẹp lại thành vòng tròn quanh suối như đèn sân khấu, gật đầu một cái đúng 'point' (164,85 s).",
+     "gag": "",
+     "dao_cu": [
+      "den-pin"
+     ],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 150.462,
+     "loi": "A stopping place became a regular camp.",
+     "hanh_dong": "Vẫn trung cảnh. 'stopping place' (165,7 s): hai người chăn dựng một lều nón giấy TO ở gần camera bên phải suối (tua nhanh 0,6 s: cọc chụm lại, bạt quấn quanh; lớp gần, parallax 1,2×, cao ~360 px), lều đứng đúng giữa vòng đèn nên chắn sáng, người chăn đã bước khuất sau lều; Wob khựng 4 khung, rướn người sang phải, xoay đèn rọi vòng qua mép lều (giữ 0,6 s). 'regular camp' (166,85–167,26 s): hai lều nhỏ hơn bật dựng sau suối, có khói mỏng.",
+     "gag": "lều bật dựng chắn đèn chiếu, Wob phải rướn người rọi vòng qua",
+     "dao_cu": [
+      "den-pin"
+     ],
+     "sfx": [
+      "pop",
+      "pop"
+     ]
+    },
+    {
+     "tai": 152.892,
+     "loi": "Over time, the camp grew into a permanent village.",
+     "hanh_dong": "[lui-ra-toan-canh] 168,0–170,5 s camera lùi từ trung cảnh về toàn cảnh (zoom 1,9 → 1, smootherstep); Wob mở chùm đèn thành quạt rộng phủ cả thung lũng. Lều lần lượt đổi thành nhà gỗ thấp có cột khói: lều to gần camera ở 'Over time' (168,05 s) thành nhà gỗ lớn nhất tiền cảnh phải, rồi 'grew' (169,4 s) và 'permanent village' (170,17–170,66 s) thêm nhà quanh suối. Bố cục nhà gỗ cuối nhịp trùng vị trí nhà gỗ của phần 2 (cùng góc máy) để lúc đổi màu khớp từng nhà. Wob há miệng, mắt to nhìn làng mọc lên; giữ toàn cảnh tới 171,5 s.",
+     "gag": "",
+     "dao_cu": [
+      "den-pin"
+     ],
+     "sfx": [
+      "pop",
+      "pop"
+     ]
+    },
+    {
+     "tai": 156.442,
+     "loi": "So the village didn't appear despite the cold.",
+     "hanh_dong": "'So' (171,6 s): Wob bấm tắt đèn; sepia rút đi trong 1,0 s quét từ trái (chỗ Wob) sang phải như tờ giấy cũ được kéo đi, để lộ cùng thung lũng mùa đông màu thật, nhà gỗ phủ tuyết đúng chỗ nhà gỗ quá khứ (bỏ filter khi k = 0). 'despite the cold' (172,8–173,3 s): Wob nhét đèn pin vào ba lô, rút chai nước nhỏ đông cứng, lắc thử: cứng đơ, không tiếng (gài cho 'For once, it sloshed'). 'It appeared because' (174,1 s): Wob rời lớp tiền cảnh, bước 3 bước xuống bờ suối; [luot-smootherstep] camera lướt 174,1–175,4 s từ toàn cảnh về đúng góc máy phần 2 (trung cảnh, Wob giữa khung bên suối). 'middle of all that cold' (175,35–176,6 s): Wob ngồi xổm cạnh suối, nhìn xuống nước bốc hơi.",
+     "gag": "",
+     "dao_cu": [
+      "chai-nuoc-nho"
+     ],
+     "sfx": [
+      "pop",
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 162.262,
+     "loi": "It appeared because, in the middle of all that cold, something refused to freeze.",
+     "hanh_dong": "Cận suối vẫn chảy, bốc hơi giữa bờ băng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 164.242,
+     "loi": "I dipped my water bottle into the spring.",
+     "hanh_dong": "Wob nhúng chai nước đông cứng xuống suối, lắc lắc",
+     "gag": "",
+     "dao_cu": [
+      "chai-nuoc-nho"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 166.952,
+     "loi": "For once, it sloshed.",
+     "hanh_dong": "Chai óc ách lần đầu; Wob ôm chai vào lòng như ôm thú cưng, mắt rưng rưng; giữ 0,8 s",
+     "gag": "ôm chai như thú cưng",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-vui"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Giải thích cơ chế có thật (vì sao có làng) và lịch sử nhẹ không đau thương: cat-giay; tua nhanh cùng khung hợp nhiều lớp giấy."
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "bat_dau": 169.872,
+   "ket_thuc": 181.002,
+   "lop": "hoi-uc",
+   "boi_canh": "Trung tâm làng mùa đông, ngày ngắn: đài tưởng niệm 'Pole of Cold' vẽ chung tối giản (khối giấy cắt có nhiệt kế cách điệu, không chép chi tiết thiết kế thật), nhà gỗ thấp, khói thẳng, cột điện tiền cảnh",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng; chai nước cất trong ba lô",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 169.872,
+     "loi": "Next, I went to find the chilliest spot in town.",
+     "hanh_dong": "[di-bo-parallax] Wob đi dọc phố, nhìn trái nhìn phải tìm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 172.952,
+     "loi": "That was the whole point of the move.",
+     "hanh_dong": "Wob nắm tay hào hứng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 174.792,
+     "loi": "Oymyakon has a monument for it, the Pole of Cold,",
+     "hanh_dong": "[tien-canh-khung] Đài tưởng niệm hiện ra sau cột điện tiền cảnh; chữ 'POLE OF COLD' trên bệ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 179.572,
+     "loi": "so I stood next to it and tried to look famous.",
+     "hanh_dong": "Wob tạo dáng cạnh đài; sương giá đọng thành vương miện băng nhỏ trên mũ; Wob giữ dáng, run nhẹ",
+     "gag": "vương miện băng thật",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang",
+      "brr"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "POLE OF COLD"
+   ],
+   "ly_do_phong_cach": "Khuôn thu-hong-hieu ngoài trời, đi bộ và gag chậm: cat-giay."
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "bat_dau": 181.002,
+   "ket_thuc": 212.922,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận trang sổ phác thảo của Wob (Wob ló mặt qua mép sổ), hình vẽ tay trạm khí tượng nhỏ năm xưa; cuối đoạn: Wob đứng cạnh đài tưởng niệm vẽ tay. Bố cục chữ (phản biện #16, khung 212): Wob ló mặt ở mép TRÁI sổ, các con số xếp ở nửa phải trang; đầu Wob và vương miện băng luôn cách khối chữ ≥ 40 px, không che '−90°F' hay số nào (nhất là 208–221 s)",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng; vương miện băng nhỏ trên mũ (rơi ở 'Almost.')",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 181.002,
+     "loi": "Why a monument?",
+     "hanh_dong": "Wob nhìn đài tưởng niệm, gãi đầu; bong bóng '?'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 182.232,
+     "loi": "Because the record that made Oymyakon famous came from the local weather station",
+     "hanh_dong": "[so-do-ve-tay] Trang sổ: hình vẽ tay trạm khí tượng nhỏ và hộp nhiệt kế",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 186.622,
+     "loi": "in nineteen thirty-three.",
+     "hanh_dong": "Wob viết '6 Feb 1933'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 187.932,
+     "loi": "On the sixth of February, it recorded about minus sixty-eight degrees Celsius.",
+     "hanh_dong": "Wob viết '≈ −68°C'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 192.932,
+     "loi": "That's about minus ninety Fahrenheit.",
+     "hanh_dong": "Viết thêm '−90°F' ngay dưới '≈ −68°C'; Wob và vương miện băng ở mép trái sổ, không che chữ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 195.152,
+     "loi": "Guinness World Records lists it as minus sixty-seven point seven.",
+     "hanh_dong": "[lat-the] Wob viết '−67.7°C' bên cạnh, nhìn hai số",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 199.452,
+     "loi": "The World Meteorological Organization lists minus sixty-seven point eight.",
+     "hanh_dong": "Wob viết '−67.8°C' ở phía bên kia",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 204.442,
+     "loi": "So even the number comes with an argument.",
+     "hanh_dong": "Wob gạch qua gạch lại giữa ba con số mạnh tới mức trang sổ thủng một lỗ; Wob nhìn người xem qua lỗ thủng",
+     "gag": "gạch tới thủng trang",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 206.742,
+     "loi": "Either way, it's the lowest temperature on record for a place where people live all year.",
+     "hanh_dong": "Wob cạnh đài tưởng niệm, ưỡn ngực, vương miện băng lấp lánh",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 211.452,
+     "loi": "Well.",
+     "hanh_dong": "[take-cham] Wob khựng lại, mắt liếc sang",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 212.132,
+     "loi": "Almost.",
+     "hanh_dong": "Vương miện băng rơi khỏi mũ 'cạch'; Wob nhìn xuống nó",
+     "gag": "mất vương miện",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "6 Feb 1933",
+    "≈ −68°C",
+    "−90°F",
+    "−67.7°C",
+    "−67.8°C",
+    "POLE OF COLD"
+   ],
+   "ly_do_phong_cach": "Trang sổ viết, gạch, punchline cận: ve-tay. Hai con số khác nguồn hiện cạnh nhau đúng lời dè dặt (C04 mức C)."
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "bat_dau": 212.922,
+   "ket_thuc": 250.212,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ là bản đồ cắt giấy, Wob nhỏ đứng trên mép trang như trên sân khấu: map-yakutia (chấm Oymyakon, chấm Verkhoyansk phía tây bắc; ẨN mốc Yakutsk), rồi lật sang map-tomtor (hai chấm Oymyakon, Tomtor; nhiệt kế giấy nhỏ đặt giữa, gần Tomtor; đường băng ngắn cạnh Tomtor); hình trạm khí tượng nhỏ và đường băng tông giấy cũ",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 212.922,
+     "loi": "Far to the northwest, the town of Verkhoyansk has its own reading",
+     "hanh_dong": "[trang-so-ban-do] map-yakutia, camera lùi để thấy chấm Verkhoyansk ở tây bắc; nhãn 'Verkhoyansk' hiện",
+     "gag": "",
+     "dao_cu": [
+      "map-yakutia"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 217.572,
+     "loi": "from eighteen ninety-two, of about the same number.",
+     "hanh_dong": "Cạnh nhãn hiện '1892'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 220.572,
+     "loi": "Some sources say the two towns share the record.",
+     "hanh_dong": "Một vương miện băng nhỏ chia đôi, mỗi nửa đặt lên một chấm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 223.282,
+     "loi": "Others treat the Verkhoyansk reading as disputed.",
+     "hanh_dong": "Nửa vương miện ở Verkhoyansk nghiêng lệch, kèm dấu '?' nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 227.072,
+     "loi": "I measured the distance on my map with my fingers.",
+     "hanh_dong": "Wob nằm sấp trên trang, dang hai tay từ chấm này tới chấm kia, không với tới, run, cố thêm",
+     "gag": "tay không với tới",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 229.802,
+     "loi": "I decided Verkhoyansk could keep its half.",
+     "hanh_dong": "Wob đứng dậy phủi tay, quay lưng với Verkhoyansk",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 234.282,
+     "loi": "Then it got complicated.",
+     "hanh_dong": "Trang sổ lật sang map-tomtor; Wob giật mình",
+     "gag": "",
+     "dao_cu": [
+      "map-tomtor"
+     ],
+     "sfx": [
+      "whoosh",
+      "liu-lo-soc"
+     ]
+    },
+    {
+     "tai": 237.932,
+     "loi": "The weather station behind that famous number isn't in Oymyakon itself.",
+     "hanh_dong": "Nhiệt kế giấy nhỏ trượt ra khỏi chấm Oymyakon",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 240.272,
+     "loi": "It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield.",
+     "hanh_dong": "Nhiệt kế dừng giữa hai chấm, lệch hẳn về phía Tomtor, đặt phía trên đường nối hai chấm, cách chấm và nhãn 'Oymyakon' ≥ 60 px (không đè chấm); chấm Tomtor và nhãn 'Tomtor' hiện CÙNG LÚC đúng chữ 'Tomtor' (259,18 s, dùng api.tu), không để chấm đỏ không nhãn; đường băng ngắn cạnh Tomtor hiện đúng 'airfield' (260,96 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 246.772,
+     "loi": "The station and the airfield both date from the Soviet era.",
+     "hanh_dong": "Hình trạm khí tượng nhỏ và đường băng tông giấy cũ trượt vào như tờ dán",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Oymyakon",
+    "Verkhoyansk",
+    "1892",
+    "Tomtor"
+   ],
+   "ly_do_phong_cach": "Bản đồ trang sổ (code, map-yakutia, map-tomtor): cat-giay theo luật phối; Wob đứng trên trang để luôn có mặt trong cảnh."
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "bat_dau": 250.212,
+   "ket_thuc": 269.972,
+   "lop": "hoi-uc",
+   "boi_canh": "Con đường băng giữa hai làng mùa đông: hai tấm biển làng đứng hai bên khung (trái 'OYMYAKON' kèm hình đài tưởng niệm, phải 'TOMTOR' kèm hình nhiệt kế), đồi tuyết, mặt đường băng bóng loáng; nhiệt kế giấy nhỏ trên cọc ở giữa",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 250.212,
+     "loi": "Some sources argue that Tomtor, not Oymyakon, is the real Pole of Cold.",
+     "hanh_dong": "Camera lia sang biển TOMTOR; tấm biển rướn cao hơn một chút như ưỡn ngực",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 256.032,
+     "loi": "Oymyakon, meanwhile, has the official monument.",
+     "hanh_dong": "[lia-nhoe] Lia nhoè sang biển OYMYAKON có hình đài tưởng niệm, sáng lên",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 259.712,
+     "loi": "So a village got famous partly because someone finally put a thermometer nearby.",
+     "hanh_dong": "Nhiệt kế giấy nhỏ giữa đường được rọi đèn sân khấu, tự cúi chào",
+     "gag": "nhiệt kế là ngôi sao",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 264.112,
+     "loi": "Thermometers are very good at making places famous.",
+     "hanh_dong": "Nhiệt kế vẫn cúi chào; Wob vỗ tay lịch sự",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 267.212,
+     "loi": "I went to the station.",
+     "hanh_dong": "[leo-thang-ba-lan] Wob lạch bạch sang phía biển TOMTOR",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 268.502,
+     "loi": "Then back to the monument.",
+     "hanh_dong": "Wob lạch bạch về phía biển OYMYAKON",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON",
+    "TOMTOR"
+   ],
+   "ly_do_phong_cach": "Hai lần đi lại đầu của leo-thang-ba-lan bằng cat-giay (đi bộ có chu kỳ); lần ba lệch kiểu là chèn ve-tay (d16)."
+  },
+  {
+   "id": "d16",
+   "phong_cach": "ve-tay",
+   "bat_dau": 269.972,
+   "ket_thuc": 291.002,
+   "lop": "hoi-uc",
+   "boi_canh": "Giữa con đường băng của d15 (vẽ tay, cùng hai tấm biển); rồi trang sổ phác thảo có quả địa cầu vẽ tay",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 269.972,
+     "loi": "Then I tried standing exactly halfway, so I could live in both.",
+     "hanh_dong": "[chen-ve-tay] Lần ba: Wob đứng đúng giữa, dang hai tay chỉ hai làng, mãn nguyện",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 273.902,
+     "loi": "Halfway turned out to be mostly frozen road.",
+     "hanh_dong": "Wob trượt chân, xoay tròn ba vòng trên mặt băng (smear), ngã ngửa, ba lô làm gối",
+     "gag": "đứng giữa thì trượt",
+     "dao_cu": [],
+     "sfx": [
+      "boing",
+      "bonk"
+     ]
+    },
+    {
+     "tai": 274.882,
+     "loi": "",
+     "hanh_dong": "Wob nằm ngửa giữa đường băng, nhìn trời; giữ hình",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 277.752,
+     "loi": "Lying on that road, I finally asked a better question.",
+     "hanh_dong": "Vẫn nằm; một bong bóng '?' mọc ra trên đầu Wob",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 281.102,
+     "loi": "Why is it this cold here at all?",
+     "hanh_dong": "Bong bóng '?' phồng to dần",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 282.792,
+     "loi": "Oymyakon isn't even inside the Arctic Circle.",
+     "hanh_dong": "[so-do-ve-tay] Trang sổ: quả địa cầu vẽ tay, Wob kẻ vòng nét đứt 'Arctic Circle' phía trên; chấm làng nằm dưới vòng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 285.872,
+     "loi": "It sits a few degrees of latitude south of it.",
+     "hanh_dong": "Mũi tên nhỏ chỉ khoảng hở giữa chấm làng và vòng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 288.622,
+     "loi": "The reason is boring and brilliant.",
+     "hanh_dong": "Wob ngáp ở 'boring', mắt sáng rực ở 'brilliant'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Arctic Circle",
+    "OYMYAKON",
+    "TOMTOR"
+   ],
+   "ly_do_phong_cach": "Lần ba lệch kiểu của leo-thang-ba-lan (cắt giấy + chèn vẽ tay) rồi sơ đồ vẽ tay: ve-tay."
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "bat_dau": 291.002,
+   "ket_thuc": 330.502,
+   "lop": "hoi-uc",
+   "boi_canh": "Sơ đồ vẽ tay trên trang sổ: chiếc nắp trong suốt to (vùng áp cao) úp lên vùng đất; rồi mặt cắt thung lũng thành cái bát, khí lạnh xanh chảy xuống đáy như nước, làng nhỏ xíu dưới đáy; hai nhiệt kế nhỏ không số (trên sườn đỏ hơn, dưới đáy xanh hơn); Wob nhỏ trong bát",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 291.002,
+     "loi": "In winter, a huge, stable zone of high pressure",
+     "hanh_dong": "[so-do-ve-tay] Chiếc nắp trong suốt to hạ xuống úp lên vùng đất",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 294.722,
+     "loi": "called the Siberian High settles over this part of Asia.",
+     "hanh_dong": "Nhãn 'Siberian High' trên nắp",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 297.852,
+     "loi": "It brings clear, dry skies,",
+     "hanh_dong": "Mây bị đẩy ra ngoài mép nắp, trời trong",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 300.202,
+     "loi": "and clear skies let the ground lose its heat straight up into space.",
+     "hanh_dong": "Các mũi tên hơi ấm lượn sóng bay thẳng lên khỏi mặt đất, ra tới các ngôi sao",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 304.322,
+     "loi": "Then there's the valley.",
+     "hanh_dong": "[luot-smootherstep] Camera lướt xuống mặt cắt thung lũng: cái bát",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 305.552,
+     "loi": "Cold air is heavy.",
+     "hanh_dong": "Khí lạnh xanh cuộn tròn nặng nề như cục bột, rơi bịch",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 306.802,
+     "loi": "It slides downhill and pools on the valley floor, like water in a bowl,",
+     "hanh_dong": "Khí lạnh chảy xuống đáy bát như nước, đáy đầy dần; làng nhỏ xíu chìm dưới đáy",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 311.232,
+     "loi": "while the mountains around it keep warmer air out.",
+     "hanh_dong": "Sườn núi như vành bát chặn mũi tên hơi ấm ở ngoài",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 314.052,
+     "loi": "Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor.",
+     "hanh_dong": "Hai nhiệt kế nhỏ: trên sườn đỏ hơn, dưới đáy xanh hơn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 320.822,
+     "loi": "So the cold isn't a spot. It's the whole bowl.",
+     "hanh_dong": "Wob nhỏ đứng ở đáy bát, gõ vào khí lạnh như gõ thạch, khí lạnh rung rinh",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 323.802,
+     "loi": "I thought about climbing out. Up there it's warmer.",
+     "hanh_dong": "Wob leo lên sườn bát tới lưng chừng, nhìn lên chỗ ấm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 326.472,
+     "loi": "Up there it's also a mountain.",
+     "hanh_dong": "Ngọn núi vươn cao vút lên; Wob ngửa cổ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 328.012,
+     "loi": "I stayed in the bowl.",
+     "hanh_dong": "[giu-tinh-bo] Wob ngồi lên ba lô trượt tuột về đáy bát như xe trượt; dừng ở đáy, tỉnh bơ nhìn người xem; giữ tới hết đoạn",
+     "gag": "trượt về đáy bát",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh",
+      "drop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Siberian High"
+   ],
+   "ly_do_phong_cach": "Cơ chế trừu tượng (áp cao, khí lạnh dồn đáy thung lũng): sơ đồ vẽ tay theo luật phối. Kết chương bằng punchline giữ hình."
+  },
+  {
+   "id": "d18",
+   "phong_cach": "diorama",
+   "bat_dau": 330.502,
+   "ket_thuc": 335.902,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp (trong hộp: chai nước nhỏ đông cứng, tờ rơi gấp), sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Đèn bàn dịu dần trong đoạn. Không nhạc.",
+   "trang_phuc": "Không mũ, không khăn; găng lò nướng tay trái cầm cá (như d03). Trong đoạn: đặt cá xuống bàn, tháo găng đặt cạnh cá. Từ đây cá và găng nằm trên bàn (tới d40)",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 330.502,
+     "loi": "",
+     "hanh_dong": "[cat-cung-ve-hien-tai] Cắt cứng từ cái bát về bàn; Wob đã ngồi, cá trong găng; nhạc ngắt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 330.752,
+     "loi": "I'm going to put the fish down for this part.",
+     "hanh_dong": "[dat-ky-vat-xuong] Wob đặt cá xuống bàn chậm 0,6 s, tháo găng đặt cạnh; mí 0,3, không cười; mấp máy theo lời",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 332.942,
+     "loi": "The same era brought something much darker to this region.",
+     "hanh_dong": "[day-vao-cham] Camera đẩy vào rất chậm; đèn bàn dịu xuống; Wob mở sổ sang trang bản đồ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 335.202,
+     "loi": "",
+     "hanh_dong": "Camera hạ chậm xuống trang sổ; 0,6 s cuối phủ giấy phẳng #EFE3C8 (chậm, không whoosh)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Khuôn lich-su-nghiem, thẻ dat-ky-vat-xuong: mở bằng khung hiện tại (diorama, luật: khung hiện tại chỉ diorama). Không gag, không sfx."
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay",
+   "bat_dau": 335.902,
+   "ket_thuc": 355.512,
+   "lop": "lich-su",
+   "boi_canh": "Minh hoạ lịch sử, tông trầm (xám xanh, giấy cũ; không đỏ, không màu ấm, không hạt nhấp nháy): trang sổ bản đồ map-kolyma cắt giấy; chỉ nhãn chấm 'Oymyakon' và nhãn vùng 'Kolyma' đặt ở phía đông (ẨN mốc Yakutsk, Magadan, Ust-Nera); KHÔNG vẽ tuyến đường lên bản đồ (map-kolyma không có tuyến). Sau đó hoà tan sang một con đường tuyết trống trải chạy vào sương, hàng cọc gỗ thưa, bóng một chòi canh gỗ rất xa; không người, không bạo lực, không vật chuyển động trừ tuyết rơi rất thưa.",
+   "trang_phuc": "Wob không xuất hiện (có chủ ý: kể nghiêm, Wob đứng ngoài). Wob ở bàn: cá, găng nằm trên bàn",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 335.902,
+     "loi": "In the nineteen thirties, the Soviet Union built a network of forced labour camps",
+     "hanh_dong": "[lui-cham-im-lang] Từ giấy phẳng, trang bản đồ map-kolyma hiện dần, tông trầm; camera lùi rất chậm",
+     "gag": "",
+     "dao_cu": [
+      "map-kolyma"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 340.632,
+     "loi": "across the Kolyma region, part of the Gulag system, largely to mine gold.",
+     "hanh_dong": "Nhãn 'Kolyma' hiện mờ dần (không bật, không tiếng)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 346.022,
+     "loi": "Prisoners began building the Kolyma Highway in the early nineteen thirties, and forced labour continued on it into the nineteen fifties.",
+     "hanh_dong": "Hoà tan chậm (8 khung) sang con đường tuyết trống chạy vào sương, hàng cọc gỗ, chòi canh xa; camera trôi rất chậm dọc đường",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 353.892,
+     "loi": "Many of them did not survive.",
+     "hanh_dong": "Giữ hình con đường trống, chỉ tuyết rơi rất thưa; không chữ, không đạo cụ chuyển động",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 354.912,
+     "loi": "",
+     "hanh_dong": "0,6 s cuối phủ giấy phẳng chậm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Kolyma",
+    "Oymyakon"
+   ],
+   "ly_do_phong_cach": "Phần giữa đoạn lịch sử nặng: luật 'lịch sử nghiêm túc → cat-giay, không gag'. Đây là lớp minh hoạ lịch sử (lop 'lich-su', không phải khung bàn, Wob vắng mặt) nên không phạm luật 'khung hiện tại chỉ diorama'; mở và kết bằng diorama bàn kỷ vật (d18, d20)."
+  },
+  {
+   "id": "d20",
+   "phong_cach": "diorama",
+   "bat_dau": 355.512,
+   "ket_thuc": 364.492,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp (trong hộp: chai nước nhỏ đông cứng, tờ rơi gấp), sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Đèn dịu như cuối d18; cá và găng nằm trên bàn; sổ mở trang trống. Không nhạc.",
+   "trang_phuc": "Không mũ, không khăn, tay không; cá và găng nằm trên bàn",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 355.512,
+     "loi": "",
+     "hanh_dong": "Từ giấy phẳng hiện về bàn: Wob ngồi thẳng, hai tay đặt trên trang sổ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 355.712,
+     "loi": "The village's story begins with the springs.",
+     "hanh_dong": "Wob chạm nhẹ chai nước nhỏ trong hộp kỷ vật; mấp máy theo lời",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 358.382,
+     "loi": "But the highway that crosses this region was built by people who had no choice.",
+     "hanh_dong": "[lui-cham-im-lang] Wob gấp sổ lại thật chậm, đặt tay lên bìa; camera lùi rất chậm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 362.792,
+     "loi": "",
+     "hanh_dong": "Khoảng lặng ~1 s: Wob nhắm mắt chậm rồi mở; đèn bàn sáng lại dần về mức thường",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 363.742,
+     "loi": "",
+     "hanh_dong": "[lao-vao-hinh-ve] Wob mở sổ, lật sang hình vẽ phố làng buổi sáng; camera lao vào hình vẽ; 0,5 s cuối phủ giấy phẳng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Kết đoạn lịch sử ở khung hiện tại (diorama), 1 s lặng rồi mới quay lại giọng thường (thẻ dat-ky-vat-xuong); trang sổ mở chương mới."
+  },
+  {
+   "id": "d21",
+   "phong_cach": "diorama",
+   "bat_dau": 364.492,
+   "ket_thuc": 377.162,
+   "lop": "hoi-uc",
+   "boi_canh": "ngoài trời 3D (api.ngoaiTroi; buổi sáng còn tối: ánh sáng 'dem' chuyển dần xanh chạng vạng, cửa sổ vàng): phố làng tuyết kiểu vi-du/canh-ngoai-troi-lang-tuyet (đường, hai dãy nhà gỗ, cột điện, đống tuyết, núi xa), cột khói thẳng; một chiếc xe hộp nhỏ đỗ giữa phố đang nổ máy, ống xả phụt khói trắng từng cụm, ghế lái trống; xa hơn vài xe khác cũng nổ máy. Đồng hồ treo ngoài hiên (kim, không chữ số). GHI LẠI seed, bố cục cho d23.",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng; khăn quấn kỹ",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 364.492,
+     "loi": "Back in the village, I tried to get through one ordinary day.",
+     "hanh_dong": "[tien-canh-khung] Mở sau hàng rào tiền cảnh; Wob mở cửa nhà gỗ bước ra phố, quấn khăn kỹ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 368.392,
+     "loi": "Morning. Still dark.",
+     "hanh_dong": "[dong-ho-troi] Đồng hồ ngoài hiên chỉ buổi sáng; trời vẫn tối xanh, cửa sổ vàng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 370.142,
+     "loi": "Outside, a car sat in the street with its engine running",
+     "hanh_dong": "Camera lướt theo Wob tới chiếc xe đang nổ máy, khói xả phụt đều",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "may-no"
+     ]
+    },
+    {
+     "tai": 373.582,
+     "loi": "and nobody in it.",
+     "hanh_dong": "Wob nhón chân nhìn qua kính: ghế lái trống; Wob vẫy chào cái ghế",
+     "gag": "chào ghế trống",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-hoi"
+     ]
+    },
+    {
+     "tai": 374.772,
+     "loi": "Cars are often left running for hours,",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi lên: dọc phố thêm vài xe cũng nổ máy, khói xả bốc lên đều như cột khói nhà",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Phố buổi sáng có xe nổ máy cần chiều sâu thật, nhiều xe dọc phố, khói, ánh sáng đổi theo giờ: một trong vài cảnh đáng dùng ngoài trời 3D."
+  },
+  {
+   "id": "d22",
+   "phong_cach": "ve-tay",
+   "bat_dau": 377.162,
+   "ket_thuc": 387.722,
+   "lop": "hoi-uc",
+   "boi_canh": "Chèn vẽ tay: đống lửa nhỏ dưới gầm một chiếc xe khác, hơi nóng uốn lượn; cận động cơ vẽ tay; bong bóng so sánh: một chiếc xe thường trên sân nhà buổi sáng mùa đông nhẹ; rồi 'Mùa Đông' là đám mây tuyết có mắt nét mực (không mặt người) bỏ túi chùm chìa khoá",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 377.162,
+     "loi": "or warmed with a fire before starting,",
+     "hanh_dong": "[chen-ve-tay] Đống lửa nhỏ dưới gầm xe, hơi nóng uốn lượn; Wob ngồi xổm hơ tay cạnh đó",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 379.372,
+     "loi": "because a frozen engine may refuse to start at all.",
+     "hanh_dong": "Cận động cơ vẽ tay run cầm cập, khoanh tay quay mặt đi, không chịu nổ",
+     "gag": "động cơ dỗi",
+     "dao_cu": [],
+     "sfx": [
+      "brr"
+     ]
+    },
+    {
+     "tai": 382.682,
+     "loi": "Think of your car on a winter morning.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Bong bóng: chiếc xe thường phủ sương mỏng; Wob cạo kính hai cái là xong, mỉm cười",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 384.862,
+     "loi": "Now imagine the winter never gives back the keys.",
+     "hanh_dong": "Đám mây mùa đông chộp chùm chìa khoá, nhét vào túi tuyết, bay đi; Wob há hốc",
+     "gag": "mùa đông giữ chìa khoá",
+     "dao_cu": [],
+     "sfx": [
+      "pop",
+      "liu-lo-soc"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "So sánh đời thường dạng giả định: ve-tay nối chen."
+  },
+  {
+   "id": "d23",
+   "phong_cach": "diorama",
+   "bat_dau": 387.722,
+   "ket_thuc": 394.392,
+   "lop": "hoi-uc",
+   "boi_canh": "ngoài trời 3D, cùng phố, cùng chiếc xe của d21 (cùng seed, cùng bố cục), trời sáng hơn một chút",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 387.722,
+     "loi": "I patted the car on the hood, like a horse.",
+     "hanh_dong": "Wob vỗ nắp capo như vỗ cổ ngựa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 390.542,
+     "loi": "The car kept running.",
+     "hanh_dong": "Xe rung rung như ngựa khịt mũi; một cụm khói ống xả thổi tung khăn quàng của Wob",
+     "gag": "xe như ngựa",
+     "dao_cu": [],
+     "sfx": [
+      "may-no",
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 391.872,
+     "loi": "It had places to be.",
+     "hanh_dong": "[day-vao-cham] Wob giữ khăn, nhìn xe, tỉnh bơ; camera đẩy chậm; giữ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Quay lại đúng phố 3D của d21 sau đoạn chèn (cùng bối cảnh, cùng xe)."
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "bat_dau": 394.392,
+   "ket_thuc": 407.622,
+   "lop": "hoi-uc",
+   "boi_canh": "Chợ ngoài trời giữa trưa mùa đông (trời xanh nhạt, mặt trời thấp): quầy gỗ (marketStall), thùng cá đông cứng (fishBarrel), cá xếp chồng như củi, thịt treo dạng chung; người bán chỉ thấy bàn tay đeo găng (không mặt); sông băng ở lớp xa",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 394.392,
+     "loi": "Midday, I went to the market.",
+     "hanh_dong": "[di-bo-parallax] Wob đi vào chợ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 396.442,
+     "loi": "Food here comes mostly from animals and the river: meat,",
+     "hanh_dong": "Camera lướt qua quầy thịt treo, rồi sông băng xa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 400.232,
+     "loi": "and fish that in winter is sold frozen solid and stacked like firewood.",
+     "hanh_dong": "[lui-ra-toan-canh] Cận một con cá đông cứng, camera lùi ra: chồng cá xếp như củi, rồi cả quầy",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 404.682,
+     "loi": "Farming in frozen ground is close to impossible.",
+     "hanh_dong": "[va-cham-vat-ly] Wob cắm xẻng nhỏ xuống đất cạnh quầy; xẻng nảy bật lại, rung bần bật trong tay Wob",
+     "gag": "xẻng bật lại",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Giải thích một tập quán có thật trong bối cảnh nhiều lớp: cat-giay."
+  },
+  {
+   "id": "d25",
+   "phong_cach": "ve-tay",
+   "bat_dau": 407.622,
+   "ket_thuc": 419.922,
+   "lop": "hoi-uc",
+   "boi_canh": "Quầy chợ vẽ tay; rồi toàn cảnh làng nhỏ xíu nằm trong một cái tủ đông nét mực; rồi phố làng ban trưa có cột đèn",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng. Từ 'I carried my fish home': vác con cá trên vai trái như tấm ván (chính là con cá ở bàn kỷ vật)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 407.622,
+     "loi": "I asked for a bag.",
+     "hanh_dong": "[chen-ve-tay] Wob chìa túi giấy nhỏ; bong bóng hình cái túi; bàn tay đeo găng (không mặt) đưa ra con cá cứng đờ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-hoi"
+     ]
+    },
+    {
+     "tai": 408.972,
+     "loi": "The fish did not need a bag.",
+     "hanh_dong": "Đuôi cá chọc thủng đáy túi, túi rơi",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 410.632,
+     "loi": "The fish could stand up on its own.",
+     "hanh_dong": "Con cá tự đứng thẳng trên quầy, mặt thanh thản",
+     "gag": "cá thanh thản",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 412.562,
+     "loi": "That's when it clicked.",
+     "hanh_dong": "Mắt Wob mở to, ký hiệu '!' bật trên đầu",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 413.722,
+     "loi": "In winter, the village itself is the freezer.",
+     "hanh_dong": "Camera lùi xa: cả làng nhỏ xíu trong một cái tủ đông vẽ nét mực, cửa tủ mở phả hơi lạnh",
+     "gag": "cả làng là tủ đông",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 416.792,
+     "loi": "I carried my fish home on my shoulder, like a plank.",
+     "hanh_dong": "Wob vác cá trên vai như tấm ván đi giữa phố; quay người, đuôi cá quét ngang suýt trúng cột đèn, Wob cúi né",
+     "gag": "đuôi cá suýt trúng cột đèn",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Chuỗi gag cắt nhanh, cận cá, cường điệu tủ đông: ve-tay."
+  },
+  {
+   "id": "d26",
+   "phong_cach": "diorama",
+   "bat_dau": 419.922,
+   "ket_thuc": 422.992,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp (trong hộp: chai nước nhỏ đông cứng, tờ rơi gấp), sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Đèn ấm bình thường; cá và găng nằm trên bàn",
+   "trang_phuc": "Không mũ, không khăn; cầm bút tay phải; cá nằm trên bàn",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 419.922,
+     "loi": "Yes.",
+     "hanh_dong": "[cat-cung-ve-hien-tai] Cắt cứng về bàn: Wob đã chĩa bút vào con cá trên bàn, nhìn thẳng người xem, mấp máy 'Yes.'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 420.792,
+     "loi": "This fish.",
+     "hanh_dong": "Wob gõ bút lên con cá: cộc, cá vẫn cứng; giữ 0,6 s",
+     "gag": "callback con cá",
+     "dao_cu": [],
+     "sfx": [
+      "bonk"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cắt cứng về hiện tại để gọi lại kỷ vật (hook cảnh 1): khung hiện tại chỉ diorama. Đoạn chèn 2,9 s."
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "bat_dau": 422.992,
+   "ket_thuc": 441.702,
+   "lop": "hoi-uc",
+   "boi_canh": "Nhà gỗ buổi chiều (trời đã chạng vạng): trong nhà, bậc cửa, con đường tuyết sau nhà dẫn tới chòi gỗ nhỏ (nhà vệ sinh ngoài trời) ở cuối; mặt cắt đất cắt giấy nhiều lớp: tuyết, lớp đất mỏng, khối băng xanh dày bên dưới, ống nước nhỏ đông cứng như que kem",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 422.992,
+     "loi": "Afternoon. I needed a bathroom.",
+     "hanh_dong": "Wob trong nhà bắt chéo chân, nhấp nhổm, nhìn quanh",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-hoi"
+     ]
+    },
+    {
+     "tai": 425.262,
+     "loi": "Beneath the surface the ground is permafrost, frozen all year,",
+     "hanh_dong": "Camera hạ xuống dưới mặt đất: các lớp giấy tách ra thành mặt cắt (tuyết, đất mỏng, khối băng xanh)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 429.552,
+     "loi": "which makes ordinary water pipes very hard to keep working.",
+     "hanh_dong": "Ống nước nhỏ trong đất đông cứng thành que kem",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    },
+    {
+     "tai": 432.992,
+     "loi": "Many homes use outdoor toilets.",
+     "hanh_dong": "Camera trở lên: con đường tuyết sau nhà, chòi gỗ nhỏ ở cuối; một bông tuyết rơi lên nóc chòi",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 435.042,
+     "loi": "I looked at the path to the outhouse for a long time.",
+     "hanh_dong": "Wob đứng ở bậc cửa nhìn ra con đường; con đường dài ra như zoom ngược, chòi lùi xa dần",
+     "gag": "đường tới chòi tự dài ra",
+     "dao_cu": [],
+     "sfx": [
+      "rise"
+     ]
+    },
+    {
+     "tai": 437.892,
+     "loi": "I made a decision.",
+     "hanh_dong": "Wob gật đầu quả quyết",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 439.092,
+     "loi": "I waited.",
+     "hanh_dong": "[day-vao-cham] Wob lặng lẽ đóng cửa; giữ trên cánh cửa 0,8 s (tới 455,0)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "im-lang"
+     ]
+    },
+    {
+     "tai": 439.942,
+     "loi": "On the way back, I passed the school.",
+     "hanh_dong": "Cắt: trời tối thêm một bậc (ngụ ý đã lâu); Wob rảo bước từ phía chòi gỗ về, run cầm cập, đi dọc đường làng sang phải (đi bộ parallax), xa xa hiện cổng trường; cắt sang d28 ở 456,81 s",
+     "gag": "cuối cùng vẫn phải đi",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet",
+      "brr"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Giải thích cơ chế có thật (đất băng vĩnh cửu) bằng mặt cắt nhiều lớp giấy + gag vật lý chậm: cat-giay."
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "bat_dau": 441.702,
+   "ket_thuc": 464.032,
+   "lop": "hoi-uc",
+   "boi_canh": "Cổng trường làng vẽ tay chiều tối, nhiệt kế trên cổng, vài ba lô nhỏ treo móc (không vẽ trẻ em cụ thể); bong bóng: ngôi trường ở nơi khác với vài bông tuyết lất phất; bong bóng tưởng tượng: sân trường nắng ấm có người tuyết",
+   "trang_phuc": "mũ len đỏ, khăn đỏ, ba lô, lông mi đóng băng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 441.702,
+     "loi": "",
+     "hanh_dong": "Wob đi ngang cổng trường (nối d27), chậm lại nhìn vào",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 442.142,
+     "loi": "According to Russian news reports, younger pupils in the district get the day off",
+     "hanh_dong": "Vài chiếc ba lô nhỏ treo trên móc cổng; Wob nhìn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 446.392,
+     "loi": "when it reaches around minus fifty-two.",
+     "hanh_dong": "[nhiet-ke-tut] Nhiệt kế vẽ tay trên cổng tụt, chạm vạch '≈ −52°C · −62°F' khoanh đỏ đúng 'fifty-two' (462,90 s), kèm dấu '?' nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 448.742,
+     "loi": "The exact cut-off for each age group depends on who you ask.",
+     "hanh_dong": "Dấu '?' cạnh vạch lắc lư; Wob nhún vai",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 452.342,
+     "loi": "Plenty of schools elsewhere close for a light dusting of snow.",
+     "hanh_dong": "Bong bóng: ngôi trường nơi khác, vài bông tuyết lất phất, cổng đóng; Wob nhướng mày",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 455.842,
+     "loi": "I asked whether Oymyakon has snow days.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Bong bóng: Wob đắp người tuyết giữa sân trường nắng ấm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 458.242,
+     "loi": "It does.",
+     "hanh_dong": "Bong bóng đóng băng, nứt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    },
+    {
+     "tai": 459.192,
+     "loi": "They're just extremely specific.",
+     "hanh_dong": "[giu-tinh-bo] Bong bóng vỡ rơi lả tả xuống chân Wob; Wob nhìn người xem, tỉnh bơ, giữ ~1 s",
+     "gag": "ngày nghỉ tuyết rất 'cụ thể'",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 461.292,
+     "loi": "",
+     "hanh_dong": "Không lời (476,4–479,1, khoảng lặng dôi ra sau khi lời cảnh 14 ngắn đi): Wob ngồi xổm nhặt hai mảnh bong bóng vỡ, thử ghép lại như ghép hình; hai mảnh đóng băng dính chặt vào tay; Wob vẩy tay không rơi, đứng dậy đi khỏi khung với mảnh băng dính trên tay; giữ cổng trường trống 0,5 s",
+     "gag": "ghép lại giấc mơ ngày nghỉ, dính tay",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "≈ −52°C · −62°F"
+   ],
+   "ly_do_phong_cach": "Giả định và so sánh (trường nơi khác, ngày nghỉ tuyết) + punchline: ve-tay. Con số dè dặt ('≈', '?') khớp khẳng định mức C (C29); thêm −62°F là phép đổi số học của −52°C (quyết ở phiên chính 18/11, luật chữ trên hình ghi cả °C và °F)."
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "bat_dau": 464.032,
+   "ket_thuc": 482.822,
+   "lop": "hoi-uc",
+   "boi_canh": "Trong nhà gỗ buổi tối (ngoài cửa sổ xanh đêm, tuyết; trong nhà đèn vàng ấm): bàn cạnh cửa sổ, cốc trà (teaMug), con cá dựng đứng cạnh cửa sổ, tấm bản đồ ngược, ba lô dưới sàn",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, lông mi đóng băng; ba lô dưới sàn. Cuối đoạn: ba lô phồng không đóng được (đuôi cá thò ra), Wob ngồi đè lên",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 464.032,
+     "loi": "Evening.",
+     "hanh_dong": "[day-vao-cham] Cửa sổ tối xanh, đèn vàng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 464.852,
+     "loi": "I made tea to warm up.",
+     "hanh_dong": "Wob ôm cốc trà bằng hai tay, hơi bốc lên một làn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 466.342,
+     "loi": "The tea did not warm up.",
+     "hanh_dong": "Hơi trà tắt phụt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 467.862,
+     "loi": "It grew a thin, shiny skin and gave up.",
+     "hanh_dong": "Cận cốc: mặt trà phủ lớp băng mỏng bóng; Wob gõ thìa, thìa nảy lên kêu cạch; sợi hơi cuối cùng rũ xuống",
+     "gag": "trà mọc da",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang",
+      "bonk"
+     ]
+    },
+    {
+     "tai": 470.992,
+     "loi": "I sat by the window with my scarf, my upside-down map, and a fish that was clearly handling this better than me.",
+     "hanh_dong": "Wob ngồi cạnh cửa sổ với khăn, tấm bản đồ ngược; con cá dựng đứng cạnh cửa sổ, mặt thanh thản; Wob run cầm cập",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "brr"
+     ]
+    },
+    {
+     "tai": 477.442,
+     "loi": "The fish had made peace with everything.",
+     "hanh_dong": "Cận mặt cá lim dim thanh thản, vài hạt băng lấp lánh",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 479.402,
+     "loi": "I had not.",
+     "hanh_dong": "Wob run mạnh hơn, răng đánh lập cập",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 480.382,
+     "loi": "That night, I started packing.",
+     "hanh_dong": "Wob nhét bản đồ, bàn chải vào ba lô; bọc con cá trong khăn tay kẻ ô cẩn thận; ba lô không đóng được vì đuôi cá thò ra; Wob ngồi đè lên",
+     "gag": "ba lô không đóng được",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cảnh trong nhà nhiều lớp, đồ vật có cảm xúc, Wob cầm đồ: cat-giay. Kết mùa đông trước cú cắt đổi mùa."
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama",
+   "bat_dau": 482.822,
+   "ket_thuc": 491.782,
+   "lop": "hoi-uc",
+   "boi_canh": "ngoài trời 3D, ĐÚNG bố cục, góc máy, seed của d07 (mép làng, tấm biển tên nhỏ, thung lũng như cái bát, làng xa). Phần mùa đông (~2,5 s đầu): đêm tuyết như d07. Cắt cứng ngay trước chữ 'July' sang mùa hè cùng khung: nền cỏ xanh vàng (tham số nen), nắng cao gắt, trời xanh đậm, không tuyết, không khói ống khói, hoa nhỏ ven đường, sườn núi xanh; cùng tấm biển, cùng con đường (cat-cung-doi-mua: đổi ánh sáng + nền bằng tham số, cần thêm bộ ánh sáng mùa hè).",
+   "trang_phuc": "Mùa đông: mũ len đỏ, khăn đỏ, lông mi đóng băng, vác ba lô phồng (đuôi cá thò ra). Mùa hè: Wob trùm kín áo lông dày (mũ lông, áo lông tới chân), ba lô phồng; lông mi rủ xuống như cỏ héo; mồ hôi",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 482.822,
+     "loi": "",
+     "hanh_dong": "Đêm mùa đông ở mép làng (khung d07): Wob vác ba lô phồng lạch bạch rời tấm biển, ra khỏi khung",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "buoc-tuyet"
+     ]
+    },
+    {
+     "tai": 484.072,
+     "loi": "And yet,",
+     "hanh_dong": "Khung trống, chỉ tuyết rơi và tấm biển",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 485.262,
+     "loi": "I went back in July.",
+     "hanh_dong": "[cat-cung-doi-mua] Cắt cứng cùng khung sang mùa hè; Wob bước vào khung trùm kín áo lông giữa nắng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 486.142,
+     "loi": "Partly out of stubbornness.",
+     "hanh_dong": "Wob khoanh tay, hất cằm bướng bỉnh; mồ hôi rơi",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 487.712,
+     "loi": "Mostly to see whether the village had a second personality.",
+     "hanh_dong": "[luot-smootherstep] Camera lướt qua thung lũng xanh, làng dưới nắng, vài con ngựa xa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 490.962,
+     "loi": "It does.",
+     "hanh_dong": "Camera về Wob; Wob gật đầu, giọt mồ hôi văng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OYMYAKON"
+   ],
+   "ly_do_phong_cach": "Khuôn hai-mua, thẻ cat-cung-doi-mua: ngoài trời 3D đổi ánh sáng, mặt đất bằng tham số trên cùng một khung (d07), nhảy mùa rõ bằng hình (bảng màu, nắng, Wob mặc áo lông giữa hè)."
+  },
+  {
+   "id": "d31",
+   "phong_cach": "cat-giay",
+   "bat_dau": 491.782,
+   "ket_thuc": 515.012,
+   "lop": "hoi-uc",
+   "boi_canh": "Mép làng mùa hè cắt giấy (nắng, cỏ, trời xanh đậm; cùng tấm biển, cột có đồng hồ giấy và nhiệt kế giấy như d06 nhưng giữa nắng); trang sổ có thước dài vẽ tay. Chữ (phản biện #16, khung 515): mỗi lúc chỉ MỘT nhãn mới hiện; '> 20 h' tắt trước khi 'July 2010' hiện; ba nhãn nhiệt kế ('July 2010', '+34.6°C', '+94°F') hiện lần lượt đúng chữ, gom thành một khối trên mặt nhiệt kế; nhãn nhiệt kế tắt khi sang trang sổ",
+   "trang_phuc": "Wob trùm áo lông, mũ lông, ba lô phồng; lông mi rủ như cỏ héo; mồ hôi",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 491.782,
+     "loi": "I'd just missed the long days.",
+     "hanh_dong": "Wob ngước nhìn mặt trời gắt, lấy tay che mắt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 493.702,
+     "loi": "By late June, daylight lasts more than twenty hours.",
+     "hanh_dong": "[dong-ho-troi] Đồng hồ giấy trên cột: gần như cả vòng vàng, chỉ một lát tối mỏng; nhãn '> 20 h' hiện đúng 'twenty hours' (511,18 s), tắt trước 512,4 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 497.272,
+     "loi": "In July twenty ten, the station recorded thirty-four point six degrees Celsius.",
+     "hanh_dong": "[nhiet-ke-tut] (ngược) Nhiệt kế trên cột dâng; nhãn 'July 2010' hiện đúng 'July' (512,53 s); '+34.6°C' hiện khi thuỷ ngân chạm vạch, đúng 'thirty-four' (514,97 s); Wob lau mồ hôi",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "rise",
+      "ting"
+     ]
+    },
+    {
+     "tai": 502.482,
+     "loi": "That's about ninety-four Fahrenheit.",
+     "hanh_dong": "Mặt nhiệt kế hiện thêm '+94°F' ngay dưới '+34.6°C', đúng 'ninety-four' (518,08 s) (chữ ≥ 40px)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 504.572,
+     "loi": "Put the record low and the record high side by side,",
+     "hanh_dong": "Nhãn nhiệt kế tắt; trang sổ: thước dài vẽ tay, '−67.7' hiện ở đầu trái đúng 'record low' (520,34 s), '+34.6' ở đầu phải đúng 'record high' (521,36 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 508.472,
+     "loi": "and the gap is roughly one hundred and two degrees.",
+     "hanh_dong": "Giữa thước hiện '≈ 102°C' đúng 'one hundred and two' (524,08 s)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 510.752,
+     "loi": "Very few places on Earth have record highs and lows that far apart.",
+     "hanh_dong": "Wob đứng trên trang dang hai tay từ đầu thước này tới đầu kia, không với tới, người kéo dài ra (gọi lại gag ngón tay ở d14)",
+     "gag": "tay không với tới, lần hai",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "> 20 h",
+    "July 2010",
+    "+34.6°C",
+    "+94°F",
+    "−67.7",
+    "+34.6",
+    "≈ 102°C"
+   ],
+   "ly_do_phong_cach": "Giải thích con số trên đồ vật trong bối cảnh nhiều lớp, cùng bố cục cột/biển của d06 (đối xứng hai mùa): cat-giay."
+  },
+  {
+   "id": "d32",
+   "phong_cach": "ve-tay",
+   "bat_dau": 515.012,
+   "ket_thuc": 522.822,
+   "lop": "hoi-uc",
+   "boi_canh": "Mép làng mùa hè vẽ tay, nắng gắt, cỏ",
+   "trang_phuc": "Wob trùm áo lông, mũ lông, ba lô phồng; lông mi rủ. Cuối đoạn: ném mũ lông, mở tung áo lông (vẫn khoác trên người)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 515.012,
+     "loi": "I had packed the same bag.",
+     "hanh_dong": "[chen-ve-tay] Wob mở ba lô",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 516.722,
+     "loi": "Everything in it was fur.",
+     "hanh_dong": "Đồ bay ra: áo lông, găng lông, tất lông, thêm một cục lông; giọt mồ hôi rơi xuống đất kêu xèo; lông mi rủ như cỏ héo",
+     "gag": "toàn đồ lông giữa hè",
+     "dao_cu": [],
+     "sfx": [
+      "hoi-nuoc",
+      "drop"
+     ]
+    },
+    {
+     "tai": 518.282,
+     "loi": "And for one sweaty afternoon,",
+     "hanh_dong": "Wob ném mũ lông, mở tung áo lông, dang tay đứng giữa nắng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 520.122,
+     "loi": "I wanted to move in again.",
+     "hanh_dong": "[lay-da-nhay] Nhún lấy đà, nhảy lên vì hào hứng; giữ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-vui"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag cận, cường điệu, đổi ý lần 2 của Wob: ve-tay nối chen."
+  },
+  {
+   "id": "d33",
+   "phong_cach": "cat-giay",
+   "bat_dau": 522.822,
+   "ket_thuc": 530.682,
+   "lop": "hoi-uc",
+   "boi_canh": "Đồng cỏ mùa hè cắt giấy nhiều lớp (đồi xanh xa, cỏ cao giữa, hoa gần): vài con ngựa Yakut thấp, chắc nịch, bờm dày đang gặm cỏ (vẽ đúng dáng ngựa Yakut: chân ngắn, thân tròn, lông dày). GHI LẠI cấu hình phông cho d35",
+   "trang_phuc": "Wob không mũ, áo lông mở (khoác), ba lô; lông mi rủ",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 522.822,
+     "loi": "Then I met the residents who never go inside.",
+     "hanh_dong": "[di-bo-parallax] Wob đi vào đồng cỏ, ngựa ngẩng lên nhìn rồi gặm tiếp",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "liu-lo-vui"
+     ]
+    },
+    {
+     "tai": 529.512,
+     "loi": "Yakutian horses live outdoors all year in this region, right through the winter.",
+     "hanh_dong": "Nền thoáng chuyển sang tuyết rồi về lại xanh (lướt 1 s); ngựa vẫn đứng gặm y nguyên chỗ cũ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cảnh đến đồng cỏ, nhiều lớp, đi bộ: cat-giay."
+  },
+  {
+   "id": "d34",
+   "phong_cach": "ve-tay",
+   "bat_dau": 530.682,
+   "ket_thuc": 548.862,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ phác thảo: tờ nghiên cứu vẽ tay có hình xoắn ADN; cuốn lịch vẽ tay lật ngược; con ngựa nhà nhỏ; khung mùa đông; bong bóng so sánh chiếc áo khoác",
+   "trang_phuc": "Khi Wob hiện: không mũ, áo lông mở, ba lô",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 530.682,
+     "loi": "A genetic study published in twenty fifteen",
+     "hanh_dong": "[so-do-ve-tay] Tờ nghiên cứu vẽ tay có '2015' và hình xoắn ADN",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 533.602,
+     "loi": "found that they descend from domestic horses",
+     "hanh_dong": "Cuốn lịch vẽ tay lật ngược nhanh vài trang rồi dừng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 535.262,
+     "loi": "brought here only a few centuries ago.",
+     "hanh_dong": "Một con ngựa nhà nhỏ bước ra từ trang lịch",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 537.832,
+     "loi": "They adapted to the cold remarkably fast, with compact bodies and very thick winter coats.",
+     "hanh_dong": "Khung chuyển sang mùa đông; con ngựa phồng lông lên như cuộn len, thân tròn chắc nịch",
+     "gag": "ngựa phồng như cuộn len",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 544.262,
+     "loi": "Imagine buying the right jacket,",
+     "hanh_dong": "[bong-bong-tuong-tuong] Bong bóng: Wob thử áo khoác ở cửa hàng, quá chật",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 546.382,
+     "loi": "except your body grows the jacket for you.",
+     "hanh_dong": "Lông tự mọc ra trên người Wob thành áo; Wob ngắm, hài lòng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "2015"
+   ],
+   "ly_do_phong_cach": "Sơ đồ và giả định (lịch lật, áo tự mọc): ve-tay."
+  },
+  {
+   "id": "d35",
+   "phong_cach": "cat-giay",
+   "bat_dau": 548.862,
+   "ket_thuc": 574.662,
+   "lop": "hoi-uc",
+   "boi_canh": "Cùng đồng cỏ mùa hè của d33 (cùng cấu hình phông); rồi bảng tin gỗ ở rìa làng mùa hè có tờ rơi lễ hội vẽ tay và tờ lịch tháng Bảy. Hình Chyskhaan trên tờ rơi: Chúa tể Giá lạnh vẽ chung, trang nghiêm (dáng cao, áo choàng trắng xanh đơn giản, không chi tiết trang phục, không mặt chi tiết), đứng trước một dinh thự băng nét mực; KHÔNG gag ở hình này",
+   "trang_phuc": "Wob không mũ, áo lông mở (khoác), ba lô; cầm nắm cỏ; sau đó cầm sổ du lịch",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 548.862,
+     "loi": "My only adaptation is a large backpack.",
+     "hanh_dong": "Wob đứng cạnh con ngựa, so ba lô với thân ngựa: ba lô to ngang ngựa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 551.812,
+     "loi": "I tried to make friends with one.",
+     "hanh_dong": "Wob chìa một nắm cỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 553.482,
+     "loi": "The horse kept eating.",
+     "hanh_dong": "Ngựa quay đầu gặm chỗ cỏ khác; Wob dịch theo; ngựa lại quay",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 554.852,
+     "loi": "The horse has seen tourists before.",
+     "hanh_dong": "[giu-tinh-bo] Ngựa liếc Wob một cái rồi gặm tiếp; Wob tỉnh bơ, nắm cỏ rủ xuống; giữ",
+     "gag": "ngựa thờ ơ",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 558.202,
+     "loi": "I had also missed the party.",
+     "hanh_dong": "[lia-nhoe] Lia nhoè sang bảng tin: tờ rơi 'POLE OF COLD · every spring'; Wob dán một bản vào sổ, gạch chân 'spring', liếc tờ lịch 'JULY'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh",
+      "liu-lo-buon"
+     ]
+    },
+    {
+     "tai": 559.732,
+     "loi": "Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor.",
+     "hanh_dong": "Trên tờ rơi: hình làng nhỏ, vài lá cờ không chữ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 568.082,
+     "loi": "Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence.",
+     "hanh_dong": "[day-vao-cham] Camera đẩy chậm vào hình Chyskhaan trên tờ rơi, trang nghiêm, trước dinh thự băng; không gag",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "POLE OF COLD",
+    "every spring",
+    "JULY"
+   ],
+   "ly_do_phong_cach": "Quay lại đồng cỏ của d33 (cùng phông) rồi tờ rơi trên bảng tin: cat-giay. Lễ hội chỉ qua tờ rơi (Wob đã lỡ), không vẽ người thật."
+  },
+  {
+   "id": "d36",
+   "phong_cach": "ve-tay",
+   "bat_dau": 574.662,
+   "ket_thuc": 579.832,
+   "lop": "hoi-uc",
+   "boi_canh": "Mép làng mùa hè vẽ tay, nắng gắt, cỏ",
+   "trang_phuc": "Wob không mũ, áo lông mở (khoác), ba lô",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 574.662,
+     "loi": "In twenty twenty-five, there was even a marathon here.",
+     "hanh_dong": "[chen-ve-tay] Wob ướm số áo chạy bộ '2025' lên áo lông",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 577.882,
+     "loi": "In the cold.",
+     "hanh_dong": "Wob chạy tại chỗ hai bước; số áo dính mồ hôi trượt xuống chân",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 578.882,
+     "loi": "On purpose.",
+     "hanh_dong": "Wob ngồi phịch xuống cỏ, tỉnh bơ; giữ",
+     "gag": "marathon mặc áo lông",
+     "dao_cu": [],
+     "sfx": [
+      "bonk"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "2025"
+   ],
+   "ly_do_phong_cach": "Gag chèn ngắn: ve-tay nối chen."
+  },
+  {
+   "id": "d37",
+   "phong_cach": "cat-giay",
+   "bat_dau": 579.832,
+   "ket_thuc": 594.122,
+   "lop": "hoi-uc",
+   "boi_canh": "Wob ngồi dưới bóng cây ở rìa làng mùa hè, sổ mở trên đùi; cận trang sổ cắt giấy: ba hình nhỏ (con suối bốc hơi + đàn tuần lộc nhỏ, nhiệt kế, một hàng khách mặc áo phao dạng chung không mặt chi tiết) nối bằng mũi tên",
+   "trang_phuc": "Wob không mũ, áo lông mở, ba lô; cầm bút, sổ",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 579.832,
+     "loi": "So the water brought the herders,",
+     "hanh_dong": "Cận trang sổ: hình con suối bốc hơi và đàn tuần lộc nhỏ bật lên",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 581.662,
+     "loi": "the thermometer brought the fame,",
+     "hanh_dong": "Mũi tên vẽ dần tới hình nhiệt kế đội vương miện băng nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 583.612,
+     "loi": "and now the cold itself brings visitors.",
+     "hanh_dong": "Mũi tên tới một hàng khách mặc áo phao dạng chung, giơ máy ảnh",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 586.322,
+     "loi": "A village that grew up around water that wouldn't freeze now welcomes people because of everything that does.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi khỏi trang: Wob nhìn ra thung lũng mùa hè; Wob gấp sổ; 0,5 s cuối phủ giấy phẳng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Tổng kết bằng trang sổ hành trình trong hồi ức, Wob có mặt: cat-giay; nối giay sang bàn kỷ vật (về nhà). Đưa phần này ra khỏi diorama để tỉ lệ diorama sát mục tiêu."
+  },
+  {
+   "id": "d38",
+   "phong_cach": "diorama",
+   "bat_dau": 594.122,
+   "ket_thuc": 603.492,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật 3D nhìn chéo dưới đèn bàn ấm buổi tối (api.dungBan): hộp kỷ vật mở nắp, sổ du lịch, kệ sách, ống bút; ba lô to quá cỡ dựng cạnh bàn. Thêm trên bàn: chai nước nhỏ (giờ đã tan), tờ rơi lễ hội, nhiệt kế vẽ tay (không chữ số); con dấu cao su và hộp mực; mũ trùm lông nâu đậm viền kem (mũ hè d30–d32) treo ở góc kệ; một tủ đông nhỏ đặt cạnh bàn bên trái (đạo cụ mới, dùng ở d40). Trang sổ có dòng in sẵn 'Would Wob move here?'",
+   "trang_phuc": "Không mũ, không khăn; tay không lúc đầu; cá và găng nằm trên bàn (từ d18). 613,3 s đeo găng đặt cá; 614,85 s tháo găng, từ đó tay phải cầm con dấu cao su tới hết đoạn (nối d40)",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 594.122,
+     "loi": "So here's what my desk knows now.",
+     "hanh_dong": "Từ giấy phẳng (api.lui) camera lùi từ trang sổ ra toàn bàn; Wob nhìn người xem, mấp máy theo lời; rồi xếp nhanh tờ rơi lễ hội và nhiệt kế vẽ tay thành hàng trên bàn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop",
+      "pop"
+     ]
+    },
+    {
+     "tai": 596.192,
+     "loi": "The cold was never the reason to come.",
+     "hanh_dong": "Wob đặt chai nước nhỏ (đã tan) vào giữa hàng kỷ vật, lắc cạnh tai: óc ách, Wob hài lòng (gọi lại 'For once, it sloshed'); lớp pop-up nhỏ trên sổ bật: vài nhà gỗ quanh con suối bốc hơi",
+     "gag": "chai nước óc ách",
+     "dao_cu": [
+      "chai-nuoc-nho"
+     ],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 598.192,
+     "loi": "It was the price of staying.",
+     "hanh_dong": "[day-vao-cham] Wob đeo găng lò nướng, đặt con cá cứng cạnh chai nước: cộc như gỗ; camera đẩy chậm vào cặp cá – chai nước, giữ 0,6 s",
+     "gag": "",
+     "dao_cu": [
+      "ca-dong-cung",
+      "gang-lo-nuong"
+     ],
+     "sfx": [
+      "bonk"
+     ]
+    },
+    {
+     "tai": 599.742,
+     "loi": "Would I move there?",
+     "hanh_dong": "Wob tháo găng, cầm con dấu cao su lên, hà hơi vào mặt dấu; dòng 'Would Wob move here?' trên trang sổ rõ (≥ 40 px)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 600.792,
+     "loi": "The springs are lovely.",
+     "hanh_dong": "Wob gật đầu nhìn chai nước, mỉm cười nhẹ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 602.192,
+     "loi": "The summer surprised me.",
+     "hanh_dong": "Wob liếc chiếc mũ trùm lông nâu treo ở góc kệ (mũ hè d30–d32), nhướng mày, mỉm cười; con dấu vẫn trong tay phải",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Would Wob move here?"
+   ],
+   "ly_do_phong_cach": "Khung hiện tại (về nhà, xếp kỷ vật, nêu lý do phán quyết): diorama."
+  },
+  {
+   "id": "d39",
+   "phong_cach": "ve-tay",
+   "bat_dau": 603.492,
+   "ket_thuc": 609.142,
+   "lop": "hoi-uc",
+   "boi_canh": "Hồi ức vẽ tay mùa đông: làng đêm tối, gió tuyết; rồi cận cốc trà trắng có lớp băng (gọi lại d29). Từ 623,3 s (20 giây cuối) để trống góc phải dưới (x > 1150, y > 560) cho end screen; không chữ ở góc phải trên (x > 1500, y < 150, logo)",
+   "trang_phuc": "Mũ len đỏ, khăn đỏ, lông mi đóng băng, quấn thêm chăn kẻ ca-rô",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 603.492,
+     "loi": "But the winters are long, dark and brutally cold,",
+     "hanh_dong": "[chen-ve-tay] Đêm làng tối, gió tuyết quất ngang; Wob co ro trong chăn kẻ ca-rô; đúng 'dark' (620,27 s) ô cửa sổ sáng cuối cùng trong làng tắt; đúng 'brutally cold' (620,81 s) một cơn gió giật lật mép chăn của Wob",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "brr"
+     ]
+    },
+    {
+     "tai": 606.892,
+     "loi": "and I lasted about one cup of tea.",
+     "hanh_dong": "Cận cốc trà trắng có lớp băng bóng; đúng 'tea' (623,62 s) thìa gõ 'cạch', nảy lên; Wob nhìn cốc, tỉnh bơ; giữ hình tới hết đoạn (~0,6 s)",
+     "gag": "callback cốc trà",
+     "dao_cu": [],
+     "sfx": [
+      "tach-bang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gọi lại gag hồi ức (cốc trà) làm lý do phán quyết: chèn ve-tay ngắn, rồi cắt cứng về bàn đóng dấu."
+  },
+  {
+   "id": "d40",
+   "phong_cach": "diorama",
+   "bat_dau": 609.142,
+   "ket_thuc": 628.192,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật như d38, tủ đông nhỏ cạnh bàn bên trái. Cả đoạn nằm trong 20 giây cuối (từ 623,3 s): góc phải dưới (x > 1150, y > 560) để trống cho end screen, bố trí Wob, sổ, tủ đông ở nửa trái và giữa trên; góc phải trên (x > 1500, y < 150) là logo, không đặt chữ. Lỗi bản trước (phản biện #1): mắt Wob rỗng sau con dấu; suốt đoạn mắt Wob phải đủ lòng trắng và con ngươi, nhất là khi đổi biểu cảm, nhắm mắt (630–633 s) và khi camera đổi cỡ cảnh",
+   "trang_phuc": "Không mũ, không khăn; vào đoạn tay phải cầm con dấu cao su (từ d38); 628,3 s đặt dấu xuống; 634,05 s đeo găng lò nướng cầm cá bỏ vào tủ đông; 638,3 s tháo găng, cầm nhiệt kế vẽ tay; cuối đoạn tay không",
+   "vao": "cat",
+   "ra": "cuoi-video",
+   "nhip": [
+    {
+     "tai": 609.142,
+     "loi": "My verdict is",
+     "hanh_dong": "Cắt về bàn, TRUNG CẢNH thấy trọn người Wob: Wob đứng BÊN TRÁI sổ đang mở, giơ con dấu cao trên trang có dòng 'Would Wob move here?'; tay và cán dấu đi vào trang từ phía trái, để khi nhấc lên không che chữ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 609.772,
+     "loi": "NOPE.",
+     "hanh_dong": "[rung-va-cham] Wob đóng mạnh con dấu xuống trang đúng 'NOPE' (2 khung trước 624,93 s): dấu đỏ 'NOPE' dưới dòng 'Would Wob move here?'; bàn rung, đồ trên bàn nảy nhẹ, khung rung nhẹ tắt dần. Con dấu đóng MỘT lần. Chữ ký âm thanh dau-wob chỉ ở đây",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "dau-wob"
+     ]
+    },
+    {
+     "tai": 610.142,
+     "loi": "",
+     "hanh_dong": "Wob nhấc dấu thẳng lên rồi lùi hẳn ra mép trái bàn hai bước (cả người trọn trong khung, không bị cắt nửa); [lao-vao-can-canh] camera đẩy vào cận trang sổ trong 0,5 s (smootherstep)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 610.642,
+     "loi": "That valley is for people who grew up with it,",
+     "hanh_dong": "GIỮ CẬN chữ NOPE SẠCH 625,8–628,2 s (≥ 2 s): khung chỉ có trang sổ với dòng 'Would Wob move here?' và dấu đỏ 'NOPE' (chữ NOPE cao ≥ 120 px), đặt ở nửa trái – giữa trên khung; không tay, không cán dấu, không Wob trong khung cận; mực dấu loang nhẹ trên giấy; không chữ ở x > 1150, y > 560 và x > 1500, y < 150",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 613.142,
+     "loi": "or who truly love winter:",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi về trung cảnh 628,25–629,3 (smootherstep): Wob trọn người bên trái sổ vẫn mở (dấu NOPE vẫn thấy); Wob đặt con dấu xuống bàn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 615.042,
+     "loi": "silence, clear skies, and a summer that feels earned.",
+     "hanh_dong": "Wob nhắm mắt, mỉm cười nhẹ (mắt nhắm là mí khép, KHÔNG phải mắt rỗng); đúng 'earned' (633,29 s) mở mắt, gật đầu một cái",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 618.442,
+     "loi": "",
+     "hanh_dong": "Sau khi đã giữ cận NOPE: Wob gập sổ nhẹ nhàng, vuốt bìa sổ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 618.942,
+     "loi": "The fish lives in my freezer now.",
+     "hanh_dong": "Wob đeo găng, cầm cá, mở cửa tủ đông nhỏ cạnh bàn bên trái (hơi lạnh phả ra), đặt cá vào",
+     "gag": "",
+     "dao_cu": [
+      "ca-dong-cung",
+      "gang-lo-nuong"
+     ],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 620.842,
+     "loi": "It's the warmest winter it has ever had.",
+     "hanh_dong": "Con cá trong tủ nằm thư thái như đi nghỉ, mắt lim dim, tựa vào khay đá; Wob đóng cửa tủ khoảng 637,6 s",
+     "gag": "cá đi nghỉ trong tủ đông",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 623.192,
+     "loi": "One January there, for one July.",
+     "hanh_dong": "Wob tháo găng, cầm nhiệt kế vẽ tay trên bàn (không chữ số) giơ lên như cái cân: đúng 'January' (638,51 s) thuỷ ngân tụt sát đáy, bầu xanh, nhiệt kế phủ sương; đúng 'July' (639,73 s) thuỷ ngân vọt kịch nóc đỏ, sương bốc hơi; Wob nghiêng đầu cân nhắc",
+     "gag": "một nhiệt kế, hai cực",
+     "dao_cu": [],
+     "sfx": [
+      "drop",
+      "rise"
+     ]
+    },
+    {
+     "tai": 625.392,
+     "loi": "Would you take that trade?",
+     "hanh_dong": "Wob đặt nhiệt kế xuống, quay lại nhìn thẳng người xem (mắt đủ lòng trắng, con ngươi nhìn ống kính), mấp máy theo lời, kết đúng ở chữ cuối 'trade?' (641,08–641,39 s); giữ hình tới hết 643,3 s (không mờ đen); góc phải dưới trống",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Would Wob move here?",
+    "NOPE"
+   ],
+   "ly_do_phong_cach": "Con dấu phán quyết đóng lên sổ ở khung hiện tại (luật thương hiệu + luật phối: diorama); giữ cận NOPE ≥ 2 s; outro gọi lại kỷ vật con cá và đặt câu hỏi đổi tháng Giêng lấy tháng Bảy."
+  }
+ ],
+ "an_logo": [
+  [
+   286.092,
+   288.792
+  ],
+  [
+   557.892,
+   568.292
+  ]
+ ]
+}

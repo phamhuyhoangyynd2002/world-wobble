@@ -247,3 +247,316 @@
     };
   });
 })();
+
+/* ---- Đạo cụ bàn kỷ vật bổ sung (18/11/2026, tập 1 Oymyakon bản hoạt hình trọn tập) ----
+ * Chỉ THÊM hàm, không đổi hàm cũ. Mọi đồ vật không có chữ, trừ dấu phán quyết (chữ qua api.txt, đã kiểm chu_tren_do_vat).
+ * gangLoSVG/deoGang (găng lò nướng trên tay Wob), caNamSVG (cá nằm trên bàn), chaiNuocSVG (đông/tan), toRoiSVG,
+ * butChiSVG, ongButNhoSVG, conDauSVG, hopMucSVG, dauPhanQuyetSVG, banChaiSVG, khanDoSVG, banDoGiaySVG (bản đồ đồ chơi,
+ * KHÔNG phải bản đồ thật), baLoTo (ba lô to quá cỡ 2 lớp), tuDong (tủ đông nhỏ 3D có cửa), nhaNhoSVG, truongHocSVG,
+ * tramKhiTuongSVG, khachSVG (khách dạng chung, không mặt).
+ */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+
+  DIO.mo.push(function (api) {
+    var tl = api.tl, C = api.C, sk = api.sk, fp = api.fp, INK = C.INK;
+
+    // ------------------------------------------------------------ găng lò nướng (tâm = bàn tay, ngón hướng +y)
+    api.gangLoSVG = function () {
+      return '<g class="gang-lo">' +
+        fp("M -27 -30 L 27 -30 L 25 -4 L -25 -4 Z", C.PAPER, 4) + sk("M -24 -18 L 24 -18", 3, C.MAT, ' opacity=".8"') +
+        fp("M -25 -6 C -32 22 -26 56 0 60 C 26 56 32 22 25 -6 Z", C.MAT, 5) +
+        fp("M 23 6 C 42 2 48 24 33 32 C 27 34 23 30 22 24 Z", C.MAT, 4) +
+        sk("M -16 6 L 10 32 M -20 26 L 2 48 M 0 -2 L 18 16 M -16 44 L -6 54 M 10 4 L -12 26 M 16 22 L -8 46", 2.5, INK, ' opacity=".4"') + "</g>";
+    };
+    // Đeo / tháo găng: chèn găng vào nhóm đồ cầm (vẽ đè lên đồ đang cầm), ẩn chấm bàn tay. t null = đặt ngay
+    api.deoGang = function (w, side, on, t) {
+      side = side || "L";
+      var key = "gang" + side;
+      if (!w[key]) {
+        w["hold" + side].insertAdjacentHTML("beforeend", api.gangLoSVG());
+        w[key] = w["hold" + side].lastElementChild;
+        w["handEl" + side] = w.svg.querySelector(".hand" + side);
+        gsap.set(w[key], { opacity: 0 });
+      }
+      var set = function (el, v) { if (t == null) gsap.set(el, v); else tl.set(el, v, t); };
+      set(w[key], { opacity: on ? 1 : 0 });
+      set(w["handEl" + side], { opacity: on ? 0 : 1 });
+      return w[key];
+    };
+
+    // ------------------------------------------------------------ cá nằm trên bàn (khung 320×124, neo giữa đáy). huong −1: đầu sang trái
+    api.caNamSVG = function (huong, serene) {
+      return '<g transform="translate(160 70) scale(' + (huong < 0 ? -1 : 1) + ' 1)">' + api.fishSVG("ca-nam", serene) + "</g>";
+    };
+
+    // ------------------------------------------------------------ chai nước nhỏ (khung 90×170, đáy y = 168). tan: đã tan (nước trong, óc ách)
+    // .chai-loe: quầng sáng (opacity 0); .chai-nuoc: mặt nước (tan) để lắc
+    api.chaiNuocSVG = function (tan) {
+      var s = '<circle class="chai-loe" cx="45" cy="96" r="86" fill="url(#dio-glowW)" opacity="0"/>';
+      var than = "M 34 26 L 56 26 L 56 40 C 74 50 80 62 80 80 L 80 154 C 80 164 74 168 64 168 L 26 168 C 16 168 10 164 10 154 L 10 80 C 10 62 16 50 34 40 Z";
+      if (tan) {
+        s += fp(than, "#eef7fa", 5);
+        s += '<g class="chai-nuoc"><path d="M 13 98 C 30 90 60 104 77 94 L 77 154 C 77 162 72 165 64 165 L 26 165 C 18 165 13 162 13 154 Z" fill="' + C.SEA + '" opacity=".72"/>' +
+          sk("M 14 98 C 30 90 60 104 76 94", 3, INK, ' opacity=".55"') + "</g>";
+        s += '<circle cx="34" cy="130" r="5" fill="#fff" opacity=".85"/><circle cx="54" cy="144" r="3.5" fill="#fff" opacity=".85"/><circle cx="46" cy="114" r="3" fill="#fff" opacity=".75"/>';
+      } else {
+        s += fp(than, C.ICE, 5);
+        s += '<path d="M 14 78 C 30 68 60 86 76 74 L 76 154 C 76 162 72 164 64 164 L 26 164 C 18 164 14 162 14 154 Z" fill="#ffffff" opacity=".55"/>';
+        s += sk("M 26 100 l 12 14 l -6 12 M 56 90 l -8 16 l 10 10 M 40 140 l 14 -8", 2.5, C.ICE2);
+      }
+      s += fp("M 32 6 L 58 6 L 58 26 L 32 26 Z", C.TEAL, 4);
+      if (!tan) s += fp("M 28 10 C 34 0 56 0 62 10 L 60 14 L 30 14 Z", C.FROST, 3);
+      s += sk("M 22 66 C 20 90 20 120 22 150", 5, "#ffffff", ' opacity=".7"');
+      return s;
+    };
+
+    // ------------------------------------------------------------ tờ rơi gấp ba (khung 170×120), hình mặt trời, sóng nước, dây cờ; không chữ
+    api.toRoiSVG = function () {
+      return fp("M 6 22 L 60 10 L 112 22 L 164 10 L 164 112 L 112 118 L 60 108 L 6 118 Z", C.PAPER, 5) +
+        sk("M 60 10 L 60 108 M 112 22 L 112 118", 3, INK, ' opacity=".5"') +
+        '<circle cx="34" cy="54" r="14" fill="#e7b34b" stroke="' + INK + '" stroke-width="3"/>' + sk("M 34 30 l 0 -8 M 52 40 l 6 -6 M 16 40 l -6 -6", 3) +
+        sk("M 70 64 q 8 -8 16 0 t 16 0 M 70 80 q 8 -8 16 0 t 16 0", 3.5, C.SEA) +
+        sk("M 120 40 L 158 34", 2.5) + fp("M 124 40 l 6 14 l 6 -15 Z", C.TERRA, 2) + fp("M 138 38 l 6 14 l 6 -15 Z", C.TEAL, 2) + fp("M 152 35 l 5 13 l 5 -14 Z", "#e7b34b", 2) +
+        fp("M 122 92 L 140 66 L 158 92 Z", C.SNOW, 3);
+    };
+
+    // ------------------------------------------------------------ bút chì (tâm 0,0; nằm dọc +x, dài 165), ống bút nhỏ (khung 120×170)
+    api.butChiSVG = function () {
+      return fp("M -75 -8 L 50 -8 L 50 8 L -75 8 Z", "#e7b34b", 4) + fp("M 50 -8 L 75 0 L 50 8 Z", "#e9c79a", 4) + fp("M 68 -2.5 L 75 0 L 68 2.5 Z", INK, 1) +
+        fp("M -90 -8 L -75 -8 L -75 8 L -90 8 Z", C.CHEEK, 4) + sk("M -75 -8 L -75 8", 4, "#9aa39a");
+    };
+    api.ongButNhoSVG = function () {
+      return fp("M 34 80 L 26 6 L 40 6 L 46 80 Z", C.TERRA, 4) + fp("M 70 80 L 80 18 L 94 22 L 82 80 Z", C.SEA, 4) +
+        fp("M 14 168 L 10 72 L 110 72 L 106 168 Z", C.TEAL, 6) + sk("M 14 100 L 106 100", 4, C.PAPER);
+    };
+
+    // ------------------------------------------------------------ con dấu cao su (gốc = tay cầm, thân hướng +y; đáy cao su y = 96), hộp mực (khung 170×60)
+    api.conDauSVG = function () {
+      return fp("M -11 6 L 11 6 L 14 50 L -14 50 Z", "#8a5a3b", 4) + '<circle cx="0" cy="0" r="20" fill="#9c5b3b" stroke="' + INK + '" stroke-width="5"/>' +
+        sk("M -8 -8 Q -2 -12 4 -10", 3, "#fff", ' opacity=".55"') +
+        fp("M -46 50 L 46 50 L 46 84 L -46 84 Z", "#6b4a33", 5) + sk("M -40 62 L 40 62", 3, INK, ' opacity=".35"') +
+        fp("M -48 84 L 48 84 L 46 96 L -46 96 Z", C.MAT, 4);
+    };
+    api.hopMucSVG = function () {
+      return fp("M 8 30 L 162 30 L 158 58 L 12 58 Z", "#3c4b4e", 5) + fp("M 20 22 L 150 22 L 156 32 L 14 32 Z", C.MAT, 4) + sk("M 30 27 L 140 27", 2.5, "#fff", ' opacity=".35"');
+    };
+    // Dấu phán quyết đỏ in trên trang (chuỗi svg, tâm cx, cy). chu PHẢI có trong chu_tren_do_vat. cls để bật/tắt
+    api.dauPhanQuyetSVG = function (chu, cx, cy, co, goc, cls) {
+      co = co || 80; var w = co * 3.5, h = co * 1.5, r = api.rng(77), MUC = "#a8322a"; // mực đỏ sẫm: tương phản ≥ 3:1 trên giấy dưới đèn
+      var s = '<g class="' + (cls || "dau-an") + '" transform="translate(' + cx + " " + cy + ") rotate(" + (goc == null ? -7 : goc) + ')">';
+      s += '<rect x="' + -w / 2 + '" y="' + -h / 2 + '" width="' + w + '" height="' + h + '" rx="12" fill="none" stroke="' + MUC + '" stroke-width="9"/>';
+      s += '<rect x="' + (-w / 2 + 14) + '" y="' + (-h / 2 + 14) + '" width="' + (w - 28) + '" height="' + (h - 28) + '" rx="6" fill="none" stroke="' + MUC + '" stroke-width="3.5"/>';
+      s += api.txt(0, (co * 0.35).toFixed(0), co, 900, chu, MUC, ' letter-spacing="' + (co * 0.05).toFixed(1) + '"');
+      for (var i = 0; i < 30; i++) s += '<circle cx="' + ((r() - 0.5) * w).toFixed(1) + '" cy="' + ((r() - 0.5) * h).toFixed(1) + '" r="' + (1.2 + r() * 3).toFixed(1) + '" fill="' + C.PAPER + '" opacity=".8"/>';
+      return s + "</g>";
+    };
+
+    // ------------------------------------------------------------ đồ xếp ba lô: bàn chải (tâm 0,0, dài 150), khăn đỏ (khung 160×130), bản đồ giấy đồ chơi
+    api.banChaiSVG = function () {
+      return fp("M -75 -7 C -75 -12 30 -10 40 -6 L 40 6 C 30 10 -75 12 -75 7 Z", C.TEAL, 4) +
+        fp("M 34 -10 L 74 -10 L 74 -2 L 34 -2 Z", "#ffffff", 3) + sk("M 40 -10 l 0 -14 M 48 -10 l 0 -16 M 56 -10 l 0 -16 M 64 -10 l 0 -16 M 72 -10 l 0 -14", 4, C.SEA);
+    };
+    api.khanDoSVG = function () {
+      return fp("M 10 40 C 50 20 110 20 150 40 L 146 72 C 108 56 52 56 14 72 Z", C.TERRA, 5) + fp("M 104 60 L 96 116 L 126 118 L 130 62 Z", C.TERRA, 5) +
+        sk("M 30 50 C 60 40 100 40 130 50", 4, C.PAPER, ' opacity=".9"') + sk("M 100 104 L 126 106", 4, C.PAPER) + sk("M 98 116 l -1 8 M 108 117 l 0 8 M 118 118 l 1 8", 3);
+    };
+    // Bản đồ đồ chơi 180×130 tâm (0,0): mặt trước chỉ có hình kí hiệu (núi, cây, nhà, đường chấm, dấu X, mặt trời) – không địa lý thật,
+    // không chữ; mặt sau trống. Nhóm .bd-truoc / .bd-sau (canh.js lật bằng scaleX quanh 0 và đổi opacity hai mặt).
+    api.banDoGiaySVG = function () {
+      var fr = fp("M -90 -65 L 90 -65 L 90 65 L -90 65 Z", "#f4ead2", 5) + sk("M -30 -65 L -30 65 M 30 -65 L 30 65 M -90 0 L 90 0", 2, INK, ' opacity=".25"');
+      var tr = '<g class="bd-truoc">' + fr +
+        fp("M -78 30 L -58 -6 L -38 30 Z", "#9aa39a", 3) + fp("M -64 4 L -58 -6 L -52 4 Z", C.SNOW, 2) + fp("M -48 30 L -32 2 L -16 30 Z", "#9aa39a", 3) +
+        fp("M 50 -30 L 58 -48 L 66 -30 Z", "#5E9E6A", 3) + fp("M 64 -24 L 72 -42 L 80 -24 Z", "#5E9E6A", 3) +
+        fp("M 44 34 L 44 20 L 56 12 L 68 20 L 68 34 Z", C.WOOD, 3) +
+        '<circle cx="-62" cy="-40" r="12" fill="#e7b34b" stroke="' + INK + '" stroke-width="3"/>' +
+        sk("M -20 40 C 0 20 10 -10 30 -20 C 44 -26 56 -8 70 -4", 3.5, C.MAT, ' stroke-dasharray="2 9"') + sk("M 64 -10 l 12 12 M 76 -10 l -12 12", 4, C.MAT) + "</g>";
+      return tr + '<g class="bd-sau" opacity="0">' + fp("M -90 -65 L 90 -65 L 90 65 L -90 65 Z", "#efe6cf", 5) + "</g>";
+    };
+
+    // ------------------------------------------------------------ ba lô to quá cỡ (2 lớp: sau + trước; đồ rơi vào giữa hai lớp thì khuất)
+    // Trả về { truoc, sau, mieng: {x, y, z} (giữa miệng ba lô, toạ độ thế giới) }
+    api.baLoTo = function (parent, x, y, z, o) {
+      o = o || {}; var s = o.s || 1, W = 340, H = 440;
+      var sau = api.cut(parent, W, H,
+        fp("M 44 150 C 44 92 296 92 296 150 L 296 420 L 44 420 Z", C.PACK_DARK, 6) +
+        '<ellipse cx="170" cy="128" rx="120" ry="28" fill="#3a2414" stroke="' + INK + '" stroke-width="5"/>' +
+        fp("M 56 116 C 70 26 270 26 284 116 C 240 96 100 96 56 116 Z", C.PACK, 6) + sk("M 120 70 L 120 104 M 220 70 L 220 104", 4, INK, ' opacity=".5"'),
+        { pos: { x: x, y: y, z: z - 44, scale: s }, f: api.F.AM });
+      var truoc = api.cut(parent, W, H,
+        fp("M 30 146 C 30 128 50 124 70 126 L 270 126 C 290 124 310 128 310 146 L 314 400 C 314 424 300 436 276 436 L 64 436 C 40 436 26 424 26 400 Z", C.PACK, 7) +
+        fp("M 82 250 L 258 250 L 254 370 C 254 386 244 394 228 394 L 112 394 C 96 394 86 386 86 370 Z", C.PACK_DARK, 6) +
+        sk("M 92 280 L 248 280", 4, INK, ' opacity=".5"') + fp("M 152 262 L 188 262 L 188 294 L 152 294 Z", C.PAPER2, 4) +
+        sk("M 112 128 L 104 250 M 228 128 L 236 250", 10, C.PACK_DARK) + sk("M 112 128 L 104 250 M 228 128 L 236 250", 3, INK, ' opacity=".6"') +
+        fp("M 16 404 C 16 388 34 380 60 380 L 280 380 C 306 380 324 388 324 404 C 324 422 306 436 280 436 L 60 436 C 34 436 16 422 16 404 Z", C.MAT, 6) +
+        sk("M 120 382 L 120 434 M 220 382 L 220 434", 4, INK, ' opacity=".5"') + sk("M 60 160 C 50 200 48 230 52 260", 6, "#ffffff", ' opacity=".35"'),
+        { pos: { x: x, y: y, z: z, scale: s }, f: api.F.AM });
+      return { truoc: truoc, sau: sau, mieng: { x: x, y: y - (H - 132) * s, z: z - 22 } };
+    };
+
+    // ------------------------------------------------------------ tủ đông nhỏ (hộp 3D, cửa bản lề trái mở về phía người xem)
+    // o: w, h, d. Trả về { goc, cua, ke (P trên kệ giữa, toạ độ trong tủ), keY, mo(t, d), dong(t, d), suong(t0, t1) }
+    api.tuDong = function (parent, x, y, z, o) {
+      o = o || {};
+      var W = o.w || 280, H = o.h || 320, D = o.d || 210, yc = y - H / 2;
+      var ngoai = "background:linear-gradient(90deg,#e9eff1,#cbd9df);border:6px solid " + INK + ";border-radius:12px;";
+      var trong = "background:linear-gradient(#b7dcea,#e6f4fa);border:4px solid #6fa9c2;";
+      var g = api.P(parent, { x: x, y: 0, z: z });
+      api.plane(g, { x: 0, y: yc, z: -D / 2 }, W, H, trong);
+      api.plane(g, { x: -W / 2, y: yc, z: 0, rotationY: 90 }, D, H, ngoai);
+      api.plane(g, { x: W / 2, y: yc, z: 0, rotationY: 90 }, D, H, ngoai);
+      api.plane(g, { x: -W / 2 + 9, y: yc, z: 0, rotationY: 90 }, D - 10, H - 16, trong);
+      api.plane(g, { x: W / 2 - 9, y: yc, z: 0, rotationY: 90 }, D - 10, H - 16, trong);
+      api.floorPlane(g, 0, y - H, 0, W, D, ngoai);
+      api.floorPlane(g, 0, y - H + 9, 0, W - 16, D - 10, trong);
+      api.floorPlane(g, 0, y - 10, 0, W - 16, D - 10, trong);
+      var keY = y - H * 0.42;
+      api.floorPlane(g, 0, keY, 0, W - 18, D - 12, "background:rgba(255,255,255,.55);border:4px solid #6fa9c2;");
+      [-W / 2 + 26, W / 2 - 26].forEach(function (fx) { api.plane(g, { x: fx, y: y - 4, z: D / 2 - 14 }, 30, 8, "background:" + INK + ";border-radius:3px;"); });
+      // cửa: bản lề cạnh trái mặt trước
+      var cua = api.P(g, { x: -W / 2, y: yc, z: D / 2 + 2, rotationY: 0 });
+      api.plane(cua, { x: W / 2, y: 0, z: 0 }, W - 4, H - 4, "background:linear-gradient(#dfe9ee,#c9d9e0);border:6px solid " + INK + ";border-radius:12px;box-shadow: inset 0 0 0 16px rgba(111,169,194,.35);");
+      api.plane(cua, { x: W / 2, y: 0, z: 3 }, W, H, ngoai);
+      api.cut(cua, W, H,
+        sk("M " + (W - 42) + " " + (H * 0.22) + " L " + (W - 42) + " " + (H * 0.62), 14, C.TEAL) + sk("M " + (W - 42) + " " + (H * 0.22) + " L " + (W - 42) + " " + (H * 0.62), 4, INK, ' opacity=".5"') +
+        sk("M 30 " + (H - 46) + " L " + (W - 30) + " " + (H - 46), 4, INK, ' opacity=".3"') +
+        sk("M " + W * 0.38 + " " + (H * 0.3) + " l 0 56 M " + (W * 0.38 - 24) + " " + (H * 0.3 + 28) + " l 48 0 M " + (W * 0.38 - 17) + " " + (H * 0.3 + 11) + " l 34 34 M " + (W * 0.38 + 17) + " " + (H * 0.3 + 11) + " l -34 34", 5, C.ICE2),
+        { pos: { x: 0, y: H / 2, z: 4 }, ax: 0, ay: H });
+      var ke = api.P(g, { x: 0, y: keY, z: 0 });
+      var tu = { goc: g, cua: cua, ke: ke, keY: keY, W: W, H: H, D: D, x: x, y: y, z: z };
+      tu.mo = function (t, d) { tl.fromTo(cua, { rotationY: 0 }, { rotationY: -105, duration: d || 0.5, ease: "back.out(1.4)", immediateRender: false }, t); };
+      tu.dong = function (t, d) { tl.fromTo(cua, { rotationY: -105 }, { rotationY: 0, duration: d || 0.35, ease: "power2.in", immediateRender: false }, t); };
+      tu.suong = function (t0, t1) {
+        return api.khoi(g, -W * 0.1, keY + 40, D / 2 + 20, { cao: 150, r0: 15, no: 1.6, troi: -50, n: 14, per: 1.7, loai: "hoi", t0: t0, t1: t1, seed: 61 });
+      };
+      return tu;
+    };
+
+    // ------------------------------------------------------------ lớp pop-up nhỏ: nhà, trường, trạm khí tượng, khách (dạng chung, không mặt)
+    api.nhaNhoSVG = function (w, h, o) {
+      o = o || {}; w = w || 110; h = h || 110;
+      return fp("M 10 " + h + " L 10 " + h * 0.45 + " L " + (w - 10) + " " + h * 0.45 + " L " + (w - 10) + " " + h + " Z", o.mau || C.WOOD, 4) +
+        fp("M 0 " + (h * 0.5) + " L " + w / 2 + " " + h * 0.1 + " L " + w + " " + (h * 0.5) + " Z", C.SNOW, 4) +
+        fp("M " + w * 0.36 + " " + h * 0.6 + " h " + w * 0.26 + " v " + w * 0.22 + " h " + -w * 0.26 + " Z", C.WIN, 3);
+    };
+    api.truongHocSVG = function () {
+      var s = fp("M 10 150 L 10 64 L 190 64 L 190 150 Z", "#9c5b3b", 5) + fp("M 0 68 L 100 28 L 200 68 Z", C.SNOW, 5) +
+        fp("M 86 150 L 86 108 L 114 108 L 114 150 Z", C.WOOD2, 4);
+      [24, 56, 128, 160].forEach(function (x) { s += fp("M " + x + " 80 h 22 v 20 h -22 Z", C.WIN, 3); });
+      s += sk("M 100 28 L 100 0", 4) + fp("M 100 2 L 128 8 L 100 16 Z", C.TEAL, 3);
+      return s;
+    };
+    api.tramKhiTuongSVG = function () {
+      return fp("M 30 150 L 34 70 L 40 70 L 38 150 Z M 82 150 L 84 70 L 90 70 L 94 150 Z", "#ffffff", 3) +
+        fp("M 20 30 L 104 30 L 104 76 L 20 76 Z", "#ffffff", 5) + fp("M 14 30 L 62 12 L 110 30 Z", "#ffffff", 4) +
+        sk("M 28 42 L 96 42 M 28 52 L 96 52 M 28 62 L 96 62", 3, INK, ' opacity=".5"') +
+        sk("M 140 150 L 140 6", 5) + sk("M 122 8 L 158 8 M 140 8 L 140 -4", 3) +
+        '<circle cx="122" cy="12" r="7" fill="' + C.TERRA + '" stroke="' + INK + '" stroke-width="3"/><circle cx="158" cy="12" r="7" fill="' + C.TERRA + '" stroke="' + INK + '" stroke-width="3"/>';
+    };
+    // Khách tham quan dạng chung (thân tròn, mũ len, khăn; không mặt), khung 200×150
+    api.khachSVG = function () {
+      var s = "", cols = [[C.TERRA, C.TEAL], [C.SEA, C.TERRA], [C.TEAL, "#e7b34b"]];
+      [[40, 0], [100, 8], [160, -4]].forEach(function (p, i) {
+        var x = p[0], dy = p[1];
+        s += fp("M " + (x - 26) + " 150 C " + (x - 30) + " " + (90 + dy) + " " + (x + 30) + " " + (90 + dy) + " " + (x + 26) + " 150 Z", cols[i][0], 4);
+        s += '<circle cx="' + x + '" cy="' + (78 + dy) + '" r="20" fill="#f1d9b8" stroke="' + INK + '" stroke-width="4"/>';
+        s += fp("M " + (x - 21) + " " + (76 + dy) + " C " + (x - 20) + " " + (50 + dy) + " " + (x + 20) + " " + (50 + dy) + " " + (x + 21) + " " + (76 + dy) + " Z", cols[i][1], 4);
+        s += sk("M " + (x - 20) + " " + (100 + dy) + " L " + (x + 20) + " " + (100 + dy), 7, cols[i][1]);
+      });
+      return s;
+    };
+  });
+})();
+
+/* ---- Mắt nhắm có nét mí, không bao giờ "mắt rỗng" (19/11/2026, phản biện tập 1 vòng 1 + 2) ----
+ * Nguyên nhân: mí của rig (dio-wob.js) là mảng màu thân phủ dần từ trên xuống; khi mí ≥ ~0,85 lòng trắng biến mất mà viền mắt
+ * vẫn còn, không có nét mí → hai vòng rỗng. Nháy nhanh cũng lướt qua trạng thái này 2–4 khung.
+ * Sửa (bật riêng cho từng Wob bằng api.matKhongRong(w), Wob khác giữ nguyên hành vi cũ): mí không bao giờ khép quá NGUONG (0,8:
+ * còn một dải lòng trắng + mép mí); đúng khung mí chạm NGUONG thì ẩn hẳn nhóm mắt, hiện nét mí (đổi bằng tl.set, không mờ dần);
+ * mở mắt thì bỏ nét mí ngay khung đầu rồi mí đi từ NGUONG lên. api.lids, api.lidsSet, api.blink được bọc: Wob chưa bật thì gọi
+ * hàm gốc. api.nhamMat / api.moMat / api.nhayCham tự bật.
+ */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+  DIO.mo.push(function (api) {
+    var tl = api.tl, C = api.C, NGUONG = 0.8;
+    var goc = { lids: api.lids, lidsSet: api.lidsSet, blink: api.blink };
+    function nep(w) {
+      if (!w.matNham) {
+        var s = function (d) { return api.sk(d, 6, C.INK); };
+        w.face.insertAdjacentHTML("beforeend", '<g class="mat-nham" opacity="0"><g class="mn-cuoi" opacity="0">' +
+          s("M 137 156 Q 160 174 183 156") + s("M 215 156 Q 238 174 261 156") + '</g><g class="mn-thang">' +
+          s("M 138 162 Q 160 166 182 162") + s("M 216 162 Q 238 166 260 162") + "</g></g>");
+        w.matNham = w.face.querySelector(".mat-nham");
+        w.matNhamCuoi = w.matNham.querySelector(".mn-cuoi");
+        w.matNhamThang = w.matNham.querySelector(".mn-thang");
+        w.matGroups = [w.svg.querySelector(".eyeL"), w.svg.querySelector(".eyeR")];
+        w.lidThat = w.lid || 0;
+      }
+    }
+    // đổi sang nét mí (on) / về mắt thường tại t (t null = đặt ngay); kieu "cuoi" | "thang"
+    function doi(w, t, on, kieu) {
+      var a = [[w.matGroups, { opacity: on ? 0 : 1 }], [w.matNham, { opacity: on ? 1 : 0 }]];
+      if (on) { var cuoi = kieu === "cuoi"; a.push([w.matNhamCuoi, { opacity: cuoi ? 1 : 0 }], [w.matNhamThang, { opacity: cuoi ? 0 : 1 }]); }
+      a.forEach(function (x) { if (t == null) gsap.set(x[0], x[1]); else tl.set(x[0], x[1], t); });
+    }
+    api.matKhongRong = function (w) { nep(w); w.khongRong = true; w.lidThat = w.lid || 0; };
+    api.lidsSet = function (w, v, t) {
+      if (!w.khongRong) return goc.lidsSet(w, v, t);
+      goc.lidsSet(w, Math.min(v, NGUONG), t); doi(w, t, v > NGUONG, w.kieuMi);
+      w.lidThat = v; w.lid = v;
+    };
+    api.lids = function (w, t, v, d) {
+      if (!w.khongRong) return goc.lids(w, t, v, d);
+      d = d || 0.15;
+      var dong = w.lidThat > NGUONG;
+      if (dong) doi(w, t, false); // đang nhắm → bỏ nét mí ngay, mí đi từ NGUONG
+      tl.to([w.lidL, w.lidR], { scaleY: Math.min(v, NGUONG), duration: d, ease: "power2.inOut" }, t);
+      if (v > NGUONG) doi(w, t + d, true, w.kieuMi);
+      w.lidThat = v; w.lid = v;
+    };
+    // Nháy: khép tới NGUONG, hiện nét mí ≥ 1 khung (chậm: 0,12 s), bỏ nét mí, mở về nền
+    api.blink = function (w, t, base, cham) {
+      if (!w.khongRong) return goc.blink(w, t, base, cham);
+      var b = base == null ? w.lidThat : base, k = cham ? 3 : 1, giu = cham ? 0.12 : 1.5 / api.fps;
+      if (b > NGUONG) return;
+      tl.fromTo([w.lidL, w.lidR], { scaleY: b }, { scaleY: NGUONG, duration: 0.06 * k, ease: "power1.in", immediateRender: false }, t);
+      doi(w, t + 0.06 * k, true, "thang");
+      doi(w, t + 0.06 * k + giu, false);
+      tl.fromTo([w.lidL, w.lidR], { scaleY: NGUONG }, { scaleY: b, duration: 0.09 * k, ease: "power1.out", immediateRender: false }, t + 0.06 * k + giu);
+    };
+    // Nhắm mắt trong d giây từ t. o.kieu: "cuoi" (mặc định, mí cong mỉm cười) | "thang" (nghiêm)
+    api.nhamMat = function (w, t, d, o) {
+      o = o || {}; api.matKhongRong(w);
+      w.kieuMi = o.kieu === "thang" ? "thang" : "cuoi";
+      api.lids(w, t, 1, d || 0.3);
+    };
+    // Mở mắt về mí `nen` (0 mở hẳn, 0.5 tỉnh bơ)
+    api.moMat = function (w, t, d, nen) { api.matKhongRong(w); api.lids(w, t, nen || 0, d || 0.3); w.kieuMi = null; };
+    // Nháy mắt chậm (thay api.blink(w, t, nen, true))
+    api.nhayCham = function (w, t, nen) { api.matKhongRong(w); api.blink(w, t, nen, true); };
+  });
+})();
+
+/* ---- Mũ hè trùm lông (19/11/2026): mũ trùm lông nâu đậm viền kem, khung 220×190, quai treo ở đỉnh (110, 8) ---- */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+  DIO.mo.push(function (api) {
+    var C = api.C, sk = api.sk, fp = api.fp, INK = C.INK;
+    api.muLongSVG = function () {
+      var s = sk("M 110 8 L 110 30", 3) + '<circle cx="110" cy="8" r="6" fill="none" stroke="' + INK + '" stroke-width="3"/>';
+      s += fp("M 40 120 C 34 60 70 30 110 30 C 150 30 186 60 180 120 Z", "#4a2e1f", 6);
+      s += fp("M 44 112 L 30 176 C 46 184 62 180 70 170 L 74 116 Z", "#4a2e1f", 5) + fp("M 176 112 L 190 176 C 174 184 158 180 150 170 L 146 116 Z", "#4a2e1f", 5);
+      s += sk("M 70 60 l 6 10 M 96 46 l 4 12 M 126 46 l -2 12 M 150 60 l -6 10 M 84 84 l 4 10 M 136 84 l -4 10", 3, "#7a5238");
+      s += fp(api.lumpy(30, 190, 118, -14, 9, 21) + " L 190 134 " + api.lumpy(190, 30, 134, 12, 9, 22).replace(/^M [\d.\-]+ [\d.\-]+/, "") + " Z", "#efe3c8", 4);
+      s += fp(api.lumpy(28, 72, 172, 10, 3, 23) + " L 72 186 L 28 186 Z", "#efe3c8", 3) + fp(api.lumpy(148, 192, 172, 10, 3, 24) + " L 192 186 L 148 186 Z", "#efe3c8", 3);
+      return s;
+    };
+  });
+})();

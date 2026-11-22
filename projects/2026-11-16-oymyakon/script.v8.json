@@ -1,0 +1,1414 @@
+{
+  "title": "Why Would Anyone Live in Oymyakon? I Tried.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Oymyakon",
+    "country": "Russia",
+    "lat": 63.46,
+    "lon": 142.79
+  },
+  "question": "Why do people live in Oymyakon?",
+  "message": "This video tells curious adults that the coldest village on Earth grew around water that would not freeze, and that the cold was the price of staying, not the reason to come.",
+  "angle": "People live in Oymyakon because reindeer herders stopped at warm springs that stayed open all winter and that stopping place grew into a village a Soviet weather station later made famous, despite January averages around minus forty-six Celsius and only about four and a half hours of December sun.",
+  "hook_type": "ky-vat",
+  "target_seconds": [
+    600,
+    900
+  ],
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "The Fish in My Freezer",
+      "lop": "hien-tai",
+      "role": "hook: kỷ vật lạ (con cá đông cứng) + con số + câu hỏi trung tâm",
+      "narration": "This is a fish. I bought it in Oymyakon, often called the coldest permanently inhabited place on Earth. Roughly five hundred people live there. Why would anyone choose that?",
+      "pronunciation": "Oymyakon: oy-myah-KON",
+      "y_hinh": [
+        {
+          "cue": "This is a fish",
+          "y": "Bàn kỷ vật buổi tối: hộp kỷ vật mở, sổ du lịch. Wob đeo găng lò nướng giơ một con cá đông cứng phủ sương vừa lấy ra, cá thẳng như tấm ván",
+          "gag": "Wob gõ con cá vào mép bàn, kêu cộc như gõ gỗ; giữ hình tỉnh bơ"
+        },
+        {
+          "cue": "Roughly five hundred people",
+          "y": "Trang sổ mở cạnh cá: hình vẽ tay biển tên làng 'OYMYAKON ~500'"
+        },
+        {
+          "cue": "Why would anyone choose that",
+          "y": "Wob nhìn thẳng người xem, cá vẫn giơ trên tay, giữ hình"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is a fish",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa + Wob muốn chuyển tới sống (mở vòng 'Would I move there?')",
+      "narration": "I didn't go as a tourist. I went to move in. I packed a toothbrush, a scarf, and a paper map. The map was upside down for most of the trip. My plan was simple. Find the chilliest village anyone has heard of, live there, and get famous for being cold. By the end of the trip, I knew why people really live there. It isn't the cold. It's something that refused to be cold. I also knew whether I was unpacking.",
+      "y_hinh": [
+        {
+          "cue": "I went to move in",
+          "y": "Wob lật trang đầu sổ: chữ viết tay 'PLAN: MOVE IN' gạch chân hai lần"
+        },
+        {
+          "cue": "I packed a toothbrush",
+          "y": "Ba món lần lượt rơi vào ba lô to quá cỡ: bàn chải, khăn quàng, tấm bản đồ giấy",
+          "gag": "Wob mở bản đồ, thấy ngược, xoay lại một vòng; bản đồ vẫn ngược"
+        },
+        {
+          "cue": "get famous for being cold",
+          "y": "Bong bóng tưởng tượng vẽ tay: Wob trên bìa tạp chí, đội vương miện băng"
+        },
+        {
+          "cue": "something that refused to be cold",
+          "y": "Wob chạm vào một chai nước nhỏ trong hộp kỷ vật (sẽ quay lại ở chương suối), không giải thích"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went to move in",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I packed a toothbrush",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "get famous for being cold",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "Getting There",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 1: lên đường; bản đồ hành trình, máy bay rồi đường xa",
+      "narration": "Getting there took a while. I opened my journal to a blank map and drew the route. First a plane. Then a very long drive. Then more of the drive. On paper, it's one short dotted line. In real life, the dotted line has opinions. My backpack didn't fit under the seat, so it sat on my lap, and I sat under it. Outside the window, snow went by. Then more snow. Then a very small sign.",
+      "shots": [
+        {
+          "show": "asset:map-globe",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.7,
+            0.4
+          ]
+        },
+        {
+          "show": "asset:map-yakutia",
+          "cue": "drew the route",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.55,
+            0.52
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "drew the route",
+          "y": "Trang sổ là bản đồ (map-globe rồi map-yakutia); bút của Wob vẽ đường nét đứt từ mép trang tới chấm Oymyakon. Không ghi tên đường, không số km"
+        },
+        {
+          "cue": "First a plane",
+          "y": "Máy bay giấy nhỏ chạy theo nét đứt rồi biến thành một chiếc xe hộp nhỏ"
+        },
+        {
+          "cue": "the dotted line has opinions",
+          "y": "Nét đứt kéo dài ra mép trang, Wob phải lật sang trang sau để vẽ tiếp",
+          "gag": "Xe chạy hết trang, rơi sang trang mới, vẫn chưa tới"
+        },
+        {
+          "cue": "I sat under it",
+          "y": "Trong máy bay: ba lô to hơn cả ghế, đè Wob bẹp xuống, chỉ thấy đôi giày đỏ",
+          "gag": "Quy mô: ba lô chiếm trọn hàng ghế, Wob ló mắt ra từ dưới"
+        },
+        {
+          "cue": "Then a very small sign",
+          "y": "Cửa xe: tuyết trôi qua, trôi qua, rồi một tấm biển tên làng bé tí"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Getting there took a while",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I sat under it",
+          "bieu_cam": "soc"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tới nơi giữa mùa đông: ngày ngắn, tháng Giêng, lông mi đóng băng",
+      "narration": "I arrived in late December. Around then, the sun is up for only about four and a half hours a day. I arrived during one of the hours it wasn't. January averages around minus forty-six Celsius. That's about minus fifty-one Fahrenheit. The sign at the edge of the village was very small. So was the village. I stepped out to take a photo of the sign. My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off.",
+      "y_hinh": [
+        {
+          "cue": "about four and a half hours a day",
+          "y": "Đồng hồ vẽ tay trên trang sổ: một lát vàng mỏng giữa vòng tối, ghi '~4.5 h sun'"
+        },
+        {
+          "cue": "one of the hours it wasn't",
+          "y": "Wob bước xuống xe vào bóng tối hoàn toàn, chỉ thấy đôi mắt",
+          "gag": "Wob bật đèn pin; đèn pin rọi đúng vào mặt chính Wob"
+        },
+        {
+          "cue": "around minus forty-six Celsius",
+          "y": "Nhiệt kế treo cột cạnh biển tên, vạch '−46°C · −51°F (JAN avg)' viết tay"
+        },
+        {
+          "cue": "My eyelashes froze",
+          "y": "Cận mặt Wob: hai hàng lông mi bé xíu mọc ra rồi đóng băng thành que",
+          "gag": "Take chậm: lông mi đóng băng, Wob lác mắt nhìn lên, dừng một nhịp, rồi mới hoảng"
+        },
+        {
+          "cue": "switched itself off",
+          "y": "Máy ảnh trong tay Wob phụt một làn khói nhỏ, màn hình tắt ngấm; giữ hình"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I arrived in late December",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "My eyelashes froze",
+          "bieu_cam": "soc"
+        }
+      ],
+      "music_mood": "khac-nghiet"
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "The Water That Wouldn't Freeze",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2 mở: Wob đoán vì sao có làng ở đây, đoán sai",
+      "narration": "Standing by that tiny sign, I had a question. Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong.",
+      "y_hinh": [
+        {
+          "cue": "I had guesses",
+          "y": "Chèn vẽ tay: bảng đoán ba ô trên trang sổ, Wob cầm bút chỉ từng ô"
+        },
+        {
+          "cue": "It was dark",
+          "y": "Ô một: khung cửa sổ đen kịt, chỉ có đôi mắt Wob"
+        },
+        {
+          "cue": "The river tapped back",
+          "y": "Wob gõ que xuống mặt sông băng",
+          "gag": "Que gõ kêu 'cộc', mặt sông không suy suyển; que gãy đôi"
+        },
+        {
+          "cue": "My third guess was wrong",
+          "y": "Wob gật gù trước ô ba; một dấu X đỏ to đóng lên ô",
+          "gag": "Dấu X đóng mạnh tới mức Wob bật ngửa"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I had guesses",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My third guess was wrong",
+          "bieu_cam": "soc"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "lật: tên làng (dè dặt) và suối không đóng băng",
+      "narration": "Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down.",
+      "pronunciation": "Oymyakon: oy-myah-KON; Even: eh-VEN; Sakha: SAH-khah",
+      "y_hinh": [
+        {
+          "cue": "water that does not freeze",
+          "y": "Trang sổ: chữ viết tay 'OYMYAKON = water that does not freeze?' có dấu hỏi to"
+        },
+        {
+          "cue": "Some sources trace the word",
+          "y": "Hai mũi tên vẽ tay từ chữ OYMYAKON chĩa về hai phía, ghi 'Even?' và 'Sakha?'"
+        },
+        {
+          "cue": "warm springs",
+          "y": "Thung lũng tuyết, một dòng nước nhỏ không đóng băng bốc hơi giữa bờ băng"
+        },
+        {
+          "cue": "I walked past it twice",
+          "y": "Wob đi ngang qua con suối bốc hơi, mắt dán vào bản đồ",
+          "gag": "Ba lần, lần ba lệch: Wob đi qua hai lần không thấy; lần ba hơi nước phủ kín mặt Wob, Wob mới nhìn xuống"
+        },
+        {
+          "cue": "My map was upside down",
+          "y": "Cận bản đồ trong tay Wob, ngược; giữ hình"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Turns out",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I walked past it twice",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế thật: người chăn tuần lộc dừng ở suối, điểm dừng thành làng",
+      "narration": "Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty. Reindeer herders stopped at the springs to water their animals and rest before long journeys. If you move reindeer across a frozen landscape, open water isn't a curiosity. It's the whole point. A stopping place became a regular camp. Over time, the camp grew into a permanent village. So the village didn't appear despite the cold. It appeared because, in the middle of all that cold, something refused to freeze. I dipped my water bottle into the spring. For once, it sloshed.",
+      "y_hinh": [
+        {
+          "cue": "a single gas station",
+          "y": "Bong bóng tưởng tượng vẽ tay: một trạm xăng sáng đèn giữa bão tuyết, đường trống hai bên"
+        },
+        {
+          "cue": "Reindeer herders stopped at the springs",
+          "y": "Chèn vẽ tay tông sepia, rõ là hình dung quá khứ: vài người que chung chung dắt đàn tuần lộc tới con suối bốc hơi; không mặt, không trang phục cụ thể"
+        },
+        {
+          "cue": "the camp grew into a permanent village",
+          "y": "Tua nhanh trên cùng khung: một lều, vài lều, rồi những ngôi nhà gỗ thấp mọc quanh con suối"
+        },
+        {
+          "cue": "something refused to freeze",
+          "y": "Hiện tại của chuyến đi: con suối vẫn bốc hơi giữa thung lũng trắng; Wob ngồi xổm bên bờ"
+        },
+        {
+          "cue": "it sloshed",
+          "y": "Wob nhúng chai nước đông cứng xuống suối, lắc lắc",
+          "gag": "Chai óc ách lần đầu; Wob ôm chai vào lòng như ôm thú cưng, mắt rưng rưng"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Reindeer herders stopped",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "it sloshed",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "Two Villages, One Thermometer",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 3: Wob thử đứng ở chỗ lạnh nhất; đài Pole of Cold, kỷ lục 1933, Verkhoyansk",
+      "narration": "Next, I went to find the chilliest spot in town. That was the whole point of the move. Oymyakon has a monument for it, the Pole of Cold, so I stood next to it and tried to look famous. Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers. I decided Verkhoyansk could keep its half.",
+      "pronunciation": "Oymyakon: oy-myah-KON; Verkhoyansk: vyer-khah-YANSK",
+      "shots": [
+        {
+          "show": "asset:map-yakutia",
+          "cue": "Far to the northwest",
+          "move": "zoom-out",
+          "zoom": 1.2,
+          "focus": [
+            0.5,
+            0.45
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "tried to look famous",
+          "y": "Wob tạo dáng cạnh đài tưởng niệm 'POLE OF COLD' (vẽ chung, tối giản)",
+          "gag": "Sương giá đọng thành một vương miện băng nhỏ trên đầu Wob; Wob giữ dáng, run nhẹ"
+        },
+        {
+          "cue": "nineteen thirty-three",
+          "y": "Trang sổ: Wob viết tay '6 Feb 1933'"
+        },
+        {
+          "cue": "minus sixty-seven point seven",
+          "y": "Wob viết '−67.7°C', gạch, viết '−67.8°C', gạch, rồi viết '≈ −68°C · −90°F'",
+          "gag": "Wob gạch nhiều tới mức trang sổ thủng một lỗ"
+        },
+        {
+          "cue": "Far to the northwest",
+          "y": "Bản đồ trang sổ (map-yakutia), chấm Verkhoyansk ở phía tây bắc"
+        },
+        {
+          "cue": "I measured the distance on my map with my fingers",
+          "y": "Hai ngón tay Wob dang ra trên bản đồ, không với tới; Wob gấp sổ lại"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "tried to look famous",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Well. Almost.",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "could keep its half",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cú lật: trạm đo nằm giữa Oymyakon và Tomtor; trạm và sân bay thời Xô viết",
+      "narration": "Then it got complicated. The weather station behind that famous number isn't in Oymyakon itself. It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield. The station and the airfield both date from the Soviet era. Some sources argue that Tomtor, not Oymyakon, is the real Pole of Cold. Oymyakon, meanwhile, has the official monument. So a village got famous partly because someone finally put a thermometer nearby. Thermometers are very good at making places famous. I went to the station. Then back to the monument. Then I tried standing exactly halfway, so I could live in both. Halfway turned out to be mostly frozen road.",
+      "pronunciation": "Oymyakon: oy-myah-KON; Tomtor: tom-TOR",
+      "shots": [
+        {
+          "show": "asset:map-tomtor",
+          "cue": "a neighbouring village called Tomtor",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.48,
+            0.4
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "a neighbouring village called Tomtor",
+          "y": "Bản đồ trang sổ (map-tomtor): hai chấm Oymyakon và Tomtor, một nhiệt kế vẽ tay nằm giữa"
+        },
+        {
+          "cue": "Soviet era",
+          "y": "Hình vẽ tay một trạm khí tượng nhỏ và một đường băng ngắn, tông giấy cũ"
+        },
+        {
+          "cue": "the official monument",
+          "y": "Hai tấm biển làng đứng hai bên khung, một tấm có đài tưởng niệm, một tấm có nhiệt kế"
+        },
+        {
+          "cue": "I went to the station",
+          "y": "Wob lạch bạch giữa hai tấm biển",
+          "gag": "Ba lần, lần ba lệch: đi qua, đi lại, lần ba dừng giữa đường thì trượt chân, xoay tròn trên mặt băng"
+        },
+        {
+          "cue": "mostly frozen road",
+          "y": "Wob nằm ngửa giữa con đường băng, ba lô làm gối; giữ hình"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then it got complicated",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I went to the station",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "mostly frozen road",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "hiểu ra: vì sao lạnh vậy (áp cao Siberia, thung lũng như cái bát)",
+      "narration": "Lying on that road, I finally asked a better question. Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out. Up there it's warmer. Up there it's also a mountain. I stayed in the bowl.",
+      "y_hinh": [
+        {
+          "cue": "Arctic Circle",
+          "y": "Trang sổ: Wob kẻ một vòng nét đứt 'Arctic Circle' phía trên chấm làng; chấm làng nằm dưới vòng"
+        },
+        {
+          "cue": "Siberian High",
+          "y": "Sơ đồ vẽ tay: một chiếc nắp trong suốt to úp lên vùng đất, trời trong, các mũi tên hơi ấm bay thẳng lên khỏi mặt đất"
+        },
+        {
+          "cue": "like water in a bowl",
+          "y": "Sơ đồ vẽ tay: thung lũng thành một cái bát, khí lạnh màu xanh chảy xuống đáy như nước; làng nhỏ xíu nằm dưới đáy"
+        },
+        {
+          "cue": "far warmer in winter than the valley floor",
+          "y": "Cùng sơ đồ: nhiệt kế nhỏ trên sườn núi đỏ hơn nhiệt kế dưới đáy bát"
+        },
+        {
+          "cue": "I thought about climbing out",
+          "y": "Wob leo lên sườn bát, tới lưng chừng, ngẩng nhìn ngọn núi cao vút",
+          "gag": "Wob ngồi lên ba lô, trượt tuột về đáy bát như đi xe trượt; giữ hình tỉnh bơ"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "a better question",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I thought about climbing out",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I stayed in the bowl",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "chapter": "The Road Built by Prisoners",
+      "lop": "hien-tai",
+      "khuon": "lich-su-nghiem",
+      "role": "lịch sử nghiêm túc: Gulag Kolyma và đường Kolyma; không gag",
+      "narration": "I'm going to put the fish down for this part. The same era brought something much darker to this region. In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold. Prisoners began building the Kolyma Highway in the early nineteen thirties, and forced labour continued on it into the nineteen fifties. Many of them did not survive. The village's story begins with the springs. But the highway that crosses this region was built by people who had no choice.",
+      "pronunciation": "Kolyma: koh-lee-MAH",
+      "shots": [
+        {
+          "show": "asset:map-kolyma",
+          "cue": "across the Kolyma region",
+          "move": "still"
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "put the fish down",
+          "y": "Wob đặt con cá xuống bàn, tháo găng, ngồi thẳng; ánh đèn bàn dịu xuống"
+        },
+        {
+          "cue": "across the Kolyma region",
+          "y": "Trang sổ bản đồ (map-kolyma), tông trầm; camera lui chậm, im lặng"
+        },
+        {
+          "cue": "Many of them did not survive",
+          "y": "Giữ hình trang sổ trống, không chữ, không đạo cụ chuyển động"
+        },
+        {
+          "cue": "people who had no choice",
+          "y": "Wob gấp trang sổ lại thật chậm, đặt tay lên bìa"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "put the fish down",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "khac-nghiet"
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "chapter": "A Day Inside the Freezer",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 5 mở: một ngày ở làng; buổi sáng, chiếc xe nổ máy không người",
+      "narration": "Back in the village, I tried to get through one ordinary day. Morning. Still dark. Outside, a car sat in the street with its engine running and nobody in it. Cars are often left running for hours, or warmed with a fire before starting, because a frozen engine may refuse to start at all. Think of your car on a winter morning. Now imagine the winter never gives back the keys. I patted the car on the hood, like a horse. The car kept running. It had places to be.",
+      "y_hinh": [
+        {
+          "cue": "Morning. Still dark.",
+          "y": "Đồng hồ vẽ tay ở góc sổ chỉ buổi sáng; cửa sổ vẫn tối, Wob quấn khăn bước ra"
+        },
+        {
+          "cue": "nobody in it",
+          "y": "Một chiếc xe hộp nhỏ đứng một mình giữa phố tuyết, ống xả phụt từng cụm khói trắng, ghế lái trống"
+        },
+        {
+          "cue": "warmed with a fire",
+          "y": "Chèn vẽ tay: một đống lửa nhỏ dưới gầm một chiếc xe khác, hơi nóng uốn lượn"
+        },
+        {
+          "cue": "I patted the car on the hood",
+          "y": "Wob vỗ nắp capo như vỗ cổ ngựa",
+          "gag": "Xe rung rung như ngựa khịt mũi; một cụm khói ống xả thổi tung khăn quàng của Wob"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "one ordinary day",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It had places to be",
+          "bieu_cam": "lanh-run"
+        }
+      ],
+      "music_mood": "hai"
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "buổi trưa: chợ, cá đông cứng xếp như củi; cả làng là tủ đông",
+      "narration": "Midday, I went to the market. Food here comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible. I asked for a bag. The fish did not need a bag. The fish could stand up on its own. That's when it clicked. In winter, the village itself is the freezer. I carried my fish home on my shoulder, like a plank. Yes. This fish.",
+      "y_hinh": [
+        {
+          "cue": "stacked like firewood",
+          "y": "Cận một con cá đông cứng, camera lùi ra: một chồng cá xếp như củi, rồi cả quầy chợ"
+        },
+        {
+          "cue": "I asked for a bag",
+          "y": "Wob chìa cái túi nhỏ; một bàn tay đeo găng (không thấy mặt) đưa ra con cá cứng đờ",
+          "gag": "Đạo cụ có cảm xúc: con cá đứng thẳng trên quầy, vẻ mặt thanh thản; đuôi cá chọc thủng túi"
+        },
+        {
+          "cue": "the village itself is the freezer",
+          "y": "Camera lùi tiếp ra toàn cảnh: cả làng nhỏ xíu trong một cái tủ đông vẽ nét mực, cửa tủ mở hơi lạnh"
+        },
+        {
+          "cue": "like a plank",
+          "y": "Wob vác con cá trên vai như vác tấm ván đi giữa phố",
+          "gag": "Wob quay người, đuôi cá quét ngang suýt trúng cột đèn"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I asked for a bag",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "That's when it clicked",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "buổi chiều: đất băng vĩnh cửu, nhà vệ sinh ngoài trời; trường nghỉ ở khoảng −52°C (dè dặt)",
+      "narration": "Afternoon. I needed a bathroom. Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets. I looked at the path to the outhouse for a long time. I made a decision. I waited. On the way back, I passed the school. According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two. The exact cut-off for each age group depends on who you ask. Plenty of schools elsewhere close for a light dusting of snow. I asked whether Oymyakon has snow days. It does. They're just extremely specific.",
+      "y_hinh": [
+        {
+          "cue": "permafrost",
+          "y": "Cắt ngang mặt đất vẽ tay: lớp đất trên mỏng, bên dưới là khối băng xanh; một ống nước nhỏ đông cứng thành que kem"
+        },
+        {
+          "cue": "outdoor toilets",
+          "y": "Một chòi gỗ nhỏ cuối con đường tuyết sau ngôi nhà"
+        },
+        {
+          "cue": "I looked at the path to the outhouse",
+          "y": "Wob đứng ở bậc cửa nhìn ra con đường",
+          "gag": "Con đường dài ra như ống kính zoom ngược, chòi gỗ lùi xa dần; Wob lặng lẽ đóng cửa"
+        },
+        {
+          "cue": "around minus fifty-two",
+          "y": "Cổng trường, một nhiệt kế vẽ tay có vạch '≈ −52°C' khoanh đỏ và dấu hỏi nhỏ"
+        },
+        {
+          "cue": "I asked whether Oymyakon has snow days",
+          "y": "Bong bóng tưởng tượng: Wob đắp người tuyết giữa sân trường nắng ấm",
+          "gag": "Bong bóng đóng băng nứt vỡ, rơi lả tả xuống chân Wob"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I needed a bathroom",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "I made a decision",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "extremely specific",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "buổi tối: cốc trà nguội, Wob đổi ý lần 1 (xếp đồ)",
+      "narration": "Evening. I made tea to warm up. The tea did not warm up. It grew a thin, shiny skin and gave up. I sat by the window with my scarf, my upside-down map, and a fish that was clearly handling this better than me. The fish had made peace with everything. I had not. That night, I started packing.",
+      "y_hinh": [
+        {
+          "cue": "I made tea to warm up",
+          "y": "Wob ôm cốc trà bằng hai tay, hơi bốc lên một làn rồi tắt"
+        },
+        {
+          "cue": "a thin, shiny skin",
+          "y": "Cận cốc trà: mặt trà phủ một lớp băng mỏng bóng loáng",
+          "gag": "Wob gõ thìa lên mặt trà, thìa nảy lên kêu 'cạch'"
+        },
+        {
+          "cue": "a fish that was clearly handling this better than me",
+          "y": "Con cá dựng cạnh cửa sổ, mặt thanh thản; Wob run cầm cập bên cạnh"
+        },
+        {
+          "cue": "I started packing",
+          "y": "Wob nhét khăn, bàn chải, bản đồ vào ba lô; con cá được bọc khăn cẩn thận",
+          "gag": "Ba lô không đóng được vì đuôi cá thò ra; Wob ngồi đè lên"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The tea did not warm up",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "I started packing",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "section",
+      "chapter": "I Went Back in July",
+      "lop": "hoi-uc",
+      "khuon": "hai-mua",
+      "role": "chương 6: quay lại tháng Bảy; kỷ lục nóng 2010, biên độ ~102 độ; Wob đổi ý lần 2",
+      "narration": "And yet, I went back in July. Partly out of stubbornness. Mostly to see whether the village had a second personality. It does. I'd just missed the long days. By late June, daylight lasts more than twenty hours. In July twenty ten, the station recorded thirty-four point six degrees Celsius. That's about ninety-four Fahrenheit. Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth have record highs and lows that far apart. I had packed the same bag. Everything in it was fur. And for one sweaty afternoon, I wanted to move in again.",
+      "y_hinh": [
+        {
+          "cue": "I went back in July",
+          "y": "Cắt cứng cùng khung thung lũng: tuyết và bóng tối đổi thành nắng, cùng tấm biển tên làng, cùng con đường"
+        },
+        {
+          "cue": "more than twenty hours",
+          "y": "Đồng hồ vẽ tay trên trang sổ: lần này gần như cả vòng vàng, chỉ một lát tối mỏng"
+        },
+        {
+          "cue": "thirty-four point six degrees Celsius",
+          "y": "Nhiệt kế ở cột biển tên, vạch '+34.6°C · +94°F (July 2010)' viết tay"
+        },
+        {
+          "cue": "roughly one hundred and two degrees",
+          "y": "Trang sổ: một thước dài vẽ tay từ '−67.7' tới '+34.6', ghi '≈ 102°' ở giữa"
+        },
+        {
+          "cue": "Everything in it was fur",
+          "y": "Wob trùm kín áo lông giữa nắng",
+          "gag": "Giọt mồ hôi rơi xuống đất kêu xèo; lông mi băng của tháng Giêng giờ rủ xuống như cỏ héo"
+        },
+        {
+          "cue": "I wanted to move in again",
+          "y": "Wob cởi phăng áo lông, dang tay đứng giữa nắng"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went back in July",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Everything in it was fur",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I wanted to move in again",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 17,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "ngựa Yakut sống ngoài trời quanh năm; thích nghi nhanh",
+      "narration": "Then I met the residents who never go inside. Yakutian horses live outdoors all year in this region, right through the winter. A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats. Imagine buying the right jacket, except your body grows the jacket for you. My only adaptation is a large backpack. I tried to make friends with one. The horse kept eating. The horse has seen tourists before.",
+      "y_hinh": [
+        {
+          "cue": "Yakutian horses",
+          "y": "Đồng cỏ mùa hè: vài con ngựa thấp, chắc nịch, bờm dày đang gặm cỏ"
+        },
+        {
+          "cue": "brought here only a few centuries ago",
+          "y": "Chèn vẽ tay: một cuốn lịch lật ngược nhanh, vài trang rồi dừng; một con ngựa nhà nhỏ bước ra từ trang lịch"
+        },
+        {
+          "cue": "very thick winter coats",
+          "y": "Chèn vẽ tay: cùng con ngựa phồng lông lên như cuộn len khi chuyển sang khung mùa đông"
+        },
+        {
+          "cue": "My only adaptation is a large backpack",
+          "y": "Wob đứng cạnh con ngựa, so ba lô với thân ngựa"
+        },
+        {
+          "cue": "I tried to make friends with one",
+          "y": "Wob chìa một nắm cỏ",
+          "gag": "Con ngựa thờ ơ, quay đầu gặm chỗ cỏ khác; Wob dịch theo, ngựa lại quay; giữ hình tỉnh bơ"
+        }
+      ],
+      "pronunciation": "Yakutian: yah-KOO-tee-an",
+      "wob": [
+        {
+          "cue": "the residents who never go inside",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The horse kept eating",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "lễ hội Pole of Cold mùa xuân (Wob lỡ), Chyskhaan (dè dặt), marathon 2025: cái lạnh kéo khách tới",
+      "narration": "I had also missed the party. Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor. Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence. In twenty twenty-five, there was even a marathon here. In the cold. On purpose. So the water brought the herders, the thermometer brought the fame, and now the cold itself brings visitors. A village that grew up around water that wouldn't freeze now welcomes people because of everything that does.",
+      "pronunciation": "Oymyakon: oy-myah-KON; Tomtor: tom-TOR; Chyskhaan: chis-KHAAN; Sakha: SAH-khah",
+      "y_hinh": [
+        {
+          "cue": "I had also missed the party",
+          "y": "Wob dán một tờ rơi vẽ tay 'POLE OF COLD · every spring' vào sổ, gạch chân chữ 'spring', nhìn tờ lịch đang ở tháng Bảy"
+        },
+        {
+          "cue": "Chyskhaan",
+          "y": "Trên tờ rơi: hình Chúa tể Giá lạnh vẽ chung, trang nghiêm, đứng trước một dinh thự băng nét mực; không chi tiết trang phục cụ thể"
+        },
+        {
+          "cue": "there was even a marathon here",
+          "y": "Wob ướm thử một số áo chạy bộ lên áo lông giữa nắng tháng Bảy",
+          "gag": "Số áo dính mồ hôi trượt xuống chân; Wob chạy tại chỗ hai bước rồi ngồi phịch xuống"
+        },
+        {
+          "cue": "the water brought the herders",
+          "y": "Trang sổ: ba hình nhỏ vẽ tay nối bằng mũi tên: con suối, nhiệt kế, một hàng khách mặc áo phao"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I had also missed the party",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "In the cold. On purpose.",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "outro",
+      "chapter": "Would I Move There?",
+      "lop": "hien-tai",
+      "role": "về nhà: ghép các mảnh 'vì sao', phán quyết, câu hỏi kéo bình luận, callback con cá",
+      "narration": "So here's what my desk knows now. The cold was never the reason to come. It was the price of staying. Would I move there? The springs are lovely. The summer surprised me. But the winters are long, dark and brutally cold, and I lasted about one cup of tea. My verdict is NOPE. That valley is for people who grew up with it, or who truly love winter: silence, clear skies, and a summer that feels earned. The fish lives in my freezer now. It's the warmest winter it has ever had. One January there, for one July. Would you take that trade?",
+      "verdict": {
+        "label": "NOPE",
+        "reason": "The winters are long, dark and brutally cold: about four and a half hours of sun in late December and a January average around minus forty-six. I lasted one cup of tea.",
+        "cue": "NOPE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here's what my desk knows now",
+          "y": "Wob xếp kỷ vật lên bàn thành hàng: chai nước đã tan, tờ rơi lễ hội, nhiệt kế vẽ tay, con cá trong găng"
+        },
+        {
+          "cue": "It was the price of staying",
+          "y": "Wob đặt con cá cạnh chai nước; giữ hình"
+        },
+        {
+          "cue": "My verdict is NOPE",
+          "y": "Wob cầm con dấu đóng mạnh lên trang sổ du lịch: 'Would Wob move here? NOPE'"
+        },
+        {
+          "cue": "The fish lives in my freezer now",
+          "y": "Wob mở cửa tủ đông nhỏ ở nhà, đặt con cá vào",
+          "gag": "Con cá trong tủ đông trông thư thái như đang đi nghỉ; Wob đóng cửa tủ, quay lại nhìn người xem"
+        },
+        {
+          "cue": "Would you take that trade",
+          "y": "Wob nhìn thẳng người xem, kết đúng ở chữ cuối; góc phải dưới để trống cho màn hình kết thúc"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here's what my desk knows now",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The summer surprised me",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My verdict is NOPE",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "The fish lives in my freezer now",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 4,
+      "quote": "My eyelashes froze.",
+      "statement": "In winter in Oymyakon, Russia, temperatures are cold enough that people's eyelashes freeze outdoors and residents often leave car engines running for long periods so they will restart.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 1,
+      "quote": "Roughly five hundred people live there.",
+      "statement": "The village of Oymyakon in the Sakha Republic, Russia, has roughly 500 permanent residents (462 in the 2010 Russian census).",
+      "source_ids": [
+        "S3",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 1,
+      "quote": "often called the coldest permanently inhabited place on Earth",
+      "statement": "Oymyakon is often described as the coldest permanently inhabited place on Earth.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 8,
+      "quote": "On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight.",
+      "statement": "On 6 February 1933 the weather station at Oymyakon, Russia, recorded about minus 68 degrees Celsius (about minus 90 Fahrenheit); Guinness World Records lists the value as minus 67.7 C and the World Meteorological Organization lists minus 67.8 C.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C05",
+      "scene": 8,
+      "quote": "Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost.",
+      "statement": "Oymyakon's 1933 reading is the lowest recorded temperature for a permanently inhabited place, though Verkhoyansk has a comparable reading and some sources treat the record as shared.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C06",
+      "scene": 8,
+      "quote": "Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number.",
+      "statement": "Verkhoyansk, Russia, northwest of Oymyakon, recorded a temperature of about minus 67.7 to minus 67.8 degrees Celsius in February 1892.",
+      "source_ids": [
+        "S2",
+        "S1"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C07",
+      "scene": 8,
+      "quote": "Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed.",
+      "statement": "Some sources (for example Guinness World Records) describe Oymyakon and Verkhoyansk as sharing the record low for an inhabited place, while the World Meteorological Organization lists only Oymyakon and treats the Verkhoyansk reading as disputed.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C08",
+      "scene": 9,
+      "quote": "It sits in a valley between Oymyakon and a neighbouring village called Tomtor, near Tomtor's airfield.",
+      "statement": "The weather station associated with Oymyakon's temperature records is located in a valley between the villages of Oymyakon and Tomtor, near the airfield at Tomtor, rather than in Oymyakon village itself.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 9,
+      "quote": "Some sources argue that Tomtor, not Oymyakon, is the real Pole of Cold. Oymyakon, meanwhile, has the official monument.",
+      "statement": "Some sources argue that the nearby village of Tomtor, where the record was measured, is the real Pole of Cold, while the official Pole of Cold monument stands in Oymyakon.",
+      "source_ids": [
+        "S12",
+        "S3"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C10",
+      "scene": 10,
+      "quote": "Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it.",
+      "statement": "Oymyakon (about 63.5 degrees north) lies south of the Arctic Circle (about 66.5 degrees north).",
+      "source_ids": [
+        "S3",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 10,
+      "quote": "In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space.",
+      "statement": "In winter, the Siberian High, a semi-permanent area of high pressure, sits over eastern Siberia, bringing clear, dry, stable air that allows strong radiative cooling of the ground around Oymyakon.",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 10,
+      "quote": "Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor.",
+      "statement": "Oymyakon's valley setting traps dense cold air near the valley floor (a temperature inversion), and studies have found that in winter the surrounding mountain slopes can be much warmer than the valley floor.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "Oymyakon is usually explained as meaning water that does not freeze.",
+      "statement": "The name Oymyakon is usually explained as meaning unfrozen or non-freezing water.",
+      "source_ids": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C14",
+      "scene": 6,
+      "quote": "Some sources trace the word to the Even language, while others point to Sakha.",
+      "statement": "Sources disagree on the origin of the name Oymyakon: some derive it from the Even language (for example the word kheium), others from the Sakha (Yakut) language.",
+      "source_ids": [
+        "S3",
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C15",
+      "scene": 6,
+      "quote": "Nearby there were warm springs, water that stayed open through the winter.",
+      "statement": "There are warm or thermal springs near Oymyakon whose water does not freeze in winter.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "Reindeer herders stopped at the springs to water their animals and rest before long journeys.",
+      "statement": "Reindeer herders historically stopped at the springs near Oymyakon to water their reindeer and rest.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 7,
+      "quote": "A stopping place became a regular camp. Over time, the camp grew into a permanent village.",
+      "statement": "Over time, the herders' stopping place at Oymyakon grew into a permanent village.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 9,
+      "quote": "The station and the airfield both date from the Soviet era.",
+      "statement": "During the Soviet period a weather station was established near Oymyakon and an airfield was built near the village of Tomtor.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 8,
+      "quote": "the record that made Oymyakon famous came from the local weather station in nineteen thirty-three",
+      "statement": "Oymyakon's fame as the coldest inhabited place rests largely on the minus 67.7 degrees Celsius reading taken at its weather station in 1933.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 11,
+      "quote": "In the nineteen thirties, the Soviet Union built a network of forced labour camps across the Kolyma region, part of the Gulag system, largely to mine gold.",
+      "statement": "In the 1930s the Soviet Union built a network of Gulag forced labour camps across the Kolyma region of north-eastern Siberia, largely for gold mining.",
+      "source_ids": [
+        "S14",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 11,
+      "quote": "Prisoners began building the Kolyma Highway in the early nineteen thirties, and forced labour continued on it into the nineteen fifties.",
+      "statement": "Construction of the Kolyma Highway began in the early 1930s using Gulag prisoner labour, and forced labour was used on it into the 1950s.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 11,
+      "quote": "Many of them did not survive.",
+      "statement": "Many of the prisoners who built the Kolyma Highway died during its construction.",
+      "source_ids": [
+        "S8",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 4,
+      "quote": "January averages around minus forty-six Celsius. That's about minus fifty-one Fahrenheit.",
+      "statement": "The average January temperature at Oymyakon is around minus 46 degrees Celsius.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 4,
+      "quote": "Around then, the sun is up for only about four and a half hours a day.",
+      "statement": "Around the December solstice, Oymyakon gets roughly four and a half hours of daylight per day.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 14,
+      "quote": "Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets.",
+      "statement": "Oymyakon sits on permafrost, which makes conventional water pipes difficult to maintain, and many homes there use outdoor toilets.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 12,
+      "quote": "Cars are often left running for hours, or warmed with a fire before starting, because a frozen engine may refuse to start at all.",
+      "statement": "In Oymyakon, cars are often left running for long periods or warmed with a fire before starting, because engines may not start in extreme cold.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C28",
+      "scene": 13,
+      "quote": "Food here comes mostly from animals and the river: meat, and fish that in winter is sold frozen solid and stacked like firewood. Farming in frozen ground is close to impossible.",
+      "statement": "The diet in Oymyakon relies heavily on meat and fish, fish is sold frozen in winter, and farming is very difficult because of the frozen ground.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C29",
+      "scene": 14,
+      "quote": "According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two. The exact cut-off for each age group depends on who you ask.",
+      "statement": "In the Oymyakonsky district of Yakutia, classes for younger schoolchildren are cancelled when the temperature falls to around minus 52 degrees Celsius; exact thresholds for different ages vary between reports.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C30",
+      "scene": 16,
+      "quote": "By late June, daylight lasts more than twenty hours.",
+      "statement": "From around mid-June to the solstice, daylight at Oymyakon lasts more than 20 hours per day.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C31",
+      "scene": 16,
+      "quote": "In July twenty ten, the station recorded thirty-four point six degrees Celsius. That's about ninety-four Fahrenheit.",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "source_ids": [
+        "S3",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 16,
+      "quote": "Put the record low and the record high side by side, and the gap is roughly one hundred and two degrees. Very few places on Earth have record highs and lows that far apart.",
+      "statement": "The difference between Oymyakon's record low (minus 67.7 C) and record high (34.6 C) is about 102 degrees Celsius, one of the largest temperature ranges of any place on Earth.",
+      "source_ids": [
+        "S3"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C35",
+      "scene": 17,
+      "quote": "Yakutian horses live outdoors all year in this region, right through the winter.",
+      "statement": "Yakutian horses in the Sakha Republic live outdoors all year round, including through the winter.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C36",
+      "scene": 17,
+      "quote": "A genetic study published in twenty fifteen found that they descend from domestic horses brought here only a few centuries ago. They adapted to the cold remarkably fast, with compact bodies and very thick winter coats.",
+      "statement": "A 2015 genomic study (Librado et al., PNAS) found that Yakutian horses descend from domestic horses brought to the region a few centuries ago and adapted to the subarctic cold very quickly, with compact bodies and very hairy winter coats.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C38",
+      "scene": 18,
+      "quote": "Every spring, the district hosts a festival called the Pole of Cold, with events in villages including Oymyakon and Tomtor.",
+      "statement": "A festival called Pole of Cold (Journey to the Pole of Cold) is held each spring in the Oymyakonsky district, with events in villages including Oymyakon and Tomtor.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C39",
+      "scene": 18,
+      "quote": "Its star is Chyskhaan, the Sakha Lord of Cold, who reportedly has his own ice residence.",
+      "statement": "Chyskhaan, the Lord of Cold in Sakha (Yakut) tradition, is a central figure of the Pole of Cold festival and has an ice residence associated with him.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C40",
+      "scene": 18,
+      "quote": "In twenty twenty-five, there was even a marathon here.",
+      "statement": "A marathon called Pole of Cold - Oymyakon was held in the Oymyakon area in 2025.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Lowest temperature - inhabited",
+      "publisher": "Guinness World Records",
+      "type": "bach-khoa",
+      "url": "https://guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S2",
+      "title": "WMO Weather and Climate Extremes Archive: lowest temperature, Asia",
+      "publisher": "World Meteorological Organization",
+      "type": "goc",
+      "url": "https://wmo.int/asu-map?map=Temp_014",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S3",
+      "title": "Oymyakon",
+      "publisher": "Wikipedia (đầu mối, không tính là nguồn uy tín)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/Oymyakon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S4",
+      "title": "Ojmjakonskij Rajon: population (census 2010, 2021)",
+      "publisher": "City Population (Thomas Brinkhoff), dẫn Rosstat",
+      "type": "khac",
+      "url": "https://citypopulation.de/en/russia/places/sacha/98639__ojmjakonskij_rajon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S5",
+      "title": "Schools closed in Yakutia's Oymyakon as temperatures drop to minus 52",
+      "publisher": "TASS",
+      "type": "bao",
+      "url": "https://tass.com/society/977271",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S6",
+      "title": "This tiny Russian village is the coldest place you can live on Earth",
+      "publisher": "Culture Trip",
+      "type": "khac",
+      "url": "https://theculturetrip.com/europe/russia/articles/this-tiny-russian-village-is-the-coldest-place-you-can-live-on-earth-and-its-stunning",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S7",
+      "title": "Oymyakon (Village in the Sakha Republic, Russia)",
+      "publisher": "Baidu Baike",
+      "type": "khac",
+      "url": "https://baike.baidu.com/en/item/Oymyakon/1422582",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S8",
+      "title": "R504 Kolyma Highway",
+      "publisher": "Wikipedia (đầu mối)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/R504_Kolyma_Highway",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S9",
+      "title": "This is how intense life gets when you live in the coldest village on the planet",
+      "publisher": "ScienceAlert",
+      "type": "bao",
+      "url": "https://www.sciencealert.com/this-is-how-intense-life-gets-when-you-live-in-the-coldest-village-on-the-planet",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S10",
+      "title": "Coldest inhabited place on Earth sets record heat",
+      "publisher": "AccuWeather",
+      "type": "bao",
+      "url": "https://www.accuweather.com/en/weather-news/oymyakon-russia-coldest-inhabited-place-on-earth-record-heat/971813",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S11",
+      "title": "Climat Oïmiakon (Sibérie)",
+      "publisher": "Climats et Voyages",
+      "type": "khac",
+      "url": "https://www.climatsetvoyages.com/climat/siberie/oimiakon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S12",
+      "title": "Yakutia invites guests to take a trip to the Pole of Cold",
+      "publisher": "Government of Sakha (Yakutia), ERDC",
+      "type": "goc",
+      "url": "https://erdc.ru/en/news/yakutiya-priglashaet-gostey-i-turistov-sovershit-puteshestvie-na-polyus-kholoda/",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S13",
+      "title": "In Photos: Runners Brave -50 Celsius Temperatures in Yakutia Marathon",
+      "publisher": "The Moscow Times",
+      "type": "bao",
+      "url": "https://www.themoscowtimes.com/2025/09/03/in-photos-runners-brave-50-celsius-temperatures-in-yakutia-marathon",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S14",
+      "title": "Kolyma",
+      "publisher": "Wikipedia (đầu mối)",
+      "type": "khac",
+      "url": "https://en.wikipedia.org/wiki/Kolyma",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S15",
+      "title": "Why the eastern corner of Siberia is the coldest inhabited place on Earth",
+      "publisher": "Gizmodo",
+      "type": "bao",
+      "url": "https://gizmodo.com/why-the-eastern-corner-of-siberia-is-the-coldest-inhabi-1822160684",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S16",
+      "title": "What is the coldest city in the world?",
+      "publisher": "Live Science",
+      "type": "bao",
+      "url": "https://www.livescience.com/what-is-the-coldest-city",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S17",
+      "title": "Tracking the origins of Yakutian horses and the genetic basis for their fast adaptation to subarctic environments (PNAS, 2015)",
+      "publisher": "PubMed / Proceedings of the National Academy of Sciences",
+      "type": "goc",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26598656/",
+      "published": null,
+      "accessed": "2026-11-16"
+    },
+    {
+      "id": "S18",
+      "title": "Oymyakon, Russia - climate and daylight",
+      "publisher": "Weather Atlas",
+      "type": "khac",
+      "url": "https://www.weather-atlas.com/en/russia/oymyakon-climate",
+      "published": null,
+      "accessed": "2026-11-16"
+    }
+  ]
+}

@@ -40,13 +40,14 @@
       var cover = (so.cover = api.P(book, { z: zc, rotationY: 0 }));
       api.div("dio-face dio-bfh", cover, "left:0;top:" + -d / 2 + "px;width:" + w + "px;height:" + d + "px;background:" + (o.mauBia || "#b85c35") + ";border:6px solid " + INK +
         ";border-radius:4px 10px 10px 4px;box-shadow: inset 0 0 0 14px " + (o.mauBia || "#b85c35") + ", inset 0 0 0 17px rgba(255,236,200,.6);");
-      var coverIn = api.P(cover, { x: w / 2, rotationY: 180 });
-      coverIn.insertAdjacentHTML("beforeend", '<svg class="dio-cut dio-bfh" width="' + w + '" height="' + d + '" viewBox="0 0 ' + w + " " + d + '" style="left:' + -w / 2 + "px;top:" + -d / 2 + 'px;backface-visibility:hidden">' +
-        '<rect x="0" y="0" width="' + w + '" height="' + d + '" fill="' + C.PAPER + '" stroke="' + INK + '" stroke-width="5"/>' + keDong(w, d) +
-        (o.biaTrong != null ? o.biaTrong :
+      var coverIn = (so.coverIn = api.P(cover, { x: w / 2, rotationY: 180 }));
+      var biaTrongND = (so.biaTrongND = o.biaTrong != null ? o.biaTrong :
           sk("M 120 140 l 0 -60 M 90 110 l 60 0 M 99 89 l 42 42 M 141 89 l -42 42", 5, C.ICE2) +
           fp("M " + (w - 150) + " 300 l 70 0 l -6 70 l -58 0 Z", C.PAPER, 4) + sk("M " + (w - 80) + " 316 c 24 0 24 30 -4 30", 4) +
-          fp("M 60 " + (d - 170) + " C 70 " + (d - 200) + " 150 " + (d - 200) + " 160 " + (d - 170) + " L 160 " + (d - 100) + " L 60 " + (d - 100) + " Z", "#cfe3ec", 3)) + "</svg>");
+          fp("M 60 " + (d - 170) + " C 70 " + (d - 200) + " 150 " + (d - 200) + " 160 " + (d - 170) + " L 160 " + (d - 100) + " L 60 " + (d - 100) + " Z", "#cfe3ec", 3));
+      coverIn.insertAdjacentHTML("beforeend", '<svg class="dio-cut dio-bfh" data-layout-allow-occlusion data-layout-allow-overlap width="' + w + '" height="' + d + '" viewBox="0 0 ' + w + " " + d + '" style="left:' + -w / 2 + "px;top:" + -d / 2 + 'px;backface-visibility:hidden">' +
+        '<rect x="0" y="0" width="' + w + '" height="' + d + '" fill="' + C.PAPER + '" stroke="' + INK + '" stroke-width="5"/>' + keDong(w, d) +
+        biaTrongND + "</svg>");
       api.plane(cover, { x: w - 50, y: 0, z: 1 }, 18, d, "background:#2f3b3c;");
 
       // --- thao tác
@@ -69,6 +70,37 @@
         so.lop.forEach(function (p) { gsap.set(p, { rotationX: -90 }); (p.def.khoi || []).forEach(function (k) { k.chay(p, null, null); }); });
       };
       so.dong = function (t) { tl.set(cover, { rotationY: 0 }, t); tl.set(so.lop, { rotationX: 0 }, t); };
+
+      // --- thêm 18/11/2026 (chỉ thêm): gấp bìa có hoạt hình, gập lớp, vẽ phẳng lên trang, tờ lật được
+      so.dongBia = function (t, dur, ease) { tl.fromTo(cover, { rotationY: -180 }, { rotationY: 0, duration: dur || 0.9, ease: ease || "power2.inOut", immediateRender: false }, t); };
+      so.gapLop = function (i, t, dur) { tl.fromTo(so.lop[i], { rotationX: -90 }, { rotationX: 0, duration: dur || 0.35, ease: "power2.in", immediateRender: false }, t); };
+      // Vẽ phẳng lên trang phải (dưới các lớp pop-up). svg theo hệ trang w×d (y = 0 ở mép xa, y = d ở mép gần người xem)
+      so.veTrang = function (svg) {
+        var p = api.P(book, { z: 1.5 });
+        p.insertAdjacentHTML("beforeend", '<svg class="dio-cut" data-layout-allow-occlusion data-layout-allow-overlap width="' + w + '" height="' + d + '" viewBox="0 0 ' + w + " " + d + '" style="left:0;top:' + -d / 2 + 'px;overflow:visible">' + svg + "</svg>");
+        p.svg = p.lastElementChild;
+        return p;
+      };
+      // Tờ giấy lật quanh gáy. Mặt trước (nằm bên phải) = giấy kẻ + svgTruoc; mặt sau (nằm bên trái) = giấy kẻ + o.sau
+      // (mặc định giống mặt trong bìa, nên tờ nằm bên trái trông như bìa). o.ben: "phai" (mặc định) | "trai".
+      // Bên phải: nằm dưới bìa đóng, trên các lớp pop-up đã gập. Bên trái: nằm trên mặt trong bìa.
+      // to.lat(t, dur, "trai" | "phai"), to.hien(t, on), to.truoc / to.sau (svg hai mặt)
+      so.themTo = function (svgTruoc, o2) {
+        o2 = o2 || {};
+        var giay = '<rect x="0" y="0" width="' + w + '" height="' + d + '" fill="' + C.PAPER + '" stroke="' + INK + '" stroke-width="5"/>' + keDong(w, d);
+        var leaf = api.P(book, { z: zc, rotationY: o2.ben === "trai" ? -180 : 0 });
+        var f = api.P(leaf, { z: -1 });
+        f.insertAdjacentHTML("beforeend", '<svg class="dio-cut dio-bfh" data-layout-allow-occlusion data-layout-allow-overlap width="' + w + '" height="' + d + '" viewBox="0 0 ' + w + " " + d + '" style="left:0;top:' + -d / 2 + 'px;backface-visibility:hidden;overflow:visible">' + giay + (svgTruoc || "") + "</svg>");
+        var b = api.P(leaf, { x: w / 2, z: -1, rotationY: 180 });
+        b.insertAdjacentHTML("beforeend", '<svg class="dio-cut dio-bfh" data-layout-allow-occlusion data-layout-allow-overlap width="' + w + '" height="' + d + '" viewBox="0 0 ' + w + " " + d + '" style="left:' + -w / 2 + "px;top:" + -d / 2 + 'px;backface-visibility:hidden;overflow:visible">' + giay + (o2.sau != null ? o2.sau : biaTrongND) + "</svg>");
+        var to = { el: leaf, truoc: f.lastElementChild, sau: b.lastElementChild, ben: o2.ben || "phai" };
+        to.lat = function (t, dur, sang, ease) {
+          var a = sang === "phai" ? -180 : 0, bb = sang === "phai" ? 0 : -180;
+          tl.fromTo(leaf, { rotationY: a }, { rotationY: bb, duration: dur || 0.7, ease: ease || "power2.inOut", immediateRender: false }, t);
+        };
+        to.hien = function (t, on) { if (t == null) gsap.set(leaf, { visibility: on ? "visible" : "hidden" }); else tl.set(leaf, { visibility: on ? "visible" : "hidden" }, t); };
+        return to;
+      };
 
       // --- toạ độ thế giới (trong parent)
       so.diemTrang = function (u, v) { return { x: bx + u, y: by - 3, z: bz + v }; };

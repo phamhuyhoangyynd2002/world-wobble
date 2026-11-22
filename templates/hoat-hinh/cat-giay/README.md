@@ -19,6 +19,7 @@ Thư viện dùng chung cho đoạn hoạt hình phong cách cắt giấy của 
 | `lib/phim.js` → `window.HHCatGiay` | `taoApi` (đối tượng `api` cho canh.js), `khoiDong` (khởi động composition) |
 | `khung/` | `index.html` đúng hợp đồng mục 4 + `hyperframes.json`, `meta.json`, `package.json` |
 | `cong-cu/tao_sfx.mjs` | Sinh `sfx.json` từ chính `canh.js` (chạy Node, không cần trình duyệt) |
+| `cong-cu/chep_ban_do.py` | Chép bản đồ `map-*` của `assets/manifest.json` vào `doan-<id>/ban-do/` (bỏ chấm vẽ sẵn, cắt khung bằng viewBox, kiểm chủ quyền) để dán lên trang sổ |
 | `mau/canh-mau.js` | `canh.js` mẫu tối thiểu |
 
 `chuan_bi_doan.py` chép `lib/` (ghi đè mỗi lần) và `khung/` (chỉ khi chưa có, hoặc `--khung-moi`) vào `doan-<id>/`. **Sửa ở đây, không sửa trong đoạn**, rồi chạy lại `chuan_bi_doan.py`.
@@ -64,6 +65,7 @@ Cách làm theo `HH_DATA.nhip`: mỗi nhịp một khối code; lấy mốc từ
 **Dựng cảnh**
 - `api.lop(ten, svg, p, {mat})` → chuỗi SVG một lớp parallax (`p`: xa 0,35 · giữa 1 · gần 1,4; `mat`: y mặt đất, gốc bật dựng khi nối `giay`). Camera điều khiển `#L-<ten>`, nối điều khiển `#L-<ten>-in`: **không** tween hai nhóm này.
 - `api.dat(svg)` đặt toàn bộ nội dung (gọi một lần). Phần ngoài `api.lop` là tĩnh (trời, lớp hiệu ứng màn hình).
+- Khoá liên tục (19/11/2026): mũ len `#C9463A`, khăn `#D9543C` (mặc định của `scarf: true` nay là đỏ `#D9543C` sọc kem, trước là cam); xe hộp của Wob màu giấy kraft (`boxCar`, `boxCarKinh`).
 - `api.wob(id, opts)` → bộ điều khiển Wob có `.svg` để chèn. `opts`: `scarf` (true | màu), `khan`, `khanSoc`, `mu` (true | màu), `muVanh`, `tuyetDau`, `blanket`, `holdL`/`holdR` (SVG đồ cầm, đặt trong bàn tay).
 - `api.g(id, svg, transform)`, `api.at(x, y, svg)` gói nhóm.
 
@@ -79,15 +81,20 @@ Cách làm theo `HH_DATA.nhip`: mỗi nhịp một khối code; lấy mốc từ
 - `api.hoi(prefix, t0, t1)` hơi 3 sợi của `D.teaMug(prefix)`.
 - `api.lapLanh(prefix, n, seed, [x,y,w,h], t0, t1)` → bụi kim cương nhấp nháy.
 - `api.moiKhung(fn(t), {twos})` hàm vẽ mỗi khung (gọi trong `modifiers` của tween đồng hồ).
+- `api.duong(pts)` → `{d, dai, at(u) → {x, y, a}, den(u)}`: đường cong mượt qua các điểm, lấy mẫu theo độ dài. Dùng cho nét đứt tự vẽ dần (`moiKhung` + `den(u)`) và xe, máy bay chạy theo đường (`at(u)`, `a` là hướng tiếp tuyến). Mẫu: d04 tập 1.
+- `api.locSepia(id, [[t, k]])` → `<filter>` sepia (k = 1 giấy cũ … 0 màu thật) nội suy theo thời gian; gắn `filter="url(#id)"` lên nhóm **không transform** bọc cả cảnh (vùng lọc theo khung 1920×1080). Bỏ thuộc tính filter khi đã về màu để render nhanh. Mẫu: d11 tập 1 (hình dung quá khứ → hiện tại).
+- `api.locNhoe(id, nhomId, [[t0, t1, đỉnh]])` → `<filter>` nhoè ngang cho lia nhoè; tự gắn/bỏ filter trên nhóm `nhomId` chỉ trong khoảng nhoè. Mẫu: d15 tập 1.
 
 **Lời, âm thanh, nối**
-- `api.tu(từ, k)` mốc bắt đầu của lần thứ k từ có chứa chuỗi đó (null nếu không có).
+- `api.tu(từ, k)` mốc bắt đầu của lần thứ k từ có chứa chuỗi đó (null nếu không có). **Bẫy:** so chuỗi con và tính cả từ của câu vắt từ đoạn trước (mốc âm): `tu("So")` khớp "sources", `tu("On")` khớp "long".
+- `api.tuSau(từ, tMin, k)` như trên nhưng chỉ xét từ có mốc ≥ `tMin` (mặc định 0). `api.tuDung(từ, tMin, k)` **khớp nguyên từ** (bỏ dấu câu, không phân biệt hoa thường) và chỉ từ mốc ≥ `tMin`: nên dùng mặc định.
 - `api.khauHinh(wob, t0, t1)` mấp máy theo `loi[].khau_hinh`; chỉ chạy khi `lop = "hien-tai"` (hồi ức thì bỏ qua và cảnh báo).
 - `api.sfx(ten, tai, am_luong)` ghi vào `sfx.json` (không phát trong đoạn). `walk(..., {tieng: true})` tự thêm `buoc-tuyet` đúng từng bước chạm đất (`tieng: "<ten>"` cho tiếng khác).
 - `api.noi({vaoDai, raDai, tre, kieu: {<lớp>: "dung"|"truot"|"truot-tren"|"khong"}})`. Không gọi thì khung tự gọi với mặc định.
 
 ## Bộ điều khiển Wob
 
+- `opts.phuKien`: SVG đeo trên thân (toạ độ gốc 400×400, vẽ trên mặt, dưới tay), nằm trong nhóm `#<id>-pk` đi theo thân trên: máy ảnh đeo cổ, bản đồ cầm trước mặt, vương miện băng trên mũ, nước mắt. Bật/tắt bằng khoá `opacity` của `#<id>-pk` (hoặc id con).
 - Khớp (dùng trong `set`/`pose`): `x y size` · `sx sy lean` (co giãn, nghiêng quanh chân) · `upY upRot` (thân trên) · `aLu aLf aRu aRf` (vai, khuỷu; độ, 0 = thõng) · `legL legR` · `pack packY scarf hat pom` · `pupX pupY pLx pRx` · `eye` (cỡ mắt) · `lid` (0 mở … 62 nhắm) · `lashes` (scale lông mi) · `ice` (lông mi đóng băng 0/1) · `snow` (tuyết trên đầu 0/1) · `sway` (đung đưa quanh chân) · `op`.
 - Cơ bản: `set(t, props)`, `pose(t, dur, props, ease)`, `mouth(t, hình)` (A–H, X, `o flat smirk grin wobbly chatter`), `walk(t0, t1, x0, x1, {step, arms: false|"R", tieng})`, `breathe`, `shiver(t0, t1, biên, hz)`, `autoBlink(t0, t1, seed)`, `blinkAt(t)`, `hand("L"|"R", t)` (vị trí bàn tay để thả đồ đúng chỗ).
 - Diễn xuất có tên: `idle(t0, t1, {seed, bien, liec})` (dồn trọng tâm + thở, chữa "đứng chờ lời"), `soc(t)`, `nhonChan(t, dur, {lean, nhin})`, `vay(t, n, side)`, `nhunVai(t, giu)`, `go(t, n, side)` → mảng mốc chạm (đặt `bonk`), `nhinQuanh(t)`, `lacMat(t, dur)`, `vacVai(t, side)`.
@@ -95,7 +102,8 @@ Cách làm theo `HH_DATA.nhip`: mỗi nhịp một khối code; lấy mốc từ
 
 ## Đạo cụ có sẵn (`DaoCu`)
 
-`fish({eye, frost, seed})`, `fishFloppy(id)`, `deskLamp()`, `memoryBox()`, `bookStack()`, `villageSketch(id, {dong1, dong2})`, `notesPage(seed)`, `bubble("?!" | "..." | "bag" | "?")`, `thermometer(id, {c, f})` (`id-merc` cột thuỷ ngân, `id-c`, `id-f` nhãn), `logHouse({w, h, roof, seed, tone})` + `chimneyOf(o)`, `larch(h, seed)`, `marketStall()` → `{back, front}`, `fishBarrel(id)` (`id-tap`), `gloveHand()`, `paperBag(torn)`, `car(id, {mau, vien})`, `snowCar(id)` (`id-lump`), `teaMug(id)` (`-steam -ice -frost`), `freezerFrame(...)`, `fence(w, seed)`, `sparkle(r, màu)`, `puff(r, seed)`, `pole(h, dx, seed)`, `woodpile(w, seed)`. Gốc toạ độ ghi ở chú thích từng hàm. Đạo cụ mới: thêm hàm vào `lib/dao-cu.js`, nhận tham số, không cứng chữ của tập.
+`fish({eye, frost, seed})`, `fishFloppy(id)`, `deskLamp()`, `memoryBox()`, `bookStack()`, `villageSketch(id, {dong1, dong2})`, `notesPage(seed)`, `bubble("?!" | "..." | "bag" | "?")`, `thermometer(id, {c, f})` (`id-merc` cột thuỷ ngân, `id-c`, `id-f` nhãn), `logHouse({w, h, roof, seed, tone})` + `chimneyOf(o)`, `larch(h, seed)`, `marketStall()` → `{back, front}`, `fishBarrel(id)` (`id-tap`), `gloveHand()`, `paperBag(torn)`, `car(id, {mau, vien})`, `snowCar(id)` (`id-lump`), `teaMug(id)` (`-steam -ice -frost`), `freezerFrame(...)`, `fence(w, seed)`, `sparkle(r, màu)`, `puff(r, seed)`, `pole(h, dx, seed)`, `woodpile(w, seed)`.
+Thêm 18/11/2026 (tập 1 trọn tập): `journalPage(w, h, {seed, ke, gay, mau})` trang sổ kẻ dòng có lò xo; `mapSticker(href, w, h, {id, seed, bang})` bản đồ (file chép bằng `chep_ban_do.py`) dán trong khung giấy xé; `mapDot(id, {r, nhan, co, ben, mau})` chấm địa danh + nhãn (`id-nhan`); `paperPlane()`, `boxCar(id)` → `{back, front}` (Wob ngồi giữa, ló đầu); `boxCarKinh(id)` → `{back, kinh, front}` xe hộp có cabin kính (`id-kinh`, `id-phan` vệt phản chiếu, `id-mo` hơi thở mờ kính, `id-cua` cửa mở, `id-b0/b1` bánh); `pencil(len, {goc})`; `clockSun(id, {r, nhan, co, goc})` đồng hồ giờ có nắng (`id-lat` lát nắng); `flashlight(id)` (`id-den`) + `beam(len, rong)` chùm sáng; `cameraSmall({day})`; `snowPile(w, h, seed)`; `signBoard(id, {w, h, cao, chu, co, hinh})` biển trên cột (`id-bang`); `notebookOpen(w, h, seed)` sổ mở hai trang; `paperMap(w, h, {nguoc})` bản đồ giấy không chữ (cầm ngược); `warmSpring(id, w, seed)` suối không đóng băng giữa bờ băng (`id-song0..2`); `reindeer(id, {mau, sung, seed})` tuần lộc (`id-dau`, `id-cc0..3`); `herder(id, {mau})` người chăn dạng bóng giấy chung, không mặt (`id-gay`); `tentCone(w, h, seed)`; `waterBottle(id)` chai nước (`id-bang` lõi đá, `id-mat` mặt nước sóng sánh); `iceCrown({nua})` vương miện băng (cả hoặc nửa); `monumentCold(id, {chu, co})` đài tưởng niệm tối giản (không chép thiết kế thật); `weatherStation({cu})`, `airstrip(len, rong, {cu})` (tông giấy cũ); `tear(r)`, `flake(r, seed)`. Gradient mới trong `defs()`: `beamG`, `gayG`, `skyNight`, `skyDusk`. Gốc toạ độ ghi ở chú thích từng hàm. Đạo cụ mới: thêm hàm vào `lib/dao-cu.js`, nhận tham số, không cứng chữ của tập.
 
 ## Nối giữa đoạn
 
@@ -115,6 +123,11 @@ Cách làm theo `HH_DATA.nhip`: mỗi nhịp một khối code; lấy mốc từ
 - Wob đi qua trước chữ trên đồ vật thì che chữ: bố trí đồ có chữ ở chỗ Wob không đi qua (d02 dời nhiệt kế sang trái cửa sổ).
 - Chữ ≥ 40px ở khung cuối = cỡ chữ × zoom camera lúc chữ hiện; `thermometer` dùng 46/42px, giữ zoom ≥ 1 khi đọc số.
 - Cận mặt Wob (size 0,7): zoom ~4 ở tâm mặt (`y_chân − 135`).
+- Wob mặc định **có lông mi đóng băng hiện sẵn** (`ice` = opacity 1): đoạn trước khi Wob có lông mi phải đặt `{ lashes: 0, ice: 0 }` ở t = 0; đoạn sau đặt `{ lashes: 1, ice: 1 }`.
+- `W.set(t, {op: 0})` một mình làm Wob ẩn từ đầu đoạn (khoá đầu tiên quyết định từ t = 0): đặt `{op: 1}` ở 0 trước.
+- Sửa `lib/` trong lúc đoạn khác đang render: chạy lại `chuan_bi_doan.py` cho mọi đoạn có `canh.js` gọi hàm mới **trước** khi render, không thì `canh.js` lỗi và clip ra giấy trơn.
+- Bản đồ dán bằng `<image>` SVG vẫn nét khi camera zoom ~2×. Vùng bản đồ toàn đất (phóng 8×) trông như trang trống: đặt kèm ô nhỏ bản đồ rộng + khung phóng + hai đường nét đứt (d14 tập 1).
+- Ánh tối có lỗ (chỉ còn đôi mắt, vùng đèn pin rọi): `<mask>` trắng + vòng `radialGradient` đen ở mắt/vùng sáng, đặt trong lớp giữa (cùng toạ độ thế giới); chùm sáng vẽ **trên** lớp tối, đặt theo `W.hand("R", t)` (d06 tập 1).
 
 ## Thời gian render tham khảo
 

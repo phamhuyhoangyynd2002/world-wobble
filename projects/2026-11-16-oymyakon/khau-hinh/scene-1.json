@@ -1,0 +1,258 @@
+{
+ "metadata": {
+  "nguon": "tao_khau_hinh.py (bien do + moc tu)",
+  "fps": 30
+ },
+ "mouthCues": [
+  {
+   "start": 0.0,
+   "end": 0.133,
+   "value": "X"
+  },
+  {
+   "start": 0.133,
+   "end": 0.533,
+   "value": "B"
+  },
+  {
+   "start": 0.533,
+   "end": 0.633,
+   "value": "F"
+  },
+  {
+   "start": 0.633,
+   "end": 0.733,
+   "value": "B"
+  },
+  {
+   "start": 0.733,
+   "end": 0.9,
+   "value": "B"
+  },
+  {
+   "start": 0.9,
+   "end": 1.2,
+   "value": "D"
+  },
+  {
+   "start": 1.2,
+   "end": 1.433,
+   "value": "B"
+  },
+  {
+   "start": 1.433,
+   "end": 1.567,
+   "value": "C"
+  },
+  {
+   "start": 1.567,
+   "end": 1.7,
+   "value": "X"
+  },
+  {
+   "start": 1.7,
+   "end": 1.767,
+   "value": "C"
+  },
+  {
+   "start": 1.767,
+   "end": 1.967,
+   "value": "B"
+  },
+  {
+   "start": 1.967,
+   "end": 2.433,
+   "value": "X"
+  },
+  {
+   "start": 2.433,
+   "end": 2.567,
+   "value": "D"
+  },
+  {
+   "start": 2.567,
+   "end": 2.667,
+   "value": "D"
+  },
+  {
+   "start": 2.667,
+   "end": 2.8,
+   "value": "C"
+  },
+  {
+   "start": 2.8,
+   "end": 2.867,
+   "value": "C"
+  },
+  {
+   "start": 2.867,
+   "end": 3.1,
+   "value": "B"
+  },
+  {
+   "start": 3.1,
+   "end": 3.2,
+   "value": "X"
+  },
+  {
+   "start": 3.2,
+   "end": 3.333,
+   "value": "C"
+  },
+  {
+   "start": 3.333,
+   "end": 3.4,
+   "value": "X"
+  },
+  {
+   "start": 3.4,
+   "end": 3.533,
+   "value": "B"
+  },
+  {
+   "start": 3.533,
+   "end": 4.0,
+   "value": "X"
+  },
+  {
+   "start": 4.0,
+   "end": 4.133,
+   "value": "D"
+  },
+  {
+   "start": 4.133,
+   "end": 4.233,
+   "value": "C"
+  },
+  {
+   "start": 4.233,
+   "end": 4.433,
+   "value": "F"
+  },
+  {
+   "start": 4.433,
+   "end": 4.533,
+   "value": "C"
+  },
+  {
+   "start": 4.533,
+   "end": 4.633,
+   "value": "C"
+  },
+  {
+   "start": 4.633,
+   "end": 4.767,
+   "value": "C"
+  },
+  {
+   "start": 4.767,
+   "end": 5.1,
+   "value": "B"
+  },
+  {
+   "start": 5.1,
+   "end": 5.167,
+   "value": "X"
+  },
+  {
+   "start": 5.167,
+   "end": 5.3,
+   "value": "B"
+  },
+  {
+   "start": 5.3,
+   "end": 5.833,
+   "value": "X"
+  },
+  {
+   "start": 5.833,
+   "end": 5.9,
+   "value": "C"
+  },
+  {
+   "start": 5.9,
+   "end": 6.0,
+   "value": "X"
+  },
+  {
+   "start": 6.0,
+   "end": 6.2,
+   "value": "C"
+  },
+  {
+   "start": 6.2,
+   "end": 6.333,
+   "value": "C"
+  },
+  {
+   "start": 6.333,
+   "end": 6.6,
+   "value": "B"
+  },
+  {
+   "start": 6.6,
+   "end": 6.667,
+   "value": "C"
+  },
+  {
+   "start": 6.667,
+   "end": 7.1,
+   "value": "F"
+  },
+  {
+   "start": 7.1,
+   "end": 7.233,
+   "value": "C"
+  },
+  {
+   "start": 7.233,
+   "end": 7.3,
+   "value": "B"
+  },
+  {
+   "start": 7.3,
+   "end": 7.433,
+   "value": "C"
+  },
+  {
+   "start": 7.433,
+   "end": 7.633,
+   "value": "X"
+  },
+  {
+   "start": 7.633,
+   "end": 8.0,
+   "value": "B"
+  },
+  {
+   "start": 8.0,
+   "end": 8.2,
+   "value": "B"
+  },
+  {
+   "start": 8.2,
+   "end": 8.3,
+   "value": "B"
+  },
+  {
+   "start": 8.3,
+   "end": 8.4,
+   "value": "C"
+  },
+  {
+   "start": 8.4,
+   "end": 8.5,
+   "value": "X"
+  },
+  {
+   "start": 8.5,
+   "end": 8.7,
+   "value": "B"
+  },
+  {
+   "start": 8.7,
+   "end": 9.2,
+   "value": "X"
+  }
+ ]
+}

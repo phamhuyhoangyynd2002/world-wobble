@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "dau-wob",
+  "tai": 0.613,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "whoosh",
+  "tai": 9.45,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "hoi-nuoc",
+  "tai": 11.05,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "drop",
+  "tai": 14.436,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "rise",
+  "tai": 15.13,
+  "am_luong": 0.4
+ }
+]

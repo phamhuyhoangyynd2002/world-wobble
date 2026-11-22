@@ -3,7 +3,7 @@
  * sfx, kiểm chữ trên đồ vật, hạt giấy. Tách từ bản thử projects/2026-11-16-oymyakon/ban-thu-60s/c-diorama/dio.js.
  *
  * Cách nạp (khung/index.html): dio-loi.js → dio-wob.js → dio-dao-cu.js → dio-ban.js → dio-so.js → dio-noi.js
- * → du-lieu.js → canh.js → khối inline gọi DIO.chay(dangKy). Các module đăng ký vào DIO.mo, DIO.taoApi gọi lần lượt.
+ * → dio-3d.js → du-lieu.js → canh.js → khối inline gọi DIO.chay(dangKy); module dio-3d-nap.js nạp three.js (chỉ cảnh ngoài trời 3D dùng). Các module đăng ký vào DIO.mo, DIO.taoApi gọi lần lượt.
  * Tất định: không Math.random, không Date, không requestAnimationFrame, không repeat:-1.
  */
 (function () {
@@ -48,6 +48,7 @@
     var api = { root: root, data: data, C: C, SFX: [], DUR: +data.thoi_luong, fps: data.fps || 30 };
     var tl = (api.tl = gsap.timeline({ paused: true }));
     api.noiTuDong = { vao: true, ra: true }; // canh.js đặt false nếu tự làm nối
+    api.sauKhiDung = []; // hàm chạy sau khi canh.js + nối dựng xong, trước khi đăng ký timeline (dio-3d dùng để dựng khung 0)
 
     if (!document.getElementById("dio-css")) {
       var st = document.createElement("style"); st.id = "dio-css"; st.textContent = CSS; document.head.appendChild(st);
@@ -226,6 +227,7 @@
         out.push({ t: t, chu: el.textContent, px: bb.height ? Math.round(fs * r.height / bb.height * 10) / 10 : 0, trong_khung: vis && !hidden,
           x: Math.round(r.left), y: Math.round(r.top), w: Math.round(r.width), h: Math.round(r.height) });
       });
+      if (api.doChu3d) out = out.concat(api.doChu3d(t)); // chữ trên biển của cảnh ngoài trời 3D (dio-3d.js)
     });
     api.tl.seek(0, true);
     var pre = document.getElementById("do-chu-out");
@@ -244,6 +246,7 @@
       else console.error("[dio] canh.js chưa định nghĩa window.CANH = function (api, data) {…}");
       if (DIO.hoanTat) DIO.hoanTat(api);
       api.tl.set({}, {}, api.DUR); // timeline dài đúng bằng đoạn
+      api.sauKhiDung.forEach(function (f) { f(); });
       if (typeof dangKy === "function") dangKy(api.tl);
       else { window.__timelines = window.__timelines || {}; window.__timelines["doan"] = api.tl; }
       window.__dio = api;
@@ -252,6 +255,20 @@
       var m = /[?&]do-chu=([^&]+)/.exec(location.search);
       if (m) DIO.doChu(api, decodeURIComponent(m[1]).split(",").map(Number));
     }
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", go); else go();
+    // Cảnh ngoài trời 3D (dio-3d.js) cần three.js: module lib/dio-3d-nap.js chạy trễ, gắn window.THREE rồi phát "dio-three".
+    // Bật khi canh.js đặt window.CANH_3D = true hoặc gọi api.ngoaiTroi(...). Đoạn CSS 3D không chờ gì.
+    var da = false;
+    function moi() {
+      if (da) return;
+      var can3d = window.CANH_3D || (typeof window.CANH === "function" && /\.ngoaiTroi\s*\(/.test(String(window.CANH)));
+      if (can3d && !window.THREE) return; // chờ "dio-three" hoặc "load"
+      da = true; go();
+    }
+    window.addEventListener("dio-three", moi);
+    window.addEventListener("load", function () {
+      if (!da && !window.THREE) console.error("[dio] canh dùng cảnh 3D nhưng three.js không nạp được (lib/dio-3d-nap.js, lib/vendor/)");
+      moi();
+    });
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", moi); else moi();
   };
 })();

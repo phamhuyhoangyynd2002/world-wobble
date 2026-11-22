@@ -119,8 +119,8 @@
     return s;
   }
 
-  function scarfC(o) { return o.khan || (typeof o.scarf === "string" ? o.scarf : "#E0703A"); }
-  function scarfS(o) { return o.khanSoc || (o.khan || typeof o.scarf === "string" ? "#F6EEDC" : "#F3C27A"); }
+  function scarfC(o) { return o.khan || (typeof o.scarf === "string" ? o.scarf : "#D9543C"); }   // 19/11/2026: khăn mùa đông đỏ (khoá liên tục), trước là cam #E0703A
+  function scarfS(o) { return o.khanSoc || "#F6EEDC"; }
 
   /* Mũ len có quả bông (o.mu = true | màu). Đội trên đỉnh thân, không che mắt; lông mi vẽ đè lên vành mũ. */
   function hat(id, o) {
@@ -157,7 +157,7 @@
       st("M 70 300 C 90 250 92 200 100 160", 4, INK, ' opacity="0.5"') + st("M 330 300 C 312 250 306 200 300 160", 4, INK, ' opacity="0.5"');
   }
 
-  /* o: { scarf (true | màu), khan, khanSoc, mu (true | màu), muVanh, tuyetDau, blanket, holdL, holdR, packExtra } – mọi id có tiền tố id */
+  /* o: { scarf (true | màu), khan, khanSoc, mu (true | màu), muVanh, tuyetDau, blanket, holdL, holdR, packExtra, phuKien (SVG đeo trên thân, vẽ trên mặt, dưới tay) } – mọi id có tiền tố id */
   function svg(id, o) {
     o = o || {};
     var s = '<g id="' + id + '"><g id="' + id + '-sz"><g id="' + id + '-sh">';
@@ -174,6 +174,7 @@
     s += '<g transform="translate(200,228)">';
     MOUTH_NAMES.forEach(function (m) { s += '<g id="' + id + "-m-" + m + '">' + MOUTHS[m] + "</g>"; });
     s += "</g>";
+    if (o.phuKien) s += '<g id="' + id + '-pk">' + o.phuKien + "</g>";   // đồ đeo trên thân (máy ảnh đeo cổ…), toạ độ gốc 400×400
     if (o.blanket) s += blanket();
     s += arm(id, "L", 88, 210, o.holdL) + arm(id, "R", 312, 210, o.holdR);
     s += "</g></g></g></g></g></g></g>";

@@ -585,6 +585,41 @@
       "gia_tri_dung": null,
       "ghi_chu": "No search tool calls were available in this session (Gemini web, two attempts).",
       "nguon": []
+    },
+    {
+      "id": "C41",
+      "statement": "On 6 February 1933 the weather station at Oymyakon, Russia, recorded about minus 68 degrees Celsius (about minus 90 Fahrenheit); Guinness World Records lists the value as minus 67.7 C and the World Meteorological Organization lists minus 67.8 C.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness World Records lists -67.7 C, WMO lists -67.8 C, and -68 C is a standard rounded equivalent.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "url": "https://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Oymyakon",
+          "url": "https://en.wikipedia.org/wiki/Oymyakon",
+          "publisher": "Wikipedia",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ],
+      "ghi_chu_sao": "Chép từ C04 ngày 21/11/2026: statement của C41 trùng nguyên văn C04 (con số dùng lại ở đoạn mở)."
+    },
+    {
+      "id": "C42",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No search tool was available in this session (Gemini web).",
+      "nguon": [],
+      "ghi_chu_sao": "Chép từ C31 ngày 21/11/2026: statement của C42 trùng nguyên văn C31 (con số dùng lại ở đoạn mở)."
     }
   ],
   "usage": {

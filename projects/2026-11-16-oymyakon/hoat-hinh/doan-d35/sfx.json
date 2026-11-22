@@ -1,0 +1,37 @@
+[
+ {
+  "ten": "boing",
+  "tai": 1.349,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "im-lang",
+  "tai": 7.624,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "whoosh",
+  "tai": 9.2,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "liu-lo-buon",
+  "tai": 10.249,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 14.837,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "bonk",
+  "tai": 15.397,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "bonk",
+  "tai": 15.597,
+  "am_luong": 0.2
+ }
+]

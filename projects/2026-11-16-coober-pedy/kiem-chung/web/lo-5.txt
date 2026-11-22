@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Coober Pedy" (Australia). The episode asks: "Why do people live in Coober Pedy?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C33: There is no reliable count of mine shafts around Coober Pedy; a local rescuer quoted by ABC News estimated around two million.
+C34: Warning signs about unmarked mine shafts are posted widely around the Coober Pedy opal fields.
+C35: In February 2024, a person searching for opal at night with a UV torch in the Coober Pedy opal fields fell about 25 m down an old mine shaft (SafeWork SA incident alert).
+C36: SafeWork SA advises people in the Coober Pedy opal fields to watch their step and warns against walking the fields at night.
+C37: Kanku-Breakaways Conservation Park lies about 25 km north of Coober Pedy.
+C38: Kanku-Breakaways is the traditional country of the Antakirinja Matu-Yankunytjatjara people; the entire park is a registered Aboriginal site under the Aboriginal Heritage Act 1988 and visitors are asked not to touch or remove anything.
+C39: Kanku-Breakaways is owned by the Antakirinja Matu-Yankunytjatjara Aboriginal Corporation and has been co-managed with the South Australian government since 2013.
+C40: On 11 May 2011 the Federal Court of Australia, sitting in Coober Pedy, recognised the Antakirinja Matu-Yankunytjatjara people's native title over 78,672 square kilometres, including the town of Coober Pedy.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

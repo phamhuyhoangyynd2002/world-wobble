@@ -65,8 +65,10 @@
     out.push(VT.line("M 112 112 C 122 96 136 86 152 80", 9, "#ffffff", 0.55));
     out.push("</g>");
     out.push('<path d="' + path + '" fill="none" stroke="' + INK + '" stroke-width="' + SW + '" stroke-linejoin="round"/>');
-    out.push(VT.line("M 300 96 C 286 130 284 168 300 206", 10, PACK_DARK));
-    out.push(VT.line("M 300 96 C 286 130 284 168 300 206", 3, INK, 0.6));
+    if (!o.noPack) {
+      out.push(VT.line("M 300 96 C 286 130 284 168 300 206", 10, PACK_DARK));
+      out.push(VT.line("M 300 96 C 286 130 284 168 300 206", 3, INK, 0.6));
+    }
     if (o.frost) [120, 160, 205, 250].forEach(function (x) {
       out.push('<path d="M ' + (x - 7) + ' 72 L ' + x + ' 96 L ' + (x + 7) + ' 72 Z" fill="' + FROST + '" stroke="' + INK + '" stroke-width="3" stroke-linejoin="round"/>');
     });
@@ -245,11 +247,15 @@
   }
 
   // ---------- đồ mặc ----------
-  function beanie() {
-    return VT.shape("M 118 86 C 118 24 282 24 282 86 Z", MAT, { sw: 6 }) +
+  /** Màu mũ khoá liên tục (19/11/2026, khớp cat-giay, diorama): truyền beanie: "khoa" hoặc {mu, vanh, bong}. beanie: true giữ màu cũ. */
+  VT.MU_KHOA = { mu: "#C9463A", vanh: "#A8352B", bong: "#F6EEDC" };
+  function beanie(spec) {
+    var c = spec === "khoa" ? VT.MU_KHOA : (spec && typeof spec === "object") ? spec : null;
+    var MU = c ? c.mu : MAT, VANH = c ? c.vanh : "#EFE3C8", BONG = c ? c.bong : "#EFE3C8";
+    return VT.shape("M 118 86 C 118 24 282 24 282 86 Z", MU, { sw: 6 }) +
       VT.line("M 150 40 L 156 82", 3, INK, 0.5) + VT.line("M 200 30 L 200 82", 3, INK, 0.5) + VT.line("M 250 40 L 244 82", 3, INK, 0.5) +
-      VT.shape("M 104 104 C 140 76 260 76 296 104 L 292 80 C 256 56 144 56 108 80 Z", "#EFE3C8", { sw: 6 }) +
-      VT.ell(200, 26, 20, 18, "#EFE3C8", 6);
+      VT.shape("M 104 104 C 140 76 260 76 296 104 L 292 80 C 256 56 144 56 108 80 Z", VANH, { sw: 6 }) +
+      VT.ell(200, 26, 20, 18, BONG, 6);
   }
   function scarf(t) {
     var w = t != null ? Math.sin(Math.round(t * 12) * 1.3) * 4 : 0;
@@ -312,7 +318,7 @@
    *  handL/handR: tron|nam|chi|xoe · propBack (sau thân) · prop (giữa tay và bàn tay: bàn tay đè lên vật = đang cầm) · propFront
    *  legs: stand|walk|shiver|apart|tuck|tiptoe · phase, stride (đi bộ, lấy từ VT.buoc) · lift · autoWalk=false để tự điều khiển nhún
    *  pack: góc ba lô (độ, từ VT.conLac) · smear: px (thân kéo thành giọt theo hướng ngược chuyển động)
-   *  cold, frost, beanie, scarf, blanket, snowhat · shiver (px rung) · marks: shiver|shock|sweat */
+   *  cold, frost, beanie (true | "khoa" = màu khoá liên tục | {mu, vanh, bong}), scarf, blanket, snowhat · noPack (không vẽ ba lô + quai: ba lô đã tháo, vẽ riêng bằng VT.backpack) · shiver (px rung) · marks: shiver|shock|sweat */
   VT.wob = function (o) {
     var P = pose(o), sea = o.cold ? SEA_COLD : SEA;
     var jx = 0, jy = 0;
@@ -325,7 +331,7 @@
     var hL = o.handL || preset.handL || preset.hand || "tron", hR = o.handR || preset.handR || preset.hand || "tron";
     var sm = o.smear || 0, path = sm ? smearBody(sm) : BODY, fs = sm ? sm * 0.12 : 0;
     var up = [];
-    up.push(backpack(o.pack || 0));
+    if (!o.noPack) up.push(backpack(o.pack || 0)); // noPack: ba lô đã tháo ra (vẽ riêng bằng VT.backpack)
     if (o.propBack) up.push(o.propBack);
     up.push(body(o, path));
     if (o.scarf) up.push(scarf(o.t));
@@ -335,7 +341,7 @@
     up.push(lashes(o, fs));
     up.push(brows(o.brows, fs));
     up.push(fs ? VT.g("translate(" + f(fs) + " 0)", mouth(o.mouth || "X")) : mouth(o.mouth || "X"));
-    if (o.beanie) up.push(beanie());
+    if (o.beanie) up.push(beanie(o.beanie));
     if (o.snowhat) up.push(snowhat());
     up.push(VT.line(aL.d, 13) + VT.line(aR.d, 13));
     if (o.prop) up.push(o.prop);
@@ -358,5 +364,16 @@
     var s = o.s || 1, fl = o.flip || 1;
     var tr = "translate(" + f(o.x + jx) + " " + f(o.y + jy) + ") scale(" + Math.round(s * fl * 1000) / 1000 + " " + Math.round(s * 1000) / 1000 + ") translate(-200 -392)";
     return VT.g(tr, inner);
+  };
+
+  /** Ba lô tháo rời (cùng hình ba lô của rig): gốc giữa đáy, cao ~190 ở s = 1 (đúng cỡ trên lưng Wob s = 1).
+   *  o: {x, y, s, rot, sx, puff 0..1 (phồng tròn ra), straps (quai đeo mặt trước)}. */
+  VT.backpack = function (o) {
+    var pf = o.puff || 0, inner = VT.line("M 280 70 C 280 34 320 34 320 70", 8) + backpack(0) +
+      VT.line("M 256 150 C 280 166 320 166 344 150", 4, INK, 0.7) + VT.shape("M 288 162 L 310 162 L 310 180 L 288 180 Z", "#E8C25A", { sw: 3 });
+    if (o.straps) inner += VT.line("M 272 110 C 262 160 262 210 276 250", 9, PACK_DARK) + VT.line("M 326 110 C 336 160 336 210 322 250", 9, PACK_DARK) +
+      VT.line("M 272 110 C 262 160 262 210 276 250", 3, INK, 0.6) + VT.line("M 326 110 C 336 160 336 210 322 250", 3, INK, 0.6);
+    var g = VT.g("translate(0 0) scale(" + f(1 + 0.35 * pf) + " " + f(1 + 0.12 * pf) + ") translate(-299 -258)", inner);
+    return VT.wrap(o, g);
   };
 })();

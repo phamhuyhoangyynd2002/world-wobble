@@ -67,3 +67,25 @@
 - Nguồn khí tượng cho +34,6°C.
 - Nguồn học thuật về định cư người chăn tuần lộc ở Oymyakon thập niên 1920–30 (tập thể hoá).
 - Nguồn ngôn ngữ học cho nghĩa của tên.
+
+## 7. Hoạt động và trải nghiệm (thêm 18/11/2026 cho định dạng hoạt hình)
+
+> Chỉ gom lại các sự thật **đã qua cổng kiểm chứng 16/11** (mã khẳng định trong `script.v6-trinh-chieu.json` → `claims`, mức ở `kiem-chung/doi-chieu.json`). Không có nguồn mới. Đường đi Yakutsk → Oymyakon (độ dài, tên đường, số giờ) **chưa kiểm chứng**: kịch bản chỉ được nói chung ("a plane, then a very long drive"), không nêu số.
+
+| # | Hoạt động (Wob làm hoặc thấy) | Sự thật dựa vào | Mảnh "vì sao có người ở đây" | Chất liệu vẽ / gag gợi ý |
+|---|---|---|---|---|
+| H1 | Tới làng giữa mùa đông, đọc biển tên làng, lông mi đóng băng | C01, C02, C03, C24 | Nơi này lạnh và nhỏ tới mức nào | Biển "OYMYAKON ~500"; Wob vốn không có lông mi |
+| H2 | Đi tìm "nước không đóng băng": suối ấm, đàn tuần lộc uống | C13, C14 (dè dặt), C15, C16, C17 | Làng mọc quanh chỗ nước không đóng băng | Wob đi ngang con suối bốc hơi mà không thấy; bản đồ cầm ngược |
+| H3 | Tới đài "Pole of Cold", biết trạm đo nằm giữa Oymyakon và Tomtor; Verkhoyansk cũng giành kỷ lục | C04–C09, C18, C19 | Nhiệt kế làm nên tiếng tăm; trạm khí tượng và sân bay thời Xô viết | Wob chạy qua lại giữa hai làng, rồi thêm làng thứ ba |
+| H4 | Hiểu vì sao lạnh vậy: thung lũng giữ khí lạnh, áp cao Siberia trời quang | C10, C11, C12 | Địa lý, không phải vận rủi | So sánh đời thường: bát đựng khí lạnh, tủ đông mở nắp |
+| H5 | Ngày ngắn: khoảng bốn giờ rưỡi nắng quanh đông chí | C25 | Nhịp sống mùa đông | Wob vừa ra cửa thì trời tối |
+| H6 | Ra chợ: cá bán đông cứng; ăn thịt, cá; khó trồng trọt | C28 | Sống trong tủ đông thế nào | Cá xếp như củi; Wob gõ cá như gõ cửa |
+| H7 | Đất băng vĩnh cửu: khó có ống nước, nhà vệ sinh ngoài trời | C26 | Chi phí của việc ở lại | Wob nhìn đường ra nhà vệ sinh ngoài trời, cân nhắc |
+| H8 | Xe để nổ máy lâu hoặc sưởi bằng lửa trước khi đề | C27 | Người ta thích nghi ra sao | Wob vỗ về chiếc xe như vỗ ngựa |
+| H9 | Trường nghỉ cho học sinh nhỏ khi khoảng −52°C (luật cụ thể khác nhau) | C29 (dè dặt) | Đời thường vẫn chạy ở mức lạnh điên rồ | Wob hỏi có "snow day" không |
+| H10 | Lịch sử: trại Gulag vùng Kolyma, đường Kolyma do tù nhân xây, nhiều người chết | C20, C21, C22 | Bối cảnh vùng; **không** nói Oymyakon do Gulag lập ra | Lịch sử nghiêm túc, không gag |
+| H11 | Quay lại mùa hè: +34,6°C (2010), biên độ ~102°C, ngày dài hơn 20 giờ | C30, C31, C32 | Hai mùa của cùng một nơi; vì sao còn ở | Wob mặc áo lông giữa mùa hè (nói rõ "I went back in July") |
+| H12 | Ngựa Yakut sống ngoài trời quanh năm; nguồn gốc từ ngựa nhà vài thế kỷ trước | C35, C36 | Động vật cũng thích nghi | Con ngựa thờ ơ trước Wob run cầm cập |
+| H13 | Lễ hội Pole of Cold mùa xuân có Chyskhaan (Chúa tể Giá lạnh); marathon 2025 | C38, C39 (dè dặt), C40 | Vì sao khách tới, làng sống nhờ tiếng lạnh | Wob xin chụp với Chyskhaan (vẽ dạng chung, tôn trọng) |
+
+Không dùng: thành phần dân tộc (C33 đã bỏ), dân số huyện (C37 đã bỏ), −71,2°C năm 1924 (mức C, không làm số chính), chính sách buộc định cư (chưa đủ nguồn).

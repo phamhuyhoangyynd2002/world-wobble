@@ -37,11 +37,26 @@ def audio_graph(timeline: dict, with_music: bool, volume: float, fade: float, ba
     inputs: list[str] = []
     parts: list[str] = []
     voice_labels = ["[0:a]"]
-    for i, fx in enumerate(timeline.get("sfx") or []):
+    # Mỗi file sfx chỉ nạp MỘT lần rồi asplit cho mọi lần phát: video hoạt hình có hàng trăm sfx,
+    # mỗi lần phát một "-i" làm dòng lệnh vượt giới hạn Windows (WinError 206, tập 1 Oymyakon 370 sfx).
+    sfx = timeline.get("sfx") or []
+    uses: dict[str, list[int]] = {}
+    for i, fx in enumerate(sfx):
+        uses.setdefault(fx["src"], []).append(i)
+    src_label: dict[int, str] = {}
+    for src, ids in uses.items():
         idx = base_input + len(inputs) // 2
-        inputs += ["-i", fx["src"]]
+        inputs += ["-i", src]
+        if len(ids) == 1:
+            src_label[ids[0]] = f"[{idx}:a]"
+        else:
+            outs = "".join(f"[sp{i}]" for i in ids)
+            parts.append(f"[{idx}:a]asplit={len(ids)}{outs}")
+            for i in ids:
+                src_label[i] = f"[sp{i}]"
+    for i, fx in enumerate(sfx):
         ms = int(fx["at"] * 1000)
-        parts.append(f"[{idx}:a]volume={fx.get('volume', 0.6)},adelay={ms}|{ms}[fx{i}]")
+        parts.append(f"{src_label[i]}volume={fx.get('volume', 0.6)},adelay={ms}|{ms}[fx{i}]")
         voice_labels.append(f"[fx{i}]")
     if len(voice_labels) > 1:
         parts.append(f"{''.join(voice_labels)}amix=inputs={len(voice_labels)}:duration=first:normalize=0[vo]")
@@ -91,12 +106,19 @@ def audio_graph(timeline: dict, with_music: bool, volume: float, fade: float, ba
     return ";".join(parts), inputs
 
 
+def graph_file(out: Path, graph: str, pass_no: int) -> str:
+    """Ghi filtergraph cạnh file ra, trả đường dẫn cho tuỳ chọn -/filter_complex (ffmpeg ≥ 7)."""
+    p = out.with_name(f"{out.stem}.graph{pass_no}.txt")
+    p.write_text(graph, encoding="utf-8")
+    return str(p)
+
+
 def loudnorm_two_pass(raw: Path, graph: str, extra_inputs: list[str], out: Path, tp: float | None = None) -> dict:
     base = ["ffmpeg", "-y", "-hide_banner", "-i", str(raw), *extra_inputs]
     tp = TARGET["TP"] if tp is None else tp
     ln = f"loudnorm=I={TARGET['I']}:TP={tp}:LRA={TARGET['LRA']}"
-    # Lượt 1: đo
-    res = subprocess.run(base + ["-filter_complex", f"{graph};[mix]{ln}:print_format=json[a]",
+    # Lượt 1: đo. Filtergraph ghi ra file (-/filter_complex) để dòng lệnh không quá dài.
+    res = subprocess.run(base + ["-/filter_complex", graph_file(out, f"{graph};[mix]{ln}:print_format=json[a]", 1),
                                  "-map", "[a]", "-f", "null", "-"], capture_output=True, text=True)
     m = re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", res.stderr)
     if res.returncode != 0 or not m:
@@ -106,7 +128,7 @@ def loudnorm_two_pass(raw: Path, graph: str, extra_inputs: list[str], out: Path,
     ln2 = (f"{ln}:measured_I={meas['input_i']}:measured_TP={meas['input_tp']}"
            f":measured_LRA={meas['input_lra']}:measured_thresh={meas['input_thresh']}"
            f":offset={meas['target_offset']}:linear=true")
-    run(base + ["-filter_complex", f"{graph};[mix]{ln2},aresample=48000[a]",
+    run(base + ["-/filter_complex", graph_file(out, f"{graph};[mix]{ln2},aresample=48000[a]", 2),
                 "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                 "-movflags", "+faststart", "-shortest", str(out)])
     return meas

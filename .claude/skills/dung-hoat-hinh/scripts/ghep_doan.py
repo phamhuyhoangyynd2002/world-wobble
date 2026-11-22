@@ -42,11 +42,38 @@ def probe(p: Path) -> dict:
     return {"w": st["width"], "h": st["height"], "fps": float(num) / float(den), "dur": float(j["format"]["duration"])}
 
 
+def khung_noi(pc, out, khong_tron=False):
+    """Bước 5: khung trước/sau mỗi chỗ nối + tong-hop.jpg. Trả về đường dẫn video đã dùng."""
+    # 5. khung kiểm chỗ nối
+    final = out / ("video.mp4" if (out / "video.mp4").exists() and not khong_tron else "render-raw.mp4")
+    shots = []
+    for s1, s2 in zip(pc["doan"], pc["doan"][1:]):
+        t = float(s1["ket_thuc"])
+        for tag, tt in (("truoc", t - 0.2), ("sau", t + 0.2)):
+            f = out / "frames" / f"noi-{s1['id']}-{s2['id']}-{tag}.png"
+            run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, tt):.3f}", "-i", str(final), "-frames:v", "1", str(f)])
+            shots.append(f)
+    if shots:
+        cols = 4
+        rows = (len(shots) + cols - 1) // cols
+        ins = []
+        for f in shots:
+            ins += ["-i", str(f)]
+        lay = "|".join(f"{(k % cols) * 480}_{(k // cols) * 270}" for k in range(len(shots)))
+        sc = ";".join(f"[{k}:v]scale=480:270[s{k}]" for k in range(len(shots)))
+        run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex",
+             sc + ";" + "".join(f"[s{k}]" for k in range(len(shots))) + f"xstack=inputs={len(shots)}:layout={lay}:fill=black",
+             "-frames:v", "1", str(out / "frames" / "tong-hop.jpg")]) if len(shots) > 1 else None
+    return final
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("project")
     ap.add_argument("--cho-thieu", action="store_true")
     ap.add_argument("--khong-tron", action="store_true", help="chỉ ghép hình + giọng, không chạy mix_audio")
+    ap.add_argument("--khong-logo", action="store_true", help="không đóng logo góc phải trên")
+    ap.add_argument("--chi-khung", action="store_true", help="chỉ chụp lại khung chỗ nối từ video đã ghép (bước 5)")
     args = ap.parse_args()
     project = Path(args.project).resolve()
     hh = project / "hoat-hinh"
@@ -55,6 +82,9 @@ def main():
     out = hh / "out"
     out.mkdir(parents=True, exist_ok=True)
     (out / "frames").mkdir(exist_ok=True)
+    if args.chi_khung:
+        print(f"Khung chỗ nối → {khung_noi(pc, out)} · {out / 'frames' / 'tong-hop.jpg'}")
+        return
 
     # 1. kiểm clip
     inputs, filt, warn = [], [], []
@@ -80,7 +110,17 @@ def main():
         filt.append(f"[{i}:v]fps={fps},scale=1920:1080,setsar=1,format=yuv420p,"
                     f"tpad=stop_mode=clone:stop_duration=1,trim=duration={dur:.4f},setpts=PTS-STARTPTS[v{i}]")
     n = len(pc["doan"])
-    filt.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]")
+    logo = REPO / "templates/_shared/logo-goc-video.png"
+    if not args.khong_logo and logo.exists():
+        # Logo nhỏ góc phải trên, mờ 85% (thuong-hieu.md, frame.md); trong vùng an toàn 96/54 px
+        inputs += ["-loop", "1", "-i", str(logo)]
+        filt.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[vc]")
+        # an_logo: [[giây bắt đầu, giây kết thúc], ...] trong phan-canh.json: ẩn logo khi chữ của cảnh nằm dưới góc logo
+        an = pc.get("an_logo") or []
+        en = (":enable='not(" + "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in an) + ")'") if an else ""
+        filt.append(f"[{n}:v]format=rgba,colorchannelmixer=aa=0.85[lg];[vc][lg]overlay=W-w-96:54:shortest=1{en}[v]")
+    else:
+        filt.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]")
     hinh = out / "hinh.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filt), "-map", "[v]",
          "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(fps), str(hinh)])
@@ -139,26 +179,7 @@ def main():
         if r.returncode != 0:
             sys.exit(f"LỖI mix_audio:\n{r.stderr[-2000:]}")
 
-    # 5. khung kiểm chỗ nối
-    final = out / ("video.mp4" if (out / "video.mp4").exists() and not args.khong_tron else "render-raw.mp4")
-    shots = []
-    for s1, s2 in zip(pc["doan"], pc["doan"][1:]):
-        t = float(s1["ket_thuc"])
-        for tag, tt in (("truoc", t - 0.2), ("sau", t + 0.2)):
-            f = out / "frames" / f"noi-{s1['id']}-{s2['id']}-{tag}.png"
-            run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, tt):.3f}", "-i", str(final), "-frames:v", "1", str(f)])
-            shots.append(f)
-    if shots:
-        cols = 4
-        rows = (len(shots) + cols - 1) // cols
-        ins = []
-        for f in shots:
-            ins += ["-i", str(f)]
-        lay = "|".join(f"{(k % cols) * 480}_{(k // cols) * 270}" for k in range(len(shots)))
-        sc = ";".join(f"[{k}:v]scale=480:270[s{k}]" for k in range(len(shots)))
-        run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex",
-             sc + ";" + "".join(f"[s{k}]" for k in range(len(shots))) + f"xstack=inputs={len(shots)}:layout={lay}:fill=black",
-             "-frames:v", "1", str(out / "frames" / "tong-hop.jpg")]) if len(shots) > 1 else None
+    final = khung_noi(pc, out, args.khong_tron)
 
     print(f"Xong: {n} đoạn, {total:.2f} s, {len(sfx)} sfx → {final}")
     from collections import Counter

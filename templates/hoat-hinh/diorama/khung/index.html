@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=1920, height=1080" />
     <title>World Wobble – doan hoat hinh (diorama giay 2.5D)</title>
     <!-- Khung phong cach diorama (templates/hoat-hinh/diorama/khung). Theo templates/hoat-hinh/HOP-DONG.md muc 4:
-         clip cam (khong <audio>), du lieu o du-lieu.js (window.HH_DATA), bien dao o canh.js (window.CANH). -->
+         clip cam (khong <audio>), du lieu o du-lieu.js (window.HH_DATA), bien dao o canh.js (window.CANH).
+         Hai che do: CSS 3D (ban ky vat, so pop-up) va canh ngoai troi 3D (three.js, lib/dio-3d.js). -->
     <script src="_chung/gsap.min.js"></script>
     <style>
       @font-face { font-family: "Fraunces"; src: url("_chung/fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
@@ -29,6 +30,10 @@
     <script src="lib/dio-ban.js"></script>
     <script src="lib/dio-so.js"></script>
     <script src="lib/dio-noi.js"></script>
+    <script src="lib/dio-3d.js"></script>
+    <!-- Che do canh ngoai troi 3D: module nap three.js (lib/vendor, MIT) vao window.THREE. Doan CSS 3D khong dung toi;
+         DIO.chay chi cho three khi canh.js goi api.ngoaiTroi(...) hoac dat window.CANH_3D = true. -->
+    <script type="module" src="lib/dio-3d-nap.js"></script>
     <script src="du-lieu.js"></script>
     <script src="canh.js"></script>
     <script>

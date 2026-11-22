@@ -301,6 +301,37 @@
           "published": null
         }
       ]
+    },
+    {
+      "id": "C42",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Dữ liệu NOAA GHCN-Daily của trạm 24688 ghi nhiệt độ cao nhất 34,6°C ngày 28/7/2010, khớp với bảng khí hậu của pogodaiklimat.",
+      "nguon": [
+        {
+          "title": "GHCN-Daily, trạm RSM00024688 (Oymyakon), TMAX 20–31/7/2010",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=RSM00024688&startDate=2010-07-20&endDate=2010-07-31&dataTypes=TMAX&units=metric",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Климат Оймякона (станция 24688): абсолютные максимумы и минимумы",
+          "publisher": "Погода и климат (pogodaiklimat.ru), dữ liệu trạm Roshydromet",
+          "url": "http://www.pogodaiklimat.ru/climate/24688.htm",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Climate Ojmjakon (station 24688)",
+          "publisher": "Weather and Climate (weatherandclimate.eu)",
+          "url": "https://www.weatherandclimate.eu/climate/24688",
+          "type": "khac",
+          "published": null
+        }
+      ],
+      "ghi_chu_sao": "Chép từ C31 ngày 21/11/2026: statement của C42 trùng nguyên văn C31 (con số dùng lại ở đoạn mở)."
     }
   ]
 }

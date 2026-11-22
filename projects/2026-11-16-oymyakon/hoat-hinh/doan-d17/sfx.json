@@ -1,0 +1,52 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 1.236,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "drop",
+  "tai": 3.573,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "brr",
+  "tai": 12.036,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "whoosh",
+  "tai": 13.423,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "drop",
+  "tai": 15.118,
+  "am_luong": 0.85
+ },
+ {
+  "ten": "boing",
+  "tai": 30.823,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "boing",
+  "tai": 32.148,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "rise",
+  "tai": 35.523,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "whoosh",
+  "tai": 37.203,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "drop",
+  "tai": 37.785,
+  "am_luong": 0.7
+ }
+]

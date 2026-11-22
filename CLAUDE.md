@@ -83,6 +83,7 @@ brief.md ─► research.md ─► script.json ─┬─► kiem-chung/ (Claude 
 | `thu-thap-tai-nguyen` | Bản đồ code, ảnh AI, ảnh Commons, `assets/manifest.json` |
 | `bien-tap-video` | Dựng HyperFrames, render, trộn âm |
 | `dao-dien-hoat-hinh` | Viết `hoat-hinh/phan-canh.json`: chia đoạn, chọn phong cách, biên đạo nhịp, gag |
+| `duyet-phan-canh` | Duyệt từng đoạn và tổng thể: bảng phân cảnh trước khi dựng (cổng 5a), tờ khung hình sau khi dựng (cổng 6a) |
 | `dung-cat-giay` · `dung-ve-tay` · `dung-diorama` | Dựng các đoạn của phong cách mình thành clip câm (chạy song song) |
 | `kiem-dinh-video` | Kỹ thuật, bản quyền, chủ quyền, xem khung hình |
 | `phan-bien-video` | "Chê thẳng" như người xem YouTube, 5 việc nên sửa |

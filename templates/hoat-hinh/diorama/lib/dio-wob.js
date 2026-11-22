@@ -143,10 +143,22 @@
       if (o.trangPhuc) api.trangPhuc(w, o.trangPhuc);
       return w;
     };
-    // Trang phục (đặt ngay, hoặc tại t nếu có): { mu, khan, chan, mi (lông mi đóng băng) }
+    // Trang phục (đặt ngay, hoặc tại t nếu có): { mu, khan, chan, mi (lông mi đóng băng), muMau, muVanh, muBong, muSoc, khanMau }
     api.trangPhuc = function (w, tp, t) {
       var set = function (el, v) { if (t == null) gsap.set(el, v); else tl.set(el, v, t); };
       if (tp.mu != null) set(w.beanie, { opacity: tp.mu ? 1 : 0 });
+      // Màu mũ len (19/11/2026, khớp cat-giay: muMau "#C9463A", muVanh "#A8352B", muBong "#F6EEDC"). Không truyền: giữ mũ TEAL cũ.
+      if (tp.muMau || tp.muVanh || tp.muBong) {
+        var bk = w.beanie.children;   // [0] chỏm, [1] sọc len, [2] vành, [3] quả bông
+        if (tp.muMau) { set(bk[0], { attr: { fill: tp.muMau } }); set(bk[1], { attr: { stroke: tp.muSoc || "#8E2C24" } }); }
+        if (tp.muVanh) set(bk[2], { attr: { fill: tp.muVanh } });
+        if (tp.muBong) set(bk[3], { attr: { fill: tp.muBong } });
+      }
+      // Màu khăn (19/11/2026): khanMau, ví dụ "#D9543C" (màu khăn chuẩn tập 1). Không truyền: giữ khăn TERRA cũ.
+      if (tp.khanMau) {
+        if (!w.khanTo) w.khanTo = Array.prototype.filter.call(w.scarf.querySelectorAll("path"), function (el) { return el.getAttribute("fill") === C.TERRA; });
+        set(w.khanTo, { attr: { fill: tp.khanMau } });
+      }
       if (tp.khan != null) set(w.scarf, { opacity: tp.khan ? 1 : 0 });
       if (tp.chan != null) { set(w.blanket, { opacity: tp.chan ? 1 : 0 }); set(w.cheeks, { opacity: tp.chan ? 0 : 1 }); }
       if (tp.mi != null) { set([w.lashL, w.lashR], { scale: tp.mi ? 1 : 0 }); set(w.lashIce, { opacity: tp.mi ? 1 : 0 }); set(w.lashStroke, { stroke: tp.mi ? C.ICE2 : INK }); }

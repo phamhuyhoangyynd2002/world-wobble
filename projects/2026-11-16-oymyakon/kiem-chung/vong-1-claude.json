@@ -837,6 +837,61 @@
           "published": "2025-01-14"
         }
       ]
+    },
+    {
+      "id": "C41",
+      "statement": "On 6 February 1933 the weather station at Oymyakon, Russia, recorded about minus 68 degrees Celsius (about minus 90 Fahrenheit); Guinness World Records lists the value as minus 67.7 C and the World Meteorological Organization lists minus 67.8 C.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness ghi -67,7°C, bảng WMO ghi -67,8°C cho ngày 6/2/1933, đúng như câu đã nêu.",
+      "nguon": [
+        {
+          "title": "Lowest temperature - inhabited",
+          "publisher": "Guinness World Records",
+          "url": "http://www.guinnessworldrecords.com/world-records/lowest-temperature-inhabited",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "WMO Weather and Climate Extremes Archive: Lowest Temperature (Asia) -67.8°C",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Temp_014",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Полюс холода: Оймякон (Томтор) и Верхоянск",
+          "publisher": "Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/4127583",
+          "type": "bao",
+          "published": null
+        }
+      ],
+      "ghi_chu_sao": "Chép từ C04 ngày 21/11/2026: statement của C41 trùng nguyên văn C04 (con số dùng lại ở đoạn mở)."
+    },
+    {
+      "id": "C42",
+      "statement": "Oymyakon's weather station recorded a high of 34.6 degrees Celsius (about 94 Fahrenheit) in July 2010.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bảng khí hậu trạm 24688 ghi mức cao kỷ lục tháng 7 và cả năm là 34,6°C vào năm 2010.",
+      "nguon": [
+        {
+          "title": "Климат Оймякона (станция 24688): абсолютные максимумы и минимумы",
+          "publisher": "Погода и климат (pogodaiklimat.ru), dữ liệu trạm Roshydromet",
+          "url": "http://www.pogodaiklimat.ru/climate/24688.htm",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Climate Ojmjakon (station 24688)",
+          "publisher": "Weather and Climate (weatherandclimate.eu)",
+          "url": "https://www.weatherandclimate.eu/climate/24688",
+          "type": "khac",
+          "published": null
+        }
+      ],
+      "ghi_chu_sao": "Chép từ C31 ngày 21/11/2026: statement của C42 trùng nguyên văn C31 (con số dùng lại ở đoạn mở)."
     }
   ]
 }

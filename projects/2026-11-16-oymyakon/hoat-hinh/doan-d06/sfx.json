@@ -1,0 +1,102 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0.6,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 2.23,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "may-no",
+  "tai": 2.25,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "may-no",
+  "tai": 3.212,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "whoosh",
+  "tai": 3.812,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "may-no",
+  "tai": 5.05,
+  "am_luong": 0.22
+ },
+ {
+  "ten": "pop",
+  "tai": 5.1,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "boing",
+  "tai": 6.42,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "may-no",
+  "tai": 6.487,
+  "am_luong": 0.16
+ },
+ {
+  "ten": "boing",
+  "tai": 7.12,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "bonk",
+  "tai": 7.887,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 8.357,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "whoosh",
+  "tai": 8.75,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "bonk",
+  "tai": 9.1,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 9.279,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 9.3,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "ting",
+  "tai": 11.395,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "drop",
+  "tai": 13.387,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "liu-lo-soc",
+  "tai": 14.8,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "pop",
+  "tai": 15.2,
+  "am_luong": 0.5
+ }
+]
