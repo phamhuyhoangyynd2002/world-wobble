@@ -56,3 +56,6 @@ projects/**/hoat-hinh/**/*.png
 projects/**/hoat-hinh/**/*.jpg
 projects/**/out/**/*.png
 projects/**/out/**/*.jpg
+
+# Clip dọc dựng lại được từ video dài
+projects/*/out/clip-doc/*.mp4
