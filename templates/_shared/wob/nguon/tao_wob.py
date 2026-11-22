@@ -29,6 +29,7 @@ MAT = "#d9543c"
 SHOE = "#d9543c"
 FROST = "#e8f6ff"
 SWEAT = "#8fd0ea"
+ACC_STAR = "#f6c445"
 
 SW = 7  # độ dày nét viền chính
 CX, CY, R = 200, 178, 122
@@ -176,6 +177,56 @@ def eyes(kind):
             o.append(el("circle", cx=x - 9, cy=y + 2, r=11, fill=INK))
         o.append(stroke("M %d %d L %d %d" % (lx - 18, y - 42, lx + 28, y - 32), 6))
         o.append(stroke("M %d %d L %d %d" % (rx - 16, y - 32, rx + 30, y - 42), 6))
+    elif kind == "cong":  # vui: mắt cong ^ ^
+        for x in (lx, rx):
+            o.append(stroke("M %d %d C %d %d %d %d %d %d" % (x - 22, y + 8, x - 12, y - 18, x + 12, y - 18, x + 22, y + 8), 8))
+    elif kind == "buon":  # chân mày xếch lên giữa, con ngươi nhìn xuống
+        for x, s in ((lx, 1), (rx, -1)):
+            o.append(el("ellipse", cx=x, cy=y + 4, rx=23, ry=27, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(el("circle", cx=x, cy=y + 14, r=11, fill=INK))
+            o.append(el("circle", cx=x + 4, cy=y + 9, r=4, fill="#ffffff"))
+            o.append(stroke("M %d %d L %d %d" % (x - 24 * s, y - 30, x + 20 * s, y - 44), 6))
+    elif kind == "tuc":  # chân mày chụm xuống
+        for x, s in ((lx, 1), (rx, -1)):
+            o.append(el("ellipse", cx=x, cy=y + 6, rx=22, ry=22, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(el("circle", cx=x + 5 * s, cy=y + 8, r=10, fill=INK))
+            o.append(stroke("M %d %d L %d %d" % (x - 28 * s, y - 30, x + 22 * s, y - 12), 8))
+    elif kind == "so":  # sợ: mắt to run, chân mày lượn sóng
+        for x, s in ((lx - 2, 1), (rx + 2, -1)):
+            o.append(el("ellipse", cx=x, cy=y, rx=27, ry=33, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(el("circle", cx=x + 2 * s, cy=y + 6, r=7, fill=INK))
+            o.append(stroke("M %d %d C %d %d %d %d %d %d" % (x - 22, y - 46, x - 10, y - 56, x + 4, y - 40, x + 22, y - 52), 6))
+    elif kind == "ngu":  # buồn ngủ: mí sụp nửa mắt
+        for x in (lx, rx):
+            o.append(el("ellipse", cx=x, cy=y + 6, rx=23, ry=22, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(el("circle", cx=x, cy=y + 16, r=9, fill=INK))
+            o.append('<path d="M %d %d C %d %d %d %d %d %d Z" fill="%s" stroke="%s" stroke-width="5"/>' % (
+                x - 24, y + 8, x - 22, y - 24, x + 22, y - 24, x + 24, y + 8, SEA, INK))
+    elif kind == "tim":  # mê tít: mắt trái tim
+        for x in (lx, rx):
+            o.append('<path d="M %d %d C %d %d %d %d %d %d C %d %d %d %d %d %d Z" fill="%s" stroke="%s" stroke-width="5" stroke-linejoin="round"/>' % (
+                x, y + 26, x - 40, y - 2, x - 18, y - 36, x, y - 14, x + 18, y - 36, x + 40, y - 2, x, y + 26, MAT, INK))
+            o.append(el("circle", cx=x - 10, cy=y - 12, r=4, fill="#ffffff"))
+    elif kind == "xoay":  # choáng: mắt xoắn ốc
+        for x in (lx, rx):
+            o.append(el("circle", cx=x, cy=y, r=26, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(stroke("M %d %d C %d %d %d %d %d %d C %d %d %d %d %d %d C %d %d %d %d %d %d" % (
+                x, y, x + 6, y - 6, x + 12, y + 4, x + 4, y + 10, x - 8, y + 16, x - 16, y - 4, x - 6, y - 14,
+                x + 8, y - 22, x + 22, y - 6, x + 18, y + 10), 4))
+    elif kind == "nham":  # cười lăn: mắt nhắm > <
+        o.append(stroke("M %d %d L %d %d L %d %d" % (lx - 20, y - 14, lx + 16, y, lx - 20, y + 14), 8))
+        o.append(stroke("M %d %d L %d %d L %d %d" % (rx + 20, y - 14, rx - 16, y, rx + 20, y + 14), 8))
+    elif kind == "nghi":  # nghi ngờ: mắt dẹt liếc ngang, một chân mày nhướn
+        for x in (lx, rx):
+            o.append(el("ellipse", cx=x, cy=y + 6, rx=24, ry=14, fill=EYE, stroke=INK, stroke_width=5))
+            o.append(el("circle", cx=x - 10, cy=y + 6, r=9, fill=INK))
+        o.append(stroke("M %d %d L %d %d" % (lx - 24, y - 14, lx + 24, y - 12), 6))
+        o.append(stroke("M %d %d C %d %d %d %d %d %d" % (rx - 24, y - 30, rx - 8, y - 48, rx + 10, y - 48, rx + 26, y - 36), 6))
+    elif kind == "sao":  # mắt sao lấp lánh
+        for x in (lx, rx):
+            o.append(el("ellipse", cx=x, cy=y, rx=26, ry=31, fill=EYE, stroke=INK, stroke_width=5))
+            o.append('<path d="M %d %d L %d %d L %d %d L %d %d L %d %d L %d %d L %d %d L %d %d Z" fill="%s" stroke="%s" stroke-width="3" stroke-linejoin="round"/>' % (
+                x, y - 20, x + 6, y - 6, x + 20, y, x + 6, y + 6, x, y + 20, x - 6, y + 6, x - 20, y, x - 6, y - 6, ACC_STAR, INK))
     o.append("</g>")
     return "".join(o)
 
@@ -197,6 +248,26 @@ def mouth(kind):
         o.append(stroke("M 172 230 C 190 226 212 236 232 226", 6))
     elif kind == "cuoi-nhech":
         o.append(stroke("M 176 222 C 196 240 222 236 236 214", 6))
+    elif kind == "cuoi":
+        o.append('<path d="M 168 216 C 180 246 220 246 232 216 C 214 224 186 224 168 216 Z" fill="%s" stroke="%s" stroke-width="6" stroke-linejoin="round"/>' % (INK, INK))
+    elif kind == "meu":
+        o.append(stroke("M 170 240 C 184 216 216 216 230 240", 6))
+    elif kind == "nghien":  # nghiến răng
+        o.append('<rect x="164" y="218" width="72" height="24" rx="6" fill="%s" stroke="%s" stroke-width="6"/>' % (EYE, INK))
+        o.append(stroke("M 166 230 L 234 230", 4) + stroke("M 188 220 L 188 240", 4) + stroke("M 212 220 L 212 240", 4))
+    elif kind == "song":  # miệng run lượn sóng
+        o.append(stroke("M 166 230 L 178 222 L 190 234 L 202 222 L 214 234 L 226 222 L 236 230", 6))
+    elif kind == "ngap":  # ngáp
+        o.append(el("ellipse", cx=200, cy=232, rx=20, ry=15, fill=INK))
+    elif kind == "cuoi-lon":  # cười há to
+        o.append('<path d="M 150 208 C 160 272 240 272 250 208 Z" fill="%s" stroke="%s" stroke-width="6" stroke-linejoin="round"/>' % (INK, INK))
+        o.append('<path d="M 172 240 C 188 262 212 262 228 240 C 214 230 186 230 172 240 Z" fill="%s"/>' % CHEEK)
+        o.append('<path d="M 160 212 L 240 212 L 236 222 L 164 222 Z" fill="%s"/>' % EYE)
+    elif kind == "xeo":  # méo lệch
+        o.append(stroke("M 176 230 C 196 222 214 224 228 214", 6))
+    elif kind == "choang":  # choáng: miệng lượn, lè lưỡi lệch
+        o.append(stroke("M 168 222 C 184 236 200 214 216 228 C 224 234 232 226 236 220", 6))
+        o.append('<path d="M 206 226 C 204 248 226 250 224 228 Z" fill="%s" stroke="%s" stroke-width="5" stroke-linejoin="round"/>' % (CHEEK, INK))
     o.append("</g>")
     return "".join(o)
 
@@ -230,6 +301,30 @@ def arms(kind):
     elif kind == "keo-vali":  # đóng gói: một tay chỉ đường, một tay kéo quai ba lô
         o.append(stroke("M 86 204 C 74 198 62 190 52 180", 13) + hand(48, 176))
         o.append(stroke("M 316 206 C 330 180 322 150 304 132", 13) + hand(302, 128))
+    elif kind == "vay":  # vẫy chào: tay trái giơ cao, tay phải buông
+        o.append(stroke("M 86 198 C 62 176 46 146 44 110", 13) + hand(44, 104))
+        o.append(stroke("M 316 212 C 330 246 334 274 326 300", 13) + hand(326, 304))
+    elif kind == "chong-hong":  # tay chống hông
+        o.append(stroke("M 86 196 C 50 210 48 246 84 262", 13) + hand(88, 262))
+        o.append(stroke("M 314 196 C 350 210 352 246 316 262", 13) + hand(312, 262))
+    elif kind == "che-mat":  # sợ: hai tay co lên trước mặt
+        o.append(stroke("M 86 214 C 70 200 76 176 100 166", 13) + hand(104, 164))
+        o.append(stroke("M 314 214 C 330 200 324 176 300 166", 13) + hand(296, 164))
+    elif kind == "chap-tay":  # mê tít: chắp tay trước ngực
+        o.append(stroke("M 88 212 C 110 246 150 270 190 264", 13) + hand(192, 262))
+        o.append(stroke("M 312 212 C 290 246 250 270 210 264", 13) + hand(208, 262))
+    elif kind == "om-bung":  # cười ôm bụng
+        o.append(stroke("M 86 212 C 100 252 130 280 166 282", 13) + hand(170, 282))
+        o.append(stroke("M 314 212 C 300 252 270 280 234 282", 13) + hand(230, 282))
+    elif kind == "dui-mat":  # buồn ngủ: một tay dụi mắt
+        o.append(stroke("M 86 214 C 70 250 74 276 82 300", 13) + hand(82, 304))
+        o.append(stroke("M 316 214 C 312 196 290 180 262 176", 13) + hand(258, 176))
+    elif kind == "khoanh":  # khoanh tay
+        o.append(stroke("M 86 210 C 110 254 180 262 250 236", 13) + hand(254, 234))
+        o.append(stroke("M 314 210 C 290 250 220 264 150 240", 13) + hand(146, 238))
+    elif kind == "lac-lu":  # choáng: tay vung lỏng
+        o.append(stroke("M 84 204 C 56 196 40 216 28 240", 13) + hand(26, 244))
+        o.append(stroke("M 316 204 C 344 180 352 150 370 136", 13) + hand(372, 132))
     o.append("</g>")
     return "".join(o)
 
@@ -262,6 +357,54 @@ def extras(kind):
                 x, y - s, x + s * 0.35, y, x, y + s, x - s * 0.35, y, LAND, INK))
             o.append('<path d="M %d %d L %d %d L %d %d L %d %d Z" fill="%s" stroke="%s" stroke-width="3" stroke-linejoin="round"/>' % (
                 x - s, y, x, y - s * 0.35, x + s, y, x, y + s * 0.35, LAND, INK))
+    elif kind == "vui-ve":  # nét vẫy cạnh bàn tay
+        o.append(stroke("M 16 96 C 10 110 10 124 16 136", 5) + stroke("M 70 80 C 80 90 84 104 80 118", 5))
+    elif kind == "buon":  # giọt nước mắt + đám mây nhỏ
+        o.append('<path d="M 150 186 C 140 206 140 218 150 222 C 160 218 160 206 150 186 Z" fill="%s" stroke="%s" stroke-width="4"/>' % (SWEAT, INK))
+        o.append('<path d="M 150 40 C 150 20 180 14 192 28 C 204 10 238 16 238 38 C 256 38 260 62 240 66 L 160 66 C 136 66 134 42 150 40 Z" fill="#c9d3d6" stroke="%s" stroke-width="5" stroke-linejoin="round"/>' % INK)
+        for x in (170, 200, 228):
+            o.append(stroke("M %d 76 L %d 92" % (x, x - 4), 4, SWEAT))
+    elif kind == "tuc-gian":  # dấu giận + khói
+        o.append('<g transform="translate(316 70)">' + stroke("M -14 -4 C -6 -4 -4 -6 -4 -14", 6, MAT) + stroke("M 4 -14 C 4 -6 6 -4 14 -4", 6, MAT)
+                 + stroke("M 14 4 C 6 4 4 6 4 14", 6, MAT) + stroke("M -4 14 C -4 6 -6 4 -14 4", 6, MAT) + "</g>")
+        for x, s in ((60, 1), (340, -1)):
+            o.append('<path d="M %d 40 C %d 20 %d 10 %d 26 C %d 8 %d 8 %d 30 C %d 44 %d 50 %d 40 Z" fill="#d8d2c4" stroke="%s" stroke-width="4"/>' % (
+                x, x - 14 * s, x + 4 * s, x + 10 * s, x + 20 * s, x + 34 * s, x + 30 * s, x + 26 * s, x + 6 * s, x, INK))
+    elif kind == "so-hai":  # mồ hôi lạnh + vạch run
+        for x, y in ((88, 96), (312, 96)):
+            o.append('<path d="M %d %d C %d %d %d %d %d %d C %d %d %d %d %d %d Z" fill="%s" stroke="%s" stroke-width="4"/>' % (
+                x, y, x - 10, y + 16, x - 10, y + 28, x, y + 30, x + 10, y + 28, x + 10, y + 16, x, y, SWEAT, INK))
+        for x, s in ((26, 1), (374, -1)):
+            for y in (230, 260, 290):
+                o.append(stroke("M %d %d L %d %d" % (x, y, x + 16 * s, y), 5, INK, ' opacity="0.7"'))
+    elif kind == "buon-ngu":  # chữ Z vẽ bằng nét
+        for x, y, s in ((300, 70, 18), (336, 40, 24), (376, 6, 0)):
+            if s:
+                o.append(stroke("M %d %d L %d %d L %d %d L %d %d" % (x, y, x + s, y, x, y + s, x + s, y + s), 5))
+        o.append('<path d="M 140 196 C 130 214 132 224 140 228 C 148 224 150 214 140 196 Z" fill="%s" stroke="%s" stroke-width="3"/>' % (SWEAT, INK))
+    elif kind == "me-tit":  # tim bay
+        for x, y, s in ((54, 70, 1.0), (346, 50, 0.8), (36, 200, 0.6), (370, 190, 0.7)):
+            o.append('<path d="M 0 16 C -24 0 -12 -22 0 -8 C 12 -22 24 0 0 16 Z" transform="translate(%d %d) scale(%.1f)" fill="%s" stroke="%s" stroke-width="4" stroke-linejoin="round"/>' % (x, y, s * 1.4, MAT, INK))
+    elif kind == "choang-vang":  # sao bay vòng quanh đầu
+        o.append('<ellipse cx="200" cy="40" rx="120" ry="22" fill="none" stroke="%s" stroke-width="3" stroke-dasharray="10 10" opacity="0.6"/>' % INK)
+        for x, y in ((96, 46), (200, 18), (300, 52)):
+            o.append('<path d="M %d %d L %d %d L %d %d L %d %d L %d %d L %d %d L %d %d L %d %d Z" fill="%s" stroke="%s" stroke-width="3" stroke-linejoin="round"/>' % (
+                x, y - 16, x + 5, y - 5, x + 16, y, x + 5, y + 5, x, y + 16, x - 5, y + 5, x - 16, y, x - 5, y - 5, ACC_STAR, INK))
+    elif kind == "cuoi-lan":  # nước mắt vì cười văng ra hai bên
+        for x, s in ((120, -1), (280, 1)):
+            o.append('<path d="M %d 150 C %d 140 %d 150 %d 166 C %d 176 %d 172 %d 150 Z" fill="%s" stroke="%s" stroke-width="4"/>' % (
+                x, x + 20 * s, x + 34 * s, x + 30 * s, x + 20 * s, x + 6 * s, x, SWEAT, INK))
+        for d in ("M 60 60 L 40 36", "M 340 60 L 360 36", "M 30 120 L 6 112", "M 370 120 L 394 112"):
+            o.append(stroke(d, 6))
+    elif kind == "nghi-ngo":  # dấu hỏi vẽ nét
+        o.append(stroke("M 330 40 C 330 14 372 12 372 38 C 372 58 350 58 350 78", 8))
+        o.append(el("circle", cx=350, cy=98, r=6, fill=INK))
+    elif kind == "lap-lanh":  # lấp lánh quanh người
+        for x, y, s in ((40, 40, 18), (360, 30, 14), (30, 230, 12), (372, 220, 16), (200, 12, 10)):
+            o.append('<path d="M %d %d L %d %d L %d %d L %d %d Z" fill="%s" stroke="%s" stroke-width="3" stroke-linejoin="round"/>' % (
+                x, y - s, x + s * 0.3, y, x, y + s, x - s * 0.3, y, ACC_STAR, INK))
+            o.append('<path d="M %d %d L %d %d L %d %d L %d %d Z" fill="%s" stroke="%s" stroke-width="3" stroke-linejoin="round"/>' % (
+                x - s, y, x, y - s * 0.3, x + s, y, x, y + s * 0.3, ACC_STAR, INK))
     o.append("</g>")
     return "".join(o)
 
@@ -274,7 +417,20 @@ EXPRESSIONS = {
     "soc":       ("tron-xoe", "chu-o",     "dang-ra",     "dung",   0, {}),
     "ngam-nghi": ("lech",     "ngang",     "chong-cam",   "dung",  -5, {}),
     "dong-goi":  ("quyet",    "cuoi-nhech", "keo-vali",   "buoc",  -10, {}),
+    # thêm 22/11/2026
+    "vui-ve":      ("cong",  "cuoi",     "vay",       "dung",  -6, {}),
+    "buon":        ("buon",  "meu",      "buong-thong", "dung", 4, {}),
+    "tuc-gian":    ("tuc",   "nghien",   "chong-hong", "dung",  0, {}),
+    "so-hai":      ("so",    "song",     "che-mat",   "run",    3, {}),
+    "buon-ngu":    ("ngu",   "ngap",     "dui-mat",   "dung",   7, {}),
+    "me-tit":      ("tim",   "cuoi-to",  "chap-tay",  "nhay",  -4, {}),
+    "choang-vang": ("xoay",  "choang",   "lac-lu",    "buoc",  12, {}),
+    "cuoi-lan":    ("nham",  "cuoi-lon", "om-bung",   "nhay",  -9, {}),
+    "nghi-ngo":    ("nghi",  "xeo",      "khoanh",    "dung",  -3, {}),
+    "lap-lanh":    ("sao",   "cuoi-to",  "gio-cao",   "nhay",   0, {}),
 }
+
+NO_CHEEKS = {"lanh-run", "so-hai", "tuc-gian", "buon"}
 
 
 def build(name):
@@ -286,7 +442,7 @@ def build(name):
         '<g id="wob-tren" transform="rotate(%d 200 290)">' % rot,
         backpack(),
         body(**bodyargs),
-        cheeks() if name != "lanh-run" else "",
+        cheeks() if name not in NO_CHEEKS else "",
         eyes(e),
         mouth(m),
         arms(a),  # tay vẽ sau mặt để tay chống cằm, tay ôm mình nằm trên thân
