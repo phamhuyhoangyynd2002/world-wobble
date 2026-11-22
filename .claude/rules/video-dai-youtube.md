@@ -43,7 +43,7 @@ Với video dài, tỉ lệ nhấp thumbnail quyết định nhiều hơn video 
 
 - Chỉ cắt từ video dài đã đăng, chọn đoạn tự đứng được 30–60 giây, dựng lại khung 9:16 (không chỉ thêm viền). Cuối Shorts dẫn về video dài.
 - Mỗi Shorts vẫn phải có nội dung đã kiểm chứng như bản dài; không thêm khẳng định mới.
-- TODO: skill cắt Shorts khi đã có 3–5 video dài.
+- Skill `cat-clip-doc` (23/11/2026): gợi ý đoạn, dựng bố cục dọc (câu mồi, cảnh 4:3, phụ đề từng từ, Wob, thẻ cuối dẫn về bản dài).
 
 ## Tần suất
 

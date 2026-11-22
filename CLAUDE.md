@@ -33,6 +33,7 @@ Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên h�
 | Kiểm tra trước khi giao | `/kiem-tra-video <thư mục dự án>` |
 | Tiêu đề, mô tả, thumbnail | `/seo-youtube <thư mục dự án>` |
 | Thumbnail + điền form YouTube Studio | `/dang-bai <thư mục dự án>` |
+| Cắt clip dọc 9:16 (Shorts, TikTok, Reels) từ video dài | `/cat-clip-doc <thư mục dự án>` |
 | Dán số liệu sau khi đăng để kênh học | `/phan-tich-hieu-qua` |
 | Tạo / sửa template | `/tao-template <tên>` |
 
@@ -99,7 +100,8 @@ Vòng 2 kiểm chứng không phải agent: mặc định chạy qua **Gemini we
 - Người làm kênh tự điền và **ghi sổ giấy phép**: `music/` + `music/GIAY-PHEP.md`; `sfx/` đã có bộ tự tổng hợp (`sfx/nguon/tao_sfx.py`) kèm sổ. File không có trong sổ sẽ bị chặn.
 - Bản đồ nền Natural Earth (bản quan điểm Việt Nam) tự tải vào `.cache/` lần đầu.
 - **Ảnh AI chia hạng (chốt 17/11/2026):** biên kịch chấm mỗi ảnh trong `script.json` → `anh_ai` ([hang-anh.md](.claude/skills/viet-kich-ban/references/hang-anh.md)). Ảnh chính tạo bằng nguồn ngoài (Gemini API hoặc `/tao-anh-web`). Ảnh phụ tạo nội bộ bằng ComfyUI ở `D:/ComfyUI` (SDXL base 1.0) qua `tao_anh_noi_bo.py`; chia việc bằng `ke_hoach_anh.py`. Cài đặt và kết quả thử: [docs/thu-nghiem-comfyui-2026-11-17.md](docs/thu-nghiem-comfyui-2026-11-17.md).
+- **Không phụ thuộc một công cụ AI (chốt 22/11/2026):** công cụ nào tắc (thiếu key, Browser MCP tạm dừng, hết lượt, lỗi tìm kiếm) thì tự chuyển sang công cụ khác, không dừng chờ. Ảnh chính: Gemini API → `/tao-anh-web` (ChatGPT web, Gemini web) → ComfyUI nội bộ (ghi lý do vào `ke-hoach-anh.json`). Kiểm chứng vòng 2: bất kỳ mô hình không phải Claude có tìm kiếm web (Gemini web → ChatGPT web → Perplexity/Copilot… → API), xem skill `kiem-chung`.
 
 ## Việc còn mở (xem TODO trong hồ sơ kênh)
 
-Chọn giọng Azure en-US; phong cách ảnh (`templates/_shared/phong-cach-anh.txt`); sổ nhạc; `AZURE_SPEECH_KEY`, `GEMINI_API_KEY` (repo chưa có `.env`); script dựng thumbnail; tải video lên bằng YouTube Data API (hiện người làm kênh tự kéo file vào YouTube Studio vì Browser MCP chỉ nhận file dưới 50 MB); skill cắt Shorts từ video dài.
+Chọn giọng Azure en-US; phong cách ảnh (`templates/_shared/phong-cach-anh.txt`); sổ nhạc; `AZURE_SPEECH_KEY`, `GEMINI_API_KEY` (repo chưa có `.env`); script dựng thumbnail; tải video lên bằng YouTube Data API (hiện người làm kênh tự kéo file vào YouTube Studio vì Browser MCP chỉ nhận file dưới 50 MB).
