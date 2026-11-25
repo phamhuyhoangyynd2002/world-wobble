@@ -30,6 +30,7 @@ Hướng dẫn và báo cáo viết tiếng Việt; lời đọc, chữ trên h�
 | Giọng đọc + timeline | `/long-tieng <thư mục dự án>` |
 | Render MP4 (kiểu trình chiếu cũ) | `/xuat-video <thư mục dự án>` |
 | Dựng hoạt hình phối 3 phong cách (phân cảnh → 3 agent dựng song song → ghép) | `/dung-hoat-hinh <thư mục dự án>` |
+| Khung mở (thẻ hộ chiếu) và đuôi tập dẫn sang tập khác | `/mo-ket <thư mục dự án>` |
 | Kiểm tra trước khi giao | `/kiem-tra-video <thư mục dự án>` |
 | Tiêu đề, mô tả, thumbnail | `/seo-youtube <thư mục dự án>` |
 | Thumbnail + điền form YouTube Studio | `/dang-bai <thư mục dự án>` |
@@ -63,6 +64,7 @@ brief.md ─► research.md ─► script.json ─┬─► kiem-chung/ (Claude 
 - [mau-bao-cao-xac-thuc.md](kenh/mau-bao-cao-xac-thuc.md): mẫu báo cáo giao cùng mỗi video (`bao_cao.py` sinh theo mẫu này).
 - [bai-hoc.md](kenh/bai-hoc.md): bài học rút từ số liệu thật.
 - Căn cứ chọn kênh, mảng, công cụ: [docs/danh-gia-thi-truong-kenh-dai-en-ja-2026-11-14.md](docs/danh-gia-thi-truong-kenh-dai-en-ja-2026-11-14.md) và dữ liệu đo trong [docs/du-lieu-kenh-dai-2026-11-14/](docs/du-lieu-kenh-dai-2026-11-14/).
+- Bài học đợt nghiên cứu 24/11/2026 (đo ngách bằng video năm nay, văn kiểu AI, giọng đọc AI, ảnh AI con vật, kênh thứ hai động vật làm riêng): [docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md](docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md).
 - Hệ thiết kế video (bản tạm): [templates/_shared/frame.md](templates/_shared/frame.md).
 
 ## Bộ quy tắc ([.claude/rules/](.claude/rules/), nạp tự động)
@@ -95,6 +97,7 @@ Vòng 2 kiểm chứng không phải agent: mặc định chạy qua **Gemini we
 ## Môi trường
 
 - **Node 22+** cho HyperFrames. Máy này mặc định Node 20; Node 22 có qua nvm: `export PATH=$HOME/.nvm/versions/node/v22.23.3/bin:$PATH` trước mỗi lệnh `npx hyperframes` trên máy Mac cũ; máy Windows hiện tại đã có Node 22.14 trong PATH (không sửa `.npmrc`). `npm install` một lần ở gốc repo để có `d3-geo` (vẽ bản đồ).
+- **File lớn ở ổ D (chốt 24/11/2026):** video cuối và bản nháp ở `D:\YouTube\world-wobble\video\tap-NN-<slug>\`, file trung gian lớn của tập đã giao ở `D:\YouTube\world-wobble\du-an\`, render tạm `D:\YouTube\world-wobble\tmp`. Quy ước trong `D:\YouTube\world-wobble\README.md`. Repo ở ổ C chỉ giữ file nhẹ.
 - FFmpeg, Chrome. Python 3.9+ với `pip install azure-cognitiveservices-speech faster-whisper pillow`; `edge-tts` chỉ để nháp.
 - `.env` (mẫu ở `.env.example`): `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`, `GEMINI_API_KEY`, `GEMINI_MODEL` (có tìm kiếm web), `GEMINI_IMAGE_MODEL`. Chọn model bằng `python3 .claude/skills/kiem-chung/scripts/gemini_kiem_chung.py --list-models`.
 - Người làm kênh tự điền và **ghi sổ giấy phép**: `music/` + `music/GIAY-PHEP.md`; `sfx/` đã có bộ tự tổng hợp (`sfx/nguon/tao_sfx.py`) kèm sổ. File không có trong sổ sẽ bị chặn.

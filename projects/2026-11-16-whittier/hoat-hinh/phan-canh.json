@@ -1,0 +1,1806 @@
+{
+ "_ghi_chu": [
+  "Tập 3 Whittier, phân cảnh phối 3 phong cách (dao-dien-hoat-hinh, 23/11/2026), sinh bằng hoat-hinh/sinh-phan-canh.py từ audio/subtitles.json (Edge TTS, 15 cảnh).",
+  "ĐẢO KHUÔN so với tập 1–2: mở thẳng ở cổng hầm ban đêm; bàn kỷ vật (khung hiện tại, CHỈ diorama) chỉ xuất hiện giữa tập (d11, cảnh 7 \"Back home\"); kết ở bãi chờ cổng hầm, không về bàn.",
+  "KỶ VẬT: tờ lịch giờ hầm (mở d01, vẽ toà nhà d11, sơ đồ d28, dán táp-lô d29). Đồng hồ cổng KHÔNG ghi 23:14 (không có trong lời/claims).",
+  "KHOÁ TRANG PHỤC: chuyến đông d01–d10 mũ len kem quả bông đỏ #C9463A + khăn kem (mũ lệch từ d05); d11 bàn: không mũ; d12–d15 đồ ngủ + dép lê (không mũ); d16 áo khoác kem + mũ len; d17–d22 áo mưa vàng #E2B33C mũ trùm (d21 thêm áo mưa nhỏ, d22 treo cả hai); d23 một áo mưa, mũ trùm hạ; d24–d26 mũ lưỡi trai xanh băng, giày đỏ, đổi sang ủng cao su cuối d26; d27 thêm áo mưa rồi gỡ; d28–d29 mũ lưỡi trai + ủng. Ba lô xanh ô liu có cuộn thảm đỏ ở mọi đoạn hồi ức.",
+  "ẢNH: 4 ảnh chính ai-tunnel-portal, ai-begich-towers, ai-buckner-ruin, ai-summer-sound SAI CHI TIẾT -> KHÔNG dùng, thợ dựng vẽ bằng thư viện (mô tả đúng ghi trong boi_canh). Ảnh phụ khác (ai-bear-valley-queue, ai-tunnel-inside, ai-begich-hallway, ai-portage-pass, ai-harbor-dusk) chỉ làm phông xa nếu khớp, xem kỹ trước khi dùng.",
+  "NGHIÊM: d23 (cảnh 12, động đất 1964, 13 người chết) không gag, không sfx, không tái hiện sóng hay người; lặng 1,5 s trước và sau, nhạc tắt ở cuối d22.",
+  "SFX chỉ chọn từ sfx/GIAY-PHEP.md. Nhạc chọn từ music/GIAY-PHEP.md (theo tên, chưa ai nghe).",
+  "LOGO: không đặt chữ ở vùng x > 1500, y < 150. 20 s cuối không chữ ở x > 1150, y > 560."
+ ],
+ "fps": 30,
+ "rong": 1920,
+ "cao": 1080,
+ "thoi_luong": 591.268,
+ "loi": [
+  {
+   "scene": 1,
+   "bat_dau": 0.4
+  },
+  {
+   "scene": 2,
+   "bat_dau": 14.728
+  },
+  {
+   "scene": 3,
+   "bat_dau": 47.572
+  },
+  {
+   "scene": 4,
+   "bat_dau": 92.716
+  },
+  {
+   "scene": 5,
+   "bat_dau": 135.784
+  },
+  {
+   "scene": 6,
+   "bat_dau": 171.22
+  },
+  {
+   "scene": 7,
+   "bat_dau": 223.332
+  },
+  {
+   "scene": 8,
+   "bat_dau": 257.484
+  },
+  {
+   "scene": 9,
+   "bat_dau": 295.416
+  },
+  {
+   "scene": 10,
+   "bat_dau": 337.908
+  },
+  {
+   "scene": 11,
+   "bat_dau": 373.332
+  },
+  {
+   "scene": 12,
+   "bat_dau": 420.588
+  },
+  {
+   "scene": 13,
+   "bat_dau": 447.708
+  },
+  {
+   "scene": 14,
+   "bat_dau": 492.228
+  },
+  {
+   "scene": 15,
+   "bat_dau": 525.24
+  },
+  {
+   "scene": 16,
+   "bat_dau": 573.668
+  }
+ ],
+ "nhac": [
+  {
+   "src": "music/frost-waltz.mp3",
+   "bat_dau": 0.0,
+   "ket_thuc": 47.522,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/investigations.mp3",
+   "bat_dau": 47.522,
+   "ket_thuc": 149.609,
+   "mood": "hai"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 149.609,
+   "ket_thuc": 223.295,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 224.295,
+   "ket_thuc": 337.871,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/sneaky-snitch.mp3",
+   "bat_dau": 337.871,
+   "ket_thuc": 417.888,
+   "mood": "hai"
+  },
+  {
+   "src": "music/lightless-dawn.mp3",
+   "bat_dau": 422.088,
+   "ket_thuc": 444.208,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 447.708,
+   "ket_thuc": 591.268,
+   "mood": "to-mo"
+  }
+ ],
+ "am_luong_nhac": 0.2,
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "cat-giay",
+   "bat_dau": 0.0,
+   "ket_thuc": 19.598,
+   "lop": "hoi-uc",
+   "boi_canh": "Đêm tuyết rơi. VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-tunnel-portal: ảnh AI hiện có sai chi tiết (phải là cổng bê tông MỘT làn, ray chìm giữa mặt đường, thanh chắn, đèn tín hiệu). Cổng hầm bê tông khoét vào vách núi đá dốc, một làn, đường ray chìm giữa làn, đèn tín hiệu 3 bóng, thanh chắn sọc đỏ trắng; bên cạnh là xe mui trần thuê màu đỏ gạch, mui đang mở",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; tay cầm tờ lịch giờ hầm gấp tư (kỷ vật của tập, theo suốt video). Chưa có áo mưa",
+   "vao": "dau-video",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 0.4,
+     "loi": "I reached the only road into town one minute after it closed.",
+     "hanh_dong": "[day-vao-cham] Khung 0 đã có Wob đứng trước cổng hầm, giơ tờ lịch gấp tư (bìa in hình nhỏ một toà nhà, không chữ), cạnh xe mui trần mở mui; tuyết rơi lớp tiền cảnh",
+     "gag": "",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "xe-mui-tran"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 4.1,
+     "loi": "The road was a tunnel. The tunnel had gone to bed.",
+     "hanh_dong": "Cận cổng hầm: ba bóng đèn tín hiệu tắt lần lượt như tắt đèn ngủ; đúng \"bed\" thanh chắn hạ hẳn xuống ngay trước mũi Wob",
+     "gag": "Thanh chắn hạ sát mũi Wob, Wob chớp mắt",
+     "dao_cu": [
+      "thanh-chan"
+     ],
+     "sfx": [
+      "bonk"
+     ]
+    },
+    {
+     "tai": 6.92,
+     "loi": "I was holding the timetable. I had not read it.",
+     "hanh_dong": "[giu-tinh-bo] Wob mở tờ lịch, chữ 23:00 khoanh đỏ to; Wob nhìn thẳng người xem, giữ 1 s; tuyết đọng thành chóp nhọn trên mũ len trong lúc giữ",
+     "gag": "Chóp tuyết mọc trên đầu",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": [
+      "im-lang"
+     ]
+    },
+    {
+     "tai": 9.72,
+     "loi": "Hi, I'm Wob. I visit odd places and ask why anyone stays.",
+     "hanh_dong": "LỜI CHÀO NHẬN DIỆN (skill mo-ket, ~3,5 s). Vẫn trước cổng hầm trong tuyết: Wob quay ra vẫy tay với người xem; thẻ hộ chiếu giấy lật vào góc trái trên (trong vùng an toàn, không che mặt Wob): WHITTIER · ALASKA · Would Wob move here? cùng một ô con dấu trống; giữ ~3 s rồi lật đi đúng lúc sang câu 'So I slept'",
+     "gag": "",
+     "dao_cu": [
+      "the-ho-chieu"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 14.728,
+     "loi": "So I slept in the car, with the roof down, because I had not figured out the roof yet.",
+     "hanh_dong": "Wob ngủ ngồi trong xe mở mui, đắp tờ lịch như chăn; tuyết chất dần trên ghế phụ thành một ụ có dáng người ngồi cạnh Wob như hành khách",
+     "gag": "Ụ tuyết thành \"hành khách\"",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "xe-mui-tran"
+     ],
+     "sfx": [
+      "brr"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "23:00",
+    "WHITTIER",
+    "ALASKA",
+    "Would Wob move here?"
+   ],
+   "ly_do_phong_cach": "Mở thẳng ở hiện trường (đảo khuôn so với tập 1–2 mở ở bàn); cắt giấy hợp đêm tuyết nhiều lớp parallax. 23:00 theo C06"
+  },
+  {
+   "id": "d02",
+   "phong_cach": "diorama",
+   "bat_dau": 19.598,
+   "ket_thuc": 30.758,
+   "lop": "hoi-uc",
+   "boi_canh": "Sổ du lịch pop-up mở trên nắp capo phủ tuyết: trang bản đồ code map-whittier (Alaska, ghim Whittier nửa trái khung, vịnh hẹp dài xám); núi giấy bật dựng",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; hình Wob giấy nhỏ trên trang chỉ tay vào ghim",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 19.698,
+     "loi": "On the other side of that mountain is Whittier, Alaska, a small port on a long grey inlet.",
+     "hanh_dong": "[trang-so-ban-do] Trang sổ bật mở, núi giấy dựng lên che giữa xe và thị trấn; camera bay qua đỉnh núi giấy, ghim Whittier bật ra đúng \"Whittier\"; vịnh dài kéo ra đúng \"inlet\"",
+     "gag": "Đỉnh núi giấy có một nắp chụp tuyết rơi xuống ngay GIỮA khung, úp lên đầu hình Wob giấy; giữ 0,6 s",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 25.888,
+     "loi": "Most of the people who live there share one front door.",
+     "hanh_dong": "Cạnh ghim, một toà pop-up kem 14 tầng (ba khối nối liền, cửa sổ vuông nhỏ) bật dựng khỏi trang; chân toà có cửa xoay quay đều, người que nhỏ (dạng chung) đi vào bình thường",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 28.668,
+     "loi": "One building, fourteen floors.",
+     "hanh_dong": "Hình Wob giấy ngửa cổ đếm tầng bằng ngón tay; đếm tới 14 thì cổ Wob giấy dài ra theo toà, giữ 0,8 s",
+     "gag": "Cổ Wob dài theo 14 tầng",
+     "dao_cu": [],
+     "sfx": [
+      "boing"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "WHITTIER",
+    "ALASKA",
+    "14"
+   ],
+   "ly_do_phong_cach": "Sổ pop-up mở bản đồ rồi bật toà 14 tầng: việc của diorama. Vòng 2: gộp đoạn vẽ tay d03 cũ vào đây để bớt đổi phong cách (T6); gag cửa xoay chuyển sang Wob, không đùa về cư dân. Bản đồ vẽ bằng code, không AI"
+  },
+  {
+   "id": "d03",
+   "phong_cach": "cat-giay",
+   "bat_dau": 30.758,
+   "ket_thuc": 47.522,
+   "lop": "hoi-uc",
+   "boi_canh": "Như d01: trong xe mở mui trước cổng hầm, rạng sáng xanh, tuyết ngừng",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; cầm vali nhỏ rồi đặt lên ghế phụ; tờ lịch nhét túi áo",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 30.858,
+     "loi": "I came here to move in.",
+     "hanh_dong": "Wob trong xe giơ vali nhỏ lên cao, mặt hào hứng (đặt Wob vào thế muốn chuyển tới, trước 30 s)",
+     "gag": "",
+     "dao_cu": [
+      "vali-nho"
+     ],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 32.308,
+     "loi": "By morning I had questions. Why build a town behind a mountain that closes at night? And why would almost everyone end up in the same building?",
+     "hanh_dong": "[lay-da-nhay] Hai dấu hỏi giấy cắt mọc lên trên đầu Wob lần lượt đúng \"Why build\" và \"And why\"; dấu thứ hai to hơn đè dấu thứ nhất",
+     "gag": "Dấu hỏi thứ hai đè bẹp dấu thứ nhất",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 39.448,
+     "loi": "Before this trip was over, I had both answers, and I changed my mind about living here more than once.",
+     "hanh_dong": "Wob gật đầu tự tin; đúng \"more than once\" một mảng tuyết từ vách núi trượt xuống đúng đầu Wob; Wob vẫn gật, không phủi, giữ 0,8 s",
+     "gag": "Tuyết rơi trúng đầu, Wob vẫn gật",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Quay lại xe ở cắt giấy để đóng lời hứa 30 s; kết bằng giấy sang chương 1"
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "bat_dau": 47.522,
+   "ket_thuc": 62.922,
+   "lop": "hoi-uc",
+   "boi_canh": "Bãi chờ nhiều làn trước cổng hầm buổi sáng (có thể dùng ảnh ai-bear-valley-queue làm phông xa nếu khớp, không thì vẽ), hàng xe giấy; đèn tín hiệu đỏ",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; xe đã có tuyết dọn dở; tờ lịch mở to bằng vô lăng",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 47.572,
+     "loi": "In the morning I joined the queue at the staging area and finally read the timetable.",
+     "hanh_dong": "[di-bo-parallax] Đèn tín hiệu đỏ làm tiền cảnh 1/3 khung trái; xe Wob lăn vào làn đầu; Wob mở tờ lịch, tờ lịch mở ra to bằng cả vô lăng che kín kính chắn gió",
+     "gag": "Tờ lịch che kín tầm nhìn",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 52.335,
+     "loi": "In winter, the tunnel opens at seven in the morning, and the gate locks at eleven at night.",
+     "hanh_dong": "Cận tờ lịch: 7:00 sáng lên đúng \"seven\", 23:00 đúng \"eleven\"; Wob khoanh 23:00, khoanh thêm hai vòng nữa",
+     "gag": "",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "but-chi"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 57.597,
+     "loi": "Cars and trains take turns, in fifteen-minute windows, one direction at a time.",
+     "hanh_dong": "Trên tờ lịch hiện hình chiếc xe và đoàn tàu nhỏ, nhãn 15 min; Wob xoay tờ lịch như xoay vô lăng, xe và tàu trên lịch xoay theo, tàu húc nhẹ xe, Wob giật tay lại; giữ 0,6 s",
+     "gag": "Tờ lịch thành vô lăng, tàu húc xe",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "7:00",
+    "23:00",
+    "15 min"
+   ],
+   "ly_do_phong_cach": "Giải thích quy tắc qua kỷ vật tờ lịch trong cảnh thật (cắt giấy); chữ số theo C06, C07"
+  },
+  {
+   "id": "d05",
+   "phong_cach": "ve-tay",
+   "bat_dau": 62.922,
+   "ket_thuc": 109.578,
+   "lop": "hoi-uc",
+   "boi_canh": "Bong bóng tưởng tượng vẽ tay: cây cầu một làn có đèn đổi chiều, xe hai đầu chờ nhau | rồi: Như d04 bãi chờ; đoàn tàu hàng giấy chạy ngang ngay trước mũi xe Wob; làn ngược chiều có hàng xe giấy | rồi: Vẽ tay nét sôi: xe mui trần cận, rồi cổng hầm vẽ tay có nhiệt kế giấy và đồng hồ",
+   "trang_phuc": "Wob (mũ len) vẽ tay nhỏ ở đầu cầu, ngồi trong xe vẽ tay | rồi: Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; tờ lịch trên vô lăng | rồi: Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; sau gag mui xe, mũ len lệch sang một bên đến hết chuyến đông",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 62.922,
+     "loi": "Picture a one-lane bridge with a traffic light.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Hình to: cầu một làn, đèn đổi chiều, hai hàng xe chờ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 65.709,
+     "loi": "Now make the bridge about two and a half miles long, roughly four kilometres, and let a train borrow it.",
+     "hanh_dong": "[so-sanh-doi-thuong] Hai bàn tay vẽ tay kéo cây cầu dài ra như kẹo cao su, cầu chạy tuột vào trong núi; nhãn ~2.5 mi rồi ~4 km; đúng \"train\" một đoàn tàu vẽ tay chui vào cầu",
+     "gag": "Cây cầu bị kéo như kẹo cao su",
+     "dao_cu": [],
+     "sfx": [
+      "rise"
+     ]
+    },
+    {
+     "tai": 71.797,
+     "loi": "A train borrowed it. My window slid past while I counted carriages.",
+     "hanh_dong": "[leo-thang-ba-lan] Tàu chạy ngang; Wob đếm toa bằng ngón tay, hết ngón tay chuyển sang ngón chân (giày đỏ giơ lên), rồi chỉ vào bánh xe",
+     "gag": "Đếm toa hết tay sang chân sang bánh xe",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 75.959,
+     "loi": "Then the next window opened, for traffic coming the other way. I waved at them. They did not wave back. They were busy reading their timetables.",
+     "hanh_dong": "Hàng xe ngược chiều chạy qua; Wob vẫy tay nhiệt tình; mọi tài xế giấy (dạng chung, không mặt) đều đang giơ tờ lịch che mặt đọc",
+     "gag": "Ai cũng đọc tờ lịch, chỉ Wob thì không",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 84.11,
+     "loi": "The timetable says unscheduled trains can hold things up by fifteen to thirty minutes.",
+     "hanh_dong": "Wob lật tờ lịch, ngón tay dò dòng chữ nhỏ; nhãn 15–30 min",
+     "gag": "",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 89.347,
+     "loi": "It also had a note about cars like mine.",
+     "hanh_dong": "[giu-tinh-bo] Wob chậm rãi nhìn lên cái mui xe đang mở của mình; giữ 0,8 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "im-lang"
+     ]
+    },
+    {
+     "tai": 92.666,
+     "loi": "My rental was a convertible. Convertibles have to close their roofs before going in, so I wrestled mine up while the whole queue watched.",
+     "hanh_dong": "[va-cham-vat-ly] Wob đứng trên ghế kéo mui vải; mui bật ngược trùm kín Wob, chỉ còn đôi giày đỏ thò ra đạp đạp; người que ở xe sau vỗ tay chậm",
+     "gag": "Mui xe nuốt Wob",
+     "dao_cu": [
+      "xe-mui-tran"
+     ],
+     "sfx": [
+      "whoosh",
+      "bonk"
+     ]
+    },
+    {
+     "tai": 100.229,
+     "loi": "Then there is the cold rule. When it is thirty-two Fahrenheit or below, that's zero Celsius, traffic only goes in during the last five minutes of each window.",
+     "hanh_dong": "[nhiet-ke-tut] Nhiệt kế giấy trên cổng tụt về 32°F · 0°C; đồng hồ trên cổng quay nhanh, cổng chỉ hé ở 5 phút cuối; Wob chưa kịp nổ máy thì cổng khép bớt, rồi hé lại",
+     "gag": "Cổng hé, khép, hé",
+     "dao_cu": [],
+     "sfx": [
+      "may-no",
+      "brr"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~2.5 mi",
+    "~4 km",
+    "15–30 min",
+    "32°F · 0°C",
+    "5 min"
+   ],
+   "ly_do_phong_cach": "So sánh đời thường bằng bong bóng tưởng tượng: việc của vẽ tay. C08 mức dè dặt: giữ dấu ~ | gộp: Quay về hiện trường cắt giấy; gag đếm toa và tài xế đọc lịch. C09 (chuyển sang vẽ tay để tỉ lệ cat-giay ≤ 55%) | gộp: Hai gag vật lý nhanh, biểu cảm to: vẽ tay. C10, C11 (chuyển sang vẽ tay để tỉ lệ cat-giay ≤ 55%)"
+  },
+  {
+   "id": "d06",
+   "phong_cach": "diorama",
+   "bat_dau": 109.578,
+   "ket_thuc": 144.046,
+   "lop": "hoi-uc",
+   "boi_canh": "Trong hầm: diorama camera đi thật dọc đường hầm một làn, đường ray chìm giữa mặt đường, đèn hầm lướt qua theo nhịp (có thể tham khảo ai-tunnel-inside, nhưng dựng bằng tấm giấy 3D); ra khỏi hầm: vịnh hẹp xám, mây thấp, thác trên vách, núi dựng đứng từ biển (tấm giấy nhiều lớp sâu)",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, mũ len lệch; mui xe đã đóng",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 109.678,
+     "loi": "Finally the light turned green.",
+     "hanh_dong": "Đèn tín hiệu chuyển xanh, camera đặt sau xe Wob lao vào miệng hầm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "may-no"
+     ]
+    },
+    {
+     "tai": 111.691,
+     "loi": "Inside, the road and the railway share the same strip of concrete, with the rails sunk right into the lane.",
+     "hanh_dong": "[lia-theo-vat] Camera hạ thấp sát mặt đường: hai thanh ray chìm trong bê tông chạy dưới bánh xe; đèn hầm trôi qua đều",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 118.329,
+     "loi": "It is the longest combined rail and highway tunnel in North America, and cars have only been allowed through since two thousand.",
+     "hanh_dong": "Một biển bê tông nhỏ gắn vách hầm lướt qua ghi 2000; đường hầm dài vô tận phía trước",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 125.466,
+     "loi": "I kept both hands on the wheel and did not breathe until daylight.",
+     "hanh_dong": "Cận Wob qua kính: hai tay bám vô lăng, má phồng to dần vì nín thở",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 129.178,
+     "loi": "Rock on both sides. Rails under my tyres. Somewhere behind me, my courage.",
+     "hanh_dong": "Camera quay ngược ra sau xe: trên đường ray xa xa, một quả bóng nhỏ hình mặt cười (lòng can đảm) bị bỏ lại, ngồi phịch xuống",
+     "gag": "Lòng can đảm bị bỏ lại trong hầm",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 135.784,
+     "loi": "Out the far side, the clouds sat so low I could have worn one.",
+     "hanh_dong": "[lui-ra-toan-canh] Ra khỏi hầm ánh sáng xám; Wob thở ra một hơi làm mờ cả kính chắn gió; camera lùi ra toàn cảnh vịnh; một cụm mây đậu xuống đầu Wob thành cái mũ, Wob không biết",
+     "gag": "Mây làm mũ",
+     "dao_cu": [],
+     "sfx": [
+      "hoi-nuoc"
+     ]
+    },
+    {
+     "tai": 139.872,
+     "loi": "Grey water. Waterfalls. Mountains going straight up out of the sea.",
+     "hanh_dong": "Camera lướt ba lớp giấy: mặt nước xám, thác, vách núi đứng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "2000"
+   ],
+   "ly_do_phong_cach": "Camera đi thật trong không gian (đường hầm, toàn cảnh đến nơi): việc riêng của diorama. C12–C14"
+  },
+  {
+   "id": "d07",
+   "phong_cach": "ve-tay",
+   "bat_dau": 144.046,
+   "ket_thuc": 149.609,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay: vũng nước bên đường, Wob ngồi xổm với chảo đãi",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cụm mây vẫn trên đầu; cầm chảo đãi vàng",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 144.046,
+     "loi": "So why put a town here? My guess was gold.",
+     "hanh_dong": "[doan-sai-roi-lat] Wob đãi vàng hăng say trong vũng nước bên đường; chảo đãi lên một cái nắp chai, Wob giơ lên soi như kim cương, mắt lấp lánh",
+     "gag": "Nắp chai thành \"kim cương\"",
+     "dao_cu": [
+      "chao-dai"
+     ],
+     "sfx": [
+      "ka-ching"
+     ]
+    },
+    {
+     "tai": 146.796,
+     "loi": "I was not completely wrong about people passing through.",
+     "hanh_dong": "Wob nhún vai, nhét nắp chai vào túi",
+     "gag": "",
+     "dao_cu": [
+      "chao-dai"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Đoán sai bằng gag vẽ tay nhanh trước khi vào lịch sử"
+  },
+  {
+   "id": "d08",
+   "phong_cach": "cat-giay",
+   "bat_dau": 149.609,
+   "ket_thuc": 171.17,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ cắt giấy tông ấm: đường đèo Portage Pass nét đứt giữa hai sườn núi (có thể dùng ai-portage-pass làm phông xa nếu khớp); những người que kéo hàng nhìn từ xa, không vẽ mặt, không trang phục, hoa văn cụ thể; rồi người que kéo xe trượt",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cụm mây trên đầu; Wob đứng NGOÀI trang sổ, chỉ quan sát",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 149.709,
+     "loi": "For thousands of years the Chugach, an Alutiiq people, crossed Portage Pass behind this inlet to trade with Dena'ina people on Cook Inlet.",
+     "hanh_dong": "[trang-so-hanh-trinh] Nét đứt vẽ dần qua đèo; những người que nhỏ ở xa đi theo nét đứt hai chiều, tôn trọng, không gag; Wob đứng ngoài mép trang, tay sau lưng",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 158.871,
+     "loi": "In the late eighteen hundreds, gold seekers hauled sleds over the same pass.",
+     "hanh_dong": "Trên cùng nét đứt, người que kéo xe trượt chất đồ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 163.897,
+     "loi": "But hauling sleds is not the same as building a tower.",
+     "hanh_dong": "Wob lấy ngón tay dựng một toà tháp giấy nhỏ ở cuối nét đứt; nó đổ nghiêng",
+     "gag": "Tháp giấy của Wob đổ",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 167.109,
+     "loi": "Gold did not build this town. Weather did.",
+     "hanh_dong": "[giu-tinh-bo] Wob nhìn lên cụm mây vẫn đậu trên đầu mình; cụm mây nháy mắt; giữ 1 s",
+     "gag": "Cụm mây là thủ phạm",
+     "dao_cu": [],
+     "sfx": [
+      "im-lang"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Portage Pass",
+    "Cook Inlet"
+   ],
+   "ly_do_phong_cach": "Lịch sử con người (bản địa, đào vàng): cắt giấy tông ấm, tôn trọng; gag chỉ ở Wob và cụm mây, không đùa về người. C15, C16"
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "bat_dau": 171.17,
+   "ket_thuc": 198.17,
+   "lop": "hoi-uc",
+   "boi_canh": "Sơ đồ vẽ tay trên trang sổ: vịnh, đường biển tới Seward và Whittier; rồi tấm chăn mây kéo phủ bến cảng",
+   "trang_phuc": "Wob (mũ len lệch) đeo kính râm, cầm tấm bìa hình mặt trời; cụm mây trên đầu đã bay lên làm \"chăn\"",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 171.27,
+     "loi": "Turns out the fog was a selling point.",
+     "hanh_dong": "Wob đeo kính râm, giơ tấm bìa mặt trời chờ nắng; một đám mây vẽ tay thò tay giật tấm bìa đi",
+     "gag": "Mây giật mặt trời",
+     "dao_cu": [
+      "kinh-ram",
+      "bia-mat-troi"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 173.582,
+     "loi": "During the Second World War, the US Army wanted a supply port in Alaska, and this inlet had a lot going for it.",
+     "hanh_dong": "[so-do-ve-tay] Nét mực vẽ vịnh và một cái neo nhỏ ở Whittier",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 180.545,
+     "loi": "The water is deep and does not freeze, so ships could come in all year.",
+     "hanh_dong": "Hai mũi tên vẽ tay hiện lần lượt: deep, no ice; tàu vẽ tay vào vịnh, ra, vào; Wob nhỏ vẫy tàu từ bờ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 184.683,
+     "loi": "According to the state's tunnel history, going on to Seward added about fifty-two miles of sailing.",
+     "hanh_dong": "Hai đường biển tới Seward và Whittier; Wob nhỏ ngồi trên mũi một con tàu vẽ tay, kéo thước dây đo đoạn chênh, thước bật cuộn lại kẹp mũi Wob; nhãn ~52 mi",
+     "gag": "Thước dây kẹp mũi",
+     "dao_cu": [
+      "thuoc-day"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 190.27,
+     "loi": "And the low cloud and fog helped hide the port from Japanese planes. From the air, the fog was a blanket pulled over the harbour.",
+     "hanh_dong": "Tấm chăn mây kéo phủ bến cảng; một máy bay giấy vẽ đơn giản (không cờ, không ký hiệu) lượn vòng, ngập ngừng, rồi quay đi",
+     "gag": "Máy bay lượn, không thấy gì, quay đi",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "deep",
+    "no ice",
+    "~52 mi",
+    "Seward",
+    "Whittier"
+   ],
+   "ly_do_phong_cach": "Sơ đồ giải thích nhanh nhiều lý do: vẽ tay. Bản đồ chỉ sơ đồ vẽ tay không đúng tỉ lệ, không biên giới. C17–C20. Không đùa về quân đội hay chiến tranh"
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "bat_dau": 198.17,
+   "ket_thuc": 223.295,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: mặt cắt hai ngọn núi, đường hầm đường sắt đang đào; người que đội mũ thợ (nhân vật chung, không vẽ mặt người thật); rồi bến cảng đông người que nhỏ thập niên 40",
+   "trang_phuc": "Mũ len màu kem có quả bông đỏ #C9463A, khăn quàng kem, giày đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, mũ len lệch; đeo kính râm đến nhịp cuối thì cất vào ba lô",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 198.17,
+     "loi": "To connect the port to the rest of Alaska, the Army built a railway through two mountains, finished on April the twenty-third, nineteen forty-three.",
+     "hanh_dong": "[lia-theo-vat] Camera lia theo đường ray xuyên hai núi giấy; Wob cầm xẻng giúp đào nhưng đào ngược hướng, chui ra đúng chỗ vừa vào; biển gỗ ghi April 23, 1943",
+     "gag": "Wob đào vòng về chỗ cũ",
+     "dao_cu": [
+      "xeng-nho",
+      "kinh-ram"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 206.82,
+     "loi": "The longer tunnel is named after Anton Anderson, the Army engineer in charge.",
+     "hanh_dong": "Biển tên trên cổng hầm lớn hơn: ANTON ANDERSON (chữ trên biển, không vẽ chân dung)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 211.745,
+     "loi": "By the mid nineteen forties, more than a thousand soldiers and civilians lived here.",
+     "hanh_dong": "Bến cảng đầy dần người que nhỏ, nhãn 1,000+",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 216.295,
+     "loi": "I put my sunglasses away. I also forgave the tunnel. It was never built for my car.",
+     "hanh_dong": "Wob gấp kính râm cất vào ba lô; vỗ nhẹ vách hầm như vỗ vai bạn; vách hầm rơi một hạt đá nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "April 23, 1943",
+    "ANTON ANDERSON",
+    "1,000+"
+   ],
+   "ly_do_phong_cach": "Lịch sử xây dựng: cắt giấy. C21–C23"
+  },
+  {
+   "id": "d11",
+   "phong_cach": "diorama",
+   "bat_dau": 223.295,
+   "ket_thuc": 257.447,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật dưới đèn bàn (ở nhà, sau chuyến đi): tờ lịch giờ hầm nhàu trải ra, lật mặt sau; bút chì; một phong bì",
+   "trang_phuc": "Wob không mũ, không khăn (khung hiện tại); tay cầm tờ lịch rồi phong bì rồi bút chì",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 223.332,
+     "loi": "Back home, I unfold the timetable on my desk, because this is the point where my trip went indoors.",
+     "hanh_dong": "[dat-ky-vat-xuong] Wob trải tờ lịch nhàu lên bàn, vuốt phẳng, lật mặt sau trắng; camera đẩy chậm 1,0→1,08 (lần đầu thấy bàn kỷ vật ở phút thứ 4)",
+     "gag": "",
+     "dao_cu": [
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 229.569,
+     "loi": "After the war, the Army put up two huge buildings in Whittier. One of them is why my mail had a floor number.",
+     "hanh_dong": "Wob giơ phong bì; phong bì dài ra như cuộn giấy, dải địa chỉ chảy xuống mép bàn (không ghi số cụ thể ngoài 14)",
+     "gag": "Phong bì dài như cuộn giấy",
+     "dao_cu": [
+      "phong-bi"
+     ],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 236.445,
+     "loi": "The Hodge Building, now called Begich Towers, is fourteen floors of pale concrete, finished in nineteen fifty-seven after going up in three sections.",
+     "hanh_dong": "Wob vẽ bằng bút chì lên mặt sau tờ lịch: một khối 14 tầng ba phần nối liền, ghi 1957 ở chân; nét bút hiện dần, tầng 14 vẽ cuối",
+     "gag": "",
+     "dao_cu": [
+      "but-chi",
+      "to-lich-gio-ham"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 246.07,
+     "loi": "According to local news, nearly everyone in town lives inside it.",
+     "hanh_dong": "Wob vẽ người que nhỏ vào từng ô cửa sổ, vẽ mãi; bút chì ngắn dần còn bằng đầu ngón tay",
+     "gag": "Bút chì mòn còn mẩu",
+     "dao_cu": [
+      "but-chi"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 250.257,
+     "loi": "The twenty twenty census counted about two hundred and seventy people, and estimates vary a little since then.",
+     "hanh_dong": "Wob tẩy bớt vài người que, ngập ngừng, ghi ~270 (2020)",
+     "gag": "",
+     "dao_cu": [
+      "but-chi"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 256.584,
+     "loi": "",
+     "hanh_dong": "[lat-trang-so] Wob đẩy tờ lịch, camera lao vào hình toà nhà bút chì trên giấy; nối giấy phẳng #EFE3C8",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "BEGICH TOWERS",
+    "HODGE",
+    "14",
+    "1957",
+    "~270 (2020)"
+   ],
+   "ly_do_phong_cach": "Khung hiện tại (luật: chỉ diorama), đặt GIỮA tập theo bài học tập 2 (đảo khuôn). C24–C27; C27 dè dặt giữ ~"
+  },
+  {
+   "id": "d12",
+   "phong_cach": "diorama",
+   "bat_dau": 257.447,
+   "ket_thuc": 277.471,
+   "lop": "hoi-uc",
+   "boi_canh": "Bên trong Begich Towers: diorama hành lang tường gạch block sơn nhạt, bảng tin, cửa bưu điện, cửa đồn cảnh sát, phòng khám, cửa hàng tiện lợi, phòng giặt, thang máy (có thể tham khảo ai-begich-hallway, dựng bằng tấm giấy); camera đi dọc hành lang như một ngày",
+   "trang_phuc": "Wob đồ ngủ kẻ sọc, dép lê, KHÔNG mũ, vẫn đeo ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; ôm ly; từ nhịp giặt đồ: giỏ đồ giặt",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 257.484,
+     "loi": "So I spent one winter day without going outside. Morning: I went down for my mail in my slippers.",
+     "hanh_dong": "[dong-ho-troi] Đồng hồ treo tường hành lang quay; Wob đi dép lê lẹp xẹp, một chiếc tuột lại sau, quay lại xỏ, chiếc kia tuột",
+     "gag": "Dép lê tuột luân phiên",
+     "dao_cu": [
+      "ly",
+      "dep-le"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 263.396,
+     "loi": "The post office is inside the building, close to the entrance. So is the police station.",
+     "hanh_dong": "Camera đi qua cửa POST OFFICE cạnh lối vào, rồi cửa POLICE; Wob rón rén nép tường vì đang mặc đồ ngủ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 268.609,
+     "loi": "Late morning: the clinic, then the convenience store for snacks.",
+     "hanh_dong": "Wob đi ngang cửa CLINIC, ra khỏi STORE ôm túi bánh",
+     "gag": "",
+     "dao_cu": [
+      "tui-banh"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 272.534,
+     "loi": "Afternoon: laundry, still indoors, with my basket riding the elevator.",
+     "hanh_dong": "Thang máy mở: giỏ đồ giặt đứng một mình bên trong, Wob ở ngoài; cửa đóng, giỏ đi lên một mình; Wob chạy cầu thang đuổi theo",
+     "gag": "Giỏ đồ đi thang máy một mình",
+     "dao_cu": [
+      "gio-do-giat"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "POST OFFICE",
+    "POLICE",
+    "CLINIC",
+    "STORE"
+   ],
+   "ly_do_phong_cach": "Camera đi bộ qua không gian trong nhà như một ngày (mot-ngay-o-day): diorama. C28–C30"
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "bat_dau": 277.471,
+   "ket_thuc": 295.404,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay: mặt cắt sảnh chung cư nhồi đủ thứ chồng lên nhau | rồi: Mặt cắt giấy: toà nhà bên trái, trường học bên kia đường, đường hầm ngầm sáng đèn nối hai bên; rồi tủ để đồ có đôi ủng cao su",
+   "trang_phuc": "Wob đồ ngủ, dép lê, ba lô, ôm giỏ đồ giặt | rồi: Wob đồ ngủ, dép lê, ba lô; đặt giỏ đồ xuống",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 277.471,
+     "loi": "There is a church in here too, plus city offices and a playground.",
+     "hanh_dong": "[chen-ve-tay] Hình to vẽ tay: cửa nhà thờ, cửa văn phòng thành phố, cầu trượt sân chơi bật ra lần lượt trong cùng một hành lang; Wob ôm giỏ đồ đi ngang",
+     "gag": "",
+     "dao_cu": [
+      "gio-do-giat"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 281.746,
+     "loi": "Think of an apartment block where the whole town has moved into the lobby.",
+     "hanh_dong": "Sảnh chung cư vẽ tay: bưu điện, cửa hàng, chuông nhà thờ, cầu trượt chồng lên nhau tới trần; Wob chen vào giữa, giỏ đồ bị kẹt",
+     "gag": "Cả thị trấn nhét trong sảnh",
+     "dao_cu": [
+      "gio-do-giat"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 285.696,
+     "loi": "And the school? It sits across the road, and children get there through a tunnel underneath.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi thấy mặt cắt: trên mặt đất tuyết bay ngang, bên dưới đường hầm sáng ấm có những người que học sinh đeo cặp đi qua (dạng chung, không mặt); Wob nhìn từ đầu hầm, vẫy",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 290.647,
+     "loi": "My boots never left the closet. They seemed relieved.",
+     "hanh_dong": "[giu-tinh-bo] Cửa tủ hé: đôi ủng cao su ngả lưng vào nhau, thở phào (mắt nhắm, miệng thở ra); giữ 0,8 s",
+     "gag": "Ủng nhẹ nhõm",
+     "dao_cu": [
+      "ung-cao-su"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "CHURCH",
+    "CITY OFFICES",
+    "SCHOOL"
+   ],
+   "ly_do_phong_cach": "So sánh đời thường: chèn vẽ tay ngắn; vòng 2 kéo sớm từ nhịp nhà thờ để diorama ≤ 20% | gộp: Mặt cắt nhiều lớp: cắt giấy. C31 (chuyển sang vẽ tay để tỉ lệ cat-giay ≤ 55%)"
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "bat_dau": 295.404,
+   "ket_thuc": 307.528,
+   "lop": "hoi-uc",
+   "boi_canh": "Sảnh tầng trệt, cửa kính; ngoài kính là VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-buckner-ruin: ảnh AI hiện có sai chi tiết (phải là toà bê tông SÁU tầng dài, cửa sổ mất kính, có hàng rào). Buckner Building: toà bê tông dài 6 tầng, ô cửa sổ trống không kính, vệt nước, hàng rào lưới phía trước",
+   "trang_phuc": "Wob đồ ngủ, dép lê, ba lô (vẫn trong nhà)",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 295.416,
+     "loi": "From the lobby window I could see the other building. Nobody lives in it.",
+     "hanh_dong": "[tien-canh-khung] Khung cửa kính làm tiền cảnh; Wob tựa trán vào kính, hơi thở làm mờ một vòng tròn; ngoài kia toà bê tông 6 tầng cửa sổ trống",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 299.754,
+     "loi": "The Buckner Building was finished in the early nineteen fifties, according to old Army records, with six floors for about a thousand soldiers.",
+     "hanh_dong": "Wob lấy ngón tay vẽ lên vòng mờ trên kính: số 6 rồi ~1,000; vòng mờ tan trước khi Wob viết xong, Wob hà hơi thêm một vòng rồi viết tiếp, giữ 0,6 s; camera đẩy chậm vào toà Buckner",
+     "gag": "Vòng mờ tan giữa chừng",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "BUCKNER",
+    "6",
+    "~1,000"
+   ],
+   "ly_do_phong_cach": "Cảnh thật qua cửa kính, nhiều lớp: cắt giấy. C32. Toà Buckner vẽ bằng thư viện"
+  },
+  {
+   "id": "d15",
+   "phong_cach": "ve-tay",
+   "bat_dau": 307.528,
+   "ket_thuc": 317.004,
+   "lop": "hoi-uc",
+   "boi_canh": "Bong bóng hồi tưởng vẽ tay tông sepia: rạp chiếu phim, sân bowling, phòng khám nhỏ thập niên 1950 sáng đèn",
+   "trang_phuc": "Wob không xuất hiện trong bong bóng; viền bong bóng mọc ra từ đầu Wob ở mép trái",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 307.528,
+     "loi": "Inside were a movie theatre, a bowling alley and a small clinic.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Ba ô sepia bật lần lượt đúng \"movie\", \"bowling\", \"clinic\": màn chiếu, hàng ki bowling, chữ thập nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 311.916,
+     "loi": "Before my tower, this was the town under one roof, and it did not stay full for long.",
+     "hanh_dong": "Cả ba ô gộp thành một mái nhà; đèn trong mái tắt dần từng ô",
+     "gag": "Ki bowling cuối cùng tự đổ khi đèn tắt",
+     "dao_cu": [],
+     "sfx": [
+      "de-kem"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Hồi tưởng trong hồi tưởng: vẽ tay sepia tách lớp rõ. C32"
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "bat_dau": 317.004,
+   "ket_thuc": 337.871,
+   "lop": "hoi-uc",
+   "boi_canh": "Ngoài trời: VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-buckner-ruin: ảnh AI hiện có sai chi tiết (phải là toà bê tông SÁU tầng dài, cửa sổ mất kính, có hàng rào). Buckner Building: toà bê tông dài 6 tầng, ô cửa sổ trống không kính, vệt nước, hàng rào lưới phía trước; tuyết trên đất; bong bóng tưởng tượng giấy cắt cuối đoạn",
+   "trang_phuc": "Wob ĐÃ THAY đồ: áo khoác dày màu kem, mũ len kem quả bông đỏ, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, giày đỏ (không còn dép lê)",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 317.104,
+     "loi": "The Army began pulling out around nineteen sixty, and records differ on when the last soldiers left.",
+     "hanh_dong": "Hàng xe tải giấy rời đi xa dần; một tờ lịch sử giấy có hai ngày ghi chồng ~1960 và dấu ?",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 323.178,
+     "loi": "Today Buckner is a ruin. The windows are gone, there is asbestos inside, and the city fenced it off.",
+     "hanh_dong": "Camera lùi: ô cửa trống, biển trên hàng rào ghi ASBESTOS",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 329.778,
+     "loi": "So I looked at it from outside the fence, which is the only sensible way to see it.",
+     "hanh_dong": "Wob đứng ngoài rào, hai tay sau lưng; nhón chân nhìn qua, ba lô nặng kéo Wob ngả ngửa về sau, lảo đảo đứng lại; không bước qua rào",
+     "gag": "Ba lô kéo Wob ngả ngửa",
+     "dao_cu": [],
+     "sfx": [
+      "bonk"
+     ]
+    },
+    {
+     "tai": 334.266,
+     "loi": "I imagined the bowling alley anyway.",
+     "hanh_dong": "Bong bóng giấy trên đầu: Wob ném bóng bowling; quả bóng lăn mãi, lăn khỏi bong bóng, rơi xuống tuyết, dừng cạnh chân Wob ngoài rào; Wob nhìn nó, giữ 0,8 s; rồi Wob nhặt bóng, quay lưng đi về phía Begich Towers (vào trong thay áo mưa)",
+     "gag": "Quả bóng lăn ra khỏi tưởng tượng",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~1960 ?",
+    "ASBESTOS"
+   ],
+   "ly_do_phong_cach": "Ngoài hàng rào, cảnh thật: cắt giấy. C34 mức C giữ dấu ?; C35. Không khuyến khích vào khu cấm: Wob không bước qua rào"
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "bat_dau": 337.871,
+   "ket_thuc": 345.146,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay: cận mặt Wob trước cửa toà nhà, rồi trời trút tuyết",
+   "trang_phuc": "Áo mưa vàng #E2B33C có mũ trùm, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (áo mưa mới mua, nhãn giá treo ở tay áo tới khi bị giật ở nhịp đầu; áo khoác kem đã thay trong nhà), mũ trùm đội lên; giày đỏ",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 337.908,
+     "loi": "Then I made the mistake of stepping outside.",
+     "hanh_dong": "Wob bước ra bậc cửa toà nhà trong áo mưa vàng mới, ưỡn ngực; nhãn giá đung đưa ở tay áo vướng vào mũi, Wob giật phăng nhãn giá",
+     "gag": "Nhãn giá vướng mũi",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 340.395,
+     "loi": "One snowflake landed on my nose.",
+     "hanh_dong": "[take-cham] Cận: một bông tuyết đậu lên mũi Wob; Wob lác mắt nhìn nó",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 342.683,
+     "loi": "Then its family arrived. Then the neighbours.",
+     "hanh_dong": "[leo-thang-ba-lan] Năm bông nữa, rồi cả trời trút xuống; camera lùi Wob → bậc cửa → cả mặt tiền ngập tuyết",
+     "gag": "Bông tuyết kéo cả họ hàng",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Take chậm và leo thang ba lần: vẽ tay biểu cảm to"
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "bat_dau": 345.146,
+   "ket_thuc": 361.858,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: trước toà nhà ngập tuyết, cột đo tuyết sơn vạch; hai tờ bảng số giấy lơ lửng",
+   "trang_phuc": "Áo mưa vàng #E2B33C có mũ trùm, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, mũ trùm",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 345.246,
+     "loi": "By March, the snow on the ground here averages about forty-seven inches, roughly one point two metres. I am shorter than that.",
+     "hanh_dong": "[phong-quy-mo] Wob đứng cạnh cột đo, vạch 47 in · 1.2 m cao hơn đầu Wob; tuyết dâng lên; chỉ còn cuộn thảm đỏ trên ba lô nhô khỏi tuyết, lắc lư",
+     "gag": "Chỉ còn cuộn thảm đỏ lắc lư",
+     "dao_cu": [],
+     "sfx": [
+      "rise"
+     ]
+    },
+    {
+     "tai": 352.983,
+     "loi": "Over a whole year, Whittier gets somewhere around twenty feet of snow, about six metres, and the official tables don't quite agree on the exact figure.",
+     "hanh_dong": "Wob chui lên khỏi tuyết; hai tờ bảng số lơ lửng ghi 241 in và 257 in, Wob nhìn qua lại; nhãn ~20 ft · ~6 m",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "47 in · 1.2 m",
+    "~20 ft · ~6 m",
+    "241 in",
+    "257 in"
+   ],
+   "ly_do_phong_cach": "So quy mô với Wob trong cảnh thật: cắt giấy. C36, C37 (mức C, giữ ~ và hai con số)"
+  },
+  {
+   "id": "d19",
+   "phong_cach": "ve-tay",
+   "bat_dau": 361.858,
+   "ket_thuc": 373.295,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay: cột nước 5 m cạnh căn nhà hai tầng",
+   "trang_phuc": "Wob trong áo mưa vàng, đeo thêm phao bơi tròn",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 361.858,
+     "loi": "Count the rain as well and you get roughly five metres of water a year, about sixteen feet. If none of it drained away, it would stand about as tall as a two-storey house.",
+     "hanh_dong": "[so-sanh-doi-thuong] Cột nước vẽ tay dâng lên cạnh căn nhà hai tầng tới ngang nóc, nhãn ~5 m · ~16 ft; Wob đeo phao bơi vẫy tay từ đỉnh cột",
+     "gag": "Wob bơi trên nóc cột nước",
+     "dao_cu": [
+      "phao-boi"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~5 m · ~16 ft"
+   ],
+   "ly_do_phong_cach": "So sánh đời thường bằng hình to: vẽ tay. C38, C39"
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "bat_dau": 373.295,
+   "ket_thuc": 397.519,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: trước toà nhà, gió thổi tuyết ướt ngang, sóng bạc đầu trên vịnh; cửa toà nhà; nhiệt kế giấy trên tường",
+   "trang_phuc": "Áo mưa vàng #E2B33C có mũ trùm, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, mũ trùm (phao bơi đã biến mất: chỉ là tưởng tượng ở d19); đầu đoạn tháo một chiếc găng",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 373.395,
+     "loi": "The wind joined in. It averages ten to fifteen miles an hour. But the state's tunnel weather page says it often blows forty to sixty, with waves of four to six feet out in the inlet.",
+     "hanh_dong": "Ngọn cờ giấy trên cột căng thẳng ra; ngoài vịnh sóng giấy dâng; nhãn 10–15 mph rồi 40–60 mph",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 384.282,
+     "loi": "It rolled me back to the front door, gently, like a bouncer.",
+     "hanh_dong": "[va-cham-vat-ly] Gió đẩy Wob lăn tròn như quả bóng về cửa toà nhà; cửa mở, Wob lăn vào rồi lăn ra lại, đứng dậy",
+     "gag": "Gió như người gác cửa",
+     "dao_cu": [],
+     "sfx": [
+      "bonk"
+     ]
+    },
+    {
+     "tai": 388.232,
+     "loi": "Here's what surprised me. It isn't that cold. According to the weather records, January highs hover right around freezing. My first trip was colder than this by a lot.",
+     "hanh_dong": "[nhiet-ke-tut] Nhiệt kế giấy trên tường chỉ quanh ≈0°C · ≈32°F; Wob ngạc nhiên, tháo một chiếc găng",
+     "gag": "",
+     "dao_cu": [
+      "gang-tay"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "10–15 mph",
+    "40–60 mph",
+    "≈0°C · ≈32°F"
+   ],
+   "ly_do_phong_cach": "Cảnh thật ngoài trời nhiều lớp gió: cắt giấy. C40, C41"
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "bat_dau": 397.519,
+   "ket_thuc": 402.519,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay: cận Wob ướt sũng",
+   "trang_phuc": "Áo mưa vàng #E2B33C có mũ trùm, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; khoác thêm một áo mưa vàng nhỏ hơn lên vai",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 397.519,
+     "loi": "The problem is that everything is wet, all the time. My raincoat needed a raincoat.",
+     "hanh_dong": "[chen-ve-tay] Mưa ngang; Wob khoác thêm một áo mưa nhỏ lên vai áo mưa của mình; áo thứ hai cũng ướt sũng, nhỏ nước tong tỏng; giữ 0,8 s",
+     "gag": "Áo mưa cho áo mưa",
+     "dao_cu": [
+      "ao-mua-nho"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Punchline ngắn chèn vẽ tay"
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "bat_dau": 402.519,
+   "ket_thuc": 420.538,
+   "lop": "hoi-uc",
+   "boi_canh": "Hành lang Begich Towers (cắt giấy), cạnh cửa có móc treo áo; sổ du lịch mở",
+   "trang_phuc": "Đầu đoạn: hai áo mưa ướt, mũ trùm; nhịp cuối Wob treo CẢ HAI áo mưa lên móc, còn áo len trong + ba lô",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 402.619,
+     "loi": "Back inside, dripping on the hallway floor, I changed my plan.",
+     "hanh_dong": "Wob đứng thành vũng nước giữa hành lang, mở sổ",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 406.682,
+     "loi": "I had come to move here and take long walks. New plan: move here and never go outside.",
+     "hanh_dong": "Trong sổ: Wob gạch dòng long walks, viết never go outside",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich",
+      "but-chi"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 412.444,
+     "loi": "Suddenly, a town in one building did not look odd. It looked like the sensible answer.",
+     "hanh_dong": "[giu-tinh-bo] Wob treo hai áo mưa lên móc, gật gù; giữ 1 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 418.588,
+     "loi": "",
+     "hanh_dong": "[lui-cham-im-lang] Nhạc tắt; im 1,5 s; nối giấy sang đoạn nghiêm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "long walks",
+    "never go outside"
+   ],
+   "ly_do_phong_cach": "Wob đổi ý lần 1 (mồi giữ chân); cắt giấy nối tiếp không gian thật. Khoảng lặng trước chương nghiêm"
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "bat_dau": 420.538,
+   "ket_thuc": 447.658,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy tông trầm xám xanh: bến cảng lúc chạng vạng, nước lặng, ánh sáng thấp (có thể dùng ai-harbor-dusk làm phông nếu không có toà nhà sai chi tiết, không thì vẽ). Không tái hiện cảnh sóng, không vẽ người, không đổ nát chi tiết",
+   "trang_phuc": "Wob mặc lại một áo mưa vàng (lấy từ móc), mũ trùm HẠ xuống, đứng xa, im lặng",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 420.588,
+     "loi": "I want to tell this part plainly.",
+     "hanh_dong": "[lui-cham-im-lang] Wob đứng nhỏ ở mép bến, quay lưng nửa phía người xem; camera lùi rất chậm; không gag",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 422.326,
+     "loi": "On March the twenty-seventh, nineteen sixty-four, a great earthquake struck southern Alaska.",
+     "hanh_dong": "Khung tĩnh: trang sổ giấy ghi March 27, 1964; chỉ chữ, không hình động đất",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 428.051,
+     "loi": "In Whittier, the quake and the waves that followed killed thirteen people. At the time, only about seventy people lived here.",
+     "hanh_dong": "Trang sổ ghi thêm 13; rồi ~70; camera giữ yên, không hiệu ứng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 435.313,
+     "loi": "The waterfront was badly damaged. Today the port still works, and the town still stands where it stood.",
+     "hanh_dong": "Về bến cảng hiện tại: đèn của một con tàu nhỏ sáng lên; Wob vẫn đứng yên",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 441.425,
+     "loi": "I stayed at the water for a while and did not try to be clever.",
+     "hanh_dong": "Giữ hình bến cảng và Wob nhỏ 2 s sau chữ cuối; im lặng không nhạc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "March 27, 1964",
+    "~70",
+    "13 lives lost"
+   ],
+   "ly_do_phong_cach": "Lịch sử nặng (lich-su-nghiem): cắt giấy, KHÔNG gag, không sfx, khoảng lặng 1,5 s trước và 1,5 s sau. C42–C45. Không vẽ toà đổ nát (ảnh ai-buckner-ruin không dùng)"
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "bat_dau": 447.658,
+   "ket_thuc": 461.633,
+   "lop": "hoi-uc",
+   "boi_canh": "CÙNG GÓC MÁY với d01 nhưng mùa hè: VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-tunnel-portal: ảnh AI hiện có sai chi tiết (phải là cổng bê tông MỘT làn, ray chìm giữa mặt đường, thanh chắn, đèn tín hiệu). Cổng hầm bê tông khoét vào vách núi đá dốc, một làn, đường ray chìm giữa làn, đèn tín hiệu 3 bóng, thanh chắn sọc đỏ trắng, núi xanh, trời còn sáng; đồng hồ trên cổng (không hiện giờ cụ thể ngoài chữ có trong chu_tren_do_vat)",
+   "trang_phuc": "Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, giày đỏ; xe mui trần MỞ mui; dép lê và ủng trong ba lô (chưa lấy ra)",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 447.708,
+     "loi": "I went back in July. Same tunnel. Different personality.",
+     "hanh_dong": "[cat-cung-doi-mua] Cắt từ giấy vào thẳng cổng hầm cùng bố cục d01, giờ xanh mướt; bông hoa nhỏ mọc trên thanh chắn",
+     "gag": "",
+     "dao_cu": [
+      "xe-mui-tran"
+     ],
+     "sfx": [
+      "liu-lo-vui"
+     ]
+    },
+    {
+     "tai": 451.558,
+     "loi": "In summer it opens at five thirty in the morning and stays open until eleven fifteen at night.",
+     "hanh_dong": "Tờ lịch mùa hè dán trên cổng: 5:30 và 23:15",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 457.333,
+     "loi": "I arrived one minute before closing, on purpose, and drove straight through.",
+     "hanh_dong": "Wob lái qua cổng, nháy mắt với người xem; thanh chắn hạ ngay sau đuôi xe, sượt nhẹ cuộn thảm đỏ trên ba lô",
+     "gag": "Thanh chắn sượt cuộn thảm",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "5:30",
+    "23:15"
+   ],
+   "ly_do_phong_cach": "Nhảy mùa bằng cắt cứng cùng góc máy (callback mở đầu): cắt giấy. C46"
+  },
+  {
+   "id": "d25",
+   "phong_cach": "diorama",
+   "bat_dau": 461.633,
+   "ket_thuc": 475.233,
+   "lop": "hoi-uc",
+   "boi_canh": "Diorama toàn cảnh vịnh mùa hè đến nơi: VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-summer-sound: ảnh AI hiện có sai chi tiết (phải là sông băng xanh trắng đổ ra biển ở xa, vịnh hẹp núi xanh). Vịnh hẹp mùa hè, núi xanh dựng đứng, sông băng trắng xanh đổ ra biển ở xa; bến cảng có tàu du lịch lớn bằng giấy, thuyền nhỏ, cần câu; camera bay qua các lớp",
+   "trang_phuc": "Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; xe mui trần mở mui đỗ ở bến; nhịp cuối mặc áo phao nhỏ trên kayak (cởi trước đoạn sau)",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 461.733,
+     "loi": "On the far side, the snow was gone and the mountains had turned green.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera ra khỏi hầm, lùi ra toàn cảnh: các lớp núi xanh, thác lớn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 465.983,
+     "loi": "Cruise ships tie up here now. Boats head out into Prince William Sound to see glaciers.",
+     "hanh_dong": "[luot-smootherstep] Camera lướt từ tàu du lịch giấy ở bến ra một chiếc thuyền nhỏ đi về phía sông băng ở xa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 470.845,
+     "loi": "People go fishing for halibut and salmon,",
+     "hanh_dong": "Nền: người que (dạng chung) giơ cần câu, cá bơn giấy dẹt và cá hồi đung đưa. Tiền cảnh: Wob trên bến giật cần, câu lên cái nắp chai kim cương (callback đoạn đãi vàng), giơ lên soi, giữ 0,8 s",
+     "gag": "Wob câu được nắp chai kim cương",
+     "dao_cu": [
+      "can-cau",
+      "nap-chai"
+     ],
+     "sfx": [
+      "ka-ching"
+     ]
+    },
+    {
+     "tai": 473.308,
+     "loi": "or paddle kayaks along the shore.",
+     "hanh_dong": "Con rối Wob (áo phao nhỏ) trên kayak giấy chèo mải miết, thuyền xoay một vòng tại chỗ; một con hải âu giấy đậu mũi thuyền nhìn Wob, giữ 0,6 s",
+     "gag": "Kayak xoay tròn, hải âu nhìn",
+     "dao_cu": [
+      "kayak"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Prince William Sound"
+   ],
+   "ly_do_phong_cach": "Toàn cảnh đến nơi có chiều sâu: diorama. Vòng 2: gộp đoạn kayak vẽ tay vào đây (T6, D6). Sông băng vẽ bằng thư viện. C47, C48"
+  },
+  {
+   "id": "d26",
+   "phong_cach": "cat-giay",
+   "bat_dau": 475.233,
+   "ket_thuc": 492.078,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: trước VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-begich-towers: ảnh AI hiện có sai chi tiết (phải là MỘT khối 14 tầng màu kem, ba khối nối liền, cửa sổ vuông nhỏ đều). Begich Towers: một khối bê tông kem nhạt 14 tầng, ba khối nối liền, hàng cửa sổ vuông nhỏ, dưới chân núi dốc có thác mùa hè, cỏ xanh, người que mặc áo phông đi lại",
+   "trang_phuc": "Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; nhịp cuối: cất dép lê vào ba lô, xỏ ủng cao su (từ đây tới hết video Wob đi ủng, không giày đỏ)",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 475.333,
+     "loi": "The quiet winter town had turned into a front door for the whole sound.",
+     "hanh_dong": "Cửa toà nhà mở ra phía vịnh; camera đi ra theo cửa",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 479.358,
+     "loi": "The building was still there, of course, at the foot of the mountain. But now people were actually outside it, on purpose, in T-shirts.",
+     "hanh_dong": "[tien-canh-khung] Toà 14 tầng dưới chân núi; tiền cảnh người que áo phông (dạng chung, tôn trọng) đi dạo",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 487.246,
+     "loi": "I put my slippers away and found my boots. They looked nervous.",
+     "hanh_dong": "[giu-tinh-bo] Wob nhét dép lê vào ba lô, lôi đôi ủng cao su ra; đôi ủng run nhẹ, mặt lo lắng (callback d13); Wob xỏ vào; giữ 0,8 s",
+     "gag": "Ủng lo lắng",
+     "dao_cu": [
+      "dep-le",
+      "ung-cao-su"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cảnh thật mùa hè: cắt giấy. Toà nhà vẽ bằng thư viện"
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "bat_dau": 492.078,
+   "ket_thuc": 525.19,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: lối mòn đá giữa núi xanh, sông băng phía xa (vẽ bằng thư viện, có thể dùng ai-portage-pass làm phông xa nếu khớp); rồi bến cảng có bảng gỗ; rồi tảng đá phơi nắng",
+   "trang_phuc": "Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, ủng cao su; mặc lại áo mưa vàng, cầm gậy; nhịp cuối gỡ áo mưa",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 492.228,
+     "loi": "On my last day I hiked the Portage Pass trail, about two miles out toward Portage Lake, along the old route over the mountains.",
+     "hanh_dong": "[di-bo-parallax] Wob leo lối mòn, gậy chống, các lớp núi trôi; biển gỗ ~2 mi",
+     "gag": "",
+     "dao_cu": [
+      "gay"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 500.028,
+     "loi": "I wore my raincoat, just in case. It did not rain. I felt cheated.",
+     "hanh_dong": "[take-cham] Trời xanh không gợn mây, Wob trong áo mưa đổ mồ hôi; giơ tay hứng mưa, một giọt duy nhất rơi trúng lòng bàn tay, rồi thôi",
+     "gag": "Một giọt mưa duy nhất",
+     "dao_cu": [],
+     "sfx": [
+      "drop"
+     ]
+    },
+    {
+     "tai": 504.668,
+     "loi": "Back in town, I learned about a new title. In October twenty twenty-six, the National Park Service named Whittier an American World War Two Heritage City. Only one city per state gets it. The town is proud of the port that made it.",
+     "hanh_dong": "Bến cảng: bảng gỗ ghi 2026 · WWII Heritage City; Wob đọc, gật gù; nhãn nhỏ 1 per state",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 518.488,
+     "loi": "And standing in the sun, I changed my mind again. Not forever. Just for the summer.",
+     "hanh_dong": "Wob gỡ áo mưa, ngồi phơi nắng trên tảng đá; mở sổ, gạch dòng never go outside, viết summer",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~2 mi",
+    "2026 · WWII Heritage City",
+    "1 per state",
+    "never go outside",
+    "summer"
+   ],
+   "ly_do_phong_cach": "Hành trình đi bộ và Wob đổi ý lần 2: cắt giấy. C49, C50"
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "bat_dau": 525.19,
+   "ket_thuc": 543.36,
+   "lop": "hoi-uc",
+   "boi_canh": "Vẽ tay trên mặt sau tờ lịch: chuỗi hình nối bằng mũi tên cảng → sương → hầm → toà nhà → thời tiết",
+   "trang_phuc": "Wob ngồi trong xe mui trần ở bãi chờ đêm mùa hè: Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, ủng cao su; áo mưa gấp trong ba lô; tờ lịch trên vô lăng, bút chì",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 525.24,
+     "loi": "The back of the timetable was blank, so I drew the whole story on it.",
+     "hanh_dong": "[so-do-ve-tay] Tay Wob cầm bút chì trên mặt sau tờ lịch đặt trên vô lăng",
+     "gag": "",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "but-chi"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 529.36,
+     "loi": "A war needed a port that ships could reach all year and planes could not see.",
+     "hanh_dong": "Hình neo cảng; máy bay giấy bịt mắt, giữ 0,6 s",
+     "gag": "Máy bay bịt mắt",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 534.1,
+     "loi": "The fog hid it. A tunnel reached it.",
+     "hanh_dong": "Mũi tên → đám mây; mũi tên → cổng hầm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 536.38,
+     "loi": "The Army left, and its building became the town.",
+     "hanh_dong": "Cắt sang cận mặt Wob trên vô lăng gật theo mũi tên; rồi về tờ lịch: mũi tên → toà 14 tầng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 539.34,
+     "loi": "And the weather makes living under one roof sensible instead of strange.",
+     "hanh_dong": "Mũi tên → đám mây mưa phủ toà nhà; Wob đội mái nhà vẽ tay lên đầu",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Tóm lập luận bằng sơ đồ vẽ tay trên kỷ vật"
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "bat_dau": 543.36,
+   "ket_thuc": 573.268,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy: bãi chờ đêm mùa hè, VẼ BẰNG THƯ VIỆN, KHÔNG dùng ảnh ai-tunnel-portal: ảnh AI hiện có sai chi tiết (phải là cổng bê tông MỘT làn, ray chìm giữa mặt đường, thanh chắn, đèn tín hiệu). Cổng hầm bê tông khoét vào vách núi đá dốc, một làn, đường ray chìm giữa làn, đèn tín hiệu 3 bóng, thanh chắn sọc đỏ trắng, đèn tín hiệu; xe Wob ở làn đầu. con dấu, tờ lịch và mọi chữ (SUMMER ONLY, May–Sept, 23:15) đặt trong vùng x < 1100; góc x > 1150, y > 560 để trống",
+   "trang_phuc": "Như d28: Mũ lưỡi trai xanh băng, không áo mưa, ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, ủng cao su; tờ lịch, con dấu, cuộn băng dính",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 543.46,
+     "loi": "So, do I move in? Summer only.",
+     "hanh_dong": "[giu-tinh-bo] Wob đóng con dấu SUMMER ONLY lên mặt sau tờ lịch (đúng một lần trong tập); đúng lúc dấu đóng đèn hầm chuyển xanh như đồng ý",
+     "gag": "Đèn xanh như gật đầu",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "con-dau"
+     ],
+     "sfx": [
+      "dau-wob"
+     ]
+    },
+    {
+     "tai": 545.8,
+     "loi": "From May to September, the tunnel runs until a quarter past eleven, and Whittier is a doorway to glaciers, fish and trails.",
+     "hanh_dong": "Ba hình nhỏ trên tờ lịch sáng lên: sông băng, cá, lối mòn; dòng chữ May–Sept · 23:15",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 553.98,
+     "loi": "In winter it means roughly twenty feet of snow, wind that rolls me into doors, and a road with a bedtime.",
+     "hanh_dong": "Đèn cổng hầm phía sau tắt từng bóng; một bông tuyết giấy bay ngang (gợi nhắc mùa đông)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 560.68,
+     "loi": "Bring a calendar. Bring patience. Leave the habit of running late somewhere else.",
+     "hanh_dong": "Wob giơ hai ngón tay đếm (lịch, kiên nhẫn), rồi liếc đồng hồ trên táp-lô, giật mình",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 565.4,
+     "loi": "I taped the timetable to my dashboard. This time I read it.",
+     "hanh_dong": "Wob dán tờ lịch lên táp-lô, tờ lịch bong một góc, Wob dán thêm ba miếng băng dính; gõ tay vào chữ 23:15; nhìn thẳng người xem, giữ",
+     "gag": "Ba miếng băng dính",
+     "dao_cu": [
+      "bang-dinh"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 568.84,
+     "loi": "Could you spend a whole winter without stepping out of your building?",
+     "hanh_dong": "Wob nghiêng đầu chờ câu trả lời; giữ hình tới hết (không mờ đen)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "SUMMER ONLY",
+    "May–Sept",
+    "23:15"
+   ],
+   "ly_do_phong_cach": "Kết ở bãi chờ cổng hầm (đóng vòng với mở đầu: lần này Wob đã đọc lịch); cắt giấy. C52"
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama",
+   "bat_dau": 573.268,
+   "ket_thuc": 591.268,
+   "lop": "duoi",
+   "boi_canh": "ĐUÔI TẬP theo skill mo-ket (.claude/skills/mo-ket/SKILL.md mục 2). Bàn kỷ vật diorama (cùng bàn với d11), ánh đèn bàn ấm. Bên trái: kệ gỗ giấy 2 tầng có lọ opal (thẻ COOBER PEDY) và tủ đông nhỏ (thẻ OYMYAKON). Bên phải: vùng end screen để TRỐNG.",
+   "trang_phuc": "Bộ ở nhà như d11 (không mũ, không áo mưa), ba lô xanh ô liu xẹp cầm tay ở nhịp cuối",
+   "vao": "cat",
+   "ra": "cuoi-video",
+   "nhip": [
+    {
+     "tai": 573.668,
+     "loi": "The timetable lives on my shelf now, next to a jar of almost no opals.",
+     "hanh_dong": "[day-vao-cham] Wob đặt tờ lịch hầm (còn ba miếng băng dính) lên kệ, cạnh lọ opal; lọ kêu lách cách khi tờ lịch chạm",
+     "gag": "Lọ opal rung lách cách",
+     "dao_cu": [
+      "to-lich-gio-ham",
+      "lo-opal"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 578.618,
+     "loi": "The fish still lives in the freezer.",
+     "hanh_dong": "Wob liếc sang tủ đông nhỏ; nắp hé, đuôi cá thò ra vẫy một cái rồi nắp tự đóng",
+     "gag": "Đuôi cá vẫy",
+     "dao_cu": [
+      "tu-dong-nho",
+      "ca"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 580.705,
+     "loi": "The map has more pins to go.",
+     "hanh_dong": "Bản đồ giấy (hình gợi ý, không đường biên chi tiết, không vùng Biển Đông) mở ra trên bàn; ghim đỏ cắm vào Alaska",
+     "gag": "",
+     "dao_cu": [
+      "ban-do-giay",
+      "ghim"
+     ],
+     "sfx": [
+      "pop"
+     ]
+    },
+    {
+     "tai": 582.518,
+     "loi": "The next one is warm, very small, and already full.",
+     "hanh_dong": "Một ghim trống không nhãn rung ở vùng biển ấm; một mặt trời giấy nhỏ nhô lên cạnh ghim. KHÔNG ghi tên nơi",
+     "gag": "",
+     "dao_cu": [
+      "ghim"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 586.305,
+     "loi": "I am packing light.",
+     "hanh_dong": "Wob cầm ba lô xẹp; hai khung ảnh giấy trống (~560×315, x 1180–1740, y ~150–465 và ~500–815 hoặc tương đương) và một vòng tròn giấy trống (~200 px) bật lên bên phải; Wob chỉ tay sang đó, chớp mắt, đứng thở tới hết. Bên trong khung và vòng không vẽ gì, không chữ. Không mờ đen",
+     "gag": "",
+     "dao_cu": [
+      "khung-anh-trong",
+      "vong-tron-trong"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "COOBER PEDY",
+    "OYMYAKON",
+    "WHITTIER"
+   ],
+   "ly_do_phong_cach": "Đuôi tập ở bàn kỷ vật = khung hiện tại, chỉ diorama (skill mo-ket). Mở đường xem lại tập 1–2 và chờ tập sau; chừa vùng end screen 20 s cuối"
+  }
+ ]
+}

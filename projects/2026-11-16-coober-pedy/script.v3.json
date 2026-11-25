@@ -1,0 +1,2113 @@
+{
+  "title": "I Slept Inside a Rock in the Outback. A Town Does.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Coober Pedy",
+    "country": "Australia",
+    "lat": -29.013,
+    "lon": 134.755
+  },
+  "question": "Why do people live in Coober Pedy?",
+  "message": "This video tells curious adults that a desert town in South Australia went underground because opal brought miners who already knew how to dig, and a hole in the rock beats the heat for free.",
+  "angle": "People live in Coober Pedy because opal found in nineteen fifteen pulled miners into the desert and the same skills and machines they used for mines let them carve homes into rock that stays around twenty-three to twenty-five degrees all year, despite fierce summer heat, a road of about nine hours from Adelaide, water pumped from a distant bore and countless open mine shafts.",
+  "hook_type": "ky-vat",
+  "target_seconds": [
+    600,
+    900
+  ],
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "A Jar of Almost Nothing",
+      "lop": "hien-tai",
+      "role": "hook: Wob ở bàn lắc lọ opal gần như rỗng; câu hỏi trung tâm",
+      "narration": "This jar holds every opal I found in Coober Pedy. Listen. That's mostly the jar. Plenty of people in that desert town live underground. I went to find out why.",
+      "pronunciation": "Coober Pedy: KOO-ber PEE-dee",
+      "on_screen_text": "WHY LIVE UNDERGROUND?",
+      "y_hinh": [
+        {
+          "cue": "This jar holds every opal",
+          "y": "Bàn kỷ vật dưới đèn bàn; Wob giơ một lọ thuỷ tinh nhỏ lên soi"
+        },
+        {
+          "cue": "Listen",
+          "y": "Wob lắc lọ sát tai",
+          "gag": "Lọ chỉ kêu một tiếng tách nhỏ xíu; một hạt sạn lăn ra, Wob nhìn hạt sạn, giữ hình"
+        },
+        {
+          "cue": "live underground",
+          "y": "Sau lưng Wob, trang sổ mở bản đồ Úc, chấm Coober Pedy nửa phải khung"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-coober-pedy",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.65,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "Plenty of people",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This jar holds",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "That's mostly the jar",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "ting",
+          "cue": "Listen"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "hứa: vị trí, khoảng cách, tỉ lệ sống dưới đất (dè dặt); Wob muốn chuyển tới",
+      "narration": "Coober Pedy sits in the outback of South Australia, roughly eight hundred and forty-six kilometres north-west of Adelaide by road. That's about five hundred and twenty-five miles. Estimates vary, but around half the town lives in homes dug into the hills. At the twenty twenty-one census, around fifteen hundred people lived in the town, depending on how you draw its edges. I planned to be one of them. I packed a hat, a lot of water and a lot of confidence. By the end of the trip I understood why people here dig instead of build. It cost me my dignity and a golf ball.",
+      "facts": [
+        {
+          "label": "Adelaide → Coober Pedy",
+          "value": "~846 km · ~525 mi",
+          "claim_ids": [
+            "C02"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "north-west of Adelaide",
+          "y": "Trang sổ: đường nét đứt từ Adelaide lên phía tây bắc tới chấm Coober Pedy"
+        },
+        {
+          "cue": "homes dug into the hills",
+          "y": "Wob đặt lên trang sổ một tấm bưu thiếp vẽ mặt cắt ngọn đồi có phòng bên trong"
+        },
+        {
+          "cue": "I packed a hat",
+          "y": "Wob nhét mũ rộng vành, ba chai nước vào ba lô",
+          "gag": "Ba lô phồng to hơn cả Wob; cuối cùng Wob nhét thêm cái tự tin dưới dạng một lá cờ nhỏ, ba lô bật nắp"
+        },
+        {
+          "cue": "a golf ball",
+          "y": "Wob liếc một quả bóng golf phát sáng trên bàn, giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-adelaide-route",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "fact:Adelaide → Coober Pedy",
+          "cue": "That's about five hundred"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Estimates vary"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "I packed a hat",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "By the end of the trip"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I planned to be one of them",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It cost me my dignity",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "Digging for Leftovers",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "hoạt động 1: đi noodling, thử và hỏng",
+      "narration": "My first morning, I went noodling. Noodling means sifting through the piles of waste dirt that miners leave behind, hoping they missed something. The piles are everywhere. Thousands of pale cones of rubble, as if a giant had been sneezing sand for a century. I picked a pile that looked lucky. It looked exactly like every other pile. I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around.",
+      "y_hinh": [
+        {
+          "cue": "I went noodling",
+          "y": "Sa mạc phẳng, Wob đội mũ rộng vành, cầm sàng và cái xẻng nhỏ"
+        },
+        {
+          "cue": "Thousands of pale cones",
+          "y": "Toàn cảnh cánh đồng đống đất hình nón màu kem hồng tới tận chân trời"
+        },
+        {
+          "cue": "I found a more confident rock",
+          "y": "Wob giơ hòn đá thứ hai lên ngắm",
+          "gag": "Ba lần đào: hòn thứ nhất xám, hòn thứ hai xám to hơn và có vẻ tự mãn, Wob cau mày"
+        },
+        {
+          "cue": "and it sparkled",
+          "y": "Hòn sỏi Wob ném ra sau vai lấp lánh đủ màu trên đống đất",
+          "gag": "Wob vẫn cúi đào, không thấy; lấp lánh tắt dần sau lưng; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-desert-plain",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "The piles are everywhere",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "I picked a pile",
+          "move": "zoom-in",
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "Then I tossed a pebble",
+          "move": "still",
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "zoom": 1.4
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went noodling",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I dug faster",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I did not turn around",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "ting",
+          "cue": "and it sparkled"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế: opal 1915, tỉ lệ opal thế giới (dè dặt), địa chất nói đúng một nửa; so sánh bánh nhiều lớp",
+      "narration": "So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug.",
+      "pronunciation": "Hutchison: HUTCH-ih-sun",
+      "facts": [
+        {
+          "label": "Opal found",
+          "value": "1 Feb 1915",
+          "claim_ids": [
+            "C06"
+          ]
+        },
+        {
+          "label": "World precious opal",
+          "value": "~70% (est.)",
+          "claim_ids": [
+            "C08"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "It started with a teenager",
+          "y": "Cắt giấy tông cũ: một cậu bé đội mũ (người chung, không mặt rõ) cúi nhặt một mảnh đá lấp lánh"
+        },
+        {
+          "cue": "Miners followed",
+          "y": "Người que nét mực vác cuốc kéo tới, dựng tời trên miệng giếng"
+        },
+        {
+          "cue": "seventy percent",
+          "y": "Wob cầm một khay nhỏ chia mười ô, bảy ô sáng lên",
+          "gag": "Wob cố nhét lọ opal rỗng của mình vào ô thứ tám, lọ không vừa"
+        },
+        {
+          "cue": "Picture a layer cake",
+          "y": "Bong bóng tưởng tượng vẽ tay: bánh kem nhiều lớp, ghi 'sea rock'; một ống bơm mứt chọc vào sau",
+          "gag": "Wob cắn thử miếng bánh, răng gặp đá, giữ hình"
+        },
+        {
+          "cue": "so I checked before I dug",
+          "y": "Wob đứng trước bảng thông tin, đọc kỹ, gật đầu"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mullock-field",
+          "move": "zoom-in",
+          "focus": [
+            0.3,
+            0.5
+          ]
+        },
+        {
+          "show": "fact:Opal found",
+          "cue": "On the first of February"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "Miners followed",
+          "move": "pan-left"
+        },
+        {
+          "show": "fact:World precious opal",
+          "cue": "Today this field"
+        },
+        {
+          "show": "asset:ai-desert-plain",
+          "cue": "laid down by an ancient inland sea",
+          "move": "zoom-out"
+        },
+        {
+          "show": "text",
+          "cue": "Picture a layer cake"
+        },
+        {
+          "show": "asset:ai-desert-plain",
+          "cue": "Whether you need a permit",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why build a town",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "seventy percent",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "The opal is the late jam",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "kết chương: mảnh 'vì sao' đầu tiên",
+      "narration": "That's piece one of the why. Opal pulled people into the middle of nowhere. It did not tell them where to sleep. I found that out at lunchtime.",
+      "y_hinh": [
+        {
+          "cue": "Opal pulled people",
+          "y": "Một sợi dây vẽ tay kéo các hình người que từ mép khung vào giữa sa mạc"
+        },
+        {
+          "cue": "I found that out at lunchtime",
+          "y": "Mặt trời trên đầu Wob to dần",
+          "gag": "Mặt trời phình to tới mức chiếm nửa trời, mũ của Wob bắt đầu bốc khói nhẹ"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-desert-plain",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-desert-plain",
+          "cue": "I found that out",
+          "move": "still",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "That's piece one",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I found that out at lunchtime",
+          "bieu_cam": "nong-chay"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "Why Is Everyone in a Hole?",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "mồi lại: nóng, Wob đổi ý lần 1 (không chuyển tới nữa); đoán sai lý do sống dưới đất",
+      "music_mood": "hai",
+      "narration": "By noon I was melting. The sky was white, the dirt was hot, and my hat had quietly resigned. I wrote in my notebook, in wobbly letters, I am not moving here. Then I noticed the doors. Doors cut straight into the hillsides. Pipes poking out of the ground like snorkels. My first guess was that the miners were hiding their opal. Reasonable. Wrong. My second guess was that they simply love caves. Also wrong, mostly. I stood there, slowly dripping, and asked myself the real question. If it's this hot up here, what is it like down there?",
+      "y_hinh": [
+        {
+          "cue": "By noon I was melting",
+          "y": "Wob chảy dần như kem, chân dính vào đất",
+          "gag": "Cái mũ tự tuột khỏi đầu Wob, bò vào bóng một đống đất nằm nghỉ"
+        },
+        {
+          "cue": "I am not moving here",
+          "y": "Cận trang sổ, nét chữ run rẩy chảy xuống mép giấy"
+        },
+        {
+          "cue": "Then I noticed the doors",
+          "y": "Sườn đồi thấp có cửa gỗ, cửa sổ nhỏ khoét vào đá; ống thông gió nhô trên đỉnh đồi"
+        },
+        {
+          "cue": "My first guess",
+          "y": "Sơ đồ vẽ tay: hòm opal giấu trong hầm, bị gạch chéo đỏ",
+          "gag": "Lần đoán thứ hai: Wob vẽ một hang có dơi treo, tự gạch luôn, nhưng để chừa một góc nhỏ chưa gạch"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-desert-plain",
+          "move": "zoom-in",
+          "zoom": 1.15
+        },
+        {
+          "show": "text",
+          "cue": "I am not moving here"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Then I noticed the doors",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Pipes poking out",
+          "move": "zoom-in",
+          "focus": [
+            0.5,
+            0.25
+          ],
+          "zoom": 1.35
+        },
+        {
+          "show": "text",
+          "cue": "My first guess"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Also wrong, mostly",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "By noon I was melting",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I am not moving here",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Then I noticed the doors",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "My first guess",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "lật: lý do thật là nhiệt độ ổn định của đá; so sánh hầm rượu",
+      "narration": "The reason is boring and brilliant. A few metres of rock is slow to heat up and slow to cool down, so underground the temperature hardly moves. NASA puts it at about twenty-three degrees Celsius, around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather.",
+      "facts": [
+        {
+          "label": "Underground",
+          "value": "~23°C · ~73°F",
+          "claim_ids": [
+            "C12",
+            "C13"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "A few metres of rock",
+          "y": "Mặt cắt ngọn đồi vẽ tay: mũi tên nóng đỏ đập vào mặt trên, chậm dần, mờ dần khi xuống sâu"
+        },
+        {
+          "cue": "about twenty-three degrees",
+          "y": "Nhiệt kế dán trên vách đá trong phòng chỉ 23°C"
+        },
+        {
+          "cue": "same trick as a wine cellar",
+          "y": "Bong bóng tưởng tượng: hầm rượu có chai nằm yên",
+          "gag": "Ngoài cửa hầm, mặt trời và mặt trăng thay nhau gõ cửa liên hồi; trong hầm chai rượu ngủ ngáy"
+        },
+        {
+          "cue": "It just ignores the weather",
+          "y": "Giữ hình tỉnh bơ trên cái cửa hầm đóng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "NASA puts it",
+          "move": "zoom-in"
+        },
+        {
+          "show": "fact:Underground",
+          "cue": "around seventy-three Fahrenheit"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "It's the same trick",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The reason is boring and brilliant",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "no air conditioning",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "Wob ngủ trong khách sạn dưới đất; đổi ý lần 2 (lại muốn chuyển tới)",
+      "narration": "So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic. No sun trying to get in. I slept like a rock, inside a rock. By breakfast I had crossed out the line in my notebook. I was moving here after all.",
+      "y_hinh": [
+        {
+          "cue": "my shape came back",
+          "y": "Wob bước qua cửa hầm vào bóng mát",
+          "gag": "Từ dạng chảy nhão, Wob bật lại tròn xoe kèm tiếng 'boing'; cái mũ chạy theo vào sau"
+        },
+        {
+          "cue": "curving up into a pale ceiling",
+          "y": "Cận vách đá trần, trần vòm sơn sáng (không vẽ vân mũi khoan)"
+        },
+        {
+          "cue": "I slept like a rock",
+          "y": "Wob ngủ trên giường kê sát vách đá, ngực phập phồng"
+        },
+        {
+          "cue": "I was moving here after all",
+          "y": "Wob gạch dòng 'I am not moving here' trong sổ, viết lại nét chữ chắc"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-dugout-hillside",
+          "move": "zoom-in",
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "The walls were bare rock",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "I slept like a rock",
+          "move": "still",
+          "zoom": 1.1
+        },
+        {
+          "show": "text",
+          "cue": "I was moving here after all"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "my shape came back",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I slept like a rock",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I was moving here after all",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "bonk",
+          "cue": "my shape came back"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "The Machine That Digs Bedrooms",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "lý do 2: thợ mỏ sẵn kỹ năng và máy; blower; dugout từ thời mỏ đầu",
+      "narration": "In the morning I stared at the rock above my bed and asked the obvious question. Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture.",
+      "y_hinh": [
+        {
+          "cue": "Who digs a bedroom",
+          "y": "Wob cầm cái thìa cà phê, thử cạo vách",
+          "gag": "Cạo mãi mới rơi một hạt bụi; Wob nhìn hạt bụi, nhìn người xem"
+        },
+        {
+          "cue": "The first miners probably started digging homes",
+          "y": "Cắt giấy tông cũ: tời trên miệng giếng, bên cạnh một cửa hầm nhỏ có ống khói"
+        },
+        {
+          "cue": "a truck that vacuums dirt",
+          "y": "Xe tải hút đất có thùng hút và ống lớn cắm xuống lòng đất",
+          "gag": "Ống hút hút luôn cái mũ của Wob; mũ bay lên rồi rơi xuống đống đất"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-underground-room",
+          "move": "zoom-in",
+          "focus": [
+            0.3,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "According to a state heritage report",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "The local council",
+          "move": "zoom-in",
+          "focus": [
+            0.6,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "asked the obvious question",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "a truck that vacuums dirt",
+          "bieu_cam": "soc"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "may-no",
+          "cue": "a truck that vacuums dirt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "so sánh đời thường: mũ tốt so với quạt chạy mãi; nói định tính, không số chi phí",
+      "narration": "Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there.",
+      "y_hinh": [
+        {
+          "cue": "like running a fan",
+          "y": "Vẽ tay: ngôi nhà tôn trên mặt đất, cái quạt quay tít, đồng hồ điện quay nhanh"
+        },
+        {
+          "cue": "buying a really good hat",
+          "y": "Vẽ tay: ngọn đồi đội một cái mũ rộng vành khổng lồ",
+          "gag": "Cái quạt mệt lả gục xuống; ngọn đồi đội mũ vẫn bình thản, Wob cũng đội mũ đứng cạnh, giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-desert-plain",
+          "cue": "like running a fan",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Digging one",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "I couldn't find hard numbers",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here's how I think about it",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "the rock does the work",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "phóng quy mô: một phòng thành cả thị trấn; nhà thờ St Elijah 1993; tên 1920, hội đồng 1987",
+      "narration": "Then I zoomed out. One room becomes a house. Houses become a hotel, shops and churches. The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three. I stood at the back with my hat in my hands and kept very quiet. Even the echo seemed polite. The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven. Everyone here had the same idea, with the same machines.",
+      "y_hinh": [
+        {
+          "cue": "Then I zoomed out",
+          "y": "Mặt cắt ngọn đồi; camera lùi dần: một phòng, rồi nhiều phòng, rồi cả dãy đồi đầy phòng nối nhau",
+          "gag": "Mỗi bước lùi Wob nhỏ đi một nấc, cuối cùng chỉ còn một chấm có cái ba lô"
+        },
+        {
+          "cue": "Saint Elijah",
+          "y": "Trong nhà thờ khoét đá: trần cao, vách đá cát, ánh đèn vàng; Wob đứng cuối phòng, bỏ mũ cầm tay"
+        },
+        {
+          "cue": "the same machines",
+          "y": "Trên mặt đất, những ống thông gió nhô lên khắp đồi như hàng cây"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-dugout-hillside",
+          "move": "zoom-out",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:ai-church-underground",
+          "cue": "The Serbian Orthodox church",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-church-underground",
+          "cue": "I stood at the back",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "The town picked its name",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then I zoomed out",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I stood at the back",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "chapter": "Golf Without Grass",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "hoạt động: một buổi chiều tới đêm ở sân golf không cỏ",
+      "music_mood": "hai",
+      "narration": "Late afternoon, when the sun finally lowered its voice, I went to play golf. The Opal Fields Golf Club was set up in nineteen seventy-six, and it has no grass at all. The fairways are white crushed rock. The greens, which they call scrapes, are rock dust mixed with waste oil. Players carry a small square of artificial turf to hit from. I carried mine under my arm like a tiny rolled carpet. My backpack already has a red one. Now it had a green one too. I looked extremely prepared for a sport I could not play.",
+      "y_hinh": [
+        {
+          "cue": "Late afternoon",
+          "y": "Đồng hồ vẽ tay trên trang sổ quay tới chiều; nắng nghiêng, bóng đổ dài"
+        },
+        {
+          "cue": "it has no grass at all",
+          "y": "Sân golf nền đá trắng, cờ lỗ cắm giữa vùng tròn màu sẫm",
+          "gag": "Wob cúi tìm cỏ dưới đá bằng kính lúp, chỉ thấy một hạt sỏi"
+        },
+        {
+          "cue": "like a tiny rolled carpet",
+          "y": "Wob kẹp miếng cỏ nhân tạo cuộn tròn dưới nách, cạnh cuộn thảm đỏ trên ba lô"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-golf-course",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-golf-course",
+          "cue": "The fairways are white",
+          "move": "zoom-in",
+          "focus": [
+            0.5,
+            0.65
+          ]
+        },
+        {
+          "show": "asset:ai-golf-course",
+          "cue": "Players carry",
+          "move": "zoom-in",
+          "focus": [
+            0.35,
+            0.7
+          ],
+          "zoom": 1.3
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went to play golf",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "no grass at all",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "đêm: golf bóng phát sáng vì ban ngày quá nóng; St Andrews",
+      "narration": "Then night. The heat finally backed off, and the course changed shape in the dark. When the days get too hot, people here play in the dark with balls that glow. My ball glowed beautifully, all the way into a pile of dirt. Gone. And the strangest detail of all. This club has a reciprocal arrangement with St Andrews in Scotland, often called the home of golf. Golf Digest reported that nobody knew of any St Andrews member who had actually come out to play. I get it. I lost a ball and my dignity here, in that order.",
+      "y_hinh": [
+        {
+          "cue": "balls that glow",
+          "y": "Trời tối xanh thẫm, quả bóng golf phát sáng xanh lơ bay thành vệt sáng"
+        },
+        {
+          "cue": "into a pile of dirt",
+          "y": "Quả bóng rơi vào sườn một đống đất",
+          "gag": "Ánh sáng xanh của quả bóng mờ dần trong đống đất như ngọn nến tắt; Wob cầm gậy đứng im, giữ hình"
+        },
+        {
+          "cue": "St Andrews in Scotland",
+          "y": "Hai tấm bưu thiếp đặt cạnh nhau: một sân cỏ xanh mướt dưới mưa, một sân đá trắng dưới sao"
+        },
+        {
+          "cue": "in that order",
+          "y": "Wob cuộn miếng cỏ lại, đi về, gậy kéo lê trên đá"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-golf-course",
+          "move": "zoom-in",
+          "focus": [
+            0.6,
+            0.4
+          ]
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "into a pile of dirt",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "text",
+          "cue": "And the strangest detail"
+        },
+        {
+          "show": "asset:ai-golf-course",
+          "cue": "Golf Digest reported",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-golf-course",
+          "cue": "I get it",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My ball glowed beautifully",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Gone",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I get it",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "chapter": "What the Desert Charges",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "cái giá 1: đường xa, nước từ giếng ngầm xa, lọc thẩm thấu ngược",
+      "music_mood": "to-mo",
+      "narration": "Back on my map page, the costs started piling up. The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water. Imagine your kitchen tap connected to a straw that long.",
+      "facts": [
+        {
+          "label": "Water bore",
+          "value": "~60 m deep · 23–25 km away",
+          "claim_ids": [
+            "C28"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Back on my map page",
+          "y": "Trang sổ pop-up: đường nét đứt Adelaide tới Coober Pedy, chiếc xe giấy nhỏ chạy theo",
+          "gag": "Xe chạy mãi, phông cảnh sau lưng lặp y hệt ba lần cùng một bụi cây, lần thứ ba Wob trong xe chỉ tay vào bụi cây"
+        },
+        {
+          "cue": "an underground bore",
+          "y": "Mặt cắt: ống nước từ một giếng sâu ở phía đông bắc chạy ngang dưới sa mạc về thị trấn"
+        },
+        {
+          "cue": "a straw that long",
+          "y": "Wob đứng ở bồn rửa, vặn vòi",
+          "gag": "Wob hút thử một ống hút dài vắt qua cả trang sổ, má hóp lại, chờ mãi mới có một giọt"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-adelaide-route",
+          "move": "zoom-in",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:ai-outback-road",
+          "cue": "The drive from Adelaide",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-coober-pedy-water",
+          "cue": "The town pumps it",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "fact:Water bore",
+          "cue": "depending on which council document"
+        },
+        {
+          "show": "asset:map-coober-pedy-water",
+          "cue": "Imagine your kitchen tap",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "the costs started piling up",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "a straw that long",
+          "bieu_cam": "nong-chay"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cái giá 2: giếng mỏ bỏ hoang, số lượng dè dặt, tai nạn 2024; Wob đổi ý lần 3 (suýt NOPE)",
+      "music_mood": "khac-nghiet",
+      "narration": "Then there are the holes. Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt. Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million. Warning signs stand at the entrances to the opal fields, and I read every single one walking backwards. That was a mistake. In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft. After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk. Standing at the edge of one hole, for about a minute, I was ready to go home.",
+      "y_hinh": [
+        {
+          "cue": "some hidden under sheets of iron",
+          "y": "Miệng giếng tròn đen giữa các đống đất, một tấm tôn gỉ che dở"
+        },
+        {
+          "cue": "I read every single one walking backwards",
+          "y": "Wob đi lùi đọc biển cảnh báo chữ in hoa",
+          "gag": "Gót Wob chạm mép giếng, ba lô quá to mắc ngang miệng giếng, Wob treo lủng lẳng, chân đạp không khí"
+        },
+        {
+          "cue": "In February twenty twenty-four",
+          "y": "Không gag: miệng giếng tối dưới bầu trời đêm, một luồng đèn tím nhỏ xa xa; không vẽ người ngã"
+        },
+        {
+          "cue": "Mind your step in opal fields",
+          "y": "Wob bò lên, đứng xa mép, cầm biển báo mini 'DANGER: UNMARKED SHAFTS'"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mullock-field",
+          "move": "zoom-in",
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "zoom": 1.3
+        },
+        {
+          "show": "text",
+          "cue": "Nobody seems to have an exact count"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "Warning signs stand at the entrances",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-night-plain",
+          "cue": "In February twenty twenty-four",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-night-plain",
+          "cue": "After that fall",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-mullock-field",
+          "cue": "Standing at the edge",
+          "move": "still",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then there are the holes",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "In February twenty twenty-four",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I was ready to go home",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "section",
+      "chapter": "Whose Land This Is",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "người Antakirinja Matu-Yankunytjatjara, Kanku-Breakaways, native title; không gag",
+      "music_mood": "to-mo",
+      "narration": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out.",
+      "pronunciation": "Antakirinja Matu-Yankunytjatjara: an-tuh-KIR-in-ya MAH-too yan-kun-yuh-JAH-juh-ruh; Kanku: KAN-koo",
+      "y_hinh": [
+        {
+          "cue": "Flat-topped hills",
+          "y": "Cắt giấy tông trầm: dãy đồi đỉnh bằng nhiều tầng màu trắng, vàng, cam, đỏ nâu dưới trời chiều; Wob nhỏ ngồi ở xa, không chạm gì"
+        },
+        {
+          "cue": "visitors are asked not to touch",
+          "y": "Wob đặt tay lên đầu gối, ngồi yên"
+        },
+        {
+          "cue": "The court sat in Coober Pedy",
+          "y": "Lùi chậm, im lặng; ánh chiều chuyển dần sang cam"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "move": "zoom-out",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "cue": "This is the country",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "cue": "It belongs to their corporation",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "cue": "In twenty eleven",
+          "move": "zoom-out",
+          "focus": [
+            0.5,
+            0.4
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "On my last evening",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tên 'kupa piti' (dè dặt); đất có chủ trước thợ mỏ; không gag",
+      "narration": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from. I put my notebook away and watched the hills turn purple. The miners arrived more than a century ago. This land had its people long before that.",
+      "y_hinh": [
+        {
+          "cue": "I put my notebook away",
+          "y": "Wob gấp sổ, đặt xuống bên cạnh"
+        },
+        {
+          "cue": "watched the hills turn purple",
+          "y": "Đồi chuyển tím, sao đầu tiên hiện; Wob ngồi nhìn, lùi chậm, im lặng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-breakaways-dusk",
+          "cue": "watched the hills turn purple",
+          "move": "zoom-out",
+          "zoom": 1.15
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I put my notebook away",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "outro",
+      "chapter": "The Verdict From Underground",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết WOULD MOVE có điều kiện, callback lọ opal, câu hỏi kéo bình luận",
+      "narration": "So here's how the jar adds up. Opal brought people to the desert. The heat pushed them into the rock. And the digging skills they already had made a hole cheaper than fighting the sun. Down there, according to NASA, the rock holds around twenty-three degrees. Residents say closer to twenty-four. Would I move there? Above ground, no chance. Below ground, absolutely. My verdict is WOULD MOVE, as long as the bedroom is a hole. It suits people who love quiet, steady temperatures and long drives. It does not suit anyone who needs a window, or who walks at night staring at a phone. I gave the jar one last shake. Still mostly jar. Would you give up every window you own for a room that stays in the low twenties all year?",
+      "verdict": {
+        "label": "WOULD MOVE",
+        "reason": "Only underground: the rock keeps rooms around twenty-three degrees all year without air conditioning, which beats the desert heat for the price of digging once.",
+        "cue": "WOULD MOVE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here's how the jar adds up",
+          "y": "Bàn kỷ vật: Wob xếp thành hàng lọ opal, miếng cỏ nhân tạo cuộn, quả bóng golf phát sáng, biển báo mini, tấm bưu thiếp đồi chiều"
+        },
+        {
+          "cue": "Above ground, no chance",
+          "y": "Wob lật tấm bưu thiếp mặt cắt ngọn đồi: nửa trên Wob chảy nhão, nửa dưới Wob tròn trịa"
+        },
+        {
+          "cue": "My verdict is WOULD MOVE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? WOULD MOVE'"
+        },
+        {
+          "cue": "I gave the jar one last shake",
+          "y": "Wob lắc lọ opal sát tai lần nữa",
+          "gag": "Lần này hạt sạn rơi ra lại lấp lánh một chút; Wob nheo mắt nhìn, giữ hình"
+        },
+        {
+          "cue": "stays in the low twenties all year",
+          "y": "Wob nhìn thẳng người xem, kết đúng ở chữ cuối; góc phải dưới để trống cho màn hình kết thúc"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-underground-room",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-dugout-hillside",
+          "cue": "Would I move there",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is WOULD MOVE"
+        },
+        {
+          "show": "asset:ai-underground-room",
+          "cue": "It suits people",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:map-coober-pedy",
+          "cue": "I gave the jar one last shake",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.65,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here's how the jar adds up",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Above ground, no chance",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "Below ground, absolutely",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Still mostly jar",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-mullock-field",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        13,
+        15
+      ],
+      "canh": "flat stony desert plain covered with hundreds of pale cream and light pink cone-shaped piles of mining rubble, small dark round mine shaft openings between them, a few simple winch frames, harsh white sky",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook và ứng viên thumbnail, dùng ở nhiều cảnh; cần đúng đống đất hình nón và miệng giếng"
+    },
+    {
+      "id": "ai-dugout-hillside",
+      "scenes": [
+        2,
+        6,
+        8,
+        9,
+        10,
+        11,
+        18
+      ],
+      "canh": "low rocky desert hill with small house fronts carved straight into the hillside: wooden doors and small windows set in the rock face, white ventilation pipes sticking up from the top of the hill, bright sun",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cảnh phán quyết, dùng lại nhiều cảnh; cửa khoét vào đồi và ống thông gió phải đúng, không ra nhà gạch kiểu châu Âu"
+    },
+    {
+      "id": "ai-underground-room",
+      "scenes": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        18
+      ],
+      "canh": "cosy room carved inside sandstone, curved vaulted ceiling painted pale, walls showing circular swirl marks left by a tunnelling machine, a simple bed against the rock wall, warm lamp light, no windows",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cảnh phán quyết và lõi lập luận; vân xoáy mũi khoan và trần vòm là chi tiết riêng"
+    },
+    {
+      "id": "ai-church-underground",
+      "scenes": [
+        11
+      ],
+      "canh": "interior of a church carved by hand into sandstone underground, high rough rock ceiling, rock walls, warm yellow lamp light, simple wooden benches, quiet and empty",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Lời đọc nhắc nhà thờ khoét tay vào đá cát; nội bộ dễ vẽ thành nhà thờ xây gạch"
+    },
+    {
+      "id": "ai-golf-course",
+      "scenes": [
+        12,
+        13
+      ],
+      "canh": "desert golf course with no grass: fairway of white crushed rock, a round dark green made of oiled rock dust with a flag in the hole, low mounds of pale dirt behind, evening light",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Sân không cỏ, green sẫm màu là chi tiết chỉ có ở đây và lời đọc tả kỹ"
+    },
+    {
+      "id": "ai-breakaways-dusk",
+      "scenes": [
+        16,
+        17
+      ],
+      "canh": "wide view of flat-topped desert mesas and broken escarpments with horizontal bands of white, yellow, orange and deep red rock, flat plain in front, dusk sky fading orange to purple, no people",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cảnh duy nhất của chương nghiêm; địa hình nhiều tầng màu phải đúng và trang trọng"
+    },
+    {
+      "id": "ai-desert-plain",
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "canh": "empty flat stony desert under a pale blinding sky, heat haze on the horizon",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông không khí sau lưng Wob, không có chi tiết riêng"
+    },
+    {
+      "id": "ai-outback-road",
+      "scenes": [
+        14
+      ],
+      "canh": "long straight empty road across flat red desert to the horizon, sparse low bushes",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 0,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Một nhịp ngắn giữa chương, chỉ tạo cảm giác xa"
+    },
+    {
+      "id": "ai-night-plain",
+      "scenes": [
+        15
+      ],
+      "canh": "flat desert at night under a dark blue starry sky, faint low mounds on the horizon",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Nền đêm cho đoạn nói về tai nạn, không vẽ người, chỉ không khí"
+    }
+  ],
+  "visual_hint_tai_nguyen": {
+    "map-coober-pedy": "Bản đồ D3 khung chỉ nước Úc (không lấy Indonesia, Timor), tô AUS, ghim Coober Pedy −29.013, 134.755 nằm ở nửa phải khung; nhãn 'Coober Pedy'",
+    "map-adelaide-route": "Bản đồ Nam Úc, ghim Adelaide −34.928, 138.600 và Coober Pedy −29.013, 134.755, đường nét đứt theo Stuart Highway; nhãn '~846 km'",
+    "map-coober-pedy-water": "Bản đồ cận vùng Coober Pedy (~60 km), ghim thị trấn và điểm giếng nước ~24 km đông bắc (vị trí phỏng chừng, ghi 'approx.'), đường ống nét đứt; nhãn 'Bore ~60 m deep'"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "Plenty of people in that desert town live underground.",
+      "statement": "A substantial share of the residents of Coober Pedy, a desert opal-mining town in South Australia, live in underground homes (dugouts).",
+      "source_ids": [
+        "S24",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "roughly eight hundred and forty-six kilometres north-west of Adelaide by road. That's about five hundred and twenty-five miles.",
+      "statement": "Coober Pedy is about 846 km (roughly 525 miles) north-west of Adelaide by road.",
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "Estimates vary, but around half the town lives in homes dug into the hills.",
+      "statement": "Roughly half of Coober Pedy's residents live in dugout homes carved into hillsides, according to Smithsonian; other figures circulate without clear sourcing.",
+      "source_ids": [
+        "S24"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C04",
+      "scene": 2,
+      "quote": "At the twenty twenty-one census, around fifteen hundred people lived in the town, depending on how you draw its edges.",
+      "statement": "At the 2021 Australian Census, Coober Pedy had about 1,500 residents: 1,566 in the suburb/locality area and 1,437 in the urban centre area.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Noodling means sifting through the piles of waste dirt that miners leave behind, hoping they missed something. The piles are everywhere. Thousands of pale cones of rubble, as if a giant had been sneezing sand for a century.",
+      "statement": "In Coober Pedy, 'noodling' is searching through mullock (waste rock) heaps left by opal miners for overlooked opal, and thousands of pale cone-shaped mullock heaps cover the opal fields around the town.",
+      "source_ids": [
+        "S31",
+        "S32"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 4,
+      "quote": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal.",
+      "statement": "Opal was discovered at Coober Pedy on 1 February 1915 by a prospecting party led by James Hutchison; his teenage son Willie (aged 14 or 15, sources differ) found the first piece.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "Miners followed within about a year.",
+      "statement": "Opal miners began arriving at Coober Pedy from around 1916, about a year after the 1915 discovery.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher.",
+      "statement": "The Coober Pedy opal field is estimated to supply about 70% of the world's precious opal according to South Australian government sources; the local council cites a higher figure that includes the Mintabie field.",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C09",
+      "scene": 4,
+      "quote": "The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone.",
+      "statement": "Coober Pedy opal occurs in weathered Early Cretaceous marine claystone (Bulldog Shale) deposited by an inland sea in the Eromanga Basin, but the opal formed much later: a 2015 dating study of associated alunite suggests about 12 to 16 million years ago.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C10",
+      "scene": 4,
+      "quote": "Whether you need a permit to noodle depends on who you ask",
+      "statement": "Sources disagree on whether recreational noodling (fossicking) at Coober Pedy requires a permit or fee; South Australian law requires a permit for opal prospecting.",
+      "source_ids": [
+        "S31",
+        "S32"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C11",
+      "scene": 6,
+      "quote": "Doors cut straight into the hillsides. Pipes poking out of the ground like snorkels.",
+      "statement": "Coober Pedy dugout homes have doors and facades cut into hillsides, with ventilation shafts that stick up above the ground.",
+      "source_ids": [
+        "S24",
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 7,
+      "quote": "A few metres of rock is slow to heat up and slow to cool down, so underground the temperature hardly moves. NASA puts it at about twenty-three degrees Celsius, around seventy-three Fahrenheit.",
+      "statement": "Because rock heats and cools slowly, Coober Pedy dugouts stay at a nearly constant temperature; NASA Earth Observatory gives about 23°C (about 73°F).",
+      "source_ids": [
+        "S14"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C13",
+      "scene": 7,
+      "quote": "Residents describe roughly twenty-four all year, with no air conditioning and no heater.",
+      "statement": "Residents of Coober Pedy describe their dugout homes as staying around 24°C year-round without air conditioning or heating.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C14",
+      "scene": 8,
+      "quote": "So I booked a room in an underground hotel.",
+      "statement": "Coober Pedy has underground hotel accommodation carved into the rock.",
+      "source_ids": [
+        "S24",
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 9,
+      "quote": "According to a state heritage report, the first miners probably started digging homes within a few years of the find.",
+      "statement": "The first Coober Pedy opal miners probably began digging dugout homes within a few years of the 1915 opal discovery (heritage report says dugouts were likely built during the earliest mining period, 1915-1918).",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C17",
+      "scene": 9,
+      "quote": "The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home.",
+      "statement": "The District Council of Coober Pedy issues a permit to use a blower (a truck-mounted machine that sucks soil out of excavations), and the permit applies to both mining and excavating dugouts.",
+      "source_ids": [
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 10,
+      "quote": "I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there.",
+      "statement": "Residents say Coober Pedy dugouts need no air conditioning, implying lower cooling costs than above-ground houses; no verified cost figures are available.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C19",
+      "scene": 11,
+      "quote": "Houses become a hotel, shops and churches.",
+      "statement": "Coober Pedy has underground or dugout hotels, shops and churches in addition to homes.",
+      "source_ids": [
+        "S24",
+        "S25"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 11,
+      "quote": "The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three.",
+      "statement": "The underground Serbian Orthodox Church of St Elijah in Coober Pedy was dug into the rock in 1993.",
+      "source_ids": [
+        "S25"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 11,
+      "quote": "The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven.",
+      "statement": "The name Coober Pedy was adopted around 1920 (sources give 1920 or 1922), and the District Council of Coober Pedy was established in 1987.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C22",
+      "scene": 12,
+      "quote": "The Opal Fields Golf Club was set up in nineteen seventy-six, and it has no grass at all.",
+      "statement": "The Coober Pedy Opal Fields Golf Club was established in 1976 and its course has no grass.",
+      "source_ids": [
+        "S26"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 12,
+      "quote": "The fairways are white crushed rock. The greens, which they call scrapes, are rock dust mixed with waste oil. Players carry a small square of artificial turf to hit from.",
+      "statement": "At the Coober Pedy Opal Fields Golf Club, fairways are white crushed sandstone, the greens ('scrapes') are rock dust mixed with waste oil, and players carry a small piece of artificial turf to hit from.",
+      "source_ids": [
+        "S26"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 13,
+      "quote": "When the days get too hot, people here play in the dark with balls that glow.",
+      "statement": "Because daytime is too hot in summer, golf at Coober Pedy is played at night with glow-in-the-dark balls.",
+      "source_ids": [
+        "S30"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 13,
+      "quote": "This club has a reciprocal arrangement with St Andrews in Scotland, often called the home of golf.",
+      "statement": "The Coober Pedy Opal Fields Golf Club has a reciprocal playing arrangement with St Andrews (the St Andrews Links Trust) in Scotland.",
+      "source_ids": [
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 13,
+      "quote": "Golf Digest reported that nobody knew of any St Andrews member who had actually come out to play.",
+      "statement": "Golf Digest reported that no St Andrews member was known to have taken up the reciprocal arrangement to play at Coober Pedy.",
+      "source_ids": [
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 14,
+      "quote": "The drive from Adelaide takes about nine hours.",
+      "statement": "Driving from Adelaide to Coober Pedy takes about nine hours.",
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C28",
+      "scene": 14,
+      "quote": "The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read.",
+      "statement": "Coober Pedy's water is pumped from an underground artesian bore about 60 m deep, located roughly 23 to 25 km north-east of town (council documents give different distances).",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C29",
+      "scene": 14,
+      "quote": "Then it filters it by reverse osmosis, which it has done since nineteen eighty-five.",
+      "statement": "Coober Pedy treats its bore water with a reverse osmosis plant, operating since 1985.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C30",
+      "scene": 14,
+      "quote": "According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water.",
+      "statement": "An older report cited by InDaily (2022) said Coober Pedy's ageing water pipes were leaking roughly 30 to 50 percent of the water.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C31",
+      "scene": 14,
+      "quote": "The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water.",
+      "statement": "The District Council of Coober Pedy is the only council in South Australia that supplies both water and electricity itself, and in 2026 its water service was being transferred to SA Water.",
+      "source_ids": [
+        "S18",
+        "S19"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 15,
+      "quote": "Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt.",
+      "statement": "SafeWork SA warns that the Coober Pedy opal fields contain unmarked old mine shafts, some hidden under iron sheets, mesh or mullock.",
+      "source_ids": [
+        "S20"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C33",
+      "scene": 15,
+      "quote": "Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million.",
+      "statement": "There is no reliable count of mine shafts around Coober Pedy; a local rescuer quoted by ABC News estimated around two million.",
+      "source_ids": [
+        "S21"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C34",
+      "scene": 15,
+      "quote": "Warning signs stand at the entrances to the opal fields",
+      "statement": "Warning signs about mine shafts stand at the access points (entrances) to the Coober Pedy opal fields.",
+      "source_ids": [
+        "S20",
+        "S29"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C35",
+      "scene": 15,
+      "quote": "In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft.",
+      "statement": "In February 2024, a person searching for opal at night with a UV torch in the Coober Pedy opal fields fell about 25 m down an old mine shaft (SafeWork SA incident alert).",
+      "source_ids": [
+        "S20"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C36",
+      "scene": 15,
+      "quote": "After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk.",
+      "statement": "After the February 2024 fall, SafeWork SA issued an incident alert titled 'Mind your step in opal fields', noting that searching for opal at night increases the risk of falling into a shaft.",
+      "source_ids": [
+        "S20",
+        "S29"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C37",
+      "scene": 16,
+      "quote": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town.",
+      "statement": "Kanku-Breakaways Conservation Park lies about 25 km north of Coober Pedy.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C38",
+      "scene": 16,
+      "quote": "This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything.",
+      "statement": "Kanku-Breakaways is the traditional country of the Antakirinja Matu-Yankunytjatjara people; the entire park is a registered Aboriginal site under the Aboriginal Heritage Act 1988 and visitors are asked not to touch or remove anything.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C39",
+      "scene": 16,
+      "quote": "It belongs to their corporation and has been jointly managed with the state since twenty thirteen.",
+      "statement": "Kanku-Breakaways is owned by the Antakirinja Matu-Yankunytjatjara Aboriginal Corporation and has been co-managed with the South Australian government since 2013.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C40",
+      "scene": 16,
+      "quote": "In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out.",
+      "statement": "On 11 May 2011 the Federal Court of Australia, sitting in Coober Pedy, recognised the Antakirinja Matu-Yankunytjatjara people's native title over 78,672 square kilometres in the Coober Pedy region, with some town parcels excluded from the determination.",
+      "source_ids": [
+        "S33"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C41",
+      "scene": 17,
+      "quote": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from.",
+      "statement": "The name Coober Pedy derives from Aboriginal words ('kupa piti') commonly translated as 'white man's hole', but the exact origin and meaning are debated (Britannica also gives 'water hole'; a 2010 etymology study traces the words to Barngarla and Kokatha).",
+      "source_ids": [
+        "S6",
+        "S34"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C42",
+      "scene": 17,
+      "quote": "The miners arrived more than a century ago.",
+      "statement": "Opal miners first arrived at Coober Pedy more than a hundred years ago, from about 1916.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C43",
+      "scene": 18,
+      "quote": "Down there, according to NASA, the rock holds around twenty-three degrees.",
+      "statement": "Coober Pedy dugouts stay at about 23°C, according to NASA Earth Observatory.",
+      "source_ids": [
+        "S14"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C44",
+      "scene": 18,
+      "quote": "Residents say closer to twenty-four.",
+      "statement": "Coober Pedy dugout temperatures are given differently by source: NASA Earth Observatory says about 23°C, residents say about 24°C; i.e. low twenties year-round.",
+      "source_ids": [
+        "S14",
+        "S15"
+      ],
+      "hedged": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "S2",
+      "title": "2021 Census QuickStats, Coober Pedy (SAL40295)",
+      "publisher": "Australian Bureau of Statistics",
+      "type": "goc",
+      "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40295",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "2021 Census QuickStats, Coober Pedy (UCL415010)",
+      "publisher": "Australian Bureau of Statistics",
+      "type": "goc",
+      "url": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/UCL415010",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Discovery of opal (monument record)",
+      "publisher": "Monument Australia",
+      "type": "khac",
+      "url": "https://monumentaustralia.org.au/themes/technology/industry/display/50618-discovery-of-opal",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Coober Pedy",
+      "publisher": "Britannica",
+      "type": "bach-khoa",
+      "url": "https://www.britannica.com/place/Coober-Pedy",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Heritage Assessment Report (Coober Pedy)",
+      "publisher": "SA Department for Environment and Water",
+      "type": "goc",
+      "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "Kanku-Breakaways Conservation Park",
+      "publisher": "National Parks and Wildlife Service South Australia",
+      "type": "goc",
+      "url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "RI 056 Geology of the Coober Pedy Precious Stones Field 1981-86",
+      "publisher": "Geological Survey of South Australia (SARIG)",
+      "type": "goc",
+      "url": "https://catalog.sarig.sa.gov.au/document/2018d037111",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Splendor in the Outback: A Visit to Australia's Opal Fields",
+      "publisher": "Gems & Gemology (GIA)",
+      "type": "goc",
+      "url": "https://dx.doi.org/10.5741/GEMS.51.4.418",
+      "published": "2015-12-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Working in Coober Pedy",
+      "publisher": "SA Department for Child Protection",
+      "type": "goc",
+      "url": "https://www.childprotection.sa.gov.au/work-with-us/working-in-regional-south-australia/coober-pedy",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Did you know: Coober Pedy",
+      "publisher": "State Library of South Australia (SA Memory)",
+      "type": "goc",
+      "url": "https://www.samemory.sa.gov.au/site/page.cfm?u=237",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "Community",
+      "publisher": "District Council of Coober Pedy",
+      "type": "goc",
+      "url": "https://www.cooberpedy.sa.gov.au/community",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S14",
+      "title": "Keeping it Cool in the Outback",
+      "publisher": "NASA Earth Observatory",
+      "type": "goc",
+      "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S15",
+      "title": "Tour an underground dugout home in Coober Pedy",
+      "publisher": "The Senior",
+      "type": "bao",
+      "url": "https://www.thesenior.com.au/story/9004926/tour-an-underground-dugout-home-in-opal-mining-town-coober-pedy/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S16",
+      "title": "Permit to use a blower",
+      "publisher": "District Council of Coober Pedy via ABLIS",
+      "type": "goc",
+      "url": "https://ablis.business.gov.au/service/sa/approval-to-use-a-blower-to-convey-soil-district-council-of-coober-pedy/3024",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Water for Coober Pedy and water brochure",
+      "publisher": "District Council of Coober Pedy",
+      "type": "goc",
+      "url": "https://www.cooberpedy.sa.gov.au/water/water-information",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S18",
+      "title": "Top-level taskforce to tackle outback council issues",
+      "publisher": "InDaily",
+      "type": "bao",
+      "url": "https://www.indailysa.com.au/news/archive/2022/08/17/top-level-taskforce-to-tackle-outback-council-issues",
+      "published": "2022-08-17",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S19",
+      "title": "Coober Pedy water transition",
+      "publisher": "SA Water",
+      "type": "goc",
+      "url": "https://watertalks.sawater.com.au/coober-pedy-water-transition",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S20",
+      "title": "Mind your step in opal fields (incident alert)",
+      "publisher": "SafeWork SA",
+      "type": "goc",
+      "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+      "published": "2024-02-07",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S21",
+      "title": "Opal is the last thing these Coober Pedy locals look for when they go underground",
+      "publisher": "ABC News (republished by inkl)",
+      "type": "bao",
+      "url": "https://www.inkl.com/news/opal-is-the-last-thing-these-coober-pedy-locals-look-for-when-they-go-underground",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S22",
+      "title": "Adelaide to Coober Pedy strip map",
+      "publisher": "RAA",
+      "type": "khac",
+      "url": "https://raa.com.au/-/media/Project/RAA/Web/Files/Travel/Road-Trips/Adelaide-to-Coober-Pedy-PF1.pdf",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S23",
+      "title": "Getting to Coober Pedy",
+      "publisher": "District Council of Coober Pedy",
+      "type": "goc",
+      "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/visitor-information-and-resources/getting-to-coober-pedy",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S24",
+      "title": "Unearthing Coober Pedy, Australia's hidden city",
+      "publisher": "Smithsonian",
+      "type": "bao",
+      "url": "https://www.smithsonianmag.com/travel/unearthing-coober-pedy-australias-hidden-city-180958162/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S25",
+      "title": "Serbian desert church a hit for tourists",
+      "publisher": "SBS",
+      "type": "bao",
+      "url": "https://www.sbs.com.au/news/article/serbian-desert-church-a-hit-for-tourists/coeieba2w",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S26",
+      "title": "History",
+      "publisher": "Coober Pedy Opal Fields Golf Club",
+      "type": "goc",
+      "url": "https://cooberpedygolfclub.com.au/history",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S27",
+      "title": "St Andrews Links Trust reciprocal with Coober Pedy",
+      "publisher": "Golf Digest",
+      "type": "bao",
+      "url": "https://www.golfdigest.com/story/st-andews-links-trust-reciprocal-with-coober-pedy-opal-course-mines",
+      "published": "2024-08-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S29",
+      "title": "Fossicking for Opal (safety guide)",
+      "publisher": "Mining and Quarrying OHS Committee SA",
+      "type": "goc",
+      "url": "https://www.maqohsc.sa.gov.au/__data/assets/pdf_file/0009/891504/Fossicking-for-Opal-V1.pdf",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S30",
+      "title": "Coober Pedy golf feature",
+      "publisher": "RAA SA Move",
+      "type": "bao",
+      "url": "https://samove.raa.com.au/?p=17401",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S31",
+      "title": "Coober Pedy sights",
+      "publisher": "Fodor's",
+      "type": "khac",
+      "url": "https://www.fodors.com/world/australia-and-the-pacific/australia/south-australia/coober-pedy/things-to-do/sights",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S32",
+      "title": "Opal mining: precious stones prospecting permit",
+      "publisher": "Government of South Australia",
+      "type": "goc",
+      "url": "https://www.sa.gov.au/topics/business-and-trade/licensing/mining/opal-mining-precious-stones-prospecting-permit",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S33",
+      "title": "Lennon v South Australia [2011] FCA 474",
+      "publisher": "Federal Court of Australia",
+      "type": "goc",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2011/2011fca0474",
+      "published": "2011-05-11",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S34",
+      "title": "The etymology of Coober Pedy, South Australia",
+      "publisher": "Aboriginal History (P. Naessan)",
+      "type": "goc",
+      "url": "https://digital.library.adelaide.edu.au/items/755f4064-99f5-4807-90e3-9e58d0f978b1",
+      "published": "2010-01-01",
+      "accessed": "2026-11-22"
+    }
+  ]
+}

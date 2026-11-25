@@ -22,6 +22,7 @@ python3 .claude/skills/long-tieng/scripts/tts.py <thư mục dự án> [--voice 
   - `approx`: TTS không trả mốc từ (giọng HD có thể như vậy). Dùng dự phòng bên dưới.
 - **Dự phòng khi `approx`**: nhận dạng lời theo từng từ, `faster-whisper` model `small` (đa ngôn ngữ) hoặc `small.en`, `language="en"`, `word_timestamps=True`; hoặc `npx hyperframes transcribe audio/scene-<id>.mp3`. Ghi đè `words` của cảnh, đặt `timing: "whisper"`.
 - Tên nơi đọc sai: thêm `pronunciation` (`"Oymyakon: oy-myah-KON"`) rồi tạo lại `--only`.
+- **Giọng nghe bớt máy** (bài học 24/11/2026, `docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md`): người nghe nhận ra giọng máy qua ngữ điệu, nhịp, chỗ ngắt, tốc độ, hơi thở, không qua cao độ. **Không dùng autotune hay chỉnh cao độ đồng loạt** (nghe giả hơn). Sửa ở kịch bản trước: câu dài ngắn xen nhau, không văn khuôn AI (`check_van_ai`). Rồi mới tới giọng: chọn mô hình tốt hơn (xem hồ sơ kênh) hơn là hậu kỳ. Hậu kỳ (tiếng phòng, EQ, nén, sắp lại chỗ ngắt) chưa có bằng chứng giảm tỷ lệ bị nhận ra; chỉ thử khi so nghe mù.
 - Dịch vụ lỗi: báo người làm kênh. Không tự đăng ký dịch vụ trả phí, không dùng gói miễn phí của ElevenLabs.
 
 **Nghe lại (bắt buộc sau mỗi lần tạo giọng)**:

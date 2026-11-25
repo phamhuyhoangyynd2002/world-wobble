@@ -1,0 +1,782 @@
+{
+ "kenh": "OctoLab",
+ "tong_video": 102,
+ "tat_ca": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "zlJdwhyYG7c",
+   "tieu_de": "Pygmy Killer Whales Are Terrifying...Here's Why",
+   "luot_xem": 65000,
+   "phut": 30.5
+  },
+  {
+   "thu_tu_tu_moi": 1,
+   "id": "AXEtl6Ym_bY",
+   "tieu_de": "Why You'd Never Want To Meet A Polar Bear",
+   "luot_xem": 11000,
+   "phut": 27.3
+  },
+  {
+   "thu_tu_tu_moi": 2,
+   "id": "becSDvfPDbE",
+   "tieu_de": "Scientists Finally Explain Orca Boat Attacks...Here's Why",
+   "luot_xem": 13000,
+   "phut": 31.9
+  },
+  {
+   "thu_tu_tu_moi": 3,
+   "id": "fQY5Kjob5Io",
+   "tieu_de": "False Killer Whales Are Terrifying...Here's Why",
+   "luot_xem": 430000,
+   "phut": 33.6
+  },
+  {
+   "thu_tu_tu_moi": 4,
+   "id": "E5D5T4qcp2Y",
+   "tieu_de": "Why Polar Bears Are Terrified of Walruses",
+   "luot_xem": 45000,
+   "phut": 32.5
+  },
+  {
+   "thu_tu_tu_moi": 5,
+   "id": "xgwtUy8og1o",
+   "tieu_de": "Why Orcas Never Dare To Touch Adult Blue Whales (And What Happened When They Did)",
+   "luot_xem": 59000,
+   "phut": 31.1
+  },
+  {
+   "thu_tu_tu_moi": 6,
+   "id": "0GM72TMYjTk",
+   "tieu_de": "Why Elephant Seals Don't Want to Grow Up",
+   "luot_xem": 202000,
+   "phut": 30.4
+  },
+  {
+   "thu_tu_tu_moi": 7,
+   "id": "hiAfJ2OGX8s",
+   "tieu_de": "Why Do Animals Hate Albinos, But Whales Don't",
+   "luot_xem": 374000,
+   "phut": 34.1
+  },
+  {
+   "thu_tu_tu_moi": 8,
+   "id": "1Zl_ULc8UhU",
+   "tieu_de": "Why Orcas Are Terrified of Walruses",
+   "luot_xem": 196000,
+   "phut": 30.8
+  },
+  {
+   "thu_tu_tu_moi": 9,
+   "id": "KJ6o6uPAkLg",
+   "tieu_de": "A Special Thank You From The OctoLab Team!",
+   "luot_xem": 2900,
+   "phut": 1.6
+  },
+  {
+   "thu_tu_tu_moi": 10,
+   "id": "i9HPHvnbc8g",
+   "tieu_de": "Why The World's Largest Predator Refuses to Kill Us",
+   "luot_xem": 597000,
+   "phut": 30.9
+  },
+  {
+   "thu_tu_tu_moi": 11,
+   "id": "IurUFyYd6ZI",
+   "tieu_de": "The Truth Behind the Mermaid Myth",
+   "luot_xem": 67000,
+   "phut": 31.8
+  },
+  {
+   "thu_tu_tu_moi": 12,
+   "id": "zXSG8nvnq_E",
+   "tieu_de": "Why Young Orcas Hate Old Ones",
+   "luot_xem": 31000,
+   "phut": 30.1
+  },
+  {
+   "thu_tu_tu_moi": 13,
+   "id": "MqX0Wpo55sk",
+   "tieu_de": "Why The Deep Sea's Deadliest Apex Predator Refuses to Attack Us",
+   "luot_xem": 79000,
+   "phut": 33.1
+  },
+  {
+   "thu_tu_tu_moi": 14,
+   "id": "hsubV2gShos",
+   "tieu_de": "The Way Orcas Prepare for Death Has Shocked the World",
+   "luot_xem": 716000,
+   "phut": 30.4
+  },
+  {
+   "thu_tu_tu_moi": 15,
+   "id": "PdV_bJkc2ho",
+   "tieu_de": "Why The Entire Ocean is Terrified of Pilot Whales",
+   "luot_xem": 74000,
+   "phut": 30.5
+  },
+  {
+   "thu_tu_tu_moi": 16,
+   "id": "ZMRgPFiQt9g",
+   "tieu_de": "Why The Antarctic Ocean Is Completely Unexplorable",
+   "luot_xem": 282000,
+   "phut": 31.5
+  },
+  {
+   "thu_tu_tu_moi": 17,
+   "id": "JLJGaq-Nvck",
+   "tieu_de": "Why The World's Most Famous Killer Whale Died Tragically",
+   "luot_xem": 94000,
+   "phut": 31.5
+  },
+  {
+   "thu_tu_tu_moi": 18,
+   "id": "Fy4ul8K8CO8",
+   "tieu_de": "Why an Entire Coastline is TERRIFIED of Two Orcas",
+   "luot_xem": 33000,
+   "phut": 30.0
+  },
+  {
+   "thu_tu_tu_moi": 19,
+   "id": "dOD8Jub96Ew",
+   "tieu_de": "Leopard Seals Are Terrifying...Here's Why",
+   "luot_xem": 217000,
+   "phut": 30.5
+  },
+  {
+   "thu_tu_tu_moi": 20,
+   "id": "AxeENpQqlK8",
+   "tieu_de": "Why Keeping Orcas In Captivity Is A CRIME",
+   "luot_xem": 28000,
+   "phut": 30.9
+  },
+  {
+   "thu_tu_tu_moi": 21,
+   "id": "cQULS0BKWUk",
+   "tieu_de": "Are Bears Really Big Dogs?",
+   "luot_xem": 239000,
+   "phut": 30.0
+  },
+  {
+   "thu_tu_tu_moi": 22,
+   "id": "yxRacaOUW4k",
+   "tieu_de": "Why No One Ever Actually Sleeps In The Ocean Except Sperm Whales",
+   "luot_xem": 92000,
+   "phut": 31.0
+  },
+  {
+   "thu_tu_tu_moi": 23,
+   "id": "dbCIfjTU4gk",
+   "tieu_de": "Why Killer Whales' Intelligence Is So TERRIFYING",
+   "luot_xem": 50000,
+   "phut": 31.9
+  },
+  {
+   "thu_tu_tu_moi": 24,
+   "id": "b0iW6o5oKZA",
+   "tieu_de": "Why Blue Whales Survived When All Other Giants Died",
+   "luot_xem": 275000,
+   "phut": 31.4
+  },
+  {
+   "thu_tu_tu_moi": 25,
+   "id": "gURzuGVZk3A",
+   "tieu_de": "Why Some Apex Predators Don't Hunt Humans",
+   "luot_xem": 8000,
+   "phut": 33.8
+  },
+  {
+   "thu_tu_tu_moi": 26,
+   "id": "w4CFMZrVoYA",
+   "tieu_de": "Why Great White Shark Never Want To Kill Us",
+   "luot_xem": 11000,
+   "phut": 33.2
+  },
+  {
+   "thu_tu_tu_moi": 27,
+   "id": "m_QZkrWr7BI",
+   "tieu_de": "Why The Jungle's Deadliest Predator Is TERRIFIED Of Gaurs",
+   "luot_xem": 10000,
+   "phut": 30.2
+  },
+  {
+   "thu_tu_tu_moi": 28,
+   "id": "rAPUbyRgYQI",
+   "tieu_de": "Why Apex Predators Spare Sleeping Humans",
+   "luot_xem": 63000,
+   "phut": 33.0
+  },
+  {
+   "thu_tu_tu_moi": 29,
+   "id": "HsdsVI9p_FY",
+   "tieu_de": "If There Are Big Cats, Why Are There No Big Dogs?",
+   "luot_xem": 489000,
+   "phut": 32.2
+  },
+  {
+   "thu_tu_tu_moi": 30,
+   "id": "AdYoGvM6PrY",
+   "tieu_de": "The Truth About Apex Predators That \"Hunt\" Humans",
+   "luot_xem": 221000,
+   "phut": 34.1
+  },
+  {
+   "thu_tu_tu_moi": 31,
+   "id": "PCnQ-fpgJoc",
+   "tieu_de": "Why Sperm Whales Are The Most TERRIFYING Apex Predator On Earth",
+   "luot_xem": 1200000,
+   "phut": 30.9
+  },
+  {
+   "thu_tu_tu_moi": 32,
+   "id": "fqn1DPR20OY",
+   "tieu_de": "How Strong is a Killer Whale Compared to Other Apex Predators?",
+   "luot_xem": 96000,
+   "phut": 33.6
+  },
+  {
+   "thu_tu_tu_moi": 33,
+   "id": "EBopR2R_8p0",
+   "tieu_de": "Woolly Mammoth Shouldn't Exist, So Why Do They?",
+   "luot_xem": 10000,
+   "phut": 32.0
+  },
+  {
+   "thu_tu_tu_moi": 34,
+   "id": "xVY9dqtbm3o",
+   "tieu_de": "Why The Harpy Eagle Is the Most Terrifying Predator in the Americas",
+   "luot_xem": 26000,
+   "phut": 30.1
+  },
+  {
+   "thu_tu_tu_moi": 35,
+   "id": "JUqaIDiRd8s",
+   "tieu_de": "We Were Wrong About the Blue Whale's Actual Size",
+   "luot_xem": 223000,
+   "phut": 31.8
+  },
+  {
+   "thu_tu_tu_moi": 36,
+   "id": "ZKo3X0s0gZc",
+   "tieu_de": "The Most Disturbing Things Ever Found In Sperm Whales",
+   "luot_xem": 92000,
+   "phut": 30.7
+  },
+  {
+   "thu_tu_tu_moi": 37,
+   "id": "bm-8FpyWFaU",
+   "tieu_de": "Why Gray Whales Are Orca's Most Underrated Rival",
+   "luot_xem": 63000,
+   "phut": 34.6
+  },
+  {
+   "thu_tu_tu_moi": 38,
+   "id": "VtrcKTkhDHU",
+   "tieu_de": "Why The Ocean's Deadliest Predator Refuses To Kill Us",
+   "luot_xem": 8400000,
+   "phut": 33.7
+  },
+  {
+   "thu_tu_tu_moi": 39,
+   "id": "LMYkZqumpMA",
+   "tieu_de": "Why We Can't Find Any Colossal Squid Alive",
+   "luot_xem": 331000,
+   "phut": 32.0
+  },
+  {
+   "thu_tu_tu_moi": 40,
+   "id": "KPGdDs8s1cE",
+   "tieu_de": "Why The Entire Ocean is Terrified of Dolphins",
+   "luot_xem": 34000,
+   "phut": 34.7
+  },
+  {
+   "thu_tu_tu_moi": 41,
+   "id": "_V5twDOedho",
+   "tieu_de": "How Strong is a Sperm Whale Compared to Other Whales?",
+   "luot_xem": 68000,
+   "phut": 30.3
+  },
+  {
+   "thu_tu_tu_moi": 42,
+   "id": "BtuPok-AO6s",
+   "tieu_de": "Why Mariana Trench Creates Most Terrifying Creatures On Earth",
+   "luot_xem": 24000,
+   "phut": 31.0
+  },
+  {
+   "thu_tu_tu_moi": 43,
+   "id": "HvEsMUFPElE",
+   "tieu_de": "We Were Wrong About Livyatan...Here's Why",
+   "luot_xem": 21000,
+   "phut": 34.2
+  },
+  {
+   "thu_tu_tu_moi": 44,
+   "id": "rjZnVD1XHVg",
+   "tieu_de": "The Insane Biology of: The Cephalopod",
+   "luot_xem": 13000,
+   "phut": 34.6
+  },
+  {
+   "thu_tu_tu_moi": 45,
+   "id": "0l6bpx6hTOw",
+   "tieu_de": "Why Sperm Whales Never Hunt Humans",
+   "luot_xem": 98000,
+   "phut": 34.7
+  },
+  {
+   "thu_tu_tu_moi": 46,
+   "id": "tWPK23Chtek",
+   "tieu_de": "The Leviathan Sperm Whale That Hunted Megalodon",
+   "luot_xem": 4100,
+   "phut": 30.7
+  },
+  {
+   "thu_tu_tu_moi": 47,
+   "id": "KQRtvwvlaJE",
+   "tieu_de": "Why Sperm Whales Always Find The Giant Squid Even In Total Darkness",
+   "luot_xem": 30000,
+   "phut": 32.5
+  },
+  {
+   "thu_tu_tu_moi": 48,
+   "id": "vL31Ugbr1XQ",
+   "tieu_de": "Why The Entire Ocean Should Be Terrified of Blue Whales",
+   "luot_xem": 340000,
+   "phut": 31.4
+  },
+  {
+   "thu_tu_tu_moi": 49,
+   "id": "fa0bLd4yRYc",
+   "tieu_de": "What If Sperm Whales Fought Megalodons?",
+   "luot_xem": 4800,
+   "phut": 32.6
+  },
+  {
+   "thu_tu_tu_moi": 50,
+   "id": "9q37FH3jSp0",
+   "tieu_de": "Do Great Whites Hunt Giant Squid?",
+   "luot_xem": 6200,
+   "phut": 30.1
+  },
+  {
+   "thu_tu_tu_moi": 51,
+   "id": "ISpTLTpz9Zk",
+   "tieu_de": "Do Great Whites Fight Back?",
+   "luot_xem": 392000,
+   "phut": 31.5
+  },
+  {
+   "thu_tu_tu_moi": 52,
+   "id": "9Ay5sOs3Akg",
+   "tieu_de": "Why Sperm Whales Get Deadlier The Deeper You Go",
+   "luot_xem": 328000,
+   "phut": 30.2
+  },
+  {
+   "thu_tu_tu_moi": 53,
+   "id": "5Ps24AwWLQw",
+   "tieu_de": "Meet The 19-Meter Super Predator That Makes The Giant Squid Look Tiny",
+   "luot_xem": 8100,
+   "phut": 31.7
+  },
+  {
+   "thu_tu_tu_moi": 54,
+   "id": "RwZN3yR6jbM",
+   "tieu_de": "Does the Kraken Really Exist?",
+   "luot_xem": 2100,
+   "phut": 24.2
+  },
+  {
+   "thu_tu_tu_moi": 55,
+   "id": "jQvmNDo2nx0",
+   "tieu_de": "Nothing About Colossal Squids Is Normal...Here's Why",
+   "luot_xem": 94000,
+   "phut": 31.9
+  },
+  {
+   "thu_tu_tu_moi": 56,
+   "id": "Kmhk_SCnNRs",
+   "tieu_de": "Why Sharks Always Make You Terrified Of",
+   "luot_xem": 1500,
+   "phut": 30.7
+  },
+  {
+   "thu_tu_tu_moi": 57,
+   "id": "02H0E62EEs8",
+   "tieu_de": "Mimic Octopus: The Master of Disguise",
+   "luot_xem": 8100,
+   "phut": 30.8
+  },
+  {
+   "thu_tu_tu_moi": 58,
+   "id": "1Jwii7et2Lk",
+   "tieu_de": "What If Orcas Hunted Giant Squids?",
+   "luot_xem": 7500,
+   "phut": 34.5
+  },
+  {
+   "thu_tu_tu_moi": 59,
+   "id": "bLb984FNElU",
+   "tieu_de": "Why Are Orcas TERRIFIED Of Pilot Whales",
+   "luot_xem": 78000,
+   "phut": 31.2
+  },
+  {
+   "thu_tu_tu_moi": 60,
+   "id": "T2_rsbGIVK0",
+   "tieu_de": "Why Do Sperm Whales TERRIFY Orca?",
+   "luot_xem": 619000,
+   "phut": 33.1
+  },
+  {
+   "thu_tu_tu_moi": 61,
+   "id": "75yHcMhNb3Q",
+   "tieu_de": "The Only Shark That Doesn't Need The Ocean To Survive",
+   "luot_xem": 1600,
+   "phut": 26.4
+  },
+  {
+   "thu_tu_tu_moi": 62,
+   "id": "SMxtpdeOVQ4",
+   "tieu_de": "Why Cuttlefish Can Hypnotize You Just In Seconds",
+   "luot_xem": 5300,
+   "phut": 30.7
+  },
+  {
+   "thu_tu_tu_moi": 63,
+   "id": "AhXW2dmWTgw",
+   "tieu_de": "Meet The Walking Fish That Has Red Lips and...Beard",
+   "luot_xem": 2800,
+   "phut": 19.4
+  },
+  {
+   "thu_tu_tu_moi": 64,
+   "id": "PEIrSbftKeU",
+   "tieu_de": "Meet The Fish That Can Breathe On Land And Climb Trees",
+   "luot_xem": 2300,
+   "phut": 28.1
+  },
+  {
+   "thu_tu_tu_moi": 65,
+   "id": "Zm0Y-UAELnk",
+   "tieu_de": "Meet The Squid ACTUALLY NOT Squid",
+   "luot_xem": 6100,
+   "phut": 25.4
+  },
+  {
+   "thu_tu_tu_moi": 66,
+   "id": "zMeouK1zVTk",
+   "tieu_de": "Why You Should Be Terrified of Dolphins",
+   "luot_xem": 11000,
+   "phut": 33.5
+  },
+  {
+   "thu_tu_tu_moi": 67,
+   "id": "SfmMwGsnRbs",
+   "tieu_de": "Orcas: When The Hunter Becomes The Prey",
+   "luot_xem": 12000,
+   "phut": 21.1
+  },
+  {
+   "thu_tu_tu_moi": 68,
+   "id": "Rnh2H-nnbMg",
+   "tieu_de": "Why You Could NEVER Dodge A Bobbit Worm's Strike",
+   "luot_xem": 65000,
+   "phut": 21.3
+  },
+  {
+   "thu_tu_tu_moi": 69,
+   "id": "WxFLG6rslBM",
+   "tieu_de": "Meet The Vampire Fish That Survived 4 Mass Extinctions",
+   "luot_xem": 2000,
+   "phut": 20.0
+  },
+  {
+   "thu_tu_tu_moi": 70,
+   "id": "HVjOtS0AScs",
+   "tieu_de": "Why Giant Squids Are Terrified Of Swordfish",
+   "luot_xem": 210000,
+   "phut": 30.4
+  },
+  {
+   "thu_tu_tu_moi": 71,
+   "id": "4CLWJFuFsi0",
+   "tieu_de": "Witness The Devil Squid That Attacks Humans",
+   "luot_xem": 20000,
+   "phut": 25.8
+  },
+  {
+   "thu_tu_tu_moi": 72,
+   "id": "JYt4wbB9u9A",
+   "tieu_de": "Meet The Youngest Animal on Earth That Never Gets Old",
+   "luot_xem": 1800,
+   "phut": 26.4
+  },
+  {
+   "thu_tu_tu_moi": 73,
+   "id": "snKBoufWHVQ",
+   "tieu_de": "Witness The Livyatan Whale That Megalodon Was Afraid Of",
+   "luot_xem": 128000,
+   "phut": 21.6
+  },
+  {
+   "thu_tu_tu_moi": 74,
+   "id": "vzHPGAzbpCM",
+   "tieu_de": "Meet The Squid That Refuses to Be Seen by Humans",
+   "luot_xem": 45000,
+   "phut": 30.2
+  },
+  {
+   "thu_tu_tu_moi": 75,
+   "id": "X1qcxQ8CnJI",
+   "tieu_de": "Meet The Fish That Has Murdered People",
+   "luot_xem": 4200,
+   "phut": 21.4
+  },
+  {
+   "thu_tu_tu_moi": 76,
+   "id": "zs2Ph9S5rJk",
+   "tieu_de": "Nothing About Hammerhead Sharks Is Normal...Here's Why",
+   "luot_xem": 9200,
+   "phut": 21.2
+  },
+  {
+   "thu_tu_tu_moi": 77,
+   "id": "gSRIsbUku3s",
+   "tieu_de": "Meet The Walking Fish With The Fastest Strike On Earth",
+   "luot_xem": 170000,
+   "phut": 18.2
+  },
+  {
+   "thu_tu_tu_moi": 78,
+   "id": "aRHtF3O7kEY",
+   "tieu_de": "Meet The Biggest Fish Hiding In The Strait Of Hormuz",
+   "luot_xem": 23000,
+   "phut": 19.6
+  },
+  {
+   "thu_tu_tu_moi": 79,
+   "id": "zhu1VYasW4Q",
+   "tieu_de": "Meet the Most Terrifying Squid Caught On Camera",
+   "luot_xem": 2800,
+   "phut": 22.0
+  },
+  {
+   "thu_tu_tu_moi": 80,
+   "id": "LRMf-J3e8y0",
+   "tieu_de": "Meet the Cleverest Fish Alive",
+   "luot_xem": 63000,
+   "phut": 26.1
+  },
+  {
+   "thu_tu_tu_moi": 81,
+   "id": "VOiIqXz74QA",
+   "tieu_de": "Why Mantis Shrimp Can Break Your Bone With Just One Punch",
+   "luot_xem": 2800,
+   "phut": 20.7
+  },
+  {
+   "thu_tu_tu_moi": 82,
+   "id": "JPcVyUmccXA",
+   "tieu_de": "Why Antarctic Oceans Turn Normal Creatures Into Monsters",
+   "luot_xem": 32000,
+   "phut": 22.1
+  },
+  {
+   "thu_tu_tu_moi": 83,
+   "id": "mCBmalqXtxw",
+   "tieu_de": "Sperm Whales Shouldn't Exist.. So Why Do They?",
+   "luot_xem": 85000,
+   "phut": 22.6
+  },
+  {
+   "thu_tu_tu_moi": 84,
+   "id": "vxghn32eVCg",
+   "tieu_de": "Why You'll Think This Prehistoric Monster Was Made By AI",
+   "luot_xem": 1100,
+   "phut": 22.2
+  },
+  {
+   "thu_tu_tu_moi": 85,
+   "id": "8VB7A8Rh6ng",
+   "tieu_de": "Why Megalodon May Still Exist In The Mariana Trench",
+   "luot_xem": 2800,
+   "phut": 20.1
+  },
+  {
+   "thu_tu_tu_moi": 86,
+   "id": "IfPw8Ik1mH0",
+   "tieu_de": "We Were Wrong About Titanoboa… Here's Why",
+   "luot_xem": 519,
+   "phut": 21.2
+  },
+  {
+   "thu_tu_tu_moi": 87,
+   "id": "-NMXj-NsG8o",
+   "tieu_de": "Mariana Trench: What They Found Beneath The Deepest Point On Earth",
+   "luot_xem": 2100,
+   "phut": 21.9
+  },
+  {
+   "thu_tu_tu_moi": 88,
+   "id": "a1JGeKsg1tA",
+   "tieu_de": "Why Sharks Get Scarier The Deeper You Go",
+   "luot_xem": 753,
+   "phut": 22.1
+  },
+  {
+   "thu_tu_tu_moi": 89,
+   "id": "MJoS1DS01pA",
+   "tieu_de": "That Time Terror Birds Truly Become Terror...",
+   "luot_xem": 581,
+   "phut": 22.7
+  },
+  {
+   "thu_tu_tu_moi": 90,
+   "id": "t8XiFlUUxCM",
+   "tieu_de": "Welcome to OctoLab (Channel Introduction)",
+   "luot_xem": 42000,
+   "phut": 1.7
+  },
+  {
+   "thu_tu_tu_moi": 91,
+   "id": "MdaPA3l2qQY",
+   "tieu_de": "Why Nobody Knows How Eels Reproduce",
+   "luot_xem": 1500,
+   "phut": 21.6
+  },
+  {
+   "thu_tu_tu_moi": 92,
+   "id": "MUd6Ke2OtSI",
+   "tieu_de": "We Were Lied About Dinosaurs... Here's Why",
+   "luot_xem": 1900,
+   "phut": 20.4
+  },
+  {
+   "thu_tu_tu_moi": 93,
+   "id": "JoA43CF4fTU",
+   "tieu_de": "Why Evolution Keeps Creating The Same Animal Twice",
+   "luot_xem": 982,
+   "phut": 24.1
+  },
+  {
+   "thu_tu_tu_moi": 94,
+   "id": "8K6gTRRZd2U",
+   "tieu_de": "Meet The Dumbest, Dirtiest, Ugliest Animal That Ever Lived",
+   "luot_xem": 119000,
+   "phut": 21.8
+  },
+  {
+   "thu_tu_tu_moi": 95,
+   "id": "FMGsbwxHIUg",
+   "tieu_de": "Nothing About Blue Whales Is Normal... Here's Why",
+   "luot_xem": 66000,
+   "phut": 23.4
+  },
+  {
+   "thu_tu_tu_moi": 96,
+   "id": "Ag-19f-Kucc",
+   "tieu_de": "What Was Earth Like Before the Dinosaurs?",
+   "luot_xem": 3200,
+   "phut": 24.1
+  },
+  {
+   "thu_tu_tu_moi": 97,
+   "id": "fxGywBOR9cs",
+   "tieu_de": "The Worst Way To Die You've Never Heard Of",
+   "luot_xem": 2600,
+   "phut": 21.3
+  },
+  {
+   "thu_tu_tu_moi": 98,
+   "id": "eDtEtnBnMJk",
+   "tieu_de": "We Were Wrong About Octopus...Here's Why",
+   "luot_xem": 9400,
+   "phut": 23.0
+  },
+  {
+   "thu_tu_tu_moi": 99,
+   "id": "_1IwXOZi6zo",
+   "tieu_de": "Why Evolution Keeps Turning Animals Into Crabs?",
+   "luot_xem": 3900,
+   "phut": 18.0
+  },
+  {
+   "thu_tu_tu_moi": 100,
+   "id": "Rzuw6bn9Okg",
+   "tieu_de": "Nothing About Megalodon Is Normal... Here's Why",
+   "luot_xem": 2400,
+   "phut": 25.1
+  },
+  {
+   "thu_tu_tu_moi": 101,
+   "id": "8UtDyJp98GU",
+   "tieu_de": "What Could Drag This Shark 580 Meters Down?",
+   "luot_xem": 4800,
+   "phut": 19.4
+  }
+ ],
+ "mau": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "zlJdwhyYG7c",
+   "tieu_de": "Pygmy Killer Whales Are Terrifying...Here's Why",
+   "ngay": "20261122",
+   "luot_xem": 64442,
+   "so_bl_lay": 31,
+   "nhac_giong_ai": [
+    {
+     "thich": 0,
+     "loi": "So it's like they have a dual voice, and it functions like two eyes rather than just one, for their sonar?"
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 25,
+   "id": "gURzuGVZk3A",
+   "tieu_de": "Why Some Apex Predators Don't Hunt Humans",
+   "ngay": "20260805",
+   "luot_xem": 8003,
+   "so_bl_lay": 16,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 50,
+   "id": "9q37FH3jSp0",
+   "tieu_de": "Do Great Whites Hunt Giant Squid?",
+   "ngay": "20260604",
+   "luot_xem": 6274,
+   "so_bl_lay": 11,
+   "nhac_giong_ai": [
+    {
+     "thich": 8,
+     "loi": "AI is good but still can tell it’s AI"
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 76,
+   "id": "zs2Ph9S5rJk",
+   "tieu_de": "Nothing About Hammerhead Sharks Is Normal...Here's Why",
+   "ngay": "20260408",
+   "luot_xem": 9229,
+   "so_bl_lay": 12,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 101,
+   "id": "8UtDyJp98GU",
+   "tieu_de": "What Could Drag This Shark 580 Meters Down?",
+   "ngay": "20260204",
+   "luot_xem": 4841,
+   "so_bl_lay": 7,
+   "nhac_giong_ai": [
+    {
+     "thich": 0,
+     "loi": "That single episode made me not want to subscribe.  Accent and dialogue is way too American. It sounds frustratingly stupid."
+    }
+   ]
+  }
+ ]
+}

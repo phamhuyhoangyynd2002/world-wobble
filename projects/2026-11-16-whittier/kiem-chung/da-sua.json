@@ -1,0 +1,61 @@
+{
+  "ngay": "2026-11-23",
+  "ban_truoc": "script.v3.json",
+  "sua": [
+    {
+      "id": "C08",
+      "doi_statement": false,
+      "canh": 3,
+      "viec": "hedged: true (lời đã có 'about/roughly')"
+    },
+    {
+      "id": "C19",
+      "doi_statement": true,
+      "canh": 6,
+      "viec": "lời: 'According to the state's tunnel history, going on to Seward added about fifty-two miles of sailing.'; hedged"
+    },
+    {
+      "id": "C27",
+      "doi_statement": true,
+      "canh": 7,
+      "viec": "statement ~270 (272 hoặc 278); lời giữ"
+    },
+    {
+      "id": "C32",
+      "doi_statement": true,
+      "canh": 9,
+      "viec": "early 1950s, about a thousand, small clinic; hedged"
+    },
+    {
+      "id": "C33",
+      "doi_statement": true,
+      "canh": 9,
+      "viec": "little more than a decade; hedged"
+    },
+    {
+      "id": "C34",
+      "doi_statement": true,
+      "canh": 9,
+      "viec": "1960 port inactive, soldiers trickled away; bỏ vế 1950s; hedged"
+    },
+    {
+      "id": "C35",
+      "doi_statement": true,
+      "canh": 9,
+      "viec": "missing windows, asbestos, fenced off"
+    },
+    {
+      "id": "C41",
+      "doi_statement": true,
+      "canh": 11,
+      "viec": "'January highs hover right around freezing'; thêm nguồn NOAA S22; hedged"
+    },
+    {
+      "id": "C33",
+      "doi_statement": true,
+      "canh": 9,
+      "van_de": "vòng 1 kiểm lại 23/11 vẫn mâu thuẫn (vài năm hay ~13 năm)",
+      "viec": "bỏ khỏi lời và claims (script.v4.json là bản trước)"
+    }
+  ]
+}

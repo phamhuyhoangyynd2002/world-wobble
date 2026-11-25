@@ -210,12 +210,14 @@
   };
 
   // Đo cỡ chữ hiển thị (px trên khung 1920×1080) của mọi <text class="dio-chu"> tại các mốc. Dùng bởi cong-cu/kiem_doan.py
+  // Khung xuất lớn (2560×1440): root bị phóng ×K bằng CSS transform, nên số đo getBoundingClientRect chia K để vẫn là px thiết kế.
   DIO.doChu = function (api, mocs) {
-    var out = [];
+    var out = [], rootEl = api.root, K = rootEl && rootEl.offsetWidth ? rootEl.getBoundingClientRect().width / rootEl.offsetWidth : 1;
     mocs.forEach(function (t) {
       api.tl.seek(t, true);
       document.querySelectorAll("text.dio-chu").forEach(function (el) {
-        var r = el.getBoundingClientRect(), bb = el.getBBox();
+        var r0 = el.getBoundingClientRect(), bb = el.getBBox();
+        var r = { left: r0.left / K, top: r0.top / K, right: r0.right / K, bottom: r0.bottom / K, width: r0.width / K, height: r0.height / K };
         var fs = parseFloat(el.getAttribute("font-size")) || 0;
         var vis = r.right > 0 && r.left < 1920 && r.bottom > 0 && r.top < 1080 && r.width > 0;
         var hidden = false, n = el;

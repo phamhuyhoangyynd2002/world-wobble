@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "drop",
+  "tai": 0.6,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "drop",
+  "tai": 1.15,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "pop",
+  "tai": 3.5,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "hoi-nuoc",
+  "tai": 8.68,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "im-lang",
+  "tai": 10.08,
+  "am_luong": 0.3
+ }
+]

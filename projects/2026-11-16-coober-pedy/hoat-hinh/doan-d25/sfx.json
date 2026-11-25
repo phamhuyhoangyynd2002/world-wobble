@@ -1,0 +1,67 @@
+[
+ {
+  "ten": "bonk",
+  "tai": 1.6,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "bonk",
+  "tai": 2.1,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "bonk",
+  "tai": 2.6,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "bonk",
+  "tai": 3.1,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "bonk",
+  "tai": 3.6,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "bonk",
+  "tai": 4.1,
+  "am_luong": 0.12
+ },
+ {
+  "ten": "whoosh",
+  "tai": 4.2,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "pop",
+  "tai": 7.312,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 10.5,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "liu-lo-hoi",
+  "tai": 10.9,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 15.188,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "drop",
+  "tai": 19.763,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "bonk",
+  "tai": 21.038,
+  "am_luong": 0.3
+ }
+]

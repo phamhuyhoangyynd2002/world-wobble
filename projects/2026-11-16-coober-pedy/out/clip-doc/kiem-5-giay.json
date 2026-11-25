@@ -1,0 +1,76 @@
+{
+ "k1": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 22.9,
+   "khung0_ti_le_giay": 0.3,
+   "chuyen_dong": [
+    25.76,
+    12.59,
+    17.83,
+    11.43,
+    29.38,
+    14.18,
+    14.01,
+    36.75,
+    17.85,
+    12.99
+   ],
+   "tu_trong_5s": 15,
+   "cau_mo": "I dug.",
+   "diem_cau_mo": 4.0,
+   "uu": [
+    "Wob làm một việc cụ thể",
+    "ngắn 2 từ",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k2": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ },
+ "k3": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 32.3,
+   "khung0_ti_le_giay": 0.01,
+   "chuyen_dong": [
+    17.51,
+    24.64,
+    30.82,
+    15.12,
+    7.39,
+    9.04,
+    7.43,
+    41.33,
+    3.58,
+    4.26
+   ],
+   "tu_trong_5s": 17,
+   "cau_mo": "Who digs a bedroom?",
+   "diem_cau_mo": 5.0,
+   "uu": [
+    "câu hỏi",
+    "ngắn 4 từ",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k4": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ },
+ "k5": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ }
+}

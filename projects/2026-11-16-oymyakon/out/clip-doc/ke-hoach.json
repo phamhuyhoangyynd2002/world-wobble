@@ -1,0 +1,119 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "D:/YouTube/world-wobble/du-an/projects/2026-11-16-oymyakon/out/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 11.42,
+   "end": 48.15,
+   "tieu_de": "This fish stands up on its own",
+   "wob": "soc",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "cau_mo": "This is a fish.",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold."
+  },
+  {
+   "id": "k2",
+   "start": 81.43,
+   "end": 138.92,
+   "tieu_de": "Every guess I had was wrong",
+   "wob": "ngam-nghi",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "cau_mo": "Why is there a village here at all?",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty."
+  },
+  {
+   "id": "k3",
+   "start": 181.04,
+   "end": 213.33,
+   "tieu_de": "Why build a monument to cold?",
+   "wob": "nghi-ngo",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "cau_mo": "Why a monument?",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C19"
+   ],
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost."
+  },
+  {
+   "id": "k4",
+   "start": 281.07,
+   "end": 322.9,
+   "tieu_de": "Why is this valley so cold?",
+   "wob": "lanh-run",
+   "crop_x": 0.75,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "cau_mo": "Why is it this cold here at all?",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot."
+  },
+  {
+   "id": "k5",
+   "start": 407.69,
+   "end": 448.98,
+   "tieu_de": "Why my fish didn't need a bag",
+   "wob": "cuoi-lan",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 419.94,
+    "den": 421.1,
+    "cau": "Yes."
+   },
+   "cau_mo": "I asked for a bag.",
+   "claims": [
+    "C26",
+    "C29"
+   ],
+   "text": "I asked for a bag. The fish did not need a bag. The fish could stand up on its own. That's when it clicked. In winter, the village itself is the freezer. I carried my fish home on my shoulder, like a plank. Yes. This fish. Afternoon. I needed a bathroom. Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets. I looked at the path to the outhouse for a long time. I made a decision. I waited. On the way back, I passed the school. According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two."
+  }
+ ]
+}

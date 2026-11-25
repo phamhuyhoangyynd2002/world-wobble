@@ -1,0 +1,187 @@
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "Radio Nacional de Colombia reports the local story that fishermen discovered the absence of mosquitoes while spending nights on the rocky islet and subsequently decided to settle there.",
+"sources": [
+{
+"title": "Descubre Santa Cruz del Islote: la isla más poblada y su lucha por un futuro sostenible",
+"publisher": "Radio Nacional de Colombia",
+"url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-y-su-lucha-por-un-futuro",
+"type": "bao",
+"published": null
+},
+{
+"title": "The Most Crowded Island on Earth Isn't Manhattan",
+"publisher": "Condé Nast Traveler",
+"url": "https://www.cntraveler.com/stories/2015-06-12/the-most-crowded-island-on-earth-isnt-manhattan",
+"type": "bao",
+"published": "2015-06-12"
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": null,
+"note": "BBC reporting and academic research support the absence of beaches and mangroves and the local explanation linking this environment to the lack of mosquitoes.",
+"sources": [
+{
+"title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo",
+"publisher": "BBC Mundo, reproduced by Prensa Libre",
+"url": "https://www.prensalibre.com/hemeroteca/bbc-news-mundo-hemeroteca/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Adaptación al cambio climático en Santa Cruz del Islote",
+"publisher": "Universidad Tecnológica de Bolívar",
+"url": "https://biblioteca.utb.edu.co/notas/tesis/0068238.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": null,
+"note": "Academic research documents the calce construction technique using shells, coral remains and solid waste, subsequently compressed and covered with concrete.",
+"sources": [
+{
+"title": "Resilience in Santa Cruz del Islote: Sustainability of a Social-Ecological System in the Colombian Caribbean",
+"publisher": "Universidad Autónoma de San Luis Potosí",
+"url": "https://ninive.uaslp.mx/xmlui/bitstream/handle/i/3603/MCA1ISL301301.pdf?isAllowed=y&sequence=1",
+"type": "goc",
+"published": null
+},
+{
+"title": "Ambiente y Desarrollo en el Caribe Colombiano: Archipiélago de San Bernardo",
+"publisher": "Observatorio para el Desarrollo Sostenible de los Archipiélagos de Nuestra Señora del Rosario y de San Bernardo",
+"url": "https://observatorio.epacartagena.gov.co/wp-content/uploads/2017/12/descarga-el-documento-comentarios-49-de-5-3-votos-ambiente-y-desarrollo-en-el-caribe-colombiano-parte-2.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo",
+"publisher": "BBC Mundo, reproduced by Prensa Libre",
+"url": "https://www.prensalibre.com/hemeroteca/bbc-news-mundo-hemeroteca/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C12",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 1,200 according to some estimates; approximately 900 according to lifelong resident Juvenal Julio. Neither figure represents an established consensus.",
+"note": "CNN reports both estimates and explicitly notes that the population is unknown because there has been no consensus on the figure.",
+"sources": [
+{
+"title": "Jam-packed Colombian island preserves quiet way of life",
+"publisher": "CNN",
+"url": "https://www.kbzk.com/cnn-style/2018/08/09/jam-packed-colombian-island-preserves-quiet-way-of-life/",
+"type": "bao",
+"published": "2018-08-09"
+},
+{
+"title": "Tienen una vida tranquila y no tienen policías: Conoce la isla que se está quedando sin espacio",
+"publisher": "CNN Chile",
+"url": "https://www.cnnchile.com/pais/tienen-una-vida-tranquila-y-no-tienen-policias-conoce-la-isla-que-se-esta-quedando-sin-espacio/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": "432 residents",
+"note": "A Colombian government judicial document reproduces the DANE 2018 census results for the Santa Cruz del Islote population centre, confirming 432 people counted.",
+"sources": [
+{
+"title": "Providencia del Consejo de Estado, Sección Primera, expediente 278 de 2026",
+"publisher": "Procuraduría General de la Nación / Colombian government legal compilation",
+"url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm",
+"type": "goc",
+"published": "2026-05-14"
+}
+]
+},
+{
+"id": "C14",
+"verdict": "dung",
+"correct_value": "580 residents",
+"note": "A demographic report attributes the figure of 580 for Santa Cruz del Islote to DANE 2005 census data, although other subsequent estimates differ.",
+"sources": [
+{
+"title": "Visión integral de los archipiélagos de Nuestra Señora del Rosario y de San Bernardo: Ambiente y Desarrollo en el Caribe Colombiano, Parte 2",
+"publisher": "Observatorio para el Desarrollo Sostenible de los Archipiélagos de Nuestra Señora del Rosario y de San Bernardo",
+"url": "https://observatorio.epacartagena.gov.co/wp-content/uploads/2017/12/descarga-el-documento-comentarios-49-de-5-3-votos-ambiente-y-desarrollo-en-el-caribe-colombiano-parte-2.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Pry Gez 009 12",
+"publisher": "Repository of Universidad de América",
+"url": "https://www.scribd.com/document/779252265/PRY-GEZ-009-12",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "dung",
+"correct_value": "120 house facades and nine murals",
+"note": "Fundación Pintuco explicitly confirms that it and the Colombian Navy painted all 120 house facades and created nine murals in collaboration with the community.",
+"sources": [
+{
+"title": "En Santa Cruz del Islote Transformamos Vidas con Color",
+"publisher": "Fundación Pintuco",
+"url": "https://www.pintuco.com.co/noticias/en-santa-cruz-del-islote-transformamos-vidas-con-color",
+"type": "goc",
+"published": "2019-03-05"
+},
+{
+"title": "La Armada Nacional de Colombia condecoró a la Fundación Pintuco",
+"publisher": "Pintuco",
+"url": "https://www.pintuco.com.co/noticias/la-armada-nacional-de-colombia-condecoro-a-la-fundacion-pintuco/",
+"type": "goc",
+"published": "2019-06-14"
+}
+]
+},
+{
+"id": "C16",
+"verdict": "sai",
+"correct_value": "Tourism has increasingly replaced traditional fishing as the principal economic activity, although fishing remains an important source of livelihood for some residents.",
+"note": "Although older government and academic reports identify fishing as the main livelihood, a 2024 El País investigation reports that tourism has replaced traditional fishing as the dominant activity.",
+"sources": [
+{
+"title": "Santa Cruz del Islote: Protecting the world's most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "La energía del sol transforma la vida de los isleños del Caribe colombiano",
+"publisher": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE)",
+"url": "https://ipse.gov.co/blog/2022/04/27/la-energia-del-sol-transforma-la-vida-de-los-islenos-del-caribe-colombiano/",
+"type": "goc",
+"published": "2022-04-27"
+},
+{
+"title": "Plan de Manejo Parque Nacional Natural Corales del Rosario y San Bernardo",
+"publisher": "Parques Nacionales Naturales de Colombia",
+"url": "https://intranet.parquesnacionales.gov.co/wp-content/uploads/2016/05/CoralesdelRosarioPM2009.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+
+ChatGPT is AI and can make mistakes.

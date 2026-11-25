@@ -522,7 +522,7 @@
       "type": "section",
       "lop": "hoi-uc",
       "role": "Wob ngủ trong khách sạn dưới đất; đổi ý lần 2 (lại muốn chuyển tới)",
-      "narration": "So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were carved sandstone, covered in swirls from the digging machine. No window. No traffic. No sun trying to get in. I slept like a rock, inside a rock. By breakfast I had crossed out the line in my notebook. I was moving here after all.",
+      "narration": "So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic. No sun trying to get in. I slept like a rock, inside a rock. By breakfast I had crossed out the line in my notebook. I was moving here after all.",
       "y_hinh": [
         {
           "cue": "my shape came back",
@@ -530,8 +530,8 @@
           "gag": "Từ dạng chảy nhão, Wob bật lại tròn xoe kèm tiếng 'boing'; cái mũ chạy theo vào sau"
         },
         {
-          "cue": "covered in swirls",
-          "y": "Cận vách đá cát có vân xoáy tròn của mũi khoan, trần vòm sơn sáng"
+          "cue": "curving up into a pale ceiling",
+          "y": "Cận vách đá trần, trần vòm sơn sáng (không vẽ vân mũi khoan)"
         },
         {
           "cue": "I slept like a rock",
@@ -554,7 +554,7 @@
         },
         {
           "show": "asset:ai-underground-room",
-          "cue": "The walls were carved sandstone",
+          "cue": "The walls were bare rock",
           "move": "pan-right"
         },
         {
@@ -596,7 +596,7 @@
       "lop": "hoi-uc",
       "khuon": "phong-quy-mo",
       "role": "lý do 2: thợ mỏ sẵn kỹ năng và máy; blower; dugout từ thời mỏ đầu",
-      "narration": "In the morning I stared at the swirls on my wall and asked the obvious question. Who digs a bedroom? Someone who already digs for a living. Dugouts appeared beside the earliest mines in the first few years after the opal strike. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture.",
+      "narration": "In the morning I stared at the rock above my bed and asked the obvious question. Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture.",
       "y_hinh": [
         {
           "cue": "Who digs a bedroom",
@@ -604,7 +604,7 @@
           "gag": "Cạo mãi mới rơi một hạt bụi; Wob nhìn hạt bụi, nhìn người xem"
         },
         {
-          "cue": "Dugouts appeared beside the earliest mines",
+          "cue": "The first miners probably started digging homes",
           "y": "Cắt giấy tông cũ: tời trên miệng giếng, bên cạnh một cửa hầm nhỏ có ống khói"
         },
         {
@@ -624,7 +624,7 @@
         },
         {
           "show": "asset:ai-dugout-hillside",
-          "cue": "Dugouts appeared",
+          "cue": "According to a state heritage report",
           "move": "pan-left"
         },
         {
@@ -708,7 +708,7 @@
       "type": "section",
       "lop": "hoi-uc",
       "role": "phóng quy mô: một phòng thành cả thị trấn; nhà thờ St Elijah 1993; tên 1920, hội đồng 1987",
-      "narration": "Then I zoomed out. One room becomes a house. Houses become a hotel, shops and churches. In nineteen ninety-three, volunteers carved the Serbian Orthodox church of Saint Elijah into the sandstone by hand. I stood at the back with my hat in my hands and kept very quiet. Even the echo seemed polite. The town got its name in nineteen twenty and its own council in nineteen eighty-seven. Everyone here had the same idea, with the same machines.",
+      "narration": "Then I zoomed out. One room becomes a house. Houses become a hotel, shops and churches. The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three. I stood at the back with my hat in my hands and kept very quiet. Even the echo seemed polite. The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven. Everyone here had the same idea, with the same machines.",
       "y_hinh": [
         {
           "cue": "Then I zoomed out",
@@ -732,7 +732,7 @@
         },
         {
           "show": "asset:ai-church-underground",
-          "cue": "In nineteen ninety-three",
+          "cue": "The Serbian Orthodox church",
           "move": "zoom-in"
         },
         {
@@ -742,7 +742,7 @@
         },
         {
           "show": "asset:ai-mullock-field",
-          "cue": "The town got its name",
+          "cue": "The town picked its name",
           "move": "pan-right"
         }
       ],
@@ -965,7 +965,7 @@
       "lop": "hoi-uc",
       "role": "cái giá 2: giếng mỏ bỏ hoang, số lượng dè dặt, tai nạn 2024; Wob đổi ý lần 3 (suýt NOPE)",
       "music_mood": "khac-nghiet",
-      "narration": "Then there are the holes. Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt. Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million. Warning signs are everywhere, and I read every single one walking backwards. That was a mistake. In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft. So the official advice is plain. Watch every step, and stay off the fields in the dark. Standing at the edge of one hole, for about a minute, I was ready to go home.",
+      "narration": "Then there are the holes. Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt. Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million. Warning signs stand at the entrances to the opal fields, and I read every single one walking backwards. That was a mistake. In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft. After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk. Standing at the edge of one hole, for about a minute, I was ready to go home.",
       "y_hinh": [
         {
           "cue": "some hidden under sheets of iron",
@@ -981,7 +981,7 @@
           "y": "Không gag: miệng giếng tối dưới bầu trời đêm, một luồng đèn tím nhỏ xa xa; không vẽ người ngã"
         },
         {
-          "cue": "Watch every step",
+          "cue": "Mind your step in opal fields",
           "y": "Wob bò lên, đứng xa mép, cầm biển báo mini 'DANGER: UNMARKED SHAFTS'"
         }
       ],
@@ -1001,7 +1001,7 @@
         },
         {
           "show": "asset:ai-mullock-field",
-          "cue": "Warning signs are everywhere",
+          "cue": "Warning signs stand at the entrances",
           "move": "pan-left"
         },
         {
@@ -1011,7 +1011,7 @@
         },
         {
           "show": "asset:ai-night-plain",
-          "cue": "So the official advice",
+          "cue": "After that fall",
           "move": "zoom-out"
         },
         {
@@ -1044,7 +1044,7 @@
       "khuon": "lich-su-nghiem",
       "role": "người Antakirinja Matu-Yankunytjatjara, Kanku-Breakaways, native title; không gag",
       "music_mood": "to-mo",
-      "narration": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres, including the town itself. The court sat in Coober Pedy to do it.",
+      "narration": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out.",
       "pronunciation": "Antakirinja Matu-Yankunytjatjara: an-tuh-KIR-in-ya MAH-too yan-kun-yuh-JAH-juh-ruh; Kanku: KAN-koo",
       "y_hinh": [
         {
@@ -1098,7 +1098,7 @@
       "type": "section",
       "lop": "hoi-uc",
       "role": "tên 'kupa piti' (dè dặt); đất có chủ trước thợ mỏ; không gag",
-      "narration": "Even the town's name is usually traced to Aboriginal words. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from. I put my notebook away and watched the hills turn purple. The miners arrived more than a century ago. This land had its people long before that.",
+      "narration": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from. I put my notebook away and watched the hills turn purple. The miners arrived more than a century ago. This land had its people long before that.",
       "y_hinh": [
         {
           "cue": "I put my notebook away",
@@ -1134,7 +1134,7 @@
       "chapter": "The Verdict From Underground",
       "lop": "hien-tai",
       "role": "về bàn: ghép các mảnh 'vì sao', phán quyết WOULD MOVE có điều kiện, callback lọ opal, câu hỏi kéo bình luận",
-      "narration": "So here's how the jar adds up. Opal brought people to the desert. The heat pushed them into the rock. And the digging skills they already had made a hole cheaper than fighting the sun. Down there, according to NASA, the rock holds around twenty-three degrees. Would I move there? Above ground, no chance. Below ground, absolutely. My verdict is WOULD MOVE, as long as the bedroom is a hole. It suits people who love quiet, steady temperatures and long drives. It does not suit anyone who needs a window, or who walks at night staring at a phone. I gave the jar one last shake. Still mostly jar. Would you give up every window you own for a room that stays around twenty-three degrees all year?",
+      "narration": "So here's how the jar adds up. Opal brought people to the desert. The heat pushed them into the rock. And the digging skills they already had made a hole cheaper than fighting the sun. Down there, according to NASA, the rock holds around twenty-three degrees. Residents say closer to twenty-four. Would I move there? Above ground, no chance. Below ground, absolutely. My verdict is WOULD MOVE, as long as the bedroom is a hole. It suits people who love quiet, steady temperatures and long drives. It does not suit anyone who needs a window, or a lawn. I gave the jar one last shake. Still mostly jar. Would you give up every window you own for a room that stays in the low twenties all year?",
       "verdict": {
         "label": "WOULD MOVE",
         "reason": "Only underground: the rock keeps rooms around twenty-three degrees all year without air conditioning, which beats the desert heat for the price of digging once.",
@@ -1159,7 +1159,7 @@
           "gag": "Lần này hạt sạn rơi ra lại lấp lánh một chút; Wob nheo mắt nhìn, giữ hình"
         },
         {
-          "cue": "stays around twenty-three degrees all year",
+          "cue": "stays in the low twenties all year",
           "y": "Wob nhìn thẳng người xem, kết đúng ở chữ cuối; góc phải dưới để trống cho màn hình kết thúc"
         }
       ],
@@ -1532,25 +1532,14 @@
       "hedged": false
     },
     {
-      "id": "C15",
-      "scene": 8,
-      "quote": "The walls were carved sandstone, covered in swirls from the digging machine.",
-      "statement": "Coober Pedy dugout walls are carved sandstone that often show swirl marks left by tunnelling machines.",
-      "source_ids": [
-        "S15",
-        "S24"
-      ],
-      "hedged": false
-    },
-    {
       "id": "C16",
       "scene": 9,
-      "quote": "Dugouts appeared beside the earliest mines in the first few years after the opal strike.",
-      "statement": "Dugout dwellings appeared beside the earliest Coober Pedy opal mines between about 1915 and 1918.",
+      "quote": "According to a state heritage report, the first miners probably started digging homes within a few years of the find.",
+      "statement": "The first Coober Pedy opal miners probably began digging dugout homes within a few years of the 1915 opal discovery (heritage report says dugouts were likely built during the earliest mining period, 1915-1918).",
       "source_ids": [
         "S7"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C17",
@@ -1586,8 +1575,8 @@
     {
       "id": "C20",
       "scene": 11,
-      "quote": "In nineteen ninety-three, volunteers carved the Serbian Orthodox church of Saint Elijah into the sandstone by hand.",
-      "statement": "The underground Serbian Orthodox Church of St Elijah in Coober Pedy was dug in 1993, with volunteers carving the sandstone walls by hand.",
+      "quote": "The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three.",
+      "statement": "The underground Serbian Orthodox Church of St Elijah in Coober Pedy was dug into the rock in 1993.",
       "source_ids": [
         "S25"
       ],
@@ -1596,12 +1585,12 @@
     {
       "id": "C21",
       "scene": 11,
-      "quote": "The town got its name in nineteen twenty and its own council in nineteen eighty-seven.",
-      "statement": "The name Coober Pedy was adopted in 1920 (by the local Progress and Miners Association), and the District Council of Coober Pedy was established in 1987.",
+      "quote": "The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven.",
+      "statement": "The name Coober Pedy was adopted around 1920 (sources give 1920 or 1922), and the District Council of Coober Pedy was established in 1987.",
       "source_ids": [
         "S6"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C22",
@@ -1728,8 +1717,8 @@
     {
       "id": "C34",
       "scene": 15,
-      "quote": "Warning signs are everywhere",
-      "statement": "Warning signs about unmarked mine shafts are posted widely around the Coober Pedy opal fields.",
+      "quote": "Warning signs stand at the entrances to the opal fields",
+      "statement": "Warning signs about mine shafts stand at the access points (entrances) to the Coober Pedy opal fields.",
       "source_ids": [
         "S20",
         "S29"
@@ -1749,13 +1738,13 @@
     {
       "id": "C36",
       "scene": 15,
-      "quote": "So the official advice is plain. Watch every step, and stay off the fields in the dark.",
-      "statement": "SafeWork SA advises people in the Coober Pedy opal fields to watch their step and warns against walking the fields at night.",
+      "quote": "After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk.",
+      "statement": "After the February 2024 fall, SafeWork SA issued an incident alert titled 'Mind your step in opal fields', noting that searching for opal at night increases the risk of falling into a shaft.",
       "source_ids": [
         "S20",
         "S29"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C37",
@@ -1790,17 +1779,17 @@
     {
       "id": "C40",
       "scene": 16,
-      "quote": "In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres, including the town itself. The court sat in Coober Pedy to do it.",
-      "statement": "On 11 May 2011 the Federal Court of Australia, sitting in Coober Pedy, recognised the Antakirinja Matu-Yankunytjatjara people's native title over 78,672 square kilometres, including the town of Coober Pedy.",
+      "quote": "In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out.",
+      "statement": "On 11 May 2011 the Federal Court of Australia, sitting in Coober Pedy, recognised the Antakirinja Matu-Yankunytjatjara people's native title over 78,672 square kilometres in the Coober Pedy region, with some town parcels excluded from the determination.",
       "source_ids": [
         "S33"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C41",
       "scene": 17,
-      "quote": "Even the town's name is usually traced to Aboriginal words. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from.",
+      "quote": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from.",
       "statement": "The name Coober Pedy derives from Aboriginal words ('kupa piti') commonly translated as 'white man's hole', but the exact origin and meaning are debated (Britannica also gives 'water hole'; a 2010 etymology study traces the words to Barngarla and Kokatha).",
       "source_ids": [
         "S6",
@@ -1831,8 +1820,8 @@
     {
       "id": "C44",
       "scene": 18,
-      "quote": "Would you give up every window you own for a room that stays around twenty-three degrees all year?",
-      "statement": "Coober Pedy dugout rooms stay at around 23°C year-round.",
+      "quote": "Residents say closer to twenty-four.",
+      "statement": "Coober Pedy dugout temperatures are given differently by source: NASA Earth Observatory says about 23°C, residents say about 24°C; i.e. low twenties year-round.",
       "source_ids": [
         "S14",
         "S15"

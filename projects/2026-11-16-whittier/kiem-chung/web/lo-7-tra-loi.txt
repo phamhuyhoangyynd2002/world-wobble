@@ -1,0 +1,111 @@
+[
+{
+"id": "C49",
+"verdict": "dung",
+"correct_value": null,
+"note": "The trail is approximately two miles one way to Portage Lake, and the City of Whittier confirms that its historic route was used by Alaska Natives, Russian fur traders, and early settlers.",
+"sources": [
+{
+"title": "Whittier, AK | Things to Do, Recreation, & Travel Information",
+"publisher": "Travel Alaska",
+"url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+"type": "khac",
+"published": null
+},
+{
+"title": "2020 Comprehensive Plan – Trails",
+"publisher": "City of Whittier, Alaska",
+"url": "https://www.whittieralaska.gov/media/1551",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier Wildlife Viewing Guide",
+"publisher": "Alaska Department of Fish and Game",
+"url": "https://www.newsrelease.adfg.alaska.gov/static/viewing/pdfs/whittier.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C50",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Department of the Interior announced Whittier's designation on October 2, 2026, and the National Park Service confirmed it on October 16; legislation limits the designation to one city or local jurisdiction per state or territory.",
+"sources": [
+{
+"title": "Department of the Interior Designated Whittier, Alaska an American World War II Heritage City",
+"publisher": "U.S. Department of the Interior",
+"url": "https://www.doi.gov/pressreleases/department-interior-designated-whittier-alaska-american-world-war-ii-heritage-city",
+"type": "goc",
+"published": "2026-10-02"
+},
+{
+"title": "National Park Service Designates New American World War II Heritage Cities",
+"publisher": "National Park Service",
+"url": "https://www.nps.gov/orgs/1207/nps-designates-new-wwii-heritage-cities.htm",
+"type": "goc",
+"published": "2026-10-16"
+},
+{
+"title": "U.S. Code, Title 36 – American World War II Heritage Cities",
+"publisher": "U.S. Government Publishing Office",
+"url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title36/html/USCODE-2021-title36-subtitleI-partA.htm",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C51",
+"verdict": "dung",
+"correct_value": "241 inches annually (approximately 20.1 feet)",
+"note": "The Alaska Department of Transportation reports average annual snowfall of 241 inches, supporting the roughly 20-foot figure; the alternative 257-inch figure was not independently verified in this search.",
+"sources": [
+{
+"title": "Whittier Weather",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "2022 City of Whittier Local Hazard Mitigation Plan",
+"publisher": "City of Whittier, Alaska",
+"url": "https://www.whittieralaska.gov/media/711",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C52",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official summer tunnel schedule runs May 1 through September 30, with the final scheduled opening ending at 11:15 p.m.; Alaska's official tourism and transportation sources confirm glacier cruises, fishing, and hiking opportunities from Whittier.",
+"sources": [
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier Alaska Community Page",
+"publisher": "Alaska Marine Highway System",
+"url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier, AK | Things to Do, Recreation, & Travel Information",
+"publisher": "Travel Alaska",
+"url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+"type": "khac",
+"published": null
+}
+]
+}
+]

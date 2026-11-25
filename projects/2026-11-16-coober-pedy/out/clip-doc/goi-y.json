@@ -1,0 +1,1623 @@
+{
+ "so_ung_vien": 982,
+ "da_loai": {
+  "cau_mo": 69,
+  "it_tu": 2,
+  "khung_trong": 0
+ },
+ "chon": [
+  {
+   "start": 69.83,
+   "end": 117.16,
+   "duration": 47.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 192.94,
+   "end": 224.3,
+   "duration": 31.4,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window."
+  },
+  {
+   "start": 241.43,
+   "end": 291.26,
+   "duration": 49.8,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "score": 17.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there. Then I zoomed out. One room becomes a house."
+  },
+  {
+   "start": 390.54,
+   "end": 422.17,
+   "duration": 31.6,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power."
+  },
+  {
+   "start": 484.38,
+   "end": 532.5,
+   "duration": 48.1,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40",
+    "C41"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out. Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it."
+  }
+ ],
+ "tat_ca": [
+  {
+   "start": 241.43,
+   "end": 291.26,
+   "duration": 49.8,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "score": 17.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there. Then I zoomed out. One room becomes a house."
+  },
+  {
+   "start": 241.43,
+   "end": 294.33,
+   "duration": 52.9,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there. Then I zoomed out. One room becomes a house. Houses become a hotel, shops and churches."
+  },
+  {
+   "start": 390.54,
+   "end": 422.17,
+   "duration": 31.6,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power."
+  },
+  {
+   "start": 390.54,
+   "end": 427.53,
+   "duration": 37.0,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water."
+  },
+  {
+   "start": 390.54,
+   "end": 434.32,
+   "duration": 43.8,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water. Imagine your kitchen tap connected to a straw that long. Then there are the holes."
+  },
+  {
+   "start": 484.38,
+   "end": 532.5,
+   "duration": 48.1,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40",
+    "C41"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out. Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it."
+  },
+  {
+   "start": 484.38,
+   "end": 537.32,
+   "duration": 52.9,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40",
+    "C41"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out. Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole."
+  },
+  {
+   "start": 241.43,
+   "end": 289.46,
+   "duration": 48.0,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there. Then I zoomed out."
+  },
+  {
+   "start": 69.83,
+   "end": 117.16,
+   "duration": 47.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 69.83,
+   "end": 123.36,
+   "duration": 53.5,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone."
+  },
+  {
+   "start": 70.68,
+   "end": 117.16,
+   "duration": 46.5,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 70.68,
+   "end": 123.36,
+   "duration": 52.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone."
+  },
+  {
+   "start": 71.78,
+   "end": 117.16,
+   "duration": 45.4,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 71.78,
+   "end": 123.36,
+   "duration": 51.6,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone."
+  },
+  {
+   "start": 71.78,
+   "end": 128.81,
+   "duration": 57.0,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake."
+  },
+  {
+   "start": 390.54,
+   "end": 430.88,
+   "duration": 40.3,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water. Imagine your kitchen tap connected to a straw that long."
+  },
+  {
+   "start": 390.54,
+   "end": 441.35,
+   "duration": 50.8,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "7 khẳng định"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water. Imagine your kitchen tap connected to a straw that long. Then there are the holes. Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt."
+  },
+  {
+   "start": 390.54,
+   "end": 443.6,
+   "duration": 53.1,
+   "chapter": "What the Desert Charges",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "7 khẳng định"
+   ],
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water. Imagine your kitchen tap connected to a straw that long. Then there are the holes. Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt. Nobody seems to have an exact count."
+  },
+  {
+   "start": 484.38,
+   "end": 540.12,
+   "duration": 55.7,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40",
+    "C41"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out. Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from."
+  },
+  {
+   "start": 241.43,
+   "end": 280.66,
+   "duration": 39.2,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work."
+  },
+  {
+   "start": 241.43,
+   "end": 286.22,
+   "duration": 44.8,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17",
+    "C18"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there."
+  },
+  {
+   "start": 484.38,
+   "end": 524.56,
+   "duration": 40.2,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out."
+  },
+  {
+   "start": 69.83,
+   "end": 110.81,
+   "duration": 41.0,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right."
+  },
+  {
+   "start": 69.83,
+   "end": 114.96,
+   "duration": 45.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea."
+  },
+  {
+   "start": 69.83,
+   "end": 127.36,
+   "duration": 57.5,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking."
+  },
+  {
+   "start": 70.68,
+   "end": 110.81,
+   "duration": 40.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right."
+  },
+  {
+   "start": 70.68,
+   "end": 114.96,
+   "duration": 44.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea."
+  },
+  {
+   "start": 70.68,
+   "end": 127.36,
+   "duration": 56.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking."
+  },
+  {
+   "start": 71.78,
+   "end": 110.81,
+   "duration": 39.0,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right."
+  },
+  {
+   "start": 71.78,
+   "end": 114.96,
+   "duration": 43.2,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea."
+  },
+  {
+   "start": 71.78,
+   "end": 127.36,
+   "duration": 55.6,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug faster.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking."
+  },
+  {
+   "start": 86.31,
+   "end": 117.16,
+   "duration": 30.9,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 86.31,
+   "end": 123.36,
+   "duration": 37.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone."
+  },
+  {
+   "start": 86.31,
+   "end": 128.81,
+   "duration": 42.5,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake."
+  },
+  {
+   "start": 86.31,
+   "end": 130.47,
+   "duration": 44.2,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam."
+  },
+  {
+   "start": 86.31,
+   "end": 134.97,
+   "duration": 48.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug."
+  },
+  {
+   "start": 86.31,
+   "end": 138.03,
+   "duration": 51.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why."
+  },
+  {
+   "start": 86.31,
+   "end": 143.84,
+   "duration": 57.5,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why. Opal pulled people into the middle of nowhere. It did not tell them where to sleep. I found that out at lunchtime."
+  },
+  {
+   "start": 241.43,
+   "end": 275.31,
+   "duration": 33.9,
+   "chapter": "The Machine That Digs Bedrooms",
+   "claims": [
+    "C16",
+    "C17"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Who digs a bedroom?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever."
+  },
+  {
+   "start": 69.83,
+   "end": 101.12,
+   "duration": 31.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 2 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year."
+  },
+  {
+   "start": 70.68,
+   "end": 101.12,
+   "duration": 30.4,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a rock.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year."
+  },
+  {
+   "start": 484.38,
+   "end": 518.56,
+   "duration": 34.2,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy."
+  },
+  {
+   "start": 484.38,
+   "end": 521.06,
+   "duration": 36.7,
+   "chapter": "Whose Land This Is",
+   "claims": [
+    "C38",
+    "C39",
+    "C40"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it."
+  },
+  {
+   "start": 50.3,
+   "end": 101.12,
+   "duration": 50.8,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C05",
+    "C06",
+    "C07",
+    "C08"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 6 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "My first morning, I went noodling.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 58.53,
+    "den": 60.22,
+    "cau": "The piles are everywhere."
+   },
+   "text": "My first morning, I went noodling. Noodling means sifting through the piles of waste dirt that miners leave behind, hoping they missed something. The piles are everywhere. Thousands of pale cones of rubble, as if a giant had been sneezing sand for a century. I picked a pile that looked lucky. It looked exactly like every other pile. I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year."
+  },
+  {
+   "start": 73.08,
+   "end": 117.16,
+   "duration": 44.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 6 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a more confident rock.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "start": 73.08,
+   "end": 123.36,
+   "duration": 50.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 6 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a more confident rock.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone."
+  },
+  {
+   "start": 73.08,
+   "end": 128.81,
+   "duration": 55.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 6 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a more confident rock.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake."
+  },
+  {
+   "start": 73.08,
+   "end": 130.47,
+   "duration": 57.4,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 6 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a more confident rock.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam."
+  },
+  {
+   "start": 86.31,
+   "end": 127.36,
+   "duration": 41.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking."
+  },
+  {
+   "start": 86.31,
+   "end": 140.54,
+   "duration": 54.2,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why. Opal pulled people into the middle of nowhere."
+  },
+  {
+   "start": 86.31,
+   "end": 142.28,
+   "duration": 56.0,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "On the first of February, nineteen fifteen,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 98.79,
+    "den": 101.02,
+    "cau": "Miners followed within about a year."
+   },
+   "text": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why. Opal pulled people into the middle of nowhere. It did not tell them where to sleep."
+  },
+  {
+   "start": 92.77,
+   "end": 130.47,
+   "duration": 37.7,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "His son Willie, aged fourteen or fifteen depending on the source,",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 114.69,
+    "den": 117.06,
+    "cau": "The opal itself came much later."
+   },
+   "text": "His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam."
+  },
+  {
+   "start": 92.77,
+   "end": 134.97,
+   "duration": 42.2,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "His son Willie, aged fourteen or fifteen depending on the source,",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 114.69,
+    "den": 117.06,
+    "cau": "The opal itself came much later."
+   },
+   "text": "His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug."
+  },
+  {
+   "start": 92.77,
+   "end": 138.03,
+   "duration": 45.3,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "His son Willie, aged fourteen or fifteen depending on the source,",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 114.69,
+    "den": 117.06,
+    "cau": "The opal itself came much later."
+   },
+   "text": "His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why."
+  },
+  {
+   "start": 92.77,
+   "end": 143.84,
+   "duration": 51.1,
+   "chapter": "Digging for Leftovers",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "His son Willie, aged fourteen or fifteen depending on the source,",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 114.69,
+    "den": 117.06,
+    "cau": "The opal itself came much later."
+   },
+   "text": "His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone. Picture a layer cake where the jam was squeezed in years after baking. The sea baked the cake. The opal is the late jam. Whether you need a permit to noodle depends on who you ask, so I checked before I dug. That's piece one of the why. Opal pulled people into the middle of nowhere. It did not tell them where to sleep. I found that out at lunchtime."
+  },
+  {
+   "start": 192.94,
+   "end": 224.3,
+   "duration": 31.4,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window."
+  },
+  {
+   "start": 192.94,
+   "end": 225.35,
+   "duration": 32.4,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic."
+  },
+  {
+   "start": 192.94,
+   "end": 226.84,
+   "duration": 33.9,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic. No sun trying to get in."
+  },
+  {
+   "start": 192.94,
+   "end": 233.99,
+   "duration": 41.1,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic. No sun trying to get in. I slept like a rock, inside a rock. By breakfast I had crossed out the line in my notebook. I was moving here after all."
+  },
+  {
+   "start": 194.99,
+   "end": 225.35,
+   "duration": 30.4,
+   "chapter": "Why Is Everyone in a Hole?",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Residents describe roughly twenty-four all year,",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "text": "Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window. No traffic."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "ten": "xuoc-dia",
+  "tai": 2.45,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "whoosh",
+  "tai": 3.325,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "ting",
+  "tai": 6.6,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "ting",
+  "tai": 8.8,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "xuoc-dia",
+  "tai": 9.1,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "pop",
+  "tai": 10.075,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 10.562,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "ting",
+  "tai": 12.312,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "bonk",
+  "tai": 13.987,
+  "am_luong": 0.55
+ }
+]

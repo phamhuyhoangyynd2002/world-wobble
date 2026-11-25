@@ -1,0 +1,76 @@
+{
+ "k1": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 43.5,
+   "khung0_ti_le_giay": 0.0,
+   "chuyen_dong": [
+    11.7,
+    11.29,
+    10.6,
+    11.67,
+    9.13,
+    18.67,
+    24.6,
+    13.57,
+    12.42,
+    34.48
+   ],
+   "tu_trong_5s": 19,
+   "cau_mo": "This is a fish.",
+   "diem_cau_mo": 4.5,
+   "uu": [
+    "chỉ vào vật lạ trong hình",
+    "ngắn 4 từ",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k2": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 60.0,
+   "khung0_ti_le_giay": 0.0,
+   "chuyen_dong": [
+    27.39,
+    16.76,
+    4.46,
+    30.43,
+    9.77,
+    7.34,
+    9.91,
+    25.14,
+    86.14,
+    17.0
+   ],
+   "tu_trong_5s": 17,
+   "cau_mo": "Why is there a village here at all?",
+   "diem_cau_mo": 5.0,
+   "uu": [
+    "câu hỏi",
+    "ngắn 8 từ",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k3": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ },
+ "k4": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ },
+ "k5": {
+  "loi": [
+   "chưa có file mp4"
+  ],
+  "do": {}
+ }
+}

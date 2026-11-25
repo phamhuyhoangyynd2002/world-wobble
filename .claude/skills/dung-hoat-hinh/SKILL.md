@@ -35,6 +35,7 @@ argument-hint: "<thư mục dự án> [--doan d03] [--chi-ghep]"
    python .claude/skills/dung-hoat-hinh/scripts/chuan_bi_doan.py <dự án> --tat-ca
    ```
    Chạy lại an toàn: không ghi đè `canh.js`, `sfx.json` đã có. Đổi mốc trong `phan-canh.json` thì chạy lại bước này cho đoạn đó.
+   Khung xuất lấy từ `phan-canh.json` → `xuat` (tập 4 trở đi `{"w": 2560, "h": 1440}`; không có thì 1920×1080 như tập 1–3, script in CẢNH BÁO). Script ghi khung xuất vào `index.html` của từng đoạn, sân khấu vẫn là hệ 1920×1080 phóng ×4/3 (HOP-DONG mục 4b). Đổi `xuat` thì chạy lại bước này cho mọi đoạn và render lại hết; `ghep_doan.py` báo LỖI khi còn clip cỡ cũ.
 
 4. **Dựng song song**: giao cùng lúc ba agent, mỗi agent nhận danh sách id đoạn của phong cách mình:
    - `dung-cat-giay`: các đoạn `phong_cach = "cat-giay"`
@@ -72,6 +73,8 @@ argument-hint: "<thư mục dự án> [--doan d03] [--chi-ghep]"
    python .claude/skills/kiem-tra-video/scripts/kiem_dong_hinh.py <dự án>/hoat-hinh/out/video.mp4 --json <dự án>/hoat-hinh/out/dong-hinh.json --bo-cuoi 1.5
    ```
    Mã 1 (đứng hình ≥ 24 khung, khung đen, khung giật) thì sửa đoạn chứa mốc đó rồi ghép lại; CẢNH BÁO đứng hình 12–23 khung thì thêm đẩy camera chậm (thẻ `day-vao-cham`). Mẫu đo 17/11: bản phối 60s ĐẠT (91,6% khung có chuyển động); tập 1 kiểu trình chiếu KHÔNG ĐẠT (đứng hình tới 71 khung). Sau đó chép `hoat-hinh/out/video.mp4`, `video-no-music.mp4` sang `out/` của dự án và chạy kiểm định, phản biện như quy trình cũ.
+
+8. **Lưu ra ổ D** (quy tắc "Nơi lưu file lớn" trong `quy-trinh-san-xuat.md`): bản cho người làm kênh xem → `python .claude/skills/dung-hoat-hinh/scripts/luu_o_d.py <dự án> --tap NN --nhap "<ghi chú>"`, gửi đường dẫn `D:/YouTube/world-wobble/video/...`. Giao xong → `--giao`. Mọi render (thợ dựng, ghép) đặt TMP/TEMP = `D:/YouTube/world-wobble/tmp`.
 
 ## Sửa một đoạn
 

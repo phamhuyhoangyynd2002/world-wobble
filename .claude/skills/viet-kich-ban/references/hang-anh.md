@@ -41,6 +41,7 @@ Hạng khai báo phải khớp hạng tính. Muốn khác (ví dụ ảnh phụ 
 
 - **Mỗi chi tiết riêng một ảnh chính**: gom đồ vật cụ thể vào ít ảnh chính, phần không khí xung quanh để ảnh phụ.
 - **Ảnh phụ tả cảnh chung chung**: "snowy larch valley at dawn, frost haze", không nhắc con vật hay đồ vật mà mô hình nội bộ dễ vẽ sai.
+- **Con vật, đồ vật có thật mà lời đọc nhắc tới thì người xem soi** (bài học 24/11/2026: kênh biển sâu mất người đăng ký vì ảnh AI vẽ cá heo to bằng orca; "whatever AI you used… does not know what a crab looks like"). Ảnh chính có con vật thật: đối chiếu với một ảnh thật (Commons, cơ quan nhà nước) trước khi nhận, ghi vào manifest `da_doi_chieu`; sai hình dáng, tỉ lệ, màu đặc trưng thì làm lại hoặc vẽ SVG.
 - Đồ vật, con vật cần đúng mà có thể vẽ bằng SVG (thư viện đạo cụ hoạt hình) thì vẽ SVG đặt lên ảnh phụ, khỏi tốn ảnh chính.
 - Dự kiến một tập: **khoảng 4–6 ảnh chính**, phần còn lại là ảnh phụ. `validate_script.py` cảnh báo khi ảnh chính vượt `ANH_CHINH_TOI_DA` (mặc định 6, đổi trong `.env`).
 

@@ -1,0 +1,199 @@
+[
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": null,
+"note": "The U.S. Army selected Whittier as a strategically located second military port to support wartime supplies and provide an alternative to Seward.",
+"sources": [
+{
+"title": "Department of the Interior Designated Whittier, Alaska an American World War II Heritage City",
+"publisher": "U.S. Department of the Interior",
+"url": "https://www.doi.gov/node/68021",
+"type": "goc",
+"published": null
+},
+{
+"title": "Draft Integrated Feasibility Report – Appendix E: Cultural Resources",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/publicreview/whittierharbor/AppendixECulturalResourcesdraft.pdf?ver=2018-06-28-152726-213",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C18",
+"verdict": "dung",
+"correct_value": null,
+"note": "Official Alaska transportation sources confirm that Whittier is a deep-water, ice-free port suitable for year-round ship operations.",
+"sources": [
+{
+"title": "FAQs, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/faq.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Draft Integrated Feasibility Report – Appendix E: Cultural Resources",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/publicreview/whittierharbor/AppendixECulturalResourcesdraft.pdf?ver=2018-06-28-152726-213",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C19",
+"verdict": "mau-thuan",
+"correct_value": "Whittier offered a shorter sea voyage than Seward, but the frequently cited 52-mile difference is associated with the railroad route to Anchorage and northern destinations, not conclusively established as a sea-distance measurement.",
+"note": "Alaska DOT describes the Seward route as adding 52 miles without clearly specifying sea distance, while other official transportation documentation explicitly identifies 52 miles as a railway-distance advantage.",
+"sources": [
+{
+"title": "History, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tunnel Operations Study – Anton Anderson Memorial Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/stwddes/research/assets/pdf/4000-118.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Opening of the Whittier Tunnel, 1942-1943",
+"publisher": "Cook Inlet Historical Society",
+"url": "https://www.cookinlethistoricalsociety.org/articles/opening-of-the-whittier-tunnel-1942-1943",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT and the U.S. Army Corps of Engineers explicitly identify frequent cloud cover, fog and poor weather as protection against Japanese aircraft bombing during World War II.",
+"sources": [
+{
+"title": "Weather, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Talley at Whittier Tunnel holing",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Media/Images/igphoto/2000757909/",
+"type": "goc",
+"published": null
+},
+{
+"title": "FHWA-AK-RD-14-06",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/stwddes/research/assets/pdf/fhwa_ak_rd_14_06.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C21",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT and the U.S. Army Corps of Engineers confirm completion on April 23, 1943, including a one-mile tunnel through Begich Peak and a 2.5-mile tunnel through Maynard Mountain.",
+"sources": [
+{
+"title": "History, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Talley at Whittier Tunnel holing",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Media/Images/igphoto/2000757909/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "Anton Anderson was the Army engineer who headed the construction project, and the tunnel subsequently received his name.",
+"sources": [
+{
+"title": "History, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Anderson, Anton A.",
+"publisher": "Alaska History",
+"url": "https://www.alaskahistory.org/biographies/anderson-anton-a/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": "Over 1,000 people, including military and civilian personnel, by the mid-1940s.",
+"note": "The official Alaska DOT historical account explicitly states that the population swelled to over 1,000 during the mid-1940s as work crews and supply ships arrived.",
+"sources": [
+{
+"title": "History, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Historic Roads of Alaska: Driving the History of the Last Frontier",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/highways/Historic-Roads-of-Alaska_Driving-the-History-of-the-Last-Frontier.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": "Buckner Building: construction began in 1949 and was completed in 1953-1954. Hodge Building: constructed and opened in 1956-1957.",
+"note": "Both buildings were postwar U.S. Army construction projects, although they were built during the subsequent Cold War military expansion rather than immediately after World War II.",
+"sources": [
+{
+"title": "The Cold War in Alaska: A Management Plan for Cultural Resources",
+"publisher": "U.S. Army Corps of Engineers",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/archive/TheColdWarInAlaskaAManagementPlanForCulturalResourcesAug1994a.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "BUCKNER BUILDING – Hazardous Materials Narrative",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://dec.alaska.gov/media/4707/2015-bucknerpacp5.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "City of Whittier – 2020 Comprehensive Plan",
+"publisher": "City of Whittier",
+"url": "https://www.whittieralaska.gov/media/1551",
+"type": "goc",
+"published": null
+}
+]
+}
+]

@@ -1,0 +1,1372 @@
+{
+  "title": "I Lived in the Rainiest Village on Earth. My Socks Didn't.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Mawsynram",
+    "country": "India",
+    "lat": 25.3,
+    "lon": 91.58
+  },
+  "question": "Why do people live in Mawsynram?",
+  "message": "This video tells curious adults that people live in one of the rainiest places on Earth because it is the Khasi people's home, and they have built a whole way of life, from walking roofs to bridges that grow, around the rain.",
+  "angle": "People live in Mawsynram because it is the long-standing home of Khasi families who have shaped their houses, clothes, crops and even their bridges around the monsoon, despite rain measured in metres, landslides on the only road, power cuts, and, strangely, dry-season water shortages.",
+  "hook_type": "tinh-huong",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-meghalaya": "Bản đồ D3 khung CHỈ vùng Meghalaya–Bangladesh–vịnh Bengal (không vẽ toàn Ấn Độ), ghim Mawsynram 25.30, 91.58 ở nửa phải khung; nhãn 'Mawsynram'",
+    "map-monsoon": "Cùng khung: mũi tên gió mùa từ vịnh Bengal qua Bangladesh lên đồi Khasi; ghim Mawsynram và Cherrapunji (Sohra) 25.284, 91.721; nhãn tiếng Anh ngắn"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "The Sock That Never Dried",
+      "lop": "hien-tai",
+      "role": "hook (tình huống): phơi tất từ tháng sáu vẫn ẩm; ngôi làng có thể mưa nhiều nhất Trái Đất (dè dặt); người ta sống ở đó có chủ ý",
+      "narration": "I hung this sock up to dry in June. It is still damp. It got soaked in a village that, by some accounts, is the rainiest place on Earth. Families live there on purpose.",
+      "pronunciation": "Mawsynram: maw-SIN-ram; Khasi: KAH-see",
+      "on_screen_text": "WHY LIVE IN THE RAIN?",
+      "y_hinh": [
+        {
+          "cue": "I hung this sock up to dry in June",
+          "y": "Bàn kỷ vật dưới đèn; Wob kẹp chiếc tất kẻ sọc lên dây phơi tí hon; tờ lịch bên cạnh lật vèo vèo từ JUNE sang NOV"
+        },
+        {
+          "cue": "It is still damp",
+          "y": "Wob bóp tất, một giọt nước rơi tõm xuống bàn",
+          "gag": "Wob đặt tất lên lò sưởi nhỏ; tất bốc hơi thành đám mây tí hon, đám mây đổ mưa ngược lại lên tất"
+        },
+        {
+          "cue": "the rainiest place on Earth",
+          "y": "Trang sổ mở bản đồ vùng Meghalaya (chỉ khung bang), chấm Mawsynram ở nửa phải khung"
+        },
+        {
+          "cue": "Families live there on purpose",
+          "y": "Wob nhìn chiếc tất, rồi nhìn người xem; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-meghalaya",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.45
+          ]
+        },
+        {
+          "show": "asset:ai-mawsynram-hills",
+          "cue": "Families live there",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I hung this sock",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "It is still damp",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Families live there on purpose",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên nơi, kỷ lục WMO có tiêu chí và tranh chấp, người Khasi ở bao đời; Wob muốn biết vì sao và mình có trụ nổi không",
+      "narration": "The place is Mawsynram, in the Khasi Hills of Meghalaya, in northeast India. The World Meteorological Organization lists it as the record for the greatest average yearly rainfall in Asia, though the title is disputed. Either way, it rains here like the sky has a deadline. And yet Khasi families have lived in these hills for generations, and many say they would not live anywhere else. I wanted to know why, and whether I could last one monsoon.",
+      "y_hinh": [
+        {
+          "cue": "in the Khasi Hills of Meghalaya",
+          "y": "Wob trỏ bản đồ; những mái nhà nhỏ rải trên các sườn đồi xanh"
+        },
+        {
+          "cue": "the title is disputed",
+          "y": "Ba chiếc cúp nhỏ trên bàn, mỗi chiếc dán một cái tên, Wob nhìn qua nhìn lại",
+          "gag": "Ba chiếc cúp khẽ huých nhau tranh chỗ đứng giữa bàn"
+        },
+        {
+          "cue": "like the sky has a deadline",
+          "y": "Wob nhìn lên: đám mây cầm đồng hồ, đổ mưa vội vã"
+        },
+        {
+          "cue": "whether I could last one monsoon",
+          "y": "Wob nhét hết tất vào vali, vali phình tròn như quả bóng"
+        },
+        {
+          "cue": "whether I could last one monsoon",
+          "y": "Wob nhét hết tất vào vali, vali phình tròn như quả bóng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-meghalaya",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.45
+          ]
+        },
+        {
+          "show": "asset:ai-mawsynram-hills",
+          "cue": "Either way, it rains here",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-mawsynram-village",
+          "cue": "And yet Khasi families",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The place is Mawsynram",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "the title is disputed",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "whether I could last one monsoon",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "whether I could last one monsoon",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "How Much Rain Is That?",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 1: con số mưa và so sánh đời thường",
+      "narration": "Let me put the number on the table. The World Meteorological Organization records an average of about eleven thousand eight hundred and seventy-two millimetres of rain a year here. That's about four hundred and sixty-seven inches. Nearby Cherrapunji and a couple of towns in Colombia have their own claims to the title. I would not want to referee that argument without an umbrella. Picture a glass that starts empty on New Year's Day and is left outside. By the end of the year, the water in it would stand taller than a three-storey house, roughly thirty-nine feet. In nineteen eighty-five, according to NASA, more than twenty-five metres fell in a single year. That's over a thousand inches. I tried this with a real glass on my first evening. Within an hour I needed a bucket. Within the next hour, I was mostly thinking about buying a boat.",
+      "facts": [
+        {
+          "label": "Mawsynram",
+          "value": "~11,872 mm · 467 in / yr",
+          "claim_ids": [
+            "C04"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Picture a glass that starts empty",
+          "y": "Bong bóng tưởng tượng vẽ tay: một chiếc cốc trên bậu cửa, lịch lật từng trang"
+        },
+        {
+          "cue": "taller than a three-storey house",
+          "y": "Cột nước trong cốc dâng vượt cả ngôi nhà ba tầng vẽ phác cạnh bên"
+        },
+        {
+          "cue": "I tried this with a real glass",
+          "y": "Wob đặt chiếc cốc ra hiên dưới mưa"
+        },
+        {
+          "cue": "Within an hour I needed a bucket",
+          "y": "Cốc tràn, Wob đổi sang xô",
+          "gag": "Xô tràn; Wob đổi sang bồn tắm; bồn tắm bắt đầu trôi đi"
+        },
+        {
+          "cue": "thinking about buying a boat",
+          "y": "Wob ngồi trong bồn tắm trôi trên sân, chèo bằng cái muôi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mawsynram-rain-hills",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-mawsynram-rain-hills",
+          "cue": "Picture a glass",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-mawsynram-village",
+          "cue": "I tried this with a real glass",
+          "move": "zoom-in",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Let me put the number",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "taller than a three-storey house",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "buying a boat",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "chapter": "Why Here, of All Hills?",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán (gần biển) → cơ chế thật: gió mùa từ vịnh Bengal, đồng bằng, đồi chặn",
+      "narration": "So why here? My guess was simple. It must be right next to the sea. It is not. The coast is a long way south. The real reason is the shape of the land. In the monsoon season, warm wet air comes off the Bay of Bengal and rolls north across the flat plains of Bangladesh. Nothing stops it. Then it hits these hills, which rise steeply to around fourteen hundred metres. The air is shoved upward, it cools, and the water in it falls out as rain. A scientist from the India Meteorological Department told AFP that moisture gathering over the Bay of Bengal is what gives Mawsynram its heavy, long monsoon. Think of the lid on a boiling pot. The steam hits the cool lid and drips. Mawsynram is the lid.",
+      "y_hinh": [
+        {
+          "cue": "It must be right next to the sea",
+          "y": "Sơ đồ vẽ tay: Wob vẽ ngôi làng sát mép biển, khoanh tròn"
+        },
+        {
+          "cue": "It is not",
+          "y": "Wob kéo dài tờ giấy, bờ biển trôi xa tít xuống dưới",
+          "gag": "Wob phải trèo lên ghế mới chỉ tới được bờ biển trên tờ giấy dài"
+        },
+        {
+          "cue": "rolls north across the flat plains",
+          "y": "Trang sổ: mũi tên gió vẽ tay lướt qua đồng bằng phẳng như mặt bàn"
+        },
+        {
+          "cue": "Then it hits these hills",
+          "y": "Mũi tên đâm vào bức tường đồi, cong vút lên, mây kết lại, mưa trút"
+        },
+        {
+          "cue": "Mawsynram is the lid",
+          "y": "Bong bóng tưởng tượng: nồi nước sôi, nắp nồi có vẽ ngôi làng nhỏ, giọt nước nhỏ xuống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-monsoon",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.5,
+            0.6
+          ]
+        },
+        {
+          "show": "asset:map-monsoon",
+          "cue": "Then it hits these hills",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.62,
+            0.4
+          ]
+        },
+        {
+          "show": "asset:ai-mawsynram-rain-hills",
+          "cue": "Think of the lid",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My guess was simple",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It is not",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Mawsynram is the lid",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "A Roof You Can Wear",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 3: Wob dùng ô → hỏng; knup: khiên tre mai rùa, rảnh tay làm ruộng dốc",
+      "narration": "My first morning, I went out with an umbrella. A good one. The rain did not come down, it came sideways. My umbrella turned inside out, then outside in, then decided to leave. A woman walked past wearing what looked like a giant woven turtle shell on her head and back. Dry. Both hands free, carrying firewood. That shell is called a knup. Here's the clever part. It is woven from bamboo with layers of dried palm leaf, or these days sometimes plastic sheet, and it covers you from the head down to the knees. Because you do not hold it, you can work on steep terraced slopes with both hands. India's Ministry of Culture calls it a cultural symbol of Meghalaya. An umbrella is a hat you have to carry. A knup is a roof that walks with you.",
+      "y_hinh": [
+        {
+          "cue": "I went out with an umbrella",
+          "y": "Wob bước ra cửa, giơ chiếc ô đỏ"
+        },
+        {
+          "cue": "then decided to leave",
+          "y": "Chiếc ô lật ngược, lật xuôi, rồi bay vút qua sườn đồi",
+          "gag": "Wob vẫn giữ cán ô không còn tán, nhìn lên, giữ hình"
+        },
+        {
+          "cue": "a giant woven turtle shell",
+          "y": "Một người que đội knup hình mai rùa đi ngang, ôm bó củi, khô ráo"
+        },
+        {
+          "cue": "woven from bamboo with layers of dried palm leaf",
+          "y": "Cận tấm knup: nan tre đan lục giác, lá cọ khô kẹp giữa"
+        },
+        {
+          "cue": "A knup is a roof that walks with you",
+          "y": "Wob đội thử một chiếc knup, đi lạch bạch trên dốc ruộng bậc thang"
+        }
+      ],
+      "que": [
+        {
+          "cue": "A woman walked past",
+          "hanh_dong": "di-bo",
+          "tu": "phai",
+          "so_luong": 1,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mawsynram-village",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-knup-terraces",
+          "cue": "A woman walked past",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-knup-terraces",
+          "cue": "Because you do not hold it",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went out with an umbrella",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "then decided to leave",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "A knup is a roof",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "phụ nữ đan knup trong mùa mưa; tre và cỏ chổi; Wob học đan; Wob đổi ý lần 1",
+      "narration": "According to AFP, women here weave knups through the rainy season, from bamboo slivers, plastic sheets and broom grass, and each one takes at least an hour. Bamboo and broom grass are the main crops on these rocky hills. The broom grass is soaked, flattened and dried on rooftops, then made into brooms and baskets that traders carry across the state. I was given a knup to try for the afternoon. I walked to the edge of a terraced field and stood there in a downpour, perfectly dry, hands in my pockets, feeling like a very smug tortoise. For once on this trip, I thought, maybe. Maybe this works.",
+      "y_hinh": [
+        {
+          "cue": "women here weave knups through the rainy season",
+          "y": "Hiên nhà mái hiên sâu, những bàn tay que đan nan tre, mưa rơi phía ngoài"
+        },
+        {
+          "cue": "dried on rooftops",
+          "y": "Mái nhà phủ đầy bó cỏ chổi vàng đang phơi"
+        },
+        {
+          "cue": "feeling like a very smug tortoise",
+          "y": "Wob đứng giữa mưa đội knup, tay đút túi, mặt vênh vênh",
+          "gag": "Một con rùa thật bò ngang qua, nhìn Wob, rồi rụt cổ vào mai như để chứng minh nó làm việc này lâu hơn"
+        },
+        {
+          "cue": "Maybe this works",
+          "y": "Wob mỉm cười dưới mép knup, mưa tuôn xung quanh"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mawsynram-village",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-broom-grass-roofs",
+          "cue": "Bamboo and broom grass",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-knup-terraces",
+          "cue": "I was given a knup",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "According to AFP",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "feeling like a very smug tortoise",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Maybe this works",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "Bridges That Grow",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 4: từ một chiếc rễ tới cây cầu tới 72 làng; cầu rễ sống; UNESCO",
+      "narration": "Then I went south, to the villages in the valleys below, to see the thing everyone had told me about. It starts with a single root. A thin root, hanging from a rubber fig tree beside a stream. Villagers guide roots like that across the water, tied along bamboo, until they reach the far bank and take hold. Zoom out: many roots, thickened and woven together into a bridge you can walk on. According to the United Nations Development Programme, growing one can take twenty to twenty-five years. Zoom out again. These living root bridges are found in seventy-two villages across the Khasi and Jaintia Hills. Those villages were put on UNESCO's tentative World Heritage list in twenty twenty-two. In January twenty twenty-six, India formally submitted them for World Heritage status. Here's why they make sense. Wood rots fast in this much rain. A bridge that is alive keeps growing stronger. I crossed one very slowly, apologising to every root.",
+      "facts": [
+        {
+          "label": "Living root bridge",
+          "value": "20–25 years to grow",
+          "claim_ids": [
+            "C15"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "It starts with a single root",
+          "y": "Cực cận một sợi rễ mảnh treo trên dòng suối đá"
+        },
+        {
+          "cue": "tied along bamboo",
+          "y": "Bàn tay que buộc sợi rễ vào thanh tre bắc ngang suối"
+        },
+        {
+          "cue": "Zoom out: many roots",
+          "y": "Camera lùi: hàng chục sợi rễ đan thành cây cầu treo xanh rêu"
+        },
+        {
+          "cue": "Zoom out again",
+          "y": "Camera lùi tiếp: thung lũng rừng, nhiều cây cầu nhỏ nối các làng"
+        },
+        {
+          "cue": "apologising to every root",
+          "y": "Wob rón rén bước trên cầu rễ",
+          "gag": "Mỗi bước Wob cúi đầu xin lỗi một sợi rễ; một sợi rễ khẽ vươn ra đỡ lấy Wob"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-root-bridge",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.5,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-root-bridge",
+          "cue": "Zoom out: many roots",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-mawsynram-hills",
+          "cue": "Zoom out again",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-root-bridge",
+          "cue": "I crossed one very slowly",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then I went south",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "twenty to twenty-five years",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "apologising to every root",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "A Day Inside the Monsoon",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 5: một ngày mùa mưa theo giờ: mái cỏ, mây vào nhà, mất điện, chuẩn bị",
+      "music_mood": "hai",
+      "narration": "Back in Mawsynram, I spent a whole day indoors, which is what the monsoon mostly asks of you. Morning: the noise. AFP reported that villagers thatch their roofs with grass to muffle the rain, though a heavy downpour can knock the grass loose. The village headman told AFP that during the monsoon, people have to talk a little louder to be heard. I said good morning. Nobody heard me. I said it again, louder. A cloud heard me. Mid-morning: the cloud came in. Clouds here sometimes drift right into homes and leave a wet film on the furniture. I watched one settle on my bed like a cat that had decided this was its spot now.",
+      "y_hinh": [
+        {
+          "cue": "Morning: the noise",
+          "y": "Trong nhà mái cỏ, mưa đập ầm ầm, Wob bịt tai"
+        },
+        {
+          "cue": "talk a little louder to be heard",
+          "y": "Hai người que nói chuyện, chữ trong bong bóng thoại to dần"
+        },
+        {
+          "cue": "A cloud heard me",
+          "y": "Wob hét lên, một đám mây ngoài cửa sổ quay lại nhìn",
+          "gag": "Đám mây vẫy tay chào lại Wob"
+        },
+        {
+          "cue": "the cloud came in",
+          "y": "Đám mây lững thững trôi qua khung cửa sổ vào phòng"
+        },
+        {
+          "cue": "like a cat that had decided this was its spot now",
+          "y": "Đám mây cuộn tròn trên giường Wob, khẽ nhỏ giọt",
+          "gag": "Wob định đẩy đám mây ra, tay xuyên qua, ướt sũng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-khasi-house-interior",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-khasi-house-interior",
+          "cue": "Mid-morning: the cloud came in",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-khasi-house-interior",
+          "cue": "I watched one settle",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.6,
+            0.6
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Morning: the noise",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Nobody heard me",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "like a cat",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp một ngày: mất điện, sạt lở, tích trữ từ mùa đông; mưa tạnh không lễ hội; Wob đổi ý lần 2",
+      "narration": "Afternoon: the power went out. AFP reported that most homes now have electricity, but outages are common, and during the monsoon it gets very dark inside. Landslides regularly block the only paved road linking the hamlets. That is why every winter, people here repair their roofs and stack firewood for cooking and light. They store up food, because in the wettest months few people go out to shop. Evening: I ate by candlelight, listening to the rain play the roof like a drum kit with no off switch. My socks were drying by the fire. They were not drying. They were simply warm and wet now, which is worse. And here is my favourite detail. When the rains finally end, there is no festival. People just bring their clothes outside to dry. I respected that enormously. I also changed my mind. A monsoon here is not weather. It is a season you have to plan your whole year around, and I am not a planner.",
+      "y_hinh": [
+        {
+          "cue": "Afternoon: the power went out",
+          "y": "Đèn trong phòng tắt phụt; Wob ngồi trong bóng tối, mắt sáng"
+        },
+        {
+          "cue": "Landslides regularly block",
+          "y": "Con đường núi duy nhất bị đất đá chắn ngang, mưa trút"
+        },
+        {
+          "cue": "stack firewood for cooking and light",
+          "y": "Cắt cảnh mùa đông: củi xếp cao dưới mái hiên, bao gạo, sửa mái"
+        },
+        {
+          "cue": "like a drum kit with no off switch",
+          "y": "Wob ăn tối bên nến, mái nhà rung theo nhịp như trống",
+          "gag": "Chiếc nồi trên bàn tự nảy theo nhịp trống mưa"
+        },
+        {
+          "cue": "People just bring their clothes outside to dry",
+          "y": "Hàng hàng dây phơi quần áo dưới nắng đầu tiên, cả xóm im lặng phơi đồ"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-khasi-house-interior",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-mawsynram-rain-hills",
+          "cue": "Landslides regularly block",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-mawsynram-village",
+          "cue": "When the rains finally end",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Afternoon: the power went out",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "which is worse",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I also changed my mind",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "Too Much Rain, Not Enough Water",
+      "lop": "hoi-uc",
+      "khuon": "hai-mua",
+      "role": "chương 6: quay lại mùa khô; nghịch lý thiếu nước; vì sao",
+      "music_mood": "to-mo",
+      "narration": "I went back in the dry season, expecting to finally dry my socks. They dried. But I learned something that surprised me more than the rain. In these hills, the rain falls mostly in the monsoon months, and on steep, rocky slopes it runs off fast, down into the rivers and the plains. So in the dry months, water can run short. In nearby Cherrapunji, the India Water Portal reports, people buy water from tanker trucks, and streams that once ran all year now fall silent by winter. A recent study warns the risk of drought is growing, as rain comes in fewer, more intense bursts. Picture pouring a whole bucket onto a steep tin roof. It gets very wet, very fast, and keeps almost nothing. I stood by a dry stream bed in one of the rainiest corners of the planet, holding a bottle of water I had bought. It felt like a joke the landscape was telling on purpose.",
+      "y_hinh": [
+        {
+          "cue": "I went back in the dry season",
+          "y": "Cắt cứng: cùng sườn đồi, trời trong xanh, cỏ ngả vàng"
+        },
+        {
+          "cue": "it runs off fast",
+          "y": "Mặt cắt vẽ tay: mưa trút lên sườn đá dốc, nước tuột xuống thung lũng như cầu trượt nước"
+        },
+        {
+          "cue": "people buy water from tanker trucks",
+          "y": "Chiếc xe bồn chở nước dừng bên đường, hàng xô nhựa xếp hàng"
+        },
+        {
+          "cue": "Picture pouring a whole bucket onto a steep tin roof",
+          "y": "Bong bóng tưởng tượng: xô nước dội lên mái tôn dốc, nước chảy sạch"
+        },
+        {
+          "cue": "holding a bottle of water I had bought",
+          "y": "Wob đứng cạnh lòng suối đá khô, giơ chai nước, nhìn người xem",
+          "gag": "Wob lắc chai nước, nhìn lên trời trong veo, trời nhún vai"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-dry-season-hills",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-dry-season-hills",
+          "cue": "In nearby Cherrapunji",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-dry-stream",
+          "cue": "I stood by a dry stream bed",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went back in the dry season",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "water can run short",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "a joke the landscape was telling",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao người ta vẫn ở: quê, nghề, cộng đồng; lời trưởng làng (AFP)",
+      "narration": "So why stay? I kept coming back to what the people here have built. A roof you can wear. A bridge that grows. Houses with steep roofs and deep eaves that throw water clear of the walls. A calendar where winter is for getting ready. This is the Khasi people's home, and they have shaped a whole way of life around the sky above it. The village headman told AFP he will never leave: he was born here, and he will die here. Nobody I met seemed to think the rain was a reason to go. It was simply the weather of home, the way snow is for some people, or traffic is for others. On my last evening I asked the rain, out loud, whether it ever got tired. It did not answer. It was busy. I took that as a no, and went inside to admire a roof that has heard that question many times.",
+      "y_hinh": [
+        {
+          "cue": "A roof you can wear",
+          "y": "Bàn kỷ vật hiện tại: Wob đặt chiếc knup nhỏ lên bàn"
+        },
+        {
+          "cue": "A bridge that grows",
+          "y": "Wob đặt cạnh đó một mẩu rễ cây nhỏ"
+        },
+        {
+          "cue": "deep eaves that throw water clear of the walls",
+          "y": "Nhà Khasi mái dốc, mái hiên sâu, nước mưa phóng xa khỏi tường"
+        },
+        {
+          "cue": "the weather of home",
+          "y": "Hoàng hôn sau mưa, mây trắng trôi qua các mái nhà, khói bếp",
+          "gag": "Một đám mây nhỏ ghé xuống ống khói như ngồi sưởi, rồi lại bay đi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mawsynram-village",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-mawsynram-hills",
+          "cue": "This is the Khasi people's home",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-mawsynram-village",
+          "cue": "Nobody I met",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why stay",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "he will never leave",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "the weather of home",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "outro",
+      "chapter": "Would I Move Into the Rain?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết NOPE, callback chiếc tất, câu hỏi kéo bình luận",
+      "narration": "So here is how it all fits. Wet air from the Bay of Bengal crosses a flat plain and slams into these hills, and the sky empties itself here for months. The Khasi families who call it home answered with knups, grass roofs, root bridges and a year built around the monsoon. Would I move there? I admire it enormously. I would visit in the dry season and stare at the bridges for hours. But a cloud slept in my bed, and my socks are still damp. My verdict is NOPE, and the weakness is entirely mine. It suits patient people who like green hills, quiet evenings and talking a little louder. It does not suit anyone who owns only one pair of socks. I pinned the sock to my wall, next to the window. It is still dripping. How long would you last in a monsoon before you missed the sun?",
+      "verdict": {
+        "label": "NOPE",
+        "reason": "Months of rain heavy enough to drown out conversation, clouds indoors and landslides on the only road are more than Wob can handle, even though the Khasi way of life has answered all of it.",
+        "cue": "NOPE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is how it all fits",
+          "y": "Bàn kỷ vật: Wob xếp hàng cốc nước tràn, chiếc knup nhỏ, mẩu rễ, cây nến, chiếc tất"
+        },
+        {
+          "cue": "a cloud slept in my bed",
+          "y": "Chèn: đám mây cuộn tròn trên giường Wob ngáy khò khò"
+        },
+        {
+          "cue": "My verdict is NOPE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? NOPE'"
+        },
+        {
+          "cue": "It is still dripping",
+          "y": "Chiếc tất ghim trên tường nhỏ giọt vào chiếc xô bên dưới",
+          "gag": "Chiếc xô gần đầy; Wob lặng lẽ đặt thêm một chiếc xô bên cạnh"
+        },
+        {
+          "cue": "before you missed the sun",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mawsynram-hills",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-root-bridge",
+          "cue": "Would I move there",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is NOPE"
+        },
+        {
+          "show": "asset:map-meghalaya",
+          "cue": "I pinned the sock",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.45
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is how it all fits",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I admire it enormously",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "my socks are still damp",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I pinned the sock",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-mawsynram-hills",
+      "scenes": [
+        1,
+        2,
+        7,
+        11,
+        12
+      ],
+      "canh": "steep green hills with low clouds drifting across them, small villages of houses with steep roofs scattered on the slopes, terraced fields, mist in the valleys",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook và cảnh phán quyết; ứng viên thumbnail"
+    },
+    {
+      "id": "ai-knup-terraces",
+      "scenes": [
+        5,
+        6
+      ],
+      "canh": "a person seen from behind wearing a large woven bamboo rain shield shaped like a turtle shell covering head and back to the knees, carrying firewood on a steep terraced hillside in heavy rain",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Knup là đạo cụ chính; nội bộ sẽ vẽ sai hình mai rùa"
+    },
+    {
+      "id": "ai-root-bridge",
+      "scenes": [
+        7,
+        12
+      ],
+      "canh": "a living bridge made of thick intertwined tree roots spanning a rocky stream in a dense green rainforest valley, moss, mist, a stone path",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cầu rễ cần đúng cấu trúc rễ đan; dùng ở cảnh phán quyết"
+    },
+    {
+      "id": "ai-khasi-house-interior",
+      "scenes": [
+        8,
+        9
+      ],
+      "canh": "the inside of a simple hill house with a steep thatched roof, a small bed and a wooden table, a soft cloud of mist drifting in through the open window, heavy rain outside, dim light",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Mây vào nhà là chi tiết riêng; nội bộ khó vẽ"
+    },
+    {
+      "id": "ai-broom-grass-roofs",
+      "scenes": [
+        6
+      ],
+      "canh": "village rooftops covered with bundles of golden broom grass laid out to dry, green hills behind, after rain",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "cu_the = 2: bó cỏ chổi phơi trên mái"
+    },
+    {
+      "id": "ai-mawsynram-village",
+      "scenes": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "canh": "a small hill village in heavy rain, houses with steep tin roofs and deep eaves, a wet path, green slopes, grey clouds",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông làng chung, tổng 5 nhưng chỉ không khí",
+      "ghi_de": "Tổng 5 nhưng là phông làng mưa chung chung, nội bộ vẽ được; dành lượt ngoài cho knup, cầu rễ, mây trong nhà"
+    },
+    {
+      "id": "ai-mawsynram-rain-hills",
+      "scenes": [
+        3,
+        4,
+        9
+      ],
+      "canh": "sheets of heavy rain falling over steep green hills under dark low clouds",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí mưa, tổng 4"
+    },
+    {
+      "id": "ai-dry-season-hills",
+      "scenes": [
+        10
+      ],
+      "canh": "the same green hills in the dry season under a clear blue sky, yellowing grass, a winding road",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Mở chương mùa khô, tổng 4"
+    },
+    {
+      "id": "ai-dry-stream",
+      "scenes": [
+        10
+      ],
+      "canh": "a dry rocky stream bed with smooth grey boulders and a thin trickle of water, bright sun",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 0,
+        "tieu_diem": 2
+      },
+      "hang": "phu",
+      "ly_do": "Phông ngắn, tổng 3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "It got soaked in a village that, by some accounts, is the rainiest place on Earth.",
+      "statement": "By some measures, Mawsynram in Meghalaya, India, is the rainiest place on Earth.",
+      "source_ids": [
+        "S3",
+        "S13"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "The World Meteorological Organization lists it as the record for the greatest average yearly rainfall in Asia, though the title is disputed.",
+      "statement": "The WMO lists Mawsynram as the record for greatest average annual rainfall in Asia; nearby Cherrapunji and places in Colombia such as Lloró and López de Micay also claim wettest-place records.",
+      "source_ids": [
+        "S3",
+        "S13"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "And yet Khasi families have lived in these hills for generations, and many say they would not live anywhere else.",
+      "statement": "Mawsynram is home to Khasi families who have lived in the Khasi Hills for generations, and residents interviewed by AFP said they would not leave.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "The World Meteorological Organization records an average of about eleven thousand eight hundred and seventy-two millimetres of rain a year here. That's about four hundred and sixty-seven inches.",
+      "statement": "The WMO records Mawsynram's greatest average annual rainfall as 11,872 mm (467.4 inches), over the period 1941–1979.",
+      "source_ids": [
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Nearby Cherrapunji and a couple of towns in Colombia have their own claims to the title.",
+      "statement": "Nearby Cherrapunji in Meghalaya and places in Colombia such as Lloró and López de Micay also claim the title of rainiest place on Earth, depending on the measure and period.",
+      "source_ids": [
+        "S3",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "By the end of the year, the water in it would stand taller than a three-storey house, roughly thirty-nine feet.",
+      "statement": "Mawsynram's average annual rainfall of about 11.87 m (about 39 feet) is taller than a typical three-storey building.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 3,
+      "quote": "In nineteen eighty-five, according to NASA, more than twenty-five metres fell in a single year. That's over a thousand inches.",
+      "statement": "According to NASA, more than 25.4 m (1,000 inches) of rain fell at Mawsynram in 1985.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "The coast is a long way south.",
+      "statement": "Mawsynram lies inland in the Khasi Hills, well north of the Bay of Bengal coast.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 4,
+      "quote": "In the monsoon season, warm wet air comes off the Bay of Bengal and rolls north across the flat plains of Bangladesh. Nothing stops it. Then it hits these hills, which rise steeply to around fourteen hundred metres. The air is shoved upward, it cools, and the water in it falls out as rain.",
+      "statement": "Monsoon winds carry moisture from the Bay of Bengal over the plains of Bangladesh to the Khasi Hills, where Mawsynram lies at about 1,400 m; the air is forced upward and the moisture falls as orographic rain.",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 4,
+      "quote": "A scientist from the India Meteorological Department told AFP that moisture gathering over the Bay of Bengal is what gives Mawsynram its heavy, long monsoon.",
+      "statement": "An India Meteorological Department scientist told AFP that moisture gathering over the Bay of Bengal produces Mawsynram's heavy, long monsoon.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 5,
+      "quote": "It is woven from bamboo with layers of dried palm leaf, or these days sometimes plastic sheet, and it covers you from the head down to the knees. Because you do not hold it, you can work on steep terraced slopes with both hands. India's Ministry of Culture calls it a cultural symbol of Meghalaya.",
+      "statement": "The knup, a Khasi rain shield woven from bamboo with layers of palm leaf (sometimes plastic), protects the wearer from head to knees and leaves both hands free for work on steep terraced slopes; India's Ministry of Culture describes it as a cultural symbol of Meghalaya.",
+      "source_ids": [
+        "S7",
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "According to AFP, women here weave knups through the rainy season, from bamboo slivers, plastic sheets and broom grass, and each one takes at least an hour.",
+      "statement": "According to AFP, women in Mawsynram weave knups during the rainy season from bamboo slivers, plastic sheets and broom grass, each taking at least an hour.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "Bamboo and broom grass are the main crops on these rocky hills. The broom grass is soaked, flattened and dried on rooftops, then made into brooms and baskets that traders carry across the state.",
+      "statement": "Bamboo and broom grass are the main plants grown around Mawsynram; broom grass is soaked, flattened and dried on rooftops, and baskets and brooms are sold by traders across Meghalaya.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 7,
+      "quote": "Villagers guide roots like that across the water, tied along bamboo, until they reach the far bank and take hold.",
+      "statement": "Living root bridges are made by guiding the aerial roots of rubber fig trees (Ficus elastica) across streams along bamboo until they take hold on the other bank.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "According to the United Nations Development Programme, growing one can take twenty to twenty-five years.",
+      "statement": "According to UNDP, growing a living root bridge can take 20 to 25 years.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "These living root bridges are found in seventy-two villages across the Khasi and Jaintia Hills. Those villages were put on UNESCO's tentative World Heritage list in twenty twenty-two. In January twenty twenty-six, India formally submitted them for World Heritage status.",
+      "statement": "Living root bridges in 72 villages of Meghalaya's Khasi and Jaintia Hills were placed on UNESCO's tentative World Heritage list in 2022, and India submitted their nomination dossier in January 2026.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 7,
+      "quote": "Wood rots fast in this much rain. A bridge that is alive keeps growing stronger.",
+      "statement": "Living root bridges continue to grow and strengthen over time, unlike timber, which decays quickly in Meghalaya's wet climate.",
+      "source_ids": [
+        "S12",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 8,
+      "quote": "AFP reported that villagers thatch their roofs with grass to muffle the rain, though a heavy downpour can knock the grass loose. The village headman told AFP that during the monsoon, people have to talk a little louder to be heard.",
+      "statement": "AFP reported that Mawsynram villagers thatch roofs with grass to muffle the rain, and the village headman said people have to talk louder to be heard during the monsoon.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 8,
+      "quote": "Clouds here sometimes drift right into homes and leave a wet film on the furniture.",
+      "statement": "In Mawsynram, clouds sometimes drift into homes and leave a wet film on furniture.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 9,
+      "quote": "AFP reported that most homes now have electricity, but outages are common, and during the monsoon it gets very dark inside. Landslides regularly block the only paved road linking the hamlets.",
+      "statement": "Most homes in Mawsynram now have electricity but outages are common, and landslides regularly block the only paved road linking its hamlets.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 9,
+      "quote": "every winter, people here repair their roofs and stack firewood for cooking and light. They store up food, because in the wettest months few people go out to shop",
+      "statement": "Each winter Mawsynram residents repair roofs, stockpile firewood for cooking and light, and store food, because few go out to shop in the wettest months.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 9,
+      "quote": "When the rains finally end, there is no festival. People just bring their clothes outside to dry.",
+      "statement": "When the monsoon ends in Mawsynram there is no festival; villagers simply begin drying their clothes outside.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 10,
+      "quote": "In these hills, the rain falls mostly in the monsoon months, and on steep, rocky slopes it runs off fast, down into the rivers and the plains. So in the dry months, water can run short.",
+      "statement": "In Meghalaya's wettest hills most rain falls in the monsoon months and runs off steep, rocky terrain quickly, so seasonal water shortages occur in the dry months.",
+      "source_ids": [
+        "S5",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 10,
+      "quote": "In nearby Cherrapunji, the India Water Portal reports, people buy water from tanker trucks, and streams that once ran all year now fall silent by winter. A recent study warns the risk of drought is growing, as rain comes in fewer, more intense bursts.",
+      "statement": "India Water Portal reports that residents of Cherrapunji (Sohra) buy water from tankers and streams that once flowed year-round dry up by winter; a recent study finds growing drought risk as rainfall becomes more intense with fewer rainy days.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 11,
+      "quote": "Houses with steep roofs and deep eaves that throw water clear of the walls.",
+      "statement": "Traditional Khasi houses have steeply pitched roofs with deep overhangs that throw rainwater clear of the walls.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 11,
+      "quote": "The village headman told AFP he will never leave: he was born here, and he will die here.",
+      "statement": "Mawsynram's village headman told AFP he would never leave because he was born there and would die there.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "A life spent in the wettest place on earth (AFP)",
+      "publisher": "Fox News",
+      "type": "bao",
+      "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+      "published": "2013-07-30",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+      "publisher": "World Meteorological Organization",
+      "type": "goc",
+      "url": "https://wmo.int/asu-map?map=Rain_041",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "PIA20437: Mawsynram, India",
+      "publisher": "NASA JPL",
+      "type": "goc",
+      "url": "https://www.jpl.nasa.gov/images/pia20437-mawsynram-india/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Why the wettest hills of India are running dry",
+      "publisher": "India Water Portal",
+      "type": "bao",
+      "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Meghalaya's wettest towns face growing drought risk",
+      "publisher": "The Pioneer",
+      "type": "bao",
+      "url": "https://dailypioneer.com/news/meghalaya-mawsynram-cherrapunji-drought-risk-climate-change",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Exhibit of the week 167: Knup, bamboo rain shield",
+      "publisher": "Bộ Văn hoá Ấn Độ",
+      "type": "goc",
+      "url": "https://www.indiaculture.gov.in/exhibit-week-167-10th-16th-august-2023",
+      "published": "2023-08-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "Conserving the living root bridges of Meghalaya",
+      "publisher": "UNDP",
+      "type": "goc",
+      "url": "https://www.undp.org/node/479546",
+      "published": "2024-05-22",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Meghalaya's Living Root Bridges Are Headed for Global Recognition",
+      "publisher": "The Diplomat",
+      "type": "bao",
+      "url": "https://thediplomat.com/2022/04/meghalayas-living-root-bridges-are-headed-for-global-recognition",
+      "published": "2022-04-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "India submits Meghalaya's living root bridges to UNESCO",
+      "publisher": "All India Radio (News on AIR)",
+      "type": "goc",
+      "url": "https://www.newsonair.gov.in/india-submits-meghalayas-living-root-bridges-to-unesco-for-world-heritage-status",
+      "published": "2026-01-29",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "India: 'World's wettest place' suffers water shortage",
+      "publisher": "Al Jazeera",
+      "type": "bao",
+      "url": "https://www.aljazeera.com/indepth/features/2016/01/india-worlds-wettest-place-suffers-water-shortage-160103073018896.html",
+      "published": "2016-01-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Living root bridges and Khasi houses",
+      "publisher": "Studio Matrx",
+      "type": "khac",
+      "url": "https://www.studiomatrx.org/magazine/living-root-bridges-meghalaya",
+      "published": "2026-08-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "Mawsynram",
+      "publisher": "Wikipedia (chỉ để tìm nguồn; tranh cãi kỷ lục với Colombia)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Mawsynram",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

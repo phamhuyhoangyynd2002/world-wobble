@@ -15,7 +15,8 @@ argument-hint: "<thư mục dự án> [góp ý sửa]"
 | Hook (cảnh 1, chương đầu) | ≤ 15 giây | Wob ở bàn cầm một kỷ vật lạ của nơi này + một con số + câu hỏi trung tâm (định dạng cũ: Wob quyết định chuyển tới đó sống) |
 | Lời hứa | 15–40 giây | Người xem sẽ biết điều gì khi xem hết; mở vòng "Would Wob move here?" |
 | 4–6 chương | 1,5–3 phút mỗi chương | Mỗi chương một lý do sống ở đây hoặc một cái giá phải trả. Mở bằng câu hỏi nhỏ, đóng bằng phát hiện. Wob đổi ý ít nhất 2 lần trong cả tập |
-| Outro | 30–60 giây | Phán quyết (con dấu) + 1–2 câu lý do + ai sẽ thích sống ở đây + câu hỏi kéo bình luận. 20 giây cuối không đặt chữ ở góc phải dưới |
+| Outro | 30–60 giây | Phán quyết (con dấu) + 1–2 câu lý do + ai sẽ thích sống ở đây + câu hỏi kéo bình luận. |
+| Đuôi tập (`duoi`) | 15–20 giây | Bắt buộc từ tập 3, ngay sau outro: cất kỷ vật lên kệ → nhìn lại tập trước → nhá tập sau; 25–50 từ, không con số; trường `duoi`. Xem skill [mo-ket](../mo-ket/SKILL.md) |
 
 Đây là mặc định ban đầu; đề tài cần thì làm khác và ghi lý do vào `nhat-ky.md`.
 

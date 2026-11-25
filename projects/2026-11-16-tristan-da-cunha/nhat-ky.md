@@ -1,3 +1,8 @@
 # Nhật ký – Tristan da Cunha
 
 - 16/11/2026 · Bước 0: tạo dự án và brief.md (cổng 0) theo kế hoạch đợt ra mắt `docs/ke-hoach-dot-ra-mat-5-tap-2026-11-16.md`. Đề tài do Claude chọn qua /goi-y-chu-de (đo nhu cầu YouTube 16/11). Chưa nghiên cứu, chưa kiểm chứng.
+- 22/11/2026 · Người làm kênh yêu cầu (phiên Claude trên web) lên kế hoạch và viết kịch bản chi tiết cho tập 3–10, ảnh tạo sau; bỏ điểm dừng tom-tat-duyet.md. Kế hoạch tổng: docs/ke-hoach-tap-3-10-2026-11-22.md.
+- 22/11/2026 · Bước 1a: research.md (21 nguồn; nguồn gốc: Hansard 1961, Royal Society, MSC, Thư viện Quốc hội Mỹ, GOV.UK; báo: TIME 1963, History Today, NatGeo, BBC). Chưa mở được trang chính quyền tristandc.com.
+- 22/11/2026 · Bước 1: script.json (kỷ vật con tem; mở bằng kết cục trước): 15 cảnh, 6 chương thân (trang-so-hanh-trinh, doan-sai-roi-lat, mot-ngay-o-day, lich-su-nghiem, so-sanh-doi-thuong, phong-quy-mo), ~10 phút, 32 khẳng định (1 hedged: "by some accounts the most remote"). Wob đổi ý 2 lần; phán quyết WOULD MOVE có điều kiện (đảo phải chịu nhận). anh_ai: 5 chính, 2 phụ. validate: 0 lỗi, 0 cảnh báo.
+- 22/11/2026 · Tự phản biện: không vẽ mặt Napoleon (chỉ chiếc mũ phác); bỏ chi tiết "lều nghỉ cuối tuần ở Patches" (nguồn yếu); chương 1961 không gag; dùng lời nhà nhân học Munch thay vì tự suy diễn lý do quay về; bến Calshot làm callback có nguồn.
+- 22/11/2026 · Sửa cảnh mở (theo yêu cầu đánh giá kỹ cảnh đầu; bản cũ: script.v1.json): hook kể kết cục trước (1961 sơ tán sang Anh, bỏ phiếu quay về) rồi mới tới con tem, đúng hook_type ket-cuc-truoc. Bỏ gag đóng vali ở lời hứa (tập 4 liền trước cũng dùng gag hành lý). Lời hứa 92 → 61 từ, kết bằng câu hỏi riêng của Wob "And could I?". validate: 0 lỗi.

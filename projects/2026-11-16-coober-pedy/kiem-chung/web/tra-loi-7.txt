@@ -1,0 +1,192 @@
+[
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": null,
+"note": "South Australian heritage documentation identifies 1915 as the believed construction date of the earliest dugout, while the Coober Pedy Historical Society records the first dugout being made in 1915, supporting construction during the earliest mining period.",
+"sources": [
+{
+"title": "Heritage Assessment Report – Dugouts",
+"publisher": "Government of South Australia, Department for Environment and Water",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Timeline",
+"publisher": "Coober Pedy Historical Society",
+"url": "https://www.cooberpedyhistoricalsociety.org.au/timeline/",
+"type": "khac",
+"published": "2020-11-13"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Serbian Orthodox Church was built underground in 1993, although its final consecration took place in 1995.",
+"sources": [
+{
+"title": "Tradition and Interpretation: The Underground Splendour of the Serbian Orthodox Church Sveti Prorok Ilija in Coober Pedy, Australia",
+"publisher": "University of New South Wales / Matica Srpska",
+"url": "https://www.maticasrpska.org.rs/stariSajt/casopisi/ZMSZS_87.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "St Elijah the Prophet Serbian Orthodox Church",
+"publisher": "Churches Australia",
+"url": "https://www.churchesaustralia.org/list-of-churches/denominations/orthodox-all/directory/11088-st-elijah-the-prophet-serbian-orthodox-church",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C21",
+"verdict": "dung",
+"correct_value": null,
+"note": "The District Council confirms that the name was officially adopted in 1920 and that the first council election was held in January 1987.",
+"sources": [
+{
+"title": "History – Opal Capital of the World",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "Annual Business Plan 2008–2009",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0021/149034/Annual_Business_Statement_Public_Consultation.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": null,
+"note": "ABC News quoted the Coober Pedy mayor confirming that access points to the opal fields were well signposted and that warnings were posted at each access point.",
+"sources": [
+{
+"title": "Coober Pedy mine security is adequate: Mayor",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2006-08-15/coober-pedy-mine-security-is-adequate-mayor/1239194",
+"type": "bao",
+"published": "2006-08-15"
+}
+]
+},
+{
+"id": "C36",
+"verdict": "dung",
+"correct_value": null,
+"note": "SafeWork SA published the incident alert on 7 February 2024 and explicitly warned that fossicking or noodling at night increases the risk of falling into a mine shaft.",
+"sources": [
+{
+"title": "Mind your step in opal fields",
+"publisher": "SafeWork SA, Government of South Australia",
+"url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+"type": "goc",
+"published": "2024-02-07"
+}
+]
+},
+{
+"id": "C40",
+"verdict": "dung",
+"correct_value": null,
+"note": "The 11 May 2011 consent determination recognised non-exclusive native title over approximately 78,672 square kilometres, with extinguished areas and specified parcels excluded; contemporary native-title reporting confirms the special Federal Court sitting in Coober Pedy.",
+"sources": [
+{
+"title": "Lennon v South Australia [2011] FCA 474",
+"publisher": "Federal Court of Australia / National Native Title Tribunal",
+"url": "https://www.nntt.gov.au/News-and-Publications/hotspots/Documents/Hot%20Spots%2034/Lennon%20v%20South%20Australia%20%5B2011%5D%20FCA%20474.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Native Title in the News – May 2011",
+"publisher": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+"url": "https://aiatsis.gov.au/sites/default/files/research_pub/ntnmay11_2.pdf",
+"type": "goc",
+"published": "2011-05-12"
+},
+{
+"title": "Antakirinja Matu-Yankunytjatjara Aboriginal Corporation RNTBC",
+"publisher": "SA Native Title",
+"url": "https://www.nativetitlesa.org/pbcs/antakirinja-matu-yankunytjatjara-aboriginal-corporation-rntbc/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C41",
+"verdict": "mau-thuan",
+"correct_value": "The commonly repeated translation is white man's hole or whitefella's hole in the ground, but alternative interpretations include boy's waterhole; a 2010 linguistic study proposes a Parnkalla-origin kupa and Kukata-origin piti meaning quarry.",
+"note": "The 2010 peer-reviewed etymological study documents competing interpretations and argues that the popular translation is post-contact, rather than an established traditional meaning; the exact linguistic origin remains debated.",
+"sources": [
+{
+"title": "The etymology of Coober Pedy, South Australia",
+"publisher": "Aboriginal History, Australian National University Press",
+"url": "https://press-files.anu.edu.au/downloads/press/p170581/html/ch09.xhtml?page=10&referer=",
+"type": "goc",
+"published": null
+},
+{
+"title": "The etymology of Coober Pedy, South Australia",
+"publisher": "Adelaide Research & Scholarship, University of Adelaide",
+"url": "https://digital.library.adelaide.edu.au/items/755f4064-99f5-4807-90e3-9e58d0f978b1",
+"type": "goc",
+"published": "2010-01-01"
+},
+{
+"title": "History – Opal Capital of the World",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C44",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 22–23°C according to the South Australian heritage assessment; approximately 19–25°C according to ABC News; approximately 20–24°C according to South Australian tourism accommodation information.",
+"note": "Reliable sources support consistently cool underground temperatures in the low twenties, but report different ranges; the claimed NASA Earth Observatory attribution of 23°C could not be independently verified.",
+"sources": [
+{
+"title": "Heritage Assessment Report – Dugouts",
+"publisher": "Government of South Australia, Department for Environment and Water",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Going underground — lessons for suburbia from subterranean Coober Pedy",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2020-11-15/underground-housing-a-goldmine-of-sustainable-living-coober-pedy/12880618",
+"type": "bao",
+"published": "2020-11-15"
+},
+{
+"title": "Di's Place",
+"publisher": "South Australian Tourism Commission",
+"url": "https://southaustralia.com/products/flinders-ranges-and-outback/accommodation/dis-dugouts/dis-place",
+"type": "goc",
+"published": null
+},
+{
+"title": "Living underground & why it makes a lot of sense",
+"publisher": "realestate.com.au",
+"url": "https://www.realestate.com.au/lifestyle/living-underground/",
+"type": "bao",
+"published": "2014-08-12"
+}
+]
+}
+]

@@ -239,6 +239,11 @@ async def main_async() -> int:
         words, timing = align(groups, boundaries, duration)
         by_id[sc["id"]] = {"id": sc["id"], "audio": f"audio/{dest.name}", "text": sc["narration"],
                            "duration": duration, "timing": timing, "words": words}
+        # Ghi ngay sau mỗi cảnh: Edge hay lỗi giữa chừng, không để mất mốc của các cảnh đã tạo
+        valid_now = {s["id"] for s in script["scenes"]}
+        subs_path.write_text(json.dumps({"provider": provider, "voice": voice, "rate": rate, "pitch": pitch,
+                                         "scenes": [by_id[i] for i in sorted(by_id) if i in valid_now]},
+                                        ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"- cảnh {sc['id']}: {duration or '?'}s, {len(words)} từ, timing={timing}")
         if timing != "tts":
             print(f"  CẢNH BÁO: cảnh {sc['id']} không khớp mốc từng từ ({timing}), nên kiểm tra phụ đề")

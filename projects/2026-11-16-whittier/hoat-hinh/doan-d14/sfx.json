@@ -1,0 +1,22 @@
+[
+ {
+  "ten": "hoi-nuoc",
+  "tai": 1.3,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "hoi-nuoc",
+  "tai": 7,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "xuoc-dia",
+  "tai": 8.5,
+  "am_luong": 0.15
+ },
+ {
+  "ten": "xuoc-dia",
+  "tai": 10.075,
+  "am_luong": 0.15
+ }
+]

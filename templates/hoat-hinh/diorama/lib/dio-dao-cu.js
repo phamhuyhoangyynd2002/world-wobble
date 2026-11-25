@@ -345,7 +345,7 @@
     };
     // Dấu phán quyết đỏ in trên trang (chuỗi svg, tâm cx, cy). chu PHẢI có trong chu_tren_do_vat. cls để bật/tắt
     api.dauPhanQuyetSVG = function (chu, cx, cy, co, goc, cls) {
-      co = co || 80; var w = co * 3.5, h = co * 1.5, r = api.rng(77), MUC = "#a8322a"; // mực đỏ sẫm: tương phản ≥ 3:1 trên giấy dưới đèn
+      co = co || 80; var w = Math.max(co * 3.5, co * 0.72 * String(chu).length + co * 0.9), h = co * 1.5, r = api.rng(77), MUC = "#a8322a"; // mực đỏ sẫm: tương phản ≥ 3:1 trên giấy dưới đèn
       var s = '<g class="' + (cls || "dau-an") + '" transform="translate(' + cx + " " + cy + ") rotate(" + (goc == null ? -7 : goc) + ')">';
       s += '<rect x="' + -w / 2 + '" y="' + -h / 2 + '" width="' + w + '" height="' + h + '" rx="12" fill="none" stroke="' + MUC + '" stroke-width="9"/>';
       s += '<rect x="' + (-w / 2 + 14) + '" y="' + (-h / 2 + 14) + '" width="' + (w - 28) + '" height="' + (h - 28) + '" rx="6" fill="none" stroke="' + MUC + '" stroke-width="3.5"/>';
@@ -556,6 +556,428 @@
       s += sk("M 70 60 l 6 10 M 96 46 l 4 12 M 126 46 l -2 12 M 150 60 l -6 10 M 84 84 l 4 10 M 136 84 l -4 10", 3, "#7a5238");
       s += fp(api.lumpy(30, 190, 118, -14, 9, 21) + " L 190 134 " + api.lumpy(190, 30, 134, 12, 9, 22).replace(/^M [\d.\-]+ [\d.\-]+/, "") + " Z", "#efe3c8", 4);
       s += fp(api.lumpy(28, 72, 172, 10, 3, 23) + " L 72 186 L 28 186 Z", "#efe3c8", 3) + fp(api.lumpy(148, 192, 172, 10, 3, 24) + " L 192 186 L 148 186 Z", "#efe3c8", 3);
+      return s;
+    };
+  });
+})();
+
+/* ---- Đạo cụ sa mạc / Coober Pedy (23/11/2026, tập 2; chỉ thêm). Mọi hàm trả chuỗi svg, tham số qua o; chữ chỉ qua api.txt ----
+ * loOpalSVG({san})            lọ thuỷ tinh nắp bần, tâm (0,0), khung ~110×150; .lo-san = hạt sạn trong đáy lọ
+ * hatSanSVG(loe)              hạt sạn tâm (0,0) r≈10; loe = vài vệt opal + .san-loe (ngôi sao lấp lánh, mặc định ẩn)
+ * bongGolfSVG()               bóng golf tâm (0,0) r 24, .golf-sang = quầng xanh lơ
+ * nguoiGiaySVG(x, y, s, mau)  người giấy dạng chung (đầu tròn KHÔNG mặt), chân tại (x, y), cao ≈ 46·s
+ * buuThiepMatCatSVG(o)        bưu thiếp mặt cắt ngọn đồi 380×260 (gốc trên trái): phòng đào trong đồi có đèn ấm,
+ *                             người giấy o.trong [[x,y]] trong phòng, o.tren [[x,y]] trên mặt đồi; .bt-cho = ô trống để nhét hình
+ * khungCuaSoSVG()             khung cửa sổ giấy cầm tay, tâm (0,0), 150×130, ô kính trong suốt (nhìn xuyên qua)
+ * cuonCoSVG()                 cuộn cỏ nhân tạo tâm (0,0) ~130×50;  baiCoSVG(w) bãi cỏ giấy bé w×46 (gốc trên trái, đáy y 46)
+ * muRongVanhSVG()             mũ rộng vành giấy kraft tâm (0,0) ~210×90
+ * coNhoSVG()                  cờ nhỏ không chữ, gốc cán tại (0,0), cán hướng −y dài 90
+ * baLoMoSVG()                 ba lô xanh ô liu mở toang 240×280 (gốc trên trái, đáy y 280): .bl-than (phồng: scale quanh đáy),
+ *                             .bl-nap (nắp, xoay quanh (120, 92)), miệng ở y ≈ 100
+ * bienGoSVG(dong, o)          biển gỗ sa mạc không tuyết, w×h (mặc định 420×380), dong [{chu, co, dam, mau}]
+ * doiMesaSVG(w, h, o)         đồi đỉnh bằng kiểu Breakaways, dải đá trắng/vàng đất/đỏ; o.seed, o.mau [đỉnh, giữa, chân], o.dinh (tỉ lệ đỉnh bằng), o.net
+ * saMacSVG(w, h)              lớp đồi cát + mặt trời thấp (pop-up sa mạc), gốc trên trái
+ * nhietKeBanSVG(dong)         nhiệt kế nhỏ để bàn 150×300 (gốc trên trái, đáy y 300), .merc (svgOrigin "75 236"), dong = [chu] dưới chân
+ */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+  DIO.mo.push(function (api) {
+    var C = api.C, sk = api.sk, fp = api.fp, INK = C.INK;
+    var OPAL = ["#7fd6e0", "#b58ce0", "#8fe3a8", "#f2a6c9", "#ffe28a"];
+    api.loOpalSVG = function (o) {
+      o = o || {};
+      var s = fp("M -46 -50 C -50 -38 -52 -30 -52 -20 L -52 60 C -52 74 -40 78 -28 78 L 28 78 C 40 78 52 74 52 60 L 52 -20 C 52 -30 50 -38 46 -50 Z", "rgba(214,236,240,.55)", 6);
+      s += '<g class="lo-san"' + (o.san === false ? ' opacity="0"' : "") + ">" + fp("M 4 74 C 2 64 12 60 18 64 C 24 66 24 74 20 76 Z", "#9a8a78", 3) + "</g>";
+      s += sk("M -36 -24 C -40 4 -40 34 -36 60", 6, "#ffffff", ' opacity=".7"') + sk("M 38 -10 L 38 20", 4, "#ffffff", ' opacity=".45"');
+      s += fp("M -40 -74 L 40 -74 L 44 -50 L -44 -50 Z", "#c99a62", 5) + sk("M -30 -66 l 8 0 M 4 -62 l 10 0 M -10 -58 l 6 0", 3, "#8a5a3b");
+      return s;
+    };
+    api.hatSanSVG = function (loe) {
+      var s = fp("M -10 4 C -12 -6 -2 -11 6 -8 C 13 -5 12 6 6 9 C 0 12 -9 10 -10 4 Z", "#9a8a78", 3);
+      if (loe) {
+        s += '<path d="M -4 -3 l 5 -2 l 2 4 z" fill="' + OPAL[0] + '"/><path d="M 2 3 l 5 0 l -2 4 z" fill="' + OPAL[1] + '"/><path d="M -6 3 l 3 1 l -2 3 z" fill="' + OPAL[2] + '"/>';
+        s += '<g class="san-loe" opacity="0">' + fp("M 14 -26 L 17 -16 L 27 -13 L 17 -10 L 14 0 L 11 -10 L 1 -13 L 11 -16 Z", "#fff6c8", 3) + "</g>";
+      }
+      return s;
+    };
+    api.bongGolfSVG = function () {
+      var id = api.nid("golf");
+      var s = '<defs><radialGradient id="' + id + '"><stop offset="0" stop-color="#bff6ff" stop-opacity=".95"/><stop offset=".45" stop-color="#6fe3f5" stop-opacity=".5"/><stop offset="1" stop-color="#6fe3f5" stop-opacity="0"/></radialGradient></defs>';
+      s += '<circle class="golf-sang" cx="0" cy="0" r="70" fill="url(#' + id + ')"/>';
+      s += '<circle cx="0" cy="0" r="24" fill="#eafcff" stroke="' + INK + '" stroke-width="5"/>';
+      [[-9, -8], [3, -11], [11, -2], [-12, 4], [0, 1], [8, 9], [-4, 12], [-1, -4]].forEach(function (p) { s += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="2.6" fill="#9fd9e3"/>'; });
+      return s + sk("M -14 -12 Q -8 -18 0 -18", 3, "#fff", ' opacity=".9"');
+    };
+    api.nguoiGiaySVG = function (x, y, s, mau) {
+      s = s || 1; mau = mau || C.TERRA;
+      var f = function (v) { return (v * s).toFixed(1); };
+      return '<g transform="translate(' + x + " " + y + ')">' + fp("M " + f(-9) + " 0 L " + f(-7) + " " + f(-26) + " L " + f(7) + " " + f(-26) + " L " + f(9) + " 0 Z", mau, 3) +
+        '<circle cx="0" cy="' + f(-34) + '" r="' + f(8) + '" fill="#e9c79a" stroke="' + INK + '" stroke-width="3"/></g>';
+    };
+    api.buuThiepMatCatSVG = function (o) {
+      o = o || {};
+      var W = 380, H = 260, s = fp("M 4 4 L " + (W - 4) + " 4 L " + (W - 4) + " " + (H - 4) + " L 4 " + (H - 4) + " Z", C.PAPER, 6);
+      s += '<rect x="18" y="18" width="' + (W - 36) + '" height="90" fill="#cfe7ef"/>';
+      s += '<circle cx="320" cy="44" r="16" fill="#ffd36a" stroke="' + INK + '" stroke-width="3"/>';
+      s += fp("M 18 " + (H - 18) + " L 18 120 C 70 80 120 66 190 64 C 260 66 310 84 " + (W - 18) + " 118 L " + (W - 18) + " " + (H - 18) + " Z", "#d98f4e", 5);
+      s += sk("M 18 160 C 120 150 260 156 " + (W - 18) + " 166", 3, "#b5652e", ' opacity=".6"');
+      [[60, 150, 90, 66], [170, 172, 110, 64], [290, 146, 66, 60]].forEach(function (r) {
+        s += fp("M " + r[0] + " " + (r[1] + r[3]) + " L " + r[0] + " " + (r[1] + 14) + " C " + r[0] + " " + r[1] + " " + (r[0] + r[2]) + " " + r[1] + " " + (r[0] + r[2]) + " " + (r[1] + 14) + " L " + (r[0] + r[2]) + " " + (r[1] + r[3]) + " Z", "#ffe0a3", 4);
+      });
+      s += sk("M 310 120 l 0 -26 l 14 0 l 0 24", 4); // ống thông gió nhô khỏi đồi
+      (o.trong || [[85, 214], [122, 214], [196, 234], [312, 204]]).forEach(function (p, i) { s += api.nguoiGiaySVG(p[0], p[1], 1, [C.TEAL, C.TERRA, "#7d6a4b", C.SEA][i % 4]); });
+      (o.tren || [[64, 104], [150, 74], [246, 72], [336, 116]]).forEach(function (p, i) { s += api.nguoiGiaySVG(p[0], p[1], 1, [C.SEA, "#7d6a4b", C.TEAL, C.TERRA][i % 4]); });
+      s += '<rect class="bt-cho" x="236" y="190" width="34" height="44" rx="4" fill="none" stroke="' + INK + '" stroke-width="2.5" stroke-dasharray="5 5" opacity=".6"/>';
+      return s;
+    };
+    api.khungCuaSoSVG = function () {
+      return '<path d="M -75 -65 L 75 -65 L 75 65 L -75 65 Z M -62 -52 L -62 52 L 62 52 L 62 -52 Z" fill="#f2efe6" fill-rule="evenodd" stroke="' + INK + '" stroke-width="6" stroke-linejoin="round"/>' +
+        fp("M -4 -52 L 4 -52 L 4 52 L -4 52 Z M -62 -4 L 62 -4 L 62 4 L -62 4 Z", "#f2efe6", 3) +
+        sk("M -50 -40 L -30 -20 M -44 -46 L -36 -38", 4, "#9fd0e0", ' opacity=".8"') + fp("M -82 65 L 82 65 L 78 76 L -78 76 Z", "#c99a62", 4);
+    };
+    api.cuonCoSVG = function () {
+      var s = fp("M -50 -24 L 46 -24 L 46 24 L -50 24 Z", "#5ea34f", 5);
+      s += '<ellipse cx="46" cy="0" rx="14" ry="24" fill="#4a8a3e" stroke="' + INK + '" stroke-width="5"/>' + sk("M 46 -14 C 54 -10 54 8 46 12 C 40 8 42 -6 48 -6", 3, "#2f5e27");
+      for (var x = -44; x < 40; x += 9) s += sk("M " + x + " -24 l 3 -8", 3, "#2f5e27");
+      return s;
+    };
+    api.baiCoSVG = function (w) {
+      w = w || 220;
+      var s = fp("M 4 46 L 4 30 L " + (w - 4) + " 30 L " + (w - 4) + " 46 Z", "#5ea34f", 4), r = api.rng(41);
+      for (var x = 10; x < w - 8; x += 7) { var hh = 8 + r() * 14; s += sk("M " + x + " 32 l " + (r() * 6 - 3).toFixed(1) + " " + (-hh).toFixed(1), 3, x % 3 ? "#3d7a33" : "#79c062"); }
+      return s;
+    };
+    api.muRongVanhSVG = function () {
+      return fp("M -105 18 C -100 2 -60 -4 0 -4 C 60 -4 100 2 105 18 C 90 32 -90 32 -105 18 Z", "#c99a62", 5) +
+        fp("M -48 6 C -50 -40 -30 -54 0 -54 C 30 -54 50 -40 48 6 C 30 12 -30 12 -48 6 Z", "#d7ab72", 5) +
+        fp("M -48 -6 C -30 0 30 0 48 -6 L 48 6 C 30 12 -30 12 -48 6 Z", "#6b4a33", 4) + sk("M -70 16 C -40 22 40 22 70 16", 3, "#8a5a3b", ' opacity=".6"');
+    };
+    api.coNhoSVG = function () {
+      return sk("M 0 0 L 0 -90", 5, "#8a5a3b") + fp("M 2 -88 L 56 -74 L 2 -58 Z", C.TERRA, 4) + '<circle cx="0" cy="-92" r="5" fill="#e7b34b" stroke="' + INK + '" stroke-width="3"/>';
+    };
+    api.baLoMoSVG = function () {
+      var OL = "#6f7a3c", OL2 = "#535c2b";
+      var s = '<g class="bl-than">' + fp("M 30 120 C 26 100 40 92 60 92 L 180 92 C 200 92 214 100 210 120 L 220 254 C 222 270 210 280 194 280 L 46 280 C 30 280 18 270 20 254 Z", OL, 6) +
+        '<ellipse cx="120" cy="100" rx="88" ry="18" fill="#2c2f18" stroke="' + INK + '" stroke-width="5"/>' +
+        fp("M 70 180 L 170 180 L 166 250 L 74 250 Z", OL2, 5) + sk("M 80 200 L 160 200", 3, INK, ' opacity=".5"') + "</g>";
+      s += '<g class="bl-nap">' + fp("M 36 96 C 40 40 200 40 204 96 C 160 84 80 84 36 96 Z", OL2, 6) + fp("M 108 60 L 132 60 L 132 80 L 108 80 Z", "#c99a62", 3) + "</g>";
+      return s;
+    };
+    api.bienGoSVG = function (dong, o) {
+      o = o || {};
+      var w = o.w || 420, h = o.h || 380, bh = Math.round(h * 0.56), s = "";
+      s += fp("M " + w * 0.16 + " " + h + " L " + w * 0.17 + " " + (bh - 10) + " L " + w * 0.22 + " " + (bh - 10) + " L " + w * 0.21 + " " + h + " Z", "#8a5a3b", 5);
+      s += fp("M " + w * 0.84 + " " + h + " L " + w * 0.83 + " " + (bh - 10) + " L " + w * 0.78 + " " + (bh - 10) + " L " + w * 0.79 + " " + h + " Z", "#8a5a3b", 5);
+      s += fp("M 10 14 L " + (w - 10) + " 8 L " + (w - 6) + " " + bh + " L 6 " + (bh + 4) + " Z", C.PAPER, 7);
+      var n = dong.length;
+      dong.forEach(function (d, i) {
+        var co = d.co || (i === 0 ? 62 : 50);
+        var yb = 14 + ((bh - 14) * (i + 0.5)) / n + co * 0.34;
+        s += api.txt(w / 2, yb.toFixed(0), co, d.dam || (i === 0 ? 800 : 700), d.chu, d.mau || (i === 0 ? INK : C.TEAL));
+      });
+      s += fp("M 0 " + h + " C " + w * 0.2 + " " + (h - 26) + " " + w * 0.8 + " " + (h - 26) + " " + w + " " + h + " Z", "#e0a060", 4);
+      return s;
+    };
+    api.doiMesaSVG = function (w, h, o) {
+      o = o || {}; var r = api.rng(o.seed || 5), m = o.mau || ["#f3ead8", "#e3b36a", "#c4643a"], dinh = o.dinh == null ? 0.4 : o.dinh;
+      var x1 = w * (0.5 - dinh / 2 - 0.04 * r()), x2 = w * (0.5 + dinh / 2 + 0.04 * r()), top = h * (0.08 + 0.08 * r());
+      var f = function (v) { return v.toFixed(1); };
+      var out = "M 0 " + h + " L 0 " + f(h * 0.86) + " C " + f(w * 0.1) + " " + f(h * 0.8) + " " + f(x1 - w * 0.12) + " " + f(h * 0.5) + " " + f(x1 - w * 0.05) + " " + f(top + h * 0.12) +
+        " L " + f(x1) + " " + f(top) + " L " + f(x2) + " " + f(top + 3) + " L " + f(x2 + w * 0.04) + " " + f(top + h * 0.14) +
+        " C " + f(x2 + w * 0.12) + " " + f(h * 0.5) + " " + f(w * 0.9) + " " + f(h * 0.8) + " " + w + " " + f(h * 0.84) + " L " + w + " " + h + " Z";
+      var id = api.nid("mesa");
+      var s = '<defs><clipPath id="' + id + '"><path d="' + out + '"/></clipPath></defs>';
+      s += '<g clip-path="url(#' + id + ')"><rect x="0" y="0" width="' + w + '" height="' + h + '" fill="' + m[2] + '"/>';
+      s += '<rect x="0" y="0" width="' + w + '" height="' + f(top + h * 0.22) + '" fill="' + m[0] + '"/>';
+      s += '<path d="M 0 ' + f(top + h * 0.22) + " C " + f(w * 0.3) + " " + f(top + h * 0.26) + " " + f(w * 0.6) + " " + f(top + h * 0.2) + " " + w + " " + f(top + h * 0.24) + " L " + w + " " + f(top + h * 0.48) + " C " + f(w * 0.6) + " " + f(top + h * 0.44) + " " + f(w * 0.3) + " " + f(top + h * 0.5) + " 0 " + f(top + h * 0.46) + ' Z" fill="' + m[1] + '"/>';
+      for (var i = 0; i < 6; i++) { var gx = w * (0.15 + 0.7 * r()); s += sk("M " + f(gx) + " " + f(top + h * 0.1) + " l " + f(r() * 10 - 5) + " " + f(h * (0.3 + 0.4 * r())), 2.5, INK, ' opacity=".18"'); }
+      s += "</g>" + '<path d="' + out + '" fill="none" stroke="' + INK + '" stroke-width="' + (o.net || 5) + '" stroke-linejoin="round"/>';
+      return s;
+    };
+    api.saMacSVG = function (w, h) {
+      var s = '<circle cx="' + w * 0.72 + '" cy="' + h * 0.3 + '" r="' + h * 0.14 + '" fill="#ffd36a" stroke="' + INK + '" stroke-width="5"/>';
+      s += fp("M 0 " + h + " L 0 " + h * 0.55 + " C " + w * 0.2 + " " + h * 0.4 + " " + w * 0.35 + " " + h * 0.62 + " " + w * 0.55 + " " + h * 0.5 + " C " + w * 0.7 + " " + h * 0.42 + " " + w * 0.85 + " " + h * 0.56 + " " + w + " " + h * 0.5 + " L " + w + " " + h + " Z", "#e3a35a", 5);
+      s += fp("M 0 " + h + " L 0 " + h * 0.78 + " C " + w * 0.3 + " " + h * 0.68 + " " + w * 0.6 + " " + h * 0.84 + " " + w + " " + h * 0.74 + " L " + w + " " + h + " Z", "#d07a3e", 5);
+      return s;
+    };
+    api.nhietKeBanSVG = function (dong) {
+      var s = fp("M 30 300 L 36 262 L 114 262 L 120 300 Z", "#8a5a3b", 5) + fp("M 40 30 C 40 10 110 10 110 30 L 110 262 L 40 262 Z", C.PAPER, 6) +
+        fp("M 66 40 C 66 30 84 30 84 40 L 84 222 L 66 222 Z", "#ffffff", 4);
+      for (var i = 0; i < 9; i++) s += sk("M 90 " + (54 + i * 18) + " L " + (i % 2 ? 98 : 104) + " " + (54 + i * 18), 3);
+      s += '<rect class="merc" x="70" y="48" width="10" height="188" rx="4" fill="' + C.MAT + '"/><circle cx="75" cy="236" r="18" fill="' + C.MAT + '" stroke="' + INK + '" stroke-width="5"/>';
+      (dong || []).forEach(function (d) { s += api.txt(75, 330, 40, 800, d, INK); });
+      return s;
+    };
+  });
+})();
+
+/* ---- Đạo cụ Whittier (24/11/2026, tập 3; chỉ thêm). Chuỗi svg, tham số qua o; chữ chỉ qua api.txt ----
+ * doThem(w, {doNgu, depLe, muLuoi, aoPhao}, t?)  đồ mặc thêm cho con rối (không đổi tạo hình gốc): đồ ngủ kẻ sọc (áo + quần),
+ *                             dép lê thay giày đỏ (w.depL/w.depR trong nhóm chân; w.giayL/R là giày gốc), mũ lưỡi trai xanh băng,
+ *                             áo phao cam. Lần gọi đầu dựng sẵn (ẩn) rồi bật/tắt bằng opacity; t = null đặt ngay
+ * depLeSVG(mau)               một chiếc dép lê tâm đế (0,0), ~64×24 (dép tuột nằm lại trên sàn)
+ * toaNha14SVG(w, h, o)        toà kem 14 tầng ba khối nối liền (gốc trên trái, đáy y h); .tang-<i> hàng cửa sổ tầng i (1 = dưới);
+ *                             cửa xoay ở chân (.cua-xoay-0/1, scaleX theo t), o.cua false = không cửa, o.sang tỉ lệ cửa sổ sáng
+ * nuiGiaySVG(w, h, o)         núi giấy (gốc trên trái), o.mau, o.tuyet (chóp tuyết), o.dinh (x đỉnh), o.seed; .nap-tuyet = nắp tuyết rời ở đỉnh
+ * baLoOliu(w)                ba lô con rối thành xanh ô liu; XE_DO màu xe mui trần đỏ gạch chung của tập 3
+ * xeHopSVG(o)                 (o.mui "vai" = mui vải sẫm đã dựng) xe hộp nhỏ nhìn ngang, mũi sang phải, 520×250 (bánh chạm y 250). Trả {sau, truoc}: lòng xe và thân + khung kính
+ *                             rỗng để kẹp con rối Wob ở giữa; o.mui "dong"|"mo", o.mau; .banh-1/.banh-2, .kinh-mo (hơi mờ kính, ẩn)
+ * denTinHieuSVG()             đèn tín hiệu 90×230, .den-do / .den-xanh (opacity)
+ * bongCanDamSVG()             quả bóng nhỏ mặt cười (lòng can đảm), tâm (0,0) r 30, không chữ
+ * phongBiSVG(o)               phong bì 220×140, o.dong [{chu, co}] (chữ trong chu_tren_do_vat)
+ * cuonGiaySVG(w, h)           dải giấy dài (cuộn ở đáy) cho gag phong bì dài
+ * toLichSVG(w, h, o)          tờ lịch giờ hầm nhàu (mặt trước: lưới ô giờ, không chữ), o.matSau = mặt sau trắng nhàu
+ * gioDoSVG()                  giỏ đồ giặt 160×130 (đáy y 130); tuiBanhSVG() túi bánh 90×110; lyDoNguSVG() ly tâm (0,0)
+ * dongHoTuongSVG(r)           đồng hồ treo tường không chữ số, tâm (0,0); .kim-gio / .kim-phut
+ * tauDuLichSVG(w, h)          tàu du lịch giấy nhìn ngang, không chữ, không cờ; thuyenNhoSVG(w, h) thuyền nhỏ có cabin
+ * kayakSVG(w, mau)            kayak nhìn ngang (tâm (0,0) ở mớn nước); maiCheoSVG(dai) mái chèo tâm (0,0)
+ * haiAuSVG(s)                 hải âu giấy đậu, chân tại (0,0)
+ * napChaiSVG(o)               nắp chai răng cưa tâm (0,0) r≈22; o.kimCuong: viên đá gắn giữa + .nap-loe ngôi sao (ẩn)
+ * canCauSVG(dai)              cần câu, tay cầm tại (0,0), ngọn tại (dai*0.5, -dai*0.86); .day-cau dây thả từ ngọn
+ * caBonSVG(s), caHoiSVG(s)    cá bơn dẹt / cá hồi giấy, tâm (0,0)
+ * songBangSVG(w, h)           sông băng trắng xanh giữa hai sườn núi xanh, đổ xuống mép dưới (gốc trên trái)
+ */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+  DIO.mo.push(function (api) {
+    var tl = api.tl, C = api.C, sk = api.sk, fp = api.fp, INK = C.INK;
+    var PJ = "#dce9f5", PJ2 = "#3f6f9f", VEST = "#E0703A";
+
+    api.depLeSVG = function (mau) {
+      return '<ellipse cx="0" cy="0" rx="32" ry="9" fill="' + (mau || C.TEAL) + '" stroke="' + INK + '" stroke-width="5"/>' +
+        fp("M -18 -2 C -14 -20 12 -20 16 -2 Z", "#e9e4d8", 4);
+    };
+
+    api.doThem = function (w, o, t) {
+      if (!w.doThemDung) {
+        w.doThemDung = true;
+        var id = w.id;
+        var pat = '<pattern id="pj' + id + '" width="26" height="26" patternUnits="userSpaceOnUse"><rect width="26" height="26" fill="' + PJ + '"/><rect x="0" y="0" width="8" height="26" fill="' + PJ2 + '" opacity=".75"/></pattern>';
+        w.svg.querySelector("defs").insertAdjacentHTML("beforeend", pat);
+        w.body.insertAdjacentHTML("afterend",
+          '<g class="doNgu" opacity="0"><g clip-path="url(#wc' + id + ')"><path d="M 40 252 C 120 282 280 282 360 252 L 360 340 L 40 340 Z" fill="url(#pj' + id + ')"/></g>' +
+          sk("M 62 256 C 130 284 270 284 338 256", 6) + sk("M 176 270 L 200 300 L 224 270", 5) +
+          '<circle cx="200" cy="314" r="5" fill="#fff" stroke="' + INK + '" stroke-width="3"/></g>' +
+          '<g class="aoPhao" opacity="0">' +
+          fp("M 74 168 C 58 220 64 282 104 318 L 150 312 L 142 196 C 124 172 96 162 74 168 Z", VEST, 6) +
+          fp("M 326 168 C 342 220 336 282 296 318 L 250 312 L 258 196 C 276 172 304 162 326 168 Z", VEST, 6) +
+          sk("M 96 200 C 100 240 104 270 118 300 M 304 200 C 300 240 296 270 282 300", 4, "#fff", ' opacity=".7"') +
+          sk("M 104 292 L 296 292", 9, INK) + '<rect x="186" y="282" width="28" height="20" rx="4" fill="#e7b34b" stroke="' + INK + '" stroke-width="4"/></g>');
+        w.doNgu = w.svg.querySelector(".doNgu"); w.aoPhao = w.svg.querySelector(".aoPhao");
+        [["legL", "M 174 290 C 172 320 170 344 169 362", 158, "L"], ["legR", "M 226 290 C 228 320 230 344 231 362", 242, "R"]].forEach(function (a) {
+          var leg = w[a[0]], giay = leg.querySelector("ellipse");
+          w["giay" + a[3]] = giay;
+          leg.firstElementChild.insertAdjacentHTML("afterend", '<g class="quanNgu" opacity="0">' + sk(a[1], 40) + sk(a[1], 30, "url(#pj" + id + ")") + "</g>");
+          leg.insertAdjacentHTML("beforeend", '<g class="dep' + a[3] + '" opacity="0"><g transform="translate(' + a[2] + ' 388)">' + api.depLeSVG() + "</g></g>");
+          w["dep" + a[3]] = leg.querySelector(".dep" + a[3]);
+        });
+        w.quanNgu = w.svg.querySelectorAll(".quanNgu");
+        w.beanie.insertAdjacentHTML("afterend", '<g class="muLuoi" opacity="0">' + fp("M 118 104 C 120 36 280 36 282 104 Z", C.ICE, 6) +
+          sk("M 200 42 L 200 100 M 156 52 L 166 100 M 244 52 L 234 100", 3, C.ICE2) + '<circle cx="200" cy="40" r="9" fill="' + C.ICE2 + '" stroke="' + INK + '" stroke-width="4"/>' +
+          fp("M 104 100 C 150 88 250 88 296 100 C 306 116 266 128 200 128 C 134 128 94 116 104 100 Z", C.ICE2, 6) + "</g>");
+        w.muLuoi = w.svg.querySelector(".muLuoi");
+      }
+      var set = function (el, v) { if (!el) return; if (t == null) gsap.set(el, v); else tl.set(el, v, t); };
+      if (o.doNgu != null) { set(w.doNgu, { opacity: o.doNgu ? 1 : 0 }); set(w.quanNgu, { opacity: o.doNgu ? 1 : 0 }); }
+      if (o.depLe != null) { set([w.depL, w.depR], { opacity: o.depLe ? 1 : 0 }); set([w.giayL, w.giayR], { opacity: o.depLe ? 0 : 1 }); }
+      if (o.muLuoi != null) set(w.muLuoi, { opacity: o.muLuoi ? 1 : 0 });
+      if (o.aoPhao != null) set(w.aoPhao, { opacity: o.aoPhao ? 1 : 0 });
+    };
+
+    api.toaNha14SVG = function (w, h, o) {
+      o = o || {};
+      var s = "", bw = w / 3, top = h * 0.06, fh = (h - top - h * 0.1) / 14, r = api.rng(o.seed || 14), sang = o.sang == null ? 0.35 : o.sang;
+      for (var k = 0; k < 3; k++) {
+        var x0 = k * bw + (k === 1 ? 0 : 4), x1 = x0 + bw - (k === 1 ? 0 : 8), yt = top + (k === 1 ? 0 : fh * 0.3);
+        s += fp("M " + x0 + " " + h + " L " + x0 + " " + yt + " L " + x1 + " " + yt + " L " + x1 + " " + h + " Z", k === 1 ? "#efe6cf" : "#e6dcc2", 5);
+        s += sk("M " + (x0 + 4) + " " + (yt + 6) + " L " + (x1 - 4) + " " + (yt + 6), 4, "#b9ac8c");
+      }
+      s += sk("M " + bw + " " + (top + fh * 0.3) + " L " + bw + " " + h + " M " + 2 * bw + " " + (top + fh * 0.3) + " L " + 2 * bw + " " + h, 3, INK, ' opacity=".5"');
+      var nWin = 5, ww = bw / (nWin * 1.7);
+      for (var i = 1; i <= 14; i++) {
+        var y = h - h * 0.1 - i * fh + fh * 0.22, row = '<g class="tang-' + i + '">';
+        for (var b = 0; b < 3; b++) for (var j = 0; j < nWin; j++) {
+          var x = b * bw + bw * 0.12 + j * (bw * 0.76 / (nWin - 1)) - ww / 2;
+          row += '<rect x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + ww.toFixed(1) + '" height="' + (fh * 0.56).toFixed(1) + '" fill="' + (r() < sang ? C.WIN : "#6f8f99") + '" stroke="' + INK + '" stroke-width="2"/>';
+        }
+        s += row + "</g>";
+      }
+      var cy = h - h * 0.1, cx = w / 2;
+      s += fp("M " + (cx - bw * 0.45) + " " + h + " L " + (cx - bw * 0.45) + " " + (cy + 2) + " L " + (cx + bw * 0.45) + " " + (cy + 2) + " L " + (cx + bw * 0.45) + " " + h + " Z", "#d8ccae", 4);
+      if (o.cua !== false) {
+        var dw = bw * 0.36, dh = h * 0.085;
+        s += fp("M " + (cx - dw / 2) + " " + h + " L " + (cx - dw / 2) + " " + (h - dh) + " L " + (cx + dw / 2) + " " + (h - dh) + " L " + (cx + dw / 2) + " " + h + " Z", "#3d5358", 3);
+        for (var q = 0; q < 2; q++) s += '<rect class="cua-xoay-' + q + '" x="' + (cx - dw / 2 + 2 + q * dw / 2) + '" y="' + (h - dh + 2) + '" width="' + (dw / 2 - 2) + '" height="' + (dh - 3) + '" fill="#bfe3f0" stroke="' + INK + '" stroke-width="2" opacity=".9"/>';
+        s += sk("M " + cx + " " + (h - dh) + " L " + cx + " " + h, 3);
+      }
+      return s;
+    };
+
+    api.nuiGiaySVG = function (w, h, o) {
+      o = o || {};
+      var r = api.rng(o.seed || 5), dx = o.dinh || w * 0.5, mau = o.mau || "#7f9ba3", d = "M 0 " + h + " L " + (w * 0.12) + " " + (h * 0.55 + r() * 20);
+      d += " L " + (dx - w * 0.18) + " " + (h * 0.3) + " L " + dx + " 8 L " + (dx + w * 0.2) + " " + (h * 0.34) + " L " + (w * 0.88) + " " + (h * 0.5 + r() * 20) + " L " + w + " " + h + " Z";
+      var s = fp(d, mau, 5);
+      s += sk("M " + (dx - 4) + " 30 L " + (dx - w * 0.08) + " " + h * 0.6 + " M " + (dx + 10) + " 40 L " + (dx + w * 0.1) + " " + h * 0.7, 3, INK, ' opacity=".35"');
+      if (o.tuyet !== false) {
+        s += fp("M " + (dx - w * 0.13) + " " + (h * 0.24) + " L " + (dx - w * 0.05) + " " + (h * 0.3) + " L " + (dx + 2) + " " + (h * 0.22) + " L " + (dx + w * 0.08) + " " + (h * 0.3) + " L " + (dx + w * 0.15) + " " + (h * 0.26) + " L " + (dx + w * 0.07) + " " + (h * 0.12) + " L " + dx + " 30 Z", C.SNOW, 4);
+        s += '<g class="nap-tuyet">' + fp("M " + (dx - 26) + " 34 C " + (dx - 20) + " 0 " + (dx + 20) + " 0 " + (dx + 26) + " 34 C " + (dx + 10) + " 28 " + (dx - 10) + " 28 " + (dx - 26) + " 34 Z", C.SNOW, 4) + "</g>";
+      }
+      return s;
+    };
+
+    api.xeHopSVG = function (o) {
+      o = o || {};
+      var mau = o.mau || C.TERRA, mo = o.mui === "mo";
+      var sau = fp("M 150 150 L 170 70 L 330 70 L 380 150 Z", "#3a3230", 0) + fp("M 190 160 L 196 96 L 236 96 L 240 160 Z", "#6b4a33", 4) + sk("M 360 120 C 344 112 336 126 346 138", 7, "#2f3b3c");
+      var tr = "";
+      if (o.mui === "vai") tr += fp("M 140 150 C 150 100 170 62 200 60 L 320 60 C 350 62 380 110 392 150 L 362 150 L 322 82 L 266 82 L 266 150 L 254 150 L 254 82 L 180 82 L 160 150 Z", "#3a3230", 5) + sk("M 214 64 L 210 82 M 300 62 L 304 82", 3, "#5a504c");
+      else if (!mo) tr += fp("M 140 150 L 166 66 L 336 66 L 392 150 L 362 150 L 322 82 L 266 82 L 266 150 L 254 150 L 254 82 L 180 82 L 160 150 Z", mau, 5);
+      else tr += sk("M 330 150 L 352 100", 7, INK) + fp("M 92 150 C 96 128 126 122 150 126 L 158 150 Z", "#2f3b3c", 4);
+      tr += '<g class="kinh-mo" opacity="0">' + fp("M 166 148 L 182 86 L 252 86 L 252 148 Z M 268 148 L 268 86 L 320 86 L 356 148 Z", "rgba(235,242,245,.85)", 3) + "</g>";
+      tr += fp("M 30 160 C 30 140 60 140 120 140 L 410 140 C 470 140 500 156 504 186 L 506 216 C 506 228 498 232 486 232 L 40 232 C 28 232 22 226 22 214 Z", mau, 6);
+      tr += sk("M 40 186 L 490 186", 4, INK, ' opacity=".35"') + fp("M 470 160 l 30 6 l 0 16 l -30 -2 Z", "#ffe6a3", 3) + fp("M 26 170 l 14 0 l 0 18 l -14 0 Z", C.MAT, 3);
+      [[118, "banh-1"], [404, "banh-2"]].forEach(function (b) {
+        tr += '<g class="' + b[1] + '"><circle cx="' + b[0] + '" cy="216" r="34" fill="#2f3b3c" stroke="' + INK + '" stroke-width="6"/><circle cx="' + b[0] + '" cy="216" r="13" fill="#9aa39a" stroke="' + INK + '" stroke-width="4"/>' +
+          sk("M " + (b[0] - 24) + " 216 L " + (b[0] + 24) + " 216", 3, "#9aa39a") + "</g>";
+      });
+      return { sau: sau, truoc: tr, w: 520, h: 250 };
+    };
+
+    // Ba lô xanh ô liu (màu chung các phong cách từ tập 2–3, khớp ve-tay VT.PACK_MAU.oliu)
+    api.XE_DO = "#b5432f";
+    api.baLoOliu = function (w) {
+      var r = w.pack.querySelectorAll("rect");
+      if (r[0]) r[0].setAttribute("fill", "#7C8646"); if (r[1]) r[1].setAttribute("fill", "#566030");
+      var st = w.strap.querySelector("path"); if (st) st.setAttribute("stroke", "#566030");
+    };
+    api.denTinHieuSVG = function () {
+      return sk("M 45 230 L 45 150", 12) + fp("M 10 8 L 80 8 L 80 150 L 10 150 Z", "#2f3b3c", 6) +
+        '<circle cx="45" cy="48" r="24" fill="#5a2a26" stroke="' + INK + '" stroke-width="4"/><circle class="den-do" cx="45" cy="48" r="22" fill="#ff5a3c"/>' +
+        '<circle cx="45" cy="110" r="24" fill="#1f3a2c" stroke="' + INK + '" stroke-width="4"/><circle class="den-xanh" cx="45" cy="110" r="22" fill="#5ef08a" opacity="0"/>';
+    };
+
+    api.bongCanDamSVG = function () {
+      return sk("M -8 26 L -10 44 M 8 26 L 10 44", 6) + '<circle cx="0" cy="0" r="30" fill="#ffd45a" stroke="' + INK + '" stroke-width="5"/><circle cx="-10" cy="-7" r="4.5" fill="' + INK + '"/><circle cx="10" cy="-7" r="4.5" fill="' + INK + '"/>' +
+        sk("M -13 8 C -6 16 6 16 13 8", 4);
+    };
+
+    api.phongBiSVG = function (o) {
+      o = o || {};
+      var s = fp("M 4 4 L 216 4 L 216 136 L 4 136 Z", "#f4ecd8", 6) + sk("M 4 4 L 110 70 L 216 4", 4, INK, ' opacity=".45"') +
+        fp("M 170 14 l 34 0 l 0 40 l -34 0 Z", C.TERRA, 3) + sk("M 176 24 l 22 0 M 176 34 l 22 0", 2.5, C.PAPER);
+      (o.dong || []).forEach(function (d, i) { s += api.txt(d.x || 100, d.y || 96 + i * (d.co + 6), d.co, 800, d.chu, d.mau || INK); });
+      return s;
+    };
+    api.cuonGiaySVG = function (w, h) {
+      var s = fp("M 6 0 L " + (w - 6) + " 0 L " + (w - 6) + " " + (h - 20) + " L 6 " + (h - 20) + " Z", "#f4ecd8", 5);
+      for (var y = 40; y < h - 50; y += 46) s += sk("M 24 " + y + " L " + (w - 30 - (y * 7) % 40) + " " + y, 5, "#8a8f8c", ' opacity=".6"');
+      s += '<ellipse cx="' + w / 2 + '" cy="' + (h - 16) + '" rx="' + (w / 2) + '" ry="18" fill="#e6dcc2" stroke="' + INK + '" stroke-width="5"/>';
+      return s;
+    };
+    api.toLichSVG = function (w, h, o) {
+      o = o || {};
+      var nhau = "M 6 10 L " + (w * 0.3) + " 4 L " + (w * 0.62) + " 12 L " + (w - 6) + " 6 L " + (w - 10) + " " + (h * 0.5) + " L " + (w - 4) + " " + (h - 8) + " L " + (w * 0.5) + " " + (h - 4) + " L 8 " + (h - 10) + " L 12 " + (h * 0.48) + " Z";
+      var s = fp(nhau, o.matSau ? "#f7f2e4" : "#f1e6c8", 6);
+      if (!o.matSau) {
+        for (var i = 1; i < 6; i++) s += sk("M 20 " + (h * i / 6) + " L " + (w - 20) + " " + (h * i / 6), 3, "#8a8f8c", ' opacity=".7"');
+        for (var j = 1; j < 4; j++) s += sk("M " + (w * j / 4) + " 20 L " + (w * j / 4) + " " + (h - 20), 3, "#8a8f8c", ' opacity=".7"');
+        s += fp("M 20 16 L " + (w - 20) + " 16 L " + (w - 20) + " " + (h / 6 - 6) + " L 20 " + (h / 6 - 6) + " Z", C.TEAL, 3);
+      }
+      s += sk("M " + (w * 0.3) + " 6 L " + (w * 0.36) + " " + (h - 6) + " M 10 " + (h * 0.48) + " L " + (w - 8) + " " + (h * 0.52), 2.5, INK, ' opacity=".25"');
+      return s;
+    };
+    api.gioDoSVG = function () {
+      return fp("M 30 40 C 50 10 80 30 92 16 C 104 34 130 14 140 40 Z", "#f0b6a8", 4) + fp("M 70 40 C 74 18 96 12 110 36 Z", C.SEA, 4) +
+        fp("M 8 40 L 152 40 L 140 128 L 20 128 Z", "#d9c49a", 6) + sk("M 16 70 L 146 70 M 18 100 L 142 100", 4, "#a8946c") +
+        sk("M 50 42 L 46 126 M 80 42 L 80 126 M 110 42 L 114 126", 4, "#a8946c");
+    };
+    api.tuiBanhSVG = function () {
+      return fp("M 10 20 L 80 20 L 86 108 L 4 108 Z", "#c9a46a", 5) + fp("M 10 20 L 18 4 L 72 4 L 80 20 Z", "#b88d52", 4) +
+        '<circle cx="45" cy="64" r="16" fill="#e7b34b" stroke="' + INK + '" stroke-width="3"/><circle cx="40" cy="60" r="2.5" fill="#6b4a33"/><circle cx="50" cy="68" r="2.5" fill="#6b4a33"/>';
+    };
+    api.lyDoNguSVG = function () {
+      return fp("M -30 -36 L 30 -36 L 26 38 L -26 38 Z", C.TEAL, 5) + sk("M 30 -20 C 52 -20 52 14 28 14", 6) + '<ellipse cx="0" cy="-34" rx="27" ry="5" fill="#8a4f24" stroke="' + INK + '" stroke-width="3"/>' +
+        sk("M -26 0 L 26 0", 5, C.PAPER);
+    };
+    api.dongHoTuongSVG = function (r) {
+      r = r || 60;
+      var s = '<circle cx="0" cy="0" r="' + r + '" fill="#f7f2e4" stroke="' + INK + '" stroke-width="7"/>';
+      for (var i = 0; i < 12; i++) { var a = i * Math.PI / 6, l = i % 3 ? 0.12 : 0.22; s += sk("M " + (Math.sin(a) * r * 0.82).toFixed(1) + " " + (-Math.cos(a) * r * 0.82).toFixed(1) + " L " + (Math.sin(a) * r * (0.82 - l)).toFixed(1) + " " + (-Math.cos(a) * r * (0.82 - l)).toFixed(1), i % 3 ? 3 : 6); }
+      s += '<g class="kim-gio">' + sk("M 0 4 L 0 " + (-r * 0.45), 8) + '</g><g class="kim-phut">' + sk("M 0 6 L 0 " + (-r * 0.7), 5, C.TERRA) + "</g>" + '<circle cx="0" cy="0" r="6" fill="' + INK + '"/>';
+      return s;
+    };
+    api.tauDuLichSVG = function (w, h) {
+      var s = "";
+      s += fp("M 0 " + (h * 0.5) + " L " + w + " " + (h * 0.5) + " L " + (w * 0.92) + " " + h + " L " + (w * 0.05) + " " + h + " Z", "#f7f2e4", 6);
+      s += fp("M " + (w * 0.016) + " " + (h * 0.78) + " L " + w * 0.96 + " " + (h * 0.78) + " L " + (w * 0.92) + " " + h + " L " + (w * 0.05) + " " + h + " Z", "#2f4f6b", 5);
+      s += fp("M " + w * 0.12 + " " + h * 0.5 + " L " + w * 0.14 + " " + h * 0.3 + " L " + w * 0.82 + " " + h * 0.3 + " L " + w * 0.86 + " " + h * 0.5 + " Z", "#f7f2e4", 5);
+      s += fp("M " + w * 0.22 + " " + h * 0.3 + " L " + w * 0.24 + " " + h * 0.14 + " L " + w * 0.66 + " " + h * 0.14 + " L " + w * 0.7 + " " + h * 0.3 + " Z", "#f7f2e4", 5);
+      s += fp("M " + w * 0.5 + " " + h * 0.14 + " L " + w * 0.51 + " 2 L " + w * 0.6 + " 2 L " + w * 0.6 + " " + h * 0.14 + " Z", C.MAT, 4);
+      for (var row = 0; row < 3; row++) {
+        var y = [h * 0.6, h * 0.37, h * 0.2][row], x0 = [0.08, 0.17, 0.27][row], x1 = [0.88, 0.8, 0.66][row];
+        for (var x = x0; x < x1; x += 0.035) s += '<rect x="' + (w * x).toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + (w * 0.018).toFixed(1) + '" height="' + (h * 0.06).toFixed(1) + '" fill="#5a9fb8" stroke="' + INK + '" stroke-width="1.5"/>';
+      }
+      return s;
+    };
+    api.thuyenNhoSVG = function (w, h) {
+      return fp("M 0 " + h * 0.5 + " L " + w + " " + h * 0.5 + " L " + w * 0.85 + " " + h + " L " + w * 0.1 + " " + h + " Z", "#f7f2e4", 5) +
+        sk("M 4 " + h * 0.7 + " L " + w * 0.94 + " " + h * 0.7, 6, C.MAT) +
+        fp("M " + w * 0.2 + " " + h * 0.5 + " L " + w * 0.24 + " " + h * 0.12 + " L " + w * 0.56 + " " + h * 0.12 + " L " + w * 0.6 + " " + h * 0.5 + " Z", "#e6dcc2", 4) +
+        fp("M " + w * 0.28 + " " + h * 0.2 + " l " + w * 0.1 + " 0 l 0 " + h * 0.16 + " l " + -w * 0.1 + " 0 Z M " + w * 0.42 + " " + h * 0.2 + " l " + w * 0.1 + " 0 l 0 " + h * 0.16 + " l " + -w * 0.1 + " 0 Z", "#5a9fb8", 3);
+    };
+    api.kayakSVG = function (w, mau) {
+      var h2 = w / 2;
+      return fp("M " + -h2 + " -8 C " + (-h2 * 0.6) + " -22 " + (h2 * 0.6) + " -22 " + h2 + " -8 C " + (h2 * 0.6) + " 12 " + (-h2 * 0.6) + " 12 " + -h2 + " -8 Z", mau || "#e7b34b", 5) +
+        sk("M " + (-h2 * 0.8) + " -10 C " + (-h2 * 0.3) + " -16 " + (h2 * 0.3) + " -16 " + (h2 * 0.8) + " -10", 3, INK, ' opacity=".5"') +
+        '<ellipse cx="0" cy="-16" rx="' + (w * 0.13) + '" ry="7" fill="#2f3b3c" stroke="' + INK + '" stroke-width="4"/>';
+    };
+    api.maiCheoSVG = function (dai) {
+      dai = dai || 300; var h = dai / 2;
+      return sk("M " + -h + " 0 L " + h + " 0", 7) + fp("M " + (-h - 22) + " -12 C " + (-h - 4) + " -18 " + (-h + 16) + " -8 " + (-h + 12) + " 0 C " + (-h - 4) + " 8 " + (-h - 24) + " 2 " + (-h - 22) + " -12 Z", C.MAT, 3) +
+        fp("M " + (h + 22) + " 12 C " + (h + 4) + " 18 " + (h - 16) + " 8 " + (h - 12) + " 0 C " + (h + 4) + " -8 " + (h + 24) + " -2 " + (h + 22) + " 12 Z", C.MAT, 3);
+    };
+    api.haiAuSVG = function (s) {
+      s = s || 1;
+      return '<g transform="scale(' + s + ')">' + sk("M -6 0 L -6 -14 M 6 0 L 6 -14", 4, "#e7b34b") + fp("M -30 -30 C -30 -54 20 -58 30 -36 C 34 -26 24 -14 0 -14 C -20 -14 -30 -20 -30 -30 Z", "#ffffff", 5) +
+        fp("M -26 -36 C -6 -44 18 -42 26 -32 C 10 -30 -10 -28 -26 -36 Z", "#b9c9d0", 3) + fp("M 14 -52 C 14 -66 34 -66 36 -54 C 36 -46 24 -44 16 -46 Z", "#ffffff", 4) +
+        fp("M 34 -56 L 48 -52 L 34 -50 Z", "#e7b34b", 3) + '<circle cx="28" cy="-56" r="3" fill="' + INK + '"/></g>';
+    };
+    api.napChaiSVG = function (o) {
+      o = o || {};
+      var d = "M 23 0";
+      for (var i = 1; i < 22; i++) { var a = i * Math.PI * 2 / 22, rr = i % 2 ? 19 : 23; d += " L " + (Math.cos(a) * rr).toFixed(1) + " " + (Math.sin(a) * rr).toFixed(1); }
+      var s = fp(d + " Z", "#c9ced1", 4) + '<circle cx="0" cy="0" r="13" fill="#dfe4e6" stroke="' + INK + '" stroke-width="2"/>';
+      if (o.kimCuong) s += fp("M -8 -2 L -4 -9 L 4 -9 L 8 -2 L 0 9 Z", "#bfefff", 3) + sk("M -8 -2 L 8 -2 M -4 -9 L 0 -2 L 4 -9", 2) +
+        '<g class="nap-loe" opacity="0">' + fp("M 0 -44 L 6 -26 L 24 -22 L 6 -16 L 0 2 L -6 -16 L -24 -22 L -6 -26 Z", "#fff6c4", 3) + "</g>";
+      return s;
+    };
+    api.canCauSVG = function (dai) {
+      dai = dai || 260;
+      var tx = dai * 0.5, ty = -dai * 0.86;
+      return sk("M 0 0 L " + tx + " " + ty, 7, "#6b4a33") + '<circle cx="' + (tx * 0.12) + '" cy="' + (ty * 0.12) + '" r="10" fill="#2f3b3c" stroke="' + INK + '" stroke-width="3"/>' +
+        '<path class="day-cau" d="M ' + tx + " " + ty + " L " + tx + " " + (ty + dai * 0.6) + '" fill="none" stroke="' + INK + '" stroke-width="2.5"/>';
+    };
+    api.caBonSVG = function (s) {
+      s = s || 1;
+      return '<g transform="scale(' + s + ')">' + fp("M -40 0 C -30 -26 24 -28 36 0 C 24 28 -30 26 -40 0 Z", "#a89a7a", 5) + fp("M 34 0 L 54 -16 L 54 16 Z", "#a89a7a", 4) +
+        '<circle cx="-22" cy="-8" r="4" fill="' + INK + '"/><circle cx="-14" cy="-12" r="4" fill="' + INK + '"/>' + sk("M -20 12 C 0 16 20 12 30 4", 3, INK, ' opacity=".4"') + "</g>";
+    };
+    api.caHoiSVG = function (s) {
+      s = s || 1;
+      return '<g transform="scale(' + s + ')">' + fp("M -44 0 C -30 -18 24 -18 34 0 C 24 16 -30 18 -44 0 Z", "#e69a84", 5) + fp("M 32 0 L 52 -14 L 48 0 L 52 14 Z", "#e69a84", 4) +
+        sk("M -30 4 C -10 10 14 8 28 2", 4, "#c9665a") + '<circle cx="-32" cy="-4" r="3.5" fill="' + INK + '"/></g>';
+    };
+    api.songBangSVG = function (w, h) {
+      var s = fp("M 0 " + h + " L 0 " + h * 0.35 + " L " + w * 0.2 + " " + h * 0.05 + " L " + w * 0.4 + " " + h * 0.4 + " L " + w * 0.4 + " " + h + " Z", "#4f7f66", 5);
+      s += fp("M " + w + " " + h + " L " + w + " " + h * 0.3 + " L " + w * 0.8 + " 0 L " + w * 0.6 + " " + h * 0.4 + " L " + w * 0.6 + " " + h + " Z", "#4f7f66", 5);
+      s += fp("M " + w * 0.36 + " " + h + " L " + w * 0.42 + " " + h * 0.2 + " L " + w * 0.58 + " " + h * 0.18 + " L " + w * 0.64 + " " + h + " Z", "#f2fbff", 5);
+      s += sk("M " + w * 0.45 + " " + h * 0.3 + " L " + w * 0.42 + " " + h * 0.9 + " M " + w * 0.52 + " " + h * 0.25 + " L " + w * 0.52 + " " + h * 0.95 + " M " + w * 0.56 + " " + h * 0.3 + " L " + w * 0.6 + " " + h * 0.9, 4, "#8fcbe0");
+      s += fp("M " + w * 0.36 + " " + h + " L " + w * 0.36 + " " + h * 0.82 + " L " + w * 0.44 + " " + h * 0.86 + " L " + w * 0.5 + " " + h * 0.8 + " L " + w * 0.57 + " " + h * 0.86 + " L " + w * 0.64 + " " + h * 0.82 + " L " + w * 0.64 + " " + h + " Z", "#bfe3f0", 4);
       return s;
     };
   });

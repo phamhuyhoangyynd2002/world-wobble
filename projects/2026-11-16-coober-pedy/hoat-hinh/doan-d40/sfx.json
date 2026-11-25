@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "dau-wob",
+  "tai": 0.746,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "whoosh",
+  "tai": 10.651,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "drop",
+  "tai": 13,
+  "am_luong": 0.22
+ },
+ {
+  "ten": "drop",
+  "tai": 13.88,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "ting",
+  "tai": 14.063,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "bonk",
+  "tai": 15.98,
+  "am_luong": 0.2
+ }
+]

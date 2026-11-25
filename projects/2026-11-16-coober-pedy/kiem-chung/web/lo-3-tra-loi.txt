@@ -1,0 +1,192 @@
+[
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Australian Government's Business Licence and Information Service confirms that the District Council administers a permit for using a blower or similar device to move soil in both opal mining and dugout construction.",
+"sources": [
+{
+"title": "Permit to Use a Blower - District Council of Coober Pedy",
+"publisher": "Australian Business Licence and Information Service",
+"url": "https://ablis.business.gov.au/service/sa/approval-to-use-a-blower-to-convey-soil-district-council-of-coober-pedy/3024",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C18",
+"verdict": "dung",
+"correct_value": null,
+"note": "Local accommodation information confirms that some dugouts need no air conditioning, while ABC reports substantial cooling savings; however, no independently verified monetary savings figures are provided.",
+"sources": [
+{
+"title": "Going underground — lessons for suburbia from subterranean Coober Pedy",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2020-11-15/underground-housing-a-goldmine-of-sustainable-living-coober-pedy/12880618",
+"type": "bao",
+"published": null
+},
+{
+"title": "Underground accommodation",
+"publisher": "Oasis Coober Pedy",
+"url": "https://oasiscooberpedy.com.au/index.php/accommodation/underground-accommodations",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C19",
+"verdict": "dung",
+"correct_value": null,
+"note": "Coober Pedy's official tourism website documents underground churches, the Desert Cave Hotel and underground retailing facilities at Umoona Mine and Museum.",
+"sources": [
+{
+"title": "Attractions - Coober Pedy SA",
+"publisher": "Coober Pedy Visitor Information",
+"url": "https://www.cooberpedy.com/attractions/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Photographing Australia’s underground town – Coober Pedy",
+"publisher": "Australian Geographic",
+"url": "https://www.australiangeographic.com.au/history-culture/2023/03/photographing-australias-underground-town-coober-pedy/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "Historical documentation confirms that church excavation was completed in August 1993, volunteers contributed the work, and the complex was carved into sandstone; a contemporary account identifies the volunteer workforce.",
+"sources": [
+{
+"title": "The building of St Elijahs Serbian Orthodox Church in Coober Pedy",
+"publisher": "Coober Pedy Regional Times",
+"url": "https://cooberpedytimes.com/wp-content/uploads/2014/02/coober-pedy-regional-times-28-07-2016.pdf",
+"type": "bao",
+"published": "2016-07-28"
+},
+{
+"title": "Underground Serbian Orthodox Church",
+"publisher": "Explore Outback South Australia",
+"url": "https://exploreoutbacksa.com.au/wp-content/uploads/2024/04/EOSA24_WEB2.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "St Elijah the Prophet Serbian Orthodox Church",
+"publisher": "Churches Australia",
+"url": "https://www.churchesaustralia.org/list-of-churches/denominations/orthodox-all/directory/11088-st-elijah-the-prophet-serbian-orthodox-church",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C21",
+"verdict": "sai",
+"correct_value": "The name Coober Pedy was adopted in 1920 by the Progress Committee, not the Progress and Miners Association. The District Council's first election took place in January 1987, and local government commenced in 1987.",
+"note": "The council's official history confirms the 1920 naming decision but attributes it to the Progress Committee; the 1987 council date is substantially correct.",
+"sources": [
+{
+"title": "History - Opal Capital of the World",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "TIMELINE",
+"publisher": "Coober Pedy Historical Society",
+"url": "https://www.cooberpedyhistoricalsociety.org.au/timeline/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Celebrating 30 Years of the DCCP",
+"publisher": "Coober Pedy Regional Times",
+"url": "https://cooberpedytimes.com/wp-content/uploads/2014/02/coober-pedy-regional-times-18-05-2017.pdf",
+"type": "bao",
+"published": "2017-05-18"
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "The golf club's own history confirms its formation in 1976 and explicitly states that the entire course has no grass.",
+"sources": [
+{
+"title": "History",
+"publisher": "Coober Pedy Opal Fields Golf Club",
+"url": "https://www.cooberpedygolfclub.com.au/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "Australia makes ‘Adventures In Golf’ debut",
+"publisher": "Golf Australia",
+"url": "https://archive.golf.org.au/2021/02/australia-makes-adventures-in-golf-debut/",
+"type": "bao",
+"published": "2018-10-17"
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": null,
+"note": "The club's official history confirms white local sandstone on the fairways, quarry dust mixed with waste oil for the scrapes, and six-inch artificial grass squares used to support fairway shots.",
+"sources": [
+{
+"title": "History",
+"publisher": "Coober Pedy Opal Fields Golf Club",
+"url": "https://www.cooberpedygolfclub.com.au/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "Australia's quirkiest golf courses",
+"publisher": "RAA sa move",
+"url": "https://samove.raa.com.au/australias-quirkiest-golf-courses/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Coober Pedy Opal Fields Golf Club",
+"publisher": "Coober Pedy SA",
+"url": "https://www.cooberpedy.com/coober-pedy-golf-club/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": null,
+"note": "Australian Geographic and RAA independently describe night golf using glowing balls to avoid the extreme daytime heat; the RAA specifically connects the practice to summer temperatures around 40°C.",
+"sources": [
+{
+"title": "Australia's quirkiest golf courses",
+"publisher": "RAA sa move",
+"url": "https://samove.raa.com.au/australias-quirkiest-golf-courses/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Photographing Australia’s underground town – Coober Pedy",
+"publisher": "Australian Geographic",
+"url": "https://www.australiangeographic.com.au/history-culture/2023/03/photographing-australias-underground-town-coober-pedy/",
+"type": "bao",
+"published": null
+}
+]
+}
+]

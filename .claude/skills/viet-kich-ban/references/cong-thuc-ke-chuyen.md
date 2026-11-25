@@ -69,7 +69,7 @@ Không gag về người dân, không gag trong `lich-su-nghiem`.
 
 - **Câu đầu ở hiện tại, cầm một kỷ vật lạ**, vào thẳng (≤ 10 giây): "This is a fish." Kỷ vật là câu hỏi bằng hình. Câu thứ hai nói nơi đó và một con số; câu thứ ba là câu hỏi trung tâm hoặc một câu tỉnh bơ.
 - **Khoảng 30 giây đầu hứa một điều cụ thể** người xem sẽ biết, bằng giọng Wob ("By the end of this trip I understood why five hundred people choose this. It took losing my eyelashes.").
-- **Kết** ở hiện tại: Wob xếp kỷ vật lại, ghép các mảnh "vì sao", đóng con dấu lên trang sổ, một câu hỏi kéo bình luận. **Kết đúng ở chữ cuối**, không câu đệm sau đó. Callback kỷ vật mở tập.
+- **Kết** ở hiện tại: Wob xếp kỷ vật lại, ghép các mảnh "vì sao", đóng con dấu lên trang sổ, một câu hỏi kéo bình luận. Sau câu hỏi là cảnh `duoi` 15–20 giây theo skill `mo-ket` (từ tập 3), không kết cụt ở chữ cuối. Callback kỷ vật mở tập.
 
 ## 6. Ngôi thứ nhất và luật trung thực
 

@@ -1,0 +1,104 @@
+[
+{
+"id": "C41",
+"verdict": "mau-thuan",
+"correct_value": null,
+"note": "The 2010 peer-reviewed etymology study documents competing interpretations, including 'white man's hole', 'boys' waterhole' and a proposed Kukata–Parnkalla linguistic origin, so the exact origin and meaning remain disputed.",
+"sources": [
+{
+"title": "The etymology of Coober Pedy, South Australia",
+"publisher": "Aboriginal History, Australian National University",
+"url": "https://press-files.anu.edu.au/downloads/press/p170581/html/ch09.xhtml?page=10&referer=",
+"type": "goc",
+"published": "2010-01-01"
+},
+{
+"title": "History - Opal Capital of the World",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "Comaum - Cook: Coober Pedy",
+"publisher": "State Library of South Australia, Manning Index",
+"url": "https://manning.collections.slsa.sa.gov.au/pn/c/c10.htm",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C42",
+"verdict": "dung",
+"correct_value": "Opal was discovered in February 1915, and the mining field was established by 1916.",
+"note": "South Australia's official mineral database confirms that opal was discovered in 1915 and the diggings were well established by 1916, although the initial discovery occurred in 1915.",
+"sources": [
+{
+"title": "Mineral Deposit Details: Coober Pedy",
+"publisher": "Government of South Australia, SA Geodata Database",
+"url": "https://minerals.sarig.sa.gov.au/MineralDepositDetails.aspx?DEPOSIT_NO=147",
+"type": "goc",
+"published": null
+},
+{
+"title": "History - Opal Capital of the World",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+"type": "goc",
+"published": null
+},
+{
+"title": "Coober Pedy Community Plan",
+"publisher": "District Council of Coober Pedy",
+"url": "https://cooberpedy.sa.gov.au/__data/assets/pdf_file/0020/148700/Coober_Pedy_Community_Plan.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C43",
+"verdict": "sai",
+"correct_value": "NASA Earth Observatory does not specify a dugout temperature of 23°C in its article.",
+"note": "NASA describes underground living as a way to escape extreme heat but does not state that dugouts maintain 23°C; a separate South Australian government heritage assessment gives 22–23°C.",
+"sources": [
+{
+"title": "Keeping it Cool in the Outback",
+"publisher": "NASA Earth Observatory",
+"url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+"type": "goc",
+"published": "2023-11-20"
+},
+{
+"title": "Heritage Assessment Report",
+"publisher": "Government of South Australia, Department of Environment, Water and Natural Resources",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C44",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 22–23°C in well-built dugouts according to a South Australian government heritage assessment; another local tourism publication gives a broader range of 19–25°C.",
+"note": "The government heritage assessment supports a stable 22–23°C year-round, but a Coober Pedy visitor guide gives a broader 19–25°C range, so 23°C is a reasonable approximation rather than a universal temperature.",
+"sources": [
+{
+"title": "Heritage Assessment Report",
+"publisher": "Government of South Australia, Department of Environment, Water and Natural Resources",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "2024 Visitor Guide: Dugouts Underground Living",
+"publisher": "Coober Pedy Visitor Information Centre",
+"url": "https://www.cooberpedy.com/wp-content/uploads/2024/08/2024-VGuide-Final-Web.pdf",
+"type": "khac",
+"published": "2024-01-01"
+}
+]
+}
+]

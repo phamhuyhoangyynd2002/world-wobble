@@ -51,7 +51,9 @@
     flat: st("M -28 2 C -10 -2 12 8 32 -2", 6),
     smirk: st("M -24 -6 C -4 12 22 8 36 -14", 6),
     grin: '<path d="M -40 -14 C -28 30 28 30 40 -14 Z" fill="' + INK + '" stroke="' + INK + '" stroke-width="6" stroke-linejoin="round"/><path d="M -24 8 C -10 24 12 24 26 8 C 14 0 -12 0 -24 8 Z" fill="' + CHEEK + '"/>',
-    wobbly: st("M -28 4 C -18 -4 -10 8 0 2 C 10 -4 18 8 28 0", 6)
+    wobbly: st("M -28 4 C -18 -4 -10 8 0 2 C 10 -4 18 8 28 0", 6),
+    thang: st("M -22 3 L 22 3", 6),
+    buon: st("M -22 8 C -10 -1 10 -1 22 8", 6)
   };
   var MOUTH_NAMES = Object.keys(MOUTHS);
 

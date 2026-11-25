@@ -1,0 +1,237 @@
+{
+  "assets": {
+    "map-islote": {
+      "file": "assets/ban-do/map-islote.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        -75.859,
+        9.786
+      ],
+      "zoom": 100,
+      "anchor": [
+        1320,
+        560
+      ],
+      "highlight": [
+        "COL"
+      ],
+      "marks": [
+        {
+          "x": 1320,
+          "y": 560,
+          "label": "Santa Cruz del Islote",
+          "lon": -75.859,
+          "lat": 9.786
+        },
+        {
+          "x": 1523,
+          "y": 232,
+          "label": "Cartagena",
+          "lon": -75.479,
+          "lat": 10.391
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        1,
+        15
+      ],
+      "created": "2026-11-25",
+      "da_xem": true,
+      "ghi_chu": "26/11/2026 đã mở xem (Chrome headless → PNG): đảo ở nửa phải (1320,560), Cartagena góc trên phải, COL tô màu nhấn, Panama góc dưới trái; xa Biển Đông. Natural Earth 10m không có đảo nhỏ San Bernardo, chỉ có ghim: thợ dựng vẽ chấm đảo nếu cần."
+    },
+    "map-san-bernardo": {
+      "file": "assets/ban-do/map-san-bernardo.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        -75.68,
+        9.95
+      ],
+      "zoom": 150,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [
+        "COL"
+      ],
+      "marks": [
+        {
+          "x": 817,
+          "y": 673,
+          "label": "Santa Cruz del Islote",
+          "lon": -75.859,
+          "lat": 9.786
+        },
+        {
+          "x": 1121,
+          "y": 182,
+          "label": "Cartagena",
+          "lon": -75.479,
+          "lat": 10.391
+        },
+        {
+          "x": 1038,
+          "y": 886,
+          "label": "Tolú",
+          "lon": -75.582,
+          "lat": 9.524
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        3,
+        13,
+        14
+      ],
+      "created": "2026-11-25",
+      "da_xem": true,
+      "ghi_chu": "26/11/2026 đã mở xem: Cartagena trên, Tolú dưới (bờ vịnh Morrosquillo), Santa Cruz del Islote giữa trái; xa Biển Đông. Bỏ ghim Múcura (cách đảo ~1,5 km, ở tỉ lệ này hai chấm chồng nhau; lời đọc không nhắc Múcura). Đường thuyền nét đứt Cartagena → đảo, nhãn \"~2 h by boat\" do template/thợ dựng vẽ từ toạ độ marks (script bản đồ không vẽ đường). Đảo nhỏ không có trong Natural Earth 10m.",
+      "duong_net_dut": [
+        {
+          "tu": "Cartagena",
+          "den": "Santa Cruz del Islote",
+          "nhan": "~2 h by boat"
+        }
+      ]
+    },
+    "ai-islote-boats": {
+      "file": "assets/ai/ai-islote-boats.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. small wooden fishing boats with outboard motors leaving a tiny crowded island at sunrise, pink calm water, a grey supply boat carrying blue water tanks in the distance Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-islote-boats-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        10,
+        11,
+        14
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26"
+    },
+    "ai-islote-flood": {
+      "file": "assets/ai/ai-islote-flood.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a narrow sandy lane between two rows of small one-storey Caribbean houses with pastel painted walls and tin roofs, shallow calm seawater covering the whole lane and reaching the doorsteps, a striped hammock strung between two wooden posts just above the water, early dawn light, pink sky, empty lane Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1046,
+      "goc": "assets/ai/goc/ai-islote-flood-noibo-s1046.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        12,
+        13
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26"
+    },
+    "ai-islote-aerial": {
+      "file": "assets/ai/ai-islote-aerial.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. high bird's-eye view of one tiny flat round island alone in the open turquoise Caribbean sea, the whole island covered edge to edge with tightly packed small one-storey houses with colourful walls and tin roofs, houses reach the water's edge on every side, no sand, no trees, no hills, no mainland, open sea to the horizon, a few small wooden boats around the island Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 41,
+      "goc": "assets/ai/goc/ai-islote-aerial-noibo-s41.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        1,
+        2,
+        3,
+        8,
+        11,
+        13,
+        14,
+        15
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26"
+    },
+    "ai-islote-lane": {
+      "file": "assets/ai/ai-islote-lane.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a very narrow sandy footpath barely one metre wide between small one-storey tropical Caribbean fishing village houses with flat tin roofs, walls painted bright blue, yellow and pink, a painted mural of a big fish and waves on one wall, open doorways, white plastic chairs by the doors, laundry hanging on a line across the path, harsh midday sun, no cars, no road, empty path Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 67,
+      "goc": "assets/ai/goc/ai-islote-lane-noibo-s67.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26"
+    }
+  }
+}

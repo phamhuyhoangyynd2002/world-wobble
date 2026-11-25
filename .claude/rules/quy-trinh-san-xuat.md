@@ -13,7 +13,7 @@
 
 | Mục | Mặc định |
 |---|---|
-| Khung hình | 1920×1080, 16:9, 30 fps |
+| Khung hình | Tập 4 trở đi **2560×1440**, 16:9, 30 fps: `hoat-hinh/phan-canh.json` ghi `"xuat": {"w": 2560, "h": 1440}`, hệ toạ độ thiết kế vẫn 1920×1080 (chốt 26/11/2026, `templates/hoat-hinh/HOP-DONG.md` mục 4b). Tập 1–3 (không có `xuat`) dựng lại vẫn ra 1920×1080 |
 | Độ dài | 10–15 phút (`target_seconds` = `[600, 900]`) |
 | Hướng nội dung | Giai đoạn 1: chỉ "Why do people live here?" (hồ sơ kênh). Đề tài ngoài hướng này thì hỏi trước |
 | Template | `explainer` |
@@ -65,6 +65,22 @@ Trước khi giao video, Claude tự sửa theo kiểm định và phản biện
 | `out/thumbnail/` | 8 (`/dang-bai`) | Ảnh thumbnail 1280×720 và các phương án |
 | `out/dang/ket-qua.md` | 8 (`/dang-bai`) | Đăng lúc nào, liên kết; dùng để chặn đăng trùng |
 | `so-lieu.md` | sau khi đăng | Số liệu người làm kênh dán vào `/phan-tich-hieu-qua` |
+
+## Nơi lưu file lớn (quy tắc bắt buộc, chốt 24/11/2026)
+
+Repo nằm trong OneDrive ở ổ C và ổ C hay đầy. **Mọi video và file nặng của kênh chỉ để trong một kho: `D:/YouTube/world-wobble/`**. Không tạo thư mục mới ở gốc ổ D, không để video ở Downloads, Desktop hay thư mục tạm của hệ thống.
+
+| Thư mục | Chứa gì |
+|---|---|
+| `video/tap-NN-<slug>/` | Video cuối (`video.mp4`, `video-no-music.mp4`, `captions.srt`, `chapters.txt`, `seo.md`) và bản nháp `ban-nhap-<YYYY-MM-DD>-<ghi chú>.mp4`. Gửi người làm kênh **đường dẫn ở đây**, không gửi link trong repo |
+| `du-an/<thư mục tập>/` | File trung gian lớn (clip đoạn, `hinh.mp4`, `render-raw.mp4`, bản thử) của tập đã giao, giữ đường dẫn tương đối như trong `projects/` |
+| `tmp/` | TMP/TEMP khi render (`export TMP='D:/YouTube/world-wobble/tmp' TEMP=...`); xoá nội dung được khi không render |
+| `README.md` | Quy ước chi tiết, lịch sử chuyển |
+
+- Bản nháp để xem: `python .claude/skills/dung-hoat-hinh/scripts/luu_o_d.py <dự án> --tap NN --nhap "<ghi chú>"`.
+- Tập đã giao: `luu_o_d.py <dự án> --tap NN --giao` (chuyển video cuối và mọi `*.mp4` > 50 MB sang D, xoá bản nháp cũ, ghi `out/VIDEO-O-DIA-D.md`).
+- Trong lúc đang làm một tập, clip đoạn và video ghép ở lại repo để sửa, ghép lại được; dọn sang D ngay khi giao.
+- Không tự xoá thư mục (bị chặn); thư mục cần xoá thì báo người làm kênh xoá tay.
 
 ## Chạy lại và phụ thuộc
 

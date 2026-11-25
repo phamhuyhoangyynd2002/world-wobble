@@ -1,0 +1,1378 @@
+{
+  "vong": 2,
+  "model": "ChatGPT web (model không ghi)",
+  "nguon": "chatgpt-web",
+  "ngay": "2026-11-23",
+  "lo_da_nhan": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "The only road access into Whittier, Alaska, is through the Anton Anderson Memorial Tunnel, which closes overnight.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Anton Anderson Memorial Tunnel is the only land-vehicle route into Whittier and closes to vehicle traffic overnight according to its official operating schedule.",
+      "nguon": [
+        {
+          "title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+          "url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+          "publisher": "Alaska Beacon",
+          "type": "bao",
+          "published": "2025-07-24",
+          "url_song": true
+        },
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "Whittier, Alaska, is a port town on Passage Canal, an inlet of Prince William Sound.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska's official Marine Highway website identifies Whittier as a port community at the head of Passage Canal on the western edge of Prince William Sound.",
+      "nguon": [
+        {
+          "title": "Whittier Alaska Community Page",
+          "url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities – Alaska Marine Highway System",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "City of Whittier, Alaska",
+          "url": "https://www.nps.gov/articles/000/city-of-whittier-alaska.htm",
+          "publisher": "National Park Service",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "Most residents of Whittier, Alaska, live in a single building, Begich Towers.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The city's 2025 economic analysis confirms that most residents live in Begich Towers, although Whittier also has residents in Whittier Manor.",
+      "nguon": [
+        {
+          "title": "Economic Analysis for the Whittier Development Plan",
+          "url": "https://www.whittieralaska.gov/sites/g/files/vyhlif16341/files/media/projects/file/1481/2025-01-23%20Economic%20Analysis%20Final.pdf",
+          "publisher": "City of Whittier",
+          "type": "goc",
+          "published": "2025-01-23",
+          "url_song": true
+        },
+        {
+          "title": "September 2021 Alaska Economic Trends",
+          "url": "https://labor.state.ak.us/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        },
+        {
+          "title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+          "url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+          "publisher": "Alaska Beacon",
+          "type": "bao",
+          "published": "2025-07-24",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "Begich Towers in Whittier, Alaska, is a fourteen-storey building.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The City of Whittier's economic analysis explicitly identifies Begich Towers as a 14-story, 196-unit building.",
+      "nguon": [
+        {
+          "title": "Economic Analysis for the Whittier Development Plan",
+          "url": "https://www.whittieralaska.gov/sites/g/files/vyhlif16341/files/media/projects/file/1481/2025-01-23%20Economic%20Analysis%20Final.pdf",
+          "publisher": "City of Whittier",
+          "type": "goc",
+          "published": "2025-01-23",
+          "url_song": true
+        },
+        {
+          "title": "September 2021 Alaska Economic Trends",
+          "url": "https://labor.state.ak.us/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "The tunnel into Whittier, Alaska, closes to traffic at night.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Alaska DOT schedule confirms that vehicle access ends at night, with winter gates locked at 11:00 p.m. and summer operations ending at 11:15 p.m.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+          "url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+          "publisher": "Alaska Beacon",
+          "type": "bao",
+          "published": "2025-07-24",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "In winter (October 1 to April 30), the Whittier tunnel operates from 7:00 a.m. to 10:45 p.m., and the gate is locked at 11:00 p.m.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official winter schedule explicitly states October 1 through April 30, daily operation from 7:00 a.m. to 10:45 p.m., and gates locked at 11:00 p.m.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "The Whittier tunnel is a single lane shared by cars and trains, with traffic running one direction at a time in alternating fifteen-minute windows.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official schedule confirms alternating 15-minute vehicle departures, while the tunnel's operating documentation confirms that cars and trains take turns using its single shared lane.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Virtual Drive",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/virtualdrive.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tunnel Operations",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/tunoperations.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "statement": "The Anton Anderson Memorial Tunnel through Maynard Mountain is about 2.5 miles (about 4 km) long.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "Approximately 2.5–2.7 miles (4.0–4.35 km), depending on the source.",
+      "ghi_chu": "The Alaska DOT specifies 2.5 miles, the Federal Highway Administration specifies 2.6 miles, and the official Travel Alaska tourism website gives 2.7 miles, so the exact rounded length varies by source.",
+      "nguon": [
+        {
+          "title": "Accomplishments – Anton Anderson Memorial Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/accomplishments.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Project Profile: Anton Anderson Memorial Tunnel",
+          "url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+          "publisher": "Federal Highway Administration",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "6 Things to Do in Whittier",
+          "url": "https://www.travelalaska.com/explore-alaska/articles/6-things-do-whittier",
+          "publisher": "Travel Alaska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "According to the Alaska DOT&PF tunnel schedule, unscheduled trains can delay tunnel traffic by fifteen to thirty minutes.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Alaska DOT&PF schedule explicitly warns that scheduled and unscheduled trains may cause occasional delays of 15 to 30 minutes.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel Schedule",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Tunnel Information",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/assets/mcinfo.pdf",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "Convertibles must have their tops closed to travel through the Whittier tunnel.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF explicitly requires convertible vehicles to have their tops in place while traveling through the tunnel.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel Schedule",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Tunnel Information",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/assets/mcinfo.pdf",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "When temperatures are at or below 32°F (0°C), the Whittier tunnel opens only for the last five minutes of each scheduled opening window.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official winter schedule explicitly states that at temperatures of 32°F or below, the tunnel opens for only the last five minutes of each scheduled opening.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel Schedule",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "In the Whittier tunnel, road vehicles and trains use the same single lane, with the railway set into the roadway.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Federal Highway Administration describes a one-lane combined highway and rail tunnel, while the Whittier Chamber confirms that vehicles travel directly over the railroad track.",
+      "nguon": [
+        {
+          "title": "Project Profile: Anton Anderson Memorial Tunnel",
+          "url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+          "publisher": "Federal Highway Administration",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Webber, A Ferrovial Company",
+          "url": "https://www.whittieralaskachamber.org/community-visitor-services/webber-a-ferrovial-company/",
+          "publisher": "Greater Whittier Chamber of Commerce",
+          "type": "khac",
+          "published": "2024-11-05",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "The Anton Anderson Memorial Tunnel is described as the longest combined rail and highway tunnel in North America.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF describes the Anton Anderson Memorial Tunnel as the longest combined vehicle-railroad tunnel in North America.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Project Profile: Anton Anderson Memorial Tunnel",
+          "url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+          "publisher": "Federal Highway Administration",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "The Whittier tunnel opened to road vehicles in 2000.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The tunnel was converted from an exclusively railroad tunnel and opened to alternating road vehicle traffic in June 2000.",
+      "nguon": [
+        {
+          "title": "Short Closure of Whittier Tunnel Scheduled June 17, 2012",
+          "url": "https://content.govdelivery.com/accounts/AKDOT/bulletins/449971",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tunnel Operations Study",
+          "url": "https://rosap.ntl.bts.gov/view/dot/24400",
+          "publisher": "Federal Highway Administration / National Transportation Library",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Opening of the Whittier Tunnel, 1942-1943",
+          "url": "https://www.cookinlethistoricalsociety.org/articles/opening-of-the-whittier-tunnel-1942-1943",
+          "publisher": "Cook Inlet Historical Society",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "For thousands of years, Chugach (Alutiiq) people used the Whittier area and crossed Portage Pass to trade with Dena'ina Athabascan people on Cook Inlet.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF's historical account states that Chugach Eskimos used the area for thousands of years and crossed Portage Pass and Portage Glacier to trade with Athabaskan Indians around Cook Inlet.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "In the late nineteenth century, gold prospectors hauled sleds over Portage Pass near Whittier.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF confirms that miners and prospectors used Portage Pass in the late nineteenth century, hauling equipment and supplies with pack trains, sleds and pulleys.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "During World War II, the US Army chose the Whittier inlet as a military supply port in Alaska.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The U.S. Army selected Whittier as a strategically located second military port to support wartime supplies and provide an alternative to Seward.",
+      "nguon": [
+        {
+          "title": "Department of the Interior Designated Whittier, Alaska an American World War II Heritage City",
+          "url": "https://www.doi.gov/node/68021",
+          "publisher": "U.S. Department of the Interior",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Draft Integrated Feasibility Report – Appendix E: Cultural Resources",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/publicreview/whittierharbor/AppendixECulturalResourcesdraft.pdf?ver=2018-06-28-152726-213",
+          "publisher": "U.S. Army Corps of Engineers, Alaska District",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "Whittier has a deep-water, ice-free port that can receive ships year-round.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official Alaska transportation sources confirm that Whittier is a deep-water, ice-free port suitable for year-round ship operations.",
+      "nguon": [
+        {
+          "title": "FAQs, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/faq.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Draft Integrated Feasibility Report – Appendix E: Cultural Resources",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/publicreview/whittierharbor/AppendixECulturalResourcesdraft.pdf?ver=2018-06-28-152726-213",
+          "publisher": "U.S. Army Corps of Engineers, Alaska District",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "According to Alaska DOT&PF's tunnel history, shipping on to Seward instead of Whittier added about 52 miles by sea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF's tunnel history explicitly states that traveling to Seward added 52 miles compared with the Whittier route.",
+      "nguon": [
+        {
+          "title": "History, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "Whittier's low clouds and fog helped conceal the port from Japanese aircraft during World War II, and its poor weather reduced the risk of bombing.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT and the U.S. Army Corps of Engineers explicitly identify frequent cloud cover, fog and poor weather as protection against Japanese aircraft bombing during World War II.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Talley at Whittier Tunnel holing",
+          "url": "https://www.poa.usace.army.mil/Media/Images/igphoto/2000757909/",
+          "publisher": "U.S. Army Corps of Engineers, Alaska District",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "FHWA-AK-RD-14-06",
+          "url": "https://dot.alaska.gov/stwddes/research/assets/pdf/fhwa_ak_rd_14_06.pdf",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "The US Army's railway spur to Whittier, including tunnels through Begich Peak and Maynard Mountain, was completed on April 23, 1943.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT and the U.S. Army Corps of Engineers confirm completion on April 23, 1943, including a one-mile tunnel through Begich Peak and a 2.5-mile tunnel through Maynard Mountain.",
+      "nguon": [
+        {
+          "title": "History, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Talley at Whittier Tunnel holing",
+          "url": "https://www.poa.usace.army.mil/Media/Images/igphoto/2000757909/",
+          "publisher": "U.S. Army Corps of Engineers, Alaska District",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "The longer Whittier tunnel is named after Anton Anderson, the Army engineer who led its construction.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Anton Anderson was the Army engineer who headed the construction project, and the tunnel subsequently received his name.",
+      "nguon": [
+        {
+          "title": "History, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Anderson, Anton A.",
+          "url": "https://www.alaskahistory.org/biographies/anderson-anton-a/",
+          "publisher": "Alaska History",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "By the mid-1940s, Whittier's population of soldiers and civilians exceeded 1,000.",
+      "verdict": "dung",
+      "gia_tri_dung": "Over 1,000 people, including military and civilian personnel, by the mid-1940s.",
+      "ghi_chu": "The official Alaska DOT historical account explicitly states that the population swelled to over 1,000 during the mid-1940s as work crews and supply ships arrived.",
+      "nguon": [
+        {
+          "title": "History, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Historic Roads of Alaska: Driving the History of the Last Frontier",
+          "url": "https://dot.alaska.gov/highways/Historic-Roads-of-Alaska_Driving-the-History-of-the-Last-Frontier.pdf",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "After World War II, the US Army built two large buildings in Whittier: the Buckner Building and the Hodge Building.",
+      "verdict": "dung",
+      "gia_tri_dung": "Buckner Building: construction began in 1949 and was completed in 1953-1954. Hodge Building: constructed and opened in 1956-1957.",
+      "ghi_chu": "Both buildings were postwar U.S. Army construction projects, although they were built during the subsequent Cold War military expansion rather than immediately after World War II.",
+      "nguon": [
+        {
+          "title": "The Cold War in Alaska: A Management Plan for Cultural Resources",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/archive/TheColdWarInAlaskaAManagementPlanForCulturalResourcesAug1994a.pdf",
+          "publisher": "U.S. Army Corps of Engineers",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "BUCKNER BUILDING – Hazardous Materials Narrative",
+          "url": "https://dec.alaska.gov/media/4707/2015-bucknerpacp5.pdf",
+          "publisher": "Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "City of Whittier – 2020 Comprehensive Plan",
+          "url": "https://www.whittieralaska.gov/media/1551",
+          "publisher": "City of Whittier",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "The Hodge Building in Whittier, now Begich Towers, is a fourteen-storey concrete building built in three sections between 1953 and 1957.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Hodge Building was a 14-storey structure assembled from three sections between 1953 and 1957; government and Smithsonian sources support its history and construction period.",
+      "nguon": [
+        {
+          "title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+          "url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+          "publisher": "Smithsonian Magazine",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mid-20th Century Architectural Context",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-I29-PURL-gpo91203/pdf/GOVPUB-I29-PURL-gpo91203.pdf",
+          "publisher": "National Park Service / GovInfo",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Alaska District and the Corps of Engineers",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/AKdistrict/jacobs_history_3.pdf",
+          "publisher": "U.S. Army Corps of Engineers",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "Nearly all residents of Whittier, Alaska, live in Begich Towers; sources range from 'most' to 'every resident'.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Government and news sources describe nearly all or most Whittier residents as living in Begich Towers, although not literally every resident lives there.",
+      "nguon": [
+        {
+          "title": "AEA Whittier Chugach Cruise Terminal Electrification Project",
+          "url": "https://www.akenergyauthority.org/Portals/0/About/Board%20Meetings/Documents/2022/2022.08.03/8M.%20%20AEA%20Whittier%20Chugach%20Cruise%20Terminal%20Electrification%20Project-PIDP-05%2016%2022V1.pdf?ver=2022-07-20-101647-093",
+          "publisher": "Alaska Energy Authority",
+          "type": "goc",
+          "published": "2022-05-16",
+          "url_song": null
+        },
+        {
+          "title": "Alaska Economic Trends, September 2021",
+          "url": "https://labor.alaska.gov/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        },
+        {
+          "title": "Living Close for Comfort in Alaska’s 'Town Under One Roof'",
+          "url": "https://www.theepochtimes.com/us/living-close-for-comfort-in-alaskas-town-under-one-roof-5951684",
+          "publisher": "The Epoch Times",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "The 2020 US Census counted about 270 people in Whittier, Alaska (sources give 272 or 278); later estimates are around 250.",
+      "verdict": "dung",
+      "gia_tri_dung": "2020 Census: 272 residents; 2025 Alaska estimate: 247 residents",
+      "ghi_chu": "The Census Bureau confirms 272 residents in 2020, and later Alaska population estimates show 247 in 2025, approximately 250.",
+      "nguon": [
+        {
+          "title": "Whittier city, Alaska - Census Bureau Profile",
+          "url": "https://data.census.gov/profile/Whittier_city%2C_Alaska?g=160XX00US0284510",
+          "publisher": "U.S. Census Bureau",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "State of Alaska Incorporated Places - 2020 Census",
+          "url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas25/tigerweb_bas25_incplace_2020_tab20_ak.html",
+          "publisher": "U.S. Census Bureau",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier city: data profile",
+          "url": "https://northernopportunity.com/places/whittier/",
+          "publisher": "Northern Opportunity",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "Begich Towers in Whittier contains the post office, near the entrance, and the police station.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NPR reporting explicitly confirms that the post office is near the building entrance and the police station is down the hall.",
+      "nguon": [
+        {
+          "title": "Welcome To Whittier, Alaska, A Community Under One Roof",
+          "url": "https://www.wabe.org/welcome-to-whittier-alaska-a-community-under-one-roof/",
+          "publisher": "NPR / WABE",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "September 2021 Alaska Economic Trends",
+          "url": "https://labor.alaska.gov/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "Begich Towers contains a health clinic and a convenience store.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NPR reporting explicitly identifies a health clinic and convenience store inside Begich Towers; Alaska's Department of Labor also documents the building's medical and retail facilities.",
+      "nguon": [
+        {
+          "title": "Welcome To Whittier, Alaska, A Community Under One Roof",
+          "url": "https://www.wabe.org/welcome-to-whittier-alaska-a-community-under-one-roof/",
+          "publisher": "NPR / WABE",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "September 2021 Alaska Economic Trends",
+          "url": "https://labor.alaska.gov/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "Begich Towers also contains a church, city offices, a laundry and a playground.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska Department of Labor documents the church, laundromat and indoor playground, while Alaska Public Media independently confirms the city offices inside the building.",
+      "nguon": [
+        {
+          "title": "September 2021 Alaska Economic Trends",
+          "url": "https://labor.alaska.gov/trends/sep21.pdf",
+          "publisher": "Alaska Department of Labor and Workforce Development",
+          "type": "goc",
+          "published": "2021-09-01",
+          "url_song": true
+        },
+        {
+          "title": "Teaching in the City Under One Roof",
+          "url": "https://alaskapublic.org/2013/11/22/teaching-in-the-city-under-one-roof/",
+          "publisher": "Alaska Public Media",
+          "type": "bao",
+          "published": "2013-11-22",
+          "url_song": true
+        },
+        {
+          "title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+          "url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+          "publisher": "Smithsonian Magazine",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "Whittier's school is across the road from Begich Towers and is reached by an underground tunnel.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska Public Media confirms that the school is across the street and students reach it from the Begich Towers basement through an underground tunnel.",
+      "nguon": [
+        {
+          "title": "Teaching in the City Under One Roof",
+          "url": "https://alaskapublic.org/2013/11/22/teaching-in-the-city-under-one-roof/",
+          "publisher": "Alaska Public Media",
+          "type": "bao",
+          "published": "2013-11-22",
+          "url_song": true
+        },
+        {
+          "title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+          "url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+          "publisher": "Smithsonian Magazine",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The History and Military Significance of Whittier",
+          "url": "https://www.alaskarails.org/historical2/whittier-history/index.html",
+          "publisher": "AlaskaRails",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "The Buckner Building in Whittier was completed in the early 1950s (sources give 1953 or 1954), has six floors and was built for about 1,000 soldiers, with a theatre, a bowling alley and a small clinic (dispensary).",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "Construction began in 1951; completed in 1952 according to USACE history, handed over in August 1953, and described as completed in 1953 by Alaska DEC. Sources differ between six and seven floors and between capacities of approximately 1,000, 1,250, 1,500 and 1,700 people.",
+      "ghi_chu": "The construction date, floor count and intended capacity vary across sources; the theatre, bowling alley and medical facilities are independently documented.",
+      "nguon": [
+        {
+          "title": "The Alaska District and the Corps of Engineers history",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/AKdistrict/jacobs_history_3.pdf",
+          "publisher": "U.S. Army Corps of Engineers, Alaska District",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Site Report: Buckner Building (Whittier)",
+          "url": "https://dec.alaska.gov/Applications/SPAR/PublicMVC/CSP/SiteReport/4151",
+          "publisher": "Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Buckner Building",
+          "url": "https://nehrpsearch.nist.gov/static/files/NSF/PB84241082.pdf",
+          "publisher": "National Institute of Standards and Technology",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Buckner Building Property Assessment & Cleanup Plan",
+          "url": "https://www.shannonwilson.com/projects/192085",
+          "publisher": "Shannon & Wilson, Inc.",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The History and Military Significance of Whittier",
+          "url": "https://www.alaskarails.org/historical2/whittier-history/index.html",
+          "publisher": "Alaska Railroad historical archive",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "The US Army began withdrawing from Whittier around 1960; sources differ on when the military fully left (some say 1960, others 1966).",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "The Army began withdrawing its military presence around 1960, but the transfer and disposal of the facilities continued through 1966–1968.",
+      "ghi_chu": "Sources agree that the Army's operational withdrawal began around 1960 but distinguish this from the later transfer of ownership: an Alaska state environmental report says the port was transferred to the GSA in June 1966, while NOAA records that many buildings remained maintained until 1968.",
+      "nguon": [
+        {
+          "title": "Alaska Community Profiles 2000-2010: Whittier Profile",
+          "url": "https://apps-afsc.fisheries.noaa.gov/REFM/Socioeconomics/Projects/communityprofiles/Whittier_Profile_2000_2010.pdf",
+          "publisher": "NOAA Fisheries",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Property Assessment and Cleanup Plan, Buckner Building, Whittier, Alaska",
+          "url": "https://dec.alaska.gov/media/4707/2015-bucknerpacp5.pdf",
+          "publisher": "Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Cold War in Alaska: A Management Plan for Cultural Resources",
+          "url": "https://www.poa.usace.army.mil/Portals/34/docs/civilworks/archive/TheColdWarInAlaskaAManagementPlanForCulturalResourcesAug1994a.pdf",
+          "publisher": "U.S. Army Corps of Engineers",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Fort Richardson's Cold War History",
+          "url": "https://home.army.mil/alaska/application/files/6315/0912/6115/Fort_Richardson_Cold_War.pdf",
+          "publisher": "U.S. Army",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "History, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "The abandoned Buckner Building in Whittier has missing windows and asbestos inside, and the city has fenced it off.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official environmental assessments confirm missing or damaged windows and suspected asbestos-containing materials, but the searched reliable sources do not establish that the city fenced off the building.",
+      "nguon": [
+        {
+          "title": "Property Assessment and Cleanup Plan",
+          "url": "https://www.whittieralaska.gov/media/2066",
+          "publisher": "City of Whittier / Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Buckner Building",
+          "url": "https://www.whittieralaska.gov/media/2071",
+          "publisher": "Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": "2016-01-27",
+          "url_song": true
+        },
+        {
+          "title": "Site Report: Buckner Building (Whittier)",
+          "url": "https://dec.alaska.gov/Applications/SPAR/PublicMVC/CSP/SiteReport/4151",
+          "publisher": "Alaska Department of Environmental Conservation",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "Average snow depth in Whittier in March is about 47 inches (about 1.2 m), based on 1942–2011 data.",
+      "verdict": "dung",
+      "gia_tri_dung": "47 inches",
+      "ghi_chu": "Alaska DOT&PF explicitly reports average March snow depth of 47 inches for the March 1942–June 2011 period of record.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "statement": "Whittier receives roughly 20 feet (about 6 m) of snow per year; the same Alaska DOT&PF page gives both 241 and 257 inches.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "241 inches in the introductory summary; 257 inches in the detailed climate table",
+      "ghi_chu": "The same official DOT&PF page gives two different annual snowfall figures: 241 inches in its summary and 257 inches in its detailed historical table.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "statement": "Whittier's average annual precipitation is about 196 inches, roughly 5 metres (about 16 feet).",
+      "verdict": "dung",
+      "gia_tri_dung": "196.1 inches annually",
+      "ghi_chu": "The detailed historical table gives 196.1 inches of average annual precipitation, consistent with approximately 5 metres or 16 feet.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "About 5 metres of water is roughly the height of a two-storey house (channel's own comparison based on Whittier's annual precipitation).",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No reliable source was found establishing the two-storey-house comparison; it is an illustrative comparison rather than a verified measurement.",
+      "nguon": []
+    },
+    {
+      "id": "C40",
+      "statement": "According to Alaska DOT&PF, wind at Whittier averages 10–15 mph but often reaches 40–60 mph, with 4–6 foot waves in the middle of Passage Canal.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Alaska DOT&PF explicitly confirms mean hourly winds of 10–15 mph, commonly occurring winds of 40–60 mph and waves of 4–6 feet in central Passage Canal.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "City of Whittier Local Hazard Mitigation Plan",
+          "url": "https://www.whittieralaska.gov/media/711",
+          "publisher": "City of Whittier",
+          "type": "goc",
+          "published": "2022",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C41",
+      "statement": "Average January high temperatures in Whittier, Alaska, are around freezing: about 31°F in DOT&PF data (1942–2011) and about 33°F in NOAA 1991–2020 normals.",
+      "verdict": "dung",
+      "gia_tri_dung": "DOT&PF historical average January maximum: 31.2°F (1942–2011); NOAA 1991–2020 January daily maximum normal: 32.6°F.",
+      "ghi_chu": "Both official datasets support the claim that average January daytime highs are approximately freezing, although the NOAA value is 32.6°F rather than 33°F exactly.",
+      "nguon": [
+        {
+          "title": "Weather, Whittier Tunnel",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation & Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Summary of Monthly Normals, 1991–2020, Station USC00509829",
+          "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL&dataset=normals-monthly-1991-2020&format=pdf&stations=USC00509829",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "statement": "A great earthquake struck southern Alaska (Prince William Sound) on March 27, 1964.",
+      "verdict": "dung",
+      "gia_tri_dung": "March 27, 1964; magnitude 9.2; Prince William Sound region, Alaska.",
+      "ghi_chu": "The USGS confirms that a magnitude 9.2 earthquake struck the Prince William Sound region on March 27, 1964.",
+      "nguon": [
+        {
+          "title": "M9.2 Alaska Earthquake and Tsunami of March 27, 1964",
+          "url": "https://earthquake.usgs.gov/earthquakes/statistics/events/alaska1964/",
+          "publisher": "U.S. Geological Survey",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C43",
+      "statement": "The 1964 earthquake and the waves it generated killed 13 people in Whittier.",
+      "verdict": "dung",
+      "gia_tri_dung": "13 deaths in Whittier.",
+      "ghi_chu": "The USGS historical investigation confirms 13 fatalities and documents destructive landslide-generated waves that contributed to the waterfront disaster.",
+      "nguon": [
+        {
+          "title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+          "url": "https://pubs.usgs.gov/pp/0542b/",
+          "publisher": "U.S. Geological Survey",
+          "type": "goc",
+          "published": "1965-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Variations in population vulnerability to tectonic and landslide-related tsunami hazards in Alaska",
+          "url": "https://link.springer.com/article/10.1007/s11069-014-1399-6",
+          "publisher": "Natural Hazards (Springer)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "statement": "About 70 people lived in Whittier at the time of the 1964 earthquake.",
+      "verdict": "dung",
+      "gia_tri_dung": "70 residents.",
+      "ghi_chu": "The USGS investigation explicitly states that only 70 people were living in Whittier when the earthquake occurred.",
+      "nguon": [
+        {
+          "title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+          "url": "https://dggs.alaska.gov/webpubs/usgs/p/text/p0542b.pdf",
+          "publisher": "U.S. Geological Survey",
+          "type": "goc",
+          "published": "1965-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Variations in population vulnerability to tectonic and landslide-related tsunami hazards in Alaska",
+          "url": "https://link.springer.com/article/10.1007/s11069-014-1399-6",
+          "publisher": "Natural Hazards (Springer)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C45",
+      "statement": "Whittier's waterfront was heavily damaged in 1964, and the port is still in operation today.",
+      "verdict": "dung",
+      "gia_tri_dung": "The waterfront and port facilities suffered extensive destruction in 1964; Whittier subsequently recovered its port operations and has a working harbor today.",
+      "ghi_chu": "The USGS documents the destruction of waterfront facilities, while the Alaska Marine Highway identifies Whittier as a community with a working harbor today.",
+      "nguon": [
+        {
+          "title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+          "url": "https://pubs.usgs.gov/pp/0542b/",
+          "publisher": "U.S. Geological Survey",
+          "type": "goc",
+          "published": "1965-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Whittier Alaska Community Page",
+          "url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+          "publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C46",
+      "statement": "In summer (May 1 to September 30), the Whittier tunnel operates from 5:30 a.m. to 11:15 p.m.",
+      "verdict": "dung",
+      "gia_tri_dung": "May 1 to September 30: open daily from 5:30 a.m. to 11:15 p.m.",
+      "ghi_chu": "The Alaska Department of Transportation officially confirms these summer operating hours for the Whittier tunnel.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C47",
+      "statement": "Cruise ships call at Whittier, and glacier tours leave from Whittier into Prince William Sound.",
+      "verdict": "dung",
+      "gia_tri_dung": "Cruise ships call at Whittier, and day cruises depart from its harbor into Prince William Sound to visit glaciers and observe wildlife.",
+      "ghi_chu": "Travel Alaska confirms cruise ship activity and glacier cruises departing from Whittier into Prince William Sound.",
+      "nguon": [
+        {
+          "title": "Whittier, AK – Things to Do, Recreation, and Travel Information",
+          "url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+          "publisher": "Travel Alaska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Alaska Community Page",
+          "url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+          "publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C48",
+      "statement": "Halibut and salmon fishing and sea kayaking are popular visitor activities in Whittier.",
+      "verdict": "dung",
+      "gia_tri_dung": "Halibut and salmon fishing and kayaking are established visitor activities in Whittier.",
+      "ghi_chu": "Travel Alaska explicitly describes fishing for halibut and salmon as a popular summer activity, while the Alaska Marine Highway lists kayaking among Whittier's recreational opportunities.",
+      "nguon": [
+        {
+          "title": "Whittier, AK – Things to Do, Recreation, and Travel Information",
+          "url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+          "publisher": "Travel Alaska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Alaska Community Page",
+          "url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+          "publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Things To Do In Whittier Alaska",
+          "url": "https://www.whittieralaskachamber.org/things-to-do-in-whittier-alaska/",
+          "publisher": "Whittier Chamber of Commerce",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C49",
+      "statement": "The Portage Pass trail from Whittier runs about two miles toward Portage Lake, over a historic route across the mountains.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The trail is approximately two miles one way to Portage Lake, and the City of Whittier confirms that its historic route was used by Alaska Natives, Russian fur traders, and early settlers.",
+      "nguon": [
+        {
+          "title": "Whittier, AK | Things to Do, Recreation, & Travel Information",
+          "url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+          "publisher": "Travel Alaska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "2020 Comprehensive Plan – Trails",
+          "url": "https://www.whittieralaska.gov/media/1551",
+          "publisher": "City of Whittier, Alaska",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Wildlife Viewing Guide",
+          "url": "https://www.newsrelease.adfg.alaska.gov/static/viewing/pdfs/whittier.pdf",
+          "publisher": "Alaska Department of Fish and Game",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C50",
+      "statement": "In October 2026, the National Park Service designated Whittier, Alaska, an American World War II Heritage City; the designation goes to one city per state.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Department of the Interior announced Whittier's designation on October 2, 2026, and the National Park Service confirmed it on October 16; legislation limits the designation to one city or local jurisdiction per state or territory.",
+      "nguon": [
+        {
+          "title": "Department of the Interior Designated Whittier, Alaska an American World War II Heritage City",
+          "url": "https://www.doi.gov/pressreleases/department-interior-designated-whittier-alaska-american-world-war-ii-heritage-city",
+          "publisher": "U.S. Department of the Interior",
+          "type": "goc",
+          "published": "2026-10-02",
+          "url_song": true
+        },
+        {
+          "title": "National Park Service Designates New American World War II Heritage Cities",
+          "url": "https://www.nps.gov/orgs/1207/nps-designates-new-wwii-heritage-cities.htm",
+          "publisher": "National Park Service",
+          "type": "goc",
+          "published": "2026-10-16",
+          "url_song": true
+        },
+        {
+          "title": "U.S. Code, Title 36 – American World War II Heritage Cities",
+          "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title36/html/USCODE-2021-title36-subtitleI-partA.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C51",
+      "statement": "Whittier receives roughly 20 feet of snow per year (sources give 241 or 257 inches).",
+      "verdict": "dung",
+      "gia_tri_dung": "241 inches annually (approximately 20.1 feet)",
+      "ghi_chu": "The Alaska Department of Transportation reports average annual snowfall of 241 inches, supporting the roughly 20-foot figure; the alternative 257-inch figure was not independently verified in this search.",
+      "nguon": [
+        {
+          "title": "Whittier Weather",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "2022 City of Whittier Local Hazard Mitigation Plan",
+          "url": "https://www.whittieralaska.gov/media/711",
+          "publisher": "City of Whittier, Alaska",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C52",
+      "statement": "From May through September the Whittier tunnel runs its summer schedule until 11:15 p.m., and Whittier is a base for glacier tours, fishing and hiking.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official summer tunnel schedule runs May 1 through September 30, with the final scheduled opening ending at 11:15 p.m.; Alaska's official tourism and transportation sources confirm glacier cruises, fishing, and hiking opportunities from Whittier.",
+      "nguon": [
+        {
+          "title": "Whittier Tunnel – Schedules and Hours of Operation",
+          "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+          "publisher": "Alaska Department of Transportation and Public Facilities",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier Alaska Community Page",
+          "url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+          "publisher": "Alaska Marine Highway System",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Whittier, AK | Things to Do, Recreation, & Travel Information",
+          "url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+          "publisher": "Travel Alaska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "ghi_chu": "giao diện web miễn phí, không tính token"
+  },
+  "ghi_chu_sua": "24/11: sửa model/nguon theo nhat-ky.md 23/11 (vòng 2 chạy qua ChatGPT web, tài khoản hiện tại được phép)"
+}

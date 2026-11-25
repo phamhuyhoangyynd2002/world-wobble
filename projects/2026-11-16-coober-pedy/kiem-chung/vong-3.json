@@ -1,0 +1,30 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-22",
+  "ket_qua": [
+    {"id": "C16", "statement": "Dugout dwellings appeared beside the earliest Coober Pedy opal mines between about 1915 and 1918.", "verdict": "dung", "gia_tri_dung": null,
+     "ghi_chu": "Báo cáo di sản SA (Crocodile Harry's Dugout): 'earliest mines, 1915-1918' và 'likely that during this time the nominated hand-dug Dugout... were constructed' (đọc qua đoạn trích tìm kiếm; PDF không giải mã được). Chữ 'likely' nên lời đọc phải dè dặt. ĐỀ XUẤT: giữ, nói dè dặt: 'The first miners probably started digging homes into the hills within a few years of the find.' Không nói năm chính xác của dugout đầu tiên.",
+     "nguon": [{"title": "Heritage Assessment Report (Crocodile Harry's Dugout)", "publisher": "SA Department for Environment and Water", "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf", "type": "goc", "published": null}]},
+    {"id": "C21", "statement": "The name Coober Pedy was adopted in 1920 (by the local Progress and Miners Association), and the District Council of Coober Pedy was established in 1987.", "verdict": "mau-thuan", "gia_tri_dung": null,
+     "ghi_chu": "Năm 1920 có ở lịch sử của hội đồng (qua Wikipedia trích Council History) và southaustralianhistory.com.au ('local Progress Committee'); Wikipedia ghi 'Progress and Miners Association'; báo cáo di sản SA ghi 1922. Hội đồng 1987 (bầu cử đầu tiên 1987) thống nhất. Trang hội đồng và Britannica trả 403, không tự mở được. ĐỀ XUẤT: bỏ tên tổ chức; nói 'around nineteen twenty, the miners' local committee picked the name' (hedged: true), giữ 1987 nếu cần.",
+     "nguon": [{"title": "Coober Pedy", "publisher": "South Australian History Hub (southaustralianhistory.com.au)", "url": "https://southaustralianhistory.com.au/cooberpedy.htm", "type": "khac", "published": null},
+               {"title": "District Council of Coober Pedy", "publisher": "Wikipedia (trích Coober Pedy District Council, History)", "url": "https://en.wikipedia.org/wiki/District_Council_of_Coober_Pedy", "type": "bach-khoa", "published": null}]},
+    {"id": "C34", "statement": "Warning signs about unmarked mine shafts are posted widely around the Coober Pedy opal fields.", "verdict": "dung", "gia_tri_dung": null,
+     "ghi_chu": "ABC 2006: thị trưởng nói có cảnh báo trên hàng rào quanh mỏ và 'warnings posted at each access point'. Nguồn là lời thị trưởng, cũ (2006). ĐỀ XUẤT: sửa nhẹ cho khớp nguồn: 'Warning signs stand at the entrances to the opal fields' thay cho 'everywhere/widely'.",
+     "nguon": [{"title": "Coober Pedy mine security is adequate: Mayor", "publisher": "ABC News", "url": "https://www.abc.net.au/news/2006-08-15/coober-pedy-mine-security-is-adequate-mayor/1239194", "type": "bao", "published": "2006-08-15"}]},
+    {"id": "C36", "statement": "SafeWork SA advises people in the Coober Pedy opal fields to watch their step and warns against walking the fields at night.", "verdict": "mau-thuan", "gia_tri_dung": null,
+     "ghi_chu": "Trang SafeWork SA trả 403 ở vòng này. Tiêu đề cảnh báo là 'Mind your step in opal fields' (khớp 'watch their step'); đoạn trích tìm kiếm nói đi tìm opal ban đêm làm tăng nguy cơ rơi, nhưng không thấy câu khuyên rõ 'đừng đi ban đêm'. ĐỀ XUẤT: bỏ vế 'warns against walking at night'; nói 'After that fall, SafeWork SA put out an alert titled Mind your step in opal fields, noting that searching at night raises the risk.'",
+     "nguon": [{"title": "Mind your step in opal fields (07/02/2024) - đoạn trích kết quả tìm kiếm, trang trả 403", "publisher": "SafeWork SA", "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields", "type": "goc", "published": "2024-02-07"}]},
+    {"id": "C43", "statement": "Coober Pedy dugouts stay at about 23°C, according to NASA Earth Observatory.", "verdict": "dung", "gia_tri_dung": null,
+     "ghi_chu": "Đã mở trang NASA: 'In these homes, hotels, and restaurants, the temperature remains an almost constant 23°C (73°F).' Vòng 2 sai. ĐỀ XUẤT: giữ nguyên.",
+     "nguon": [{"title": "Keeping it Cool in the Outback", "publisher": "NASA Earth Observatory", "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/", "type": "goc", "published": null}]}
+  ],
+  "de_xuat_khac": {
+    "C15": "Mức D: bỏ hẳn 'carved sandstone with swirl marks left by tunnelling machines'; nếu cần hình, chỉ vẽ tường đá không lời khẳng định.",
+    "C20": "Giữ 'dug in 1993' (nhà thờ St Elijah), bỏ 'by hand' và 'volunteers carving'; nói 'dug into the rock in nineteen ninety-three'.",
+    "C40": "Giữ ngày 11/5/2011 và 78.672 km²; đổi 'including the town' thành 'an area that takes in Coober Pedy, with some town blocks left out' hoặc bỏ vế thị trấn; hedged: true.",
+    "C41": "Nói dè dặt: 'The name is usually said to come from local Aboriginal words, often translated as white man's hole, though the exact meaning is debated.' hedged: true.",
+    "C44": "Đổi 'around 23°C year-round' thành 'NASA puts it at about twenty-three Celsius; residents say about twenty-four' hoặc 'low to mid twenties'; hedged: true. Hoặc gộp với C43 để chỉ có một con số kèm nguồn."
+  }
+}

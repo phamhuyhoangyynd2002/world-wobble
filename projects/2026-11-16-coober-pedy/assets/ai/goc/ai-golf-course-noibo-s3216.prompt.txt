@@ -1,0 +1,4 @@
+Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. flat red outback desert golf course, bare red dirt and white gravel fairway, one small round dark sand putting green with a tiny pin, low eucalyptus shrubs and saltbush tufts, distant pale dirt mounds, wide flat horizon, sunset, no cactus, no grass, no people Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.
+NEGATIVE: photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro
+SEED: 3216
+MODEL: sd_xl_base_1.0.safetensors

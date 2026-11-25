@@ -1,0 +1,1682 @@
+{
+ "so_ung_vien": 1274,
+ "da_loai": {
+  "cau_mo": 91,
+  "it_tu": 2,
+  "khung_trong": 0
+ },
+ "chon": [
+  {
+   "start": 11.42,
+   "end": 48.15,
+   "duration": 36.7,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold."
+  },
+  {
+   "start": 81.43,
+   "end": 138.92,
+   "duration": 57.5,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty."
+  },
+  {
+   "start": 181.04,
+   "end": 213.33,
+   "duration": 32.3,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C19"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost."
+  },
+  {
+   "start": 281.07,
+   "end": 322.9,
+   "duration": 41.8,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot."
+  },
+  {
+   "start": 407.69,
+   "end": 448.98,
+   "duration": 41.3,
+   "chapter": "A Day Inside the Freezer",
+   "claims": [
+    "C26",
+    "C29"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I asked for a bag.",
+   "tu_trong_5s": 21,
+   "teaser": {
+    "tu": 419.94,
+    "den": 421.1,
+    "cau": "Yes."
+   },
+   "text": "I asked for a bag. The fish did not need a bag. The fish could stand up on its own. That's when it clicked. In winter, the village itself is the freezer. I carried my fish home on my shoulder, like a plank. Yes. This fish. Afternoon. I needed a bathroom. Beneath the surface the ground is permafrost, frozen all year, which makes ordinary water pipes very hard to keep working. Many homes use outdoor toilets. I looked at the path to the outhouse for a long time. I made a decision. I waited. On the way back, I passed the school. According to Russian news reports, younger pupils in the district get the day off when it reaches around minus fifty-two."
+  }
+ ],
+ "tat_ca": [
+  {
+   "start": 11.42,
+   "end": 48.15,
+   "duration": 36.7,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold."
+  },
+  {
+   "start": 81.43,
+   "end": 138.92,
+   "duration": 57.5,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty."
+  },
+  {
+   "start": 81.43,
+   "end": 125.0,
+   "duration": 43.6,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one."
+  },
+  {
+   "start": 81.43,
+   "end": 126.6,
+   "duration": 45.2,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice."
+  },
+  {
+   "start": 81.43,
+   "end": 127.6,
+   "duration": 46.2,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming."
+  },
+  {
+   "start": 81.43,
+   "end": 128.96,
+   "duration": 47.5,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map."
+  },
+  {
+   "start": 81.43,
+   "end": 130.55,
+   "duration": 49.1,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down."
+  },
+  {
+   "start": 81.43,
+   "end": 137.04,
+   "duration": 55.6,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard."
+  },
+  {
+   "start": 281.07,
+   "end": 322.9,
+   "duration": 41.8,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot."
+  },
+  {
+   "start": 281.07,
+   "end": 324.03,
+   "duration": 43.0,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl."
+  },
+  {
+   "start": 281.07,
+   "end": 325.51,
+   "duration": 44.4,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out."
+  },
+  {
+   "start": 281.07,
+   "end": 326.71,
+   "duration": 45.6,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out. Up there it's warmer."
+  },
+  {
+   "start": 281.07,
+   "end": 328.24,
+   "duration": 47.2,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out. Up there it's warmer. Up there it's also a mountain."
+  },
+  {
+   "start": 281.07,
+   "end": 329.44,
+   "duration": 48.4,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 15.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out. Up there it's warmer. Up there it's also a mountain. I stayed in the bowl."
+  },
+  {
+   "start": 11.42,
+   "end": 44.5,
+   "duration": 33.1,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there."
+  },
+  {
+   "start": 11.42,
+   "end": 50.36,
+   "duration": 38.9,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking."
+  },
+  {
+   "start": 90.89,
+   "end": 144.32,
+   "duration": 53.4,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty. Reindeer herders stopped at the springs to water their animals and rest before long journeys."
+  },
+  {
+   "start": 181.04,
+   "end": 213.33,
+   "duration": 32.3,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C19"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost."
+  },
+  {
+   "start": 181.04,
+   "end": 220.79,
+   "duration": 39.8,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number."
+  },
+  {
+   "start": 181.04,
+   "end": 235.99,
+   "duration": 54.9,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers. I decided Verkhoyansk could keep its half. Then it got complicated."
+  },
+  {
+   "start": 81.43,
+   "end": 119.28,
+   "duration": 37.8,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same."
+  },
+  {
+   "start": 81.43,
+   "end": 123.59,
+   "duration": 42.2,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter."
+  },
+  {
+   "start": 281.07,
+   "end": 314.29,
+   "duration": 33.2,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out."
+  },
+  {
+   "start": 281.07,
+   "end": 321.06,
+   "duration": 40.0,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor."
+  },
+  {
+   "start": 3.48,
+   "end": 35.59,
+   "duration": 32.1,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there."
+  },
+  {
+   "start": 3.48,
+   "end": 36.56,
+   "duration": 33.1,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it."
+  },
+  {
+   "start": 3.48,
+   "end": 37.5,
+   "duration": 34.0,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why?"
+  },
+  {
+   "start": 3.48,
+   "end": 40.09,
+   "duration": 36.6,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist."
+  },
+  {
+   "start": 3.48,
+   "end": 41.24,
+   "duration": 37.8,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in."
+  },
+  {
+   "start": 3.48,
+   "end": 48.15,
+   "duration": 44.7,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold."
+  },
+  {
+   "start": 11.42,
+   "end": 55.84,
+   "duration": 44.4,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking. Getting there took a plane, then a very long drive, then more of the drive."
+  },
+  {
+   "start": 11.42,
+   "end": 59.89,
+   "duration": 48.5,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C25",
+    "C41",
+    "C42"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking. Getting there took a plane, then a very long drive, then more of the drive. My map was upside down for most of it. I arrived in late December."
+  },
+  {
+   "start": 81.43,
+   "end": 116.4,
+   "duration": 35.0,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why is there a village here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 92.68,
+    "den": 94.34,
+    "cau": "The river tapped back."
+   },
+   "text": "Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha."
+  },
+  {
+   "start": 90.89,
+   "end": 138.92,
+   "duration": 48.0,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard. You don't stop there because it's pretty."
+  },
+  {
+   "start": 181.04,
+   "end": 223.52,
+   "duration": 42.5,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record."
+  },
+  {
+   "start": 181.04,
+   "end": 227.31,
+   "duration": 46.3,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed."
+  },
+  {
+   "start": 181.04,
+   "end": 230.04,
+   "duration": 49.0,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers."
+  },
+  {
+   "start": 181.04,
+   "end": 233.27,
+   "duration": 52.2,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers. I decided Verkhoyansk could keep its half."
+  },
+  {
+   "start": 186.59,
+   "end": 220.79,
+   "duration": 34.2,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number."
+  },
+  {
+   "start": 186.59,
+   "end": 235.99,
+   "duration": 49.4,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers. I decided Verkhoyansk could keep its half. Then it got complicated."
+  },
+  {
+   "start": 281.07,
+   "end": 336.34,
+   "duration": 55.3,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C10",
+    "C11",
+    "C12",
+    "C20"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "Why is it this cold here at all?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 305.5,
+    "den": 306.93,
+    "cau": "Cold air is heavy."
+   },
+   "text": "Why is it this cold here at all? Oymyakon isn't even inside the Arctic Circle. It sits a few degrees of latitude south of it. The reason is boring and brilliant. In winter, a huge, stable zone of high pressure called the Siberian High settles over this part of Asia. It brings clear, dry skies, and clear skies let the ground lose its heat straight up into space. Then there's the valley. Cold air is heavy. It slides downhill and pools on the valley floor, like water in a bowl, while the mountains around it keep warmer air out. Researchers measuring this valley have found the mountain slopes above it can be far warmer in winter than the valley floor. So the cold isn't a spot. It's the whole bowl. I thought about climbing out. Up there it's warmer. Up there it's also a mountain. I stayed in the bowl. I'm going to put the fish down for this part. The same era brought something much darker to this region."
+  },
+  {
+   "start": 90.89,
+   "end": 125.0,
+   "duration": 34.1,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one."
+  },
+  {
+   "start": 90.89,
+   "end": 126.6,
+   "duration": 35.7,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice."
+  },
+  {
+   "start": 90.89,
+   "end": 127.6,
+   "duration": 36.7,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming."
+  },
+  {
+   "start": 90.89,
+   "end": 128.96,
+   "duration": 38.1,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map."
+  },
+  {
+   "start": 90.89,
+   "end": 130.55,
+   "duration": 39.7,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down."
+  },
+  {
+   "start": 90.89,
+   "end": 137.04,
+   "duration": 46.1,
+   "chapter": "The Water That Wouldn't Freeze",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I tapped the river with a stick.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 108.76,
+    "den": 111.05,
+    "cau": "Linguists argue about the roots."
+   },
+   "text": "I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter. So I went looking for one. I walked past it twice. It was steaming. I was reading my map. My map was upside down. Picture a single gas station on an empty highway, at night, in a blizzard."
+  },
+  {
+   "start": 181.04,
+   "end": 211.89,
+   "duration": 30.9,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C19"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year."
+  },
+  {
+   "start": 181.04,
+   "end": 212.66,
+   "duration": 31.6,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C19"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 3 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Why a monument?",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "Why a monument? Because the record that made Oymyakon famous came from the local weather station in nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well."
+  },
+  {
+   "start": 3.48,
+   "end": 44.5,
+   "duration": 41.0,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there."
+  },
+  {
+   "start": 3.48,
+   "end": 50.36,
+   "duration": 46.9,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C01",
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 3 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "My eyelashes froze.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "My eyelashes froze. I didn't know I had eyelashes. My camera took one look at the weather and switched itself off. This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking."
+  },
+  {
+   "start": 11.42,
+   "end": 58.18,
+   "duration": 46.8,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C41",
+    "C42"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking. Getting there took a plane, then a very long drive, then more of the drive. My map was upside down for most of it."
+  },
+  {
+   "start": 11.42,
+   "end": 64.02,
+   "duration": 52.6,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C25",
+    "C41",
+    "C42"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking. Getting there took a plane, then a very long drive, then more of the drive. My map was upside down for most of it. I arrived in late December. Around then, the sun is up for only about four and a half hours a day."
+  },
+  {
+   "start": 11.42,
+   "end": 66.39,
+   "duration": 55.0,
+   "chapter": "The Fish in My Freezer",
+   "claims": [
+    "C02",
+    "C03",
+    "C24",
+    "C25",
+    "C41",
+    "C42"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "This is a fish.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 33.19,
+    "den": 35.49,
+    "cau": "Roughly five hundred people live there."
+   },
+   "text": "This is a fish. I bought it in that village. It stands up on its own. The village is Oymyakon, often called the coldest permanently inhabited place on Earth. In nineteen thirty-three, its weather station recorded about minus sixty-eight Celsius. That's about minus ninety Fahrenheit. In July twenty ten, the same station hit plus thirty-four. Roughly five hundred people live there. They chose it. Why? I didn't go as a tourist. I went to move in. By the end of the trip, I knew why people really live there. The answer is written in the village's name, and it isn't the cold. I also knew whether I was unpacking. Getting there took a plane, then a very long drive, then more of the drive. My map was upside down for most of it. I arrived in late December. Around then, the sun is up for only about four and a half hours a day. I arrived during one of the hours it wasn't."
+  },
+  {
+   "start": 66.12,
+   "end": 119.28,
+   "duration": 53.2,
+   "chapter": "Getting There",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C24"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "January averages around minus forty-six Celsius.",
+   "tu_trong_5s": 11,
+   "teaser": {
+    "tu": 83.1,
+    "den": 85.76,
+    "cau": "Somebody picked this spot, on purpose."
+   },
+   "text": "January averages around minus forty-six Celsius. Call it minus fifty-one Fahrenheit. The sign at the edge of the village was very small. So was the village. That's where I took the photo. Standing by that tiny sign, I had a question. Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same."
+  },
+  {
+   "start": 66.12,
+   "end": 123.59,
+   "duration": 57.5,
+   "chapter": "Getting There",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C24"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "January averages around minus forty-six Celsius.",
+   "tu_trong_5s": 11,
+   "teaser": {
+    "tu": 83.1,
+    "den": 85.76,
+    "cau": "Somebody picked this spot, on purpose."
+   },
+   "text": "January averages around minus forty-six Celsius. Call it minus fifty-one Fahrenheit. The sign at the edge of the village was very small. So was the village. That's where I took the photo. Standing by that tiny sign, I had a question. Why is there a village here at all? Somebody picked this spot, on purpose. I had guesses. My first guess was the view. It was dark. My second guess was fishing. I tapped the river with a stick. The river tapped back. My third guess was that nobody checked the weather before moving in. I liked my third guess. My third guess was wrong. Turns out the answer was hiding in the name. Oymyakon is usually explained as meaning water that does not freeze. Linguists argue about the roots. Some sources trace the word to the Even language, while others point to Sakha. But the story told about this valley is the same. Nearby there were warm springs, water that stayed open through the winter."
+  },
+  {
+   "start": 186.59,
+   "end": 223.52,
+   "duration": 36.9,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record."
+  },
+  {
+   "start": 186.59,
+   "end": 227.31,
+   "duration": 40.7,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed."
+  },
+  {
+   "start": 186.59,
+   "end": 230.04,
+   "duration": 43.5,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers."
+  },
+  {
+   "start": 186.59,
+   "end": 233.27,
+   "duration": 46.7,
+   "chapter": "Two Villages, One Thermometer",
+   "claims": [
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 3 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "nineteen thirty-three.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 195.11,
+    "den": 199.58,
+    "cau": "Guinness World Records lists it as minus sixty-seven point seven."
+   },
+   "text": "nineteen thirty-three. On the sixth of February, it recorded about minus sixty-eight degrees Celsius. That's about minus ninety Fahrenheit. Guinness World Records lists it as minus sixty-seven point seven. The World Meteorological Organization lists minus sixty-seven point eight. So even the number comes with an argument. Either way, it's the lowest temperature on record for a place where people live all year. Well. Almost. Far to the northwest, the town of Verkhoyansk has its own reading from eighteen ninety-two, of about the same number. Some sources say the two towns share the record. Others treat the Verkhoyansk reading as disputed. I measured the distance on my map with my fingers. I decided Verkhoyansk could keep its half."
+  }
+ ]
+}

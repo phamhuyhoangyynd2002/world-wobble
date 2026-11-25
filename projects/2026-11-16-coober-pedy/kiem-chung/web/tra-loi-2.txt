@@ -1,0 +1,138 @@
+Gemini đã nói
+
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "The South Australian Department of State Development (SARIG) confirms Coober Pedy opal is hosted in weathered Early Cretaceous (Aptian–Albian) marine Bulldog Shale within the Eromanga Basin, and 40Ar/39Ar dating of associated alunite in Report Book 2015/00007 yielded ages of 15.71 to 12.37 Ma (about 12 to 16 million years ago).",
+"sources": [
+{
+"title": "Mineral Deposit Details - Coober Pedy Opalfield",
+"publisher": "Government of South Australia, Department for Energy and Mining (SARIG)",
+"url": "https://minerals.sarig.sa.gov.au/MineralDepositDetails.aspx?DEPOSIT_NO=147",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": null,
+"note": "Under South Australia's Opal Mining Act 1995, prospecting or pegging a claim requires a paid Precious Stones Prospecting Permit, whereas recreational hand 'fossicking' (noodling without machinery/explosives) is excluded from 'mining operations'—leading tourist operators and guides to state that casual noodling is free (or only subject to private pit fees) while mining rules require a permit.",
+"sources": [
+{
+"title": "Opal Mining Act 1995",
+"publisher": "South Australian Legislation",
+"url": "https://www.legislation.sa.gov.au/__legislation/lz/c/a/opal%20mining%20act%201995/current/1995.102.auth.pdf",
+"type": "goc",
+"published": "2021-01-01"
+},
+{
+"title": "Frequently asked questions | How to mine for opal in SA",
+"publisher": "Department for Energy and Mining, South Australia",
+"url": "https://energymining.sa.gov.au/industry/minerals-and-mining/mining/opal-mining/how-to-mine-for-opal-in-sa/frequently_asked_questions",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": null,
+"note": "Multiple reliable sources, including CNET and BBC reporting, confirm that Coober Pedy dugouts are excavated horizontally into hillsides with facades/entrances on the slope and vertical ventilation shafts sticking up above ground to supply fresh air and let moisture escape.",
+"sources": [
+{
+"title": "Living on the edge: Life off the grid in Australia's most extreme town",
+"publisher": "CNET",
+"url": "https://www.cnet.com/pictures/life-off-the-grid-in-coober-pedy-australia-extreme-town/",
+"type": "bao",
+"published": "2018-08-11"
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": null,
+"note": "NASA Earth Observatory's November 20, 2023 feature 'Keeping it Cool in the Outback' states that underground homes, hotels, and restaurants in Coober Pedy remain at 'an almost constant 23°C (73°F)'.",
+"sources": [
+{
+"title": "Keeping it Cool in the Outback",
+"publisher": "NASA Earth Observatory",
+"url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+"type": "goc",
+"published": "2023-11-20"
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": null,
+"note": "Official Coober Pedy tourism/community information and resident accounts report that dugouts maintain a steady, comfortable year-round temperature in the 23°C–25°C (around 24°C) range day and night without needing air conditioning or heating.",
+"sources": [
+{
+"title": "Underground Living In “Dugouts”",
+"publisher": "Coober Pedy SA",
+"url": "https://www.cooberpedy.com/underground-living-dugouts/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "dung",
+"correct_value": null,
+"note": "NASA Earth Observatory and local accommodation operators confirm that Coober Pedy features underground hotels and motels carved into the rock.",
+"sources": [
+{
+"title": "Keeping it Cool in the Outback",
+"publisher": "NASA Earth Observatory",
+"url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+"type": "goc",
+"published": "2023-11-20"
+},
+{
+"title": "The Underground Motel | Coober Pedy Accommodation",
+"publisher": "The Underground Motel",
+"url": "https://theundergroundmotel.com.au/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Government heritage assessments confirm Coober Pedy dugouts are excavated into stable sandstone and modern ones use tunnelling machines, but no authoritative source in this search confirmed the specific detail about 'swirl marks' left on the walls.",
+"sources": [
+{
+"title": "Crocodile Harry's Dugout - South Australian Heritage Register Assessment",
+"publisher": "Government of South Australia, Department for Environment and Water",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": null,
+"note": "The South Australian Heritage Register assessment notes that Coober Pedy's earliest mines operated between 1915 and 1918, most early miners lived in dugouts rather than tents, and the earliest dugout is thought to have been constructed in 1915.",
+"sources": [
+{
+"title": "Crocodile Harry's Dugout - South Australian Heritage Register Assessment",
+"publisher": "Government of South Australia, Department for Environment and Water",
+"url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]

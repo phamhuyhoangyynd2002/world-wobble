@@ -1,0 +1,1324 @@
+{
+  "title": "These Homes Are Holes in the Ground. On Purpose.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Matmata",
+    "country": "Tunisia",
+    "lat": 33.543,
+    "lon": 9.967
+  },
+  "question": "Why do people live in Matmata?",
+  "message": "This video tells curious adults that Amazigh families in southern Tunisia built homes around deep pits in the ground because the earth keeps them cool in summer, warm in winter and hidden from view, and that a few families still choose to live that way.",
+  "angle": "People live in Matmata because Amazigh families learned to dig homes around open pits in soft rock that stay cool in summer, sheltered in winter and easy to defend, and some still stay because the homes are their tradition and tourism helps keep them, despite floods that collapsed many homes, a government push to move to new towns and water that once came by camel.",
+  "hook_type": "wob-hanh-dong",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-matmata": "Bản đồ D3 khung Tunisia, tô TUN, ghim Matmata 33.543, 9.967 ở nửa phải khung; nhãn 'Matmata'",
+    "map-tunis-matmata": "Bản đồ Tunisia: ghim Tunis 36.806, 10.181 và Matmata; đường nét đứt; nhãn '~365 km'; ghim Gabès 33.881, 10.098"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "A Piece of My Bedroom Wall",
+      "lop": "hien-tai",
+      "role": "hook: Wob cầm mẩu vách đất vàng của phòng ngủ dưới đất; câu hỏi",
+      "narration": "This is a piece of my bedroom wall. I scraped it off with a spoon. In southern Tunisia, some families live in rooms carved around a hole in the ground. I went to see why.",
+      "pronunciation": "Matmata: mat-MAH-tah; Amazigh: ah-mah-ZEEG",
+      "on_screen_text": "HOMES IN A HOLE?",
+      "y_hinh": [
+        {
+          "cue": "This is a piece of my bedroom wall",
+          "y": "Bàn kỷ vật dưới đèn; Wob giơ một mẩu đất đá vàng nhạt, phủ bụi"
+        },
+        {
+          "cue": "I scraped it off with a spoon",
+          "y": "Wob giơ chiếc thìa cong queo",
+          "gag": "Wob gõ thìa vào mẩu đá, một chút bụi rơi lên mũi, Wob hắt xì, mẩu đá vỡ đôi"
+        },
+        {
+          "cue": "rooms carved around a hole in the ground",
+          "y": "Trang sổ mở bản đồ Tunisia, chấm Matmata ở nửa phải khung"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "In southern Tunisia",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is a piece of my bedroom wall",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I scraped it off with a spoon",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I went to see why",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên nơi, người Amazigh, nhà hố; mở vòng",
+      "narration": "The town is Matmata, in a dry, hilly region of southern Tunisia. For centuries, Amazigh families, often called Berbers, have lived here in homes dug down into the earth. Not caves in a cliff. Pits, open to the sky, with rooms carved into the walls all around. Most people have heard of this place because of a famous film. I had heard of it for a different reason. I wanted to know who digs a house instead of building one. I also wanted to know whether I could sleep in a hole without feeling like a lost teaspoon. By the end of this trip, I had an answer for both.",
+      "y_hinh": [
+        {
+          "cue": "homes dug down into the earth",
+          "y": "Wob ấn ngón tay xuống một khay cát trên bàn, tạo một lỗ tròn"
+        },
+        {
+          "cue": "Not caves in a cliff",
+          "y": "Wob vẽ một vách đá có hang, gạch chéo"
+        },
+        {
+          "cue": "Pits, open to the sky",
+          "y": "Wob vẽ một hố tròn nhìn từ trên xuống, các cửa vòm quanh vách"
+        },
+        {
+          "cue": "like a lost teaspoon",
+          "y": "Bong bóng tưởng tượng: Wob nằm dưới đáy cốc trà như chiếc thìa bị bỏ quên",
+          "gag": "Một chiếc thìa thật trượt xuống nằm cạnh Wob, cả hai nhìn nhau"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-matmata-landscape",
+          "cue": "For centuries",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "Pits, open to the sky",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The town is Matmata",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Not caves in a cliff",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "like a lost teaspoon",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "The Road South",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 1: hành trình từ Tunis 365 km về phía nam, cảnh quan rỗ hố",
+      "narration": "I started in Tunis, the capital, on the coast. Matmata is about three hundred and sixty-five kilometres to the south. That's around two hundred and twenty-five miles. I drew the route in my notebook as the land outside changed. Green fields became olive groves. Olive groves became dry hills. Then palm trees in the valleys, and the ground started to look like it had been hit by a lot of very small meteors. Round dents everywhere. I thought it was erosion. The landscape seemed to be in on a joke. I did not understand the joke yet. I would understand it about an hour later, from the bottom of one of the dents. Along the way we passed a sign for the new town, with its ordinary roofs and ordinary windows. Another sign pointed past it, toward the dents, and said old Matmata. I looked where it pointed. I saw no town at all. I checked the sign again. The sign was very sure of itself.",
+      "y_hinh": [
+        {
+          "cue": "I drew the route in my notebook",
+          "y": "Trang sổ: đường nét đứt từ Tunis chạy xuống phía nam"
+        },
+        {
+          "cue": "Green fields became olive groves",
+          "y": "Cửa sổ xe chạy qua: đồng xanh, rồi rừng ô liu, rồi đồi vàng khô"
+        },
+        {
+          "cue": "hit by a lot of very small meteors",
+          "y": "Toàn cảnh: đồi khô rỗ những hố tròn",
+          "gag": "Wob giơ ống nhòm lên trời tìm thiên thạch, một con chim bay ngang nhìn theo"
+        },
+        {
+          "cue": "from the bottom of one of the dents",
+          "y": "Wob nhìn lên từ đáy hố, chỉ thấy một khoanh trời tròn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-tunis-matmata",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-matmata-landscape",
+          "cue": "Then palm trees in the valleys",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "Round dents everywhere",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I started in Tunis",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Round dents everywhere",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "from the bottom",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "chapter": "Where Is Everybody?",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán làng bỏ hoang → hoá ra mọi người ở dưới đất",
+      "narration": "I got out of the car and looked around for the village. There were no rooftops. No walls. No windows. A few modern buildings in the distance, and otherwise just dry hills with holes in them. My guess: everybody left. A ghost town, with very tidy holes. Then I heard a goat. The goat was below me. I walked to the edge of the nearest pit and looked down. I found a courtyard, swept clean, with doorways carved into the walls. There was washing on a line, and a woman sorting olives. The village had not left. The village was downstairs.",
+      "y_hinh": [
+        {
+          "cue": "There were no rooftops",
+          "y": "Wob xoay một vòng, đồi trống trơn, không mái nhà"
+        },
+        {
+          "cue": "A ghost town, with very tidy holes",
+          "y": "Sơ đồ vẽ tay: Wob vẽ con ma nhỏ ngồi bên miệng hố, khoanh tròn"
+        },
+        {
+          "cue": "Then I heard a goat",
+          "y": "Tiếng be be; Wob nhìn quanh, rồi nhìn xuống chân",
+          "gag": "Take chậm: Wob nhìn trái, nhìn phải, rồi mới từ từ cúi xuống nhìn dưới chân"
+        },
+        {
+          "cue": "found a courtyard",
+          "y": "Nhìn từ miệng hố xuống: sân tròn sạch sẽ, cửa vòm quanh vách, dây phơi đồ, một người que ngồi nhặt ô liu"
+        },
+        {
+          "cue": "The village was downstairs",
+          "y": "Wob ngồi bệt bên miệng hố, gật gù"
+        }
+      ],
+      "que": [
+        {
+          "cue": "a woman sorting olives",
+          "hanh_dong": "vay-tay",
+          "so_luong": 1,
+          "giu": 3
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-matmata-landscape",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "Then I heard a goat",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "I walked to the edge",
+          "move": "zoom-in",
+          "zoom": 1.3
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I got out of the car",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My guess: everybody left",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The village was downstairs",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "mô tả cấu trúc: hố 5–10 m, sâu ≤9 m, hai tầng phòng, đường hầm vào; khoảng 365 km",
+      "narration": "Here is how one of these homes works, as I learned it with my own legs. First you dig a big round pit, roughly five to ten metres across and up to about nine metres deep. That pit becomes your courtyard, your light, your air and your living room. Around its walls you carve rooms into the soft rock, often on two levels. Bedrooms, the kitchen and animal stalls go on the lower level. Storage goes up top. To get in from outside, you walk down a sloping tunnel dug through the ground. Picture a house turned inside out. Instead of windows looking out at the world, every door looks in at the family.",
+      "facts": [
+        {
+          "label": "Pit courtyard",
+          "value": "5–10 m wide · up to ~9 m deep",
+          "claim_ids": [
+            "C06"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "First you dig a big round pit",
+          "y": "Mặt cắt cắt giấy: hố tròn được đào dần, đất bay lên"
+        },
+        {
+          "cue": "you carve rooms into the soft rock",
+          "y": "Các cửa vòm hiện ra quanh vách hố, hai tầng"
+        },
+        {
+          "cue": "you walk down a sloping tunnel",
+          "y": "Wob đi xuống đường hầm dốc, ánh sáng cuối hầm"
+        },
+        {
+          "cue": "Picture a house turned inside out",
+          "y": "Bong bóng tưởng tượng: ngôi nhà bình thường lộn trái như chiếc tất, cửa sổ quay vào trong",
+          "gag": "Ngôi nhà lộn trái rồi lại lộn về, lắc lắc như con chó vừa tắm"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-courtyard",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-pit-tunnel",
+          "cue": "To get in from outside",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "Picture a house turned inside out",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here is how one of these homes works",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "you walk down a sloping tunnel",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "every door looks in at the family",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "A Day Below Ground",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 3: một ngày trong nhà hố theo giờ; mát giữa trưa; Wob đổi ý lần 1",
+      "narration": "I spent a full day in a pit house that now takes in guests. Early morning: the courtyard was cool and blue, and the sky was a perfect circle above me. I felt like a goldfish looking up out of its bowl. Mid-morning: the sun climbed, and the courtyard filled with light like water filling a bucket. Noon: outside, the hills were baking. I went into my room, carved into the wall, and it was noticeably cooler. One study of these homes found the inside can be up to about fifteen degrees Celsius cooler than outside in summer. That's around twenty-seven degrees Fahrenheit. I lay on the bed and listened to absolutely nothing. No traffic. No wind. Just rock, being calm. I changed my mind about holes.",
+      "facts": [
+        {
+          "label": "Summer, inside vs outside",
+          "value": "up to ~15°C cooler",
+          "claim_ids": [
+            "C09"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "the sky was a perfect circle above me",
+          "y": "Nhìn từ đáy hố lên: khoanh trời tròn xanh nhạt buổi sớm"
+        },
+        {
+          "cue": "I felt like a goldfish",
+          "y": "Bong bóng tưởng tượng: Wob trong bể cá tròn nhìn lên",
+          "gag": "Một con cá vàng thật thò đầu lên mép hố nhìn xuống Wob"
+        },
+        {
+          "cue": "the courtyard filled with light",
+          "y": "Ánh nắng tràn dần xuống vách hố như nước đổ vào xô"
+        },
+        {
+          "cue": "it was noticeably cooler",
+          "y": "Wob bước vào phòng vòm quét vôi trắng, thở phào, bóng râm mát"
+        },
+        {
+          "cue": "Just rock, being calm",
+          "y": "Wob nằm trên chiếc giường thấp trong phòng vòm, mắt nhắm, mỉm cười"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-courtyard",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "Noon: outside, the hills were baking",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-pit-room",
+          "cue": "I went into my room",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-room",
+          "cue": "I lay on the bed",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Early morning",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Noon: outside, the hills were baking",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I changed my mind about holes",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "Why Dig Down?",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 4: ba lý do: khí hậu (lớp đất cách nhiệt), đất mềm, phòng thủ; mức C về nguồn gốc",
+      "narration": "So why dig down instead of building up? I asked myself this while lying very still in my cool room, which felt like cheating. There are a few reasons, and they work together. First, climate. Reuters describes these homes as having an earthen casing that protects against searing summer heat and winter winds. Picture a wine cellar. Deep enough underground, the temperature barely changes between day and night, or summer and winter. Here, the whole house is the cellar. Second, the ground itself. The rock here is soft enough to dig with simple tools. Third, safety. From a distance, these homes are almost invisible, and the only way in is a narrow sloping tunnel, easy to watch. Nobody knows for certain when or why the first pits were dug, and accounts differ. According to some researchers, people came here to escape crowded coasts or invading armies. Either way, the idea stuck for a very long time.",
+      "y_hinh": [
+        {
+          "cue": "First, climate",
+          "y": "Wob dựng ba tấm thẻ trên bàn: mặt trời, xẻng, cái khiên"
+        },
+        {
+          "cue": "Picture a wine cellar",
+          "y": "Bong bóng tưởng tượng vẽ tay: hầm rượu, nhiệt kế đứng yên trong khi lịch lật nhanh"
+        },
+        {
+          "cue": "the whole house is the cellar",
+          "y": "Mặt cắt: nhà hố bọc trong lớp đất dày như chăn, mũi tên nóng lạnh dội ra ngoài",
+          "gag": "Một tia nắng vẽ tay cố chui xuống, bị lớp đất đẩy bật lại như bóng"
+        },
+        {
+          "cue": "the only way in is a narrow sloping tunnel",
+          "y": "Cổng hầm hẹp, một người que đứng gác là đủ"
+        },
+        {
+          "cue": "Nobody knows for certain",
+          "y": "Wob lật tấm thẻ cuối: một dấu hỏi lớn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-pit-room",
+          "cue": "Picture a wine cellar",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-pit-tunnel",
+          "cue": "Third, safety",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-matmata-landscape",
+          "cue": "Nobody knows for certain",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why dig down",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "the whole house is the cellar",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Nobody knows for certain",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cái giá đời thường: nước chở bằng lạc đà; nhà nối nhiều sân; tương tự ở Libya",
+      "narration": "Life down here was never easy, though. I read an interview with a woman who grew up in one of these homes. She told the Associated Press she remembered carrying water by camel from a spring far away, and searching for food every day. Bigger homes had several courtyards joined by tunnels, like a family that kept adding rooms instead of moving. Similar underground homes exist across the border in Libya, but around Matmata they became a whole landscape. I tried carrying a pair of buckets of water up the tunnel ramp. I made it halfway, sat down, and drank most of the water. That is why camels were involved.",
+      "y_hinh": [
+        {
+          "cue": "carrying water by camel",
+          "y": "Cắt giấy: lạc đà chở hai thùng nước đi trên đồi khô"
+        },
+        {
+          "cue": "several courtyards joined by tunnels",
+          "y": "Nhìn từ trên: ba hố tròn nối nhau bằng đường hầm như chuỗi hạt"
+        },
+        {
+          "cue": "I tried carrying a pair of buckets",
+          "y": "Wob khệ nệ xách hai xô nước lên dốc hầm",
+          "gag": "Mỗi bước Wob nghiêng một bên, nước sóng sánh ra, tới giữa dốc chỉ còn nửa xô"
+        },
+        {
+          "cue": "That is why camels were involved",
+          "y": "Một con lạc đà thò đầu vào miệng hầm, nhìn Wob đầy thương hại"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-matmata-landscape",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "Bigger homes had several courtyards",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:ai-pit-tunnel",
+          "cue": "I tried carrying a pair of buckets",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Life down here was never easy",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I made it halfway",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "That is why camels were involved",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "The Rain That Changed Everything",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 5 (không gag): mưa lũ cuối thập niên 1960 làm sập nhà; trợ giúp; thị trấn mới; nhiều gia đình chuyển lên",
+      "music_mood": "khac-nghiet",
+      "narration": "I want to tell this part plainly. In a place this dry, the danger you least expect is rain. In the late nineteen sixties, severe flooding hit the region. Water poured into the pits, and many homes collapsed. According to some accounts, the area had been little known to outsiders until then, and that people sought help from the central government. At the same time, Tunisia's president Habib Bourguiba was pushing to modernise the country. In the nineteen sixties and seventies, new towns and villages were built above ground. Many families moved into them. Houses that had sheltered generations were left empty, and some slowly filled with sand.",
+      "y_hinh": [
+        {
+          "cue": "the danger you least expect is rain",
+          "y": "Wob ở hiện tại đặt mẩu vách đất xuống bàn, tông màu trầm"
+        },
+        {
+          "cue": "Water poured into the pits",
+          "y": "Cắt giấy tông trầm: nước tràn qua miệng hố, chảy xuống sân"
+        },
+        {
+          "cue": "many homes collapsed",
+          "y": "Vách hố cắt giấy sụp xuống chậm rãi"
+        },
+        {
+          "cue": "new towns and villages were built above ground",
+          "y": "Những dãy nhà mới vuông vức trên mặt đất phía xa"
+        },
+        {
+          "cue": "some slowly filled with sand",
+          "y": "Một cửa vòm trống, cát trôi vào dần; camera lùi chậm, im lặng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-matmata-landscape",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-empty-pit",
+          "cue": "many homes collapsed",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-new-matmata",
+          "cue": "new towns and villages",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-empty-pit",
+          "cue": "Houses that had sheltered generations",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "In a place this dry",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "Famous by Accident",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 6: từ một sân nhà tới khách sạn 1969 tới phim trường 1976 tới du lịch; những gia đình còn ở; Wob đổi ý lần 2",
+      "music_mood": "to-mo",
+      "narration": "Then came the strangest twist. Start with one courtyard, belonging to one family. In nineteen sixty-nine, that traditional home became a hotel, the Hotel Sidi Driss. Zoom out: in nineteen seventy-six, a film crew arrived, and the hotel was used as a location for the very first Star Wars film. Zoom out again: for decades since, fans have come from all over the world to stand in that courtyard. Tourism now helps keep the old homes alive. Reuters met families still living underground on the outskirts of Matmata, who let tourists visit in return for tips. One woman told Reuters that leaving her house would be like throwing away her life and her traditions. I stood in the hotel courtyard among people taking photos, and I thought about her. The visitors came for a film. The house was here first.",
+      "y_hinh": [
+        {
+          "cue": "Start with one courtyard",
+          "y": "Cực cận: một sân hố nhỏ, một bếp lửa, một chiếc chiếu"
+        },
+        {
+          "cue": "that traditional home became a hotel",
+          "y": "Tấm biển gỗ vẽ tay 'HOTEL' được treo lên miệng hố"
+        },
+        {
+          "cue": "a film crew arrived",
+          "y": "Camera lùi: máy quay vẽ phác đơn giản, chiếc ghế đạo diễn trống (không có nhân vật phim)",
+          "gag": "Một con dê lững thững đi vào khung máy quay, đứng tạo dáng"
+        },
+        {
+          "cue": "fans have come from all over the world",
+          "y": "Camera lùi tiếp: dòng người que từ nhiều phía đổ về miệng hố"
+        },
+        {
+          "cue": "The house was here first",
+          "y": "Wob đứng giữa sân giữa đám đông chụp ảnh, nhìn lên vách đất cũ, lặng lẽ"
+        }
+      ],
+      "que": [
+        {
+          "cue": "fans have come from all over the world",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 4,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-courtyard",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "Zoom out: in nineteen seventy-six",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-pit-house-aerial",
+          "cue": "Zoom out again",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "I stood in the hotel courtyard",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then came the strangest twist",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "fans have come",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The house was here first",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "đêm ở khách sạn nhà hố; khách du lịch; Wob nghĩ về chủ nhà (mồi lại, nhạc hài)",
+      "music_mood": "hai",
+      "narration": "That night I slept in the hotel, in a small vaulted room off one of its courtyards. The walls were thick and white and curved, like sleeping inside a very large, very polite egg. At dinner, people at the long tables compared photos and argued about which doorway was in which scene. I ordered couscous and argued with nobody. The couscous was excellent and did not appear in any film. Around midnight I went up the ramp to look at the stars and came back down the wrong tunnel. Every courtyard looks the same in the dark if you are the kind of traveller who does not count doorways. I found my room by its door, which had my shoe propped against it. In the morning I counted the doorways properly. I had been off by a whole courtyard.",
+      "y_hinh": [
+        {
+          "cue": "like sleeping inside a very large, very polite egg",
+          "y": "Phòng vòm trắng cong như lòng quả trứng, Wob nằm cuộn tròn giữa giường",
+          "gag": "Vách phòng khẽ phồng xẹp như đang thở, Wob mở một mắt nghi ngờ"
+        },
+        {
+          "cue": "argued about which doorway was in which scene",
+          "y": "Bàn dài, du khách que giơ điện thoại so ảnh, chỉ trỏ các cửa vòm"
+        },
+        {
+          "cue": "came back down the wrong tunnel",
+          "y": "Đêm: Wob cầm đèn pin đi xuống một đường hầm, lạc sang sân khác, nhìn quanh bối rối"
+        },
+        {
+          "cue": "which had my shoe propped against it",
+          "y": "Một chiếc giày của Wob chặn hờ một cánh cửa gỗ giữa hàng cửa giống hệt nhau"
+        }
+      ],
+      "que": [
+        {
+          "cue": "people at the long tables compared photos",
+          "hanh_dong": "chi-tay",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-room",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "At dinner",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-pit-night-sky",
+          "cue": "Around midnight",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-pit-tunnel",
+          "cue": "I found my room",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "That night I slept in the hotel",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "came back down the wrong tunnel",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I had been off by a whole courtyard",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao người ta vẫn ở; Wob quyết",
+      "narration": "So why do some people still live below ground, when a house with windows is right up the road? Part of it is comfort. The rock really does keep the heat out. Part of it is income from visitors. But mostly, from everything I read, it is home. These are houses grandparents dug, rooms where children were born, a courtyard where the whole family eats under one round piece of sky. Moving up the hill means a newer house, but not that house. I spent my last night underground, watching stars cross the circle above the courtyard, one after another, like they were being lowered in on a string.",
+      "y_hinh": [
+        {
+          "cue": "a house with windows is right up the road",
+          "y": "Từ miệng hố nhìn ra: ngôi nhà mới có cửa sổ trên đồi xa"
+        },
+        {
+          "cue": "a courtyard where the whole family eats",
+          "y": "Sân hố buổi tối, mâm cơm giữa sân, bóng người que quây quần"
+        },
+        {
+          "cue": "Moving up the hill means a newer house, but not that house",
+          "y": "Hai ngôi nhà đặt cạnh nhau trên bàn kỷ vật: một hộp nhà mới, một cái hố trong khay cát"
+        },
+        {
+          "cue": "like they were being lowered in on a string",
+          "y": "Đêm: khoanh trời tròn đầy sao",
+          "gag": "Một ngôi sao nhỏ treo trên sợi chỉ được thả xuống từ từ, Wob giơ tay đón"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-new-matmata",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-pit-courtyard",
+          "cue": "a courtyard where the whole family eats",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-night-sky",
+          "cue": "I spent my last night underground",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why do some people still live below ground",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "it is home",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "like they were being lowered in",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "outro",
+      "chapter": "Would I Move Into a Hole?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết WOULD MOVE, callback mẩu vách, câu hỏi kéo bình luận",
+      "narration": "So here is the whole answer, in one piece of wall. The earth here is soft enough to dig and thick enough to keep the heat out. A pit gives you light, air and a private courtyard, and a tunnel keeps you safe. When floods and new towns pulled many families up into ordinary houses, some stayed below, because the hole in the ground was their home. Would I move there? Yes. My verdict is WOULD MOVE, as long as someone else carries the water. It suits people who love quiet, cool rooms and looking up at a round sky. It does not suit anyone who needs a view of the street, or who panics when it rains. I put the piece of wall on my desk, next to my spoon. Would you trade your windows for a courtyard full of sky?",
+      "verdict": {
+        "label": "WOULD MOVE",
+        "reason": "A home that stays cool in the desert heat, wraps a family around its own courtyard and has kept generations sheltered is worth the dig, as long as the water problem is solved.",
+        "cue": "WOULD MOVE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is the whole answer, in one piece of wall",
+          "y": "Bàn kỷ vật: Wob xếp hàng thìa, nhiệt kế nhỏ, chiếc xô, tấm biển HOTEL, mẩu vách đất"
+        },
+        {
+          "cue": "a tunnel keeps you safe",
+          "y": "Wob dựng một ống giấy nhỏ dẫn vào cái hố trong khay cát"
+        },
+        {
+          "cue": "My verdict is WOULD MOVE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? WOULD MOVE'"
+        },
+        {
+          "cue": "as long as someone else carries the water",
+          "y": "Wob đẩy chiếc xô sang phía người xem",
+          "gag": "Chiếc xô tự trượt ngược lại về phía Wob, Wob thở dài"
+        },
+        {
+          "cue": "a courtyard full of sky",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-pit-courtyard",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-pit-night-sky",
+          "cue": "Would I move there",
+          "move": "still"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is WOULD MOVE"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I put the piece of wall on my desk",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is the whole answer",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Would I move there? Yes",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "as long as someone else carries the water",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "I put the piece of wall",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-pit-house-aerial",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10
+      ],
+      "canh": "looking down from above at a dry hilly landscape dotted with large round open pits dug into the ground, each pit a courtyard with arched doorways carved into its walls, palm trees and olive trees nearby",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, thumbnail; cần đúng hố tròn có cửa vòm"
+    },
+    {
+      "id": "ai-pit-courtyard",
+      "scenes": [
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "canh": "inside a deep round sunken courtyard about nine metres deep, smooth pale yellow earth walls, whitewashed arched doorways on two levels, small foot holds in the wall, a clothesline, a circle of blue sky above",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Bối cảnh chính, cảnh phán quyết"
+    },
+    {
+      "id": "ai-pit-tunnel",
+      "scenes": [
+        5,
+        7,
+        8,
+        11
+      ],
+      "canh": "a narrow sloping tunnel dug through pale earth leading down from ground level into a sunlit sunken courtyard",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Lối vào đặc trưng; cần đúng đường hầm dốc"
+    },
+    {
+      "id": "ai-pit-room",
+      "scenes": [
+        6,
+        7,
+        11
+      ],
+      "canh": "a cool vaulted room carved into soft rock with whitewashed curved walls, a low bed with woven blankets, niches in the wall, soft light from the doorway",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Phòng vòm khoét vào vách, chi tiết riêng"
+    },
+    {
+      "id": "ai-empty-pit",
+      "scenes": [
+        9
+      ],
+      "canh": "an abandoned round pit courtyard half filled with drifted sand, crumbling arched doorways, quiet, pale light",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hình chính chương lich-su-nghiem; cu_the = 2"
+    },
+    {
+      "id": "ai-matmata-landscape",
+      "scenes": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "canh": "dry rolling hills of yellow and brown earth under a hot pale sky, a few palm trees in a valley, olive groves",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí, tổng 4"
+    },
+    {
+      "id": "ai-new-matmata",
+      "scenes": [
+        9,
+        12
+      ],
+      "canh": "rows of simple modern low concrete houses on a dry hillside in the distance, a straight road",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông thị trấn mới, tổng 3"
+    },
+    {
+      "id": "ai-pit-night-sky",
+      "scenes": [
+        11,
+        12,
+        13
+      ],
+      "canh": "a round opening framing a deep night sky full of stars, seen from below, dark earth walls at the edges",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 2
+      },
+      "hang": "phu",
+      "ly_do": "Khoanh trời sao, tổng 5 nhưng chỉ là trời",
+      "ghi_de": "Tổng 5 nhưng chỉ là trời sao trong khung tròn, nội bộ vẽ được"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "In southern Tunisia, some families live in rooms carved around a hole in the ground.",
+      "statement": "In southern Tunisia around Matmata, some families live in traditional homes with rooms carved around a sunken pit courtyard.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "For centuries, Amazigh families, often called Berbers, have lived here in homes dug down into the earth.",
+      "statement": "For centuries, Amazigh (Berber) people in the Matmata area of southern Tunisia have lived in underground homes.",
+      "source_ids": [
+        "S1",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "Most people have heard of this place because of a famous film.",
+      "statement": "Matmata is internationally known because a troglodyte home there, the Hotel Sidi Driss, was used as a Star Wars filming location.",
+      "source_ids": [
+        "S6",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "Matmata is about three hundred and sixty-five kilometres to the south. That's around two hundred and twenty-five miles.",
+      "statement": "Matmata lies about 365 km (about 225 miles) south of Tunis.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Then palm trees in the valleys",
+      "statement": "The landscape around Matmata includes palm trees and olive groves in a cratered terrain.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 5,
+      "quote": "First you dig a big round pit, roughly five to ten metres across and up to about nine metres deep.",
+      "statement": "Matmata pit homes are built around a central courtyard pit usually 5 to 10 metres in diameter and no deeper than about 9 metres.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 5,
+      "quote": "Around its walls you carve rooms into the soft rock, often on two levels. Bedrooms, the kitchen and animal stalls go on the lower level. Storage goes up top.",
+      "statement": "In Matmata pit homes, rooms are carved on two levels: sleeping rooms, kitchen and stables on the lower level and storage on the upper level.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 5,
+      "quote": "To get in from outside, you walk down a sloping tunnel dug through the ground.",
+      "statement": "Matmata pit houses are entered through a sloping tunnel-like ramp from ground level.",
+      "source_ids": [
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 6,
+      "quote": "One study of these homes found the inside can be up to about fifteen degrees Celsius cooler than outside in summer. That's around twenty-seven degrees Fahrenheit.",
+      "statement": "In summer the temperature difference between the outside and inside of Matmata cave dwellings can reach about 15 °C (about 27 °F).",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 7,
+      "quote": "Reuters describes these homes as having an earthen casing that protects against searing summer heat and winter winds.",
+      "statement": "Reuters describes Matmata's underground houses as having an earthen casing that protects against summer heat and winter winds.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 7,
+      "quote": "The rock here is soft enough to dig with simple tools.",
+      "statement": "The Matmata pit houses are dug into soft clay-gypsum and sandstone layers.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 7,
+      "quote": "From a distance, these homes are almost invisible, and the only way in is a narrow sloping tunnel, easy to watch.",
+      "statement": "Matmata pit houses are hard to see from a distance and can only be approached via an easily monitored tunnel-like ramp.",
+      "source_ids": [
+        "S3",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 7,
+      "quote": "Nobody knows for certain when or why the first pits were dug, and accounts differ. According to some researchers, people came here to escape crowded coasts or invading armies.",
+      "statement": "The origins of Matmata's pit houses are unclear; suggested explanations include escaping overpopulated coastal regions or fleeing conquerors.",
+      "source_ids": [
+        "S3",
+        "S2"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C14",
+      "scene": 8,
+      "quote": "I read an interview with a woman who grew up in one of these homes. She told the Associated Press she remembered carrying water by camel from a spring far away, and searching for food every day.",
+      "statement": "A former resident of the Matmata home that became the Hotel Sidi Driss told the Associated Press she remembered carrying water by camel from a distant spring and searching daily for food.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 8,
+      "quote": "Bigger homes had several courtyards joined by tunnels",
+      "statement": "Some larger Matmata dwellings include several courtyards connected by underground passages.",
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 8,
+      "quote": "Similar underground homes exist across the border in Libya",
+      "statement": "Similar underground homes are found across the border in Libya.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 9,
+      "quote": "In the late nineteen sixties, severe flooding hit the region. Water poured into the pits, and many homes collapsed. According to some accounts, the area had been little known to outsiders until then, and that people sought help from the central government.",
+      "statement": "Severe flooding in the late 1960s inundated Matmata's pit homes and caused many to collapse; accounts say the region was little known to outsiders until then, when locals sought aid from the central government.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C18",
+      "scene": 9,
+      "quote": "At the same time, Tunisia's president Habib Bourguiba was pushing to modernise the country. In the nineteen sixties and seventies, new towns and villages were built above ground. Many families moved into them.",
+      "statement": "Many families left Tunisia's underground houses when new towns and villages were built in the 1960s and 1970s under President Habib Bourguiba's modernisation drive.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 10,
+      "quote": "In nineteen sixty-nine, that traditional home became a hotel, the Hotel Sidi Driss.",
+      "statement": "The Hotel Sidi Driss in Matmata was a traditional Berber home before becoming a hotel in 1969.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 10,
+      "quote": "Zoom out: in nineteen seventy-six, a film crew arrived, and the hotel was used as a location for the very first Star Wars film.",
+      "statement": "The Hotel Sidi Driss in Matmata was used in 1976 as a filming location for the first Star Wars film, A New Hope.",
+      "source_ids": [
+        "S6",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 10,
+      "quote": "Tourism now helps keep the old homes alive. Reuters met families still living underground on the outskirts of Matmata, who let tourists visit in return for tips. One woman told Reuters that leaving her house would be like throwing away her life and her traditions.",
+      "statement": "Reuters reported in 2018 that a few families still live in underground houses around Matmata and let tourists visit for tips; one resident said leaving would be like throwing away her life and traditions.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Last residents hold on in Tunisia's underground houses (Reuters)",
+      "publisher": "Arab News",
+      "type": "bao",
+      "url": "https://www.arabnews.com/node/1253181",
+      "published": "2018-02-24",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "Matmata: Underground Dwellings for an Extreme Climate",
+      "publisher": "SOCKS",
+      "type": "khac",
+      "url": "https://socks-studio.com/2023/03/26/matmata-underground-dwellings-for-an-extreme-climate/",
+      "published": "2023-03-26",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Matmata pit house (V16)",
+      "publisher": "BME, Khoa Kiến trúc (Habitatio)",
+      "type": "goc",
+      "url": "https://habitatio.epitesz.bme.hu/en/?p=4758",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "Tunisia: preserving tradition in the last underground homes (Reuters)",
+      "publisher": "The World (PRX)",
+      "type": "bao",
+      "url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+      "published": "2018-02-23",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Hotel Sidi Driss",
+      "publisher": "Atlas Obscura",
+      "type": "khac",
+      "url": "https://www.atlasobscura.com/places/hotel-sidi-driss",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Matmata, Tunisia",
+      "publisher": "Wikipedia (chỉ để tìm nguồn)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Matmata,_Tunisia",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "The force is strong in Tunisian desert locale where Star Wars was filmed (AP)",
+      "publisher": "Dallas News",
+      "type": "bao",
+      "url": "https://dallasnews.com/life/travel/2018/04/24/force-strong-tunisian-desert-locale-star-wars-filmed",
+      "published": "2018-04-24",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Matmata Troglodytes",
+      "publisher": "IGNANT",
+      "type": "khac",
+      "url": "https://ignant.com/?p=325911",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

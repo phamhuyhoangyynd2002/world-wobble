@@ -1,0 +1,121 @@
+{
+ "kenh": "Era Swap",
+ "tong_video": 9,
+ "tat_ca": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "ZT7PFbeL9YI",
+   "tieu_de": "How Long Would De-Extinct Animals Survive in Today's World",
+   "luot_xem": 63000,
+   "phut": 14.8
+  },
+  {
+   "thu_tu_tu_moi": 1,
+   "id": "U7dIVCFjYXY",
+   "tieu_de": "How Long Would Prehistoric Crocodiles Survive in the Real GTA 6 Swamps",
+   "luot_xem": 39000,
+   "phut": 14.9
+  },
+  {
+   "thu_tu_tu_moi": 2,
+   "id": "2xFb_42YZYI",
+   "tieu_de": "How Long Would the Scariest Dinosaurs Survive in Today's World",
+   "luot_xem": 80000,
+   "phut": 20.8
+  },
+  {
+   "thu_tu_tu_moi": 3,
+   "id": "6uehnpBjKOs",
+   "tieu_de": "How Long Would the Scariest Prehistoric Monsters Survive in Today's World",
+   "luot_xem": 282000,
+   "phut": 21.1
+  },
+  {
+   "thu_tu_tu_moi": 4,
+   "id": "h-xighJT1N4",
+   "tieu_de": "How Long Would Prehistoric Sky Monsters Survive in Today's World",
+   "luot_xem": 99000,
+   "phut": 17.6
+  },
+  {
+   "thu_tu_tu_moi": 5,
+   "id": "YgnbKDRp6Gk",
+   "tieu_de": "How Long Would Prehistoric Ocean Giants Survive in Today's World",
+   "luot_xem": 76000,
+   "phut": 15.9
+  },
+  {
+   "thu_tu_tu_moi": 6,
+   "id": "g0KyIyw2anA",
+   "tieu_de": "How Long Would Ice Age Giants Survive in Today's World",
+   "luot_xem": 588000,
+   "phut": 13.9
+  },
+  {
+   "thu_tu_tu_moi": 7,
+   "id": "0wsKBInyC-w",
+   "tieu_de": "How Long Would Your Pets Survive the Dinosaur Asteroid",
+   "luot_xem": 109000,
+   "phut": 11.7
+  },
+  {
+   "thu_tu_tu_moi": 8,
+   "id": "x5yoEyu2ZoI",
+   "tieu_de": "How Long Would Prehistoric Sea Monsters Survive in Today's World",
+   "luot_xem": 436000,
+   "phut": 12.7
+  }
+ ],
+ "mau": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "ZT7PFbeL9YI",
+   "tieu_de": "How Long Would De-Extinct Animals Survive in Today's World",
+   "ngay": "20261123",
+   "luot_xem": 63104,
+   "so_bl_lay": 9,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 2,
+   "id": "2xFb_42YZYI",
+   "tieu_de": "How Long Would the Scariest Dinosaurs Survive in Today's World",
+   "ngay": "20261119",
+   "luot_xem": 80838,
+   "so_bl_lay": 16,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 4,
+   "id": "h-xighJT1N4",
+   "tieu_de": "How Long Would Prehistoric Sky Monsters Survive in Today's World",
+   "ngay": "20261114",
+   "luot_xem": 99461,
+   "so_bl_lay": 14,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 6,
+   "id": "g0KyIyw2anA",
+   "tieu_de": "How Long Would Ice Age Giants Survive in Today's World",
+   "ngay": "20261111",
+   "luot_xem": 588247,
+   "so_bl_lay": 27,
+   "nhac_giong_ai": [
+    {
+     "thich": 0,
+     "loi": "Bro the deer in the thumbnail is not human"
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 8,
+   "id": "x5yoEyu2ZoI",
+   "tieu_de": "How Long Would Prehistoric Sea Monsters Survive in Today's World",
+   "ngay": "20261107",
+   "luot_xem": 436471,
+   "so_bl_lay": 22,
+   "nhac_giong_ai": []
+  }
+ ]
+}

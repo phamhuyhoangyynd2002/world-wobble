@@ -1,0 +1,1644 @@
+{
+  "title": "They Evacuated the World's Remotest Island. Then Went Back.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Tristan da Cunha",
+    "country": "United Kingdom (overseas territory)",
+    "lat": -37.11,
+    "lon": -12.28
+  },
+  "question": "Why do people live on Tristan da Cunha?",
+  "message": "This video tells curious adults that people live on one of the most remote inhabited islands on Earth because of a guard post for Napoleon, a few people who chose to stay, and a community that, after a volcano forced them out, voted to go home.",
+  "angle": "People live on Tristan da Cunha because a British garrison sent to stop anyone rescuing Napoleon left behind a few settlers who built a community on shared land, and after the nineteen sixty-one eruption they chose to return because the island, its lobster and its way of running things were home, despite no airstrip, a voyage of about six days from Cape Town and a volcano next to the village.",
+  "hook_type": "ket-cuc-truoc",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-tristan": "Bản đồ D3 khung Nam Đại Tây Dương (orthographic), ghim Tristan da Cunha -37.11, -12.28 ở nửa phải khung; nhãn 'Tristan da Cunha'; không tô nước nào",
+    "map-tristan-route": "Bản đồ Nam Đại Tây Dương: ghim Cape Town -33.92, 18.42 và Tristan; đường nét đứt tàu; nhãn '~2,430 km · ~6 days'",
+    "map-napoleon": "Bản đồ Nam Đại Tây Dương: ghim St Helena -15.96, -5.71 và Tristan; nhãn tiếng Anh ngắn 'St Helena (Napoleon)', 'Tristan'"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "A Stamp From Very Far Away",
+      "lop": "hien-tai",
+      "role": "hook: Wob cầm con tem có hình tôm hùm; kết cục trước: núi lửa 1961, cả đảo bị đưa đi, rồi bỏ phiếu về",
+      "narration": "This is a stamp from an island so far away, my postcard arrived after I did. In nineteen sixty-one, a volcano forced everyone off that island. Then they voted to go back.",
+      "pronunciation": "Tristan da Cunha: TRIS-tun duh KOON-yuh",
+      "on_screen_text": "THEY CAME BACK",
+      "y_hinh": [
+        {
+          "cue": "This is a stamp",
+          "y": "Bàn kỷ vật dưới đèn; Wob giơ con tem nhỏ in hình một con tôm hùm"
+        },
+        {
+          "cue": "my postcard arrived after I did",
+          "y": "Wob mở hộp thư, tấm bưu thiếp rơi ra, Wob nhìn lịch treo tường",
+          "gag": "Tấm bưu thiếp có hình Wob đang vẫy tay ở đảo, Wob ở bàn vẫy lại chính mình"
+        },
+        {
+          "cue": "a volcano forced everyone off that island",
+          "y": "Trang sổ mở bản đồ Nam Đại Tây Dương, chấm đảo nhỏ ở nửa phải khung"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-tristan",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.6
+          ]
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "In nineteen sixty-one",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is a stamp",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "a volcano forced everyone",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Then they voted to go back",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên đảo, danh tiếng xa, câu hỏi kép (vì sao tới, vì sao về); mở vòng 'Would Wob move here?'",
+      "narration": "The island is Tristan da Cunha, in the South Atlantic. By some accounts, it is the most remote inhabited island in the world. Around two hundred and forty-five people live there. When the volcano erupted, they were taken all the way to England, a country with shops, buses and dry socks. And most of them chose to return to the place with the volcano. So this trip came with a double question. Why did anyone settle there to begin with? And why would you ever go back? I packed for both answers.",
+      "facts": [
+        {
+          "label": "Tristan da Cunha",
+          "value": "~245 people",
+          "claim_ids": [
+            "C03"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "in the South Atlantic",
+          "y": "Wob xoay quả địa cầu nhỏ trên bàn, chỉ tay vào giữa đại dương trống trơn"
+        },
+        {
+          "cue": "a country with shops, buses and dry socks",
+          "y": "Wob đặt lên bàn một chiếc xe buýt đồ chơi và đôi tất khô"
+        },
+        {
+          "cue": "the place with the volcano",
+          "y": "Bên cạnh là một ngọn núi lửa nhỏ bằng giấy bốc khói nhẹ"
+        },
+        {
+          "cue": "I packed for both answers",
+          "y": "Wob nhét vào vali cả áo mưa lẫn ô lẫn áo phao",
+          "gag": "Vali không đóng được; Wob ngồi lên vali, vali đẩy Wob bật ra"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-tristan",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.6
+          ]
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "Around two hundred and forty-five people",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-tristan-volcano",
+          "cue": "And most of them chose to return",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The island is Tristan da Cunha",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "And most of them chose to return",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I packed for both answers",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "How Remote Is Remote?",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 1: hành trình bằng tàu, không có đường băng, khoảng cách",
+      "narration": "There is no airstrip on Tristan. You go by ship, usually from Cape Town in South Africa, and the trip takes about six days. The island sits about fifteen hundred miles west of Cape Town. That's roughly twenty-four hundred kilometres. I drew the route in my notebook as a dotted line. It was a very long dotted line. I ran out of dots and had to borrow some from the next page. By the middle of the week, I had read every book I brought. By the end of the week, I had read the safety instructions with real interest. The ocean did not change. It just kept being ocean, in every direction, very confidently.",
+      "facts": [
+        {
+          "label": "Cape Town → Tristan",
+          "value": "~2,430 km · ~6 days",
+          "claim_ids": [
+            "C07",
+            "C06"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "There is no airstrip on Tristan",
+          "y": "Wob cầm vé máy bay, nhìn bản đồ, vé tự gập đôi thành chiếc thuyền giấy"
+        },
+        {
+          "cue": "I drew the route in my notebook",
+          "y": "Trang sổ: đường nét đứt từ Cape Town kéo dài qua biển trống"
+        },
+        {
+          "cue": "had to borrow some from the next page",
+          "y": "Đường nét đứt chạy ra mép trang, Wob lật trang, nét đứt tiếp tục",
+          "gag": "Wob cắt mấy chấm từ trang sau dán vào cho đủ"
+        },
+        {
+          "cue": "I had read the safety instructions with real interest",
+          "y": "Trên boong tàu nghiêng, Wob đeo kính, đọc tờ hướng dẫn an toàn say sưa"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-tristan-route",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-south-atlantic-sea",
+          "cue": "I drew the route",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-south-atlantic-sea",
+          "cue": "By the middle of the week",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "There is no airstrip",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "It was a very long dotted line",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "with real interest",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cập bến khó: không có cảng sâu, tuyến tàu không chắc chắn (mồi lại, nhạc hài)",
+      "music_mood": "hai",
+      "narration": "Getting there is one thing. Getting off is another. Tristan has no deep harbour, so big ships stay out at sea and people come ashore in small boats when the swell allows. The BBC describes the regular route from Cape Town as unreliable. I waited at the rail, packed and ready, while the sea decided. The sea took its time. When my turn came, I stepped down into a little boat that was going up as I was going down. We met in the middle. Not gracefully.",
+      "y_hinh": [
+        {
+          "cue": "Getting off is another",
+          "y": "Con tàu lớn neo ngoài khơi, đảo núi lửa ở xa, sóng lừng"
+        },
+        {
+          "cue": "people come ashore in small boats",
+          "y": "Thuyền máy nhỏ nhấp nhô cạnh mạn tàu, thang dây thả xuống"
+        },
+        {
+          "cue": "while the sea decided",
+          "y": "Wob ôm vali đứng ở lan can, mặt biển lên xuống như đang suy nghĩ",
+          "gag": "Mặt biển vẽ tay xoa cằm, lắc đầu, Wob đặt vali xuống rồi lại nhấc lên"
+        },
+        {
+          "cue": "We met in the middle",
+          "y": "Wob bước xuống đúng lúc thuyền nhỏ vọt lên",
+          "gag": "Take chậm: Wob và thuyền chạm nhau giữa không trung, Wob bẹp xuống như bánh kếp, rồi phồng lại"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-volcano",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-south-atlantic-sea",
+          "cue": "I waited at the rail",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "When my turn came",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Getting there is one thing",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The sea took its time",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Not gracefully",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tới nơi: núi lửa và làng; đặt hàng trước vài tháng; Wob đổi ý lần 1 (choáng)",
+      "narration": "Then the island came up out of the grey. It is basically one enormous volcano, wearing a cloud like a hat, with a strip of flat green land along the bottom where the village sits. The village is officially called Edinburgh of the Seven Seas. Everyone calls it the Settlement. There is a single grocery store, and orders are placed a couple of months in advance, so the goods can be shipped in. I asked for a sandwich. The answer was, essentially, see you in spring. I made a note to order my lunch for next season, and ate a biscuit from my pocket in the meantime. I stood on the shore and thought, no. Nobody chooses this. I was wrong about that, as it turned out.",
+      "y_hinh": [
+        {
+          "cue": "the island came up out of the grey",
+          "y": "Từ sương mù hiện ra một ngọn núi lửa hình nón khổng lồ, mây đội trên đỉnh"
+        },
+        {
+          "cue": "wearing a cloud like a hat",
+          "y": "Cận đỉnh núi, đám mây như chiếc mũ len",
+          "gag": "Cơn gió thổi lệch chiếc mũ mây, núi tự chỉnh lại"
+        },
+        {
+          "cue": "Everyone calls it the Settlement",
+          "y": "Làng nhỏ mái thấp trên dải đất xanh dưới vách đá"
+        },
+        {
+          "cue": "see you in spring",
+          "y": "Wob đứng ở quầy, người bán que đưa một tờ phiếu đặt hàng ghi ngày rất xa"
+        },
+        {
+          "cue": "Nobody chooses this",
+          "y": "Wob đứng trên bờ đá, sóng xám, khoanh tay"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-volcano",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "The village is officially called",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "I stood on the shore",
+          "move": "zoom-in",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then the island came up",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I asked for a sandwich",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Nobody chooses this",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "Guarding Napoleon",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán (đắm tàu, cướp biển) → lý do thật: đồn lính 1816 vì Napoleon ở St Helena",
+      "narration": "So who started this? My guess was shipwreck. Or pirates. An island this lonely surely began with somebody's terrible day at sea. Shipwrecks do turn up later in the story. But the real reason is stranger. Napoleon. After his defeat, Napoleon was exiled on St Helena, another island, more than two thousand kilometres to the north. Britain worried that the French might use Tristan as a base for a rescue. So in August eighteen sixteen, Britain claimed the island and put a small garrison on it. Soldiers, guarding an emperor who was not there, from an island nobody was trying to reach.",
+      "y_hinh": [
+        {
+          "cue": "My guess was shipwreck. Or pirates",
+          "y": "Sơ đồ vẽ tay: con tàu gãy đôi, lá cờ cướp biển, mũi tên chỉ vào đảo"
+        },
+        {
+          "cue": "Napoleon",
+          "y": "Wob lật tấm thẻ: hình chiếc mũ hai sừng vẽ phác (không vẽ mặt người)"
+        },
+        {
+          "cue": "more than two thousand kilometres to the north",
+          "y": "Trang sổ: hai chấm đảo xa nhau, một đường thước kẻ dài nối giữa"
+        },
+        {
+          "cue": "guarding an emperor who was not there",
+          "y": "Người lính que đứng gác trên bờ đá, nhìn ống nhòm ra biển trống",
+          "gag": "Người lính que ngoảnh lại nhìn xem có ai sau lưng không, rồi lại nhìn biển; một con chim cánh cụt đứng gác cạnh"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Soldiers, guarding an emperor",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 2,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-volcano",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:map-napoleon",
+          "cue": "After his defeat",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.45
+          ]
+        },
+        {
+          "show": "asset:ai-tristan-cliff-shore",
+          "cue": "So in August eighteen sixteen",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My guess was shipwreck",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "But the real reason is stranger",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "an island nobody was trying to reach",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "đồn rút, William Glass ở lại; cộng đồng hình thành; bảy họ",
+      "narration": "The garrison left in November eighteen seventeen. But one corporal, William Glass, asked to stay, with his family. Think of it as the guest who helps clean up after the party and then quietly moves into the spare room. Others joined them. Sailors. People who had been shipwrecked. In the early eighteen twenties, five single men on the island asked a ship's captain to bring wives from St Helena, and he did. The community grew from there. Today the island has seven surnames. I met nobody without one of them. That is less surprising than it sounds.",
+      "y_hinh": [
+        {
+          "cue": "The garrison left",
+          "y": "Con tàu giấy rời bờ, chỉ còn một ngôi nhà nhỏ và vài người que vẫy tay"
+        },
+        {
+          "cue": "moves into the spare room",
+          "y": "Bong bóng tưởng tượng: bữa tiệc tàn, một vị khách que đang dọn dẹp rồi lặng lẽ treo áo vào tủ phòng khách",
+          "gag": "Chủ nhà que quay lại, thấy khách đã kê giường xong, vẫy tay chào"
+        },
+        {
+          "cue": "asked a ship's captain to bring wives from St Helena",
+          "y": "Năm người que đứng xếp hàng trên bờ, chải tóc, sửa cổ áo, nhìn ra biển"
+        },
+        {
+          "cue": "the island has seven surnames",
+          "y": "Bảy tấm biển tên gỗ treo cạnh nhau trên tường hội trường làng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-cliff-shore",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "Others joined them",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "Today the island has seven surnames",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "asked to stay",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Think of it as the guest",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "less surprising than it sounds",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "A Day in the Settlement",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 3: một ngày: ruộng khoai, đất chung, ai cũng làm nông",
+      "narration": "I spent a day doing what people here do. Morning: the Potato Patches, a stretch of fields outside the village. All land on Tristan is owned in common, and every family farms, at least part time. Each family tends its own plots, but nobody can sell theirs to a stranger. Picture a garden the whole street plants together, where you look after your own rows but cannot put them up for sale. I was handed a spade. I dug up a potato. I held it up like a trophy. Nobody clapped. Everyone here has dug up a potato. I asked if I could have a plot of my own. I was offered a seat on somebody's stone wall instead, which felt like a start.",
+      "y_hinh": [
+        {
+          "cue": "the Potato Patches",
+          "y": "Đồng ruộng xanh có tường đá thấp chia ô, bò cừu, núi lửa sau lưng"
+        },
+        {
+          "cue": "Picture a garden the whole street plants together",
+          "y": "Bong bóng tưởng tượng: cả con phố que cùng trồng một khu vườn chung, mỗi nhà một luống"
+        },
+        {
+          "cue": "I held it up like a trophy",
+          "y": "Wob giơ củ khoai lên cao, ánh sáng chiếu như sân khấu",
+          "gag": "Một con bò quay lại nhìn, nhai, rồi quay đi; giữ hình"
+        },
+        {
+          "cue": "Everyone here has dug up a potato",
+          "y": "Toàn cảnh: hàng chục người que đang nhổ khoai, mỗi người một củ"
+        },
+        {
+          "cue": "which felt like a start",
+          "y": "Wob ngồi trên bức tường đá thấp cạnh ruộng, cầm cốc trà, đung đưa chân"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Everyone here has dug up a potato",
+          "hanh_dong": "vay-tay",
+          "so_luong": 3,
+          "giu": 3
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-potato-patches",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-potato-patches",
+          "cue": "Picture a garden",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-potato-patches",
+          "cue": "I was handed a spade",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.45,
+            0.6
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I spent a day",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "nobody can sell theirs",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Nobody clapped",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp: ngày đánh tôm hùm; 30–40 ngày/năm; 80% ngân sách; Wob đổi ý lần 2",
+      "narration": "Afternoon: lobster. The island's rock lobster fishery is its main income, around eighty percent of the territory's revenue, according to the Marine Stewardship Council. There are even lobsters on the island's coat of arms. But the small boats only go out when the weather allows, which is around thirty to forty days a year. So when the sea is calm, everyone moves fast. I watched the boats head out with the whole village paying attention. By evening, with lobster on the table and the volcano turning pink, I changed my mind. This is not a place people are stuck in. It is a place they run, together.",
+      "y_hinh": [
+        {
+          "cue": "Afternoon: lobster",
+          "y": "Bến nhỏ, thuyền máy nhỏ, bẫy tôm hùm xếp chồng"
+        },
+        {
+          "cue": "lobsters on the island's coat of arms",
+          "y": "Huy hiệu vẽ phác có hai con tôm hùm hai bên, Wob đứng nghiêm chào",
+          "gag": "Hai con tôm hùm trên huy hiệu đồng loạt chào lại Wob bằng càng"
+        },
+        {
+          "cue": "around thirty to forty days a year",
+          "y": "Lịch treo tường: phần lớn ô vẽ mây bão, chỉ lác đác vài ô mặt trời"
+        },
+        {
+          "cue": "the volcano turning pink",
+          "y": "Hoàng hôn: núi lửa ửng hồng, làng lên đèn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-harbour",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "So when the sea is calm",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-tristan-volcano",
+          "cue": "By evening",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Afternoon: lobster",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "only go out when the weather allows",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I changed my mind",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "1961",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 4 (không gag): núi lửa phun, sơ tán toàn đảo",
+      "music_mood": "khac-nghiet",
+      "narration": "On my last evening I walked to the eastern edge of the village, where the ground changes. In August nineteen sixty-one the island began to shake. On the tenth of October that year, the volcano erupted right next to the Settlement. The whole population was taken off the island in fishing boats and moved to a passing liner. Two hundred and sixty-four people went first to Cape Town, then on to England. They left with what they could carry. Behind them, the island was empty. In England, many of them lived at an old camp at Calshot, on the south coast. I will come back to that name.",
+      "y_hinh": [
+        {
+          "cue": "where the ground changes",
+          "y": "Cắt giấy tông trầm: dải đá đen thô ráp chạy sát mép làng"
+        },
+        {
+          "cue": "the volcano erupted right next to the Settlement",
+          "y": "Wob ở hiện tại đặt con tem xuống bàn, lặng"
+        },
+        {
+          "cue": "taken off the island in fishing boats",
+          "y": "Những chiếc thuyền giấy nhỏ chở bóng người que rời bờ trong khói xám"
+        },
+        {
+          "cue": "Behind them, the island was empty",
+          "y": "Làng giấy trống không, cửa mở, khói bay; camera lùi chậm"
+        },
+        {
+          "cue": "an old camp at Calshot",
+          "y": "Dãy nhà trại thấp, xám, xa lạ; người que đứng nhìn biển phía nam nước Anh"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-lava-edge",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-tristan-volcano",
+          "cue": "On the tenth of October",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-south-atlantic-sea",
+          "cue": "Behind them, the island was empty",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "On my last evening",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "chapter": "The Vote to Go Home",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 5: đời sống ở Anh vs đảo; bỏ phiếu kín 148–5; trở về 1963",
+      "music_mood": "to-mo",
+      "narration": "In England, the islanders were offered everything a modern country had. I tried to imagine it. Picture being handed the keys to a city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house next to a volcano. In a secret ballot, the adult islanders voted one hundred and forty-eight to five to go back. An advance party returned in April nineteen sixty-three. Most of the rest followed that November. Scientists had checked the island first, and the village had been only lightly damaged. They rebuilt the lobster factory, and got on with it.",
+      "facts": [
+        {
+          "label": "Vote",
+          "value": "148 – 5",
+          "claim_ids": [
+            "C23"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Picture being handed the keys to a city",
+          "y": "Bong bóng tưởng tượng vẽ tay: chùm chìa khoá to có treo xe buýt, cửa hàng, phòng khám mini",
+          "gag": "Một bàn tay que lịch sự trả lại cả chùm, chỉ lấy một chiếc chìa nhỏ có treo hình núi lửa"
+        },
+        {
+          "cue": "voted one hundred and forty-eight to five",
+          "y": "Thùng phiếu gỗ, hai đống phiếu: một đống cao ngất, một đống bé tí"
+        },
+        {
+          "cue": "An advance party returned",
+          "y": "Thuyền giấy quay về bờ, người que nhảy lên đá"
+        },
+        {
+          "cue": "got on with it",
+          "y": "Người que xếp lại đá, sơn lại cửa, ống khói nhà máy bốc khói"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-settlement",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "In a secret ballot",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "An advance party returned",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "In England",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "one hundred and forty-eight to five",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "got on with it",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao về: nhận định của nhà nhân học; Wob hiểu ra",
+      "narration": "Why go back? The anthropologist Peter Munch studied this community before and after the evacuation. He wrote that the islanders united to persuade the British government to let them return. And he wrote that their return showed how strongly they held to their own way of life. I thought about my own street. I like it. I would not vote that firmly for it. That is when it clicked. The volcano was never the point. The island is where their land is, their families, their boats and their say in how things run. England had more of everything, except that.",
+      "y_hinh": [
+        {
+          "cue": "The anthropologist Peter Munch",
+          "y": "Trang sổ: một cuốn sách học thuật vẽ phác mở ra, chữ nguệch ngoạc"
+        },
+        {
+          "cue": "I thought about my own street",
+          "y": "Chèn: con phố của Wob, Wob giơ tay biểu quyết một mình",
+          "gag": "Wob giơ tay, nhìn quanh, chỉ có con mèo hàng xóm cũng giơ chân"
+        },
+        {
+          "cue": "The volcano was never the point",
+          "y": "Wob đặt núi lửa giấy sang một bên, kéo vào giữa bàn củ khoai, chiếc thuyền, tấm biển tên"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-potato-patches",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "That is when it clicked",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Why go back",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I would not vote",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "That is when it clicked",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "chapter": "How the Island Stays the Island",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 6: từ một luống khoai tới cả hệ thống: không mua được đất, xin phép Island Council; Wob muốn chuyển tới",
+      "narration": "Here is the part I did not expect. You cannot simply move to Tristan. The island's own information says it is not possible to buy property there, and you cannot settle without a family connection. Even to visit, you need permission from the Island Council. Start with one potato row. Zoom out to a family's plots. Zoom out again to land that belongs to everyone, a council that decides who comes, and a fishery the island manages for itself. That is how a community this size keeps an island at the end of the world working, and keeps it theirs. I filled in a request to stay. I was told, kindly, that the ship leaves on schedule.",
+      "y_hinh": [
+        {
+          "cue": "You cannot simply move to Tristan",
+          "y": "Wob hí hửng cầm biển 'NEW RESIDENT', đứng trước cửa hội trường làng"
+        },
+        {
+          "cue": "Start with one potato row",
+          "y": "Cực cận một luống khoai, camera lùi dần: ruộng, làng, cả đảo giữa đại dương"
+        },
+        {
+          "cue": "keeps it theirs",
+          "y": "Từ trên cao, đảo nhỏ xíu giữa biển xanh thẫm, khói bếp bốc lên"
+        },
+        {
+          "cue": "the ship leaves on schedule",
+          "y": "Wob ôm tờ đơn, tiếng còi tàu vang ở bến",
+          "gag": "Tờ đơn trong tay Wob tự gấp thành thuyền giấy và chạy về phía con tàu"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-settlement",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-potato-patches",
+          "cue": "Start with one potato row",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:map-tristan",
+          "cue": "That is how a community this size",
+          "move": "zoom-out",
+          "zoom": 1.1,
+          "focus": [
+            0.66,
+            0.6
+          ]
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "I filled in a request to stay",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here is the part I did not expect",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Start with one potato row",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I filled in a request",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "đảo quen với ngày xấu: bão 2001, cháy nhà máy, khu bảo tồn biển; tên bến Calshot (callback)",
+      "narration": "The island is used to bad days. In two thousand and one a hurricane left it without electricity for six days. A few years later the fish factory burned down, and it was rebuilt to European Union standards. In twenty twenty the island created a huge marine protected area around its waters, to keep its fishing sustainable. And remember Calshot, the camp in England? When the islanders came home, they gave that name to their harbour. I walked down to Calshot Harbour on my last morning and read the sign twice. A place named after the place they left, so they could come back to this one.",
+      "y_hinh": [
+        {
+          "cue": "a hurricane left it without electricity",
+          "y": "Làng tối om trong mưa gió, một ngọn nến trong cửa sổ"
+        },
+        {
+          "cue": "the fish factory burned down",
+          "y": "Nhà máy nhỏ ven biển, rồi được dựng lại sáng sủa, cửa sổ mới"
+        },
+        {
+          "cue": "a huge marine protected area",
+          "y": "Trang sổ: vòng tròn xanh khổng lồ vẽ quanh chấm đảo, cá và tôm hùm bơi bên trong",
+          "gag": "Một con tôm hùm vẽ thêm hàng rào quanh vòng tròn, gật gù hài lòng"
+        },
+        {
+          "cue": "read the sign twice",
+          "y": "Tấm biển gỗ 'Calshot Harbour' ở bến đá, Wob đứng đọc, đọc lại"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-settlement",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "In twenty twenty",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-tristan-harbour",
+          "cue": "I walked down to Calshot Harbour",
+          "move": "zoom-in",
+          "zoom": 1.25
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The island is used to bad days",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "a huge marine protected area",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "read the sign twice",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "outro",
+      "chapter": "Would They Even Have Me?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết WOULD MOVE có điều kiện, callback con tem, câu hỏi kéo bình luận",
+      "narration": "So here is how the stamp adds up. A garrison came because of Napoleon. A corporal stayed. Sailors, castaways and a few brave brides turned a guard post into a home. A volcano took that home away for two years, and the people took it back by vote. They stay for the land they share, the lobster they fish and the say they have in their own lives. Would I move there? Yes. My verdict is WOULD MOVE, if the island would have me, which, for now, it would not. It suits patient people who like the sea, their neighbours and planning dinner months ahead. It does not suit anyone who needs an airport. I stuck the stamp in my notebook, next to the dotted line. Would you go back, after a couple of years in a big city?",
+      "verdict": {
+        "label": "WOULD MOVE",
+        "reason": "Shared land, a working community and a people who chose this island over England make it worth the six-day voyage, if the Island Council ever said yes.",
+        "cue": "WOULD MOVE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is how the stamp adds up",
+          "y": "Bàn kỷ vật: Wob xếp hàng chiếc mũ hai sừng vẽ phác, củ khoai, thùng phiếu nhỏ, núi lửa giấy, con tem"
+        },
+        {
+          "cue": "the people took it back by vote",
+          "y": "Wob thả một lá phiếu vào thùng phiếu tí hon"
+        },
+        {
+          "cue": "My verdict is WOULD MOVE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? WOULD MOVE'"
+        },
+        {
+          "cue": "which, for now, it would not",
+          "y": "Wob nhìn tờ đơn bị trả lại",
+          "gag": "Tờ đơn có thêm dòng chữ viết tay rất lịch sự: 'Try again in spring'"
+        },
+        {
+          "cue": "a couple of years in a big city",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tristan-volcano",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-tristan-settlement",
+          "cue": "Would I move there",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is WOULD MOVE"
+        },
+        {
+          "show": "asset:map-tristan",
+          "cue": "I stuck the stamp in my notebook",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.6
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is how the stamp adds up",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Would I move there? Yes",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "which, for now, it would not",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "I stuck the stamp",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-tristan-settlement",
+      "scenes": [
+        1,
+        2,
+        5,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "canh": "a small village of low single-storey houses with pale walls and dark roofs on a narrow strip of flat green land between tall cliffs and a grey sea, a huge cone-shaped volcano rising behind with a cloud on its summit, a few cattle",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, thumbnail, 8 cảnh; cần đúng làng mái thấp dưới núi lửa hình nón"
+    },
+    {
+      "id": "ai-tristan-volcano",
+      "scenes": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        15
+      ],
+      "canh": "a massive volcanic island rising steeply out of a grey ocean, a near-perfect cone with a cloud like a cap on top, dark cliffs at the base, seen from a ship",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cảnh tới nơi và cảnh phán quyết; hình nón và mây đội đầu"
+    },
+    {
+      "id": "ai-potato-patches",
+      "scenes": [
+        8,
+        12,
+        13
+      ],
+      "canh": "green farm fields divided by low dry-stone walls on a coastal plain, small huts, cattle and sheep grazing, a steep volcanic mountain behind, overcast light",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Bối cảnh chương đất chung; cần tường đá chia ô"
+    },
+    {
+      "id": "ai-tristan-harbour",
+      "scenes": [
+        4,
+        9,
+        11,
+        13,
+        14
+      ],
+      "canh": "a tiny rocky harbour with a short concrete breakwater, small open motor fishing boats, stacked lobster traps, rough grey sea, cliffs",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Nghề tôm hùm; cần đúng bẫy tôm và bến đá nhỏ"
+    },
+    {
+      "id": "ai-lava-edge",
+      "scenes": [
+        10
+      ],
+      "canh": "a field of rough black lava rock right at the edge of a small village of low houses, sparse grass, grey sky, quiet",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 1,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hình chính của chương lich-su-nghiem; dòng dung nham sát làng"
+    },
+    {
+      "id": "ai-south-atlantic-sea",
+      "scenes": [
+        3,
+        4,
+        10
+      ],
+      "canh": "an empty grey ocean with long rolling swells under a heavy cloudy sky, no land in sight",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí biển trống, tổng 4"
+    },
+    {
+      "id": "ai-tristan-cliff-shore",
+      "scenes": [
+        6,
+        7
+      ],
+      "canh": "a rocky shoreline below tall dark cliffs, waves breaking, seabirds, grey light",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông bờ đá, tổng 3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "In nineteen sixty-one, a volcano forced everyone off that island. Then they voted to go back.",
+      "statement": "In 1961 a volcanic eruption forced the evacuation of the entire population of Tristan da Cunha, and the islanders later voted to return.",
+      "source_ids": [
+        "S13",
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "By some accounts, it is the most remote inhabited island in the world.",
+      "statement": "Tristan da Cunha is often described as the most remote inhabited island in the world.",
+      "source_ids": [
+        "S7",
+        "S10"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "Around two hundred and forty-five people live there.",
+      "statement": "Tristan da Cunha has about 245 inhabitants (Marine Stewardship Council, 2020).",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 2,
+      "quote": "When the volcano erupted, they were taken all the way to England",
+      "statement": "After the 1961 eruption, the islanders of Tristan da Cunha were evacuated and taken to England.",
+      "source_ids": [
+        "S5",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 2,
+      "quote": "And most of them chose to return to the place with the volcano.",
+      "statement": "Most of the evacuated Tristan islanders returned to the island in 1963.",
+      "source_ids": [
+        "S21",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "There is no airstrip on Tristan. You go by ship, usually from Cape Town in South Africa, and the trip takes about six days.",
+      "statement": "Tristan da Cunha has no airstrip; access is by ship, typically from Cape Town, a voyage of about six days.",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 3,
+      "quote": "The island sits about fifteen hundred miles west of Cape Town. That's roughly twenty-four hundred kilometres.",
+      "statement": "Tristan da Cunha lies about 1,510 miles (about 2,430 km) west of Cape Town.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "Tristan has no deep harbour, so big ships stay out at sea and people come ashore in small boats when the swell allows. The BBC describes the regular route from Cape Town as unreliable.",
+      "statement": "Tristan da Cunha has no deep harbour, so ships anchor offshore and people land by small boat when conditions allow; the BBC describes the only regularly used route, from Cape Town, as unreliable.",
+      "source_ids": [
+        "S6",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 5,
+      "quote": "It is basically one enormous volcano, wearing a cloud like a hat, with a strip of flat green land along the bottom where the village sits.",
+      "statement": "The main island of Tristan da Cunha is a large volcano, and its only settlement lies on a narrow coastal plain on the north side.",
+      "source_ids": [
+        "S19",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 5,
+      "quote": "The village is officially called Edinburgh of the Seven Seas. Everyone calls it the Settlement.",
+      "statement": "The only town on Tristan da Cunha is officially named Edinburgh of the Seven Seas and is known locally as the Settlement.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 5,
+      "quote": "There is a single grocery store, and orders are placed a couple of months in advance, so the goods can be shipped in.",
+      "statement": "Orders for Tristan da Cunha's single grocery store are placed a couple of months in advance so goods can be shipped from the mainland.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "After his defeat, Napoleon was exiled on St Helena, another island, more than two thousand kilometres to the north. Britain worried that the French might use Tristan as a base for a rescue.",
+      "statement": "Britain feared Tristan da Cunha could become a French base for freeing Napoleon, who was imprisoned on St Helena, an island more than 2,000 km north of Tristan.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "So in August eighteen sixteen, Britain claimed the island and put a small garrison on it.",
+      "statement": "Britain formally annexed Tristan da Cunha on 14 August 1816 and stationed a small garrison there.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 7,
+      "quote": "The garrison left in November eighteen seventeen. But one corporal, William Glass, asked to stay, with his family.",
+      "statement": "The garrison on Tristan da Cunha was maintained until November 1817, when Corporal William Glass and his family remained at their own request.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "In the early eighteen twenties, five single men on the island asked a ship's captain to bring wives from St Helena, and he did.",
+      "statement": "In the early 1820s, five bachelors on Tristan da Cunha asked a naval captain to bring five wives from St Helena, which he did.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "Today the island has seven surnames.",
+      "statement": "Tristan da Cunha's population shares seven surnames.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 8,
+      "quote": "All land on Tristan is owned in common, and every family farms, at least part time.",
+      "statement": "All land on Tristan da Cunha is communally owned, and all families farm at least part-time, working family plots at the Potato Patches.",
+      "source_ids": [
+        "S7",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 9,
+      "quote": "The island's rock lobster fishery is its main income, around eighty percent of the territory's revenue, according to the Marine Stewardship Council. There are even lobsters on the island's coat of arms.",
+      "statement": "According to the Marine Stewardship Council, Tristan da Cunha's rock lobster fishery contributes about 80% of the territory's revenue; lobsters appear on its coat of arms.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 9,
+      "quote": "But the small boats only go out when the weather allows, which is around thirty to forty days a year.",
+      "statement": "Tristan da Cunha's small fishing boats can only fish in fine weather, limited to about 30 to 40 days a year.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 10,
+      "quote": "In August nineteen sixty-one the island began to shake. On the tenth of October that year, the volcano erupted right next to the Settlement.",
+      "statement": "Tremors began on Tristan da Cunha in August 1961, and on 10 October 1961 a volcanic eruption began close to the settlement.",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 10,
+      "quote": "The whole population was taken off the island in fishing boats and moved to a passing liner. Two hundred and sixty-four people went first to Cape Town, then on to England.",
+      "statement": "After the 10 October 1961 eruption, the whole population of Tristan da Cunha (264 people) was taken off in fishing vessels, transferred to the liner Tjisadane, taken to Cape Town and then to England.",
+      "source_ids": [
+        "S13",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 10,
+      "quote": "In England, many of them lived at an old camp at Calshot, on the south coast.",
+      "statement": "After the 1961 evacuation, many Tristan islanders were housed at a camp at Calshot on England's south coast.",
+      "source_ids": [
+        "S23"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 11,
+      "quote": "In a secret ballot, the adult islanders voted one hundred and forty-eight to five to go back.",
+      "statement": "In a secret ballot, adult Tristan islanders in England voted 148 to 5 to return home.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 11,
+      "quote": "An advance party returned in April nineteen sixty-three. Most of the rest followed that November.",
+      "statement": "An advance party of Tristan islanders returned in April 1963, and most of the others returned in November 1963.",
+      "source_ids": [
+        "S21",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 11,
+      "quote": "Scientists had checked the island first, and the village had been only lightly damaged. They rebuilt the lobster factory, and got on with it.",
+      "statement": "A Royal Society expedition assessed Tristan da Cunha in 1962 and found the settlement only marginally affected; after their return, islanders rebuilt the lobster canning industry.",
+      "source_ids": [
+        "S21",
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 12,
+      "quote": "He wrote that the islanders united to persuade the British government to let them return. And he wrote that their return showed how strongly they held to their own way of life.",
+      "statement": "Anthropologist Peter A. Munch wrote that Tristan islanders united to persuade the British government to let them return, and that their return demonstrated their commitment to their own values and traditions.",
+      "source_ids": [
+        "S22"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 13,
+      "quote": "The island's own information says it is not possible to buy property there, and you cannot settle without a family connection. Even to visit, you need permission from the Island Council.",
+      "statement": "According to Tristan da Cunha's own information, it is not possible to buy property on the islands and immigration is not possible without a family connection; visitors need Island Council permission.",
+      "source_ids": [
+        "S16",
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C28",
+      "scene": 14,
+      "quote": "In two thousand and one a hurricane left it without electricity for six days. A few years later the fish factory burned down, and it was rebuilt to European Union standards.",
+      "statement": "In 2001 a hurricane left Tristan da Cunha without electricity for six days, and seven years later its fish factory burned down and was rebuilt to EU standards.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C29",
+      "scene": 14,
+      "quote": "In twenty twenty the island created a huge marine protected area around its waters, to keep its fishing sustainable.",
+      "statement": "In 2020 Tristan da Cunha established a large Marine Protected Area around its waters to help keep its fisheries sustainable.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C30",
+      "scene": 14,
+      "quote": "When the islanders came home, they gave that name to their harbour.",
+      "statement": "The harbour at Edinburgh of the Seven Seas on Tristan da Cunha was named Calshot Harbour after the English town where islanders stayed during the evacuation.",
+      "source_ids": [
+        "S24"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C31",
+      "scene": 15,
+      "quote": "A garrison came because of Napoleon. A corporal stayed.",
+      "statement": "Tristan da Cunha's settlement began with a British garrison linked to Napoleon's exile on St Helena, and Corporal William Glass stayed when it left.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 15,
+      "quote": "A volcano took that home away for two years, and the people took it back by vote.",
+      "statement": "Tristan islanders were away from the island for about two years after the 1961 eruption and returned after voting to do so.",
+      "source_ids": [
+        "S17",
+        "S21"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)",
+      "publisher": "LacusCurtius (University of Chicago)",
+      "type": "bach-khoa",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "Tristan da Cunha garrison history",
+      "publisher": "Peaceful Societies, UNC Greensboro",
+      "type": "khac",
+      "url": "https://peacefulsocieties.uncg.edu/?p=11205",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Tristan da Cunha: The Longest Trip",
+      "publisher": "JSTOR Daily",
+      "type": "bao",
+      "url": "https://daily.jstor.org/tristan-da-cunha-the-longest-trip/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "Tristan da Cunha",
+      "publisher": "British Empire (britishempire.co.uk)",
+      "type": "khac",
+      "url": "https://britishempire.co.uk/maproom/tristandacunha.htm",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "The Evacuation of Tristan da Cunha",
+      "publisher": "History Today",
+      "type": "bao",
+      "url": "https://www.historytoday.com/archive/evacuation-tristan-da-cunha",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Tristan da Cunha: Island at the End of the World",
+      "publisher": "National Geographic",
+      "type": "bao",
+      "url": "https://www.nationalgeographic.com/travel/article/tristan-da-cunha",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Extremities of the Earth: The Most Remote Inhabited Island",
+      "publisher": "Library of Congress",
+      "type": "goc",
+      "url": "https://blogs.loc.gov/maps/2017/12/extremities-of-the-earth-the-most-remote-inhabited-island/",
+      "published": "2017-12-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "Hard-core locavore: eating on the world's most remote island",
+      "publisher": "National Geographic",
+      "type": "bao",
+      "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Tristan da Cunha lobster: a remote model of sustainable fishing",
+      "publisher": "Marine Stewardship Council",
+      "type": "goc",
+      "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing",
+      "published": "2020-12-18",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Tristan da Cunha: the lobsters keeping Earth's remotest town afloat",
+      "publisher": "BBC (via South Atlantic News)",
+      "type": "bao",
+      "url": "https://southatlanticnews.com/?p=3422",
+      "published": "2025-09-16",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Tristan da Cunha lobsters",
+      "publisher": "The Fish Society",
+      "type": "khac",
+      "url": "https://thefishsociety.co.uk/blog/tristan-da-cunha-lobsters",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Tristan da Cunha",
+      "publisher": "Wikipedia (used to locate sources)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Tristan_da_Cunha",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha",
+      "publisher": "Hansard, UK Parliament",
+      "type": "goc",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha",
+      "published": "1961-10-17",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S14",
+      "title": "Tristan da Cunha eruption, fifty years on",
+      "publisher": "Peaceful Societies, UNC Greensboro",
+      "type": "khac",
+      "url": "https://peacefulsocieties.uncg.edu/?p=675",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S15",
+      "title": "St Helena, Ascension and Tristan da Cunha: entry requirements",
+      "publisher": "GOV.UK",
+      "type": "goc",
+      "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/entry-requirements",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S16",
+      "title": "Tristan da Cunha – fixed-term specialist employment (quoting Tristan da Cunha Government information)",
+      "publisher": "WhereToEmigrate",
+      "type": "khac",
+      "url": "https://wheretoemigrate.io/pathways/saint-helena-ascension-and-tristan-da-cunha-tristan-da-cunha-fixed-term-specialist-employment",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Tristan Da Cunha: Paradise Enow",
+      "publisher": "TIME",
+      "type": "bao",
+      "url": "https://content.time.com/time/magazine/article/0,9171,872948,00.html",
+      "published": "1963-01-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S19",
+      "title": "Queen Mary's Peak",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Queen_Mary%27s_Peak",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S21",
+      "title": "Volcanic venture",
+      "publisher": "Royal Society",
+      "type": "goc",
+      "url": "https://royalsociety.org/blog/2021/08/volcanic-venture",
+      "published": "2021-08-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S22",
+      "title": "Culture and Superculture in a Displaced Community: Tristan da Cunha (Munch 1964, summary)",
+      "publisher": "Peaceful Societies, UNC Greensboro",
+      "type": "khac",
+      "url": "https://peacefulsocieties.uncg.edu/?p=2275",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S23",
+      "title": "Tristan da Cunha and the Roaring Forties (Allan Crawford), chapter on the evacuation",
+      "publisher": "LacusCurtius (University of Chicago)",
+      "type": "khac",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5G*.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S24",
+      "title": "Edinburgh of the Seven Seas",
+      "publisher": "Wikipedia (used to locate sources)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Edinburgh_of_the_Seven_Seas",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

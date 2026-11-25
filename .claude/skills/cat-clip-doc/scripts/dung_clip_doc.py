@@ -230,9 +230,14 @@ def build(du_an, plan, clip, browser, tmp):
         base = f"{vin}scale=1080:608:flags=lanczos,setsar=1"
         bw, bh = 1080, 608
     else:
-        # vùng 4:3 bắt đầu từ y=140 để không lấy logo góc phải trên của bản dài (logo nằm trong y < 130)
+        # vùng 4:3 bắt đầu từ y=140 để không lấy logo góc phải trên của bản dài (logo nằm trong y < 130).
+        # Số đo theo hệ thiết kế 1920×1080; bản dài 2560×1440 (từ tập 4) thì nhân k để cắt từ hình nét hơn.
+        sw = int(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width",
+                                 "-of", "csv=p=0", str(src)], capture_output=True, text=True, check=True).stdout.strip())
+        k = sw / 1920
         cw, ch, cy = (1440, 1080, 0) if clip.get("giu_tren") else (1253, 940, 140)
-        x = int((1920 - cw) * min(1, max(0, float(clip.get("crop_x", 0.5)))))
+        cw, ch, cy = (2 * round(v * k / 2) for v in (cw, ch, cy))
+        x = int((sw - cw) * min(1, max(0, float(clip.get("crop_x", 0.5)))))
         base = f"{vin}crop={cw}:{ch}:{x}:{cy},scale=1080:810:flags=lanczos,setsar=1"
         bw, bh = 1080, 810
     z = f"(1+{ZOOM0 - 1:.3f}*max(0\\,1-t/5))"

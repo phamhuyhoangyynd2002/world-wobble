@@ -792,3 +792,397 @@
     return VT.wrap(o, out.join(""));
   };
 })();
+
+/* ve-tay · đạo cụ sa mạc, bãi opal, sơ đồ so sánh (thêm 23/11/2026, tập Coober Pedy). Chỉ thêm. Mỗi hàm nhận o = {x, y, s, rot, sx, ...}. */
+(function () {
+  var VT = window.VT, C = VT.C, f = VT.f, INK = C.ink, wrap = VT.wrap;
+  VT.C.sand = "#E6CFA0"; VT.C.sandShade = "#CDAE78"; VT.C.dirt = "#D8C2A0"; VT.C.dirtShade = "#B99C76"; VT.C.skyHot = "#F7EED8";
+  var OPAL = ["#7FD3E8", "#9BE3B0", "#F2A1C8", "#F6D36A", "#B49BF0"];
+  VT.OPAL_MAU = OPAL;
+
+  function blob(r, seed, n, amp) {
+    var pts = [];
+    for (var i = 0; i < n; i++) { var a = 2 * Math.PI * i / n, k = 1 + (VT.hash(seed + i * 1.7) - 0.5) * amp; pts.push([Math.cos(a) * r * k, Math.sin(a) * r * k * 0.8]); }
+    return VT.smooth(pts, true);
+  }
+  VT.blob = blob;
+  /** Xẻng nhỏ: gốc ở tay cầm (đầu cán), lưỡi ở cuối cán hướng +y, dài ~210. dirt: có đất trên lưỡi. */
+  VT.shovel = function (o) {
+    var out = VT.line("M 0 0 L 0 140", 12, "#8E5527") + VT.line("M 0 0 L 0 140", 3, INK, 0.5) + VT.line("M -22 -4 L 22 -4", 12) +
+      VT.shape("M -34 136 L 34 136 L 30 190 C 20 214 -20 214 -30 190 Z", "#9AA7AE", { sw: 6 });
+    if (o.dirt) out += VT.g("translate(0 160)", VT.shape(blob(30, 3, 8, 0.5), C.dirtShade, { sw: 4 }));
+    return wrap(o, out);
+  };
+  /** Hòn đá xám: gốc tâm, r (~60). smug: mắt lim dim tự mãn + nhếch mép. seed đổi dáng. */
+  VT.rock = function (o) {
+    var r = o.r || 60, out = VT.shape(blob(r, o.seed || 5, 9, 0.35), o.color || "#A7A9A6", { sw: 6 }) + VT.line("M " + f(-r * 0.4) + " " + f(-r * 0.3) + " q 10 -8 22 -4", 4, INK, 0.4);
+    if (o.smug) {
+      var ex = r * 0.3, ey = -r * 0.08, er = r * 0.18;
+      [-ex, ex].forEach(function (x) {
+        out += VT.ell(x, ey, er, er, "#fffdf6", 4) + VT.dot(x + er * 0.35, ey + er * 0.3, er * 0.42) +
+          '<path d="M ' + f(x - er - 2) + " " + f(ey + 1) + " A " + f(er + 2) + " " + f(er + 2) + " 0 0 1 " + f(x + er + 2) + " " + f(ey + 1) + ' Z" fill="#8f918e" stroke="' + INK + '" stroke-width="4"/>';
+      });
+      out += VT.line("M " + f(-ex - er) + " " + f(ey - er * 1.5) + " L " + f(-ex + er) + " " + f(ey - er * 1.1), 5) + VT.line("M " + f(ex - er) + " " + f(ey - er * 1.1) + " L " + f(ex + er) + " " + f(ey - er * 1.7), 5);
+      out += VT.line("M " + f(-r * 0.2) + " " + f(r * 0.34) + " C 0 " + f(r * 0.44) + " " + f(r * 0.2) + " " + f(r * 0.38) + " " + f(r * 0.36) + " " + f(r * 0.18), 5);
+    }
+    return wrap(o, out);
+  };
+  /** Viên opal / sỏi: gốc tâm, r ~18. glow 0..1 (vầng sáng nhiều màu + tia), t (tia xoay theo bậc). dull: sỏi xám thường. */
+  VT.opal = function (o) {
+    var r = o.r || 18, g = o.glow == null ? 1 : o.glow, out = "";
+    if (o.dull) return wrap(o, VT.shape(blob(r, 9, 7, 0.3), "#B7B2A8", { sw: 4 }));
+    if (g > 0) {
+      var st = Math.round((o.t || 0) * 12);
+      out += '<circle cx="0" cy="0" r="' + f(r * (2.4 + 0.4 * Math.sin(st))) + '" fill="#FFF6D6" opacity="' + f(0.55 * g) + '"/>';
+      for (var i = 0; i < 8; i++) { var a = i * Math.PI / 4 + st * 0.15, r0 = r * 1.5, r1 = r * (2.6 + (i % 2) * 0.8); out += VT.line("M " + f(Math.cos(a) * r0) + " " + f(Math.sin(a) * r0) + " L " + f(Math.cos(a) * r1) + " " + f(Math.sin(a) * r1), 5, OPAL[i % 5], f(g)); }
+    }
+    out += VT.shape(blob(r, 9, 7, 0.3), "#BFE7F0", { sw: 4 });
+    out += VT.line("M " + f(-r * 0.5) + " " + f(-r * 0.1) + " L " + f(r * 0.1) + " " + f(-r * 0.5), 5, "#F2A1C8") + VT.line("M " + f(-r * 0.3) + " " + f(r * 0.35) + " L " + f(r * 0.5) + " " + f(-r * 0.05), 5, "#9BE3B0") + VT.dot(r * 0.2, -r * 0.1, r * 0.18, "#ffffff");
+    return wrap(o, out);
+  };
+  /** Đống đất (mullock heap): gốc giữa chân, w (~420), h (~220), seed. */
+  VT.mound = function (o) {
+    var w = o.w || 420, h = o.h || 220, sd = o.seed || 1, pts = [[-w / 2, 0]];
+    for (var i = 1; i < 8; i++) { var u = i / 8, x = -w / 2 + w * u, y = -h * Math.sin(Math.PI * u) * (0.85 + 0.3 * VT.hash(sd + i)); pts.push([x, y]); }
+    pts.push([w / 2, 0]);
+    var d = VT.smooth(pts, false) + " Z", out = VT.shape(d, o.color || C.dirt, { sw: 6 });
+    for (var j = 0; j < 7; j++) { var px = (VT.hash(sd * 3 + j) - 0.5) * w * 0.55, py = -h * (0.12 + 0.45 * VT.hash(sd * 7 + j)); out += VT.dot(px, py, 4 + 4 * VT.hash(j + sd), C.dirtShade); }
+    return wrap(o, out);
+  };
+  /** Mặt đất sa mạc: từ y xuống, phủ −1200..3100. */
+  VT.desertGround = function (y, col) {
+    return VT.shape("M -1200 " + y + " L 3100 " + y + " L 3100 2400 L -1200 2400 Z", col || C.sand, { sw: 6, ox: 0, oy: 0 }) +
+      [[-300, 40], [220, 90], [700, 30], [1240, 70], [1700, 110], [2200, 50]].map(function (p) { return VT.line("M " + p[0] + " " + (y + p[1]) + " l 60 0", 4, C.sandShade); }).join("");
+  };
+  /** Mặt trời to: gốc tâm, r, t (tia nhấp nháy theo bậc), col. */
+  VT.sunBig = function (o) {
+    var r = o.r || 120, st = Math.round((o.t || 0) * 12), out = "";
+    out += '<circle cx="0" cy="0" r="' + f(r * 1.25) + '" fill="#FFE9A8" opacity="0.6"/>';
+    for (var i = 0; i < 14; i++) { var a = i * 2 * Math.PI / 14 + (st % 2) * 0.1; out += VT.line("M " + f(Math.cos(a) * r * 1.12) + " " + f(Math.sin(a) * r * 1.12) + " L " + f(Math.cos(a) * r * 1.42) + " " + f(Math.sin(a) * r * 1.42), f(Math.max(6, r * 0.05)), "#E0703A"); }
+    out += VT.shape(blob(r, 21, 12, 0.06), o.col || "#F6C445", { sw: f(Math.max(6, r * 0.035)) });
+    return wrap(o, out);
+  };
+  /** Bảng thông tin trên hai cột: gốc giữa chân cột, w×h (520×360), post cao cột, title (chữ phải có trong chu_tren_do_vat), size cỡ tiêu đề, lines số dòng kẻ, hi dòng đang dò (tô vàng). */
+  VT.infoBoard = function (o) {
+    var w = o.w || 520, h = o.h || 360, post = o.post || 220, top = -post - h, out = "";
+    out += VT.line("M " + f(-w * 0.3) + " 0 L " + f(-w * 0.3) + " " + f(-post), 16, "#8E5527") + VT.line("M " + f(w * 0.3) + " 0 L " + f(w * 0.3) + " " + f(-post), 16, "#8E5527");
+    out += VT.shape("M " + f(-w / 2) + " " + f(top) + " L " + f(w / 2) + " " + f(top) + " L " + f(w / 2) + " " + f(-post) + " L " + f(-w / 2) + " " + f(-post) + " Z", "#F6EEDC", { sw: 7 });
+    var size = o.size || 96;
+    if (o.title) out += VT.text(0, top + size * 1.05, o.title, size, { fill: "#A8361F" });
+    var n = o.lines || 6, y0 = top + size * 1.5, gap = (h - size * 1.5 - 30) / n;
+    for (var i = 0; i < n; i++) {
+      var y = y0 + gap * (i + 0.5), x0 = -w / 2 + 40, x1 = w / 2 - 40 - 60 * VT.hash(i * 5 + 1);
+      if (o.hi === i) out += '<rect x="' + f(x0 - 10) + '" y="' + f(y - 14) + '" width="' + f(x1 - x0 + 20) + '" height="28" fill="#F6D36A" opacity="0.7"/>';
+      var d = "M " + f(x0) + " " + f(y);
+      for (var k = 1; k <= 10; k++) d += " L " + f(x0 + (x1 - x0) * k / 10) + " " + f(y + (k % 2 ? -4 : 4));
+      out += VT.line(d, 4, INK, 0.55);
+    }
+    return wrap(o, out);
+  };
+  /** Toạ độ dòng thứ i của infoBoard (khung cục bộ, chưa nhân o.s): {x0, x1, y}. */
+  VT.infoBoardLine = function (o, i) {
+    var w = o.w || 520, h = o.h || 360, post = o.post || 220, top = -post - h, size = o.size || 96, n = o.lines || 6, y0 = top + size * 1.5, gap = (h - size * 1.5 - 30) / n;
+    return { x0: -w / 2 + 40, x1: w / 2 - 40 - 60 * VT.hash(i * 5 + 1), y: y0 + gap * (i + 0.5) };
+  };
+  /** Người que chung (không mặt, không ai cụ thể): gốc giữa hai chân, cao ~240, phase đi bộ, hat (mũ chung). */
+  VT.stickPerson = function (o) {
+    var p = (o.phase || 0) * 2 * Math.PI, a = Math.sin(p) * 22, out = "";
+    out += VT.line("M 0 -120 L " + f(-a) + " 0", 7) + VT.line("M 0 -120 L " + f(a) + " 0", 7) + VT.line("M 0 -120 L 0 -190", 7);
+    out += VT.line("M 0 -175 L " + f(a * 0.8 + 30) + " -130", 7) + VT.line("M 0 -175 L " + f(-a * 0.8 - 26) + " -134", 7);
+    out += VT.ell(0, -214, 24, 24, o.fill || "#F6EEDC", 6);
+    if (o.hat) out += VT.shape("M -34 -230 L 34 -230 L 22 -244 C 18 -262 -18 -262 -22 -244 Z", "#A3814A", { sw: 5 });
+    return wrap(o, out);
+  };
+  /** Mảnh ghép hình: gốc tâm, cỡ ~160, col, mark: số vạch đếm trên mảnh (không chữ số). */
+  VT.puzzle = function (o) {
+    var d = "M -80 -80 L -20 -80 C -24 -110 24 -110 20 -80 L 80 -80 L 80 -20 C 110 -24 110 24 80 20 L 80 80 L 20 80 C 24 50 -24 50 -20 80 L -80 80 L -80 20 C -50 24 -50 -24 -80 -20 Z";
+    var out = VT.shape(d, o.col || "#E0703A", { sw: 7 });
+    for (var i = 0; i < (o.mark || 0); i++) out += VT.line("M " + f(-10 + i * 24) + " -30 L " + f(-10 + i * 24) + " 34", 12, "#F6EEDC");
+    return wrap(o, out);
+  };
+  /** Mặt cắt ngọn đồi có lớp đá: gốc giữa đáy, w (900), h (420), cut=false bỏ lớp đá. */
+  VT.hillCut = function (o) {
+    var w = o.w || 900, h = o.h || 420, top = "M " + f(-w / 2) + " 0 C " + f(-w * 0.35) + " " + f(-h * 0.6) + " " + f(-w * 0.2) + " " + f(-h) + " 0 " + f(-h) + " C " + f(w * 0.2) + " " + f(-h) + " " + f(w * 0.35) + " " + f(-h * 0.6) + " " + f(w / 2) + " 0";
+    var out = VT.shape(top + " Z", o.col || "#E2B98A", { sw: 7 });
+    if (o.cut !== false) for (var i = 1; i < 4; i++) { var y = -h * (1 - i * 0.24), xw = w * 0.5 * Math.sqrt(Math.max(0, 1 - Math.pow(y / h, 2))) * 0.72; out += VT.line("M " + f(-xw) + " " + f(y + 10) + " C " + f(-xw * 0.4) + " " + f(y - 8) + " " + f(xw * 0.4) + " " + f(y + 14) + " " + f(xw) + " " + f(y), 4, "#9C7650", 0.7); }
+    return wrap(o, out);
+  };
+  /** Quạt bàn: gốc giữa đế, cao ~260. t, speed (vòng/giây), droop 0..1 (gục đầu). */
+  VT.fan = function (o) {
+    var dr = o.droop || 0, rot = (o.t || 0) * 360 * (o.speed == null ? 3 : o.speed), out = "";
+    out += VT.shape("M -70 0 C -70 -24 70 -24 70 0 Z", "#7C8C96", { sw: 6 });
+    var head = "";
+    for (var i = 0; i < 3; i++) head += VT.g("rotate(" + f(rot + i * 120) + ")", VT.shape("M 0 0 C 20 -30 60 -70 30 -90 C 0 -100 -20 -40 0 0 Z", "#BFE3F2", { sw: 4 }));
+    head += VT.ell(0, 0, 92, 92, "none", 5) + VT.dot(0, 0, 12);
+    out += VT.line("M 0 -16 Q " + f(dr * 50) + " -90 " + f(dr * 70) + " " + f(-150 + dr * 70), 10);
+    out += VT.g("translate(" + f(dr * 70) + " " + f(-170 + dr * 90) + ") rotate(" + f(dr * 70) + ")", head);
+    return wrap(o, out);
+  };
+  /** Đồng hồ điện: gốc tâm, hộp 180, t, speed (vòng/giây kim). */
+  VT.meter = function (o) {
+    var a = (o.t || 0) * 2 * Math.PI * (o.speed == null ? 2 : o.speed), out = VT.shape("M -90 -90 L 90 -90 L 90 90 L -90 90 Z", "#D6DDE0", { sw: 6 }) + VT.ell(0, 0, 64, 64, "#FFFDF6", 5);
+    for (var i = 0; i < 8; i++) { var b = i * Math.PI / 4; out += VT.line("M " + f(Math.cos(b) * 50) + " " + f(Math.sin(b) * 50) + " L " + f(Math.cos(b) * 60) + " " + f(Math.sin(b) * 60), 4); }
+    out += VT.line("M 0 0 L " + f(Math.cos(a) * 50) + " " + f(Math.sin(a) * 50), 7, "#A8361F") + VT.dot(0, 0, 8);
+    out += VT.shape("M -10 66 L 6 66 L -2 76 L 12 76 L -8 86 L -2 78 L -14 78 Z", "#F6C445", { sw: 3 });
+    return wrap(o, out);
+  };
+  /** Lịch xé (không số): gốc tâm, k số trang đã xé (tờ đang bay ở phần lẻ). */
+  VT.calendar = function (o) {
+    var k = o.k || 0, fr = k - Math.floor(k), out = VT.shape("M -80 -100 L 80 -100 L 80 100 L -80 100 Z", "#FFFDF6", { sw: 6 }) + '<rect x="-80" y="-100" width="160" height="40" fill="#C9463A"/>' + VT.line("M -80 -60 L 80 -60", 6);
+    out += VT.line("M -40 -10 L 40 -10", 14, INK, 0.75) + VT.line("M -50 40 L 50 40", 5, INK, 0.4) + VT.line("M -50 64 L 30 64", 5, INK, 0.4);
+    if (fr > 0.05) out += VT.g("translate(" + f(fr * 160) + " " + f(-fr * 120) + ") rotate(" + f(fr * 70) + ")", VT.shape("M -80 -60 L 80 -60 L 80 100 L -80 100 Z", "#FFFDF6", { sw: 5, op: f(1 - fr * 0.5) }));
+    return wrap(o, out);
+  };
+  /** Nhà tôn trên mặt đất: gốc giữa chân, w 360. hot: vệt nóng bốc trên mái (t). */
+  VT.tinHouse = function (o) {
+    var w = o.w || 360, h = 220, out = VT.shape("M " + f(-w / 2) + " 0 L " + f(-w / 2) + " " + (-h) + " L " + f(w / 2) + " " + (-h) + " L " + f(w / 2) + " 0 Z", "#C4CBCD", { sw: 6 });
+    for (var x = -w / 2 + 30; x < w / 2; x += 30) out += VT.line("M " + f(x) + " " + (-h + 6) + " L " + f(x) + " -6", 3, INK, 0.35);
+    out += VT.shape("M " + f(-w / 2 - 30) + " " + (-h) + " L 0 " + (-h - 110) + " L " + f(w / 2 + 30) + " " + (-h) + " Z", "#A9B3B6", { sw: 6 });
+    out += VT.shape("M -40 0 L -40 -110 L 40 -110 L 40 0 Z", "#8E5527", { sw: 5 });
+    if (o.hot) { var st = Math.round((o.t || 0) * 12); [-80, 0, 80].forEach(function (x, i) { var wv = Math.sin(st * 0.8 + i) * 10; out += VT.line("M " + x + " " + (-h - 130) + " c " + f(wv) + " -20 " + f(-wv) + " -40 0 -60", 5, "#E0703A", 0.8); }); }
+    return wrap(o, out);
+  };
+  /** Tờ hoá đơn trống (không số): gốc tâm, cỡ 220×300. */
+  VT.bill = function (o) {
+    var out = VT.shape("M -110 -150 L 110 -150 L 110 130 L 90 150 L 70 130 L 50 150 L 30 130 L 10 150 L -10 130 L -30 150 L -50 130 L -70 150 L -90 130 L -110 150 Z", "#FFFDF6", { sw: 6 });
+    out += VT.line("M -70 -110 L 70 -110", 8, INK, 0.6) + VT.line("M -80 -70 L 20 -70", 4, INK, 0.3) + VT.line("M -80 -40 L 50 -40", 4, INK, 0.3);
+    return wrap(o, out);
+  };
+  /** Gậy golf: gốc ở tay cầm, cán hướng +y dài ~300, đầu gậy ở cuối hướng +x. */
+  VT.golfClub = function (o) {
+    return wrap(o, VT.line("M 0 0 L 0 290", 9, "#9AA7AE") + VT.line("M 0 -10 L 0 50", 16) + VT.shape("M -4 284 L 50 284 C 64 286 64 306 50 308 L -6 308 Z", "#7C8C96", { sw: 5 }));
+  };
+  /** Cuộn (cỏ nhân tạo, thảm): gốc tâm, len (180), r (34), col (mặc định xanh cỏ), unroll 0..1 (trải tấm phẳng sang phải). */
+  VT.roll = function (o) {
+    var L = o.len || 180, r = o.r || 34, col = o.col || "#5E9E48", u = o.unroll || 0, out = "";
+    if (u > 0) out += VT.shape("M " + f(L / 2 - 10) + " " + f(r - 8) + " L " + f(L / 2 + u * 500) + " " + f(r - 8) + " L " + f(L / 2 + u * 500) + " " + f(r) + " L " + f(L / 2 - 10) + " " + f(r) + " Z", col, { sw: 5 });
+    var rr = r * (1 - 0.5 * u);
+    out += VT.shape("M " + f(-L / 2) + " " + f(-rr) + " L " + f(L / 2) + " " + f(-rr) + " A " + f(rr * 0.5) + " " + f(rr) + " 0 0 1 " + f(L / 2) + " " + f(rr) + " L " + f(-L / 2) + " " + f(rr) + " Z", col, { sw: 6 });
+    out += VT.ell(-L / 2, 0, rr * 0.5, rr, col, 6) + VT.line("M " + f(-L / 2 - rr * 0.2) + " " + f(-rr * 0.4) + " q 8 8 0 18", 3);
+    for (var i = 1; i < 5; i++) out += VT.line("M " + f(-L / 2 + L * i / 5) + " " + f(-rr + 4) + " l -2 10", 3, "#2F6B2A", 0.8);
+    return wrap(o, out);
+  };
+  /** Chìa khoá to có thẻ nhãn: gốc giữa vòng chìa, dài ~260; tag: chữ trên thẻ (chu_tren_do_vat), tagSize. */
+  VT.bigKey = function (o) {
+    var out = VT.ell(0, 0, 50, 50, "#E8C25A", 14) + VT.shape("M 46 -12 L 260 -12 L 260 12 L 46 12 Z", "#E8C25A", { sw: 6 }) +
+      VT.shape("M 200 12 L 200 46 L 222 46 L 222 12 Z", "#E8C25A", { sw: 5 }) + VT.shape("M 238 12 L 238 36 L 256 36 L 256 12 Z", "#E8C25A", { sw: 5 });
+    if (o.tag) out += VT.line("M -30 30 L -60 90", 4) + VT.shape("M -200 90 L 80 90 L 80 170 L -200 170 Z", "#FFFDF6", { sw: 6 }) + VT.text(-60, 148, o.tag, o.tagSize || 52, { fill: "#2c4f6e" });
+    return wrap(o, out);
+  };
+  /** Bàn tay chung (không người cụ thể) thò từ mép: gốc cổ tay, hướng +x. sleeve màu ống tay. */
+  VT.handGeneric = function (o) {
+    var out = VT.shape("M -260 -34 L 0 -30 L 0 30 L -260 34 Z", o.sleeve || "#6B8FA6", { sw: 6 }) +
+      VT.shape("M 0 -36 C 40 -44 80 -30 86 -6 C 92 18 70 40 30 40 L 0 36 Z", "#E8B98E", { sw: 6 }) + VT.line("M 40 -30 C 56 -16 56 8 40 22", 4, INK, 0.6);
+    return wrap(o, out);
+  };
+})();
+
+/* ve-tay · đạo cụ thêm 23/11/2026 (tập Whittier): cầu một làn, đèn tín hiệu, tàu, xe mui trần, tờ lịch, chảo đãi, nắp chai, neo, tàu thuỷ,
+ * thước dây, máy bay đơn giản (không cờ, không ký hiệu), cổng hầm, mặt đồng hồ, đôi ủng, giỏ đồ giặt, phao bơi, cột nước, ki bowling, bông tuyết, nhãn giá. Chỉ thêm. */
+(function () {
+  var VT = window.VT, C = VT.C, f = VT.f, INK = C.ink, wrap = VT.wrap;
+  function rect(x0, y0, x1, y1, fill, o) { return VT.shape("M " + f(x0) + " " + f(y0) + " L " + f(x1) + " " + f(y0) + " L " + f(x1) + " " + f(y1) + " L " + f(x0) + " " + f(y1) + " Z", fill, o || { sw: 5 }); }
+  VT.rectS = rect;
+  /** Cầu một làn: gốc đầu trái mặt cầu, dài len (600), trụ mỗi ~220 px, lan can. color mặt cầu. */
+  VT.bridge1 = function (o) {
+    var L = o.len || 600, out = "";
+    for (var x = 60; x < L - 20; x += 220) out += VT.shape("M " + (x - 18) + " 20 L " + (x + 18) + " 20 L " + (x + 24) + " 190 L " + (x - 24) + " 190 Z", "#B9AFA0", { sw: 5 });
+    out += rect(0, 0, L, 26, o.color || "#9E978C", { sw: 6 });
+    out += VT.line("M 0 -50 L " + f(L) + " -50", 6);
+    for (var y = 0; y <= L; y += 60) out += VT.line("M " + y + " -50 L " + y + " 0", 4);
+    out += VT.line("M 12 13 L " + f(L - 12) + " 13", 3, "#F6EEDC", 0.8);
+    return wrap(o, out);
+  };
+  /** Đèn tín hiệu: gốc chân cột, cao ~440. state "red"|"green"|"off". */
+  VT.signal = function (o) {
+    var st = o.state || "red", out = VT.line("M 0 0 L 0 -300", 14) + rect(-46, -440, 46, -290, "#3a4044", { sw: 6 });
+    out += VT.ell(0, -405, 26, 26, st === "red" ? "#E04A3A" : "#5a3a36", 5) + VT.ell(0, -330, 26, 26, st === "green" ? "#4FC06A" : "#2f4a38", 5);
+    if (st !== "off") out += '<circle cx="0" cy="' + (st === "red" ? -405 : -330) + '" r="46" fill="' + (st === "red" ? "#FF8A70" : "#9CF0A8") + '" opacity="0.35"/>';
+    return wrap(o, out);
+  };
+  /** Đoàn tàu: gốc mũi đầu máy ở đáy bánh, toa kéo về −x. n toa (3), carLen (250), loco, car (màu), t. */
+  VT.train = function (o) {
+    var n = o.n == null ? 3 : o.n, cl = o.carLen || 250, out = "", t = o.t || 0, jig = Math.sin(Math.round(t * 12) * 2.1) * 2;
+    for (var i = n; i >= 1; i--) {
+      var x1 = -i * (cl + 14) - 190, x2 = x1 + cl;
+      out += rect(x1, -150 + jig, x2, -30 + jig, o.car || "#C9463A", { sw: 6 });
+      out += VT.line("M " + x2 + " -60 L " + (x2 + 14) + " -60", 6);
+      for (var w = 0; w < 3; w++) out += rect(x1 + 24 + w * 74, -128 + jig, x1 + 76 + w * 74, -92 + jig, "#F6E7B8", { sw: 4 });
+      out += VT.ell(x1 + 44, -18, 20, 20, "#555", 5) + VT.ell(x2 - 44, -18, 20, 20, "#555", 5);
+    }
+    out += VT.shape("M -190 " + (-190 + jig) + " L -40 " + (-190 + jig) + " C 0 -190 10 -150 10 -110 L 10 -30 L -190 -30 Z", o.loco || "#2E5A88", { sw: 6 });
+    out += rect(-170, -170, -90, -120, "#F6E7B8", { sw: 4 }) + VT.line("M -190 -80 L 10 -80", 6, "#E2B33C");
+    out += VT.ell(-150, -18, 22, 22, "#555", 5) + VT.ell(-40, -18, 22, 22, "#555", 5) + VT.ell(-2, -120, 10, 10, "#FFE6A0", 4);
+    return wrap(o, out);
+  };
+  /** Xe mui trần: gốc giữa đáy, dài ~620, mũi xe về +x. part "back" (ghế + mui, vẽ TRƯỚC Wob) | "front" (thân, vẽ SAU Wob để Wob ngồi trong) | "all".
+   *  roof 0 gấp .. 1 đóng. color, run (thời gian: rung). Wob s=0.5 ngồi: x ≈ −80, y ≈ −60 (hệ xe). */
+  VT.convertible = function (o) {
+    var col = o.color || "#5E8FB0", part = o.part || "all", out = "", r = o.roof || 0, t = o.t || 0, jig = o.run ? Math.sin(Math.round(t * 12) * 2.7) * 2 : 0;
+    if (part !== "front") {
+      out += VT.shape("M -170 -140 C -170 -240 -60 -246 -50 -140 Z", "#8E5527", { sw: 5 });
+      if (r < 0.05) out += VT.shape("M -300 -136 C -300 -176 -190 -182 -180 -136 Z", "#3a3f44", { sw: 5 }) + VT.line("M -290 -150 C -250 -160 -210 -160 -186 -150", 3, "#888");
+      else { var top = -146 - 190 * r; out += VT.shape("M -290 -140 C -280 " + f(top) + " " + f(-280 + 400 * r) + " " + f(top) + " " + f(-280 + 420 * r) + " -140 Z", "#3a3f44", { sw: 6 }); }
+    }
+    if (part !== "back") {
+      out += VT.shape("M -310 " + (-40 + jig) + " C -312 -120 -280 -146 -200 -146 L 150 -146 L 196 -108 C 270 -104 312 -90 312 -40 L 312 -24 L -310 -24 Z", col, { sw: 6 });
+      out += VT.line("M 150 -146 L 196 -200", 6) + VT.line("M -40 -140 L -40 -40", 4, INK, 0.5) + VT.ell(276, -86, 14, 10, "#FFE6A0", 4);
+      out += VT.ell(-200, -20, 44, 44, "#2a2e30", 6) + VT.ell(-200, -20, 18, 18, "#aab", 4) + VT.ell(200, -20, 44, 44, "#2a2e30", 6) + VT.ell(200, -20, 18, 18, "#aab", 4);
+    }
+    return wrap(o, out);
+  };
+  /** Tờ lịch giờ hầm: gốc tâm, w (360), h (480). lines số dòng kẻ; texts [[x, y, chữ, cỡ, màu]] (chữ phải có trong chu_tren_do_vat); back: mặt sau trơn. */
+  VT.timetable = function (o) {
+    var w = o.w || 360, h = o.h || 480, out = rect(-w / 2, -h / 2, w / 2, h / 2, o.back ? "#F4EEDD" : "#FFFDF6", { sw: 6 });
+    out += VT.line("M " + f(-w / 6) + " " + f(-h / 2) + " L " + f(-w / 6) + " " + f(h / 2), 2, INK, 0.25) + VT.line("M " + f(w / 6) + " " + f(-h / 2) + " L " + f(w / 6) + " " + f(h / 2), 2, INK, 0.25);
+    if (!o.back) {
+      out += rect(-w / 2 + 20, -h / 2 + 20, w / 2 - 20, -h / 2 + 56, "#2E5A88", { sw: 3 });
+      var n = o.lines == null ? 9 : o.lines;
+      for (var i = 0; i < n; i++) { var yy = -h / 2 + 90 + i * (h - 120) / n; out += VT.line("M " + f(-w / 2 + 26) + " " + f(yy) + " L " + f(w / 2 - 30 - 50 * VT.hash(i + 3)) + " " + f(yy), 5, INK, 0.45); }
+    }
+    (o.texts || []).forEach(function (tx) { out += VT.text(tx[0], tx[1], tx[2], tx[3], { fill: tx[4] }); });
+    return wrap(o, out);
+  };
+  /** Chảo đãi vàng: gốc tâm, rộng ~240. water 0..1, t. */
+  VT.goldPan = function (o) {
+    var out = VT.ell(0, 0, 120, 40, "#5b5f62", 6) + VT.ell(0, -6, 92, 26, "#7d8286", 4);
+    if (o.water) out += '<ellipse cx="' + f(Math.sin(Math.round((o.t || 0) * 12) * 1.7) * 14) + '" cy="-6" rx="70" ry="18" fill="#8fc4d8" opacity="' + f(0.8 * o.water) + '"/>';
+    return wrap(o, out);
+  };
+  /** Nắp chai răng cưa: gốc tâm, r ~24. */
+  VT.bottleCap = function (o) {
+    var pts = []; for (var i = 0; i < 24; i++) { var a = i / 24 * 2 * Math.PI, rr = i % 2 ? 22 : 26; pts.push([Math.cos(a) * rr, Math.sin(a) * rr]); }
+    return wrap(o, VT.shape(VT.smooth(pts, true), "#C9463A", { sw: 4 }) + VT.ell(0, 0, 14, 14, "#E86A58", 3));
+  };
+  /** Neo: gốc tâm, cao ~200. */
+  VT.anchor = function (o) {
+    return wrap(o, VT.ell(0, -86, 16, 16, "none", 8) + VT.line("M 0 -70 L 0 90", 12) + VT.line("M -44 -40 L 44 -40", 10) + VT.line("M -80 40 C -70 90 70 90 80 40", 12) + VT.line("M -92 52 L -80 36 L -64 52", 8) + VT.line("M 64 52 L 80 36 L 92 52", 8));
+  };
+  /** Tàu thuỷ vẽ tay đơn giản (không cờ, không ký hiệu): gốc giữa đường nước, dài ~300, mũi về +x. */
+  VT.ship = function (o) {
+    return wrap(o, VT.shape("M -150 -40 L 150 -40 L 116 20 L -120 20 Z", "#6B7F8E", { sw: 6 }) + rect(-60, -100, 50, -40, "#F4EEDD") +
+      rect(-20, -146, 10, -100, "#C9463A") + VT.dot(-30, -70, 8, "#2E5A88") + VT.dot(0, -70, 8, "#2E5A88") + VT.dot(30, -70, 8, "#2E5A88"));
+  };
+  /** Thước dây: gốc tâm hộp; len độ dài lá thước kéo ra (về +x), droop võng. */
+  VT.tape = function (o) {
+    var L = o.len || 0, d = o.droop || 0, out = "";
+    if (L > 4) out += VT.shape("M 30 -10 C " + f(30 + L * 0.5) + " " + f(-10 + d) + " " + f(30 + L * 0.5) + " " + f(-10 + d) + " " + f(30 + L) + " -10 L " + f(30 + L) + " 6 C " + f(30 + L * 0.5) + " " + f(6 + d) + " " + f(30 + L * 0.5) + " " + f(6 + d) + " 30 6 Z", "#F2CF4A", { sw: 4 }) + VT.line("M " + f(30 + L) + " -14 L " + f(30 + L) + " 12", 6);
+    out += VT.shape("M -44 -44 L 40 -44 C 50 -44 50 44 40 44 L -44 44 C -54 44 -54 -44 -44 -44 Z", "#C9463A", { sw: 6 }) + VT.ell(-4, 0, 22, 22, "#8E2E24", 4);
+    return wrap(o, out);
+  };
+  /** Máy bay vẽ đơn giản, KHÔNG cờ, KHÔNG ký hiệu: gốc tâm, mũi về +x, dài ~330. blind 0..1 dải bịt mắt trên buồng lái; t (cánh quạt). */
+  VT.planeSimple = function (o) {
+    var st = Math.round((o.t || 0) * 12) % 2, out = VT.shape("M -60 -10 L 40 -120 L 70 -120 L 40 -10 Z", "#C8CED2", { sw: 5 }) +
+      VT.shape("M -140 -10 C -140 -36 120 -40 150 -10 C 120 22 -140 20 -140 -10 Z", "#DDE2E5", { sw: 6 }) + VT.shape("M -150 -10 L -180 -60 L -150 -60 L -110 -12 Z", "#C8CED2", { sw: 5 }) +
+      VT.shape("M -20 30 L 40 100 L 66 100 L 40 10 Z", "#B8BEC2", { sw: 5 }) + VT.ell(90, -20, 22, 12, "#9CC8DC", 4) +
+      VT.line(st ? "M 156 -50 L 156 30" : "M 150 -40 L 162 20", 6);
+    if (o.blind) { var b = VT.clamp(o.blind, 0, 1); out += '<g opacity="' + f(b) + '">' + VT.shape("M 50 -46 L 128 -40 L 132 8 L 50 14 Z", "#2a2e30", { sw: 4 }) + VT.shape("M 50 -16 L 14 -46 L 22 -16 L 10 14 Z", "#2a2e30", { sw: 4 }) + "</g>"; }
+    return wrap(o, out);
+  };
+  /** Cổng hầm bê tông: gốc giữa chân, rộng ~600, cao ~420. open 0..1 (cửa cuốn kéo lên). */
+  VT.tunnelGate = function (o) {
+    var op = VT.clamp(o.open || 0, 0, 1), out = rect(-300, -420, 300, 0, "#B4ADA2", { sw: 7 });
+    out += VT.shape("M -200 0 L -200 -220 C -200 -330 200 -330 200 -220 L 200 0 Z", "#2b2f33", { sw: 5 });
+    var dy = -310 * op, id = VT.uid("tg");
+    out += '<clipPath id="' + id + '"><path d="M -200 0 L -200 -220 C -200 -330 200 -330 200 -220 L 200 0 Z"/></clipPath><g clip-path="url(#' + id + ')">';
+    out += rect(-200, dy - 320, 200, dy, "#8A8F94", { sw: 5 });
+    for (var i = 0; i < 6; i++) out += VT.line("M -200 " + f(dy - 40 - i * 48) + " L 200 " + f(dy - 40 - i * 48), 4, INK, 0.4);
+    out += rect(-200, dy - 24, 200, dy, "#E2B33C", { sw: 4 }) + "</g>";
+    out += rect(-320, -450, 320, -410, "#9C958A", { sw: 6 });
+    return wrap(o, out);
+  };
+  /** Mặt đồng hồ: gốc tâm, r 70. a góc kim phút (độ, 0 = 12 giờ), wedge [a0, a1] cung tô xanh. */
+  VT.clockFace = function (o) {
+    var r = o.r || 70, out = VT.ell(0, 0, r, r, "#FFFDF6", 6);
+    if (o.wedge) { var a0 = (o.wedge[0] - 90) * Math.PI / 180, a1 = (o.wedge[1] - 90) * Math.PI / 180, rr = r - 8;
+      out += '<path d="M 0 0 L ' + f(Math.cos(a0) * rr) + " " + f(Math.sin(a0) * rr) + " A " + rr + " " + rr + " 0 0 1 " + f(Math.cos(a1) * rr) + " " + f(Math.sin(a1) * rr) + ' Z" fill="#4FC06A" opacity="0.7"/>'; }
+    for (var i = 0; i < 12; i++) { var a = i * Math.PI / 6; out += VT.line("M " + f(Math.sin(a) * (r - 6)) + " " + f(-Math.cos(a) * (r - 6)) + " L " + f(Math.sin(a) * (r - 18)) + " " + f(-Math.cos(a) * (r - 18)), 4); }
+    var am = (o.a || 0) * Math.PI / 180;
+    out += VT.line("M 0 0 L " + f(Math.sin(am) * (r - 16)) + " " + f(-Math.cos(am) * (r - 16)), 6) + VT.line("M 0 0 L " + f(Math.sin(am / 12 + 2) * (r * 0.5)) + " " + f(-Math.cos(am / 12 + 2) * (r * 0.5)), 8) + VT.dot(0, 0, 7);
+    return wrap(o, out);
+  };
+  /** Đôi ủng cao su: gốc giữa đáy, cao ~260. relieved 0..1 (mắt nhắm, miệng thở ra "o", ngả vào nhau). */
+  VT.boots = function (o) {
+    var k = o.relieved || 0, out = "";
+    [-1, 1].forEach(function (sg) {
+      var b = VT.shape("M -40 -250 L 36 -250 L 40 -50 C 90 -46 104 -20 100 0 L -44 0 Z", "#3E6E5A", { sw: 6 }) + VT.line("M -40 -230 L 36 -230", 5, "#2C5040");
+      b += VT.line("M -26 -172 Q -14 -160 -2 -172", 5) + VT.line("M 6 -172 Q 18 -160 30 -172", 5); // mắt nhắm (không chấm: tránh đọc thành mắt mở)
+      if (k > 0.2) b += VT.ell(2, -136, 8, 6 + 4 * k, "#22362d", 3);
+      out += VT.g("translate(" + (sg * 50) + " 0) rotate(" + f(-sg * 10 * k) + " 0 0)" + (sg < 0 ? " scale(-1 1)" : ""), b);
+    });
+    return wrap(o, out);
+  };
+  /** Giỏ đồ giặt: gốc giữa đáy, rộng ~200. */
+  VT.basket = function (o) {
+    var out = VT.ell(-40, -120, 50, 26, "#E2B33C", 4) + VT.ell(30, -126, 46, 24, "#9CC8DC", 4) + VT.ell(0, -136, 34, 20, "#FFFDF6", 4) +
+      VT.shape("M -100 -116 L 100 -116 L 84 0 L -84 0 Z", "#D8C39A", { sw: 6 });
+    for (var i = -2; i <= 2; i++) out += VT.line("M " + (i * 34) + " -108 L " + (i * 30) + " -8", 3, INK, 0.45);
+    return wrap(o, out);
+  };
+  /** Phao bơi tròn sọc đỏ trắng nhìn nghiêng: gốc tâm, r 80. part "back" | "front" | "all" (Wob chui giữa: back trước Wob, front sau Wob). */
+  VT.floatRing = function (o) {
+    var part = o.part || "all", out = "";
+    function sg(a0, a1, col) { var r1 = 80, r0 = 44, k = 0.45, c0 = Math.cos(a0), s0 = Math.sin(a0), c1 = Math.cos(a1), s1 = Math.sin(a1);
+      return '<path d="M ' + f(c0 * r1) + " " + f(s0 * r1 * k) + " A " + r1 + " " + f(r1 * k) + " 0 0 1 " + f(c1 * r1) + " " + f(s1 * r1 * k) + " L " + f(c1 * r0) + " " + f(s1 * r0 * k) + " A " + r0 + " " + f(r0 * k) + " 0 0 0 " + f(c0 * r0) + " " + f(s0 * r0 * k) + ' Z" fill="' + col + '" stroke="' + INK + '" stroke-width="5"/>'; }
+    for (var i = 0; i < 8; i++) { var a0 = i * Math.PI / 4, back = i >= 4;
+      if (part === "all" || (part === "back" && back) || (part === "front" && !back)) out += sg(a0, a0 + Math.PI / 4, i % 2 ? "#FFFDF6" : "#E04A3A"); }
+    return wrap(o, out);
+  };
+  /** Cột nước: gốc giữa đáy, w (220), h (cao, px), t (sóng ở đỉnh). Trả "" khi h < 2. */
+  VT.waterColumn = function (o) {
+    var w = o.w || 220, h = o.h || 0, st = Math.round((o.t || 0) * 12);
+    if (h < 2) return "";
+    var wv = ""; for (var i = 0; i <= 6; i++) { var x = -w / 2 + i * w / 6; wv += (i ? " L " : "M ") + f(x) + " " + f(-h + Math.sin(st * 0.9 + i * 1.3) * 7); }
+    return wrap(o, VT.shape(wv + " L " + f(w / 2) + " 0 L " + f(-w / 2) + " 0 Z", "#6FB3D2", { sw: 6 }) + VT.line("M " + f(-w / 2 + 26) + " " + f(-h + 30) + " L " + f(-w / 2 + 26) + " -20", 6, "#ffffff", 0.45));
+  };
+  /** Ki bowling: gốc giữa đáy, cao ~146. fall 0..1 đổ sang phải. fill. */
+  VT.bowlingPin = function (o) {
+    return wrap(o, VT.g("rotate(" + f(80 * (o.fall || 0)) + " 16 0)", VT.shape("M -14 0 C -34 -40 -26 -70 -12 -90 C -18 -110 -16 -140 0 -146 C 16 -140 18 -110 12 -90 C 26 -70 34 -40 14 0 Z", o.fill || "#F4E6C8", { sw: 5 }) + VT.line("M -12 -104 L 12 -104", 5, "#A8361F")));
+  };
+  /** Bông tuyết sáu cánh: gốc tâm, r 30, col. */
+  VT.snowflake = function (o) {
+    var out = "", r = o.r || 30;
+    for (var i = 0; i < 3; i++) { var a = i * Math.PI / 3; out += VT.line("M " + f(-Math.cos(a) * r) + " " + f(-Math.sin(a) * r) + " L " + f(Math.cos(a) * r) + " " + f(Math.sin(a) * r), 5, o.col || INK); }
+    return wrap(o, VT.dot(0, 0, r * 0.3, "#FFFFFF") + out);
+  };
+  /** Nhãn giá (không chữ): gốc lỗ buộc; dây tới (dx, dy). */
+  VT.priceTag = function (o) {
+    return wrap(o, VT.line("M 0 0 L " + f(o.dx || 0) + " " + f(o.dy == null ? -40 : o.dy), 3) + rect(-18, 4, 18, 60, "#FFFDF6", { sw: 4 }) + VT.ell(0, 14, 5, 5, "#EFE3C8", 3) + VT.line("M -8 34 L 8 34 M -8 46 L 4 46", 3, INK, 0.6));
+  };
+})();
+
+/* ve-tay · thêm 23/11/2026 (tập Whittier, tiếp): mưa xiên, mặt toà nhà bê tông, áo mưa nhỏ. Chỉ thêm. */
+(function () {
+  var VT = window.VT, C = VT.C, f = VT.f, INK = C.ink, wrap = VT.wrap;
+  /** Mưa xiên (tất định theo bậc hình): n vạch trong box [x0, y0, x1, y1], slant px ngang mỗi 100 px dọc (gió), speed px/s, col, op. */
+  VT.rain = function (t, n, box, o) {
+    o = o || {}; var st = VT.twos(t), sl = o.slant == null ? 60 : o.slant, sp = o.speed || 1400, len = o.len || 70, out = "";
+    var W = box[2] - box[0], H = box[3] - box[1];
+    for (var i = 0; i < n; i++) {
+      var y = box[1] + ((VT.hash(i * 3.1) * H + st * sp) % H), x = box[0] + ((VT.hash(i * 7.7 + 2) * W + st * sp * sl / 100) % W);
+      out += VT.line("M " + f(x) + " " + f(y) + " l " + f(len * sl / 100) + " " + f(len), o.sw || 4, o.col || "#5f7f96", o.op == null ? 0.75 : o.op);
+    }
+    return out;
+  };
+  /** Mặt toà nhà bê tông nhiều tầng: gốc giữa chân, w, h, cols, rows, lit (tỉ lệ ô sáng), door (cửa chính giữa chân). */
+  VT.towerWall = function (o) {
+    var w = o.w || 700, h = o.h || 900, c = o.cols || 6, r = o.rows || 10, out = VT.rectS(-w / 2, -h, w / 2, 0, o.color || "#D8D2C4", { sw: 7 });
+    var cw = (w - 80) / c, rh = (h - (o.door ? 260 : 80)) / r;
+    for (var i = 0; i < c; i++) for (var j = 0; j < r; j++) {
+      var x0 = -w / 2 + 40 + i * cw + 10, y0 = -h + 40 + j * rh + 8, lit = VT.hash(i * 13 + j * 7) < (o.lit == null ? 0.35 : o.lit);
+      out += VT.rectS(x0, y0, x0 + cw - 20, y0 + rh - 18, lit ? C.window : "#7E8C94", { sw: 4 });
+    }
+    if (o.door) out += VT.rectS(-90, -200, 90, 0, "#6B5A48", { sw: 6 }) + VT.line("M 0 -200 L 0 0", 4) + VT.rectS(-130, -230, 130, -200, "#9C958A", { sw: 5 }) + VT.rectS(-160, 0, 160, 24, "#B4ADA2", { sw: 5 });
+    return wrap(o, out);
+  };
+  /** Áo mưa vàng nhỏ (khoác lên vai): gốc giữa cổ áo, rộng ~240. wet 0..1 (giọt bám), drip pha giọt rơi (t). */
+  VT.miniCoat = function (o) {
+    var out = VT.shape("M -60 0 C -90 10 -120 40 -126 110 L -86 116 L -80 60 L -70 170 L 70 170 L 80 60 L 86 116 L 126 110 C 120 40 90 10 60 0 C 40 18 -40 18 -60 0 Z", "#E2B33C", { sw: 6 });
+    out += VT.shape("M -60 0 C -64 -60 64 -60 60 0 C 40 18 -40 18 -60 0 Z", "#D4A52E", { sw: 5 }) + VT.line("M 0 14 L 0 166", 4, "#B98D22") + VT.dot(12, 60, 5) + VT.dot(12, 110, 5);
+    if (o.wet) [[-100, 120], [96, 124], [-40, 176], [40, 178], [0, 176]].forEach(function (d, i) {
+      var ph = ((o.t || 0) * 1.6 + i * 0.37) % 1, y = d[1] + ph * 90;
+      out += VT.drop({ x: d[0], y: y, s: 0.5, fill: "#8fd0ea" });
+    });
+    return wrap(o, out);
+  };
+})();

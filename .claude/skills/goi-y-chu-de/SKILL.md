@@ -10,7 +10,8 @@ argument-hint: "[số đề tài] [hướng, ví dụ: lạnh, cao, đảo]"
 
 1. Đọc `kenh/ho-so-kenh.md` (hướng của giai đoạn, danh sách ý tưởng, mục "Không làm"), `kenh/bai-hoc.md`, `brief.md` của mọi tập đã làm.
 2. Lập danh sách ứng viên: ý tưởng trong hồ sơ chưa làm + tìm thêm (nơi khắc nghiệt, kỳ lạ có người ở thường trực).
-3. Với mỗi ứng viên, đo nhu cầu nếu có thể: tìm trên YouTube (yt-dlp hoặc trang tìm kiếm) "why do people live in <nơi>", ghi số video và lượt xem của vài video đầu, ngày đăng; cách làm ở `docs/du-lieu-kenh-dai-2026-11-14/yt_search.sh`. Không đo được thì ghi "chưa đo", không đoán.
+3. Với mỗi ứng viên, đo nhu cầu nếu có thể: tìm trên YouTube (yt-dlp hoặc trang tìm kiếm) "why do people live in <nơi>", ghi số video và lượt xem của vài video đầu, ngày đăng; cách làm ở `docs/du-lieu-le-hoi-2026-11-24/yt_search.py` (`python yt_search.py tu-khoa.tsv` và `... nam-nay`). **Số quyết định là trung vị lượt xem của video đăng trong năm nay** (`nam-nay`): nó cho biết video mới còn lên được không; trung vị "mọi lúc" bị video cũ kéo lên (ví dụ "thanksgiving explained" mọi lúc 384.003, năm 2026 chỉ 160; `docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md` mục 2). Không đo được thì ghi "chưa đo", không đoán.
+   - **Tập theo mùa**: lễ hội gắn với một nơi cụ thể (La Tomatina ở Buñol, Día de Muertos ở Oaxaca, Giáng sinh ở Rovaniemi) là ứng viên hợp lệ nếu vẫn trả lời "vì sao người ta sống ở đây". Đăng 2–4 tuần trước ngày lễ; quý 4 có CPM cao nhất, tháng 1 thấp hơn tháng 12 khoảng 30–50%. Không làm video so sánh Tết Việt/Trung/Hàn (tranh cãi "Chinese/Lunar New Year"), không làm lễ tôn giáo làm trọng tâm. Căn cứ: `docs/danh-gia-thi-truong-kenh-le-hoi-2026-11-24.md`.
 4. Chấm mỗi tiêu chí 1–5:
    - **Tò mò**: người xem có tự hỏi "sao lại sống ở đó?" không.
    - **Nguồn**: có nguồn gốc (thống kê, chính quyền, nghiên cứu) để đạt mức A/B không.

@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Whittier" (United States). The episode asks: "Why do people live in Whittier?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C17: During World War II, the US Army chose the Whittier inlet as a military supply port in Alaska.
+C18: Whittier has a deep-water, ice-free port that can receive ships year-round.
+C19: Shipping to Whittier was shorter than shipping to Seward; going to Seward added 52 miles by sea.
+C20: Whittier's low clouds and fog helped conceal the port from Japanese aircraft during World War II, and its poor weather reduced the risk of bombing.
+C21: The US Army's railway spur to Whittier, including tunnels through Begich Peak and Maynard Mountain, was completed on April 23, 1943.
+C22: The longer Whittier tunnel is named after Anton Anderson, the Army engineer who led its construction.
+C23: By the mid-1940s, Whittier's population of soldiers and civilians exceeded 1,000.
+C24: After World War II, the US Army built two large buildings in Whittier: the Buckner Building and the Hodge Building.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

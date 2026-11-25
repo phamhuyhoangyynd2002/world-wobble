@@ -1,0 +1,192 @@
+[
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Anton Anderson Memorial Tunnel is the only land-vehicle route into Whittier and closes to vehicle traffic overnight according to its official operating schedule.",
+"sources": [
+{
+"title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+"publisher": "Alaska Beacon",
+"url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+"type": "bao",
+"published": "2025-07-24"
+},
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C02",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska's official Marine Highway website identifies Whittier as a port community at the head of Passage Canal on the western edge of Prince William Sound.",
+"sources": [
+{
+"title": "Whittier Alaska Community Page",
+"publisher": "Alaska Department of Transportation and Public Facilities – Alaska Marine Highway System",
+"url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "City of Whittier, Alaska",
+"publisher": "National Park Service",
+"url": "https://www.nps.gov/articles/000/city-of-whittier-alaska.htm",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": null,
+"note": "The city's 2025 economic analysis confirms that most residents live in Begich Towers, although Whittier also has residents in Whittier Manor.",
+"sources": [
+{
+"title": "Economic Analysis for the Whittier Development Plan",
+"publisher": "City of Whittier",
+"url": "https://www.whittieralaska.gov/sites/g/files/vyhlif16341/files/media/projects/file/1481/2025-01-23%20Economic%20Analysis%20Final.pdf",
+"type": "goc",
+"published": "2025-01-23"
+},
+{
+"title": "September 2021 Alaska Economic Trends",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.state.ak.us/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+},
+{
+"title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+"publisher": "Alaska Beacon",
+"url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+"type": "bao",
+"published": "2025-07-24"
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": null,
+"note": "The City of Whittier's economic analysis explicitly identifies Begich Towers as a 14-story, 196-unit building.",
+"sources": [
+{
+"title": "Economic Analysis for the Whittier Development Plan",
+"publisher": "City of Whittier",
+"url": "https://www.whittieralaska.gov/sites/g/files/vyhlif16341/files/media/projects/file/1481/2025-01-23%20Economic%20Analysis%20Final.pdf",
+"type": "goc",
+"published": "2025-01-23"
+},
+{
+"title": "September 2021 Alaska Economic Trends",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.state.ak.us/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+}
+]
+},
+{
+"id": "C05",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official Alaska DOT schedule confirms that vehicle access ends at night, with winter gates locked at 11:00 p.m. and summer operations ending at 11:15 p.m.",
+"sources": [
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Quirky, once-isolated Whittier is eyeing a transportation-system upgrade",
+"publisher": "Alaska Beacon",
+"url": "https://alaskapublic.org/news/economy/2025-07-24/quirky-once-isolated-whittier-is-eyeing-a-transportation-system-upgrade",
+"type": "bao",
+"published": "2025-07-24"
+}
+]
+},
+{
+"id": "C06",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official winter schedule explicitly states October 1 through April 30, daily operation from 7:00 a.m. to 10:45 p.m., and gates locked at 11:00 p.m.",
+"sources": [
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official schedule confirms alternating 15-minute vehicle departures, while the tunnel's operating documentation confirms that cars and trains take turns using its single shared lane.",
+"sources": [
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Virtual Drive",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/virtualdrive.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tunnel Operations",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/tunoperations.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C08",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 2.5–2.7 miles (4.0–4.35 km), depending on the source.",
+"note": "The Alaska DOT specifies 2.5 miles, the Federal Highway Administration specifies 2.6 miles, and the official Travel Alaska tourism website gives 2.7 miles, so the exact rounded length varies by source.",
+"sources": [
+{
+"title": "Accomplishments – Anton Anderson Memorial Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/accomplishments.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Project Profile: Anton Anderson Memorial Tunnel",
+"publisher": "Federal Highway Administration",
+"url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+"type": "goc",
+"published": null
+},
+{
+"title": "6 Things to Do in Whittier",
+"publisher": "Travel Alaska",
+"url": "https://www.travelalaska.com/explore-alaska/articles/6-things-do-whittier",
+"type": "khac",
+"published": null
+}
+]
+}
+]

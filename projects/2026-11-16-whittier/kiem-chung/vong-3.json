@@ -1,0 +1,56 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-23",
+  "ket_qua": [
+    {
+      "id": "C34",
+      "statement": "The US Army left Whittier around 1960; sources differ, with some saying the 1950s and others 1960.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": null,
+      "ghi_chu": "Mốc chính thức: 1/9/1960 Bộ trưởng Lục quân đưa Cảng Lục quân Whittier vào trạng thái ngừng hoạt động (thành điểm phụ của Fort Richardson); nhưng Wikipedia (Buckner) ghi quân đội rời hẳn năm 1966. 'The 1950s' không có nguồn gốc đỡ. De xuat: sửa statement thành 'In 1960 the US Army placed the Port of Whittier on inactive status; the military presence wound down over the following years.' và lời đọc 'In nineteen sixty, the Army switched the port off. The soldiers trickled away after that.' (bỏ vế 'some say the 1950s'), hedged: true.",
+      "nguon": [
+        {"title": "The History and Military Significance of Whittier", "publisher": "AlaskaRails.org (chép tài liệu lịch sử Lục quân)", "url": "https://www.alaskarails.org/historical2/whittier-history/index.html", "type": "khac", "published": null},
+        {"title": "Buckner Building", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Buckner_Building", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "The Buckner Building is abandoned and badly deteriorated, with broken windows and asbestos, and is hazardous to enter.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Wikipedia (dẫn ADEC/Coffman 2016 và ADN 2013, 2014): mất cửa sổ, cửa từ thập niên 1980; amiăng, sơn chì, PCB, nấm mốc; 2016 đánh giá kết cấu kết luận không thể phục hồi; thành phố dựng hàng rào. Trang ADEC trả 403 nên không mở được nguồn gốc trực tiếp. De xuat: giữ, đổi 'broken windows' thành 'missing windows' và 'hazardous to enter' thành 'fenced off', lời đọc 'The windows are gone, there is asbestos inside, and the city fenced it off.'",
+      "nguon": [
+        {"title": "Buckner Building", "publisher": "Wikipedia (dẫn Alaska DEC 2016 structural assessment, Anchorage Daily News)", "url": "https://en.wikipedia.org/wiki/Buckner_Building", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "About 5 metres of water is roughly the height of a two-storey house (channel's own comparison based on Whittier's annual precipitation).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Không phải khẳng định sự thật mà là so sánh minh hoạ; số gốc 196,1 in = 4,98 m (DOT&PF) đúng; tầng nhà ở thường ~2,5–3 m nên hai tầng ~5–6 m là hợp lý. De xuat: giữ, nói 'roughly' hoặc 'about as tall as a two-storey house'; không cần nguồn riêng.",
+      "nguon": [
+        {"title": "Whittier Tunnel – Weather", "publisher": "Alaska DOT&PF", "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C41",
+      "statement": "Whittier's average high temperature in January is about 31°F (−0.4°C).",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": null,
+      "ghi_chu": "Hai nguồn gốc khác kỳ số liệu: DOT&PF 31,2°F (1942–2011); NOAA NCEI normals 1991–2020, trạm USC00509829: 32,6°F (0,3°C). Chênh do kỳ đo, cả hai đúng. De xuat: dùng số mới nhất 'about 33°F, around 0°C (NOAA 1991–2020 normals)', hoặc nói gọn 'January highs hover right around freezing' (an toàn nhất, khớp cả hai nguồn).",
+      "nguon": [
+        {"title": "Monthly Normals 1991–2020, station USC00509829 (Whittier)", "publisher": "NOAA NCEI", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL&dataset=normals-monthly-1991-2020&stations=USC00509829&format=csv", "type": "goc", "published": null},
+        {"title": "Whittier Tunnel – Weather", "publisher": "Alaska DOT&PF", "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml", "type": "goc", "published": null}
+      ]
+    }
+  ],
+  "de_xuat_khac": [
+    {"id": "C08", "de_xuat": "DOT&PF ghi 2,5 dặm (13.300 ft ≈ 2,52 dặm ≈ 4,05 km); chênh chỉ do làm tròn. Giữ 'about two and a half miles, about four kilometres', đặt hedged: true (chữ 'about' đã đủ dè dặt)."},
+    {"id": "C19", "de_xuat": "Con số 52 dặm phụ thuộc điểm xuất phát/tuyến tính. Lời đọc nói dè dặt: 'by one Army estimate, Seward added about fifty miles of sailing', hoặc bỏ con số chỉ giữ 'a shorter trip than Seward'. hedged: true."},
+    {"id": "C27", "de_xuat": "Statement ghi cứng 272 trong khi nguồn có 272 và 278. Sửa statement: 'The 2020 US Census counted about 270 people in Whittier (sources give 272 or 278); later estimates are around 250.' Lời đọc 'about two hundred and seventy people at the twenty twenty census'; chữ trên hình '~270 (2020)'. hedged: true."},
+    {"id": "C32", "de_xuat": "Năm hoàn thành lệch: Wikipedia 1953, tài liệu Lục quân (AlaskaRails) 1954. Không nguồn nào mở được nói 'hospital'; AlaskaRails chỉ ghi 'Dispensary'. Sửa: 'completed in the early 1950s, six floors, built for about 1,000 soldiers, with a theatre, a bowling alley and a small clinic' (đổi 'hospital' thành 'a clinic'), hedged: true."},
+    {"id": "C33", "de_xuat": "'Only a few years' không khớp: tòa nhà dùng từ 1953/54 tới khi quân đội rời (cảng ngừng 1960, rút hẳn 1966) — khoảng 6–13 năm. Sửa: 'was used for little more than a decade before the Army left' hoặc 'emptied out within about a decade', hedged: true."}
+  ]
+}

@@ -40,6 +40,10 @@ def main() -> int:
     rows = res["rows"]
     fixed_path = project / "kiem-chung" / "da-sua.json"
     fixed = json.loads(fixed_path.read_text(encoding="utf-8")) if fixed_path.exists() else []
+    if isinstance(fixed, dict):  # dạng {"sua": [{"id", "canh", "viec", "van_de"?}]} (tập 3)
+        fixed = [{"id": f.get("id", ""), "loi_cu": f.get("loi_cu", f"cảnh {f.get('canh', '?')}"),
+                  "van_de": f.get("van_de", ""), "xu_ly": f.get("xu_ly", f.get("viec", ""))}
+                 for f in fixed.get("sua", [])]
 
     # đánh số nguồn chung cho cả báo cáo
     src_ids: dict[str, str] = {}
@@ -59,20 +63,20 @@ def main() -> int:
     dur = timeline.get("duration")
     L = [f"# Báo cáo độ xác thực: {script['title']}", "",
          f"- Video: `{project.as_posix()}/out/video.mp4` ({mmss(dur) if dur else '?'})",
-         f"- Ngày kiểm chứng: Claude {res['ngay_claude'] or '?'} · Gemini {res['ngay_gemini'] or '?'}",
+         f"- Ngày kiểm chứng: Claude {res['ngay_claude'] or '?'} · vòng 2 {res['ngay_gemini'] or '?'}",
          f"- Vòng 1: Claude ({res['claude_model'] or '?'}), agent kiểm chứng độc lập",
-         f"- Vòng 2: Gemini ({res['gemini_model'] or '?'}), có tìm kiếm web, không thấy kết luận của vòng 1",
+         f"- Vòng 2: {res['gemini_model'] or '?'} (không phải Claude), có tìm kiếm web, không thấy kết luận của vòng 1",
          f"- Kết luận cổng: **{'ĐẠT' if ok else 'KHÔNG ĐẠT'}**" + ("" if ok else f" ({'; '.join(res['problems'][:5])})"),
          "", "## Tóm tắt", "", "| Mức | Số khẳng định | Tỉ lệ |", "|---|---|---|"]
     for k in "ABC":
         n = res["counts"][k]
         L.append(f"| {LEVEL_NAME[k]} | {n} | {n / total:.0%} |" if total else f"| {LEVEL_NAME[k]} | 0 | – |")
-    removed = [f for f in fixed if "bỏ" in str(f.get("xu_ly", "")).lower()]
+    removed = [f for f in fixed if str(f.get("xu_ly", "")).strip().lower().startswith("bỏ")]
     L += [f"| D, không kiểm chứng được (đã bỏ) | {len(removed)} | – |",
           f"| **Tổng còn trong video** | {total} | 100% |", "",
           f"Hai mô hình lệch nhau ở {res['lech']} khẳng định; cách xử lý ở mục \"Đã sửa hoặc bỏ\".", "",
           "## Từng khẳng định", "",
-          "| Mã | Thời điểm | Khẳng định (lời đọc) | Mức | Claude | Gemini | Nguồn | Ghi chú |",
+          "| Mã | Thời điểm | Khẳng định (lời đọc) | Mức | Claude | Vòng 2 | Nguồn | Ghi chú |",
           "|---|---|---|---|---|---|---|---|"]
     for r in rows:
         at = times.get(r["id"])

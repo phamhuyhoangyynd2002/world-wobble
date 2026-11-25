@@ -1,0 +1,37 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 0.77,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 1.995,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 3.483,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "bonk",
+  "tai": 6.876,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "de-kem",
+  "tai": 7.45,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "drop",
+  "tai": 8.5,
+  "am_luong": 0.3
+ }
+]

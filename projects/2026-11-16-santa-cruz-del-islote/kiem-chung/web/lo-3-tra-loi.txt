@@ -1,0 +1,207 @@
+…
+Show more
+ChatGPT said:
+
+[
+{
+"id": "C18",
+"verdict": "dung",
+"correct_value": null,
+"note": "Fundación Pintuco reported on 5 March 2019 that Bancolombia donated a machine that converts atmospheric water vapour into liquid water to Santa Cruz del Islote.",
+"sources": [
+{
+"title": "En Santa Cruz del Islote Transformamos Vidas con Color",
+"publisher": "Pintuco",
+"url": "https://www.pintuco.com.co/noticias/en-santa-cruz-del-islote-transformamos-vidas-con-color",
+"type": "khac",
+"published": "2019-03-05"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "IPSE's official announcement confirms the 2021 hybrid solar-diesel upgrade, including a new 125 kVA diesel generator and maintenance of Santa Cruz del Islote's battery bank.",
+"sources": [
+{
+"title": "La nueva energía ilumina los hogares de 601 familias en el Caribe colombiano",
+"publisher": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE)",
+"url": "https://ipse.gov.co/blog/2021/10/22/la-nueva-energia-ilumina-los-hogares-de-601-familias-en-el-caribe-colombiano/",
+"type": "goc",
+"published": "2021-10-22"
+},
+{
+"title": "Entregaron centrales de generación de energía híbrida en islas de Cartagena",
+"publisher": "Caracol Radio",
+"url": "https://caracol.com.co/emisora/2021/10/24/cartagena/1635106043_872692.html",
+"type": "bao",
+"published": "2021-10-24"
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Guardian explicitly describes residents waking to flooded homes and places the archipelago at an average elevation of approximately 2 metres above the waterline.",
+"sources": [
+{
+"title": "‘All we can do now is run away’: is time up for the sinking Colombian islands of San Bernardo?",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/global-development/2023/nov/02/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+"type": "bao",
+"published": "2023-11-02"
+}
+]
+},
+
+
+
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": null,
+"note": "An official 2015 report states that the island has no freshwater or potable-water supply, and the Colombian Navy confirms transporting 80,000 litres of water to Santa Cruz del Islote and neighbouring communities in December 2020.",
+"sources": [
+{
+"title": "CONCILIACIÓN 2015",
+"publisher": "Parques Nacionales Naturales de Colombia",
+"url": "https://old.parquesnacionales.gov.co/portal/wp-content/uploads/2013/12/CONCILIACION-2015.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Armada de Colombia y alcaldía de Cartagena llevan 80 mil litros de agua y más de 15 toneladas de ayudas humanitarias",
+"publisher": "Armada Nacional de Colombia",
+"url": "https://www.armada.mil.co/es/content/armada-colombia-y-alcaldia-cartagena-llevan-80-mil-litros-agua-y-mas-15-toneladas-ayudas",
+"type": "goc",
+"published": "2020-12-27"
+},
+{
+"title": "Santa Cruz del Islote: La isla más densamente poblada del mundo busca cómo proteger su ecosistema marítimo frente al turismo masivo",
+"publisher": "EL PAÍS",
+"url": "https://elpais.com/planeta-futuro/2024-01-12/la-isla-mas-densamente-poblada-del-mundo-busca-como-proteger-su-ecosistema-maritimo-frente-al-turismo-masivo.html",
+"type": "bao",
+"published": "2024-01-12"
+}
+]
+},
+{
+"id": "C19",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "An official 2020 Ministry of Housing meeting record confirms discussions about a drinking-water and sanitation project, and a separate legal record mentions desalination, but I could not verify that solar-powered desalination was specifically considered in those meetings.",
+"sources": [
+{
+"title": "ACTA No. 03 – REUNIÓN PROYECTO EL ISLOTE 29 OCTUBRE",
+"publisher": "Ministerio de Vivienda, Ciudad y Territorio",
+"url": "https://sinas.minvivienda.gov.co/SINAS/AsistenciaTecnica/Archivos/20201103111646_ACTA%20No.%203%20REUNION%20PROYECTO%20EL%20ISLOTE%2029%20OCTUBRE.doc.pdf",
+"type": "goc",
+"published": "2020-10-29"
+},
+{
+"title": "Providencia del Consejo de Estado, Sección Primera, expediente 278 de 2026",
+"publisher": "Consejo de Estado de Colombia",
+"url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm",
+"type": "goc",
+"published": "2026-05-14"
+}
+]
+},
+{
+"id": "C21",
+"verdict": "dung",
+"correct_value": null,
+"note": "Academic research documents the growing importance of tourism, islanders commuting by boat from Santa Cruz to hotel jobs on Múcura, and tourist boat trips to Santa Cruz; the Guardian also identifies tourism as an important livelihood.",
+"sources": [
+{
+"title": "De isla en isla: Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "FLACSO / academic research",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "khac",
+"published": null
+},
+{
+"title": "All we can do now is run away: is time up for the sinking Colombian islands of San Bernardo?",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/global-development/2023/nov/02/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+"type": "bao",
+"published": "2023-11-02"
+},
+{
+"title": "Santa Cruz del Islote: cómo visitarlo desde Isla Múcura",
+"publisher": "Hotel Isla Múcura",
+"url": "https://hotelislamucura.com/guia/santa-cruz-del-islote/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Tienen una vida tranquila y no tienen policías: Conoce la isla que se está quedando sin espacio",
+"publisher": "CNN Chile",
+"url": "https://www.cnnchile.com/pais/tienen-una-vida-tranquila-y-no-tienen-policias-conoce-la-isla-que-se-esta-quedando-sin-espacio/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 45% coastal erosion is reported for San Bernardo in a Cartagena planning document; Isla Maravilla's disappearance is dated to 2015 in one official ecotourism planning document and to the 1990s in another institutional account.",
+"note": "The 45% figure is supported by a Cartagena planning document, but reliable institutional accounts disagree about when Isla Maravilla disappeared, and I could not verify the one-hectare size or a disappearance date around 2017.",
+"sources": [
+{
+"title": "Diagnóstico técnico POT Cartagena",
+"publisher": "Alcaldía de Cartagena",
+"url": "https://www.scribd.com/document/803578082/DIAGNOSTICO-TECNICO-POT-CARTAGENA",
+"type": "goc",
+"published": null
+},
+{
+"title": "Planificación del Ecoturismo en el Parque Nacional Natural Corales del Rosario y de San Bernardo",
+"publisher": "Patrimonio Natural / Parques Nacionales Naturales de Colombia",
+"url": "https://www.patrimonionatural.org.co/wp-content/uploads/2024/01/3.-Documento-Plan-de-Ordenamiento-Ecoturistico-POE-PNN-CRSB_06-05-2019.pdf",
+"type": "goc",
+"published": "2019-05-06"
+},
+{
+"title": "En la intimidad de Parques Nacionales Naturales, un relato en primera persona de lo que se vive en las áreas protegidas",
+"publisher": "Universidad Tecnológica de Bolívar",
+"url": "https://www.utb.edu.co/visor/en-la-intimidad-de-parques-nacionales-naturales-un-relato-en-primera-persona-de-lo-que-se-vive-en-las-areas-protegidas/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Guardian reports the projection as up to 30 cm by 2050, consistent with the upper end of the IPCC's assessed global mean sea-level rise range for high-emissions scenarios relative to 1995–2014.",
+"sources": [
+{
+"title": "All we can do now is run away: is time up for the sinking Colombian islands of San Bernardo?",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/global-development/2023/nov/02/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+"type": "bao",
+"published": "2023-11-02"
+},
+{
+"title": "Figure 3.4",
+"publisher": "Intergovernmental Panel on Climate Change (IPCC)",
+"url": "https://www.ipcc.ch/report/ar6/syr/figures/figure-3-4/",
+"type": "goc",
+"published": "2023-03-20"
+}
+]
+}
+]
+
+ChatGPT can make mistakes. Check important info.
+Latest response
+
+
+
+
+Think

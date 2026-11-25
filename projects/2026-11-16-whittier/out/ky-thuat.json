@@ -1,0 +1,23 @@
+{
+  "video": "projects\\2026-11-16-whittier\\out\\video.mp4",
+  "duration": 591.3,
+  "errors": [],
+  "warnings": [
+    "khoảng lặng 444.7s–447.7s (3.1s)"
+  ],
+  "frames": [
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-00.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-01.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-02.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-03.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-04.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-05.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-06.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-07.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-08.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-09.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-10.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-11.jpg",
+    "projects\\2026-11-16-whittier\\out\\frames\\kt-12.jpg"
+  ]
+}

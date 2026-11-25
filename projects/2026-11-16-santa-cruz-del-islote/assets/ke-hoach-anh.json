@@ -1,0 +1,131 @@
+{
+  "nguon_ngoai": "chatgpt-web",
+  "luot_ngoai": 0,
+  "khi_thieu": "ha-hang",
+  "anh": [
+    {
+      "id": "ai-islote-aerial",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        1,
+        2,
+        3,
+        8,
+        11,
+        13,
+        14,
+        15
+      ],
+      "canh": "a tiny low island in a turquoise Caribbean sea completely covered with small one-storey houses with colourful walls and tin roofs packed tightly together, no beach, no big trees, a few small wooden boats around it, seen from above at an angle",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-islote-square",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        3,
+        8,
+        9,
+        15
+      ],
+      "canh": "a tiny village square at dusk with a simple tall cross in the middle, small colourful houses close around it, plastic chairs, a warm string of lights",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-islote-flood",
+      "hang": "chinh",
+      "diem": 7,
+      "scenes": [
+        12,
+        13
+      ],
+      "canh": "seawater flooding a narrow path between small painted houses at dawn, water up to the doorsteps, a hammock hanging between two wooden posts just above the water",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-islote-boats",
+      "hang": "chinh",
+      "diem": 7,
+      "scenes": [
+        10,
+        11,
+        14
+      ],
+      "canh": "small wooden fishing boats with outboard motors leaving a tiny crowded island at sunrise, pink calm water, a grey supply boat carrying blue water tanks in the distance",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-islote-lane",
+      "hang": "chinh",
+      "diem": 6,
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "canh": "a very narrow footpath between small one-storey houses with brightly painted walls in blue, yellow and pink, painted murals of fish and waves, open doors, plastic chairs, laundry lines, no cars, midday sun",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-bare-islet",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        5,
+        6
+      ],
+      "canh": "a small bare rocky coral islet in a calm sea with nothing on it, waves breaking gently, clear sky",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-mangrove-islet",
+      "hang": "phu",
+      "diem": 3,
+      "scenes": [
+        6,
+        7
+      ],
+      "canh": "a green island fringed with dense mangrove trees and a strip of sandy beach, still water",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-caribbean-islets",
+      "hang": "phu",
+      "diem": 3,
+      "scenes": [
+        2,
+        14
+      ],
+      "canh": "a calm turquoise sea with several low green islands with palm trees and sandy beaches in the distance, seen from a small boat",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-islote-night",
+      "hang": "phu",
+      "diem": 3,
+      "scenes": [
+        7,
+        11,
+        12
+      ],
+      "canh": "a small island of houses at night seen from the sea, a few warm lights reflecting on dark water, stars",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    }
+  ],
+  "ly_do_noi_bo": "26/11/2026: .env chưa có GEMINI_API_KEY, agent không có Browser MCP cho ChatGPT web; theo quyết định 22/11/2026 của người làm kênh (không phụ thuộc một công cụ AI) và tiền lệ tập 3, cả 9 ảnh (5 chính hạ hạng + 4 phụ) tạo bằng ComfyUI nội bộ SDXL base 1.0"
+}

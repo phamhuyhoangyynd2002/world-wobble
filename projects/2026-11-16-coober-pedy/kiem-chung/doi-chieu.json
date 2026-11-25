@@ -1,0 +1,1652 @@
+{
+  "claude_model": "claude-opus-5-5",
+  "gemini_model": "Gemini web (ChatGPT web (không đăng nhập))",
+  "ngay_claude": "2026-11-22",
+  "ngay_gemini": "2026-11-22",
+  "rows": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "Plenty of people in that desert town live underground.",
+      "statement": "A substantial share of the residents of Coober Pedy, a desert opal-mining town in South Australia, live in underground homes (dugouts).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Community - District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/community",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Crocodile Harry's Dugout. PLACE: 26474 ADDRESS: Shell Patch",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "publisher": "Department for Environment and Water (South Australia)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "roughly eight hundred and forty-six kilometres north-west of Adelaide by road. That's about five hundred and twenty-five miles.",
+      "statement": "Coober Pedy is about 846 km (roughly 525 miles) north-west of Adelaide by road.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coober_Pedy",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Adelaide to Coober Pedy road trip",
+          "publisher": "Australia Travel Questions",
+          "url": "https://australiatravelquestions.com/?p=11462",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "A DRY CHANGE - District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0028/148825/A-Dry-Change.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": "2011-11-15",
+          "url_song": true
+        },
+        {
+          "title": "Heading South",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0043/1269889/HEADING-SOUTH-updated-230719.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "Estimates vary, but around half the town lives in homes dug into the hills.",
+      "statement": "Roughly half of Coober Pedy's residents live in dugout homes carved into hillsides, according to Smithsonian; other figures circulate without clear sourcing.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Half of the Inhabitants of This Australian Opal Capital Live Underground",
+          "url": "https://www.smithsonianmag.com/travel/unearthing-coober-pedy-australias-hidden-city-180958162/",
+          "publisher": "Smithsonian Magazine",
+          "type": "bao",
+          "published": "2016-03-03",
+          "url_song": true
+        },
+        {
+          "title": "Community - District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/community",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "scene": 2,
+      "quote": "At the twenty twenty-one census, around fifteen hundred people lived in the town, depending on how you draw its edges.",
+      "statement": "At the 2021 Australian Census, Coober Pedy had about 1,500 residents: 1,566 in the suburb/locality area and 1,437 in the urban centre area.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "2021 Census QuickStats SAL40295",
+          "publisher": "Australian Bureau of Statistics",
+          "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40295",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "2021 Census QuickStats UCL415010",
+          "publisher": "Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/UCL415010",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "2021 Coober Pedy, Census All persons QuickStats",
+          "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA41330",
+          "publisher": "Australian Bureau of Statistics",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Coober Pedy - South Australia - City Population",
+          "url": "https://www.citypopulation.de/en/australia/southaustralia/_/415010__coober_pedy/",
+          "publisher": "City Population (citing Australian Bureau of Statistics)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Noodling means sifting through the piles of waste dirt that miners leave behind, hoping they missed something. The piles are everywhere. Thousands of pale cones of rubble, as if a giant had been sneezing sand for a century.",
+      "statement": "In Coober Pedy, 'noodling' is searching through mullock (waste rock) heaps left by opal miners for overlooked opal, and thousands of pale cone-shaped mullock heaps cover the opal fields around the town.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy sights",
+          "publisher": "Fodor's",
+          "url": "https://www.fodors.com/world/australia-and-the-pacific/australia/south-australia/coober-pedy/things-to-do/sights",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Opals are the last thing these Coober Pedy locals look for when they go underground",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2022-01-03/coober-pedy-mine-rescue-squad-searches-for-life/100730594",
+          "type": "bao",
+          "published": "2022-01-03"
+        },
+        {
+          "title": "Short Tours, Self Guide, Attractions, Eateries - Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0038/1965845/Short-Tours-Self-guide-Attractions-Eateries-2026.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Great Kanku-Breakaways Bolt 2026 - District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/latest-news-events/event-calendar/events/great-kanku-breakaways-bolt-2026",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mind your step in opal fields - SafeWork SA",
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "publisher": "SafeWork SA (Government of South Australia)",
+          "type": "goc",
+          "published": "2024-02-07",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "scene": 4,
+      "quote": "On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal.",
+      "statement": "Opal was discovered at Coober Pedy on 1 February 1915 by a prospecting party led by James Hutchison; his teenage son Willie (aged 14 or 15, sources differ) found the first piece.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/place/Coober-Pedy",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "Discovery of opal",
+          "publisher": "Monument Australia",
+          "url": "https://monumentaustralia.org.au/themes/technology/industry/display/50618-discovery-of-opal",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Crocodile Harry's Dugout. PLACE: 26474 ADDRESS: Shell Patch",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "publisher": "Department for Environment and Water (South Australia)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Discovery of Opal | Monument Australia",
+          "url": "https://www.monumentaustralia.org/themes/technology/industry/display/50618-discovery-of-opal",
+          "publisher": "Monument Australia",
+          "type": "khac",
+          "published": "2017-05-05",
+          "url_song": true
+        },
+        {
+          "title": "Coober Pedy Opals - Coober Pedy SA",
+          "url": "https://www.cooberpedy.com/opals-2/",
+          "publisher": "Coober Pedy Retail, Business & Tourism Association",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "Miners followed within about a year.",
+      "statement": "Opal miners began arriving at Coober Pedy from around 1916, about a year after the 1915 discovery.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coober_Pedy",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Mineral Deposit Details - SA Geodata Database (Coober Pedy Opalfield)",
+          "url": "https://minerals.sarig.sa.gov.au/MineralDepositDetails.aspx?DEPOSIT_NO=147",
+          "publisher": "Department for Energy and Mining (South Australia)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Short Tours, Self Guide, Attractions, Eateries - Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0038/1965845/Short-Tours-Self-guide-Attractions-Eateries-2026.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher.",
+      "statement": "The Coober Pedy opal field is estimated to supply about 70% of the world's precious opal according to South Australian government sources; the local council cites a higher figure that includes the Mintabie field.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Working in Coober Pedy",
+          "publisher": "SA Department for Child Protection",
+          "url": "https://www.childprotection.sa.gov.au/work-with-us/working-in-regional-south-australia/coober-pedy",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Community",
+          "publisher": "District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/community",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Coober Pedy - Department for Child Protection",
+          "url": "https://childprotection.sa.gov.au/work-with-us/working-in-regional-south-australia/coober-pedy",
+          "publisher": "Department for Child Protection (Government of South Australia)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "scene": 4,
+      "quote": "The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone.",
+      "statement": "Coober Pedy opal occurs in weathered Early Cretaceous marine claystone (Bulldog Shale) deposited by an inland sea in the Eromanga Basin, but the opal formed much later: a 2015 dating study of associated alunite suggests about 12 to 16 million years ago.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Alunite dating, Coober Pedy Precious Stones Field (report d20011028)",
+          "publisher": "Geological Survey of South Australia (SARIG)",
+          "url": "https://catalog.sarig.sa.gov.au/document/d20011028",
+          "type": "goc",
+          "published": "2015-01-01"
+        },
+        {
+          "title": "RI 056 Geology of the Coober Pedy Precious Stones Field",
+          "publisher": "GSSA (SARIG)",
+          "url": "https://catalog.sarig.sa.gov.au/document/2018d037111",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Mineral Deposit Details - Coober Pedy Opalfield",
+          "url": "https://minerals.sarig.sa.gov.au/MineralDepositDetails.aspx?DEPOSIT_NO=147",
+          "publisher": "Government of South Australia, Department for Energy and Mining (SARIG)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "scene": 4,
+      "quote": "Whether you need a permit to noodle depends on who you ask",
+      "statement": "Sources disagree on whether recreational noodling (fossicking) at Coober Pedy requires a permit or fee; South Australian law requires a permit for opal prospecting.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Opal mining - precious stones prospecting permit",
+          "publisher": "Government of South Australia",
+          "url": "https://www.sa.gov.au/topics/business-and-trade/licensing/mining/opal-mining-precious-stones-prospecting-permit",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Coober Pedy sights",
+          "publisher": "Fodor's",
+          "url": "https://www.fodors.com/world/australia-and-the-pacific/australia/south-australia/coober-pedy/things-to-do/sights",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Opal Mining Act 1995",
+          "url": "https://www.legislation.sa.gov.au/__legislation/lz/c/a/opal%20mining%20act%201995/current/1995.102.auth.pdf",
+          "publisher": "South Australian Legislation",
+          "type": "goc",
+          "published": "2021-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Frequently asked questions | How to mine for opal in SA",
+          "url": "https://energymining.sa.gov.au/industry/minerals-and-mining/mining/opal-mining/how-to-mine-for-opal-in-sa/frequently_asked_questions",
+          "publisher": "Department for Energy and Mining, South Australia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "scene": 6,
+      "quote": "Doors cut straight into the hillsides. Pipes poking out of the ground like snorkels.",
+      "statement": "Coober Pedy dugout homes have doors and facades cut into hillsides, with ventilation shafts that stick up above the ground.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Living on the edge: Life off the grid in Australia's most extreme town",
+          "url": "https://www.cnet.com/pictures/life-off-the-grid-in-coober-pedy-australia-extreme-town/",
+          "publisher": "CNET",
+          "type": "bao",
+          "published": "2018-08-11",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "scene": 7,
+      "quote": "A few metres of rock is slow to heat up and slow to cool down, so underground the temperature hardly moves. NASA puts it at about twenty-three degrees Celsius, around seventy-three Fahrenheit.",
+      "statement": "Because rock heats and cools slowly, Coober Pedy dugouts stay at a nearly constant temperature; NASA Earth Observatory gives about 23°C (about 73°F).",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "scene": 7,
+      "quote": "Residents describe roughly twenty-four all year, with no air conditioning and no heater.",
+      "statement": "Residents of Coober Pedy describe their dugout homes as staying around 24°C year-round without air conditioning or heating.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Tour an underground dugout home in Coober Pedy",
+          "publisher": "The Senior",
+          "url": "https://www.thesenior.com.au/story/9004926/tour-an-underground-dugout-home-in-opal-mining-town-coober-pedy/",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Underground Living In “Dugouts”",
+          "url": "https://www.cooberpedy.com/underground-living-dugouts/",
+          "publisher": "Coober Pedy SA",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "scene": 8,
+      "quote": "So I booked a room in an underground hotel.",
+      "statement": "Coober Pedy has underground hotel accommodation carved into the rock.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "The Underground Motel | Coober Pedy Accommodation",
+          "url": "https://theundergroundmotel.com.au/",
+          "publisher": "The Underground Motel",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "scene": 9,
+      "quote": "According to a state heritage report, the first miners probably started digging homes within a few years of the find.",
+      "statement": "The first Coober Pedy opal miners probably began digging dugout homes within a few years of the 1915 opal discovery (heritage report says dugouts were likely built during the earliest mining period, 1915-1918).",
+      "hedged": true,
+      "claude": "khong-ro",
+      "gemini": "dung",
+      "vong3": "dung",
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Heritage Assessment Report",
+          "publisher": "SA Department for Environment and Water",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Timeline",
+          "url": "https://www.cooberpedyhistoricalsociety.org.au/timeline/",
+          "publisher": "Coober Pedy Historical Society",
+          "type": "khac",
+          "published": "2020-11-13",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "scene": 9,
+      "quote": "The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home.",
+      "statement": "The District Council of Coober Pedy issues a permit to use a blower (a truck-mounted machine that sucks soil out of excavations), and the permit applies to both mining and excavating dugouts.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Permit to Use a Blower - District Council of Coober Pedy",
+          "publisher": "ABLIS (business.gov.au)",
+          "url": "https://ablis.business.gov.au/service/sa/approval-to-use-a-blower-to-convey-soil-district-council-of-coober-pedy/3024",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "scene": 10,
+      "quote": "I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there.",
+      "statement": "Residents say Coober Pedy dugouts need no air conditioning, implying lower cooling costs than above-ground houses; no verified cost figures are available.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Tour an underground dugout home in Coober Pedy",
+          "publisher": "The Senior",
+          "url": "https://www.thesenior.com.au/story/9004926/tour-an-underground-dugout-home-in-opal-mining-town-coober-pedy/",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Going underground — lessons for suburbia from subterranean Coober Pedy",
+          "url": "https://www.abc.net.au/news/2020-11-15/underground-housing-a-goldmine-of-sustainable-living-coober-pedy/12880618",
+          "publisher": "ABC News",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Underground accommodation",
+          "url": "https://oasiscooberpedy.com.au/index.php/accommodation/underground-accommodations",
+          "publisher": "Oasis Coober Pedy",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "scene": 11,
+      "quote": "Houses become a hotel, shops and churches.",
+      "statement": "Coober Pedy has underground or dugout hotels, shops and churches in addition to homes.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Serbian desert church a hit for tourists",
+          "publisher": "SBS",
+          "url": "https://www.sbs.com.au/news/article/serbian-desert-church-a-hit-for-tourists/coeieba2w",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Attractions - Coober Pedy SA",
+          "url": "https://www.cooberpedy.com/attractions/",
+          "publisher": "Coober Pedy Visitor Information",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Photographing Australia’s underground town – Coober Pedy",
+          "url": "https://www.australiangeographic.com.au/history-culture/2023/03/photographing-australias-underground-town-coober-pedy/",
+          "publisher": "Australian Geographic",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "scene": 11,
+      "quote": "The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three.",
+      "statement": "The underground Serbian Orthodox Church of St Elijah in Coober Pedy was dug into the rock in 1993.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Serbian desert church a hit for tourists",
+          "publisher": "SBS",
+          "url": "https://www.sbs.com.au/news/article/serbian-desert-church-a-hit-for-tourists/coeieba2w",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Coober Pedy, part 2 (Mike Gillam)",
+          "publisher": "Alice Springs News",
+          "url": "https://alicespringsnews.com.au/?p=89649",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Tradition and Interpretation: The Underground Splendour of the Serbian Orthodox Church Sveti Prorok Ilija in Coober Pedy, Australia",
+          "url": "https://www.maticasrpska.org.rs/stariSajt/casopisi/ZMSZS_87.pdf",
+          "publisher": "University of New South Wales / Matica Srpska",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "St Elijah the Prophet Serbian Orthodox Church",
+          "url": "https://www.churchesaustralia.org/list-of-churches/denominations/orthodox-all/directory/11088-st-elijah-the-prophet-serbian-orthodox-church",
+          "publisher": "Churches Australia",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "scene": 11,
+      "quote": "The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven.",
+      "statement": "The name Coober Pedy was adopted around 1920 (sources give 1920 or 1922), and the District Council of Coober Pedy was established in 1987.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": "mau-thuan",
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/place/Coober-Pedy",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "Heritage Assessment Report",
+          "publisher": "SA Department for Environment and Water",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "History – Opal Capital of the World",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Annual Business Plan 2008–2009",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0021/149034/Annual_Business_Statement_Public_Consultation.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Coober Pedy",
+          "publisher": "South Australian History Hub (southaustralianhistory.com.au)",
+          "url": "https://southaustralianhistory.com.au/cooberpedy.htm",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "District Council of Coober Pedy",
+          "publisher": "Wikipedia (trích Coober Pedy District Council, History)",
+          "url": "https://en.wikipedia.org/wiki/District_Council_of_Coober_Pedy",
+          "type": "khac",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "scene": 12,
+      "quote": "The Opal Fields Golf Club was set up in nineteen seventy-six, and it has no grass at all.",
+      "statement": "The Coober Pedy Opal Fields Golf Club was established in 1976 and its course has no grass.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "History",
+          "publisher": "Coober Pedy Opal Fields Golf Club",
+          "url": "https://cooberpedygolfclub.com.au/history",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "History",
+          "url": "https://www.cooberpedygolfclub.com.au/history",
+          "publisher": "Coober Pedy Opal Fields Golf Club",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Australia makes ‘Adventures In Golf’ debut",
+          "url": "https://archive.golf.org.au/2021/02/australia-makes-adventures-in-golf-debut/",
+          "publisher": "Golf Australia",
+          "type": "bao",
+          "published": "2018-10-17",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "scene": 12,
+      "quote": "The fairways are white crushed rock. The greens, which they call scrapes, are rock dust mixed with waste oil. Players carry a small square of artificial turf to hit from.",
+      "statement": "At the Coober Pedy Opal Fields Golf Club, fairways are white crushed sandstone, the greens ('scrapes') are rock dust mixed with waste oil, and players carry a small piece of artificial turf to hit from.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "History",
+          "publisher": "Coober Pedy Opal Fields Golf Club",
+          "url": "https://cooberpedygolfclub.com.au/history",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "History",
+          "url": "https://www.cooberpedygolfclub.com.au/history",
+          "publisher": "Coober Pedy Opal Fields Golf Club",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Australia's quirkiest golf courses",
+          "url": "https://samove.raa.com.au/australias-quirkiest-golf-courses/",
+          "publisher": "RAA sa move",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Coober Pedy Opal Fields Golf Club",
+          "url": "https://www.cooberpedy.com/coober-pedy-golf-club/",
+          "publisher": "Coober Pedy SA",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "scene": 13,
+      "quote": "When the days get too hot, people here play in the dark with balls that glow.",
+      "statement": "Because daytime is too hot in summer, golf at Coober Pedy is played at night with glow-in-the-dark balls.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Active Pursuits in Coober Pedy",
+          "publisher": "Frommer's",
+          "url": "https://www.frommers.com/destinations/coober-pedy/active-pursuits/",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Australia's quirkiest golf courses",
+          "url": "https://samove.raa.com.au/australias-quirkiest-golf-courses/",
+          "publisher": "RAA sa move",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Photographing Australia’s underground town – Coober Pedy",
+          "url": "https://www.australiangeographic.com.au/history-culture/2023/03/photographing-australias-underground-town-coober-pedy/",
+          "publisher": "Australian Geographic",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "scene": 13,
+      "quote": "This club has a reciprocal arrangement with St Andrews in Scotland, often called the home of golf.",
+      "statement": "The Coober Pedy Opal Fields Golf Club has a reciprocal playing arrangement with St Andrews (the St Andrews Links Trust) in Scotland.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "St Andrews Links Trust reciprocal with Coober Pedy",
+          "publisher": "Golf Digest",
+          "url": "https://www.golfdigest.com/story/st-andews-links-trust-reciprocal-with-coober-pedy-opal-course-mines",
+          "type": "bao",
+          "published": "2024-08-21"
+        },
+        {
+          "title": "Golf SA Community Instructor training in Coober Pedy",
+          "url": "https://archive.golf.org.au/2021/02/golf-sa-community-instructor-training-in-coober-pedy/",
+          "publisher": "Golf Australia",
+          "type": "goc",
+          "published": "2015-06-25",
+          "url_song": true
+        },
+        {
+          "title": "Golf tourism",
+          "url": "https://tourism.sa.gov.au/support/industry-resources-and-tools/sector-development/golf-tourism",
+          "publisher": "Tourism South Australia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "scene": 13,
+      "quote": "Golf Digest reported that nobody knew of any St Andrews member who had actually come out to play.",
+      "statement": "Golf Digest reported that no St Andrews member was known to have taken up the reciprocal arrangement to play at Coober Pedy.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "St Andrews Links Trust reciprocal with Coober Pedy",
+          "publisher": "Golf Digest",
+          "url": "https://www.golfdigest.com/story/st-andews-links-trust-reciprocal-with-coober-pedy-opal-course-mines",
+          "type": "bao",
+          "published": "2024-08-21"
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "scene": 14,
+      "quote": "The drive from Adelaide takes about nine hours.",
+      "statement": "Driving from Adelaide to Coober Pedy takes about nine hours.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Planning a trip to Coober Pedy",
+          "publisher": "Frommer's",
+          "url": "https://www.frommers.com/destinations/coober-pedy/planning-a-trip/",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Getting Here and Getting Around",
+          "url": "https://www.cooberpedy.com/getting-here-and-around/",
+          "publisher": "Coober Pedy SA",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Getting to Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/visitor-information-and-resources/getting-to-coober-pedy",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Adelaide to Coober Pedy - 3 ways to travel via plane, bus, and car",
+          "url": "https://www.rome2rio.com/s/Adelaide/Coober-Pedy",
+          "publisher": "Rome2Rio",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "scene": 14,
+      "quote": "The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read.",
+      "statement": "Coober Pedy's water is pumped from an underground artesian bore about 60 m deep, located roughly 23 to 25 km north-east of town (council documents give different distances).",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Water for Coober Pedy",
+          "publisher": "District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/water/water-information",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "District Council of Coober Pedy Annual Report 2022–23",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0030/1522389/DCCP-Annual-Report-22-23-for-Publishing.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Wednesday 23 March 2011",
+          "url": "https://hansardsearch.parliament.sa.gov.au/daily/uh/2011-03-23/pdf/download",
+          "publisher": "Parliament of South Australia",
+          "type": "goc",
+          "published": "2011-03-23",
+          "url_song": true
+        },
+        {
+          "title": "Compliance review report – District Council of Coober Pedy",
+          "url": "https://www.escosa.sa.gov.au/ArticleDocuments/21640/20210205-Electricity-Water-ComplianceReviewReport-DistrictCouncilCooberPedy.pdf.aspx?Embed=Y",
+          "publisher": "Essential Services Commission of South Australia",
+          "type": "goc",
+          "published": "2021-02-05",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "scene": 14,
+      "quote": "Then it filters it by reverse osmosis, which it has done since nineteen eighty-five.",
+      "statement": "Coober Pedy treats its bore water with a reverse osmosis plant, operating since 1985.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Water for Coober Pedy",
+          "publisher": "District Council of Coober Pedy",
+          "url": "https://www.cooberpedy.sa.gov.au/water/water-information",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "About Coober Pedy",
+          "url": "https://www.cooberpedy.com/about-coober-pedy-2/",
+          "publisher": "Coober Pedy SA",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Wednesday 23 March 2011",
+          "url": "https://hansardsearch.parliament.sa.gov.au/daily/uh/2011-03-23/pdf/download",
+          "publisher": "Parliament of South Australia",
+          "type": "goc",
+          "published": "2011-03-23",
+          "url_song": true
+        },
+        {
+          "title": "2021–22 Annual Business Plan",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0035/949454/ABP-and-Budget-2021-22-Adopted.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "scene": 14,
+      "quote": "According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water.",
+      "statement": "An older report cited by InDaily (2022) said Coober Pedy's ageing water pipes were leaking roughly 30 to 50 percent of the water.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Top-level taskforce to tackle outback council issues",
+          "publisher": "InDaily",
+          "url": "https://www.indailysa.com.au/news/archive/2022/08/17/top-level-taskforce-to-tackle-outback-council-issues",
+          "type": "bao",
+          "published": "2022-08-17"
+        },
+        {
+          "title": "Locals invited to have say on Coober Pedy future",
+          "url": "https://www.indailysa.com.au/news/archive/2022/08/23/locals-invited-to-have-say-on-coober-pedy-future",
+          "publisher": "InDaily",
+          "type": "bao",
+          "published": "2022-08-23",
+          "url_song": true
+        },
+        {
+          "title": "Traumatic: Administrator’s plea for Coober Pedy fix",
+          "url": "https://www.indailysa.com.au/news/archive/2022/08/17/traumatic-administrators-plea-for-coober-pedy-fix",
+          "publisher": "InDaily",
+          "type": "bao",
+          "published": "2022-08-17",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "scene": 14,
+      "quote": "The council has also been the only one in South Australia running its own water and power. In twenty twenty-six, the water service was moving over to the state utility, SA Water.",
+      "statement": "The District Council of Coober Pedy is the only council in South Australia that supplies both water and electricity itself, and in 2026 its water service was being transferred to SA Water.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy water transition",
+          "publisher": "SA Water",
+          "url": "https://watertalks.sawater.com.au/coober-pedy-water-transition",
+          "type": "goc",
+          "published": "2026-10-01"
+        },
+        {
+          "title": "District Council of Coober Pedy – Compliance review",
+          "publisher": "ESCOSA",
+          "url": "https://escosa.sa.gov.au/projects-and-publications/projects/corporate/coober-pedy-compliance-review",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Regional SA council election up in the air",
+          "publisher": "InDaily",
+          "url": "https://www.indailysa.com.au/news/just-in/2026/10/02/regional-sa-council-election-up-in-the-air",
+          "type": "bao",
+          "published": "2026-10-02"
+        },
+        {
+          "title": "2025–2026 Annual Business Plan",
+          "url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0034/1831876/Annual-Business-Plan-2025-26-adopted-20250625.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Becoming an SA Water customer – November Update",
+          "url": "https://hdp-au-prod-app-saw-watertalks-files.s3.ap-southeast-2.amazonaws.com/6017/9453/5464/November_Update-_Coober_Pedy_Water_Transition_.pdf",
+          "publisher": "SA Water",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "scene": 15,
+      "quote": "Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt.",
+      "statement": "SafeWork SA warns that the Coober Pedy opal fields contain unmarked old mine shafts, some hidden under iron sheets, mesh or mullock.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mind your step in opal fields",
+          "publisher": "SafeWork SA",
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "type": "goc",
+          "published": "2024-02-07"
+        },
+        {
+          "title": "Mind your step in opal fields",
+          "url": "https://safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "publisher": "SafeWork SA",
+          "type": "goc",
+          "published": "2024-02-07",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "scene": 15,
+      "quote": "Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million.",
+      "statement": "There is no reliable count of mine shafts around Coober Pedy; a local rescuer quoted by ABC News estimated around two million.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Opals are the last thing these Coober Pedy locals look for when they go underground",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2022-01-03/coober-pedy-mine-rescue-squad-searches-for-life/100730594",
+          "type": "bao",
+          "published": "2022-01-03"
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "scene": 15,
+      "quote": "Warning signs stand at the entrances to the opal fields",
+      "statement": "Warning signs about mine shafts stand at the access points (entrances) to the Coober Pedy opal fields.",
+      "hedged": false,
+      "claude": "khong-ro",
+      "gemini": "dung",
+      "vong3": "dung",
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Inside Coober Pedy, the Australian mining town where residents live underground",
+          "publisher": "Business Insider India",
+          "url": "https://www.businessinsider.in/thelife/news/inside-coober-pedy-the-australian-mining-town-where-residents-live-shop-and-worship-underground/slidelist/75524380.cms",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Coober Pedy mine security is adequate: Mayor",
+          "url": "https://www.abc.net.au/news/2006-08-15/coober-pedy-mine-security-is-adequate-mayor/1239194",
+          "publisher": "ABC News",
+          "type": "bao",
+          "published": "2006-08-15",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "scene": 15,
+      "quote": "In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft.",
+      "statement": "In February 2024, a person searching for opal at night with a UV torch in the Coober Pedy opal fields fell about 25 m down an old mine shaft (SafeWork SA incident alert).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mind your step in opal fields",
+          "publisher": "SafeWork SA",
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "type": "goc",
+          "published": "2024-02-07"
+        },
+        {
+          "title": "Man rescued 25m shaft Coober Pedy",
+          "publisher": "Mining Monthly",
+          "url": "https://www.miningmonthly.com/environment/news-articles/1463765/man-rescued-25m-shaft-coober-pedy",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Mind your step in opal fields",
+          "url": "https://safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "publisher": "SafeWork SA",
+          "type": "goc",
+          "published": "2024-02-07",
+          "url_song": true
+        },
+        {
+          "title": "Man rescued from mine after becoming trapped in shaft at Coober Pedy opal field",
+          "url": "https://www.abc.net.au/news/2024-01-14/man-rescued-from-coober-pedy-opal-mine-after-becoming-trapped/103318468",
+          "publisher": "ABC News",
+          "type": "bao",
+          "published": "2024-01-14",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "scene": 15,
+      "quote": "After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk.",
+      "statement": "After the February 2024 fall, SafeWork SA issued an incident alert titled 'Mind your step in opal fields', noting that searching for opal at night increases the risk of falling into a shaft.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": "mau-thuan",
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mind your step in opal fields",
+          "publisher": "SafeWork SA",
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+          "type": "goc",
+          "published": "2024-02-07"
+        },
+        {
+          "title": "Regulator issues safety alert over opal field safety",
+          "publisher": "Australian Institute of Health & Safety",
+          "url": "https://aihs.org.au/Web/Advocacy-Media/All-News/2024/02%20February/Regulator%20issues%20safety%20alert%20over%20opal%20field%20safety.aspx",
+          "type": "khac",
+          "published": "2024-02-01"
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "scene": 16,
+      "quote": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town.",
+      "statement": "Kanku-Breakaways Conservation Park lies about 25 km north of Coober Pedy.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Kanku-Breakaways Conservation Park",
+          "publisher": "National Parks and Wildlife Service South Australia",
+          "url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Kanku-Breakaways Conservation Park",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/kanku-breakaways-conservation-park",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "scene": 16,
+      "quote": "This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything.",
+      "statement": "Kanku-Breakaways is the traditional country of the Antakirinja Matu-Yankunytjatjara people; the entire park is a registered Aboriginal site under the Aboriginal Heritage Act 1988 and visitors are asked not to touch or remove anything.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Kanku-Breakaways Conservation Park",
+          "publisher": "National Parks and Wildlife Service South Australia",
+          "url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Kanku-Breakaways Conservation Park",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/kanku-breakaways-conservation-park",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "scene": 16,
+      "quote": "It belongs to their corporation and has been jointly managed with the state since twenty thirteen.",
+      "statement": "Kanku-Breakaways is owned by the Antakirinja Matu-Yankunytjatjara Aboriginal Corporation and has been co-managed with the South Australian government since 2013.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Kanku-Breakaways Conservation Park",
+          "publisher": "National Parks and Wildlife Service South Australia",
+          "url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Park co-management",
+          "url": "https://www.environment.sa.gov.au/about-us/boards-and-committees/park-co-management",
+          "publisher": "Department for Environment and Water, South Australia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Breakaways Conservation Park Co-management Board Annual Report 2015–2016",
+          "url": "https://cdn.environment.sa.gov.au/environment/docs/breakaways-co-management-board-annual-report-2015-16-rep.pdf",
+          "publisher": "Department for Environment, Water and Natural Resources, South Australia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "scene": 16,
+      "quote": "In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out.",
+      "statement": "On 11 May 2011 the Federal Court of Australia, sitting in Coober Pedy, recognised the Antakirinja Matu-Yankunytjatjara people's native title over 78,672 square kilometres in the Coober Pedy region, with some town parcels excluded from the determination.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "AMY native title determination",
+          "publisher": "South Australian Native Title Services",
+          "url": "https://www.nativetitlesa.org/?p=2257",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Lennon v South Australia [2011] FCA 474 (summary)",
+          "publisher": "National Native Title Tribunal",
+          "url": "https://www.nntt.gov.au/News-and-Publications/hotspots/Documents/Hot%20Spots%2034/Lennon%20v%20South%20Australia%20[2011]%20FCA%20474.pdf",
+          "type": "goc",
+          "published": "2011-05-11"
+        },
+        {
+          "title": "Lennon v South Australia [2011] FCA 474",
+          "url": "https://www.nntt.gov.au/News-and-Publications/hotspots/Documents/Hot%20Spots%2034/Lennon%20v%20South%20Australia%20%5B2011%5D%20FCA%20474.pdf",
+          "publisher": "Federal Court of Australia / National Native Title Tribunal",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Native Title in the News – May 2011",
+          "url": "https://aiatsis.gov.au/sites/default/files/research_pub/ntnmay11_2.pdf",
+          "publisher": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+          "type": "goc",
+          "published": "2011-05-12",
+          "url_song": true
+        },
+        {
+          "title": "Antakirinja Matu-Yankunytjatjara Aboriginal Corporation RNTBC",
+          "url": "https://www.nativetitlesa.org/pbcs/antakirinja-matu-yankunytjatjara-aboriginal-corporation-rntbc/",
+          "publisher": "SA Native Title",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C41",
+      "scene": 17,
+      "quote": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from.",
+      "statement": "The name Coober Pedy derives from Aboriginal words ('kupa piti') commonly translated as 'white man's hole', but the exact origin and meaning are debated (Britannica also gives 'water hole'; a 2010 etymology study traces the words to Barngarla and Kokatha).",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "mau-thuan",
+      "vong3": null,
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/place/Coober-Pedy",
+          "type": "bach-khoa",
+          "published": null
+        },
+        {
+          "title": "The etymology of Coober Pedy, South Australia",
+          "publisher": "Aboriginal History (P. Naessan)",
+          "url": "https://digital.library.adelaide.edu.au/items/755f4064-99f5-4807-90e3-9e58d0f978b1",
+          "type": "goc",
+          "published": "2010-01-01"
+        },
+        {
+          "title": "The etymology of Coober Pedy, South Australia",
+          "url": "https://press-files.anu.edu.au/downloads/press/p170581/html/ch09.xhtml?page=10&referer=",
+          "publisher": "Aboriginal History, Australian National University Press",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "History – Opal Capital of the World",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "scene": 17,
+      "quote": "The miners arrived more than a century ago.",
+      "statement": "Opal miners first arrived at Coober Pedy more than a hundred years ago, from about 1916.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Coober Pedy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coober_Pedy",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Mineral Deposit Details: Coober Pedy",
+          "url": "https://minerals.sarig.sa.gov.au/MineralDepositDetails.aspx?DEPOSIT_NO=147",
+          "publisher": "Government of South Australia, SA Geodata Database",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "History - Opal Capital of the World",
+          "url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/history",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Coober Pedy Community Plan",
+          "url": "https://cooberpedy.sa.gov.au/__data/assets/pdf_file/0020/148700/Coober_Pedy_Community_Plan.pdf",
+          "publisher": "District Council of Coober Pedy",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C43",
+      "scene": 18,
+      "quote": "Down there, according to NASA, the rock holds around twenty-three degrees.",
+      "statement": "Coober Pedy dugouts stay at about 23°C, according to NASA Earth Observatory.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "sai",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Heritage Assessment Report",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "publisher": "Government of South Australia, Department of Environment, Water and Natural Resources",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "scene": 18,
+      "quote": "Residents say closer to twenty-four.",
+      "statement": "Coober Pedy dugout temperatures are given differently by source: NASA Earth Observatory says about 23°C, residents say about 24°C; i.e. low twenties year-round.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "mau-thuan",
+      "vong3": null,
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Keeping it Cool in the Outback",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/keeping-it-cool-in-the-outback-152094/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Tour an underground dugout home in Coober Pedy",
+          "publisher": "The Senior",
+          "url": "https://www.thesenior.com.au/story/9004926/tour-an-underground-dugout-home-in-opal-mining-town-coober-pedy/",
+          "type": "bao",
+          "published": null
+        },
+        {
+          "title": "Heritage Assessment Report – Dugouts",
+          "url": "https://data.environment.sa.gov.au/Content/Publications/26474_Assessment.pdf",
+          "publisher": "Government of South Australia, Department for Environment and Water",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Going underground — lessons for suburbia from subterranean Coober Pedy",
+          "url": "https://www.abc.net.au/news/2020-11-15/underground-housing-a-goldmine-of-sustainable-living-coober-pedy/12880618",
+          "publisher": "ABC News",
+          "type": "bao",
+          "published": "2020-11-15",
+          "url_song": true
+        },
+        {
+          "title": "Di's Place",
+          "url": "https://southaustralia.com/products/flinders-ranges-and-outback/accommodation/dis-dugouts/dis-place",
+          "publisher": "South Australian Tourism Commission",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Living underground & why it makes a lot of sense",
+          "url": "https://www.realestate.com.au/lifestyle/living-underground/",
+          "publisher": "realestate.com.au",
+          "type": "goc",
+          "published": "2014-08-12",
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "A": 23,
+    "B": 16,
+    "C": 4,
+    "D": 0
+  },
+  "problems": [],
+  "lech": 5
+}

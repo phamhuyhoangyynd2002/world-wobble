@@ -3,7 +3,7 @@
 
 Cách dùng: python3 kiem_ky_thuat.py <thư mục dự án> [--video out/video.mp4]
 
-LỖI (mã thoát 1): sai kích thước, khung hình, codec; thiếu audio; độ dài lệch timeline > 0,5s; khung đen > 0,5s;
+LỖI (mã thoát 1): sai kích thước (theo khung xuất của dự án: hoat-hinh/phan-canh.json → xuat, mặc định 1920×1080), khung hình, codec; thiếu audio; độ dài lệch timeline > 0,5s; khung đen > 0,5s;
 khung đầu tối (gần như đen); âm lượng lệch −14 LUFS quá 1 LU hoặc true peak > −1 dBTP; thiếu captions.srt, chapters.txt;
 chương đầu không ở 0:00.
 CẢNH BÁO: khoảng lặng > 2,5s; im lặng ở 2 giây cuối.
@@ -17,6 +17,9 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "dung-hoat-hinh" / "scripts"))
+from khung_xuat import doc_xuat_du_an  # noqa: E402
 
 
 def run(cmd: list[str]) -> subprocess.CompletedProcess:
@@ -79,8 +82,10 @@ def main() -> int:
     if not vs:
         errors.append("không có luồng hình")
     else:
-        if (vs.get("width"), vs.get("height")) != (1920, 1080):
-            errors.append(f"kích thước {vs.get('width')}×{vs.get('height')}, cần 1920×1080")
+        # Khung xuất theo dự án (hoat-hinh/phan-canh.json → xuat): 2560×1440 từ tập 4, 1920×1080 cho tập 1–3, trình chiếu cũ
+        cw, ch = doc_xuat_du_an(project)
+        if (vs.get("width"), vs.get("height")) != (cw, ch):
+            errors.append(f"kích thước {vs.get('width')}×{vs.get('height')}, cần {cw}×{ch}")
         num, den = (vs.get("r_frame_rate") or "0/1").split("/")
         fps = float(num) / float(den or 1)
         if abs(fps - timeline.get("fps", 30)) > 0.05:

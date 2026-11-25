@@ -5,7 +5,8 @@ Cách dùng:
   python ghep_doan.py <thư mục dự án> [--cho-thieu] [--khong-tron]
 
 Làm gì:
-1. Kiểm mỗi hoat-hinh/doan-<id>/out/doan.mp4: có, 1920×1080, độ dài khớp đoạn (lệch > 1 khung thì cảnh báo, > 0,5 s thì lỗi).
+1. Kiểm mỗi hoat-hinh/doan-<id>/out/doan.mp4: có, đúng khung xuất của dự án (phan-canh.json → xuat, xem khung_xuat.py:
+   2560×1440 từ tập 4, 1920×1080 cho tập 1–3), độ dài khớp đoạn (lệch > 1 khung thì cảnh báo, > 0,5 s thì lỗi).
    --cho-thieu: đoạn chưa có clip thì thay bằng khung giấy phẳng #EFE3C8 (để nghe thử nhịp), có cảnh báo.
 2. Nối hình (encode lại đồng nhất H.264 30 fps) → hoat-hinh/out/hinh.mp4.
 3. Đặt giọng audio/scene-N.mp3 theo phan-canh.json → loi → hoat-hinh/out/render-raw.mp4 (hình + giọng).
@@ -22,6 +23,8 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[4]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from khung_xuat import THIET_KE, doc_xuat  # noqa: E402
 MIX = REPO / ".claude" / "skills" / "xuat-video" / "scripts" / "mix_audio.py"
 GIAY = "0xEFE3C8"
 
@@ -79,6 +82,9 @@ def main():
     hh = project / "hoat-hinh"
     pc = json.loads((hh / "phan-canh.json").read_text(encoding="utf-8"))
     fps = pc.get("fps", 30)
+    XW, XH = doc_xuat(pc)          # khung xuất, đọc từ một chỗ (phan-canh.json → xuat)
+    K = XW / THIET_KE[0]           # vị trí, cỡ logo tính theo hệ thiết kế 1920×1080 rồi nhân K
+    print(f"Khung xuất {XW}×{XH}" + ("" if "xuat" in pc else " (phan-canh.json không có xuat: chế độ tập 1–3)"))
     out = hh / "out"
     out.mkdir(parents=True, exist_ok=True)
     (out / "frames").mkdir(exist_ok=True)
@@ -93,8 +99,9 @@ def main():
         clip = hh / f"doan-{seg['id']}" / "out" / "doan.mp4"
         if clip.exists():
             p = probe(clip)
-            if (p["w"], p["h"]) != (pc.get("rong", 1920), pc.get("cao", 1080)):
-                sys.exit(f"LỖI: {clip} là {p['w']}×{p['h']}")
+            if (p["w"], p["h"]) != (XW, XH):
+                sys.exit(f"LỖI: {clip} là {p['w']}×{p['h']}, dự án xuất {XW}×{XH} "
+                         "(chạy lại chuan_bi_doan.py cho đoạn đó rồi render lại; không phóng clip bằng ffmpeg)")
             diff = p["dur"] - dur
             if abs(diff) > 0.5:
                 sys.exit(f"LỖI: {clip} dài {p['dur']:.3f} s, đoạn cần {dur:.3f} s")
@@ -103,22 +110,29 @@ def main():
             inputs += ["-i", str(clip)]
         elif args.cho_thieu:
             warn.append(f"doan-{seg['id']}: CHƯA CÓ clip, thay bằng khung giấy phẳng")
-            inputs += ["-f", "lavfi", "-t", f"{dur:.3f}", "-i", f"color=c={GIAY}:s=1920x1080:r={fps}"]
+            inputs += ["-f", "lavfi", "-t", f"{dur:.3f}", "-i", f"color=c={GIAY}:s={XW}x{XH}:r={fps}"]
         else:
             sys.exit(f"LỖI: thiếu {clip} (dùng --cho-thieu để ghép thử)")
         # chuẩn hoá: đúng fps, đúng độ dài (tpad giữ khung cuối nếu thiếu, trim nếu thừa)
-        filt.append(f"[{i}:v]fps={fps},scale=1920:1080,setsar=1,format=yuv420p,"
+        filt.append(f"[{i}:v]fps={fps},scale={XW}:{XH},setsar=1,format=yuv420p,"
                     f"tpad=stop_mode=clone:stop_duration=1,trim=duration={dur:.4f},setpts=PTS-STARTPTS[v{i}]")
     n = len(pc["doan"])
     logo = REPO / "templates/_shared/logo-goc-video.png"
     if not args.khong_logo and logo.exists():
-        # Logo nhỏ góc phải trên, mờ 85% (thuong-hieu.md, frame.md); trong vùng an toàn 96/54 px
+        # Logo nhỏ góc phải trên, mờ 85% (thuong-hieu.md, frame.md); trong vùng an toàn 96/54 px của hệ thiết kế (×K ở khung xuất)
         inputs += ["-loop", "1", "-i", str(logo)]
+        logo_2k = REPO / "templates/_shared/logo-goc-video-2k.png"  # 427×104, dựng lại từ logo.png cho khung 2560×1440
+        if abs(K - 4 / 3) < 1e-3 and logo_2k.exists():
+            inputs[-1] = str(logo_2k)
+            lg_scale = ""
+        else:
+            lg_scale = "" if K == 1 else f"scale=iw*{K:.6f}:-1:flags=lanczos,"
         filt.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[vc]")
         # an_logo: [[giây bắt đầu, giây kết thúc], ...] trong phan-canh.json: ẩn logo khi chữ của cảnh nằm dưới góc logo
         an = pc.get("an_logo") or []
         en = (":enable='not(" + "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in an) + ")'") if an else ""
-        filt.append(f"[{n}:v]format=rgba,colorchannelmixer=aa=0.85[lg];[vc][lg]overlay=W-w-96:54:shortest=1{en}[v]")
+        filt.append(f"[{n}:v]{lg_scale}format=rgba,colorchannelmixer=aa=0.85[lg];"
+                    f"[vc][lg]overlay=W-w-{round(96 * K)}:{round(54 * K)}:shortest=1{en}[v]")
     else:
         filt.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]")
     hinh = out / "hinh.mp4"

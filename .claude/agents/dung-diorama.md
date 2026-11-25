@@ -19,3 +19,7 @@ Với mỗi đoạn được giao:
 Luật: Wob đúng tạo hình gốc `templates/_shared/wob/nguon/tao_wob.py`, không vẽ kiểu khác, không AI. Không ảnh chụp/Commons/AI. Không vẽ mặt người thật; không đùa về người dân. Chỉ chữ trong `chu_tren_do_vat`; bản đồ (nếu có) chỉ là SVG do `ve_ban_do.mjs` vẽ, giữ luật chủ quyền. Tất định (không random không seed, không hẹn giờ, không requestAnimationFrame tự chạy). Chỉ ghi vào các `doan-<id>/` được giao và `templates/hoat-hinh/diorama/`; không sửa `phan-canh.json`, `HOP-DONG.md`, `_chung/`, script skill, thư viện phong cách khác. Không git commit. Render hỏng sau 2 cách sửa: dừng, báo nguyên văn lỗi.
 
 Trả về (tối đa 6 dòng mỗi đoạn): đường dẫn clip, độ dài, kết quả check, số lần render, thứ đã thêm vào thư viện, vấn đề còn lại.
+
+## Nơi lưu file
+
+Render với TMP/TEMP = `D:/YouTube/world-wobble/tmp` (ổ C hay đầy). Clip đoạn ghi vào `hoat-hinh/doan-<id>/out/` trong repo như hợp đồng; không chép video ra chỗ khác. Kho file lớn của kênh chỉ là `D:/YouTube/world-wobble/` (xem `.claude/rules/quy-trinh-san-xuat.md`, mục "Nơi lưu file lớn").

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "C15",
+    "loi_cu": "The walls were carved sandstone, covered in swirls from the digging machine.",
+    "van_de": "Mức D: không nguồn xác nhận vết xoáy máy đào",
+    "xu_ly": "Bỏ khỏi lời (cảnh 8, 9) và claims; lời mới 'bare rock, curving up into a pale ceiling' không khẳng định gì"
+  },
+  {
+    "id": "C16",
+    "loi_cu": "Dugouts appeared beside the earliest mines in the first few years after the opal strike.",
+    "van_de": "Lệch; nguồn chỉ nói 'likely'",
+    "xu_ly": "Nói dè dặt 'According to a state heritage report, the first miners probably started digging homes within a few years of the find', hedged, đổi statement"
+  },
+  {
+    "id": "C20",
+    "loi_cu": "volunteers carved ... by hand",
+    "van_de": "Mức C: chi tiết tình nguyện viên, đào tay tranh cãi",
+    "xu_ly": "Giữ 1993, bỏ 'volunteers'/'by hand'; đổi statement; hedged false vì vế còn lại thống nhất"
+  },
+  {
+    "id": "C21",
+    "loi_cu": "The town got its name in nineteen twenty",
+    "van_de": "Lệch; nguồn ghi 1920 hoặc 1922, tên tổ chức khác nhau",
+    "xu_ly": "Bỏ tên tổ chức, 'around nineteen twenty, though records differ by a year or two', hedged, đổi statement"
+  },
+  {
+    "id": "C34",
+    "loi_cu": "Warning signs are everywhere",
+    "van_de": "Nguồn chỉ nói biển ở lối vào",
+    "xu_ly": "'Warning signs stand at the entrances to the opal fields', đổi statement"
+  },
+  {
+    "id": "C36",
+    "loi_cu": "stay off the fields in the dark",
+    "van_de": "Không thấy SafeWork SA khuyên cấm đi đêm",
+    "xu_ly": "Nêu cảnh báo 'Mind your step in opal fields' và 'Searching at night raises the risk', đổi statement"
+  },
+  {
+    "id": "C40",
+    "loi_cu": "including the town itself",
+    "van_de": "Mức C: có thửa đất thị trấn bị loại trừ",
+    "xu_ly": "Giữ 2011, ~79.000 km²; 'around Coober Pedy... According to the determination, some town blocks were left out', hedged, đổi statement"
+  },
+  {
+    "id": "C41",
+    "loi_cu": "Even the town's name is usually traced to Aboriginal words.",
+    "van_de": "Mức C",
+    "xu_ly": "Thêm 'and nobody fully agrees on it', giữ 'Linguists still debate', hedged true; statement giữ nguyên"
+  },
+  {
+    "id": "C44",
+    "loi_cu": "a room that stays around twenty-three degrees all year",
+    "van_de": "Mức C: 23 vs 24°C",
+    "xu_ly": "Thêm 'Residents say closer to twenty-four.' sau câu NASA; câu hỏi cuối đổi thành 'low twenties'; hedged, đổi statement"
+  }
+]

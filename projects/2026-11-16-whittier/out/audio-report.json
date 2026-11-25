@@ -1,0 +1,72 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.8,
+      "true_peak": -1.8
+    },
+    "video.mp4": {
+      "lufs": -14.1,
+      "true_peak": -1.1
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 0.0,
+      "end": 47.522
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+      "mood": "hai",
+      "start": 47.522,
+      "end": 149.609
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 149.609,
+      "end": 223.295
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 224.295,
+      "end": 337.871
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 337.871,
+      "end": 417.888
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 422.088,
+      "end": 444.208
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 447.708,
+      "end": 591.268
+    }
+  ],
+  "sfx_count": 211,
+  "sections": {
+    "than_video": {
+      "lufs": -14.1,
+      "true_peak": -1.1
+    },
+    "canh_cuoi": {
+      "lufs": -14.0,
+      "true_peak": -1.5
+    }
+  }
+}

@@ -1,0 +1,227 @@
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Hodge Building was a 14-storey structure assembled from three sections between 1953 and 1957; government and Smithsonian sources support its history and construction period.",
+"sources": [
+{
+"title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+"publisher": "Smithsonian Magazine",
+"url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Mid-20th Century Architectural Context",
+"publisher": "National Park Service / GovInfo",
+"url": "https://www.govinfo.gov/content/pkg/GOVPUB-I29-PURL-gpo91203/pdf/GOVPUB-I29-PURL-gpo91203.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Alaska District and the Corps of Engineers",
+"publisher": "U.S. Army Corps of Engineers",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/AKdistrict/jacobs_history_3.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": null,
+"note": "Government and news sources describe nearly all or most Whittier residents as living in Begich Towers, although not literally every resident lives there.",
+"sources": [
+{
+"title": "AEA Whittier Chugach Cruise Terminal Electrification Project",
+"publisher": "Alaska Energy Authority",
+"url": "https://www.akenergyauthority.org/Portals/0/About/Board%20Meetings/Documents/2022/2022.08.03/8M.%20%20AEA%20Whittier%20Chugach%20Cruise%20Terminal%20Electrification%20Project-PIDP-05%2016%2022V1.pdf?ver=2022-07-20-101647-093",
+"type": "goc",
+"published": "2022-05-16"
+},
+{
+"title": "Alaska Economic Trends, September 2021",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.alaska.gov/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+},
+{
+"title": "Living Close for Comfort in Alaska’s 'Town Under One Roof'",
+"publisher": "The Epoch Times",
+"url": "https://www.theepochtimes.com/us/living-close-for-comfort-in-alaskas-town-under-one-roof-5951684",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C27",
+"verdict": "dung",
+"correct_value": "2020 Census: 272 residents; 2025 Alaska Department of Labor estimate: 247 residents.",
+"note": "The 2020 count of 272 is confirmed, and subsequent Alaska population estimates show a decline to approximately 250 residents.",
+"sources": [
+{
+"title": "Whittier: Housing Needs Assessment 2023",
+"publisher": "City of Valdez / McKinley Research Group",
+"url": "https://www.valdezak.gov/DocumentCenter/View/13978/PWS-Housing-Needs-Assessment-2023-Report",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier city: data profile",
+"publisher": "Northern Opportunity",
+"url": "https://northernopportunity.com/places/whittier/",
+"type": "khac",
+"published": null
+},
+{
+"title": "2020 Census Data: Whittier city, Alaska",
+"publisher": "U.S. Census Bureau",
+"url": "https://data.census.gov/cedsci/profile?g=1600000US0284510",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": null,
+"note": "NPR reporting explicitly confirms that the post office is near the building entrance and the police station is down the hall.",
+"sources": [
+{
+"title": "Welcome To Whittier, Alaska, A Community Under One Roof",
+"publisher": "NPR / WABE",
+"url": "https://www.wabe.org/welcome-to-whittier-alaska-a-community-under-one-roof/",
+"type": "bao",
+"published": null
+},
+{
+"title": "September 2021 Alaska Economic Trends",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.alaska.gov/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+}
+]
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "NPR reporting explicitly identifies a health clinic and convenience store inside Begich Towers; Alaska's Department of Labor also documents the building's medical and retail facilities.",
+"sources": [
+{
+"title": "Welcome To Whittier, Alaska, A Community Under One Roof",
+"publisher": "NPR / WABE",
+"url": "https://www.wabe.org/welcome-to-whittier-alaska-a-community-under-one-roof/",
+"type": "bao",
+"published": null
+},
+{
+"title": "September 2021 Alaska Economic Trends",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.alaska.gov/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+}
+]
+},
+{
+"id": "C30",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska Department of Labor documents the church, laundromat and indoor playground, while Alaska Public Media independently confirms the city offices inside the building.",
+"sources": [
+{
+"title": "September 2021 Alaska Economic Trends",
+"publisher": "Alaska Department of Labor and Workforce Development",
+"url": "https://labor.alaska.gov/trends/sep21.pdf",
+"type": "goc",
+"published": "2021-09-01"
+},
+{
+"title": "Teaching in the City Under One Roof",
+"publisher": "Alaska Public Media",
+"url": "https://alaskapublic.org/2013/11/22/teaching-in-the-city-under-one-roof/",
+"type": "bao",
+"published": "2013-11-22"
+},
+{
+"title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+"publisher": "Smithsonian Magazine",
+"url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska Public Media confirms that the school is across the street and students reach it from the Begich Towers basement through an underground tunnel.",
+"sources": [
+{
+"title": "Teaching in the City Under One Roof",
+"publisher": "Alaska Public Media",
+"url": "https://alaskapublic.org/2013/11/22/teaching-in-the-city-under-one-roof/",
+"type": "bao",
+"published": "2013-11-22"
+},
+{
+"title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+"publisher": "Smithsonian Magazine",
+"url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+"type": "bao",
+"published": null
+},
+{
+"title": "The History and Military Significance of Whittier",
+"publisher": "AlaskaRails",
+"url": "https://www.alaskarails.org/historical2/whittier-history/index.html",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "mau-thuan",
+"correct_value": "Construction began in 1949 and the building was occupied in 1954; some historical accounts describe construction as completed in 1953. The main structure has six floors according to NIST, while other historical accounts describe a seven-storey composite structure. Capacity estimates range from 1,250 men to 1,700 people.",
+"note": "Reliable sources agree on the theatre, bowling alley and hospital, but differ on the building's completion or occupancy date, storey count and designed population capacity.",
+"sources": [
+{
+"title": "Buckner Building Preservation and Contaminated Properties Report",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://dec.alaska.gov/media/4707/2015-bucknerpacp5.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Structural and Ground Motion Characteristics of the Buckner Building",
+"publisher": "National Institute of Standards and Technology",
+"url": "https://nehrpsearch.nist.gov/static/files/NSF/PB84241082.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Buckner, Simon Bolivar, Jr.",
+"publisher": "Alaska History",
+"url": "https://www.alaskahistory.org/biographies/buckner-simon-bolivar-jr/",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "Whittier, Alaska: A Tiny City Born of War",
+"publisher": "HistoryNet",
+"url": "https://historynet.com/whittier-alaska-a-tiny-city-born-of-war/",
+"type": "bao",
+"published": null
+}
+]
+}
+]

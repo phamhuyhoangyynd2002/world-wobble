@@ -22,6 +22,10 @@ Thư viện dùng chung cho mọi tập hoạt hình của World Wobble. Một *
 
 Một đoạn chỉ một cảnh 3D (`api.d3`). Muốn cắt giữa bàn kỷ vật và phố trong cùng đoạn: dựng cả hai, bật/tắt bằng `api.hien(ban.stage, t, on)` và `d3.hien(t, on)` (3D tắt thì không vẽ). Thường gọn hơn khi tách thành hai đoạn, nối `giay`.
 
+### Khung xuất 2560×1440 (từ tập 4)
+
+`phan-canh.json` có `"xuat": {"w": 2560, "h": 1440}` thì `chuan_bi_doan.py` ghi khung 2K vào `index.html` (HOP-DONG mục 4b). `canh.js` viết như cũ theo hệ 1920×1080 (cả `left:960px; top:540px` của camera CSS). Chế độ CSS 3D: Chrome rasterize lại các tấm giấy ở ×4/3. Chế độ 3D (`dio-3d.js`): đọc `HH_DATA.xuat.ti_le` (K), đặt bộ đệm WebGL và mọi render target đúng 2560×1440 (canvas CSS vẫn 1920×1080), viền mực và bán kính mờ (`mo`) tự nhân theo `res.y / 1080` nên trông như bản 1080p, texture con rối `K_TEX` ×K. `kiem_doan.py --do-chu` vẫn báo px theo hệ 1080 (`DIO.doChu` chia K). Thử 26/11/2026 (`-q delivery -w 2`, máy rảnh): CSS 3D Whittier d02 11,2 s: 1080p 74 s / 33 MB → 2K 103 s / 51 MB; cảnh 3D Oymyakon d01 4,9 s: 48 s / 12,5 MB → 75 s / 20 MB (≈ ×1,4–1,6 thời gian và dung lượng). `kiem_doan.py --do-chu` cho số đo giống hệt ở hai khung.
+
 ## Thư mục
 
 ```
@@ -122,6 +126,21 @@ Thêm 18/11/2026 (tập 1 bản trọn tập, chỉ thêm, không đổi hàm c�
 
 - **Mắt nhắm, nháy (19/11/2026, lỗi "mắt rỗng" phản biện tập 1 vòng 1–2):** mí của rig là mảng màu thân phủ dần xuống; mí ≥ ~0,85 thì lòng trắng mất mà viền mắt còn → hai vòng rỗng (cả lúc nháy nhanh, 2–4 khung). Gọi `api.matKhongRong(w)` ngay sau khi dựng Wob ở bàn kỷ vật: với Wob đó `api.lids`, `api.lidsSet`, `api.blink` (và `api.blinks`) không khép mí quá 0,8 (còn dải lòng trắng + mép mí); đúng khung chạm 0,8 thì ẩn nhóm mắt, hiện nét mí (`tl.set`, không mờ dần), mở thì bỏ nét mí ngay khung đầu. Wob không gọi `matKhongRong` giữ hành vi cũ. Thêm `api.nhamMat(w, t, d, {kieu: "cuoi"|"thang"})`, `api.moMat(w, t, d, nen)`, `api.nhayCham(w, t, nen)` (tự bật). Kiểm bằng trích khung DÀY quanh mỗi lần nháy. Gọi các lệnh mí theo thứ tự thời gian (helper nhớ trạng thái mí).
 - `api.muLongSVG()`: mũ hè trùm lông nâu đậm viền kem (220×190, móc treo ở (110, 8)).
+
+Thêm 23/11/2026 (tập 2 Coober Pedy, chỉ thêm; danh sách đầy đủ ở chú thích đầu khối cuối `dio-dao-cu.js`):
+- Sa mạc / bàn kỷ vật: `api.loOpalSVG({san})` (lọ thuỷ tinh nắp bần, `.lo-san` hạt sạn đáy lọ), `api.hatSanSVG(loe)` (hạt sạn; `loe` có vệt opal + `.san-loe` ngôi sao lấp lánh ẩn sẵn), `api.bongGolfSVG()` (quầng `.golf-sang` xanh lơ, nhấp nháy bằng `api.moiKhung`), `api.nhietKeBanSVG(dong)` (nhiệt kế để bàn 150×300, `.merc` svgOrigin "75 236"; nhãn dài nên đặt trên thẻ giấy riêng to hơn khung 150).
+- Người, nhà: `api.nguoiGiaySVG(x, y, s, mau)` (người giấy dạng chung, KHÔNG mặt), `api.buuThiepMatCatSVG({trong, tren})` (bưu thiếp mặt cắt đồi 380×260, phòng đào có đèn, `.bt-cho` ô trống để nhét hình). Hình Wob giấy bé: dùng chính `api.makeWob(lopPopup, {s: 0.1–0.3})` gắn vào nút lớp pop-up (đứng/gập theo lớp), không vẽ Wob kiểu khác.
+- Đồ cầm: `api.khungCuaSoSVG()` (khung cửa sổ giấy, ô trong suốt), `api.cuonCoSVG()` + `api.baiCoSVG(w)` (cuộn cỏ / bãi cỏ bé: trải bằng `scaleX` 0 → 1 với `ax: 0`), `api.muRongVanhSVG()`, `api.coNhoSVG()` (cờ không chữ), `api.baLoMoSVG()` (ba lô ô liu mở: `.bl-than` phồng quanh "120 280", `.bl-nap` bật quanh "120 92").
+- Cảnh: `api.bienGoSVG(dong, o)` (biển gỗ sa mạc không tuyết), `api.doiMesaSVG(w, h, {seed, mau, dinh, net})` (đồi đỉnh bằng nhiều dải đá kiểu Breakaways; xếp nhiều lớp ở các độ sâu, lớp xa `api.F.XA`), `api.saMacSVG(w, h)` (lớp pop-up đồi cát + mặt trời).
+- `api.dauPhanQuyetSVG` (sửa 23/11/2026): khung dấu tự rộng theo độ dài chữ (WOULD MOVE, SUMMER ONLY không tràn khung); NOPE giữ nguyên cỡ cũ.
+- Bản đồ trên thẻ pop-up đứng (d01 Coober Pedy): chép SVG của `ve_ban_do.mjs` vào `doan-<id>/ban-do/`, nhúng `<svg viewBox="…" preserveAspectRatio="xMidYMid slice"><image href="ban-do/x.svg" width="1920" height="1080"/></svg>` trong `lopPopup.tuy`; chữ nhãn vẽ thêm bằng `api.txt` (có `paint-order="stroke"` viền giấy). Thẻ đứng đọc rõ hơn trang nằm phẳng. Lớp chưa dùng tới thì ẩn bằng `visibility` (lớp gập nằm trên trang vẫn lộ trong khung).
+
+Thêm 24/11/2026 (tập 3 Whittier, chỉ thêm; danh sách đầy đủ ở chú thích đầu khối cuối `dio-dao-cu.js`):
+- Đồ mặc thêm cho con rối: `api.doThem(w, {doNgu, depLe, muLuoi, aoPhao}, t?)` (đồ ngủ kẻ sọc áo + quần, dép lê thay giày đỏ – `w.depL/R` trong nhóm chân, `w.giayL/R` giày gốc; mũ lưỡi trai xanh băng; áo phao cam). `api.depLeSVG()` dép rời nằm trên sàn (gag dép tuột).
+- Toà nhà, cảnh: `api.toaNha14SVG(w, h, o)` (toà 14 tầng ba khối, `.tang-<i>`, cửa xoay `.cua-xoay-0/1`), `api.nuiGiaySVG(w, h, o)` (núi giấy, `.nap-tuyet` nắp tuyết rời), `api.songBangSVG`, `api.tauDuLichSVG`, `api.thuyenNhoSVG`, `api.dongHoTuongSVG` (`.kim-gio/.kim-phut`), `api.denTinHieuSVG` (`.den-do/.den-xanh`).
+- Xe: `api.xeHopSVG({mui, mau})` → `{sau, truoc}` (nhìn ngang, kẹp con rối Wob giữa hai lớp; `.banh-1/2`, `.kinh-mo`). Wob lái xe: ẩn chân, ba lô (`pack`, `strap`).
+- Đồ cầm: `api.phongBiSVG({dong})`, `api.cuonGiaySVG`, `api.toLichSVG(w, h, {matSau})`, `api.gioDoSVG`, `api.tuiBanhSVG`, `api.lyDoNguSVG`, `api.napChaiSVG({kimCuong})` (`.nap-loe`), `api.canCauSVG(dai)` (`.day-cau`), `api.kayakSVG(w)`, `api.maiCheoSVG(dai)`, `api.haiAuSVG`, `api.caBonSVG`, `api.caHoiSVG`, `api.bongCanDamSVG`.
+- Bẫy: con rối trong nhóm lật bằng `scaleX` qua 0 lộ tấm mỏng → đổi hướng bằng `tl.set` tức thì. Đồ cầm vượt khung 400×400 của Wob bị cắt ở lớp 3D (dải giấy dài): dựng thành tấm riêng trong thế giới. Tấm nền trời đặt trong lòng hầm sẽ chắn cả đường hầm.
 
 ### Bàn kỷ vật (`dio-ban.js`)
 `api.dungBan(o)` → `ban = {stage, rig, the, TY, hop, so, wob, ca, caDung, caMem, coc, omCoc, COC_THUONG, trongHop, den}`.

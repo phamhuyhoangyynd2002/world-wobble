@@ -1,0 +1,198 @@
+[
+{
+"id": "C19",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT&PF's tunnel history explicitly states that traveling to Seward added 52 miles compared with the Whittier route.",
+"sources": [
+{
+"title": "History, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation & Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C27",
+"verdict": "dung",
+"correct_value": "2020 Census: 272 residents; 2025 Alaska estimate: 247 residents",
+"note": "The Census Bureau confirms 272 residents in 2020, and later Alaska population estimates show 247 in 2025, approximately 250.",
+"sources": [
+{
+"title": "Whittier city, Alaska - Census Bureau Profile",
+"publisher": "U.S. Census Bureau",
+"url": "https://data.census.gov/profile/Whittier_city%2C_Alaska?g=160XX00US0284510",
+"type": "goc",
+"published": null
+},
+{
+"title": "State of Alaska Incorporated Places - 2020 Census",
+"publisher": "U.S. Census Bureau",
+"url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas25/tigerweb_bas25_incplace_2020_tab20_ak.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier city: data profile",
+"publisher": "Northern Opportunity",
+"url": "https://northernopportunity.com/places/whittier/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "mau-thuan",
+"correct_value": "Construction began in 1951; completed in 1952 according to USACE history, handed over in August 1953, and described as completed in 1953 by Alaska DEC. Sources differ between six and seven floors and between capacities of approximately 1,000, 1,250, 1,500 and 1,700 people.",
+"note": "The construction date, floor count and intended capacity vary across sources; the theatre, bowling alley and medical facilities are independently documented.",
+"sources": [
+{
+"title": "The Alaska District and the Corps of Engineers history",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/AKdistrict/jacobs_history_3.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Site Report: Buckner Building (Whittier)",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://dec.alaska.gov/Applications/SPAR/PublicMVC/CSP/SiteReport/4151",
+"type": "goc",
+"published": null
+},
+{
+"title": "Buckner Building",
+"publisher": "National Institute of Standards and Technology",
+"url": "https://nehrpsearch.nist.gov/static/files/NSF/PB84241082.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Buckner Building Property Assessment & Cleanup Plan",
+"publisher": "Shannon & Wilson, Inc.",
+"url": "https://www.shannonwilson.com/projects/192085",
+"type": "khac",
+"published": null
+},
+{
+"title": "The History and Military Significance of Whittier",
+"publisher": "Alaska Railroad historical archive",
+"url": "https://www.alaskarails.org/historical2/whittier-history/index.html",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C33",
+"verdict": "sai",
+"correct_value": "The Buckner Building was completed in 1952 or 1953 and vacated in 1960, meaning approximately seven to eight years of use after completion.",
+"note": "Alaska DEC documents that the building was vacated in 1960, contradicting the description of use for little more than a decade after its completion.",
+"sources": [
+{
+"title": "The Buckner Building",
+"publisher": "City of Whittier / Alaska Department of Environmental Conservation",
+"url": "https://www.whittieralaska.gov/media/2071",
+"type": "goc",
+"published": null
+},
+{
+"title": "Site Report: Buckner Building (Whittier)",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://dec.alaska.gov/Applications/SPAR/PublicMVC/CSP/SiteReport/4151",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Alaska District and the Corps of Engineers history",
+"publisher": "U.S. Army Corps of Engineers, Alaska District",
+"url": "https://www.poa.usace.army.mil/Portals/34/docs/AKdistrict/jacobs_history_3.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": "September 1960: Port of Whittier placed in inactive status; caretaker status began at the end of 1960. Military personnel numbers continued declining through at least 1963.",
+"note": "A U.S. Army historical report confirms caretaker status at the end of 1960, while a 1963 Congressional Record documents the continuing reduction in stationed personnel.",
+"sources": [
+{
+"title": "Fort Richardson Cold War Historic Context",
+"publisher": "U.S. Army",
+"url": "https://home.army.mil/alaska/application/files/6315/0912/6115/Fort_Richardson_Cold_War.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Congressional Record, May 2, 1963",
+"publisher": "United States Congress",
+"url": "https://www.congress.gov/88/crecb/1963/05/02/GPO-CRECB-1963-pt6-6.pdf",
+"type": "goc",
+"published": "1963-05-02"
+},
+{
+"title": "The History and Military Significance of Whittier",
+"publisher": "Alaska Railroad historical archive",
+"url": "https://www.alaskarails.org/historical2/whittier-history/index.html",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C35",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Official environmental assessments confirm missing or damaged windows and suspected asbestos-containing materials, but the searched reliable sources do not establish that the city fenced off the building.",
+"sources": [
+{
+"title": "Property Assessment and Cleanup Plan",
+"publisher": "City of Whittier / Alaska Department of Environmental Conservation",
+"url": "https://www.whittieralaska.gov/media/2066",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Buckner Building",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://www.whittieralaska.gov/media/2071",
+"type": "goc",
+"published": "2016-01-27"
+},
+{
+"title": "Site Report: Buckner Building (Whittier)",
+"publisher": "Alaska Department of Environmental Conservation",
+"url": "https://dec.alaska.gov/Applications/SPAR/PublicMVC/CSP/SiteReport/4151",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C41",
+"verdict": "dung",
+"correct_value": "DOT&PF historical average January maximum: 31.2°F (1942–2011); NOAA 1991–2020 January daily maximum normal: 32.6°F.",
+"note": "Both official datasets support the claim that average January daytime highs are approximately freezing, although the NOAA value is 32.6°F rather than 33°F exactly.",
+"sources": [
+{
+"title": "Weather, Whittier Tunnel",
+"publisher": "Alaska Department of Transportation & Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Summary of Monthly Normals, 1991–2020, Station USC00509829",
+"publisher": "NOAA National Centers for Environmental Information",
+"url": "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL&dataset=normals-monthly-1991-2020&format=pdf&stations=USC00509829",
+"type": "goc",
+"published": null
+}
+]
+}
+]

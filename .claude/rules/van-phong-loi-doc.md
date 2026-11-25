@@ -24,9 +24,19 @@ Lời đọc viết **tiếng Anh**, chữ trên hình tiếng Anh. Hướng d�
 
 ## Mở và kết
 
-- **Câu đầu là câu hỏi hoặc tình huống của tập**, vào thẳng trong 10 giây đầu. Không chào, không giới thiệu kênh, không "hey guys", "welcome back". Định dạng hoạt hình: Wob ở bàn cầm một kỷ vật lạ của nơi đó ("This is a fish."), outro gọi lại kỷ vật đó; kết đúng ở chữ cuối.
+- **Câu đầu là câu hỏi hoặc tình huống của tập**, vào thẳng trong 10 giây đầu. Không chào, không giới thiệu kênh, không "hey guys", "welcome back". Định dạng hoạt hình: Wob ở bàn cầm một kỷ vật lạ của nơi đó ("This is a fish."), outro gọi lại kỷ vật đó. Sau câu hỏi bình luận là **đuôi tập** 15–20 giây (cảnh `duoi`: cất kỷ vật lên kệ, nhìn lại tập trước, nhá tập sau; skill `mo-ket`, chốt 24/11/2026, thay luật "kết đúng ở chữ cuối").
 - Không lặp nguyên văn câu mở, câu kết của các tập trước (`validate_script.py` so với mọi `projects/*/script.json`).
-- Cảnh cuối: đóng vòng "Would Wob move here?", nêu phán quyết (nhãn con dấu + 1–2 câu lý do), một câu hỏi kéo bình luận ("Would you last a winter here?"). Câu hỏi đổi theo từng tập.
+- Cảnh cuối: đóng vòng "Would Wob move here?", nêu phán quyết (nhãn con dấu + 1–2 câu lý do), một câu hỏi kéo bình luận ("Would you last a winter here?"). Câu hỏi đổi theo từng tập. Rồi tới cảnh `duoi`: 25–50 từ, không con số, không "subscribe", không "see you next time"; câu nhá tập sau khác nhau mỗi tập.
+
+## Văn kiểu AI (thêm 24/11/2026)
+
+Người xem bắt câu chữ khuôn của AI nhiều hơn bắt giọng TTS: bình luận 887 thích dưới video 17,3 triệu lượt của một kênh biển sâu chỉ ra đúng các câu "where light is survival, survival is defense" (căn cứ: [docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md](../../docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md)). Bị nghi "AI script" thì độ tin của cả tập sụt, và kênh này sống nhờ độ tin.
+
+- Câu đối xứng "It's not X, it's Y", "not just X but Y": tối đa một lần mỗi tập. Câu đảo vòng ("where X is Y, Y is Z"): không dùng.
+- Cụm sáo: "here's why", "here's the kicker", "delve", "tapestry", "a testament to", "in a world where", "let that sink in", "buckle up", "the answer might surprise you", "nothing about X is normal", "shouldn't exist", "defies logic". "Here's the thing" ở mục câu chuyển trên tính chung nhóm "here's…", tối đa một lần.
+- Tính từ giật gân ("terrifying", "disturbing", "bizarre", "nightmare", "creepiest"…) tối đa 3 lần mỗi tập; thay bằng chi tiết cụ thể làm người xem tự thấy rợn.
+- Nhịp câu: không để 4 câu liền nhau dài gần bằng nhau; xen câu rất ngắn. Câu đều thì giọng máy đọc càng đều, càng lộ.
+- `validate_script.py` (`check_van_ai`) cảnh báo các mẫu trên; đây là cảnh báo, dùng có chủ ý thì ghi lý do vào `nhat-ky.md`.
 
 ## Từ cấm và cách nói dè dặt
 

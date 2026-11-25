@@ -18,7 +18,7 @@ projects/<tập>/
       _chung/             (font, gsap: chép từ templates/hoat-hinh/_chung)
       canh.js             (agent viết: biên đạo đoạn này)
       sfx.json            (agent ghi: sfx của đoạn, mốc tính từ đầu đoạn)
-      out/doan.mp4        (clip câm 1920×1080, 30 fps, đúng độ dài đoạn)
+      out/doan.mp4        (clip câm đúng khung xuất: 2560×1440 từ tập 4, 1920×1080 tập 1–3; 30 fps, đúng độ dài đoạn)
       out/frames/*.png    (3–6 khung agent đã tự xem)
     timeline.json, out/render-raw.mp4, out/video.mp4, out/video-no-music.mp4, out/frames/   (ghep_doan.py sinh)
 ```
@@ -28,6 +28,7 @@ projects/<tập>/
 ```json
 {
   "fps": 30, "rong": 1920, "cao": 1080,
+  "xuat": {"w": 2560, "h": 1440},
   "thoi_luong": 60.3,
   "loi": [ {"scene": 1, "bat_dau": 0.4} ],
   "nhac": [ {"src": "music/frost-waltz.mp3", "bat_dau": 12.6, "ket_thuc": 53.7, "mood": "hoi-uc"} ],
@@ -48,6 +49,7 @@ projects/<tập>/
 }
 ```
 
+- `rong`, `cao` là **hệ toạ độ thiết kế**, luôn 1920×1080 (mọi `canh.js`, lib, vùng an toàn, cỡ chữ tính theo hệ này). `xuat` là **khung xuất** (cỡ MP4 thật): tập 4 trở đi ghi `{"w": 2560, "h": 1440}` (chốt 26/11/2026); thiếu `xuat` thì xuất 1920×1080 như tập 1–3 và `chuan_bi_doan.py` in CẢNH BÁO. Đây là chỗ DUY NHẤT khai độ phân giải: `chuan_bi_doan.py`, `ghep_doan.py`, `to_khung.py`, `kiem_ky_thuat.py`, `dung_clip_doc.py` đều đọc qua `.claude/skills/dung-hoat-hinh/scripts/khung_xuat.py`. Xem mục 4b.
 - Mọi mốc trong `phan-canh.json` là **giây tuyệt đối** tính từ đầu video. Các đoạn nối liền nhau: `ket_thuc` đoạn trước = `bat_dau` đoạn sau; đoạn đầu bắt đầu 0, đoạn cuối kết thúc ở `thoi_luong`.
 - `loi[]`: mỗi file giọng `audio/scene-N.mp3` đặt ở mốc tuyệt đối nào. Một câu thoại có thể vắt qua hai đoạn.
 - `nhip[]`: biên đạo bằng chữ cho agent dựng (mốc tuyệt đối). Agent được thêm chi tiết, không được đổi lời, không thêm chữ, số ngoài lời.
@@ -59,7 +61,8 @@ projects/<tập>/
 
 ```js
 window.HH_DATA = {
-  id: "d03", phong_cach: "ve-tay", fps: 30, rong: 1920, cao: 1080,
+  id: "d03", phong_cach: "ve-tay", fps: 30, rong: 1920, cao: 1080,   // hệ thiết kế
+  xuat: { rong: 2560, cao: 1440, ti_le: 1.333333333 },            // khung xuất (1920, 1080, 1 khi không có xuat)
   thoi_luong: 15.2,               // giây, = ket_thuc - bat_dau
   bat_dau_tuyet_doi: 27.0,
   lop, boi_canh, trang_phuc, vao, ra, chu_tren_do_vat,
@@ -74,7 +77,7 @@ Mọi mốc trong `du-lieu.js` đã đổi sang **giây tính từ đầu đoạ
 
 ## 4. Composition của một đoạn
 
-- `index.html` của khung phong cách: root `<div id="root" data-composition-id="doan" data-start="0" data-duration="<thoi_luong>" data-width="1920" data-height="1080">`, nạp `_chung/gsap.min.js`, font Fraunces từ `_chung/fonts/`, `lib/*.js`, `du-lieu.js`, `canh.js`, rồi đăng ký `window.__timelines["doan"]`.
+- `index.html` của khung phong cách: root `<div id="root" data-composition-id="doan" data-start="0" data-duration="<thoi_luong>" data-width="1920" data-height="1080">` (khung gốc viết 1920×1080; `chuan_bi_doan.py` ghi lại theo khung xuất, mục 4b), nạp `_chung/gsap.min.js`, font Fraunces từ `_chung/fonts/`, `lib/*.js`, `du-lieu.js`, `canh.js`, rồi đăng ký `window.__timelines["doan"]`.
 - **Không có `<audio>`** trong đoạn: clip render câm. Giọng, sfx, nhạc do `ghep_doan.py` đặt.
 - Tất định: tua tới khung nào ra đúng khung đó. Không `Math.random` không seed, không `setTimeout`, không `requestAnimationFrame` tự chạy, không `repeat: -1`.
 - Khẩu hình chỉ dùng khi `lop = "hien-tai"` (Wob ở bàn đang kể). Ở hồi ức Wob không mấp máy theo lời.
@@ -82,6 +85,19 @@ Mọi mốc trong `du-lieu.js` đã đổi sang **giây tính từ đầu đoạ
   - HyperFrames gộp các file JS vào HTML, nên **chuỗi `</script>` ở bất kỳ đâu trong file JS (kể cả chú thích) đóng thẻ giữa chừng** → lỗi "X is not defined" hàng loạt. Không viết chuỗi đó trong `lib/`, `canh.js`.
   - Lint tĩnh đòi thấy chữ `window.__timelines` ngay trong HTML: đăng ký timeline ở **script inline** của `index.html`. HyperFrames có thể đổi thứ tự chạy script: đọc dữ liệu, dựng cảnh sau `DOMContentLoaded`.
   - `chuan_bi_doan.py` không chép lại khung đã có trong đoạn: sửa `khung/` của phong cách thì chạy lại với `--khung-moi`.
+
+## 4b. Khung xuất 2560×1440 (từ tập 4, chốt 26/11/2026)
+
+Vì sao: YouTube cấp VP9 cho video ≥ 1440p, nét mực mảnh và hạt giấy đỡ vỡ khối hơn bản 1080p. **Không upscale bằng ffmpeg**: hình được Chrome vẽ lại ở 2560×1440.
+
+Cách làm (tự động, thợ dựng không phải làm gì):
+- `chuan_bi_doan.py` đọc `xuat` rồi ghi vào `index.html` của đoạn: `data-width="2560" data-height="1440"` cho root, viewport, `html, body` 2560×1440, và khối `<style id="hh-xuat">` giữ `#root` ở 1920×1080 rồi `transform: scale(1.333333333)` gốc `0 0`. Sân khấu vẫn là hệ thiết kế 1920×1080 nên **`canh.js` cũ và mới viết toạ độ như cũ**; SVG, chữ, CSS 3D được Chrome rasterize lại ở tỉ lệ ×4/3 (nét sắc thật). Không có `xuat` → khối `hh-xuat` bị gỡ, khung y như tập 1–3.
+- Lib vẽ bằng bộ đệm điểm ảnh đọc `HH_DATA.xuat.ti_le` (K): diorama 3D (`dio-3d.js`) đặt bộ đệm WebGL và mọi render target BW×BH = 2560×1440, viền mực và mờ ống kính tự nhân theo `res.y / 1080`, texture con rối ×K. `DIO.doChu` chia số đo cho K nên `kiem_doan.py --do-chu` vẫn báo px thiết kế.
+- Texture nền cố ý mềm (giấy `ve-tay` dựng 960×540, hạt giấy `cat-giay` ô 320 px) giữ nguyên ở mọi khung để màu, chất giấy giống hệt giữa hai độ phân giải.
+- Thợ dựng viết canvas, WebGL riêng trong `canh.js` thì phải nhân bộ đệm theo `data.xuat.ti_le` (CSS giữ cỡ thiết kế). Không dùng `window.innerWidth`, `devicePixelRatio`, `getBoundingClientRect()` để suy cỡ khung (ở 2K số đo màn hình bị nhân K); đo vị trí theo hệ thiết kế (SVG `getBBox`, toạ độ tự tính).
+- `ghep_doan.py` chặn clip sai cỡ (không tự phóng), nền giấy thay đoạn thiếu, logo góc (cỡ ×K, lề 96/54 × K) theo khung xuất. `to_khung.py` thu nhỏ về ô 480×270 nên dùng chung cho mọi khung.
+- Đổi khung xuất giữa chừng một tập: sửa `xuat` rồi chạy lại `chuan_bi_doan.py --tat-ca` và render lại **mọi** đoạn (ghép báo LỖI nếu còn clip cỡ cũ).
+- Thử 26/11/2026 (dựng lại d02, d14, d21 của Whittier và d01 3D của Oymyakon ở cả hai khung): bố cục trùng khít (lệch 0 px khi thu bản 2K về 1080), bản 1080p dựng lại khớp clip đã giao (sai khác trung bình ≤ 1,5/255). Render 2K chậm hơn ×1,25 (ve-tay) đến ×1,6 (diorama 3D), clip nặng hơn ×1,1 (cat-giay) đến ×1,6 (diorama); ghép ×1,7 thời gian. Cả tập 10 phút: render đoạn ≈ 80 phút thay ≈ 60, ổ D ≈ 7 GB thay ≈ 6 GB. Số từng phong cách ở README của phong cách.
 
 ## 5. Nối giữa hai đoạn (`vao`, `ra`)
 
@@ -96,7 +112,7 @@ Khung nối `giay` phải đúng màu `#EFE3C8` phẳng để hai phong cách kh
 
 ## 6. Đầu ra bắt buộc của một đoạn
 
-1. `out/doan.mp4`: 1920×1080, 30 fps, H.264, **câm**, độ dài = `thoi_luong` (lệch ≤ 1 khung).
+1. `out/doan.mp4`: đúng khung xuất (2560×1440 khi có `xuat`, không thì 1920×1080), 30 fps, H.264, **câm**, độ dài = `thoi_luong` (lệch ≤ 1 khung).
 2. `sfx.json`: `[{"ten": "bonk", "tai": 1.25, "am_luong": 0.8}]`. `ten` là tên file trong `sfx/` của repo (không `.wav`), `tai` tính từ đầu đoạn. Chỉ dùng sfx có trong `sfx/GIAY-PHEP.md`.
 3. `out/frames/`: 3–6 PNG trích từ `doan.mp4`, đã tự xem bằng mắt.
 4. `npx --yes hyperframes@0.8.85 check` 0 lỗi.
@@ -104,6 +120,6 @@ Khung nối `giay` phải đúng màu `#EFE3C8` phẳng để hai phong cách kh
 ## 7. Luật chung mọi phong cách
 
 - Wob dựng từ toạ độ gốc `templates/_shared/wob/nguon/tao_wob.py`: cùng màu, dáng, lục địa, ba lô, giày đỏ, nét mực. Phong cách chỉ đổi **cách vẽ** (giấy cắt, nét sôi, tấm giấy 3D), không đổi **tạo hình**.
-- Bảng màu "Mực & giấy" (`templates/_shared/frame.md`) + trắng tuyết, xanh băng; font Fraunces; chữ chỉ nằm trên đồ vật, ≥ 40px ở khung cuối.
+- Bảng màu "Mực & giấy" (`templates/_shared/frame.md`) + trắng tuyết, xanh băng; font Fraunces; chữ chỉ nằm trên đồ vật, ≥ 40px theo hệ thiết kế 1920×1080 (≈ 53 px ở khung xuất 2560×1440).
 - Không ảnh chụp, không Commons, không ảnh AI trừ khi `phan-canh.json` chỉ định tài nguyên có trong `assets/manifest.json`. Không vẽ mặt người thật; người dân chỉ vẽ dạng chung, tôn trọng.
 - `trang_phuc` của đoạn là luật liên tục: đoạn sau phải khớp đồ Wob mặc, đồ Wob cầm ở cuối đoạn trước.

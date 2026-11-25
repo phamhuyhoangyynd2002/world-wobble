@@ -1,0 +1,234 @@
+[
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "National Geographic describes the island as roughly two soccer fields in size, while Colombia's IGAC documents an area of 8,340 square metres, supporting the approximate one-hectare description.",
+"sources": [
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+},
+{
+"title": "Santa Cruz del Islote, Bolívar",
+"publisher": "Instituto Geográfico Agustín Codazzi (IGAC)",
+"url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C02",
+"verdict": "mau-thuan",
+"correct_value": "There is no officially verified world ranking. Population estimates range from approximately 492 to 1,247 inhabitants, depending on the source and counting method.",
+"note": "Media frequently call it one of the world's most densely populated islands, but EL PAÍS reports that INVEMAR acknowledges the absence of official statistics establishing that distinction, and residents dispute the claim.",
+"sources": [
+{
+"title": "Santa Cruz del Islote: Protecting the world's most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "Santa Cruz del Islote, la isla más densamente poblada del mundo busca cómo proteger su ecosistema marítimo frente al turismo masivo",
+"publisher": "EL PAÍS",
+"url": "https://elpais.com/planeta-futuro/2024-01-12/la-isla-mas-densamente-poblada-del-mundo-busca-como-proteger-su-ecosistema-maritimo-frente-al-turismo-masivo.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "Santa Cruz del Islote, Bolívar",
+"publisher": "Instituto Geográfico Agustín Codazzi (IGAC)",
+"url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Discover Santa Cruz Island",
+"publisher": "Colombia Travel",
+"url": "https://colombia.travel/en/node/4010",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": null,
+"note": "Colombia's official tourism website locates Santa Cruz between Tintipán and Múcura and documents Tintipán's mangroves, wetlands and beaches, while the national park management plan confirms tourism and beaches around both neighbouring islands.",
+"sources": [
+{
+"title": "Conoce El islote de Santa Cruz",
+"publisher": "Colombia Travel",
+"url": "https://colombia.travel/en/node/4010",
+"type": "goc",
+"published": null
+},
+{
+"title": "Discover Unknown Paradise Beaches",
+"publisher": "Colombia Travel",
+"url": "https://colombia.travel/en/encanto/paradise-beaches-in-colombia-hidden-treasures-waiting-be-discovered",
+"type": "goc",
+"published": null
+},
+{
+"title": "Plan de manejo del Parque Nacional Natural Los Corales del Rosario y de San Bernardo 2019-2024",
+"publisher": "Parques Nacionales Naturales de Colombia",
+"url": "https://old.parquesnacionales.gov.co/portal/wp-content/uploads/2019/06/PM-PNN-CRSB_21_jun_2019_pm.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": null,
+"note": "Radio Nacional de Colombia explicitly reports the local origin story that fishermen discovered the absence of mosquitoes while spending nights on the island and subsequently decided to settle there; this is an oral tradition rather than independently established historical fact.",
+"sources": [
+{
+"title": "Descubre Santa Cruz del Islote: la isla más poblada y su lucha por un futuro sostenible",
+"publisher": "Radio Nacional de Colombia",
+"url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro",
+"type": "bao",
+"published": null
+},
+{
+"title": "Santa Cruz del Islote, Bolívar",
+"publisher": "Instituto Geográfico Agustín Codazzi (IGAC)",
+"url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C05",
+"verdict": "mau-thuan",
+"correct_value": "Approximately 2–3 hours, depending on the operator, route and sea conditions.",
+"note": "National Geographic describes a two-hour boat journey, whereas EL PAÍS reports approximately three hours by speedboat, so the exact duration is not consistent across sources.",
+"sources": [
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+},
+{
+"title": "Santa Cruz del Islote: Protecting the world's most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "Faq's – Rutas de Mar",
+"publisher": "Rutas de Mar",
+"url": "https://rutasdemaralasislas.com/faqs/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "sai",
+"correct_value": "Approximately 45 minutes by lancha from Tolú.",
+"note": "Colombia's official tourism website and local island information both give approximately 45 minutes rather than one hour.",
+"sources": [
+{
+"title": "Conoce El islote de Santa Cruz",
+"publisher": "Colombia Travel",
+"url": "https://colombia.travel/en/node/4010",
+"type": "goc",
+"published": null
+},
+{
+"title": "Informacion General | Santa Cruz Del Islot",
+"publisher": "Santa Cruz del Islote community website",
+"url": "https://santacruzdelislote.wixsite.com/santa-cruz-del-islot/about-3",
+"type": "khac",
+"published": null
+},
+{
+"title": "Santiago de Tolú to Santa Cruz del Islote",
+"publisher": "Rome2Rio",
+"url": "https://www.rome2rio.com/s/Santiago-de-Tol%C3%BA/Santa-Cruz-del-Islote",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The Guardian confirms 97 houses, a school, a restaurant and a square with a cross, while other sources support the absence of cars and roads, but the claim that most houses are one-storey could not be reliably verified.",
+"sources": [
+{
+"title": "The magical realism of Santa Cruz del Islote - photo essay",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
+"type": "bao",
+"published": "2018-02-02"
+},
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+},
+{
+"title": "5 Things You Didn't Know About Santa Cruz del Islote, Colombia",
+"publisher": "Lindblad Expeditions",
+"url": "https://world.expeditions.com/en/expedition-stories/stories/5-things-you-didnt-know-about-santa-cruz-del-islote",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C08",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Sources support settlement around 1860–1870 and the fishermen's association with the island, but the specific claim that fishermen from both Cartagena and Tolú used it as a storm shelter and resting place approximately 150 years ago could not be fully verified in a sufficiently reliable independent source.",
+"sources": [
+{
+"title": "Santa Cruz del Islote, Bolívar",
+"publisher": "Instituto Geográfico Agustín Codazzi (IGAC)",
+"url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo",
+"publisher": "Prensa Libre (BBC Mundo archive)",
+"url": "https://www.prensalibre.com/hemeroteca/bbc-news-mundo-hemeroteca/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Life on the world's most crowded island",
+"publisher": "Nine",
+"url": "https://www.nine.com.au/travel/international/life-on-the-worlds-most-crowded-island-20180326-p5nafj.html",
+"type": "bao",
+"published": "2018-03-26"
+}
+]
+}
+]
+
+Log in for personalized, step-by-step guidance.
+
+Log in
+Sign up for free
+
+ChatGPT is AI and can make mistakes.

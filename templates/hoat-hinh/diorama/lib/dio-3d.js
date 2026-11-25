@@ -171,7 +171,10 @@
       o = o || {};
       var preset = ANH_SANG[o.anhSang || "trua-dong"] || ANH_SANG["trua-dong"];
       var cfg = Object.assign({ suong: [14, 95], muc: 4.6, mucTan: [45, 120], fov: 34, vienToi: 0.35, nen: "tuyet", mua: "dong", seed: 7, kinhTat: 0, bong: { tam: [0, 0], rong: 35, sau: 20 } }, preset, o);
-      var W = api.data.rong || 1920, H = api.data.cao || 1080, FPS = api.fps;
+      var W = api.data.rong || 1920, H = api.data.cao || 1080, FPS = api.fps;   // hệ toạ độ thiết kế (CSS px)
+      // Khung xuất (HOP-DONG mục 4b): sân khấu được phóng ×K bằng CSS transform, nên bộ đệm vẽ WebGL phải lớn ×K
+      // (BW×BH = đúng cỡ MP4, ví dụ 2560×1440) để không bị kéo giãn mờ. K = 1 ở khung 1920×1080 (tập 1–3).
+      var K = (api.data.xuat && +api.data.xuat.ti_le) || 1, BW = Math.round(W * K), BH = Math.round(H * K);
       var V3 = function (x, y, z) { return new THREE.Vector3(x, y, z); };
       var rngGoc = api.rng(cfg.seed);
 
@@ -182,7 +185,8 @@
       var stage = api.div("dio-ovl dio-3d", api.root, "z-index:1;");
       d3.stage = stage;
       var renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true });
-      renderer.setPixelRatio(1); renderer.setSize(W, H);
+      renderer.setPixelRatio(1); renderer.setSize(BW, BH, false);   // bộ đệm đúng BW×BH (không qua pixelRatio: floor(1920×4/3) có thể ra 2559)
+      renderer.domElement.style.width = W + "px"; renderer.domElement.style.height = H + "px";
       renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap; renderer.shadowMap.autoUpdate = false;
       renderer.toneMapping = THREE.NeutralToneMapping;
       stage.appendChild(renderer.domElement);
@@ -859,7 +863,7 @@
       var kho = api.div("dio-3d-kho", api.root, "position:absolute;left:0;top:0;width:0;height:0;opacity:0;pointer-events:none;");
       kho.setAttribute("aria-hidden", "true"); kho.setAttribute("data-layout-allow-overflow", "");
       var VUNG = { x0: -300, x1: 300, y0: -560, y1: 40 };   // vùng vẽ trong hệ px của con rối (gốc = gót chân, s = 1)
-      var K_TEX = 2.4;                                         // độ phân giải canvas (px canvas / px con rối)
+      var K_TEX = 2.4 * K;                                     // độ phân giải canvas (px canvas / px con rối), ×K ở khung xuất lớn
       var p2Cache = {};
       function idUrl(v) { var m = /#([^"')\s]+)/.exec(v || ""); return m ? m[1] : null; }
       function hinh(el) {
@@ -1198,9 +1202,9 @@
       d3.camLuc = function (t) { return CAM ? camState(t) : null; };
 
       // ================================================================ hậu kỳ: viền mực (thế giới) → mờ ống kính → tone map
-      var mkRT = function (type, samples) { var rt = new THREE.WebGLRenderTarget(W, H, { type: type, samples: samples || 0 }); rt.depthTexture = new THREE.DepthTexture(W, H); return rt; };
+      var mkRT = function (type, samples) { var rt = new THREE.WebGLRenderTarget(BW, BH, { type: type, samples: samples || 0 }); rt.depthTexture = new THREE.DepthTexture(BW, BH); return rt; };
       var rtMain = mkRT(THREE.HalfFloatType, 4), rtNorm = mkRT(THREE.UnsignedByteType, 0);
-      var rtInk = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType });
+      var rtInk = new THREE.WebGLRenderTarget(BW, BH, { type: THREE.HalfFloatType });
       var normalMat = new THREE.MeshNormalMaterial();
       var khoiNormMat = new THREE.ShaderMaterial({   // khói: pháp tuyến phẳng + đánh dấu alpha 0,5 → chỉ viền ngoài của cả cột
         vertexShader: "void main(){ gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.); }",
@@ -1211,7 +1215,7 @@
       var VS = "varying vec2 vUv; void main(){ vUv = uv; gl_Position = vec4(position.xy, 0., 1.); }";
       var inkMat = new THREE.ShaderMaterial({
         uniforms: { tColor: { value: rtMain.texture }, tDM: { value: rtMain.depthTexture }, tN: { value: rtNorm.texture }, tDW: { value: rtNorm.depthTexture },
-          res: { value: new THREE.Vector2(W, H) }, cNear: { value: 0.1 }, cFar: { value: 400 }, inkW: { value: cfg.muc },
+          res: { value: new THREE.Vector2(BW, BH) }, cNear: { value: 0.1 }, cFar: { value: 400 }, inkW: { value: cfg.muc },
           tan: { value: new THREE.Vector2(cfg.mucTan[0], cfg.mucTan[1]) }, ink: { value: new THREE.Color(C.INK).convertSRGBToLinear() } },
         vertexShader: VS,
         fragmentShader: [
@@ -1241,7 +1245,7 @@
           "}"].join("\n")
       });
       var postMat = new THREE.ShaderMaterial({
-        uniforms: { tIn: { value: rtInk.texture }, tDM: { value: rtMain.depthTexture }, res: { value: new THREE.Vector2(W, H) }, cNear: { value: 0.1 }, cFar: { value: 400 },
+        uniforms: { tIn: { value: rtInk.texture }, tDM: { value: rtMain.depthTexture }, res: { value: new THREE.Vector2(BW, BH) }, cNear: { value: 0.1 }, cFar: { value: 400 },
           focus: { value: 10 }, cInf: { value: 0 }, vig: { value: cfg.vienToi } },
         vertexShader: VS,
         fragmentShader: [

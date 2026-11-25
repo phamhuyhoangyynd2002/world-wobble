@@ -1,0 +1,192 @@
+[
+{
+"id": "C33",
+"verdict": "dung",
+"correct_value": null,
+"note": "ABC News quotes local mine rescuer Andy Shiels estimating two million 20–30-metre-deep shafts, but this is an estimate rather than a verified inventory or official count.",
+"sources": [
+{
+"title": "Opals are the last thing these Coober Pedy locals look for when they go underground",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2022-01-03/coober-pedy-mine-rescue-squad-searches-for-life/100730594",
+"type": "bao",
+"published": "2022-01-03"
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": null,
+"note": "ABC News reports warning notices on fences and at access points to the opal fields, supporting the presence of widely distributed warnings.",
+"sources": [
+{
+"title": "Coober Pedy mine security is adequate: Mayor",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2006-08-15/coober-pedy-mine-security-is-adequate-mayor/1239194",
+"type": "bao",
+"published": "2006-08-15"
+},
+{
+"title": "Opal Fields",
+"publisher": "Coober Pedy Visitor Information",
+"url": "https://www.cooberpedy.com/opal-fields/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C35",
+"verdict": "dung",
+"correct_value": null,
+"note": "SafeWork SA confirms that a hobbyist using a specialised black-light torch fell 25 metres into a disused shaft near Coober Pedy in January 2024.",
+"sources": [
+{
+"title": "Mind your step in opal fields",
+"publisher": "SafeWork SA",
+"url": "https://safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+"type": "goc",
+"published": "2024-02-07"
+},
+{
+"title": "Man rescued from mine after becoming trapped in shaft at Coober Pedy opal field",
+"publisher": "ABC News",
+"url": "https://www.abc.net.au/news/2024-01-14/man-rescued-from-coober-pedy-opal-mine-after-becoming-trapped/103318468",
+"type": "bao",
+"published": "2024-01-14"
+}
+]
+},
+{
+"id": "C36",
+"verdict": "sai",
+"correct_value": "SafeWork SA warns about unmarked, unprotected and concealed mine-shaft openings and recommends notifying someone before entering a minefield and planning emergency communication. The explicit advice not to enter the opal fields at night appears on Coober Pedy visitor information, not in the cited SafeWork SA alert.",
+"note": "The SafeWork SA incident alert does not explicitly advise against walking in the fields at night or use the stated watch-your-step warning.",
+"sources": [
+{
+"title": "Mind your step in opal fields",
+"publisher": "SafeWork SA",
+"url": "https://safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+"type": "goc",
+"published": "2024-02-07"
+},
+{
+"title": "Opal Fields",
+"publisher": "Coober Pedy Visitor Information",
+"url": "https://www.cooberpedy.com/opal-fields/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C37",
+"verdict": "dung",
+"correct_value": "Approximately 25 km north of Coober Pedy.",
+"note": "Both the District Council and South Australian National Parks and Wildlife Service give the distance as approximately 25 kilometres north of Coober Pedy.",
+"sources": [
+{
+"title": "Kanku-Breakaways Conservation Park",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/kanku-breakaways-conservation-park",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kanku-Breakaways Conservation Park",
+"publisher": "National Parks and Wildlife Service South Australia",
+"url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C38",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official park information confirms the traditional ownership and registered Aboriginal-site status, while the South Australian Parks Service publishes the visitor protocol against touching or removing anything.",
+"sources": [
+{
+"title": "Kanku-Breakaways Conservation Park",
+"publisher": "National Parks and Wildlife Service South Australia",
+"url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kanku-Breakaways Conservation Park",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/kanku-breakaways-conservation-park",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C39",
+"verdict": "dung",
+"correct_value": null,
+"note": "South Australian National Parks confirms AMYAC ownership and a co-management arrangement established in 2013 involving the Aboriginal corporation, the District Council and the state government.",
+"sources": [
+{
+"title": "Kanku-Breakaways Conservation Park",
+"publisher": "National Parks and Wildlife Service South Australia",
+"url": "https://www.parks.sa.gov.au/parks/kanku-breakaways-conservation-park",
+"type": "goc",
+"published": null
+},
+{
+"title": "Park co-management",
+"publisher": "Department for Environment and Water, South Australia",
+"url": "https://www.environment.sa.gov.au/about-us/boards-and-committees/park-co-management",
+"type": "goc",
+"published": null
+},
+{
+"title": "Breakaways Conservation Park Co-management Board Annual Report 2015–2016",
+"publisher": "Department for Environment, Water and Natural Resources, South Australia",
+"url": "https://cdn.environment.sa.gov.au/environment/docs/breakaways-co-management-board-annual-report-2015-16-rep.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C40",
+"verdict": "mau-thuan",
+"correct_value": "The Federal Court made a consent determination on 11 May 2011 recognising non-exclusive native title rights and interests. The recognised claim area is commonly reported as 78,672 square kilometres, and Coober Pedy lies within its external boundary; however, native title exists only in parts of the determination area because of extinguishment and other exclusions.",
+"note": "The date, court and general area are supported, but sources differ in how they describe the 78,672-square-kilometre figure, which should not be presented as uninterrupted native title over every part of that area.",
+"sources": [
+{
+"title": "Lennon v South Australia [2011] FCA 474",
+"publisher": "National Native Title Tribunal",
+"url": "https://www.nntt.gov.au/News-and-Publications/hotspots/Documents/Hot%20Spots%2034/Lennon%20v%20South%20Australia%20%5B2011%5D%20FCA%20474.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Antakirinja Matu – Yankunytjatjara Aboriginal Corporation RNTBC",
+"publisher": "SA Native Title",
+"url": "https://www.nativetitlesa.org/pbcs/antakirinja-matu-yankunytjatjara-aboriginal-corporation-rntbc/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Native Title in the News – May 2011",
+"publisher": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+"url": "https://aiatsis.gov.au/sites/default/files/research_pub/ntnmay11_2.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "District Council of Coober Pedy 2018-04687",
+"publisher": "South Australian Ombudsman",
+"url": "https://ombudsman.sa.gov.au/publication-documents/investigation-reports/2021/District-Council-of-Coober-Pedy-2018-04687.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]

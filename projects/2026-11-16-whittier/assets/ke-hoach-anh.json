@@ -1,0 +1,150 @@
+{
+  "nguon_ngoai": "chatgpt-web",
+  "luot_ngoai": 0,
+  "khi_thieu": "ha-hang",
+  "anh": [
+    {
+      "id": "ai-tunnel-portal",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        15
+      ],
+      "canh": "a concrete tunnel portal cut into a steep rocky mountainside, a single traffic lane with railway tracks set into the road surface, a traffic signal and a lowered barrier, snowy slopes, night",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-begich-towers",
+      "hang": "chinh",
+      "diem": 8,
+      "scenes": [
+        2,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15
+      ],
+      "canh": "a single fourteen-storey pale cream concrete apartment block with rows of small square windows, three joined sections, at the foot of steep forested mountains with waterfalls, deep snow, low clouds, a small harbour in front",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-summer-sound",
+      "hang": "chinh",
+      "diem": 7,
+      "scenes": [
+        13,
+        14,
+        15
+      ],
+      "canh": "a calm green fjord in summer, lush green mountains, a white-blue tidewater glacier meeting the sea in the distance, a few small boats, bright sky",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-buckner-ruin",
+      "hang": "chinh",
+      "diem": 6,
+      "scenes": [
+        9
+      ],
+      "canh": "a long abandoned six-storey concrete building with broken windows, moss and water stains, snow on the ground, a fence in front, steep mountains behind",
+      "trang_thai": "ha-hang",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-bear-valley-queue",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        3,
+        4
+      ],
+      "canh": "several marked waiting lanes on a road in front of a forest of spruce and snowy mountains, a small booth, grey morning light, no cars",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-tunnel-inside",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        4,
+        6
+      ],
+      "canh": "inside a long rough rock tunnel lit by a line of warm yellow lamps, one concrete lane with rails set into it, empty",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-passage-canal-fog",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        5,
+        6
+      ],
+      "canh": "a narrow grey-green fjord with steep forested cliffs and waterfalls, low clouds touching the water, winter, no buildings",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-whittier-snow",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        10,
+        11
+      ],
+      "canh": "a small road at the foot of steep mountains buried in deep snow during heavy snowfall, low grey sky, grey water in the distance, no people",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-harbor-dusk",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        12
+      ],
+      "canh": "a small harbour in a narrow fjord at dusk, calm water, a few wooden pilings, dark steep mountains, muted grey-blue tones, no people",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-portage-pass",
+      "hang": "phu",
+      "diem": 3,
+      "scenes": [
+        5,
+        14
+      ],
+      "canh": "a snowy mountain pass between two peaks, a small glacier in the distance, a faint trail crossing the pass, no people",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-begich-hallway",
+      "hang": "phu",
+      "diem": 3,
+      "scenes": [
+        8,
+        9,
+        11
+      ],
+      "canh": "a long old apartment corridor with pale cream painted concrete block walls, fluorescent ceiling lights, a corkboard with papers, several doors, no people",
+      "trang_thai": "tao",
+      "nguon": "comfyui-noi-bo"
+    }
+  ],
+  "ly_do_noi_bo": "22/11/2026 người làm kênh quyết: không phụ thuộc nguồn ngoài; tất cả 11 ảnh (4 chính hạ hạng + 7 phụ) tạo bằng ComfyUI nội bộ SDXL base 1.0"
+}

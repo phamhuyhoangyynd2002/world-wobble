@@ -20,7 +20,7 @@ argument-hint: "[số liệu dán vào, đường dẫn ảnh chụp, hoặc tê
 2. **Đường giữ chân**: mốc rơi mạnh nhất ứng với câu nào trong `timeline.json` (đọc `scenes[].words` quanh mốc đó) và hình gì (`shots`). 30 giây đầu giữ được bao nhiêu phần trăm.
 3. **CTR và tiêu đề/thumbnail**: tập CTR cao khác tập CTR thấp ở đâu (chữ, Wob, nơi).
 4. **Thiết bị**: tỉ lệ xem trên TV; nếu cao, xem lại cỡ chữ, nhịp.
-5. **Bình luận**: người xem hỏi gì, chê gì (sai sự thật? hình? giọng?). Lời chê về sự thật thì kiểm lại ngay và báo người làm kênh.
+5. **Bình luận**: người xem hỏi gì, chê gì (sai sự thật? hình? giọng?). Lời chê về sự thật thì kiểm lại ngay và báo người làm kênh. Đếm riêng bình luận nhắc "AI", "voice", "script", "slop" và số thích của chúng: `python docs/du-lieu-ngach-kenh-2-2026-11-24/do_giong.py <channel_id> <số video>` (chạy từ thư mục đó, ghi `giong-doc/<kênh>.json`). Ở kênh khác, bình luận "script sound really AI" lên tới 887 thích; một bình luận như vậy trên tập của mình là tín hiệu sửa văn hoặc giọng, không chờ đủ 3 tập.
 
 Mỗi kết luận ghi rõ là **[Đo]** (số đọc từ Studio), **[Nguồn]** (tài liệu có link) hay **Nhận định**; không ước đoán con số.
 

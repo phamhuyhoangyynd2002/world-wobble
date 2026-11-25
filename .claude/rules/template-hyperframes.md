@@ -28,6 +28,8 @@ Nếu đã cài plugin `hyperframes`, đọc skill `/hyperframes-core` trước 
 
 ## Bố cục (khung 1920×1080, xem trên TV)
 
+- Hệ toạ độ thiết kế luôn 1920×1080. Video hoạt hình từ tập 4 xuất 2560×1440: `chuan_bi_doan.py` phóng sân khấu ×4/3 bằng CSS transform, canvas/WebGL nhân bộ đệm theo `HH_DATA.xuat.ti_le` (`templates/hoat-hinh/HOP-DONG.md` mục 4b). Không suy cỡ khung từ `innerWidth`, `devicePixelRatio`, `getBoundingClientRect()`.
+
 - Mỗi cảnh một thứ người xem phải thấy đầu tiên (nơi đó, con số, Wob). Không thêm thứ thừa.
 - Vùng an toàn chữ và cỡ chữ tối thiểu theo `.claude/rules/video-dai-youtube.md`. 20 giây cuối để trống góc phải dưới cho end screen.
 - Bản đồ là SVG do `ve_ban_do.mjs` vẽ; template chỉ đặt và cho chuyển động (zoom, lia), không vẽ lại biên giới.

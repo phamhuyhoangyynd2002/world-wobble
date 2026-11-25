@@ -1,0 +1,1442 @@
+{
+  "title": "The Arctic Town Anyone Can Move To. Bring a Rifle.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Longyearbyen",
+    "country": "Norway",
+    "lat": 78.223,
+    "lon": 15.647
+  },
+  "question": "Why do people live in Longyearbyen?",
+  "message": "This video tells curious adults that the northernmost town of its size exists because of coal and a treaty, and stays alive after coal by becoming a town of scientists, guides and seeds, open to anyone who can support themselves.",
+  "angle": "People live in Longyearbyen because an American tourist turned a coal seam into a mining town and a nineteen twenty treaty opened it to people from everywhere, and now research, tourism and the seed vault keep it going after the last mine closed, despite four months of polar night, polar bears beyond the town edge, scarce housing and ground so frozen the cemetery stopped taking burials.",
+  "hook_type": "con-so",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-svalbard": "Bản đồ D3 (orthographic) khung Bắc Cực–Bắc Âu, tô NOR, ghim Longyearbyen 78.223, 15.647 ở nửa phải khung; nhãn 'Longyearbyen'",
+    "map-svalbard-route": "Bản đồ: ghim Oslo 59.91, 10.75, Tromsø 69.65, 18.96 và Longyearbyen; đường nét đứt bay; nhãn ngắn"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "The Last Lump of Coal",
+      "lop": "hien-tai",
+      "role": "hook: Wob cầm cục than từ mỏ cuối cùng đã đóng; câu hỏi",
+      "narration": "This is a lump of coal. The mine it came from closed in twenty twenty-five, after more than a century of digging. The town around it did not close. I went to find out why.",
+      "pronunciation": "Longyearbyen: LONG-yeer-byen; Svalbard: SVAHL-bar",
+      "on_screen_text": "AFTER THE COAL",
+      "y_hinh": [
+        {
+          "cue": "This is a lump of coal",
+          "y": "Bàn kỷ vật dưới đèn; Wob giơ cục than đen bóng"
+        },
+        {
+          "cue": "after more than a century of digging",
+          "y": "Wob lau tay vào khăn, khăn đen sì",
+          "gag": "Wob lau tiếp, giờ cả khăn lẫn Wob đều lem nhem, Wob nhìn người xem, giữ hình"
+        },
+        {
+          "cue": "The town around it did not close",
+          "y": "Trang sổ mở bản đồ Bắc Cực, chấm Longyearbyen ở nửa phải khung"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-svalbard",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.35
+          ]
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "The town around it",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is a lump of coal",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The town around it did not close",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I went to find out why",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên nơi, kỷ lục có tiêu chí, ba thứ lạ: hiệp ước, gấu, nghĩa trang; mở vòng",
+      "narration": "The town is Longyearbyen, on Svalbard, a group of Arctic islands belonging to Norway, about halfway between the mainland and the North Pole. It is the northernmost settlement in the world with more than a thousand people. There are no trees. There are plenty of polar bears just outside town. And because of a treaty signed more than a century ago, almost anyone can move here without a visa. Coal built it, and coal is gone. So by the end of this trip I wanted to know a couple of things. Why did anyone come to begin with, and why do they keep coming now? I packed every warm thing I own, plus a few things I borrowed. I still underpacked.",
+      "y_hinh": [
+        {
+          "cue": "about halfway between the mainland and the North Pole",
+          "y": "Wob đặt quả địa cầu nhỏ, đo bằng ngón tay từ Na Uy lên Bắc Cực, dừng ở giữa"
+        },
+        {
+          "cue": "There are no trees",
+          "y": "Wob đặt một cây thông đồ chơi lên bản đồ, rồi lặng lẽ cất đi"
+        },
+        {
+          "cue": "plenty of polar bears just outside town",
+          "y": "Một con gấu Bắc Cực giấy thò đầu ra từ mép bản đồ",
+          "gag": "Con gấu giấy ngửi ngửi cục than trên bàn rồi quay đi, chán"
+        },
+        {
+          "cue": "I still underpacked",
+          "y": "Wob mặc năm lớp áo, tròn như quả bóng, vẫn run"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-svalbard",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.35
+          ]
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "It is the northernmost settlement",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-svalbard-valley",
+          "cue": "There are no trees",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The town is Longyearbyen",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "almost anyone can move here",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I still underpacked",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "Flying to the Top of the Map",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 1: bay tới, cảnh quan không cây, nhà trên cột",
+      "narration": "I flew north from the Norwegian mainland and kept drawing my route in my notebook until the map ran out of land. Out of the window: white mountains with flat tops, sea ice, and then a valley with a little town in it. Colourful wooden houses, many of them standing on posts above the ground. The ground here is permafrost, frozen all year round, and you do not want your warm house melting it. The airport is a short ride from town. On the way in I saw old wooden towers marching up the hillside, the remains of cableways that once carried coal. The whole valley looked like a museum that someone had forgotten to close, with people still living in it.",
+      "y_hinh": [
+        {
+          "cue": "until the map ran out of land",
+          "y": "Trang sổ: đường nét đứt máy bay chạy lên tận mép trên cùng tờ giấy",
+          "gag": "Wob dán thêm một mẩu giấy ở mép trên để đường bay chạy tiếp"
+        },
+        {
+          "cue": "white mountains with flat tops",
+          "y": "Qua cửa sổ máy bay: núi trắng đỉnh phẳng, băng biển vỡ"
+        },
+        {
+          "cue": "standing on posts above the ground",
+          "y": "Dãy nhà gỗ đỏ, vàng, xanh đứng trên cột gỗ thấp"
+        },
+        {
+          "cue": "remains of cableways that once carried coal",
+          "y": "Những tháp gỗ cũ của đường cáp than chạy dọc sườn núi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-svalbard-route",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-svalbard-valley",
+          "cue": "Out of the window",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "Colourful wooden houses",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-coal-cableway",
+          "cue": "old wooden towers",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I flew north",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "frozen all year round",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "with people still living in it",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "chapter": "A Town Named After a Tourist",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán (nghiên cứu/khoa học) → lý do thật: than, John Munro Longyear du lịch 1901, mỏ 1906",
+      "narration": "So who decided to build a town up here? My guess was scientists. Polar research, important instruments, people in thick jackets measuring things. Good guess. Wrong century. The real answer is a tourist. In nineteen oh one, an American businessman called John Munro Longyear came to Svalbard on a cruise with his family. He met people prospecting for coal, took samples home, and liked what he found. In nineteen oh six his Arctic Coal Company started mining here. The town was called Longyear City until nineteen twenty-six. Picture going on a cruise, buying a souvenir, and the souvenir turning out to be a mine with your name on it.",
+      "y_hinh": [
+        {
+          "cue": "My guess was scientists",
+          "y": "Sơ đồ vẽ tay: Wob vẽ nhà khoa học que cầm nhiệt kế, khoanh tròn"
+        },
+        {
+          "cue": "Good guess. Wrong century",
+          "y": "Wob xoá chiếc nhiệt kế, vẽ thêm chiếc mũ lưỡi trai du lịch"
+        },
+        {
+          "cue": "came to Svalbard on a cruise with his family",
+          "y": "Cắt giấy cổ điển: con tàu du lịch, một gia đình que đứng trên boong vẫy tay"
+        },
+        {
+          "cue": "took samples home",
+          "y": "Một vali nhỏ đầy đá đen, nặng trĩu tay người que"
+        },
+        {
+          "cue": "Picture going on a cruise, buying a souvenir",
+          "y": "Bong bóng tưởng tượng: Wob ở quầy lưu niệm, nhận một quả cầu tuyết, bên trong là cả một ngọn núi mỏ có biển tên 'WOB CITY'",
+          "gag": "Wob lắc quả cầu, thợ mỏ que tí hon bên trong lắc lư theo, vẫy tay chào"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-coal-cableway",
+          "cue": "The real answer is a tourist",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-svalbard-valley",
+          "cue": "In nineteen oh six",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My guess was scientists",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Wrong century",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "a mine with your name on it",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "Store Norske mua 1916, nhà nước Na Uy; một thế kỷ than; Mine 7 đóng 6/2025",
+      "narration": "The American company ran into money trouble, and in nineteen sixteen the Norwegian company Store Norske bought the mines. The Norwegian state became an owner in the nineteen thirties and now owns the company outright. For more than a hundred years, coal was the reason this town had lights, heat and jobs. Then the world changed. At the end of June twenty twenty-five, Mine Seven, the last Norwegian coal mine on Svalbard, closed. I held my lump of coal and stood outside the old mine entrance. It felt like visiting a house where the family has just moved out, and nobody has told the cat.",
+      "y_hinh": [
+        {
+          "cue": "in nineteen sixteen the Norwegian company Store Norske bought the mines",
+          "y": "Trang sổ: tấm biển tên công ty cũ được gỡ xuống, tấm biển mới treo lên"
+        },
+        {
+          "cue": "coal was the reason this town had lights, heat and jobs",
+          "y": "Toa than nhỏ chạy trên cáp, đèn nhà bật sáng theo từng toa"
+        },
+        {
+          "cue": "Mine Seven, the last Norwegian coal mine on Svalbard, closed",
+          "y": "Cửa hầm mỏ trong sườn núi tuyết, cánh cửa khép lại"
+        },
+        {
+          "cue": "nobody has told the cat",
+          "y": "Chèn: con mèo que ngồi trước cửa hầm mỏ, đợi",
+          "gag": "Con mèo đẩy một cục than nhỏ về phía cửa như đang trả lại"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-coal-cableway",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-mine-entrance",
+          "cue": "Then the world changed",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-mine-entrance",
+          "cue": "I held my lump of coal",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The American company ran into money trouble",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Then the world changed",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "nobody has told the cat",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "The Treaty That Opens the Door",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 3: Hiệp ước 1920; quyền bình đẳng; không visa nhưng phải tự nuôi mình; nhà ở",
+      "narration": "Here is the part that surprised me most. In February nineteen twenty, a treaty signed in Paris recognised Norway's sovereignty over Svalbard, but with conditions. Norway has to treat citizens and companies from the countries that signed it equally. Today the treaty has forty-eight parties. And in practice, according to the Governor of Svalbard, you do not need a visa or a Norwegian residence permit to come here. The Norwegian Immigration Act does not apply. Picture a shared garden with one rule on the gate. Anyone may come in, as long as they bring their own lunch. Because here is the catch. You must be able to support yourself. Most housing is provided by employers, nearly all the land belongs to the state, and the Governor can turn away people who do not meet the requirements. So the door is open. It is just very cold on the doorstep.",
+      "facts": [
+        {
+          "label": "Svalbard Treaty",
+          "value": "1920 · 48 parties",
+          "claim_ids": [
+            "C12"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "a treaty signed in Paris",
+          "y": "Cắt giấy: bàn dài, những chiếc bút lông vẽ phác, tờ hiệp ước"
+        },
+        {
+          "cue": "you do not need a visa",
+          "y": "Wob giơ hộ chiếu ra, nhân viên que vẫy tay cho qua, chẳng cần đóng dấu",
+          "gag": "Wob vẫn chìa hộ chiếu, ngơ ngác, cuối cùng tự đóng dấu một hình mặt cười lên"
+        },
+        {
+          "cue": "Picture a shared garden with one rule on the gate",
+          "y": "Bong bóng tưởng tượng vẽ tay: khu vườn chung, cổng mở, tấm biển 'BRING YOUR OWN LUNCH'"
+        },
+        {
+          "cue": "Most housing is provided by employers",
+          "y": "Dãy nhà gỗ, mỗi cửa có chiếc chìa khoá treo kèm tấm thẻ công việc"
+        },
+        {
+          "cue": "It is just very cold on the doorstep",
+          "y": "Wob đứng trên bậc cửa, cửa mở, gió tuyết thổi bay khăn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:map-svalbard",
+          "cue": "Today the treaty has forty-eight parties",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "Picture a shared garden",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-longyearbyen-street-winter",
+          "cue": "Because here is the catch",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here is the part that surprised me most",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Anyone may come in",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "very cold on the doorstep",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "The Polar Bear Rule",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 4: Wob định đi dạo ra ngoài thị trấn → biển báo gấu → luật: phải mang đồ xua gấu, khuyên mang súng",
+      "music_mood": "hai",
+      "narration": "On my second day I decided to go for a nice walk out of town, toward the mountains. I got as far as a sign. A red triangle, with a polar bear on it. I stopped. I looked at the bear on the sign. The bear on the sign looked back. I read the rules that evening, from somewhere warm. According to the Governor of Svalbard, anyone travelling outside the settlements must carry suitable means of scaring off polar bears, and the Governor also recommends carrying a firearm. Inside town, you can walk to the shop in peace. Beyond the sign, you are in the bears' neighbourhood. I went back the next morning on an organised trip with a guide who knew exactly what to do. I knew exactly how to stand behind the guide. Teamwork.",
+      "y_hinh": [
+        {
+          "cue": "I got as far as a sign",
+          "y": "Wob đi bộ hớn hở ra rìa thị trấn, dừng trước tấm biển tam giác đỏ hình gấu"
+        },
+        {
+          "cue": "The bear on the sign looked back",
+          "y": "Cận tấm biển: con gấu vẽ trên biển khẽ quay mắt nhìn Wob",
+          "gag": "Take chậm: Wob lùi một bước, gấu trên biển nghiêng đầu theo, Wob lùi thêm, rồi quay lưng đi rất nhanh"
+        },
+        {
+          "cue": "suitable means of scaring off polar bears",
+          "y": "Trang sổ: Wob liệt kê đồ xua gấu, vẽ khẩu súng pháo sáng, đèn"
+        },
+        {
+          "cue": "I knew exactly how to stand behind the guide",
+          "y": "Một người hướng dẫn que đeo súng trường đi trước, Wob nép sát phía sau như cái bóng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-polar-bear-sign",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-polar-bear-sign",
+          "cue": "I looked at the bear on the sign",
+          "move": "still",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:ai-svalbard-valley",
+          "cue": "Beyond the sign",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "a nice walk out of town",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The bear on the sign looked back",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Teamwork",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "The Ground That Never Thaws",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 5 (không gag): nghĩa trang 1918, cúm Tây Ban Nha, ngừng chôn ~1950, sửa chuyện 'chết là phạm luật'; thị trấn bị phá 1943",
+      "music_mood": "khac-nghiet",
+      "narration": "There is a small cemetery on the hillside above town, with white crosses. I want to tell this part plainly. Seven miners who died in the Spanish flu pandemic of nineteen eighteen are buried there. Because of the permafrost, bodies in this ground do not decompose the way they would elsewhere, and the frozen soil slowly pushes coffins upward. Since around nineteen fifty, the cemetery has not taken new burials, and people who die here are taken to the mainland to be buried. You may have heard that dying is illegal in Longyearbyen. It is not. It is simply that the ground here keeps everything. In the late nineteen nineties, researchers even studied the remains of those miners, hoping to learn about the flu virus. The town has known hard days in other ways too. On the eighth of September, nineteen forty-three, the German navy almost completely destroyed it. It was rebuilt after the war.",
+      "y_hinh": [
+        {
+          "cue": "a small cemetery on the hillside above town",
+          "y": "Cắt giấy tông trầm: sườn đồi tuyết, hàng thánh giá trắng nhỏ"
+        },
+        {
+          "cue": "Seven miners",
+          "y": "Wob ở hiện tại đặt cục than xuống bàn, lặng"
+        },
+        {
+          "cue": "taken to the mainland to be buried",
+          "y": "Một chiếc máy bay nhỏ cắt giấy bay xa dần về phía nam, im lặng"
+        },
+        {
+          "cue": "the German navy almost completely destroyed it",
+          "y": "Cắt giấy: những mái nhà sẫm màu, khói xám; rồi những ngôi nhà được dựng lại từng chiếc"
+        },
+        {
+          "cue": "It was rebuilt after the war",
+          "y": "Camera lùi chậm khỏi thung lũng; im lặng một nhịp"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-hillside-cemetery",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-hillside-cemetery",
+          "cue": "You may have heard",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "The town has known hard days",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I want to tell this part plainly",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "Life After Coal",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 6: từ một hạt giống → kho hạt giống (2008, >1 triệu mẫu) → nghiên cứu, du lịch; thị trấn đổi nghề",
+      "music_mood": "to-mo",
+      "narration": "So if coal is gone, what keeps the lights on? I asked myself this while my own lights, the ones in my head, were running low on hot chocolate. Start with a single seed. Small enough to lose in your pocket. Zoom out: a box of seeds, sealed and labelled. Zoom out again. I stood in the snow outside a tunnel cut deep into the mountain above the airport. This is where the Svalbard Global Seed Vault has kept backup copies of the world's crop seeds since it opened in twenty oh eight. It now holds more than a million seed samples, according to the vault's own figures quoted by travel guides. Think of it as the backup drive for the world's farms, stored somewhere naturally cold. Zoom out once more: a town of researchers, students, guides and hotel staff. The University Centre in Svalbard brings students to study the Arctic. Tourism brings visitors for the midnight sun, the northern lights and the glaciers. The town did not stop when the coal stopped. It changed jobs.",
+      "facts": [
+        {
+          "label": "Seed Vault",
+          "value": "opened 2008 · 1M+ samples",
+          "claim_ids": [
+            "C21"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Start with a single seed",
+          "y": "Cực cận một hạt giống nhỏ trên lòng bàn tay Wob"
+        },
+        {
+          "cue": "a box of seeds, sealed and labelled",
+          "y": "Camera lùi: hộp đựng hạt giống dán nhãn xếp trên kệ"
+        },
+        {
+          "cue": "a tunnel cut deep into the mountain",
+          "y": "Camera lùi tiếp: cổng bê tông nhô ra sườn núi tuyết, đường hầm dài phía sau"
+        },
+        {
+          "cue": "Think of it as the backup drive",
+          "y": "Bong bóng tưởng tượng: chiếc ổ cứng khổng lồ cắm vào ngọn núi, dây cáp nối tới những cánh đồng khắp thế giới",
+          "gag": "Một hạt lúa nhỏ đi qua dây cáp, vẫy tay chào khi vào trong núi"
+        },
+        {
+          "cue": "It changed jobs",
+          "y": "Wob đặt hạt giống cạnh cục than trên bàn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-seed-vault",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:ai-seed-vault",
+          "cue": "Zoom out again",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "cue": "Zoom out once more",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-svalbard-valley",
+          "cue": "Tourism brings visitors",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "what keeps the lights on",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Think of it as the backup drive",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It changed jobs",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "đời sống: để giày ở cửa, mọi thứ 'cực bắc'; Wob đổi ý lần 1",
+      "narration": "Daily life here has its own little habits. People often take their shoes off at the door, even in shops and hotels, and pad around in socks or slippers. There is a hospital, a school and a sports centre, all of which can claim to be the northernmost of their kind. There are no roads connecting Svalbard's settlements, so people travel between them by boat, small plane or snowmobile. I spent an evening in a café in my socks, drinking hot chocolate. I watched people come in from the cold with frost on their eyebrows and stamp their boots like happy horses. Everyone seemed to have arrived from somewhere else, for a job, a research project, or a season that turned into years. I changed my mind. I could see myself in my socks here.",
+      "y_hinh": [
+        {
+          "cue": "People often take their shoes off at the door",
+          "y": "Hàng giày ủng xếp ngay ngắn trước cửa một cửa hàng"
+        },
+        {
+          "cue": "all of which can claim to be the northernmost",
+          "y": "Ba tấm biển vẽ tay 'NORTHERNMOST' treo trên ba toà nhà khác nhau"
+        },
+        {
+          "cue": "stamp their boots like happy horses",
+          "y": "Người que bước vào quán, lông mày phủ sương, dậm chân rũ tuyết",
+          "gag": "Wob bắt chước dậm chân theo, làm đổ cốc sô-cô-la nóng của chính mình"
+        },
+        {
+          "cue": "I could see myself in my socks here",
+          "y": "Wob ngồi bên cửa sổ quán, tất kẻ sọc, cốc sô-cô-la, tuyết rơi ngoài kia"
+        }
+      ],
+      "que": [
+        {
+          "cue": "I watched people come in from the cold",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 2,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-longyearbyen-street-winter",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-arctic-cafe",
+          "cue": "I spent an evening in a café",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-arctic-cafe",
+          "cue": "I changed my mind",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Daily life here",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "like happy horses",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I changed my mind",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "chapter": "Four Months of Night",
+      "lop": "hoi-uc",
+      "khuon": "hai-mua",
+      "role": "chương 7: đêm vùng cực 26/10–15/2; mặt trời nửa đêm 20/4–23/8; Wob đổi ý lần 2",
+      "narration": "Then I came back in winter, and the town was in darkness. In Longyearbyen the polar night lasts from about the twenty-sixth of October until about the fifteenth of February. For weeks, the sun simply does not come up. The streetlights do the work, and the northern lights, when they appear, do the showing off. I went outside at noon and it looked like midnight. I went outside at midnight and it looked like noon's darker cousin. Then I came back again in summer, and the opposite happened. The midnight sun lasts from about the twentieth of April until about the twenty-third of August. I tried to sleep and the sun stood outside my window like a neighbour who wants to chat. I put foil on the glass. The sun found the gaps. Winter tested me. Summer charmed me. I changed my mind again, and then back, which is apparently normal here.",
+      "facts": [
+        {
+          "label": "Polar night",
+          "value": "~26 Oct – 15 Feb",
+          "claim_ids": [
+            "C25"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "the town was in darkness",
+          "y": "Diorama cùng một góc phố: trời đen, đèn đường vàng, tuyết"
+        },
+        {
+          "cue": "the northern lights, when they appear, do the showing off",
+          "y": "Cực quang xanh uốn lượn trên mái nhà",
+          "gag": "Cực quang uốn thành hình chữ ký nghệ sĩ, Wob vỗ tay"
+        },
+        {
+          "cue": "Then I came back again in summer",
+          "y": "Cắt cứng: cùng góc phố, nắng vàng, rêu xanh trên sườn núi"
+        },
+        {
+          "cue": "like a neighbour who wants to chat",
+          "y": "Mặt trời vẽ tay ghé sát cửa sổ phòng Wob, mỉm cười"
+        },
+        {
+          "cue": "The sun found the gaps",
+          "y": "Wob dán giấy bạc lên cửa sổ, những tia nắng chui qua khe như ngón tay"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-polar-night-town",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-polar-night-town",
+          "cue": "I went outside at noon",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-midnight-sun-town",
+          "cue": "Then I came back again in summer",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-midnight-sun-town",
+          "cue": "I put foil on the glass",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "the town was in darkness",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "Then I came back again in summer",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "which is apparently normal here",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "outro",
+      "chapter": "Would I Move to the Top of the Map?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết WOULD MOVE có điều kiện, callback cục than, câu hỏi kéo bình luận",
+      "narration": "So here is how the coal adds up. A tourist found coal and started a mine. A treaty opened the islands to people from many countries. When the coal ran out, the town traded mines for science, seeds and visitors, and kept going. The price is real: months of darkness, bears beyond the sign, scarce housing and a frozen ground that keeps everything. Would I move there? Yes. My verdict is WOULD MOVE, if I can find a job and somewhere to live, which, up here, is the whole question. It suits curious people who like cold air, long projects and taking their shoes off. It does not suit anyone who needs trees, or a walk without a rifle. I put the coal next to the seed on my desk. One kept the town alive for a century. The other is keeping it alive now. What would you need to move to the top of the map?",
+      "verdict": {
+        "label": "WOULD MOVE",
+        "reason": "A town anyone may move to, full of people who chose it, worth the polar night and the bears, as long as you can find work and a place to live.",
+        "cue": "WOULD MOVE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is how the coal adds up",
+          "y": "Bàn kỷ vật: Wob xếp hàng tờ vé du thuyền cũ, tờ hiệp ước nhỏ, biển báo gấu mini, hạt giống, cục than"
+        },
+        {
+          "cue": "bears beyond the sign",
+          "y": "Wob dựng tấm biển gấu mini trên bàn, con gấu giấy đứng sau"
+        },
+        {
+          "cue": "My verdict is WOULD MOVE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? WOULD MOVE'"
+        },
+        {
+          "cue": "I put the coal next to the seed on my desk",
+          "y": "Cục than và hạt giống nằm cạnh nhau dưới đèn bàn",
+          "gag": "Hạt giống nảy một mầm xanh tí xíu, cục than như hơi nghiêng sang nhìn"
+        },
+        {
+          "cue": "to the top of the map",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-longyearbyen-town",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-midnight-sun-town",
+          "cue": "Would I move there",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is WOULD MOVE"
+        },
+        {
+          "show": "asset:map-svalbard",
+          "cue": "I put the coal next to the seed",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.35
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is how the coal adds up",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Would I move there? Yes",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "which, up here, is the whole question",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "I put the coal",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-longyearbyen-town",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        12
+      ],
+      "canh": "a small Arctic town of colourful wooden houses in red, yellow and blue standing on short posts, in a treeless valley between flat-topped snowy mountains, old wooden coal cableway towers on the slope",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, thumbnail, 8 cảnh; cần nhà gỗ trên cột, không cây"
+    },
+    {
+      "id": "ai-polar-bear-sign",
+      "scenes": [
+        7
+      ],
+      "canh": "a red-bordered triangular warning sign with a polar bear silhouette standing at the edge of a snowy town, empty white valley and mountains beyond",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Biển báo gấu là đạo cụ chính của chương 4"
+    },
+    {
+      "id": "ai-seed-vault",
+      "scenes": [
+        9
+      ],
+      "canh": "a narrow angular concrete entrance building jutting out of a snowy mountainside, a long tunnel leading inside, Arctic light",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cổng kho hạt giống cần đúng hình khối"
+    },
+    {
+      "id": "ai-hillside-cemetery",
+      "scenes": [
+        8
+      ],
+      "canh": "a small old cemetery of plain white wooden crosses on a snowy hillside above a quiet Arctic valley, grey sky",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hình chính chương lich-su-nghiem"
+    },
+    {
+      "id": "ai-coal-cableway",
+      "scenes": [
+        3,
+        4,
+        5
+      ],
+      "canh": "old wooden trestle towers of an abandoned coal cableway climbing a snowy mountainside, rusted cables, a mine entrance high on the slope",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 1
+      },
+      "hang": "chinh",
+      "ly_do": "Di tích than, chi tiết riêng"
+    },
+    {
+      "id": "ai-mine-entrance",
+      "scenes": [
+        5
+      ],
+      "canh": "a closed mine entrance in a snowy mountainside, wooden frame, a small industrial building, tracks leading in",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 2
+      },
+      "hang": "phu",
+      "ly_do": "Tổng 5 nhưng chỉ là cửa hầm chung",
+      "ghi_de": "Tổng 5 nhưng cửa hầm mỏ chung chung nội bộ vẽ được"
+    },
+    {
+      "id": "ai-svalbard-valley",
+      "scenes": [
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "canh": "a wide treeless Arctic valley with flat-topped snowy mountains and a frozen fjord, pale blue sky",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí, tổng 4"
+    },
+    {
+      "id": "ai-longyearbyen-street-winter",
+      "scenes": [
+        6,
+        10
+      ],
+      "canh": "a snowy street of colourful wooden houses at dusk, warm windows, street lamps, snowmobiles parked",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông phố, tổng 5",
+      "ghi_de": "Tổng 5 nhưng là phố tuyết chung, nội bộ vẽ được"
+    },
+    {
+      "id": "ai-arctic-cafe",
+      "scenes": [
+        10
+      ],
+      "canh": "a cosy wooden café interior with large windows showing falling snow outside, mugs of hot chocolate, a row of boots by the door",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông trong nhà, tổng 4"
+    },
+    {
+      "id": "ai-polar-night-town",
+      "scenes": [
+        11
+      ],
+      "canh": "a small Arctic town in deep blue darkness at noon, yellow street lamps, green northern lights over the mountains",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí đêm vùng cực, tổng 4"
+    },
+    {
+      "id": "ai-midnight-sun-town",
+      "scenes": [
+        11,
+        12
+      ],
+      "canh": "a small Arctic town under a low golden midnight sun, long shadows, green moss on the mountain slopes, summer",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí mùa hè",
+      "ghi_de": "vi_tri = 2 vì có trong cảnh phán quyết nhưng chỉ là ánh sáng mùa hè chung"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "The mine it came from closed in twenty twenty-five, after more than a century of digging.",
+      "statement": "Mine 7, the last Norwegian coal mine on Svalbard, closed in 2025, ending more than 100 years of Norwegian coal mining there.",
+      "source_ids": [
+        "S2",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "The town is Longyearbyen, on Svalbard, a group of Arctic islands belonging to Norway, about halfway between the mainland and the North Pole. It is the northernmost settlement in the world with more than a thousand people.",
+      "statement": "Longyearbyen, on Norway's Svalbard archipelago roughly halfway between mainland Norway and the North Pole, is the world's northernmost settlement with a population greater than 1,000.",
+      "source_ids": [
+        "S4",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "There are no trees. There are plenty of polar bears just outside town.",
+      "statement": "There are no trees in Longyearbyen, and polar bears roam outside the settlements of Svalbard.",
+      "source_ids": [
+        "S15",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 2,
+      "quote": "And because of a treaty signed more than a century ago, almost anyone can move here without a visa.",
+      "statement": "Under the 1920 Svalbard Treaty framework, no visa or Norwegian residence permit is needed to live in Svalbard, though residents must be able to support themselves.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "The ground here is permafrost, frozen all year round, and you do not want your warm house melting it.",
+      "statement": "Longyearbyen is built on permafrost, ground that stays frozen year-round, and many buildings stand on posts.",
+      "source_ids": [
+        "S12",
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "On the way in I saw old wooden towers marching up the hillside, the remains of cableways that once carried coal.",
+      "statement": "Remains of old cableways that carried coal from mines stand on the hillsides around Longyearbyen.",
+      "source_ids": [
+        "S3",
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "In nineteen oh one, an American businessman called John Munro Longyear came to Svalbard on a cruise with his family. He met people prospecting for coal, took samples home, and liked what he found.",
+      "statement": "American businessman John Munro Longyear visited Svalbard on a cruise with his family in 1901, met coal prospectors and took coal samples home with positive results.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "In nineteen oh six his Arctic Coal Company started mining here. The town was called Longyear City until nineteen twenty-six.",
+      "statement": "Longyear's Arctic Coal Company began coal mining at Longyearbyen in 1906; the town was known as Longyear City until 1926.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 5,
+      "quote": "The American company ran into money trouble, and in nineteen sixteen the Norwegian company Store Norske bought the mines. The Norwegian state became an owner in the nineteen thirties and now owns the company outright.",
+      "statement": "After financial difficulties, the Arctic Coal Company's mines were bought by Store Norske in 1916; the Norwegian state became an owner in the 1930s and now wholly owns Store Norske.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 5,
+      "quote": "For more than a hundred years, coal was the reason this town had lights, heat and jobs.",
+      "statement": "For over a century, coal mining was the economic basis of Longyearbyen, supplying jobs and energy.",
+      "source_ids": [
+        "S2",
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 5,
+      "quote": "At the end of June twenty twenty-five, Mine Seven, the last Norwegian coal mine on Svalbard, closed.",
+      "statement": "Mine 7, the last Norwegian coal mine on Svalbard, closed at the end of June 2025.",
+      "source_ids": [
+        "S2",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "In February nineteen twenty, a treaty signed in Paris recognised Norway's sovereignty over Svalbard, but with conditions. Norway has to treat citizens and companies from the countries that signed it equally. Today the treaty has forty-eight parties.",
+      "statement": "The Svalbard Treaty, signed in Paris on 9 February 1920, recognises Norwegian sovereignty but obliges Norway to ensure equal rights for citizens and companies of the parties; it now has 48 parties.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "according to the Governor of Svalbard, you do not need a visa or a Norwegian residence permit to come here. The Norwegian Immigration Act does not apply.",
+      "statement": "According to the Governor of Svalbard, no visa or Norwegian work or residence permit is needed to travel to Svalbard, because the Immigration Act does not apply there.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 6,
+      "quote": "You must be able to support yourself. Most housing is provided by employers, nearly all the land belongs to the state, and the Governor can turn away people who do not meet the requirements.",
+      "statement": "Residents of Svalbard must be able to support themselves; most housing is provided by employers, the state owns nearly all land, and the Governor may refuse entry or residence to those who do not meet the requirements.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "According to the Governor of Svalbard, anyone travelling outside the settlements must carry suitable means of scaring off polar bears, and the Governor also recommends carrying a firearm.",
+      "statement": "According to the Governor of Svalbard, anyone travelling outside the settlements must carry suitable means of scaring off polar bears, and carrying firearms is recommended.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 8,
+      "quote": "Seven miners who died in the Spanish flu pandemic of nineteen eighteen are buried there.",
+      "statement": "Longyearbyen's graveyard holds seven Norwegian miners who died in the 1918 Spanish flu pandemic.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 8,
+      "quote": "Because of the permafrost, bodies in this ground do not decompose the way they would elsewhere, and the frozen soil slowly pushes coffins upward. Since around nineteen fifty, the cemetery has not taken new burials, and people who die here are taken to the mainland to be buried.",
+      "statement": "Because permafrost preserves bodies and heaving brings coffins toward the surface, Longyearbyen's cemetery stopped accepting new burials around 1950, and those who die there are buried on the Norwegian mainland.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 8,
+      "quote": "You may have heard that dying is illegal in Longyearbyen. It is not.",
+      "statement": "There is no law making it illegal to die in Longyearbyen; the restriction concerns burials in its cemetery.",
+      "source_ids": [
+        "S13",
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 8,
+      "quote": "In the late nineteen nineties, researchers even studied the remains of those miners, hoping to learn about the flu virus.",
+      "statement": "In the late 1990s, researchers examined the remains of the 1918 flu victims buried in Longyearbyen, hoping to find samples of the influenza virus.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 8,
+      "quote": "On the eighth of September, nineteen forty-three, the German navy almost completely destroyed it. It was rebuilt after the war.",
+      "statement": "The German navy almost completely destroyed Longyearbyen on 8 September 1943; the town was rebuilt after the Second World War.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 9,
+      "quote": "This is where the Svalbard Global Seed Vault has kept backup copies of the world's crop seeds since it opened in twenty oh eight. It now holds more than a million seed samples, according to the vault's own figures quoted by travel guides.",
+      "statement": "The Svalbard Global Seed Vault near Longyearbyen opened in 2008 to store backup copies of crop seeds and now holds more than one million seed samples.",
+      "source_ids": [
+        "S9",
+        "S14"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C22",
+      "scene": 9,
+      "quote": "The University Centre in Svalbard brings students to study the Arctic. Tourism brings visitors for the midnight sun, the northern lights and the glaciers.",
+      "statement": "Research and education, including the University Centre in Svalbard, and tourism have become important parts of Longyearbyen's economy.",
+      "source_ids": [
+        "S4",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 10,
+      "quote": "People often take their shoes off at the door, even in shops and hotels",
+      "statement": "In Longyearbyen it is common to leave shoes by the door, and slippers are often provided indoors.",
+      "source_ids": [
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 10,
+      "quote": "There is a hospital, a school and a sports centre, all of which can claim to be the northernmost of their kind. There are no roads connecting Svalbard's settlements",
+      "statement": "Longyearbyen has a hospital, school and recreation centre that are the northernmost of their kind, and there are no roads between Svalbard's settlements.",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 11,
+      "quote": "In Longyearbyen the polar night lasts from about the twenty-sixth of October until about the fifteenth of February.",
+      "statement": "In Longyearbyen, the polar night lasts from about 26 October to 15 February.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 11,
+      "quote": "The midnight sun lasts from about the twentieth of April until about the twenty-third of August.",
+      "statement": "In Longyearbyen, the midnight sun lasts from about 20 April to 23 August.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Longyearbyen (booklet)",
+      "publisher": "Sysselmesteren på Svalbard (Thống đốc)",
+      "type": "goc",
+      "url": "https://sysselmesteren.no/en/publications/booklets-and-publications/longyearbyen",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "Svalbard: The End of the Last Norwegian Coal Mine",
+      "publisher": "High North News",
+      "type": "bao",
+      "url": "https://en.highnorthnews.com/home/svalbard-the-end-of-the-last-norwegian-coal-mine/189330",
+      "published": "2025-06-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Arctic Coal Company",
+      "publisher": "Wikipedia (chỉ để tìm nguồn)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Arctic_Coal_Company",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "Longyearbyen",
+      "publisher": "Wikipedia (chỉ để tìm nguồn)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Longyearbyen",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "The Svalbard Treaty",
+      "publisher": "Stortinget (Quốc hội Na Uy)",
+      "type": "goc",
+      "url": "https://www.stortinget.no/no/english/about-the-storting/historical-highlights/the-svalbard-treaty/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Entry and residence",
+      "publisher": "Sysselmesteren på Svalbard",
+      "type": "goc",
+      "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+      "published": "2025-01-07",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Life in the world's northernmost town (Business Insider)",
+      "publisher": "Yahoo News",
+      "type": "bao",
+      "url": "https://www.yahoo.com/news/articles/life-worlds-northernmost-town-where-181911846.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "Longyearbyen – the northernmost town in the world",
+      "publisher": "Hurtigruten",
+      "type": "khac",
+      "url": "https://www.hurtigruten.com/en-gb/explore-norway/ports/longyearbyen",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "The Svalbard Global Seed Vault",
+      "publisher": "Fjord Tours",
+      "type": "khac",
+      "url": "https://www.fjordtours.com/en/norway/people-and-culture/svalbard-global-seed-vault",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Firearms",
+      "publisher": "Sysselmesteren på Svalbard",
+      "type": "goc",
+      "url": "https://www.sysselmesteren.no/en/weapon/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Svalbard (thời gian đêm vùng cực, mặt trời nửa đêm ở Longyearbyen)",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Svalbard",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Longyearbyen photos (graveyard)",
+      "publisher": "Europe for Visitors",
+      "type": "khac",
+      "url": "https://europeforvisitors.com/europe/countries/norway/longyearbyen-photos-11.htm",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "Svalbard: life in the deep freeze",
+      "publisher": "Traveller (Sydney Morning Herald)",
+      "type": "bao",
+      "url": "https://www.traveller.com.au/svalbard-norway--life-in-the-deepfreeze-gtlkzi",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S14",
+      "title": "5 Things You Didn't Know About Longyearbyen",
+      "publisher": "Lindblad Expeditions",
+      "type": "khac",
+      "url": "https://cdn1-stg2019.expeditions.com/expedition-stories/stories/5-things-you-didnt-know-about-longyearbyen",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S15",
+      "title": "Photos show life in the world's northernmost town (Business Insider)",
+      "publisher": "AOL",
+      "type": "bao",
+      "url": "https://www.aol.com/news/live-worlds-northernmost-town-where-144316457.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S16",
+      "title": "5 Things You Didn't Know About Longyearbyen",
+      "publisher": "Lindblad Expeditions",
+      "type": "khac",
+      "url": "https://cdn.expeditions.com/expedition-stories/stories/5-things-you-didnt-know-about-longyearbyen",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Svalbard Science Forum – planning research",
+      "publisher": "Research Council of Norway",
+      "type": "goc",
+      "url": "https://www.forskningsradet.no/en/svalbard-science-forum/planning-research/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S18",
+      "title": "The World's Northernmost Coal Mine Closing",
+      "publisher": "Atmos",
+      "type": "bao",
+      "url": "https://atmos.earth/the-worlds-northernmost-coal-mine-closing-is-good-news-right/",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 name: kiem-tra-video
-description: Kiểm tra video dài World Wobble đã render trước khi giao, đăng: thông số 1920×1080, âm lượng, khung đen, khoảng lặng, khung đầu, chương, phụ đề SRT, bản quyền từng tài nguyên (sinh ban-quyen.md), chủ quyền bản đồ, giọng Azure, trùng lời với tập khác, rồi xem khung hình bằng mắt và ghi out/qa-report.md. Dùng ở bước 7 của /tao-video hoặc trước khi đăng bất kỳ video nào.
+description: Kiểm tra video dài World Wobble đã render trước khi giao, đăng: thông số khung hình (1920×1080, hoặc 2560×1440 từ tập 4 theo hoat-hinh/phan-canh.json → xuat), âm lượng, khung đen, khoảng lặng, khung đầu, chương, phụ đề SRT, bản quyền từng tài nguyên (sinh ban-quyen.md), chủ quyền bản đồ, giọng Azure, trùng lời với tập khác, rồi xem khung hình bằng mắt và ghi out/qa-report.md. Dùng ở bước 7 của /tao-video hoặc trước khi đăng bất kỳ video nào.
 argument-hint: "<thư mục dự án>"
 ---
 

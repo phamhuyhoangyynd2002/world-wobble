@@ -1,0 +1,994 @@
+{
+ "vong": 2,
+ "che_do": "hinh",
+ "tong_the": {
+  "diem": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 2,
+   "T4": 2,
+   "T5": 2,
+   "T6": 1,
+   "T7": 1,
+   "T8": 2
+  },
+  "nhan_xet": {
+   "T1": "Khung 0 có Wob + lọ opal; 'I went to find out why' ở 10,3 s, sát quá 10 s (việc timeline, không đổi hình).",
+   "T2": "Mồi ≈ 5, 29, 48, 81, 108, 153, 190, 212–235, 287, 305 (xe hút nhân bản), 317, 340, 386, 432, 452 (ngồi phịch), 456 (chương nghiêm), 548, 573 s. Khoảng trống dài nhất ≈ 46 s (386–432).",
+   "T3": "Chuỗi cùng phong cách dài nhất cat-giay d35–d36 456–525 s ≈ 69 s (< 90 s); màu đổi trưa, chiều, đêm, hoàng hôn tím.",
+   "T4": "Bàn kỷ vật mở d01–d03, đóng d38–d40; lọ 'mostly the jar' gọi lại ~585 s; hai lớp hiện tại/hồi ức rõ.",
+   "T5": "Gag: 5, 29, 37 (ba lô), 44, 53, 72–79 (đá tự tin), 108 (biển cổ), 127 (cắn bánh đá), 144–152 (tan chảy, mũ bỏ cuộc), 168, 207, 216/224/227, 257, 287, 303 (tiếng vọng), 314 (xe nhân bản), 327–329 (nhấc đá thay cỏ), 345, 362–366, 374, 391, 428, 452–455 (ngồi phịch), 585. Không kiểu nào lặp quá 2 lần. Khô dài nhất ≈ 69 s (chương nghiêm 456–525, chủ ý). Lặng trước d35 ≈ 2,6 s; sau d37 cắt về hiện tại.",
+   "T6": "Tỉ lệ ≈ cat-giay 55%, ve-tay 26%, diorama 19%: trong khoảng. 163–180 s (d13→d14→d15) đổi 2 lần trong 16,5 s, d14 chưa có lý do kể riêng (chưa xử lý từ vòng 1).",
+   "T7": "Hiện tại không mũ → hồi ức mũ kraft dải đỏ + ba lô (d04–) → mũ nổi ở d08 ô3–4 nhưng d09 đã đội lại không có động tác (chỗ nhảy duy nhất còn lại) → mũ rơi d11, leo lại d13, treo d18–d19, đội lại d20, phủi d21 → cuộn cỏ từ d26 → không mũ d36–d37 (để trong xe, đã sửa) → hiện tại không mũ, mũ treo móc d38. d36 ngồi → d37 đứng: nhỏ, có đổi phong cách che.",
+   "T8": "WOULD MOVE một lần (d40, 4,1 s), rõ; khung cửa sổ to giữa khung đọc được ở câu hỏi cuối; góc end screen không chữ. Chữ ký âm thanh kiểm ở timeline."
+  },
+  "tong": 13,
+  "ket_luan": "ĐẠT",
+  "vong_truoc": {
+   "tong": 10,
+   "ket_luan": "KHÔNG ĐẠT"
+  }
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô7 (29,0 s) biển 'pop. ~1,500 (2021)' lộ đủ. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d02",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2 ba lô to gấp ba Wob, mũ trên nắp: gag đọc ngay.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d03",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2 mặt chán ở 'dignity and a golf ball' ổn; ô3 bóng golf cắt mép dưới khi lật sổ, chấp nhận.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Biển NOODLING rõ ô1–3; ô5 toàn cảnh đống đất đọc được 'thousands'.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d05",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đá 'tự tin' ô2–5 và opal lóe sau lưng ô4: gag tốt.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d06",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Giữ kết quả vòng 1 (đã soi từng ô ở vòng 1, không dựng lại).",
+   "soi": "soi v1",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d07",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "Nên sửa (không chặn): ô2–3 (5,9–7,2 s) lọ và tay Wob che dấu '~' của '~70%'; dời lọ sang trái 60 px. Lời đã qua nên không hạ kết luận.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d08",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(1) Nhãn '~12–16 million years ago' (11–15 s): chữ tràn khỏi mảnh giấy cả hai bên ('~' lòi trái, 'o' lòi phải), mép phải chỉ cách khung ~60 px. Nới mảnh giấy rộng thêm 15% hoặc giảm cỡ chữ 10%, dời khối vào trái để cách mép ≥ 96 px. (2) Mũ nổi ra ở ô3, nằm dưới đất ô4, nhưng d09 ô1 Wob đã đội mũ: trong 1 s cuối d08 cho Wob nhặt mũ đội lại.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Bánh 'sea rock' + mứt opal; ô3 cắn trúng đá, cận mặt: gag rõ.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d10",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "PERMIT? rõ, Wob chỉ que vào điều khoản.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Mặt trời lao vào, Wob chảy thành vũng, mũ 'resigned' nằm riêng ô5: gag tốt.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Giữ kết quả vòng 1 (đã soi từng ô ở vòng 1, không dựng lại).",
+   "soi": "soi v1",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô3 khung cuối Wob bị mép trái cắt nửa; chấp nhận vì là khung ra. Mũ leo lại đầu ô1→ô2 khớp trang phục.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "Hơi lạnh từ cửa ô3 kể câu hỏi bằng hình. Ghi chú T6 (đổi phong cách 163–180 s) vẫn còn.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d15",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô1 (1,35 s) Wob chỉ vào trang trống; ô3 không có Wob (chỉ mũi tên nhiệt). Chấp nhận.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô4 nhãn '~24°C (~75°F)' nằm trọn trong khung. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2 hầm rượu lờ mặt trời ngoài cửa, vắng Wob 1 ô: ổn.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô5 phòng ngủ đã là giấy cắt cùng bảng màu, mũ treo đầu giường; ô6–7 tay Wob cầm bút. ô4 vẫn vắng Wob (1 ô). Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d19",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không mũ, mũ treo đầu giường, thìa cà phê: khớp d18.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô1 thợ mỏ dạng bóng chung, tôn trọng. ô4–5 (15,8–21,1 s) vắng Wob 2 ô liền, chưa quá ngưỡng; nên cho mũ Wob ló trong phòng có giường ở ô5.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2–3 (2,7–14,7 s) vắng Wob ~12 s ở sơ đồ so sánh; ô4–6 Wob quay lại. Chấp nhận vì sơ đồ là ý chính; nên đặt Wob nhỏ ở mép dưới ô3.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Lùi từ một phòng ra cả thị trấn ngầm: đọc được.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Nhà thờ tôn trọng; mũ cầm hai tay; tiếng vọng 'lịch sự' ô3–4. Biển 'St Elijah · 1993' trượt ra sau khi lời qua.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Biển ~1920 từ 0,35 s, 1987 thêm ~7 s; xe hút nhân bản 9–10,5 s, Wob há miệng. Số vào sớm hơn lời 1–1,5 s: chấp nhận (biển đứng chờ, lời xác nhận). Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d25",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Gag 'no grass': 10 s Wob soi kính lúp, 11 s nhấc viên đá, 11,6 s mặt thất vọng: đọc được nhưng Wob nhỏ (~1/8 cao khung). Biển 'scrapes' trọn khung. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d26",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Giữ kết quả vòng 1 (đã soi từng ô ở vòng 1, không dựng lại).",
+   "soi": "soi v1",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Người chơi đêm dạng bóng chung. Bóng phát sáng bay vào đống đất ô3–4.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d28",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "Hai ô cùng cỡ cảnh 2,6 s; mặt Wob chuyển từ há miệng sang ngán: đủ.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Bưu thiếp ST ANDREWS mưa cạnh sân Coober Pedy đêm: tương phản rõ.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d30",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "Một ô hình rồi giấy, 6 s; Wob ôm cỏ cuộn, gậy chạm đất. Mỏng nhưng ngắn.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d31",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô3 nhãn 'Coober Pedy' không bị xe đè. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d32",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2 vòi nước + cột điện chung ổ khoá; '≈30–50%' hiện từ ~2,5 s. Nên sửa (không chặn): dấu '≈' chạm đầu ống xám, dời nhãn phải 30 px. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d33",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Giữ kết quả vòng 1 (đã soi từng ô ở vòng 1, không dựng lại).",
+   "soi": "soi v1",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d34",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2–3 Wob ngồi phịch dựa đống đất, chân duỗi, mắt lờ đờ: gag đọc được, giữ tĩnh tới cắt. Theo thợ dựng lặng ~2,6 s trước d35 (≥ 1,5 s). Gag xong sớm, không đủ 0,8 s sau câu: chấp nhận vì đoạn 4,6 s và ưu tiên khoảng lặng. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 12,
+    "ket_luan": "LÀM LẠI"
+   }
+  },
+  {
+   "id": "d35",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô3 biển hạ ngang bụng, thấy mắt Wob. Không người, không gag. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  {
+   "id": "d36",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Không mũ từ ô1; ô3–5 Wob ngồi chạm đất, trọn khung; tên Antakirinja Matu-Yankunytjatjara đúng chính tả. ô1 Wob đứng hơi cao so với mặt đất, chấp nhận. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "LÀM LẠI"
+   }
+  },
+  {
+   "id": "d37",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "Wob trọn khung, không mũ. Nên sửa (không chặn): cuối d36 Wob ngồi, đầu d37 đứng trên mỏm đá; bảng phân cảnh ghi 'Wob ngồi nhỏ ở tiền cảnh trái'. Cho Wob ngồi trên mép mỏm đá (chân thõng) suốt d37: sửa tư thế trong canh.js, không đổi biên đạo. Có đổi phong cách che bớt chỗ nhảy nên không bắt buộc.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d38",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô4 (13,0 s) thấy trọn mắt Wob; 23°C (73°F) rồi ~24°C (~75°F) đúng chu_tren_do_vat. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d39",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "ô2 Wob nằm ngủ trên giường trong vòm, có 'z'. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "SỬA NHỎ"
+   }
+  },
+  {
+   "id": "d40",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Khung cửa sổ to ở giữa từ ô2; con dấu WOULD MOVE một lần; góc end screen không chữ. Đã sửa.",
+   "soi": "soi v2",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   }
+  }
+ ]
+}

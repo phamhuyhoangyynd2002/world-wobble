@@ -1,0 +1,342 @@
+{
+ "kenh": "Mr. Science",
+ "tong_video": 21,
+ "tat_ca": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "ABWrP69A6mE",
+   "tieu_de": "The Longest Ice Age in History Changed Everything",
+   "luot_xem": 27000,
+   "phut": 33.4
+  },
+  {
+   "thu_tu_tu_moi": 1,
+   "id": "m4XbFPMspVc",
+   "tieu_de": "When Birds Became Giant Land Predators",
+   "luot_xem": 34000,
+   "phut": 32.0
+  },
+  {
+   "thu_tu_tu_moi": 2,
+   "id": "WOgKZUAK18Q",
+   "tieu_de": "Earth’s Ancient Oceans Were Absolutely Ridiculous",
+   "luot_xem": 217000,
+   "phut": 38.7
+  },
+  {
+   "thu_tu_tu_moi": 3,
+   "id": "DUUFOGhMhVQ",
+   "tieu_de": "When Earth Had Supermountains",
+   "luot_xem": 3900000,
+   "phut": 25.6
+  },
+  {
+   "thu_tu_tu_moi": 4,
+   "id": "s17TVVfv2IU",
+   "tieu_de": "When it Rained for 2 Million Years",
+   "luot_xem": 3600000,
+   "phut": 30.1
+  },
+  {
+   "thu_tu_tu_moi": 5,
+   "id": "NX1_E9zndps",
+   "tieu_de": "When Antarctica Was a Jungle ",
+   "luot_xem": 5800000,
+   "phut": 26.1
+  },
+  {
+   "thu_tu_tu_moi": 6,
+   "id": "Md8akDXfsHA",
+   "tieu_de": "The Terrifying World Before Dinosaurs",
+   "luot_xem": 942000,
+   "phut": 29.1
+  },
+  {
+   "thu_tu_tu_moi": 7,
+   "id": "LC-2Ql3T4Bg",
+   "tieu_de": "Plesiosaurs Were Evolution’s Strangest Mistake",
+   "luot_xem": 758000,
+   "phut": 18.9
+  },
+  {
+   "thu_tu_tu_moi": 8,
+   "id": "rJaR1D8ZFsg",
+   "tieu_de": "The Largest Predator That Ever Flew - Doesn't Make Sense",
+   "luot_xem": 1400000,
+   "phut": 22.4
+  },
+  {
+   "thu_tu_tu_moi": 9,
+   "id": "W9m89Z35Aho",
+   "tieu_de": "Nothing about Oarfish Is Normal... Here's Why",
+   "luot_xem": 3600000,
+   "phut": 24.4
+  },
+  {
+   "thu_tu_tu_moi": 10,
+   "id": "M3J7B_dnCPs",
+   "tieu_de": "The Ridiculous Life of The Most Terrifying Fish",
+   "luot_xem": 249000,
+   "phut": 22.3
+  },
+  {
+   "thu_tu_tu_moi": 11,
+   "id": "fC4LtXFAa1M",
+   "tieu_de": "We Were Completely WRONG About Megalodon",
+   "luot_xem": 1300000,
+   "phut": 19.2
+  },
+  {
+   "thu_tu_tu_moi": 12,
+   "id": "6BOXvCUAEqM",
+   "tieu_de": "Nothing About T. Rex Was Normal... Here's Why",
+   "luot_xem": 1000000,
+   "phut": 27.6
+  },
+  {
+   "thu_tu_tu_moi": 13,
+   "id": "ZF6fa4dQkTE",
+   "tieu_de": "The World Right After The Dinosaurs Died",
+   "luot_xem": 101000,
+   "phut": 15.0
+  },
+  {
+   "thu_tu_tu_moi": 14,
+   "id": "WOw6WvDLI_Y",
+   "tieu_de": "Nothing About Titanoboa Was Normal… Here's Why",
+   "luot_xem": 3900000,
+   "phut": 14.9
+  },
+  {
+   "thu_tu_tu_moi": 15,
+   "id": "JxFZbrSdngo",
+   "tieu_de": "Why Penguins Choose to Freeze Into Antarctica’s Deadliest Winter",
+   "luot_xem": 1400000,
+   "phut": 25.3
+  },
+  {
+   "thu_tu_tu_moi": 16,
+   "id": "PsEZl1iV1h8",
+   "tieu_de": "Nothing About Sperm Whales Is Normal… Here’s Why",
+   "luot_xem": 3500000,
+   "phut": 22.1
+  },
+  {
+   "thu_tu_tu_moi": 17,
+   "id": "fIWr69Rc9Dg",
+   "tieu_de": "Nothing About Spiders Is Normal… Here’s Why",
+   "luot_xem": 3300000,
+   "phut": 15.9
+  },
+  {
+   "thu_tu_tu_moi": 18,
+   "id": "DPWQFzWRhAQ",
+   "tieu_de": "Nothing About Octopus Is Normal… Here’s Why",
+   "luot_xem": 1000000,
+   "phut": 20.5
+  },
+  {
+   "thu_tu_tu_moi": 19,
+   "id": "Pk6DJxpqZhg",
+   "tieu_de": "Why Deep Sea Creatures Grow So Terrifyingly Huge?",
+   "luot_xem": 778000,
+   "phut": 19.6
+  },
+  {
+   "thu_tu_tu_moi": 20,
+   "id": "mzeN0BXR4e0",
+   "tieu_de": "Why Deep Sea Creatures Get Creepier the Deeper You Go",
+   "luot_xem": 17000000,
+   "phut": 18.0
+  }
+ ],
+ "mau": [
+  {
+   "thu_tu_tu_moi": 0,
+   "id": "ABWrP69A6mE",
+   "tieu_de": "The Longest Ice Age in History Changed Everything",
+   "ngay": "20261123",
+   "luot_xem": 27161,
+   "so_bl_lay": 10,
+   "nhac_giong_ai": []
+  },
+  {
+   "thu_tu_tu_moi": 4,
+   "id": "s17TVVfv2IU",
+   "tieu_de": "When it Rained for 2 Million Years",
+   "ngay": "20260905",
+   "luot_xem": 3623745,
+   "so_bl_lay": 80,
+   "nhac_giong_ai": [
+    {
+     "thich": 84,
+     "loi": "Earth has managed to sustain all forms of life, despite recurring mass extinction events. What never ceases to amaze me, however, is our (humans’) belief that we are the only intelligent species that has ever lived on this planet, as if there hadn’t been enough time for any other form of life to evolve into an intelligent being, develop a civilizat"
+    },
+    {
+     "thich": 3,
+     "loi": "Your videos are top notch and the narration is perfect. Thank you for putting so much time and effort into them. Seriously 🙏🏻"
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 8,
+   "id": "rJaR1D8ZFsg",
+   "tieu_de": "The Largest Predator That Ever Flew - Doesn't Make Sense",
+   "ngay": "20260623",
+   "luot_xem": 1476943,
+   "so_bl_lay": 80,
+   "nhac_giong_ai": [
+    {
+     "thich": 1,
+     "loi": "0:07 \"... and this is a human standing next to it.\"\nLooks like an existential crisis to me."
+    },
+    {
+     "thich": 1,
+     "loi": "Awesome documentary. Plus nice narration"
+    },
+    {
+     "thich": 0,
+     "loi": "The scale comparisons really landed — most of that enormous silhouette being head and neck while the actual body stayed surprisingly small is hard to picture until you see it next to a human. And the Douglas Lawson 1975 Big Bend discovery story was a great touch."
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 12,
+   "id": "6BOXvCUAEqM",
+   "tieu_de": "Nothing About T. Rex Was Normal... Here's Why",
+   "ngay": "20260123",
+   "luot_xem": 1048475,
+   "so_bl_lay": 80,
+   "nhac_giong_ai": [
+    {
+     "thich": 316,
+     "loi": "the ultra low frequency sounds that T-Rex ( as well as Elephants ) make is called Infrasound, those are frequencies that are too low for the human ear to detect but yet, they can travels hundreds of miles away because of their super long wavelengths"
+    },
+    {
+     "thich": 52,
+     "loi": "I wonder if the natural instinct for a majority of mammals to flee from infrasound at least partially stems from T. Rex’s voice"
+    },
+    {
+     "thich": 44,
+     "loi": "This is real quality, and a high high level of creation! Amazing to watch how you are able to turn this into a life story, told in a Hollywood-documentary quality. I like to create about the same prehistoric topics, and have been starting up again because I saw your channel. You have given the niche a real artist again, and not only the AI-channels"
+    },
+    {
+     "thich": 3,
+     "loi": "Very informative video. Many thanks! Excellent narration both the copy and voicing. Kudos, sir! 🎉😊"
+    },
+    {
+     "thich": 0,
+     "loi": "Great YouTube channel.The narration, the story everything is beautiful."
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 16,
+   "id": "PsEZl1iV1h8",
+   "tieu_de": "Nothing About Sperm Whales Is Normal… Here’s Why",
+   "ngay": "20251126",
+   "luot_xem": 3541172,
+   "so_bl_lay": 80,
+   "nhac_giong_ai": [
+    {
+     "thich": 395,
+     "loi": "Stories like this make me feel ashamed to be human.  So sad.😢"
+    },
+    {
+     "thich": 161,
+     "loi": "the ai is infuriating. I just want to learn about sperm whales man"
+    },
+    {
+     "thich": 142,
+     "loi": "Ok...that was maybe THE best...most interesting...best explained...and most informative video I've watched in a very long time. Congrats on a job well done team.\n\nOh...as far as your question as to a bit of feedback about your new style.\n\nWell... I think this is the first video of you and your teams that I've watched. So I can't actually tell you i"
+    },
+    {
+     "thich": 120,
+     "loi": "Why do I feel like this is an AI script"
+    },
+    {
+     "thich": 99,
+     "loi": "Too much AI and false superlatives use for me to completely like the video, but I watched it whole"
+    },
+    {
+     "thich": 87,
+     "loi": "The narration is wildly incorrect.  3,000 meters deep is 301 atm or 14.696 psi.  Yes, I know that many content creators put in errors to provoke interaction... I guess I fell for this one, but it was so blatant that I couldn't let it go by w/o addressing it."
+    },
+    {
+     "thich": 51,
+     "loi": "Am i the only one who can feel that they used AI to make the script??"
+    },
+    {
+     "thich": 39,
+     "loi": "An exquisitely produced and narrated documentary. So lucky that YouTube suggested this one. Thanks everybody involved in its production."
+    },
+    {
+     "thich": 6,
+     "loi": "This feels like written by AI, just a compilation of general knowledge that's already been given here in the same platform, nothing even here is new to me"
+    },
+    {
+     "thich": 6,
+     "loi": "This is another great example of how human intervention is messing with this beautiful planet😢 The earth is an intelligent, ancient ecosystem where life and nature play deeply intertwined and interconnected roles and then humans show up, wanting industrialization, resources etc. and in our ignorance we’re suddenly destroying it all, tampering with "
+    },
+    {
+     "thich": 5,
+     "loi": "Bro the entire script is ai"
+    },
+    {
+     "thich": 5,
+     "loi": "Clearly an AI written script"
+    },
+    {
+     "thich": 5,
+     "loi": "The script written by AI makes this great video insufferable"
+    },
+    {
+     "thich": 3,
+     "loi": "And it’s another ai voiced ai written video that I was actually interested in. The tell that it’s ai is that it says “it’s not ____, it’s _____.” Literally everything ai has ever done to encapsulate something cool is strikingly similar to that."
+    },
+    {
+     "thich": 3,
+     "loi": "This is so interesting, just wish it wasn’t written using ai"
+    },
+    {
+     "thich": 2,
+     "loi": "Is this also AI voiced? This voice doesnt give me uncanny valley vibes"
+    }
+   ]
+  },
+  {
+   "thu_tu_tu_moi": 20,
+   "id": "mzeN0BXR4e0",
+   "tieu_de": "Why Deep Sea Creatures Get Creepier the Deeper You Go",
+   "ngay": "20251102",
+   "luot_xem": 17316239,
+   "so_bl_lay": 80,
+   "nhac_giong_ai": [
+    {
+     "thich": 21000,
+     "loi": "Human: tf is that\nFish: tf is that"
+    },
+    {
+     "thich": 887,
+     "loi": "Sorry is it just me or does this script sound really AI? So many repeated phrases, \"where light is survival, survival is defense\", \"every trip reveals yellow crabs, crazy sharks, and fish so silly that science cant explain it\""
+    },
+    {
+     "thich": 449,
+     "loi": "Really interesting video, but I’m genuinely curious about the source of all this deep-sea footage. Some of these shots look like the kind of material that usually comes from large research expeditions or government/industry submersible teams. Since the description doesn’t mention any collaborators, licenses, or footage sources, could you clarify wh"
+    },
+    {
+     "thich": 248,
+     "loi": "There should be 2 things filmed when piloting a deep-sea robot: the visual feed from the camera, and a live feed of the people piloting it. Maybe showing clips of scientists being jump scared would help improve visibility? Sort of like saying, “Look, we’re not saying it isn’t freaky as all hell. It’s still really cool! You should pay attention to t"
+    },
+    {
+     "thich": 101,
+     "loi": "We can take it even deeper. The deep-earth microbes that live deep beneath the seabed can live off tectonics and volcanic chemistry for even 250 million years (up to 100,000 years per cell). Their metabolism is so slow that the whole recorded human history (assuming 5000 years) would be an equivalent of about 10.5 minutes. That's mind blowing to me"
+    },
+    {
+     "thich": 5,
+     "loi": "There’s a rare harmony between the narration and the science unfolded in this documentary. The narrator's voice doesn’t just explain, it guides. It’s genuinely surprising that a channel of this depth and craft hasn’t reached a million subscribers yet. \nExcellence often travels slowly, but it always finds its audience. Please keep going."
+    }
+   ]
+  }
+ ]
+}

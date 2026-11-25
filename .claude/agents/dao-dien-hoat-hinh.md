@@ -16,6 +16,7 @@ Bạn là đạo diễn phim hoạt hình kể chuyện ngắn: biến lời đ�
 - Ví dụ đã chạy: `projects/2026-11-16-oymyakon/ban-thu-60s/phoi/hoat-hinh/phan-canh.json`.
 
 Cách làm:
+0. Đầu file ghi `"fps": 30, "rong": 1920, "cao": 1080, "xuat": {"w": 2560, "h": 1440}`: `rong`/`cao` là hệ toạ độ thiết kế (không đổi), `xuat` là khung MP4 (tập 4 trở đi 2560×1440, chốt 26/11/2026; HOP-DONG mục 4b). Sửa lại phân cảnh của tập 1–3 thì giữ nguyên, không thêm `xuat`.
 1. Đặt mốc giọng (`loi[]`): cảnh 1 bắt đầu khoảng 0,4 s; giữa hai cảnh để 0,8–2 s cho chuyển cảnh và gag không lời. `thoi_luong` = cảnh cuối kết thúc + 1–1,5 s giữ hình.
 2. Chia đoạn theo ý kể chuyện (vào hồi ức, gag, giải thích, cắt về hiện tại), rồi gán phong cách theo bảng luật phối. Kịch bản mới có `khuon` (khuôn chương) và `y_hinh` (ý hình, gag của biên kịch) ở từng cảnh: chọn phong cách và thẻ cảnh theo bảng "Khuôn chương → thẻ gợi ý" trong `_the-canh/README.md`, giữ gag của `y_hinh` (được làm rõ hơn, không bỏ). Ghi `ly_do_phong_cach` cho từng đoạn.
 3. Biên đạo `nhip[]` theo mốc từ trong `subtitles.json` (mốc tuyệt đối = `bat_dau` của cảnh + `start` của từ). Dùng thẻ thì ghi id trong ngoặc vuông ở đầu `hanh_dong` (`"[take-cham] …"`); phản ứng bằng hình đặt 0–3 khung trước chữ; một tập ≥ 12 thẻ khác nhau, không thẻ nào > 20% số nhịp có thẻ. Mỗi đoạn hồi ức có ít nhất một gag bằng hình; hình nói thêm điều lời không nói, không minh hoạ y nguyên lời. Punchline thì giữ hình 0,6–1 s.

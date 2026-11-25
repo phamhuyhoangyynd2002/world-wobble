@@ -1,0 +1,164 @@
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official Alaska DOT&PF schedule explicitly warns that scheduled and unscheduled trains may cause occasional delays of 15 to 30 minutes.",
+"sources": [
+{
+"title": "Whittier Tunnel Schedule",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier Tunnel Information",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/assets/mcinfo.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT&PF explicitly requires convertible vehicles to have their tops in place while traveling through the tunnel.",
+"sources": [
+{
+"title": "Whittier Tunnel Schedule",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Whittier Tunnel Information",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/assets/mcinfo.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official winter schedule explicitly states that at temperatures of 32°F or below, the tunnel opens for only the last five minutes of each scheduled opening.",
+"sources": [
+{
+"title": "Whittier Tunnel Schedule",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Federal Highway Administration describes a one-lane combined highway and rail tunnel, while the Whittier Chamber confirms that vehicles travel directly over the railroad track.",
+"sources": [
+{
+"title": "Project Profile: Anton Anderson Memorial Tunnel",
+"publisher": "Federal Highway Administration",
+"url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+"type": "goc",
+"published": null
+},
+{
+"title": "Webber, A Ferrovial Company",
+"publisher": "Greater Whittier Chamber of Commerce",
+"url": "https://www.whittieralaskachamber.org/community-visitor-services/webber-a-ferrovial-company/",
+"type": "khac",
+"published": "2024-11-05"
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT&PF describes the Anton Anderson Memorial Tunnel as the longest combined vehicle-railroad tunnel in North America.",
+"sources": [
+{
+"title": "Whittier Tunnel",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Project Profile: Anton Anderson Memorial Tunnel",
+"publisher": "Federal Highway Administration",
+"url": "https://www.fhwa.dot.gov/ipd/project_profiles/ak_anderson_tunnel.aspx",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "dung",
+"correct_value": null,
+"note": "The tunnel was converted from an exclusively railroad tunnel and opened to alternating road vehicle traffic in June 2000.",
+"sources": [
+{
+"title": "Short Closure of Whittier Tunnel Scheduled June 17, 2012",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://content.govdelivery.com/accounts/AKDOT/bulletins/449971",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tunnel Operations Study",
+"publisher": "Federal Highway Administration / National Transportation Library",
+"url": "https://rosap.ntl.bts.gov/view/dot/24400",
+"type": "goc",
+"published": null
+},
+{
+"title": "Opening of the Whittier Tunnel, 1942-1943",
+"publisher": "Cook Inlet Historical Society",
+"url": "https://www.cookinlethistoricalsociety.org/articles/opening-of-the-whittier-tunnel-1942-1943",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT&PF's historical account states that Chugach Eskimos used the area for thousands of years and crossed Portage Pass and Portage Glacier to trade with Athabaskan Indians around Cook Inlet.",
+"sources": [
+{
+"title": "History",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": null,
+"note": "Alaska DOT&PF confirms that miners and prospectors used Portage Pass in the late nineteenth century, hauling equipment and supplies with pack trains, sleds and pulleys.",
+"sources": [
+{
+"title": "History",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+"type": "goc",
+"published": null
+}
+]
+}
+]

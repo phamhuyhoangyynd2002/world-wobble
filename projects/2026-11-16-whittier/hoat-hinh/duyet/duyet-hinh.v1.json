@@ -1,0 +1,668 @@
+{
+ "vong": 1,
+ "che_do": "hinh",
+ "tong_the": {
+  "diem": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 2,
+   "T4": 2,
+   "T5": 1,
+   "T6": 2,
+   "T7": 0,
+   "T8": 2
+  },
+  "nhan_xet": {
+   "T1": "Khung 0 có Wob, tờ lịch, cổng hầm đóng, 23:00 (đạt); nhưng câu hỏi của tập ('Why build a town behind a mountain…') tới 28,8 s (d03), quá mốc 10 s. Lý do ở lại qua 30 s có (Wob muốn chuyển tới 27,3 s; 'changed my mind more than once' 35,9 s). Sửa hình: d01 ô3 cho Wob liếc qua núi về phía toà nhà, một dấu hỏi nhỏ, trước 10 s (không đổi lời).",
+   "T2": "Mồi: 0 thanh chắn · 16 sổ pop-up · 29 dấu hỏi · 44 tờ lịch · 62 cầu kẹo cao su · 89 mui xe · 106 vào hầm · 126 lòng can đảm · 140 đãi vàng lật · 163 mây thủ phạm · 168 sương là lợi thế · 187 máy bay · 220 cắt về hiện tại · 254 ngày đồ ngủ · 287 ủng · 292 Buckner · 334 bước ra ngoài · 341 tuyết · 358 cột nước · 381 gió gác cửa · 394 áo mưa cho áo mưa · 399 đổi kế hoạch · 417 động đất (nghiêm) · 444 nhảy mùa · 458 mùa hè · 496 giọt mưa · 515 đổi ý · 539 con dấu. Khoảng trống dài nhất ≈ 26 s (194–220, d10). Không đoạn > 90 s chỉ giải thích.",
+   "T3": "Không chuỗi > 90 s cùng phong cách (dài nhất diorama d11+d12, 54 s). Thẻ giu-tinh-bo 7 lần, dưới 20% nhịp có thẻ. Ánh sáng đổi: đêm tuyết, hầm, sương xám, trong nhà ấm, chạng vạng nghiêm d23, hè xanh, đêm hè. Điểm yếu: nhiều nhịp cùng góc ngang trung cảnh (d05, d12, d16, d24).",
+   "T4": "Khung đầu chương đọc thành chuyến đi: cổng hầm đóng → hàng chờ → hầm → lịch sử cảng → bàn kỷ vật (hiện tại, d11) → một ngày trong toà nhà → ra ngoài bão → động đất → quay lại tháng Bảy → hè → tổng kết → con dấu. Tờ lịch mở ở d01, đóng ở d29 (dán lên táp-lô).",
+   "T5": "Gag (mốc video): 5 thanh chắn sát mũi · 9 chóp tuyết · 13 ụ tuyết hành khách · 19 cổ Wob dài · 31 dấu hỏi đè · 37 tuyết rơi trúng đầu · 46 lịch che tầm nhìn · 56 lịch thành vô lăng · 64 cầu kẹo cao su · 70 đếm toa (KHÔNG lên hình) · 75 tài xế đọc lịch · 91 mui nuốt Wob (KHÔNG lên hình) · 103 cổng hé · 128 lòng can đảm (quá nhỏ) · 136 mây làm mũ · 141 nắp chai · 163 tháp đổ, mây nháy mắt · 168 mây giật mặt trời · 185 thước dây (quá nhỏ) · 190 máy bay quay đi · 195 đào vòng (nhỏ) · 230 phong bì (không thấy) · 245 bút mòn (không thấy) · 255 dép tuột · 271 giỏ đi thang máy (không thấy) · 288 ủng thở phào (đọc yếu) · 298 vòng mờ tan · 312 ki đổ · 330 ba lô kéo ngửa (không thấy) · 332 bóng lăn khỏi bong bóng · 335 nhãn giá · 340 bông tuyết kéo họ hàng · 345 chỉ còn thảm đỏ (yếu) · 360 bơi trên cột nước · 381 gió gác cửa · 394 áo mưa cho áo mưa · 456 thanh chắn sượt thảm · 467 câu nắp chai · 470 kayak xoay + hải âu · 485 ủng lo lắng · 497 giọt mưa (không thấy) · 527 máy bay bịt mắt (không rõ) · 537 mái nhà (đọc thành nón lá) · 540 đèn xanh gật · 562 ba miếng băng dính. Khoảng khô dài nhất ≈ 55 s (199–254: cuối d10 + d11, vì hai gag d11 không lên hình). Kiểu 'tuyết rơi lên đầu Wob' lặp 3 lần (d01, d03, d17), quá 2. Đoạn nghiêm d23 có 1,5 s im cuối d22 và 2 s giữ cuối d23: đủ. Khoảng 10 gag trong bảng phân cảnh không lên hình hoặc quá nhỏ.",
+   "T6": "cat-giay 308 s (54%), ve-tay 148 s (26%), diorama 113 s (20%): trong khoảng mục tiêu 45–55 / 25–35 / 15–20. Đổi dày nhất: d20→d21→d22 (2 lần trong 5 s, đúng giới hạn), d06→d07→d08 (2 lần trong 5,6 s); có lý do kể (chèn so sánh vẽ tay).",
+   "T7": "d01–d05 xe mui trần ĐỎ, mũ len kem (d05 lệch) → d06 sedan CAM mui cứng, không thấy mũ len (LỖI) → d07–d10 mũ len, mây, kính râm (ổn) → d11 hiện tại không mũ → d12–d13 đồ ngủ, dép lê → d14 MẤT đồ ngủ, dép (LỖI) → d15 đồ ngủ → d16 áo khoác kem không thấy → d17–d21 áo mưa vàng; lông mi băng: cat-giay bật d01–d18 ngoài trời, TẮT ở d20, d23 dù vẫn ngoài trời mùa đông; ve-tay, diorama không bao giờ có lông mi (lệch giữa phong cách) → d22 cởi áo mưa, thiếu áo len → d24 hè: cổng hầm KHÁC d01 dù lời 'Same tunnel', xe hộp NÂU VÀNG → d25 sedan CAM → d26–d27 mũ lưỡi trai, ủng (ổn) → d28 xe mui trần XANH DƯƠNG, nền trắng như tuyết giữa tháng Bảy → d29 xe nâu vàng. Bốn mẫu xe cho cùng một xe thuê. Ba lô xanh ô liu nhất quán mọi phong cách (màu cam d25 là áo phao): đạt. Gây ra bởi d06, d14, d24, d25, d28 (d29 đổi theo d24).",
+   "T8": "Con dấu SUMMER ONLY đúng một lần ở d29 (539–541 s), chữ rõ, đèn xanh 'gật' cùng lúc. Câu hỏi cuối có hình Wob nghiêng đầu chờ (565 s), giữ tới 569 s không mờ đen. Góc end screen 549–569 s: không chữ trong x > 1150, y > 560. Chữ ký âm thanh không nghe được: để kiem-dinh-video kiểm."
+  },
+  "tong": 12,
+  "ket_luan": "KHÔNG ĐẠT"
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "Giữ nguyên; đây là chuẩn cổng hầm (vòm đá trong vách xám, đèn bên trái, thanh chắn sọc) và xe mui trần đỏ cho d24/d29 gọi lại."
+   ]
+  },
+  {
+   "id": "d02",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 ô2–ô4 (6,6–11,1 s): hình Wob giấy đứng đè nhãn WHITTIER (chỉ còn 'WHITTI', ô4 còn 'WH'). Dời Wob giấy sang phải ghim hoặc xuống dưới nhãn, nhãn đọc đủ từ 6,6 s tới hết.",
+    "D3 ô1: nắp chụp tuyết rơi khỏi đỉnh núi không thấy ở 0,45 s; cho rơi chậm hơn, giữ 0,6 s khi chạm trang."
+   ]
+  },
+  {
+   "id": "d03",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D5/D4 ô1–ô3 cùng một trung cảnh suốt 16,8 s: ô1 'I came here to move in' đẩy cận Wob giơ vali lên cao (vali hiện chỉ nằm ghế phụ); ô3 lùi ra để mảng tuyết trượt từ vách xuống đầu đọc được."
+   ]
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7/D6 ô2 (5,16 s, video 48,8): đã có chấm đỏ ở cột 23:00 trước chữ 'eleven'; vòng khoanh chỉ bắt đầu đúng 'eleven'.",
+    "ô1: đèn đỏ sát mép trên; hạ đèn 40 px để thấy đủ ba bóng và khoảng thở.",
+    "D4 ô2–ô4: Wob khuất sau tờ lịch chỉ lòi mắt suốt 10 s; ô4 hạ tờ lịch xuống nửa khi xoay như vô lăng để thấy mặt Wob lúc tàu húc xe."
+   ]
+  },
+  {
+   "id": "d05",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 14,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D3/D4 ô3 (9,2–13 s, video 68–72): gag đếm toa không lên hình (khung 10,8 s chỉ có xe, không tàu, không ngón tay/chân; tay bị thành xe che). Cho Wob nhô nửa người khỏi thành xe, tay rồi chân đếm rõ, tàu chạy hậu cảnh.",
+    "D3 ô7 (30,1–33 s, video 89–92): gag mui nuốt Wob không có (30,09 s Wob ngồi; 32,5 s Wob đứng trên cục mui nâu). Làm đúng: mui vải bật ngược trùm kín Wob, chỉ còn giày đỏ thò ra, giữ 0,8 s trước 'while the whole queue watched'.",
+    "D7: nhãn ~2.5 mi không thấy (chỉ ~4 km); 32°F · 0°C không thấy ở 37,7 s, phải hiện trên nhiệt kế đúng 'thirty-two'.",
+    "D5: ô4, ô6, ô7, ô8 cùng góc ngang trung cảnh; đổi ô6 thành cận mặt Wob nhìn lên mui."
+   ]
+  },
+  {
+   "id": "d06",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 0,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D8 cả đoạn: xe là sedan cam mui cứng, khác xe mui trần đỏ d01–d05 (cùng chiếc xe thuê vừa kéo mui lên ở d05). Dựng lại xe thân đỏ như d01, mui vải sẫm đã dựng; Wob đội mũ len kem lệch như d05 (16–27 s không thấy mũ len).",
+    "D3 ô5 (20 s): bóng mặt cười 'lòng can đảm' gần như không thấy (vệt hồng sau tai Wob); đặt bóng giữa đường ray phía sau xe, cỡ ≥ 1/8 khung, giữ 0,8 s.",
+    "D7 ô3: biển 2000 cao khoảng 30 px; phóng ≥ 40 px khi lướt qua."
+   ]
+  },
+  {
+   "id": "d07",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": []
+  },
+  {
+   "id": "d08",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "ô2 (9,6 s): xe trượt nằm phẳng trên dốc; xoay 25–30° theo sườn để đọc là đang kéo lên đèo."
+   ]
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 13,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D6 ô2 (2,76 s, video 170): khung giấy trống hoàn toàn; nét vịnh phải bắt đầu trong 0,3 s đầu nhịp.",
+    "D3 ô4 (13,9 s): gag thước dây kẹp mũi quá nhỏ (Wob ~20 px ở mép dưới); đẩy cận mũi tàu hoặc cho Wob ≥ 1/5 khung, giữ 0,8 s.",
+    "D7: deep, no ice (ô3) và ~52 mi (ô4) không thấy ở nhịp của chúng; hiện đúng chữ đọc.",
+    "D4 ô5–ô6: Wob vắng; thêm Wob nhỏ dưới tấm chăn mây ló mắt nhìn máy bay."
+   ]
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7/D6: biển ANTON ANDERSON hiện ở ô1, còn ô2 (9 s, lời 'named after Anton Anderson') lại là biển April 23, 1943. Đảo: April 23, 1943 ở ô1, ANTON ANDERSON ở ô2.",
+    "D3 ô1: Wob đào ngược quá nhỏ ở góc; đẩy vào trung cảnh, đường đào cong vòng về chỗ cũ."
+   ]
+  },
+  {
+   "id": "d11",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D4 ô3–ô6 (13,5–34 s, video 233–253): Wob khuất 4 ô liền, bút tự vẽ. Thêm tay Wob cầm bút (hoặc Wob tiền cảnh 1/3 trái) suốt các ô vẽ, ngập ngừng khi tẩy ở ô5.",
+    "D3 ô2 (6,6 s): phong bì dài như cuộn giấy không thấy; ô4 bút chì không mòn. Làm rõ hai gag.",
+    "D7: chữ BEGICH TOWERS tràn mép giấy ('TOWER!'); thu chữ hoặc nới trang."
+   ]
+  },
+  {
+   "id": "d12",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 ô1–ô4: biển POST OFFICE, CLINIC, STORE bị cắt mép ('POST', 'CLIN' bị cột che, 'TORE') đúng lúc lời gọi tên; dừng camera để biển vào trọn khung ở chữ tương ứng.",
+    "D3 ô4 (15,4 s): gag giỏ tự đi thang máy không thấy (cửa đóng, Wob cầm ly). Mở cửa cho thấy giỏ đứng một mình 0,8 s rồi mới đóng.",
+    "D8: sọc đồ ngủ, dép lê khó thấy; tăng tương phản sọc."
+   ]
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 ô1: CHURCH, CITY OFFICES không có ở nhịp lời gọi tên; ô3 SCHOOL bị cắt ('SCHOO').",
+    "D3 ô4 (13,5 s): hai chấm trên mỗi chiếc ủng đọc như mắt mở, không thấy thở phào; vẽ mắt nhắm (hai cung) + làn hơi bay ra, ủng ngả vào nhau, giữ 0,8 s.",
+    "D3 ô2: sảnh 'cả thị trấn nhét vào' chỉ có hộp thư; chồng thêm chuông nhà thờ, cầu trượt, quầy hàng tới trần như bảng phân cảnh."
+   ]
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 0,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D8 cả đoạn: Wob không mặc đồ ngủ, không dép lê, trong khi d12–d13 cùng ngày trong nhà mặc đồ ngủ sọc + dép lê (d15 ve-tay cũng còn). Thêm đồ ngủ sọc và dép lê; việc vẽ nhỏ nhưng là lỗi liên tục nên theo luật là làm lại."
+   ]
+  },
+  {
+   "id": "d15",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "ô2: ki bowling cuối tự đổ khi đèn tắt không thấy; cho đổ chậm, giữ 0,6 s."
+   ]
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 14,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7/D2 ô1: tờ giấy ngày ~1960 ? (mức C, lời 'records differ') không hiện; thêm đúng chu_tren_do_vat.",
+    "D3 ô3 (13,1 s): gag ba lô kéo Wob ngả ngửa không lên hình (Wob đứng thẳng cả 4 ô). Cho Wob nhón chân rồi ngả sau 25°, chới với 0,8 s.",
+    "D8: áo khoác dày màu kem không thấy (Wob giống d01); vẽ áo khoác."
+   ]
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "ô1: nhãn giá quá nhỏ; phóng nhãn, cho vướng mũi rõ. ô4 Wob bị vùi chỉ còn chóp mũ trùm là đúng ý, không cần sửa."
+   ]
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D3 ô1 (≈5 s): khi tuyết dâng chỉ còn chóp mũ trùm vàng, cuộn thảm đỏ không đọc được; nâng thảm đỏ lên trên mặt tuyết, cỡ gấp đôi, lắc lư 0,8 s.",
+    "D7 ô2–ô3: cột đo đâm vào khung nhãn ~20 ft · ~6 m và nét đứt chạm nhãn 47 in · 1.2 m; tách nhãn khỏi cột ≥ 20 px."
+   ]
+  },
+  {
+   "id": "d19",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": []
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 ô2 (11,3 s): nhãn 40–60 mph xoay nghiêng và bị Wob che ('0–60 mph'); đặt thẳng, không bị che. Nhãn 10–15 mph không thấy ở ô1.",
+    "D8: lashes 0 dù vẫn ngoài trời mùa đông như d18 (lashes 1); bật lashes 1. Chiếc găng tháo ở ô3 không thấy."
+   ]
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": []
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 15,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8 ô4 (16,4 s): sau khi treo hai áo mưa Wob không mặc gì, thiếu áo len trong theo trang phục; vẽ áo len (lashes 0 trong nhà là đúng, như d14).",
+    "D3: hồi ức chưa có gag đọc được; cho vũng nước dưới chân lan to dần mỗi ô, ô4 chạm chân cửa.",
+    "D7 ô4: chữ long walks bị cắt mép ('lks') khi camera lùi."
+   ]
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "Không gag: đúng luật đoạn nghiêm. D8: lashes 0 khác d18; tháng Ba ngoài trời nên bật lashes 1, hoặc ghi lý do 'đoạn nghiêm bỏ chi tiết'."
+   ]
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 2,
+    "D8": 0,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 13,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D8/D2 cả đoạn: lời 'Same tunnel' nhưng cổng hầm khác d01 (d01: vòm đá trong vách xám, đèn bên trái; d24: cổng bê tông có đồng hồ, đèn bên phải, đồi xanh). Dựng lại đúng bố cục d01, chỉ đổi mùa (cỏ xanh, hoa).",
+    "D8: xe là hộp màu nâu vàng, không phải xe mui trần đỏ; về mẫu xe chung (nếu chủ ý thuê xe khác cho mùa hè thì d25, d28, d29 phải cùng mẫu này).",
+    "D6 ô2 (4,25 s, video 448): lời đọc 5:30 / 23:15 mà bảng còn trắng tới ~10 s; chữ hiện đúng 'five thirty' và 'eleven fifteen'.",
+    "D3 ô3: thanh chắn sượt cuộn thảm quá nhỏ; cận đuôi xe, giữ 0,6 s."
+   ]
+  },
+  {
+   "id": "d25",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "SỬA NHỎ",
+   "viec": [
+    "D7 ô1, ô3: biển Prince William Sound bị cắt mép ('Prince Wil', '…Sou'); giữ biển trọn khung ≥ 1,5 s.",
+    "D8 ô1: xe đỗ ở bến là sedan cam (mẫu d06), khác d24/d29; đổi về mẫu xe chung. (Màu cam ở ô4–ô5 là áo phao, ba lô vẫn ô liu: đạt.)"
+   ]
+  },
+  {
+   "id": "d26",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": []
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D3 ô2 (8,3 s): giọt mưa duy nhất không thấy; một giọt to rơi vào lòng bàn tay Wob, giữ 0,8 s.",
+    "D6 ô3 (12,9 s): bảng gỗ trống trong khi lời nói danh hiệu; chữ 2026 · WWII Heritage City hiện đúng 'National Park Service'."
+   ]
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 0,
+    "D9": 2,
+    "D10": 1
+   },
+   "tong": 15,
+   "ket_luan": "LÀM LẠI",
+   "viec": [
+    "D8: xe mui trần xanh dương, kẹp giữa d27 và d29 (xe hộp nâu vàng); về mẫu xe chung.",
+    "D8/D10: đêm tháng Bảy nhưng nền trắng như tuyết (ô1, ô4, ô6), đọc thành mùa đông; đổi nền cỏ xanh sẫm, đường nhựa đêm hè như d29.",
+    "D3 ô6: 'mái nhà' đội đầu vẽ thành nón lá hình chóp; vẽ mái nhà có ống khói. ô2: máy bay bịt mắt không thấy dải bịt; vẽ rõ."
+   ]
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": [
+    "D8: cổng hầm theo mẫu d24, không phải d01; khi d24 dựng lại theo d01 thì d29 phải đổi theo (cổng, đèn bên trái) và cùng mẫu xe chung. Vùng end screen (x > 1150, y > 560) từ 10,2 s của đoạn: chỉ có đèn, cổng, không chữ: đạt."
+   ]
+  }
+ ],
+ "dem": {
+  "ĐẠT": 13,
+  "SỬA NHỎ": 11,
+  "LÀM LẠI": 5
+ },
+ "dong_hinh": "ffmpeg freezedetect (n=0.002, d=2 s) trên 29 doan.mp4: không đoạn nào đứng hình ≥ 2 s (kiem_dong_hinh.py không có trong repo)"
+}

@@ -1,0 +1,213 @@
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "The reciprocal arrangement with St Andrews Links Trust was granted in 2004 and permits Coober Pedy members to play at the Balgove Course in Scotland.",
+"sources": [
+{
+"title": "Outback Aussie dirt golf course can claim this one-of-a-kind arrangement with St. Andrews",
+"publisher": "Golf Digest",
+"url": "https://www.golfdigest.com/story/st-andews-links-trust-reciprocal-with-coober-pedy-opal-course-mines",
+"type": "bao",
+"published": "2024-08-21"
+},
+{
+"title": "Golf SA Community Instructor training in Coober Pedy",
+"publisher": "Golf Australia",
+"url": "https://archive.golf.org.au/2021/02/golf-sa-community-instructor-training-in-coober-pedy/",
+"type": "goc",
+"published": "2015-06-25"
+},
+{
+"title": "Golf tourism",
+"publisher": "Tourism South Australia",
+"url": "https://tourism.sa.gov.au/support/industry-resources-and-tools/sector-development/golf-tourism",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": null,
+"note": "Golf Digest reported that no St Andrews Links Trust course members were known to have played at Coober Pedy under the reciprocal arrangement.",
+"sources": [
+{
+"title": "Outback Aussie dirt golf course can claim this one-of-a-kind arrangement with St. Andrews",
+"publisher": "Golf Digest",
+"url": "https://www.golfdigest.com/story/st-andews-links-trust-reciprocal-with-coober-pedy-opal-course-mines",
+"type": "bao",
+"published": "2024-08-21"
+}
+]
+},
+{
+"id": "C27",
+"verdict": "dung",
+"correct_value": "Approximately 8–10 hours by car, depending on driving conditions and stops.",
+"note": "The official Coober Pedy visitor information gives an 8–10-hour journey from Adelaide, consistent with approximately nine hours.",
+"sources": [
+{
+"title": "Getting Here and Getting Around",
+"publisher": "Coober Pedy SA",
+"url": "https://www.cooberpedy.com/getting-here-and-around/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Getting to Coober Pedy",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/explore-coober-pedy/visitor-information-and-resources/getting-to-coober-pedy",
+"type": "goc",
+"published": null
+},
+{
+"title": "Adelaide to Coober Pedy - 3 ways to travel via plane, bus, and car",
+"publisher": "Rome2Rio",
+"url": "https://www.rome2rio.com/s/Adelaide/Coober-Pedy",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": "Approximately 60 metres deep and 23–25 km north-east of Coober Pedy.",
+"note": "Council and parliamentary sources support the 60-metre depth and 23-km distance, while council water information and regulatory documents give approximately 25 km.",
+"sources": [
+{
+"title": "District Council of Coober Pedy Annual Report 2022–23",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0030/1522389/DCCP-Annual-Report-22-23-for-Publishing.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Water Information",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/water/water-information",
+"type": "goc",
+"published": null
+},
+{
+"title": "Wednesday 23 March 2011",
+"publisher": "Parliament of South Australia",
+"url": "https://hansardsearch.parliament.sa.gov.au/daily/uh/2011-03-23/pdf/download",
+"type": "goc",
+"published": "2011-03-23"
+},
+{
+"title": "Compliance review report – District Council of Coober Pedy",
+"publisher": "Essential Services Commission of South Australia",
+"url": "https://www.escosa.sa.gov.au/ArticleDocuments/21640/20210205-Electricity-Water-ComplianceReviewReport-DistrictCouncilCooberPedy.pdf.aspx?Embed=Y",
+"type": "goc",
+"published": "2021-02-05"
+}
+]
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": "Reverse-osmosis desalination plant operating since 1985.",
+"note": "The historical account and South Australian parliamentary records confirm that the reverse-osmosis desalination plant was installed in 1985.",
+"sources": [
+{
+"title": "About Coober Pedy",
+"publisher": "Coober Pedy SA",
+"url": "https://www.cooberpedy.com/about-coober-pedy-2/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Wednesday 23 March 2011",
+"publisher": "Parliament of South Australia",
+"url": "https://hansardsearch.parliament.sa.gov.au/daily/uh/2011-03-23/pdf/download",
+"type": "goc",
+"published": "2011-03-23"
+},
+{
+"title": "2021–22 Annual Business Plan",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0035/949454/ABP-and-Budget-2021-22-Adopted.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C30",
+"verdict": "dung",
+"correct_value": "Approximately 30–50% of water lost through leakage and bursts.",
+"note": "InDaily reported the 30–50% estimate in August 2022, attributing it to council administrator Tim Jackson and the ageing water infrastructure.",
+"sources": [
+{
+"title": "Locals invited to have say on Coober Pedy future",
+"publisher": "InDaily",
+"url": "https://www.indailysa.com.au/news/archive/2022/08/23/locals-invited-to-have-say-on-coober-pedy-future",
+"type": "bao",
+"published": "2022-08-23"
+},
+{
+"title": "Traumatic: Administrator’s plea for Coober Pedy fix",
+"publisher": "InDaily",
+"url": "https://www.indailysa.com.au/news/archive/2022/08/17/traumatic-administrators-plea-for-coober-pedy-fix",
+"type": "bao",
+"published": "2022-08-17"
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": "Coober Pedy was the only South Australian council responsible for delivering both water and electricity. Water services are scheduled to transfer to SA Water in December 2026.",
+"note": "InDaily explicitly identifies Coober Pedy as the only SA council delivering both services, and SA Water's November 2026 update confirms the planned December water-service transfer.",
+"sources": [
+{
+"title": "Regional SA council election up in the air",
+"publisher": "InDaily",
+"url": "https://www.indailysa.com.au/news/just-in/2026/10/02/regional-sa-council-election-up-in-the-air",
+"type": "bao",
+"published": "2026-10-02"
+},
+{
+"title": "2025–2026 Annual Business Plan",
+"publisher": "District Council of Coober Pedy",
+"url": "https://www.cooberpedy.sa.gov.au/__data/assets/pdf_file/0034/1831876/Annual-Business-Plan-2025-26-adopted-20250625.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Becoming an SA Water customer – November Update",
+"publisher": "SA Water",
+"url": "https://hdp-au-prod-app-saw-watertalks-files.s3.ap-southeast-2.amazonaws.com/6017/9453/5464/November_Update-_Coober_Pedy_Water_Transition_.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Coober Pedy Water Transition",
+"publisher": "SA Water",
+"url": "https://watertalks.sawater.com.au/coober-pedy-water-transition",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "dung",
+"correct_value": null,
+"note": "SafeWork SA explicitly warns about unmarked, unprotected and concealed mine shafts, including openings covered with corrugated iron, thin metal mesh and excavated dirt or mullock.",
+"sources": [
+{
+"title": "Mind your step in opal fields",
+"publisher": "SafeWork SA",
+"url": "https://safework.sa.gov.au/news-and-alerts/safety-alerts/incident-alerts/2024/mind-your-step-in-opal-fields",
+"type": "goc",
+"published": "2024-02-07"
+}
+]
+}
+]

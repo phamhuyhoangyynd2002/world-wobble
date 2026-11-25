@@ -28,7 +28,7 @@ Lấy từ `out/seo.md`: tiêu đề chính, mô tả (toàn văn), thẻ, bình
 
 ## 3. Tải video lên (người làm kênh làm)
 
-Browser MCP không gắn được file từ 50 MB, còn video 10–15 phút nặng vài trăm MB. Nhờ người làm kênh: mở YouTube Studio đúng kênh World Wobble → Create → Upload videos → kéo `out/video.mp4` vào → báo lại khi hộp "Details" hiện ra. Chờ, không làm gì khác trong lúc đó. TODO: nếu sau này bật YouTube Data API (OAuth), thay bước này bằng script tải lên.
+Video để kéo vào YouTube Studio nằm ở `D:/YouTube/world-wobble/video/tap-NN-<slug>/video.mp4` (sau `luu_o_d.py --giao`); `out/VIDEO-O-DIA-D.md` của dự án ghi đường dẫn. Browser MCP không gắn được file từ 50 MB, còn video 10–15 phút nặng vài trăm MB. Nhờ người làm kênh: mở YouTube Studio đúng kênh World Wobble → Create → Upload videos → kéo `out/video.mp4` vào → báo lại khi hộp "Details" hiện ra. Chờ, không làm gì khác trong lúc đó. TODO: nếu sau này bật YouTube Data API (OAuth), thay bước này bằng script tải lên.
 
 ## 4. Điền chi tiết (Claude, qua Browser MCP)
 

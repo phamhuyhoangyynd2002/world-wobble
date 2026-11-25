@@ -19,7 +19,7 @@ Trong 5 giây đầu, người xem phải tự trả lời được ba câu:
 
 ## Điều kiện trước
 
-- Dự án có `out/video.mp4` bản cuối và `timeline.json` khớp video đó (video hoạt hình: đã chạy `xuat_timeline.py` của `dung-hoat-hinh`, vì `build_timeline.py` lệch mốc).
+- Dự án có `out/video.mp4` bản cuối (tập đã giao: video ở `D:/YouTube/world-wobble/video/tap-NN-<slug>/video.mp4`, xem `out/VIDEO-O-DIA-D.md`; clip dọc xuất ra cùng thư mục đó, thư mục con `clip-doc/`) và `timeline.json` khớp video đó (video hoạt hình: đã chạy `xuat_timeline.py` của `dung-hoat-hinh`, vì `build_timeline.py` lệch mốc).
 - `out/bao-cao-xac-thuc.md` kết luận ĐẠT: clip chỉ dùng lời đọc đã kiểm chứng.
 - FFmpeg có libass, Chrome hoặc Edge, Python có Pillow.
 

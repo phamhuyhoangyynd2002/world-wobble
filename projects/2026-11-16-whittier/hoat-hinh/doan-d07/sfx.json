@@ -1,0 +1,22 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "hoi-nuoc",
+  "tai": 0.2,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "ka-ching",
+  "tai": 1.938,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "pop",
+  "tai": 4.488,
+  "am_luong": 0.4
+ }
+]

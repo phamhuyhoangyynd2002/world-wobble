@@ -1,0 +1,147 @@
+[
+{
+"id": "C25",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Academic research documents movement and family connections between Santa Cruz del Islote, Tintipán and Múcura, while Semana documents students' difficulties and aspirations to study elsewhere; however, I found no reliable evidence establishing that residents moved specifically because of the island's small size or confirming the full claim.",
+"sources": [
+{
+"title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Universidad Santo Tomás",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "goc",
+"published": "2023-08-01"
+},
+{
+"title": "Fotorreportaje: El primer prom de Santa Cruz del Islote",
+"publisher": "Semana",
+"url": "https://www.semana.com/fotorreportaje-el-primer-prom-de-santa-cruz-del-islote/750/",
+"type": "bao",
+"published": "2019-01-09"
+}
+]
+},
+{
+"id": "C26",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Semana documents young residents aspiring to study elsewhere and one former student who had studied in Barranquilla, but it does not establish that many students subsequently return to live on the island.",
+"sources": [
+{
+"title": "Fotorreportaje: El primer prom de Santa Cruz del Islote",
+"publisher": "Semana",
+"url": "https://www.semana.com/fotorreportaje-el-primer-prom-de-santa-cruz-del-islote/750/",
+"type": "bao",
+"published": "2019-01-09"
+},
+{
+"title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Universidad Santo Tomás",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "goc",
+"published": "2023-08-01"
+}
+]
+},
+{
+"id": "C27",
+"verdict": "mau-thuan",
+"correct_value": "Tourism has increasingly replaced traditional fishing as the principal economic activity; settlement began in the late 19th century.",
+"note": "Fishing historically sustained the community and tourism provides growing income, but EL PAÍS explicitly reports that tourism has replaced traditional fishing, contradicting the claim that fishing remains the main livelihood; the approximately 150-year settlement history is broadly consistent with academic research.",
+"sources": [
+{
+"title": "Protecting the world’s most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Universidad Santo Tomás",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "goc",
+"published": "2023-08-01"
+},
+{
+"title": "Tesis sobre el turismo en el archipiélago de San Bernardo",
+"publisher": "FLACSO Andes",
+"url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/17572/2/TFLACSO-2021SPAN.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Resilience in Santa Cruz del Islote: Sustainability of a Social-Ecological System in the Colombian Caribbean",
+"publisher": "Universidad Autónoma de San Luis Potosí",
+"url": "https://repositorioinstitucional.uaslp.mx/xmlui/handle/i/3603",
+"type": "goc",
+"published": "2013-07-01"
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": "Deceased residents are buried in the cemetery on neighbouring Tintipán.",
+"note": "Academic research and Colombian government planning documentation confirm that Santa Cruz del Islote has no cemetery and that burials take place on Tintipán.",
+"sources": [
+{
+"title": "POT Cartagena de Indias: Dimensión funcional",
+"publisher": "Secretaría de Planeación Distrital de Cartagena",
+"url": "https://pot.cartagena.gov.co/sites/default/files/2025-09/Funcional.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Universidad Santo Tomás",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "goc",
+"published": "2023-08-01"
+},
+{
+"title": "Protecting the world’s most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+}
+]
+},
+{
+"id": "C29",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Academic research confirms that residents artificially expanded the island using solid waste, shells and coral blocks, and EL PAÍS confirms periodic Navy deliveries of drinking water; erosion is documented in the wider archipelago, but I could not establish reliable evidence confirming the complete claim about flooding and sea erosion specifically affecting Santa Cruz del Islote.",
+"sources": [
+{
+"title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Universidad Santo Tomás",
+"url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
+"type": "goc",
+"published": "2023-08-01"
+},
+{
+"title": "Protecting the world’s most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "Santa Cruz del Islote, Bolívar",
+"publisher": "Instituto Geográfico Agustín Codazzi",
+"url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Impactos: erosión y cambios en el territorio insular",
+"publisher": "Red Prensa Verde",
+"url": "https://redprensaverde.org/tag/impactos/",
+"type": "bao",
+"published": null
+}
+]
+}
+]

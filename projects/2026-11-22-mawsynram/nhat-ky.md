@@ -1,0 +1,7 @@
+# Nhật ký – Mawsynram
+
+- 22/11/2026 · Bước 0: Claude chọn Mawsynram cho tập 7 (danh sách dự phòng tập 6–10), theo yêu cầu người làm kênh viết kịch bản tập 3–10 (phiên Claude trên web, ảnh tạo sau). Tạo brief.md. Kế hoạch tổng: docs/ke-hoach-tap-3-10-2026-11-22.md.
+- 22/11/2026 · Bước 1a: research.md (14 nguồn; nguồn gốc: WMO, NASA JPL, Bộ Văn hoá Ấn Độ, UNDP, All India Radio; báo: AFP, Al Jazeera, India Water Portal, The Diplomat). Kỷ lục "nơi mưa nhiều nhất" có tranh cãi (Cherrapunji, Colombia): kịch bản dùng "by some accounts" + kỷ lục châu Á của WMO.
+- 22/11/2026 · Bước 1: script.json (kỷ vật chiếc tất không bao giờ khô): 12 cảnh, 6 chương thân (so-sanh-doi-thuong, doan-sai-roi-lat, thu-hong-hieu, phong-quy-mo, mot-ngay-o-day, hai-mua), ~10 phút, 25 khẳng định (2 hedged). Wob đổi ý 2 lần; phán quyết NOPE (lỗi ở Wob). anh_ai: 5 chính, 4 phụ (1 ghi_de). validate: 0 lỗi, 0 cảnh báo.
+- 22/11/2026 · Tự phản biện: bản đồ chỉ khung Meghalaya–Bangladesh–vịnh Bengal (không vẽ toàn Ấn Độ); cầu rễ nói rõ là ở các làng Khasi–Jaintia phía nam, không phải trong Mawsynram; lời người dân chỉ lấy từ AFP; bỏ một đoạn hư cấu Wob nói chuyện với một phụ nữ địa phương (tránh bịa cuộc gặp người thật).
+- 22/11/2026 · Sửa cảnh mở (theo yêu cầu đánh giá kỹ cảnh đầu; bản cũ: script.v1.json): hook mở bằng tình huống (phơi tất từ tháng sáu vẫn ẩm); câu dè dặt vụng "By some accounts, it came from…" viết lại cho rõ. Lời hứa 109 → 78 từ; tên các nơi tranh danh hiệu (Cherrapunji, Colombia) chuyển sang cảnh 3, đăng ký thành khẳng định riêng. validate: 0 lỗi.

@@ -1,0 +1,1600 @@
+{
+  "title": "The Tiny Island People Chose Because It Had No Mosquitoes",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Santa Cruz del Islote",
+    "country": "Colombia",
+    "lat": 9.786,
+    "lon": -75.859
+  },
+  "question": "Why do people live on Santa Cruz del Islote?",
+  "message": "This video tells curious adults that people crowded onto one of the smallest islands off Colombia's Caribbean coast for a very ordinary reason, rest from the sea and no mosquitoes, and then built the island bigger with their own hands.",
+  "angle": "People live on Santa Cruz del Islote because fishermen found a mosquito-free rock in the middle of their fishing grounds and built it into a home with coral and stone, and family, fishing and tourism keep them there, despite drinking water that comes by boat, power that depends on a generator and solar panels, and a sea that keeps creeping into the houses.",
+  "hook_type": "cau-hoi",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-islote": "Bản đồ D3 khung bờ biển Caribe của Colombia, tô COL, ghim Santa Cruz del Islote 9.786, -75.859 ở nửa phải khung; nhãn 'Santa Cruz del Islote'",
+    "map-san-bernardo": "Bản đồ cận vịnh Morrosquillo và quần đảo San Bernardo: ghim Cartagena 10.391, -75.479, Tolú 9.524, -75.582, đảo; đường nét đứt thuyền; nhãn '~2 h by boat'; đảo Múcura 'approx.'"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "The Spray I Never Opened",
+      "lop": "hien-tai",
+      "role": "hook (câu hỏi trước): chọn hòn đảo nhỏ nhất? họ đã chọn; bình xịt muỗi còn niêm phong là manh mối",
+      "narration": "On a coast with plenty of roomier islands, would you pick the smallest one? These people did. This is my mosquito spray. Still full. Still sealed. Remember that.",
+      "pronunciation": "Santa Cruz del Islote: SAN-tah KROOS del ees-LOH-teh",
+      "on_screen_text": "WHY THE SMALLEST ISLAND?",
+      "y_hinh": [
+        {
+          "cue": "would you pick the smallest one",
+          "y": "Trang sổ mở bản đồ bờ biển Colombia: nhiều đảo xanh rộng, một chấm nhỏ xíu ở nửa phải khung"
+        },
+        {
+          "cue": "These people did",
+          "y": "Chấm nhỏ phóng to: mái nhà san sát kín cả đảo"
+        },
+        {
+          "cue": "This is my mosquito spray",
+          "y": "Cắt về bàn kỷ vật dưới đèn; Wob giơ lọ xịt muỗi, nhãn còn niêm phong"
+        },
+        {
+          "cue": "Still sealed",
+          "y": "Wob lắc lọ, gõ vào nắp",
+          "gag": "Nắp không nhúc nhích; Wob nhìn người xem, giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-islote",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "These people did",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "would you pick the smallest one",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "These people did",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Remember that",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên đảo, mật độ (dè dặt), ba manh mối: ngủ, cá, kẻ thù tí hon; Wob muốn thử sống; ba lô to (gài cho chương 2)",
+      "narration": "The island is Santa Cruz del Islote, off Colombia's Caribbean coast. Newspapers often call it one of the most densely populated islands in the world, although estimates vary on how many people actually live here. The reason turned out to be wonderfully ordinary: sleep, fish and a very small enemy. I wanted to know if I could live there too, and whether I would fit. I packed a huge backpack. That was my first mistake.",
+      "y_hinh": [
+        {
+          "cue": "off Colombia's Caribbean coast",
+          "y": "Wob trỏ vào bản đồ trên trang sổ"
+        },
+        {
+          "cue": "most densely populated",
+          "y": "Wob nhét từng người que giấy vào một nắp chai, chật kín"
+        },
+        {
+          "cue": "a very small enemy",
+          "y": "Wob đặt lên bàn một con muỗi giấy nhỏ xíu"
+        },
+        {
+          "cue": "I packed a huge backpack",
+          "y": "Wob kéo ra một ba lô to gấp ba người mình",
+          "gag": "Ba lô đổ nghiêng đè Wob xuống bàn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-islote",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-caribbean-islets",
+          "cue": "The reason turned out",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "sleep, fish and a very small enemy",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The island is Santa Cruz del Islote",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "wonderfully ordinary",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "That was my first mistake",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "How Small Is Small?",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 1: từ một ngôi nhà tới cả đảo; đảo nhỏ cỡ nào",
+      "narration": "The boat from Cartagena takes about two hours. I sat at the front and got splashed the whole way. I held the backpack on my lap like a nervous dog. The dog got splashed too. From a distance, the island looks like a pile of houses floating on the sea, as if someone forgot to draw the land. Up close, there is land. Just not much. The island covers about one hectare. That's about two soccer fields. On it are around a hundred houses, mostly one storey, a school, a restaurant and a small square with a cross. The cross gave the island its name. There are no roads and no cars. There is nowhere for a car to go. I looked for a place to put my bag down. I am still looking.",
+      "facts": [
+        {
+          "label": "Island",
+          "value": "~1 ha · 2 soccer fields",
+          "claim_ids": [
+            "C04"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "The boat from Cartagena",
+          "y": "Wob ngồi mũi thuyền gỗ nhỏ, nước xanh ngọc"
+        },
+        {
+          "cue": "as if someone forgot to draw the land",
+          "y": "Từ xa: các mái nhà màu sắc như nổi trên mặt nước",
+          "gag": "Một cây bút chì khổng lồ thò vào khung, vẽ vội một dải đất dưới đống nhà"
+        },
+        {
+          "cue": "Just not much",
+          "y": "Camera bắt đầu từ một ô cửa sơn xanh, lùi ra: dãy nhà, lối đi hẹp, quảng trường có cây thánh giá, rồi cả đảo giữa biển"
+        },
+        {
+          "cue": "There is nowhere for a car to go",
+          "y": "Bong bóng tưởng tượng: một chiếc xe đồ chơi chạy được hai giây thì lao xuống nước"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-san-bernardo",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "From a distance",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-lane",
+          "cue": "On it are around a hundred houses",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "There are no roads",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The boat from Cartagena",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Just not much",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "There is nowhere for a car",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "Wob đi vòng đảo; ba lô kẹt giữa hai nhà (mồi lại, nhạc hài)",
+      "music_mood": "hai",
+      "narration": "I decided to walk around the island before lunch. I finished before I was hungry. Then I tried a shortcut between a pair of houses. My backpack tried it too. Only one of us made it through. A kid walked past, looked at me, looked at the backpack, and kept walking with the kind of politeness that hurts. I took the backpack off and carried it in front of me like a sofa. Lesson for this island: bring less. Then bring less again. By lunchtime, the backpack and I were no longer speaking.",
+      "y_hinh": [
+        {
+          "cue": "I finished before I was hungry",
+          "y": "Wob đi bộ nhanh một vòng quanh mép đảo, trở lại đúng chỗ cũ",
+          "gag": "Đồng hồ trên tay Wob kim chưa kịp nhích; Wob gõ gõ vào đồng hồ"
+        },
+        {
+          "cue": "Only one of us made it through",
+          "y": "Wob lọt qua khe giữa hai bức tường sơn màu; ba lô kẹt lại phía sau",
+          "gag": "Take chậm: Wob bước tiếp, bị giật ngược lại, nhìn ra sau, rồi mới hiểu"
+        },
+        {
+          "cue": "A kid walked past",
+          "y": "Một người que nhỏ đi ngang, quay đầu nhìn, đi tiếp"
+        },
+        {
+          "cue": "like a sofa",
+          "y": "Wob ôm ba lô trước ngực, nghiêng người đi ngang qua lối hẹp"
+        }
+      ],
+      "que": [
+        {
+          "cue": "A kid walked past",
+          "hanh_dong": "di-bo",
+          "tu": "phai",
+          "so_luong": 1,
+          "giu": 3
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-lane",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-lane",
+          "cue": "Then I tried a shortcut",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-islote-lane",
+          "cue": "I took the backpack off",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I decided to walk",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Only one of us made it through",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Lesson for this island",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "The Mosquito Reason",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán sai (kho báu, view) → lý do thật: chỗ nghỉ giữa ngư trường, không muỗi",
+      "narration": "So why here? I had a theory. Treasure. A small island, a long time ago, surely somebody buried something. I asked about treasure. Nobody had any. I checked under a loose stone. Under the stone was more island. I checked under that. Still island. Then I asked about the past, and the story I got was much better. About a hundred and fifty years ago, this was a bare little island with nobody on it. Fishermen working these waters used it to rest and to hide from storms. And then, as locals tell it, they noticed something strange. Night came, and nothing bit them.",
+      "y_hinh": [
+        {
+          "cue": "I had a theory. Treasure",
+          "y": "Sơ đồ vẽ tay: Wob vẽ chữ X trên hình hòn đảo, mũi tên, rương báu"
+        },
+        {
+          "cue": "Nobody had any",
+          "y": "Wob cầm xẻng nhựa đứng trên nền xi măng",
+          "gag": "Xẻng cong oặt khi chạm nền xi măng; Wob giấu xẻng sau lưng"
+        },
+        {
+          "cue": "a bare little island with nobody on it",
+          "y": "Cắt giấy: hòn đảo đá trơ trụi giữa biển, sóng vỗ"
+        },
+        {
+          "cue": "nothing bit them",
+          "y": "Đêm: ngư dân que nằm ngủ trên đá, sao trên trời; một con muỗi giấy bay tới rồi quay đầu bỏ đi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-aerial",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-bare-islet",
+          "cue": "About a hundred and fifty years ago",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-bare-islet",
+          "cue": "Night came",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I had a theory",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Nobody had any",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "nothing bit them",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế: không bãi cát, không rừng ngập mặn nên ít muỗi; đắp đảo bằng san hô, đá",
+      "narration": "Here is why that matters. The neighbouring islands have mangroves and beaches, the kind of wet, quiet places mosquitoes love. This island had neither. Locals say that is why the mosquitoes stayed away. Picture a party where every guest is invited except the one who always bites. You would stay at that party too. So the fishermen stayed. And because the island was small, they made it bigger. They piled up coral, stone, shells and things the sea brought them, and later cement, and the island grew. Some of the ground I walked on had been built by somebody's great-grandfather.",
+      "y_hinh": [
+        {
+          "cue": "the kind of wet, quiet places mosquitoes love",
+          "y": "Đảo bên cạnh: rừng ngập mặn, đàn muỗi giấy nhảy múa như ở vũ trường"
+        },
+        {
+          "cue": "Picture a party",
+          "y": "Bong bóng tưởng tượng vẽ tay: bữa tiệc, cửa có tấm biển gạch chéo hình con muỗi",
+          "gag": "Con muỗi đội mũ tiệc đứng ngoài cửa, gõ cửa, không ai mở"
+        },
+        {
+          "cue": "They piled up coral, stone, shells",
+          "y": "Cắt giấy: những bàn tay que xếp từng tảng đá, san hô, vỏ sò ra mép nước"
+        },
+        {
+          "cue": "somebody's great-grandfather",
+          "y": "Wob cúi nhìn nền đất dưới chân, gõ nhẹ như gõ cửa"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-mangrove-islet",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-mangrove-islet",
+          "cue": "Picture a party",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-bare-islet",
+          "cue": "They piled up coral",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-islote-lane",
+          "cue": "Some of the ground I walked on",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here is why that matters",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "You would stay at that party",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "somebody's great-grandfather",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "Wob tự kiểm chứng chuyện không muỗi bằng cách ngồi làm mồi; hệ quả (mồi lại)",
+      "music_mood": "hai",
+      "narration": "I did not take the story on trust. That evening I sat on the edge of the island with one arm stretched out over the water, like bait. On the next island, I could practically hear the mosquitoes planning dinner. Here, nothing. I waited. I waved the arm a little, to be more appetising. Still nothing. At midnight I gave up and went to bed with the spray in my hand, unopened, like a sword I never had to use. In the morning I checked my arm. Not a single bump. I have never been so offended to be ignored.",
+      "y_hinh": [
+        {
+          "cue": "one arm stretched out over the water, like bait",
+          "y": "Đêm: Wob ngồi mép đảo, một tay chìa ra như cần câu, trăng trên biển"
+        },
+        {
+          "cue": "planning dinner",
+          "y": "Đảo bên kia: bầy muỗi giấy tụ quanh một tờ thực đơn",
+          "gag": "Một con muỗi chỉ về phía Wob, cả bầy lắc đầu, lật sang trang khác"
+        },
+        {
+          "cue": "I waved the arm a little",
+          "y": "Wob vẫy tay mời gọi",
+          "gag": "Ba lần vẫy: lần một nhẹ, lần hai mạnh hơn, lần ba Wob giơ cả biển chữ 'FREE DINNER'"
+        },
+        {
+          "cue": "like a sword I never had to use",
+          "y": "Wob nằm ngủ ôm lọ xịt muỗi trước ngực như hiệp sĩ"
+        },
+        {
+          "cue": "Not a single bump",
+          "y": "Sáng: Wob soi tay dưới kính lúp, da trơn láng; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-night",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-mangrove-islet",
+          "cue": "On the next island",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-night",
+          "cue": "At midnight I gave up",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I did not take the story on trust",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Still nothing",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "so offended to be ignored",
+          "bieu_cam": "nong-chay"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "chapter": "How Many People, Really?",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 3: con số dân dao động (mức C); so sánh đoán kẹo trong hũ",
+      "narration": "Next question. How many people live here? I assumed this would be easy on an island this size. It is not. A figure you see everywhere is about twelve hundred. A man who has lived here his whole life told CNN it was more like nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. Estimates vary, a lot. Picture a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the jar keeps changing, because people come and go by boat for work, school and family. I bought a clicker counter anyway. It did not help.",
+      "facts": [
+        {
+          "label": "Census 2018",
+          "value": "432",
+          "claim_ids": [
+            "C11"
+          ]
+        },
+        {
+          "label": "Often quoted",
+          "value": "~1,200",
+          "claim_ids": [
+            "C10"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "How many people live here",
+          "y": "Wob cầm cái bấm đếm, đứng giữa quảng trường"
+        },
+        {
+          "cue": "about twelve hundred",
+          "y": "Ba tấm biển giấy giơ lên lần lượt, mỗi tấm một con số khác nhau"
+        },
+        {
+          "cue": "Picture a jar of jelly beans",
+          "y": "Bong bóng tưởng tượng vẽ tay: hũ kẹo ở hội chợ, nhiều bàn tay que giơ phiếu đoán"
+        },
+        {
+          "cue": "people come and go by boat",
+          "y": "Hũ kẹo có cửa, kẹo đội nón lên thuyền ra vào",
+          "gag": "Wob bấm đếm loạn xạ, cái bấm đếm bốc khói"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-lane",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "Colombia's national census",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:map-san-bernardo",
+          "cue": "people come and go by boat",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Next question",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It is not",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Estimates vary, a lot",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao con số không quan trọng bằng: dân ít hay nhiều thì đảo vẫn chật; Wob đổi ý lần 1 (thích cộng đồng)",
+      "narration": "I stopped counting after a while. Whatever the real number is, the island is full, and everyone seems to know everyone. Doors stand open. Nobody hurries, because nowhere on the island is far enough away to hurry to. Kids run between houses that are almost touching. The walls are painted in bright colours, and a few years ago residents and muralists painted nine murals together across the island. I sat in the little square in the evening, next to the cross, and the whole island seemed to pass by at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I realised I had not used my spray once. I changed my mind. Maybe small is not so bad.",
+      "y_hinh": [
+        {
+          "cue": "I stopped counting",
+          "y": "Wob đặt cái bấm đếm còn bốc khói xuống ghế"
+        },
+        {
+          "cue": "Kids run between houses",
+          "y": "Người que nhỏ chạy qua lối đi giữa hai bức tường sơn màu"
+        },
+        {
+          "cue": "painted nine murals together",
+          "y": "Những bức tranh tường cá, sóng, thuyền trên tường nhà"
+        },
+        {
+          "cue": "next to the cross",
+          "y": "Quảng trường nhỏ chạng vạng, cây thánh giá, Wob ngồi trên ghế nhựa"
+        },
+        {
+          "cue": "Somebody's dinner smelled better than mine",
+          "y": "Wob cầm gói bánh quy khô, hít mùi bay qua",
+          "gag": "Làn khói mùi thơm có hình con cá vẫy đuôi trước mũi Wob rồi bay đi"
+        },
+        {
+          "cue": "I had not used my spray once",
+          "y": "Lọ xịt muỗi trong túi, nắp vẫn niêm phong"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Kids run between houses",
+          "hanh_dong": "chay",
+          "tu": "trai",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-lane",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-islote-square",
+          "cue": "I sat in the little square",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-square",
+          "cue": "I changed my mind",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I stopped counting",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Somebody's dinner",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I changed my mind",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "Water Arrives by Boat",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 4: một ngày: ngư dân ra khơi, điện lai, nước ngọt chở tới",
+      "narration": "I spent a full day watching how the island runs. Early morning: the boats go out. Fishing is still how most families here make a living. Mid-morning: I went looking for a tap. There is no natural fresh water on an island built from coral. The Colombian Navy has brought drinking water by boat to these islands. A bank even donated a machine that pulls drinking water out of the humid air, which sounds like magic and is actually condensation. Doctors come by boat too. On a health brigade organised with the maritime authority in twenty twenty-three, they saw six hundred and thirteen people here in one visit. Noon: I drank my water very slowly.",
+      "y_hinh": [
+        {
+          "cue": "the boats go out",
+          "y": "Bình minh: thuyền gỗ nhỏ rời bến, mặt nước hồng"
+        },
+        {
+          "cue": "I went looking for a tap",
+          "y": "Wob cầm cốc rỗng gõ cửa từng nhà",
+          "gag": "Wob vặn một cái vòi tưởng tượng giữa không trung, chẳng có gì chảy ra, Wob nhìn cốc"
+        },
+        {
+          "cue": "brought drinking water by boat",
+          "y": "Thuyền xám chở những thùng nước xanh cập bến"
+        },
+        {
+          "cue": "pulls drinking water out of the humid air",
+          "y": "Cỗ máy hình hộp, những giọt nước đọng lăn xuống bình"
+        },
+        {
+          "cue": "Doctors come by boat too",
+          "y": "Thuyền chở bác sĩ que cầm túi y tế cập bến, hàng người que xếp hàng"
+        },
+        {
+          "cue": "I drank my water very slowly",
+          "y": "Wob nhấp từng giọt bằng ống hút nhỏ"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-boats",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-lane",
+          "cue": "Mid-morning",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-boats",
+          "cue": "The Colombian Navy",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Early morning",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "There is no natural fresh water",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I drank my water very slowly",
+          "bieu_cam": "nong-chay"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp một ngày: điện lai mặt trời-diesel, du khách, việc làm ở đảo bên cạnh",
+      "narration": "Afternoon: power. In twenty twenty-one Colombia's energy ministry installed a hybrid plant here, solar panels plus a diesel generator, with a battery bank to keep the lights on. Late afternoon: visitors. Tourism matters more and more, and speedboats bring day trippers from the resorts on nearby islands. According to one Argentine newspaper, that means around five hundred visitors a day. Some people from here work at those resorts. Evening: the boats come back with fish. By night, I understood. This is not a place people ended up in by accident. It is a working island, and every part of the day has a boat in it.",
+      "y_hinh": [
+        {
+          "cue": "Afternoon: power",
+          "y": "Mái nhà có tấm pin mặt trời lấp lánh, một nhà máy nhỏ có ống khói diesel"
+        },
+        {
+          "cue": "with a battery bank",
+          "y": "Dãy ắc quy xếp hàng như lính",
+          "gag": "Wob cắm sạc điện thoại vào, ắc quy cuối hàng liếc nhìn Wob"
+        },
+        {
+          "cue": "speedboats bring day trippers",
+          "y": "Cano trắng cập bến, người que đội mũ đi lên"
+        },
+        {
+          "cue": "the boats come back with fish",
+          "y": "Hoàng hôn: thuyền gỗ về bến, thùng cá"
+        },
+        {
+          "cue": "It is a working island",
+          "y": "Toàn cảnh đảo lên đèn trên mặt biển tối"
+        }
+      ],
+      "que": [
+        {
+          "cue": "speedboats bring day trippers",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-aerial",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-boats",
+          "cue": "Late afternoon: visitors",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-islote-night",
+          "cue": "By night, I understood",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Afternoon: power",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Late afternoon: visitors",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It is a working island",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "chapter": "The Sea Comes Indoors",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 5: Wob ngủ võng gần mép nước, thức dậy với nước dưới chân; biển dâng; Wob đổi ý lần 2",
+      "music_mood": "khac-nghiet",
+      "narration": "That night I hung a hammock near the edge of the island, because I wanted to fall asleep to the sound of the waves. It worked. I fell asleep to the sound of the waves. I woke up to the feel of the waves. The sea had come up and was standing politely under my hammock, like a guest who arrived early. I pulled my legs up into the hammock. My backpack, on the floor, did not have that option.",
+      "y_hinh": [
+        {
+          "cue": "I hung a hammock",
+          "y": "Wob mắc võng giữa hai cột gỗ sát mép nước, trăng trên biển"
+        },
+        {
+          "cue": "I woke up to the feel of the waves",
+          "y": "Sáng: mặt nước dâng ngang mặt nền, liếm dưới võng",
+          "gag": "Take chậm: Wob mở một mắt, nhìn xuống, nhắm lại, rồi bật dậy"
+        },
+        {
+          "cue": "like a guest who arrived early",
+          "y": "Mặt nước có đôi mắt vẽ tay, lễ phép đứng chờ"
+        },
+        {
+          "cue": "did not have that option",
+          "y": "Ba lô nổi lềnh bềnh trôi chậm ra cửa",
+          "gag": "Wob với tay, ba lô trôi xa thêm một chút đúng lúc đó"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-night",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-flood",
+          "cue": "I woke up",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-islote-flood",
+          "cue": "My backpack, on the floor",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "That night I hung a hammock",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I woke up to the feel",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "did not have that option",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế: quần đảo chỉ cao ~2 m; xói mòn; biển dâng toàn cầu; đây là chuyện thật của người dân",
+      "narration": "For the people here, that is not a funny story. The Guardian reported that islanders sometimes wake to find water in their homes. These islands sit on average only about two metres above the water. That's about six feet. A local report in twenty fourteen found erosion along roughly forty-five percent of the archipelago's coastline. One nearby island, about one hectare, disappeared completely. Global sea levels are expected to rise by up to thirty centimetres by twenty fifty. Imagine a table standing in a bathtub, and someone keeps the tap running. I sat with my wet backpack and thought about it for a long time. A hammock story is funny once. Living with it every high tide is not a joke at all. I changed my mind back.",
+      "y_hinh": [
+        {
+          "cue": "that is not a funny story",
+          "y": "Wob ở hiện tại đặt chiếc ba lô ướt lên bàn, giọng thấp hơn"
+        },
+        {
+          "cue": "only about two metres above the water",
+          "y": "Mặt cắt vẽ tay: đảo như cái bàn thấp, mực nước sát mép"
+        },
+        {
+          "cue": "disappeared completely",
+          "y": "Trang sổ: một chấm đảo nhỏ bị tẩy dần đi",
+          "gag": "Cục tẩy dừng lại, ngập ngừng, nhìn sang chấm Santa Cruz, rồi quay đi"
+        },
+        {
+          "cue": "Imagine a table standing in a bathtub",
+          "y": "Bong bóng tưởng tượng: cái bàn trong bồn tắm, vòi nước chảy, mực nước dâng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-flood",
+          "move": "still"
+        },
+        {
+          "show": "asset:map-san-bernardo",
+          "cue": "A local report",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "Global sea levels",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "that is not a funny story",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "disappeared completely",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I changed my mind back",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "chapter": "Why They Stay",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 6: các chuyến thuyền hằng ngày; vì sao người ta vẫn ở: gia đình, nghề, cộng đồng",
+      "narration": "So why not move to the mainland, or to a bigger island? On my last day I followed the boats on a map in my notebook. One line went out to the fishing grounds. One went to a resort island next door, carrying people to work. One went toward the coast, for supplies and schools. Every line came back. Over generations some people have moved to neighbouring islands, and young people leave to study. Plenty of them come back. For many families, this is where the fish are, where the work is, and where every neighbour is family or nearly family. One more thing. There is no room here for a cemetery. People are buried on another island. Even that, they have found a way to carry.",
+      "y_hinh": [
+        {
+          "cue": "I followed the boats on a map in my notebook",
+          "y": "Trang sổ bản đồ, ba đường nét đứt màu khác nhau toả ra từ chấm đảo"
+        },
+        {
+          "cue": "carrying people to work",
+          "y": "Thuyền giấy nhỏ chạy theo nét đứt tới đảo có khách sạn"
+        },
+        {
+          "cue": "Every line came back",
+          "y": "Cả ba đường vòng về chấm đảo",
+          "gag": "Thuyền giấy của Wob chạy lạc ra mép trang, quay đầu lóng ngóng trở về"
+        },
+        {
+          "cue": "There is no room here for a cemetery",
+          "y": "Trang sổ lặng: một đường nét đứt mảnh chạy sang đảo khác, một bông hoa giấy"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-san-bernardo",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-islote-boats",
+          "cue": "One went to a resort island",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-islote-aerial",
+          "cue": "For many families",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-caribbean-islets",
+          "cue": "There is no room here for a cemetery",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why not move",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Every line came back",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "There is no room here",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "outro",
+      "chapter": "Would My Backpack Fit?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết NOPE (vì Wob), callback lọ xịt muỗi, câu hỏi kéo bình luận",
+      "narration": "So here is the answer, all of it. Fishermen needed a place to rest in the middle of their fishing grounds. They found a bare island where, as they tell it, nothing bit them at night. They built it bigger with their own hands, and their families stayed for the fish, the work and each other. Would I move there? Honestly, I would love to. The evenings in that square were some of the best of my year. My backpack would not. My verdict is NOPE, and the problem is entirely me. It suits people who love the sea, close neighbours and early mornings. It does not suit anyone who packs like I do, or who needs a tap. I put the spray back on my shelf. Still sealed. What would you give up to live somewhere with no mosquitoes?",
+      "verdict": {
+        "label": "NOPE",
+        "reason": "Wob packs too much for an island this small, and fresh water by boat plus a rising sea are real costs; the islanders have strong reasons to stay, Wob does not.",
+        "cue": "NOPE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is the answer, all of it",
+          "y": "Bàn kỷ vật: Wob xếp hàng con muỗi giấy, hòn san hô nhỏ, cốc nước, thuyền giấy, lọ xịt muỗi"
+        },
+        {
+          "cue": "My backpack would not",
+          "y": "Ba lô khổng lồ ướt sũng dựa vào bàn, chảy nước tong tong"
+        },
+        {
+          "cue": "My verdict is NOPE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? NOPE'"
+        },
+        {
+          "cue": "I put the spray back on my shelf",
+          "y": "Wob đặt lọ xịt muỗi lên kệ",
+          "gag": "Con muỗi giấy trên bàn lén bò lại gần lọ xịt, đọc nhãn, rồi chạy mất"
+        },
+        {
+          "cue": "somewhere with no mosquitoes",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-islote-aerial",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-islote-square",
+          "cue": "Would I move there",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is NOPE"
+        },
+        {
+          "show": "asset:map-islote",
+          "cue": "I put the spray back",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is the answer",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I would love to",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My backpack would not",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Still sealed",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-islote-aerial",
+      "scenes": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        11,
+        13,
+        14,
+        15
+      ],
+      "canh": "a tiny low island in a turquoise Caribbean sea completely covered with small one-storey houses with colourful walls and tin roofs packed tightly together, no beach, no trees, a few small wooden boats around it, seen from above at an angle",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, thumbnail, 9 cảnh; phải đúng đảo phủ kín nhà, không bãi cát"
+    },
+    {
+      "id": "ai-islote-lane",
+      "scenes": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        10
+      ],
+      "canh": "a very narrow footpath between small one-storey houses with brightly painted walls in blue, yellow and pink, painted murals, open doors, plastic chairs, laundry lines, no cars",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 1
+      },
+      "hang": "chinh",
+      "ly_do": "Bối cảnh chính nhiều chương; cần đúng lối hẹp, tường sơn màu"
+    },
+    {
+      "id": "ai-islote-square",
+      "scenes": [
+        9,
+        15
+      ],
+      "canh": "a tiny village square at dusk with a simple tall cross in the middle, small colourful houses around it, plastic chairs, a warm string of lights",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cây thánh giá đặt tên đảo; dùng ở cảnh phán quyết"
+    },
+    {
+      "id": "ai-islote-flood",
+      "scenes": [
+        12,
+        13
+      ],
+      "canh": "seawater flooding a narrow path between small painted houses at dawn, water at the doorsteps, a hammock hanging between two wooden posts just above the water",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cảnh chính của chương biển dâng; cần nước tràn vào lối đi"
+    },
+    {
+      "id": "ai-islote-boats",
+      "scenes": [
+        10,
+        11,
+        14
+      ],
+      "canh": "small wooden fishing boats with outboard motors leaving a tiny crowded island at sunrise, pink calm water, a grey supply boat with blue water tanks in the distance",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Mở chương 'một ngày'; cần đúng thuyền gỗ và thuyền chở nước"
+    },
+    {
+      "id": "ai-bare-islet",
+      "scenes": [
+        5,
+        6
+      ],
+      "canh": "a small bare rocky coral islet in a calm sea with nothing on it, waves breaking gently, clear sky",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 2
+      },
+      "hang": "phu",
+      "ly_do": "Đảo trơ trụi thời xưa, chỉ là phong cảnh; tổng 4"
+    },
+    {
+      "id": "ai-mangrove-islet",
+      "scenes": [
+        6,
+        7
+      ],
+      "canh": "a green island fringed with dense mangrove trees and a strip of sandy beach, still water",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 1,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Đảo bên cạnh để so sánh, tổng 3"
+    },
+    {
+      "id": "ai-caribbean-islets",
+      "scenes": [
+        2,
+        14
+      ],
+      "canh": "a calm turquoise sea with several low green islands with palm trees and sandy beaches in the distance",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí quần đảo, tổng 3"
+    },
+    {
+      "id": "ai-islote-night",
+      "scenes": [
+        7,
+        11,
+        12
+      ],
+      "canh": "a small island of houses at night seen from the sea, a few warm lights reflecting on dark water, stars",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông đêm, tổng 3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "On a coast with plenty of roomier islands, would you pick the smallest one? These people did.",
+      "statement": "Santa Cruz del Islote, one of the smallest islands of the San Bernardo archipelago off Colombia's Caribbean coast, is densely inhabited while many nearby islands have few or no permanent residents.",
+      "source_ids": [
+        "S1",
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "Newspapers often call it one of the most densely populated islands in the world, although estimates vary on how many people actually live here.",
+      "statement": "Media reports often describe Santa Cruz del Islote as one of the most densely populated islands in the world; the claim depends on population estimates that vary widely.",
+      "source_ids": [
+        "S2",
+        "S1"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C03",
+      "scene": 3,
+      "quote": "The boat from Cartagena takes about two hours.",
+      "statement": "Santa Cruz del Islote is about a two-hour boat ride from Cartagena, Colombia.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "The island covers about one hectare. That's about two soccer fields.",
+      "statement": "Santa Cruz del Islote covers roughly one hectare, about the size of two soccer fields.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "On it are around a hundred houses, mostly one storey, a school, a restaurant and a small square with a cross. The cross gave the island its name. There are no roads and no cars.",
+      "statement": "Santa Cruz del Islote has around 100 mostly one-storey houses, a school, a restaurant and a small square with a cross that gives the island its name, and no roads or cars.",
+      "source_ids": [
+        "S5",
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 5,
+      "quote": "About a hundred and fifty years ago, this was a bare little island with nobody on it. Fishermen working these waters used it to rest and to hide from storms.",
+      "statement": "About 150 years ago Santa Cruz del Islote was a small uninhabited island that fishermen from Cartagena and Tolú used to rest and to shelter from storms.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 5,
+      "quote": "And then, as locals tell it, they noticed something strange. Night came, and nothing bit them.",
+      "statement": "According to a story told by locals, fishermen who spent the night on Santa Cruz del Islote decided to settle there because it had no mosquitoes.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C08",
+      "scene": 6,
+      "quote": "The neighbouring islands have mangroves and beaches, the kind of wet, quiet places mosquitoes love. This island had neither. Locals say that is why the mosquitoes stayed away.",
+      "statement": "Unlike neighbouring islands with mangroves and beaches, Santa Cruz del Islote has neither, and locals attribute its lack of mosquitoes to this.",
+      "source_ids": [
+        "S4",
+        "S6"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C09",
+      "scene": 6,
+      "quote": "They piled up coral, stone, shells and things the sea brought them, and later cement, and the island grew.",
+      "statement": "Residents expanded Santa Cruz del Islote using coral, stone, shells and debris from the sea, and later cement.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 8,
+      "quote": "A figure you see everywhere is about twelve hundred. A man who has lived here his whole life told CNN it was more like nine hundred.",
+      "statement": "A frequently cited population for Santa Cruz del Islote is about 1,200, while a lifelong resident told CNN it was closer to 900.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C11",
+      "scene": 8,
+      "quote": "Colombia's national census in twenty eighteen counted a little over four hundred.",
+      "statement": "Colombia's 2018 national census (DANE) counted 432 residents in the population centre of Santa Cruz del Islote.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C12",
+      "scene": 9,
+      "quote": "a few years ago residents and muralists painted nine murals together across the island",
+      "statement": "On Santa Cruz del Islote, the Pintuco Foundation and the Colombian Navy repainted the house facades, and nine murals were created together with the community.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 10,
+      "quote": "Fishing is still how most families here make a living.",
+      "statement": "Fishing remains the main livelihood on Santa Cruz del Islote, although tourism is growing.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 10,
+      "quote": "There is no natural fresh water on an island built from coral. The Colombian Navy has brought drinking water by boat to these islands.",
+      "statement": "Santa Cruz del Islote has no natural fresh water source, and the Colombian Navy has delivered drinking water by boat to communities in the San Bernardo archipelago including Santa Cruz del Islote.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 10,
+      "quote": "A bank even donated a machine that pulls drinking water out of the humid air",
+      "statement": "Bancolombia donated to Santa Cruz del Islote a machine that produces drinking water from water vapour in the air.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 10,
+      "quote": "Doctors come by boat too. On a health brigade organised with the maritime authority in twenty twenty-three, they saw six hundred and thirteen people here in one visit.",
+      "statement": "During a 2023 health brigade supported by Colombia's maritime authority (DIMAR) in the San Bernardo archipelago, 613 people were attended on Santa Cruz del Islote.",
+      "source_ids": [
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 11,
+      "quote": "In twenty twenty-one Colombia's energy ministry installed a hybrid plant here, solar panels plus a diesel generator, with a battery bank to keep the lights on.",
+      "statement": "In 2021 Colombia's Ministry of Mines and Energy delivered a hybrid solar-diesel power plant to Santa Cruz del Islote, including a new 125 kVA diesel generator and maintenance of its battery bank.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 11,
+      "quote": "Tourism matters more and more, and speedboats bring day trippers from the resorts on nearby islands.",
+      "statement": "Tourism is increasingly important to Santa Cruz del Islote; visitors arrive by speedboat from hotels on nearby islands such as Múcura, where some islanders work.",
+      "source_ids": [
+        "S7",
+        "S2",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 11,
+      "quote": "According to one Argentine newspaper, that means around five hundred visitors a day.",
+      "statement": "According to the Argentine newspaper La Nación, Santa Cruz del Islote receives around 500 tourists a day.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C20",
+      "scene": 11,
+      "quote": "Some people from here work at those resorts.",
+      "statement": "Some residents of Santa Cruz del Islote work at hotels and resorts on nearby islands such as Múcura.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 13,
+      "quote": "The Guardian reported that islanders sometimes wake to find water in their homes. These islands sit on average only about two metres above the water. That's about six feet.",
+      "statement": "The Guardian reported that residents of the San Bernardo islands sometimes wake to find their homes flooded, and that the archipelago sits on average about 2 metres (6 feet) above the waterline.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 13,
+      "quote": "A local report in twenty fourteen found erosion along roughly forty-five percent of the archipelago's coastline. One nearby island, about one hectare, disappeared completely.",
+      "statement": "A 2014 local government report found erosion affecting about 45% of the San Bernardo archipelago's coastlines, and Maravilla Island, about one hectare, had disappeared by 2017.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 13,
+      "quote": "Global sea levels are expected to rise by up to thirty centimetres by twenty fifty.",
+      "statement": "Global sea levels are expected to rise by up to about 30 cm by 2050.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 14,
+      "quote": "Over generations some people have moved to neighbouring islands, and young people leave to study.",
+      "statement": "Because of Santa Cruz del Islote's small size, some residents have moved to neighbouring islands such as Tintipán or Múcura, and students who continue their education leave the island.",
+      "source_ids": [
+        "S4",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 14,
+      "quote": "Plenty of them come back.",
+      "statement": "Many students from Santa Cruz del Islote who leave to continue their education later return to the island.",
+      "source_ids": [
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 14,
+      "quote": "There is no room here for a cemetery. People are buried on another island.",
+      "statement": "Santa Cruz del Islote has no space for a cemetery, so the dead are buried elsewhere.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "See Photos of the Most Crowded Island on Earth",
+      "publisher": "National Geographic",
+      "type": "bao",
+      "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+      "published": "2017-10-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "Santa Cruz del Islote",
+      "publisher": "CNN Travel",
+      "type": "bao",
+      "url": "https://amp.cnn.com/cnn/travel/article/santa-cruz-del-islote",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "The Most Crowded Island on Earth Isn't Manhattan",
+      "publisher": "AccuWeather",
+      "type": "bao",
+      "url": "https://www.accuweather.com/en/weather-news/the-most-crowded-island-on-earth-isnt-manhattan/129543",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "Santa Cruz del Islote",
+      "publisher": "Wikipedia (used to locate sources)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Santa_Cruz_del_Islote",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Escape to Nowhere",
+      "publisher": "iD magazine (via PressReader)",
+      "type": "bao",
+      "url": "https://www.pressreader.com/usa/id-magazine/20211101/281943135947990",
+      "published": "2021-11-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "What life is like on the most densely populated island in the world",
+      "publisher": "Business Insider",
+      "type": "bao",
+      "url": "https://businessinsider.in/international/news/what-life-is-like-on-the-most-densely-populated-island-in-the-world-where-about-500-people-live-on-the-length-of-2-football-fields/slidelist/98373456.cms",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "La isla más sobrepoblada del mundo está en Sudamérica",
+      "publisher": "La Nación",
+      "type": "bao",
+      "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/",
+      "published": "2026-07-31",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "Santa Cruz Del Islote: The Most Densely Populated Island on Earth",
+      "publisher": "History Daily",
+      "type": "khac",
+      "url": "https://historydaily.org/santa-cruz-del-islote",
+      "published": "2017-02-20",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Colombian Navy distributes more than 168 thousand liters of water to island communities",
+      "publisher": "Comando General de las Fuerzas Militares de Colombia",
+      "type": "goc",
+      "url": "https://www.cgfm.mil.co/en/multimedia/noticias/colombian-navy-distributes-more-168-thousand-liters-water-island-communities",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Acta No. 1, Proyecto Agua Potable y Saneamiento Básico para Santa Cruz del Islote",
+      "publisher": "Ministerio de Vivienda de Colombia (SINAS)",
+      "type": "goc",
+      "url": "https://sinas.minvivienda.gov.co/SINAS/AsistenciaTecnica/Archivos/20201024112008_ACTA%20No.%201%20REUNION%20PROYECTO%20EL%20ISLOTE%207%20DE%20OCTUBRE.pdf",
+      "published": "2020-10-07",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Agua potable y color para la comunidad de Santa Cruz del Islote",
+      "publisher": "ABC Economía",
+      "type": "bao",
+      "url": "https://abceconomia.co/?p=26056",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "MinMinas entrega centrales de generación de energía a 3 islas de Cartagena",
+      "publisher": "El Heraldo",
+      "type": "bao",
+      "url": "https://www.elheraldo.co/economia/2021/10/22/minminas-entrega-centrales-de-generacion-de-energia-a-3-islas-de-cartagena-859565/",
+      "published": "2021-10-22",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "'All we can do now is run away': is time up for the sinking Colombian islands of San Bernardo?",
+      "publisher": "The Guardian (via inkl)",
+      "type": "bao",
+      "url": "https://inkl.com/news/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S15",
+      "title": "Santa Cruz del Islote (DANE census 2005 and 2018)",
+      "publisher": "City Population",
+      "type": "khac",
+      "url": "https://www.citypopulation.de/en/colombia/bolivar/cartagena_de_indias/13001017__santa_cruz_del_islote/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S16",
+      "title": "5 Things You Didn't Know About Santa Cruz del Islote",
+      "publisher": "Lindblad Expeditions",
+      "type": "khac",
+      "url": "https://au.expeditions.com/expedition-stories/stories/5-things-you-didnt-know-about-santa-cruz-del-islote",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Brigada de Salud en las Islas del Archipiélago de San Bernardo y comunidades costeras 2023",
+      "publisher": "Dirección General Marítima (DIMAR)",
+      "type": "goc",
+      "url": "https://www.dimar.mil.co/print/pdf/node/5281",
+      "published": "2023-01-01",
+      "accessed": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,1612 @@
+{
+  "title": "An Entire Town Lives in One Building. Blame the Army.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Whittier",
+    "country": "United States",
+    "lat": 60.774,
+    "lon": -148.678
+  },
+  "question": "Why do people live in Whittier?",
+  "message": "This video tells curious adults that almost a whole Alaskan town lives in one building because the US Army built a hidden wartime port there, and in that weather, one building is the sensible choice.",
+  "angle": "People live in Whittier because the US Army picked this foggy, ice-free inlet for a wartime port, drilled a tunnel to reach it and left behind a fourteen-storey building that became the town, despite a one-lane tunnel with a bedtime, around five metres of rain and snow a year and a winter with almost no one around.",
+  "hook_type": "wob-hanh-dong",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-whittier": "Bản đồ D3 khung Alaska, tô USA, ghim Whittier 60.774, -148.678 ở nửa phải khung; nhãn 'Whittier'",
+    "map-whittier-route": "Bản đồ cận vịnh Prince William Sound: ghim Anchorage 61.218, -149.900 và Whittier; đường nét đứt; nhãn '~93 km · 58 mi'; đánh dấu hầm",
+    "map-alaska-ww2": "Bản đồ Alaska + quần đảo Aleut: ghim Dutch Harbor 53.889, -166.542, Seward 60.104, -149.442 và Whittier; nhãn tiếng Anh ngắn"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "A Timetable for a Road",
+      "lop": "hien-tai",
+      "role": "hook: Wob cầm tờ lịch giờ hầm; trễ 5 phút; câu hỏi trung tâm",
+      "narration": "This is a timetable. Not for a train. For a road. I got there a few minutes too late and slept in my car. On the other side, a whole town lives in one building.",
+      "pronunciation": "Whittier: WIT-ee-er",
+      "on_screen_text": "ONE BUILDING. WHOLE TOWN.",
+      "y_hinh": [
+        {
+          "cue": "This is a timetable",
+          "y": "Bàn kỷ vật dưới đèn; Wob giơ tờ lịch giờ gấp nếp, mép nhàu"
+        },
+        {
+          "cue": "For a road",
+          "y": "Cận tờ lịch: hình một con đường, không có tàu",
+          "gag": "Wob lật tờ lịch tìm hình con tàu, không thấy, nhìn người xem, giữ hình"
+        },
+        {
+          "cue": "slept in my car",
+          "y": "Chèn nhanh: xe Wob đỗ trước cổng hầm đóng, tuyết rơi, Wob cuộn chăn trong xe"
+        },
+        {
+          "cue": "a whole town lives in one building",
+          "y": "Trang sổ mở bản đồ Alaska, chấm Whittier ở nửa phải khung"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-whittier",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "On the other side",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is a timetable",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "slept in my car",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "a whole town lives",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: dân số, một toà nhà, mở vòng 'Would Wob move here?'",
+      "narration": "The town is Whittier, Alaska. At the last census it had two hundred and seventy-two people. Most of them live in one fourteen-storey building. Same address, different floor. When I first heard that, I assumed it was a cult, or a hotel with commitment issues. It is neither. Nobody is trapped, nobody is hiding, and the elevator works most days. By the end of this trip I knew exactly why it happened. The answer is a war, a cloud and a lot of snow. And I had to decide whether I could live there myself.",
+      "facts": [
+        {
+          "label": "Whittier",
+          "value": "272 people · 2020",
+          "claim_ids": [
+            "C01"
+          ]
+        },
+        {
+          "label": "Begich Towers",
+          "value": "14 floors",
+          "claim_ids": [
+            "C02"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "two hundred and seventy-two people",
+          "y": "Wob xếp một nhúm người que bằng giấy lên bàn, đếm"
+        },
+        {
+          "cue": "Same address, different floor",
+          "y": "Wob dựng một toà nhà bằng hộp diêm chồng 14 lớp, đặt người que vào từng tầng"
+        },
+        {
+          "cue": "a hotel with commitment issues",
+          "y": "Bong bóng tưởng tượng: khách sạn treo biển 'NO CHECKOUT'",
+          "gag": "Wob tự lắc đầu xoá bong bóng"
+        },
+        {
+          "cue": "a war, a cloud and a lot of snow",
+          "y": "Ba đồ vật được đặt lên bàn: mũ sắt nhỏ, cục bông mây, quả cầu tuyết"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-begich-towers",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:map-whittier",
+          "cue": "The answer is a war",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The town is Whittier",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I assumed it was a cult",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "And I had to decide",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "The Road With a Bedtime",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 1: đường vào là hầm một làn; Wob đoán sai vì sao hầm đóng ban đêm",
+      "narration": "Whittier is about fifty-eight miles from Anchorage. That's roughly ninety-three kilometres. Easy drive, I thought. The road runs along the water, past glaciers hanging off the mountains, and then it runs straight into a mountain. There is one way in by car, and it is a tunnel. I pulled into the waiting area with a sandwich and a theory. My theory was bears. Surely a tunnel that closes at night is keeping out bears. I ate the sandwich and watched for bears. The bears did not come. A train did.",
+      "y_hinh": [
+        {
+          "cue": "about fifty-eight miles from Anchorage",
+          "y": "Trang sổ bản đồ: đường nét đứt từ Anchorage, xe giấy của Wob chạy theo"
+        },
+        {
+          "cue": "runs straight into a mountain",
+          "y": "Đường nét đứt đâm thẳng vào hình ngọn núi vẽ tay",
+          "gag": "Xe giấy dừng đầu sát vách núi, nảy nhẹ"
+        },
+        {
+          "cue": "My theory was bears",
+          "y": "Sơ đồ vẽ tay: Wob vẽ con gấu, mũi tên chỉ vào cổng hầm, khoanh tròn"
+        },
+        {
+          "cue": "A train did",
+          "y": "Đầu tàu chui ra từ hầm ngay chỗ Wob đang nhìn",
+          "gag": "Wob cầm ống nhòm hướng về rừng, tàu chạy sát sau lưng, Wob không quay lại"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-whittier-route",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-tunnel-portal",
+          "cue": "it is a tunnel",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-tunnel-portal",
+          "cue": "I ate the sandwich",
+          "move": "still",
+          "zoom": 1.2,
+          "focus": [
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Easy drive, I thought",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My theory was bears",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "A train did",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "lật: hầm một làn chung với tàu, thay phiên, có giờ đóng; Wob kẹt ngoài (mồi lại, nhạc hài)",
+      "music_mood": "hai",
+      "narration": "The real reason is less furry. The tunnel is two and a half miles long, about four kilometres, and it has one lane. Cars and trains share it, so they take turns. In winter it opens one direction, then the other, about every half hour. And it goes to bed. In winter the gates lock at eleven at night and open again at seven. The last run into town leaves at ten thirty. I arrived just after it left. The Alaska Railroad calls this the longest combined rail and highway tunnel in North America. From the outside, at night, it is mostly a very long closed door. I slept in the car. My breath froze on the window in the shape of the word NOPE.",
+      "facts": [
+        {
+          "label": "Tunnel",
+          "value": "1 lane · 2.5 mi · 4 km",
+          "claim_ids": [
+            "C05"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "The real reason is less furry",
+          "y": "Wob xoá hình con gấu trên sơ đồ, vẽ một làn đường và một đường ray chồng lên nhau"
+        },
+        {
+          "cue": "Cars and trains share it",
+          "y": "Cận cổng hầm bê tông, một làn, đường ray chìm trong mặt đường; đèn đổi màu"
+        },
+        {
+          "cue": "I arrived just after it left",
+          "y": "Thanh chắn hạ xuống ngay trước mũi xe Wob",
+          "gag": "Take chậm: Wob nhìn thanh chắn, nhìn đồng hồ, nhìn thanh chắn, rồi mới sụp xuống vô lăng"
+        },
+        {
+          "cue": "a very long closed door",
+          "y": "Cổng hầm tối om, đèn tắt từng bóng"
+        },
+        {
+          "cue": "in the shape of the word NOPE",
+          "y": "Hơi thở đóng băng trên kính xe thành chữ NOPE nghiêng",
+          "gag": "Wob lau chữ đi, hơi thở lại đóng thành chữ NOPE to hơn"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-tunnel-portal",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.55
+          ]
+        },
+        {
+          "show": "asset:ai-tunnel-portal",
+          "cue": "And it goes to bed",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-night-road",
+          "cue": "I arrived just after it left",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-tunnel-portal",
+          "cue": "The Alaska Railroad calls this",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-night-road",
+          "cue": "I slept in the car",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The real reason",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I arrived just after it left",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I slept in the car",
+          "bieu_cam": "lanh-run"
+        }
+      ],
+      "sfx": [
+        {
+          "name": "ting",
+          "cue": "the word NOPE"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "Why Here, of All Places?",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 2: vì sao lại ở đây; Wob đoán cảnh đẹp, rồi giải thích bằng hình ảnh tưởng tượng",
+      "narration": "Next morning I drove through. On the far side: a deep grey inlet, waterfalls, mountains straight up from the sea. I made a guess. People came here for the view. Then the clouds came down and the view left. That guess did not survive breakfast. Long before any soldiers, this pass was part of a portage route used by the Chugach people of Prince William Sound. It was a way to carry boats and goods between the waters. But a route is not a town. So why build a town at the end of a tunnel at the end of a road? I went to the little town museum. Short answer: the Second World War.",
+      "y_hinh": [
+        {
+          "cue": "On the far side",
+          "y": "Ra khỏi hầm: vịnh hẹp xám, thác nước đổ từ vách núi"
+        },
+        {
+          "cue": "People came here for the view",
+          "y": "Wob giơ máy ảnh, khung ngắm đầy núi và thác"
+        },
+        {
+          "cue": "the view left",
+          "y": "Mây thấp kéo xuống như rèm, che kín vịnh",
+          "gag": "Khung ngắm chỉ còn một màu xám đặc; Wob vẫn bấm máy, ảnh in ra là một tờ giấy xám"
+        },
+        {
+          "cue": "part of a portage route",
+          "y": "Trang sổ: đường nét đứt nối hai vùng nước qua đèo, những chiếc thuyền nhỏ vẽ phác được khiêng qua"
+        },
+        {
+          "cue": "the Second World War",
+          "y": "Cửa bảo tàng nhỏ mở ra, tấm biển ghi WWII"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-rain-fjord",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-rain-fjord",
+          "cue": "Then the clouds came down",
+          "move": "zoom-in",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "So why build a town",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I made a guess",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "the view left",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "So why build a town",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế thật: cảng tiếp tế, mây che bom, không đóng băng, đường sắt 1943",
+      "narration": "Here is what I learned, and it surprised me. The bad weather was the point. During the war, the US Army wanted a supply port for Alaska. Whittier gave them a shorter trip than the port at Seward, about fifty-two miles shorter by sea. Ships spent less time exposed to submarines. The water in the inlet does not freeze. And according to the Alaska Department of Transportation, the Army picked the spot because the cloud and fog would hide the port from Japanese bombers. Picture hiding under a blanket that never gets washed, and the blanket is the size of the sky. Then they drilled through the mountain for a railway, finished in nineteen forty-three. By the mid nineteen forties, more than a thousand soldiers and workers were here. My bear theory was officially retired.",
+      "facts": [
+        {
+          "label": "Railway tunnel",
+          "value": "done 1943",
+          "claim_ids": [
+            "C13"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "the bad weather was the point",
+          "y": "Wob ở bảo tàng lật một tấm thẻ: mặt sau là đám mây"
+        },
+        {
+          "cue": "about fifty-two miles shorter by sea",
+          "y": "Sơ đồ vẽ tay hai đường tàu: tới Seward dài hơn, tới Whittier ngắn hơn"
+        },
+        {
+          "cue": "hide the port from Japanese bombers",
+          "y": "Hình vẽ tay: máy bay vẽ phác bay trên một tấm chăn mây, bên dưới là cảng nhỏ",
+          "gag": "Phi công vẽ phác cầm ống nhòm, chỉ thấy bông, nhún vai"
+        },
+        {
+          "cue": "a blanket that never gets washed",
+          "y": "Chèn: Wob kéo một tấm chăn xám lên tận mắt"
+        },
+        {
+          "cue": "finished in nineteen forty-three",
+          "y": "Tàu hoả nhỏ chui qua núi trên trang sổ"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-alaska-ww2",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.6,
+            0.45
+          ]
+        },
+        {
+          "show": "asset:ai-rain-fjord",
+          "cue": "The water in the inlet",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-rain-fjord",
+          "cue": "Picture hiding under a blanket",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-tunnel-portal",
+          "cue": "Then they drilled",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The bad weather was the point",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Picture hiding under a blanket",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "My bear theory was officially retired",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "Fourteen Floors of Town",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 3: một ngày trong Begich Towers theo giờ",
+      "narration": "After the war, the Army built big. The building everyone lives in now was finished in the late nineteen fifties, as housing for soldiers and their families. It is actually three blocks joined into one. The Army left in nineteen sixty. In nineteen seventy-two the city bought the buildings, and people moved in. So I spent a day inside it. I set an alarm, put on my socks, and did not put on shoes. Eight in the morning: post office, ground floor, near the entrance. Nine: the police station, down the same hall. I did not need the police. I just wanted to say I had walked to it in my socks. The hallway did not look surprised. I suspect it has seen plenty of socks.",
+      "y_hinh": [
+        {
+          "cue": "three blocks joined into one",
+          "y": "Wob ghép ba khối hộp diêm thành một toà dài"
+        },
+        {
+          "cue": "Eight in the morning",
+          "y": "Đồng hồ trên tường hành lang chỉ 8:00; tường gạch block sơn vàng nhạt, bảng tin"
+        },
+        {
+          "cue": "post office, ground floor",
+          "y": "Ô cửa bưu điện, Wob nhận một lá thư"
+        },
+        {
+          "cue": "walked to it in my socks",
+          "y": "Wob đi tất kẻ sọc trên sàn hành lang",
+          "gag": "Wob trượt nhẹ trên sàn như trượt băng, dừng đúng trước cửa đồn cảnh sát, vẫy tay rồi quay đi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-begich-towers",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-begich-hallway",
+          "cue": "So I spent a day inside it",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-begich-hallway",
+          "cue": "Nine: the police station",
+          "move": "zoom-in",
+          "zoom": 1.25,
+          "focus": [
+            0.6,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "After the war",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "So I spent a day inside it",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "in my socks",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp một ngày: phòng khám, nhà thờ, giặt đồ, trường qua đường hầm; Wob đổi ý lần 1",
+      "narration": "Mid-morning: the clinic. Late morning: the church. Lunchtime: laundry, a couple of floors down, in the elevator, holding a basket like a man with nowhere to be. There are two small shops, the city offices and a playground. The school is across the street, and the children get there through a tunnel underground. Another tunnel. This town really likes tunnels. By mid-afternoon I had done every errand of a normal week and never seen the sky. My coat was still dry on its hook. And here is the strange part. I liked it. Quiet halls, warm rooms, neighbours who nod at you in the elevator. I changed my mind. Maybe I could live here.",
+      "y_hinh": [
+        {
+          "cue": "Mid-morning: the clinic",
+          "y": "Dải đồng hồ chạy qua các mốc, mỗi mốc một cánh cửa mở ra"
+        },
+        {
+          "cue": "holding a basket",
+          "y": "Trong thang máy: Wob ôm giỏ đồ giặt, nhìn số tầng chạy"
+        },
+        {
+          "cue": "through a tunnel underground",
+          "y": "Mặt cắt: toà nhà, con đường, trường học; một đường hầm nối bên dưới"
+        },
+        {
+          "cue": "This town really likes tunnels",
+          "y": "Wob nhìn vào miệng hầm thứ hai",
+          "gag": "Wob lấy tờ lịch giờ ra soi, đề phòng hầm này cũng có giờ đóng"
+        },
+        {
+          "cue": "My coat was still dry on its hook",
+          "y": "Cái áo khoác treo trên móc, khô cong, như đang chán"
+        },
+        {
+          "cue": "I liked it",
+          "y": "Wob ngồi bên cửa sổ hành lang, cốc trà ấm, ngoài trời xám"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-begich-hallway",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "The school is across the street",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-begich-hallway",
+          "cue": "And here is the strange part",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Mid-morning: the clinic",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "This town really likes tunnels",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I liked it",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "Why Nobody Goes Outside",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 4: từ một bông tuyết tới cả thị trấn ngập tuyết; vì sao một toà nhà là hợp lý; Wob đổi ý lần 2",
+      "music_mood": "khac-nghiet",
+      "narration": "Then I stepped outside. One snowflake landed on my nose. Then its family arrived. Then its neighbours. Then, as far as I could tell, everyone it had ever met. According to the state's weather records, Whittier gets around one hundred and ninety-six inches of rain and snow a year combined. That's about five metres. The snow alone averages around twenty feet. Reporters who spent a winter here describe winds of about sixty miles an hour. I opened my umbrella. The umbrella left for Anchorage without me. I assume it caught the tunnel in time.",
+      "y_hinh": [
+        {
+          "cue": "One snowflake landed on my nose",
+          "y": "Cực cận: một bông tuyết đậu trên mũi Wob"
+        },
+        {
+          "cue": "Then its family arrived",
+          "y": "Camera lùi: tuyết dày đặc, Wob bé dần, toà nhà, rồi cả thung lũng trắng",
+          "gag": "Bông tuyết đầu tiên vẫy tay gọi thêm cả đàn"
+        },
+        {
+          "cue": "around twenty feet",
+          "y": "Thước đo vẽ tay cao gấp mấy lần Wob, tuyết dâng tới vạch"
+        },
+        {
+          "cue": "The umbrella left for Anchorage without me",
+          "y": "Chiếc ô bật ngược rồi bay vút qua núi",
+          "gag": "Wob vẫn giữ tư thế cầm ô, tay không, giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-snow-mountains",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "According to the state's weather records",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-snow-mountains",
+          "cue": "I opened my umbrella",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then I stepped outside",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Then its family arrived",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "The umbrella left",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "hệ quả: sống trong một toà nhà là hợp lý; mùa đông vắng",
+      "narration": "Back inside, dripping, I finally got it. In a place like this, one building is not weird. It is the sensible answer. Picture keeping your whole life inside one fridge on purpose, because outside the fridge is worse. No shovelling a path between home and school. No walk to the post office in sideways snow. No scraping ice off the car just to buy milk. In winter, the town gets very quiet. Many businesses here even disconnect their phones from October to April. The tourists are gone, the boats are out of the water, and the building hums along like a ship at anchor. So I changed my mind again. Living in the building, yes. Living in this winter, no thank you.",
+      "y_hinh": [
+        {
+          "cue": "Back inside, dripping",
+          "y": "Wob đứng ở sảnh, nước nhỏ tong tong, thành vũng dưới chân"
+        },
+        {
+          "cue": "Picture keeping your whole life inside one fridge",
+          "y": "Bong bóng tưởng tượng vẽ tay: Wob ngồi trong tủ lạnh có giường, kệ sách, đèn ngủ",
+          "gag": "Cửa tủ lạnh mở ra, đèn tủ lạnh bật sáng soi vào mặt Wob đang ngủ"
+        },
+        {
+          "cue": "disconnect their phones from October to April",
+          "y": "Hàng điện thoại bàn trên quầy, dây rút ra, phủ một tấm vải như đồ ngủ đông"
+        },
+        {
+          "cue": "Living in this winter, no thank you",
+          "y": "Wob kéo rèm che cửa sổ đầy tuyết"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-begich-hallway",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-snow-mountains",
+          "cue": "In winter, the town gets very quiet",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "So I changed my mind again",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I finally got it",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "No shovelling",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "no thank you",
+          "bieu_cam": "lanh-run"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "chapter": "The Other City Under One Roof",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 5 (không gag): Buckner Building bỏ hoang; động đất 1964",
+      "music_mood": "khac-nghiet",
+      "narration": "Across from the tower stands a second building, and nobody lives in it. The Buckner Building was finished in nineteen fifty-three. It was called the city under one roof, before the tower took that job. It was used for only a few years, then abandoned. Today it is broken windows and concrete, still standing because it is very hard to knock down. I stood outside it for a long time.",
+      "y_hinh": [
+        {
+          "cue": "a second building, and nobody lives in it",
+          "y": "Toà bê tông sáu tầng, cửa sổ vỡ, tuyết bám vào gờ; tông màu trầm"
+        },
+        {
+          "cue": "the city under one roof",
+          "y": "Wob ở hiện tại đặt tờ lịch giờ xuống bàn, lặng"
+        },
+        {
+          "cue": "I stood outside it for a long time",
+          "y": "Wob nhỏ bé đứng trước toà nhà, camera lùi chậm, im lặng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-buckner-ruin",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-buckner-ruin",
+          "cue": "Today it is broken windows",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "nobody lives in it",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I stood outside it",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "1964: 13 người chết; nói thẳng, không gag",
+      "narration": "There is a harder story here too, and I want to tell it plainly. On March the twenty-seventh, nineteen sixty-four, a huge earthquake shook southern Alaska. In Whittier, the shaking and the waves that followed killed thirteen people. At the time, only about seventy people were living here. The waterfront was wrecked. The town rebuilt, slowly. When people here talk about weather and mountains, they are not complaining. They are paying attention.",
+      "y_hinh": [
+        {
+          "cue": "a huge earthquake shook southern Alaska",
+          "y": "Cắt giấy tông trầm: mặt nước gợn, các mảnh giấy rung nhẹ"
+        },
+        {
+          "cue": "killed thirteen people",
+          "y": "Mười ba ngọn nến giấy nhỏ thắp trên trang sổ"
+        },
+        {
+          "cue": "The town rebuilt, slowly",
+          "y": "Bến cảng giấy được dựng lại từng miếng"
+        },
+        {
+          "cue": "They are paying attention",
+          "y": "Wob ở hiện tại nhìn ra cửa sổ, im lặng một nhịp"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-rain-fjord",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-buckner-ruin",
+          "cue": "The town rebuilt, slowly",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "There is a harder story",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "section",
+      "chapter": "Same Town, Summer Edition",
+      "lop": "hoi-uc",
+      "khuon": "hai-mua",
+      "role": "chương 6: Wob quay lại mùa hè; cảng, du thuyền, sông băng; Wob đổi ý lần 3",
+      "music_mood": "to-mo",
+      "narration": "I went back in July. Same tunnel, same timetable, very different town. The snow was gone. The mountains were green, and every one of them seemed to have a waterfall. In summer the tunnel opens earlier and closes later, and I made it through with time to spare. The harbour was full of boats. The port the Army built is still in use. Big cruise ships start and end their trips here. Tour boats leave the small boat harbour for the fjords, where you can see more than two dozen glaciers in a single day. I started counting glaciers, then a sea otter floated past on its back, and I lost count.",
+      "y_hinh": [
+        {
+          "cue": "I went back in July",
+          "y": "Cắt cứng: cùng khung cảnh vịnh, tuyết biến mất, núi xanh rậm, thác nước trắng"
+        },
+        {
+          "cue": "with time to spare",
+          "y": "Xe Wob ra khỏi hầm, đồng hồ táp-lô còn sớm",
+          "gag": "Wob giơ tờ lịch giờ lên hôn, rồi nhét vào túi ngực như bùa"
+        },
+        {
+          "cue": "The harbour was full of boats",
+          "y": "Bến nhỏ đầy thuyền câu, cột buồm san sát"
+        },
+        {
+          "cue": "a sea otter floated past on its back",
+          "y": "Rái cá biển nằm ngửa trôi ngang qua mũi thuyền",
+          "gag": "Rái cá giơ một ngón tay như đang đếm hộ Wob, Wob quên mất số"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-glacier-fjord",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-summer-harbor",
+          "cue": "The harbour was full of boats",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-glacier-fjord",
+          "cue": "Tour boats leave",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-glacier-fjord",
+          "cue": "I started counting glaciers",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.55,
+            0.6
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went back in July",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "more than two dozen glaciers",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "and I lost count",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao người ta ở: mùa hè làm việc, câu cá, kayak; cộng đồng",
+      "narration": "That is the other half of the answer. Summer is when this town works. Fishing charters go out for halibut and salmon. People rent kayaks and paddle up to the ice. The same deep, ice-free water that made the Army happy now makes visitors happy. Plenty of the people who run those boats in summer go home at night to the same tall building. And the people who stay through winter keep the lights on in it, together. I asked myself the big question on the water, holding a fishing rod I did not know how to use. The fish knew. The fish was not interested.",
+      "y_hinh": [
+        {
+          "cue": "Fishing charters go out",
+          "y": "Thuyền câu rời bến, mòng biển bay theo"
+        },
+        {
+          "cue": "paddle up to the ice",
+          "y": "Thuyền kayak nhỏ trước bức tường băng xanh khổng lồ"
+        },
+        {
+          "cue": "keep the lights on in it",
+          "y": "Đêm mùa đông: toà nhà duy nhất sáng đèn giữa tuyết"
+        },
+        {
+          "cue": "The fish was not interested",
+          "y": "Wob cầm cần câu ngược",
+          "gag": "Con cá ngoi lên nhìn dây câu, nhìn Wob, rồi lặn đi; Wob giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-summer-harbor",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-glacier-fjord",
+          "cue": "People rent kayaks",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-begich-towers",
+          "cue": "And the people who stay through winter",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-summer-harbor",
+          "cue": "I asked myself the big question",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Summer is when this town works",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I asked myself the big question",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The fish was not interested",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "outro",
+      "chapter": "Would I Take the Elevator Home?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết SUMMER ONLY, callback tờ lịch giờ, câu hỏi kéo bình luận",
+      "narration": "So here is how it fits together. A war needed a hidden port. The fog hid it. A tunnel reached it. The Army left a building, and the weather made that building the town. Nobody chose one building to be strange. They chose it because walking to school through a tunnel beats wading through a winter of snow. Would I move there? In July, I would carry my own bags through that tunnel. In February, I would be the person sleeping in the car outside it. My verdict is SUMMER ONLY. It suits people who love boats, quiet and knowing all their neighbours by floor number. It does not suit anyone who hates elevators or deadlines. I pinned the timetable to my wall. I check it before I go to bed now. Could you spend a whole winter without leaving one building?",
+      "verdict": {
+        "label": "SUMMER ONLY",
+        "reason": "Summer brings boats, glaciers and fishing through an easy tunnel; winter means heavy snow, strong wind and a single road that closes every night.",
+        "cue": "SUMMER ONLY"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is how it fits together",
+          "y": "Bàn kỷ vật: Wob xếp hàng mũ sắt nhỏ, cục bông mây, toà nhà hộp diêm, quả cầu tuyết, tờ lịch giờ"
+        },
+        {
+          "cue": "In February",
+          "y": "Wob lắc quả cầu tuyết: bên trong là chiếc xe nhỏ trước cổng hầm"
+        },
+        {
+          "cue": "My verdict is SUMMER ONLY",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? SUMMER ONLY'"
+        },
+        {
+          "cue": "I pinned the timetable to my wall",
+          "y": "Wob ghim tờ lịch giờ lên tường cạnh giường",
+          "gag": "Bên cạnh tờ lịch, Wob đã tự vẽ thêm một tờ lịch giờ cho chính cửa phòng ngủ của mình"
+        },
+        {
+          "cue": "without leaving one building",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-begich-towers",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-glacier-fjord",
+          "cue": "In July",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-snow-mountains",
+          "cue": "In February",
+          "move": "pan-left"
+        },
+        {
+          "show": "text",
+          "cue": "My verdict is SUMMER ONLY"
+        },
+        {
+          "show": "asset:map-whittier",
+          "cue": "I pinned the timetable",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.55
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is how it fits",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "In July",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "In February",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "I pinned the timetable",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-begich-towers",
+      "scenes": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "canh": "a single fourteen-storey pale concrete apartment block with rows of small square windows standing at the foot of steep forested mountains with waterfalls, deep snow on the ground, low clouds, a small harbour inlet in front",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, ứng viên thumbnail, dùng ở 9 cảnh; phải đúng một toà nhà cao duy nhất giữa núi"
+    },
+    {
+      "id": "ai-tunnel-portal",
+      "scenes": [
+        3,
+        4,
+        6
+      ],
+      "canh": "a concrete tunnel entrance cut into a steep rocky mountainside, a single traffic lane with railway tracks set into the road surface, a red traffic light and a lowered barrier, snow on the slopes",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Đạo cụ chính của chương 1; phải đúng một làn có đường ray chìm"
+    },
+    {
+      "id": "ai-begich-hallway",
+      "scenes": [
+        7,
+        8,
+        10
+      ],
+      "canh": "a long interior hallway with painted pale yellow cinder block walls, a bulletin board, numbered doors, a small post office service window at the end, fluorescent ceiling lights, no people",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 1
+      },
+      "hang": "chinh",
+      "ly_do": "Bối cảnh chính của chương 3; cần đúng tường block vàng nhạt và ô bưu điện"
+    },
+    {
+      "id": "ai-buckner-ruin",
+      "scenes": [
+        11,
+        12
+      ],
+      "canh": "a large abandoned six-storey concrete building with many broken and empty windows, stained walls, snow on the ledges, mountains and low grey clouds behind, quiet and empty",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hình duy nhất của chương lich-su-nghiem; phải đúng toà bê tông bỏ hoang"
+    },
+    {
+      "id": "ai-glacier-fjord",
+      "scenes": [
+        13,
+        14,
+        15
+      ],
+      "canh": "a narrow summer fjord with calm green-grey water, a huge blue-white tidewater glacier face at the end, small kayaks and a tour boat in front, steep green mountains, waterfalls",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Mở chương mùa hè và cảnh phán quyết; cần đúng sông băng đổ ra biển"
+    },
+    {
+      "id": "ai-summer-harbor",
+      "scenes": [
+        13,
+        14
+      ],
+      "canh": "a small boat harbour in summer full of fishing boats and masts, steep green mountains behind, a waterfall, seagulls",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 2,
+        "cu_the": 1,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông giữa chương, tổng 4"
+    },
+    {
+      "id": "ai-rain-fjord",
+      "scenes": [
+        5,
+        6,
+        12
+      ],
+      "canh": "a deep grey inlet between steep mountains under low heavy clouds and fog, rain streaks, dark water",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí mây mù, tổng 4"
+    },
+    {
+      "id": "ai-snow-mountains",
+      "scenes": [
+        9,
+        10,
+        15
+      ],
+      "canh": "steep mountains in heavy falling snow, a white valley, grey sky, blowing snow",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí tuyết, tổng 4"
+    },
+    {
+      "id": "ai-night-road",
+      "scenes": [
+        4
+      ],
+      "canh": "an empty snowy mountain road at night under a dark blue sky, a single street light, falling snow",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông đêm ngắn, tổng 2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 2,
+      "quote": "At the last census it had two hundred and seventy-two people.",
+      "statement": "Whittier, Alaska had a population of 272 at the 2020 United States census.",
+      "source_ids": [
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "Most of them live in one fourteen-storey building.",
+      "statement": "Most residents of Whittier, Alaska live in a single 14-storey building, Begich Towers.",
+      "source_ids": [
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 3,
+      "quote": "Whittier is about fifty-eight miles from Anchorage. That's roughly ninety-three kilometres.",
+      "statement": "Whittier, Alaska is about 58 miles (about 93 km) from Anchorage.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "There is one way in by car, and it is a tunnel.",
+      "statement": "The only road access to Whittier, Alaska is through the Anton Anderson Memorial Tunnel.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 4,
+      "quote": "The tunnel is two and a half miles long, about four kilometres, and it has one lane. Cars and trains share it, so they take turns.",
+      "statement": "The only road access to Whittier, Alaska is the Anton Anderson Memorial Tunnel, a 2.5-mile (about 4 km) single-lane tunnel shared by cars and trains, which alternate.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 4,
+      "quote": "In winter it opens one direction, then the other, about every half hour.",
+      "statement": "In the winter schedule, the Whittier tunnel alternates direction, with each direction opening roughly every 30 minutes.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "In winter the gates lock at eleven at night and open again at seven. The last run into town leaves at ten thirty.",
+      "statement": "In the winter schedule (October 1 to April 30), the Whittier tunnel gates lock at 11:00 pm and the tunnel reopens at 7:00 am; the last opening into Whittier is at 10:30 pm.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "The Alaska Railroad calls this the longest combined rail and highway tunnel in North America.",
+      "statement": "According to the Alaska Railroad, the Anton Anderson Memorial Tunnel is the longest combined rail-and-highway tunnel in North America.",
+      "source_ids": [
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 5,
+      "quote": "Long before any soldiers, this pass was part of a portage route used by the Chugach people of Prince William Sound.",
+      "statement": "Before the military town was built, the area of Whittier was part of a portage route used by the Chugach people native to Prince William Sound.",
+      "source_ids": [
+        "S19",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 6,
+      "quote": "During the war, the US Army wanted a supply port for Alaska. Whittier gave them a shorter trip than the port at Seward, about fifty-two miles shorter by sea. Ships spent less time exposed to submarines.",
+      "statement": "During World War II the US Army chose Whittier as a supply port partly because the voyage was shorter than to Seward (a trip to Seward added about 52 miles) and reduced ships' exposure to Japanese submarines.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 6,
+      "quote": "The water in the inlet does not freeze.",
+      "statement": "The waters of Passage Canal at Whittier, Alaska remain ice-free year-round.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "according to the Alaska Department of Transportation, the Army picked the spot because the cloud and fog would hide the port from Japanese bombers",
+      "statement": "According to the Alaska Department of Transportation and Public Facilities, the US military selected Whittier's location because cloud and fog cover would protect the port from Japanese bombing during World War II.",
+      "source_ids": [
+        "S2",
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "Then they drilled through the mountain for a railway, finished in nineteen forty-three. By the mid nineteen forties, more than a thousand soldiers and workers were here.",
+      "statement": "The US Army built a railway spur with tunnels to Whittier, completed in 1943, and by the mid-1940s Whittier's population of military and civilian personnel exceeded 1,000.",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 7,
+      "quote": "The building everyone lives in now was finished in the late nineteen fifties, as housing for soldiers and their families. It is actually three blocks joined into one.",
+      "statement": "Begich Towers in Whittier (formerly the Hodge Building) was built for Army personnel and families and completed in 1957, combining east, middle and west sections built between 1953 and 1957.",
+      "source_ids": [
+        "S6",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "The Army left in nineteen sixty. In nineteen seventy-two the city bought the buildings, and people moved in.",
+      "statement": "The US Army maintained Whittier until 1960, and in 1972 the City of Whittier purchased the Cold War-era buildings that now house most residents.",
+      "source_ids": [
+        "S7",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "Eight in the morning: post office, ground floor, near the entrance. Nine: the police station, down the same hall.",
+      "statement": "Begich Towers contains Whittier's post office, near the entrance, and the police station down the same hallway.",
+      "source_ids": [
+        "S12",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 8,
+      "quote": "There are two small shops, the city offices and a playground. The school is across the street, and the children get there through a tunnel underground.",
+      "statement": "Begich Towers contains a clinic, a church, a laundromat, two convenience stores, city offices and a playground, and Whittier's school across the street is reached through an underground tunnel.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 9,
+      "quote": "According to the state's weather records, Whittier gets around one hundred and ninety-six inches of rain and snow a year combined. That's about five metres. The snow alone averages around twenty feet.",
+      "statement": "According to Alaska DOT&PF climate data (1942–2011), Whittier's average annual precipitation is about 196 inches (about 5 m), and average annual snowfall is about 20 feet.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 9,
+      "quote": "Reporters who spent a winter here describe winds of about sixty miles an hour.",
+      "statement": "Journalists reporting on Whittier describe winter winds of around 60 miles per hour.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C20",
+      "scene": 10,
+      "quote": "Many businesses here even disconnect their phones from October to April.",
+      "statement": "Many businesses in Whittier, Alaska disconnect their phones from October through April.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 11,
+      "quote": "The Buckner Building was finished in nineteen fifty-three. It was called the city under one roof, before the tower took that job. It was used for only a few years, then abandoned.",
+      "statement": "The Buckner Building in Whittier, completed in 1953 and once called the 'city under one roof', was used for only a few years before being abandoned.",
+      "source_ids": [
+        "S17",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 12,
+      "quote": "On March the twenty-seventh, nineteen sixty-four, a huge earthquake shook southern Alaska. In Whittier, the shaking and the waves that followed killed thirteen people. At the time, only about seventy people were living here.",
+      "statement": "The Alaska earthquake of March 27, 1964 killed 13 people in Whittier, which at the time had about 70 residents, and wrecked its waterfront.",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 13,
+      "quote": "In summer the tunnel opens earlier and closes later",
+      "statement": "The Whittier tunnel's summer schedule (May 1 to September 30) runs from 5:30 am to 11:15 pm, longer than the winter schedule of 7:00 am to 10:45 pm.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 13,
+      "quote": "The port the Army built is still in use. Big cruise ships start and end their trips here.",
+      "statement": "The Port of Whittier, built by the US Army, is still in use, and cruise ships start or end voyages there.",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 13,
+      "quote": "Tour boats leave the small boat harbour for the fjords, where you can see more than two dozen glaciers in a single day.",
+      "statement": "Day tours from Whittier's small boat harbour into Prince William Sound can show visitors more than two dozen glaciers in one day.",
+      "source_ids": [
+        "S10",
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 14,
+      "quote": "Fishing charters go out for halibut and salmon. People rent kayaks and paddle up to the ice.",
+      "statement": "Fishing charters from Whittier target halibut and salmon, and visitors can rent kayaks to paddle in Prince William Sound near glaciers.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 15,
+      "quote": "A war needed a hidden port. The fog hid it. A tunnel reached it. The Army left a building",
+      "statement": "Whittier was founded as a World War II Army port chosen partly for cloud cover, connected by a railway tunnel, and the Army left behind the building where most residents now live.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Anton Anderson Memorial Tunnel – History",
+      "publisher": "Alaska Department of Transportation & Public Facilities",
+      "type": "goc",
+      "url": "https://dot.alaska.gov/creg/whittiertunnel/history.shtml",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "Whittier Tunnel – Weather",
+      "publisher": "Alaska Department of Transportation & Public Facilities",
+      "type": "goc",
+      "url": "https://dot.alaska.gov/creg/whittiertunnel/weather.shtml",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Whittier Branch Tunnel Road-Rail Surface Maintenance",
+      "publisher": "Alaska Railroad",
+      "type": "goc",
+      "url": "https://www.alaskarailroad.com/sites/default/files/Communications/2021_FCTSHT_Whittier_Branch_Tunnel_Maintenance.pdf",
+      "published": "2021-02-25",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Whittier History",
+      "publisher": "Alaska.org",
+      "type": "khac",
+      "url": "https://alaska.org/detail/whittier-history",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "In This Alaskan Town, Every Resident Lives in the Same Building",
+      "publisher": "Smithsonian Magazine",
+      "type": "bao",
+      "url": "https://www.smithsonianmag.com/travel/visit-town-where-every-resident-lives-same-building-180959081/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Whittier",
+      "publisher": "Travel Alaska",
+      "type": "khac",
+      "url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "City of Whittier, Alaska",
+      "publisher": "National Park Service",
+      "type": "goc",
+      "url": "https://www.nps.gov/articles/000/city-of-whittier-alaska.htm",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Whittier – Things to Do",
+      "publisher": "Travel Alaska",
+      "type": "khac",
+      "url": "https://www.travelalaska.com/destinations/cities-towns/whittier?page=2",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Whittier, Alaska adventure",
+      "publisher": "National Geographic",
+      "type": "bao",
+      "url": "https://www.nationalgeographic.com/travel/article/whittier-alaska-adventure-new-cruise-terminal",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Tunnel Schedule & Hours of Operation",
+      "publisher": "Alaska Department of Transportation & Public Facilities",
+      "type": "goc",
+      "url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Welcome To Whittier, Alaska, A Community Under One Roof",
+      "publisher": "NPR (via WFAE)",
+      "type": "bao",
+      "url": "https://www.wfae.org/2015-01-18/welcome-to-whittier-alaska-a-community-under-one-roof",
+      "published": "2015-01-18",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska (Professional Paper 542-B)",
+      "publisher": "US Geological Survey",
+      "type": "goc",
+      "url": "https://pubs.usgs.gov/pp/0542b/pp542b_text.pdf",
+      "published": "1965-01-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S14",
+      "title": "1964 Prince William Sound Tsunami",
+      "publisher": "University of Washington",
+      "type": "khac",
+      "url": "https://earthweb.ess.washington.edu/tsunami/general/historic/alaska64.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S15",
+      "title": "Whittier travel guide",
+      "publisher": "Fodor's",
+      "type": "khac",
+      "url": "https://www.fodors.com/world/north-america/usa/alaska/kenai-peninsula-prince-william-sound-and-homer/prince-william-sound/whittier/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S16",
+      "title": "Whittier, Alaska (2020 census figure)",
+      "publisher": "Wikipedia, citing US Census Bureau",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Whittier,_Alaska",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Whittier honored for supporting the World War II effort in Alaska",
+      "publisher": "Alaska Beacon",
+      "type": "bao",
+      "url": "https://alaskabeacon.com/2026/10/20/whittier-honored-for-supporting-the-world-war-ii-effort-in-alaska/",
+      "published": "2026-10-20",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S18",
+      "title": "Whittier, Alaska (distance to Anchorage)",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Whittier,_Alaska",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S19",
+      "title": "Whittier, Alaska",
+      "publisher": "AlaskaTravel.com",
+      "type": "khac",
+      "url": "https://alaskatravel.com/whittier",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

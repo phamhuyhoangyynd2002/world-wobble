@@ -885,12 +885,26 @@
   /* Bông tuyết rơi (mảnh giấy tròn nhỏ). Gốc: tâm. */
   function flake(r, seed) { return '<path d="' + rEll(0, 0, r, r * 0.9, 1, seed || 501) + '" fill="#FFFFFF" stroke="#9FBFCC" stroke-width="1.5"/>'; }
 
+  /* Dấu phán quyết đóng mực (SUMMER ONLY, NOPE, WOULD MOVE…): khung đỏ đôi nghiêng + chữ. Gốc: tâm.
+     Chữ luôn nằm gọn trong khung ở mọi cỡ: khung tính theo bề rộng ước lượng (0,74 × cỡ mỗi ký tự, Fraunces 900)
+     và chữ bị ép đúng bề rộng trong (textLength + lengthAdjust), nên phóng to/thu nhỏ cả nhóm vẫn không lấn viền.
+     o: mau (#C9463A), goc (-8 độ), dam (900). */
+  function verdictStamp(id, chu, co, o) {
+    o = o || {};
+    var mau = o.mau || "#C9463A", pad = Math.max(30, co * 0.6);
+    var tw = chu.length * co * 0.74, w = tw + pad * 2, h = co * 1.6;
+    return '<g id="' + id + '"><g transform="rotate(' + (o.goc == null ? -8 : o.goc) + ')">' +
+      '<rect x="' + f1(-w / 2) + '" y="' + f1(-h / 2) + '" width="' + f1(w) + '" height="' + f1(h) + '" rx="10" fill="none" stroke="' + mau + '" stroke-width="' + f1(Math.max(6, co * 0.17)) + '"/>' +
+      '<rect x="' + f1(-w / 2 + co * 0.22) + '" y="' + f1(-h / 2 + co * 0.22) + '" width="' + f1(w - co * 0.44) + '" height="' + f1(h - co * 0.44) + '" rx="6" fill="none" stroke="' + mau + '" stroke-width="' + f1(Math.max(2.5, co * 0.065)) + '"/>' +
+      txt(0, f1(co * 0.36), chu, co, { w: o.dam || 900, fill: mau, extra: ' textLength="' + f1(tw) + '" lengthAdjust="spacingAndGlyphs"' }) + "</g></g>";
+  }
+
   G.DaoCu = {
     journalPage: journalPage, mapSticker: mapSticker, mapDot: mapDot, paperPlane: paperPlane, boxCar: boxCar, boxCarKinh: boxCarKinh, pencil: pencil,
     clockSun: clockSun, flashlight: flashlight, beam: beam, cameraSmall: cameraSmall, snowPile: snowPile, signBoard: signBoard,
     notebookOpen: notebookOpen, paperMap: paperMap, warmSpring: warmSpring, reindeer: reindeer, herder: herder, tentCone: tentCone,
     waterBottle: waterBottle, iceCrown: iceCrown, monumentCold: monumentCold, weatherStation: weatherStation, airstrip: airstrip,
-    tear: tear, flake: flake, herderMat: herderMat, sled: sled,
+    tear: tear, flake: flake, herderMat: herderMat, sled: sled, verdictStamp: verdictStamp,
     C: C, INK: INK, rng: rng, rough: rough, rRect: rRect, rEll: rEll, ptsRect: ptsRect, ptsEllipse: ptsEllipse,
     paper: paper, line: line, txt: txt, defs: defs,
     fish: fish, fishFloppy: fishFloppy, deskLamp: deskLamp, memoryBox: memoryBox, bookStack: bookStack,

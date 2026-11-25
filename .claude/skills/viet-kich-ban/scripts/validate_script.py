@@ -8,7 +8,7 @@ nguồn không tồn tại, verdict sai số lần hoặc sai nhãn, từ cấm,
 cue không có trong lời đọc, asset không có trong manifest (nếu đã có manifest), ảnh asset:ai-… chưa khai báo
 trong anh_ai hoặc hạng không khớp điểm (references/hang-anh.md).
 CẢNH BÁO: độ dài ước tính ngoài mục tiêu, kiểu hook lặp 3 tập, tiêu đề giống khuôn tập trước, cảnh hook dài,
-chương ít hơn 3, câu quá dài, câu đệm.
+chương ít hơn 3, câu quá dài, câu đệm, văn kiểu AI (check_van_ai: câu đối xứng, cụm sáo, tính từ giật gân, nhịp câu đều).
 Kịch bản "Wob kể chuyến đi" (cảnh có `lop`, từ 17/11/2026): thêm kiểm lop/khuon/y_hinh, ngôi thứ nhất, gag ở cảnh
 hồi ức, khuôn chương đủ đa dạng, câu chuyển và câu đôi không lặp (check_ke_chuyen, references/cong-thuc-ke-chuyen.md).
 """
@@ -21,7 +21,10 @@ from pathlib import Path
 
 WPM = 155  # tốc độ đọc ước tính (từ/phút) của giọng Azure en-US ở rate +0%
 VERDICTS = {"WOULD MOVE", "SUMMER ONLY", "NOPE"}
-SCENE_TYPES = {"hook", "section", "outro"}
+SCENE_TYPES = {"hook", "section", "outro", "duoi"}
+# Tập làm trước khi có luật đuôi tập (24/11/2026): không bắt cảnh 'duoi'
+TAP_CU_KHONG_DUOI = ("oymyakon", "coober-pedy")
+DUOI_CAM = ("subscribe", "like button", "hit the bell", "see you next time", "thanks for watching", "don't forget")
 SOURCE_TYPES = {"goc", "bach-khoa", "bao", "khac"}
 WOB_FACES = {"hao-hung", "lanh-run", "nong-chay", "soc", "ngam-nghi", "dong-goi", "an"}  # "an": Wob rời khung (đoạn nghiêm túc)
 WOB_ACTIONS = {"nhay", "di-ra", "di-vao"}
@@ -47,6 +50,20 @@ HEDGES = re.compile(r"estimates? vary|according to|some sources|other sources|re
                     r"it'?s said|by some accounts|disputed|depending on (who|how)|records (differ|disagree)|"
                     r"no one (knows|agrees)|roughly|it'?s claimed|legend has it", re.I)
 SHOW_RE = re.compile(r"^(asset:[\w.-]+|text|fact:.+)$")
+# Văn kiểu AI (bài học 24/11/2026, docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md): người xem bắt câu chữ khuôn
+# nhiều hơn bắt giọng. Mỗi mẫu: (regex, tối đa mỗi tập, tên). Vượt thì CẢNH BÁO.
+VAN_AI = [
+    (re.compile(r"\b(it|this|that)(?:'s| is| was|'s not| isn't| wasn't)\s+(?:not|n't)?\s*(?:just|only|merely|simply)?\s*"
+                r"[\w\s'-]{1,40}?[,;.—-]+\s*(?:it|this|that)(?:'s| is| was)\b", re.I), 1, "đối xứng 'It's not X, it's Y'"),
+    (re.compile(r"\bnot (?:just|only|merely) [\w\s'-]{1,40}?,? but (?:also )?", re.I), 1, "'not just X but Y'"),
+    (re.compile(r"\bwhere (\w+) (?:is|means) (\w+), \2 (?:is|means)\b", re.I), 0, "đảo vòng 'where X is Y, Y is Z'"),
+    (re.compile(r"\bhere'?s (?:why|the kicker|the catch|the twist|where it gets)\b", re.I), 1, "'here's why / the kicker'"),
+    (re.compile(r"\b(?:delve|tapestry|testament to|symphony of|in a world where|let that sink in|buckle up|"
+                r"the answer (?:may|might|will) surprise you|nothing about [\w\s]{1,30} is normal|"
+                r"shouldn'?t (?:even )?exist|defies (?:all )?(?:logic|explanation))\b", re.I), 0, "cụm sáo của văn AI"),
+    (re.compile(r"\b(?:terrifying|disturbing|horrifying|nightmare|creepiest|creepier|bizarre|mysterious)\b", re.I), 3,
+     "tính từ giật gân"),
+]
 
 
 def check_anh_ai(script: dict, scenes: list, errors: list, warns: list) -> None:
@@ -226,6 +243,26 @@ def check_ke_chuyen(script: dict, scenes: list, others: list, errors: list, warn
             warns.append(f"chương mở dùng lại khuôn '{k[0]}' của tập {others[-1][0]}")
 
 
+def check_van_ai(scenes: list, warns: list) -> None:
+    """Đếm mẫu câu người xem hay gọi là 'AI script' (VAN_AI). Chỉ cảnh báo: lời đọc vẫn có thể dùng một lần có chủ ý."""
+    for rx, toi_da, ten in VAN_AI:
+        gap: list[tuple[str, str]] = []
+        for sc in scenes:
+            for m in rx.finditer(sc.get("narration") or ""):
+                gap.append((sc.get("id"), m.group(0).strip()))
+        if len(gap) > toi_da:
+            vd = "; ".join(f"{i}: '{t[:40]}'" for i, t in gap[:4])
+            warns.append(f"văn kiểu AI: {ten} {len(gap)} lần (tối đa {toi_da}) – {vd}. Viết lại cụ thể, bỏ khuôn")
+    # nhịp câu đều: nhiều câu liền nhau cùng độ dài là dấu hiệu văn máy (và giọng máy đọc càng đều)
+    for sc in scenes:
+        dai = [len(words(s)) for s in sentences(sc.get("narration") or "")]
+        for i in range(len(dai) - 3):
+            khung = dai[i:i + 4]
+            if min(khung) >= 6 and max(khung) - min(khung) <= 2:
+                warns.append(f"cảnh {sc.get('id')}: 4 câu liền nhau dài gần bằng nhau ({khung} từ); xen một câu rất ngắn")
+                break
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         print(__doc__)
@@ -287,8 +324,31 @@ def main() -> int:
     if scenes:
         if scenes[0].get("type") != "hook":
             errors.append("cảnh đầu phải là 'hook'")
-        if scenes[-1].get("type") != "outro":
-            errors.append("cảnh cuối phải là 'outro'")
+        co_duoi = scenes[-1].get("type") == "duoi"
+        if co_duoi:
+            if len(scenes) < 2 or scenes[-2].get("type") != "outro":
+                errors.append("cảnh 'duoi' phải đứng ngay sau cảnh 'outro'")
+            d, dn = scenes[-1], len(words(scenes[-1].get("narration", "")))
+            if not 25 <= dn <= 50:
+                errors.append(f"cảnh duoi: lời {dn} từ, cần 25–50 từ (đuôi tập 15–20 giây, phần sau là nhạc và hình)")
+            low = d.get("narration", "").lower()
+            for c in DUOI_CAM:
+                if c in low:
+                    errors.append(f"cảnh duoi: cụm cấm '{c}' (đuôi tập mời bằng hình, không nài)")
+            if any(has_number(s) for s in sentences(d.get("narration", ""))):
+                errors.append("cảnh duoi: không đặt con số (đuôi tập không thêm khẳng định)")
+            dd = d.get("duoi") or {}
+            for k in ("ky_vat", "nha_tap_sau", "nhin_lai"):
+                if not dd.get(k):
+                    errors.append(f"cảnh duoi: thiếu duoi.{k} (xem skill mo-ket)")
+            if d.get("verdict"):
+                errors.append("cảnh duoi: không đặt verdict (con dấu chỉ ở outro)")
+        elif scenes[-1].get("type") != "outro":
+            errors.append("cảnh cuối phải là 'outro' hoặc 'duoi'")
+        elif not any(x in project.name for x in TAP_CU_KHONG_DUOI):
+            errors.append("thiếu cảnh 'duoi' (đuôi tập 15–20 giây sau outro, bắt buộc từ tập 3; xem skill mo-ket)")
+        if sum(1 for s in scenes if s.get("type") == "duoi") > 1:
+            errors.append("chỉ được một cảnh 'duoi'")
         if not scenes[0].get("chapter"):
             errors.append("cảnh 1 phải có 'chapter' (YouTube cần chương đầu ở 0:00)")
     if sum(1 for s in scenes if s.get("type") == "hook") != 1:
@@ -326,6 +386,9 @@ def main() -> int:
             errors.append(f"cảnh {sid}: lời đọc có ký tự đặc biệt (# & / → ngoặc cong, emoji)")
         if re.search(r"\d", narr):
             warns.append(f"cảnh {sid}: lời đọc có chữ số; viết số bằng chữ để mốc từng từ của TTS khớp")
+        if sc.get("type") == "hook":
+            # lời chào nhận diện (skill mo-ket) không tính vào giới hạn câu mồi
+            n = len(words(re.sub(r"Hi, I'm Wob\..*$", "", narr)))
         if sc.get("type") == "hook" and n > 35:
             warns.append(f"cảnh hook {n} từ (~{n / WPM * 60:.0f}s), nên ≤ 35 từ để vào câu hỏi trong 10 giây đầu")
         for s in sentences(narr):
@@ -447,6 +510,7 @@ def main() -> int:
 
     # ---- kể chuyện ngôi thứ nhất: lop, khuon, y_hinh, chống lặp câu chuyển (references/cong-thuc-ke-chuyen.md)
     check_ke_chuyen(script, scenes, others, errors, warns)
+    check_van_ai(scenes, warns)
 
     # ---- độ dài
     est = total_words / WPM * 60

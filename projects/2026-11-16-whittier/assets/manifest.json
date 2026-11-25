@@ -1,0 +1,464 @@
+{
+  "assets": {
+    "map-whittier": {
+      "file": "assets/ban-do/map-whittier.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "orthographic",
+      "center": [
+        -148.68,
+        60.77
+      ],
+      "zoom": 4,
+      "anchor": [
+        1320,
+        560
+      ],
+      "highlight": [
+        "USA"
+      ],
+      "marks": [
+        {
+          "x": 1320,
+          "y": 560,
+          "label": "Whittier",
+          "lon": -148.68,
+          "lat": 60.77
+        },
+        {
+          "x": 1299,
+          "y": 544,
+          "label": "Anchorage",
+          "lon": -149.9,
+          "lat": 61.22
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        2
+      ],
+      "created": "2026-11-23"
+    },
+    "map-whittier-route": {
+      "file": "assets/ban-do/map-whittier-route.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        -149.1,
+        60.85
+      ],
+      "zoom": 40,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1050,
+          "y": 575,
+          "label": "Whittier",
+          "lon": -148.68,
+          "lat": 60.77
+        },
+        {
+          "x": 1018,
+          "y": 566,
+          "label": "Tunnel",
+          "lon": -148.83,
+          "lat": 60.79
+        },
+        {
+          "x": 789,
+          "y": 377,
+          "label": "Anchorage",
+          "lon": -149.9,
+          "lat": 61.22
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        3
+      ],
+      "created": "2026-11-23"
+    },
+    "map-alaska-ww2": {
+      "file": "assets/ban-do/map-alaska-ww2.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        -149.3,
+        60.6
+      ],
+      "zoom": 18,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1020,
+          "y": 507,
+          "label": "Whittier",
+          "lon": -148.68,
+          "lat": 60.77
+        },
+        {
+          "x": 947,
+          "y": 637,
+          "label": "Seward",
+          "lon": -149.44,
+          "lat": 60.1
+        },
+        {
+          "x": 902,
+          "y": 418,
+          "label": "Anchorage",
+          "lon": -149.9,
+          "lat": 61.22
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        6
+      ],
+      "created": "2026-11-23"
+    },
+    "ai-bear-valley-queue": {
+      "file": "assets/ai/ai-bear-valley-queue.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. several marked waiting lanes on a road in front of a forest of spruce and snowy mountains, a small booth, grey morning light, no cars Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-bear-valley-queue-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        3,
+        4
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-tunnel-inside": {
+      "file": "assets/ai/ai-tunnel-inside.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. inside a long rough rock tunnel lit by a line of warm yellow lamps, one concrete lane with rails set into it, empty Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-tunnel-inside-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        4,
+        6
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-passage-canal-fog": {
+      "file": "assets/ai/ai-passage-canal-fog.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a narrow grey-green fjord with steep forested cliffs and waterfalls, low clouds touching the water, winter, no buildings Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-passage-canal-fog-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        5,
+        6
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-whittier-snow": {
+      "file": "assets/ai/ai-whittier-snow.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a small road at the foot of steep mountains buried in deep snow during heavy snowfall, low grey sky, grey water in the distance, no people Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-whittier-snow-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        10,
+        11
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-harbor-dusk": {
+      "file": "assets/ai/ai-harbor-dusk.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a small harbour in a narrow fjord at dusk, calm water, a few wooden pilings, dark steep mountains, muted grey-blue tones, no people Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-harbor-dusk-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        12
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-portage-pass": {
+      "file": "assets/ai/ai-portage-pass.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a snowy mountain pass between two peaks, a small glacier in the distance, a faint trail crossing the pass, no people Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-portage-pass-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        5,
+        14
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-begich-hallway": {
+      "file": "assets/ai/ai-begich-hallway.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a long old apartment corridor with pale cream painted concrete block walls, fluorescent ceiling lights, a corkboard with papers, several doors, no people Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 11,
+      "goc": "assets/ai/goc/ai-begich-hallway-noibo-s11.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        8,
+        9,
+        11
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-tunnel-portal": {
+      "file": "assets/ai/ai-tunnel-portal.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a concrete tunnel portal cut into a steep rocky mountainside, a single traffic lane with railway tracks set into the road surface, a traffic signal and a lowered barrier, snowy slopes, night Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-tunnel-portal-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        15
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-begich-towers": {
+      "file": "assets/ai/ai-begich-towers.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a single fourteen-storey pale cream concrete apartment block with rows of small square windows, three joined sections, at the foot of steep forested mountains with waterfalls, deep snow, low clouds, a small harbour in front Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-begich-towers-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        2,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-summer-sound": {
+      "file": "assets/ai/ai-summer-sound.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a calm green fjord in summer, lush green mountains, a white-blue tidewater glacier meeting the sea in the distance, a few small boats, bright sky Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-summer-sound-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        13,
+        14,
+        15
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    },
+    "ai-buckner-ruin": {
+      "file": "assets/ai/ai-buckner-ruin.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a long abandoned six-storey concrete building with broken windows, moss and water stains, snow on the ground, a fence in front, steep mountains behind Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-buckner-ruin-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        9
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-23"
+    }
+  }
+}

@@ -6,7 +6,7 @@
 
 ## Kênh
 
-- Tên kênh: **World Wobble**, handle `@WorldWobble` (còn trống ngày 14/11/2026; TODO: người làm kênh tự tạo kênh và giữ handle; hồ sơ điền sẵn cho YouTube và các nền tảng khác ở [ho-so-dang-ky-nen-tang.md](ho-so-dang-ky-nen-tang.md))
+- Tên kênh: **World Wobble**, handle `@WorldWobble` (đã tạo: https://www.youtube.com/@WorldWobble, kênh UCw6DLoQ1nVGssPTZ6bxeDDQ; 24/11/2026 đã điền Profile, Settings, mặc định tải lên, 3 danh sách phát; TODO: xác minh điện thoại, giữ tên TikTok/Instagram; hồ sơ điền sẵn cho YouTube và các nền tảng khác ở [ho-so-dang-ky-nen-tang.md](ho-so-dang-ky-nen-tang.md))
 - Lời hứa (tiếng Anh, dùng trong mô tả kênh): "Why on earth do people live *there*? Weird places, explained with a wobble."
 - Ngôn ngữ: tiếng Anh. Thị trường Nhật tạm bỏ (chốt 14/11/2026)
 - Khán giả: người lớn nói tiếng Anh, 18–44 tuổi, ở Mỹ, Anh, Canada, Úc; nhiều người xem trên TV. **Không** nhắm trẻ em: khi đăng chọn "Not made for kids"
@@ -26,6 +26,7 @@
 - Dựng Wob bằng **SVG tách bộ phận** (thân, mắt, miệng, tay, chân, ba lô), chuyển động bằng GSAP trong HyperFrames. Không tạo Wob bằng AI sinh ảnh, để tập nào Wob cũng giống hệt nhau. **Đã vẽ** (chốt 15/11/2026, thêm 10 biểu cảm ngày 22/11/2026, danh sách ở `templates/_shared/wob/README.md`): 16 biểu cảm, gồm `hao-hung`, `lanh-run`, `nong-chay`, `soc`, `ngam-nghi`, `dong-goi` ở `templates/_shared/wob/`, dựng lại bằng `wob/nguon/tao_wob.py`: quả địa cầu méo màu biển `#5A9FB8` với lục địa trừu tượng (không phải bản đồ thật), nét mực viền, ba lô nâu có cuộn thảm đỏ, giày đỏ. Màu Wob cố định, không đổi theo bảng màu tập. Chưa có: tấm bản đồ giấy cầm ngược (thêm sau nếu kịch bản cần).
 - **Phán quyết mỗi tập** (dấu ấn riêng, nhận định của kênh): con dấu "Would Wob move here?" với ba nhãn cố định **WOULD MOVE** / **SUMMER ONLY** / **NOPE**, đóng đúng một lần ở cuối video, kèm 1–2 câu lý do.
 - Giọng đọc (chốt 16/11/2026, người làm kênh chọn sau khi nghe thử 4 giọng Andrew, Brian, Christopher, Ava): **`en-US-AndrewNeural`**, tốc độ `+0%`, một giọng cho cả kênh. Dùng bản Neural thường, **không** dùng bản HD (`DragonHD`), vì Edge TTS và Azure cùng có giọng Neural này nên chuyển dịch vụ không đổi giọng; bản HD là mô hình khác. Dịch vụ: **tạm dùng Edge TTS** khi kênh chưa kiếm tiền (`CHO_PHEP_EDGE=1` trong `.env`); video làm bằng Edge không bật quảng cáo. Trước khi bật kiếm tiền: tạo khoá Azure Speech, xoá cờ, lồng lại bằng Azure cùng tên giọng. **Không** dùng gói miễn phí của ElevenLabs (cấm thương mại).
+  - **Xem lại giọng trước khi bật kiếm tiền (ghi 24/11/2026):** trên bảng nghe mù Artificial Analysis, Azure Neural không nằm trong 30 hạng đầu; Eleven v4 đứng đầu (Elo 1340), gói thương mại từ 6 USD/tháng. Giọng clone từ người thật được nghe là người 58% số lần, giọng tổng hợp có sẵn 41%. Việc cần làm: nghe mù một đoạn 2 phút bằng 3 giọng (Andrew Neural, Eleven v4 giọng có sẵn, Eleven v4 clone giọng người làm kênh) rồi mới quyết; đổi giọng là đổi cho cả kênh, nên làm trước tập 6. Autotune không giúp giọng TTS. Căn cứ: [docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md](../docs/bai-hoc-thi-truong-giong-doc-2026-11-24.md).
 - Giọng văn: tò mò, khô, hài kiểu nói giảm (deadpan), như người bạn kể chuyện thú vị. Đùa về thời tiết, địa hình, nỗi khổ của Wob; **không đùa về người dân** ở nơi đó, không chê nghèo, không định kiến dân tộc.
 - Mở đầu: vào thẳng câu hỏi trong 10 giây đầu, không chào, không giới thiệu kênh. Kết thúc: con dấu phán quyết + một câu hỏi kéo bình luận ("Would you last a winter here?"). Không dùng "you won't believe", "insane", "shocking", "nobody talks about".
 
@@ -65,7 +66,7 @@ Người làm kênh **không duyệt kịch bản giữa chừng**. Mỗi video 
 - Mô tả mọi video có dòng: "Narration voice and illustrations are AI-assisted. Every claim was checked by two independent AI models against the sources listed below."
 - Luật Việt Nam (Nghị định 142/2026): tái hiện sự kiện có thật bằng AI phải gắn nhãn.
 - Chống "inauthentic content": mỗi tập phải khác nhau thật sự về đề tài, lập luận, phán quyết; không lặp nguyên văn câu mở, câu kết; không dùng một khuôn tiêu đề cho mọi tập.
-- Một kênh trên YouTube. Không chạy nhiều kênh song song, không đổi email tạo kênh mới (chính sách spam áp dụng cho cả mạng lưới kênh phối hợp).
+- Một kênh World Wobble trên YouTube, không đổi email tạo kênh mới (chính sách spam áp dụng cho cả mạng lưới kênh phối hợp). Từ 24/11/2026 người làm kênh mở thêm **một kênh động vật độc lập** (repo, tài khoản, nhân vật, hình thức riêng; không quảng bá chéo), xem `.claude/rules/chinh-xac-va-ban-quyen.md` mục 9.
 
 ## Nhịp sản xuất
 

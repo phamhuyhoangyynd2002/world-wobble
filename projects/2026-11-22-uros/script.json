@@ -1,0 +1,1346 @@
+{
+  "title": "The People Who Build Their Own Islands. Every Few Months.",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Uros floating islands",
+    "country": "Peru",
+    "lat": -15.819,
+    "lon": -69.972
+  },
+  "question": "Why do people live on the Uros floating islands?",
+  "message": "This video tells curious adults that the Uros people live on islands they build themselves from reeds on Lake Titicaca, because the lake gave them food, safety and a home that could move, and today it also gives them a living.",
+  "angle": "People live on the Uros islands because, as their history is usually told, moving onto the lake kept them safe, and totora reeds give them islands, houses and boats while the lake gives fish and birds, and now tourism keeps the islands going, despite floors that rot from below, an island that has to be rebuilt every few decades, thin air at almost four thousand metres and limited clean water.",
+  "hook_type": "ky-vat",
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "visual_hint_tai_nguyen": {
+    "map-titicaca": "Bản đồ D3 khung hồ Titicaca (Peru–Bolivia), tô PER, BOL nhạt, ghim Uros -15.819, -69.972 ở nửa phải khung; nhãn 'Uros islands'",
+    "map-puno-uros": "Bản đồ cận vịnh Puno: ghim Puno -15.840, -70.022 và đảo Uros; đường nét đứt thuyền; nhãn '~5 km'"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "This Is Floor",
+      "lop": "hien-tai",
+      "role": "hook (kỷ vật): một bó lau là sàn nhà; người ta dựng cả hòn đảo bằng tay; sàn không bao giờ xong",
+      "narration": "This is floor. I brought it home from a lake high in the Andes, where people build whole islands out of it, by hand. And the floor never stays finished. Who chooses that?",
+      "pronunciation": "Uros: OO-rohs; Titicaca: tee-tee-KAH-kah; totora: toh-TOH-rah",
+      "on_screen_text": "ISLANDS MADE BY HAND",
+      "y_hinh": [
+        {
+          "cue": "This is floor",
+          "y": "Bàn kỷ vật dưới đèn; Wob giơ một bó lau khô vàng rơm buộc dây, nghiêm trang như giơ viên gạch"
+        },
+        {
+          "cue": "people build whole islands out of it",
+          "y": "Trang sổ mở bản đồ hồ Titicaca, chấm đảo ở nửa phải khung; những bó lau tí hon xếp thành một hòn đảo trên trang giấy"
+        },
+        {
+          "cue": "the floor never stays finished",
+          "y": "Wob đặt bó lau xuống bàn, ấn thử, bó lau nhún lên",
+          "gag": "Wob đặt cốc trà lên bó lau, cốc nghiêng nghiêng như thuyền, Wob vội đỡ"
+        },
+        {
+          "cue": "Who chooses that?",
+          "y": "Wob nhìn bó lau, rồi nhìn người xem; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-titicaca",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "people build whole islands",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is floor",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "never stays finished",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Who chooses that?",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa: tên hồ, người Uros, đảo bằng totora; Wob muốn biết mình sống trên đó được không; cái chân ướt (gài cho chương 1)",
+      "narration": "The lake is Titicaca, on the border of Peru and Bolivia. The people are the Uros. Their islands are not rock, not sand, not land at all. They are made of totora, a reed that grows in the lake, piled layer on layer. I went to see whether I could live on one. I came back with one very wet leg. I will explain, with as much dignity as I can find.",
+      "y_hinh": [
+        {
+          "cue": "on the border of Peru and Bolivia",
+          "y": "Wob vẽ đường biên nét đứt chạy qua giữa hồ trên trang sổ"
+        },
+        {
+          "cue": "not rock, not sand, not land at all",
+          "y": "Wob đặt lên bàn một hòn đá, một nhúm cát, rồi gạt cả hai sang bên"
+        },
+        {
+          "cue": "piled layer on layer",
+          "y": "Wob xếp từng lớp lau lên nhau như xếp bánh kếp"
+        },
+        {
+          "cue": "one very wet leg",
+          "y": "Wob giơ một ống quần ướt sũng, nhỏ giọt",
+          "gag": "Ống quần còn lại khô cong, nhìn ống quần ướt với vẻ khinh khỉnh"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-titicaca",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:ai-reed-beds",
+          "cue": "They are made of totora",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "I went to see whether",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The lake is Titicaca",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "whether I could live on one",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "one very wet leg",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "The Ground That Bounces",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 1: Wob bước lên đảo, sàn nhún, thụt chân; hiểu ra sàn phải luôn được thêm",
+      "narration": "The boat from Puno takes about half an hour, and the islands are only about five kilometres from the port. Up close, they look like giant golden mattresses floating on dark blue water, with little reed houses sitting on top. I stepped off the boat with great confidence. I had practised on a trampoline. It did not help. The ground went down. Then it came back up. It felt like walking on a sponge that had opinions. I bounced to the middle of the island, proud of myself. Then I took a step toward the edge, where the reeds were older, and my leg went straight through into the lake. Up to the knee. Cold. Very cold. Lonely Planet actually warns visitors about this. I had not read that part. I read it now, sitting on the reeds, with one dry leg and one educated leg.",
+      "y_hinh": [
+        {
+          "cue": "they look like giant golden mattresses",
+          "y": "Từ thuyền nhìn tới: những tấm nệm vàng rơm khổng lồ nổi trên nước xanh thẫm, nhà lau nhỏ trên đó"
+        },
+        {
+          "cue": "The ground went down. Then it came back up",
+          "y": "Wob bước lên, mặt đảo lún xuống rồi bật lên",
+          "gag": "Wob bị bật nhẹ lên không, đáp xuống, lại bị bật lên lần nữa, nhỏ hơn"
+        },
+        {
+          "cue": "my leg went straight through into the lake",
+          "y": "Một chân Wob thụt qua lớp lau mục xuống nước",
+          "gag": "Take chậm: Wob nhìn xuống chân, nhìn người xem, rồi mới kêu lên"
+        },
+        {
+          "cue": "one dry leg and one educated leg",
+          "y": "Wob ngồi trên lau, đọc cuốn sách hướng dẫn, một chân ướt sũng đặt lên hòn đá phơi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-puno-uros",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "Up close",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "I stepped off the boat",
+          "move": "zoom-in",
+          "zoom": 1.3
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "my leg went straight through",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I stepped off the boat",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "my leg went straight through",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "one educated leg",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "cơ chế: lớp dưới mục, thêm lau lên trên vài tháng một lần; đảo dùng ~30 năm; khí phân huỷ",
+      "narration": "Here is what my leg had discovered. These islands rot from the bottom. Water slowly breaks down the lowest layers of reed, so islanders keep adding fresh reeds on top. On the busier islands, that means a new layer about every three months, and more often in the rainy season. Even with all that care, an island lasts around thirty years before people have to build a new one from scratch. There is even a strange bonus. According to a Stanford researcher quoted by Smithsonian, rotting reeds produce gases, including carbon dioxide and methane, and those gases may help keep the islands floating. Picture a bed where the bottom mattress slowly melts away, so every few months you lay a fresh one on top. You never stop making the bed. The bed is the house.",
+      "facts": [
+        {
+          "label": "Island lifespan",
+          "value": "~30 years",
+          "claim_ids": [
+            "C07"
+          ]
+        },
+        {
+          "label": "New reed layer",
+          "value": "~every 3 months",
+          "claim_ids": [
+            "C06"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "These islands rot from the bottom",
+          "y": "Mặt cắt cắt giấy: đảo nhiều lớp lau, lớp dưới sẫm và mục, lớp trên vàng tươi"
+        },
+        {
+          "cue": "islanders keep adding fresh reeds on top",
+          "y": "Bàn tay que rải bó lau mới lên mặt đảo"
+        },
+        {
+          "cue": "rotting reeds produce gases",
+          "y": "Những bong bóng nhỏ vẽ tay nổi lên từ lớp lau dưới đáy",
+          "gag": "Một bong bóng nhỏ đội nhẹ một góc đảo lên, góc đảo nhún nhảy"
+        },
+        {
+          "cue": "Picture a bed where the bottom mattress slowly melts away",
+          "y": "Bong bóng tưởng tượng vẽ tay: chồng nệm, nệm dưới cùng tan dần, nệm mới được đặt lên trên"
+        },
+        {
+          "cue": "The bed is the house",
+          "y": "Wob nằm sấp trên chồng nệm cao, ngôi nhà nhỏ đặt trên đỉnh"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-uros-island-ground",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-reed-cutting",
+          "cue": "islanders keep adding fresh reeds",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "Picture a bed",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Here is what my leg had discovered",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "There is even a strange bonus",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "The bed is the house",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "Why Live on the Water?",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2: Wob đoán (gần cá, view) → lời kể phổ biến: ra hồ để an toàn khi người Inca mở rộng; đảo dời được",
+      "narration": "So why live on water at all, with solid ground right there on the shore? My guess was fishing. Live on the lake, sleep next to your dinner. That is part of it, but it is not the story people usually tell. The Uros have lived on this lake for hundreds of years. According to the most common account, they moved out onto floating islands when the Inca Empire expanded onto their land. An island made of reeds has a huge advantage over an island made of rock. If trouble comes, you can untie it and move. Smithsonian puts it simply: they made islands they could move if things got tense. Imagine a house where, if the neighbours get difficult, you pull up the anchor and float somewhere quieter.",
+      "y_hinh": [
+        {
+          "cue": "My guess was fishing",
+          "y": "Sơ đồ vẽ tay: Wob vẽ con cá, mũi tên chỉ vào ngôi nhà, khoanh tròn"
+        },
+        {
+          "cue": "it is not the story people usually tell",
+          "y": "Wob gạch con cá đi một nửa, để lại cái đuôi"
+        },
+        {
+          "cue": "when the Inca Empire expanded onto their land",
+          "y": "Cắt giấy: những bóng người que từ bờ tiến xuống, một hòn đảo lau trôi ra xa"
+        },
+        {
+          "cue": "you can untie it and move",
+          "y": "Bàn tay que tháo dây neo, hòn đảo nhỏ lặng lẽ trôi đi"
+        },
+        {
+          "cue": "pull up the anchor and float somewhere quieter",
+          "y": "Bong bóng tưởng tượng: ngôi nhà phố của Wob nhổ neo trôi khỏi dãy phố ồn ào",
+          "gag": "Hàng xóm đang hát karaoke nhìn theo, micro buông thõng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-reed-beds",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "According to the most common account",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-reed-boat",
+          "cue": "you can untie it and move",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My guess was fishing",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "According to the most common account",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "float somewhere quieter",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "chapter": "Everything Is Reed",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 3: từ một cọng lau → bó → thuyền → nhà → đảo; khối rễ khili buộc, neo",
+      "narration": "Then I watched someone show visitors how an island is made, and I zoomed out in my head. Start with one reed. Hollow, light, a little spongy. Tie a big armful together and you get a bundle that floats. Tie bundles together and you get a boat, with curved ends, sometimes with a carved animal head at the front. Weave the reeds flat and you get walls, and then a little house with a pointed roof. Zoom out again. Under it all, the island itself sits on big floating blocks of totora roots. They are tied together with rope and anchored, so the island does not drift off in the night. Then come the layers of cut reeds, again and again. So the reed is the floor, the walls, the roof and the transport. Almost nothing here is not reed, except the lake, and the lake is where the reeds grow.",
+      "y_hinh": [
+        {
+          "cue": "Start with one reed",
+          "y": "Cực cận một cọng lau rỗng ruột, Wob nhìn xuyên qua như ống nhòm"
+        },
+        {
+          "cue": "you get a boat, with curved ends",
+          "y": "Camera lùi: thuyền lau hai đầu cong, đầu thuyền chạm hình con thú"
+        },
+        {
+          "cue": "a little house with a pointed roof",
+          "y": "Camera lùi: ngôi nhà lau mái nhọn trên mặt đảo"
+        },
+        {
+          "cue": "big floating blocks of totora roots",
+          "y": "Mặt cắt: khối rễ to nâu sẫm buộc dây, cọc neo cắm xuống đáy hồ",
+          "gag": "Một con cá bơi ngang, gõ gõ vào khối rễ như gõ cửa"
+        },
+        {
+          "cue": "the lake is where the reeds grow",
+          "y": "Toàn cảnh: đảo vàng giữa bãi lau xanh, Wob bé tí"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-reed-cutting",
+          "move": "zoom-in",
+          "zoom": 1.4
+        },
+        {
+          "show": "asset:ai-reed-boat",
+          "cue": "you get a boat",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "cue": "Zoom out again",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:ai-reed-beds",
+          "cue": "the lake is where the reeds grow",
+          "move": "pan-right"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I zoomed out in my head",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "you get a boat",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Almost nothing here is not reed",
+          "bieu_cam": "soc"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "Life at Almost Four Kilometres",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 4: độ cao 3.810 m; hồ nuôi sống: chim, cá, khu bảo tồn; đổi chác ở Puno; nước sạch hạn chế",
+      "narration": "Next I discovered the other thing about this place. It is high. Very high. Lake Titicaca sits at about three thousand eight hundred and ten metres. That's around twelve thousand five hundred feet. Britannica calls it the world's highest lake navigable by large vessels. Picture climbing a staircase while someone quietly takes away part of the air. I walked to the edge of the island to look at the view and had to sit down halfway. The lake, though, is generous. The reed beds around these islands are part of the Titicaca National Reserve. It protects about thirty-seven thousand hectares of reeds, with around sixty kinds of birds and fourteen kinds of fish. The Uros have long used many of them for meat and eggs. And for the rest, there is trade. Islanders barter with merchants from Puno for meat and vegetables.",
+      "facts": [
+        {
+          "label": "Lake Titicaca",
+          "value": "~3,810 m · 12,500 ft",
+          "claim_ids": [
+            "C13"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "It is high. Very high",
+          "y": "Wob đứng trên đảo, mây bay ngang tầm mắt"
+        },
+        {
+          "cue": "Picture climbing a staircase",
+          "y": "Bong bóng tưởng tượng vẽ tay: Wob leo cầu thang, một bàn tay lén cuộn bớt không khí như cuộn thảm"
+        },
+        {
+          "cue": "had to sit down halfway",
+          "y": "Wob đi được nửa đường tới mép đảo, ngồi phịch xuống thở",
+          "gag": "Wob giơ ngón tay ra hiệu 'chờ chút' với chính cái mép đảo"
+        },
+        {
+          "cue": "around sixty kinds of birds",
+          "y": "Bãi lau xanh, chim lặn và chim nước bay lên"
+        },
+        {
+          "cue": "barter with merchants from Puno",
+          "y": "Thuyền nhỏ chở rau quả cập đảo, đổi lấy cá khô"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "I walked to the edge",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-reed-beds",
+          "cue": "The lake, though, is generous",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-reed-boat",
+          "cue": "And for the rest, there is trade",
+          "move": "zoom-in"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "It is high",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "had to sit down halfway",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "The lake, though, is generous",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "hệ quả: nước sạch hạn chế; Wob ngủ một đêm, trời sao, lạnh; Wob đổi ý lần 1",
+      "narration": "Life here has real costs. Discover magazine notes that clean water is limited on the islands. Everything you build needs constant care. And at this height the sun is fierce in the day and the nights get cold. I stayed until sunset anyway. The water went from blue to silver to black, and then the stars came out, more of them than I have ever seen from anywhere with a roof. Reed houses creaked softly as the island moved with the water, like a ship asleep at anchor. I lay on my back on the reeds, which were warm from the sun, and thought, I understand this. A home you build yourself, on water that feeds you, under a sky like that. I changed my mind. Maybe I could learn to bounce.",
+      "y_hinh": [
+        {
+          "cue": "clean water is limited on the islands",
+          "y": "Những can nhựa xanh xếp cạnh nhà lau"
+        },
+        {
+          "cue": "The water went from blue to silver to black",
+          "y": "Hoàng hôn trên hồ: mặt nước đổi màu, núi xa tím dần"
+        },
+        {
+          "cue": "like a ship asleep at anchor",
+          "y": "Đảo nhẹ dập dềnh dưới trời sao, nhà lau khẽ kêu cót két"
+        },
+        {
+          "cue": "Maybe I could learn to bounce",
+          "y": "Wob nằm ngửa trên lau, mỉm cười",
+          "gag": "Wob khẽ nhún mình, cả đảo nhún theo một nhịp, Wob giật mình rồi cười"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-uros-island-ground",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-titicaca-sunset",
+          "cue": "I stayed until sunset",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-titicaca-stars",
+          "cue": "then the stars came out",
+          "move": "still"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Life here has real costs",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "then the stars came out",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Maybe I could learn to bounce",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "A Day of Making the Floor",
+      "lop": "hoi-uc",
+      "khuon": "mot-ngay-o-day",
+      "role": "chương 5: một ngày theo giờ: cắt lau, phơi, rải lớp mới; Wob giúp, hỏng; (mồi lại, nhạc hài)",
+      "music_mood": "hai",
+      "narration": "The next day I asked to help with the floor. Early morning: reeds are cut from the beds around the island, from boats, with long knives. I was given a knife and a boat. I was then politely given back to the island, without the knife or the boat. Mid-morning: the cut reeds are spread out to dry in the sun. Drying reeds is something I am excellent at. I sat next to them and watched. Noon: the dry reeds are laid in fresh layers across the island, crossing each other so the floor stays even. I laid my bundle very carefully. It was beautiful. It was also on top of my own shoe. Afternoon: I walked across the new layer. It was springy and dry and smelled like hay and lake. Right after a new layer goes down, the whole island feels brand new. Then the water starts working again.",
+      "y_hinh": [
+        {
+          "cue": "reeds are cut from the beds around the island",
+          "y": "Bình minh: thuyền nhỏ len giữa bãi lau, bàn tay que cắt lau bằng dao dài"
+        },
+        {
+          "cue": "politely given back to the island",
+          "y": "Wob được nhẹ nhàng nhấc khỏi thuyền đặt lại lên đảo, tay trống không",
+          "gag": "Chiếc dao được rút khỏi tay Wob bằng hai ngón tay, như rút đồ chơi khỏi tay em bé"
+        },
+        {
+          "cue": "the cut reeds are spread out to dry",
+          "y": "Lau trải vàng dưới nắng, Wob ngồi canh như canh nồi cơm"
+        },
+        {
+          "cue": "It was also on top of my own shoe",
+          "y": "Bó lau xếp gọn gàng đè lên chiếc giày của Wob",
+          "gag": "Wob kéo giày ra, cả lớp lau mới xô lệch theo"
+        },
+        {
+          "cue": "smelled like hay and lake",
+          "y": "Wob đi chân trần trên lớp lau mới, nhắm mắt hít hà"
+        }
+      ],
+      "que": [
+        {
+          "cue": "reeds are cut from the beds around the island",
+          "hanh_dong": "vay-tay",
+          "so_luong": 2,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-reed-cutting",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:ai-reed-cutting",
+          "cue": "Mid-morning",
+          "move": "zoom-out"
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "Noon: the dry reeds are laid",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "Afternoon",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I asked to help",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "politely given back",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "smelled like hay and lake",
+          "bieu_cam": "hao-hung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "The Storm, the City and the Visitors",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 6: bão 1986, đảo dựng lại gần Puno; du lịch 80%; nhiều người sống ở Puno; điều tra 2011",
+      "music_mood": "to-mo",
+      "narration": "On my last day I drew a map in my notebook of where the islands have been. For a long time, many of them floated farther out on the lake. Then, after a devastating storm in nineteen eighty-six, Smithsonian reports, many Uros rebuilt their islands near Puno. That short boat ride changed everything. Visitors now come by the hundreds of thousands. Families take turns opening their homes to show how reed life works, and around eighty percent of the local population works in tourism. At the twenty eleven census, according to Culture Trip, about twelve hundred Uros were living on sixty-two islands near Puno. Many Uros also live in the city itself, and plenty of families move between the island and the shore for school, work and supplies. When tourism stopped during the pandemic, Discover magazine reported, the islands felt it hard. So the route on my map is not a line from the past to the present. It is a loop, from reeds to city and back again, every single day.",
+      "facts": [
+        {
+          "label": "Uros islands, 2011",
+          "value": "~1,200 people · 62 islands",
+          "claim_ids": [
+            "C19"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I drew a map in my notebook",
+          "y": "Trang sổ bản đồ hồ: những chấm đảo ở xa, mũi tên nét đứt dời về gần Puno"
+        },
+        {
+          "cue": "after a devastating storm",
+          "y": "Cắt giấy: sóng lớn, mây đen trên hồ, đảo lau chao đảo"
+        },
+        {
+          "cue": "Visitors now come by the hundreds of thousands",
+          "y": "Hàng thuyền du lịch nhỏ chạy từ Puno ra đảo",
+          "gag": "Thuyền của Wob bị kẹt giữa dòng thuyền du lịch, Wob vẫy tay chào cả đoàn như người nổi tiếng"
+        },
+        {
+          "cue": "move between the island and the shore",
+          "y": "Đường nét đứt vòng tròn trên trang sổ nối đảo và thành phố"
+        },
+        {
+          "cue": "It is a loop",
+          "y": "Wob vẽ một vòng tròn kín bằng bút chì, gõ gõ vào giữa"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Visitors now come by the hundreds of thousands",
+          "hanh_dong": "vay-tay",
+          "so_luong": 4,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-puno-uros",
+          "move": "zoom-in",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:ai-titicaca-storm",
+          "cue": "after a devastating storm",
+          "move": "still"
+        },
+        {
+          "show": "asset:ai-reed-boat",
+          "cue": "Visitors now come",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-puno-uros",
+          "cue": "It is a loop",
+          "move": "zoom-out"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "On my last day",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Visitors now come",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "It is a loop",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "vì sao người ta vẫn ở; tiếng Aymara; Wob đổi ý lần 2 (thụt chân lần hai)",
+      "narration": "So why stay on the islands at all, when Puno has solid streets? From everything I saw and read, the islands are the Uros' own. They built them, they maintain them, and they decide who steps on them. Most Uros today speak Aymara and Spanish, and their old Uru language has almost disappeared. But the reed islands carry the history in a way a language book cannot. Tourism pays for school, boats and supplies, and it also means the knowledge of how to build an island keeps getting used. On my way to the boat, feeling very wise, I stepped on an old patch near the edge. My leg went through again. Same leg. Same lake. Same cold. I changed my mind back. The islands make sense. I do not make sense on the islands.",
+      "y_hinh": [
+        {
+          "cue": "the islands are the Uros' own",
+          "y": "Nhìn từ trên: đảo vàng có tháp canh lau, cờ nhỏ bay"
+        },
+        {
+          "cue": "their old Uru language has almost disappeared",
+          "y": "Trang sổ: một dòng chữ viết tay mờ dần, bên cạnh là bó lau vẫn rõ nét"
+        },
+        {
+          "cue": "My leg went through again",
+          "y": "Chân Wob lại thụt qua lớp lau mục",
+          "gag": "Lần này Wob không nhìn xuống, chỉ nhắm mắt thở dài, giữ hình"
+        },
+        {
+          "cue": "I do not make sense on the islands",
+          "y": "Wob ngồi ở mép đảo, ống quần ướt, nhìn người xem"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-reed-beds",
+          "cue": "Most Uros today",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:ai-uros-island-ground",
+          "cue": "On my way to the boat",
+          "move": "zoom-in",
+          "zoom": 1.3
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So why stay on the islands",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "My leg went through again",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I changed my mind back",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "outro",
+      "chapter": "Would I Live on a Reed?",
+      "lop": "hien-tai",
+      "role": "về bàn: ghép các mảnh 'vì sao', phán quyết NOPE (lỗi ở Wob), callback bó lau, câu hỏi kéo bình luận",
+      "narration": "So here is how the floor adds up. The lake offered safety, as the Uros' history is usually told, because an island of reeds can move. The reeds give them islands, houses and boats. The lake gives fish and birds, and the city across the water gives trade, school and visitors. In return, the floor never stops needing work, and an island has to be rebuilt every few decades. Would I move there? I would love to visit again, with sturdier shoes. But my verdict is NOPE, and the fault is my leg, not the island. It suits people who love the water, the sky and building things with their hands. It does not suit anyone who walks without looking down. I put the piece of floor on my desk. Every few months I add a new reed on top, just to be safe. Would you rebuild your own floor every season to live on a lake?",
+      "verdict": {
+        "label": "NOPE",
+        "reason": "Thin air at about 3,810 metres and a floor that rots from below are too much for Wob's lungs and feet, though the Uros have every reason to keep building.",
+        "cue": "NOPE"
+      },
+      "y_hinh": [
+        {
+          "cue": "here is how the floor adds up",
+          "y": "Bàn kỷ vật: Wob xếp hàng con thuyền lau nhỏ, nhà lau nhỏ, can nước, tấm bản đồ, bó lau"
+        },
+        {
+          "cue": "with sturdier shoes",
+          "y": "Wob giơ đôi ủng cao su to tướng"
+        },
+        {
+          "cue": "But my verdict is NOPE",
+          "y": "Wob đóng con dấu lên trang sổ: 'Would Wob move here? NOPE'"
+        },
+        {
+          "cue": "Every few months I add a new reed on top",
+          "y": "Wob đặt một cọng lau mới lên bó lau trên bàn",
+          "gag": "Bó lau đã cao gần chạm đèn bàn, Wob phải kiễng chân đặt cọng mới"
+        },
+        {
+          "cue": "to live on a lake",
+          "y": "Wob nhìn thẳng người xem; kết đúng ở chữ cuối; góc phải dưới để trống"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:ai-uros-island-aerial",
+          "move": "zoom-in"
+        },
+        {
+          "show": "asset:ai-titicaca-stars",
+          "cue": "Would I move there",
+          "move": "still"
+        },
+        {
+          "show": "text",
+          "cue": "But my verdict is NOPE"
+        },
+        {
+          "show": "asset:map-titicaca",
+          "cue": "I put the piece of floor on my desk",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.66,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "So here is how the floor adds up",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I would love to visit again",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "the fault is my leg",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "I put the piece of floor",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [
+    {
+      "id": "ai-uros-island-aerial",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12
+      ],
+      "canh": "a small flat floating island made of golden dried reeds on deep blue lake water, several small reed houses with pointed roofs, a reed watchtower, reed boats with curved ends tied at the edge, green reed beds around, distant brown Andean mountains, very clear sky",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Hook, thumbnail, 9 cảnh; cần đúng đảo lau, nhà mái nhọn, thuyền lau"
+    },
+    {
+      "id": "ai-uros-island-ground",
+      "scenes": [
+        3,
+        4,
+        7,
+        8,
+        9,
+        11
+      ],
+      "canh": "close view of the springy surface of a reed island, layers of dry golden reeds crossing each other, a darker soggy patch near the water's edge, a small reed house, bright high-altitude sunlight",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Mặt đảo là đạo cụ của gag thụt chân"
+    },
+    {
+      "id": "ai-reed-boat",
+      "scenes": [
+        5,
+        6,
+        7,
+        10
+      ],
+      "canh": "a traditional boat made of bundled totora reeds with tall curved ends and a carved animal head at the front, floating on a calm blue lake beside green reed beds",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Thuyền lau cần đúng hình dáng"
+    },
+    {
+      "id": "ai-reed-cutting",
+      "scenes": [
+        4,
+        6,
+        9
+      ],
+      "canh": "a small boat among tall green reeds on a lake at sunrise, bundles of freshly cut reeds piled in the boat, cut reeds spread out to dry on a golden reed island nearby",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 2,
+        "tieu_diem": 2
+      },
+      "hang": "chinh",
+      "ly_do": "Cắt và phơi lau, hoạt động chính của chương 5"
+    },
+    {
+      "id": "ai-titicaca-storm",
+      "scenes": [
+        10
+      ],
+      "canh": "dark storm clouds over a high mountain lake, rough grey waves, reed beds bending in the wind",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 1,
+        "cu_the": 0,
+        "tieu_diem": 2
+      },
+      "hang": "phu",
+      "ly_do": "Không khí bão, tổng 4"
+    },
+    {
+      "id": "ai-reed-beds",
+      "scenes": [
+        2,
+        5,
+        6,
+        7,
+        11
+      ],
+      "canh": "wide green beds of tall reeds on a calm high lake, water birds, distant mountains under a deep blue sky",
+      "diem": {
+        "vi_tri": 1,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Phông bãi lau, tổng 4"
+    },
+    {
+      "id": "ai-titicaca-sunset",
+      "scenes": [
+        8
+      ],
+      "canh": "sunset over a high mountain lake, water turning silver, distant purple mountains",
+      "diem": {
+        "vi_tri": 0,
+        "thoi_luong": 1,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Không khí, tổng 2"
+    },
+    {
+      "id": "ai-titicaca-stars",
+      "scenes": [
+        8,
+        12
+      ],
+      "canh": "a dense starry night sky with the Milky Way over a dark lake, faint outline of mountains",
+      "diem": {
+        "vi_tri": 2,
+        "thoi_luong": 2,
+        "cu_the": 0,
+        "tieu_diem": 1
+      },
+      "hang": "phu",
+      "ly_do": "Trời sao, chỉ không khí",
+      "ghi_de": "vi_tri = 2 vì có trong cảnh phán quyết nhưng chỉ là trời sao chung, nội bộ vẽ tốt"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "where people build whole islands out of it, by hand. And the floor never stays finished.",
+      "statement": "The Uros people of Lake Titicaca, high in the Andes, build floating islands by hand from totora reeds and must keep adding fresh reeds as the lower layers rot.",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "The lake is Titicaca, on the border of Peru and Bolivia. The people are the Uros.",
+      "statement": "Lake Titicaca lies on the border of Peru and Bolivia and is home to the Uros people's floating islands.",
+      "source_ids": [
+        "S10",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "They are made of totora, a reed that grows in the lake, piled layer on layer.",
+      "statement": "The Uros islands are made of layers of totora reeds, which grow in Lake Titicaca, and support reed houses.",
+      "source_ids": [
+        "S3",
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "The boat from Puno takes about half an hour, and the islands are only about five kilometres from the port.",
+      "statement": "The Uros islands lie about 5 km from the port of Puno, roughly a 30-minute boat ride.",
+      "source_ids": [
+        "S9",
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Lonely Planet actually warns visitors about this.",
+      "statement": "Lonely Planet warns visitors to the Uros islands to be careful not to put a foot through rotten sections of reed.",
+      "source_ids": [
+        "S9"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 4,
+      "quote": "Water slowly breaks down the lowest layers of reed, so islanders keep adding fresh reeds on top. On the busier islands, that means a new layer about every three months, and more often in the rainy season.",
+      "statement": "The bottom reeds of the Uros islands rot, so fresh reeds are added on top; on busier islands roughly every three months, and more often in the rainy season.",
+      "source_ids": [
+        "S8",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "Even with all that care, an island lasts around thirty years before people have to build a new one from scratch.",
+      "statement": "A well-maintained Uros floating island lasts about 30 years before a new one must be built from scratch.",
+      "source_ids": [
+        "S2",
+        "S8"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "According to a Stanford researcher quoted by Smithsonian, rotting reeds produce gases, including carbon dioxide and methane, and those gases may help keep the islands floating.",
+      "statement": "Stanford professor Robert Dunbar told Smithsonian that decaying totora reeds produce gases such as CO2 and methane, and Smithsonian notes such gases may help keep the islands buoyant.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C09",
+      "scene": 5,
+      "quote": "The Uros have lived on this lake for hundreds of years. According to the most common account, they moved out onto floating islands when the Inca Empire expanded onto their land.",
+      "statement": "The Uros have lived on Lake Titicaca for hundreds of years; according to the common account, they took up residence on floating islands when the Incas expanded onto their land.",
+      "source_ids": [
+        "S1"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C10",
+      "scene": 5,
+      "quote": "Smithsonian puts it simply: they made islands they could move if things got tense.",
+      "statement": "Smithsonian describes the Uros as building reed islands that could be moved if tensions arose.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 6,
+      "quote": "sometimes with a carved animal head at the front",
+      "statement": "Some Uros reed boats feature carved animal or dragon heads at the front.",
+      "source_ids": [
+        "S4"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "Under it all, the island itself sits on big floating blocks of totora roots. They are tied together with rope and anchored, so the island does not drift off in the night.",
+      "statement": "The base of each Uros island is made of floating blocks of totora roots tied together with rope and anchored, then covered with layers of cut reeds.",
+      "source_ids": [
+        "S3",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 7,
+      "quote": "Lake Titicaca sits at about three thousand eight hundred and ten metres. That's around twelve thousand five hundred feet. Britannica calls it the world's highest lake navigable by large vessels.",
+      "statement": "Lake Titicaca lies at about 3,810 m (12,500 ft) and is described by Britannica as the world's highest lake navigable to large vessels.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 7,
+      "quote": "The reed beds around these islands are part of the Titicaca National Reserve. It protects about thirty-seven thousand hectares of reeds, with around sixty kinds of birds and fourteen kinds of fish. The Uros have long used many of them for meat and eggs.",
+      "statement": "The Uros islands lie within the Titicaca National Reserve, which protects about 37,000 hectares of reed beds with some 60 bird species and 14 fish species, many used by the Uros for meat and eggs.",
+      "source_ids": [
+        "S6"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "Islanders barter with merchants from Puno for meat and vegetables.",
+      "statement": "Uros islanders barter for meat and vegetables with merchants from Puno.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 8,
+      "quote": "Discover magazine notes that clean water is limited on the islands.",
+      "statement": "Discover Magazine notes that life on the Uros islands includes limited access to clean water.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 10,
+      "quote": "Then, after a devastating storm in nineteen eighty-six, Smithsonian reports, many Uros rebuilt their islands near Puno.",
+      "statement": "After a devastating storm in 1986, many Uros rebuilt their islands near Puno, according to Smithsonian.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 10,
+      "quote": "Visitors now come by the hundreds of thousands. Families take turns opening their homes to show how reed life works, and around eighty percent of the local population works in tourism.",
+      "statement": "Hundreds of thousands of tourists visit the Uros islands; families take turns showing visitors their homes, and about 80 percent of the local population works in tourism.",
+      "source_ids": [
+        "S2"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 10,
+      "quote": "At the twenty eleven census, according to Culture Trip, about twelve hundred Uros were living on sixty-two islands near Puno.",
+      "statement": "According to Culture Trip, a 2011 census counted about 1,200 Uros living on 62 artificial islands near Puno.",
+      "source_ids": [
+        "S8"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C20",
+      "scene": 10,
+      "quote": "Many Uros also live in the city itself",
+      "statement": "Many Uros live in Puno, the largest Peruvian city on Lake Titicaca.",
+      "source_ids": [
+        "S13",
+        "S3"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 10,
+      "quote": "When tourism stopped during the pandemic, Discover magazine reported, the islands felt it hard.",
+      "statement": "Discover Magazine reported that the tourism-reliant Uros suffered from pandemic travel restrictions.",
+      "source_ids": [
+        "S7"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 11,
+      "quote": "Most Uros today speak Aymara and Spanish, and their old Uru language has almost disappeared",
+      "statement": "Most Uros today speak Aymara and Spanish; the Uru language is nearly extinct.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Uros People of Lake Titicaca",
+      "publisher": "Atlas Obscura",
+      "type": "khac",
+      "url": "https://atlasobscura.com/places/uros-people-lake-titicaca",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S2",
+      "title": "The People of Peru Who Live on Man-Made Islands Constructed From Plants",
+      "publisher": "Smithsonian Magazine",
+      "type": "bao",
+      "url": "https://www.smithsonianmag.com/travel/people-peru-live-manmade-islands-constructed-plants-180956218/",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S3",
+      "title": "Uru people",
+      "publisher": "Wikipedia (chỉ để tìm nguồn)",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Uru_people",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S4",
+      "title": "Uros Floating Islands",
+      "publisher": "Expedia (mô tả điểm đến)",
+      "type": "khac",
+      "url": "https://www.expedia.co.uk/Uros-Floating-Islands.dx6338422",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "Life on Uros Islands",
+      "publisher": "Google Arts & Culture",
+      "type": "khac",
+      "url": "https://artsandculture.google.com/story/VwUBJ9AiJwuuUQ",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Uros Floating Islands (Islas Uros)",
+      "publisher": "AAA TripCanvas",
+      "type": "khac",
+      "url": "https://www.aaa.com/tripcanvas/attraction/uros-floating-islands-islas-uros-VA6400",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Visit the Artificial Islands Floating on Lake Titicaca",
+      "publisher": "Discover Magazine",
+      "type": "bao",
+      "url": "https://www.discovermagazine.com/planet-earth/visit-the-artificial-islands-floating-on-lake-titicaca",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S8",
+      "title": "10 Things You Should Know Before Visiting the Uros Floating Islands",
+      "publisher": "Culture Trip",
+      "type": "khac",
+      "url": "https://theculturetrip.com/south-america/peru/articles/10-things-you-should-know-before-visiting-the-uros-floating-islands",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Islas Uros",
+      "publisher": "Lonely Planet",
+      "type": "khac",
+      "url": "https://www.lonelyplanet.com/points-of-interest/islas-uros/1167124",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Lake Titicaca",
+      "publisher": "Encyclopaedia Britannica",
+      "type": "bach-khoa",
+      "url": "https://www.britannica.com/place/Lake-Titicaca",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Highest commercially navigable lake",
+      "publisher": "Guinness World Records",
+      "type": "goc",
+      "url": "https://guinnessworldrecords.com/world-records/highest-commercially-navigable-lake",
+      "published": "2006-01-01",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "Uru people (ngôn ngữ)",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Uru_people",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "The floating islands where the Uros live on Lake Titicaca",
+      "publisher": "A City A Month",
+      "type": "khac",
+      "url": "https://acityamonth.com/the-floating-islands-where-the-uros-live-on-lake-titicaca/",
+      "published": null,
+      "accessed": "2026-11-22"
+    }
+  ]
+}

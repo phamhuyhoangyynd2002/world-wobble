@@ -51,7 +51,7 @@ MODELS = {
     },
 }
 NEG = ("photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, "
-       "blurry, lowres, deformed, extra limbs, cluttered, moon")
+       "blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro")
 GUARD = "Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people."
 W, H = 1920, 1080
 PID = ROOT / ".cache" / "comfyui.pid"

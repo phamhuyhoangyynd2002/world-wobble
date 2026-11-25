@@ -1,0 +1,2068 @@
+{
+ "_ghi_chu": [
+  "Tập 2 Coober Pedy, phân cảnh hoạt hình phối 3 phong cách (dao-dien-hoat-hinh, 22/11/2026). Mốc tuyệt đối (giây), sinh từ audio/subtitles.json; giọng nối liền 550,9 s, thêm 43,5 s khoảng nghỉ cho gag, phản ứng, chuyển chương.",
+  "Vòng 2 (23/11/2026): sửa theo duyệt cổng 5a vòng 1 và lời mới cảnh 18 (41,232 s). KHOÁ LIÊN TỤC: mũ rộng vành màu giấy kraft #C9A46A dải đỏ #C9463A ở mọi đoạn hồi ức (mất ở d11, leo lại d12, bị hút d20, nhặt lại d21, cầm tay từ nhịp 2 d23, để trong xe d36–d37); ba lô xanh ô liu có cuộn thảm đỏ, từ d26 thêm cuộn cỏ xanh; khung hiện tại Wob không mũ.",
+  "Chương Whose Land This Is (d36–d37): nghiêm, không gag; Breakaways chỉ phong cảnh, không người, không biểu tượng, hoa văn thổ dân. d35 sự cố 2024: không vẽ người ngã.",
+  "Bản đồ chỉ vẽ bằng code (map-coober-pedy, map-adelaide-route, map-coober-pedy-water); vị trí giếng nước ghi approx.",
+  "LOGO: không đặt chữ ở vùng x > 1500, y < 150.",
+  "Nhạc: sổ music/GIAY-PHEP.md có 6 bài (chọn theo tên và mô tả, chưa ai nghe); im ở chỗ cắt về hiện tại d38."
+ ],
+ "fps": 30,
+ "rong": 1920,
+ "cao": 1080,
+ "thoi_luong": 593.596,
+ "loi": [
+  {
+   "scene": 1,
+   "bat_dau": 0.6
+  },
+  {
+   "scene": 2,
+   "bat_dau": 13.376
+  },
+  {
+   "scene": 3,
+   "bat_dau": 50.284
+  },
+  {
+   "scene": 4,
+   "bat_dau": 82.136
+  },
+  {
+   "scene": 5,
+   "bat_dau": 136.244
+  },
+  {
+   "scene": 6,
+   "bat_dau": 146.612
+  },
+  {
+   "scene": 7,
+   "bat_dau": 180.892
+  },
+  {
+   "scene": 8,
+   "bat_dau": 212.364
+  },
+  {
+   "scene": 9,
+   "bat_dau": 236.772
+  },
+  {
+   "scene": 10,
+   "bat_dau": 266.832
+  },
+  {
+   "scene": 11,
+   "bat_dau": 287.984
+  },
+  {
+   "scene": 12,
+   "bat_dau": 318.968
+  },
+  {
+   "scene": 13,
+   "bat_dau": 352.024
+  },
+  {
+   "scene": 14,
+   "bat_dau": 387.276
+  },
+  {
+   "scene": 15,
+   "bat_dau": 432.716
+  },
+  {
+   "scene": 16,
+   "bat_dau": 480.784
+  },
+  {
+   "scene": 17,
+   "bat_dau": 526.44
+  },
+  {
+   "scene": 18,
+   "bat_dau": 551.064
+  }
+ ],
+ "nhac": [
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 0.0,
+   "ket_thuc": 48.284,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/investigations.mp3",
+   "bat_dau": 48.284,
+   "ket_thuc": 100.948,
+   "mood": "hai"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 100.948,
+   "ket_thuc": 135.544,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/sneaky-snitch.mp3",
+   "bat_dau": 135.544,
+   "ket_thuc": 179.892,
+   "mood": "hai"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 179.892,
+   "ket_thuc": 317.468,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/investigations.mp3",
+   "bat_dau": 317.468,
+   "ket_thuc": 385.876,
+   "mood": "hai"
+  },
+  {
+   "src": "music/inspired.mp3",
+   "bat_dau": 385.876,
+   "ket_thuc": 454.704,
+   "mood": "to-mo"
+  },
+  {
+   "src": "music/lightless-dawn.mp3",
+   "bat_dau": 456.353,
+   "ket_thuc": 548.064,
+   "mood": "khac-nghiet"
+  },
+  {
+   "src": "music/wallpaper.mp3",
+   "bat_dau": 548.364,
+   "ket_thuc": 593.596,
+   "mood": "to-mo"
+  }
+ ],
+ "am_luong_nhac": 0.2,
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "bat_dau": 0.0,
+   "ket_thuc": 35.138,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật dưới đèn bàn; lọ thuỷ tinh nhỏ, sổ du lịch pop-up, quả bóng golf phát sáng xanh lơ nằm mép bàn (chưa giải thích); trang sổ: bản đồ code map-coober-pedy rồi map-adelaide-route",
+   "trang_phuc": "Wob không mũ (khung hiện tại); cầm lọ opal tay phải",
+   "vao": "dau-video",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 0.6,
+     "loi": "This jar holds every opal I found in Coober Pedy.",
+     "hanh_dong": "[day-vao-cham] Khung 0 đã có Wob giơ lọ thuỷ tinh lên soi dưới đèn, mắt hãnh diện; camera đẩy chậm 1,0→1,08",
+     "gag": "",
+     "dao_cu": [
+      "lo-opal"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 4.7,
+     "loi": "Listen. That's mostly the jar.",
+     "hanh_dong": "[take-cham] Wob lắc lọ sát tai: chỉ một tiếng tách nhỏ; một hạt sạn lăn ra bàn, Wob nhìn hạt sạn, dừng 0,8 s",
+     "gag": "Lọ chỉ có một hạt sạn",
+     "dao_cu": [
+      "lo-opal",
+      "hat-san"
+     ],
+     "sfx": [
+      "tach-nho"
+     ]
+    },
+    {
+     "tai": 6.9,
+     "loi": "Plenty of people in that desert town live underground.",
+     "hanh_dong": "[trang-so-ban-do] Sổ pop-up sau lưng Wob bật mở bản đồ Úc (map-coober-pedy), chấm Coober Pedy nửa phải khung; một ngôi nhà giấy nhỏ chui tụt xuống dưới mặt trang đúng chữ 'underground'",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 9.975,
+     "loi": "I went to find out why.",
+     "hanh_dong": "Wob đặt lọ xuống cạnh quả bóng golf phát sáng, kéo sổ lại gần",
+     "gag": "",
+     "dao_cu": [
+      "lo-opal"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 13.476,
+     "loi": "Coober Pedy sits in the outback of South Australia, roughly eight hundred and forty-six kilometres north-west of Adelaide by road. That's about five hundred and twenty-five miles.",
+     "hanh_dong": "[luot-smootherstep] Lật sang trang map-adelaide-route; ngón tay Wob dò theo đường nét đứt Adelaide → Coober Pedy; nhãn quãng đường hiện đúng 'eight hundred', dòng dặm hiện đúng 'miles'",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "but-ve"
+     ]
+    },
+    {
+     "tai": 23.989,
+     "loi": "Estimates vary, but around half the town lives in homes dug into the hills.",
+     "hanh_dong": "Wob đặt lên trang một bưu thiếp mặt cắt ngọn đồi có phòng bên trong; một nửa số hình người giấy trên bưu thiếp ở trong lòng đồi, nửa kia trên mặt (không đếm chính xác, dè dặt như lời); rồi Wob nhét một hình người giấy nhỏ hình chính mình vào nửa trong lòng đồi, vỗ nhẹ, giữ 0,8 s (Wob muốn chuyển tới đây, trước mốc 30 s)",
+     "gag": "",
+     "dao_cu": [
+      "buu-thiep-mat-cat",
+      "hinh-wob-giay"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 28.651,
+     "loi": "At the twenty twenty-one census, around fifteen hundred people lived in the town, depending on how you draw its edges.",
+     "hanh_dong": "Biển thị trấn giấy pop-up ghi số dân; Wob cầm bút chì vẽ đường ranh quanh thị trấn, vẽ hai lần hai đường khác nhau đúng 'edges'",
+     "gag": "Hai vòng ranh giới chồng lên nhau, Wob nhún vai",
+     "dao_cu": [
+      "but-chi"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "COOBER PEDY",
+    "Adelaide",
+    "846 km",
+    "~525 mi",
+    "pop. ~1,500 (2021)"
+   ],
+   "ly_do_phong_cach": "Khung hiện tại bàn kỷ vật (diorama); bản đồ trang sổ ở lớp hiện tại vì Wob đang kể, chưa vào chuyến đi"
+  },
+  {
+   "id": "d02",
+   "phong_cach": "diorama",
+   "bat_dau": 35.138,
+   "ket_thuc": 40.126,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật như d01; Wob lật sổ du lịch sang một trang pop-up: phòng khách giấy trước chuyến đi, hình Wob giấy nhỏ (có tay chân giấy) đứng cạnh ba lô xanh ô liu mở toang",
+   "trang_phuc": "Wob ở bàn không mũ; hình Wob giấy trong sổ chưa đội mũ, mũ rộng vành kraft giấy cầm tay rồi nhét vào ba lô giấy",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 35.138,
+     "loi": "I planned to be one of them.",
+     "hanh_dong": "[lat-trang-so] Wob lật trang sổ, trang pop-up bật dựng phòng khách giấy; hình Wob giấy trong sổ đứng thẳng, ngực ưỡn",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 36.513,
+     "loi": "I packed a hat, a lot of water and a lot of confidence.",
+     "hanh_dong": "[leo-thang-ba-lan] Trong trang sổ, hình Wob giấy nhét mũ rộng vành, rồi ba chai nước, ba lô phồng to hơn cả Wob; cuối cùng nhét một lá cờ nhỏ (sự tự tin) đúng 'confidence', nắp ba lô bật tung",
+     "gag": "Ba lô bật nắp vì cái tự tin",
+     "dao_cu": [
+      "mu-rong-vanh",
+      "chai-nuoc",
+      "co-nho"
+     ],
+     "sfx": [
+      "bop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Vòng 2: chuyển từ ve-tay sang trang sổ pop-up diorama để gỡ 3 lần đổi phong cách trong 13 s (T6); gag giữ nguyên"
+  },
+  {
+   "id": "d03",
+   "phong_cach": "diorama",
+   "bat_dau": 40.126,
+   "ket_thuc": 48.284,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật như d01; quả bóng golf phát sáng mép bàn",
+   "trang_phuc": "Wob không mũ; tay không",
+   "vao": "giay",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 40.126,
+     "loi": "By the end of the trip I understood why people here dig instead of build.",
+     "hanh_dong": "[day-vao-cham] Wob khoanh tay kể, gật nhẹ đúng 'dig'",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 44.226,
+     "loi": "It cost me my dignity and a golf ball.",
+     "hanh_dong": "[giu-tinh-bo] Wob liếc quả bóng golf phát sáng đúng 'golf', giữ 1 s; quả bóng tự lăn đi một chút",
+     "gag": "Quả bóng như có lỗi, lăn né đi",
+     "dao_cu": [
+      "bong-golf-sang"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 47.184,
+     "loi": "",
+     "hanh_dong": "[lat-trang-so] Wob lật trang sổ, trang pop-up bật dựng sa mạc giấy; nối giấy phẳng #EFE3C8 vào hồi ức",
+     "gag": "",
+     "dao_cu": [
+      "so-popup"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cắt về khung hiện tại rồi lật sổ vào hồi ức (luật phối: diorama ra → cat-giay vào bằng giay)"
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "bat_dau": 48.284,
+   "ket_thuc": 69.909,
+   "lop": "hoi-uc",
+   "boi_canh": "Sa mạc phẳng ai-desert-plain buổi sáng, rồi cánh đồng đống đất hình nón kem hồng ai-mullock-field tới chân trời; tời gỗ nhỏ, miệng giếng tròn tối",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; tay cầm cái sàng tròn và xẻng nhỏ",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 50.284,
+     "loi": "My first morning, I went noodling.",
+     "hanh_dong": "[di-bo-parallax] Wob đội mũ rộng vành bước vào khung từ trái, vác sàng và xẻng, hào hứng",
+     "gag": "",
+     "dao_cu": [
+      "sang",
+      "xeng-nho"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 52.521,
+     "loi": "Noodling means sifting through the piles of waste dirt that miners leave behind, hoping they missed something.",
+     "hanh_dong": "Wob lắc sàng trên một đống đất, bụi rơi; cái sàng treo một thẻ giấy ghi NOODLING (≥ 40 px, đọc rõ); trên đỉnh đống có một chiếc tất cũ của ai đó bị bỏ lại (thứ thợ mỏ \"bỏ quên\")",
+     "gag": "Thứ duy nhất họ \"bỏ sót\" là một chiếc tất",
+     "dao_cu": [
+      "sang"
+     ],
+     "sfx": [
+      "sang-cat"
+     ]
+    },
+    {
+     "tai": 58.634,
+     "loi": "The piles are everywhere. Thousands of pale cones of rubble, as if a giant had been sneezing sand for a century.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi: một đống, mười đống, cả cánh đồng; đúng 'sneezing' một đống xa phụt nhẹ một cụm bụi như cái hắt hơi",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "hat-hoi-nho"
+     ]
+    },
+    {
+     "tai": 65.722,
+     "loi": "I picked a pile that looked lucky. It looked exactly like every other pile.",
+     "hanh_dong": "Wob đi qua ba đống giống hệt nhau, chọn đống giữa, cắm lá cờ nhỏ lên; camera lia ngang lộ ra cả trăm đống y hệt",
+     "gag": "",
+     "dao_cu": [
+      "co-nho"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "NOODLING"
+   ],
+   "ly_do_phong_cach": "Bối cảnh đến nơi, đi bộ parallax, giải thích tập quán: cat-giay. NOODLING có trong lời, mang trên thẻ treo cái sàng"
+  },
+  {
+   "id": "d05",
+   "phong_cach": "ve-tay",
+   "bat_dau": 69.909,
+   "ket_thuc": 80.886,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận Wob và đống đất, nét mực sôi, trời trắng",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; xẻng nhỏ",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 69.909,
+     "loi": "I dug. I found a rock.",
+     "hanh_dong": "[leo-thang-ba-lan] Lần 1: xẻng hất, hòn đá xám; Wob giơ lên",
+     "gag": "",
+     "dao_cu": [
+      "xeng-nho"
+     ],
+     "sfx": [
+      "xuc-dat"
+     ]
+    },
+    {
+     "tai": 71.859,
+     "loi": "I dug faster. I found a more confident rock.",
+     "hanh_dong": "Lần 2: đất bay tứ tung; hòn đá xám to hơn, có đôi mắt khinh khỉnh tự mãn; Wob cau mày nhìn nó",
+     "gag": "Hòn đá tự mãn",
+     "dao_cu": [],
+     "sfx": [
+      "xuc-dat"
+     ]
+    },
+    {
+     "tai": 74.972,
+     "loi": "Then I tossed a pebble over my shoulder, and it sparkled.",
+     "hanh_dong": "Wob ném một viên sỏi qua vai không nhìn; sau lưng viên sỏi lấp lánh đủ màu trên đống đất (đến 0–2 khung trước 'sparkled')",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "lap-lanh"
+     ]
+    },
+    {
+     "tai": 78.272,
+     "loi": "I did not turn around.",
+     "hanh_dong": "[giu-tinh-bo] Wob vẫn cúi đào; ánh lấp lánh sau lưng tắt dần; giữ hình 1 s tới cú cắt",
+     "gag": "Wob bỏ lỡ viên opal duy nhất",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag ba lần và punchline sau lưng: ve-tay"
+  },
+  {
+   "id": "d06",
+   "phong_cach": "cat-giay",
+   "bat_dau": 80.886,
+   "ket_thuc": 100.948,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy tông cũ nâu sepia, hạt in đậm: sa mạc 1915, lều trại của đoàn tìm vàng, mặt trời thấp",
+   "trang_phuc": "Wob không xuất hiện trong cảnh lịch sử (chỉ đứng mép khung nhỏ, đội mũ, nhìn như khách tham quan bảo tàng)",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 82.136,
+     "loi": "So why build a town around a pile of gravel?",
+     "hanh_dong": "Wob giơ viên sỏi xám lên trước camera, xoay xoay; nền chuyển dần sang tông sepia",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 84.786,
+     "loi": "It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here.",
+     "hanh_dong": "[day-vao-cham] Một tờ lịch giấy rơi xuống mặt cát mở ra ngày tháng đúng 'February'; một nhóm người giấy đội mũ, dáng chung, nhìn từ xa, không mặt rõ, dắt ngựa đi qua; Wob nhỏ đứng mép khung trái nhìn theo",
+     "gag": "",
+     "dao_cu": [
+      "to-lich"
+     ],
+     "sfx": [
+      "giay-roi"
+     ]
+    },
+    {
+     "tai": 92.849,
+     "loi": "His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal.",
+     "hanh_dong": "Một cậu thiếu niên dạng bóng giấy (không mặt) cúi nhặt mảnh đá lấp lánh; tia sáng opal duy nhất có màu trong cảnh sepia; Wob ở mép khung trái nhón chân nhìn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "lap-lanh"
+     ]
+    },
+    {
+     "tai": 98.886,
+     "loi": "Miners followed within about a year.",
+     "hanh_dong": "Bóng người giấy vác cuốc kéo đến, dựng tời gỗ trên miệng giếng; đống đất đầu tiên mọc lên; Wob ở mép khung lùi nửa bước nhường đường",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "go-go"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "1 Feb 1915"
+   ],
+   "ly_do_phong_cach": "Lịch sử khởi đầu thị trấn, nhẹ nhưng có thật, người thật chỉ dạng bóng: cat-giay tông cũ, không gag"
+  },
+  {
+   "id": "d07",
+   "phong_cach": "ve-tay",
+   "bat_dau": 100.948,
+   "ket_thuc": 108.186,
+   "lop": "hoi-uc",
+   "boi_canh": "Nền giấy trắng, nét mực; cái khay nhỏ chia mười ô",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; cầm lọ opal rỗng",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 100.948,
+     "loi": "Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher.",
+     "hanh_dong": "[chen-ve-tay] Wob cầm khay mười ô; đúng 'seventy' bảy ô sáng lên màu opal; đúng 'higher' ô thứ tám nhấp nháy nửa sáng (dè dặt)",
+     "gag": "",
+     "dao_cu": [
+      "khay-muoi-o"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 106.536,
+     "loi": "",
+     "hanh_dong": "Wob cố nhét lọ opal rỗng của mình vào ô thứ tám; lọ không vừa, Wob ấn mạnh, khay nghiêng",
+     "gag": "Lọ của Wob không lọt vào thống kê",
+     "dao_cu": [
+      "lo-opal"
+     ],
+     "sfx": [
+      "ket"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~70%"
+   ],
+   "ly_do_phong_cach": "Chèn gag ngắn với con số, biểu cảm to: ve-tay"
+  },
+  {
+   "id": "d08",
+   "phong_cach": "cat-giay",
+   "bat_dau": 108.186,
+   "ket_thuc": 123.186,
+   "lop": "hoi-uc",
+   "boi_canh": "Mặt cắt lòng đất cắt giấy nhiều lớp: biển nội địa cổ xanh phủ lên, rút đi để lại lớp đá sét; sau đó mạch opal len vào khe",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 108.186,
+     "loi": "And here's the part people often get half right.",
+     "hanh_dong": "Wob giơ một ngón tay, nghiêng đầu",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 110.624,
+     "loi": "The rock the opal sits in was laid down by an ancient inland sea.",
+     "hanh_dong": "[day-vao-cham] Lớp nước biển giấy xanh trượt vào phủ cả khung, cá giấy cổ bơi qua; Wob bám mép khung bị nước giấy cuốn nổi lên, mũ nổi bên cạnh; trầm tích rơi thành lớp",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "song-nho"
+     ]
+    },
+    {
+     "tai": 114.786,
+     "loi": "The opal itself came much later. One dating study suggests roughly twelve to sixteen million years ago, long after the sea had gone.",
+     "hanh_dong": "Biển rút sang trái để lại lớp đá khô, Wob ngồi trên lớp đá khô ướt sũng nhìn đồng hồ cát; một đồng hồ cát giấy lật nhiều vòng; rồi mạch opal sáng len vào khe đá đúng 'twelve'",
+     "gag": "",
+     "dao_cu": [
+      "dong-ho-cat"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~12–16 million years ago"
+   ],
+   "ly_do_phong_cach": "Giải thích cơ chế địa chất có thật, nhiều lớp: cat-giay"
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "bat_dau": 123.186,
+   "ket_thuc": 130.286,
+   "lop": "hoi-uc",
+   "boi_canh": "Bong bóng tưởng tượng nét mực trên đầu Wob: bánh kem nhiều lớp",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 123.186,
+     "loi": "Picture a layer cake where the jam was squeezed in years after baking.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Bong bóng bật ra: bánh kem nhiều lớp, ghi chữ trên lớp bánh; một ống bơm mứt chọc vào từ bên hông đúng 'squeezed'",
+     "gag": "",
+     "dao_cu": [
+      "banh-kem"
+     ],
+     "sfx": [
+      "bop"
+     ]
+    },
+    {
+     "tai": 127.186,
+     "loi": "The sea baked the cake. The opal is the late jam.",
+     "hanh_dong": "Wob với tay vào bong bóng bẻ một miếng, cắn: răng gặp đá, mặt cứng đờ; giữ 0,8 s",
+     "gag": "Răng gặp đá",
+     "dao_cu": [],
+     "sfx": [
+      "cop"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "sea rock"
+   ],
+   "ly_do_phong_cach": "So sánh tưởng tượng: ve-tay"
+  },
+  {
+   "id": "d10",
+   "phong_cach": "ve-tay",
+   "bat_dau": 130.286,
+   "ket_thuc": 135.544,
+   "lop": "hoi-uc",
+   "boi_canh": "Lối vào bãi opal vẽ nét mực: bảng thông tin có dòng tiêu đề PERMIT? to rõ (≥ 40 px, không bị che) và nhiều dòng nét kẻ không đọc được bên dưới, sa mạc nét mực phía sau",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 130.286,
+     "loi": "Whether you need a permit to noodle depends on who you ask, so I checked before I dug.",
+     "hanh_dong": "[take-cham] Bảng thông tin nét mực, tiêu đề PERMIT? ở trên; Wob đọc kỹ, ngón tay dò từng dòng, gật đầu, cất xẻng vào ba lô (không khẳng định cần hay không)",
+     "gag": "",
+     "dao_cu": [
+      "xeng-nho"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "PERMIT?"
+   ],
+   "ly_do_phong_cach": "Vòng 2: đổi sang ve-tay để nối liền d09 và d11 (gỡ 3 lần đổi phong cách trong 12 s, T6). Chữ PERMIT có trong lời, dấu hỏi giữ dè dặt mức C (C10)"
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "bat_dau": 135.544,
+   "ket_thuc": 152.887,
+   "lop": "hoi-uc",
+   "boi_canh": "Sa mạc nét mực, mặt trời tròn trên đầu Wob",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 136.244,
+     "loi": "That's piece one of the why. Opal pulled people into the middle of nowhere.",
+     "hanh_dong": "[so-do-ve-tay] Một sợi dây vẽ tay kéo các hình người que từ mép khung vào giữa trang trắng; một mảnh ghép hình số 1 rơi vào chỗ",
+     "gag": "",
+     "dao_cu": [
+      "manh-ghep"
+     ],
+     "sfx": [
+      "whoosh"
+     ]
+    },
+    {
+     "tai": 140.356,
+     "loi": "It did not tell them where to sleep. I found that out at lunchtime.",
+     "hanh_dong": "[day-vao-cham] Mặt trời phình dần; đúng 'lunchtime' chiếm nửa trời",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 143.912,
+     "loi": "",
+     "hanh_dong": "Khoảng nghỉ không lời: mặt trời phình to thêm, mũ Wob bốc khói nhẹ; Wob nhìn lên, nuốt khan",
+     "gag": "Mặt trời chiếm nửa trời",
+     "dao_cu": [],
+     "sfx": [
+      "xeo-xeo"
+     ]
+    },
+    {
+     "tai": 146.612,
+     "loi": "By noon I was melting. The sky was white, the dirt was hot, and my hat had quietly resigned.",
+     "hanh_dong": "Wob chảy dần như kem, chân dính đất; đúng 'resigned' cái mũ tự tuột khỏi đầu, bò vào bóng một đống đất nằm nghỉ",
+     "gag": "Cái mũ bỏ việc",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": [
+      "chay-nhao"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag nóng, cắt nhanh, biểu cảm to: ve-tay; nối liền cảnh 5 sang mở chương 2 vì cùng một nhịp gag"
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "bat_dau": 152.887,
+   "ket_thuc": 163.424,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận trang sổ trên đầu gối Wob, rồi sườn đồi thấp ai-dugout-hillside: cửa gỗ, cửa sổ nhỏ khoét vào đá, ống thông gió trắng trên đỉnh đồi",
+   "trang_phuc": "Wob dạng hơi nhão, không mũ (mũ nằm trong bóng đống đất); ba lô; cầm sổ",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 152.887,
+     "loi": "I wrote in my notebook, in wobbly letters, I am not moving here.",
+     "hanh_dong": "[lao-vao-can-canh] Cận trang sổ: dòng chữ run rẩy I am not moving here hiện rõ, đọc được ≥ 1,5 s, rồi mới chảy xuống mép giấy như sáp nóng",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": [
+      "but-ve"
+     ]
+    },
+    {
+     "tai": 157.124,
+     "loi": "Then I noticed the doors. Doors cut straight into the hillsides.",
+     "hanh_dong": "[luot-smootherstep] Wob ngẩng lên; lướt sang sườn đồi có cửa gỗ khoét vào đá",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 160.924,
+     "loi": "Pipes poking out of the ground like snorkels.",
+     "hanh_dong": "Camera lia lên đỉnh đồi: hàng ống thông gió; một ống phụt nhẹ một hơi như ống thở của người lặn",
+     "gag": "Ống thông gió thở như ống lặn",
+     "dao_cu": [],
+     "sfx": [
+      "phut-hoi"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "I am not moving here"
+   ],
+   "ly_do_phong_cach": "Phát hiện cửa hầm, bối cảnh có thật: cat-giay"
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "bat_dau": 163.424,
+   "ket_thuc": 172.324,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ trắng nét mực, Wob vẽ sơ đồ",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (mũ leo lại lên đầu ở 2 s đầu đoạn)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 163.424,
+     "loi": "My first guess was that the miners were hiding their opal. Reasonable. Wrong.",
+     "hanh_dong": "[so-do-ve-tay] Hai giây đầu: cái mũ bò vào khung, leo lại lên đầu Wob khi Wob bắt đầu vẽ; Wob vẽ hầm có hòm opal giấu bên trong; đúng 'Wrong' gạch chéo đỏ một nét",
+     "gag": "",
+     "dao_cu": [
+      "but-chi",
+      "mu-rong-vanh"
+     ],
+     "sfx": [
+      "gach-but"
+     ]
+    },
+    {
+     "tai": 168.124,
+     "loi": "My second guess was that they simply love caves. Also wrong, mostly.",
+     "hanh_dong": "[lat-the] Wob vẽ cái hang có dơi treo, tự gạch luôn, nhưng chừa lại một góc nhỏ chưa gạch đúng 'mostly'",
+     "gag": "Chừa một góc cho chữ \"mostly\"",
+     "dao_cu": [
+      "but-chi"
+     ],
+     "sfx": [
+      "gach-but"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Đoán sai rồi lật, sơ đồ vẽ tay: ve-tay"
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "bat_dau": 172.324,
+   "ket_thuc": 179.892,
+   "lop": "hoi-uc",
+   "boi_canh": "Trước sườn đồi có cửa hầm, nắng trắng gắt",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 172.324,
+     "loi": "I stood there, slowly dripping, and asked myself the real question.",
+     "hanh_dong": "Wob đứng trước một cửa gỗ, từng giọt rơi từ cằm xuống tạo vũng nhỏ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "giot-nuoc"
+     ]
+    },
+    {
+     "tai": 176.275,
+     "loi": "If it's this hot up here, what is it like down there?",
+     "hanh_dong": "[day-vao-cham] Wob nhìn xuống vũng nước dưới chân: vũng phản chiếu khung cửa hầm mát màu xanh; Wob ngẩng lên, đẩy chậm vào khe cửa hé, bên trong tối mát; một luồng hơi xanh mát thoảng ra chạm mặt Wob",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "gio-mat"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Câu hỏi mở cơ chế, bối cảnh thật: cat-giay"
+  },
+  {
+   "id": "d15",
+   "phong_cach": "ve-tay",
+   "bat_dau": 179.892,
+   "ket_thuc": 189.867,
+   "lop": "hoi-uc",
+   "boi_canh": "Mặt cắt ngọn đồi vẽ tay nét mực",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 180.892,
+     "loi": "The reason is boring and brilliant.",
+     "hanh_dong": "Wob vẽ một mặt cắt ngọn đồi lên không khí bằng ngón tay",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 183.467,
+     "loi": "A few metres of rock is slow to heat up and slow to cool down, so underground the temperature hardly moves.",
+     "hanh_dong": "[so-do-ve-tay] Mũi tên nóng đỏ đập vào mặt trên đồi, chậm dần, nhạt dần khi xuống sâu; ở đáy chỉ còn một mũi tên bé xíu ngáp",
+     "gag": "Mũi tên nóng tới đáy thì mệt ngáp",
+     "dao_cu": [],
+     "sfx": [
+      "vut"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Cơ chế trừu tượng: ve-tay sơ đồ"
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "bat_dau": 189.867,
+   "ket_thuc": 204.317,
+   "lop": "hoi-uc",
+   "boi_canh": "Ngoài cửa hầm trong bóng râm, nhìn vào phòng khoét đá ai-underground-room có nhiệt kế dán trên vách",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 189.867,
+     "loi": "NASA puts it at about twenty-three degrees Celsius, around seventy-three Fahrenheit.",
+     "hanh_dong": "[nhiet-ke-tut] Nhiệt kế trên vách đá trong phòng: cột đỏ tụt từ đỉnh xuống dừng ở 23°C; Wob ló đầu ở khung cửa nhìn theo cột đỏ",
+     "gag": "",
+     "dao_cu": [
+      "nhiet-ke"
+     ],
+     "sfx": [
+      "ting"
+     ]
+    },
+    {
+     "tai": 195.067,
+     "loi": "Residents describe roughly twenty-four all year, with no air conditioning and no heater.",
+     "hanh_dong": "Cạnh nhiệt kế một tờ giấy nhỏ ghi số dân kể; ổ cắm điều hoà trên vách bị phủ bụi và mạng nhện; Wob ló đầu ở khung cửa, nheo nhìn nhiệt kế",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 200.454,
+     "loi": "I sat on my bag in the shade and counted that on my fingers twice.",
+     "hanh_dong": "Wob ngồi trên ba lô, đếm ngón tay; Wob chỉ có bốn ngón nên đếm lần hai bằng cả ngón chân",
+     "gag": "Không đủ ngón để đếm",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "23°C (73°F)",
+    "~24°C (~75°F)"
+   ],
+   "ly_do_phong_cach": "Sự thật có số, bối cảnh liền: cat-giay. 24°C ≈ 75°F đổi đơn vị theo luật °C/°F, dấu ~ áp cả hai"
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "bat_dau": 204.317,
+   "ket_thuc": 211.564,
+   "lop": "hoi-uc",
+   "boi_canh": "Bong bóng tưởng tượng: hầm rượu",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 204.317,
+     "loi": "It's the same trick as a wine cellar.",
+     "hanh_dong": "[bong-bong-tuong-tuong] Bong bóng bật: hầm rượu, chai nằm yên trên giá",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "bop"
+     ]
+    },
+    {
+     "tai": 206.542,
+     "loi": "The cellar doesn't make anything cold. It just ignores the weather.",
+     "hanh_dong": "Ngoài cửa hầm mặt trời và mặt trăng thay nhau gõ cửa liên hồi; trong hầm chai rượu ngủ ngáy; đúng 'ignores' giữ hình cửa đóng 0,8 s",
+     "gag": "Chai rượu ngủ mặc kệ trời",
+     "dao_cu": [],
+     "sfx": [
+      "go-cua",
+      "ngay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "So sánh đời thường tưởng tượng: ve-tay"
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "bat_dau": 211.564,
+   "ket_thuc": 235.272,
+   "lop": "hoi-uc",
+   "boi_canh": "Hành lang khách sạn dưới đất, rồi phòng ai-underground-room: vách đá trần, trần vòm sơn sáng, giường sát vách, đèn vàng; cuối đoạn cận sổ",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (mũ chạy theo sau rồi Wob cởi mũ treo đầu giường)",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 212.364,
+     "loi": "So I booked a room in an underground hotel.",
+     "hanh_dong": "Chìa khoá phòng treo thẻ gỗ rơi vào tay Wob",
+     "gag": "",
+     "dao_cu": [
+      "chia-khoa"
+     ],
+     "sfx": [
+      "leng-keng"
+     ]
+    },
+    {
+     "tai": 215.114,
+     "loi": "I walked down the corridor, out of the glare, and my shape came back.",
+     "hanh_dong": "[di-bo-parallax] Wob nhão đi xuống hành lang; đúng 'shape' bật lại tròn xoe kèm tiếng boing; cái mũ chạy theo vào sau",
+     "gag": "Wob bật lại hình tròn",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": [
+      "boing"
+     ]
+    },
+    {
+     "tai": 219.389,
+     "loi": "The walls were bare rock, curving up into a pale ceiling.",
+     "hanh_dong": "[lia-theo-vat] Lia theo vách đá lên trần vòm sơn sáng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 223.139,
+     "loi": "No window. No traffic. No sun trying to get in.",
+     "hanh_dong": "Ba ô cận trong 3,5 s, mỗi ô khớp đúng một chữ No, không chồng: khung cửa sổ vẽ phấn trên đá bị xoá; xe đồ chơi đỗ yên; một tia nắng ló ở khe cửa, cửa đóng sập",
+     "gag": "Mặt trời bị nhốt ngoài",
+     "dao_cu": [],
+     "sfx": [
+      "cua-dong"
+     ]
+    },
+    {
+     "tai": 226.651,
+     "loi": "I slept like a rock, inside a rock.",
+     "hanh_dong": "Wob ngủ trên giường sát vách, ngực phập phồng; một hòn đá nhỏ đầu giường cũng nhắm mắt ngủ",
+     "gag": "Hòn đá ngủ cùng",
+     "dao_cu": [],
+     "sfx": [
+      "ngay"
+     ]
+    },
+    {
+     "tai": 229.201,
+     "loi": "By breakfast I had crossed out the line in my notebook. I was moving here after all.",
+     "hanh_dong": "Wob gạch dòng chữ run trong sổ, viết lại nét chữ chắc",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": [
+      "gach-but"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "I am not moving here",
+    "I was moving here after all"
+   ],
+   "ly_do_phong_cach": "Một chuỗi đi vào, ở, đổi ý trong bối cảnh liền: cat-giay"
+  },
+  {
+   "id": "d19",
+   "phong_cach": "ve-tay",
+   "bat_dau": 235.272,
+   "ket_thuc": 244.922,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận Wob nằm trên giường nhìn trần đá",
+   "trang_phuc": "Wob không mũ (mũ treo đầu giường); cầm thìa cà phê",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 236.772,
+     "loi": "In the morning I stared at the rock above my bed and asked the obvious question. Who digs a bedroom?",
+     "hanh_dong": "[take-cham] Wob cầm thìa cà phê cạo trần; cạo mãi mới rơi một hạt bụi",
+     "gag": "",
+     "dao_cu": [
+      "thia-ca-phe"
+     ],
+     "sfx": [
+      "cao"
+     ]
+    },
+    {
+     "tai": 242.647,
+     "loi": "Someone who already digs for a living.",
+     "hanh_dong": "Wob nhìn hạt bụi, nhìn người xem; giữ 0,7 s",
+     "gag": "Thìa cà phê thua đá",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag cận, phản ứng: ve-tay"
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "bat_dau": 244.922,
+   "ket_thuc": 266.082,
+   "lop": "hoi-uc",
+   "boi_canh": "Nửa đầu cắt giấy tông cũ: tời trên miệng giếng cạnh cửa hầm nhỏ có ống khói; nửa sau hiện tại: xe tải hút đất có thùng và ống lớn cắm xuống đất giữa ai-mullock-field",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (đội lại mũ khi ra ngoài)",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 244.922,
+     "loi": "According to a state heritage report, the first miners probably started digging homes within a few years of the find.",
+     "hanh_dong": "[day-vao-cham] Tông sepia: bóng thợ mỏ (dạng chung) vác cuốc từ giếng sang đào cửa hầm bên cạnh, cùng một cái cuốc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "go-go"
+     ]
+    },
+    {
+     "tai": 251.622,
+     "loi": "The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel.",
+     "hanh_dong": "Màu trở lại; xe tải hút đất gầm lên, ống hút cắm xuống đất; tờ giấy phép giấy kẹp trên kính xe; Wob đứng cạnh xe, nhìn ống hút",
+     "gag": "",
+     "dao_cu": [
+      "giay-phep"
+     ],
+     "sfx": [
+      "may-hut"
+     ]
+    },
+    {
+     "tai": 257.284,
+     "loi": "That one permit covers mining and digging out a home.",
+     "hanh_dong": "Cận tờ giấy phép trên kính xe, chữ PERMIT ≥ 40 px; Wob đứng cạnh xe giơ tay giữ mũ nhưng ống hút hút luôn cái mũ; mũ bay vòng lên rồi rơi bịch xuống đỉnh đống đất",
+     "gag": "Máy hút ăn mũ",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": [
+      "hut",
+      "bich"
+     ]
+    },
+    {
+     "tai": 260.409,
+     "loi": "A mine and a bedroom, it turns out, are the same hole with different furniture.",
+     "hanh_dong": "[lat-the] Mặt cắt hai hầm giống hệt nhau; một bên lật thẻ thêm giường, đèn bàn; giữ 0,8 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "lat-giay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "PERMIT"
+   ],
+   "ly_do_phong_cach": "Lịch sử ngắn + máy móc có thật: cat-giay, tông cũ ở nửa đầu không gag; gag mũ chỉ ở nửa hiện tại"
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "bat_dau": 266.082,
+   "ket_thuc": 287.184,
+   "lop": "hoi-uc",
+   "boi_canh": "Hai ô vẽ tay đặt cạnh nhau",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (mũ đã nhặt lại, phủ bụi)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 266.832,
+     "loi": "Here's how I think about it.",
+     "hanh_dong": "Wob phủi bụi mũ, đội lại",
+     "gag": "",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 268.394,
+     "loi": "Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever.",
+     "hanh_dong": "[so-do-ve-tay] Ô trái: nhà tôn trên mặt đất, cái quạt quay tít, đồng hồ điện quay nhanh, lịch xé từng tờ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "quat-quay"
+     ]
+    },
+    {
+     "tai": 275.119,
+     "loi": "Digging one is like buying a really good hat. You pay once, and then the rock does the work.",
+     "hanh_dong": "Ô phải: ngọn đồi đội một cái mũ rộng vành khổng lồ, bình thản",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 280.482,
+     "loi": "I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there.",
+     "hanh_dong": "Wob lật tờ hoá đơn trống trơn, nhún vai (không vẽ con số tiết kiệm)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 286.184,
+     "loi": "",
+     "hanh_dong": "[giu-tinh-bo] Cái quạt mệt lả gục xuống; ngọn đồi đội mũ vẫn bình thản, Wob đội mũ đứng cạnh, giữ 1 s",
+     "gag": "Quạt kiệt sức, đồi đội mũ không",
+     "dao_cu": [],
+     "sfx": [
+      "xi-xi"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "So sánh tưởng tượng: ve-tay"
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "bat_dau": 287.184,
+   "ket_thuc": 294.159,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy nhiều lớp mặt cắt ngọn đồi: một phòng, rồi nhiều phòng nối nhau, rồi cả dãy đồi đầy phòng (ai-dugout-hillside làm phông xa)",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 287.984,
+     "loi": "Then I zoomed out. One room becomes a house. Houses become a hotel, shops and churches.",
+     "hanh_dong": "[lui-ra-toan-canh] Camera lùi qua các lớp cắt giấy parallax; mỗi bước lùi Wob nhỏ đi một nấc, cuối cùng chỉ còn một chấm có cái ba lô",
+     "gag": "Wob thành một chấm ba lô",
+     "dao_cu": [],
+     "sfx": [
+      "whoosh-nhe"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Vòng 2: đổi từ diorama sang cat-giay (lùi qua lớp parallax) để diorama về ≤ 20% (T6)"
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "bat_dau": 294.159,
+   "ket_thuc": 304.847,
+   "lop": "hoi-uc",
+   "boi_canh": "Trong nhà thờ khoét đá ai-church-underground: trần cao, vách đá cát, đèn vàng; Wob đứng cuối phòng",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; đội mũ khi vào, cởi mũ cầm hai tay ở nhịp 2",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 294.159,
+     "loi": "The Serbian Orthodox church of Saint Elijah was dug into the rock in nineteen ninety-three.",
+     "hanh_dong": "[day-vao-cham] Đẩy chậm dọc lòng nhà thờ, không có người (trống, yên); một bảng nhỏ ở cửa ghi năm",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 299.259,
+     "loi": "I stood at the back with my hat in my hands and kept very quiet.",
+     "hanh_dong": "Wob cởi mũ, đứng im cuối phòng",
+     "gag": "",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 302.959,
+     "loi": "Even the echo seemed polite.",
+     "hanh_dong": "Wob khẽ hắng giọng; một gợn sóng âm nhỏ đi ra rồi cúi chào, tan (gag nhẹ, không đùa về tôn giáo hay giáo dân)",
+     "gag": "Tiếng vang cúi chào",
+     "dao_cu": [],
+     "sfx": [
+      "vang-nho"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "St Elijah · 1993"
+   ],
+   "ly_do_phong_cach": "Không gian thật, yên tĩnh, tôn trọng: cat-giay, gag rất nhẹ chỉ về tiếng vang"
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "bat_dau": 304.847,
+   "ket_thuc": 317.468,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy nhiều lớp parallax mặt đất trên dãy đồi: ống thông gió nhô lên khắp nơi như hàng cây; biển thị trấn giấy pop-up",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp (đội lại mũ)",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 304.847,
+     "loi": "The town picked its name around nineteen twenty, though records differ by a year or two, and got its own council in nineteen eighty-seven.",
+     "hanh_dong": "[lia-theo-vat] Wob đi dọc rừng ống thông gió, áp tai vào một ống nghe tiếng gió; sau lưng Wob biển thị trấn bật dựng, hai năm hiện lần lượt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 312.597,
+     "loi": "Everyone here had the same idea, with the same machines.",
+     "hanh_dong": "Wob đứng cạnh ba chiếc xe hút đất giống hệt nhau đỗ thành hàng, nghiêng đầu so từng chiếc, giữ 0,8 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "~1920",
+    "1987"
+   ],
+   "ly_do_phong_cach": "Vòng 2: đổi từ diorama sang cat-giay (parallax nhiều lớp) để diorama về ≤ 20% (T6); mạch cat-giay d22–d25 vẫn dưới 90 s"
+  },
+  {
+   "id": "d25",
+   "phong_cach": "cat-giay",
+   "bat_dau": 317.468,
+   "ket_thuc": 339.843,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ có đồng hồ vẽ tay quay tới chiều; sân golf ai-golf-course nền đá trắng, cờ lỗ cắm giữa vùng tròn màu sẫm, bóng đổ dài",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; gậy golf",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 318.968,
+     "loi": "Late afternoon, when the sun finally lowered its voice, I went to play golf.",
+     "hanh_dong": "[dong-ho-troi] Kim đồng hồ quay tới chiều; mặt trời hạ thấp, bóng đổ dài; Wob vác gậy bước ra",
+     "gag": "",
+     "dao_cu": [
+      "gay-golf"
+     ],
+     "sfx": [
+      "tic-tac"
+     ]
+    },
+    {
+     "tai": 323.818,
+     "loi": "The Opal Fields Golf Club was set up in nineteen seventy-six, and it has no grass at all.",
+     "hanh_dong": "Biển câu lạc bộ; Wob cúi tìm cỏ dưới đá bằng kính lúp, chỉ thấy một hạt sỏi",
+     "gag": "Kính lúp tìm cỏ",
+     "dao_cu": [
+      "kinh-lup"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 329.168,
+     "loi": "The fairways are white crushed rock. The greens, which they call scrapes, are rock dust mixed with waste oil.",
+     "hanh_dong": "[luot-smootherstep] Lướt từ đường đá trắng tới vùng tròn sẫm có cờ lỗ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 336.131,
+     "loi": "Players carry a small square of artificial turf to hit from.",
+     "hanh_dong": "Một miếng cỏ nhân tạo vuông được đặt xuống đá, quả bóng đặt lên",
+     "gag": "",
+     "dao_cu": [
+      "mieng-co"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "OPAL FIELDS GOLF CLUB · 1976",
+    "scrapes"
+   ],
+   "ly_do_phong_cach": "Một ngày ở đây, bối cảnh thật: cat-giay"
+  },
+  {
+   "id": "d26",
+   "phong_cach": "ve-tay",
+   "bat_dau": 339.843,
+   "ket_thuc": 351.024,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận Wob nét mực",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp; miếng cỏ nhân tạo cuộn kẹp nách, thảm đỏ trên ba lô; gậy golf",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 339.843,
+     "loi": "I carried mine under my arm like a tiny rolled carpet. My backpack already has a red one. Now it had a green one too.",
+     "hanh_dong": "Wob kẹp miếng cỏ cuộn dưới nách; camera vòng ra sau: cuộn thảm đỏ trên ba lô; đúng 'green' cuộn xanh đặt cạnh cuộn đỏ",
+     "gag": "",
+     "dao_cu": [
+      "mieng-co",
+      "tham-do"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 347.018,
+     "loi": "I looked extremely prepared for a sport I could not play.",
+     "hanh_dong": "[take-cham] Wob tạo dáng vung gậy oai vệ; gậy đánh hụt, xoay Wob nửa vòng; giữ 0,8 s",
+     "gag": "Vung hụt",
+     "dao_cu": [
+      "gay-golf"
+     ],
+     "sfx": [
+      "vut"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag phản ứng: ve-tay"
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "bat_dau": 351.024,
+   "ket_thuc": 365.644,
+   "lop": "hoi-uc",
+   "boi_canh": "Sân golf ai-golf-course về đêm, trời xanh thẫm có sao, đống đất ai-mullock-field ở rìa sân",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26); gậy golf; bóng phát sáng",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 352.024,
+     "loi": "Then night. The heat finally backed off, and the course changed shape in the dark.",
+     "hanh_dong": "[day-vao-cham] Trời chuyển đêm; đèn lỗ cờ, đường đá trắng lờ mờ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "de-keu"
+     ]
+    },
+    {
+     "tai": 357.244,
+     "loi": "When the days get too hot, people here play in the dark with balls that glow.",
+     "hanh_dong": "Xa xa vài bóng người chơi dạng chung, quả bóng xanh lơ bay thành vệt sáng",
+     "gag": "",
+     "dao_cu": [
+      "bong-golf-sang"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 361.504,
+     "loi": "My ball glowed beautifully, all the way into a pile of dirt.",
+     "hanh_dong": "[lia-theo-vat] Wob vung gậy, quả bóng phát sáng bật đi; lia theo quả bóng của Wob bay vòng cung đẹp rồi rơi vào sườn một đống đất",
+     "gag": "",
+     "dao_cu": [
+      "bong-golf-sang"
+     ],
+     "sfx": [
+      "phup"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Một ngày ở đây sang đêm: cat-giay"
+  },
+  {
+   "id": "d28",
+   "phong_cach": "cat-giay",
+   "bat_dau": 365.644,
+   "ket_thuc": 368.284,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận đống đất trong đêm, cắt giấy cùng bối cảnh d27",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26); gậy golf",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 365.644,
+     "loi": "Gone. And the strangest detail of all.",
+     "hanh_dong": "[giu-tinh-bo] Ánh xanh của quả bóng mờ dần trong đống đất như ngọn nến tắt; Wob cầm gậy đứng im, giữ 0,9 s",
+     "gag": "Bóng tắt như nến",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Vòng 2: đổi từ ve-tay sang cat-giay, nối liền như nhịp cuối d27 (gỡ 3 lần đổi phong cách trong 14 s, T6)"
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "bat_dau": 368.284,
+   "ket_thuc": 379.924,
+   "lop": "hoi-uc",
+   "boi_canh": "Hai tấm bưu thiếp cắt giấy đặt cạnh nhau trên mặt đá: một sân cỏ xanh mướt dưới mưa, một sân đá trắng dưới sao",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26)",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 368.284,
+     "loi": "This club has a reciprocal arrangement with St Andrews in Scotland, often called the home of golf.",
+     "hanh_dong": "[ky-vat-chuyen-canh] Wob đặt hai bưu thiếp xuống mặt đá, kéo căng một sợi chỉ đỏ nối hai tấm",
+     "gag": "",
+     "dao_cu": [
+      "buu-thiep"
+     ],
+     "sfx": [
+      "giay-truot"
+     ]
+    },
+    {
+     "tai": 374.044,
+     "loi": "Golf Digest reported that nobody knew of any St Andrews member who had actually come out to play.",
+     "hanh_dong": "Trên bưu thiếp sân cỏ, một chiếc ô giấy (không người) đứng yên dưới mưa; trên bưu thiếp sân đá, Wob thổi bụi khỏi ghế chờ khách trống: mạng nhện bay lên rồi rơi lại đúng chỗ cũ, giữ 0,8 s",
+     "gag": "Ghế chờ khách phủ mạng nhện",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "ST ANDREWS"
+   ],
+   "ly_do_phong_cach": "Đồ vật so sánh có thật: cat-giay"
+  },
+  {
+   "id": "d30",
+   "phong_cach": "ve-tay",
+   "bat_dau": 379.924,
+   "ket_thuc": 385.876,
+   "lop": "hoi-uc",
+   "boi_canh": "Đường đá trắng trong đêm, nét mực",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26); miếng cỏ cuộn; gậy golf",
+   "vao": "chen",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 379.924,
+     "loi": "I get it. I lost a ball and my dignity here, in that order.",
+     "hanh_dong": "Wob cuộn miếng cỏ lại, lê bước về, gậy kéo lê trên đá thành vệt; đúng 'dignity' cái mũ trượt lệch che một mắt",
+     "gag": "",
+     "dao_cu": [
+      "mieng-co",
+      "gay-golf"
+     ],
+     "sfx": [
+      "keo-le"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Phản ứng buồn cười, kết chương: ve-tay"
+  },
+  {
+   "id": "d31",
+   "phong_cach": "cat-giay",
+   "bat_dau": 385.876,
+   "ket_thuc": 409.996,
+   "lop": "hoi-uc",
+   "boi_canh": "Trang sổ pop-up: bản đồ code map-adelaide-route, đường nét đứt, chiếc xe giấy nhỏ; rồi bản đồ code map-coober-pedy-water dạng mặt cắt: ống nước từ giếng sâu phía đông bắc chạy dưới sa mạc về thị trấn (vị trí giếng ghi approx.)",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26)",
+   "vao": "giay",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 387.276,
+     "loi": "Back on my map page, the costs started piling up.",
+     "hanh_dong": "[trang-so-ban-do] Trang sổ mở; đồng xu giấy rơi chồng lên góc trang",
+     "gag": "",
+     "dao_cu": [
+      "dong-xu"
+     ],
+     "sfx": [
+      "xu-roi"
+     ]
+    },
+    {
+     "tai": 390.616,
+     "loi": "The drive from Adelaide takes about nine hours.",
+     "hanh_dong": "[xe-giay] Xe giấy chạy theo nét đứt; phông sau lưng lặp y hệt ba lần cùng một bụi cây; lần thứ ba Wob trong xe chỉ tay vào bụi cây",
+     "gag": "Bụi cây lặp lại",
+     "dao_cu": [
+      "xe-giay"
+     ],
+     "sfx": [
+      "dong-co"
+     ]
+    },
+    {
+     "tai": 393.516,
+     "loi": "Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read.",
+     "hanh_dong": "Lật sang bản đồ nước: chấm giếng phía đông bắc, một mặt cắt nhỏ cho thấy ống chọc xuống sâu; đường ống nét đứt chạy về thị trấn; nhãn tách: bore ~60 m deep hiện đúng chữ sixty, 23–25 km NE (approx.) hiện đúng chữ kilometres, không hiện cùng lúc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 405.176,
+     "loi": "Then it filters it by reverse osmosis, which it has done since nineteen eighty-five.",
+     "hanh_dong": "Một hộp máy lọc giấy ở đầu thị trấn, nước đi qua nhiều lớp màng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "nuoc-chay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Adelaide",
+    "Coober Pedy",
+    "~9 hours",
+    "bore ~60 m deep",
+    "23–25 km NE (approx.)",
+    "since 1985"
+   ],
+   "ly_do_phong_cach": "Hành trình và bản đồ trang sổ: cat-giay; bản đồ vẽ bằng code, vị trí giếng ghi approx."
+  },
+  {
+   "id": "d32",
+   "phong_cach": "ve-tay",
+   "bat_dau": 409.996,
+   "ket_thuc": 431.716,
+   "lop": "hoi-uc",
+   "boi_canh": "Sơ đồ ống nước vẽ tay, rồi bồn rửa",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 409.996,
+     "loi": "According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water.",
+     "hanh_dong": "[so-do-ve-tay] Ống nước vẽ tay rò rỉ nhiều lỗ, giọt nước nhảy ra; vạch đo nước tụt dần giữa hai mốc; Wob bịt một lỗ rò bằng ngón tay, lỗ khác lại phụt",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "ro-ri"
+     ]
+    },
+    {
+     "tai": 416.496,
+     "loi": "The council has also been the only council in South Australia running its own water and power.",
+     "hanh_dong": "Một ngôi sao giấy duy nhất trên bản đồ bang; Wob gắn hai biểu tượng giọt nước và tia điện",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 421.816,
+     "loi": "In twenty twenty-six, the water service was moving over to the state utility, SA Water.",
+     "hanh_dong": "Một chiếc chìa khoá to có nhãn được trao từ tay này sang tay kia (hai bàn tay chung, không người cụ thể); Wob đứng cạnh đỡ hộ cái chìa khoá nặng",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 427.416,
+     "loi": "Imagine your kitchen tap connected to a straw that long.",
+     "hanh_dong": "Wob ở bồn rửa hút thử một ống hút dài vắt qua cả trang sổ, má hóp lại, chờ mãi mới có một giọt; giữ 0,8 s",
+     "gag": "Ống hút dài cả trang",
+     "dao_cu": [
+      "ong-hut"
+     ],
+     "sfx": [
+      "hut-roc"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [
+    "≈30–50%",
+    "SA Water",
+    "2026"
+   ],
+   "ly_do_phong_cach": "Sơ đồ trừu tượng + gag ống hút: ve-tay"
+  },
+  {
+   "id": "d33",
+   "phong_cach": "cat-giay",
+   "bat_dau": 431.716,
+   "ket_thuc": 451.728,
+   "lop": "hoi-uc",
+   "boi_canh": "Ban ngày giữa ai-mullock-field: miệng giếng tròn đen giữa các đống đất, một tấm tôn gỉ che dở, lưới thép; biển cảnh báo ở lối vào",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26)",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 432.716,
+     "loi": "Then there are the holes.",
+     "hanh_dong": "[lao-vao-can-canh] Vành mũ Wob làm tiền cảnh khi camera lao vào cận một miệng giếng tròn đen, tối hun hút; Wob dừng lại cách xa mép",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "gio-hu"
+     ]
+    },
+    {
+     "tai": 434.129,
+     "loi": "Old mine shafts sit all around town, some unmarked, some hidden under sheets of iron or mesh or a heap of dirt.",
+     "hanh_dong": "Lia ngang theo Wob dò từng bước giữa miệng giếng trống, tấm tôn gỉ, lưới thép, một đống đất lún nhẹ",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 441.166,
+     "loi": "Nobody seems to have an exact count. One local rescuer, according to the ABC, put it at around two million.",
+     "hanh_dong": "[lui-ra-toan-canh] Lùi ra: chấm đen lấm tấm khắp mặt đất như bột tiêu tới chân trời (không đếm, không ghi số); Wob nhỏ đứng giữa cánh đồng chấm đen",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 448.391,
+     "loi": "Warning signs stand at the entrances to the opal fields,",
+     "hanh_dong": "Biển cảnh báo giấy cắm ở lối vào bãi (biển không chữ đọc được, chỉ biểu tượng người rơi xuống hố); Wob đứng trước biển bắt đầu đọc, nối sang d34",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Bối cảnh có thật, mức nguy hiểm: cat-giay"
+  },
+  {
+   "id": "d34",
+   "phong_cach": "ve-tay",
+   "bat_dau": 451.728,
+   "ket_thuc": 456.353,
+   "lop": "hoi-uc",
+   "boi_canh": "Cận Wob giữa các đống đất ở lối vào, nét mực; KHÔNG có miệng giếng trong khung",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26)",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 451.728,
+     "loi": "and I read every single one walking backwards.",
+     "hanh_dong": "[va-cham-vat-ly] Wob đi lùi, mũi dí vào tờ biển; lưng va vào một đống đất, ngồi phịch xuống, ba lô bật nắp, giữ 0,8 s (không dính miệng giếng)",
+     "gag": "Đống đất ngáng lưng, ba lô bật nắp",
+     "dao_cu": [],
+     "sfx": [
+      "bich",
+      "bop"
+     ]
+    },
+    {
+     "tai": 454.704,
+     "loi": "That was a mistake.",
+     "hanh_dong": "Khoảng lặng ≥ 1,5 s trước câu sự cố: giữ hình Wob ngồi im phủi bụi rất chậm, cắt nhạc, không sfx, không gag mới",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Gag Wob ngắn: ve-tay; gag xa giếng, xong trước khoảng lặng ≥ 1,5 s (cắt nhạc, giữ hình) trước câu sự cố thật"
+  },
+  {
+   "id": "d35",
+   "phong_cach": "cat-giay",
+   "bat_dau": 456.353,
+   "ket_thuc": 477.284,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy tông trầm: đêm ai-night-plain, miệng giếng tối dưới bầu trời sao, một luồng đèn tím nhỏ xa xa; không vẽ người, không vẽ người ngã",
+   "trang_phuc": "Mũ rộng vành màu giấy kraft #C9A46A (dải vải đỏ #C9463A), ba lô xanh ô liu có cuộn thảm đỏ buộc trên nắp, cạnh đó cuộn cỏ nhân tạo xanh (từ d26) (bụi bám sau cú ngồi phịch d34)",
+   "vao": "cat",
+   "ra": "giay",
+   "nhip": [
+    {
+     "tai": 456.353,
+     "loi": "In February twenty twenty-four, a man looking for opal at night with an ultraviolet torch fell about twenty-five metres down an old shaft.",
+     "hanh_dong": "[lui-cham-im-lang] Không gag. Luồng đèn tím nhỏ phía xa giữ nguyên, không tắt; camera lùi chậm rời khỏi nó, dừng ở miệng giếng tối; không đồng bộ gì với chữ fell",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 464.953,
+     "loi": "After that fall, SafeWork SA put out an alert called Mind your step in opal fields. Searching at night raises the risk.",
+     "hanh_dong": "Một tờ thông báo giấy đặt xuống mép khung, chữ tiêu đề đọc được",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "giay-roi"
+     ]
+    },
+    {
+     "tai": 472.678,
+     "loi": "Standing at the edge of one hole, for about a minute, I was ready to go home.",
+     "hanh_dong": "[dat-ky-vat-xuong] Ban ngày trở lại; Wob đứng xa mép giếng, cầm biển mini ghi tên tờ thông báo, đặt nó xuống cạnh miệng giếng; Wob chỉnh lại ba lô, quay lưng",
+     "gag": "",
+     "dao_cu": [
+      "bien-mini"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Feb 2024",
+    "~25 m",
+    "MIND YOUR STEP IN OPAL FIELDS"
+   ],
+   "ly_do_phong_cach": "Sự cố có thật, nghiêm: cat-giay tông trầm, không gag"
+  },
+  {
+   "id": "d36",
+   "phong_cach": "cat-giay",
+   "bat_dau": 477.284,
+   "ket_thuc": 525.44,
+   "lop": "hoi-uc",
+   "boi_canh": "Cắt giấy tông trầm Kanku-Breakaways (ai-breakaways-dusk): dãy đồi đỉnh bằng nhiều tầng trắng, vàng, cam, đỏ nâu dưới trời chiều. CHỈ PHONG CẢNH: không người, không biểu tượng, hoa văn hay nghệ thuật thổ dân. Wob nhỏ ngồi ở xa, không chạm gì",
+   "trang_phuc": "Wob KHÔNG mũ (để mũ trong xe), ba lô (cuộn thảm đỏ và cuộn cỏ xanh) đặt bên cạnh; tay đặt trên đầu gối",
+   "vao": "giay",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 480.784,
+     "loi": "On my last evening I drove north to Kanku-Breakaways, about twenty-five kilometres out of town. I left the hat in the car.",
+     "hanh_dong": "[dat-ky-vat-xuong] Không gag. Xe giấy dừng ở mép khung; Wob đặt mũ lên ghế xe, đóng cửa nhẹ",
+     "gag": "",
+     "dao_cu": [
+      "mu-rong-vanh"
+     ],
+     "sfx": [
+      "cua-xe"
+     ]
+    },
+    {
+     "tai": 487.944,
+     "loi": "Flat-topped hills, banded white, yellow, orange and deep red.",
+     "hanh_dong": "[day-vao-cham] Cỡ cận: đẩy chậm vào vách đồi, các tầng màu hiện lần lượt theo từng màu được đọc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 493.204,
+     "loi": "This is the country of the Antakirinja Matu-Yankunytjatjara people.",
+     "hanh_dong": "Giữ toàn cảnh tĩnh, ánh chiều đều; tên viết đúng chính tả trên một dải giấy nhỏ dưới khung (vùng an toàn, ≥ 40 px)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 498.184,
+     "loi": "The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything.",
+     "hanh_dong": "Cỡ trung: Wob ngồi xa chân đồi, bàn tay vừa định chạm hòn đá thì rút về đặt lên gối (đúng ý not to touch)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 504.904,
+     "loi": "It belongs to their corporation and has been jointly managed with the state since twenty thirteen.",
+     "hanh_dong": "[lui-cham-im-lang] Lùi chậm, im lặng; ánh chiều chuyển dần sang cam",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 510.859,
+     "loi": "In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it.",
+     "hanh_dong": "Cỡ toàn rộng: phong cảnh rộng ra hơn nữa tới chân trời; năm và diện tích hiện lặng lẽ ở góc trái dưới",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 520.844,
+     "loi": "According to the determination, some town blocks were left out.",
+     "hanh_dong": "Giữ hình, ánh sáng hạ thêm một nấc",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Kanku-Breakaways",
+    "Antakirinja Matu-Yankunytjatjara",
+    "2011",
+    "~79,000 km²"
+   ],
+   "ly_do_phong_cach": "lich-su-nghiem: cat-giay tông trầm, không gag; chỉ phong cảnh"
+  },
+  {
+   "id": "d37",
+   "phong_cach": "diorama",
+   "bat_dau": 525.44,
+   "ket_thuc": 548.064,
+   "lop": "hoi-uc",
+   "boi_canh": "Diorama giấy 2.5D Breakaways lúc chạng vạng: các lớp đồi tách xa nhau, trời chuyển tím, sao đầu tiên; chỉ phong cảnh, không người, không biểu tượng thổ dân",
+   "trang_phuc": "Wob không mũ; ba lô (cuộn thảm đỏ và cuộn cỏ xanh) bên cạnh; cầm sổ rồi gấp sổ đặt xuống",
+   "vao": "cat",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 526.44,
+     "loi": "Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it. Some sources translate them as something like white man's hole, others as water hole. Linguists still debate where the words came from.",
+     "hanh_dong": "Không gag, không chữ. Camera đi rất chậm giữa các lớp đồi; Wob ngồi nhỏ ở tiền cảnh trái, nhìn xa",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 539.94,
+     "loi": "I put my notebook away and watched the hills turn purple.",
+     "hanh_dong": "[dat-ky-vat-xuong] Wob gấp sổ, đặt xuống bên cạnh; đồi chuyển tím, sao đầu tiên hiện",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 543.165,
+     "loi": "The miners arrived more than a century ago. This land had its people long before that.",
+     "hanh_dong": "[lui-cham-im-lang] Lùi chậm, im lặng; giữ hình",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Đoạn suy ngẫm nghiêm, cần chiều sâu yên: diorama (cũng để tách mạch cat-giay dài); không gag"
+  },
+  {
+   "id": "d38",
+   "phong_cach": "diorama",
+   "bat_dau": 548.064,
+   "ket_thuc": 568.814,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật dưới đèn bàn như d01; Wob xếp kỷ vật thành hàng",
+   "trang_phuc": "Wob không mũ (khung hiện tại); mũ rộng vành treo trên móc sau lưng",
+   "vao": "cat",
+   "ra": "chen",
+   "nhip": [
+    {
+     "tai": 548.364,
+     "loi": "",
+     "hanh_dong": "[cat-cung-ve-hien-tai] Wob ngồi lại bàn, kéo đèn",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": [
+      "den-bat"
+     ]
+    },
+    {
+     "tai": 551.064,
+     "loi": "So here's how the jar adds up.",
+     "hanh_dong": "[ky-vat-chuyen-canh] Wob xếp thành hàng: lọ opal, miếng cỏ nhân tạo cuộn, quả bóng golf phát sáng, biển mini, trang ký hoạ đồi Breakaways trong sổ của Wob (không mang gì về từ đó)",
+     "gag": "",
+     "dao_cu": [
+      "lo-opal",
+      "mieng-co",
+      "bong-golf-sang",
+      "bien-mini",
+      "so-du-lich"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 552.852,
+     "loi": "Opal brought people to the desert. The heat pushed them into the rock. And the digging skills they already had made a hole cheaper than fighting the sun.",
+     "hanh_dong": "Wob đẩy lần lượt ba kỷ vật lên trước theo ba ý (lọ opal, bưu thiếp mặt cắt, viên sỏi)",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 560.701,
+     "loi": "Down there, according to NASA, the rock holds around twenty-three degrees. Residents say closer to twenty-four.",
+     "hanh_dong": "Nhiệt kế nhỏ trên bàn chỉ 23°C, Wob búng nhẹ, cột nhích lên một chút",
+     "gag": "",
+     "dao_cu": [
+      "nhiet-ke"
+     ],
+     "sfx": []
+    },
+    {
+     "tai": 567.752,
+     "loi": "Would I move there?",
+     "hanh_dong": "Wob cầm con dấu lên, ngập ngừng",
+     "gag": "",
+     "dao_cu": [
+      "con-dau"
+     ],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "23°C (73°F)",
+    "~24°C (~75°F)"
+   ],
+   "ly_do_phong_cach": "Khung hiện tại: diorama"
+  },
+  {
+   "id": "d39",
+   "phong_cach": "ve-tay",
+   "bat_dau": 568.814,
+   "ket_thuc": 572.651,
+   "lop": "hien-tai",
+   "boi_canh": "Cận tấm bưu thiếp mặt cắt ngọn đồi trong tay Wob, nét mực",
+   "trang_phuc": "Wob không mũ",
+   "vao": "chen",
+   "ra": "cat",
+   "nhip": [
+    {
+     "tai": 568.814,
+     "loi": "Above ground, no chance. Below ground, absolutely.",
+     "hanh_dong": "[lat-the] Nửa trên bưu thiếp: Wob chảy nhão dưới mặt trời đúng 'no chance'; lật xuống nửa dưới: Wob tròn trịa ngủ ngon đúng 'absolutely'",
+     "gag": "",
+     "dao_cu": [
+      "buu-thiep-mat-cat"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    }
+   ],
+   "chu_tren_do_vat": [],
+   "ly_do_phong_cach": "Chèn so sánh nhanh, biểu cảm to: ve-tay"
+  },
+  {
+   "id": "d40",
+   "phong_cach": "diorama",
+   "bat_dau": 572.651,
+   "ket_thuc": 593.596,
+   "lop": "hien-tai",
+   "boi_canh": "Bàn kỷ vật; trang sổ mở cho con dấu nằm nửa trái khung; con dấu WOULD MOVE và chữ Would Wob move here? đặt trong vùng x 96–1100, y 160–540 (ngoài góc end screen x > 1150, y > 560 và ngoài vùng logo x > 1500, y < 150) từ lúc đóng dấu tới cuối video; góc phải dưới để trống",
+   "trang_phuc": "Wob không mũ; cầm con dấu, rồi khung cửa sổ giấy, miếng cỏ cuộn, lọ opal, nhiệt kế",
+   "vao": "cat",
+   "ra": "het-video",
+   "nhip": [
+    {
+     "tai": 572.651,
+     "loi": "My verdict is WOULD MOVE, as long as the bedroom is a hole.",
+     "hanh_dong": "Wob đóng con dấu lên trang sổ đúng 'WOULD MOVE' (chữ ký âm thanh dau-wob do ghép tự đặt); giữ cận con dấu sạch ≥ 2 s",
+     "gag": "",
+     "dao_cu": [
+      "con-dau",
+      "so-du-lich"
+     ],
+     "sfx": [
+      "dau-wob"
+     ]
+    },
+    {
+     "tai": 576.401,
+     "loi": "It suits people who love quiet, steady temperatures and long drives. It does not suit anyone who needs a window, or a lawn.",
+     "hanh_dong": "Wob đếm trên ngón tay; đúng 'window' Wob giơ một khung cửa sổ giấy nhỏ lên nhìn qua; đúng 'lawn' Wob trải miếng cỏ cuộn xanh ra bàn thành một bãi cỏ giấy bé tí, vỗ vỗ, lắc đầu",
+     "gag": "",
+     "dao_cu": [
+      "khung-cua-so-giay",
+      "mieng-co"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 584.426,
+     "loi": "I gave the jar one last shake. Still mostly jar.",
+     "hanh_dong": "[take-cham] Wob lắc lọ sát tai; hạt sạn rơi ra lần này lấp lánh một chút; Wob nheo mắt nhìn, giữ 0,8 s",
+     "gag": "Hạt sạn hoá ra có chút opal",
+     "dao_cu": [
+      "lo-opal",
+      "hat-san"
+     ],
+     "sfx": [
+      "tach-nho",
+      "lap-lanh"
+     ]
+    },
+    {
+     "tai": 587.801,
+     "loi": "Would you give up every window you own for a room that stays in the low twenties all year?",
+     "hanh_dong": "Wob giơ khung cửa sổ giấy một tay, nhiệt kế nhỏ một tay, cân nhắc, rồi đặt khung cửa sổ xuống; nhìn thẳng người xem, kết đúng ở chữ cuối; đẩy rất chậm; giữ 1,3 s",
+     "gag": "",
+     "dao_cu": [],
+     "sfx": []
+    }
+   ],
+   "chu_tren_do_vat": [
+    "Would Wob move here?",
+    "WOULD MOVE"
+   ],
+   "ly_do_phong_cach": "Đóng tập, con dấu phán quyết ở khung hiện tại: diorama"
+  }
+ ]
+}

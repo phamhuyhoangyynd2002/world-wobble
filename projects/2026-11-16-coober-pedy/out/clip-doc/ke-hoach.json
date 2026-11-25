@@ -1,0 +1,113 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "out/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 69.83,
+   "end": 117.16,
+   "tieu_de": "I threw away an opal",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 78.17,
+    "den": 79.76,
+    "cau": "I did not turn around."
+   },
+   "cau_mo": "I dug.",
+   "claims": [
+    "C06",
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "text": "I dug. I found a rock. I dug faster. I found a more confident rock. Then I tossed a pebble over my shoulder, and it sparkled. I did not turn around. So why build a town around a pile of gravel? It started with a teenager. On the first of February, nineteen fifteen, a prospecting party led by James Hutchison was out here. His son Willie, aged fourteen or fifteen depending on the source, picked up the first piece of opal. Miners followed within about a year. Today this field is credited with an estimated seventy percent of the world's precious opal, though some local figures run higher. And here's the part people often get half right. The rock the opal sits in was laid down by an ancient inland sea. The opal itself came much later."
+  },
+  {
+   "id": "k2",
+   "start": 192.94,
+   "end": 224.3,
+   "tieu_de": "Why Is Everyone in a Hole?",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 206.44,
+    "den": 208.92,
+    "cau": "The cellar doesn't make anything cold."
+   },
+   "cau_mo": "around seventy-three Fahrenheit.",
+   "claims": [
+    "C13",
+    "C14"
+   ],
+   "text": "around seventy-three Fahrenheit. Residents describe roughly twenty-four all year, with no air conditioning and no heater. I sat on my bag in the shade and counted that on my fingers twice. It's the same trick as a wine cellar. The cellar doesn't make anything cold. It just ignores the weather. So I booked a room in an underground hotel. I walked down the corridor, out of the glare, and my shape came back. The walls were bare rock, curving up into a pale ceiling. No window."
+  },
+  {
+   "id": "k3",
+   "start": 241.43,
+   "end": 291.26,
+   "tieu_de": "A mine and a bedroom, same hole",
+   "wob": "ngam-nghi",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 266.86,
+    "den": 268.47,
+    "cau": "Here's how I think about it."
+   },
+   "cau_mo": "Who digs a bedroom?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "text": "Who digs a bedroom? Someone who already digs for a living. According to a state heritage report, the first miners probably started digging homes within a few years of the find. The local council even issues a permit for a blower, a truck that vacuums dirt out of a tunnel. That one permit covers mining and digging out a home. A mine and a bedroom, it turns out, are the same hole with different furniture. Here's how I think about it. Building a house out here and keeping it cool is like running a fan every afternoon, every summer, forever. Digging one is like buying a really good hat. You pay once, and then the rock does the work. I couldn't find hard numbers on the savings, but locals say they don't need air conditioning down there. Then I zoomed out. One room becomes a house."
+  },
+  {
+   "id": "k4",
+   "start": 390.54,
+   "end": 422.17,
+   "tieu_de": "What the Desert Charges",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": null,
+   "cau_mo": "The drive from Adelaide takes about nine hours.",
+   "claims": [
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31"
+   ],
+   "text": "The drive from Adelaide takes about nine hours. Water isn't around the corner either. The town pumps it from an underground bore about sixty metres deep, some twenty-three to twenty-five kilometres to the north-east, depending on which council document you read. Then it filters it by reverse osmosis, which it has done since nineteen eighty-five. According to an older report, the ageing pipes were losing somewhere between thirty and fifty percent of that water. The council has also been the only one in South Australia running its own water and power."
+  },
+  {
+   "id": "k5",
+   "start": 484.38,
+   "end": 532.5,
+   "tieu_de": "Whose Land This Is",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": null,
+   "cau_mo": "about twenty-five kilometres out of town.",
+   "claims": [
+    "C38",
+    "C39",
+    "C40",
+    "C41"
+   ],
+   "text": "about twenty-five kilometres out of town. I left the hat in the car. Flat-topped hills, banded white, yellow, orange and deep red. This is the country of the Antakirinja Matu-Yankunytjatjara people. The whole park is a registered Aboriginal heritage site, and visitors are asked not to touch or take anything. It belongs to their corporation and has been jointly managed with the state since twenty thirteen. In twenty eleven, the Federal Court recognised their native title over nearly seventy-nine thousand square kilometres around Coober Pedy. The court sat in Coober Pedy to do it. According to the determination, some town blocks were left out. Even the town's name is usually said to come from Aboriginal words, and nobody fully agrees on it."
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+[
+{
+"id": "C41",
+"verdict": "sai",
+"correct_value": "32.6°F (0.3°C) average January daily high, based on 1991–2020 climate normals.",
+"note": "NOAA climate normals report a January mean daily maximum of 32.6°F, rather than approximately 31°F.",
+"sources": [
+{
+"title": "Summary of Monthly Normals",
+"publisher": "NOAA National Centers for Environmental Information",
+"url": "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-TMAX-NORMAL&dataset=normals-monthly-1991-2020&format=pdf&stations=USC00509829",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C42",
+"verdict": "dung",
+"correct_value": "March 27, 1964; magnitude 9.2; Prince William Sound region, Alaska.",
+"note": "The USGS confirms that a magnitude 9.2 earthquake struck the Prince William Sound region on March 27, 1964.",
+"sources": [
+{
+"title": "M9.2 Alaska Earthquake and Tsunami of March 27, 1964",
+"publisher": "U.S. Geological Survey",
+"url": "https://earthquake.usgs.gov/earthquakes/statistics/events/alaska1964/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C43",
+"verdict": "dung",
+"correct_value": "13 deaths in Whittier.",
+"note": "The USGS historical investigation confirms 13 fatalities and documents destructive landslide-generated waves that contributed to the waterfront disaster.",
+"sources": [
+{
+"title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+"publisher": "U.S. Geological Survey",
+"url": "https://pubs.usgs.gov/pp/0542b/",
+"type": "goc",
+"published": "1965-01-01"
+},
+{
+"title": "Variations in population vulnerability to tectonic and landslide-related tsunami hazards in Alaska",
+"publisher": "Natural Hazards (Springer)",
+"url": "https://link.springer.com/article/10.1007/s11069-014-1399-6",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C44",
+"verdict": "dung",
+"correct_value": "70 residents.",
+"note": "The USGS investigation explicitly states that only 70 people were living in Whittier when the earthquake occurred.",
+"sources": [
+{
+"title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+"publisher": "U.S. Geological Survey",
+"url": "https://dggs.alaska.gov/webpubs/usgs/p/text/p0542b.pdf",
+"type": "goc",
+"published": "1965-01-01"
+},
+{
+"title": "Variations in population vulnerability to tectonic and landslide-related tsunami hazards in Alaska",
+"publisher": "Natural Hazards (Springer)",
+"url": "https://link.springer.com/article/10.1007/s11069-014-1399-6",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C45",
+"verdict": "dung",
+"correct_value": "The waterfront and port facilities suffered extensive destruction in 1964; Whittier subsequently recovered its port operations and has a working harbor today.",
+"note": "The USGS documents the destruction of waterfront facilities, while the Alaska Marine Highway identifies Whittier as a community with a working harbor today.",
+"sources": [
+{
+"title": "Effects of the earthquake of March 27, 1964, at Whittier, Alaska",
+"publisher": "U.S. Geological Survey",
+"url": "https://pubs.usgs.gov/pp/0542b/",
+"type": "goc",
+"published": "1965-01-01"
+},
+{
+"title": "Whittier Alaska Community Page",
+"publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C46",
+"verdict": "dung",
+"correct_value": "May 1 to September 30: open daily from 5:30 a.m. to 11:15 p.m.",
+"note": "The Alaska Department of Transportation officially confirms these summer operating hours for the Whittier tunnel.",
+"sources": [
+{
+"title": "Whittier Tunnel – Schedules and Hours of Operation",
+"publisher": "Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/creg/whittiertunnel/schedule.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C47",
+"verdict": "dung",
+"correct_value": "Cruise ships call at Whittier, and day cruises depart from its harbor into Prince William Sound to visit glaciers and observe wildlife.",
+"note": "Travel Alaska confirms cruise ship activity and glacier cruises departing from Whittier into Prince William Sound.",
+"sources": [
+{
+"title": "Whittier, AK – Things to Do, Recreation, and Travel Information",
+"publisher": "Travel Alaska",
+"url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+"type": "khac",
+"published": null
+},
+{
+"title": "Whittier Alaska Community Page",
+"publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C48",
+"verdict": "dung",
+"correct_value": "Halibut and salmon fishing and kayaking are established visitor activities in Whittier.",
+"note": "Travel Alaska explicitly describes fishing for halibut and salmon as a popular summer activity, while the Alaska Marine Highway lists kayaking among Whittier's recreational opportunities.",
+"sources": [
+{
+"title": "Whittier, AK – Things to Do, Recreation, and Travel Information",
+"publisher": "Travel Alaska",
+"url": "https://www.travelalaska.com/destinations/cities-towns/whittier",
+"type": "khac",
+"published": null
+},
+{
+"title": "Whittier Alaska Community Page",
+"publisher": "Alaska Marine Highway System, Alaska Department of Transportation and Public Facilities",
+"url": "https://dot.alaska.gov/amhs/comm/whittier.shtml",
+"type": "goc",
+"published": null
+},
+{
+"title": "Things To Do In Whittier Alaska",
+"publisher": "Whittier Chamber of Commerce",
+"url": "https://www.whittieralaskachamber.org/things-to-do-in-whittier-alaska/",
+"type": "khac",
+"published": null
+}
+]
+}
+]

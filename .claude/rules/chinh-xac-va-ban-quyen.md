@@ -73,7 +73,7 @@
 
 - YouTube không cho kiếm tiền với nội dung "made with a template", ít khác biệt giữa các video, trình chiếu ảnh có rất ít lời dẫn, hoặc chỉ đọc lại tài liệu người khác viết (tài liệu mục 2.1). Kênh có nhiều video như vậy có thể bị loại khỏi YPP; bị loại thì 21 ngày để kháng nghị, 90 ngày sau mới nộp lại.
 - Hàng rào của kênh (chi tiết ở `.claude/rules/thuong-hieu.md`): mỗi tập một lập luận và một phán quyết riêng; không lặp câu mở, câu kết, khuôn tiêu đề; `nhat-ky.md` lưu quy trình làm từng tập làm bằng chứng kháng nghị.
-- Một kênh trên YouTube. Không trang trại kênh, không đổi email tạo kênh mới (chính sách spam áp dụng cho cả mạng lưới kênh phối hợp).
+- Một kênh World Wobble trên YouTube. Không trang trại kênh, không đổi email tạo kênh mới (chính sách spam áp dụng cho cả mạng lưới kênh phối hợp). **Kênh khác của người làm kênh (chốt 24/11/2026: kênh động vật)** được phép khi khác hẳn về đề tài, nhân vật, hình thức, khuôn tiêu đề; làm ở repo riêng, tài khoản riêng; không quảng bá chéo, không dùng chung kịch bản, khuôn dựng hay tài nguyên với World Wobble.
 
 ## 10. Khi bị nhận quyền hoặc khiếu nại
 

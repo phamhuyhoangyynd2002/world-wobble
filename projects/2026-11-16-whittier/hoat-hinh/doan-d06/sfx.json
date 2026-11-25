@@ -1,0 +1,22 @@
+[
+ {
+  "ten": "may-no",
+  "tai": 1.45,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "whoosh",
+  "tai": 2,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "drop",
+  "tai": 23.826,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "hoi-nuoc",
+  "tai": 26.544,
+  "am_luong": 0.45
+ }
+]

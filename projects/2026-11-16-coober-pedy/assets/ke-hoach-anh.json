@@ -1,8 +1,45 @@
 {
   "nguon_ngoai": "chatgpt-web",
-  "luot_ngoai": null,
-  "khi_thieu": "cho",
+  "luot_ngoai": 0,
+  "khi_thieu": "ha-hang",
   "anh": [
+    {
+      "id": "ai-desert-plain",
+      "hang": "phu",
+      "diem": 4,
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "canh": "empty flat stony desert under a pale blinding sky, heat haze on the horizon",
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-outback-road",
+      "hang": "phu",
+      "diem": 1,
+      "scenes": [
+        14
+      ],
+      "canh": "long straight empty road across flat red desert to the horizon, sparse low bushes",
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo"
+    },
+    {
+      "id": "ai-night-plain",
+      "hang": "phu",
+      "diem": 2,
+      "scenes": [
+        15
+      ],
+      "canh": "flat desert at night under a dark blue starry sky, faint low mounds on the horizon",
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo"
+    },
     {
       "id": "ai-mullock-field",
       "hang": "chinh",
@@ -18,8 +55,9 @@
         15
       ],
       "canh": "flat stony desert plain covered with hundreds of pale cream and light pink cone-shaped piles of mining rubble, small dark round mine shaft openings between them, a few simple winch frames, harsh white sky",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     },
     {
       "id": "ai-dugout-hillside",
@@ -35,8 +73,9 @@
         18
       ],
       "canh": "low rocky desert hill with small house fronts carved straight into the hillside: wooden doors and small windows set in the rock face, white ventilation pipes sticking up from the top of the hill, bright sun",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     },
     {
       "id": "ai-underground-room",
@@ -51,8 +90,9 @@
         18
       ],
       "canh": "cosy room carved inside sandstone, curved vaulted ceiling painted pale, walls showing circular swirl marks left by a tunnelling machine, a simple bed against the rock wall, warm lamp light, no windows",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     },
     {
       "id": "ai-golf-course",
@@ -63,8 +103,9 @@
         13
       ],
       "canh": "desert golf course with no grass: fairway of white crushed rock, a round dark green made of oiled rock dust with a flag in the hole, low mounds of pale dirt behind, evening light",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     },
     {
       "id": "ai-breakaways-dusk",
@@ -75,8 +116,9 @@
         17
       ],
       "canh": "wide view of flat-topped desert mesas and broken escarpments with horizontal bands of white, yellow, orange and deep red rock, flat plain in front, dusk sky fading orange to purple, no people",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     },
     {
       "id": "ai-church-underground",
@@ -86,45 +128,9 @@
         11
       ],
       "canh": "interior of a church carved by hand into sandstone underground, high rough rock ceiling, rock walls, warm yellow lamp light, simple wooden benches, quiet and empty",
-      "trang_thai": "tao",
-      "nguon": "chatgpt-web"
-    },
-    {
-      "id": "ai-desert-plain",
-      "hang": "phu",
-      "diem": 4,
-      "scenes": [
-        3,
-        4,
-        5,
-        6,
-        10
-      ],
-      "canh": "empty flat stony desert under a pale blinding sky, heat haze on the horizon",
-      "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
-    },
-    {
-      "id": "ai-night-plain",
-      "hang": "phu",
-      "diem": 2,
-      "scenes": [
-        15
-      ],
-      "canh": "flat desert at night under a dark blue starry sky, faint low mounds on the horizon",
-      "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
-    },
-    {
-      "id": "ai-outback-road",
-      "hang": "phu",
-      "diem": 1,
-      "scenes": [
-        14
-      ],
-      "canh": "long straight empty road across flat red desert to the horizon, sparse low bushes",
-      "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
+      "trang_thai": "da-co",
+      "nguon": "comfyui-noi-bo",
+      "ly_do": "người làm kênh quyết 22/11, ảnh chính dùng nội bộ khi nguồn ngoài chưa sẵn"
     }
   ]
 }
