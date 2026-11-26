@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "song",
+  "tai": 0.3,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "song",
+  "tai": 4.062,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 11.75,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "im-lang",
+  "tai": 16.025,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "song",
+  "tai": 21.938,
+  "am_luong": 0.45
+ }
+]

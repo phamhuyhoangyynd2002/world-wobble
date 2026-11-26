@@ -8,7 +8,7 @@
       "statement": "Santa Cruz del Islote covers roughly one hectare, about the size of two soccer fields.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "National Geographic (2017) says about one hectare, roughly two soccer fields (about 12,000 sq yd); Radio Nacional and Voz de America say just over one hectare. Other estimates range from 1.2 ha (El Pais via Wikipedia) to 1.57 ha (Red Prensa Verde), so 'roughly' is appropriate.",
+      "ghi_chu": "National Geographic (2017) says about one hectare, roughly two soccer fields (about 12,000 sq yd); Radio Nacional and Voz de América say just over one hectare. Other estimates range from 1.2 ha (El Pais via Wikipedia) to 1.57 ha (Red Prensa Verde), so 'roughly' is appropriate.",
       "nguon": [
         { "title": "See Photos of the Most Crowded Island on Earth", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia", "type": "bao", "published": "2017-10-01" },
         { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null },
@@ -52,39 +52,43 @@
     },
     {
       "id": "C05",
-      "statement": "Santa Cruz del Islote is about a two-hour boat ride from Cartagena, Colombia.",
+      "statement": "The boat ride from Cartagena to Santa Cruz del Islote takes about two hours, longer in rough seas; reported times vary.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "National Geographic, Noticias RCN and Radio Nacional all give about two hours by boat from Cartagena.",
+      "ghi_chu": "About two hours from Cartagena: National Geographic (2017), Noticias RCN (2023), Radio Nacional, BBC Mundo (2018) and La Nación (2026, 'unas dos horas'). Variation is real but only weakly sourced: booking sites list 2 h to 2 h 30 by operator, and a travel guide (kimkim) says the crossing is 'usually quite bumpy, depending on sea conditions'. No official source states that rough seas lengthen the trip, so that part rests on travel sites; the hedge in the narration ('a couple of hours, more if the sea is rough') is reasonable.",
       "nguon": [
         { "title": "See Photos of the Most Crowded Island on Earth", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia", "type": "bao", "published": "2017-10-01" },
         { "title": "Santa Cruz del Islote: la isla más densamente poblada del mundo", "publisher": "Noticias RCN", "url": "https://www.noticiasrcn.com/colombia/santa-cruz-del-islote-la-isla-mas-poblada-del-mundo-440804", "type": "bao", "published": "2023-02-25" },
-        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null }
+        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null },
+        { "title": "La isla más sobrepoblada del mundo está en Sudamérica", "publisher": "La Nación (Argentina)", "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/", "type": "bao", "published": "2026-07-31" },
+        { "title": "Cartagena to Isla Múcura", "publisher": "kimkim (travel guide)", "url": "https://www.kimkim.com/ab/cartagena-to-isla-mucura", "type": "khac", "published": null }
       ]
     },
     {
       "id": "C06",
-      "statement": "Santa Cruz del Islote is about a one-hour ride by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast.",
+      "statement": "Santa Cruz del Islote is roughly 45 minutes to an hour by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast; sources differ.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Noticias RCN: 'a una hora del municipio de Tolú en lancha'; Radio Nacional: about one hour from San Onofre and Tolú (some travel guides say 45 minutes).",
+      "ghi_chu": "ProColombia's official tourism site (Colombia Travel) says 45 minutes by lancha from Tolú; Noticias RCN (2023), Voz de América, Radio Nacional and BBC Mundo (2018) all say about one hour. The 45-60 minute range with 'sources differ' matches what the sources say; keep the hedge.",
       "nguon": [
+        { "title": "Conoce El islote de Santa Cruz", "publisher": "Colombia Travel (ProColombia)", "url": "https://colombia.travel/en/node/4010", "type": "goc", "published": null },
         { "title": "Santa Cruz del Islote: la isla más densamente poblada del mundo", "publisher": "Noticias RCN", "url": "https://www.noticiasrcn.com/colombia/santa-cruz-del-islote-la-isla-mas-poblada-del-mundo-440804", "type": "bao", "published": "2023-02-25" },
+        { "title": "Santa Cruz del Islote, una isla sobrepoblada en el Caribe colombiano en peligro de desaparecer", "publisher": "Voz de América", "url": "https://www.vozdeamerica.com/a/santa-cruz-del-islote-una-isla-sobrepoblada-en-el-caribe-colombiano-en-peligro-de-desaparecer/7214625.html", "type": "bao", "published": null },
         { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null }
       ]
     },
     {
       "id": "C07",
-      "statement": "Santa Cruz del Islote has around 100 mostly one-storey houses, a school, a restaurant and a small square with a cross that gives the island its name, and no roads or cars.",
-      "verdict": "mau-thuan",
+      "statement": "Santa Cruz del Islote has more than a hundred houses (Colombia's 2018 census counted 120 dwellings), a school, a restaurant and a small square with a cross that gives the island its name, and no cars.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "School, restaurant (VOA), central cross that gave the name and no roads (NatGeo) are supported, but the house count varies widely: 97 (NatGeo 2017), about 100 (Lindblad), 115 (CNN 2018), 120 (ABC Economía 2019), about 140 (VOA), about 160 (Radio Nacional); 'mostly one-storey' has no strong source and several outlets say families are building second floors, so hedge or say 'more than a hundred'.",
+      "ghi_chu": "Primary source: the Consejo de Estado ruling (acción popular 25000-23-24-000-2012-00278-03) quotes DANE's reply that the 2018 CNPV counted 120 viviendas, 96 hogares and 432 people in Santa Cruz del Islote. BBC Mundo (2018) says 'más de un centenar de viviendas' (press counts range from 97 in NatGeo 2017 to 140-150 in VOA and RCN). School (VOA, BBC Mundo, RCN), a restaurant (VOA), the cement cross that gave the island its name (NatGeo), no roads (NatGeo) and 'no circulan autos ni motos' (La Nación 2026) are all supported.",
       "nguon": [
+        { "title": "Sentencia 25000-23-24-000-2012-00278-03 (AP), Santa Cruz del Islote (DANE reply on CNPV 2018)", "publisher": "Consejo de Estado de Colombia (via normograma, compilación Procuraduría)", "url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm", "type": "goc", "published": null },
         { "title": "See Photos of the Most Crowded Island on Earth", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia", "type": "bao", "published": "2017-10-01" },
         { "title": "Santa Cruz del Islote, una isla sobrepoblada en el Caribe colombiano en peligro de desaparecer", "publisher": "Voz de América", "url": "https://www.vozdeamerica.com/a/santa-cruz-del-islote-una-isla-sobrepoblada-en-el-caribe-colombiano-en-peligro-de-desaparecer/7214625.html", "type": "bao", "published": null },
-        { "title": "Tienen una vida tranquila y no tienen policías: conoce la isla que se está quedando sin espacio (CNN)", "publisher": "CNN Chile", "url": "https://www.cnnchile.com/pais/tienen-una-vida-tranquila-y-no-tienen-policias-conoce-la-isla-que-se-esta-quedando-sin-espacio/", "type": "bao", "published": null },
-        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null },
-        { "title": "5 Things You Didn't Know About Santa Cruz del Islote", "publisher": "Lindblad Expeditions", "url": "https://world.expeditions.com/expedition-stories/stories/5-things-you-didnt-know-about-santa-cruz-del-islote", "type": "khac", "published": null }
+        { "title": "La isla más sobrepoblada del mundo está en Sudamérica", "publisher": "La Nación (Argentina)", "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/", "type": "bao", "published": "2026-07-31" },
+        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo (BBC Mundo)", "publisher": "T13 / BBC Mundo", "url": "https://www.t13.cl/noticia/mundo/bbc/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo", "type": "bao", "published": "2018-04-13" }
       ]
     },
     {
@@ -175,13 +179,15 @@
     },
     {
       "id": "C16",
-      "statement": "Fishing remains the main livelihood on Santa Cruz del Islote, although tourism is growing.",
+      "statement": "Fishing and tourism are the two pillars of the economy of Santa Cruz del Islote; tourism is becoming increasingly important.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "La Nación (2026): fishing is still the 'principal sustento' while tourism grows; BBC Mundo and Radio Nacional: residents live from fishing and tourism.",
+      "ghi_chu": "Re-checked 2026-11-26 for the revised wording. Two pillars: Radio Nacional says the island 'vive esencialmente del turismo y la pesca'; Voz de América (8 Aug 2023): 'La mayoría de ellos se dedica al turismo y a la pesca' and 'Santa Cruz del Islote vive del turismo y de la pesca'; BBC Mundo (2018): most residents 'viven de la pesca o el turismo'. Increasingly important: La Nación (31 Jul 2026) says 'El turismo está cobrando un rol cada vez más protagónico en la economía de Santa Cruz del Islote', about 500 visitors land daily, and waste has become a bigger problem 'con el crecimiento del turismo', while 'su principal sustento sigue siendo la pesca'. Radio Nacional also mentions a rising number of people on the island. Only La Nación states the trend explicitly, but no source contradicts it; the revised wording no longer overstates it the way 'growing fast' did. Los Andes (2024) was blocked (403) and the CNN Travel page returned 451.",
       "nguon": [
         { "title": "La isla más sobrepoblada del mundo está en Sudamérica", "publisher": "La Nación (Argentina)", "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/", "type": "bao", "published": "2026-07-31" },
-        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo)", "publisher": "Prensa Libre / BBC Mundo", "url": "https://www.prensalibre.com/?p=442283", "type": "bao", "published": "2018-04-13" }
+        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null },
+        { "title": "Santa Cruz del Islote, una isla sobrepoblada en el Caribe colombiano en peligro de desaparecer", "publisher": "Voz de América", "url": "https://www.vozdeamerica.com/a/santa-cruz-del-islote-una-isla-sobrepoblada-en-el-caribe-colombiano-en-peligro-de-desaparecer/7214625.html", "type": "bao", "published": "2023-08-08" },
+        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo (BBC Mundo)", "publisher": "T13 / BBC Mundo", "url": "https://www.t13.cl/noticia/mundo/bbc/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo", "type": "bao", "published": "2018-04-13" }
       ]
     },
     {
@@ -220,14 +226,13 @@
     },
     {
       "id": "C20",
-      "statement": "In 2021 Colombia's Ministry of Mines and Energy delivered a hybrid solar-diesel power plant to Santa Cruz del Islote, including a new 125 kVA diesel generator and maintenance of its battery bank.",
-      "verdict": "mau-thuan",
+      "statement": "In 2021 Colombia's Ministry of Mines and Energy upgraded Santa Cruz del Islote's hybrid solar-diesel power system with a new 125 kVA diesel generator and inverter, and serviced its battery bank.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "El Heraldo (22 Oct 2021) frames it as MinMinas/IPSE delivering hybrid plants to three islands, but for the Islote it lists only a new 125 kVA diesel plant, an inverter, and maintenance of the battery bank and electronics. IPSE already reported a working system there in 2016 (Energías Renovables), and Radio Nacional/RCN say the panels were donated earlier by Japan. 2021 was an upgrade of an existing hybrid system; the narration's 'set up... with solar panels' overstates it.",
+      "ghi_chu": "IPSE's own release (22 Oct 2021) describes the 'mejoramiento de centrales de generación de energía tipo híbrido (solar-diésel)' on three islands delivered by the Ministry of Mines and Energy (minister Diego Mesa) with IPSE, and for Santa Cruz del Islote says a new 125 kVA diesel plant and an inverter were supplied and installed and the battery bank and electronics were serviced. El Heraldo (same date) carries the same wording. Framing it as an upgrade of an existing system is correct.",
       "nguon": [
-        { "title": "MinMinas entrega centrales de generación de energía a 3 islas de Cartagena", "publisher": "El Heraldo", "url": "https://www.elheraldo.co/economia/2021/10/22/minminas-entrega-centrales-de-generacion-de-energia-a-3-islas-de-cartagena-859565/", "type": "bao", "published": "2021-10-22" },
-        { "title": "Proveen energía solar a una isla", "publisher": "Energías Renovables", "url": "https://www.energias-renovables.com/fotovoltaica/proveen-energia-solar-a-una-isla-20160914", "type": "bao", "published": "2016-09-12" },
-        { "title": "Presidente Petro impulsa generación eléctrica y plantas desalinizadoras para las islas del Caribe colombiano", "publisher": "RTVC Noticias", "url": "https://www.rtvcnoticias.com/colombia/petro-pidio-llevar-plantas-de-energia-limpia-todas-las-islas-del-caribe-colombiano", "type": "bao", "published": "2025-12-17" }
+        { "title": "La nueva energía ilumina los hogares de 601 familias en el Caribe colombiano", "publisher": "IPSE", "url": "https://ipse.gov.co/blog/2021/10/22/la-nueva-energia-ilumina-los-hogares-de-601-familias-en-el-caribe-colombiano/", "type": "goc", "published": "2021-10-22" },
+        { "title": "MinMinas entrega centrales de generación de energía a 3 islas de Cartagena", "publisher": "El Heraldo", "url": "https://www.elheraldo.co/economia/2021/10/22/minminas-entrega-centrales-de-generacion-de-energia-a-3-islas-de-cartagena-859565/", "type": "bao", "published": "2021-10-22" }
       ]
     },
     {
@@ -255,10 +260,10 @@
     },
     {
       "id": "C23",
-      "statement": "A 2014 local government report found erosion affecting about 45% of the San Bernardo archipelago's coastlines, and Maravilla Island, about one hectare, had disappeared by around 2017.",
-      "verdict": "mau-thuan",
+      "statement": "A 2014 local government report, cited by The Guardian, found erosion affecting about 45% of the San Bernardo archipelago's coastlines; the small nearby island of Maravilla has since disappeared.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "The 2014 report and 45% erosion figure come from the Guardian (2023), and the Guardian also gives Maravilla as 1 ha and gone since 2017. Invemar describes it as a 0.004 km² islet (about 0.4 ha) and, citing Parques Nacionales, dates its loss to 2006-2007; Red Prensa Verde says less than one hectare. 'About a hectare' is disputed; 'a small island' or 'less than a hectare' is safer.",
+      "ghi_chu": "The Guardian (2023, read via der Freitag's translation; inkl returned 403 and the Island Innovation copy is truncated) cites a 2014 report by the local administration on 45% of San Bernardo's coasts, and says Maravilla has been gone since 2017. Red Prensa Verde confirms Maravilla, a San Bernardo islet of under one hectare (Invemar: 0.004 km2) used by the Islote community, no longer exists, though the date is unclear: about 2017 (community), 2006-2007 (Invemar citing Parques Nacionales), from 2015 (a researcher). 'Has since', meaning after 2014, follows the Guardian; the narration gives no date, which is the safe choice. The 2014 report itself could not be opened.",
       "nguon": [
         { "title": "Kolumbien: Die Inseln des Archipels San Bernardo sind dem Untergang geweiht (The Guardian)", "publisher": "der Freitag", "url": "https://www.freitag.de/autoren/the-guardian/kolumbien-die-inseln-des-archipels-san-bernardo-sind-dem-untergang-geweiht", "type": "bao", "published": null },
         { "title": "Desapareció Maravilla, 'la isla de las aves'", "publisher": "Red Prensa Verde", "url": "https://redprensaverde.org/?p=16493", "type": "bao", "published": null }
@@ -277,15 +282,13 @@
     },
     {
       "id": "C25",
-      "statement": "Because of Santa Cruz del Islote's small size, some residents have moved to neighbouring islands such as Tintipán or Múcura, and students who continue their education leave the island.",
-      "verdict": "mau-thuan",
+      "statement": "Students from Santa Cruz del Islote who want to continue beyond the island's school must leave the island.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Students leaving after grade 10 is supported (NatGeo, Lindblad). The move to Tintipán or Múcura is not: Spanish Wikipedia cites BBC Mundo, but BBC Mundo says islanders refused to move to Tintipán or Múcura. Only Red Prensa Verde mentions Islote natives occupying lots on nearby islands. Keep only the students part, or hedge.",
+      "ghi_chu": "National Geographic (2017): the island's school runs through tenth grade, and students who want to keep learning 'must either commute to schools off of the island or leave their home entirely'. Radio Nacional adds that after bachillerato there are few chances to go to university. Commuting still means leaving the island, so 'must leave' holds; the school's top grade may have changed since 2017, and the narration does not state it.",
       "nguon": [
-        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo)", "publisher": "T13 / BBC Mundo", "url": "https://www.t13.cl/noticia/mundo/bbc/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo", "type": "bao", "published": "2018-04-13" },
         { "title": "See Photos of the Most Crowded Island on Earth", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia", "type": "bao", "published": "2017-10-01" },
-        { "title": "Tala y ocupación ilegal arrasan manglares en San Bernardo", "publisher": "Red Prensa Verde", "url": "https://redprensaverde.org/?p=16486", "type": "bao", "published": null },
-        { "title": "Santa Cruz del Islote (Wikipedia en español, used to locate sources)", "publisher": "Wikipedia", "url": "https://es.wikipedia.org/wiki/Santa_Cruz_del_Islote", "type": "bach-khoa", "published": null }
+        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null }
       ]
     },
     {
@@ -301,14 +304,16 @@
     },
     {
       "id": "C27",
-      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, which remain the main livelihood, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
+      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Fishing is the main livelihood and tourism is growing (La Nación 2026). Settlement roughly 150 years ago is supported (NatGeo; BBC Mundo gives 1870), and CNN says homes pass down through generations. Radio Nacional's outlier says about 200 years.",
+      "ghi_chu": "Fishing and tourism are the livelihoods and tourism is gaining weight (BBC Mundo 2018, La Nación 2026); NatGeo describes fishermen first using the islet as a resting spot and boys staying to fish. Settlement roughly 150 years ago: NatGeo (2017), BBC Mundo gives 1870, La Nación says the late 19th century; Radio Nacional's outlier says about 200 years. CNN: homes are inherited from generation to generation and residents are natives.",
       "nguon": [
-        { "title": "La isla más sobrepoblada del mundo está en Sudamérica", "publisher": "La Nación (Argentina)", "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/", "type": "bao", "published": "2026-07-31" },
         { "title": "See Photos of the Most Crowded Island on Earth", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia", "type": "bao", "published": "2017-10-01" },
-        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo)", "publisher": "Prensa Libre / BBC Mundo", "url": "https://www.prensalibre.com/?p=442283", "type": "bao", "published": "2018-04-13" }
+        { "title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo (BBC Mundo)", "publisher": "T13 / BBC Mundo", "url": "https://www.t13.cl/noticia/mundo/bbc/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo", "type": "bao", "published": "2018-04-13" },
+        { "title": "La isla más sobrepoblada del mundo está en Sudamérica", "publisher": "La Nación (Argentina)", "url": "https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/", "type": "bao", "published": "2026-07-31" },
+        { "title": "Tienen una vida tranquila y no tienen policías: conoce la isla que se está quedando sin espacio (CNN)", "publisher": "CNN Chile", "url": "https://www.cnnchile.com/pais/tienen-una-vida-tranquila-y-no-tienen-policias-conoce-la-isla-que-se-esta-quedando-sin-espacio/", "type": "bao", "published": null },
+        { "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro", "publisher": "Radio Nacional de Colombia (RTVC)", "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro", "type": "bao", "published": null }
       ]
     },
     {

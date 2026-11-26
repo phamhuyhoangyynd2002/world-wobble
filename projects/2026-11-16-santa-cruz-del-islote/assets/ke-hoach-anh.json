@@ -19,7 +19,9 @@
       ],
       "canh": "a tiny low island in a turquoise Caribbean sea completely covered with small one-storey houses with colourful walls and tin roofs packed tightly together, no beach, no big trees, a few small wooden boats around it, seen from above at an angle",
       "trang_thai": "ha-hang",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 41
     },
     {
       "id": "ai-islote-square",
@@ -33,7 +35,9 @@
       ],
       "canh": "a tiny village square at dusk with a simple tall cross in the middle, small colourful houses close around it, plastic chairs, a warm string of lights",
       "trang_thai": "ha-hang",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1062
     },
     {
       "id": "ai-islote-flood",
@@ -45,7 +49,9 @@
       ],
       "canh": "seawater flooding a narrow path between small painted houses at dawn, water up to the doorsteps, a hammock hanging between two wooden posts just above the water",
       "trang_thai": "ha-hang",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1046
     },
     {
       "id": "ai-islote-boats",
@@ -58,7 +64,9 @@
       ],
       "canh": "small wooden fishing boats with outboard motors leaving a tiny crowded island at sunrise, pink calm water, a grey supply boat carrying blue water tanks in the distance",
       "trang_thai": "ha-hang",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1020
     },
     {
       "id": "ai-islote-lane",
@@ -75,7 +83,9 @@
       ],
       "canh": "a very narrow footpath between small one-storey houses with brightly painted walls in blue, yellow and pink, painted murals of fish and waves, open doors, plastic chairs, laundry lines, no cars, midday sun",
       "trang_thai": "ha-hang",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 67
     },
     {
       "id": "ai-bare-islet",
@@ -87,7 +97,9 @@
       ],
       "canh": "a small bare rocky coral islet in a calm sea with nothing on it, waves breaking gently, clear sky",
       "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 79
     },
     {
       "id": "ai-mangrove-islet",
@@ -99,7 +111,9 @@
       ],
       "canh": "a green island fringed with dense mangrove trees and a strip of sandy beach, still water",
       "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1020
     },
     {
       "id": "ai-caribbean-islets",
@@ -111,7 +125,9 @@
       ],
       "canh": "a calm turquoise sea with several low green islands with palm trees and sandy beaches in the distance, seen from a small boat",
       "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1020
     },
     {
       "id": "ai-islote-night",
@@ -124,8 +140,11 @@
       ],
       "canh": "a small island of houses at night seen from the sea, a few warm lights reflecting on dark water, stars",
       "trang_thai": "tao",
-      "nguon": "comfyui-noi-bo"
+      "nguon": "comfyui-noi-bo",
+      "da_tao": true,
+      "seed_chon": 1106
     }
   ],
-  "ly_do_noi_bo": "26/11/2026: .env chưa có GEMINI_API_KEY, agent không có Browser MCP cho ChatGPT web; theo quyết định 22/11/2026 của người làm kênh (không phụ thuộc một công cụ AI) và tiền lệ tập 3, cả 9 ảnh (5 chính hạ hạng + 4 phụ) tạo bằng ComfyUI nội bộ SDXL base 1.0"
+  "ly_do_noi_bo": "26/11/2026: .env chưa có GEMINI_API_KEY, agent không có Browser MCP cho ChatGPT web; theo quyết định 22/11/2026 của người làm kênh (không phụ thuộc một công cụ AI) và tiền lệ tập 3, cả 9 ảnh (5 chính hạ hạng + 4 phụ) tạo bằng ComfyUI nội bộ SDXL base 1.0",
+  "ghi_chu": "SDXL theo đúng câu anh_ai hay ra phố/nhà châu Âu, mặt trăng, viền khung; 6/9 ảnh phải viết lại prompt cụ thể hơn (Caribbean, one-storey, tin roofs; prompt thật lưu trong manifest và .prompt.txt). Lượt tạo: 30 bản (15 lệnh x 2 seed)."
 }

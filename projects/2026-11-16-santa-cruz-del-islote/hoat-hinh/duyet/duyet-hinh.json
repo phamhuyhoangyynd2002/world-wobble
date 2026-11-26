@@ -1,0 +1,939 @@
+{
+ "vong": 2,
+ "che_do": "hinh",
+ "tap": "2026-11-16-santa-cruz-del-islote",
+ "ngay": "2026-11-26",
+ "ban_truoc": "duyet-hinh.v1.json",
+ "tong_the": {
+  "ket_luan": "ĐẠT",
+  "diem_T": 15,
+  "diem_T_vong_1": 14,
+  "tren": 16,
+  "T": {
+   "T1": {
+    "diem": 1,
+    "nhan_xet": "Khung 0 (0,0 s) có Wob đứng trên bàn, giơ bình xịt có tem đỏ. Đảo kín nhà bật dựng trước 5,9 s. Wob nảy còn bình xịt đứng yên (7,55 s). Muỗi lờ Wob (8,9 s). Thẻ hộ chiếu 10–13 s đọc rõ. Trừ 1 như ở 5a: câu hỏi của tập nằm trong lời ở 39 s (việc của biên kịch).",
+    "so_vong_1": 1
+   },
+   "T2": {
+    "diem": 2,
+    "nhan_xet": "Mồi đều 15–30 s một lần; không đoạn nào đứng ý quá 60 s. Chỗ chỉ giải thích dài nhất là d26 (47,5 s), có chủ ý nghiêm và có 4 trang sổ khác nhau.",
+    "so_vong_1": 2
+   },
+   "T3": {
+    "diem": 2,
+    "nhan_xet": "Ánh sáng: trưa (d02–d09), sepia (d10, d12), đêm trăng (d13–d15, d24), bình minh hồng (d20), chạng vạng tím (d19), đèn bàn lạnh (d26), nắng sớm ở bàn (d30). Cỡ cảnh đổi đều: toàn từ trên cao (d02, d07, d12), trung, cận (d06 đồng hồ xăng, d07 mèo, d26 trang sổ).",
+    "so_vong_1": 2
+   },
+   "T4": {
+    "diem": 2,
+    "nhan_xet": "Khung đầu các chương nối thành chuyến đi: thuyền tới (d04) → sổ kho báu (d09) → quảng trường đếm người (d16) → cầu tàu bình minh (d20) → võng đêm (d24) → thuyền rời (d27) → bàn và con dấu (d30). Bình xịt mở vòng ở d01 và đóng ở d33 (lên kệ, có thẻ tên).",
+    "so_vong_1": 2
+   },
+   "T5": {
+    "diem": 2,
+    "nhan_xet": "Gag nào cũng đọc được trong 1 s: Wob nảy (d01), ép dẹt (d03), thuyền nghiêng (d04), xe hết đảo nhưng kim xăng đầy (d06), kéo co, mèo (d07), ô → phao vịt → ghế nhựa (d08), xẻng gập, cúc áo (d09), vợt gác muỗi (d10), disco (d11), bảng dĩa nĩa, đầu trọc (d14), bốn biển số chen nhau (d16), khói thành dấu hỏi (d17), mùi hình cá (d19), cột mũ đuổi cột cá (d20), mũ phù thuỷ, tắm cốc (d21), ắc quy có mắt (d22), nước biển có mắt (d25), cần cẩu (d31), muỗi ngồi trên tem (d32). Gag yếu: bóng rơi trúng mũ (d02, nhìn từ trên cao quá nhỏ); Wob gật đầu (d12, không thấy).",
+    "so_vong_1": 2
+   },
+   "T6": {
+    "diem": 2,
+    "nhan_xet": "Đổi phong cách đúng bảng phân cảnh. Màu mũ mới (vành rơm, dải xanh ngọc) và ba lô ô liu có cuộn thảm đỏ khớp giữa cả ba phong cách (d02/d03, d08/d09, d27/d28/d29).",
+    "so_vong_1": 2
+   },
+   "T7": {
+    "diem": 2,
+    "nhan_xet": "Vòng 2: võng d24/d25 cùng sọc xanh ngọc–trắng; d15 chỉ một bình xịt; bấm đếm tròn ở d16/d17/d18. Mũ màu mới, ba lô ô liu, bình xịt niêm phong liền mạch qua ba phong cách.",
+    "so_vong_1": 1
+   },
+   "T8": {
+    "diem": 2,
+    "nhan_xet": "Con dấu NOPE to giữa khung, đỏ, khung đôi, đúng một lần (d30, 12,5 s). Câu hỏi cuối có hình (cầu tàu, phao vịt, d32). Đuôi: hai khung và vòng tròn trống đúng toạ độ (y 152–480 / 500–808, tâm 1452, 920 hệ 1920), đứng yên từ 1,2 s, không chữ ở x > 1150, y > 560. Đứng hình toàn khung ở d33 tính vào điểm đoạn, không vào T8. Vòng 2: d33 không còn đứng hình toàn khung.",
+    "so_vong_1": 2
+   }
+  },
+  "cong_6a": "QUA",
+  "dem": {
+   "ĐẠT": 33
+  },
+  "dem_vong_1": {
+   "ĐẠT": 30,
+   "SỬA NHỎ": 2,
+   "LÀM LẠI": 1
+  },
+  "loi_nang": [],
+  "chap_nhan_khong_sua": [
+   "d06 Wob nhỏ ở mép khung (đoạn chèn 4,9 s)",
+   "d18 lối nhìn thẳng mặt tiền",
+   "d20 Wob nửa người ở mép phải 0–1,5 s khi camera lướt tới",
+   "d30 nét sóng gõ nhỏ"
+  ],
+  "kiem_dong_hinh_vong_2": "15 đoạn sửa đều ĐẠT (soi/dong-hinh-v2/)",
+  "gui_phien_chinh": [
+   "out/captions.srt vẫn còn 2 chỗ phiên âm kar-tah-HAY-nah, toh-LOO (file 02:19): sinh lại phụ đề từ subtitles.json mới trước khi giao"
+  ]
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "nhom_tho": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Hộ chiếu hai dòng, cỡ chữ ≈ 60 px (11,6 s). Chấm tay che đáy nhãn bình xịt ở khung 0: không ảnh hưởng hình muỗi gạch chéo, chấp nhận.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d02",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: bóng to, rơi trúng vành mũ Wob đọc rõ (12,6–12,9 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d03",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Ép dẹt (0,9 s), mắt đảo theo muỗi (4,4 s), muỗi xách va li (5,6 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: thẻ 45 min–1 h nằm sát nét đứt Tolú → đảo, dưới nhãn Santa Cruz del Islote (21–24 s); khung cuối là cảnh thuyền (25,6–25,7 s), hết giấy phẳng.",
+   "vong_1": {
+    "tong": 18,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d05",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: cận hơn, Wob ngước nhìn thánh giá (15,5–16,8 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d06",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Xe lao khỏi đảo (2,2–3,2 s); cận đồng hồ xăng không chữ, kim đầy (4,5 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d07",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: tranh cá không còn chạm mũ Wob (29,5 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d08",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Ô (1,0 s) → phao vịt (2,0 s) → ghế nhựa (3,0 s), BRING LESS to; giận ba lô (3,6 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Sơ đồ có Wob chạy theo nét đứt (8,0 s), xẻng gập vuông (14,8 s), cúc áo không tia sáng, kéo mũ (20,0 s). Sơ đồ thiếu dấu X (không trừ điểm).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: mây bão trôi ngang trang, Wob kéo vành mũ (11,6–13,0 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Wob ló sau cành đước dưới đèn disco, muỗi tháo mũ tiệc (14,4 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: trung cảnh Wob gật đầu, mỉm cười cạnh vỏ sò trước phủ giấy (22,3–23,9 s).",
+   "vong_1": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d13",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Tiền cảnh mái tối, Wob chìa tay, lưỡi câu buộc ngón tay (7,5 s). Bình xịt ở túi hông.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d14",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Thực đơn hình (0,4 s), bảng dĩa nĩa (7,9 s), đầu trọc lấp lánh (12,7 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay A",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: chỉ còn một bình xịt, túi hông trống khi Wob ôm bình (2,5 s; 6,8 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: 7,7–11,8 s không còn người ngồi ghế giữa khung (8,1; 10,5 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: bấm đếm tròn mặt kim, không số, khớp d16/d18 (7,7 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Bóng thoại hình vẽ, ba lô ướm vào lối (9,6 s), Wob giơ ba lô cho trẻ con chạy qua (13,3 s). Lối nhìn thẳng mặt tiền: chấp nhận, vì khe lối vẫn có chiều sâu ở giữa khung.",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: cận bình xịt chiếm gần nửa khung, tem đỏ rõ (15,3 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Cột mũ đuổi cột cá (11,4 s), khăn tắm, thuyền Hải quân, chuyền can (21,6 s). Wob bị cắt nửa ở mép phải 0–1,5 s (camera đang lướt về Wob): chấp nhận.",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Mũ phù thuỷ, cốc nước đọng giọt, sơ đồ nét mờ có Wob cầm bút, tắm cốc, mũ treo móc.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Tem `2021` cận và to (3,3 s); ắc quy có mắt (16,0 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Khách đội mũ trắng, khác mũ cói dải xanh ngọc của Wob. Que kem (5,0–13,0 s), sổ kín thuyền (20,2 s), đảo lên đèn (23,6 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: Wob nhắm mắt khi ngủ (7,0 s).",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d25",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: võng sọc xanh ngọc–trắng, khớp d24 (0,4; 7,7 s); phần còn lại giữ nguyên.",
+   "vong_1": {
+    "tong": 18,
+    "ket_luan": "LÀM LẠI"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d26",
+   "phong_cach": "diorama",
+   "nhom_tho": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Ba nhãn ≥ 45 px ở cận trang: `~2 m · ~6.5 ft` (15 s), `~45% · 2014` (22 s), `up to ~30 cm · ~1 ft / 2050` (32,5 s); bồn tắm (39,4 s). Wob trầm suốt đoạn. Trang chiếm ≈ 62% khung: đạt ngưỡng ≥ 60%.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Đo đảo giữa hai ngón tay (9,1 s).",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Thuyền giấy rơi ở câu khách sạn (7,9–8,6 s); câu đi học sạch, thuyền chở cặp (13,5 s); cắt về mặt Wob; cây phả hệ ô cửa (28,1 s). Biểu tượng \"mũ khách\" dải đỏ, khác dải xanh ngọc của Wob: chấp nhận.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "nhom_tho": "cat-giay B",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: cận trang sổ, hoa giấy ≈ 80 px, đọc rõ (7,8 s). Wob vẫn trầm.",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama",
+   "nhom_tho": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: gõ bắt đầu từ \"sea\". Nét sóng gõ vẫn nhỏ ở mép đảo (24,0–25,2 s): chấp nhận.",
+   "vong_1": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": true
+  },
+  {
+   "id": "d31",
+   "phong_cach": "ve-tay",
+   "nhom_tho": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Hai nửa hiện lần lượt (0,35 / 2,6 s); tung túi cỡ hộp cơm ở quảng trường.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d32",
+   "phong_cach": "diorama",
+   "nhom_tho": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không sửa, giữ điểm vòng 1. Ba lô bị đẩy khỏi bàn ở \"one small bag\" (1,3 s), muỗi vắt chân trên tem (10,0 s), cầu tàu và phao vịt (13,8 s). Ba lô rơi ra khỏi khung là đúng ý.",
+   "vong_1": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "sua_vong_2": false
+  },
+  {
+   "id": "d33",
+   "phong_cach": "diorama",
+   "nhom_tho": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Đã sửa: kiem_dong_hinh ĐẠT (80,1% khung có chuyển động); vùng x ≥ 1150 sai khác ≤ 10/255 giữa 1,5 s và 19,9 s (đứng yên, chỉ nhiễu mã hoá); thẻ còn chấm nhỏ tách khỏi chữ, đọc đúng OYMYAKON, WHITTIER.",
+   "vong_1": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "sua_vong_2": true
+  }
+ ],
+ "vong_tu_sua_1": {
+  "ngay": "2026-11-26",
+  "doan": {
+   "d01": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "d26": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "d30": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "d31": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "d32": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "d33": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   }
+  },
+  "kiem_dong_hinh": "6/6 ĐẠT (soi/dong-hinh-t1/)",
+  "ket_luan": "ĐẠT",
+  "cong_6a": "QUA",
+  "diem_T": 15,
+  "ghi_chu": [
+   "d31 ba lô thứ hai trong núi hành lý: cường điệu, chấp nhận; tuỳ chọn đổi thành vali",
+   "d26 đỉnh đầu Wob chạm mép vùng logo, mặt ngoài vùng: chấp nhận"
+  ]
+ }
+}

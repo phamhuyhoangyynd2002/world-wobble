@@ -1,0 +1,38 @@
+[
+{
+"id": "C16",
+"verdict": "mau-thuan",
+"correct_value": "Fishing remains a major traditional economic activity, while tourism has grown substantially and, according to recent reporting, has increasingly replaced fishing as a livelihood. Their relative importance varies by source and period.",
+"note": "Official park documentation identifies fishing as the principal activity followed by tourism, while a 2024 EL PAÍS report describes tourism replacing traditional fishing; the claim that both are the two pillars is broadly supported, but their relative importance is changing.",
+"sources": [
+{
+"title": "Parque Nacional Natural Corales del Rosario y San Bernardo – Plan de Manejo",
+"publisher": "Parques Nacionales Naturales de Colombia",
+"url": "https://intranet.parquesnacionales.gov.co/wp-content/uploads/2016/05/CoralesdelRosarioPM2009.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Santa Cruz del Islote: Protecting the world’s most densely populated island from mass tourism",
+"publisher": "EL PAÍS English",
+"url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
+"type": "bao",
+"published": "2024-01-12"
+},
+{
+"title": "Turismo y la pesca mantienen a ‘flote’ a Santa Cruz del Islote",
+"publisher": "El Heraldo",
+"url": "https://www.elheraldo.co/bolivar/2022/01/09/turismo-y-la-pesca-mantienen-a-flote-a-santa-cruz-del-islote-878519/",
+"type": "bao",
+"published": "2022-01-09"
+},
+{
+"title": "Adaptación al cambio climático en Santa Cruz del Islote",
+"publisher": "Universidad Tecnológica de Bolívar",
+"url": "https://biblioteca.utb.edu.co/notas/tesis/0068238.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]

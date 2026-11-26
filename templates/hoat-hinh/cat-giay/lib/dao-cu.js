@@ -914,3 +914,454 @@
     puff: puff, chimneyOf: chimneyOf, pole: pole, woodpile: woodpile, f1: f1
   };
 })(typeof window !== "undefined" ? window : globalThis);
+
+/* ================= Đạo cụ thêm 26/11/2026 (tập 4 Santa Cruz del Islote, nhóm cat-giay B): đảo nhiệt đới =================
+   Bổ sung cho window.NhietDoi (canh-nen.js, nhóm A: mũ cói, ba lô khổng lồ, bình xịt, nhà, thuyền, biển, ghế, thánh giá, người giấy):
+   chỉ những đồ NhietDoi chưa có. Chỉ THÊM hàm vào DaoCu (không đổi hàm cũ, không ghi đè tên đã có). Mọi chữ truyền qua tham số; đồ có mặt số chỉ có kim, vạch, biểu tượng.
+   Gốc toạ độ ghi ở chú thích từng hàm. Người dân: dạng bóng giấy chung, KHÔNG mặt. */
+(function (G) {
+  "use strict";
+  var D = G.DaoCu, INK = D.INK, paper = D.paper, line = D.line, rRect = D.rRect, rEll = D.rEll, rough = D.rough, f1 = D.f1, rng = D.rng;
+  var OLIU = "#7C8646", OLIU_D = "#566030", TEAL = "#2A9D8F", DO = "#C9463A", KEM = "#F3EAD6";
+  function at(x, y, s) { return '<g transform="translate(' + f1(x) + "," + f1(y) + ')">' + s + "</g>"; }
+  function gid(id, s, tr) { return "<g" + (id ? ' id="' + id + '"' : "") + (tr ? ' transform="' + tr + '"' : "") + ">" + s + "</g>"; }
+  /* hình chữ nhật bo góc dạng path (để dùng với paper) */
+  function rr(x, y, w, h, r) {
+    r = Math.min(r, w / 2, h / 2);
+    return "M " + f1(x + r) + " " + f1(y) + " L " + f1(x + w - r) + " " + f1(y) + " Q " + f1(x + w) + " " + f1(y) + " " + f1(x + w) + " " + f1(y + r) +
+      " L " + f1(x + w) + " " + f1(y + h - r) + " Q " + f1(x + w) + " " + f1(y + h) + " " + f1(x + w - r) + " " + f1(y + h) +
+      " L " + f1(x + r) + " " + f1(y + h) + " Q " + f1(x) + " " + f1(y + h) + " " + f1(x) + " " + f1(y + h - r) +
+      " L " + f1(x) + " " + f1(y + r) + " Q " + f1(x) + " " + f1(y) + " " + f1(x + r) + " " + f1(y) + " Z";
+  }
+  /* nét đan chéo (mũ cói, võng) trong vùng cắt clipId */
+  function dan(clipId, x0, y0, x1, y1, buoc, mau, w, op) {
+    var s = '<g clip-path="url(#' + clipId + ')" opacity="' + (op == null ? 0.85 : op) + '">', h = y1 - y0;
+    for (var k = x0 - h; k < x1 + h; k += buoc) s += line("M " + f1(k) + " " + f1(y0) + " L " + f1(k + h) + " " + f1(y1), w, mau) + line("M " + f1(k + h) + " " + f1(y0) + " L " + f1(k) + " " + f1(y1), w, mau);
+    return s + "</g>";
+  }
+
+
+
+
+  /* Cái bấm đếm: thân kim loại tròn, vòng xỏ ngón ở dưới, nút bấm trên đỉnh (id+"-nut"), ô hiển thị chỉ có VẠCH và KIM (id+"-kim",
+     xoay quanh tâm ô, origin "0 0" trong nhóm). KHÔNG chữ, KHÔNG số. Gốc: tâm thân. o: { r: 34 } */
+  function clicker(id, o) {
+    o = o || {};
+    var r = o.r || 34, s = '<g id="' + id + '">';
+    s += '<ellipse cx="0" cy="' + f1(r * 1.25) + '" rx="' + f1(r * 0.5) + '" ry="' + f1(r * 0.32) + '" fill="none" stroke="#8C9599" stroke-width="' + f1(r * 0.2) + '"/>';
+    s += '<ellipse cx="0" cy="' + f1(r * 1.25) + '" rx="' + f1(r * 0.5) + '" ry="' + f1(r * 0.32) + '" fill="none" stroke="' + INK + '" stroke-width="2" opacity="0.6"/>';
+    s += '<g id="' + id + '-nut"><rect x="' + f1(-r * 0.22) + '" y="' + f1(-r * 1.36) + '" width="' + f1(r * 0.44) + '" height="' + f1(r * 0.46) + '" rx="3" fill="#C7CED1" stroke="' + INK + '" stroke-width="3"/></g>';
+    s += paper(rEll(0, 0, r, r, 1, 902), "#B9C3C7", { stroke: true, sw: 4, sx: 3, sy: 4 });
+    s += '<circle r="' + f1(r * 0.66) + '" fill="#F8F4E8" stroke="' + INK + '" stroke-width="3"/>';
+    for (var k = 0; k < 12; k++) { var a = k * Math.PI / 6; s += line("M " + f1(Math.cos(a) * r * 0.5) + " " + f1(Math.sin(a) * r * 0.5) + " L " + f1(Math.cos(a) * r * 0.62) + " " + f1(Math.sin(a) * r * 0.62), 2, INK); }
+    s += '<g id="' + id + '-kim">' + line("M 0 0 L 0 " + f1(-r * 0.5), 3, DO) + "</g>" + '<circle r="3.5" fill="' + INK + '"/>';
+    s += line("M " + f1(-r * 0.7) + " " + f1(-r * 0.45) + " C " + f1(-r * 0.5) + " " + f1(-r * 0.75) + " " + f1(-r * 0.2) + " " + f1(-r * 0.85) + " 0 " + f1(-r * 0.86), 3, "#FFFFFF", ' opacity="0.6"');
+    return s + "</g>";
+  }
+
+
+
+
+  /* Dây đèn ấm võng giữa các điểm. pts: [[x, y]…]; o: { id, n (bóng mỗi nhịp, 6), vong (độ võng 60), r (bóng 9) }.
+     id+"-b<i>": từng bóng (bật/tắt, nhấp nháy). Trả chuỗi SVG (toạ độ tuyệt đối của lớp). */
+  function stringLights(pts, o) {
+    o = o || {};
+    var n = o.n || 6, sag = o.vong == null ? 60 : o.vong, r = o.r || 9, id = o.id || "dl", s = "", k = 0;
+    for (var i = 0; i < pts.length - 1; i++) {
+      var a = pts[i], b = pts[i + 1], mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2 + sag * 2;
+      s += line("M " + f1(a[0]) + " " + f1(a[1]) + " Q " + f1(mx) + " " + f1(my) + " " + f1(b[0]) + " " + f1(b[1]), 3, "#2A2522");
+      for (var j = 1; j < n; j++) {
+        var u = j / n, x = (1 - u) * (1 - u) * a[0] + 2 * u * (1 - u) * mx + u * u * b[0], y = (1 - u) * (1 - u) * a[1] + 2 * u * (1 - u) * my + u * u * b[1];
+        s += '<g id="' + id + "-b" + k + '" transform="translate(' + f1(x) + "," + f1(y) + ')"><circle cy="' + f1(r + 6) + '" r="' + f1(r * 3) + '" fill="url(#lampG)"/>' +
+          '<rect x="-4" y="0" width="8" height="7" fill="#2A2522"/><ellipse cy="' + f1(r + 6) + '" rx="' + f1(r * 0.8) + '" ry="' + f1(r) + '" fill="#FFE3A6" stroke="' + INK + '" stroke-width="2"/></g>';
+        k++;
+      }
+    }
+    return s;
+  }
+
+  /* Radio giấy cũ: hộp có quai, ăng-ten, mặt loa tròn (id+"-loa", nhún theo nhạc), núm vặn. KHÔNG chữ, không số. Gốc: giữa đáy. */
+  function radioBox(id) {
+    var s = '<g id="' + id + '">';
+    s += line("M 20 -86 L 70 -150", 3.5, "#7D8689") + '<circle cx="70" cy="-150" r="4" fill="' + INK + '"/>';
+    s += line("M -40 -86 C -40 -118 40 -118 40 -86", 7, "#5A4436");
+    s += paper(rRect(-70, -88, 140, 88, 1.5, 951), "#C65B3E", { stroke: true, sw: 4, sx: 4, sy: 5 });
+    s += '<g transform="translate(-28,-44)"><g id="' + id + '-loa"><circle r="28" fill="#E9DCC0" stroke="' + INK + '" stroke-width="3"/>';
+    for (var k = -18; k <= 18; k += 9) s += line("M -20 " + k + " L 20 " + k, 2, INK, ' opacity="0.6"');
+    s += "</g></g>";
+    s += '<rect x="12" y="-72" width="44" height="18" rx="3" fill="#F6EEDA" stroke="' + INK + '" stroke-width="2.5"/>' + line("M 34 -72 L 34 -54", 2.5, DO);
+    s += '<circle cx="24" cy="-28" r="9" fill="#5A4436" stroke="' + INK + '" stroke-width="2.5"/><circle cx="48" cy="-28" r="9" fill="#5A4436" stroke="' + INK + '" stroke-width="2.5"/>';
+    return s + "</g>";
+  }
+  /* Nốt nhạc vẽ (hình, không chữ). kind 0: nốt đơn, 1: nốt đôi. Gốc: tâm đầu nốt. */
+  function musicNote(kind, mau) {
+    var c = mau || INK;
+    if (kind === 1) return '<ellipse cx="0" cy="0" rx="10" ry="7" transform="rotate(-20)" fill="' + c + '"/><ellipse cx="34" cy="-8" rx="10" ry="7" transform="rotate(-20 34 -8)" fill="' + c + '"/>' + line("M 8 -2 L 8 -48 L 42 -56 L 42 -10", 4, c);
+    return '<ellipse cx="0" cy="0" rx="11" ry="8" transform="rotate(-20)" fill="' + c + '"/>' + line("M 9 -3 L 9 -50 C 18 -42 28 -38 26 -24", 4, c);
+  }
+
+  /* Bồn nước nhựa xanh dương (loại chở bằng thuyền). Gốc: giữa đáy. o: { w: 96, h: 116 } */
+  function waterTank(o) {
+    o = o || {};
+    var w = o.w || 96, h = o.h || 116, s = "<g>";
+    s += paper("M " + f1(-w / 2) + " " + f1(-h * 0.12) + " L " + f1(-w / 2) + " " + f1(-h * 0.88) + " C " + f1(-w / 2) + " " + f1(-h * 1.02) + " " + f1(w / 2) + " " + f1(-h * 1.02) + " " + f1(w / 2) + " " + f1(-h * 0.88) +
+      " L " + f1(w / 2) + " " + f1(-h * 0.12) + " C " + f1(w / 2) + " 4 " + f1(-w / 2) + " 4 " + f1(-w / 2) + " " + f1(-h * 0.12) + " Z", "#2F72B5", { stroke: true, sw: 4, sx: 5, sy: 6 });
+    for (var k = 1; k < 4; k++) s += line("M " + f1(-w / 2 + 2) + " " + f1(-h * k / 4) + " C " + f1(-w / 4) + " " + f1(-h * k / 4 + 8) + " " + f1(w / 4) + " " + f1(-h * k / 4 + 8) + " " + f1(w / 2 - 2) + " " + f1(-h * k / 4), 3, "#1F4E80");
+    s += '<ellipse cx="0" cy="' + f1(-h * 0.97) + '" rx="' + f1(w * 0.2) + '" ry="' + f1(w * 0.07) + '" fill="#1F4E80" stroke="' + INK + '" stroke-width="3"/>';
+    s += '<rect x="' + f1(-w / 2 + 8) + '" y="' + f1(-h * 0.82) + '" width="' + f1(w * 0.12) + '" height="' + f1(h * 0.6) + '" fill="#FFFFFF" opacity="0.28"/>';
+    return s + "</g>";
+  }
+  /* Can nước nhựa nhỏ (người dân chuyền tay). Gốc: quai. */
+  function waterCan(mau) {
+    return '<g>' + paper(rRect(-22, 6, 44, 54, 1.2, 961), mau || "#E8E4D6", { stroke: true, sw: 3, sx: 3, sy: 3 }) + line("M -12 6 L -12 -4 L 12 -4 L 12 6", 4, INK) +
+      '<rect x="8" y="0" width="10" height="8" fill="' + (mau ? "#C9C2AC" : TEAL) + '" stroke="' + INK + '" stroke-width="2"/></g>';
+  }
+
+  /* Cano trắng chở khách nhìn ngang, mũi bên phải (huong 1) hoặc trái (-1). Gốc: giữa, mặt nước. dai 560. */
+  function speedboat(id, o) {
+    o = o || {};
+    var L = o.dai || 560, hg = o.huong || 1, s = '<g id="' + id + '"><g transform="scale(' + (hg > 0 ? 1 : -1) + ',1)">';
+    s += paper(rRect(-L * 0.52, -64, 40, 60, 1, 981), "#3B3F42", { stroke: true, sw: 3, sx: 3, sy: 3 });
+    s += paper("M " + f1(-L / 2) + " -60 L " + f1(L * 0.36) + " -60 C " + f1(L * 0.48) + " -58 " + f1(L * 0.56) + " -44 " + f1(L * 0.58) + " -30 C " + f1(L * 0.4) + " 14 " + f1(L * 0.2) + " 20 " + f1(-L * 0.3) + " 20 L " + f1(-L / 2) + " 14 Z", "#F7F5EE", { stroke: true, sw: 5, sx: 6, sy: 8 });
+    s += '<path d="M ' + f1(-L / 2 + 2) + ' -16 L ' + f1(L * 0.44) + ' -16 C ' + f1(L * 0.4) + ' -6 ' + f1(L * 0.34) + ' 0 ' + f1(L * 0.3) + ' 2 L ' + f1(-L / 2 + 2) + ' 2 Z" fill="' + TEAL + '"/>';
+    s += paper("M " + f1(L * 0.05) + " -60 L " + f1(L * 0.14) + " -112 L " + f1(L * 0.24) + " -112 L " + f1(L * 0.22) + " -60 Z", "#BFDDE6", { stroke: true, sw: 3.5, shadow: false });
+    s += paper(rRect(-L * 0.32, -82, L * 0.3, 22, 1, 982), "#D9D2C2", { stroke: true, sw: 3, shadow: false });
+    return s + "</g></g>";
+  }
+  /* Thuyền tiếp tế xám (không cờ, không ký hiệu) chở bồn nước xanh. Gốc: giữa, mặt nước. Mũi bên trái. o: { dai: 760, bon: 4 }.
+     id+"-bon<i>": từng bồn. */
+  function supplyBoat(id, o) {
+    o = o || {};
+    var L = o.dai || 760, n = o.bon == null ? 4 : o.bon, s = '<g id="' + id + '">';
+    s += paper(rRect(L * 0.18, -230, 150, 110, 1.5, 991), "#9AA3A6", { stroke: true, sw: 4, sx: 6, sy: 7 });
+    s += '<rect x="' + f1(L * 0.18 + 20) + '" y="-212" width="48" height="34" fill="#2F3B40" stroke="' + INK + '" stroke-width="3"/><rect x="' + f1(L * 0.18 + 82) + '" y="-212" width="48" height="34" fill="#2F3B40" stroke="' + INK + '" stroke-width="3"/>';
+    s += line("M " + f1(L * 0.18 + 120) + " -230 L " + f1(L * 0.18 + 120) + " -290", 5, "#6F7779");
+    for (var k = 0; k < n; k++) s += at(-L * 0.36 + k * 110, -118, '<g id="' + id + "-bon" + k + '">' + waterTank({ w: 92, h: 110 }) + "</g>");
+    s += paper("M " + f1(-L / 2 - 40) + " -130 L " + f1(L / 2) + " -130 L " + f1(L / 2 - 20) + " 30 L " + f1(-L * 0.4) + " 30 Z", "#868F93", { stroke: true, sw: 5, half: 0.1, sx: 7, sy: 9 });
+    s += '<path d="M ' + f1(-L / 2 - 30) + ' -118 L ' + f1(L / 2 - 2) + ' -118 L ' + f1(L / 2 - 3) + ' -104 L ' + f1(-L / 2 - 20) + ' -104 Z" fill="#B7BEC1"/>';
+    for (var j = 0; j < 6; j++) s += '<circle cx="' + f1(-L * 0.3 + j * L * 0.12) + '" cy="-60" r="9" fill="#5E676A" stroke="' + INK + '" stroke-width="2.5"/>';
+    return s + "</g>";
+  }
+
+  /* Máy phát diesel mới (sơn mới) có ống khói nhỏ, lưới tản nhiệt, đồng hồ chỉ có kim (id+"-kim"), tem giấy dán thân (id+"-tem") mang o.chu.
+     Gốc: giữa đáy. Ống khói ở (o.w*0.32, -o.h-70). o: { w: 300, h: 180, chu, co: 58 } */
+  function generatorBox(id, o) {
+    o = o || {};
+    var w = o.w || 300, h = o.h || 180, s = '<g id="' + id + '">';
+    s += paper(rRect(-w / 2 - 14, -16, w + 28, 16, 1, 1001), "#6F6A5E", { stroke: true, sw: 3.5 });
+    s += line("M " + f1(w * 0.32) + " " + f1(-h) + " L " + f1(w * 0.32) + " " + f1(-h - 70), 16, "#6D7477") + line("M " + f1(w * 0.32 - 12) + " " + f1(-h - 70) + " L " + f1(w * 0.32 + 12) + " " + f1(-h - 70), 8, "#4A5053");
+    s += paper(rRect(-w / 2, -h - 16, w, h, 1.5, 1002), "#3E9A7E", { stroke: true, sw: 5, half: 0.08, sx: 7, sy: 8 });
+    s += '<rect x="' + f1(-w / 2 + 8) + '" y="' + f1(-h - 8) + '" width="' + f1(w - 16) + '" height="12" fill="#FFFFFF" opacity="0.25"/>';
+    for (var k = 0; k < 6; k++) s += line("M " + f1(-w * 0.42) + " " + f1(-h * 0.8 + k * 18) + " L " + f1(-w * 0.12) + " " + f1(-h * 0.8 + k * 18), 5, "#2B6E5A");
+    s += '<circle cx="' + f1(w * 0.28) + '" cy="' + f1(-h * 0.62) + '" r="26" fill="#F8F4E8" stroke="' + INK + '" stroke-width="3.5"/>';
+    for (var j = 0; j < 7; j++) { var a = Math.PI * (1 + j / 6); s += line("M " + f1(w * 0.28 + Math.cos(a) * 16) + " " + f1(-h * 0.62 + Math.sin(a) * 16) + " L " + f1(w * 0.28 + Math.cos(a) * 22) + " " + f1(-h * 0.62 + Math.sin(a) * 22), 2, INK); }
+    s += '<g transform="translate(' + f1(w * 0.28) + "," + f1(-h * 0.62) + ')"><g id="' + id + '-kim">' + line("M 0 0 L -14 -10", 3, DO) + "</g></g>";
+    if (o.chu) {
+      var co = o.co || 58, tw = o.chu.length * co * 0.62 + 30;
+      s += '<g id="' + id + '-tem">' + paper(rRect(-tw / 2 - 6, -h * 0.42, tw, co * 1.2, 1.2, 1003), "#F6EED8", { stroke: true, sw: 3, sx: 3, sy: 4 }) +
+        D.txt(-6, f1(-h * 0.42 + co * 0.96), o.chu, co, { w: 800 }) + "</g>";
+    }
+    return s + "</g>";
+  }
+
+  /* Ắc quy đứng như người lính: hộp sẫm, hai cực, ô vạch pin 4 nấc (id+"-v0".."-v3", nấc 3 trên cùng), "mặt" hai chấm mắt
+     (id+"-mat", ẩn sẵn bằng opacity 0; id+"-con" là hai con ngươi để liếc). Gốc: giữa đáy. o: { w: 92, h: 150 } */
+  function batteryUnit(id, o) {
+    o = o || {};
+    var w = o.w || 92, h = o.h || 150, s = '<g id="' + id + '">';
+    s += '<rect x="' + f1(-w * 0.32) + '" y="' + f1(-h - 14) + '" width="18" height="16" fill="' + DO + '" stroke="' + INK + '" stroke-width="2.5"/>';
+    s += '<rect x="' + f1(w * 0.32 - 18) + '" y="' + f1(-h - 14) + '" width="18" height="16" fill="#2A2522" stroke="' + INK + '" stroke-width="2.5"/>';
+    s += paper(rRect(-w / 2, -h, w, h, 1.2, 1010 + (o.seed || 0)), "#3E4A50", { stroke: true, sw: 4, sx: 5, sy: 6 });
+    s += '<rect x="' + f1(-w / 2 + 4) + '" y="' + f1(-h + 4) + '" width="' + f1(w - 8) + '" height="16" fill="#5C6A70"/>';
+    s += '<rect x="' + f1(-w * 0.2) + '" y="' + f1(-h * 0.56) + '" width="' + f1(w * 0.4) + '" height="' + f1(h * 0.44) + '" rx="4" fill="#1E2629" stroke="' + INK + '" stroke-width="2.5"/>';
+    for (var k = 0; k < 4; k++) s += '<rect id="' + id + "-v" + k + '" x="' + f1(-w * 0.14) + '" y="' + f1(-h * 0.17 - k * h * 0.095) + '" width="' + f1(w * 0.28) + '" height="' + f1(h * 0.07) + '" rx="2" fill="#7FD08A"/>';
+    s += '<g id="' + id + '-mat" opacity="0"><ellipse cx="' + f1(-w * 0.22) + '" cy="' + f1(-h * 0.76) + '" rx="12" ry="13" fill="#F8F4E8" stroke="' + INK + '" stroke-width="2.5"/>' +
+      '<ellipse cx="' + f1(w * 0.22) + '" cy="' + f1(-h * 0.76) + '" rx="12" ry="13" fill="#F8F4E8" stroke="' + INK + '" stroke-width="2.5"/>' +
+      '<g id="' + id + '-con"><circle cx="' + f1(-w * 0.22) + '" cy="' + f1(-h * 0.76) + '" r="5.5" fill="' + INK + '"/><circle cx="' + f1(w * 0.22) + '" cy="' + f1(-h * 0.76) + '" r="5.5" fill="' + INK + '"/></g></g>';
+    return s + "</g>";
+  }
+  /* Điện thoại hết pin: màn hình chỉ có biểu tượng pin (id+"-pin" mức đỏ, id+"-day" vạch sạc), KHÔNG số. Gốc: tâm. */
+  function phoneDead(id) {
+    var s = '<g id="' + id + '">';
+    s += paper(rRect(-27, -48, 54, 96, 1, 1020), "#2A2E31", { stroke: true, sw: 3.5, sx: 3, sy: 3 });
+    s += '<rect x="-21" y="-40" width="42" height="74" rx="3" fill="#3C474D"/>';
+    s += '<rect x="-12" y="-12" width="22" height="12" rx="2" fill="none" stroke="#E9E4D6" stroke-width="2.5"/><rect x="10" y="-9" width="3" height="6" fill="#E9E4D6"/>';
+    s += '<rect id="' + id + '-pin" x="-10" y="-10" width="4" height="8" fill="#E85D45"/>';
+    s += '<g id="' + id + '-sac" opacity="0">' + '<rect x="-10" y="-10" width="12" height="8" fill="#7FD08A"/>' + "</g>";
+    return s + "</g>";
+  }
+  /* Ổ cắm trên tường (hai lỗ, không chữ). Gốc: tâm. */
+  function outlet() {
+    return paper(rRect(-26, -34, 52, 68, 1, 1030), "#F2EFE6", { stroke: true, sw: 3.5, sx: 3, sy: 3 }) +
+      '<rect x="-12" y="-18" width="6" height="14" rx="2" fill="' + INK + '"/><rect x="6" y="-18" width="6" height="14" rx="2" fill="' + INK + '"/><circle cx="0" cy="14" r="5" fill="' + INK + '"/>';
+  }
+  /* Tấm pin mặt trời CŨ (khung xám, ô xanh, vài vết bẩn) đặt nghiêng trên mái. Gốc: giữa cạnh dưới. w, h. */
+  function solarPanel(w, h, o) {
+    o = o || {};
+    var s = "<g>", sk = h * 0.45;
+    var d = "M " + f1(-w / 2) + " 0 L " + f1(w / 2) + " 0 L " + f1(w / 2 - sk) + " " + f1(-h) + " L " + f1(-w / 2 - sk) + " " + f1(-h) + " Z";
+    s += paper(d, "#36507A", { stroke: true, sw: 4, sx: 4, sy: 5 });
+    for (var i = 1; i < 4; i++) s += line("M " + f1(-w / 2 + i * w / 4) + " 0 L " + f1(-w / 2 + i * w / 4 - sk) + " " + f1(-h), 2, "#C9D3DC", ' opacity="0.7"');
+    for (var j = 1; j < 3; j++) s += line("M " + f1(-w / 2 - sk * j / 3) + " " + f1(-h * j / 3) + " L " + f1(w / 2 - sk * j / 3) + " " + f1(-h * j / 3), 2, "#C9D3DC", ' opacity="0.7"');
+    var r = rng(o.seed || 1040);
+    for (var k = 0; k < 4; k++) s += '<path d="' + rEll(-w / 3 + r() * w * 0.6 - sk / 2, -h * (0.2 + r() * 0.6), 14 + r() * 16, 6 + r() * 6, 2, 1041 + k) + '" fill="#9C8F74" opacity="0.55"/>';
+    s += line("M " + f1(-w * 0.35) + " 0 L " + f1(-w * 0.35) + " 30 M " + f1(w * 0.3) + " 0 L " + f1(w * 0.3) + " 30", 6, "#7D8689");
+    return s + "</g>";
+  }
+
+  /* Kem ốc quế (một viên, chưa chảy). Gốc: giữa vỏ ốc (chỗ cầm). */
+  function iceCream() {
+    return paper("M -14 -10 L 14 -10 L 0 30 Z", "#D9A55A", { stroke: true, sw: 3, sx: 2, sy: 3 }) + line("M -8 -4 L 4 18 M 8 -4 L -2 16", 1.5, "#9C6E36") +
+      paper(rEll(0, -24, 18, 17, 1, 1070), "#F6B8C8", { stroke: true, sw: 3, shadow: false }) + '<circle cx="-6" cy="-30" r="4" fill="#FFFFFF" opacity="0.7"/>';
+  }
+
+  /* Võng vải sọc xanh ngọc–trắng mắc giữa hai điểm (0,0) và (w,0). Gốc: điểm buộc trái. o: { vong: 150 (độ võng), id }.
+     id+"-vai": tấm vải (xoay/đung đưa quanh trục buộc). Trả SVG. */
+  function hammock(id, w, o) {
+    o = o || {};
+    var v = o.vong || 150, s = '<g id="' + id + '">', a = w * 0.12, b = w * 0.88;
+    s += line("M 0 0 L " + f1(a) + " " + f1(v * 0.35) + " M " + f1(w) + " 0 L " + f1(b) + " " + f1(v * 0.35), 4, "#B8A27A");
+    var top = "M " + f1(a) + " " + f1(v * 0.35) + " Q " + f1(w / 2) + " " + f1(v * 1.1) + " " + f1(b) + " " + f1(v * 0.35);
+    var vai = top + " Q " + f1(w / 2) + " " + f1(v * 1.55) + " " + f1(a) + " " + f1(v * 0.35) + " Z";
+    s += '<clipPath id="' + id + '-cp"><path d="' + vai + '"/></clipPath>';
+    s += '<g id="' + id + '-vai">' + paper(vai, "#F6F1E4", { stroke: false, sx: 6, sy: 10 });
+    s += '<g clip-path="url(#' + id + '-cp)">';
+    for (var k = -2; k < 14; k++) s += '<rect x="' + f1(a + k * (b - a) / 10) + '" y="0" width="' + f1((b - a) / 20) + '" height="' + f1(v * 2) + '" fill="' + TEAL + '" transform="skewX(-12)"/>';
+    s += "</g>";
+    s += '<path d="' + vai + '" fill="none" stroke="' + INK + '" stroke-width="4.5" stroke-linejoin="round"/>';
+    s += line(top, 3, INK, ' opacity="0.5"') + "</g>";
+    return s + "</g>";
+  }
+  /* Cột gỗ cắm sát mép nước. Gốc: chân. h: cao. */
+  function woodPost(h, seed) {
+    return paper(rRect(-20, -h, 40, h + 40, 2.5, seed || 1080), "#7A5236", { stroke: true, sw: 4, half: 0.15, sx: 6, sy: 6 }) +
+      line("M -6 " + f1(-h + 20) + " L -4 " + f1(-h * 0.3), 3, "#553521", ' opacity="0.6"') + '<ellipse cx="0" cy="' + f1(-h) + '" rx="20" ry="6" fill="#A06D45" stroke="' + INK + '" stroke-width="3"/>';
+  }
+
+  /* Bọt sóng nhỏ (gợn trắng). Gốc: tâm. w: rộng. */
+  function foam(w, seed) {
+    var r = rng(seed || 1100), d = "M " + f1(-w / 2) + " 0";
+    for (var k = 1; k <= 4; k++) d += " Q " + f1(-w / 2 + (k - 0.5) * w / 4) + " " + f1(-10 - r() * 8) + " " + f1(-w / 2 + k * w / 4) + " 0";
+    return '<path d="' + d + ' Q 0 10 ' + f1(-w / 2) + ' 0 Z" fill="#F7FBFC" stroke="' + INK + '" stroke-width="2.5" stroke-linejoin="round"/>';
+  }
+  /* Cầu tàu gỗ nhìn ngang: mặt ván (y = mặt ván) từ x0 tới x1, cọc xuống nước. o: { day: 34 (dày), coc: 220 (khoảng cách cọc), seed } */
+  function dock(x0, x1, y, o) {
+    o = o || {};
+    var day = o.day || 34, s = "";
+    for (var x = x0 + 40; x < x1; x += o.coc || 220) s += paper(rRect(x - 14, y, 28, 200, 2, 1120 + Math.round(x)), "#5E4430", { stroke: true, sw: 3.5, shadow: false });
+    s += paper(rRect(x0, y, x1 - x0, day, 2, o.seed || 1121), "#A27A52", { stroke: true, sw: 4, half: 0.1, sx: 5, sy: 7 });
+    for (var k = x0 + 60; k < x1; k += 60) s += line("M " + f1(k) + " " + f1(y + 3) + " L " + f1(k - 3) + " " + f1(y + day - 3), 2.5, "#6B4E33", ' opacity="0.7"');
+    return s;
+  }
+  /* Ghềnh san hô / đá vụn mép đảo. Gốc: giữa chân. w, h. */
+  function coralRock(w, h, seed) {
+    var r = rng(seed || 1130), pts = [[-w / 2, 0]];
+    for (var k = 1; k < 9; k++) pts.push([-w / 2 + k * w / 9, -h * (0.4 + 0.6 * Math.sin(k / 9 * Math.PI)) * (0.75 + r() * 0.3)]);
+    pts.push([w / 2, 0]);
+    var s = paper(rough(pts, 3, seed || 1130, 14), "#E8D9BC", { stroke: true, sw: 3.5, half: 0.15, sx: 4, sy: 5 });
+    for (var j = 0; j < 6; j++) s += '<circle cx="' + f1(-w / 3 + r() * w * 0.66) + '" cy="' + f1(-h * 0.2 - r() * h * 0.4) + '" r="' + f1(3 + r() * 4) + '" fill="#C9B48E"/>';
+    return s;
+  }
+  /* Hoa giấy nhỏ 5 cánh có cuống. Gốc: chân cuống. r: bán kính hoa. */
+  function paperFlower(r, o) {
+    o = o || {};
+    var s = line("M 0 0 C 2 " + f1(-r * 1.2) + " -2 " + f1(-r * 2) + " 0 " + f1(-r * 2.6), 3, "#5E7F4A");
+    s += '<path d="M 0 ' + f1(-r * 1.2) + ' c ' + f1(r * 0.6) + " " + f1(-r * 0.5) + " " + f1(r * 0.9) + ' 0 0 0" fill="#7FA05E" stroke="' + INK + '" stroke-width="1.5"/>';
+    var cy = -r * 3.1;
+    for (var k = 0; k < 5; k++) { var a = k / 5 * Math.PI * 2 - Math.PI / 2; s += '<ellipse cx="' + f1(Math.cos(a) * r * 0.6) + '" cy="' + f1(cy + Math.sin(a) * r * 0.6) + '" rx="' + f1(r * 0.55) + '" ry="' + f1(r * 0.36) + '" transform="rotate(' + f1(a * 180 / Math.PI) + " " + f1(Math.cos(a) * r * 0.6) + " " + f1(cy + Math.sin(a) * r * 0.6) + ')" fill="' + (o.mau || "#F4E7EA") + '" stroke="' + INK + '" stroke-width="1.8"/>'; }
+    return s + '<circle cx="0" cy="' + f1(cy) + '" r="' + f1(r * 0.28) + '" fill="#E9B84A" stroke="' + INK + '" stroke-width="1.5"/>';
+  }
+  /* Làn khói mùi thơm hình con cá (mờ, không viền đậm). Gốc: tâm thân; đầu bên trái. id+"-duoi": đuôi (vẫy). */
+  function fishScent(id) {
+    var s = '<g id="' + id + '" opacity="0.92">';
+    s += '<g transform="translate(46,0)"><g id="' + id + '-duoi"><path d="M 0 0 C 14 -10 26 -26 34 -30 C 30 -10 30 10 34 30 C 26 26 14 10 0 0 Z" fill="#FFF1D6" stroke="#A88E68" stroke-width="3" stroke-dasharray="8 5"/></g></g>';
+    s += '<path d="M -54 0 C -40 -26 0 -30 30 -16 C 46 -8 50 8 30 16 C 0 30 -40 26 -54 0 Z" fill="#FFF1D6" stroke="#A88E68" stroke-width="3" stroke-dasharray="8 5"/>';
+    s += '<circle cx="-34" cy="-5" r="4" fill="#A88E68"/>';
+    s += line("M -60 -14 C -72 -22 -80 -18 -90 -26 M -60 12 C -74 18 -82 14 -94 22", 3, "#E9DCC4", ' opacity="0.8"');
+    return s + "</g>";
+  }
+  /* Gói bánh quy khô mở miệng, một chiếc ló ra (id+"-mieng" chiếc bánh để cắn: scale nhỏ dần). Gốc: đáy giữa gói. */
+  function crackerPack(id) {
+    var s = '<g id="' + id + '">';
+    s += '<g transform="translate(0,-74)"><g id="' + id + '-mieng">' + paper(rRect(-20, -22, 40, 40, 1, 1140), "#E3B96E", { stroke: true, sw: 2.5, shadow: false }) +
+      '<circle cx="-8" cy="-8" r="2.4" fill="#A97C3E"/><circle cx="8" cy="-8" r="2.4" fill="#A97C3E"/><circle cx="0" cy="6" r="2.4" fill="#A97C3E"/></g></g>';
+    s += paper("M -30 0 L -34 -70 L -20 -76 L -6 -68 L 8 -76 L 22 -68 L 34 -74 L 30 0 Z", "#F4F1E8", { stroke: true, sw: 3, sx: 3, sy: 3 });
+    s += '<rect x="-30" y="-46" width="60" height="18" fill="#D9714E"/>';
+    return s + "</g>";
+  }
+  /* Khăn tắm vắt vai trái của Wob (toạ độ gốc 400×400, dùng làm phuKien). mau: sọc. */
+  function towelDrape(mau) {
+    var c = mau || "#E07A5F";
+    return paper("M 60 150 C 90 110 140 96 170 104 L 176 140 C 140 136 104 160 96 200 L 88 330 L 46 326 L 52 200 Z", "#F6F1E4", { stroke: true, sw: 4.5, sx: 4, sy: 5 }) +
+      line("M 56 250 L 92 252 M 58 280 L 90 282", 7, c) + line("M 48 326 L 46 340 M 60 327 L 59 342 M 72 328 L 72 343 M 84 329 L 85 344", 3, INK);
+  }
+  /* Bánh xà phòng. Gốc: tâm. */
+  function soapBar() {
+    return paper(rEll(0, 0, 26, 15, 1, 1150), "#F2C6D2", { stroke: true, sw: 3, sx: 2, sy: 3 }) + '<ellipse cx="-6" cy="-5" rx="8" ry="3" fill="#FFFFFF" opacity="0.7"/>' +
+      '<circle cx="18" cy="-16" r="6" fill="#FFFFFF" stroke="#9FC7D6" stroke-width="1.5" opacity="0.9"/>';
+  }
+  /* Cọ sơn. Gốc: đầu lông cọ; cán hướng lên phải. id+"-son": vệt sơn ướt trên đầu cọ. o.mau: màu sơn. */
+  function paintBrush(id, o) {
+    o = o || {};
+    return '<g id="' + id + '">' + line("M 10 -40 L 70 -140", 12, "#C99A5C") + line("M 10 -40 L 70 -140", 2.5, INK, ' opacity="0.5"') +
+      paper("M -6 -20 L 14 -48 L 30 -38 L 12 -8 Z", "#9AA3A6", { stroke: true, sw: 3, shadow: false }) +
+      paper("M -6 -20 L 12 -8 L 2 6 C -6 10 -16 2 -14 -6 Z", o.mau || "#2A9D8F", { stroke: true, sw: 2.5, shadow: false, id: id + "-son" }) + "</g>";
+  }
+  /* Tranh tường tô bằng sơn (không viền mực đậm): kind "ca" | "song" | "thuyen". Gốc: góc trên trái khung w×h. */
+  function muralPiece(kind, w, h, o) {
+    o = o || {};
+    var s = '<g>' + '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="14" fill="' + (o.nen || "#9ED3D0") + '" opacity="0.95"/>';
+    if (kind === "ca") {
+      s += '<path d="M ' + f1(w * 0.2) + " " + f1(h * 0.5) + " C " + f1(w * 0.35) + " " + f1(h * 0.18) + " " + f1(w * 0.65) + " " + f1(h * 0.2) + " " + f1(w * 0.75) + " " + f1(h * 0.5) + " C " + f1(w * 0.65) + " " + f1(h * 0.8) + " " + f1(w * 0.35) + " " + f1(h * 0.82) + " " + f1(w * 0.2) + " " + f1(h * 0.5) + ' Z" fill="#F2A541"/>';
+      s += '<path d="M ' + f1(w * 0.73) + " " + f1(h * 0.5) + " L " + f1(w * 0.9) + " " + f1(h * 0.3) + " L " + f1(w * 0.9) + " " + f1(h * 0.7) + ' Z" fill="#E07A5F"/><circle cx="' + f1(w * 0.3) + '" cy="' + f1(h * 0.45) + '" r="' + f1(h * 0.05) + '" fill="#26302F"/>';
+      for (var k = 0; k < 3; k++) s += line("M " + f1(w * (0.42 + k * 0.08)) + " " + f1(h * 0.34) + " C " + f1(w * (0.46 + k * 0.08)) + " " + f1(h * 0.5) + " " + f1(w * (0.46 + k * 0.08)) + " " + f1(h * 0.5) + " " + f1(w * (0.42 + k * 0.08)) + " " + f1(h * 0.66), 5, "#E07A5F");
+    } else if (kind === "song") {
+      for (var j = 0; j < 3; j++) {
+        var y = h * (0.3 + j * 0.22), d = "M 10 " + f1(y);
+        for (var q = 0; q < 4; q++) d += " q " + f1(w / 8) + " " + f1(-h * 0.14) + " " + f1(w / 4 - 5) + " 0";
+        s += line(d, 12, j === 1 ? "#F6F1E4" : "#2F72B5");
+      }
+    } else {
+      s += '<path d="M ' + f1(w * 0.15) + " " + f1(h * 0.6) + " L " + f1(w * 0.85) + " " + f1(h * 0.6) + " L " + f1(w * 0.72) + " " + f1(h * 0.78) + " L " + f1(w * 0.26) + " " + f1(h * 0.78) + ' Z" fill="#C65B3E"/>';
+      s += line("M " + f1(w * 0.5) + " " + f1(h * 0.6) + " L " + f1(w * 0.5) + " " + f1(h * 0.16), 6, "#5A4436") + '<path d="M ' + f1(w * 0.52) + " " + f1(h * 0.18) + " L " + f1(w * 0.78) + " " + f1(h * 0.52) + " L " + f1(w * 0.52) + " " + f1(h * 0.52) + ' Z" fill="#F6F1E4"/>';
+      s += line("M 10 " + f1(h * 0.86) + " q " + f1(w / 6) + " -14 " + f1(w / 3) + " 0 q " + f1(w / 6) + " 14 " + f1(w / 3) + " 0 q " + f1(w / 6) + " -14 " + f1(w / 3 - 20) + " 0", 6, "#2F72B5");
+    }
+    return s + "</g>";
+  }
+  /* Thùng cá gỗ có vài đuôi cá ló ra. Gốc: giữa đáy. */
+  function fishCrate() {
+    var s = "<g>";
+    for (var k = 0; k < 4; k++) s += '<path d="M ' + (-50 + k * 32) + ' -70 l -12 -26 l 14 6 l 10 -14 z" fill="#A9C1CC" stroke="' + INK + '" stroke-width="2.5"/>';
+    s += paper(rRect(-70, -76, 140, 76, 1.5, 1180), "#B48C5E", { stroke: true, sw: 4, sx: 4, sy: 5 }) + line("M -70 -40 L 70 -40", 3, "#7A5236");
+    return s + "</g>";
+  }
+  /* Bàn tay đo khoảng: ngón cái + ngón trỏ dựng song song, chừa khe ngang gap (đo bề ngang một vật ở xa). Dùng làm holdL/holdR
+     (vẽ dưới nắm tay); hai ngón chĩa theo -y của bàn tay: canh.js tự xoay ngược theo góc tay để ngón dựng đứng. Gốc: tâm nắm tay. */
+  function pinchHand(gap) {
+    var g = (gap || 30) / 2, d = "M " + f1(-g) + " -54 L " + f1(-g) + " -10 Q " + f1(-g) + " 6 " + f1(-g + 16) + " 6 L " + f1(g - 16) + " 6 Q " + f1(g) + " 6 " + f1(g) + " -10 L " + f1(g) + " -44";
+    return line(d, 14, INK) + line(d, 6, "#5a9fb8");
+  }
+  /* Sổ du lịch mở cầm tay (hai trang kem, không chữ). Gốc: giữa gáy, mép dưới. w, h. id+"-traiT"/"-phaiT": nhóm nội dung trang trái/phải (gốc góc trên trái trang). */
+  function sketchbook(id, w, h, inner) {
+    inner = inner || {};
+    var s = '<g id="' + id + '">';
+    s += paper("M " + f1(-w / 2) + " " + f1(-h) + " L -4 " + f1(-h + 8) + " L -4 0 L " + f1(-w / 2) + " -8 Z", "#F6EEDA", { stroke: true, sw: 3.5, sx: 4, sy: 5 });
+    s += paper("M " + f1(w / 2) + " " + f1(-h) + " L 4 " + f1(-h + 8) + " L 4 0 L " + f1(w / 2) + " -8 Z", "#F8F1DF", { stroke: true, sw: 3.5, sx: 4, sy: 5 });
+    for (var k = 1; k < 6; k++) s += line("M " + f1(-w / 2 + 10) + " " + f1(-h + k * h / 6) + " L -12 " + f1(-h + k * h / 6 + 6), 1.5, "#C9D6DA") + line("M 12 " + f1(-h + k * h / 6 + 6) + " L " + f1(w / 2 - 10) + " " + f1(-h + k * h / 6), 1.5, "#C9D6DA");
+    s += '<rect x="-5" y="' + f1(-h + 6) + '" width="10" height="' + f1(h - 6) + '" fill="url(#gayG)"/>';
+    s += '<g transform="translate(' + f1(-w / 2) + "," + f1(-h) + ')"><g id="' + id + '-traiT">' + (inner.trai || "") + "</g></g>";
+    s += '<g transform="translate(4,' + f1(-h + 8) + ')"><g id="' + id + '-phaiT">' + (inner.phai || "") + "</g></g>";
+    return s + "</g>";
+  }
+  /* Hình con cá / mũ / thuyền nét mực nhỏ để vẽ trong sổ (icon, không chữ). Gốc: tâm. s: cỡ. */
+  function sketchIcon(kind, s, mau) {
+    var c = mau || INK, k = s || 1, g = '<g transform="scale(' + f1(k) + ')">';
+    if (kind === "ca") g += '<path d="M -22 0 C -12 -12 8 -12 14 0 C 8 12 -12 12 -22 0 Z M 14 0 L 26 -9 L 26 9 Z" fill="none" stroke="' + c + '" stroke-width="3" stroke-linejoin="round"/><circle cx="-12" cy="-2" r="2" fill="' + c + '"/>';
+    else if (kind === "mu") g += '<path d="M -26 4 C -10 -2 10 -2 26 4 M -12 2 C -12 -16 12 -16 12 2" fill="none" stroke="' + c + '" stroke-width="3" stroke-linecap="round"/>' + line("M -11 -4 L 11 -4", 4, TEAL);
+    else if (kind === "thuyen") g += '<path d="M -26 0 L 26 0 L 18 10 L -18 10 Z M 0 0 L 0 -26 L 16 -4 Z" fill="none" stroke="' + c + '" stroke-width="3" stroke-linejoin="round"/>';
+    else if (kind === "dao") g += '<path d="M -30 6 C -24 -6 24 -6 30 6 Z" fill="none" stroke="' + c + '" stroke-width="3"/>' + '<path d="M -18 -2 l 0 -10 l 8 0 l 0 10 M -4 -3 l 0 -12 l 9 0 l 0 12 M 10 -2 l 0 -9 l 8 0 l 0 9" fill="none" stroke="' + c + '" stroke-width="2.5"/>';
+    return g + "</g>";
+  }
+  /* defs bổ sung cho cảnh nhiệt đới (gọi trong api.dat, sau D.defs): trời bình minh hồng, trưa nhiệt đới, chạng vạng cam tím, đêm biển, lưới. */
+  function defsNhietDoi() {
+    return "<defs>" +
+      '<linearGradient id="skyTrua" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FCBDA"/><stop offset="0.6" stop-color="#CDE8E6"/><stop offset="1" stop-color="#F4EDD8"/></linearGradient>' +
+      '<linearGradient id="skyHong" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9DB3D6"/><stop offset="0.5" stop-color="#E9B9C2"/><stop offset="1" stop-color="#F8D9B8"/></linearGradient>' +
+      '<linearGradient id="skyCam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5D5C8E"/><stop offset="0.5" stop-color="#C77D8A"/><stop offset="1" stop-color="#F2B279"/></linearGradient>' +
+      '<linearGradient id="skyDemBien" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2640"/><stop offset="0.65" stop-color="#2C3D5E"/><stop offset="1" stop-color="#4B5D80"/></linearGradient>' +
+      '<linearGradient id="skyTram" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#AEBBC2"/><stop offset="0.6" stop-color="#D3D8D6"/><stop offset="1" stop-color="#E6E2D6"/></linearGradient>' +
+      '<pattern id="luoiP" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M 0 0 L 12 0 M 0 0 L 0 12" stroke="#2F4A3A" stroke-width="1.5"/></pattern>' +
+      "</defs>";
+  }
+
+  var them = {
+    rr: rr, clicker: clicker, stringLights: stringLights, radioBox: radioBox, musicNote: musicNote, waterTank: waterTank,
+    waterCan: waterCan, speedboat: speedboat, supplyBoat: supplyBoat, generatorBox: generatorBox, batteryUnit: batteryUnit,
+    phoneDead: phoneDead, outlet: outlet, solarPanel: solarPanel, iceCream: iceCream, hammock: hammock, woodPost: woodPost,
+    foam: foam, dock: dock, coralRock: coralRock, paperFlower: paperFlower, fishScent: fishScent,
+    crackerPack: crackerPack, towelDrape: towelDrape, soapBar: soapBar, paintBrush: paintBrush, muralPiece: muralPiece, fishCrate: fishCrate, pinchHand: pinchHand, sketchbook: sketchbook, sketchIcon: sketchIcon, defsNhietDoi: defsNhietDoi
+  };
+  Object.keys(them).forEach(function (k) { if (!D[k]) D[k] = them[k]; });
+})(typeof window !== "undefined" ? window : globalThis);
+
+/* ---- window.NhietDoiB (thêm 26/11/2026, nhóm cat-giay B): trợ giúp cảnh đảo dùng NhietDoi (canh-nen.js) – tham chiếu lười lúc gọi
+   (dao-cu.js nạp trước canh-nen.js). nguoiDat/nguoiDi: người giấy chung NhietDoi.nguoi có nhóm vị trí và chu kỳ đi;
+   quangTruong: quảng trường nhỏ trên đảo (ngày | chạng vạng) dùng chung cho các đoạn "cùng quảng trường". ---- */
+(function (G) {
+  "use strict";
+  var D = G.DaoCu;
+  function N() { return G.NhietDoi; }
+  var B = {};
+  /* Người giấy (NhietDoi.nguoi) bọc nhóm vị trí "#<id>-vt" (x, y toạ độ lớp), cỡ s, lật hướng o.lat (-1 quay trái).
+     o: như NhietDoi.nguoi + { cam: SVG đồ cầm tay phải (gốc bàn tay), camL: tay trái, lat }. Trả SVG. */
+  B.nguoiDat = function (api, id, x, y, s, o) {
+    o = o || {};
+    var k = o.nho ? 0.66 : 1, p = N().nguoi(id, o);
+    function chen(tay, svg) {
+      var key = 'id="' + id + "-tay" + tay + '">', i = p.indexOf(key);
+      if (i < 0 || !svg) return;
+      var j = p.indexOf("<circle", i);
+      p = p.slice(0, j) + '<g transform="translate(' + D.f1((tay === "R" ? 6 : -6) * k) + "," + D.f1(110 * k) + ')">' + svg + "</g>" + p.slice(j);
+    }
+    chen("R", o.cam); chen("L", o.camL);
+    api.set("#" + id + "-vt", 0, { x: x, y: y });
+    ["chL", "chR", "tayL", "tayR", "dau"].forEach(function (q) { api.origin("#" + id + "-" + q, "0 0"); });
+    var sc = s || 0.6;
+    return '<g id="' + id + '-vt"><g transform="scale(' + D.f1((o.lat || 1) * sc * 100) / 100 + "," + sc + ')">' + p + "</g></g>";
+  };
+  /* Đi từ vị trí hiện tại tới x1 trong [t0, t1]: chân đá, đầu nhún, tay vung. o: { buoc: 0.34, y1, tay: true } */
+  B.nguoiDi = function (api, id, t0, t1, x1, o) {
+    o = o || {};
+    var K = api.K, vt = "#" + id + "-vt", st = o.buoc || 0.34, n = Math.max(2, Math.round((t1 - t0) / st)), dt = (t1 - t0) / n;
+    K.add(vt, "x", t0, K.at(vt, "x", t0), "none"); K.add(vt, "x", t1, x1, o.ease || "none");
+    if (o.y1 != null) { K.add(vt, "y", t0, K.at(vt, "y", t0), "none"); K.add(vt, "y", t1, o.y1, "sine.inOut"); }
+    for (var k = 0; k <= n; k++) {
+      var t = t0 + k * dt, a = k === n ? 0 : (k % 2 ? 16 : -16);
+      K.add("#" + id + "-chL", "rotation", t, a, "sine.inOut"); K.add("#" + id + "-chR", "rotation", t, -a, "sine.inOut");
+      if (o.tay !== false) { K.add("#" + id + "-tayL", "rotation", t, -a * 0.8, "sine.inOut"); K.add("#" + id + "-tayR", "rotation", t, a * 0.8, "sine.inOut"); }
+      K.add("#" + id + "-dau", "y", t, 0, "sine.in");
+      if (k < n) K.add("#" + id + "-dau", "y", t + dt / 2, -6, "sine.out");
+    }
+  };
+  /* Quảng trường rất nhỏ: dãy nhà một tầng tường màu quây sát phía sau (chân tường y 800), nền xi măng sáng, thánh giá đơn giản giữa
+     quảng trường (x = o.thanhGia, chân y 846), ghế nhựa rải, chậu cây thấp tiền cảnh; KHÔNG cây to.
+     o: { chieu (chạng vạng: tường sẫm, cửa sổ sáng, trời cam tím; cần DaoCu.defsNhietDoi()), seed: 1600, thanhGia: 1180, ghe: [[x, y, màu]], chau: [[x, y]] }.
+     Trả { troi, xa, nen, nha, thanhGia, ghe, gan, vt: { nha: [[x, w, h]], cua: [x…], so: [[x, y]…] (cửa sổ, mép trên), matSau } }.
+     Mẫu: doan-d16 (ngày, bốn biển số bật sau mái), doan-d19 (chạng vạng) tập 4. */
+  B.quangTruong = function (api, o) {
+    o = o || {};
+    var ND = N(), at = api.at, sd = o.seed || 1600, chieu = !!o.chieu, MS = 800, r = D.rng(sd);
+    var ngay = ["#F2CB57", "#5FA8D3", "#EE9AAE", "#86CFB0", "#F3EFE4", "#F2A65A", "#9FB6E8", "#5FA8D3", "#F2CB57"];
+    var toi = ["#B39650", "#3F6F92", "#A86A7C", "#5E8F7E", "#A8A496", "#B07444", "#6A7DA8", "#3F6F92", "#B39650"];
+    var NHA = [[-660, 400, 330], [-270, 380, 310], [120, 400, 340], [520, 380, 320], [905, 390, 330], [1300, 400, 316], [1700, 390, 336], [2095, 400, 322], [2490, 380, 330]];
+    var troi = '<rect width="1920" height="1080" fill="url(#' + (chieu ? "skyCam" : "ndTroi") + ')"/>';
+    var xa = "";
+    if (!chieu) for (var c = 0; c < 6; c++) xa += at(-300 + c * 520 + r() * 120, 140 + r() * 80, D.paper(D.rEll(0, 0, 110 + r() * 60, 30 + r() * 10, 3, sd + 10 + c), "#FFFFFF", { shadow: false, stroke: true, sw: 2.5 }));
+    else xa += '<circle cx="1500" cy="600" r="150" fill="#F7C98A" opacity="0.35"/><circle cx="1500" cy="600" r="86" fill="#F9D9A0" opacity="0.9"/>';
+    for (var k = 0; k < 16; k++) {
+      var hx = -900 + k * 260 + r() * 60, hw = 200 + r() * 70, hh = 120 + r() * 40;
+      xa += at(hx, 720, '<g transform="scale(0.8)">' + D.paper(D.rRect(-hw / 2, -hh, hw, hh, 2, sd + 30 + k), chieu ? "#7A6E8C" : "#E6D8BC", { shadow: false, stroke: true, sw: 3 }) +
+        D.paper("M " + D.f1(-hw / 2 - 14) + " " + D.f1(-hh) + " L " + D.f1(hw / 2 + 14) + " " + D.f1(-hh) + " L " + D.f1(hw / 2) + " " + D.f1(-hh - 30) + " L " + D.f1(-hw / 2) + " " + D.f1(-hh - 30) + " Z", chieu ? "#544C66" : "#A9B2B6", { shadow: false, stroke: true, sw: 3 }) + "</g>");
+    }
+    var nen = D.paper(D.rRect(-1400, MS - 14, 5200, 900, 2, sd + 50), chieu ? "#B5A598" : "#E6DCC8", { shadow: false, half: 0.06 });
+    for (var j = 0; j < 7; j++) nen += D.line("M -1400 " + (MS + 30 + j * j * 9) + " L 3800 " + (MS + 30 + j * j * 9), 2, "#9C9284", ' opacity="0.45"');
+    for (var q = -12; q < 32; q++) nen += D.line("M " + (q * 120) + " " + MS + " L " + D.f1(q * 120 + (q * 120 - 960) * 0.35) + " 1100", 2, "#9C9284", ' opacity="0.3"');
+    var nha = "", cua = [], so = [];
+    NHA.forEach(function (h, i) {
+      var cx = i % 2 ? -0.35 : 0.35;
+      nha += at(h[0], MS, ND.nha({ w: h[1], h: h[2], mau: (chieu ? toi : ngay)[i % 9], seed: sd + 60 + i, cua: cx, cuaMo: i % 3 !== 1, so: 1 }));
+      cua.push(h[0] + cx * h[1] / 2);
+    });
+    var tg = o.thanhGia == null ? 1180 : o.thanhGia;
+    var thanhGia = at(tg, 846, '<g transform="scale(0.78)">' + ND.thanhGia(680) + "</g>");
+    var ghe = "";
+    (o.ghe || [[380, 905, "#F4F2EC"], [1560, 900, "#5FA8D3"]]).forEach(function (g) { ghe += at(g[0], g[1], '<g transform="scale(0.78)">' + ND.ghe({ mau: g[2] }) + "</g>"); });
+    var gan = "";
+    (o.chau || [[-260, 1090], [2200, 1090]]).forEach(function (p, i) {
+      gan += at(p[0], p[1], D.paper(D.rRect(-70, -110, 140, 110, 2, sd + 90 + i), "#B5523B", { stroke: true, sw: 4 }) +
+        D.paper(D.rEll(0, -150, 110, 70, 4, sd + 95 + i), chieu ? "#3F5A3A" : "#5E8F4A", { stroke: true, sw: 4, half: 0.15 }));
+    });
+    return { troi: troi, xa: xa, nen: nen, nha: nha, thanhGia: thanhGia, ghe: ghe, gan: gan, vt: { nha: NHA, cua: cua, matSau: MS, thanhGia: tg } };
+  };
+  G.NhietDoiB = B;
+})(typeof window !== "undefined" ? window : globalThis);

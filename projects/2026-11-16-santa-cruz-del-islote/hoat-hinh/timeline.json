@@ -1,0 +1,927 @@
+{
+ "duration": 614.888,
+ "scenes": [
+  {
+   "id": 1,
+   "start": 0.4,
+   "duration": 14.136
+  },
+  {
+   "id": 2,
+   "start": 15.8,
+   "duration": 38.904
+  },
+  {
+   "id": 3,
+   "start": 56.204,
+   "duration": 43.68
+  },
+  {
+   "id": 4,
+   "start": 101.084,
+   "duration": 39.216
+  },
+  {
+   "id": 5,
+   "start": 141.8,
+   "duration": 36.216
+  },
+  {
+   "id": 6,
+   "start": 179.016,
+   "duration": 43.992
+  },
+  {
+   "id": 7,
+   "start": 224.208,
+   "duration": 30.912
+  },
+  {
+   "id": 8,
+   "start": 256.62,
+   "duration": 32.64
+  },
+  {
+   "id": 9,
+   "start": 290.26,
+   "duration": 42.432
+  },
+  {
+   "id": 10,
+   "start": 334.192,
+   "duration": 42.6
+  },
+  {
+   "id": 11,
+   "start": 377.792,
+   "duration": 42.792
+  },
+  {
+   "id": 12,
+   "start": 422.084,
+   "duration": 27.648
+  },
+  {
+   "id": 13,
+   "start": 451.732,
+   "duration": 45.336
+  },
+  {
+   "id": 14,
+   "start": 499.068,
+   "duration": 45.408
+  },
+  {
+   "id": 15,
+   "start": 545.976,
+   "duration": 48.312
+  },
+  {
+   "id": 16,
+   "start": 595.488,
+   "duration": 15.792
+  }
+ ],
+ "sfx": [
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 5.012,
+   "volume": 0.5,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 5.212,
+   "volume": 0.22,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 5.355,
+   "volume": 0.22,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 5.498,
+   "volume": 0.22,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 5.641,
+   "volume": 0.22,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 6.012,
+   "volume": 0.35,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 7.15,
+   "volume": 0.25,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 7.5,
+   "volume": 0.55,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 8.4,
+   "volume": 0.5,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 9.805,
+   "volume": 0.3,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 9.975,
+   "volume": 0.6,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 12.95,
+   "volume": 0.45,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 14.6,
+   "volume": 0.4,
+   "doan": "d01"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 23.95,
+   "volume": 0.5,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 27.118,
+   "volume": 0.55,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 27.838,
+   "volume": 0.6,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 28.248,
+   "volume": 0.6,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 30.578,
+   "volume": 0.5,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 31.928,
+   "volume": 0.5,
+   "doan": "d02"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 39.2,
+   "volume": 0.45,
+   "doan": "d03"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 39.9,
+   "volume": 0.35,
+   "doan": "d03"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 41.225,
+   "volume": 0.6,
+   "doan": "d03"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 44.595,
+   "volume": 0.4,
+   "doan": "d03"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 51.868,
+   "volume": 0.55,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 55.624,
+   "volume": 0.55,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 59.074,
+   "volume": 0.5,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 64.444,
+   "volume": 0.75,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+   "at": 67.474,
+   "volume": 0.55,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 73.434,
+   "volume": 0.35,
+   "doan": "d04"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/xuoc-dia.wav",
+   "at": 76.694,
+   "volume": 0.5,
+   "doan": "d05"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+   "at": 83.869,
+   "volume": 0.55,
+   "doan": "d05"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 91.574,
+   "volume": 0.45,
+   "doan": "d06"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/may-no.wav",
+   "at": 93.074,
+   "volume": 0.4,
+   "doan": "d06"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 94.504,
+   "volume": 0.6,
+   "doan": "d06"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 109.184,
+   "volume": 0.6,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 110.867,
+   "volume": 0.45,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 113.646,
+   "volume": 0.55,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 127.034,
+   "volume": 0.6,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 129.447,
+   "volume": 0.6,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 131.821,
+   "volume": 0.7,
+   "doan": "d07"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 133.597,
+   "volume": 0.45,
+   "doan": "d08"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 134.017,
+   "volume": 0.5,
+   "doan": "d08"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 134.942,
+   "volume": 0.45,
+   "doan": "d08"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 136.022,
+   "volume": 0.6,
+   "doan": "d08"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/im-lang.wav",
+   "at": 139.909,
+   "volume": 0.5,
+   "doan": "d08"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+   "at": 149.463,
+   "volume": 0.55,
+   "doan": "d09"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 154.007,
+   "volume": 0.6,
+   "doan": "d09"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 155.912,
+   "volume": 0.35,
+   "doan": "d09"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/de-kem.wav",
+   "at": 160.763,
+   "volume": 0.55,
+   "doan": "d09"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 165.55,
+   "volume": 0.6,
+   "doan": "d10"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 167.08,
+   "volume": 0.45,
+   "doan": "d10"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 177.138,
+   "volume": 0.55,
+   "doan": "d10"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 185.054,
+   "volume": 0.45,
+   "doan": "d11"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 185.404,
+   "volume": 0.55,
+   "doan": "d11"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 190.241,
+   "volume": 0.3,
+   "doan": "d11"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 198.166,
+   "volume": 0.4,
+   "doan": "d11"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 198.386,
+   "volume": 0.35,
+   "doan": "d11"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 204.711,
+   "volume": 0.45,
+   "doan": "d12"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 205.461,
+   "volume": 0.45,
+   "doan": "d12"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 205.924,
+   "volume": 0.45,
+   "doan": "d12"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+   "at": 221.079,
+   "volume": 0.5,
+   "doan": "d12"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 224.208,
+   "volume": 0.45,
+   "doan": "d13"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 231.133,
+   "volume": 0.45,
+   "doan": "d14"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 231.333,
+   "volume": 0.5,
+   "doan": "d14"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 234.97,
+   "volume": 0.4,
+   "doan": "d14"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/im-lang.wav",
+   "at": 239.57,
+   "volume": 0.5,
+   "doan": "d14"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 241.633,
+   "volume": 0.3,
+   "doan": "d14"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 262.565,
+   "volume": 0.55,
+   "doan": "d16"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 266.952,
+   "volume": 0.55,
+   "doan": "d16"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 269.14,
+   "volume": 0.55,
+   "doan": "d16"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 273.795,
+   "volume": 0.55,
+   "doan": "d16"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 278.895,
+   "volume": 0.45,
+   "doan": "d17"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 285.813,
+   "volume": 0.45,
+   "doan": "d17"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 286.732,
+   "volume": 0.25,
+   "doan": "d17"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/hoi-nuoc.wav",
+   "at": 288.22,
+   "volume": 0.55,
+   "doan": "d17"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 289.02,
+   "volume": 0.3,
+   "doan": "d17"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 290.947,
+   "volume": 0.3,
+   "doan": "d18"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 301.022,
+   "volume": 0.5,
+   "doan": "d18"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/liu-lo-vui.wav",
+   "at": 328.523,
+   "volume": 0.5,
+   "doan": "d19"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 333.742,
+   "volume": 0.45,
+   "doan": "d20"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 337.504,
+   "volume": 0.4,
+   "doan": "d20"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 345.192,
+   "volume": 0.4,
+   "doan": "d20"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/im-lang.wav",
+   "at": 349.467,
+   "volume": 0.6,
+   "doan": "d20"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 355.38,
+   "volume": 0.45,
+   "doan": "d20"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+   "at": 363.362,
+   "volume": 0.5,
+   "doan": "d21"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 376.225,
+   "volume": 0.45,
+   "doan": "d21"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 380.405,
+   "volume": 0.45,
+   "doan": "d22"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/may-no.wav",
+   "at": 386.767,
+   "volume": 0.45,
+   "doan": "d22"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 390.029,
+   "volume": 0.3,
+   "doan": "d22"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/nuot.wav",
+   "at": 391.862,
+   "volume": 0.6,
+   "doan": "d22"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 398.23,
+   "volume": 0.4,
+   "doan": "d23"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 413.479,
+   "volume": 0.4,
+   "doan": "d23"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 424.814,
+   "volume": 0.3,
+   "doan": "d24"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 425.997,
+   "volume": 0.55,
+   "doan": "d24"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 428.484,
+   "volume": 0.45,
+   "doan": "d24"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 429.759,
+   "volume": 0.35,
+   "doan": "d24"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/liu-lo-soc.wav",
+   "at": 432.109,
+   "volume": 0.5,
+   "doan": "d25"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 432.959,
+   "volume": 0.45,
+   "doan": "d25"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 446.559,
+   "volume": 0.35,
+   "doan": "d25"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 498.468,
+   "volume": 0.45,
+   "doan": "d27"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 507.18,
+   "volume": 0.45,
+   "doan": "d28"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 507.43,
+   "volume": 0.3,
+   "doan": "d28"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 515.693,
+   "volume": 0.45,
+   "doan": "d28"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/boing.wav",
+   "at": 547.883,
+   "volume": 0.5,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 551.614,
+   "volume": 0.45,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 556.606,
+   "volume": 0.6,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/dau-wob.wav",
+   "at": 557.406,
+   "volume": 0.9,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 560.766,
+   "volume": 0.4,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
+   "at": 561.426,
+   "volume": 0.55,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 562.026,
+   "volume": 0.4,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 566.201,
+   "volume": 0.3,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 567.238,
+   "volume": 0.35,
+   "doan": "d30"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 568.538,
+   "volume": 0.45,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 569.476,
+   "volume": 0.4,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 570.501,
+   "volume": 0.4,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 571.601,
+   "volume": 0.35,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+   "at": 574.308,
+   "volume": 0.5,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/liu-lo-vui.wav",
+   "at": 576.126,
+   "volume": 0.45,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 578.014,
+   "volume": 0.3,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 579.001,
+   "volume": 0.3,
+   "doan": "d31"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 583.401,
+   "volume": 0.7,
+   "doan": "d32"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+   "at": 588.338,
+   "volume": 0.45,
+   "doan": "d32"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 592.733,
+   "volume": 0.3,
+   "doan": "d32"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 594.938,
+   "volume": 0.35,
+   "doan": "d33"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 595.118,
+   "volume": 0.35,
+   "doan": "d33"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+   "at": 595.298,
+   "volume": 0.35,
+   "doan": "d33"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
+   "at": 599.6,
+   "volume": 0.15,
+   "doan": "d33"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
+   "at": 603.313,
+   "volume": 0.3,
+   "doan": "d33"
+  },
+  {
+   "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
+   "at": 603.863,
+   "volume": 0.45,
+   "doan": "d33"
+  }
+ ],
+ "music": {
+  "volume": 0.2,
+  "crossfade": 0.5,
+  "segments": [
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+    "start": 0.0,
+    "end": 101.084,
+    "mood": "to-mo"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+    "start": 101.084,
+    "end": 141.05,
+    "mood": "hai"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+    "start": 141.05,
+    "end": 224.208,
+    "mood": "to-mo"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+    "start": 224.208,
+    "end": 255.87,
+    "mood": "hai"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+    "start": 255.87,
+    "end": 333.442,
+    "mood": "to-mo"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+    "start": 333.442,
+    "end": 421.334,
+    "mood": "to-mo"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+    "start": 421.334,
+    "end": 450.532,
+    "mood": "hai"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+    "start": 452.732,
+    "end": 497.368,
+    "mood": "khac-nghiet"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+    "start": 498.368,
+    "end": 535.28,
+    "mood": "to-mo"
+   },
+   {
+    "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+    "start": 545.976,
+    "end": 614.888,
+    "mood": "to-mo"
+   }
+  ]
+ }
+}

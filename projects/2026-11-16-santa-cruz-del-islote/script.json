@@ -1,5 +1,5 @@
 {
-  "title": "The Tiny Island People Chose Because It Had No Mosquitoes",
+  "title": "The Mosquito Story Behind Santa Cruz del Islote",
   "format": "horizontal",
   "template": "explainer",
   "language": "en-US",
@@ -30,7 +30,7 @@
       "chapter": "The Spray I Never Opened",
       "lop": "hien-tai",
       "role": "hook: kỷ vật bình xịt muỗi còn niêm phong; đảo nhỏ, ấm, kín nhà hiện ngay giây 5 (trả cảm giác 'warm, very small, and already full' của đuôi tập 3); lời chào nhận diện + thẻ hộ chiếu",
-      "narration": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I collect odd places, and the reasons people stay in them.",
+      "narration": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays.",
       "on_screen_text": "WHY THIS TINY ISLAND?",
       "y_hinh": [
         {
@@ -195,7 +195,7 @@
       "lop": "hoi-uc",
       "khuon": "phong-quy-mo",
       "role": "chương 1 (khuôn phóng quy mô): từ một ô cửa lùi ra cả đảo; thuyền từ Cartagena, nhà, trường, quảng trường, thánh giá đặt tên đảo, không đường không xe",
-      "narration": "The boat from Cartagena takes about two hours. I spent them holding the backpack on my lap like a nervous dog. We both got splashed. There's a shorter ride from Tolú, about an hour by small motorboat. I found that out on the way back. Up close, the island does have land under it. Just not much. Around a hundred houses stand shoulder to shoulder, mostly one storey, with a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no roads and no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking.",
+      "narration": "The boat from Cartagena takes a couple of hours, more if the sea is rough. I spent them holding the backpack on my lap like a nervous dog. We both got splashed. There's a shorter ride from Tolú, forty-five minutes to an hour by small motorboat, depending on who you ask. I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking.",
       "pronunciation": "Cartagena: kar-tah-HAY-nah; Tolú: toh-LOO",
       "y_hinh": [
         {
@@ -209,7 +209,7 @@
           "gag": "Bút chì tô hết mực giữa chừng, dải đất dừng lại cụt lủn"
         },
         {
-          "cue": "Around a hundred houses stand shoulder to shoulder",
+          "cue": "More than a hundred houses stand shoulder to shoulder",
           "y": "Camera bắt đầu từ một ô cửa sơn xanh, lùi dần: dãy nhà tường màu, lối đi hẹp, trường học, quán ăn, quảng trường nhỏ, rồi cả đảo giữa biển"
         },
         {
@@ -238,7 +238,7 @@
         },
         {
           "show": "asset:ai-islote-lane",
-          "cue": "Around a hundred houses",
+          "cue": "More than a hundred houses",
           "move": "zoom-out"
         },
         {
@@ -248,7 +248,7 @@
         },
         {
           "show": "asset:ai-islote-aerial",
-          "cue": "There are no roads",
+          "cue": "There are no cars",
           "move": "zoom-out"
         }
       ],
@@ -365,7 +365,7 @@
       "lop": "hoi-uc",
       "khuon": "doan-sai-roi-lat",
       "role": "chương 2 (đoán sai rồi lật): Wob đoán kho báu → sai → lý do thật: chỗ nghỉ, trú bão giữa ngư trường khoảng 150 năm trước",
-      "narration": "So why here, of all the islands? I had a theory. Treasure. A tiny island, a long time ago, somebody must have buried something. I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found a bottle cap and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town.",
+      "narration": "So why here, of all the islands? I had a theory. Treasure. A tiny island, a long time ago, somebody must have buried something. I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town.",
       "y_hinh": [
         {
           "cue": "I had a theory. Treasure",
@@ -377,9 +377,9 @@
           "gag": "Xẻng gập đôi như khăn giấy; Wob gấp nốt cho gọn rồi giấu ra sau lưng"
         },
         {
-          "cue": "I found a bottle cap",
-          "y": "Wob quỳ, hai tay bới khe đá; giơ lên một cái nắp chai, nhìn nó rất lâu",
-          "gag": "Nắp chai lấp lánh như báu vật trong một giây kèm tia sáng, rồi tắt phụt"
+          "cue": "I found one lost button",
+          "y": "Wob quỳ, hai tay bới khe đá; giơ lên một chiếc cúc áo nhỏ bằng ngón tay, nhìn nó rất lâu",
+          "gag": "Wob ướm thử chiếc cúc lên người mình (Wob không có áo), rồi cất nó vào túi ba lô thật trịnh trọng như cất kho báu"
         },
         {
           "cue": "a bare little island with nobody living on it",
@@ -782,11 +782,11 @@
     {
       "id": 10,
       "type": "section",
-      "chapter": "A Day That Runs on Boats",
+      "chapter": "No River, No Spring",
       "lop": "hoi-uc",
       "khuon": "mot-ngay-o-day",
       "role": "chương 4 (một ngày, đếm bằng thuyền thay cho mốc giờ): thuyền cá đi sớm, nghề cá; không nước ngọt, Hải quân chở nước, máy lấy nước từ hơi ẩm",
-      "narration": "The next day, I kept track of the boats. The earliest leaves before sunrise, full of nets. Fishing is still how most families here make a living. The next boat was my problem. I wanted a shower, and there's no fresh water on the island. No river, no spring, just coral and salt. The Colombian Navy has brought drinking water to these islands by boat. A bank even donated a machine that pulls drinking water out of the humid air. It sounds like magic. It's condensation, the same trick as a cold glass sweating on a hot day. Colombia's housing ministry has also looked at solar-powered machines that turn seawater into drinking water. For now, I showered with a cup.",
+      "narration": "The next day, I kept track of the boats. The earliest leaves before sunrise, full of nets. Fishing and tourism keep a lot of families here going. By some accounts, the tourists are catching up with the fish. The next boat was my problem. I wanted a shower, and there's no fresh water on the island. No river, no spring, just coral and salt. The Colombian Navy has brought drinking water to these islands by boat. A bank even donated a machine that pulls drinking water out of the humid air. It sounds like magic. It's condensation, the same trick as a cold glass sweating on a hot day. Colombia's housing ministry has also looked at solar-powered machines that turn seawater into drinking water. For now, I showered with a cup.",
       "y_hinh": [
         {
           "cue": "full of nets",
@@ -877,15 +877,15 @@
       "type": "section",
       "lop": "hoi-uc",
       "role": "tiếp một ngày: điện lai mặt trời và diesel; thuyền khách du lịch; người dân làm ở khách sạn đảo bên (nguồn yếu, rào 'reportedly'); thuyền cá về",
-      "narration": "In the afternoon I went looking for a socket. In twenty twenty-one, Colombia's energy ministry set up a hybrid power plant here, with solar panels, a new diesel generator and a bank of batteries. I plugged in my phone. The batteries took it personally. My phone charged a little, and I decided a little was plenty. Later, speedboats bring day visitors from hotels on nearby islands, and tourism matters more every year. Some islanders reportedly work at those hotels. I joined a group of visitors for a lap of the island. We finished before anyone's ice cream had a chance to melt. Then the fishing boats came home, and the whole day folded back into the island. Every hour had a boat in it. Nobody here ended up on this island by accident.",
+      "narration": "In the afternoon I went looking for a socket. In twenty twenty-one, Colombia's energy ministry upgraded the island's solar and diesel power system, with a new diesel generator and a tune-up for its batteries. I plugged in my phone. The batteries took it personally. My phone charged a little, and I decided a little was plenty. Later, speedboats bring day visitors from hotels on nearby islands, and tourism matters more every year. Some islanders reportedly work at those hotels. I joined a group of visitors for a lap of the island. We finished before anyone's ice cream had a chance to melt. Then the fishing boats came home, and the whole day folded back into the island. Every hour had a boat in it. Nobody here ended up on this island by accident.",
       "y_hinh": [
         {
           "cue": "I went looking for a socket",
           "y": "Wob cầm điện thoại hết pin, dây sạc lủng lẳng, đi dọc tường"
         },
         {
-          "cue": "solar panels, a new diesel generator and a bank of batteries",
-          "y": "Mái nhà có tấm pin mặt trời lấp lánh; nhà máy nhỏ có ống khói máy diesel; dãy ắc quy xếp hàng như lính"
+          "cue": "a new diesel generator and a tune-up for its batteries",
+          "y": "Mái nhà có vài tấm pin mặt trời cũ (đã có từ trước); thợ lắp một máy diesel mới có ống khói nhỏ; dãy ắc quy xếp hàng như lính, một người thợ lau chùi và vặn ốc (bảo trì, không phải lắp mới)"
         },
         {
           "cue": "The batteries took it personally",
@@ -1027,7 +1027,7 @@
       "lop": "hien-tai",
       "role": "cắt về bàn (lần duy nhất giữa tập, nghiêm túc, không gag): ba lô ướt trên bàn; quần đảo thấp ~2 m, xói mòn 45% (2014), một đảo đã biến mất, biển dâng tới 30 cm vào 2050; Wob đổi ý lần 2",
       "music_mood": "khac-nghiet",
-      "narration": "Back home, I set the backpack on my desk. It's still drying. For the people out there, that night isn't a funny story. The Guardian reported that islanders sometimes wake up to find water in their homes. These islands sit only about two metres above the sea on average. That's roughly six and a half feet. A local report in twenty fourteen found erosion along about forty-five percent of the archipelago's coastline. One nearby island, about a hectare in size, has disappeared completely. Global sea levels are expected to rise by up to thirty centimetres by twenty fifty. That's about a foot. Imagine a table standing in a bathtub, with the tap left running. A hammock story is funny once. Living with it, year after year, is something else. I changed my mind back.",
+      "narration": "Back home, I set the backpack on my desk. It's still drying. For the people out there, that night isn't a funny story. The Guardian reported that islanders sometimes wake up to find water in their homes. These islands sit only about two metres above the sea on average. That's roughly six and a half feet. A local report in twenty fourteen, cited by The Guardian, found erosion along about forty-five percent of the archipelago's coastline. One small island nearby has disappeared completely. Global sea levels are expected to rise by up to thirty centimetres by twenty fifty. That's about a foot. Imagine a table standing in a bathtub, with the tap left running. A hammock story is funny once. Living with it, year after year, is something else. I changed my mind back.",
       "facts": [
         {
           "label": "Average height",
@@ -1117,7 +1117,7 @@
       "lop": "hoi-uc",
       "khuon": "trang-so-hanh-trinh",
       "role": "chương 6 (trang sổ hành trình): sáng rời đảo, Wob vẽ các tuyến thuyền; vì sao người ta vẫn ở (khẳng định có nguồn: cá, khách, gia đình qua nhiều đời; có người chuyển sang đảo khác, người đi học thường quay về); nghĩa trang ở đảo khác (một câu, không gag)",
-      "narration": "So why not pack up and move somewhere drier? I wondered about that on the boat out, while the island shrank behind me into a handful of roofs on the water. I drew its boat routes in my notebook. One line ran out to the fishing grounds, where the nets go before the sun is up. Another ran next door, to the hotels. A third ran toward the mainland, for school. Over the years, some families have moved to neighbouring islands, and young people leave to keep studying. Plenty of them come back. I tried to picture leaving a place where everyone I love fits inside one evening walk. I couldn't make the picture work. The fish are close. So are the visitors. And this is where their families have lived for generations. One more thing, said quietly. There's no room on the island for a cemetery. People are buried on another island. Even that, they've found a way to carry.",
+      "narration": "So why not pack up and move somewhere drier? I wondered about that on the boat out, while the island shrank behind me into a handful of roofs on the water. I drew its boat routes in my notebook. One line ran out to the fishing grounds, where the nets go before the sun is up. Another ran next door, to the hotels. A third ran toward the mainland, for school. Young people who want to keep studying past the island's school have to leave. I tried to picture leaving a place where everyone I love fits inside one evening walk. I couldn't make the picture work. The fish are close. So are the visitors. And this is where their families have lived for generations. One more thing, said quietly. There's no room on the island for a cemetery. People are buried on another island. Even that, they've found a way to carry.",
       "y_hinh": [
         {
           "cue": "a handful of roofs on the water",
@@ -1132,8 +1132,8 @@
           "y": "Thuyền giấy nhỏ chạy theo nét đứt tới đảo bên cạnh có mái khách sạn"
         },
         {
-          "cue": "Plenty of them come back",
-          "y": "Các đường nét đứt đều vòng về chấm đảo",
+          "cue": "have to leave",
+          "y": "Một đường nét đứt chạy từ chấm đảo vào đất liền, chiếc thuyền giấy nhỏ chở cặp sách",
           "gag": "Thuyền giấy của Wob chạy lạc ra mép trang, rơi khỏi sổ, rồi lóng ngóng leo lại vào trang"
         },
         {
@@ -1181,8 +1181,8 @@
           "bieu_cam": "ngam-nghi"
         },
         {
-          "cue": "Plenty of them come back",
-          "bieu_cam": "hao-hung"
+          "cue": "have to leave",
+          "bieu_cam": "ngam-nghi"
         },
         {
           "cue": "One more thing",
@@ -1196,10 +1196,10 @@
       "chapter": "The Backpack Decides",
       "lop": "hien-tai",
       "role": "outro khuôn mới: con dấu đóng TRƯỚC, bật ra từ hành động (ba lô phủ kín hình đảo trong sổ), rồi mới nói lý do; không tóm ba vế, không câu hỏi 'Would I move', không cặp suits; callback bình xịt; câu hỏi bình luận mới",
-      "narration": "This morning I tried packing the backpack again, to see if it had learned anything. It hadn't. It still smelled like the sea. I laid it on the drawing of the island in my notebook, and it covered every house. NOPE. I'm stamping it first, so nobody blames the island. The island's fine. The people out there built their own ground out of coral, by hand. They keep it going with water that arrives by boat, and a sea that keeps knocking. Their reasons fit in a fishing boat. Mine needed a crane. Honestly, I'd go back tomorrow for one more evening in that square, carrying a bag the size of a lunchbox. If you travel with one small bag, love the water and don't mind hearing your neighbour's radio, you'd do better than me. I gave the spray one last shake. Still sealed. Still smug. What would you leave on the dock to fit on that island?",
+      "narration": "This morning I tried packing the backpack again, to see if it had learned anything. It hadn't. It still smelled like the sea. I laid it on the drawing of the island in my notebook, and it covered every house. NOPE. That stamp is about me, not the island. The people out there built their own ground out of coral, by hand. They keep it going with water that arrives by boat, and a sea that keeps knocking. A home there takes patience, a good boat and very little luggage. I arrived with a mountain of luggage and no boat. Honestly, I'd go back tomorrow for one more evening in that square, carrying a bag the size of a lunchbox. If you travel with one small bag, love the water and don't mind hearing your neighbour's radio, you'd do better than me. Somewhere out there, a mosquito is still very pleased with itself. What would you leave on the dock to fit on that island?",
       "verdict": {
         "label": "NOPE",
-        "reason": "Wob packs far too much for an island this small, and fresh water by boat plus a rising sea are real costs; the islanders have strong reasons to stay, Wob's luggage does not.",
+        "reason": "Wob packs far too much for an island this small, and fresh water by boat plus a sea that keeps knocking are real costs; the islanders have strong reasons to stay, Wob's luggage and lack of a boat do not.",
         "cue": "NOPE"
       },
       "y_hinh": [
@@ -1221,7 +1221,7 @@
           "y": "Mép trang sổ, nét sóng vẽ tay gõ gõ vào hình đảo"
         },
         {
-          "cue": "Mine needed a crane",
+          "cue": "I arrived with a mountain of luggage",
           "y": "Bong bóng tưởng tượng: một cần cẩu giấy cố nhấc ba lô của Wob lên thuyền, thuyền chìm nửa thân"
         },
         {
@@ -1229,7 +1229,7 @@
           "y": "Wob giơ một hộp cơm trưa nhỏ, ướm thử bên cạnh ba lô khổng lồ"
         },
         {
-          "cue": "I gave the spray one last shake",
+          "cue": "Somewhere out there, a mosquito",
           "y": "Wob lắc bình xịt; tem niêm phong vẫn nguyên",
           "gag": "Con muỗi giấy trên bàn bò lại gần bình xịt, đọc nhãn, rồi đi bộ thong thả ra khỏi khung"
         },
@@ -1254,7 +1254,7 @@
         },
         {
           "show": "asset:map-islote",
-          "cue": "I gave the spray one last shake",
+          "cue": "Somewhere out there, a mosquito",
           "move": "zoom-in",
           "zoom": 1.2,
           "focus": [
@@ -1273,11 +1273,11 @@
           "bieu_cam": "soc"
         },
         {
-          "cue": "The island's fine",
+          "cue": "That stamp is about me",
           "bieu_cam": "ngam-nghi"
         },
         {
-          "cue": "Still smug",
+          "cue": "very pleased with itself",
           "bieu_cam": "hao-hung"
         }
       ]
@@ -1540,33 +1540,38 @@
     {
       "id": "C05",
       "scene": 3,
-      "quote": "The boat from Cartagena takes about two hours.",
-      "statement": "Santa Cruz del Islote is about a two-hour boat ride from Cartagena, Colombia.",
+      "quote": "The boat from Cartagena takes a couple of hours, more if the sea is rough.",
+      "statement": "The boat ride from Cartagena to Santa Cruz del Islote takes about two hours, longer in rough seas; reported times vary.",
       "source_ids": [
-        "S1"
+        "S1",
+        "S14",
+        "S18"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C06",
       "scene": 3,
-      "quote": "There's a shorter ride from Tolú, about an hour by small motorboat.",
-      "statement": "Santa Cruz del Islote is about a one-hour ride by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast.",
+      "quote": "There's a shorter ride from Tolú, forty-five minutes to an hour by small motorboat, depending on who you ask.",
+      "statement": "Santa Cruz del Islote is roughly 45 minutes to an hour by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast; sources differ.",
       "source_ids": [
-        "S14"
+        "S19",
+        "S14",
+        "S18"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C07",
       "scene": 3,
-      "quote": "Around a hundred houses stand shoulder to shoulder, mostly one storey, with a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no roads and no cars.",
-      "statement": "Santa Cruz del Islote has around 100 mostly one-storey houses, a school, a restaurant and a small square with a cross that gives the island its name, and no roads or cars.",
+      "quote": "More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars.",
+      "statement": "Santa Cruz del Islote has more than a hundred houses (Colombia's 2018 census counted 120 dwellings), a school, a restaurant and a small square with a cross that gives the island its name, and no cars.",
       "source_ids": [
-        "S5",
+        "S17",
+        "S21",
         "S1"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C08",
@@ -1654,12 +1659,13 @@
     {
       "id": "C16",
       "scene": 10,
-      "quote": "The earliest leaves before sunrise, full of nets. Fishing is still how most families here make a living.",
-      "statement": "Fishing remains the main livelihood on Santa Cruz del Islote, although tourism is growing.",
+      "quote": "Fishing and tourism keep a lot of families here going. By some accounts, the tourists are catching up with the fish.",
+      "statement": "Fishing and tourism are the two pillars of the economy of Santa Cruz del Islote; tourism is becoming increasingly important.",
       "source_ids": [
-        "S7"
+        "S7",
+        "S18"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C17",
@@ -1695,12 +1701,13 @@
     {
       "id": "C20",
       "scene": 11,
-      "quote": "In twenty twenty-one, Colombia's energy ministry set up a hybrid power plant here, with solar panels, a new diesel generator and a bank of batteries.",
-      "statement": "In 2021 Colombia's Ministry of Mines and Energy delivered a hybrid solar-diesel power plant to Santa Cruz del Islote, including a new 125 kVA diesel generator and maintenance of its battery bank.",
+      "quote": "In twenty twenty-one, Colombia's energy ministry upgraded the island's solar and diesel power system, with a new diesel generator and a tune-up for its batteries.",
+      "statement": "In 2021 Colombia's Ministry of Mines and Energy upgraded Santa Cruz del Islote's hybrid solar-diesel power system with a new 125 kVA diesel generator and inverter, and serviced its battery bank.",
       "source_ids": [
-        "S12"
+        "S12",
+        "S20"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C21",
@@ -1727,12 +1734,12 @@
     {
       "id": "C23",
       "scene": 13,
-      "quote": "A local report in twenty fourteen found erosion along about forty-five percent of the archipelago's coastline. One nearby island, about a hectare in size, has disappeared completely.",
-      "statement": "A 2014 local government report found erosion affecting about 45% of the San Bernardo archipelago's coastlines, and Maravilla Island, about one hectare, had disappeared by around 2017.",
+      "quote": "A local report in twenty fourteen, cited by The Guardian, found erosion along about forty-five percent of the archipelago's coastline. One small island nearby has disappeared completely.",
+      "statement": "A 2014 local government report, cited by The Guardian, found erosion affecting about 45% of the San Bernardo archipelago's coastlines; the small nearby island of Maravilla has since disappeared.",
       "source_ids": [
         "S13"
       ],
-      "hedged": false
+      "hedged": true
     },
     {
       "id": "C24",
@@ -1747,21 +1754,12 @@
     {
       "id": "C25",
       "scene": 14,
-      "quote": "Over the years, some families have moved to neighbouring islands, and young people leave to keep studying.",
-      "statement": "Because of Santa Cruz del Islote's small size, some residents have moved to neighbouring islands such as Tintipán or Múcura, and students who continue their education leave the island.",
+      "quote": "Young people who want to keep studying past the island's school have to leave.",
+      "statement": "Students from Santa Cruz del Islote who want to continue beyond the island's school must leave the island.",
       "source_ids": [
-        "S4",
-        "S16"
-      ],
-      "hedged": false
-    },
-    {
-      "id": "C26",
-      "scene": 14,
-      "quote": "Plenty of them come back.",
-      "statement": "Many students from Santa Cruz del Islote who leave to continue their education later return to the island.",
-      "source_ids": [
-        "S16"
+        "S1",
+        "S21",
+        "S17"
       ],
       "hedged": false
     },
@@ -1769,7 +1767,7 @@
       "id": "C27",
       "scene": 14,
       "quote": "The fish are close. So are the visitors. And this is where their families have lived for generations.",
-      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, which remain the main livelihood, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
+      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
       "source_ids": [
         "S7",
         "S1"
@@ -1943,6 +1941,51 @@
       "url": "https://au.expeditions.com/expedition-stories/stories/5-things-you-didnt-know-about-santa-cruz-del-islote",
       "published": null,
       "accessed": "2026-11-22"
+    },
+    {
+      "id": "S17",
+      "title": "Sentencia 25000-23-24-000-2012-00278-03 (AP), Santa Cruz del Islote",
+      "publisher": "Consejo de Estado de Colombia (via normograma, compilación Procuraduría)",
+      "type": "goc",
+      "url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm",
+      "published": "2026-05-14",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "S18",
+      "title": "Descubre Santa Cruz del Islote: la isla más poblada y su lucha por un futuro sostenible",
+      "publisher": "Radio Nacional de Colombia (RTVC)",
+      "type": "bao",
+      "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro",
+      "published": null,
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "S19",
+      "title": "Conoce El islote de Santa Cruz",
+      "publisher": "Colombia Travel (ProColombia)",
+      "type": "goc",
+      "url": "https://colombia.travel/en/node/4010",
+      "published": null,
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "S20",
+      "title": "La nueva energía ilumina los hogares de 601 familias en el Caribe colombiano",
+      "publisher": "IPSE",
+      "type": "goc",
+      "url": "https://ipse.gov.co/blog/2021/10/22/la-nueva-energia-ilumina-los-hogares-de-601-familias-en-el-caribe-colombiano/",
+      "published": "2021-10-22",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "S21",
+      "title": "Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo",
+      "publisher": "BBC Mundo (via T13)",
+      "type": "bao",
+      "url": "https://www.t13.cl/noticia/mundo/bbc/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo",
+      "published": null,
+      "accessed": "2026-11-26"
     }
   ]
 }

@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "bonk",
+  "tai": 12.75,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "boing",
+  "tai": 14.433,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "boing",
+  "tai": 17.212,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "bonk",
+  "tai": 30.6,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "bonk",
+  "tai": 33.013,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "bonk",
+  "tai": 35.387,
+  "am_luong": 0.7
+ }
+]

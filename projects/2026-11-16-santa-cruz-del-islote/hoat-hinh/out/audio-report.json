@@ -1,0 +1,90 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.3
+    },
+    "video.mp4": {
+      "lufs": -14.3,
+      "true_peak": -1.6
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 0.0,
+      "end": 101.084
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+      "mood": "hai",
+      "start": 101.084,
+      "end": 141.05
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 141.05,
+      "end": 224.208
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 224.208,
+      "end": 255.87
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 255.87,
+      "end": 333.442
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 333.442,
+      "end": 421.334
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/investigations.mp3",
+      "mood": "hai",
+      "start": 421.334,
+      "end": 450.532
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 452.732,
+      "end": 497.368
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 498.368,
+      "end": 535.28
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 545.976,
+      "end": 614.888
+    }
+  ],
+  "sfx_count": 129,
+  "sections": {
+    "than_video": {
+      "lufs": -14.3,
+      "true_peak": -1.6
+    },
+    "canh_cuoi": {
+      "lufs": -14.5,
+      "true_peak": -2.2
+    }
+  }
+}

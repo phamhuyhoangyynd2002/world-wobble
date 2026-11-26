@@ -1,0 +1,701 @@
+{
+ "vong": 1,
+ "che_do": "phan-canh",
+ "tap": "2026-11-16-santa-cruz-del-islote",
+ "ngay": "2026-11-26",
+ "tong_the": {
+  "ket_luan": "ĐẠT",
+  "diem_T": 12,
+  "tren": 16,
+  "T": {
+   "T1": {
+    "diem": 1,
+    "nhan_xet": "Khung 0 đạt: Wob giơ bình xịt, tem đỏ, sổ có bản đồ. Đảo kín nhà bật dựng trước 6 s. Thẻ hộ chiếu ở 10,03 s, trước giây 40. Hai mồi trước 10 s: tem còn nguyên, \"Nothing there wanted to bite me\". Nhưng câu hỏi của tập chỉ hiện rõ ở 39,35 s (\"So why squeeze onto this one?\"), muộn hơn tập 3 (28,8 s). Đây là việc của lời (xem mục Gửi biên kịch), không chặn cổng. Lý do ở lại qua 30 s: hai sân bóng (25,6), dân số không ai đồng ý (28,7)."
+   },
+   "T2": {
+    "diem": 2,
+    "nhan_xet": "Mốc mồi: 0 bình xịt · 6,8 Wob nảy · 15 lên thuyền · 25,6 sân bóng · 39 chèn muỗi · 51 thuyền nghiêng · 74 bút chì · 91 xe lao biển · 106 ba lô kẹt · 134 BRING LESS · 141 chương kho báu · 161 lật về quá khứ · 185 muỗi disco · 224 đêm làm mồi · 256 chương dân số · 279 hũ kẹo · 302 trẻ chui gầm ba lô · 328 đổi ý 1 · 334 chương một ngày · 346 vòi tưởng tượng · 358 mũ phù thuỷ · 389 ắc quy · 422 võng · 431 nước dâng · 450 cắt về bàn · 495 đổi ý 2 · 498 rời đảo · 545 outro · 557 NOPE · 570 cần cẩu · 594 đuôi. Khoảng trống dài nhất giữa hai mồi ≈ 27 s (395→422). Không đoạn nào giải thích quá 90 s."
+   },
+   "T3": {
+    "diem": 2,
+    "nhan_xet": "Không chuỗi cùng phong cách nào quá 90 s (dài nhất: cắt giấy d18–d20, 289,7–358,3 = 68,6 s). Có 23 thẻ khác nhau trên 50 nhịp có thẻ; thẻ dùng nhiều nhất chiếm 4/50 = 8%. Ánh sáng: trưa, sepia, đêm trăng, bình minh hồng, chạng vạng cam tím, đèn bàn lạnh (d26), nắng sớm ở bàn (d30)."
+   },
+   "T4": {
+    "diem": 2,
+    "nhan_xet": "Đọc riêng các khung đầu chương vẫn ra một chuyến đi: bàn → thuyền tới đảo → lối hẹp → sơ đồ kho báu → quảng trường đếm người → cầu tàu bình minh → võng đêm cuối → bàn (nghiêm) → thuyền rời đảo → bàn và con dấu → kệ. Bình xịt mở vòng ở d01, đóng ở d32 và d33. Trang hộ chiếu mở ở d01, đóng ở d30. Chỉ cắt về hiện tại một lần giữa tập (d26), rõ. Ghi chú: lớp hiện tại chiếm ≈ 21% (d01, d26, d30–d33), gấp đôi mức ~10% trong định hướng, nhưng có lý do (outro và đuôi dài). Không trừ điểm."
+   },
+   "T5": {
+    "diem": 1,
+    "nhan_xet": "Khoảng 60 gag (danh sách bên dưới). Lặp: (1) \"muỗi lờ Wob hoặc bỏ đi\" 4 lần: d01 8,4 · d03 44,5 · d10 178,9 · d32 586,7. (2) Nắp chai \"lấp lánh như báu vật\" ở d09 158,4 lặp gag nắp chai kim cương của tập 3 (Whittier dùng 2 lần, dòng 554 và 1467 của phân cảnh tập 3). (3) Đạo cụ lặp tập trước: thước dây (d12, tập 3 \"thước dây kẹp mũi\"), kính lúp (d15, tập 2 \"kính lúp tìm cỏ\"), leo thang đồ trong ba lô (d08, gần prelude tập 2). Chỗ nghiêm: d26 có lặng trước 2,5 s (449,26→451,74) và sau 2,5 s. d29 lặng sau chỉ ≈ 1,1 s, và nhạc `wallpaper` (tò mò) chạy suốt câu nghĩa trang. Đoạn khô dài nhất ngoài chỗ nghiêm: 318→340 (≈ 22 s)."
+   },
+   "T6": {
+    "diem": 2,
+    "nhan_xet": "Tỉ lệ: cắt giấy 54,7% · vẽ tay 25,5% · diorama 19,9%, đều trong khoảng mục tiêu. Không khoảng 15 s nào đổi phong cách quá 2 lần. Lần đổi nào cũng có lý do ghi trong `ly_do_phong_cach`. d31 (vẽ tay) nằm giữa d30 và d32 (diorama ở bàn): chấp nhận vì là đoạn chèn tưởng tượng."
+   },
+   "T7": {
+    "diem": 1,
+    "nhan_xet": "Khoá trang phục rất kỹ (xem dòng thời gian bên dưới). Trừ 1 điểm vì: d04 (Wob đang ngồi trên ba lô ở 51 s → ôm ba lô trên đùi ở 60,7 s mà không có động tác chuyển); d32 → d33 (cùng bàn, ba lô khổng lồ biến mất qua chỗ cắt); bình xịt \"took it to the island\" mà không thấy trong chuyến đi tới tận d13. Ngoài tập: mũ cói trùng y màu và dáng mũ tập 2 (kraft #C9A46A, dải đỏ #C9463A)."
+   },
+   "T8": {
+    "diem": 1,
+    "nhan_xet": "Con dấu NOPE đóng đúng một lần (d30, 557,31, trước chữ 557,38 hai khung), ≥ 140 px giữa khung, có `dau-wob`. Kết: lời hết 610,00, giữ 3,98 s, nhạc không tắt, không mờ đen. Đuôi dài 20,0 s, khung end screen đứng yên ≥ 18 s, kỷ vật 3 tập trước đúng. Trừ 1: câu hỏi cuối (590,99) thiếu hình riêng (chỉ \"tay đặt lên ba lô\"); khung end screen 1 đặt ở y 130–445 lấn vào vùng logo (x > 1500, y < 150). Skill ghi y 150–465."
+   }
+  },
+  "cong_5a": "CHƯA QUA",
+  "ly_do_cong": "d33 LÀM LẠI (D6 = 0: nhịp 'Next' đặt 597,24 thay vì 602,45)",
+  "dem": {
+   "SỬA NHỎ": 7,
+   "ĐẠT": 25,
+   "LÀM LẠI": 1
+  },
+  "loi_nang": [],
+  "can_ranh_gioi": [
+   "d28 516,26: gag thuyền giấy rơi đúng câu người trẻ phải rời đảo để đi học: dời sang 513,82"
+  ],
+  "loi_may_sinh": "sinh-phan-canh.py dòng 421 T(16,'Next:') khớp nhầm 'next to the tunnel timetable' (597,24); sửa T(16,'Next: an')",
+  "luat_chung_them": [
+   "Đồ có mặt số chỉ có kim, vạch, biểu tượng, không chữ, không số",
+   "Dấu ? dùng làm hình ghi vào chu_tren_do_vat (d02, d10, d17)",
+   "Mọi đoạn nghiêm ghi rõ Wob trầm, không cười (d29)",
+   "Bình xịt thấy ở túi hông ba lô từ d02",
+   "(Nên) mũ cói đổi dải xanh ngọc #2A9D8F, vành rơm sáng đan rõ để khác mũ tập 2"
+  ],
+  "gui_bien_kich": [
+   "Câu hỏi của tập rõ ở 39,35 s",
+   "'I found a bottle cap' trùng vật gag tập 3",
+   "Nhá tập 5 khớp brief Tristan da Cunha"
+  ],
+  "gui_phien_chinh": [
+   "out/captions.srt dòng 96, 106 còn phiên âm kar-tah-HAY-nah, toh-LOO (subtitles cảnh 3 tts-raw)"
+  ]
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D7: thẻ hộ chiếu rộng 664 px (x 96–760), mà dòng `SANTA CRUZ DEL ISLOTE` 21 ký tự in hoa ở 45 px Fraunces rộng ≈ 600–680 px, sát hoặc tràn mép. Ghi rõ \"tên nơi được xuống hai dòng SANTA CRUZ / DEL ISLOTE\" hoặc nới thẻ tới x 860. (b) Nhịp 6,80: `boi_canh` nói \"Wob đứng cạnh bàn\" nhưng gag là \"nảy bật khỏi mặt bàn\". Ghi Wob đứng **trên** mặt bàn. (c) D5: thêm cận bình xịt (tem chiếm ≥ 1/4 khung) đúng \"seal's\" 7,05, rồi lui về trung cảnh khi Wob nảy. (d) D6: giữ 0,8 s sau cú nảy kết thúc ở ≤ 8,3 thì muỗi mới vào khung từ 8,4. Thẻ hộ chiếu lật đi ở 13,1–13,4, trước \"people\" 13,56."
+  },
+  {
+   "id": "d02",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: Wob vắng 21,9–35,2 s (3 nhịp liền). Nhịp 21,93: giữ vành mũ cói và gáy Wob làm tiền cảnh, Wob đẩy vành mũ lên nhìn. Nhịp 25,57: thuyền Wob neo sát mép \"sân\", quả bóng giấy lăn khỏi sân rơi **trúng vành mũ Wob**, nảy tõm xuống biển, giữ 0,6 s (gag dồn vào Wob, D3 lên 2). Nhịp 28,74: Wob đếm ba tấm biển dấu hỏi bằng ngón tay, tới tấm thứ ba nghiêng thì ngón tay cũng nghiêng theo. Thêm `?` vào `chu_tren_do_vat` (ký hiệu ở 3 tấm biển). Nên cắm bình xịt vào túi hông ba lô ngay từ đây (vật cài cho cả tập)."
+  },
+  {
+   "id": "d03",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Nhịp 44,48 muỗi xách va li là lần thứ 2 của mô-típ \"muỗi bỏ đi\": giữ ở đây (lần rõ nhất), đổi d10 và d32."
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D7: 5 nhãn (`Cartagena`, `Tolú`, `Santa Cruz del Islote`, `~2 h by boat`, `45 min–1 h`) nằm trên cuốn sổ đặt trên đùi Wob trong khung thuyền thì sẽ dưới 45 px. Nhịp 56,20: lao vào cận trang sổ (trang ≥ 70% bề rộng khung) suốt 56,2–60,6, rồi lui ra ở 60,74. Nhịp 65,77: lao vào lại tới 73,2. Sóng làm trang rung tối đa 4 px. (b) D8: thêm động tác chuyển ở 60,74: Wob trèo xuống khỏi ba lô, kéo ba lô vắt ngang đùi; ba lô cao 1,6 thân đè lút Wob, chỉ còn mũ và hai tay ló ra vuốt nắp. (c) D6: nhịp 56,20 đừng để sóng rung cùng lúc nét đứt đang vẽ. Sóng chỉ rung sau khi thẻ `~2 h by boat` đứng yên (≈ 58,8)."
+  },
+  {
+   "id": "d05",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D7: thẻ `120 houses · Census 2018` dán lúc camera đang lùi (83,95) sẽ co nhỏ. Dừng lùi 1,5 s ở 83,4–84,9 cho thẻ ≥ 45 px, hoặc dán thẻ ở khung cuối của cú lùi. `SCHOOL` cũng phải ≥ 45 px ở cỡ cảnh lúc nó hiện. (b) D4: Wob vắng 74,2–84,7. Nhịp 74,18: Wob đứng mũi thuyền nhìn bút chì, khi bút hết mực thì Wob giơ một ngón tay \"thêm chút nữa\". Nhịp 78,25: khung đầu là ô cửa có mặt Wob thò vào nhìn, rồi mới lùi. (c) D6: nhịp 84,72 nhồi trường + quán + quảng trường + Wob đi + ba lô quệt mái trong 3 s. Đổi lùi thành `lia-theo-vat` theo Wob, mỗi nơi một nhịp: trường ở \"school\" 85,05, quán ở \"restaurant\" 85,87, quảng trường ở \"square\" 87,02. Bỏ chi tiết \"ba lô quệt mái hiên\" (để dành cho d07)."
+  },
+  {
+   "id": "d06",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": "Punchline \"kim xăng đầy\" quá nhỏ và chỉ còn 0,6 s (lời hết 95,70, đoạn hết 96,33). Sau cú tõm (~94,6), cắt cận đồng hồ xăng dưới mặt nước (chiếm 1/3 khung), kim chỉ đầy, giữ tới hết đoạn. Đồng hồ chỉ có kim, vạch và biểu tượng cây xăng, **không chữ E/F**. Wob ở mép khung: từ \"fuel\" thì hé một ngón tay nhìn qua kẽ."
+  },
+  {
+   "id": "d07",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "(a) D6: khoảng lặng 99,2–101,1 s chưa có hình. Dùng cho gag: Wob thử đặt ba lô xuống ghế nhựa thì ghế đã có mèo nằm; thử bậu cửa thì bậu chỉ rộng bằng bàn tay. Nhịp 101,08: góc từ trên cao cả đảo, Wob là chấm nhỏ đi vòng mép đảo trong ≈ 2 s, rồi lao vào cận đồng hồ tay (mặt không số). (b) D5: ghi cỡ cảnh: kẹt ba lô trung cảnh, take ở 109,9 cận mặt Wob, mèo cận ở 130,36, dây phơi làm tiền cảnh khi cậu bé đi qua."
+  },
+  {
+   "id": "d08",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Leo thang \"lôi đồ khỏi ba lô\" gần prelude tập 2 (nhét mũ, chai nước, cờ, ba lô phồng). Đổi lần ba thành chi tiết riêng của đảo: lôi ra **một chiếc ghế nhựa y hệt** những chiếc ghế nhựa đứng ở mọi cửa sau lưng. Mỗi món ≥ 0,9 s; phao vịt (nếu giữ) đổi làm lần hai."
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "**Bắt buộc:** nhịp 156,39 bỏ hẳn \"tia sáng lóe\" ở nắp chai (lặp gag nắp chai kim cương của tập 3 hai lần). Nắp chai chỉ là nắp chai: Wob giơ lên nhìn 0,5 s, lặng lẽ đặt lại vào khe, vun đất lấp lại như chưa từng đào, rồi kéo vành mũ sụp kín mắt. Nhịp 141,80: 8,7 s trên một sơ đồ, cho camera lướt theo mũi tên tới dấu X (smootherstep), Wob đuổi theo nét mực."
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "(a) D3: nhịp 178,92 \"muỗi bay tới nhìn rồi quay đi\" là lần thứ 3 của mô-típ. Thay bằng: Wob ở mép trang cầm vợt bắt muỗi giấy đứng gác; sao đi một vòng trời; vợt vẫn trống; Wob ngủ gật tựa cán vợt. (b) D4: Wob vắng 166,1–174,8. Nhịp 166,05: Wob nhón chân nhìn qua mép trang sepia. Nhịp 170,90: mây bão trôi ngang trang, Wob kéo vành mũ che. (c) Nhịp 161,25: \"asked around\" thì vẽ 2–3 bóng người giấy chung, không phải một cụ già cụ thể, để không thành cuộc gặp một người thật có danh tính."
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: Wob vắng 185,0–194,2. Nhịp 184,96: Wob ló đầu sau cành đước, ánh quả cầu disco quét qua mặt Wob ba lần. Nhịp 190,04: Wob đứng trên đảo trơ trụi bên này, con muỗi chống nạnh lắc đầu với **Wob**. D6: nhịp 194,18 chia hai: biển cửa và Wob vẫy ở 194,2–196,5; muỗi gõ cửa, chờ, tháo mũ ở 197,0–199,2."
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "ĐẠT",
+   "viec": "(a) D4: Wob vắng 199,5–210,0. Thêm Wob ở mép trang sepia đếm từng nấc đảo nở bằng ngón tay (3 ngón ở pop thứ 3). (b) D5: ghi cách đổi từ quá khứ về chuyến đi ở 209,97: lớp xi măng láng ra thành nền lối đi dưới chân Wob, sepia ấm dần thành màu ban ngày (cắt khớp hình, không cắt cứng). (c) D7: thước dây chỉ có vạch, không số. Thước dây là đạo cụ của tập 3. Nên thay bằng: lùi ra toàn đảo từ trên cao, viền đảo không đổi, chỉ có một mũi tên giấy tí hon chỉ vào vỏ sò; Wob gật đầu."
+  },
+  {
+   "id": "d13",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D5: một nhịp 7,5 s mà chưa có camera. Dùng mép mái nhà tối làm tiền cảnh trên, đẩy chậm vào Wob, giữ đảo đước ở 1/3 phải."
+  },
+  {
+   "id": "d14",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D6: \"It wasn't.\" hết 243,97, đoạn cắt ở 244,187, nên chỉ còn 0,2 s. Cho phản ứng (Wob chớp mắt, cái đầu trọc bóng loáng dưới trăng, không muỗi) bắt đầu ở 243,40 (hai khung trước chữ) để đủ 0,8 s trước cắt."
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Nhịp 249,89: kính lúp là đạo cụ gag của tập 2. Nên đổi: Wob vuốt ngón tay dọc cánh tay như đọc chữ nổi, rồi lật tay xem mặt dưới. D5: ghi cách chuyển đêm → sáng (cắt cứng cùng khung, trời đổi màu)."
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "D7: cái bấm đếm có ô hiển thị. Ghi \"ô hiển thị trống hoặc chỉ có vạch, không số\", nếu không thợ dựng có thể vẽ số. Bốn tấm biển ≥ 45 px và không chồng chữ (đã ghi). Đặt toàn bộ dưới y 150. D5: trung cảnh khi bốn biển chen nhau, cận Wob ở 276,77."
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: Wob vắng 278,8–286,2. Thêm Wob chen giữa đám bàn tay giơ phiếu, nhón chân đếm kẹo bằng ngón tay, bị một viên kẹo đội mũ nhảy lên đầu. D7: thêm `?` vào `chu_tren_do_vat` (phiếu dấu hỏi, khói xoắn dấu hỏi). Bấm đếm không số."
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D5: dùng dây phơi làm tiền cảnh trên ở nhịp 296,64. Đẩy chậm vào khe hở giữa hai cửa ở \"narrower than my backpack\". Không vẽ logo của quỹ hay Hải quân trên tường hoặc cọ sơn."
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D6: nhịp 318,13 gánh 3 câu trong 8 s mà thiếu \"radio\". Ở 318,13–319,65: một radio giấy trên bậu cửa, nốt nhạc vẽ (không chữ) bay ra, Wob nghiêng đầu nghe. Khói mùi hình cá bắt đầu từ 320,0."
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D5: ghi cỡ cảnh: thuyền Hải quân cập bến toàn cảnh, Wob chìa xà phòng trung cảnh cuối hàng."
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 1,
+    "D10": 2
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D9: nối `chen` mà nhịp đầu không có `whoosh`. Thêm whoosh ở 358,31, hoặc đổi d20 `ra` và d21 `vao` thành `cat`. (b) D4: Wob vắng 368,4–374,6. Thêm Wob cầm bút chì tô các nét đứt, ngập ngừng không dám tô liền (\"mới cân nhắc\")."
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: Wob vắng 380,2–389,4 (câu dài 9 s). Thêm Wob ôm ba lô đứng sau lưng người thợ, nhón chân nhìn qua vai, giơ điện thoại như xin xếp hàng. Dán tem `2021` lên máy diesel ở cận cảnh (≥ 45 px)."
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: Wob vắng 396,2–405,7 và 411,8–416,0. Nhịp 396,22: Wob đứng bến ôm ba lô, khách bước lên phải lách vòng quanh ba lô. Nhịp 411,78: Wob ngồi mép bến nhìn thuyền về, vẽ thuyền vào sổ."
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "Dùng hai cột gỗ làm khung tiền cảnh khi mở. Đổi d24 `ra`/d25 `vao` theo việc ở d25."
+  },
+  {
+   "id": "d25",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 1,
+    "D10": 1
+   },
+   "tong": 17,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D9: `chen` mà không có `whoosh`. Một tiếng whoosh khi đang ngủ yên thì sai nhịp, nên đổi d24 `ra` và d25 `vao` thành `cat`. (b) D10: gag diễn trên nền nhà dân bị ngập. Nhịp 1–3 đóng khung chặt quanh võng và Wob. Ở nhịp 4 nhà chỉ là tường nền mờ, cửa khép, không đồ của người dân trôi, không gag nào chạm vào nhà. (c) D5: nhịp 443,11: lui chậm theo ba lô trôi, giữ 0,8 s rồi cắt cứng (đã ghi)."
+  },
+  {
+   "id": "d26",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D5: nhịp 455,82 ghi \"camera đứng yên\", trái luật \"không có khung đứng yên\" (`kiem_dong_hinh` sẽ báo). Đổi thành đẩy rất chậm 0,15%/khung. (b) D7: ba nhãn trên trang sổ ở diorama (phong cách từng bị chữ nhỏ ở cảnh xa). Ở 463,3 / 469,3 / 480,2: lao vào cận trang (trang ≥ 60% bề rộng khung). Nhãn `up to ~30 cm · ~1 ft · 2050` (28 ký tự, ≈ 750 px ở 45 px) được xuống hai dòng. (c) D4: 463–480 chỉ có trang sổ. Giữ tay Wob trong khung: ngón tay dò đường mực nước (463), bút chì tô vệt xói (469), đặt bút xuống khi chấm đảo mất (477). (d) D2: ở 489,99 cho giọt nước từ ba lô rơi đúng lên hình hòn đảo trên trang, mực loang nhẹ. Không gag, chỉ lặng."
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "viec": "Không."
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 16,
+   "ket_luan": "ĐẠT",
+   "viec": "**Bắt buộc:** dời gag \"thuyền giấy của Wob rơi khỏi sổ rồi leo lại\" từ nhịp 516,26 sang nhịp 513,82 (\"Another ran next door, to the hotels\"). Từ 516,26 tới 522,55 chỉ để thuyền chở cặp sách đi chậm vào đất liền, Wob nhìn theo, không gag. D4: 28 s mà Wob chủ yếu chỉ là bàn tay. Đặt mũ cói và vai Wob làm tiền cảnh dưới trái (nhìn qua vai), cắt về mặt Wob ở 509,42 và 529,27. D5: thêm một cận (chấm đảo và các ô cửa sáng ở 532,2)."
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "viec": "D4: ghi rõ \"mặt Wob trầm, miệng thẳng, KHÔNG cười\" như d26, vì d27–d28 vừa ở giọng hài. Nhạc (mục `nhac` gốc): hạ `wallpaper` xuống ≤ 50% hoặc kết thúc ở 535,18, lặng ≥ 1,5 s sau \"carry\" (544,01) trước nhạc outro."
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 1,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "SỬA NHỎ",
+   "viec": "(a) D6: con dấu giữ to tới ≈ 558,8, trong khi nhịp 558,19 \"nhấc ba lô vỗ đảo\" chồng lên. Ghi: dấu thu về trang hộ chiếu xong (≈ 558,9) thì Wob mới nhấc ba lô. (b) D7: trang hộ chiếu cùng lỗi bề rộng tên nơi như d01; áp cùng cách sửa. NOPE ≥ 140 px ép bề rộng (đã ghi)."
+  },
+  {
+   "id": "d31",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "(a) `lop: \"hien-tai\"` sẽ bật khẩu hình (HOP-DONG mục 4) cho Wob đang đu móc cẩu và nhảy chân sáo. Đổi `lop` sang `hoi-uc`, hoặc ghi \"không khẩu hình\". (b) D6: nửa trái hiện ở \"Their reasons\" 570,57; nửa phải (cần cẩu) hiện ở \"Mine\" 572,65. Không hiện cả hai cùng lúc."
+  },
+  {
+   "id": "d32",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 18,
+   "ket_luan": "ĐẠT",
+   "viec": "(a) D3: nhịp 586,65 \"muỗi đọc nhãn rồi bỏ đi\" là lần thứ 4 của mô-típ. Đổi: muỗi đọc nhãn rồi **ngồi phịch lên nắp bình xịt, ngay trên tem niêm phong**, vắt chân tự mãn, khớp \"Still smug\". (b) T8: câu hỏi cuối (590,99) cần hình riêng. Wob kéo một mẩu cầu tàu giấy ra mép bàn, đặt lên đó chiếc phao vịt (gọi lại d08), đẩy cầu tàu về phía người xem, nhướng mày. Camera đẩy chậm."
+  },
+  {
+   "id": "d33",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 0,
+    "D7": 1,
+    "D8": 1,
+    "D9": 2,
+    "D10": 1
+   },
+   "tong": 15,
+   "ket_luan": "LÀM LẠI",
+   "viec": "(a) **D6 = 0:** nhịp \"Next: an island…\" có `tai` 597,24 (khớp nhầm \"next to the tunnel timetable\"), trong khi lời thật ở 602,45. Dựng theo bảng thì bản đồ mở và ghim rung chồng lên lúc Wob đặt bình xịt, opal lách cách và cá vẫy (597–601,6): ba sự kiện cùng lúc, và bản đồ hiện trước câu nhá. Sửa `tai` thành 602,40, sắp nhịp theo thứ tự 594,58 → 600,59 → 602,40 → 608,55, sửa `T(16,'Next: an')` trong `sinh-phan-canh.py`. (b) D10: khung end screen 1 ở y 130–445 lấn vùng logo (x > 1500, y < 150). Dùng đúng skill: y 160–475 và 500–815, vòng Ø200 tâm (1460, 922), đáy 1022 ≤ 1026. Hoặc khai `an_logo` cho [593,976; 613,976]. (c) D8: ba lô khổng lồ đang ở trên bàn cuối d32 thì biến mất. Đặt nó dưới chân bàn bên trái (x < 300, nửa khuất), hoặc ở d32 nhịp cuối Wob đẩy nó ra khỏi khung. (d) D7: bỏ nhãn trên ghim bản đồ (thẻ kệ đã ghi tên nơi; nhãn trên tấm bản đồ nhỏ khó đạt 45 px). Thẻ kệ đổi từ 32 px của mẫu lên ≥ 45 px, hai dòng (đã ghi). Nhắc thợ dựng tắt \"mặt trời nhô\" trong `dt.ghimRung` của `duoi-tap.js`."
+  }
+ ]
+}

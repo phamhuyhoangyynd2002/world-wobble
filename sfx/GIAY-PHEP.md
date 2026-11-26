@@ -29,3 +29,6 @@
 | buoc-tuyet.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (bước chân trên tuyết; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | may-no.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (xe nổ máy không tắt; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | hoi-nuoc.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (hơi nước bốc; thêm 16/11/2026 cho hướng hoạt hình) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| muoi.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (muỗi vo ve bay ngang; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| lat-giay.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (lật một trang sổ; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| song.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (con sóng nhỏ vỗ bờ; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |

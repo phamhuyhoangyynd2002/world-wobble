@@ -1,0 +1,62 @@
+[
+  {
+    "id": "C05",
+    "loi_cu": "about two hours",
+    "van_de": "mau-thuan 2–3 giờ (NatGeo/RCN/Radio Nacional 2 giờ, El País 3 giờ)",
+    "xu_ly": "dè dặt: a couple of hours, more if the sea is rough; hedged"
+  },
+  {
+    "id": "C06",
+    "loi_cu": "about an hour from Tolú",
+    "van_de": "vòng 2 sai (45 phút, colombia.travel); RCN/Radio Nacional 1 giờ",
+    "xu_ly": "sửa: forty-five minutes to an hour, depending on who you ask; hedged"
+  },
+  {
+    "id": "C07",
+    "loi_cu": "around a hundred houses, mostly one storey, no roads",
+    "van_de": "số nhà 97–160 tuỳ nguồn; one-storey không có nguồn; BBC: có 4 phố chính",
+    "xu_ly": "sửa: more than a hundred, DANE 2018 đếm 120 (Consejo de Estado); bỏ one-storey và no roads"
+  },
+  {
+    "id": "C16",
+    "loi_cu": "Fishing is still how most families make a living",
+    "van_de": "El País 2024: du lịch đã thay đánh cá; La Nación 2026: đánh cá vẫn chính",
+    "xu_ly": "sửa: Fishing and tourism keep a lot of families here going; hedged"
+  },
+  {
+    "id": "C20",
+    "loi_cu": "set up a hybrid power plant with solar panels",
+    "van_de": "2021 chỉ nâng cấp: máy diesel 125 kVA, biến tần, bảo trì ắc quy; hệ thống có từ 2016",
+    "xu_ly": "sửa: upgraded the solar and diesel power system; thêm nguồn IPSE"
+  },
+  {
+    "id": "C23",
+    "loi_cu": "One nearby island, about a hectare in size",
+    "van_de": "Guardian 1 ha/2017 vs Invemar 0,4 ha/2006–07",
+    "xu_ly": "bỏ diện tích; ghi cited by The Guardian; hedged"
+  },
+  {
+    "id": "C25",
+    "loi_cu": "some families have moved to neighbouring islands",
+    "van_de": "BBC Mundo: dân từ chối chuyển sang Tintipán/Múcura",
+    "xu_ly": "bỏ ý chuyển đảo, giữ ý học sinh phải rời đảo để học tiếp"
+  },
+  {
+    "id": "C26",
+    "loi_cu": "Plenty of them come back.",
+    "van_de": "mức D: chỉ blog hãng tour",
+    "xu_ly": "bỏ khỏi lời và claims"
+  },
+  {
+    "id": "C27",
+    "loi_cu": "statement: fishing remains the main livelihood",
+    "van_de": "cụm này mâu thuẫn (El País)",
+    "xu_ly": "bỏ cụm khỏi statement; lời giữ nguyên"
+  },
+  {
+    "id": "C16",
+    "loi_cu": "statement: tourism is growing fast",
+    "van_de": "vòng 2 kiểm lại khong-ro vì 'growing fast'",
+    "xu_ly": "statement đổi thành 'becoming increasingly important' theo La Nación 2026; lời không đổi"
+  }
+]

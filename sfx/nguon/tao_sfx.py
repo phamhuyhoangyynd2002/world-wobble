@@ -213,3 +213,36 @@ for name, fn in {"liu-lo-vui": liu_lo_vui, "liu-lo-hoi": liu_lo_hoi, "liu-lo-buo
                  "hoi-nuoc": hoi_nuoc}.items():
     write(name, fn())
     print("ok", name)
+
+# Thêm 26/11/2026 cho tập 4 (đảo Santa Cruz del Islote). Đặt sau hai vòng trên để các file cũ không đổi
+# (random.seed(7) dùng theo thứ tự).
+
+def muoi(d=1.4):  # muỗi vo ve bay ngang: sóng răng cưa mảnh ~620 Hz, rung cao độ, to dần rồi nhỏ dần
+    n = int(SR * d); ph = 0.0; out = []
+    for i in range(n):
+        t = i / SR
+        f = 620 + 35 * math.sin(2 * math.pi * 9 * t) + 20 * math.sin(2 * math.pi * 2.3 * t)
+        ph += f / SR
+        saw = 2 * (ph % 1) - 1
+        out.append(saw * 0.6 * math.sin(math.pi * i / n) ** 1.2 * (0.8 + 0.2 * math.sin(2 * math.pi * 13 * t)))
+    return lowpass(out, 0.35)
+
+def lat_giay(d=0.32):  # lật một trang giấy: nhiễu cao ngắn hai nhịp, lọc nhẹ
+    n = int(SR * d); noise = [random.uniform(-1, 1) for _ in range(n)]
+    lo = lowpass(noise, 0.15)
+    out = []
+    for i, (x, y) in enumerate(zip(noise, lo)):
+        t = i / SR
+        g = math.exp(-((t - 0.05) / 0.035) ** 2) + 0.7 * math.exp(-((t - 0.19) / 0.06) ** 2)
+        out.append((0.6 * (x - y) + 0.4 * y) * g)
+    return out
+
+def song(d=2.6):  # một con sóng nhỏ vỗ vào bờ: nhiễu trầm dâng lên, vỡ, rút xuống
+    n = int(SR * d); noise = [random.uniform(-1, 1) for _ in range(n)]
+    f = lowpass(noise, lambda i: 0.015 + 0.09 * math.sin(math.pi * i / n) ** 3)
+    return [x * (math.sin(math.pi * min(1.0, i / (n * 0.45))) if i < n * 0.45 else (1 - (i - n * 0.45) / (n * 0.55)) ** 1.5)
+            for i, x in enumerate(f)]
+
+for name, fn in {"muoi": muoi, "lat-giay": lat_giay, "song": song}.items():
+    write(name, fn())
+    print("ok", name)

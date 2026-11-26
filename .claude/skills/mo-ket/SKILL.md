@@ -73,7 +73,7 @@ Toạ độ dưới đây theo hệ thiết kế 1920×1080. Tập 4 trở đi x
 | 3 | 9–14 | Bản đồ mở ra, ghim mới cắm vào nơi vừa đi, một ghim trống rung ở vùng tập sau (không vẽ bản đồ chi tiết, chỉ hình giấy gợi ý) |
 | 4 | 14–20 | Hai khung ảnh giấy trống và một vòng tròn giấy bật lên bên phải; Wob chỉ tay vào đó, chớp mắt, đứng thở. Nhạc nhỏ dần, không im lặng, không mờ đen trước giây cuối |
 
-- **Vùng end screen:** hai khung 16:9 mỗi khung khoảng 560×315 ở x 1180–1740, y 150–465 và y 500–815 hoặc xếp ngang tuỳ bản dựng; vòng đăng ký đường kính khoảng 200 dưới chúng. Bên trong khung và vòng **không vẽ gì**, không chữ: YouTube sẽ phủ ô video và nút đăng ký lên đúng chỗ đó.
+- **Vùng end screen:** hai khung 16:9 mỗi khung khoảng 560×315 ở x 1180–1740, y 160–475 và y 500–815 (mặc định `duoi-tap.js` từ 26/11/2026; khung trên không lên quá y 160 để khỏi lấn logo góc phải trên) hoặc xếp ngang tuỳ bản dựng; vòng đăng ký đường kính khoảng 200 dưới chúng. Bên trong khung và vòng **không vẽ gì**, không chữ: YouTube sẽ phủ ô video và nút đăng ký lên đúng chỗ đó.
 - Chữ trên hình chỉ có thẻ tên nơi trên kệ và nhãn ghim; không chữ "Subscribe", không "Watch next".
 - Phong cách: **diorama** (cùng bàn kỷ vật với các đoạn `hien-tai`), một đoạn riêng `d<cuối>` trong `phan-canh.json`, `lop: "duoi"`, không gag chen ngang lời nhá.
 - Trang phục Wob: bộ ở nhà của tập (không đồ đi đường).

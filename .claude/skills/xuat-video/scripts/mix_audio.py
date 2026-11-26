@@ -157,22 +157,51 @@ def normalize_checked(raw: Path, graph: str, extra: list[str], out: Path) -> dic
     # đỉnh +4,5 dBFS sau lượt 2; hạ đích TP thì ra −18,9 LUFS. Cách sửa: chặn đỉnh nhanh (alimiter, chỉ chạm các đỉnh
     # ngắn) trước loudnorm, mức chặn = đích TP − 1 dB − phần tăng cần thiết, để lượt 2 chạy tuyến tính. Chỉ chạy khi
     # cách cũ trượt, nên file vốn đạt không đổi.
-    meas = loudnorm_two_pass(raw, graph, extra, out, TARGET["TP"])
+    # Dự phòng v2 (26/11/2026, tập 4 World Wobble, giọng Edge đỉnh nhọn): bản cũ chặn đỉnh TRƯỚC loudnorm rồi hạ đích TP
+    # khi đỉnh còn vọt, ra −15,3 LUFS; thử hạ dần mức chặn cũng không được vì loudnorm vẫn rơi về chế độ động và vọt đỉnh
+    # (~0 dBTP). Cách tất định: đo độ lớn bản trộn → tăng âm cố định (volume) → chặn đỉnh cuối (alimiter, attack 1 ms)
+    # ở trần sample-peak; đo file ra, chỉnh tăng âm theo phần thiếu và hạ trần theo phần đỉnh vượt; tối đa 3 lần.
+    meas = loudnorm_measure(raw, graph, extra, out)
     gain = TARGET["I"] - float(meas["input_i"])
-    limit_db = TARGET["TP"] - 1.0 - max(0.0, gain)
-    limit = max(0.0625, min(1.0, 10 ** (limit_db / 20)))
-    i = graph.rfind("[mix]")
-    graph_lim = graph[:i] + "[premix];[premix]alimiter=limit=" + f"{limit:.4f}" + ":attack=5:release=50:level=0[mix]" + graph[i + 5:]
-    print(f"- {out.name}: trượt đích ({r['lufs']} LUFS, TP {r['true_peak']}), chặn đỉnh ở {limit_db:.1f} dBFS rồi chuẩn hoá lại")
-    tp = TARGET["TP"]
+    ceil_db = TP_MAX - 0.5
+    print(f"- {out.name}: trượt đích ({r['lufs']} LUFS, TP {r['true_peak']}); chuyển sang tăng {gain:+.1f} dB + chặn đỉnh cuối ở {ceil_db:.1f} dBFS")
     for _ in range(3):
-        loudnorm_two_pass(raw, graph_lim, extra, out, tp)
+        gain_limit(raw, graph, extra, out, gain, ceil_db)
         r = measure(out)
-        if r["true_peak"] is None or r["true_peak"] <= TP_MAX:
+        if r["true_peak"] is None or r["lufs"] is None:
             return r
-        tp = round(tp - (r["true_peak"] - TP_MAX) - 0.2, 2)
-        print(f"- {out.name}: true peak {r['true_peak']} dBFS > {TP_MAX}, làm lại với đích TP {tp}")
+        ok_tp = r["true_peak"] <= TP_MAX
+        ok_i = abs(r["lufs"] - TARGET["I"]) <= 0.3
+        if ok_tp and ok_i:
+            return r
+        if not ok_tp:
+            ceil_db -= (r["true_peak"] - TP_MAX) + 0.2
+        if not ok_i:
+            gain += TARGET["I"] - r["lufs"]
+        print(f"- {out.name}: {r['lufs']} LUFS, TP {r['true_peak']}: làm lại với tăng {gain:+.1f} dB, trần {ceil_db:.1f} dBFS")
     return r
+
+
+def loudnorm_measure(raw: Path, graph: str, extra_inputs: list[str], out: Path) -> dict:
+    """Chỉ lượt đo của loudnorm (độ lớn tích hợp của bản trộn chưa chuẩn hoá)."""
+    base = ["ffmpeg", "-y", "-hide_banner", "-i", str(raw), *extra_inputs]
+    ln = f"loudnorm=I={TARGET['I']}:TP={TARGET['TP']}:LRA={TARGET['LRA']}"
+    res = subprocess.run(base + ["-/filter_complex", graph_file(out, f"{graph};[mix]{ln}:print_format=json[a]", 1),
+                                 "-map", "[a]", "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", res.stderr)
+    if res.returncode != 0 or not m:
+        raise RuntimeError(f"đo độ lớn lỗi:\n{res.stderr[-1500:]}")
+    return json.loads(m.group(0))
+
+
+def gain_limit(raw: Path, graph: str, extra_inputs: list[str], out: Path, gain_db: float, ceil_db: float) -> None:
+    base = ["ffmpeg", "-y", "-hide_banner", "-i", str(raw), *extra_inputs]
+    lim = max(0.0625, min(1.0, 10 ** (ceil_db / 20)))
+    tail = (f";[mix]volume={gain_db:.2f}dB,aresample=192000,alimiter=limit={lim:.4f}:attack=1:release=80:level=0,"
+            "aresample=48000[a]")  # chặn ở 4× mẫu ≈ chặn true peak, đỡ phải hạ trần
+    run(base + ["-/filter_complex", graph_file(out, graph + tail, 2),
+                "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                "-movflags", "+faststart", "-shortest", str(out)])
 
 
 def measure(path: Path, start: float | None = None, end: float | None = None) -> dict:

@@ -1,0 +1,5 @@
+# Video đã chuyển sang ổ D
+
+- Video cuối (video.mp4, video-no-music.mp4, captions.srt, chapters.txt): `D:/YouTube/world-wobble/video/tap-04-santa-cruz-del-islote/`
+- File trung gian lớn: `D:/YouTube/world-wobble/du-an/2026-11-16-santa-cruz-del-islote/` (giữ đường dẫn tương đối như trong repo)
+- Quy ước: `D:/YouTube/world-wobble/README.md`

@@ -1,0 +1,185 @@
+[
+{
+"id": "C05",
+"verdict": "dung",
+"correct_value": "Approximately 2 hours by boat from Cartagena, although some sources report 2–3 hours",
+"note": "National Geographic reports a two-hour journey, while the Cartagena Film Commission gives a 2–3-hour estimate; variation by route and vessel is plausible, although the sources do not independently quantify delays in rough seas.",
+"sources": [
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+},
+{
+"title": "Santa Cruz del Islote",
+"publisher": "Comisión Fílmica de Cartagena",
+"url": "https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "dung",
+"correct_value": "Approximately 45 minutes to 1 hour by lancha from Tolú",
+"note": "The island's community website and Cartagena Film Commission report approximately 45 minutes, while the official Cartagena planning document gives approximately one hour.",
+"sources": [
+{
+"title": "Informacion General",
+"publisher": "Santa Cruz del Islote community website",
+"url": "https://santacruzdelislote.wixsite.com/santa-cruz-del-islot/about-3",
+"type": "khac",
+"published": null
+},
+{
+"title": "Santa Cruz del Islote",
+"publisher": "Comisión Fílmica de Cartagena",
+"url": "https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote",
+"type": "goc",
+"published": null
+},
+{
+"title": "Dimensión funcional",
+"publisher": "Alcaldía Mayor de Cartagena de Indias",
+"url": "https://pot.cartagena.gov.co/sites/default/files/2025-08/Funcional.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "dung",
+"correct_value": "The 2018 census counted 120 dwellings, 96 households and 432 people; a 2018 photo essay separately reported 97 houses. The island has a school, restaurant and square with a cross, and no conventional road network.",
+"note": "The 120-dwelling figure is supported by the 2018 census data reproduced in a government legal document, while The Guardian confirms the other facilities; National Geographic describes the absence of roads rather than explicitly confirming the absence of cars.",
+"sources": [
+{
+"title": "Providencia del Consejo de Estado, expediente 278 de 2026",
+"publisher": "Procuraduría General de la Nación",
+"url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm",
+"type": "goc",
+"published": null
+},
+{
+"title": "The magical realism of Santa Cruz del Islote - photo essay",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
+"type": "bao",
+"published": "2018-02-02"
+},
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+}
+]
+},
+{
+"id": "C16",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Fishing and tourism-related services are documented economic activities, but the available sources do not establish that tourism income is growing fast or quantify its growth.",
+"sources": [
+{
+"title": "The magical realism of Santa Cruz del Islote - photo essay",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
+"type": "bao",
+"published": "2018-02-02"
+},
+{
+"title": "De isla en isla. Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Ediciones USTA",
+"url": "https://www.jstor.org/stable/jj.38532748",
+"type": "bach-khoa",
+"published": "2023-01-01"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": "A new 125 kVA diesel generator and inverter were installed, and the battery bank and electronic system received maintenance in October 2021.",
+"note": "The Colombian government's IPSE explicitly confirms all the specified improvements to Santa Cruz del Islote's hybrid solar-diesel electricity system.",
+"sources": [
+{
+"title": "La nueva energía ilumina los hogares de 601 familias en el Caribe colombiano",
+"publisher": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE)",
+"url": "https://ipse.gov.co/blog/2021/10/22/la-nueva-energia-ilumina-los-hogares-de-601-familias-en-el-caribe-colombiano/",
+"type": "goc",
+"published": "2021-10-22"
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": "The 2014 local government report estimated that erosion affected 45% of San Bernardo's coastlines; Maravilla Island had disappeared by 2017.",
+"note": "The Guardian explicitly confirms both the 45% erosion estimate and Maravilla's disappearance by 2017, although these are two distinct findings rather than a single conclusion of the 2014 report.",
+"sources": [
+{
+"title": "All we can do now is run away: is time up for the sinking Colombian islands of San Bernardo?",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/global-development/2023/nov/02/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+"type": "bao",
+"published": "2023-11-02"
+}
+]
+},
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": "The island's school has historically provided education only through eighth or ninth grade, requiring students who want to continue their education to attend schools elsewhere, including on the mainland.",
+"note": "An academic study reports that the school historically offered education through eighth grade and that some students subsequently travelled to mainland cities to complete their schooling.",
+"sources": [
+{
+"title": "Santa Cruz del Islote: Socio-environmental and territorial analysis",
+"publisher": "Universidad Autónoma de San Luis Potosí",
+"url": "https://ninive.uaslp.mx/xmlui/bitstream/handle/i/3603/MCA1ISL301301.pdf?isAllowed=y&sequence=1",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+}
+]
+},
+{
+"id": "C27",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Academic research supports settlement by itinerant fishermen in the late nineteenth century and the importance of fishing and tourism, but the complete claim about growing tourism income and families remaining continuously on the island since settlement is not established by the sources found.",
+"sources": [
+{
+"title": "De isla en isla. Configuración socioespacial en Santa Cruz del Islote",
+"publisher": "Ediciones USTA",
+"url": "https://www.jstor.org/stable/jj.38532748",
+"type": "bach-khoa",
+"published": "2023-01-01"
+},
+{
+"title": "See Photos of the Most Crowded Island on Earth",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+"type": "bao",
+"published": "2017-10-14"
+},
+{
+"title": "The magical realism of Santa Cruz del Islote - photo essay",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
+"type": "bao",
+"published": "2018-02-02"
+}
+]
+}
+]

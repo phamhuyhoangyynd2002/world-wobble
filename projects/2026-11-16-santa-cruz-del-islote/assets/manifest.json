@@ -136,7 +136,8 @@
         14
       ],
       "tai_hien_su_kien": null,
-      "created": "2026-11-26"
+      "created": "2026-11-26",
+      "ghi_chu": "Theo anh_ai (seed 1020). Mặt nước hồng, thuyền nhỏ, thuyền lớn có cabin ở khoảng (0,75; 0,45) trùng điểm zoom cảnh 10. Yếu: không thấy bồn nước xanh trên thuyền tiếp tế, đảo là ghềnh đá tối chứ không phải đảo kín nhà; người là bóng nhỏ không mặt."
     },
     "ai-islote-flood": {
       "file": "assets/ai/ai-islote-flood.png",
@@ -164,7 +165,8 @@
         13
       ],
       "tai_hien_su_kien": null,
-      "created": "2026-11-26"
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại (seed 1046). Bình minh, nước biển dâng sát bậc nhà mái tôn. Yếu: không phải lối hẹp, không có võng (võng và Wob là gag, thợ dựng vẽ). Minh hoạ chung, không tái hiện sự kiện có ngày tháng: không cần nhãn AI."
     },
     "ai-islote-aerial": {
       "file": "assets/ai/ai-islote-aerial.png",
@@ -198,7 +200,8 @@
         15
       ],
       "tai_hien_su_kien": null,
-      "created": "2026-11-26"
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại (--prompt, seed 41) vì 2 bản theo anh_ai ra làng ven biển có bãi cát/núi. Đảo bầu dục phủ kín nhà, thuyền quanh, nhìn chéo từ trên. Yếu: nền đảo màu cam đất (có thể đọc như cát), nhà mái dốc kiểu chung, vài người tí hon không mặt."
     },
     "ai-islote-lane": {
       "file": "assets/ai/ai-islote-lane.png",
@@ -231,7 +234,156 @@
         10
       ],
       "tai_hien_su_kien": null,
-      "created": "2026-11-26"
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại (seed 67) vì bản theo anh_ai ra phố châu Âu. Nhà một tầng sơn màu, lối giữa. Yếu: lối rộng hơn thật (không \"vai chạm vai\"), không tranh tường cá, không dây phơi, không ghế nhựa: thợ dựng nên thu hẹp lối/vẽ thêm tranh tường bằng giấy."
+    },
+    "ai-islote-square": {
+      "file": "assets/ai/ai-islote-square.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a tall white Christian cross monument on a small pedestal, standing in the centre of a tiny paved village square at dusk, small one-storey tropical houses with tin roofs and pastel walls around the square, white plastic chairs, a string of warm light bulbs overhead, warm evening sky, empty square, no cars Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1062,
+      "goc": "assets/ai/goc/ai-islote-square-noibo-s1062.png",
+      "da_xem": true,
+      "hang": "chinh",
+      "ha_hang": true,
+      "scenes": [
+        3,
+        8,
+        9,
+        15
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại 2 lần (seed 1062). Có thánh giá cao rõ, nhà một tầng, trời chạng vạng. Yếu: thánh giá đứng sau dãy nhà chứ không giữa quảng trường, không ghế nhựa, không dây đèn, có cây to (đảo thật không có cây lớn)."
+    },
+    "ai-mangrove-islet": {
+      "file": "assets/ai/ai-mangrove-islet.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a green island fringed with dense mangrove trees and a strip of sandy beach, still water Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-mangrove-islet-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        6,
+        7
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26",
+      "ghi_chu": "Theo anh_ai (seed 1020). Bờ cây rậm + dải cát, nước lặng. Yếu: cây không rõ là đước; bố cục gần giống ai-caribbean-islets (khác cảnh, không liền nhau)."
+    },
+    "ai-bare-islet": {
+      "file": "assets/ai/ai-bare-islet.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. one small low flat bare rocky coral islet alone in the middle of a calm open sea, seen from a distance, nothing on it, no trees, no buildings, small gentle waves breaking on its rocks, clear sky, flat horizon Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 79,
+      "goc": "assets/ai/goc/ai-bare-islet-noibo-s79.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        5,
+        6
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại (seed 79). Đảo đá thấp trơ trụi ở chân trời, biển rộng. Yếu: đảo xa và nhỏ."
+    },
+    "ai-caribbean-islets": {
+      "file": "assets/ai/ai-caribbean-islets.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. a calm turquoise sea with several low green islands with palm trees and sandy beaches in the distance, seen from a small boat Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1020,
+      "goc": "assets/ai/goc/ai-caribbean-islets-noibo-s1020.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        2,
+        14
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26",
+      "ghi_chu": "Theo anh_ai (seed 1020). Biển xanh ngọc, dừa, đảo thấp xa, thuyền buồm nhỏ. Yếu: nhìn từ bãi chứ không từ thuyền."
+    },
+    "ai-islote-night": {
+      "file": "assets/ai/ai-islote-night.png",
+      "kind": "anh-ai",
+      "basis": "ai-tao",
+      "license": "Kênh tự tạo bằng AI trên máy (không có bản quyền ở Mỹ nếu chỉ từ prompt)",
+      "author": "World Wobble (AI)",
+      "source_url": null,
+      "attribution": null,
+      "prompt": "Risograph and linocut print look: bold carved ink lines, simplified chunky shapes, halftone grain and slight color misregistration, limited flat palette of only deep ink green, slate teal, warm paper sand and terracotta, minimal detail, wide 16:9 composition with empty space on the left third for titles. night scene, very dark sky full of small stars, a small low flat island densely packed with tiny one-storey houses seen across calm dark water from a distance, a few warm yellow lit windows on the island, their warm light reflecting as streaks on the dark water, no moon Clearly an illustration, not a photograph, no text, no maps, no flags, no identifiable real people.",
+      "negative_prompt": "photo, photograph, photorealistic, 3d render, text, letters, words, watermark, logo, signature, map, flag, blurry, lowres, deformed, extra limbs, cluttered, moon, cactus, saguaro",
+      "model": "Stable Diffusion XL base 1.0",
+      "model_file": "sd_xl_base_1.0.safetensors",
+      "nguon_model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "giay_phep_model": "CreativeML Open RAIL++-M",
+      "giay_phep_model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+      "nguon": "comfyui-noi-bo",
+      "seed": 1106,
+      "goc": "assets/ai/goc/ai-islote-night-noibo-s1106.png",
+      "da_xem": true,
+      "hang": "phu",
+      "ha_hang": null,
+      "scenes": [
+        7,
+        11,
+        12
+      ],
+      "tai_hien_su_kien": null,
+      "created": "2026-11-26",
+      "ghi_chu": "Prompt viết lại (seed 1106). Dãy nhà sát nước, trời sao, nước tối. Yếu: có khối đồi tối sau nhà (đảo thật phẳng), cửa sổ sáng không rõ."
     }
   }
 }

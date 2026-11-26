@@ -1,0 +1,891 @@
+{
+ "vong": 2,
+ "che_do": "phan-canh",
+ "tap": "2026-11-16-santa-cruz-del-islote",
+ "ngay": "2026-11-26",
+ "ban_truoc": "duyet-phan-canh.v1.json",
+ "tong_the": {
+  "ket_luan": "ĐẠT",
+  "diem_T": 15,
+  "diem_T_vong_1": 12,
+  "tren": 16,
+  "T": {
+   "T1": {
+    "diem": 1,
+    "so_vong_1": "1 (giữ)",
+    "nhan_xet": "Khung 0 và thẻ hộ chiếu (10,03 s) đạt. Câu hỏi của tập vẫn chỉ rõ ở 39,35 s. Việc này thuộc lời (gửi biên kịch), không chặn cổng."
+   },
+   "T2": {
+    "diem": 2,
+    "so_vong_1": "2",
+    "nhan_xet": "Mốc mồi như vòng 1. Thêm 100 (mèo chiếm ghế), 179 (Wob gác muỗi ngủ gật), 591 (phao vịt trên cầu tàu). Khoảng trống dài nhất ≈ 27 s."
+   },
+   "T3": {
+    "diem": 2,
+    "so_vong_1": "2",
+    "nhan_xet": "Không chuỗi cùng phong cách nào quá 90 s (dài nhất 68,6 s). Thẻ dùng nhiều nhất 9%."
+   },
+   "T4": {
+    "diem": 2,
+    "so_vong_1": "2",
+    "nhan_xet": "Như vòng 1. Bình xịt nay thấy suốt chuyến đi từ d02, nên vòng kỷ vật mở và đóng liền mạch hơn."
+   },
+   "T5": {
+    "diem": 2,
+    "so_vong_1": "1 → 2",
+    "nhan_xet": "\"Muỗi lờ hoặc bỏ đi\" còn 2 lần (d01, d03). d10 đổi thành Wob gác muỗi ngủ gật, d32 thành muỗi vắt chân trên tem. Bỏ tia sáng, thước dây, kính lúp (đạo cụ gag tập 2 và 3). Leo thang ba lô kết bằng ghế nhựa của đảo. Gag thuyền giấy dời sang câu khách sạn (513,92). Chỗ nghiêm đủ lặng trước và sau (d26 ≈ 2,5 s và 2,5 s; d29 tắt nhạc, ≈ 1,9 s)."
+   },
+   "T6": {
+    "diem": 2,
+    "so_vong_1": "2",
+    "nhan_xet": "Như vòng 1. d31 đổi sang `lop: hoi-uc`, nên lớp hiện tại chỉ còn diorama."
+   },
+   "T7": {
+    "diem": 2,
+    "so_vong_1": "1 → 2",
+    "nhan_xet": "d04 có động tác chuyển ba lô (60,82). Ba lô khổng lồ rơi xuống sau bàn ở cuối d32, rồi nằm dưới chân bàn ở d33. Bình xịt cắm túi hông trái từ d02. Mũ cói đổi màu (vành rơm #DDBF7A, dải xanh ngọc #2A9D8F) nên khác mũ tập 2; khoá áp cho cả ba phong cách."
+   },
+   "T8": {
+    "diem": 2,
+    "so_vong_1": "1 → 2",
+    "nhan_xet": "Câu hỏi cuối có hình riêng: cầu tàu giấy và phao vịt đẩy về phía người xem (591,09). Khung end screen y 160–475 và 500–815, vòng tròn tâm (1460, 922), đáy 1022 ≤ 1026, không lấn vùng logo. Lời hết 609,8, giữ ≈ 4,2 s, nhạc không tắt."
+   }
+  },
+  "cong_5a": "QUA",
+  "dem": {
+   "ĐẠT": 33
+  },
+  "dem_vong_1": {
+   "ĐẠT": 25,
+   "SỬA NHỎ": 7,
+   "LÀM LẠI": 1
+  },
+  "loi_nang": [],
+  "viec_dao_dien": [
+   "d09 nhịp 158,36: rút còn 3 động tác (giơ cúc 158,81, ướm 159,38, kéo mũ 160,71, giữ tới 161,30); bỏ hoặc chuyển phần cất cúc sang đầu d10",
+   "d32: dời cú đẩy ba lô từ 593,52 lên 580,39 ('one small bag') để câu hỏi cuối giữ hình ≥ 1 s"
+  ],
+  "ghi_cho_tho": {
+   "dung-diorama": [
+    "d01, d30 tên nơi hai dòng ≥ 45 px; NOPE ≥ 140 px",
+    "d26 nhãn chỉ khi cận trang ≥ 60%, nhãn 30 cm hai dòng, không khung đứng yên",
+    "d33 truyền endScreen {khung [[1180,160],[1180,500]], vong [1460,922]}, thêm VE.binhXit, thẻ kệ ≥ 45 px hai dòng, tắt mặt trời ghimRung, vùng x ≥ 1150 đứng yên sau 1,2 s"
+   ],
+   "dung-cat-giay": [
+    "d04 nhãn chỉ khi cận trang",
+    "d05 thẻ 120 houses và SCHOOL ≥ 45 px",
+    "d16 bốn biển dưới y 150, không chồng chữ",
+    "d22 tem 2021 ở cận",
+    "đồ có mặt số không số"
+   ],
+   "dung-ve-tay": [
+    "d06 đồng hồ xăng không E/F",
+    "d17 bấm đếm không số"
+   ],
+   "ca-ba": [
+    "mũ cói màu mới #DDBF7A / đan #B08A48 / dải #2A9D8F, cùng dáng"
+   ]
+  },
+  "gui_bien_kich": [
+   "Câu hỏi của tập rõ ở 39,35 s (T1 = 1)"
+  ],
+  "gui_phien_chinh": [
+   "out/captions.srt còn 2 phiên âm (kar-tah-HAY-nah, toh-LOO): sinh lại phụ đề",
+   "Mặc định endScreen của duoi-tap.js (y 130/480, tâm 905) lấn vùng logo: nên đổi cho tập sau"
+  ]
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 17 → ĐẠT 20",
+   "viec": "Đã sửa: Wob đứng trên mặt bàn, cận tem, muỗi vào từ 8,4 s, tên nơi trên hộ chiếu hai dòng, thẻ x 96–860, lật đi trước \"people\"."
+  },
+  {
+   "id": "d02",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 17 → 20",
+   "viec": "Đã sửa: tiền cảnh vành mũ, bóng rơi trúng mũ Wob, ngón tay đếm nghiêng theo biển, `?` đã vào danh sách chữ, bình xịt ở túi hông."
+  },
+  {
+   "id": "d03",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "19 (không đổi)",
+   "viec": "—"
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 16 → ĐẠT 20",
+   "viec": "Đã sửa: cận trang ≥ 70% khi có nhãn; sóng chỉ rung sau khi thẻ đứng yên; Wob trèo xuống, kéo ba lô vắt đùi."
+  },
+  {
+   "id": "d05",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 17 → ĐẠT 20",
+   "viec": "Đã sửa: Wob ở mũi thuyền và thò mặt vào ô cửa; dừng lùi 1,5 s quanh \"a hundred and twenty\" (83,68–84,31); trường, quán, quảng trường mỗi thứ một nhịp."
+  },
+  {
+   "id": "d06",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 16 → 19",
+   "viec": "Đã sửa: cận đồng hồ xăng từ 95,74 tới 96,43 (≈ 0,7 s, đúng chữ \"fuel\"), không E/F. Wob vẫn chỉ ở mép khung (chấp nhận trong đoạn chèn 4,9 s)."
+  },
+  {
+   "id": "d07",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: khoảng lặng 99,98 có gag mèo chiếm ghế, góc từ trên cao khi đi vòng đảo, cỡ cảnh, dây phơi làm tiền cảnh."
+  },
+  {
+   "id": "d08",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: lần ba là ghế nhựa; mỗi món ≥ 0,9 s."
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 17 → 19",
+   "viec": "Đã sửa: cúc áo, không tia sáng; camera lướt theo mũi tên. **Còn (nhỏ, không chặn):** nhịp 158,36 nhồi 4 động tác (nhìn \"rất lâu\", ướm cúc, đi tới ba lô cất cúc, kéo mũ) vào lời 158,36–160,9, rồi đoạn hết ở 161,30. Rút lại: giơ cúc ở \"one\" (158,81) → ướm lên người ở \"button\" (159,38) → kéo mũ sụp ở \"shame\" (160,71), giữ tới 161,30. Bỏ phần cất cúc, hoặc chuyển nó sang khung đầu d10 (Wob ngồi ghế, nhét cúc vào túi ba lô ở 161,45)."
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 17 → 19",
+   "viec": "Đã sửa: Wob gác muỗi bằng vợt rồi ngủ gật; Wob có mặt ở mọi nhịp; 2–3 bóng người chung."
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: Wob ló sau cành đước, đứng trên đảo trơ trụi; nhịp tiệc tách làm hai."
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 17 → 20",
+   "viec": "Đã sửa: Wob đếm nấc; khớp hình xi măng thành nền lối đi; bỏ thước dây, thay mũi tên tí hon."
+  },
+  {
+   "id": "d13",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: tiền cảnh mái tối, đẩy chậm."
+  },
+  {
+   "id": "d14",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: phản ứng ở 243,46, sớm hai khung so với chữ, giữ 0,8 s trước khi cắt."
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: bỏ kính lúp (Wob vuốt tay như đọc chữ nổi); đêm sang sáng bằng cắt cùng khung."
+  },
+  {
+   "id": "d16",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: bấm đếm không số, biển dưới y 150, trung cảnh và cận."
+  },
+  {
+   "id": "d17",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: Wob chen đếm kẹo, kẹo nhảy lên đầu; `?` đã vào danh sách chữ."
+  },
+  {
+   "id": "d18",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: tiền cảnh dây phơi, đẩy vào khe; không vẽ logo."
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: radio ở 318,22, mùi hình cá từ 320,11."
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: toàn cảnh rồi trung cảnh; nối ra `cat`."
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 17 → ĐẠT 19",
+   "viec": "Đã sửa: nối `cat`, khung đầu đủ hình; Wob ngập ngừng không dám tô nét đứt."
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: Wob sau lưng người thợ; cận tem `2021`; điện thoại và ắc quy không số."
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: khách lách quanh ba lô; Wob vẽ thuyền ở bến."
+  },
+  {
+   "id": "d24",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: hai cột gỗ làm khung tiền cảnh; nối ra `cat`."
+  },
+  {
+   "id": "d25",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 17 → ĐẠT 20",
+   "viec": "Đã sửa: nối `cat`; khung chặt; cửa khép, không gag chạm vào nhà."
+  },
+  {
+   "id": "d26",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 16 → ĐẠT 20",
+   "viec": "Đã sửa: không khung đứng yên; cận trang ≥ 60% khi có nhãn; nhãn 30 cm hai dòng; tay Wob trong khung; giọt nước rơi lên hình đảo."
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "20 (không đổi)",
+   "viec": "—"
+  },
+  {
+   "id": "d28",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 16,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 16 → 20",
+   "viec": "Đã sửa: gag ở 513,92, câu đi học sạch; nhìn qua vai Wob; cắt về mặt Wob; cận chấm đảo."
+  },
+  {
+   "id": "d29",
+   "phong_cach": "cat-giay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 19 → 20",
+   "viec": "Đã sửa: Wob mặt trầm; tắt nhạc."
+  },
+  {
+   "id": "d30",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "so_vong_truoc": "SỬA NHỎ 18 → ĐẠT 20",
+   "viec": "Đã sửa: tên nơi trên hộ chiếu hai dòng; con dấu thu về xong (≈ 558,9) thì Wob mới nhấc ba lô (559,48)."
+  },
+  {
+   "id": "d31",
+   "phong_cach": "ve-tay",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 20",
+   "viec": "Đã sửa: `lop: hoi-uc`, không khẩu hình; hai nửa hiện lần lượt ở 570,51 và 572,75."
+  },
+  {
+   "id": "d32",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 19,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "so_vong_truoc": "ĐẠT 18 → 19",
+   "viec": "Đã sửa: muỗi vắt chân trên tem; cầu tàu và phao vịt cho câu hỏi cuối. **Còn (nhỏ, không chặn):** câu hỏi hết ≈ 593,1, mà ở 593,52 Wob đã đẩy ba lô rơi. Câu hỏi chỉ được giữ ≈ 0,4 s, trong khi luật là 1–1,5 s. Nên chuyển cú đẩy ba lô lên chữ \"one small bag\" (580,39): Wob giơ hộp cơm, tay kia đẩy ba lô khổng lồ trượt khỏi bàn. Như vậy từ 591,09 tới 594,07 chỉ còn cầu tàu, nhướng mày và đẩy chậm."
+  },
+  {
+   "id": "d33",
+   "phong_cach": "diorama",
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "vong_truoc": {
+    "tong": 15,
+    "ket_luan": "LÀM LẠI"
+   },
+   "so_vong_truoc": "LÀM LẠI 15 → ĐẠT 20",
+   "viec": "Đã sửa: \"Next:\" ở 602,50 (chữ ở 602,55), thứ tự nhịp đúng; khung end screen y 160–475 và 500–815, vòng tâm (1460, 922); ba lô khổng lồ dưới chân bàn; ghim không nhãn; tắt mặt trời."
+  }
+ ]
+}

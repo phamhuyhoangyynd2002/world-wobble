@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "song",
+  "tai": 8.65,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 11.818,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "bonk",
+  "tai": 12.538,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "drop",
+  "tai": 12.948,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "pop",
+  "tai": 15.278,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 16.628,
+  "am_luong": 0.5
+ }
+]

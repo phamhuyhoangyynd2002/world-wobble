@@ -11,3 +11,5 @@ Cách dùng (ví dụ chạy được: `projects/2026-11-16-whittier/hoat-hinh/d
 Kỷ vật có sẵn (`ve`): `tuDong` (Oymyakon: tủ đông nhỏ, đuôi cá vẫy), `loOpal` (Coober Pedy), `toLich` (Whittier: tờ lịch hầm còn băng dính), `ca`. Tập mới: thêm một khoá vào `VE` (chỉ thêm). Chữ thẻ phải có trong `chu_tren_do_vat`.
 
 Lời đuôi tập ở `lop: "duoi"`: `api.khauHinh` chỉ chạy với `hien-tai`, nên đoạn đuôi tạm đặt `data.lop = "hien-tai"` quanh lệnh gọi (xem ví dụ).
+
+Thêm 26/11/2026 (tập 4, chỉ thêm): kỷ vật `binhXit` (bình xịt muỗi, tập Santa Cruz del Islote); thẻ kệ to nhiều dòng (`kyVat[i].dong`, `co` hoặc `o.theCo`, `theW`, `theDx`, `theDy`); `o.matTroi: false` hoặc `dt.ghimRung(t, d, {matTroi: false})` tắt mặt trời nhô; `o.endScreen` thiếu trường thì lấy mặc định (khung y 160 / 500, vòng tâm (1460, 922)). `cho: 0` bị hiểu là không truyền: dùng `0.001`. Ví dụ: `projects/2026-11-16-santa-cruz-del-islote/hoat-hinh/doan-d33/canh.js`.

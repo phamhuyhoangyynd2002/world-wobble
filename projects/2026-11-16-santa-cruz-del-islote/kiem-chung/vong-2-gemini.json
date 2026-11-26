@@ -7,7 +7,9 @@
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6
   ],
   "ket_qua": [
     {
@@ -136,10 +138,10 @@
     },
     {
       "id": "C05",
-      "statement": "Santa Cruz del Islote is about a two-hour boat ride from Cartagena, Colombia.",
-      "verdict": "mau-thuan",
-      "gia_tri_dung": "Approximately 2–3 hours, depending on the operator, route and sea conditions.",
-      "ghi_chu": "National Geographic describes a two-hour boat journey, whereas EL PAÍS reports approximately three hours by speedboat, so the exact duration is not consistent across sources.",
+      "statement": "The boat ride from Cartagena to Santa Cruz del Islote takes about two hours, longer in rough seas; reported times vary.",
+      "verdict": "dung",
+      "gia_tri_dung": "Approximately 2 hours by boat from Cartagena, although some sources report 2–3 hours",
+      "ghi_chu": "National Geographic reports a two-hour journey, while the Cartagena Film Commission gives a 2–3-hour estimate; variation by route and vessel is plausible, although the sources do not independently quantify delays in rough seas.",
       "nguon": [
         {
           "title": "See Photos of the Most Crowded Island on Earth",
@@ -150,40 +152,24 @@
           "url_song": true
         },
         {
-          "title": "Santa Cruz del Islote: Protecting the world's most densely populated island from mass tourism",
-          "url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
-          "publisher": "EL PAÍS English",
-          "type": "bao",
-          "published": "2024-01-12",
-          "url_song": true
-        },
-        {
-          "title": "Faq's – Rutas de Mar",
-          "url": "https://rutasdemaralasislas.com/faqs/",
-          "publisher": "Rutas de Mar",
-          "type": "khac",
+          "title": "Santa Cruz del Islote",
+          "url": "https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote",
+          "publisher": "Comisión Fílmica de Cartagena",
+          "type": "goc",
           "published": null,
-          "url_song": true
+          "url_song": null
         }
       ]
     },
     {
       "id": "C06",
-      "statement": "Santa Cruz del Islote is about a one-hour ride by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast.",
-      "verdict": "sai",
-      "gia_tri_dung": "Approximately 45 minutes by lancha from Tolú.",
-      "ghi_chu": "Colombia's official tourism website and local island information both give approximately 45 minutes rather than one hour.",
+      "statement": "Santa Cruz del Islote is roughly 45 minutes to an hour by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast; sources differ.",
+      "verdict": "dung",
+      "gia_tri_dung": "Approximately 45 minutes to 1 hour by lancha from Tolú",
+      "ghi_chu": "The island's community website and Cartagena Film Commission report approximately 45 minutes, while the official Cartagena planning document gives approximately one hour.",
       "nguon": [
         {
-          "title": "Conoce El islote de Santa Cruz",
-          "url": "https://colombia.travel/en/node/4010",
-          "publisher": "Colombia Travel",
-          "type": "goc",
-          "published": null,
-          "url_song": true
-        },
-        {
-          "title": "Informacion General | Santa Cruz Del Islot",
+          "title": "Informacion General",
           "url": "https://santacruzdelislote.wixsite.com/santa-cruz-del-islot/about-3",
           "publisher": "Santa Cruz del Islote community website",
           "type": "khac",
@@ -191,10 +177,18 @@
           "url_song": true
         },
         {
-          "title": "Santiago de Tolú to Santa Cruz del Islote",
-          "url": "https://www.rome2rio.com/s/Santiago-de-Tol%C3%BA/Santa-Cruz-del-Islote",
-          "publisher": "Rome2Rio",
-          "type": "khac",
+          "title": "Santa Cruz del Islote",
+          "url": "https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote",
+          "publisher": "Comisión Fílmica de Cartagena",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "Dimensión funcional",
+          "url": "https://pot.cartagena.gov.co/sites/default/files/2025-08/Funcional.pdf",
+          "publisher": "Alcaldía Mayor de Cartagena de Indias",
+          "type": "goc",
           "published": null,
           "url_song": true
         }
@@ -202,11 +196,19 @@
     },
     {
       "id": "C07",
-      "statement": "Santa Cruz del Islote has around 100 mostly one-storey houses, a school, a restaurant and a small square with a cross that gives the island its name, and no roads or cars.",
-      "verdict": "khong-ro",
-      "gia_tri_dung": null,
-      "ghi_chu": "The Guardian confirms 97 houses, a school, a restaurant and a square with a cross, while other sources support the absence of cars and roads, but the claim that most houses are one-storey could not be reliably verified.",
+      "statement": "Santa Cruz del Islote has more than a hundred houses (Colombia's 2018 census counted 120 dwellings), a school, a restaurant and a small square with a cross that gives the island its name, and no cars.",
+      "verdict": "dung",
+      "gia_tri_dung": "The 2018 census counted 120 dwellings, 96 households and 432 people; a 2018 photo essay separately reported 97 houses. The island has a school, restaurant and square with a cross, and no conventional road network.",
+      "ghi_chu": "The 120-dwelling figure is supported by the 2018 census data reproduced in a government legal document, while The Guardian confirms the other facilities; National Geographic describes the absence of roads rather than explicitly confirming the absence of cars.",
       "nguon": [
+        {
+          "title": "Providencia del Consejo de Estado, expediente 278 de 2026",
+          "url": "https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm",
+          "publisher": "Procuraduría General de la Nación",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
         {
           "title": "The magical realism of Santa Cruz del Islote - photo essay",
           "url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
@@ -221,14 +223,6 @@
           "publisher": "National Geographic",
           "type": "bao",
           "published": "2017-10-14",
-          "url_song": true
-        },
-        {
-          "title": "5 Things You Didn't Know About Santa Cruz del Islote, Colombia",
-          "url": "https://world.expeditions.com/en/expedition-stories/stories/5-things-you-didnt-know-about-santa-cruz-del-islote",
-          "publisher": "Lindblad Expeditions",
-          "type": "khac",
-          "published": null,
           "url_song": true
         }
       ]
@@ -443,13 +437,21 @@
     },
     {
       "id": "C16",
-      "statement": "Fishing remains the main livelihood on Santa Cruz del Islote, although tourism is growing.",
-      "verdict": "sai",
-      "gia_tri_dung": "Tourism has increasingly replaced traditional fishing as the principal economic activity, although fishing remains an important source of livelihood for some residents.",
-      "ghi_chu": "Although older government and academic reports identify fishing as the main livelihood, a 2024 El País investigation reports that tourism has replaced traditional fishing as the dominant activity.",
+      "statement": "Fishing and tourism are the two pillars of the economy of Santa Cruz del Islote; tourism is becoming increasingly important.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "Fishing remains a major traditional economic activity, while tourism has grown substantially and, according to recent reporting, has increasingly replaced fishing as a livelihood. Their relative importance varies by source and period.",
+      "ghi_chu": "Official park documentation identifies fishing as the principal activity followed by tourism, while a 2024 EL PAÍS report describes tourism replacing traditional fishing; the claim that both are the two pillars is broadly supported, but their relative importance is changing.",
       "nguon": [
         {
-          "title": "Santa Cruz del Islote: Protecting the world's most densely populated island from mass tourism",
+          "title": "Parque Nacional Natural Corales del Rosario y San Bernardo – Plan de Manejo",
+          "url": "https://intranet.parquesnacionales.gov.co/wp-content/uploads/2016/05/CoralesdelRosarioPM2009.pdf",
+          "publisher": "Parques Nacionales Naturales de Colombia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Santa Cruz del Islote: Protecting the world’s most densely populated island from mass tourism",
           "url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
           "publisher": "EL PAÍS English",
           "type": "bao",
@@ -457,20 +459,20 @@
           "url_song": true
         },
         {
-          "title": "La energía del sol transforma la vida de los isleños del Caribe colombiano",
-          "url": "https://ipse.gov.co/blog/2022/04/27/la-energia-del-sol-transforma-la-vida-de-los-islenos-del-caribe-colombiano/",
-          "publisher": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE)",
-          "type": "goc",
-          "published": "2022-04-27",
+          "title": "Turismo y la pesca mantienen a ‘flote’ a Santa Cruz del Islote",
+          "url": "https://www.elheraldo.co/bolivar/2022/01/09/turismo-y-la-pesca-mantienen-a-flote-a-santa-cruz-del-islote-878519/",
+          "publisher": "El Heraldo",
+          "type": "bao",
+          "published": "2022-01-09",
           "url_song": true
         },
         {
-          "title": "Plan de Manejo Parque Nacional Natural Corales del Rosario y San Bernardo",
-          "url": "https://intranet.parquesnacionales.gov.co/wp-content/uploads/2016/05/CoralesdelRosarioPM2009.pdf",
-          "publisher": "Parques Nacionales Naturales de Colombia",
+          "title": "Adaptación al cambio climático en Santa Cruz del Islote",
+          "url": "https://biblioteca.utb.edu.co/notas/tesis/0068238.pdf",
+          "publisher": "Universidad Tecnológica de Bolívar",
           "type": "goc",
           "published": null,
-          "url_song": true
+          "url_song": null
         }
       ]
     },
@@ -551,10 +553,10 @@
     },
     {
       "id": "C20",
-      "statement": "In 2021 Colombia's Ministry of Mines and Energy delivered a hybrid solar-diesel power plant to Santa Cruz del Islote, including a new 125 kVA diesel generator and maintenance of its battery bank.",
+      "statement": "In 2021 Colombia's Ministry of Mines and Energy upgraded Santa Cruz del Islote's hybrid solar-diesel power system with a new 125 kVA diesel generator and inverter, and serviced its battery bank.",
       "verdict": "dung",
-      "gia_tri_dung": null,
-      "ghi_chu": "IPSE's official announcement confirms the 2021 hybrid solar-diesel upgrade, including a new 125 kVA diesel generator and maintenance of Santa Cruz del Islote's battery bank.",
+      "gia_tri_dung": "A new 125 kVA diesel generator and inverter were installed, and the battery bank and electronic system received maintenance in October 2021.",
+      "ghi_chu": "The Colombian government's IPSE explicitly confirms all the specified improvements to Santa Cruz del Islote's hybrid solar-diesel electricity system.",
       "nguon": [
         {
           "title": "La nueva energía ilumina los hogares de 601 familias en el Caribe colombiano",
@@ -562,14 +564,6 @@
           "publisher": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE)",
           "type": "goc",
           "published": "2021-10-22",
-          "url_song": true
-        },
-        {
-          "title": "Entregaron centrales de generación de energía híbrida en islas de Cartagena",
-          "url": "https://caracol.com.co/emisora/2021/10/24/cartagena/1635106043_872692.html",
-          "publisher": "Caracol Radio",
-          "type": "bao",
-          "published": "2021-10-24",
           "url_song": true
         }
       ]
@@ -634,33 +628,17 @@
     },
     {
       "id": "C23",
-      "statement": "A 2014 local government report found erosion affecting about 45% of the San Bernardo archipelago's coastlines, and Maravilla Island, about one hectare, had disappeared by around 2017.",
-      "verdict": "mau-thuan",
-      "gia_tri_dung": "Approximately 45% coastal erosion is reported for San Bernardo in a Cartagena planning document; Isla Maravilla's disappearance is dated to 2015 in one official ecotourism planning document and to the 1990s in another institutional account.",
-      "ghi_chu": "The 45% figure is supported by a Cartagena planning document, but reliable institutional accounts disagree about when Isla Maravilla disappeared, and I could not verify the one-hectare size or a disappearance date around 2017.",
+      "statement": "A 2014 local government report, cited by The Guardian, found erosion affecting about 45% of the San Bernardo archipelago's coastlines; the small nearby island of Maravilla has since disappeared.",
+      "verdict": "dung",
+      "gia_tri_dung": "The 2014 local government report estimated that erosion affected 45% of San Bernardo's coastlines; Maravilla Island had disappeared by 2017.",
+      "ghi_chu": "The Guardian explicitly confirms both the 45% erosion estimate and Maravilla's disappearance by 2017, although these are two distinct findings rather than a single conclusion of the 2014 report.",
       "nguon": [
         {
-          "title": "Diagnóstico técnico POT Cartagena",
-          "url": "https://www.scribd.com/document/803578082/DIAGNOSTICO-TECNICO-POT-CARTAGENA",
-          "publisher": "Alcaldía de Cartagena",
-          "type": "goc",
-          "published": null,
-          "url_song": true
-        },
-        {
-          "title": "Planificación del Ecoturismo en el Parque Nacional Natural Corales del Rosario y de San Bernardo",
-          "url": "https://www.patrimonionatural.org.co/wp-content/uploads/2024/01/3.-Documento-Plan-de-Ordenamiento-Ecoturistico-POE-PNN-CRSB_06-05-2019.pdf",
-          "publisher": "Patrimonio Natural / Parques Nacionales Naturales de Colombia",
-          "type": "goc",
-          "published": "2019-05-06",
-          "url_song": null
-        },
-        {
-          "title": "En la intimidad de Parques Nacionales Naturales, un relato en primera persona de lo que se vive en las áreas protegidas",
-          "url": "https://www.utb.edu.co/visor/en-la-intimidad-de-parques-nacionales-naturales-un-relato-en-primera-persona-de-lo-que-se-vive-en-las-areas-protegidas/",
-          "publisher": "Universidad Tecnológica de Bolívar",
-          "type": "khac",
-          "published": null,
+          "title": "All we can do now is run away: is time up for the sinking Colombian islands of San Bernardo?",
+          "url": "https://www.theguardian.com/global-development/2023/nov/02/all-we-can-do-now-is-run-away-is-time-up-for-the-sinking-colombian-islands-of-san-bernardo",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2023-11-02",
           "url_song": true
         }
       ]
@@ -692,91 +670,58 @@
     },
     {
       "id": "C25",
-      "statement": "Because of Santa Cruz del Islote's small size, some residents have moved to neighbouring islands such as Tintipán or Múcura, and students who continue their education leave the island.",
-      "verdict": "khong-ro",
-      "gia_tri_dung": null,
-      "ghi_chu": "Academic research documents movement and family connections between Santa Cruz del Islote, Tintipán and Múcura, while Semana documents students' difficulties and aspirations to study elsewhere; however, I found no reliable evidence establishing that residents moved specifically because of the island's small size or confirming the full claim.",
+      "statement": "Students from Santa Cruz del Islote who want to continue beyond the island's school must leave the island.",
+      "verdict": "dung",
+      "gia_tri_dung": "The island's school has historically provided education only through eighth or ninth grade, requiring students who want to continue their education to attend schools elsewhere, including on the mainland.",
+      "ghi_chu": "An academic study reports that the school historically offered education through eighth grade and that some students subsequently travelled to mainland cities to complete their schooling.",
       "nguon": [
         {
-          "title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
-          "url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
-          "publisher": "Universidad Santo Tomás",
-          "type": "goc",
-          "published": "2023-08-01",
+          "title": "Santa Cruz del Islote: Socio-environmental and territorial analysis",
+          "url": "https://ninive.uaslp.mx/xmlui/bitstream/handle/i/3603/MCA1ISL301301.pdf?isAllowed=y&sequence=1",
+          "publisher": "Universidad Autónoma de San Luis Potosí",
+          "type": "bach-khoa",
+          "published": null,
           "url_song": true
         },
         {
-          "title": "Fotorreportaje: El primer prom de Santa Cruz del Islote",
-          "url": "https://www.semana.com/fotorreportaje-el-primer-prom-de-santa-cruz-del-islote/750/",
-          "publisher": "Semana",
+          "title": "See Photos of the Most Crowded Island on Earth",
+          "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+          "publisher": "National Geographic",
           "type": "bao",
-          "published": "2019-01-09",
-          "url_song": true
-        }
-      ]
-    },
-    {
-      "id": "C26",
-      "statement": "Many students from Santa Cruz del Islote who leave to continue their education later return to the island.",
-      "verdict": "khong-ro",
-      "gia_tri_dung": null,
-      "ghi_chu": "Semana documents young residents aspiring to study elsewhere and one former student who had studied in Barranquilla, but it does not establish that many students subsequently return to live on the island.",
-      "nguon": [
-        {
-          "title": "Fotorreportaje: El primer prom de Santa Cruz del Islote",
-          "url": "https://www.semana.com/fotorreportaje-el-primer-prom-de-santa-cruz-del-islote/750/",
-          "publisher": "Semana",
-          "type": "bao",
-          "published": "2019-01-09",
-          "url_song": true
-        },
-        {
-          "title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
-          "url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
-          "publisher": "Universidad Santo Tomás",
-          "type": "goc",
-          "published": "2023-08-01",
+          "published": "2017-10-14",
           "url_song": true
         }
       ]
     },
     {
       "id": "C27",
-      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, which remain the main livelihood, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
-      "verdict": "mau-thuan",
-      "gia_tri_dung": "Tourism has increasingly replaced traditional fishing as the principal economic activity; settlement began in the late 19th century.",
-      "ghi_chu": "Fishing historically sustained the community and tourism provides growing income, but EL PAÍS explicitly reports that tourism has replaced traditional fishing, contradicting the claim that fishing remains the main livelihood; the approximately 150-year settlement history is broadly consistent with academic research.",
+      "statement": "Residents of Santa Cruz del Islote stay close to their fishing grounds, earn growing income from tourism, and belong to families that have lived on the island since it was settled roughly 150 years ago.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Academic research supports settlement by itinerant fishermen in the late nineteenth century and the importance of fishing and tourism, but the complete claim about growing tourism income and families remaining continuously on the island since settlement is not established by the sources found.",
       "nguon": [
         {
-          "title": "Protecting the world’s most densely populated island from mass tourism",
-          "url": "https://english.elpais.com/travel/2024-01-12/protecting-the-worlds-most-densely-populated-island-from-mass-tourism.html",
-          "publisher": "EL PAÍS English",
+          "title": "De isla en isla. Configuración socioespacial en Santa Cruz del Islote",
+          "url": "https://www.jstor.org/stable/jj.38532748",
+          "publisher": "Ediciones USTA",
+          "type": "bach-khoa",
+          "published": "2023-01-01",
+          "url_song": true
+        },
+        {
+          "title": "See Photos of the Most Crowded Island on Earth",
+          "url": "https://www.nationalgeographic.com/photography/article/most-crowded-island-santa-cruz-del-islote-photograph-colombia",
+          "publisher": "National Geographic",
           "type": "bao",
-          "published": "2024-01-12",
+          "published": "2017-10-14",
           "url_song": true
         },
         {
-          "title": "\"De isla en isla\": Configuración socioespacial en Santa Cruz del Islote",
-          "url": "https://www.academia.edu/114800587/_De_isla_en_isla_Configuraci%C3%B3n_socioespacial_en_Santa_Cruz_del_Islote",
-          "publisher": "Universidad Santo Tomás",
-          "type": "goc",
-          "published": "2023-08-01",
-          "url_song": true
-        },
-        {
-          "title": "Tesis sobre el turismo en el archipiélago de San Bernardo",
-          "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/17572/2/TFLACSO-2021SPAN.pdf",
-          "publisher": "FLACSO Andes",
-          "type": "goc",
-          "published": null,
-          "url_song": true
-        },
-        {
-          "title": "Resilience in Santa Cruz del Islote: Sustainability of a Social-Ecological System in the Colombian Caribbean",
-          "url": "https://repositorioinstitucional.uaslp.mx/xmlui/handle/i/3603",
-          "publisher": "Universidad Autónoma de San Luis Potosí",
-          "type": "goc",
-          "published": "2013-07-01",
+          "title": "The magical realism of Santa Cruz del Islote - photo essay",
+          "url": "https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2018-02-02",
           "url_song": true
         }
       ]
@@ -857,7 +802,7 @@
     }
   ],
   "usage": {
-    "calls": 4,
+    "calls": 6,
     "ghi_chu": "giao diện web miễn phí, không tính token"
   }
 }

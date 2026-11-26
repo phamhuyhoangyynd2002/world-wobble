@@ -16,7 +16,10 @@
  *   dt.moBanDo(t)         bản đồ mở ra (scaleX);  dt.camGhim(t) ghim mới cắm;  dt.ghimRung(t, d) ghim trống rung + mặt trời nhô
  *   dt.endScreen(t)       hai khung + vòng bật lên (lớp phẳng z 30, trên sân khấu, dưới hạt giấy)
  *   dt.diem(i)            điểm thế giới của món i (ngắm camera)
- * Hàm vẽ kỷ vật (ve): "tuDong" (tủ đông nhỏ, cá trong), "loOpal", "toLich" (tờ lịch gấp còn băng dính), "ca" hoặc function(api) → {svg, w, h}.
+ * Hàm vẽ kỷ vật (ve): "tuDong" (tủ đông nhỏ, cá trong), "loOpal", "toLich" (tờ lịch gấp còn băng dính), "ca", "binhXit" (bình xịt muỗi
+ * còn tem, tập 4) hoặc function(api) → {svg, w, h}.
+ * Thêm 26/11/2026 (tập 4): thẻ kệ to nhiều dòng (kyVat[i].dong = ["SANTA CRUZ", "DEL ISLOTE"], .co hoặc o.theCo cỡ chữ, .theW/o.theW rộng,
+ * .theDx/.theDy dời thẻ); o.matTroi: false (hoặc dt.ghimRung(t, d, {matTroi: false})) tắt mặt trời nhô; o.endScreen thiếu trường lấy mặc định.
  * Thêm kỷ vật tập mới: thêm một khoá vào VE dưới đây (chỉ thêm).
  */
 (function () {
@@ -39,7 +42,9 @@
         [[20, 26, -20], [150, 30, 25], [80, 140, 8]].forEach(function (b) { s += '<rect x="' + (b[0] - 16) + '" y="' + (b[1] - 7) + '" width="32" height="14" fill="#f3e2b0" opacity=".85" stroke="' + INK + '" stroke-width="2" transform="rotate(' + b[2] + " " + b[0] + " " + b[1] + ')"/>'; });
         return { svg: s, w: 190, h: 160 };
       },
-      ca: function () { return { svg: '<g transform="translate(110 50)">' + api.fishSVG("") + "</g>", w: 220, h: 100 }; }
+      ca: function () { return { svg: '<g transform="translate(110 50)">' + api.fishSVG("") + "</g>", w: 220, h: 100 }; },
+      // thêm 26/11/2026 (tập 4 Santa Cruz del Islote): bình xịt muỗi còn nguyên tem (api.binhXitSVG, lib diorama)
+      binhXit: function () { return { svg: '<g transform="translate(45 200)">' + api.binhXitSVG() + "</g>", w: 90, h: 205 }; }
     };
 
     api.duoiTap = function (ban, o) {
@@ -56,7 +61,13 @@
       (o.kyVat || []).forEach(function (m, i) {
         var v = typeof m.ve === "function" ? m.ve(api) : VE[m.ve](), p = cho(m.tang || 0, m.cho || i);
         var el = api.cut(the, v.w, v.h, '<g class="rung">' + v.svg + "</g>", { pos: { x: p.x, y: p.y, z: p.z }, f: api.F.AM_NHO });
-        var tag = api.cut(the, 300, 60, fp("M 6 6 L 294 6 L 294 54 L 6 54 Z", C.PAPER, 4) + '<circle cx="20" cy="30" r="5" fill="' + INK + '"/>' + api.txt(156, 44, 32, 800, m.the, INK),
+        var tag;
+        if (m.dong || m.co || o.theCo) {
+          // thêm 26/11/2026: thẻ to, chữ nhiều dòng (m.dong: các dòng con của m.the), cỡ m.co || o.theCo; rộng m.theW || o.theW (mặc định 300)
+          var tco = m.co || o.theCo || 32, tdong = m.dong || [m.the], tw = m.theW || o.theW || 300, th = Math.round(tco * 1.12 * tdong.length + tco * 0.5);
+          tag = api.cut(the, tw, th, fp("M 6 6 L " + (tw - 6) + " 6 L " + (tw - 6) + " " + (th - 6) + " L 6 " + (th - 6) + " Z", C.PAPER, 4) + '<circle cx="15" cy="' + Math.round(th / 2) + '" r="4" fill="' + INK + '"/>' +
+            api.txtDong(tw / 2 + 12, Math.round(tco * 0.95), tco, 800, m.the, tdong, INK, "", tco * 1.1), { pos: { x: p.x + (m.theDx || 0), y: p.y + 8 + (m.theDy || 0), z: p.z + 40 }, f: api.F.AM_NHO });
+        } else tag = api.cut(the, 300, 60, fp("M 6 6 L 294 6 L 294 54 L 6 54 Z", C.PAPER, 4) + '<circle cx="20" cy="30" r="5" fill="' + INK + '"/>' + api.txt(156, 44, 32, 800, m.the, INK),
           { pos: { x: p.x, y: p.y + 8, z: p.z + 40 }, f: api.F.AM_NHO });
         var mo = { el: el, tag: tag, cho: p, def: m, rung: el.svg.querySelector(".rung") };
         if (m.moi) { gsap.set([el, tag], { opacity: 0 }); }
@@ -110,16 +121,19 @@
         tl.to(q("ghim-moi"), { y: 0, opacity: 1, duration: 0.25, ease: "power3.in" }, t - 0.25);
         if (gm.the) tl.to(q("ghim-the"), { opacity: 1, duration: 0.2 }, t);
       };
-      dt.ghimRung = function (t, d) {
+      // thêm 26/11/2026: o.matTroi === false (hoặc o3.matTroi === false) → không có mặt trời nhô (tập sau không phải nơi ấm)
+      dt.ghimRung = function (t, d, o3) {
         var g = q("ghim-trong");
         tl.set(g, { opacity: 1 }, t);
         var n = Math.max(2, Math.round((d || 1.2) / 0.08));
         tl.fromTo(g, { rotation: -8 }, { rotation: 8, svgOrigin: "0 0", duration: (d || 1.2) / n, yoyo: true, repeat: n - 1, ease: "sine.inOut", immediateRender: false }, t);
         tl.to(g, { rotation: 0, svgOrigin: "0 0", duration: 0.1 }, t + (d || 1.2));
+        if (o.matTroi === false || (o3 && o3.matTroi === false)) return;
         tl.fromTo(q("mat-troi"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: "back.out(2)", immediateRender: false }, t + 0.3);
       };
       // end screen: lớp phẳng theo khung (vị trí chính xác bất kể camera)
-      var ES = o.endScreen || { khung: [[1180, 130], [1180, 480]], w: 560, h: 315, vong: [1460, 905], r: 100 };
+      // Mặc định đổi 26/11/2026 (duyệt 5a tập 4): khung trên từ y 130 lấn vùng logo góc phải trên (x > 1500, y < 150) → y 160 / 500, vòng tâm y 922
+      var ES = Object.assign({ khung: [[1180, 160], [1180, 500]], w: 560, h: 315, vong: [1460, 922], r: 100 }, o.endScreen || {}); // 26/11: endScreen thiếu trường thì lấy mặc định
       var es = '<svg class="dio-ovl" width="1920" height="1080" style="z-index:30" data-layout-allow-overflow>';
       ES.khung.forEach(function (k, i) {
         es += '<g class="es es-' + i + '" style="filter:drop-shadow(2px 3px 0 #a8946c) drop-shadow(12px 10px 8px rgba(25,12,0,.45))">' +

@@ -332,11 +332,22 @@
   /** Mũ rộng vành giấy kraft #C9A46A, dải vải đỏ #C9463A (khoá liên tục tập Coober Pedy, 23/11/2026).
    *  spec: true | {rot (độ, quanh giữa vành), dx, dy, smoke 0..1 (khói nóng bốc), dust (phủ bụi)}. Hệ Wob: vành ở y≈84. */
   VT.MU_RONG_VANH = { mu: "#C9A46A", toi: "#A3814A", dai: "#C9463A" };
+  /** Mũ cói (thêm 26/11/2026, tập Santa Cruz del Islote): cùng dáng, vành rơm sáng #DDBF7A, nét đan chéo #B08A48, dải xanh ngọc #2A9D8F.
+   *  Gọi sunhat: "coi" hoặc {mau: "coi", rot, dx, dy, ...}; VT.sunhat({mau: "coi"}). Không truyền mau thì giữ màu kraft cũ. */
+  VT.MU_COI = { mu: "#DDBF7A", toi: "#B08A48", dai: "#2A9D8F", dan: true };
+  function weave(d, col) {
+    var id = VT.uid("mc"), ln = "";
+    for (var k = -400; k < 400; k += 22) ln += "M " + k + " 0 L " + (k + 130) + " 130 M " + (k + 130) + " 0 L " + k + " 130 ";
+    return '<clipPath id="' + id + '"><path d="' + d + '"/></clipPath><g clip-path="url(#' + id + ')"><path d="' + ln + '" fill="none" stroke="' + col + '" stroke-width="2.6" opacity="0.85" transform="translate(200 -12)"/></g>';
+  }
   function sunhatSvg(spec, t) {
-    var o = spec && typeof spec === "object" ? spec : {}, M = VT.MU_RONG_VANH, out = "";
-    out += VT.shape("M 52 92 C 60 64 340 64 348 92 C 340 116 60 116 52 92 Z", M.mu, { sw: 6 });
+    var o = spec && typeof spec === "object" ? spec : {}, M = (spec === "coi" || o.mau === "coi") ? VT.MU_COI : (o.mau && typeof o.mau === "object" ? o.mau : VT.MU_RONG_VANH), out = "";
+    var BR = "M 52 92 C 60 64 340 64 348 92 C 340 116 60 116 52 92 Z", CR = "M 128 86 C 124 30 160 6 200 6 C 240 6 276 30 272 86 C 230 96 170 96 128 86 Z";
+    out += VT.shape(BR, M.mu, { sw: 6 });
+    if (M.dan) out += weave(BR, M.toi) + VT.line(BR, 6);
     out += VT.line("M 80 100 C 150 110 250 110 320 100", 3, M.toi, 0.9);
-    out += VT.shape("M 128 86 C 124 30 160 6 200 6 C 240 6 276 30 272 86 C 230 96 170 96 128 86 Z", M.mu, { sw: 6 });
+    out += VT.shape(CR, M.mu, { sw: 6 });
+    if (M.dan) out += weave(CR, M.toi) + VT.line(CR, 6);
     out += VT.shape("M 130 66 C 170 76 230 76 270 66 L 272 84 C 230 94 170 94 128 84 Z", M.dai, { sw: 4 });
     out += VT.line("M 168 24 C 160 40 158 54 160 62", 3, M.toi, 0.8);
     if (o.dust) [[100, 84], [160, 40], [240, 30], [300, 92], [210, 60]].forEach(function (d, i) { out += VT.dot(d[0], d[1], 4 + (i % 2) * 2, "#B89A6A"); });
@@ -354,7 +365,7 @@
   }
   /** Mũ rộng vành đứng riêng (rơi, bò, treo). Gốc giữa vành. o: {x, y, s, rot, sx, legs: pha bò (số) hoặc false, smoke, dust, eyes (đôi mắt nhỏ dưới vành khi bò)}. */
   VT.sunhat = function (o) {
-    var inner = sunhatSvg({ smoke: o.smoke, dust: o.dust }, o.t);
+    var inner = sunhatSvg({ smoke: o.smoke, dust: o.dust, mau: o.mau }, o.t);
     var legsSvg = "";
     if (o.legs != null && o.legs !== false) {
       var ph = o.legs * 2 * Math.PI;
@@ -406,7 +417,7 @@
    *  handL/handR: tron|nam|chi|xoe · propBack (sau thân) · prop (giữa tay và bàn tay: bàn tay đè lên vật = đang cầm) · propFront
    *  legs: stand|walk|shiver|apart|tuck|tiptoe · phase, stride (đi bộ, lấy từ VT.buoc) · lift · autoWalk=false để tự điều khiển nhún
    *  pack: góc ba lô (độ, từ VT.conLac) · smear: px (thân kéo thành giọt theo hướng ngược chuyển động)
-   *  sunhat (true | {rot, dx, dy, smoke, dust}: mũ rộng vành kraft) · packColor ("oliu" | {pack, dark}) · grassRoll · packOpen 0..1
+   *  sunhat (true | "coi" | {mau: "coi", rot, dx, dy, smoke, dust}: mũ rộng vành kraft, "coi" = mũ cói tập 4) · packColor ("oliu" | {pack, dark}) · grassRoll · packOpen 0..1
    *  raincoat (true | {hood, wet}), pajama, cap, sunglasses, shoes ("dep" dép lê | "ung" ủng cao su), scarf ("kem" | màu) [Whittier 23/11/2026]
    *  cold, frost, beanie (true | "khoa" = màu khoá liên tục | "kem" | {mu, vanh, bong, rot}), scarf, blanket, snowhat · noPack (không vẽ ba lô + quai: ba lô đã tháo, vẽ riêng bằng VT.backpack) · shiver (px rung) · marks: shiver|shock|sweat */
   VT.wob = function (o) {

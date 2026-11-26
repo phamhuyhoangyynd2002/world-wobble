@@ -1,0 +1,47 @@
+[
+ {
+  "ten": "boing",
+  "tai": 2.657,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "song",
+  "tai": 6.388,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 11.38,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "dau-wob",
+  "tai": 12.18,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 15.54,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 16.2,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "pop",
+  "tai": 16.8,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "song",
+  "tai": 20.975,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "song",
+  "tai": 22.012,
+  "am_luong": 0.35
+ }
+]

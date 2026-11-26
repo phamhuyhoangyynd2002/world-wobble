@@ -51,5 +51,26 @@
       "C28",
       "C29"
     ]
+  },
+  {
+    "lo": 5,
+    "file": "projects\\2026-11-16-santa-cruz-del-islote\\kiem-chung\\web\\lo-5.txt",
+    "ids": [
+      "C05",
+      "C06",
+      "C07",
+      "C16",
+      "C20",
+      "C23",
+      "C25",
+      "C27"
+    ]
+  },
+  {
+    "lo": 6,
+    "file": "projects\\2026-11-16-santa-cruz-del-islote\\kiem-chung\\web\\lo-6.txt",
+    "ids": [
+      "C16"
+    ]
   }
 ]
