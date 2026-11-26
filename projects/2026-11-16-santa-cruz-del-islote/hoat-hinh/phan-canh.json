@@ -348,29 +348,40 @@
     },
     {
      "tai": 41.125,
-     "loi": "The answer turned out to be very small, and it buzzes.",
-     "hanh_dong": "[lia-theo-vat] Một con muỗi vẽ tay bay ba vòng quanh vành mũ cói; mắt Wob đảo theo tới lác",
-     "gag": "Mắt Wob lác theo muỗi",
+     "loi": "The answer was very small.",
+     "hanh_dong": "Cận mặt Wob: Wob nghiêng người sát ống kính như kể bí mật, nheo một mắt, nhướn một mày; camera đẩy vào",
+     "gag": "Wob ghé sát ống kính thì thầm",
+     "dao_cu": [],
+     "sfx": []
+    },
+    {
+     "tai": 43.6,
+     "loi": "The clue rode in my side pocket the whole way,",
+     "hanh_dong": "[cat-can-vat] Cận túi hông ba lô: bình xịt muỗi còn tem đỏ niêm phong, lóe sáng một cái ở \"pocket\"; nắp ba lô hé như ngoái lại. KHÔNG vẽ muỗi (chưa lộ đáp án)",
+     "gag": "Bình xịt lóe sáng, ba lô hé nắp",
      "dao_cu": [
-      "muoi"
+      "binh-xit",
+      "ba-lo-khong-lo"
      ],
      "sfx": [
-      "muoi"
+      "ting"
      ]
     },
     {
-     "tai": 44.475,
-     "loi": "As locals tell it, the first fishermen stayed because the mosquitoes didn't.",
-     "hanh_dong": "Con muỗi xách một va li tí hon bay khỏi đảo nhà sang đảo có cây, không ngoái lại; giữ 0,6 s trên đảo nhà yên lặng",
-     "gag": "Muỗi xách va li dọn đi (lần \"muỗi bỏ đi\" rõ nhất, giữ ở đây)",
+     "tai": 46.188,
+     "loi": "and I still guessed wrong.",
+     "hanh_dong": "Toàn cảnh Wob trên thuyền cạnh ba lô: bong bóng ý nghĩ bật ra một rương kho báu (gài cảnh 5), Wob gật gù tự tin, mắt cười; giữ tới hết đoạn",
+     "gag": "Wob tự tin với rương kho báu tưởng tượng ngay lúc lời nói \"đoán sai\"",
      "dao_cu": [
-      "muoi"
+      "ruong"
      ],
-     "sfx": []
+     "sfx": [
+      "pop"
+     ]
     }
    ],
    "chu_tren_do_vat": [],
-   "ly_do_phong_cach": "Gag cận mặt, cường điệu (muỗi xách va li): vẽ tay chèn. Nhá lý do không muỗi trong 45 s đầu (C04 mức C, lời đã rào \"As locals tell it\")"
+   "ly_do_phong_cach": "Gag cận mặt + cận vật: vẽ tay chèn. KHÔNG lộ đáp án muỗi (luật 27/11/2026): chỉ treo manh mối bình xịt, gài giả thuyết kho báu sai của cảnh 5; lời giải ở d12–d13 (cảnh 6)"
   },
   {
    "id": "d04",

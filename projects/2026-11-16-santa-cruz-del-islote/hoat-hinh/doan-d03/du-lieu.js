@@ -31,25 +31,36 @@ window.HH_DATA = {
   },
   {
    "tai": 1.925,
-   "loi": "The answer turned out to be very small, and it buzzes.",
-   "hanh_dong": "[lia-theo-vat] Một con muỗi vẽ tay bay ba vòng quanh vành mũ cói; mắt Wob đảo theo tới lác",
-   "gag": "Mắt Wob lác theo muỗi",
+   "loi": "The answer was very small.",
+   "hanh_dong": "Cận mặt Wob: Wob nghiêng người sát ống kính như kể bí mật, nheo một mắt, nhướn một mày; camera đẩy vào",
+   "gag": "Wob ghé sát ống kính thì thầm",
+   "dao_cu": [],
+   "sfx": []
+  },
+  {
+   "tai": 4.4,
+   "loi": "The clue rode in my side pocket the whole way,",
+   "hanh_dong": "[cat-can-vat] Cận túi hông ba lô: bình xịt muỗi còn tem đỏ niêm phong, lóe sáng một cái ở \"pocket\"; nắp ba lô hé như ngoái lại. KHÔNG vẽ muỗi (chưa lộ đáp án)",
+   "gag": "Bình xịt lóe sáng, ba lô hé nắp",
    "dao_cu": [
-    "muoi"
+    "binh-xit",
+    "ba-lo-khong-lo"
    ],
    "sfx": [
-    "muoi"
+    "ting"
    ]
   },
   {
-   "tai": 5.275,
-   "loi": "As locals tell it, the first fishermen stayed because the mosquitoes didn't.",
-   "hanh_dong": "Con muỗi xách một va li tí hon bay khỏi đảo nhà sang đảo có cây, không ngoái lại; giữ 0,6 s trên đảo nhà yên lặng",
-   "gag": "Muỗi xách va li dọn đi (lần \"muỗi bỏ đi\" rõ nhất, giữ ở đây)",
+   "tai": 6.988,
+   "loi": "and I still guessed wrong.",
+   "hanh_dong": "Toàn cảnh Wob trên thuyền cạnh ba lô: bong bóng ý nghĩ bật ra một rương kho báu (gài cảnh 5), Wob gật gù tự tin, mắt cười; giữ tới hết đoạn",
+   "gag": "Wob tự tin với rương kho báu tưởng tượng ngay lúc lời nói \"đoán sai\"",
    "dao_cu": [
-    "muoi"
+    "ruong"
    ],
-   "sfx": []
+   "sfx": [
+    "pop"
+   ]
   }
  ],
  "loi": [
@@ -416,117 +427,102 @@ window.HH_DATA = {
     {
      "text": "The",
      "start": 1.925,
-     "end": 2.112
+     "end": 2.1
     },
     {
      "text": "answer",
-     "start": 2.125,
-     "end": 2.487
+     "start": 2.112,
+     "end": 2.475
     },
     {
-     "text": "turned",
-     "start": 2.5,
-     "end": 2.8
-    },
-    {
-     "text": "out",
-     "start": 2.812,
-     "end": 2.962
-    },
-    {
-     "text": "to",
-     "start": 2.975,
-     "end": 3.05
-    },
-    {
-     "text": "be",
-     "start": 3.062,
-     "end": 3.175
+     "text": "was",
+     "start": 2.487,
+     "end": 2.637
     },
     {
      "text": "very",
-     "start": 3.187,
-     "end": 3.512
+     "start": 2.65,
+     "end": 2.912
     },
     {
-     "text": "small,",
-     "start": 3.525,
-     "end": 3.975
+     "text": "small.",
+     "start": 2.925,
+     "end": 3.338
+    },
+    {
+     "text": "The",
+     "start": 4.4,
+     "end": 4.588
+    },
+    {
+     "text": "clue",
+     "start": 4.6,
+     "end": 4.875
+    },
+    {
+     "text": "rode",
+     "start": 4.887,
+     "end": 5.112
+    },
+    {
+     "text": "in",
+     "start": 5.125,
+     "end": 5.187
+    },
+    {
+     "text": "my",
+     "start": 5.2,
+     "end": 5.325
+    },
+    {
+     "text": "side",
+     "start": 5.338,
+     "end": 5.675
+    },
+    {
+     "text": "pocket",
+     "start": 5.687,
+     "end": 6.038
+    },
+    {
+     "text": "the",
+     "start": 6.05,
+     "end": 6.137
+    },
+    {
+     "text": "whole",
+     "start": 6.15,
+     "end": 6.438
+    },
+    {
+     "text": "way,",
+     "start": 6.45,
+     "end": 6.725
     },
     {
      "text": "and",
-     "start": 4.25,
-     "end": 4.312
+     "start": 6.988,
+     "end": 7.112
     },
     {
-     "text": "it",
-     "start": 4.325,
-     "end": 4.4
+     "text": "I",
+     "start": 7.125,
+     "end": 7.187
     },
     {
-     "text": "buzzes.",
-     "start": 4.412,
-     "end": 4.912
+     "text": "still",
+     "start": 7.2,
+     "end": 7.475
     },
     {
-     "text": "As",
-     "start": 5.275,
-     "end": 5.5
+     "text": "guessed",
+     "start": 7.488,
+     "end": 7.738
     },
     {
-     "text": "locals",
-     "start": 5.513,
-     "end": 5.888
-    },
-    {
-     "text": "tell",
-     "start": 5.9,
-     "end": 6.125
-    },
-    {
-     "text": "it,",
-     "start": 6.138,
-     "end": 6.25
-    },
-    {
-     "text": "the",
-     "start": 6.463,
-     "end": 6.563
-    },
-    {
-     "text": "first",
-     "start": 6.575,
-     "end": 6.975
-    },
-    {
-     "text": "fishermen",
-     "start": 6.987,
-     "end": 7.387
-    },
-    {
-     "text": "stayed",
-     "start": 7.4,
-     "end": 7.813
-    },
-    {
-     "text": "because",
-     "start": 7.825,
-     "end": 8.088
-    },
-    {
-     "text": "the",
-     "start": 8.1,
-     "end": 8.175
-    },
-    {
-     "text": "mosquitoes",
-     "start": 8.187,
-     "end": 8.75
-    },
-    {
-     "text": "didn't.",
-     "start": 8.763,
-     "end": 9.113
+     "text": "wrong.",
+     "start": 7.75,
+     "end": 8.125
     },
     {
      "text": "I",

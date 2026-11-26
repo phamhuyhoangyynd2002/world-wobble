@@ -1,0 +1,25 @@
+{
+  "vong": "sua-2-d03",
+  "ngay": "2026-11-27",
+  "che_do": "hinh",
+  "tong_the": null,
+  "doan": [
+    {
+      "id": "d03",
+      "phong_cach": "ve-tay",
+      "diem": {"D1": 2, "D2": 2, "D3": 2, "D4": 1, "D5": 2, "D6": 2, "D7": 2, "D8": 1, "D9": 2, "D10": 2},
+      "tong": 18,
+      "ket_luan": "DAT",
+      "lo_dap_an": false,
+      "viec": [
+        {"nguoi": "dung-ve-tay", "bat_buoc": false, "moc": "2.0-4.4", "viec": "O2: doi bieu cam hai mat '> <' thanh nhay mot mat + nhuon mot may, mieng mim cuoi, tay o mep mieng (thi tham)"},
+        {"nguoi": "dung-ve-tay", "bat_buoc": false, "moc": "2.0-4.4, 7.0-9.3", "viec": "Lat bo cuc de ba lo ben trai Wob nhu d02/d04; than thuyen xanh lam, hoac ghi ly do giu thuyen trang vao nhat-ky"},
+        {"nguoi": "dung-ve-tay", "bat_buoc": false, "moc": "2.0-2.6", "viec": "Tuy chon: day camera toi can mat that (mat >= 1/2 khung)"}
+      ],
+      "gui_bien_kich": [
+        "Hook canh 1 'Nothing there wanted to bite me' gan noi thang su that cua dap an; xet lai khi cham T1",
+        "script.json canh 2 y_hinh ghi 'ban do kho bau chu X', hinh dung ruong bau; dong bo ghi chu"
+      ]
+    }
+  ]
+}

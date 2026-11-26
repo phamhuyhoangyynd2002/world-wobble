@@ -36,7 +36,7 @@ Mỗi tiêu chí cho **0** (hỏng), **1** (tạm), **2** (tốt). Ghi bằng ch
 
 | # | Tiêu chí | Hỏi gì |
 |---|---|---|
-| T1 | **10 giây đầu, 30 giây đầu** | Khung 0 đã có Wob và kỷ vật; người xem biết câu hỏi của tập trước 10 s; có lý do ở lại qua 30 s |
+| T1 | **10 giây đầu, 30 giây đầu** | Khung 0 đã có Wob và kỷ vật; người xem biết câu hỏi của tập trước 10 s; có lý do ở lại qua 30 s; **không lộ đáp án** (lời hay hình) trước cảnh `dap_an_chinh` của `script.json`: hình ở hook, lời hứa chỉ được là manh mối |
 | T2 | **Nhịp giữ chân** | Mỗi 60–90 s có một mồi mới (gag lớn, Wob đổi ý, kỷ vật mới, cắt về hiện tại, đổi mùa); không đoạn nào > 90 s chỉ giải thích. Ghi danh sách mốc mồi và khoảng trống dài nhất |
 | T3 | **Đa dạng hình** | Không chuỗi > 90 s cùng phong cách; cỡ cảnh, thẻ cảnh không lặp (thẻ nào > 20% số nhịp có thẻ là lỗi); ánh sáng, màu đổi theo nhịp kể |
 | T4 | **Mạch hành trình** | Đọc riêng các khung đầu chương vẫn thấy một chuyến đi (tới nơi → các hoạt động → về); hai lớp hiện tại và hồi ức rõ ràng; kỷ vật mở và đóng vòng |

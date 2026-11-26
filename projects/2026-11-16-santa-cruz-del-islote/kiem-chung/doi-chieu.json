@@ -167,49 +167,6 @@
       ]
     },
     {
-      "id": "C04",
-      "scene": 2,
-      "quote": "As locals tell it, the first fishermen stayed because the mosquitoes didn't.",
-      "statement": "According to a story told by locals, the fishermen who first settled on Santa Cruz del Islote chose it because it had no mosquitoes.",
-      "hedged": true,
-      "claude": "dung",
-      "gemini": "dung",
-      "vong3": null,
-      "level": "A",
-      "issue": null,
-      "nguon": [
-        {
-          "title": "Tienen una vida tranquila y no tienen policías: conoce la isla que se está quedando sin espacio (CNN)",
-          "publisher": "CNN Chile",
-          "url": "https://www.cnnchile.com/pais/tienen-una-vida-tranquila-y-no-tienen-policias-conoce-la-isla-que-se-esta-quedando-sin-espacio/",
-          "type": "bao",
-          "published": null
-        },
-        {
-          "title": "Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo)",
-          "publisher": "Prensa Libre / BBC Mundo",
-          "url": "https://www.prensalibre.com/?p=442283",
-          "type": "bao",
-          "published": "2018-04-13"
-        },
-        {
-          "title": "Descubre Santa Cruz del Islote, la isla más poblada y su lucha por un futuro",
-          "publisher": "Radio Nacional de Colombia (RTVC)",
-          "url": "https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-la-isla-mas-poblada-y-su-lucha-por-un-futuro",
-          "type": "bao",
-          "published": null
-        },
-        {
-          "title": "Santa Cruz del Islote, Bolívar",
-          "url": "https://www.igac.gov.co/sites/default/files/2025-02/SPDB_Multitemporal_Dig_10122024%20_1.pdf",
-          "publisher": "Instituto Geográfico Agustín Codazzi (IGAC)",
-          "type": "goc",
-          "published": null,
-          "url_song": false
-        }
-      ]
-    },
-    {
       "id": "C05",
       "scene": 3,
       "quote": "The boat from Cartagena takes a couple of hours, more if the sea is rough.",
@@ -1400,7 +1357,7 @@
     }
   ],
   "counts": {
-    "A": 18,
+    "A": 17,
     "B": 8,
     "C": 2,
     "D": 0

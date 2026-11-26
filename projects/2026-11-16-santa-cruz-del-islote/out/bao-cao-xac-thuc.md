@@ -10,11 +10,11 @@
 
 | Mức | Số khẳng định | Tỉ lệ |
 |---|---|---|
-| A, xác thực | 18 | 64% |
-| B, có cơ sở | 8 | 29% |
+| A, xác thực | 17 | 63% |
+| B, có cơ sở | 8 | 30% |
 | C, còn tranh cãi (đã nói rõ trong lời) | 2 | 7% |
 | D, không kiểm chứng được (đã bỏ) | 4 | – |
-| **Tổng còn trong video** | 28 | 100% |
+| **Tổng còn trong video** | 27 | 100% |
 
 Hai mô hình lệch nhau ở 7 khẳng định; cách xử lý ở mục "Đã sửa hoặc bỏ".
 
@@ -25,31 +25,30 @@ Hai mô hình lệch nhau ở 7 khẳng định; cách xử lý ở mục "Đã 
 | C01 | 00:25 | "It covers about as much ground as two soccer fields." | A | Đúng | Đúng | [S1][S2][S3][S4] |  |
 | C02 | 00:28 | "Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though." | C | Đúng | Nguồn mâu thuẫn | [S1][S5][S6][S7][S8][S4][S9] | lời đọc đã nói rõ còn tranh cãi |
 | C03 | 00:35 | "Around it sit bigger islands, with beaches, trees and room to spare." | A | Đúng | Đúng | [S10][S11][S9][S12][S13] |  |
-| C04 | 00:44 | "As locals tell it, the first fishermen stayed because the mosquitoes didn't." | A | Đúng | Đúng | [S5][S14][S2][S4] |  |
-| C05 | 00:56 | "The boat from Cartagena takes a couple of hours, more if the sea is rough." | A | Đúng | Đúng | [S1][S15][S2][S16][S17][S18] |  |
-| C06 | 01:05 | "There's a shorter ride from Tolú, forty-five minutes to an hour by small motorboat, depending on who you ask." | A | Đúng | Đúng | [S9][S15][S3][S2][S19][S18][S20] |  |
-| C07 | 01:18 | "More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars." | A | Đúng | Đúng | [S21][S1][S3][S16][S6][S22] |  |
-| C08 | 02:46 | "About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms." | A | Đúng | Không rõ | [S1][S14][S4][S23][S24] | tra lần ba: Đúng |
+| C05 | 00:56 | "The boat from Cartagena takes a couple of hours, more if the sea is rough." | A | Đúng | Đúng | [S1][S14][S2][S15][S16][S17] |  |
+| C06 | 01:05 | "There's a shorter ride from Tolú, forty-five minutes to an hour by small motorboat, depending on who you ask." | A | Đúng | Đúng | [S9][S14][S3][S2][S18][S17][S19] |  |
+| C07 | 01:18 | "More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars." | A | Đúng | Đúng | [S20][S1][S3][S15][S6][S21] |  |
+| C08 | 02:46 | "About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms." | A | Đúng | Không rõ | [S1][S22][S4][S23][S24] | tra lần ba: Đúng |
 | C09 | 03:01 | "Night fell, the fishermen settled in, and nothing bit them." | B | Đúng | Đúng | [S5][S2][S25][S26] |  |
-| C10 | 03:05 | "The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there." | A | Đúng | Đúng | [S5][S14][S23][S27] |  |
-| C11 | 03:24 | "They piled up coral, stone and shells, plus whatever the sea washed up, and later they poured cement." | A | Đúng | Đúng | [S14][S2][S1][S15][S28][S29][S23] |  |
+| C10 | 03:05 | "The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there." | A | Đúng | Đúng | [S5][S22][S23][S27] |  |
+| C11 | 03:24 | "They piled up coral, stone and shells, plus whatever the sea washed up, and later they poured cement." | A | Đúng | Đúng | [S22][S2][S1][S14][S28][S29][S23] |  |
 | C12 | 04:20 | "A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred." | C | Đúng | Nguồn mâu thuẫn | [S5][S30] | lời đọc đã nói rõ còn tranh cãi |
-| C13 | 04:28 | "Colombia's national census in twenty eighteen counted a little over four hundred." | B | Đúng | Đúng | [S31][S21] |  |
+| C13 | 04:28 | "Colombia's national census in twenty eighteen counted a little over four hundred." | B | Đúng | Đúng | [S31][S20] |  |
 | C14 | 04:32 | "The one before, in two thousand five, counted five hundred and eighty." | B | Đúng | Đúng | [S31][S29][S32] |  |
 | C15 | 05:04 | "A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community." | A | Đúng | Đúng | [S33][S34][S35] |  |
-| C16 | 05:40 | "Fishing and tourism keep a lot of families here going. By some accounts, the tourists are catching up with the fish." | A | Đúng | Nguồn mâu thuẫn | [S16][S2][S3][S6][S36][S7][S37][S27] | tra lần ba: Đúng |
-| C17 | 05:49 | "there's no fresh water on the island. No river, no spring, just coral and salt. The Colombian Navy has brought drinking water to these islands by boat." | A | Đúng | Đúng | [S38][S1][S16][S39][S40][S8] |  |
+| C16 | 05:40 | "Fishing and tourism keep a lot of families here going. By some accounts, the tourists are catching up with the fish." | A | Đúng | Nguồn mâu thuẫn | [S15][S2][S3][S6][S36][S7][S37][S27] | tra lần ba: Đúng |
+| C17 | 05:49 | "there's no fresh water on the island. No river, no spring, just coral and salt. The Colombian Navy has brought drinking water to these islands by boat." | A | Đúng | Đúng | [S38][S1][S15][S39][S40][S8] |  |
 | C18 | 05:58 | "A bank even donated a machine that pulls drinking water out of the humid air." | B | Đúng | Đúng | [S33][S41][S34] |  |
-| C19 | 06:08 | "Colombia's housing ministry has also looked at solar-powered machines that turn seawater into drinking water." | A | Đúng | Không rõ | [S42][S43][S44][S21] | tra lần ba: Đúng |
+| C19 | 06:08 | "Colombia's housing ministry has also looked at solar-powered machines that turn seawater into drinking water." | A | Đúng | Không rõ | [S42][S43][S44][S20] | tra lần ba: Đúng |
 | C20 | 06:20 | "In twenty twenty-one, Colombia's energy ministry upgraded the island's solar and diesel power system, with a new diesel generator and a tune-up for its batteries." | A | Đúng | Đúng | [S45][S46] |  |
-| C21 | 06:36 | "Later, speedboats bring day visitors from hotels on nearby islands, and tourism matters more every year. Some islanders reportedly work at those hotels." | A | Đúng | Đúng | [S5][S14][S16][S47][S48][S49] |  |
+| C21 | 06:36 | "Later, speedboats bring day visitors from hotels on nearby islands, and tourism matters more every year. Some islanders reportedly work at those hotels." | A | Đúng | Đúng | [S5][S22][S15][S47][S48][S49] |  |
 | C22 | 07:38 | "The Guardian reported that islanders sometimes wake up to find water in their homes. These islands sit only about two metres above the sea on average. That's roughly six and a half feet." | B | Đúng | Đúng | [S50][S51][S48] |  |
 | C23 | 07:49 | "A local report in twenty fourteen, cited by The Guardian, found erosion along about forty-five percent of the archipelago's coastline. One small island nearby has disappeared completely." | B | Đúng | Đúng | [S51][S52][S48] |  |
 | C24 | 08:00 | "Global sea levels are expected to rise by up to thirty centimetres by twenty fifty. That's about a foot." | A | Đúng | Đúng | [S53][S54][S48][S55] |  |
 | C25 | 08:39 | "Young people who want to keep studying past the island's school have to leave." | B | Đúng | Đúng | [S1][S2][S28] |  |
-| C27 | 08:49 | "The fish are close. So are the visitors. And this is where their families have lived for generations." | B | Đúng | Không rõ | [S1][S6][S16][S5][S2][S56][S22] | tra lần ba: Đúng |
+| C27 | 08:49 | "The fish are close. So are the visitors. And this is where their families have lived for generations." | B | Đúng | Không rõ | [S1][S6][S15][S5][S2][S56][S21] | tra lần ba: Đúng |
 | C28 | 08:57 | "There's no room on the island for a cemetery. People are buried on another island." | A | Đúng | Đúng | [S1][S3][S2][S57][S47][S7] |  |
-| C29 | 09:20 | "The people out there built their own ground out of coral, by hand. They keep it going with water that arrives by boat, and a sea that keeps knocking." | A | Đúng | Không rõ | [S15][S38][S50][S3][S47][S7][S4][S58][S21][S59][S23] | tra lần ba: Đúng |
+| C29 | 09:20 | "The people out there built their own ground out of coral, by hand. They keep it going with water that arrives by boat, and a sea that keeps knocking." | A | Đúng | Không rõ | [S14][S38][S50][S3][S47][S7][S4][S58][S20][S59][S23] | tra lần ba: Đúng |
 
 ## Đã sửa hoặc bỏ
 
@@ -89,15 +88,15 @@ Hai mô hình lệch nhau ở 7 khẳng định; cách xử lý ở mục "Đã 
 | S11 | Comunidades de Isla Múcura, entre la erosión y el ascenso del nivel del mar | Red Prensa Verde | báo | – | https://redprensaverde.org/?p=16527 |
 | S12 | Discover Unknown Paradise Beaches | Colombia Travel | gốc | – | https://colombia.travel/en/encanto/paradise-beaches-in-colombia-hidden-treasures-waiting-be-discovered |
 | S13 | Plan de manejo del Parque Nacional Natural Los Corales del Rosario y de San Bernardo 2019-2024 | Parques Nacionales Naturales de Colombia | gốc | – | https://old.parquesnacionales.gov.co/portal/wp-content/uploads/2019/06/PM-PNN-CRSB_21_jun_2019_pm.pdf |
-| S14 | Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo) | Prensa Libre / BBC Mundo | báo | 2018-04-13 | https://www.prensalibre.com/?p=442283 |
-| S15 | Santa Cruz del Islote: la isla más densamente poblada del mundo | Noticias RCN | báo | 2023-02-25 | https://www.noticiasrcn.com/colombia/santa-cruz-del-islote-la-isla-mas-poblada-del-mundo-440804 |
-| S16 | La isla más sobrepoblada del mundo está en Sudamérica | La Nación (Argentina) | báo | 2026-07-31 | https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/ |
-| S17 | Cartagena to Isla Múcura | kimkim (travel guide) | khác | – | https://www.kimkim.com/ab/cartagena-to-isla-mucura |
-| S18 | Santa Cruz del Islote | Comisión Fílmica de Cartagena | gốc | – | https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote |
-| S19 | Informacion General | Santa Cruz del Islote community website | khác | – | https://santacruzdelislote.wixsite.com/santa-cruz-del-islot/about-3 |
-| S20 | Dimensión funcional | Alcaldía Mayor de Cartagena de Indias | gốc | – | https://pot.cartagena.gov.co/sites/default/files/2025-08/Funcional.pdf |
-| S21 | Sentencia 25000-23-24-000-2012-00278-03 (AP), Santa Cruz del Islote (DANE reply on CNPV 2018) | Consejo de Estado de Colombia (via normograma, compilación Procuraduría) | gốc | – | https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm |
-| S22 | The magical realism of Santa Cruz del Islote - photo essay | The Guardian | báo | 2018-02-02 | https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures |
+| S14 | Santa Cruz del Islote: la isla más densamente poblada del mundo | Noticias RCN | báo | 2023-02-25 | https://www.noticiasrcn.com/colombia/santa-cruz-del-islote-la-isla-mas-poblada-del-mundo-440804 |
+| S15 | La isla más sobrepoblada del mundo está en Sudamérica | La Nación (Argentina) | báo | 2026-07-31 | https://www.lanacion.com.ar/lifestyle/la-isla-mas-sobrepoblada-del-mundo-esta-en-sudamerica-viven-unas-800-personas-en-001-km-y-recibe-nid31072026/ |
+| S16 | Cartagena to Isla Múcura | kimkim (travel guide) | khác | – | https://www.kimkim.com/ab/cartagena-to-isla-mucura |
+| S17 | Santa Cruz del Islote | Comisión Fílmica de Cartagena | gốc | – | https://cartagenacomisionfilmica.com/en/locaciones/santa-cruz-del-islote |
+| S18 | Informacion General | Santa Cruz del Islote community website | khác | – | https://santacruzdelislote.wixsite.com/santa-cruz-del-islot/about-3 |
+| S19 | Dimensión funcional | Alcaldía Mayor de Cartagena de Indias | gốc | – | https://pot.cartagena.gov.co/sites/default/files/2025-08/Funcional.pdf |
+| S20 | Sentencia 25000-23-24-000-2012-00278-03 (AP), Santa Cruz del Islote (DANE reply on CNPV 2018) | Consejo de Estado de Colombia (via normograma, compilación Procuraduría) | gốc | – | https://normograma.com/documentospdf/pgn/v3_iconos/compilacion/docs/25000-23-24-000-2012-00278-03%28AP%29_20260514.htm |
+| S21 | The magical realism of Santa Cruz del Islote - photo essay | The Guardian | báo | 2018-02-02 | https://www.theguardian.com/artanddesign/2018/feb/02/the-magical-realism-of-santa-cruz-del-islote-in-pictures |
+| S22 | Colombia: cómo es vivir en Santa Cruz del Islote (BBC Mundo) | Prensa Libre / BBC Mundo | báo | 2018-04-13 | https://www.prensalibre.com/?p=442283 |
 | S23 | Colombia: cómo es vivir en Santa Cruz del Islote, la isla artificial más densamente poblada del mundo | Prensa Libre (BBC Mundo archive) | báo | – | https://www.prensalibre.com/hemeroteca/bbc-news-mundo-hemeroteca/colombia-como-es-vivir-en-santa-cruz-del-islote-la-isla-artificial-mas-densamente-poblada-del-mundo/ |
 | S24 | Life on the world's most crowded island | Nine | báo | 2018-03-26 | https://www.nine.com.au/travel/international/life-on-the-worlds-most-crowded-island-20180326-p5nafj.html |
 | S25 | Descubre Santa Cruz del Islote: la isla más poblada y su lucha por un futuro sostenible | Radio Nacional de Colombia | báo | – | https://radionacional.co/noticias-colombia/descubre-santa-cruz-del-islote-y-su-lucha-por-un-futuro |

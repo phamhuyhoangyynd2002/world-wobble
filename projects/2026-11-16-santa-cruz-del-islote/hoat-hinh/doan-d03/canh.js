@@ -1,18 +1,21 @@
 /* d03 · vẽ tay · chèn (39,2–48,525 s; 9,325 s). Vào "chen", ra "cat". Hồi ức, không khẩu hình.
+ * Sửa 27/11/2026 (luật "không lộ đáp án sớm"): bỏ muỗi bay quanh mũ và muỗi xách va li (lộ đáp án ở 0:44).
  * 1) Hình to: hai mái nhà vẽ tay ép vào, Wob tự ép người dẹt như chen xe buýt, má phồng, mắt híp ("squeeze").
- * 2) Cận đầu Wob: con muỗi bay ba vòng quanh vành mũ cói, mắt Wob đảo theo tới lác ở "buzzes".
- * 3) Toàn cảnh: muỗi xách va li tí hon bay từ đảo nhà sang đảo đước, không ngoái lại; cắt về đảo nhà yên lặng, giữ ≥ 0,6 s.
- * Đồ Wob: mũ cói (vành rơm, nét đan, dải xanh ngọc); ba lô khổng lồ trong thuyền (khuất dưới mép khung cận, thấy cuộn thảm + bình xịt ở cảnh toàn).
+ * 2) Cận mặt Wob ghé sát ống kính, tay che miệng như kể bí mật ("The answer was very small.").
+ * 3) Cận túi hông ba lô: bình xịt còn tem đỏ niêm phong lóe sáng ở "pocket"; nắp ba lô hé như ngoái lại. Không có muỗi.
+ * 4) Toàn cảnh Wob trên thuyền: bong bóng ý nghĩ bật ra rương kho báu (gài cảnh 5); Wob gật gù tự tin ngay lúc lời nói "guessed wrong".
+ * Đồ Wob: mũ cói (vành rơm, nét đan, dải xanh ngọc); ba lô khổng lồ trong thuyền.
  */
 window.CANH = function (VT, D) {
   var key = VT.key, seg = VT.seg, DUR = D.thoi_luong, M = VT.DAO_MAU;
-  var T_SQ = VT.tu("squeeze"), T_THE = VT.tu("the", 0), T_SMALL = VT.tu("small,"), T_BUZZ = VT.tu("buzzes."), T_AS = VT.tu("as"), T_DIDNT = VT.tu("didn't.");
-  var S1 = T_THE - 0.05, S2 = T_AS - 0.08, S3 = T_DIDNT - 0.12;
+  var T_SQ = VT.tu("squeeze"), T_THE = VT.tu("the", 0), T_SMALL = VT.tu("small."), T_CLUE = VT.tu("clue"), T_POCKET = VT.tu("pocket"),
+    T_WHOLE = VT.tu("whole"), T_AND = VT.tu("and"), T_GUESS = VT.tu("guessed"), T_WRONG = VT.tu("wrong.");
+  var S1 = T_THE - 0.05, S2 = T_CLUE - 0.12, S3 = T_AND - 0.1;
   var SEA = 760, WX = 960, WY = 1004, WS = 0.9;
-  var ORB0 = S1 + 0.45, ORB1 = T_BUZZ + 0.05;
+  var POP = T_GUESS - 0.12;
   VT.sfx("boing", T_SQ + 0.1, 0.35);
-  VT.sfx("muoi", S1 + 0.15, 0.6);
-  VT.sfx("muoi", S2 + 0.2, 0.4);
+  VT.sfx("ting", T_POCKET + 0.05, 0.45);
+  VT.sfx("pop", POP, 0.5);
 
   function sky() { return '<rect x="-1200" y="-1200" width="4320" height="' + (1200 + SEA) + '" fill="#F7EED8"/>' + VT.cloud({ x: 400, y: 260, s: 0.8 }) + VT.cloud({ x: 1500, y: 200, s: 0.6 }); }
   function mangroveIsland(x, y) {
@@ -47,45 +50,47 @@ window.CANH = function (VT, D) {
     var cam = key(T, [[0, [960, 770, 1.85]], [S1, [960, 770, 1.95], "sine"]]);
     return { cam: cam, shake: VT.shake(t, T_SQ + 0.15, 0.25, 6), world: out, tint: "warm" };
   } });
-  // 2 · muỗi bay ba vòng quanh vành mũ, mắt Wob lác
-  shots.push({ a: S1, b: S2, ten: "muỗi ba vòng quanh vành mũ", ve: function (t, lt, T) {
-    var o = { t: t, mouth: "content", py: -6 };
-    var hc = VT.wobPt({ s: WS, x: WX, y: WY }, 200, 74), rx = 215, ry = 56;
-    var mx, my, behind = false, sx = -1;
-    if (t < ORB0) { var e = VT.ease.out(seg(t, S1, ORB0)); mx = VT.lerp(WX + 620, hc[0] + rx, e); my = VT.lerp(hc[1] - 160, hc[1], e); }
-    else if (t < ORB1) {
-      var th = 2 * Math.PI * 3 * VT.ease.io(seg(t, ORB0, ORB1));
-      mx = hc[0] + rx * Math.cos(th); my = hc[1] - 6 + ry * Math.sin(th) - 14 * Math.sin(th * 2);
-      behind = Math.sin(th) < 0; sx = Math.sin(th) > 0 ? -1 : 1;
-    } else { var e2 = VT.ease.out(seg(t, ORB1, ORB1 + 0.35)); var nose = VT.wobPt({ s: WS, x: WX, y: WY }, 200, 196); mx = VT.lerp(hc[0] + rx, nose[0] + 40, e2); my = VT.lerp(hc[1], nose[1] - 6, e2); sx = -1; }
-    var head = VT.wobPt({ s: WS, x: WX, y: WY }, 200, 156);
-    o.px = VT.clamp((mx - head[0]) / 14, -12, 12); o.py = VT.clamp((my - head[1]) / 10, -14, 10);
-    if (t >= T_BUZZ - 0.08) { o.eyes = "cross"; o.mouth = "wobbly"; o.brows = "worried"; }
-    else if (t >= T_SMALL) o.brows = "up";
-    var mq = VT.muoi({ x: mx, y: my, s: 0.85, sx: sx, t: t });
-    var out = world(t) + VT.baLoKhongLo({ x: WX + 250, y: 1040, s: 0.85 }) + (behind ? mq : "") + W(o) + boat(WX, 1010, 1.1, t) + (behind ? "" : mq);
-    if (t >= ORB0 && t < ORB1) out += VT.arc([[mx - (sx < 0 ? -50 : 50), my + 6], [mx - (sx < 0 ? -90 : 90), my + 10]], 4, 0.5);
-    var cam = key(T, [[S1, [960, 690, 2.05]], [T_BUZZ, [960, 700, 2.2], "sine"], [S2, [960, 704, 2.28], "out"]]);
+  // 2 · Wob ghé sát ống kính, tay che miệng kể bí mật
+  shots.push({ a: S1, b: S2, ten: "Wob ghé sát kể bí mật", ve: function (t, lt, T) {
+    var k = VT.ease.out(seg(t, S1, S1 + 0.35));
+    var o = { t: t, mouth: "smirk", brows: "skeptic", py: 2, px: 0, lean: -5 * k };
+    o.armR = [VT.lerp(338, 262, k), VT.lerp(300, 226, k)]; o.handR = "xoe";
+    if (t >= T_SMALL - 0.05) { o.lid = 0.55; o.brows = "skeptic"; o.mouth = "smirk"; }
+    var out = world(t) + VT.baLoKhongLo({ x: WX + 250, y: 1040, s: 0.85 }) + W(o) + boat(WX, 1010, 1.1, t);
+    var cam = key(T, [[S1, [960, 705, 2.3]], [T_SMALL, [968, 740, 2.8], "out"], [S2, [970, 742, 2.86], "sine"]]);
     return { cam: cam, world: out, tint: "warm" };
   } });
-  // 3 · muỗi xách va li dọn sang đảo đước
-  var FLY0 = S2 + 0.1, FLY1 = S3 - 0.45;
-  shots.push({ a: S2, b: S3, ten: "muỗi xách va li dọn đi", ve: function (t, lt, T) {
-    var k = seg(t, FLY0, FLY1), mx = VT.lerp(700, 1510, VT.ease.sine(k)), my = 600 - 40 * Math.sin(Math.PI * k) + 8 * Math.sin(t * 9);
-    var land = seg(t, FLY1, FLY1 + 0.25);
-    var bx = 520, by = 1046, ws = 0.62;
-    var o = { t: t, s: ws, x: bx, y: by - 26, mouth: "flat", brows: "flat", px: VT.clamp((mx - bx) / 60, -12, 12), py: -10 };
-    var out = world(t) + VT.baLoKhongLo({ x: bx + 150, y: by - 40, s: 0.6 }) + W(o) + boat(bx, by, 0.85, t);
-    if (land < 1) out += VT.muoi({ x: mx, y: my + 50 * land, s: 1.15 * (1 - 0.5 * land), t: t, suitcase: true });
-    var cam = key(T, [[S2, [1080, 700, 1.22]], [S3, [1080, 700, 1.27], "sine"]]);
+  // 3 · cận túi hông ba lô: bình xịt niêm phong lóe sáng, nắp ba lô hé như ngoái lại
+  shots.push({ a: S2, b: S3, ten: "bình xịt niêm phong lóe sáng", ve: function (t, lt, T) {
+    var peek = VT.ease.io(seg(t, T_WHOLE - 0.1, T_WHOLE + 0.3)) * (1 - VT.ease.io(seg(t, S3 - 0.35, S3)));
+    var bx = 1250, by = 1290, bs = 2.2;
+    var out = world(t) +
+      VT.shape("M -400 1250 L 2400 1250 L 2400 1600 L -400 1600 Z", "#B9875A", { sw: 7 }) +
+      VT.line("M -400 1330 L 2400 1330", 4, VT.C.ink, 0.35) +
+      VT.baLoKhongLo({ x: bx, y: by, s: bs, lidPeek: peek, noCan: true });
+    // bình xịt cận: cắm cao hơn bản thường để thấy tem đỏ + nhãn, rồi vẽ lại mặt túi hông đè lên chân bình
+    var can = [bx - 150 * bs, by - 120 * bs];
+    out += VT.binhXit({ x: can[0], y: can[1], s: 0.9 * bs, rot: -8 }) +
+      VT.g(VT.tr(bx, by, bs, 0), VT.shape(VT.rrect(-172, -150, -126, -30, 16), M.oliveDark, { sw: 5 }));
+    var g = seg(t, T_POCKET - 0.05, T_POCKET + 0.55), gl = g > 0 && g < 1 ? Math.sin(Math.PI * g) : 0;
+    if (gl > 0) out += VT.sparkle({ x: can[0] + 34, y: can[1] - 0.9 * bs * 120, s: 1.4 * gl }) + VT.sparkle({ x: can[0] - 46, y: can[1] - 0.9 * bs * 60, s: 0.7 * gl });
+    var cam = key(T, [[S2, [980, 800, 1.2]], [S3, [940, 790, 1.34], "sine"]]);
     return { cam: cam, world: out, tint: "warm" };
   } });
-  // 4 · đảo nhà yên lặng
-  shots.push({ a: S3, b: DUR, ten: "đảo nhà yên lặng, giữ", ve: function (t, lt, T) {
+  // 4 · bong bóng rương kho báu, Wob gật gù tự tin
+  shots.push({ a: S3, b: DUR, ten: "rương kho báu tưởng tượng, Wob tự tin", ve: function (t, lt, T) {
     var bx = 520, by = 1046, ws = 0.62;
-    var o = { t: t, s: ws, x: bx, y: by - 26, mouth: "content", eyes: "happy", noBlink: true };
+    var p = seg(t, POP, POP + 0.3), ps = p <= 0 ? 0 : VT.ease.back(p);
+    var nod = t > POP + 0.3 ? 4 * Math.sin(Math.round((t - POP) * 12) / 12 * 2 * Math.PI * 1.4) : 0;
+    var o = { t: t, s: ws, x: bx, y: by - 26, mouth: t > POP ? "smirk" : "content", eyes: t > POP + 0.2 ? "happy" : "open", brows: t > POP ? "up" : "flat", px: 6, py: -8, bob: nod };
     var out = world(t) + VT.baLoKhongLo({ x: bx + 150, y: by - 40, s: 0.6 }) + W(o) + boat(bx, by, 0.85, t);
-    var cam = key(T, [[S3, [640, 740, 1.6]], [DUR, [644, 738, 1.68], "sine"]]);
+    if (ps > 0) {
+      var chest = VT.ruong({ x: 0, y: 52, s: 0.7 }) + VT.ell(-48, 50, 16, 7, "#F6D36A", 3) + VT.ell(52, 52, 16, 7, "#F6D36A", 3) +
+        VT.sparkle({ x: -62, y: -40, s: 0.42, fill: "#F6D36A" }) + VT.sparkle({ x: 66, y: -30, s: 0.32, fill: "#F6D36A" });
+      out += VT.ell(bx + 120, by - 330, 11 * ps, 11 * ps, "#ffffff", 4) + VT.ell(bx + 165, by - 385, 17 * ps, 17 * ps, "#ffffff", 5);
+      out += VT.bubble({ x: bx + 280, y: by - 470, s: 0.95 * ps, tail: -1, sym: chest });
+    }
+    var cam = key(T, [[S3, [660, 790, 1.62]], [DUR, [664, 786, 1.7], "sine"]]);
     return { cam: cam, world: out, tint: "warm" };
   } });
   return shots;

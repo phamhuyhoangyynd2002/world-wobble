@@ -12,6 +12,14 @@
   "question": "Why do people live on Santa Cruz del Islote?",
   "message": "This video tells curious adults that people crowded onto a tiny island off Colombia's Caribbean coast for a very ordinary reason, rest from the sea and, as locals tell it, no mosquitoes, then built the island bigger with their own hands and stay for the fish, the visitors and their families.",
   "angle": "People live on Santa Cruz del Islote because fishermen resting between catches found a bare little island where, as locals tell it, nothing bit them at night, and built it bigger with coral and stone; fishing, tourism and generations of family keep them there, despite drinking water that comes by boat, power from a hybrid solar and diesel plant, and a sea that sometimes walks into their homes.",
+  "dap_an_chinh": {
+    "canh": 6,
+    "tu_khoa": [
+      "mosquito",
+      "bite",
+      "bit"
+    ]
+  },
   "hook_type": "ky-vat-niem-phong",
   "target_seconds": [
     600,
@@ -104,8 +112,8 @@
       "id": 2,
       "type": "section",
       "lop": "hoi-uc",
-      "role": "lời hứa trên thuyền (trong 60 s đầu): tên đảo, cỡ hai sân bóng, danh hiệu đông dân (dè dặt một lần), nhá lý do không muỗi (mức C), Wob muốn ở thử; ba lô to gài cho cả tập",
-      "narration": "The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer turned out to be very small, and it buzzes. As locals tell it, the first fishermen stayed because the mosquitoes didn't. I came to see if there was room for one more. I'd packed a huge backpack. That was my first mistake.",
+      "role": "lời hứa trên thuyền (trong 60 s đầu): tên đảo, cỡ hai sân bóng, danh hiệu đông dân (dè dặt một lần), treo câu hỏi 'sao lại chen lên đảo này' với manh mối là bình xịt còn niêm phong, KHÔNG nói đáp án (lời giải để ở cảnh 6, sau giả thuyết kho báu sai ở cảnh 5; luật 'không lộ đáp án sớm' 27/11/2026); Wob muốn ở thử; ba lô to gài cho cả tập",
+      "narration": "The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack. That was my first mistake.",
       "pronunciation": "Santa Cruz del Islote: SAN-tah KROOS del ees-LOH-teh",
       "facts": [
         {
@@ -134,8 +142,9 @@
           "y": "Camera lia sang: các đảo xanh rộng hơn có bãi cát, hàng cây"
         },
         {
-          "cue": "it buzzes",
-          "y": "Một con muỗi giấy bay vòng quanh mũ cói của Wob rồi quay về phía đảo có cây, bỏ qua đảo nhà"
+          "cue": "The clue rode in my side pocket",
+          "y": "Cận túi hông ba lô: bình xịt muỗi còn niêm phong lóe sáng một cái; Wob không để ý. Không vẽ muỗi ở đây (chưa lộ đáp án)",
+          "gag": "Ở 'I still guessed wrong', bong bóng ý nghĩ của Wob bật ra một rương kho báu (gài cảnh 5), Wob gật gù tự tin"
         },
         {
           "cue": "I'd packed a huge backpack",
@@ -160,7 +169,7 @@
         },
         {
           "show": "asset:ai-islote-aerial",
-          "cue": "As locals tell it",
+          "cue": "The clue rode in my side pocket",
           "move": "zoom-in",
           "zoom": 1.15
         },
@@ -361,7 +370,7 @@
     {
       "id": 5,
       "type": "section",
-      "chapter": "The Mosquito Reason",
+      "chapter": "The Real Reason Is Tiny",
       "lop": "hoi-uc",
       "khuon": "doan-sai-roi-lat",
       "role": "chương 2 (đoán sai rồi lật): Wob đoán kho báu → sai → lý do thật: chỗ nghỉ, trú bão giữa ngư trường khoảng 150 năm trước",
@@ -1525,17 +1534,6 @@
         "S3"
       ],
       "hedged": false
-    },
-    {
-      "id": "C04",
-      "scene": 2,
-      "quote": "As locals tell it, the first fishermen stayed because the mosquitoes didn't.",
-      "statement": "According to a story told by locals, the fishermen who first settled on Santa Cruz del Islote chose it because it had no mosquitoes.",
-      "source_ids": [
-        "S2",
-        "S3"
-      ],
-      "hedged": true
     },
     {
       "id": "C05",

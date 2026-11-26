@@ -69,6 +69,12 @@ Không gag về người dân, không gag trong `lich-su-nghiem`.
 
 - **Câu đầu ở hiện tại, cầm một kỷ vật lạ**, vào thẳng (≤ 10 giây): "This is a fish." Kỷ vật là câu hỏi bằng hình. Câu thứ hai nói nơi đó và một con số; câu thứ ba là câu hỏi trung tâm hoặc một câu tỉnh bơ.
 - **Khoảng 30 giây đầu hứa một điều cụ thể** người xem sẽ biết, bằng giọng Wob ("By the end of this trip I understood why five hundred people choose this. It took losing my eyelashes.").
+- **Không lộ đáp án sớm** (quy tắc bắt buộc từ 27/11/2026). Căn cứ: phản biện tập 4 Santa Cruz del Islote (`projects/2026-11-16-santa-cruz-del-islote/out/phan-bien.md`): lời hứa ở 0:44 nói thẳng "the first fishermen stayed because the mosquitoes didn't", nên chương giả thuyết kho báu thành hồi hộp giả và người xem có lý do bỏ ở 1:41–2:42. Hứa nghĩa là **hứa sẽ trả lời**, không phải trả lời trước.
+  - **Hook, lời hứa (≤ 60 s)**: nêu câu hỏi trung tâm, đưa **manh mối bằng hình** (kỷ vật, đồ vật lạ), có thể nói đáp án "nhỏ", "lạ", "không như bạn nghĩ"; **không** nói nguyên nhân, không nói tên thứ là đáp án kèm "because/why/reason". Kỷ vật mở tập được phép mang từ khoá (bình xịt muỗi) vì người xem chưa biết nó liên quan thế nào.
+  - **Lời giải chính**: ở chương thân thứ nhất hoặc thứ hai, ước **2:00–3:30**, ngay **sau ít nhất một giả thuyết sai** của Wob (kho báu, cá, khí hậu…) để cú lật có lực, và tốt nhất rơi đúng chỗ cần mồi lại sự chú ý. Không dời quá 4:00: kênh hứa trả lời "vì sao", người xem chờ quá lâu thì bỏ.
+  - **Sau lời giải** vẫn còn câu hỏi nhỏ cho các chương sau (cái giá phải trả: nước, chỗ ở, tương lai), nên đáp án chính không phải điều duy nhất giữ người xem.
+  - **Tiêu đề chương** hiện cả danh sách trên thanh tiến trình và trong mô tả, nên không chứa từ khoá đáp án ("The Mosquito Reason" → "The Real Reason Is Tiny"). Tiêu đề video, thumbnail cũng vậy: gợi tò mò, không nói đáp án.
+  - Khai `dap_an_chinh` trong `script.json`; `validate_script.py` (`check_dap_an`) kiểm. Đạo diễn cũng không vẽ đáp án trước cảnh lời giải (tập 4: muỗi xách va li bỏ đảo ở 0:44 bị gỡ).
 - **Kết** ở hiện tại: Wob xếp kỷ vật lại, ghép các mảnh "vì sao", đóng con dấu lên trang sổ, một câu hỏi kéo bình luận. Sau câu hỏi là cảnh `duoi` 15–20 giây theo skill `mo-ket` (từ tập 3), không kết cụt ở chữ cuối. Callback kỷ vật mở tập.
 
 ## 6. Ngôi thứ nhất và luật trung thực

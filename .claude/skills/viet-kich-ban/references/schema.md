@@ -14,6 +14,7 @@ Rút gọn và đổi từ schema GameReel cho video dài khung ngang. Điểm m
 | `question` | string | có | Câu hỏi trung tâm, ví dụ "Why do people live in Oymyakon?" |
 | `message` | string | có | Một câu: "This video tells [ai] that [điều gì]". Mọi cảnh phục vụ câu này |
 | `angle` | string | có | Lập luận riêng của tập (vì sao người ta sống ở đây), lấy từ `brief.md` |
+| `dap_an_chinh` | `{ "canh": <id>, "tu_khoa": [..] }` | nên có (bắt buộc từ tập 5) | Cảnh nói lời giải chính của câu hỏi trung tâm và từ khoá của lời giải (ví dụ `["mosquito", "bite"]`). `validate_script.py` báo LỖI khi một cảnh trước đó (trừ hook) có câu vừa chứa từ khoá vừa nói nhân quả, hoặc khi lời giải ước bắt đầu trước 90 s; CẢNH BÁO khi tiêu đề chương chứa từ khoá. Luật: `cong-thuc-ke-chuyen.md` mục 5 |
 | `hook_type` | string | nên có | `cau-hoi`, `tinh-huong`, `con-so`, `wob-hanh-dong`… để `validate_script.py` tránh lặp kiểu hook 3 tập liền |
 | `target_seconds` | `[min, max]` | không | Mặc định `[600, 900]` |
 | `voice` | `{ "name", "rate"?, "style"? }` | có | Giọng theo hồ sơ kênh (Edge/Azure cùng tên), ví dụ `{ "name": "en-US-AndrewNeural", "rate": "+0%" }` |

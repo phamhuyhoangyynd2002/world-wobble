@@ -120,10 +120,11 @@ seg('d03', 've-tay', b03, b04, 'hoi-uc',
     'Vẽ tay nét sôi: cận Wob trên thuyền, hòn đảo nhà vẽ tay phía sau bên trái, đảo có cây và đước vẽ tay bên phải',
     MU + ' (ve-tay sunhat, đổi màu theo khoá); ba lô khổng lồ khuất dưới mép khung cận', 'chen', 'cat', [
     N(b03, 'So why squeeze onto this one?', '[chen-ve-tay] Hình to: Wob tự ép người dẹt lại như đang chen giữa hai mái nhà vẽ tay, má phồng, mắt híp', 'Wob ép dẹt như chen xe buýt', [], ['whoosh']),
-    N(T(2, 'The answer turned'), 'The answer turned out to be very small, and it buzzes.', '[lia-theo-vat] Một con muỗi vẽ tay bay ba vòng quanh vành mũ cói; mắt Wob đảo theo tới lác', 'Mắt Wob lác theo muỗi', ['muoi'], ['muoi']),
-    N(T(2, 'As locals tell it'), "As locals tell it, the first fishermen stayed because the mosquitoes didn't.", 'Con muỗi xách một va li tí hon bay khỏi đảo nhà sang đảo có cây, không ngoái lại; giữ 0,6 s trên đảo nhà yên lặng', 'Muỗi xách va li dọn đi (lần "muỗi bỏ đi" rõ nhất, giữ ở đây)', ['muoi'], []),
+    N(T(2, 'The answer was'), 'The answer was very small.', 'Cận mặt Wob: Wob nghiêng người sát ống kính như kể bí mật, nheo một mắt, nhướn một mày; camera đẩy vào', 'Wob ghé sát ống kính thì thầm', [], []),
+    N(T(2, 'The clue rode'), 'The clue rode in my side pocket the whole way,', '[cat-can-vat] Cận túi hông ba lô: bình xịt muỗi còn tem đỏ niêm phong, lóe sáng một cái ở "pocket"; nắp ba lô hé như ngoái lại. KHÔNG vẽ muỗi (chưa lộ đáp án)', 'Bình xịt lóe sáng, ba lô hé nắp', ['binh-xit', 'ba-lo-khong-lo'], ['ting']),
+    N(T(2, 'and I still'), 'and I still guessed wrong.', 'Toàn cảnh Wob trên thuyền cạnh ba lô: bong bóng ý nghĩ bật ra một rương kho báu (gài cảnh 5), Wob gật gù tự tin, mắt cười; giữ tới hết đoạn', 'Wob tự tin với rương kho báu tưởng tượng ngay lúc lời nói "đoán sai"', ['ruong'], ['pop']),
     ], [],
-    'Gag cận mặt, cường điệu (muỗi xách va li): vẽ tay chèn. Nhá lý do không muỗi trong 45 s đầu (C04 mức C, lời đã rào "As locals tell it")')
+    'Gag cận mặt + cận vật: vẽ tay chèn. KHÔNG lộ đáp án muỗi (luật 27/11/2026): chỉ treo manh mối bình xịt, gài giả thuyết kho báu sai của cảnh 5; lời giải ở d12–d13 (cảnh 6)')
 
 b05 = B(3, 'Up close,')
 seg('d04', 'cat-giay', b04, b05, 'hoi-uc',
@@ -186,7 +187,7 @@ seg('d08', 've-tay', b08, b09, 'hoi-uc',
     ], ['BRING LESS'],
     'Punchline mồi chú ý cuối chương, cường điệu: vẽ tay chèn. Lần ba là ghế nhựa (chi tiết riêng của đảo) để khác leo thang ba lô tập 2. Phao vịt được gọi lại ở d32')
 
-# ================= CHƯƠNG 3 · The Mosquito Reason (cảnh 5–7) =================
+# ================= CHƯƠNG 3 · The Real Reason Is Tiny (cảnh 5–7) =================
 b10 = B(5, 'Then I asked around')
 seg('d09', 've-tay', b09, b10, 'hoi-uc',
     'Vẽ tay trên trang sổ phác thảo: sơ đồ hòn đảo, mũi tên, dấu X, rương báu; rồi nền xi măng lối đi vẽ tay, ba lô dựng dựa tường',

@@ -5,7 +5,7 @@
 ## Tiêu đề
 
 - **Chính:** The Mosquito Story Behind Santa Cruz del Islote (47 ký tự)
-  - Lý do: có tên nơi (từ khoá người xem tìm thật); giữ hướng "vì sao người ta sống ở đây" qua chữ "Behind" (nguồn gốc khu định cư); chữ **"Story"** nói đúng bản chất: lý do không muỗi là **lời kể của người dân** (C04, C09, C10 đã rào "As locals tell it", "Locals say" trong lời), không phải kết luận khoa học. Không viết "had no mosquitoes" như tiêu đề làm việc trong `script.json`, vì câu đó biến lời kể thành sự thật. Khuôn mới: không mở bằng "Why…", không "Tên: …", không câu khẳng định + "Why?". 4 chữ đầu "The Mosquito Story Behind" không trùng tập nào. Không con số, không cụm cấm, không danh hiệu "most crowded" (C02 mức C).
+  - Lý do: có tên nơi (từ khoá người xem tìm thật); giữ hướng "vì sao người ta sống ở đây" qua chữ "Behind" (nguồn gốc khu định cư); chữ **"Story"** nói đúng bản chất: lý do không muỗi là **lời kể của người dân** (C09, C10 đã rào "Locals say" trong lời; từ 27/11 lời hứa ở 0:44 không còn nói lý do muỗi), không phải kết luận khoa học. Không viết "had no mosquitoes" như tiêu đề làm việc trong `script.json`, vì câu đó biến lời kể thành sự thật. Khuôn mới: không mở bằng "Why…", không "Tên: …", không câu khẳng định + "Why?". 4 chữ đầu "The Mosquito Story Behind" không trùng tập nào. Không con số, không cụm cấm, không danh hiệu "most crowded" (C02 mức C).
 - Phương án 2: I Couldn't Fit My Backpack on Colombia's Island of Houses (57 ký tự). Trục đúng phán quyết NOPE (ba lô của Wob, không phải lỗi của đảo) và kiểu storytime; có nước nhưng không có tên đảo. Nếu chọn phương án này thì dùng thumbnail B (A lặp ý ba lô).
 - Phương án 3: Living on an Island the Size of Two Soccer Fields (49 ký tự). Số "two soccer fields" là C01 mức A, có trong lời ở 0:25; rõ quy mô nhưng ít chất kể chuyện.
 - Kiểm: cả ba ≤ 60 ký tự; không "you won't believe", "insane", "shocking", "nobody talks about", "here's why"; không số mức C; 4 chữ đầu ba phương án khác nhau và khác ba tập trước.
@@ -27,7 +27,7 @@ A bare islet where fishermen rested about 150 years ago, the mosquito story loca
 
 0:00 The Spray I Never Opened
 0:56 An Island Made Mostly of Houses
-2:21 The Mosquito Reason
+2:21 The Real Reason Is Tiny
 4:16 Nobody Agrees on the Headcount
 5:34 No River, No Spring
 7:02 The Sea Comes Indoors

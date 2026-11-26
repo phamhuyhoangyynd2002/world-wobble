@@ -631,117 +631,102 @@
         {
           "text": "The",
           "start": 41.125,
-          "end": 41.312
+          "end": 41.3
         },
         {
           "text": "answer",
-          "start": 41.325,
-          "end": 41.687
+          "start": 41.312,
+          "end": 41.675
         },
         {
-          "text": "turned",
-          "start": 41.7,
-          "end": 42.0
-        },
-        {
-          "text": "out",
-          "start": 42.012,
-          "end": 42.162
-        },
-        {
-          "text": "to",
-          "start": 42.175,
-          "end": 42.25
-        },
-        {
-          "text": "be",
-          "start": 42.262,
-          "end": 42.375
+          "text": "was",
+          "start": 41.687,
+          "end": 41.837
         },
         {
           "text": "very",
-          "start": 42.387,
-          "end": 42.712
+          "start": 41.85,
+          "end": 42.112
         },
         {
-          "text": "small,",
-          "start": 42.725,
-          "end": 43.175
+          "text": "small.",
+          "start": 42.125,
+          "end": 42.538
+        },
+        {
+          "text": "The",
+          "start": 43.6,
+          "end": 43.788
+        },
+        {
+          "text": "clue",
+          "start": 43.8,
+          "end": 44.075
+        },
+        {
+          "text": "rode",
+          "start": 44.087,
+          "end": 44.312
+        },
+        {
+          "text": "in",
+          "start": 44.325,
+          "end": 44.387
+        },
+        {
+          "text": "my",
+          "start": 44.4,
+          "end": 44.525
+        },
+        {
+          "text": "side",
+          "start": 44.538,
+          "end": 44.875
+        },
+        {
+          "text": "pocket",
+          "start": 44.887,
+          "end": 45.238
+        },
+        {
+          "text": "the",
+          "start": 45.25,
+          "end": 45.337
+        },
+        {
+          "text": "whole",
+          "start": 45.35,
+          "end": 45.638
+        },
+        {
+          "text": "way,",
+          "start": 45.65,
+          "end": 45.925
         },
         {
           "text": "and",
-          "start": 43.45,
-          "end": 43.512
+          "start": 46.188,
+          "end": 46.312
         },
         {
-          "text": "it",
-          "start": 43.525,
-          "end": 43.6
+          "text": "I",
+          "start": 46.325,
+          "end": 46.387
         },
         {
-          "text": "buzzes.",
-          "start": 43.612,
-          "end": 44.112
+          "text": "still",
+          "start": 46.4,
+          "end": 46.675
         },
         {
-          "text": "As",
-          "start": 44.475,
-          "end": 44.7
+          "text": "guessed",
+          "start": 46.688,
+          "end": 46.938
         },
         {
-          "text": "locals",
-          "start": 44.713,
-          "end": 45.088
-        },
-        {
-          "text": "tell",
-          "start": 45.1,
-          "end": 45.325
-        },
-        {
-          "text": "it,",
-          "start": 45.338,
-          "end": 45.45
-        },
-        {
-          "text": "the",
-          "start": 45.663,
-          "end": 45.763
-        },
-        {
-          "text": "first",
-          "start": 45.775,
-          "end": 46.175
-        },
-        {
-          "text": "fishermen",
-          "start": 46.187,
-          "end": 46.587
-        },
-        {
-          "text": "stayed",
-          "start": 46.6,
-          "end": 47.013
-        },
-        {
-          "text": "because",
-          "start": 47.025,
-          "end": 47.288
-        },
-        {
-          "text": "the",
-          "start": 47.3,
-          "end": 47.375
-        },
-        {
-          "text": "mosquitoes",
-          "start": 47.387,
-          "end": 47.95
-        },
-        {
-          "text": "didn't.",
-          "start": 47.963,
-          "end": 48.313
+          "text": "wrong.",
+          "start": 46.95,
+          "end": 47.325
         },
         {
           "text": "I",
@@ -2290,7 +2275,7 @@
     {
       "id": 5,
       "type": "section",
-      "chapter": "The Mosquito Reason",
+      "chapter": "The Real Reason Is Tiny",
       "start": 141.8,
       "end": 179.016,
       "duration": 37.216,
@@ -10766,149 +10751,134 @@
     {
       "scene": 2,
       "start": 41.125,
-      "end": 43.4,
-      "text": "The answer turned out to be very small,",
+      "end": 42.788,
+      "text": "The answer was very small.",
       "lines": [
-        "The answer turned out to be very small,"
+        "The answer was very small."
       ],
       "words": [
         {
           "text": "The",
           "start": 41.125,
-          "end": 41.312
+          "end": 41.3
         },
         {
           "text": "answer",
-          "start": 41.325,
-          "end": 41.687
+          "start": 41.312,
+          "end": 41.675
         },
         {
-          "text": "turned",
-          "start": 41.7,
-          "end": 42.0
-        },
-        {
-          "text": "out",
-          "start": 42.012,
-          "end": 42.162
-        },
-        {
-          "text": "to",
-          "start": 42.175,
-          "end": 42.25
-        },
-        {
-          "text": "be",
-          "start": 42.262,
-          "end": 42.375
+          "text": "was",
+          "start": 41.687,
+          "end": 41.837
         },
         {
           "text": "very",
-          "start": 42.387,
-          "end": 42.712
+          "start": 41.85,
+          "end": 42.112
         },
         {
-          "text": "small,",
-          "start": 42.725,
-          "end": 43.175
+          "text": "small.",
+          "start": 42.125,
+          "end": 42.538
         }
       ]
     },
     {
       "scene": 2,
-      "start": 43.45,
-      "end": 44.362,
-      "text": "and it buzzes.",
+      "start": 43.6,
+      "end": 46.138,
+      "text": "The clue rode in my side pocket the whole way,",
       "lines": [
-        "and it buzzes."
+        "The clue rode in my side",
+        "pocket the whole way,"
+      ],
+      "words": [
+        {
+          "text": "The",
+          "start": 43.6,
+          "end": 43.788
+        },
+        {
+          "text": "clue",
+          "start": 43.8,
+          "end": 44.075
+        },
+        {
+          "text": "rode",
+          "start": 44.087,
+          "end": 44.312
+        },
+        {
+          "text": "in",
+          "start": 44.325,
+          "end": 44.387
+        },
+        {
+          "text": "my",
+          "start": 44.4,
+          "end": 44.525
+        },
+        {
+          "text": "side",
+          "start": 44.538,
+          "end": 44.875
+        },
+        {
+          "text": "pocket",
+          "start": 44.887,
+          "end": 45.238
+        },
+        {
+          "text": "the",
+          "start": 45.25,
+          "end": 45.337
+        },
+        {
+          "text": "whole",
+          "start": 45.35,
+          "end": 45.638
+        },
+        {
+          "text": "way,",
+          "start": 45.65,
+          "end": 45.925
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "start": 46.188,
+      "end": 47.575,
+      "text": "and I still guessed wrong.",
+      "lines": [
+        "and I still guessed wrong."
       ],
       "words": [
         {
           "text": "and",
-          "start": 43.45,
-          "end": 43.512
+          "start": 46.188,
+          "end": 46.312
         },
         {
-          "text": "it",
-          "start": 43.525,
-          "end": 43.6
+          "text": "I",
+          "start": 46.325,
+          "end": 46.387
         },
         {
-          "text": "buzzes.",
-          "start": 43.612,
-          "end": 44.112
-        }
-      ]
-    },
-    {
-      "scene": 2,
-      "start": 44.475,
-      "end": 48.563,
-      "text": "As locals tell it, the first fishermen stayed because the mosquitoes didn't.",
-      "lines": [
-        "As locals tell it, the first fishermen",
-        "stayed because the mosquitoes didn't."
-      ],
-      "words": [
-        {
-          "text": "As",
-          "start": 44.475,
-          "end": 44.7
+          "text": "still",
+          "start": 46.4,
+          "end": 46.675
         },
         {
-          "text": "locals",
-          "start": 44.713,
-          "end": 45.088
+          "text": "guessed",
+          "start": 46.688,
+          "end": 46.938
         },
         {
-          "text": "tell",
-          "start": 45.1,
-          "end": 45.325
-        },
-        {
-          "text": "it,",
-          "start": 45.338,
-          "end": 45.45
-        },
-        {
-          "text": "the",
-          "start": 45.663,
-          "end": 45.763
-        },
-        {
-          "text": "first",
-          "start": 45.775,
-          "end": 46.175
-        },
-        {
-          "text": "fishermen",
-          "start": 46.187,
-          "end": 46.587
-        },
-        {
-          "text": "stayed",
-          "start": 46.6,
-          "end": 47.013
-        },
-        {
-          "text": "because",
-          "start": 47.025,
-          "end": 47.288
-        },
-        {
-          "text": "the",
-          "start": 47.3,
-          "end": 47.375
-        },
-        {
-          "text": "mosquitoes",
-          "start": 47.387,
-          "end": 47.95
-        },
-        {
-          "text": "didn't.",
-          "start": 47.963,
-          "end": 48.313
+          "text": "wrong.",
+          "start": 46.95,
+          "end": 47.325
         }
       ]
     },
@@ -22158,19 +22128,19 @@
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
-      "at": 10.045,
+      "at": 9.975,
       "volume": 0.6,
       "doan": "d01"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
-      "at": 13.05,
+      "at": 12.95,
       "volume": 0.45,
       "doan": "d01"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
-      "at": 14.86,
+      "at": 14.6,
       "volume": 0.4,
       "doan": "d01"
     },
@@ -22223,15 +22193,15 @@
       "doan": "d03"
     },
     {
-      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
-      "at": 41.225,
-      "volume": 0.6,
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/ting.wav",
+      "at": 44.937,
+      "volume": 0.45,
       "doan": "d03"
     },
     {
-      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
-      "at": 44.595,
-      "volume": 0.4,
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+      "at": 46.568,
+      "volume": 0.5,
       "doan": "d03"
     },
     {
@@ -22740,109 +22710,133 @@
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
-      "at": 559.216,
+      "at": 560.766,
       "volume": 0.4,
       "doan": "d30"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/lat-giay.wav",
-      "at": 562.438,
+      "at": 561.426,
       "volume": 0.55,
       "doan": "d30"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 563.038,
+      "at": 562.026,
       "volume": 0.4,
       "doan": "d30"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
-      "at": 568.176,
+      "at": 566.201,
       "volume": 0.3,
       "doan": "d30"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
-      "at": 569.214,
+      "at": 567.238,
       "volume": 0.35,
       "doan": "d30"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
-      "at": 570.514,
+      "at": 568.538,
       "volume": 0.45,
       "doan": "d31"
     },
     {
-      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
-      "at": 572.901,
-      "volume": 0.45,
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+      "at": 569.476,
+      "volume": 0.4,
+      "doan": "d31"
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+      "at": 570.501,
+      "volume": 0.4,
+      "doan": "d31"
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
+      "at": 571.601,
+      "volume": 0.35,
+      "doan": "d31"
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/song.wav",
+      "at": 574.308,
+      "volume": 0.5,
       "doan": "d31"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/liu-lo-vui.wav",
-      "at": 575.076,
+      "at": 576.126,
       "volume": 0.45,
       "doan": "d31"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 576.964,
+      "at": 578.014,
       "volume": 0.3,
       "doan": "d31"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
-      "at": 577.951,
+      "at": 579.001,
       "volume": 0.3,
       "doan": "d31"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
-      "at": 582.351,
+      "at": 583.401,
       "volume": 0.7,
       "doan": "d32"
     },
     {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/muoi.wav",
+      "at": 588.338,
+      "volume": 0.45,
+      "doan": "d32"
+    },
+    {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 591.921,
+      "at": 592.733,
       "volume": 0.3,
       "doan": "d32"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 594.122,
+      "at": 594.938,
       "volume": 0.35,
       "doan": "d33"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 594.302,
+      "at": 595.118,
       "volume": 0.35,
       "doan": "d33"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/pop.wav",
-      "at": 594.482,
+      "at": 595.298,
       "volume": 0.35,
       "doan": "d33"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/bonk.wav",
-      "at": 598.784,
+      "at": 599.6,
       "volume": 0.15,
       "doan": "d33"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/whoosh.wav",
-      "at": 602.497,
+      "at": 603.313,
       "volume": 0.3,
       "doan": "d33"
     },
     {
       "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/sfx/drop.wav",
-      "at": 603.047,
+      "at": 603.863,
       "volume": 0.45,
       "doan": "d33"
     }
@@ -22908,7 +22902,7 @@
       {
         "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
         "start": 545.976,
-        "end": 614.072,
+        "end": 614.888,
         "mood": "to-mo"
       }
     ]
@@ -22925,7 +22919,7 @@
       "end": 141.8
     },
     {
-      "title": "The Mosquito Reason",
+      "title": "The Real Reason Is Tiny",
       "at": 141.8,
       "end": 256.62
     },
@@ -22973,12 +22967,6 @@
       "scene": 2,
       "at": 35.238,
       "time": "0:35"
-    },
-    {
-      "id": "C04",
-      "scene": 2,
-      "at": 44.475,
-      "time": "0:44"
     },
     {
       "id": "C05",

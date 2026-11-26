@@ -31,6 +31,7 @@ argument-hint: "<thư mục dự án> [góp ý sửa]"
 4. **Đăng ký khẳng định**: mọi câu có số, ngày, tên riêng mang tính sự thật, kỷ lục, quan hệ nhân quả → một mục trong `claims` (`quote` chép nguyên văn từ lời, `statement` viết đầy đủ có ngữ cảnh). Kỷ lục ghi rõ tiêu chí.
 5. **Wob**: 6 biểu cảm gốc; đổi ở chỗ có lý do (gặp sự thật mới), không đổi cho vui. Wob xuất hiện mỗi chương ít nhất một lần.
 6. **Phán quyết**: đúng một `verdict` ở cảnh outro; `cue` là chữ trong lời lúc con dấu đóng (thường chính là nhãn).
+6b. **Không lộ đáp án sớm** (27/11/2026): hook và lời hứa chỉ treo câu hỏi + manh mối bằng hình (kỷ vật), không nói lời giải chính. Lời giải đặt ở chương thân thứ nhất hoặc thứ hai (~2:00–3:30), sau ít nhất một giả thuyết sai của Wob. Khai `dap_an_chinh` (schema). Chi tiết: `references/cong-thuc-ke-chuyen.md` mục 5.
 7. **Chống lặp**: đọc `title`, câu mở, câu kết, `hook_type` của các tập trong `projects/*/script.json`; không lặp.
 
 ## Kiểm tra

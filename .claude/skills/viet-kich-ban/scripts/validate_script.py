@@ -263,6 +263,55 @@ def check_van_ai(scenes: list, warns: list) -> None:
                 break
 
 
+NHAN_QUA = re.compile(r"\b(because|reason|why|explains?|that's how|so they|stayed|settled|the answer)\b", re.I)
+
+
+def check_dap_an(script: dict, scenes: list, errors: list, warns: list) -> None:
+    """Luật 'không lộ đáp án sớm' (27/11/2026, sau phản biện tập 4: lộ lý do không muỗi ở 0:44).
+
+    script.json → dap_an_chinh = {"canh": <id cảnh lời giải>, "tu_khoa": ["mosquito", ...]}.
+    - Lời giải nằm ở chương thân thứ nhất hoặc thứ hai, ước ~2:00–3:30 (sau ít nhất một giả thuyết sai).
+    - Trước cảnh lời giải: cảnh hook được dùng từ khoá làm MANH MỐI (kỷ vật); các cảnh khác không được có câu vừa chứa
+      từ khoá vừa nói nhân quả (LỖI); nhắc từ khoá không kèm nhân quả thì CẢNH BÁO để người viết xem lại.
+    - Tiêu đề chương hiện cả danh sách ngay từ đầu (thanh tiến trình, mô tả) nên không chứa từ khoá (CẢNH BÁO).
+    """
+    da = script.get("dap_an_chinh")
+    if not da:
+        warns.append("chưa khai dap_an_chinh {canh, tu_khoa} (luật không lộ đáp án sớm, cong-thuc-ke-chuyen.md mục 5)")
+        return
+    ids = [sc.get("id") for sc in scenes]
+    cid, kws = da.get("canh"), [k for k in (da.get("tu_khoa") or []) if k]
+    if cid not in ids or not kws:
+        errors.append("dap_an_chinh cần 'canh' là id cảnh có thật và 'tu_khoa' không rỗng")
+        return
+    rx = re.compile(r"\b(" + "|".join(re.escape(k) for k in kws) + r")", re.I)
+    truoc = 0.0
+    for sc in scenes:
+        if sc.get("id") == cid:
+            break
+        truoc += len(words(sc.get("narration") or "")) / WPM * 60 + 1.3
+    if truoc < 90:
+        errors.append(f"dap_an_chinh: lời giải (cảnh {cid}) ước bắt đầu ở {truoc:.0f} s, quá sớm (cần ~120–210 s, sau một giả thuyết sai)")
+    elif truoc < 120 or truoc > 240:
+        warns.append(f"dap_an_chinh: lời giải (cảnh {cid}) ước bắt đầu ở {truoc:.0f} s, ngoài khoảng gợi ý 120–240 s")
+    if not rx.search(next(sc for sc in scenes if sc.get("id") == cid).get("narration") or ""):
+        warns.append(f"dap_an_chinh: cảnh {cid} không chứa từ khoá nào trong {kws}; khai đúng cảnh lời giải chưa?")
+    for sc in scenes:
+        if sc.get("id") == cid:
+            break
+        if sc.get("type") == "hook":
+            continue
+        for st in sentences(sc.get("narration") or ""):
+            if rx.search(st):
+                if NHAN_QUA.search(st):
+                    errors.append(f"cảnh {sc['id']}: lộ đáp án trước cảnh lời giải {cid}: '{st[:90]}'")
+                else:
+                    warns.append(f"cảnh {sc['id']}: nhắc '{rx.search(st).group(0)}' trước lời giải; chỉ được là manh mối: '{st[:70]}'")
+    for sc in scenes:
+        if sc.get("chapter") and rx.search(sc["chapter"]):
+            warns.append(f"chương '{sc['chapter']}' (cảnh {sc['id']}) chứa từ khoá đáp án: danh sách chương hiện từ đầu nên lộ đáp án")
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         print(__doc__)
@@ -511,6 +560,7 @@ def main() -> int:
     # ---- kể chuyện ngôi thứ nhất: lop, khuon, y_hinh, chống lặp câu chuyển (references/cong-thuc-ke-chuyen.md)
     check_ke_chuyen(script, scenes, others, errors, warns)
     check_van_ai(scenes, warns)
+    check_dap_an(script, scenes, errors, warns)
 
     # ---- độ dài
     est = total_words / WPM * 60

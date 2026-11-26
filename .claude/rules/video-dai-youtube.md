@@ -28,6 +28,7 @@ Nhiều người xem trên TV (YouTube chiếm 15,8% thời gian xem TV ở Mỹ
 - **10 giây đầu vào thẳng câu hỏi** (hồ sơ kênh): khung đầu đã có hình nơi đó và câu hỏi; không chào, không giới thiệu kênh, không logo intro, không màn đen.
 - **Thẻ hộ chiếu 3 giây** (tên nơi + "Would Wob move here?") phủ lên hình ở câu nêu câu hỏi của tập, khoảng giây 20–35, lời không dừng (skill `mo-ket`).
 - **Khoảng 30 giây đầu hứa một điều cụ thể** người xem sẽ biết khi xem hết, và đặt Wob vào thế muốn chuyển tới đó sống (mở vòng tò mò: "Would Wob move here?").
+- **Hứa, không trả lời trước** (quy tắc bắt buộc từ 27/11/2026): lời hứa chỉ treo câu hỏi và manh mối bằng hình, không nói lời giải chính. Lời giải ở ~2:00–3:30, sau ít nhất một giả thuyết sai; tiêu đề chương, tiêu đề video, thumbnail không lộ đáp án (`viet-kich-ban/references/cong-thuc-ke-chuyen.md` mục 5, `script.json` → `dap_an_chinh`).
 - **Thân bài chia chương** (YouTube chapters): mỗi chương một lý do khiến người ta sống ở đó hoặc một nỗi khổ phải chịu. Chương đầu ở 0:00, ít nhất 3 chương, mỗi chương ≥ 10 giây (điều kiện YouTube hiện chương). Mỗi chương mở bằng một câu hỏi nhỏ và đóng bằng một phát hiện.
 - **Mồi lại sự chú ý mỗi 60–90 giây** (mặc định ban đầu): một bất ngờ, một lần Wob đổi ý, một câu hỏi mới. Không để một ý kéo quá 2 phút.
 - **Hình luôn có chuyển động**: ảnh tự trôi chậm, bản đồ zoom, Wob phản ứng. Mặc định đổi hình mỗi 4–8 giây; `build_timeline.py` cảnh báo nhịp đứng quá 10 giây.

@@ -1,14 +1,13 @@
 # Đối chiếu kiểm chứng
 
 - Vòng 1 Claude: claude-opus-5-5 (2026-11-26) · Vòng 2 Gemini: Gemini web (ChatGPT web (tai khoan ca nhan, nguoi lam kenh cho phep o tap 3)) (2026-11-26)
-- Mức: A 18 · B 8 · C 2 · D 0 · hai vòng lệch nhau: 7
+- Mức: A 17 · B 8 · C 2 · D 0 · hai vòng lệch nhau: 7
 
 | Mã | Cảnh | Khẳng định | Claude | Gemini | Vòng 3 | Mức | Việc cần làm |
 |---|---|---|---|---|---|---|---|
 | C01 | 2 | Santa Cruz del Islote covers roughly one hectare, about the size of two soccer fields. | dung | dung | – | A |  |
 | C02 | 2 | Media reports often describe Santa Cruz del Islote as one of the most densely populated islands in the world; the claim depends on population estimates that vary widely. | dung | mau-thuan | – | C |  |
 | C03 | 2 | Santa Cruz del Islote is surrounded by larger islands of the San Bernardo archipelago, such as Múcura and Tintipán, which have beaches and vegetation including mangroves. | dung | dung | – | A |  |
-| C04 | 2 | According to a story told by locals, the fishermen who first settled on Santa Cruz del Islote chose it because it had no mosquitoes. | dung | dung | – | A |  |
 | C05 | 3 | The boat ride from Cartagena to Santa Cruz del Islote takes about two hours, longer in rough seas; reported times vary. | dung | dung | – | A |  |
 | C06 | 3 | Santa Cruz del Islote is roughly 45 minutes to an hour by small motorboat (lancha) from Tolú, on Colombia's Caribbean coast; sources differ. | dung | dung | – | A |  |
 | C07 | 3 | Santa Cruz del Islote has more than a hundred houses (Colombia's 2018 census counted 120 dwellings), a school, a restaurant and a small square with a cross that gives the island its name, and no cars. | dung | dung | – | A |  |
