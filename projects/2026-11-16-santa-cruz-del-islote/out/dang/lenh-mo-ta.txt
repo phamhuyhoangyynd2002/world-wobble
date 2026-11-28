@@ -1,0 +1,59 @@
+type "Santa Cruz del Islote is a tiny island off Colombia's Caribbean coast, about the size of two soccer fields and packed with houses almost to the water's edge. Bigger islands with beaches and trees sit right next door, so Wob went to find out why people live on this one, and brought a backpack that was far too big."
+press Enter
+press Enter
+type "A bare islet where fishermen rested about 150 years ago, the mosquito story locals tell, ground built up by hand from coral, stone and shells, a headcount nobody agrees on, drinking water that comes by boat, a solar and diesel power plant, a sea that sometimes comes indoors, and the reasons families stay."
+press Enter
+press Enter
+type "0:00 The Spray I Never Opened"
+press Enter
+type "0:56 An Island Made Mostly of Houses"
+press Enter
+type "2:21 The Real Reason Is Tiny"
+press Enter
+type "4:16 Nobody Agrees on the Headcount"
+press Enter
+type "5:34 No River, No Spring"
+press Enter
+type "7:02 The Sea Comes Indoors"
+press Enter
+type "8:19 Why They Stay"
+press Enter
+type "9:05 The Backpack Decides"
+press Enter
+press Enter
+type "Wob is a cartoon and the trip is imagined. The facts are real. The mosquito part is the story islanders tell, not a scientific finding."
+press Enter
+press Enter
+type "Narration voice and illustrations are AI-assisted. Every claim was checked by two independent AI models against published sources. Anything they disagreed on was looked up a third time, then kept, reworded or cut; where sources disagree, the narration says so."
+press Enter
+press Enter
+type "If you visit, it's people's home, so be a polite guest. And pack light."
+press Enter
+press Enter
+type "Credits"
+press Enter
+type "Wallpaper Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/"
+press Enter
+type "Investigations Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/"
+press Enter
+type "Inspired Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/"
+press Enter
+type "Sneaky Snitch Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/"
+press Enter
+type "Lightless Dawn Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 https://creativecommons.org/licenses/by/4.0/"
+press Enter
+type "Maps drawn from Natural Earth data (public domain)."
+press Enter
+press Enter
+type "Could you live somewhere your whole neighbourhood fits inside one evening walk?"
+press Enter
+press Enter
+type "#SantaCruzDelIslote"
+wait 1200
+type " "
+type "#Colombia"
+wait 1200
+type " "
+type "#WhyPeopleLiveHere"
+wait 1200
+type " "
