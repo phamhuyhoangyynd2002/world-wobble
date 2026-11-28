@@ -225,10 +225,10 @@ var TB = (function () {
     // kệ tem nhỏ sau song (hình chữ nhật, không chữ)
     for (var q = 0; q < 4; q++) s += '<rect x="' + (985 + q * 62) + '" y="478" width="40" height="50" fill="' + (q % 2 ? "#E9DEC4" : "#D8C9A6") + '" stroke="' + INK + '" stroke-width="2.5"/>';
     // biển POST OFFICE
-    s += '<g id="bdBien">' + line("M 900 250 L 930 190 M 1320 250 L 1290 190", 4, "#3A3F44") +
-      paper(rRect(820, 192, 580, 112, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
-      '<rect x="836" y="206" width="548" height="84" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
-      D.txt(1110, 274, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
+    s += '<g id="bdBien">' + line("M 860 316 L 880 250 M 1240 316 L 1220 250", 4, "#3A3F44") + '<circle cx="880" cy="250" r="6" fill="#3A3F44"/><circle cx="1220" cy="250" r="6" fill="#3A3F44"/>' +
+      paper(rRect(780, 312, 540, 98, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
+      '<rect x="794" y="324" width="512" height="74" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
+      D.txt(1050, 384, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
     // đèn treo
     s += line("M 640 -200 L 640 150", 3, "#2B2F33") + paper("M 600 150 L 680 150 L 700 190 L 580 190 Z", "#3F5A4A", { stroke: true, sw: 4 }) + '<ellipse cx="640" cy="192" rx="60" ry="10" fill="#FFE6A8" stroke="' + INK + '" stroke-width="3"/>';
     s += '<ellipse cx="640" cy="330" rx="220" ry="170" fill="url(#lampG)"/>';

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2560, height=1440" />
+    <title>World Wobble – doan hoat hinh (diorama giay 2.5D)</title>
+    <!-- Khung phong cach diorama (templates/hoat-hinh/diorama/khung). Theo templates/hoat-hinh/HOP-DONG.md muc 4:
+         clip cam (khong <audio>), du lieu o du-lieu.js (window.HH_DATA), bien dao o canh.js (window.CANH).
+         Hai che do: CSS 3D (ban ky vat, so pop-up) va canh ngoai troi 3D (three.js, lib/dio-3d.js). -->
+    <script src="_chung/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("_chung/fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      html, body { width: 2560px; height: 1440px; margin: 0; background: #1E2A2B; overflow: hidden; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "Fraunces", serif; }
+      .clip { position: absolute; inset: 0; }
+      .nen { background: #1E2A2B; }
+      .nap-font { position: absolute; left: 0; top: 0; font-family: "Fraunces"; font-weight: 800; font-size: 40px; opacity: 0; pointer-events: none; }
+    </style>
+    <style id="hh-xuat">
+      /* chuan_bi_doan.py ghi, KHÔNG sửa tay: khung xuất 2560×1440. Sân khấu giữ hệ thiết kế 1920×1080, phóng ×1.333333333 bằng transform (Chrome vẽ lại vector, chữ ở độ phân giải cao). */
+      #root { width: 1920px !important; height: 1080px !important; transform: scale(1.333333333); transform-origin: 0 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="doan" data-start="0" data-duration="20" data-width="2560" data-height="1440">
+      <div id="nen" class="clip nen"></div>
+      <div class="nap-font" aria-hidden="true">Ww</div>
+    </div>
+    <script id="sfx-out" type="application/json">[]</script>
+    <pre id="do-chu-out" hidden></pre>
+    <script src="lib/dio-loi.js"></script>
+    <script src="lib/dio-wob.js"></script>
+    <script src="lib/dio-dao-cu.js"></script>
+    <script src="lib/dio-ban.js"></script>
+    <script src="lib/dio-so.js"></script>
+    <script src="lib/dio-noi.js"></script>
+    <script src="lib/dio-3d.js"></script>
+    <script src="_chung/mo-ket/duoi-tap.js"></script>
+    <!-- Che do canh ngoai troi 3D: module nap three.js (lib/vendor, MIT) vao window.THREE. Doan CSS 3D khong dung toi;
+         DIO.chay chi cho three khi canh.js goi api.ngoaiTroi(...) hoac dat window.CANH_3D = true. -->
+    <script type="module" src="lib/dio-3d-nap.js"></script>
+    <script src="du-lieu.js"></script>
+    <script src="canh.js"></script>
+    <script>
+      // Dung doan roi dang ky timeline paused duy nhat. HyperFrames co the doi thu tu script: cho lib + canh nap xong.
+      (function () {
+        function dangKy(tl) {
+          window.__timelines = window.__timelines || {};
+          window.__timelines["doan"] = tl;
+        }
+        function go() { if (!window.__dioDaChay) { window.__dioDaChay = true; window.DIO.chay(dangKy); } }
+        if (window.DIO && window.DIO.chay && window.CANH && window.HH_DATA) go();
+        else window.addEventListener("load", go);
+      })();
+    </script>
+  </body>
+</html>

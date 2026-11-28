@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 21.751,
- "bat_dau_tuyet_doi": 328.271,
+ "bat_dau_tuyet_doi": 328.463,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: bến nhỏ có thuyền máy kéo lên dốc, sóng to; phòng ngủ nhỏ có đồng hồ báo thức giấy; tờ mờ sáng, bình ôxy cũ xám bạc sờn, vạch sơn xanh lá bong tróc, treo bằng xích trên giá gỗ ở bến; vòng sóng âm vẽ tay lan khắp làng",
  "trang_phuc": "Nhịp sóng/đồng hồ: Wob áo mưa cam. Nhịp ngủ: Wob trong chăn, áo mưa treo móc, ba lô nhỏ dưới giường. Nhịp \"sitting up in my boots\": Wob MẶC áo mưa, mũ trùm LÊN, giày đỏ, ôm ba lô nhỏ trước ngực",
@@ -66,7 +66,7 @@ window.HH_DATA = {
   {
    "tai": 14.726,
    "loi": "I slept through it. I slept through it again.",
-   "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob); cồng gõ 2 lần: 343.00 s và 344.20 s",
+   "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob); cồng gõ 2 lần: 343.19 s và 344.39 s",
    "gag": "",
    "dao_cu": [],
    "sfx": [
@@ -77,8 +77,8 @@ window.HH_DATA = {
   {
    "tai": 17.425,
    "loi": "On the next calm morning, I slept sitting up in my boots, right next to the bottle.",
-   "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực; ngồi ngủ 345.70–347.60 s",
-   "gag": "Búa gõ \"boong\" ở 347.60 s (giữa \"sitting up in my boots\"): cả người Wob rung bần bật như chuông 1,5 s (tới ≈ 349.10 s), mắt mở trừng GIỮ tới cắt 350.02 s",
+   "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực; ngồi ngủ 345.89–347.79 s",
+   "gag": "Búa gõ \"boong\" ở 347.79 s (giữa \"sitting up in my boots\"): cả người Wob rung bần bật như chuông 1,5 s (tới ≈ 349.29 s), mắt mở trừng GIỮ tới cắt 350.21 s",
    "dao_cu": [
     "binh-oxy",
     "ba-lo-nho"

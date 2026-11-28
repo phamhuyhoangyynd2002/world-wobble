@@ -23,7 +23,7 @@
   "w": 2560,
   "h": 1440
  },
- "thoi_luong": 705.38,
+ "thoi_luong": 714.668,
  "loi": [
   {
    "scene": 1,
@@ -35,118 +35,118 @@
   },
   {
    "scene": 3,
-   "bat_dau": 49.988
+   "bat_dau": 50.18
   },
   {
    "scene": 4,
-   "bat_dau": 94.98
+   "bat_dau": 95.172
   },
   {
    "scene": 5,
-   "bat_dau": 140.808
+   "bat_dau": 141.0
   },
   {
    "scene": 6,
-   "bat_dau": 177.888
+   "bat_dau": 178.08
   },
   {
    "scene": 7,
-   "bat_dau": 226.392
+   "bat_dau": 226.584
   },
   {
    "scene": 8,
-   "bat_dau": 273.948
+   "bat_dau": 274.14
   },
   {
    "scene": 9,
-   "bat_dau": 314.884
+   "bat_dau": 315.076
   },
   {
    "scene": 10,
-   "bat_dau": 358.436
+   "bat_dau": 358.628
   },
   {
    "scene": 11,
-   "bat_dau": 399.008
+   "bat_dau": 399.2
   },
   {
    "scene": 12,
-   "bat_dau": 456.304
+   "bat_dau": 456.496
   },
   {
    "scene": 13,
-   "bat_dau": 503.136
+   "bat_dau": 503.328
   },
   {
    "scene": 14,
-   "bat_dau": 541.884
+   "bat_dau": 542.076
   },
   {
    "scene": 15,
-   "bat_dau": 586.86
+   "bat_dau": 593.028
   },
   {
    "scene": 16,
-   "bat_dau": 634.512
+   "bat_dau": 640.68
   },
   {
    "scene": 17,
-   "bat_dau": 685.98
+   "bat_dau": 695.268
   }
  ],
  "nhac": [
   {
    "src": "music/wallpaper.mp3",
    "bat_dau": 0.0,
-   "ket_thuc": 140.058,
+   "ket_thuc": 140.25,
    "mood": "to-mo"
   },
   {
    "src": "music/inspired.mp3",
-   "bat_dau": 140.058,
-   "ket_thuc": 273.198,
+   "bat_dau": 140.25,
+   "ket_thuc": 273.39,
    "mood": "to-mo"
   },
   {
    "src": "music/sneaky-snitch.mp3",
-   "bat_dau": 273.198,
-   "ket_thuc": 398.258,
+   "bat_dau": 273.39,
+   "ket_thuc": 398.45,
    "mood": "hai"
   },
   {
    "src": "music/wallpaper.mp3",
-   "bat_dau": 398.258,
-   "ket_thuc": 455.304,
+   "bat_dau": 398.45,
+   "ket_thuc": 455.496,
    "mood": "to-mo"
   },
   {
    "src": "music/lightless-dawn.mp3",
-   "bat_dau": 455.804,
-   "ket_thuc": 502.136,
+   "bat_dau": 455.996,
+   "ket_thuc": 502.328,
    "mood": "khac-nghiet"
   },
   {
    "src": "music/lightless-dawn.mp3",
-   "bat_dau": 504.136,
-   "ket_thuc": 540.884,
+   "bat_dau": 504.328,
+   "ket_thuc": 541.076,
    "mood": "khac-nghiet"
   },
   {
    "src": "music/inspired.mp3",
-   "bat_dau": 541.584,
-   "ket_thuc": 586.26,
+   "bat_dau": 541.776,
+   "ket_thuc": 592.428,
    "mood": "to-mo"
   },
   {
    "src": "music/wallpaper.mp3",
-   "bat_dau": 586.26,
-   "ket_thuc": 633.762,
+   "bat_dau": 592.428,
+   "ket_thuc": 639.93,
    "mood": "to-mo"
   },
   {
    "src": "music/inspired.mp3",
-   "bat_dau": 633.762,
-   "ket_thuc": 705.38,
+   "bat_dau": 639.93,
+   "ket_thuc": 714.668,
    "mood": "to-mo"
   }
  ],
@@ -367,7 +367,7 @@
    "id": "d05",
    "phong_cach": "diorama",
    "bat_dau": 34.324,
-   "ket_thuc": 49.238,
+   "ket_thuc": 49.43,
    "lop": "hien-tai",
    "boi_canh": "Như d03 (bàn, sổ map-tristan). BẢN ĐỒ TRÊN SỔ có thêm một chấm đảo nhỏ ở PHÍA BẮC Tristan (vị trí St Helena −15.96, −5.71 tính bằng cùng phép chiếu orthographic của map-tristan trong manifest: center [−12.28, −37.11], zoom 1.6, anchor 1320,560), KHÔNG nhãn, không tên, không mũ, không lính; chấm chỉ sáng ở nhịp cuối",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); dây giày đã xỏ lại trong lúc chèn d04 (không diễn); cầm bút chì; cuối đoạn tay không",
@@ -400,7 +400,7 @@
     },
     {
      "tai": 39.125,
-     "loi": "But first, an older question. Who would start a village out there at all?",
+     "loi": "The answer starts with an older question. Who would start a village out there at all?",
      "hanh_dong": "Wob gõ đầu bút chì lên chấm Tristan ba cái, nhíu mắt (ngam-nghi); camera đẩy chậm vào trang sổ",
      "gag": "",
      "dao_cu": [
@@ -409,10 +409,10 @@
      "sfx": []
     },
     {
-     "tai": 43.224,
+     "tai": 43.424,
      "loi": "I guessed wrong. Twice.",
-     "hanh_dong": "[va-cham-vat-ly] Từ sau \"all?\" (≈ 42.86 s) Wob đã cầm sẵn một con tàu buồm giấy (giả thuyết 1) và một mảnh ván giấy (giả thuyết 2). Thả tàu lên vùng biển trên bản đồ trong sổ ở ≈ 43.22 s, tàu NỔI ≥ 0,5 s rồi mới chìm đúng \"wrong.\" (≈ 43.66 s), rồi thả ván, ván nổi một chút rồi chìm đúng \"Twice.\" (≈ 44.38 s)",
-     "gag": "Hai thứ lần lượt chìm nghỉm, vòng sóng giấy lan ra; Wob nhìn chỗ chìm, giữ 0,6 s trước \"The answer,\" (45.34 s)",
+     "hanh_dong": "[va-cham-vat-ly] Từ sau \"all?\" (≈ 43.06 s) Wob đã cầm sẵn một con tàu buồm giấy (giả thuyết 1) và một mảnh ván giấy (giả thuyết 2). Thả tàu lên vùng biển trên bản đồ trong sổ ở ≈ 43.42 s, tàu NỔI ≥ 0,5 s rồi mới chìm đúng \"wrong.\" (≈ 43.86 s), rồi thả ván, ván nổi một chút rồi chìm đúng \"Twice.\" (≈ 44.58 s)",
+     "gag": "Hai thứ lần lượt chìm nghỉm, vòng sóng giấy lan ra; Wob nhìn chỗ chìm, giữ 0,6 s trước \"The answer,\" (45.54 s)",
      "dao_cu": [
       "tau-buom",
       "van-giay"
@@ -423,7 +423,7 @@
      ]
     },
     {
-     "tai": 45.337,
+     "tai": 45.537,
      "loi": "The answer, it turned out, lived on a different island.",
      "hanh_dong": "MANH MỐI CHỈ BẰNG HÌNH: trên bản đồ trong sổ, chấm đảo nhỏ phía bắc (không nhãn) nháy sáng MỘT lần đúng \"different island\"; Wob liếc theo. Rồi [lao-vao-hinh-ve] camera lao vào trang sổ, 0,5 s cuối phủ thành giấy phẳng #EFE3C8",
      "gag": "",
@@ -444,8 +444,8 @@
   {
    "id": "d06",
    "phong_cach": "ve-tay",
-   "bat_dau": 49.238,
-   "ket_thuc": 54.875,
+   "bat_dau": 49.43,
+   "ket_thuc": 55.067,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay nét sôi trên trang sổ phác: chấm đảo là hình nón núi lửa bé giữa biển kẻ sóng; một chiếc máy bay giấy",
    "trang_phuc": "Wob vẽ tay nhỏ ở mép trang (ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác), mũ trùm HẠ (trên đảo), ba lô nhỏ, giày đỏ)",
@@ -453,9 +453,9 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 49.988,
+     "tai": 50.18,
      "loi": "There is no airstrip on Tristan.",
-     "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; một chiếc máy bay giấy bay vào và LAO THẲNG vào sườn núi đúng \"airstrip\" (≈ 50.70 s), KHÔNG lượn vòng tìm chỗ đáp",
+     "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; một chiếc máy bay giấy bay vào và LAO THẲNG vào sườn núi đúng \"airstrip\" (≈ 50.89 s), KHÔNG lượn vòng tìm chỗ đáp",
      "gag": "Máy bay trượt xuống sườn núi như cầu trượt, nằm bẹp ở chân núi 0,6 s; Wob ở mép trang che mắt",
      "dao_cu": [
       "may-bay-giay"
@@ -466,9 +466,9 @@
      ]
     },
     {
-     "tai": 52.088,
+     "tai": 52.28,
      "loi": "You go by sea, from Cape Town in South Africa,",
-     "hanh_dong": "Máy bay giấy nằm ở chân núi tự mở nếp gấp thành một chiếc thuyền giấy đúng \"sea,\" (≈ 52.65 s), trượt xuống nước nổi bập bềnh; Wob ở mép trang thổi phù cho thuyền trôi về phía Cape Town (mép phải trang)",
+     "hanh_dong": "Máy bay giấy nằm ở chân núi tự mở nếp gấp thành một chiếc thuyền giấy đúng \"sea,\" (≈ 52.84 s), trượt xuống nước nổi bập bềnh; Wob ở mép trang thổi phù cho thuyền trôi về phía Cape Town (mép phải trang)",
      "gag": "Máy bay tự gấp thành thuyền",
      "dao_cu": [
       "thuyen-giay"
@@ -484,8 +484,8 @@
   {
    "id": "d07",
    "phong_cach": "cat-giay",
-   "bat_dau": 54.875,
-   "ket_thuc": 83.95,
+   "bat_dau": 55.067,
+   "ket_thuc": 84.142,
    "lop": "hoi-uc",
    "boi_canh": "Trang sổ hành trình (journalPage + mapSticker map-tristan-route: Cape Town bên phải, Tristan bên trái, đường nét đứt cong). Rồi boong tàu cá nhỏ giữa biển xám (parallax: lan can tiền cảnh, sóng xám, trời xám). Rồi cabin hẹp: giường tầng, bàn gấp nhỏ, đồng hồ treo vách (không chữ, không số), ô cửa sổ tròn",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"). Boong: mũ trùm LÊN (gió biển); cabin: mũ trùm HẠ (trên đảo), ba lô nhỏ trên giường tầng",
@@ -493,7 +493,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 54.925,
+     "tai": 55.117,
      "loi": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles.",
      "hanh_dong": "[trang-so-ban-do] CẬN trang sổ (trang ≥ 70% khung): map-tristan-route; nét đứt Cape Town → Tristan vẽ dần đúng \"two thousand eight hundred\", thẻ ~2,810 km · ~1,750 mi bật lên ở \"miles\"",
      "gag": "",
@@ -506,7 +506,7 @@
      ]
     },
     {
-     "tai": 60.488,
+     "tai": 60.68,
      "loi": "The crossing usually takes around six days.",
      "hanh_dong": "Một con tàu giấy tí hon bò theo nét đứt, thẻ ~6 days dán cạnh; Wob ở mép trang dán sáu mặt trời giấy nhỏ dọc nét đứt, mỗi ngày một cái (không đếm ngón tay: đã dùng nhiều ở tập 3, 4)",
      "gag": "",
@@ -514,7 +514,7 @@
      "sfx": []
     },
     {
-     "tai": 63.176,
+     "tai": 63.368,
      "loi": "Only nine sailings from Cape Town were on the twenty twenty-six schedule.",
      "hanh_dong": "Lịch treo tường giấy 2026: chỉ 9 ô có hình con tàu nhỏ, còn lại trống trơn; Wob dò ngón tay qua các ô trống",
      "gag": "",
@@ -524,7 +524,7 @@
      "sfx": []
     },
     {
-     "tai": 67.026,
+     "tai": 67.218,
      "loi": "I took the small backpack this time.",
      "hanh_dong": "[tien-canh-khung] Boong tàu cá, lan can làm tiền cảnh: Wob (áo mưa cam, mũ trùm lên) quay lưng khoe BA LÔ NHỎ đúng \"small backpack\", ưỡn ngực tự hào (gọi lại đuôi tập 4)",
      "gag": "Gió biển giật nhẹ, ba lô nhỏ nhẹ tới mức đung đưa ngang như lá cờ; Wob ghì quai",
@@ -534,7 +534,7 @@
      "sfx": []
     },
     {
-     "tai": 69.138,
+     "tai": 69.33,
      "loi": "I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour.",
      "hanh_dong": "Cabin: Wob ngồi bàn gấp, mũ trùm hạ, chấm từng chấm bút lên trang sổ theo nhịp kim đồng hồ treo vách (kim nhích → một chấm)",
      "gag": "",
@@ -545,7 +545,7 @@
      "sfx": []
     },
     {
-     "tai": 74.113,
+     "tai": 74.305,
      "loi": "By the third day, the dots had gone off the edge of the page and across the table.",
      "hanh_dong": "[take-cham] Dãy chấm bò khỏi mép sổ, chạy qua mặt bàn, leo xuống chân bàn; Wob nhìn theo dãy chấm xuống sàn, dừng, rồi lặng lẽ kéo thêm một tờ giấy lót dưới cho chấm đi tiếp (GIẢI MỐC dãy chấm trên bàn ở d01)",
      "gag": "Wob lót giấy cho chấm đi tiếp",
@@ -556,7 +556,7 @@
      "sfx": []
     },
     {
-     "tai": 78.338,
+     "tai": 78.53,
      "loi": "The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment.",
      "hanh_dong": "Ô cửa sổ tròn: biển xám; tờ lịch nhỏ cạnh cửa sổ lật từ MONDAY sang THURSDAY, biển vẫn xám, sóng dâng cao hơn, mây sà thấp hơn; Wob tì cằm lên bậu cửa sổ, mặt xám theo (ngam-nghi)",
      "gag": "Mặt Wob bạc màu dần theo biển",
@@ -582,8 +582,8 @@
   {
    "id": "d08",
    "phong_cach": "ve-tay",
-   "bat_dau": 83.95,
-   "ket_thuc": 87.776,
+   "bat_dau": 84.142,
+   "ket_thuc": 87.968,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: giường tầng trong cabin, ba lô nhỏ mở nắp, đồ đạc nhỏ bày quanh",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); ba lô nhỏ TÁCH khỏi lưng (rig noPack, vẽ riêng VT.backpack)",
@@ -591,10 +591,10 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 83.95,
+     "tai": 84.142,
      "loi": "I packed and unpacked the small backpack until it filed a complaint.",
-     "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần trong ≈ 84.28–86.26 s (mỗi lần ≥ 0,6 s, lần sau nhanh hơn); ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ) đúng \"filed\" (≈ 86.61 s)",
-     "gag": "Ba lô quay lưng lại với Wob đúng \"complaint\" (≈ 87.06 s), khoá kéo mím chặt; giữ tới cắt 87.78 s",
+     "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần trong ≈ 84.47–86.46 s (mỗi lần ≥ 0,6 s, lần sau nhanh hơn); ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ) đúng \"filed\" (≈ 86.81 s)",
+     "gag": "Ba lô quay lưng lại với Wob đúng \"complaint\" (≈ 87.25 s), khoá kéo mím chặt; giữ tới cắt 87.97 s",
      "dao_cu": [
       "ba-lo-nho"
      ],
@@ -610,8 +610,8 @@
   {
    "id": "d09",
    "phong_cach": "cat-giay",
-   "bat_dau": 87.776,
-   "ket_thuc": 109.85,
+   "bat_dau": 87.968,
+   "ket_thuc": 110.042,
    "lop": "hoi-uc",
    "boi_canh": "Biển xám buổi sáng, parallax nhiều lớp: chân trời có một đám mây đứng yên; dưới mây hiện dần hình nón núi lửa khổng lồ. Rồi tàu cá neo ngoài khơi giữa sóng xám, một xuồng nhỏ nhấp nhô cạnh mạn tàu, thùng hàng thả xuống bằng dây; thang dây ở mạn tàu",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm LÊN (gió biển); ba lô nhỏ trên lưng; sau cú \"met halfway\" áo mưa ướt bóng (vệt nước) tới hết d10",
@@ -619,7 +619,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 87.826,
+     "tai": 88.018,
      "loi": "Then, one morning, a cloud sat on the horizon and refused to move.",
      "hanh_dong": "[day-vao-cham] Wob bé tí ở mũi tàu nhìn ra chân trời xám; một đám mây đứng yên trong khi mọi đám mây khác trôi qua",
      "gag": "",
@@ -627,7 +627,7 @@
      "sfx": []
     },
     {
-     "tai": 92.388,
+     "tai": 92.58,
      "loi": "There was a mountain under it.",
      "hanh_dong": "[wob-be-ti] Camera hạ xuống: dưới đám mây là cả hình nón núi lửa khổng lồ; Wob bé tí ở mũi tàu, mũ trùm bay ngược ra sau; giữ 0,8 s",
      "gag": "",
@@ -635,7 +635,7 @@
      "sfx": []
     },
     {
-     "tai": 94.98,
+     "tai": 95.172,
      "loi": "Then came the part the ticket doesn't cover. Getting off.",
      "hanh_dong": "Tàu cá neo ngoài khơi; Wob đứng mép mạn tàu nhìn xuống xuồng nhỏ nhấp nhô dưới thấp",
      "gag": "",
@@ -645,7 +645,7 @@
      ]
     },
     {
-     "tai": 98.52,
+     "tai": 98.712,
      "loi": "Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat.",
      "hanh_dong": "Thùng hàng được thả xuống xuồng bằng dây; hai người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng trên xuồng đỡ thùng; xuồng nhấp nhô theo sóng",
      "gag": "",
@@ -655,7 +655,7 @@
      "sfx": []
     },
     {
-     "tai": 104.7,
+     "tai": 104.892,
      "loi": "I stepped down into it just as it rose up to meet me.",
      "hanh_dong": "Wob bước xuống thang dây đúng lúc xuồng nảy lên",
      "gag": "",
@@ -663,7 +663,7 @@
      "sfx": []
     },
     {
-     "tai": 107.5,
+     "tai": 107.692,
      "loi": "We met halfway. Not gracefully.",
      "hanh_dong": "[take-cham] Xuồng và Wob gặp nhau giữa chừng \"bộp\": Wob dính bẹp lên đáy xuồng như con tem, ba lô nhỏ rơi đè lên trên; Wob nằm im, chớp mắt; giữ 0,8 s",
      "gag": "Wob bẹp như con tem dán đáy xuồng",
@@ -681,8 +681,8 @@
   {
    "id": "d10",
    "phong_cach": "ve-tay",
-   "bat_dau": 109.85,
-   "ket_thuc": 118.9,
+   "bat_dau": 110.042,
+   "ket_thuc": 119.092,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: toàn cảnh núi lửa hình nón từ xuồng, mây quấn đỉnh như cái mũ, vách đá dựng",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm LÊN (gió biển), áo mưa còn ướt; ngồi trong xuồng",
@@ -690,7 +690,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 109.85,
+     "tai": 110.042,
      "loi": "Up close, the island is basically one volcano, just over two thousand metres tall, about sixty-seven hundred feet,",
      "hanh_dong": "[wob-be-ti] Wob ngồi xuồng nhỏ xíu ở đáy khung, ngửa cổ nhìn ngọn núi lửa chiếm cả khung; thẻ ~2,060 m · ~6,760 ft cài ở sườn núi",
      "gag": "",
@@ -698,10 +698,10 @@
      "sfx": []
     },
     {
-     "tai": 117.1,
+     "tai": 117.292,
      "loi": "wearing a cloud like a hat.",
      "hanh_dong": "Cận đỉnh núi: đám mây quấn đỉnh",
-     "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ ở \"cloud\" (≈ 117.44 s) rồi đội lại; Wob trong xuồng nhấc mũ trùm (đang LÊN) khỏi đầu chào lại ở \"like\" (≈ 117.78 s), trùm lại xong ở ≈ 118.20 s, giữ mặt tỉnh bơ tới 118.82 s (cắt 118.90 s)",
+     "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ ở \"cloud\" (≈ 117.63 s) rồi đội lại; Wob trong xuồng nhấc mũ trùm (đang LÊN) khỏi đầu chào lại ở \"like\" (≈ 117.97 s), trùm lại xong ở ≈ 118.39 s, giữ mặt tỉnh bơ tới 119.01 s (cắt 119.09 s)",
      "dao_cu": [],
      "sfx": [
       "boing"
@@ -716,8 +716,8 @@
   {
    "id": "d11",
    "phong_cach": "cat-giay",
-   "bat_dau": 118.9,
-   "ket_thuc": 140.058,
+   "bat_dau": 119.092,
+   "ket_thuc": 140.25,
    "lop": "hoi-uc",
    "boi_canh": "Dải đất bằng xanh dưới vách đá dựng, dãy nhà mái thấp tường đá (mái tôn màu), vài con bò; biển xám phía trước, bãi đá đen. Tấm biển tên làng dài quá khổ ở đầu làng. Mây quấn đỉnh núi phía sau",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo) (kéo xuống khi đặt chân lên bờ), áo khô dần; ba lô nhỏ trên lưng",
@@ -725,7 +725,7 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 118.95,
+     "tai": 119.142,
      "loi": "The only village sits on a strip of flat green land at its foot.",
      "hanh_dong": "[luot-smootherstep] Camera lướt từ chân núi xuống dải đất xanh: dãy nhà mái thấp, bò gặm cỏ; Wob bước lên bãi đá đen, kéo mũ trùm xuống",
      "gag": "",
@@ -733,9 +733,9 @@
      "sfx": []
     },
     {
-     "tai": 121.98,
+     "tai": 122.172,
      "loi": "Officially, it's Edinburgh of the Seven Seas,",
-     "hanh_dong": "[lia-theo-vat] Tấm biển tên làng dài tới mức camera phải lia theo chữ EDINBURGH OF THE SEVEN SEAS; Wob đi bộ dọc tấm biển đọc, đi mãi chưa hết. CUỐI cú lia (≈ 123.46 s) camera LÙI NHANH ra cho CẢ DÒNG EDINBURGH OF THE SEVEN SEAS nằm trọn khung, chữ ≥ 45 px, giữ ≥ 1 s trước \"named\" (125.06 s)",
+     "hanh_dong": "[lia-theo-vat] Tấm biển tên làng dài tới mức camera phải lia theo chữ EDINBURGH OF THE SEVEN SEAS; Wob đi bộ dọc tấm biển đọc, đi mãi chưa hết. CUỐI cú lia (≈ 123.65 s) camera LÙI NHANH ra cho CẢ DÒNG EDINBURGH OF THE SEVEN SEAS nằm trọn khung, chữ ≥ 45 px, giữ ≥ 1 s trước \"named\" (125.25 s)",
      "gag": "Wob đi dọc tấm biển dài hơn cả dãy nhà, bé tí ở một đầu khi cả dòng hiện trọn",
      "dao_cu": [
       "bien-ten-lang"
@@ -743,7 +743,7 @@
      "sfx": []
     },
     {
-     "tai": 125.06,
+     "tai": 125.252,
      "loi": "named after a visit from Queen Victoria's son Alfred, the Duke of Edinburgh, in eighteen sixty-seven.",
      "hanh_dong": "Camera theo Wob tới cuối tấm biển (dòng tên dài đã ra khỏi khung trước khi thẻ 1867 hiện), Wob thở ra; ngoài khơi xa một con tàu buồm giấy nhỏ (không cờ, không người cụ thể) neo ghé rồi đi; thẻ 1867 dán ở cuối biển",
      "gag": "",
@@ -751,7 +751,7 @@
      "sfx": []
     },
     {
-     "tai": 131.38,
+     "tai": 131.572,
      "loi": "The islanders don't call it that. It's the Settlement.",
      "hanh_dong": "Cuối tấm biển dài treo một tấm biển gỗ nhỏ viết tay \"the Settlement\" (KHÔNG hiện cùng lúc với dòng tên dài); Wob gật gù, chỉ vào tấm nhỏ",
      "gag": "",
@@ -761,7 +761,7 @@
      "sfx": []
     },
     {
-     "tai": 134.42,
+     "tai": 134.612,
      "loi": "I stood on the shore with my small backpack and thought, nobody picks this on purpose.",
      "hanh_dong": "Wob đứng trên bãi đá, ba lô nhỏ trên lưng, khoanh tay nhìn núi (ngam-nghi); gió thổi một chiếc lá bay qua mặt; giữ 0,6 s rồi phủ dần thành giấy",
      "gag": "",
@@ -774,13 +774,13 @@
     "the Settlement",
     "1867"
    ],
-   "ly_do_phong_cach": "Đến làng, đi dọc biển tên: cắt giấy parallax. C11–C13. Wob nghĩ \"không ai chọn nơi này\" (mốc đổi ý ở d30). GHI CHO THỢ (dung-cat-giay): lia theo chữ thì chữ luôn bị cắt mép, nên cuối cú lia PHẢI lùi ra cho cả dòng EDINBURGH OF THE SEVEN SEAS đọc trọn ≥ 1 s, ≥ 45 px, trước 125.06 s; thẻ 1867 và tấm \"the Settlement\" không hiện cùng lúc với dòng tên dài"
+   "ly_do_phong_cach": "Đến làng, đi dọc biển tên: cắt giấy parallax. C11–C13. Wob nghĩ \"không ai chọn nơi này\" (mốc đổi ý ở d30). GHI CHO THỢ (dung-cat-giay): lia theo chữ thì chữ luôn bị cắt mép, nên cuối cú lia PHẢI lùi ra cho cả dòng EDINBURGH OF THE SEVEN SEAS đọc trọn ≥ 1 s, ≥ 45 px, trước 125.25 s; thẻ 1867 và tấm \"the Settlement\" không hiện cùng lúc với dòng tên dài"
   },
   {
    "id": "d12",
    "phong_cach": "ve-tay",
-   "bat_dau": 140.058,
-   "ket_thuc": 145.033,
+   "bat_dau": 140.25,
+   "ket_thuc": 145.225,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay trên trang sổ phác: hình con tàu buồm, mũi tên chỉ vào đảo, dấu \"?\"",
    "trang_phuc": "Wob vẽ tay ở mép trang, ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác), mũ trùm HẠ (trên đảo), ba lô nhỏ",
@@ -788,7 +788,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 140.808,
+     "tai": 141.0,
      "loi": "So who started all this? I had a theory ready.",
      "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: con tàu buồm, mũi tên chỉ vào đảo, dấu ?; Wob ở mép trang cầm bút vẽ, gõ bút lên dấu ? (ngam-nghi)",
      "gag": "",
@@ -798,9 +798,9 @@
      "sfx": []
     },
     {
-     "tai": 144.008,
+     "tai": 144.2,
      "loi": "The explorer.",
-     "hanh_dong": "[day-vao-cham] Camera đẩy vào con tàu: đúng \"explorer.\" (≈ 144.20 s) Wob vẽ thêm cho tàu một mỏ neo thả xuống sát bờ đảo (ông ấy chắc ở lại), gật gù đắc ý (hao-hung); giữ 0,6 s trước cắt 145.03 s",
+     "hanh_dong": "[day-vao-cham] Camera đẩy vào con tàu: đúng \"explorer.\" (≈ 144.39 s) Wob vẽ thêm cho tàu một mỏ neo thả xuống sát bờ đảo (ông ấy chắc ở lại), gật gù đắc ý (hao-hung); giữ 0,6 s trước cắt 145.22 s",
      "gag": "Mỏ neo Wob vẽ thả \"tõm\" sát bờ (gài cho d13: tàu kéo neo lên đi tiếp)",
      "dao_cu": [
       "so-phac-thao"
@@ -818,8 +818,8 @@
   {
    "id": "d13",
    "phong_cach": "cat-giay",
-   "bat_dau": 145.033,
-   "ket_thuc": 157.708,
+   "bat_dau": 145.225,
+   "ket_thuc": 157.9,
    "lop": "hoi-uc",
    "boi_canh": "Trang lịch sử tông giấy cũ sepia: biển rộng, hình núi lửa ở xa; một con tàu buồm ba cột đi ngang (không cờ chi tiết); rồi thuyền con giấy cập bãi cát đen. Wob đứng NGOÀI mép trang sepia (lớp chuyến đi), trên bãi đá thật",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo)",
@@ -827,7 +827,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 145.083,
+     "tai": 145.275,
      "loi": "A Portuguese commander sighted the island in fifteen oh six, and it still carries his name.",
      "hanh_dong": "Tàu buồm ba cột đi ngang xa xa; người trên tàu (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng) chỉ tay về hình núi; thẻ 1506 dán góc trang; Wob nhón chân nhìn qua mép trang",
      "gag": "",
@@ -835,7 +835,7 @@
      "sfx": []
     },
     {
-     "tai": 150.271,
+     "tai": 150.463,
      "loi": "Surely he moved in.",
      "hanh_dong": "Wob trên bờ vẫy tay mời, chỉ vào bãi đất",
      "gag": "",
@@ -843,7 +843,7 @@
      "sfx": []
     },
     {
-     "tai": 151.695,
+     "tai": 151.887,
      "loi": "He sailed on.",
      "hanh_dong": "[take-cham] Tàu buồm giấy kéo mỏ neo lên (mỏ neo Wob vẽ ở d12), không dừng, lướt ra khỏi khung",
      "gag": "Tàu giấy vẫy lại Wob một cái rất lịch sự bằng cánh buồm rồi đi tiếp không ngoái lại; tay Wob khựng giữa không trung, giữ 0,6 s",
@@ -853,7 +853,7 @@
      "sfx": []
     },
     {
-     "tai": 152.883,
+     "tai": 153.075,
      "loi": "The first landing anyone recorded came in sixteen forty-three, by a Dutch ship.",
      "hanh_dong": "Một thuyền con giấy cập bãi cát đen, dấu chân đầu tiên in trên cát; thẻ 1643; Wob ướm chân mình cạnh dấu chân",
      "gag": "",
@@ -870,8 +870,8 @@
   {
    "id": "d14",
    "phong_cach": "ve-tay",
-   "bat_dau": 157.708,
-   "ket_thuc": 164.733,
+   "bat_dau": 157.9,
+   "ket_thuc": 164.925,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay trên trang sổ phác thứ hai: bè gỗ, bãi biển, túp lều",
    "trang_phuc": "Wob vẽ tay ở mép trang, áo mưa cam mũ trùm hạ, ba lô nhỏ",
@@ -879,7 +879,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 157.708,
+     "tai": 157.9,
      "loi": "Second theory. A shipwreck.",
      "hanh_dong": "[so-do-ve-tay] Trang lật: nét mực vẽ con tàu nghiêng gãy cột; Wob giơ hai ngón tay \"lần hai\"",
      "gag": "",
@@ -891,7 +891,7 @@
      ]
     },
     {
-     "tai": 160.133,
+     "tai": 160.325,
      "loi": "Somebody's terrible day at sea, a raft, a beach, a brave new life.",
      "hanh_dong": "Ba hình hiện đúng ba chữ: bè gỗ (\"raft\"), bãi biển (\"beach\"), túp lều có khói bếp (\"life\"); Wob gật gù tự tin, khoanh tay",
      "gag": "Wob vẽ thêm cho túp lều một hàng rào trắng và hộp thư",
@@ -907,8 +907,8 @@
   {
    "id": "d15",
    "phong_cach": "cat-giay",
-   "bat_dau": 164.733,
-   "ket_thuc": 177.738,
+   "bat_dau": 164.925,
+   "ket_thuc": 177.93,
    "lop": "hoi-uc",
    "boi_canh": "Bãi đá đen dọc bờ, sóng xám liếm vào, rong biển; núi lửa phía sau; cuối đoạn đường chân trời biển mở về phía bắc",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm gậy gỗ, rồi củ khoai tây; cuối đoạn cất củ khoai vào túi hông ba lô nhỏ, tay không",
@@ -916,7 +916,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 164.783,
+     "tai": 164.975,
      "loi": "I walked the shore with a stick, looking for the wreck that started it all.",
      "hanh_dong": "[di-bo-parallax] Wob đi dọc bờ đá, chọc gậy vào từng khe đá, lật rong biển; các lớp đá, sóng trôi lệch nhau",
      "gag": "",
@@ -926,7 +926,7 @@
      "sfx": []
     },
     {
-     "tai": 168.658,
+     "tai": 168.85,
      "loi": "I found a potato.",
      "hanh_dong": "[take-cham] Wob bới lên một củ khoai tây, giơ ngang mắt, nhìn rất lâu",
      "gag": "Wob ghé tai vào củ khoai như nghe tiếng biển trong vỏ ốc; giữ 0,8 s",
@@ -938,7 +938,7 @@
      ]
     },
     {
-     "tai": 170.096,
+     "tai": 170.288,
      "loi": "Shipwrecks do turn up in this story, later. They didn't start it.",
      "hanh_dong": "Xa ngoài khơi một mảnh ván trôi ngang; Wob cất củ khoai vào túi hông ba lô nhỏ, vỗ nhẹ túi",
      "gag": "",
@@ -949,7 +949,7 @@
      "sfx": []
     },
     {
-     "tai": 174.008,
+     "tai": 174.2,
      "loi": "The real beginning came from much further north.",
      "hanh_dong": "Wob quay đầu nhìn lên phía bắc ra biển mở; camera lướt theo ánh nhìn tới đường chân trời trống (không vẽ gì khác); giữ 0,6 s",
      "gag": "",
@@ -963,8 +963,8 @@
   {
    "id": "d16",
    "phong_cach": "cat-giay",
-   "bat_dau": 177.738,
-   "ket_thuc": 187.278,
+   "bat_dau": 177.93,
+   "ket_thuc": 187.47,
    "lop": "hoi-uc",
    "boi_canh": "Wob ngồi trên tảng đá bên bờ, sổ du lịch mở trên đùi; CẬN trang sổ (≥ 70% khung): journalPage + mapSticker map-napoleon (St Helena trên, Tristan dưới, đường nét đứt nối hai đảo)",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); sổ trên đùi; cầm cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3)",
@@ -972,9 +972,9 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 177.888,
+     "tai": 178.08,
      "loi": "Napoleon.",
-     "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc, chạm trang 0–3 khung trước \"Napoleon.\" (177.89 s); giữ tới \"After\"",
+     "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc, chạm trang 0–3 khung trước \"Napoleon.\" (178.08 s); giữ tới \"After\"",
      "gag": "",
      "dao_cu": [
       "mu-hai-sung",
@@ -985,9 +985,9 @@
      ]
     },
     {
-     "tai": 179.028,
+     "tai": 179.22,
      "loi": "After his final defeat, Britain exiled Napoleon to St Helena, another lonely island,",
-     "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; đúng \"lonely\" (≈ 183.35 s) chiếc mũ hai sừng khẽ xoay vành về phía chấm Tristan như ngó xuống",
+     "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; đúng \"lonely\" (≈ 183.54 s) chiếc mũ hai sừng khẽ xoay vành về phía chấm Tristan như ngó xuống",
      "gag": "",
      "dao_cu": [
       "map-napoleon",
@@ -998,7 +998,7 @@
      ]
     },
     {
-     "tai": 184.488,
+     "tai": 184.68,
      "loi": "more than two thousand kilometres north of Tristan.",
      "hanh_dong": "Wob kéo căng sợi chỉ xanh giữa hai chấm; thẻ > 2,000 km bật lên giữa sợi chỉ",
      "gag": "",
@@ -1020,8 +1020,8 @@
   {
    "id": "d17",
    "phong_cach": "ve-tay",
-   "bat_dau": 187.278,
-   "ket_thuc": 196.298,
+   "bat_dau": 187.47,
+   "ket_thuc": 196.49,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay sơ đồ: hai hình đảo (đảo có chiếc mũ hai sừng phía trên, Tristan phía dưới), mũi tên, thuyền nhỏ; rồi một con tàu buồm khác (không cờ) ghé Tristan",
    "trang_phuc": "Wob vẽ tay ở mép sơ đồ, áo mưa cam mũ trùm hạ, ba lô nhỏ",
@@ -1029,7 +1029,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 187.278,
+     "tai": 187.47,
      "loi": "Britain worried the French could use Tristan as a base for a rescue.",
      "hanh_dong": "[so-do-ve-tay] Mũi tên bắn từ Tristan lên đảo có mũ; một chiếc thuyền nhỏ chèo theo mũi tên tới chiếc mũ",
      "gag": "Chiếc mũ hai sừng hé vành lên ngóng chiếc thuyền",
@@ -1041,7 +1041,7 @@
      ]
     },
     {
-     "tai": 190.968,
+     "tai": 191.16,
      "loi": "It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve.",
      "hanh_dong": "Một con tàu buồm thứ hai (không cờ, không biểu tượng) ghé Tristan; một thanh chắn giấy hạ xuống trước mũi tàu; thẻ 1812; Wob ở mép sơ đồ giơ tay làm động tác \"dừng\"",
      "gag": "",
@@ -1057,8 +1057,8 @@
   {
    "id": "d18",
    "phong_cach": "cat-giay",
-   "bat_dau": 196.298,
-   "ket_thuc": 207.378,
+   "bat_dau": 196.49,
+   "ket_thuc": 207.57,
    "lop": "hoi-uc",
    "boi_canh": "Trang lịch sử tông sepia: bãi đá đen, hàng lính que đội mũ cao bước lên bờ từ thuyền con, cắm lá cờ nhỏ không chi tiết; rồi mỏm đá cao nhìn ra biển trống, một con chim biển. Wob đứng ngoài mép trang",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo)",
@@ -1066,7 +1066,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 196.348,
+     "tai": 196.54,
      "loi": "So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island.",
      "hanh_dong": "Hàng lính que (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng) bước lên bãi đá đen, cắm lá cờ nhỏ không chi tiết; thẻ 14 Aug 1816; Wob ngoài mép trang đứng nghiêm nhìn",
      "gag": "",
@@ -1074,7 +1074,7 @@
      "sfx": []
     },
     {
-     "tai": 202.208,
+     "tai": 202.4,
      "loi": "A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach.",
      "hanh_dong": "[luot-smootherstep] Lướt lên mỏm đá: một người lính que đứng gác, ống nhòm chĩa ra biển trống",
      "gag": "Ống nhòm xoay một vòng 360 độ, chỉ thấy một con chim biển bay qua; Wob ngoài mép trang cùng lính nghiêm chào con chim, con chim không chào lại; giữ 0,6 s",
@@ -1092,8 +1092,8 @@
   {
    "id": "d19",
    "phong_cach": "ve-tay",
-   "bat_dau": 207.378,
-   "ket_thuc": 213.458,
+   "bat_dau": 207.57,
+   "ket_thuc": 213.65,
    "lop": "hoi-uc",
    "boi_canh": "Bong bóng tưởng tượng vẽ tay: một thành phố nhỏ, ngôi nhà ở tận bên kia thành phố có cửa sau",
    "trang_phuc": "Wob vẽ tay trong bong bóng, áo mưa cam mũ trùm hạ, ba lô nhỏ, cầm chùm chìa khoá to",
@@ -1101,7 +1101,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 207.378,
+     "tai": 207.57,
      "loi": "I pictured it as locking the back door of a house across town,",
      "hanh_dong": "[bong-bong-tuong-tuong] Wob đạp xe qua nửa thành phố tới khoá cửa sau một ngôi nhà, cầm chùm chìa khoá to, khoá ba ổ",
      "gag": "",
@@ -1113,7 +1113,7 @@
      ]
     },
     {
-     "tai": 210.828,
+     "tai": 211.02,
      "loi": "just in case a burglar uses it as a shortcut.",
      "hanh_dong": "Tên trộm giấy đeo mặt nạ đi ngang, nhìn cánh cửa khoá",
      "gag": "Tên trộm nhún vai, đi cửa trước; Wob đứng ở cửa sau ôm chùm chìa khoá",
@@ -1129,8 +1129,8 @@
   {
    "id": "d20",
    "phong_cach": "cat-giay",
-   "bat_dau": 213.458,
-   "ket_thuc": 232.542,
+   "bat_dau": 213.65,
+   "ket_thuc": 232.734,
    "lop": "hoi-uc",
    "boi_canh": "Trang tông sepia: tàu lính nhỏ dần ngoài khơi; trên bờ vài người que đứng nhìn theo; rồi làng hiện tại (tông màu thường) dãy mái nhà có một dấu hỏi giấy to; rồi lại trang sepia: túp lều đá, một gia đình que",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo)",
@@ -1138,7 +1138,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 213.508,
+     "tai": 213.7,
      "loi": "About a year later, the navy decided the island wasn't worth the bother.",
      "hanh_dong": "Một cây bút lông ngỗng giấy gạch một nét lên hình hòn đảo trên tấm hải đồ sepia; Wob ngoài mép trang nhíu mày",
      "gag": "",
@@ -1146,7 +1146,7 @@
      "sfx": []
     },
     {
-     "tai": 217.648,
+     "tai": 217.84,
      "loi": "The soldiers sailed away in November eighteen seventeen.",
      "hanh_dong": "Lính que xếp hàng lên tàu, tàu nhỏ dần; trên bờ còn vài người que đứng nhìn theo; thẻ Nov 1817",
      "gag": "",
@@ -1154,15 +1154,15 @@
      "sfx": []
     },
     {
-     "tai": 220.938,
+     "tai": 221.13,
      "loi": "Soldiers leave. That's their job.",
-     "hanh_dong": "Wob ngoài mép trang vẫy theo con tàu một cái đúng \"leave.\" (≈ 221.37 s), hạ tay ở \"job.\" (≈ 222.53 s), giữ tỉnh bơ 0,8 s trước \"So why\" (223.41 s)",
+     "hanh_dong": "Wob ngoài mép trang vẫy theo con tàu một cái đúng \"leave.\" (≈ 221.56 s), hạ tay ở \"job.\" (≈ 222.72 s), giữ tỉnh bơ 0,8 s trước \"So why\" (223.60 s)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 223.408,
+     "tai": 223.6,
      "loi": "So why is there still a village?",
      "hanh_dong": "[lui-ra-toan-canh] Khớp hình sang làng hiện tại: Wob đứng nhìn dãy mái nhà, gãi cằm (ngam-nghi); một dấu hỏi giấy lớn bật dựng trên mái nhà; giữ 0,6 s (VÒNG TÒ MÒ MỚI ngay sau lời giải)",
      "gag": "",
@@ -1172,7 +1172,7 @@
      ]
     },
     {
-     "tai": 226.392,
+     "tai": 226.584,
      "loi": "Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children.",
      "hanh_dong": "Lại trang sepia: một người que mặc áo lính đứng cạnh vợ và mấy đứa trẻ que trước túp lều đá, tàu lính nhỏ dần phía sau (KHÔNG vẽ chân dung, không mặt); Wob ngoài mép trang bỏ dấu hỏi xuống",
      "gag": "",
@@ -1189,8 +1189,8 @@
   {
    "id": "d21",
    "phong_cach": "ve-tay",
-   "bat_dau": 232.542,
-   "ket_thuc": 261.262,
+   "bat_dau": 232.734,
+   "ket_thuc": 261.454,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay trang sổ: bàn gỗ, đàn bò, bao hàng, đồng xu chia ba đống; rồi trang sổ có hình hòn đảo, từng con tàu giấy nhỏ ghé đảo; tàu bốc khói mắc cạn",
    "trang_phuc": "Wob vẽ tay ở mép trang, áo mưa cam mũ trùm hạ, ba lô nhỏ",
@@ -1198,7 +1198,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 232.542,
+     "tai": 232.734,
      "loi": "Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits.",
      "hanh_dong": "[so-do-ve-tay] Trên bàn gỗ vẽ tay: đàn bò, bao hàng, đồng xu tự chia thành ba đống bằng nhau đúng \"animals\", \"stores\", \"profits\"; ba bàn tay que cùng ký một tờ giấy (không chữ)",
      "gag": "",
@@ -1208,7 +1208,7 @@
      ]
     },
     {
-     "tai": 239.512,
+     "tai": 239.704,
      "loi": "Nobody in the group would stand above the others.",
      "hanh_dong": "Ba người que đứng ngang hàng; Wob ở mép trang lén đứng lên một hòn đá cho cao hơn",
      "gag": "Wob nhìn ba người que ngang hàng, lặng lẽ bước xuống khỏi hòn đá cho bằng nhau",
@@ -1216,7 +1216,7 @@
      "sfx": []
     },
     {
-     "tai": 242.152,
+     "tai": 242.344,
      "loi": "Others kept arriving. A sailor from Hastings.",
      "hanh_dong": "[lia-theo-vat] Trang sổ hình hòn đảo: con tàu giấy nhỏ thứ nhất ghé, thả xuống một người que xách túi đi vào làng (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng); Wob ĐỨNG Ở MÉP TRANG (không bước vào cảnh) đánh một dấu bút chì nhỏ lên mép hình hòn đảo: dấu 1",
      "gag": "",
@@ -1226,7 +1226,7 @@
      "sfx": []
     },
     {
-     "tai": 245.272,
+     "tai": 245.464,
      "loi": "A Dutchman whose ship was wrecked.",
      "hanh_dong": "MỘT việc duy nhất: một mảnh ván trôi dạt vào bờ, người que thứ hai trèo lên bến. Wob không chạm, không chào",
      "gag": "",
@@ -1234,7 +1234,7 @@
      "sfx": []
     },
     {
-     "tai": 247.192,
+     "tai": 247.384,
      "loi": "An American whaler, and later an American whaling captain.",
      "hanh_dong": "Tàu giấy thứ ba rồi thứ tư (mỗi tàu một hình cá voi nhỏ trên buồm, không cờ) thả thêm hai người que; Wob ở mép trang đánh tiếp dấu 2, 3, 4, rồi gõ đầu bút đếm lại đủ bốn dấu bút chì",
      "gag": "",
@@ -1244,7 +1244,7 @@
      "sfx": []
     },
     {
-     "tai": 250.652,
+     "tai": 250.844,
      "loi": "In eighteen twenty-seven, a ship's captain brought five women over from St Helena.",
      "hanh_dong": "Một con tàu giấy từ phía bắc tới, năm người que bước xuống bến; vẽ trang trọng, KHÔNG gag; thẻ 1827",
      "gag": "",
@@ -1252,7 +1252,7 @@
      "sfx": []
     },
     {
-     "tai": 255.412,
+     "tai": 255.604,
      "loi": "In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed.",
      "hanh_dong": "Xa xa một con tàu giấy bốc khói mắc cạn (tên ITALIA trên mạn khi cận); hai người que lội lên bờ, người que trên bờ ra đón; thẻ 1892",
      "gag": "",
@@ -1270,8 +1270,8 @@
   {
    "id": "d22",
    "phong_cach": "ve-tay",
-   "bat_dau": 261.262,
-   "ket_thuc": 273.198,
+   "bat_dau": 261.454,
+   "ket_thuc": 273.39,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: cửa một nhà chung có bảy tấm thẻ gỗ nhỏ (chỉ hình thẻ, không chữ); rồi cuốn sổ khách khổng lồ mở trên bàn",
    "trang_phuc": "Wob vẽ tay to, áo mưa cam mũ trùm hạ, ba lô nhỏ; cầm bút chì ngắn, rồi thêm cục tẩy ở tay kia (cuối đoạn vẫn cầm cả hai)",
@@ -1279,7 +1279,7 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 261.312,
+     "tai": 261.504,
      "loi": "Today, nearly every islander carries one of seven family names.",
      "hanh_dong": "Bảy tấm thẻ gỗ nhỏ (không chữ) lần lượt treo lên thành một hàng trên cửa nhà chung; Wob đếm đủ bảy bằng ngón tay",
      "gag": "",
@@ -1289,7 +1289,7 @@
      ]
     },
     {
-     "tai": 265.132,
+     "tai": 265.324,
      "loi": "It works a bit like a guestbook where every signature turned into a family.",
      "hanh_dong": "Cuốn sổ khách khổng lồ mở trên bàn, mỗi chữ ký (nét nguệch ngoạc) nảy lên thành một ngôi nhà mái thấp nhỏ xíu có ống khói",
      "gag": "",
@@ -1299,7 +1299,7 @@
      "sfx": []
     },
     {
-     "tai": 268.992,
+     "tai": 269.184,
      "loi": "I signed it too. In pencil. Just in case.",
      "hanh_dong": "[giu-tinh-bo] Wob ký vào góc trang bằng bút chì ngắn; chữ ký nảy lên thành một túp lều tí hon xiêu vẹo",
      "gag": "Ký xong Wob rút ngay cục tẩy ra cầm sẵn tay kia, nhìn thẳng người xem, giữ 0,8 s; rồi phủ dần thành giấy",
@@ -1318,8 +1318,8 @@
   {
    "id": "d23",
    "phong_cach": "cat-giay",
-   "bat_dau": 273.198,
-   "ket_thuc": 289.773,
+   "bat_dau": 273.39,
+   "ket_thuc": 289.965,
    "lop": "hoi-uc",
    "boi_canh": "Sáng sớm ở làng; con đường đất ra khỏi làng; đồi thấp với những ô ruộng nhỏ quây tường đá thấp (Potato Patches), chòi gỗ nhỏ, núi lửa phía sau; góc nhìn từ trên các ô ruộng khác màu khít nhau như tấm chăn chắp mảnh",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm tấm bảng kẹp giấy có ba ô vuông trống (ô 1 hình củ khoai, ô 2 hình tôm hùm, ô 3 hình con bò, không chữ)",
@@ -1327,7 +1327,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 273.948,
+     "tai": 274.14,
      "loi": "Next morning, I auditioned for island life. First job, the Potato Patches.",
      "hanh_dong": "Từ giấy phẳng hiện dần: Wob đứng trước cửa nhà trọ giơ tấm bảng kẹp giấy ba ô, chỉ vào ô củ khoai, mặt quyết tâm (hao-hung)",
      "gag": "",
@@ -1339,7 +1339,7 @@
      ]
     },
     {
-     "tai": 279.323,
+     "tai": 279.515,
      "loi": "They're walled fields a few kilometres outside the village, and every family farms there, at least part time.",
      "hanh_dong": "[di-bo-parallax] Wob đi bộ trên con đường đất ra khỏi làng (không chỉ hướng), các lớp đồi, tường đá trôi lệch; tới các ô ruộng quây tường đá thấp, vài người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng cúi làm ở xa",
      "gag": "",
@@ -1347,7 +1347,7 @@
      "sfx": []
     },
     {
-     "tai": 285.348,
+     "tai": 285.54,
      "loi": "All the land on Tristan is owned in common.",
      "hanh_dong": "[wob-be-ti] Góc nhìn từ trên: các ô ruộng khác màu khít nhau như tấm chăn chắp mảnh; Wob bé tí đứng giữa một đường tường",
      "gag": "",
@@ -1355,9 +1355,9 @@
      "sfx": []
     },
     {
-     "tai": 287.398,
+     "tai": 287.59,
      "loi": "No outsider can buy a piece of it.",
-     "hanh_dong": "[take-cham] CẮT vào trung cảnh Wob cạnh bức tường đá: Wob dang tay ướm thử một ô ruộng, rồi đúng \"outsider\" (≈ 288.07 s) rụt tay về ngay, giấu tay sau lưng; giữ 0,6 s tới cắt 289.77 s",
+     "hanh_dong": "[take-cham] CẮT vào trung cảnh Wob cạnh bức tường đá: Wob dang tay ướm thử một ô ruộng, rồi đúng \"outsider\" (≈ 288.26 s) rụt tay về ngay, giấu tay sau lưng; giữ 0,6 s tới cắt 289.96 s",
      "gag": "Wob rụt tay như chạm phải bếp nóng",
      "dao_cu": [],
      "sfx": []
@@ -1369,8 +1369,8 @@
   {
    "id": "d24",
    "phong_cach": "ve-tay",
-   "bat_dau": 289.773,
-   "ket_thuc": 295.798,
+   "bat_dau": 289.965,
+   "ket_thuc": 295.99,
    "lop": "hoi-uc",
    "boi_canh": "Bong bóng tưởng tượng vẽ tay: một dãy phố, mỗi nhà chăm một luống trong cùng một khu vườn chung",
    "trang_phuc": "Wob vẽ tay trong bong bóng, áo mưa cam mũ trùm hạ, ba lô nhỏ",
@@ -1378,7 +1378,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 289.773,
+     "tai": 289.965,
      "loi": "Picture a garden the whole street plants together, where you look after your own rows",
      "hanh_dong": "[bong-bong-tuong-tuong] Hình to: dãy phố vẽ tay, mỗi nhà một luống trong khu vườn chung, mọi người que tưới luống của mình",
      "gag": "",
@@ -1388,7 +1388,7 @@
      ]
     },
     {
-     "tai": 294.073,
+     "tai": 294.265,
      "loi": "but can never put them up for sale.",
      "hanh_dong": "Wob cắm tấm biển FOR SALE vào luống của mình",
      "gag": "Tấm biển tự rút lên khỏi đất, bay vèo ra khỏi khung; Wob nhìn theo cái lỗ trên luống",
@@ -1408,8 +1408,8 @@
   {
    "id": "d25",
    "phong_cach": "cat-giay",
-   "bat_dau": 295.798,
-   "ket_thuc": 314.834,
+   "bat_dau": 295.99,
+   "ket_thuc": 315.026,
    "lop": "hoi-uc",
    "boi_canh": "Ô ruộng quây tường đá, đất tối, luống khoai; bên kia tường đá là bãi cỏ có bò; sau lưng con bò một máng gỗ đầy khoai to",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); bảng kẹp kẹp dưới nách, rồi cầm chĩa xới đất cao gấp đôi Wob; cuối đoạn giơ củ khoai bé",
@@ -1417,7 +1417,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 295.848,
+     "tai": 296.04,
      "loi": "The potatoes go into the same walled plots, year after year.",
      "hanh_dong": "Cùng một ô ruộng quây tường đá: ba lớp mùa khoai mọc rồi thu hiện chồng lên nhau ở cùng chỗ (cây non → cây xanh → luống trơ, lặp lại); Wob đứng ở góc ô nhìn",
      "gag": "",
@@ -1425,7 +1425,7 @@
      "sfx": []
     },
     {
-     "tai": 299.398,
+     "tai": 299.59,
      "loi": "I was handed a fork.",
      "hanh_dong": "Một bàn tay que chung (không người cụ thể) đưa cho Wob cái chĩa xới đất cao gấp đôi Wob; Wob lảo đảo theo cán chĩa",
      "gag": "",
@@ -1435,7 +1435,7 @@
      "sfx": []
     },
     {
-     "tai": 300.811,
+     "tai": 301.003,
      "loi": "I dug very carefully.",
      "hanh_dong": "Wob xới từng nhát rất nhẹ, lưỡi chĩa run run",
      "gag": "",
@@ -1443,7 +1443,7 @@
      "sfx": []
     },
     {
-     "tai": 302.486,
+     "tai": 302.678,
      "loi": "I lifted out one potato and held it up like a trophy.",
      "hanh_dong": "Wob giơ một củ khoai bé xíu lên cao bằng hai tay như cúp vô địch; vệt sáng lấp lánh quanh củ khoai",
      "gag": "",
@@ -1455,7 +1455,7 @@
      ]
     },
     {
-     "tai": 305.523,
+     "tai": 305.715,
      "loi": "A cow on the other side of the wall looked at it. Then it went back to eating.",
      "hanh_dong": "[take-cham] Con bò ló đầu qua tường đá, nhìn củ khoai, nhìn Wob, nhai một cái, rồi cúi xuống ăn cỏ tiếp",
      "gag": "Vệt sáng quanh củ khoai tắt phụt",
@@ -1465,7 +1465,7 @@
      "sfx": []
     },
     {
-     "tai": 309.361,
+     "tai": 309.553,
      "loi": "Spare potatoes end up as cattle feed. The cow had seen better trophies.",
      "hanh_dong": "Lùi ra: sau lưng con bò là một máng đầy những củ khoai to hơn củ của Wob; Wob hạ cúp xuống chậm; giữ 0,8 s",
      "gag": "Máng khoai to của bò",
@@ -1481,8 +1481,8 @@
   {
    "id": "d26",
    "phong_cach": "ve-tay",
-   "bat_dau": 314.834,
-   "ket_thuc": 328.271,
+   "bat_dau": 315.026,
+   "ket_thuc": 328.463,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: huy hiệu khiên xanh trắng, hai con tôm hùm gai đứng hai bên (vẽ phác, không khẩu hiệu, không chữ); rồi một chiếc bánh chia năm phần",
    "trang_phuc": "Wob vẽ tay ở mép khung, áo mưa cam mũ trùm hạ, ba lô nhỏ, bảng kẹp (đánh dấu ô 2 ở đầu đoạn)",
@@ -1490,7 +1490,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 314.834,
+     "tai": 315.026,
      "loi": "Second job, lobster. Tristan rock lobster is what the island lives on.",
      "hanh_dong": "Wob chỉ vào ô tôm hùm trên bảng kẹp; một con tôm hùm gai vẽ tay bò ngang khung",
      "gag": "",
@@ -1500,15 +1500,15 @@
      "sfx": []
     },
     {
-     "tai": 319.659,
+     "tai": 319.851,
      "loi": "There are even two lobsters on the coat of arms.",
-     "hanh_dong": "[luot-smootherstep] Camera lướt từ con tôm hùm đang bò sang huy hiệu vẽ tay (≈ 319.66 s): hai con tôm hùm đứng hai bên khiên như lính gác; Wob đứng nghiêm cạnh khiên, bắt chước dáng hai con tôm",
-     "gag": "Đúng \"arms.\" (≈ 321.51 s) Wob liếc sang, một con tôm hùm khẽ đổi chân rồi đứng nghiêm lại",
+     "hanh_dong": "[luot-smootherstep] Camera lướt từ con tôm hùm đang bò sang huy hiệu vẽ tay (≈ 319.85 s): hai con tôm hùm đứng hai bên khiên như lính gác; Wob đứng nghiêm cạnh khiên, bắt chước dáng hai con tôm",
+     "gag": "Đúng \"arms.\" (≈ 321.70 s) Wob liếc sang, một con tôm hùm khẽ đổi chân rồi đứng nghiêm lại",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 322.347,
+     "tai": 322.539,
      "loi": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council.",
      "hanh_dong": "[day-vao-cham] Chiếc bánh vẽ tay chia năm phần, bốn phần lần lượt hiện hình tôm hùm, một phần trống (KHÔNG chữ, không số: mức C, lời đã rào); Wob gạch ô tôm hùm trên bảng kẹp",
      "gag": "",
@@ -1524,8 +1524,8 @@
   {
    "id": "d27",
    "phong_cach": "ve-tay",
-   "bat_dau": 328.271,
-   "ket_thuc": 350.022,
+   "bat_dau": 328.463,
+   "ket_thuc": 350.214,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: bến nhỏ có thuyền máy kéo lên dốc, sóng to; phòng ngủ nhỏ có đồng hồ báo thức giấy; tờ mờ sáng, bình ôxy cũ xám bạc sờn, vạch sơn xanh lá bong tróc, treo bằng xích trên giá gỗ ở bến; vòng sóng âm vẽ tay lan khắp làng",
    "trang_phuc": "Nhịp sóng/đồng hồ: Wob áo mưa cam. Nhịp ngủ: Wob trong chăn, áo mưa treo móc, ba lô nhỏ dưới giường. Nhịp \"sitting up in my boots\": Wob MẶC áo mưa, mũ trùm LÊN, giày đỏ, ôm ba lô nhỏ trước ngực",
@@ -1533,7 +1533,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 328.271,
+     "tai": 328.463,
      "loi": "But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot.",
      "hanh_dong": "Thuyền máy nằm trên dốc bến, sóng to đập vào; Wob đẩy thử thuyền, sóng hất ngược; một tờ lịch giấy có nhiều ô dấu ? (không số)",
      "gag": "",
@@ -1543,7 +1543,7 @@
      ]
     },
     {
-     "tai": 333.971,
+     "tai": 334.163,
      "loi": "So the alarm clock here isn't a clock.",
      "hanh_dong": "Đồng hồ báo thức giấy trên đầu giường Wob, kim đứng yên, có mạng nhện nhỏ (không chữ, không số)",
      "gag": "",
@@ -1553,7 +1553,7 @@
      "sfx": []
     },
     {
-     "tai": 336.259,
+     "tai": 336.451,
      "loi": "Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle.",
      "hanh_dong": "Tờ mờ sáng ở bến: một người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng ngước nhìn trời rồi cầm búa gõ vào bình ôxy treo trên giá gỗ; vòng sóng âm vẽ tay lan ra khắp mái nhà",
      "gag": "",
@@ -1565,7 +1565,7 @@
      ]
     },
     {
-     "tai": 341.497,
+     "tai": 341.689,
      "loi": "That's the fishing gong.",
      "hanh_dong": "Cận bình ôxy còn rung; vòng sóng âm thứ hai",
      "gag": "",
@@ -1575,9 +1575,9 @@
      "sfx": []
     },
     {
-     "tai": 342.997,
+     "tai": 343.189,
      "loi": "I slept through it. I slept through it again.",
-     "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob); cồng gõ 2 lần: 343.00 s và 344.20 s",
+     "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob); cồng gõ 2 lần: 343.19 s và 344.39 s",
      "gag": "",
      "dao_cu": [],
      "sfx": [
@@ -1586,10 +1586,10 @@
      ]
     },
     {
-     "tai": 345.696,
+     "tai": 345.888,
      "loi": "On the next calm morning, I slept sitting up in my boots, right next to the bottle.",
-     "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực; ngồi ngủ 345.70–347.60 s",
-     "gag": "Búa gõ \"boong\" ở 347.60 s (giữa \"sitting up in my boots\"): cả người Wob rung bần bật như chuông 1,5 s (tới ≈ 349.10 s), mắt mở trừng GIỮ tới cắt 350.02 s",
+     "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực; ngồi ngủ 345.89–347.79 s",
+     "gag": "Búa gõ \"boong\" ở 347.79 s (giữa \"sitting up in my boots\"): cả người Wob rung bần bật như chuông 1,5 s (tới ≈ 349.29 s), mắt mở trừng GIỮ tới cắt 350.21 s",
      "dao_cu": [
       "binh-oxy",
       "ba-lo-nho"
@@ -1608,8 +1608,8 @@
   {
    "id": "d28",
    "phong_cach": "cat-giay",
-   "bat_dau": 350.022,
-   "ket_thuc": 365.674,
+   "bat_dau": 350.214,
+   "ket_thuc": 365.866,
    "lop": "hoi-uc",
    "boi_canh": "Thuyền máy nhỏ trên sóng xám, tời quay kéo bẫy tôm lên, thùng hàng ở đuôi thuyền; rồi lên bờ: dãy nhà mái thấp, trước mỗi cửa hai con bò, bãi cỏ trước nhà",
    "trang_phuc": "Trên thuyền: ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm LÊN (gió biển), ba lô nhỏ trên lưng, ôm cuộn dây thừng sợi gai vàng nâu #B89A5E. Lên bờ: mũ trùm HẠ (trên đảo), bảng kẹp",
@@ -1617,7 +1617,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 350.072,
+     "tai": 350.264,
      "loi": "Each little boat carries two fishermen, who haul up their traps with a winch.",
      "hanh_dong": "[tien-canh-khung] Mạn thuyền làm tiền cảnh: hai ngư dân (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng) quay tời kéo bẫy tôm lên; Wob ở đuôi thuyền",
      "gag": "",
@@ -1630,7 +1630,7 @@
      ]
     },
     {
-     "tai": 354.371,
+     "tai": 354.563,
      "loi": "I mostly held a rope and tried not to become cargo.",
      "hanh_dong": "Wob ôm cuộn dây thừng ở đuôi thuyền",
      "gag": "Một bàn tay que nhấc nhầm Wob bỏ vào thùng hàng cùng bẫy tôm; Wob lặng lẽ trèo ra, phủi người, cầm lại cuộn dây (mô-típ \"hold a rope and not become cargo\", gọi lại ở d50)",
@@ -1643,7 +1643,7 @@
      ]
     },
     {
-     "tai": 358.436,
+     "tai": 358.628,
      "loi": "Third job. I asked for a cow.",
      "hanh_dong": "Lên bờ: Wob giơ bảng kẹp, chỉ vào ô con bò, mặt hi vọng (hao-hung)",
      "gag": "",
@@ -1653,7 +1653,7 @@
      "sfx": []
     },
     {
-     "tai": 360.974,
+     "tai": 361.166,
      "loi": "The island keeps it to one breeding cow per household, so the grass doesn't get eaten bare.",
      "hanh_dong": "Dãy nhà mái thấp, trước mỗi cửa có hai con bò; đúng \"one\" ở mỗi cửa một con lặng lẽ bước ra khỏi khung, còn đúng một con; bãi cỏ trước nhà đang trụi dần xanh lại",
      "gag": "",
@@ -1669,8 +1669,8 @@
   {
    "id": "d29",
    "phong_cach": "ve-tay",
-   "bat_dau": 365.674,
-   "ket_thuc": 370.536,
+   "bat_dau": 365.866,
+   "ket_thuc": 370.728,
    "lop": "hoi-uc",
    "boi_canh": "Bong bóng tưởng tượng vẽ tay: nồi súp lớn giữa bàn dài, mỗi người que cầm một cái muôi y hệt nhau",
    "trang_phuc": "Wob vẽ tay trong bong bóng, áo mưa cam mũ trùm hạ",
@@ -1678,10 +1678,10 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 365.674,
+     "tai": 365.866,
      "loi": "Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot.",
      "hanh_dong": "[bong-bong-tuong-tuong] Người que múc súp lần lượt bằng những cái muôi y hệt nhau",
-     "gag": "Wob lén rút ra cái muôi to gấp đôi ở \"same ladle,\" (≈ 368.29 s), lấy đà múc; đúng \"pot.\" (≈ 369.94 s) cái muôi to kẹt cứng ở miệng nồi, Wob treo lơ lửng trên cán muôi; giữ tới cắt 370.54 s",
+     "gag": "Wob lén rút ra cái muôi to gấp đôi ở \"same ladle,\" (≈ 368.48 s), lấy đà múc; đúng \"pot.\" (≈ 370.13 s) cái muôi to kẹt cứng ở miệng nồi, Wob treo lơ lửng trên cán muôi; giữ tới cắt 370.73 s",
      "dao_cu": [
       "muoi-mui"
      ],
@@ -1697,8 +1697,8 @@
   {
    "id": "d30",
    "phong_cach": "cat-giay",
-   "bat_dau": 370.536,
-   "ket_thuc": 398.258,
+   "bat_dau": 370.728,
+   "ket_thuc": 398.45,
    "lop": "hoi-uc",
    "boi_canh": "Bãi cỏ trước nhà, con bò; con đường dọc các bức tường đá về làng; trang sổ của Wob (DaoCu.sketchbook + sketchIcon); hoàng hôn hồng trên các ô ruộng, núi lửa hồng",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); bảng kẹp, rồi sổ du lịch; cuối đoạn ngồi trên tường đá",
@@ -1706,7 +1706,7 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 370.586,
+     "tai": 370.778,
      "loi": "I don't have a household on Tristan. So, no cow.",
      "hanh_dong": "Wob đánh dấu X vào ô con bò trên bảng kẹp; giữ 0,6 s",
      "gag": "",
@@ -1716,7 +1716,7 @@
      "sfx": []
     },
     {
-     "tai": 374.111,
+     "tai": 374.303,
      "loi": "I patted somebody else's cow instead. It allowed this, briefly.",
      "hanh_dong": "[take-cham] Wob vỗ nhẹ lên lưng một con bò",
      "gag": "Con bò đứng yên chịu đúng ba cái vỗ, rồi bước sang ngang một bước; tay Wob vỗ vào không khí",
@@ -1726,7 +1726,7 @@
      "sfx": []
     },
     {
-     "tai": 378.299,
+     "tai": 378.491,
      "loi": "Walking back along the walls, I noticed that every rule I'd bumped into had the same shape.",
      "hanh_dong": "[di-bo-parallax] Wob đi về dọc các bức tường đá, mở sổ vừa đi vừa viết",
      "gag": "",
@@ -1736,7 +1736,7 @@
      "sfx": []
     },
     {
-     "tai": 383.311,
+     "tai": 383.503,
      "loi": "The shared land. The gong. The one cow.",
      "hanh_dong": "Cận trang sổ: ba hình nhỏ hiện đúng ba chữ (ô ruộng tường đá, bình ôxy, một con bò), rồi một vòng tròn nét bút bao quanh hình hòn đảo nối ba hình",
      "gag": "",
@@ -1750,7 +1750,7 @@
      ]
     },
     {
-     "tai": 386.698,
+     "tai": 386.89,
      "loi": "Each one, as far as I could tell, keeps the island from being used up.",
      "hanh_dong": "Wob gõ đầu bút lên vòng tròn, gật chậm",
      "gag": "",
@@ -1758,7 +1758,7 @@
      "sfx": []
     },
     {
-     "tai": 391.099,
+     "tai": 391.291,
      "loi": "On the beach, I'd decided nobody picks this on purpose. Next to that cow, I wanted to pick it myself.",
      "hanh_dong": "[lui-ra-toan-canh] Hoàng hôn trên các ô ruộng: Wob ngồi trên bức tường đá cạnh con bò, nhìn núi lửa hồng, mỉm cười (WOB ĐỔI Ý lần 1); camera lùi chậm; phủ dần thành giấy",
      "gag": "",
@@ -1772,8 +1772,8 @@
   {
    "id": "d31",
    "phong_cach": "cat-giay",
-   "bat_dau": 398.258,
-   "ket_thuc": 411.145,
+   "bat_dau": 398.45,
+   "ket_thuc": 411.337,
    "lop": "hoi-uc",
    "boi_canh": "Quầy bưu điện gỗ nhỏ (biển POST OFFICE trên cửa), cửa sổ bán tem; rồi CẬN CỰC GẦN con tem trên bưu thiếp; rồi một chồng thư buộc dây nằm trên mỏm đá, bóng một cánh buồm lướt qua chân trời",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm BƯU THIẾP: giấy kem #F3E6C8 mép quăn, một góc sờn. MẶT TRANH: núi lửa hình nón đội mây trên biển xám. MẶT VIẾT: nét chữ tay mực xanh đen chi chít kín tới mép (vẽ là nét nguệch ngoạc, KHÔNG chữ đọc được trừ khi đoạn ghi rõ), 2–3 dấu bưu điện tròn chồng chéo (vòng + vạch sóng, KHÔNG chữ, KHÔNG số); góc phải trên dán CON TEM nét mực ĐEN TRẮNG kiểu vẽ tay 1946 có răng cưa: núi lửa hình nón + thuyền dài có mái chèo, dòng TRISTAN DA CUNHA trên đỉnh tem (chỉ vẽ chữ khi cận ≥ 45 px, cỡ xa thay bằng vạch mực); KHÔNG mệnh giá, KHÔNG chim cánh cụt. Ở đoạn này MẶT VIẾT ÚP xuống quầy, không thấy chữ (Wob viết nó ngay tại quầy này: chớp lại ở d47)",
@@ -1781,7 +1781,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 399.008,
+     "tai": 399.2,
      "loi": "The day before my ship left, I went to the post office to send this postcard.",
      "hanh_dong": "[tien-canh-khung] Từ giấy phẳng: quầy bưu điện gỗ làm tiền cảnh; Wob kiễng chân đặt bưu thiếp lên quầy",
      "gag": "",
@@ -1793,7 +1793,7 @@
      ]
     },
     {
-     "tai": 403.271,
+     "tai": 403.463,
      "loi": "Start with the stamp.",
      "hanh_dong": "[lao-vao-can-canh] Lao vào cận con tem trên bưu thiếp (tem ≥ 1/2 khung): tem nét mực đen trắng núi lửa + thuyền dài, dòng TRISTAN DA CUNHA đọc được ≥ 45 px; KHÔNG chim cánh cụt, KHÔNG mệnh giá",
      "gag": "",
@@ -1803,7 +1803,7 @@
      "sfx": []
     },
     {
-     "tai": 404.633,
+     "tai": 404.825,
      "loi": "Tristan had no stamps of its own until nineteen fifty-two.",
      "hanh_dong": "Lui ra: Wob lật ngăn kéo tem trống trơn của quầy (vẽ kiểu cũ); thẻ 1952",
      "gag": "",
@@ -1811,10 +1811,10 @@
      "sfx": []
     },
     {
-     "tai": 408.258,
+     "tai": 408.45,
      "loi": "Before that, letters waited for a passing ship.",
      "hanh_dong": "Trung cảnh: một chồng thư buộc dây nằm trên mỏm đá; Wob ngồi cạnh chồng thư chống cằm chờ cùng",
-     "gag": "Đúng \"ship.\" (≈ 410.56 s) bóng một cánh buồm lướt qua chân trời KHÔNG dừng; Wob quay đầu dõi theo tới khi cánh buồm khuất, tay vẫn chống cằm, giữ tới cắt 411.14 s",
+     "gag": "Đúng \"ship.\" (≈ 410.75 s) bóng một cánh buồm lướt qua chân trời KHÔNG dừng; Wob quay đầu dõi theo tới khi cánh buồm khuất, tay vẫn chống cằm, giữ tới cắt 411.34 s",
      "dao_cu": [
       "chong-thu"
      ],
@@ -1831,8 +1831,8 @@
   {
    "id": "d32",
    "phong_cach": "cat-giay",
-   "bat_dau": 411.145,
-   "ket_thuc": 430.596,
+   "bat_dau": 411.337,
+   "ket_thuc": 430.788,
    "lop": "hoi-uc",
    "boi_canh": "Trang lịch sử tông giấy cũ 1946: bàn gỗ, bút, lọ mực, đèn dầu, một người que ngồi viết (KHÔNG chân dung, không mặt); tờ tem nhỏ in ĐỎ; cân đĩa; chín mẫu tem vẽ tay đen trắng xếp ô 3×3; phong bì, lá đơn. Wob đứng ngoài mép trang",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm bưu thiếp",
@@ -1840,7 +1840,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 411.195,
+     "tai": 411.387,
      "loi": "In nineteen forty-six, a man named Allan Crawford got to work on that.",
      "hanh_dong": "Trang tông cũ: người que ngồi bên bàn gỗ với bút, lọ mực, đèn dầu (không vẽ chân dung); thẻ 1946; Wob ngoài mép trang nhón chân nhìn",
      "gag": "",
@@ -1848,7 +1848,7 @@
      "sfx": []
     },
     {
-     "tai": 415.546,
+     "tai": 415.738,
      "loi": "First he had little local penny stamps printed, each with a penguin on it.",
      "hanh_dong": "Một tờ tem nhỏ in màu ĐỎ trượt ra: mỗi ô một con chim cánh cụt (ĐÂY LÀ CHỖ DUY NHẤT CẢ TẬP có chim cánh cụt)",
      "gag": "",
@@ -1860,7 +1860,7 @@
      ]
     },
     {
-     "tai": 419.783,
+     "tai": 419.975,
      "loi": "The value was four potatoes.",
      "hanh_dong": "Cân đĩa: một con tem đỏ bên này, bốn củ khoai bên kia, cân thăng bằng; thẻ 1 penny = 4 potatoes",
      "gag": "Bốn củ khoai đứng nghiêm thành hàng; một củ lăn lệch làm cân chao, củ đó lật đật bò về chỗ",
@@ -1873,7 +1873,7 @@
      ]
     },
     {
-     "tai": 421.783,
+     "tai": 421.975,
      "loi": "Then he helped draw up a set of designs, priced in pence and potatoes, and sent them off with a petition for real postage stamps.",
      "hanh_dong": "Chín mẫu tem vẽ tay ĐEN TRẮNG xếp ô 3×3 trên bàn (núi lửa, thuyền dài, nhà mái thấp…; KHÔNG chim cánh cụt, không mệnh giá đọc được), kẹp cùng một lá đơn rồi bỏ vào phong bì",
      "gag": "",
@@ -1884,7 +1884,7 @@
      "sfx": []
     },
     {
-     "tai": 428.958,
+     "tai": 429.15,
      "loi": "The petition was refused.",
      "hanh_dong": "Phong bì quay về; một con dấu đỏ REFUSED giáng xuống lá đơn; chín mẫu tem nằm im; Wob ngoài mép trang cúi đầu (soc). Không gag",
      "gag": "",
@@ -1906,8 +1906,8 @@
   {
    "id": "d33",
    "phong_cach": "ve-tay",
-   "bat_dau": 430.596,
-   "ket_thuc": 437.67,
+   "bat_dau": 430.788,
+   "ket_thuc": 437.862,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: chín mẫu tem trên giấy hoá thành chín con tem thật có răng cưa, VẪN nét mực ĐEN TRẮNG: núi lửa, thuyền dài, nhà mái thấp…; KHÔNG chim cánh cụt, KHÔNG mệnh giá (tem Tristan thật hay có chim cánh cụt: ở đây tuyệt đối không); dòng TRISTAN DA CUNHA trên tem chỉ vẽ khi tem ≥ 45 px; bưu thiếp của Wob (tem trên đó cũng không chim cánh cụt)",
    "trang_phuc": "Wob vẽ tay to, áo mưa cam mũ trùm hạ, cầm bưu thiếp",
@@ -1915,7 +1915,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 430.596,
+     "tai": 430.788,
      "loi": "In twenty fifteen, the island finally printed those designs as real stamps.",
      "hanh_dong": "Nét mực sôi: chín mẫu vẽ tay lần lượt mọc răng cưa, thành chín con tem thật; thẻ 2015",
      "gag": "",
@@ -1927,7 +1927,7 @@
      ]
     },
     {
-     "tai": 435.158,
+     "tai": 435.35,
      "loi": "The stamp on my postcard comes from that set.",
      "hanh_dong": "Wob giơ bưu thiếp: con tem trên đó khớp đúng một ô trong bộ chín, lắp vào như mảnh ghép \"tách\"; Wob ôm bưu thiếp vào ngực (hao-hung)",
      "gag": "Tem khớp như mảnh ghép",
@@ -1948,8 +1948,8 @@
   {
    "id": "d34",
    "phong_cach": "ve-tay",
-   "bat_dau": 437.67,
-   "ket_thuc": 455.304,
+   "bat_dau": 437.862,
+   "ket_thuc": 455.496,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay lùi dần (phong-quy-mo): con tem → quầy bưu điện → cả hòn đảo có thùng tôm hùm, xấp tem (nét mực đen trắng, KHÔNG chim cánh cụt), tiền xu như hàng gửi đi → quả địa cầu giấy; rồi lại quầy; rồi boong tàu có túi thư. Tem trên bưu thiếp KHÔNG chim cánh cụt",
    "trang_phuc": "Wob vẽ tay, áo mưa cam mũ trùm hạ, ba lô nhỏ; lấy bốn củ khoai từ túi hông ba lô (củ nhặt ở d15 là một trong bốn)",
@@ -1957,7 +1957,7 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 437.67,
+     "tai": 437.862,
      "loi": "Now zoom out, from the stamp to the whole economy.",
      "hanh_dong": "[lui-ra-toan-canh] Lùi ĐÚNG 3 bậc, mỗi bậc giữ ≥ 0,8 s: con tem → quầy bưu điện (Wob bé tí trên quầy) → cả hòn đảo; quanh đảo hiện thùng tôm hùm, xấp tem (đen trắng, KHÔNG chim cánh cụt) và tiền xu xếp như hàng gửi đi",
      "gag": "",
@@ -1967,7 +1967,7 @@
      ]
     },
     {
-     "tai": 440.558,
+     "tai": 440.75,
      "loi": "Stamps and coins sold to collectors still bring foreign money in today.",
      "hanh_dong": "Lùi tiếp: quả địa cầu giấy; từ nhiều nơi những bàn tay que chung cầm NHÍP GẮP TEM vươn về một chấm nhỏ giữa Nam Đại Tây Dương (không bản đồ chi tiết, không biên giới)",
      "gag": "",
@@ -1975,7 +1975,7 @@
      "sfx": []
     },
     {
-     "tai": 444.495,
+     "tai": 444.687,
      "loi": "I paid in coins. I did ask about potatoes.",
      "hanh_dong": "Về quầy: Wob trả xu, rồi lôi bốn củ khoai từ túi hông ba lô đặt lên quầy, đẩy về phía cửa sổ bán tem",
      "gag": "Bàn tay que sau quầy đẩy bốn củ khoai trả lại, từng củ một; củ cuối lăn xuống, Wob bắt kịp bằng miệng ba lô nhỏ",
@@ -1988,7 +1988,7 @@
      ]
     },
     {
-     "tai": 447.796,
+     "tai": 447.988,
      "loi": "One last zoom. My postcard left in a mail bag, on a ship,",
      "hanh_dong": "Wob thả bưu thiếp vào túi thư vải, vẫy chào túi thư; túi thư được buộc lại, đặt lên boong tàu",
      "gag": "",
@@ -1999,9 +1999,9 @@
      "sfx": []
     },
     {
-     "tai": 451.833,
+     "tai": 452.025,
      "loi": "via Cape Town, taking the long way home.",
-     "hanh_dong": "[lia-theo-vat] Camera lia theo túi thư vải trên boong tàu: nhãn CAPE TOWN trên túi ≥ 45 px, hiện ≥ 1 s quanh \"Cape Town\" (≈ 452.13 s); tàu chở túi thư chạy ra khỏi khung về mép phải trên biển xám, RỒI mới phủ dần thành giấy",
+     "hanh_dong": "[lia-theo-vat] Camera lia theo túi thư vải trên boong tàu: nhãn CAPE TOWN trên túi ≥ 45 px, hiện ≥ 1 s quanh \"Cape Town\" (≈ 452.32 s); tàu chở túi thư chạy ra khỏi khung về mép phải trên biển xám, RỒI mới phủ dần thành giấy",
      "gag": "",
      "dao_cu": [
       "tui-thu"
@@ -2018,8 +2018,8 @@
   {
    "id": "d35",
    "phong_cach": "cat-giay",
-   "bat_dau": 455.304,
-   "ket_thuc": 478.629,
+   "bat_dau": 455.496,
+   "ket_thuc": 478.821,
    "lop": "hoi-uc",
    "boi_canh": "Tông giấy TRẦM (xám xanh, nâu đất): rìa đông làng nơi cỏ xanh dừng và bãi đá dung nham đen sần sùi bắt đầu, nhà mái thấp ngay sau lưng; rồi trang lịch sử 1961: bậu cửa sổ có cốc nước, tấm lịch tháng Tám; vết nứt giữa dãy mái nhà và nhà máy đồ hộp; đêm: chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -2027,7 +2027,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 456.304,
+     "tai": 456.496,
      "loi": "That afternoon, I walked to the eastern edge of the village, where the ground suddenly turns dark and rough.",
      "hanh_dong": "[dat-ky-vat-xuong] Từ giấy phẳng: Wob đứng lặng ở nơi cỏ xanh dừng lại và bãi đá dung nham đen bắt đầu; camera đẩy rất chậm; im lặng",
      "gag": "",
@@ -2035,7 +2035,7 @@
      "sfx": []
     },
     {
-     "tai": 461.954,
+     "tai": 462.146,
      "loi": "From August nineteen sixty-one, the island kept shaking.",
      "hanh_dong": "Trang 1961: cốc nước trên bậu cửa sổ gợn từng vòng; tấm lịch AUGUST 1961 treo lệch dần; Wob đứng ngoài mép trang",
      "gag": "",
@@ -2043,25 +2043,25 @@
      "sfx": []
     },
     {
-     "tai": 465.479,
+     "tai": 465.671,
      "loi": "On the eighth of October, a big tremor brought rock down east of the village.",
-     "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961; Wob ngoài mép trang lặng lẽ nhìn theo tảng đá lăn đúng \"rock\" (≈ 467.82 s)",
+     "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961; Wob ngoài mép trang lặng lẽ nhìn theo tảng đá lăn đúng \"rock\" (≈ 468.01 s)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 469.629,
+     "tai": 469.821,
      "loi": "The next morning, a crack opened between the houses and the fish cannery, and the ground swelled.",
-     "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm; Wob ngoài mép trang lùi nửa bước khỏi mép gần vết nứt đúng \"crack\" (≈ 470.69 s)",
+     "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm; Wob ngoài mép trang lùi nửa bước khỏi mép gần vết nứt đúng \"crack\" (≈ 470.88 s)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 474.792,
+     "tai": 474.984,
      "loi": "That night, everyone was sent out to the huts at the Potato Patches.",
-     "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa; Wob ngồi xuống mép trang khi đèn chòi le lói, đúng \"huts\" (≈ 476.79 s)",
+     "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa; Wob ngồi xuống mép trang khi đèn chòi le lói, đúng \"huts\" (≈ 476.98 s)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
@@ -2076,8 +2076,8 @@
   {
    "id": "d36",
    "phong_cach": "cat-giay",
-   "bat_dau": 478.629,
-   "ket_thuc": 502.136,
+   "bat_dau": 478.821,
+   "ket_thuc": 502.328,
    "lop": "hoi-uc",
    "boi_canh": "Tông trầm: hình nón nhỏ mới mọc sát rìa làng, khói xám; hai tàu cá nhỏ rời bến trong ánh chiều, đảo Nightingale nhô lên phía xa; tàu khách lớn dừng ngoài khơi, xuồng chở người; boong tàu có chiếc va li nhỏ và bọc vải; làng vắng, nhà máy đổ nát dưới dòng dung nham đen phía đông",
    "trang_phuc": "Wob ngoài mép trang, ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -2085,7 +2085,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 478.679,
+     "tai": 478.871,
      "loi": "By the tenth, it was a new volcano.",
      "hanh_dong": "Hình nón nhỏ mới mọc sát rìa làng, khói xám bốc lên; im lặng, giữ hình",
      "gag": "",
@@ -2093,15 +2093,15 @@
      "sfx": []
     },
     {
-     "tai": 481.054,
+     "tai": 481.246,
      "loi": "Two fishing ships, the Tristania and the Frances Repetto, carried everyone to Nightingale Island for the night.",
-     "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa; Wob ngoài mép trang nhìn theo hai tàu đúng \"Nightingale\" (≈ 485.63 s)",
+     "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa; Wob ngoài mép trang nhìn theo hai tàu đúng \"Nightingale\" (≈ 485.82 s)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 487.429,
+     "tai": 487.621,
      "loi": "The next day, a passing Dutch liner picked them up.",
      "hanh_dong": "Tàu khách lớn giấy dừng ngoài khơi; xuồng nhỏ chở người que đi lại giữa đảo và tàu",
      "gag": "",
@@ -2109,7 +2109,7 @@
      "sfx": []
     },
     {
-     "tai": 490.404,
+     "tai": 490.596,
      "loi": "Two hundred and sixty-four islanders went to Cape Town, and on to England.",
      "hanh_dong": "Tàu khách nhỏ dần về phía chân trời; thẻ 264 islanders · Oct 1961",
      "gag": "",
@@ -2117,15 +2117,15 @@
      "sfx": []
     },
     {
-     "tai": 494.516,
+     "tai": 494.708,
      "loi": "They took what they could carry.",
-     "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag; đúng \"carry.\" (≈ 495.34 s) bàn tay Wob đặt lên mép trang cạnh chiếc va li (KHÔNG chạm va li)",
+     "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag; đúng \"carry.\" (≈ 495.53 s) bàn tay Wob đặt lên mép trang cạnh chiếc va li (KHÔNG chạm va li)",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 496.129,
+     "tai": 496.321,
      "loi": "The lava destroyed the cannery. Most of the houses survived, with nobody in them.",
      "hanh_dong": "[lui-cham-im-lang] Làng vắng: cửa đóng, không khói bếp, nhà máy đổ nát dưới dòng dung nham đen phía đông; camera lùi chậm, im lặng; Wob ngoài mép trang cúi đầu",
      "gag": "",
@@ -2141,8 +2141,8 @@
   {
    "id": "d37",
    "phong_cach": "diorama",
-   "bat_dau": 502.136,
-   "ket_thuc": 506.524,
+   "bat_dau": 502.328,
+   "ket_thuc": 506.716,
    "lop": "hien-tai",
    "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch; ĐÈN THẤP HƠN mọi lần, tông trầm; sổ đóng",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp rồi úp xuống bàn. Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -2150,7 +2150,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 502.136,
+     "tai": 502.328,
      "loi": "Back home, I put the postcard face down for this part.",
      "hanh_dong": "[cat-cung-ve-hien-tai] Cắt cứng về bàn, không sfx; Wob úp bưu thiếp xuống bàn, ngồi xuống mép sổ, hai tay đặt lên lưng bưu thiếp; camera đẩy rất chậm",
      "gag": "",
@@ -2166,8 +2166,8 @@
   {
    "id": "d38",
    "phong_cach": "cat-giay",
-   "bat_dau": 506.524,
-   "ket_thuc": 535.774,
+   "bat_dau": 506.716,
+   "ket_thuc": 535.966,
    "lop": "hoi-uc",
    "boi_canh": "Trang sổ cắt giấy tông TRẦM (xám, xanh nhạt), Wob ở nhà đứng NGOÀI mép trang, tay lật mép trang như lật sách: dãy nhà một tầng giống nhau của trại cũ bên bờ nước xám, ống khói nhỏ; hàng móc áo lao động; tuyết rơi trên dãy nhà trại, cửa sổ đọng sương, ấm nước bốc hơi; lá thư đánh máy có dòng STAY gạch dưới; bản vẽ phác làng mái nhà còn nguyên, dòng dung nham dừng ở rìa đông",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (không áo mưa, không ba lô). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn; KHÔNG khẩu hình (Wob không nhìn người xem, chỉ lật trang)",
@@ -2175,7 +2175,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 506.574,
+     "tai": 506.766,
      "loi": "In England, the islanders ended up at an old air force camp at Calshot, near Southampton,",
      "hanh_dong": "[lat-trang-so] Wob lật mép trang: dãy nhà một tầng giống nhau bên bờ nước xám, ống khói nhỏ; thẻ CALSHOT · Jan 1962",
      "gag": "",
@@ -2185,7 +2185,7 @@
      ]
     },
     {
-     "tai": 512.236,
+     "tai": 512.428,
      "loi": "from January nineteen sixty-two.",
      "hanh_dong": "Camera lướt chậm dọc dãy nhà trại giống hệt nhau; khói mảnh bốc từ ống khói; Wob lật thêm một mép trang",
      "gag": "",
@@ -2193,7 +2193,7 @@
      "sfx": []
     },
     {
-     "tai": 514.523,
+     "tai": 514.715,
      "loi": "They found work quickly. By the end of February, a hundred and thirteen of them had jobs.",
      "hanh_dong": "Một hàng móc áo lao động treo kín lần lượt, mỗi móc một chiếc áo; thẻ 113",
      "gag": "",
@@ -2201,7 +2201,7 @@
      "sfx": []
     },
     {
-     "tai": 519.736,
+     "tai": 519.928,
      "loi": "But they had little resistance to the flu going around, and the winter that followed was bitter.",
      "hanh_dong": "Tuyết rơi trên dãy nhà trại; cửa sổ đọng sương; một ấm nước bốc hơi trên bếp; Wob đứng ngoài mép trang, tay ôm vai. KHÔNG gag, KHÔNG run cường điệu",
      "gag": "",
@@ -2209,7 +2209,7 @@
      "sfx": []
     },
     {
-     "tai": 524.561,
+     "tai": 524.753,
      "loi": "In July nineteen sixty-two, the British government told Parliament the islanders should stay in England.",
      "hanh_dong": "Một lá thư đánh máy đặt trên bàn gỗ, chỉ đọc được dòng STAY gạch dưới; Wob nhìn, không nói gì",
      "gag": "",
@@ -2217,7 +2217,7 @@
      "sfx": []
     },
     {
-     "tai": 530.049,
+     "tai": 530.241,
      "loi": "Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there.",
      "hanh_dong": "Wob lật trang: bản vẽ phác làng với các mái nhà còn nguyên, dòng dung nham dừng ở rìa đông; trang sáng lên một chút",
      "gag": "",
@@ -2237,8 +2237,8 @@
   {
    "id": "d39",
    "phong_cach": "diorama",
-   "bat_dau": 535.774,
-   "ket_thuc": 549.497,
+   "bat_dau": 535.966,
+   "ket_thuc": 549.689,
    "lop": "hien-tai",
    "boi_canh": "Như d37 nhưng đèn bàn sáng dần lên về mức thường; trên sổ một con tàu giấy nhỏ; rồi hộp phiếu gỗ nhỏ trên trang sổ, hai chồng phiếu",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); bưu thiếp úp trên bàn, Wob lật lên MỘT NỬA ở \"back on Tristan\"; rồi đặt hộp phiếu",
@@ -2246,7 +2246,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 535.824,
+     "tai": 536.016,
      "loi": "By September, twelve islanders were back on Tristan to see it for themselves.",
      "hanh_dong": "Wob đặt một con tàu giấy nhỏ lên trang sổ, mũi hướng về phía nam, đẩy nhẹ; rồi lật bưu thiếp lên lại một nửa (ngam-nghi); đèn bàn sáng dần",
      "gag": "",
@@ -2257,7 +2257,7 @@
      "sfx": []
     },
     {
-     "tai": 541.884,
+     "tai": 542.076,
      "loi": "In December nineteen sixty-two, the islanders were given a ballot.",
      "hanh_dong": "[lat-trang-so] Wob lật sang trang sổ mới, đặt lên đó một hộp phiếu gỗ nhỏ; những lá phiếu gấp đôi (không chữ) rơi vào khe",
      "gag": "",
@@ -2270,7 +2270,7 @@
      ]
     },
     {
-     "tai": 545.772,
+     "tai": 545.964,
      "loi": "A hundred and forty-eight voted to go back. Five voted to stay.",
      "hanh_dong": "[lao-vao-can-canh] Hai chồng phiếu mọc lên: một chồng cao vút, một chồng lùn tịt; thẻ 148 to 5 hiện giữa hai chồng (≥ 45 px); Wob mắt mở to (soc)",
      "gag": "",
@@ -2290,8 +2290,8 @@
   {
    "id": "d40",
    "phong_cach": "ve-tay",
-   "bat_dau": 549.497,
-   "ket_thuc": 561.446,
+   "bat_dau": 549.689,
+   "ket_thuc": 561.638,
    "lop": "hoi-uc",
    "boi_canh": "Bong bóng tưởng tượng vẽ tay: chùm chìa khoá khổng lồ có móc hình xe buýt, cửa hàng, chữ thập bệnh viện (không chữ); một chiếc chìa nhỏ bằng sắt cũ treo trên móc hình núi lửa",
    "trang_phuc": "Wob vẽ tay trong bong bóng, đồ ở nhà; KHÔNG khẩu hình",
@@ -2299,10 +2299,10 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 549.497,
+     "tai": 549.689,
      "loi": "Picture being handed the keys to a big city, with buses, shops and a doctor down the road.",
      "hanh_dong": "[day-vao-cham] Bong bóng tưởng tượng, hình to: chùm chìa khoá khổng lồ được trao vào tay Wob, các móc khoá hình xe buýt, cửa hàng, chữ thập bệnh viện lần lượt lóe lên đúng chữ",
-     "gag": "Đúng \"keys\" (≈ 550.75 s) chùm chìa nặng tới mức kéo Wob ngồi bệt xuống, hai tay vẫn ôm chùm chìa",
+     "gag": "Đúng \"keys\" (≈ 550.94 s) chùm chìa nặng tới mức kéo Wob ngồi bệt xuống, hai tay vẫn ôm chùm chìa",
      "dao_cu": [
       "chia-khoa"
      ],
@@ -2312,10 +2312,10 @@
      ]
     },
     {
-     "tai": 555.122,
+     "tai": 555.314,
      "loi": "Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before.",
      "hanh_dong": "[lui-ra-toan-canh] Wob (vẫn ngồi bệt) đẩy chùm chìa khoá to trả lại, đổi lấy một chiếc chìa nhỏ bằng sắt cũ; camera lùi từ chiếc chìa nhỏ ra cả chiếc móc hình núi lửa",
-     "gag": "Đúng \"key\" (≈ 557.63 s) cầm chìa nhỏ, Wob bật đứng dậy nhẹ tênh; giữ 0,6 s",
+     "gag": "Đúng \"key\" (≈ 557.83 s) cầm chìa nhỏ, Wob bật đứng dậy nhẹ tênh; giữ 0,6 s",
      "dao_cu": [
       "chia-khoa"
      ],
@@ -2330,8 +2330,8 @@
   {
    "id": "d41",
    "phong_cach": "diorama",
-   "bat_dau": 561.446,
-   "ket_thuc": 569.134,
+   "bat_dau": 561.638,
+   "ket_thuc": 569.326,
    "lop": "hien-tai",
    "boi_canh": "Như d39 (bàn, đèn thường, hộp phiếu trên sổ)",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); tay không",
@@ -2339,7 +2339,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 561.496,
+     "tai": 561.688,
      "loi": "I tried that vote on myself, about my own street. I like my street.",
      "hanh_dong": "Wob đứng thẳng trên bàn, nhắm mắt ngẫm (ngam-nghi), tay phải đặt lên ngực",
      "gag": "",
@@ -2347,10 +2347,10 @@
      "sfx": []
     },
     {
-     "tai": 565.834,
+     "tai": 566.026,
      "loi": "I raised one hand. The other one stayed in my pocket.",
-     "hanh_dong": "[leo-thang-ba-lan] Wob giơ một tay lên biểu quyết cho con phố nhà mình đúng \"raised\" (≈ 566.02 s)",
-     "gag": "Tay kia của Wob cứ thò lên nửa chừng rồi rụt về, ba lần trong ≈ 567.35–568.47 s; lần ba bị tay đang giơ ấn xuống đúng \"pocket.\" (≈ 568.47 s), giữ 0,6 s tới cắt 569.13 s (Wob không có túi: tay giấu ra sau lưng)",
+     "hanh_dong": "[leo-thang-ba-lan] Wob giơ một tay lên biểu quyết cho con phố nhà mình đúng \"raised\" (≈ 566.21 s)",
+     "gag": "Tay kia của Wob cứ thò lên nửa chừng rồi rụt về, ba lần trong ≈ 567.54–568.66 s; lần ba bị tay đang giơ ấn xuống đúng \"pocket.\" (≈ 568.66 s), giữ 0,6 s tới cắt 569.33 s (Wob không có túi: tay giấu ra sau lưng)",
      "dao_cu": [],
      "sfx": [
       "boing"
@@ -2363,8 +2363,8 @@
   {
    "id": "d42",
    "phong_cach": "cat-giay",
-   "bat_dau": 569.134,
-   "ket_thuc": 577.397,
+   "bat_dau": 569.326,
+   "ket_thuc": 577.589,
    "lop": "hoi-uc",
    "boi_canh": "Trang sổ cắt giấy tông ấm dần (sau tông trầm của d38): hình hòn đảo và làng mái thấp; một con tàu giấy nhỏ cập đảo; rồi con tàu lớn hơn; khói bếp bốc lên lại từ từng mái nhà",
    "trang_phuc": "Wob ở nhà đứng ngoài mép trang lật trang (như d38), mặt dịu dần; KHÔNG khẩu hình",
@@ -2372,7 +2372,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 569.184,
+     "tai": 569.376,
      "loi": "In April nineteen sixty-three, an advance party landed home first.",
      "hanh_dong": "[lat-trang-so] Wob lật trang: một con tàu giấy nhỏ cập vào hình hòn đảo, một nhóm nhỏ người que bước lên bờ (không ghi số); thẻ April 1963",
      "gag": "",
@@ -2382,7 +2382,7 @@
      ]
     },
     {
-     "tai": 573.521,
+     "tai": 573.713,
      "loi": "On the tenth of November, the main group of a hundred and ninety-eight arrived.",
      "hanh_dong": "Con tàu lớn hơn tới; khói bếp bốc lên lại lần lượt từ từng mái nhà trong làng; thẻ 198 · 10 Nov 1963; Wob mỉm cười nhẹ (tôn trọng, không gag)",
      "gag": "",
@@ -2399,8 +2399,8 @@
   {
    "id": "d43",
    "phong_cach": "diorama",
-   "bat_dau": 577.397,
-   "ket_thuc": 586.26,
+   "bat_dau": 577.589,
+   "ket_thuc": 592.428,
    "lop": "hien-tai",
    "boi_canh": "Như d41; sổ mở trang hình hòn đảo vẽ tay",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); tay không",
@@ -2408,8 +2408,20 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 577.447,
-     "loi": "My best guess at why? England had more of almost everything.",
+     "tai": 577.639,
+     "loi": "So why go back? The scientists had found the village still standing, and some of them had gone to see it.",
+     "hanh_dong": "Wob lật sổ về trang hình làng nhỏ vẽ tay, mái nhà còn nguyên; ngón tay Wob chạm lần lượt từng mái, gật đầu chậm (không gag)",
+     "gag": "",
+     "dao_cu": [
+      "so-du-lich"
+     ],
+     "sfx": [
+      "lat-giay"
+     ]
+    },
+    {
+     "tai": 583.576,
+     "loi": "The rest is my guess. England had more of almost everything.",
      "hanh_dong": "Wob nhìn chùm chìa khoá giấy to (đạo cụ từ bong bóng d40, nay nằm trên bàn) rồi đẩy nó sang một bên",
      "gag": "",
      "dao_cu": [
@@ -2418,7 +2430,7 @@
      "sfx": []
     },
     {
-     "tai": 581.172,
+     "tai": 587.326,
      "loi": "It didn't have their land, shared between them, or their say in how it was run.",
      "hanh_dong": "[day-vao-cham] Wob đặt bàn tay lên hình hòn đảo trong sổ, nhìn xuống, gật nhẹ; camera đẩy chậm; giữ 0,6 s",
      "gag": "",
@@ -2428,7 +2440,7 @@
      "sfx": []
     },
     {
-     "tai": 585.297,
+     "tai": 591.451,
      "loi": "",
      "hanh_dong": "[lao-vao-hinh-ve] Sau \"run.\" camera lao vào hình hòn đảo dưới tay Wob; 0,4 s cuối phủ thành giấy phẳng #EFE3C8 (nối giay sang bến cảng d44, vào lại hồi ức sáng hôm sau)",
      "gag": "",
@@ -2444,8 +2456,8 @@
   {
    "id": "d44",
    "phong_cach": "cat-giay",
-   "bat_dau": 586.26,
-   "ket_thuc": 608.76,
+   "bat_dau": 592.428,
+   "ket_thuc": 614.928,
    "lop": "hoi-uc",
    "boi_canh": "Bến cảng nhỏ xíu có đê chắn sóng bằng khối bê tông bốn chân, sóng xám đập vào, cọc buộc thuyền; tấm biển gỗ CALSHOT HARBOUR ở đầu bến; cửa bến hẹp",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); ba lô nhỏ trên lưng; cầm một mẩu phấn trắng ở nhịp đo cửa bến",
@@ -2453,7 +2465,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 586.26,
+     "tai": 592.428,
      "loi": "The next morning, I waited at the harbour for the small boat out to my ship.",
      "hanh_dong": "[tien-canh-khung] Từ giấy phẳng hiện dần: khối bê tông bốn chân làm tiền cảnh; Wob ngồi trên cọc buộc thuyền, chân đung đưa, sóng xám đập vào đê",
      "gag": "",
@@ -2463,7 +2475,7 @@
      ]
     },
     {
-     "tai": 591.01,
+     "tai": 597.178,
      "loi": "It opened in nineteen sixty-seven, a few years after the islanders came home.",
      "hanh_dong": "Thẻ 1967 dán trên cọc; Wob nhìn ra cửa bến",
      "gag": "",
@@ -2471,7 +2483,7 @@
      "sfx": []
     },
     {
-     "tai": 595.51,
+     "tai": 601.678,
      "loi": "They named it Calshot, after the village in England that took them in.",
      "hanh_dong": "Tấm biển gỗ CALSHOT HARBOUR; Wob đọc, rồi đọc lại lần nữa, ngón tay dò theo chữ, rồi đặt tay lên ngực (hao-hung)",
      "gag": "",
@@ -2481,10 +2493,10 @@
      "sfx": []
     },
     {
-     "tai": 599.172,
+     "tai": 605.34,
      "loi": "The entrance is about eleven metres wide, roughly thirty-six feet.",
      "hanh_dong": "Wob đo cửa bến; thẻ ~11 m · ~36 ft",
-     "gag": "Đo kiểu SÂU ĐO: Wob nằm thẳng trên đê, vạch một vạch phấn ở đỉnh đầu, đứng dậy bước tới vạch, nằm xuống lần nữa, cứ thế nhích dần; giữ 0,6 s ở \"feet.\" (≈ 602.60 s) khi Wob mới đo được một quãng ngắn",
+     "gag": "Đo kiểu SÂU ĐO: Wob nằm thẳng trên đê, vạch một vạch phấn ở đỉnh đầu, đứng dậy bước tới vạch, nằm xuống lần nữa, cứ thế nhích dần; giữ 0,6 s ở \"feet.\" (≈ 608.77 s) khi Wob mới đo được một quãng ngắn",
      "dao_cu": [
       "phan-trang"
      ],
@@ -2493,7 +2505,7 @@
      ]
     },
     {
-     "tai": 603.247,
+     "tai": 609.415,
      "loi": "And the island government reckons the weather lets boats in and out safely on only about seventy days a year.",
      "hanh_dong": "Wob đứng dậy phủi phấn; thẻ ~70 safe days a year; sóng lớn đánh tung bọt ở cửa bến, xoá mất các vạch phấn",
      "gag": "",
@@ -2514,8 +2526,8 @@
   {
    "id": "d45",
    "phong_cach": "ve-tay",
-   "bat_dau": 608.76,
-   "ket_thuc": 612.898,
+   "bat_dau": 614.928,
+   "ket_thuc": 619.066,
    "lop": "hoi-uc",
    "boi_canh": "Bong bóng tưởng tượng vẽ tay: cửa hàng nhỏ có tấm biển hai mặt (mặt OPEN, mặt kia hình ổ khoá, không chữ) tự lật lung tung",
    "trang_phuc": "Wob vẽ tay cầm giỏ hàng, áo mưa cam mũ trùm hạ",
@@ -2523,7 +2535,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 608.76,
+     "tai": 614.928,
      "loi": "Think of a shop that opens about one day in five, and never says which.",
      "hanh_dong": "[bong-bong-tuong-tuong] Tấm biển OPEN / ổ khoá tự lật lung tung; Wob đứng chờ trước cửa với giỏ hàng",
      "gag": "Wob vừa với tay vào cửa thì biển lật sang ổ khoá; Wob rụt tay",
@@ -2544,8 +2556,8 @@
   {
    "id": "d46",
    "phong_cach": "cat-giay",
-   "bat_dau": 612.898,
-   "ket_thuc": 633.762,
+   "bat_dau": 619.066,
+   "ket_thuc": 639.93,
    "lop": "hoi-uc",
    "boi_canh": "Như d44 (bến, cọc); trang sổ của Wob (sketchbook); đêm: dãy mái nhà có bóng đèn; bậc bến và chiếc xuồng nhấp nhô",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo) tới \"Then the boat came\" thì kéo mũ trùm LÊN; sổ du lịch; ba lô nhỏ trên lưng",
@@ -2553,7 +2565,7 @@
    "ra": "giay",
    "nhip": [
     {
-     "tai": 612.948,
+     "tai": 619.116,
      "loi": "While I waited, I added up the rest.",
      "hanh_dong": "Wob mở sổ trên đùi, đầu bút chạm trang",
      "gag": "",
@@ -2563,7 +2575,7 @@
      "sfx": []
     },
     {
-     "tai": 615.435,
+     "tai": 621.603,
      "loi": "The hospital usually has two doctors, and serious cases go to Cape Town by sea.",
      "hanh_dong": "Trang sổ: chữ thập y tế nhỏ trên hình hòn đảo, một đường nét đứt dài vắt sang mép trang về phía Cape Town; vẽ nghiêm túc, KHÔNG gag",
      "gag": "",
@@ -2573,7 +2585,7 @@
      "sfx": []
     },
     {
-     "tai": 620.623,
+     "tai": 626.791,
      "loi": "In twenty oh eight, the fish factory burned down and took the island's power station with it.",
      "hanh_dong": "Đêm: bóng đèn trên các mái nhà tắt lần lượt; một ánh cam xa xa ở bến; KHÔNG vẽ lửa dữ, không gag; thẻ 2008",
      "gag": "",
@@ -2581,7 +2593,7 @@
      "sfx": []
     },
     {
-     "tai": 625.485,
+     "tai": 631.653,
      "loi": "Full power took about a month to come back.",
      "hanh_dong": "Bóng đèn bật lại từng cái một rất chậm; Wob đếm theo trên sổ",
      "gag": "",
@@ -2589,7 +2601,7 @@
      "sfx": []
     },
     {
-     "tai": 627.898,
+     "tai": 634.066,
      "loi": "My plan to move here was losing pages.",
      "hanh_dong": "Gió biển giật từng trang khỏi cuốn sổ của Wob",
      "gag": "Các trang bay ra biển; một trang dán bẹp vào mặt Wob đúng lúc chiếc xuồng tới",
@@ -2601,7 +2613,7 @@
      ]
     },
     {
-     "tai": 630.31,
+     "tai": 636.478,
      "loi": "Then the boat came, and I almost didn't get in.",
      "hanh_dong": "[take-cham] Xuồng nhấp nhô ở bậc bến; Wob gỡ trang giấy khỏi mặt, kéo mũ trùm lên, một chân trên bậc, một chân lơ lửng trên xuồng, ngoái lại nhìn làng; giữ hình; 0,4 s cuối phủ thành giấy phẳng #EFE3C8 (nối giay sang chớp hồi ức quầy bưu điện d47)",
      "gag": "",
@@ -2619,8 +2631,8 @@
   {
    "id": "d47",
    "phong_cach": "cat-giay",
-   "bat_dau": 633.762,
-   "ket_thuc": 641.287,
+   "bat_dau": 639.93,
+   "ket_thuc": 647.455,
    "lop": "hoi-uc",
    "boi_canh": "CHỚP HỒI ỨC về chiều hôm trước ngày tàu đi: CÙNG quầy bưu điện gỗ của d31 (biển POST OFFICE trên cửa, cửa sổ bán tem, quầy làm tiền cảnh); túi thư vải treo cạnh quầy (cùng túi thư d34); qua ô cửa sổ thấy biển xám và mây đội đỉnh núi lửa",
    "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); ba lô nhỏ trên lưng; cầm bưu thiếp + bút; mặt viết từ trắng tới kín chữ",
@@ -2628,7 +2640,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 633.762,
+     "tai": 639.93,
      "loi": "So, the postcard.",
      "hanh_dong": "[tien-canh-khung] Từ giấy phẳng hiện quầy bưu điện (quầy làm tiền cảnh, như d31): Wob kiễng chân đặt bưu thiếp lên quầy, MẶT VIẾT còn trắng ngửa lên, cầm bút",
      "gag": "",
@@ -2640,7 +2652,7 @@
      ]
     },
     {
-     "tai": 636.137,
+     "tai": 642.305,
      "loi": "I wrote it at the post office counter,",
      "hanh_dong": "[day-vao-cham] Camera đẩy chậm: Wob viết kín mặt bưu thiếp ngay trên quầy (nét nguệch ngoạc mực xanh đen chi chít, KHÔNG chữ đọc được), thỉnh thoảng ngước nhìn qua ô cửa sổ ra núi lửa",
      "gag": "",
@@ -2651,10 +2663,10 @@
      "sfx": []
     },
     {
-     "tai": 638.237,
+     "tai": 644.405,
      "loi": "the day before my ship left,",
      "hanh_dong": "Wob viết tiếp tới mép bưu thiếp, hết chỗ",
-     "gag": "KHOẢNH RIÊNG 639.00–639.92 s: Wob xoay bưu thiếp 90 độ, viết tiếp dọc lề (gài cho d50: Wob xoay bưu thiếp để đọc dọc lề)",
+     "gag": "KHOẢNH RIÊNG 645.17–646.09 s: Wob xoay bưu thiếp 90 độ, viết tiếp dọc lề (gài cho d50: Wob xoay bưu thiếp để đọc dọc lề)",
      "dao_cu": [
       "buu-thiep",
       "but-bi"
@@ -2662,7 +2674,7 @@
      "sfx": []
     },
     {
-     "tai": 639.924,
+     "tai": 646.092,
      "loi": "and I haven't read it since.",
      "hanh_dong": "Wob nhắm mắt, thả bưu thiếp vào túi thư vải cạnh quầy mà KHÔNG đọc lại (cùng túi thư d34), vỗ nhẹ túi thư; giữ 0,5 s rồi cắt cứng về bàn ở \"It says:\"",
      "gag": "",
@@ -2684,8 +2696,8 @@
   {
    "id": "d48",
    "phong_cach": "diorama",
-   "bat_dau": 641.287,
-   "ket_thuc": 650.05,
+   "bat_dau": 647.455,
+   "ket_thuc": 656.218,
    "lop": "hien-tai",
    "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, sáng (đèn ấm thường); áo mưa cam trên móc tường, ba lô nhỏ dựa chân đèn; sổ mở có dãy chấm bút trên bàn (như d01); trên trang sổ hình cây phả hệ nhỏ của đảo (cành, lá, không chữ); hộp phiếu gỗ nhỏ (từ d39) đứng cạnh sổ (để d50 đặt lá cạnh hộp phiếu)",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp mặt viết quay về Wob; chiếc lá giấy nhỏ có mặt Wob",
@@ -2693,7 +2705,7 @@
    "ra": "chen",
    "nhip": [
     {
-     "tai": 641.337,
+     "tai": 647.505,
      "loi": "It says: Dear me. You can't move here.",
      "hanh_dong": "[lao-vao-can-canh] Cắt về bàn: Wob lật bưu thiếp sang mặt viết, camera cận: dòng đầu viết tay \"Dear me,\" đọc được (≥ 45 px), các dòng sau nét nguệch ngoạc sáng lên khi Wob đọc tới",
      "gag": "",
@@ -2705,7 +2717,7 @@
      ]
     },
     {
-     "tai": 644.412,
+     "tai": 650.58,
      "loi": "Outsiders can't buy land, and you can't settle without family on the island. You asked anyway.",
      "hanh_dong": "Trên trang sổ cạnh bưu thiếp: cây phả hệ nhỏ của đảo, cành nào cũng kín lá nhọn; Wob cầm một chiếc lá giấy TRÒN XOE mang mặt mình, ướm vào cây",
      "gag": "Wob ướm chiếc lá tròn vào hai chỗ, nhìn lá mình rồi nhìn hàng lá nhọn, tự lặng lẽ đặt lá nằm cạnh bưu thiếp, vuốt phẳng; giữ 0,6 s (Wob tự hiểu, KHÔNG phải đồ vật tự chặn Wob)",
@@ -2725,8 +2737,8 @@
   {
    "id": "d49",
    "phong_cach": "ve-tay",
-   "bat_dau": 650.05,
-   "ket_thuc": 657.6,
+   "bat_dau": 656.218,
+   "ket_thuc": 665.393,
    "lop": "hoi-uc",
    "boi_canh": "Vẽ tay: những hình vẽ nguệch ngoạc bên lề bưu thiếp sống dậy, nét mực sôi: cửa bến nhỏ có con sóng; tàu nhỏ nối dài tới chữ thập bệnh viện; danh sách đi chợ dài và tờ lịch lật nhiều tháng",
    "trang_phuc": "Wob vẽ tay nhỏ, đồ ở nhà; KHÔNG khẩu hình (lop hoi-uc)",
@@ -2734,7 +2746,7 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 650.05,
+     "tai": 656.218,
      "loi": "The harbour opens when the sea agrees.",
      "hanh_dong": "[chen-ve-tay] Hình to: cửa bến vẽ tay đóng chặt; Wob nhỏ (đồ ở nhà) đứng chờ trước cửa bến, tay chắp sau lưng; một con sóng gật đầu thì cửa bến mới mở ra, Wob bước qua",
      "gag": "Con sóng gật gù như người gác cổng",
@@ -2745,18 +2757,18 @@
      ]
     },
     {
-     "tai": 652.412,
-     "loi": "The big hospital is a week or so away by sea.",
+     "tai": 658.58,
+     "loi": "The big hospital is usually about a week away by sea, longer in bad weather.",
      "hanh_dong": "Một chữ thập bệnh viện ở mép xa; con tàu nhỏ bò từng nấc theo nét đứt dài, mặt trời mọc lặn vài lần trên đường; Wob đi bộ dọc nét đứt cạnh con tàu, mặt nghiêm; vẽ nghiêm, KHÔNG gag",
      "gag": "",
      "dao_cu": [],
      "sfx": []
     },
     {
-     "tai": 655.612,
+     "tai": 663.405,
      "loi": "Groceries get ordered months ahead.",
      "hanh_dong": "Một danh sách đi chợ dài (nét nguệch ngoạc, không chữ) gấp lại bỏ vào phong bì; tờ lịch lật liền mấy tháng",
-     "gag": "Tờ lịch lật nhanh tới mức gió thổi tung danh sách; Wob nhảy lên chụp được danh sách đúng \"ahead.\" (≈ 656.97 s), giữ tới cắt",
+     "gag": "Tờ lịch lật nhanh tới mức gió thổi tung danh sách; Wob nhảy lên chụp được danh sách đúng \"ahead.\" (≈ 664.77 s), giữ tới cắt",
      "dao_cu": [],
      "sfx": [
       "lat-giay"
@@ -2769,8 +2781,8 @@
   {
    "id": "d50",
    "phong_cach": "diorama",
-   "bat_dau": 657.6,
-   "ket_thuc": 685.38,
+   "bat_dau": 665.393,
+   "ket_thuc": 694.668,
    "lop": "hien-tai",
    "boi_canh": "Như d48 (bàn, đèn ấm); trang hộ chiếu (cùng mẫu thẻ d03: THẺ HỘ CHIẾU giấy: tên nơi XUỐNG HAI DÒNG \"TRISTAN\" / \"DA CUNHA\" cỡ ≥ 72 px hệ 1920, dòng SOUTH ATLANTIC và dòng Would Wob move here? ≥ 54 px, một ô con dấu vuông còn trống; thẻ ở góc trái trên x 96–900, y 54–540) và con dấu cao su (api.conDauSVG) trên bàn; ngăn kéo bàn có cuộn dây thừng sợi gai vàng nâu #B89A5E; hình bình ôxy cũ xám bạc sờn, vạch sơn xanh lá bong tróc, treo bằng xích trên giá gỗ ở bến vẽ nguệch ngoạc bên lề bưu thiếp",
    "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp tới \"I agree\"; rồi con dấu; rồi cuộn dây thừng (cuối đoạn dây quấn Wob thành kiện hàng có nơ)",
@@ -2778,9 +2790,9 @@
    "ra": "cat",
    "nhip": [
     {
-     "tai": 657.65,
-     "loi": "Patient people who like their neighbours do fine here. You are neither, yet.",
-     "hanh_dong": "Cận bưu thiếp, dòng chữ sáng lên khi Wob đọc; ở \"neither, yet\" Wob hạ bưu thiếp xuống nửa chừng, nhìn người xem, nhún vai",
+     "tai": 665.443,
+     "loi": "But the land is shared, and the lobster pays the bills.",
+     "hanh_dong": "Cận bưu thiếp, dòng chữ sáng lên khi Wob đọc; bên lề bưu thiếp hai hình vẽ nguệch ngoạc sáng lên đúng chữ: mảnh ruộng khoai có rào chung ở \"shared\", con tôm hùm nhỏ ở \"lobster\"; Wob hạ bưu thiếp xuống nửa chừng, mắt sáng (hao-hung), gật đầu",
      "gag": "",
      "dao_cu": [
       "buu-thiep"
@@ -2788,7 +2800,7 @@
      "sfx": []
     },
     {
-     "tai": 662.162,
+     "tai": 668.805,
      "loi": "You slept through the gong. Twice.",
      "hanh_dong": "GỌI LẠI CỒNG: hình bình ôxy vẽ nguệch ngoạc bên lề bưu thiếp rung lên, vòng sóng âm mực lan ra; Wob nhăn mặt (dong-goi). Đúng \"Twice.\" dòng chữ chạy tràn ra mép, Wob xoay bưu thiếp nghiêng 90 độ để đọc nốt phần viết dọc lề (gài ở d47), giơ hai ngón tay ngượng ngùng",
      "gag": "Wob xoay bưu thiếp 90 độ để đọc chữ viết dọc lề",
@@ -2800,7 +2812,7 @@
      ]
     },
     {
-     "tai": 664.625,
+     "tai": 671.267,
      "loi": "You still want to live here. Love, me.",
      "hanh_dong": "Dòng cuối \"Love, me\" đọc được (≥ 45 px); Wob mỉm cười với bưu thiếp",
      "gag": "",
@@ -2810,7 +2822,7 @@
      "sfx": []
     },
     {
-     "tai": 667.562,
+     "tai": 674.205,
      "loi": "Reading it at my desk, I agree with every word, including the part where they wouldn't have me.",
      "hanh_dong": "Wob đặt bưu thiếp xuống (mặt tem lên), gật đầu chậm từng chữ",
      "gag": "",
@@ -2820,7 +2832,7 @@
      "sfx": []
     },
     {
-     "tai": 672.862,
+     "tai": 679.505,
      "loi": "It's their island, by family and by ballot.",
      "hanh_dong": "Wob đặt chiếc lá giấy mặt mình cạnh hộp phiếu nhỏ, đứng nghiêm một nhịp",
      "gag": "",
@@ -2831,9 +2843,9 @@
      "sfx": []
     },
     {
-     "tai": 675.849,
-     "loi": "I'm stamping it anyway.",
-     "hanh_dong": "Trang hộ chiếu lật trở lại GIỮA khung; Wob nhấc con dấu cao su, hà hơi vào mặt dấu",
+     "tai": 682.492,
+     "loi": "I'm stamping it for the shared land and the lobster boats, not for my chances.",
+     "hanh_dong": "Trang hộ chiếu lật trở lại GIỮA khung; Wob nhấc con dấu cao su, hà hơi vào mặt dấu; ở \"not for my chances\" Wob liếc chiếc lá giấy tròn cạnh hộp phiếu, nhún vai nhỏ",
      "gag": "",
      "dao_cu": [
       "the-ho-chieu",
@@ -2844,9 +2856,9 @@
      ]
     },
     {
-     "tai": 677.292,
+     "tai": 686.585,
      "loi": "WOULD MOVE.",
-     "hanh_dong": "[lao-vao-can-canh] Dấu chạm giấy 0–3 khung trước \"WOULD\" (677.36 s): Wob đóng dấu vào ô trống, dấu khung đôi nghiêng, chữ WOULD MOVE ≥ 120 px ép đúng bề rộng trong khung (cách ép như dấu NOPE tập 4), cả dấu nằm trọn vùng an toàn. Dấu to giữa khung GIỮ từ 677.36 tới 680.36 s (≥ 3 s, qua hết \"WOULD MOVE.\" và nửa câu sau), rồi mới thu về trang hộ chiếu trong 0,3 s. Đúng một lần trong tập",
+     "hanh_dong": "[lao-vao-can-canh] Dấu chạm giấy 0–3 khung trước \"WOULD\" (686.65 s): Wob đóng dấu vào ô trống, dấu khung đôi nghiêng, chữ WOULD MOVE ≥ 120 px ép đúng bề rộng trong khung (cách ép như dấu NOPE tập 4), cả dấu nằm trọn vùng an toàn. Dấu to giữa khung GIỮ từ 686.65 tới 689.65 s (≥ 3 s, qua hết \"WOULD MOVE.\" và nửa câu sau), rồi mới thu về trang hộ chiếu trong 0,3 s. Đúng một lần trong tập",
      "gag": "",
      "dao_cu": [
       "the-ho-chieu",
@@ -2857,9 +2869,9 @@
      ]
     },
     {
-     "tai": 678.312,
+     "tai": 687.605,
      "loi": "If they ever need someone to hold a rope",
-     "hanh_dong": "Dấu WOULD MOVE VẪN to giữa khung (chưa thu, giữ tới 680.36 s); Wob đứng cạnh, mắt liếc xuống ngăn kéo bàn",
+     "hanh_dong": "Dấu WOULD MOVE VẪN to giữa khung (chưa thu, giữ tới 689.65 s); Wob đứng cạnh, mắt liếc xuống ngăn kéo bàn",
      "gag": "",
      "dao_cu": [
       "con-dau"
@@ -2867,10 +2879,10 @@
      "sfx": []
     },
     {
-     "tai": 680.15,
+     "tai": 689.443,
      "loi": "and not become cargo, I'm packed.",
-     "hanh_dong": "Dấu thu về trang hộ chiếu (680.36–680.66 s). Tay Wob ĐÃ ở ngăn kéo đúng \"not\" (680.27 s), lôi ra cuộn dây thừng (cùng cuộn ở d28), quàng lên vai đúng \"cargo,\" (680.80 s), đứng nghiêm",
-     "gag": "Đúng \"packed.\" (681.85 s) cuộn dây tự tuột ra, quấn Wob thành một kiện hàng gọn gàng có cả nơ (gọi lại \"not become cargo\"); giữ 0,7 s trước \"What\" (682.61 s)",
+     "hanh_dong": "Dấu thu về trang hộ chiếu (689.65–689.95 s). Tay Wob ĐÃ ở ngăn kéo đúng \"not\" (685.24 s), lôi ra cuộn dây thừng (cùng cuộn ở d28), quàng lên vai đúng \"cargo,\" (690.09 s), đứng nghiêm",
+     "gag": "Đúng \"packed.\" (691.14 s) cuộn dây tự tuột ra, quấn Wob thành một kiện hàng gọn gàng có cả nơ (gọi lại \"not become cargo\"); giữ 0,7 s trước \"What\" (691.90 s)",
      "dao_cu": [
       "day-thung"
      ],
@@ -2879,7 +2891,7 @@
      ]
     },
     {
-     "tai": 682.612,
+     "tai": 691.905,
      "loi": "What would you sail a week to get back to?",
      "hanh_dong": "[day-vao-cham] Wob (vẫn bị dây quấn thành kiện hàng) nghiêng người nhìn thẳng người xem, nhướng mày; camera đẩy chậm; giữ hình tới hết đoạn; nhạc hạ",
      "gag": "",
@@ -2896,23 +2908,23 @@
     "Would Wob move here?",
     "WOULD MOVE"
    ],
-   "ly_do_phong_cach": "Outro ở bàn (khung hiện tại, diorama): đọc lá thư → đồng ý từng chữ → RỒI MỚI đóng dấu (ghi_chu_khung, khác tập 4 đóng trước). Gọi lại cồng bình ôxy (d27) và dây thừng \"not become cargo\" (d28). GHI CHO THỢ (dung-diorama): tên nơi trên hộ chiếu hai dòng ≥ 72 px, dòng khác ≥ 54 px; WOULD MOVE ≥ 120 px ép bề rộng, dấu to giữ 677.36–680.36 s rồi mới thu (0,3 s); dây theo mốc \"not\" / \"cargo,\" / \"packed.\"; sfx cồng là `cong`; chữ viết tay chỉ \"Dear me,\" và \"Love, me\" đọc được. Vòng 2: mọi nhịp ghi đủ lời"
+   "ly_do_phong_cach": "Outro ở bàn (khung hiện tại, diorama): đọc lá thư → đồng ý từng chữ → RỒI MỚI đóng dấu (ghi_chu_khung, khác tập 4 đóng trước). Gọi lại cồng bình ôxy (d27) và dây thừng \"not become cargo\" (d28). GHI CHO THỢ (dung-diorama): VÒNG 3 (sau phản biện): con dấu đóng vào khoảng trống giữa tên nơi và dòng \"Would Wob move here?\", KHÔNG đè chữ DA CUNHA hay SOUTH ATLANTIC (thu dòng SOUTH ATLANTIC nhỏ lại hoặc dời lên nếu cần), mặt Wob vẫn thấy; tên nơi trên hộ chiếu hai dòng ≥ 72 px, dòng khác ≥ 54 px; WOULD MOVE ≥ 120 px ép bề rộng, dấu to giữ 686.65–689.65 s rồi mới thu (0,3 s); dây theo mốc \"not\" / \"cargo,\" / \"packed.\"; sfx cồng là `cong`; chữ viết tay chỉ \"Dear me,\" và \"Love, me\" đọc được. Vòng 2: mọi nhịp ghi đủ lời"
   },
   {
    "id": "d51",
    "phong_cach": "diorama",
-   "bat_dau": 685.38,
-   "ket_thuc": 705.38,
+   "bat_dau": 694.668,
+   "ket_thuc": 714.668,
    "lop": "duoi",
    "boi_canh": "ĐUÔI TẬP theo skill mo-ket mục 2, dựng bằng templates/hoat-hinh/_chung/mo-ket/duoi-tap.js. Bàn kỷ vật (cùng bàn d01), đèn ấm. Bên trái (x 96–900): kệ gỗ giấy hai tầng: bình xịt còn niêm phong (binhXit, thẻ SANTA CRUZ / DEL ISLOTE), tờ lịch hầm còn băng dính (toLich, thẻ WHITTIER), lọ gần như không có opal (loOpal, thẻ COOBER PEDY), tủ đông nhỏ có cá (tuDong, thẻ OYMYAKON) cạnh kệ; BƯU THIẾP là kỷ vật MỚI (thêm khoá \"buuThiep\" vào VE của duoi-tap.js: chỉ thêm), đứng trên kệ, MẶT TEM QUAY RA, thẻ \"TRISTAN\" / \"DA CUNHA\" hai dòng. Thẻ kệ chữ ≥ 45 px. Bản đồ giấy trừu tượng trái dưới (x < 1100, không biên giới thật, không vùng Đông Nam Á), ghim KHÔNG nhãn. TẮT \"mặt trời nhô\" (ghimRung matTroi: false). Bên phải: vùng end screen để TRỐNG: endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]} (khung 560×315, vòng Ø200). CAMERA KHOÁ CỨNG cả đoạn",
-   "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50). Khung 0 còn bị dây thừng quấn thành kiện hàng (liên tục từ d50); trong 0–0,6 s dây tuột thành cuộn dưới chân, để lại trên bàn tới hết đoạn; từ 685.98 s cầm bưu thiếp",
+   "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50). Khung 0 còn bị dây thừng quấn thành kiện hàng (liên tục từ d50); trong 0–0,6 s dây tuột thành cuộn dưới chân, để lại trên bàn tới hết đoạn; từ 695.27 s cầm bưu thiếp",
    "vao": "cat",
    "ra": "cuoi-video",
    "nhip": [
     {
-     "tai": 685.38,
+     "tai": 694.668,
      "loi": "",
-     "hanh_dong": "Khung 0 (cắt cứng từ d50): đủ bàn, kệ, kỷ vật cũ; Wob CÒN bị dây quấn thành kiện hàng có nơ, đứng cạnh bưu thiếp nằm trên bàn; nhún một cái, dây tuột thành cuộn dưới chân (pop); Wob nhặt bưu thiếp từ bàn đúng 685.98 s (giây 0,6 của đoạn). Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, dây, bưu thiếp ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
+     "hanh_dong": "Khung 0 (cắt cứng từ d50): đủ bàn, kệ, kỷ vật cũ; Wob CÒN bị dây quấn thành kiện hàng có nơ, đứng cạnh bưu thiếp nằm trên bàn; nhún một cái, dây tuột thành cuộn dưới chân (pop); Wob nhặt bưu thiếp từ bàn đúng 695.27 s (giây 0,6 của đoạn). Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, dây, bưu thiếp ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
      "gag": "Wob thoát khỏi kiện hàng bằng một cú nhún",
      "dao_cu": [
       "khung-anh-trong",
@@ -2925,7 +2937,7 @@
      ]
     },
     {
-     "tai": 685.98,
+     "tai": 695.268,
      "loi": "The postcard goes on the shelf, stamp out, beside the spray that's still sealed and the tunnel timetable.",
      "hanh_dong": "Wob đặt bưu thiếp đứng lên kệ, MẶT TEM quay ra (dt.datLen), cạnh bình xịt (tem niêm phong nguyên) và tờ lịch hầm; thẻ TRISTAN / DA CUNHA dưới bưu thiếp. Lọ gần như không có opal vẫn đứng trên kệ, KHÔNG nhịp riêng (lời mới bỏ câu lọ opal)",
      "gag": "",
@@ -2937,7 +2949,7 @@
      "sfx": []
     },
     {
-     "tai": 692.068,
+     "tai": 701.356,
      "loi": "The fish keeps watch from the freezer.",
      "hanh_dong": "Nắp tủ đông hé một khe, đôi mắt cá ló ra nhìn quanh như lính gác rồi nắp khép lại (KHÔNG vẫy đuôi như tập 4)",
      "gag": "Cá canh gác từ tủ đông",
@@ -2948,7 +2960,7 @@
      "sfx": []
     },
     {
-     "tai": 694.093,
+     "tai": 703.381,
      "loi": "Somewhere much colder, a town is moving out, house by house,",
      "hanh_dong": "CHỈ từ chữ \"Somewhere\": bản đồ giấy trừu tượng mở ra ở trái dưới; ghim đỏ mới (không nhãn) cắm vào vùng biển rộng phía nam (nơi vừa đi); từ ghim đó một dãy chấm bút nhỏ (GỌI LẠI dãy chấm cảnh 3) chạy lên tới một ghim trống KHÔNG nhãn rung ở vùng rất xa phía bắc, vài bông tuyết giấy rơi quanh; cạnh ghim một dãy nhà giấy tí hon nhích từng căn sang ngang đúng \"house by house\". Wob run run (lanh-run). Không tên nơi, không số, không chữ",
      "gag": "",
@@ -2962,7 +2974,7 @@
      ]
     },
     {
-     "tai": 697.755,
+     "tai": 707.043,
      "loi": "away from the mine that feeds it.",
      "hanh_dong": "Một tháp giếng mỏ giấy tí hon hiện cạnh ghim; dãy nhà tí hon nhích xa dần khỏi tháp; Wob nhìn, gật nhẹ",
      "gag": "",
@@ -2972,7 +2984,7 @@
      "sfx": []
     },
     {
-     "tai": 699.864,
+     "tai": 709.152,
      "loi": "",
      "hanh_dong": "Hết lời: Wob quay sang phải, chỉ tay về phía hai khung trống (bàn tay dừng ở x ≤ 1100), chớp mắt, đứng thở tới hết đoạn; nhạc nhỏ dần nhưng không tắt; không mờ đen",
      "gag": "",

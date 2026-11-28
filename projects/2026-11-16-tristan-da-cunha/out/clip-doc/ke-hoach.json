@@ -1,0 +1,66 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "out/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 50.2,
+   "end": 94.4,
+   "tieu_de": "How do you even reach this island?",
+   "wob": "choang-vang",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": {
+    "tu": 63.27,
+    "den": 67.19
+   },
+   "cau_mo": "There is no airstrip on Tristan.",
+   "claims": [
+    "C05",
+    "C06",
+    "C07",
+    "C08"
+   ],
+   "text": "There is no airstrip on Tristan. You go by sea, from Cape Town in South Africa, about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it."
+  },
+  {
+   "id": "k2",
+   "start": 316.97,
+   "end": 357.86,
+   "tieu_de": "This island's alarm clock is a bottle",
+   "wob": "buon-ngu",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "cau_mo": "Tristan rock lobster is what the island lives on.",
+   "claims": [
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35"
+   ],
+   "text": "Tristan rock lobster is what the island lives on. There are even two lobsters on the coat of arms. The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo."
+  },
+  {
+   "id": "k3",
+   "start": 404.74,
+   "end": 447.95,
+   "tieu_de": "A stamp worth four potatoes",
+   "wob": "lap-lanh",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "cau_mo": "Tristan had no stamps of its own until nineteen fifty-two.",
+   "claims": [
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C42"
+   ],
+   "text": "Tristan had no stamps of its own until nineteen fifty-two. Before that, letters waited for a passing ship. In nineteen forty-six, a man named Allan Crawford got to work on that. First he had little local penny stamps printed, each with a penguin on it. The value was four potatoes. Then he helped draw up a set of designs, priced in pence and potatoes, and sent them off with a petition for real postage stamps. The petition was refused. In twenty fifteen, the island finally printed those designs as real stamps. The stamp on my postcard comes from that set. Now zoom out, from the stamp to the whole economy. Stamps and coins sold to collectors still bring foreign money in today. I paid in coins. I did ask about potatoes."
+  }
+ ]
+}

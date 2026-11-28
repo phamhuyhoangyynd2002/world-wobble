@@ -176,12 +176,16 @@ window.CANH = function (VT, D) {
     for (var i = 0; i < n; i++) { var bx = x + i * 90 * s + (t * 60 * s) % 400, by = y + Math.sin(i * 2.3) * 40 * s, w = (st + i) % 2 ? 10 : -6; o += VT.line("M " + f(bx - 22 * s) + " " + f(by + w * s) + " Q " + f(bx - 10 * s) + " " + f(by - 8 * s) + " " + f(bx) + " " + f(by) + " Q " + f(bx + 10 * s) + " " + f(by - 8 * s) + " " + f(bx + 22 * s) + " " + f(by + w * s), 5 * s); }
     return o;
   }
+  var TAGF = "~2,060 m · ~6,760 ft";
+  function theG(t) { // thẻ độ cao: "~2,060 m" ở "two", đủ "~2,060 m · ~6,760 ft" từ "sixty-seven" (chữ cách mép ≥ 10 px)
+    var kw = VT.ease.out(seg(t, T_FT - 0.06, T_FT + 0.1)), hw = VT.lerp(225, 480, kw), full = kw > 0.7, bump = 1 + 0.08 * Math.sin(Math.PI * seg(t, T_FT - 0.06, T_FT + 0.2));
+    var g = VT.shape(rectD(-hw, -92, hw, 92), "#FFFDF6", { sw: 6, ox: 6, oy: 6 }) + VT.dot(0, -74, 12, COT);
+    g += VT.text(-hw + 50, 34, full ? TAGF : "~2,060 m", 72, { anchor: "start" });
+    return VT.g("scale(" + f(bump) + ")", g);
+  }
   function the(t) {
     var a = VT.ease.back(seg(t, T_TWO - 0.1, T_TWO + 0.12)); if (a <= 0) return "";
-    var g = VT.shape(rectD(-250, -120, 250, 120), "#FFFDF6", { sw: 6, ox: 6, oy: 6 }) + VT.dot(0, -100, 12, COT);
-    g += VT.text(0, -12, "~2,060 m", 84, {});
-    if (t >= T_FT - 0.06) g += VT.g("scale(" + f(VT.ease.back(seg(t, T_FT - 0.06, T_FT + 0.12))) + ")", VT.text(0, 88, "~6,760 ft", 72, { fill: "#2c4f6e", w: 700 }));
-    return VT.g(VT.tr(1560, 200, a, -4), g);
+    return VT.g(VT.tr(1560, 200, a, -4), theG(t));
   }
   function bigWorld(t, tip) {
     var o = '<rect x="-1600" y="-1400" width="5200" height="3600" fill="#DCE3E5"/>';
@@ -224,6 +228,7 @@ window.CANH = function (VT, D) {
     var up = VT.ease.back(seg(t, T_CLOUD - 0.03, T_CLOUD + 0.2)) * (1 - VT.ease.io(seg(t, T_HAT - 0.05, T_HAT + 0.12)));
     o += nuiLua({ x: 1380, y: 820, w: 1150, h: 640, cloud: { lift: 90 * up, rot: -16 * up }, ink: 6 });
     o += bienXam(830, t, { n: 20, depth: 300 }) + birds(t, 900, 130, 3, 0.9);
+    o += VT.g(VT.tr(600, 250, 0.8, -4), theG(t));
     var WS = 1.2, wx = 560, wy = 1010 + Math.sin(Math.round(t * 12) * 0.7) * 6;
     var b = { mouth: "flat", px: 16, py: -16, brows: "flat" };
     if (t >= T_CLOUD) { b.eyes = "wide"; b.mouth = "oSmall"; b.brows = "up"; b.py = -20; }

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 8.763,
- "bat_dau_tuyet_doi": 641.287,
+ "bat_dau_tuyet_doi": 647.455,
  "lop": "hien-tai",
  "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, sáng (đèn ấm thường); áo mưa cam trên móc tường, ba lô nhỏ dựa chân đèn; sổ mở có dãy chấm bút trên bàn (như d01); trên trang sổ hình cây phả hệ nhỏ của đảo (cành, lá, không chữ); hộp phiếu gỗ nhỏ (từ d39) đứng cạnh sổ (để d50 đặt lá cạnh hộp phiếu)",
  "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp mặt viết quay về Wob; chiếc lá giấy nhỏ có mặt Wob",
@@ -50,7 +50,7 @@ window.HH_DATA = {
   {
    "scene": 16,
    "bat_dau": -6.775,
-   "thoi_luong": 49.968,
+   "thoi_luong": 53.088,
    "tu": [
     {
      "text": "So,",
@@ -330,497 +330,562 @@ window.HH_DATA = {
     {
      "text": "big",
      "start": 11.312,
-     "end": 11.525
+     "end": 11.537
     },
     {
      "text": "hospital",
-     "start": 11.537,
-     "end": 12.075
+     "start": 11.55,
+     "end": 12.088
     },
     {
      "text": "is",
-     "start": 12.088,
-     "end": 12.237
+     "start": 12.1,
+     "end": 12.275
+    },
+    {
+     "text": "usually",
+     "start": 12.287,
+     "end": 12.7
+    },
+    {
+     "text": "about",
+     "start": 12.713,
+     "end": 12.95
     },
     {
      "text": "a",
-     "start": 12.25,
-     "end": 12.3
+     "start": 12.963,
+     "end": 13.013
     },
     {
      "text": "week",
-     "start": 12.312,
-     "end": 12.687
-    },
-    {
-     "text": "or",
-     "start": 12.737,
-     "end": 12.825
-    },
-    {
-     "text": "so",
-     "start": 12.838,
-     "end": 13.075
+     "start": 13.025,
+     "end": 13.287
     },
     {
      "text": "away",
-     "start": 13.088,
-     "end": 13.325
+     "start": 13.3,
+     "end": 13.575
     },
     {
      "text": "by",
-     "start": 13.338,
-     "end": 13.525
+     "start": 13.588,
+     "end": 13.775
     },
     {
-     "text": "sea.",
-     "start": 13.537,
-     "end": 13.963
+     "text": "sea,",
+     "start": 13.787,
+     "end": 14.263
+    },
+    {
+     "text": "longer",
+     "start": 14.487,
+     "end": 14.825
+    },
+    {
+     "text": "in",
+     "start": 14.838,
+     "end": 14.963
+    },
+    {
+     "text": "bad",
+     "start": 14.975,
+     "end": 15.213
+    },
+    {
+     "text": "weather.",
+     "start": 15.225,
+     "end": 15.588
     },
     {
      "text": "Groceries",
-     "start": 14.325,
-     "end": 14.9
+     "start": 15.95,
+     "end": 16.525
     },
     {
      "text": "get",
-     "start": 14.913,
-     "end": 15.075
+     "start": 16.537,
+     "end": 16.7
     },
     {
      "text": "ordered",
-     "start": 15.088,
-     "end": 15.4
+     "start": 16.713,
+     "end": 17.025
     },
     {
      "text": "months",
-     "start": 15.413,
-     "end": 15.675
+     "start": 17.037,
+     "end": 17.3
     },
     {
      "text": "ahead.",
-     "start": 15.687,
-     "end": 16.1
+     "start": 17.312,
+     "end": 17.725
     },
     {
-     "text": "Patient",
-     "start": 16.463,
-     "end": 16.9
+     "text": "But",
+     "start": 18.088,
+     "end": 18.275
     },
     {
-     "text": "people",
-     "start": 16.913,
-     "end": 17.237
+     "text": "the",
+     "start": 18.287,
+     "end": 18.375
     },
     {
-     "text": "who",
-     "start": 17.25,
-     "end": 17.337
+     "text": "land",
+     "start": 18.388,
+     "end": 18.663
     },
     {
-     "text": "like",
-     "start": 17.35,
-     "end": 17.525
+     "text": "is",
+     "start": 18.675,
+     "end": 18.75
     },
     {
-     "text": "their",
-     "start": 17.537,
-     "end": 17.65
+     "text": "shared,",
+     "start": 18.763,
+     "end": 19.2
     },
     {
-     "text": "neighbours",
-     "start": 17.663,
-     "end": 18.025
+     "text": "and",
+     "start": 19.487,
+     "end": 19.575
     },
     {
-     "text": "do",
-     "start": 18.037,
-     "end": 18.213
+     "text": "the",
+     "start": 19.588,
+     "end": 19.675
     },
     {
-     "text": "fine",
-     "start": 18.225,
-     "end": 18.537
+     "text": "lobster",
+     "start": 19.687,
+     "end": 20.15
     },
     {
-     "text": "here.",
-     "start": 18.55,
-     "end": 18.812
+     "text": "pays",
+     "start": 20.163,
+     "end": 20.463
     },
     {
-     "text": "You",
-     "start": 19.175,
-     "end": 19.375
+     "text": "the",
+     "start": 20.475,
+     "end": 20.562
     },
     {
-     "text": "are",
-     "start": 19.388,
-     "end": 19.488
-    },
-    {
-     "text": "neither,",
-     "start": 19.5,
-     "end": 19.875
-    },
-    {
-     "text": "yet.",
-     "start": 20.275,
-     "end": 20.513
+     "text": "bills.",
+     "start": 20.575,
+     "end": 20.988
     },
     {
      "text": "You",
-     "start": 20.875,
-     "end": 21.075
+     "start": 21.35,
+     "end": 21.55
     },
     {
      "text": "slept",
-     "start": 21.088,
-     "end": 21.413
+     "start": 21.562,
+     "end": 21.887
     },
     {
      "text": "through",
-     "start": 21.425,
-     "end": 21.525
+     "start": 21.9,
+     "end": 22.0
     },
     {
      "text": "the",
-     "start": 21.537,
-     "end": 21.625
+     "start": 22.013,
+     "end": 22.1
     },
     {
      "text": "gong.",
-     "start": 21.638,
-     "end": 22.013
+     "start": 22.112,
+     "end": 22.487
     },
     {
      "text": "Twice.",
-     "start": 22.375,
-     "end": 22.975
+     "start": 22.85,
+     "end": 23.45
     },
     {
      "text": "You",
-     "start": 23.338,
-     "end": 23.525
+     "start": 23.812,
+     "end": 24.0
     },
     {
      "text": "still",
-     "start": 23.537,
-     "end": 23.85
+     "start": 24.013,
+     "end": 24.325
     },
     {
      "text": "want",
-     "start": 23.862,
-     "end": 24.012
+     "start": 24.338,
+     "end": 24.487
     },
     {
      "text": "to",
-     "start": 24.025,
-     "end": 24.075
+     "start": 24.5,
+     "end": 24.55
     },
     {
      "text": "live",
-     "start": 24.088,
-     "end": 24.275
+     "start": 24.562,
+     "end": 24.75
     },
     {
      "text": "here.",
-     "start": 24.287,
-     "end": 24.575
+     "start": 24.763,
+     "end": 25.05
     },
     {
      "text": "Love,",
-     "start": 24.937,
-     "end": 25.4
+     "start": 25.413,
+     "end": 25.875
     },
     {
      "text": "me.",
-     "start": 25.687,
-     "end": 25.913
+     "start": 26.163,
+     "end": 26.388
     },
     {
      "text": "Reading",
-     "start": 26.275,
-     "end": 26.65
+     "start": 26.75,
+     "end": 27.125
     },
     {
      "text": "it",
-     "start": 26.663,
-     "end": 26.725
+     "start": 27.138,
+     "end": 27.2
     },
     {
      "text": "at",
-     "start": 26.738,
-     "end": 26.813
+     "start": 27.212,
+     "end": 27.287
     },
     {
      "text": "my",
-     "start": 26.825,
-     "end": 26.988
+     "start": 27.3,
+     "end": 27.463
     },
     {
      "text": "desk,",
-     "start": 27.0,
-     "end": 27.462
+     "start": 27.475,
+     "end": 27.937
     },
     {
      "text": "I",
-     "start": 27.837,
-     "end": 27.913
-    },
-    {
-     "text": "agree",
-     "start": 27.925,
-     "end": 28.225
-    },
-    {
-     "text": "with",
-     "start": 28.238,
+     "start": 28.312,
      "end": 28.388
     },
     {
+     "text": "agree",
+     "start": 28.4,
+     "end": 28.7
+    },
+    {
+     "text": "with",
+     "start": 28.712,
+     "end": 28.862
+    },
+    {
      "text": "every",
-     "start": 28.425,
-     "end": 28.625
+     "start": 28.9,
+     "end": 29.1
     },
     {
      "text": "word,",
-     "start": 28.638,
-     "end": 29.05
+     "start": 29.113,
+     "end": 29.525
     },
     {
      "text": "including",
-     "start": 29.35,
-     "end": 29.8
+     "start": 29.825,
+     "end": 30.275
     },
     {
      "text": "the",
-     "start": 29.812,
-     "end": 29.9
-    },
-    {
-     "text": "part",
-     "start": 29.913,
-     "end": 30.263
-    },
-    {
-     "text": "where",
-     "start": 30.275,
+     "start": 30.287,
      "end": 30.375
     },
     {
-     "text": "they",
+     "text": "part",
      "start": 30.388,
-     "end": 30.5
+     "end": 30.738
+    },
+    {
+     "text": "where",
+     "start": 30.75,
+     "end": 30.85
+    },
+    {
+     "text": "they",
+     "start": 30.863,
+     "end": 30.975
     },
     {
      "text": "wouldn't",
-     "start": 30.513,
-     "end": 30.763
+     "start": 30.988,
+     "end": 31.238
     },
     {
      "text": "have",
-     "start": 30.775,
-     "end": 31.012
+     "start": 31.25,
+     "end": 31.487
     },
     {
      "text": "me.",
-     "start": 31.025,
-     "end": 31.212
+     "start": 31.5,
+     "end": 31.687
     },
     {
      "text": "It's",
-     "start": 31.575,
-     "end": 31.8
+     "start": 32.05,
+     "end": 32.275
     },
     {
      "text": "their",
-     "start": 31.812,
-     "end": 31.962
+     "start": 32.287,
+     "end": 32.437
     },
     {
      "text": "island,",
-     "start": 31.975,
-     "end": 32.325
+     "start": 32.45,
+     "end": 32.8
     },
     {
      "text": "by",
-     "start": 32.663,
-     "end": 32.825
+     "start": 33.138,
+     "end": 33.3
     },
     {
      "text": "family",
-     "start": 32.837,
-     "end": 33.387
+     "start": 33.312,
+     "end": 33.862
     },
     {
      "text": "and",
-     "start": 33.437,
-     "end": 33.55
+     "start": 33.913,
+     "end": 34.025
     },
     {
      "text": "by",
-     "start": 33.562,
-     "end": 33.737
+     "start": 34.037,
+     "end": 34.212
     },
     {
      "text": "ballot.",
-     "start": 33.75,
-     "end": 34.2
+     "start": 34.225,
+     "end": 34.675
     },
     {
      "text": "I'm",
-     "start": 34.562,
-     "end": 34.763
-    },
-    {
-     "text": "stamping",
-     "start": 34.775,
-     "end": 35.163
-    },
-    {
-     "text": "it",
-     "start": 35.175,
+     "start": 35.037,
      "end": 35.25
     },
     {
-     "text": "anyway.",
+     "text": "stamping",
      "start": 35.263,
-     "end": 35.713
+     "end": 35.65
     },
     {
-     "text": "WOULD",
-     "start": 36.075,
-     "end": 36.287
+     "text": "it",
+     "start": 35.663,
+     "end": 35.738
     },
     {
-     "text": "MOVE.",
-     "start": 36.3,
-     "end": 36.663
+     "text": "for",
+     "start": 35.75,
+     "end": 35.85
     },
     {
-     "text": "If",
-     "start": 37.025,
-     "end": 37.225
+     "text": "the",
+     "start": 35.863,
+     "end": 35.913
     },
     {
-     "text": "they",
-     "start": 37.238,
-     "end": 37.313
+     "text": "shared",
+     "start": 35.925,
+     "end": 36.275
     },
     {
-     "text": "ever",
-     "start": 37.325,
-     "end": 37.513
-    },
-    {
-     "text": "need",
-     "start": 37.525,
-     "end": 37.7
-    },
-    {
-     "text": "someone",
-     "start": 37.712,
-     "end": 38.0
-    },
-    {
-     "text": "to",
-     "start": 38.013,
-     "end": 38.075
-    },
-    {
-     "text": "hold",
-     "start": 38.087,
-     "end": 38.337
-    },
-    {
-     "text": "a",
-     "start": 38.35,
-     "end": 38.388
-    },
-    {
-     "text": "rope",
-     "start": 38.4,
-     "end": 38.687
+     "text": "land",
+     "start": 36.287,
+     "end": 36.613
     },
     {
      "text": "and",
-     "start": 38.863,
-     "end": 38.975
+     "start": 36.638,
+     "end": 36.75
+    },
+    {
+     "text": "the",
+     "start": 36.763,
+     "end": 36.85
+    },
+    {
+     "text": "lobster",
+     "start": 36.863,
+     "end": 37.263
+    },
+    {
+     "text": "boats,",
+     "start": 37.275,
+     "end": 37.65
     },
     {
      "text": "not",
-     "start": 38.988,
-     "end": 39.163
+     "start": 37.787,
+     "end": 37.988
     },
     {
-     "text": "become",
-     "start": 39.175,
-     "end": 39.5
+     "text": "for",
+     "start": 38.0,
+     "end": 38.1
     },
     {
-     "text": "cargo,",
-     "start": 39.513,
-     "end": 40.037
+     "text": "my",
+     "start": 38.113,
+     "end": 38.225
     },
     {
-     "text": "I'm",
-     "start": 40.413,
-     "end": 40.55
+     "text": "chances.",
+     "start": 38.238,
+     "end": 38.838
     },
     {
-     "text": "packed.",
-     "start": 40.562,
-     "end": 40.962
+     "text": "WOULD",
+     "start": 39.2,
+     "end": 39.413
     },
     {
-     "text": "What",
-     "start": 41.325,
-     "end": 41.5
+     "text": "MOVE.",
+     "start": 39.425,
+     "end": 39.787
     },
     {
-     "text": "would",
-     "start": 41.513,
-     "end": 41.625
+     "text": "If",
+     "start": 40.15,
+     "end": 40.35
     },
     {
-     "text": "you",
-     "start": 41.638,
-     "end": 41.7
+     "text": "they",
+     "start": 40.363,
+     "end": 40.438
     },
     {
-     "text": "sail",
-     "start": 41.712,
-     "end": 41.962
+     "text": "ever",
+     "start": 40.45,
+     "end": 40.638
     },
     {
-     "text": "a",
-     "start": 41.975,
-     "end": 42.025
+     "text": "need",
+     "start": 40.65,
+     "end": 40.825
     },
     {
-     "text": "week",
-     "start": 42.037,
-     "end": 42.2
+     "text": "someone",
+     "start": 40.837,
+     "end": 41.125
     },
     {
      "text": "to",
-     "start": 42.212,
-     "end": 42.275
+     "start": 41.138,
+     "end": 41.2
+    },
+    {
+     "text": "hold",
+     "start": 41.212,
+     "end": 41.462
+    },
+    {
+     "text": "a",
+     "start": 41.475,
+     "end": 41.513
+    },
+    {
+     "text": "rope",
+     "start": 41.525,
+     "end": 41.812
+    },
+    {
+     "text": "and",
+     "start": 41.988,
+     "end": 42.1
+    },
+    {
+     "text": "not",
+     "start": 42.113,
+     "end": 42.287
+    },
+    {
+     "text": "become",
+     "start": 42.3,
+     "end": 42.625
+    },
+    {
+     "text": "cargo,",
+     "start": 42.638,
+     "end": 43.163
+    },
+    {
+     "text": "I'm",
+     "start": 43.537,
+     "end": 43.675
+    },
+    {
+     "text": "packed.",
+     "start": 43.687,
+     "end": 44.087
+    },
+    {
+     "text": "What",
+     "start": 44.45,
+     "end": 44.625
+    },
+    {
+     "text": "would",
+     "start": 44.638,
+     "end": 44.75
+    },
+    {
+     "text": "you",
+     "start": 44.763,
+     "end": 44.825
+    },
+    {
+     "text": "sail",
+     "start": 44.837,
+     "end": 45.087
+    },
+    {
+     "text": "a",
+     "start": 45.1,
+     "end": 45.15
+    },
+    {
+     "text": "week",
+     "start": 45.163,
+     "end": 45.325
+    },
+    {
+     "text": "to",
+     "start": 45.337,
+     "end": 45.4
     },
     {
      "text": "get",
-     "start": 42.287,
-     "end": 42.425
+     "start": 45.413,
+     "end": 45.55
     },
     {
      "text": "back",
-     "start": 42.437,
-     "end": 42.638
+     "start": 45.562,
+     "end": 45.763
     },
     {
      "text": "to?",
-     "start": 42.65,
-     "end": 42.825
+     "start": 45.775,
+     "end": 45.95
     }
    ],
    "khau_hinh": [

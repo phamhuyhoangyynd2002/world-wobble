@@ -1624,3 +1624,369 @@
     };
   });
 })();
+
+/* ---- Thêm 28/11/2026 (tập 6 Kiruna, chỉ thêm; không đổi hàm cũ). Chuỗi svg, tham số qua o; chữ chỉ qua api.txt ----
+ * chiaKirunaSVG(o)      chìa sắt cũ màu than #3A3F44 (đầu tròn có lỗ, răng thô), tâm lỗ đầu chìa (0,0), thân hướng +x dài o.dai (130);
+ *                       thẻ gỗ #B98A5A buộc dây đỏ #C9463A treo dưới đầu chìa (.ck-the, svgOrigin "0 0" để đung đưa), vệt mực mờ KHÔNG chữ;
+ *                       o.the false = không thẻ. Khung ≈ x −34…dai, y −24…100
+ * chumChiaNhaSVG(o)     vòng bạc #B8BDC2 tâm (0,0) r 26 + ba chìa nhà treo xuống (đồng vàng #C9A24A, bạc, đầu nhựa xanh lá thông #4F7A5A);
+ *                       o.kiruna: thêm chìa Kiruna trên vòng (nhóm .ck-kiruna, ẩn bằng opacity khi cần); api.CHUM_KIRUNA = [x, y, góc, tỉ lệ]
+ * aoPhaoTreoSVG(o)      áo phao chần bông xanh lam #3D5A80 treo móc (chần #2B4262, khoá kéo kem, túi vá có nắp bên phải), 220×330, móc ở (110, 4);
+ *                       o.mu: mũ len xanh lá thông #4F7A5A vắt trên móc (vành #3A5C43, quả bông kem #F6EEDC)
+ * cuaSoSVG(w, h, o)     khung cửa sổ gỗ 4 ô (gốc trên trái, đáy y h, bậu ở đáy), kính o.troi "dem" | "ngay" | "mua"; ĐINH nhỏ ở cột phải
+ *                       (.cs-dinh) tại api.cuaSoDinh(w, h); o.giot: n giọt mưa trên kính (.cs-giot-<i> > .cs-g, trượt bằng y của .cs-g)
+ * congTacSVG()          công tắc dây của đèn bàn, 120×70 (dây vào từ trái): hộp kem + cần gạt .ct-can (svgOrigin "80 46": rotation −30 tắt, 30 bật)
+ * theVeSVG(loai)        thẻ vẽ nhỏ 160×110 (gốc trên trái), KHÔNG chữ: "cucQuang" (vệt cực quang xanh trên trời đêm) | "khoiBang" (khối băng)
+ * thieuThanSVG(chu, co) thiêu thân giấy tâm thân (0,0), cánh .tt-canh và chữ .tt-chu (vỗ cả hai bằng scaleX), chữ chu (phải có trong chu_tren_do_vat) in ngang hai cánh, nằm trên thân, cỡ co (34)
+ * thungGiaySVG()        thùng các-tông tí hon gốc giữa đáy, 68×52; .tg-bang băng dính (scaleX 0 → 1, svgOrigin "-26 -46")
+ * muiTenGiaySVG(dai)    mũi tên giấy KHÔNG chữ, gốc đuôi (0,0), hướng +x
+ * matCatDoiSVG(w, h)    lớp pop-up mặt cắt quả đồi (gốc trên trái, đáy y h): đồi bên trái, đường hầm như rễ cây trong lòng đất, mặt đất phía trên
+ *                       có 4 nhà giấy (.md-nha-<i>; mái .md-mai-<i>), vệt lõm .md-lom (ẩn), thùng các-tông trên mái .md-thung-<i> (ẩn),
+ *                       mũi tên chỉ đông .md-mui (ẩn); api.MAT_CAT_NHA(w, h) = chân từng nhà [x, y]
+ * cuaHangSVG(w, h), thapDongHoSVG(w, h) (mặt đồng hồ chỉ kim + vạch, KHÔNG số), nhaThoGoSVG(w, h) (nhà thờ gỗ đỏ #A8322A mái dốc sẫm
+ *                       dáng lều + tháp chuông gỗ đứng riêng bên phải): gốc trên trái, đáy y h, không chữ
+ * banhQueSVG(r)         bánh quế cuộn quế (hạt đường), tâm (0,0) · matTroiGiaySVG(r) mặt trời giấy (không mặt), tâm (0,0)
+ * quangTruongNhoSVG(w,h) quảng trường giấy nhỏ: toà tròn, tháp đồng hồ, cột đèn, vũng lạnh xanh nhạt .qt-vung (gốc trên trái, đáy y h)
+ * nhaTuyetDocSachSVG(w,h) nhà gỗ phủ tuyết, cửa sổ sáng có người giấy (dạng chung, không mặt) đọc sách; đỉnh ống khói ở api.NHA_TUYET_KHOI(w, h)
+ * vaLiSVG()             va li nhỏ mở nắp, 200×150 gốc trên trái, đáy y 146 (nắp .vl-nap dựng phía sau)
+ * chongTatSVG()         chồng tất 4 chiếc 130×100 gốc trên trái, đáy y 100; .tat-tren chiếc trên cùng, .tat-am vệt ẩm sẫm (ẩn)
+ * mayMuaSVG()           đám mây mưa giấy xám nhỏ tâm (0,0) ≈ 112×60, giọt .mm-giot-<i> (ẩn)
+ * doKiruna(w, o, t?)    đồ mặc tập 6 cho con rối (không đổi tạo hình gốc, chạy cả CSS 3D lẫn d3.wob):
+ *                       o.aoPhao: áo khoác chần bông xanh lam tới ngang hông, khoá kéo kem, túi vá bên phải, tay áo, cổ áo w.coAo;
+ *                       w.keoKhoa(t, d, muc): muc 0 = cổ thường, −1 = kéo xuống một nấc (cổ mở chữ V), 1 = kéo lên tận dưới mắt;
+ *                       o.giLe: gi-lê vải mỏng kem #E9DDC3 viền #B9A983, túi vá phải; o.kinhRam: kính râm tròn gọng đen #1F2326 trên mắt
+ *                       ("tran" = đẩy lên trán; w.deoKinh(t, d, len) đẩy lên / kéo xuống); o.khanSoc: khăn kem #EFE3C8 sọc xanh lá thông
+ *                       #4F7A5A (bật khăn bằng api.trangPhuc khan: true); o.khan2: vòng khăn thứ hai
+ * duoiVE.chiaKhoa(api), duoiVE.buuThiep(api)   hàm vẽ kỷ vật cho api.duoiTap (truyền ve: api.duoiVE.chiaKhoa): chìa Kiruna treo đinh riêng,
+ *                       mũi chìa chỉ sang phải; bưu thiếp Tristan da Cunha trên giá nhỏ. Đặt ở lib diorama (thợ dựng không sửa _chung/).
+ */
+(function () {
+  "use strict";
+  var DIO = (window.DIO = window.DIO || {});
+  DIO.mo = DIO.mo || [];
+  DIO.mo.push(function (api) {
+    var tl = api.tl, C = api.C, sk = api.sk, fp = api.fp, INK = C.INK;
+    var f1 = function (v) { return (Math.round(v * 10) / 10).toFixed(1); };
+    var THAN = "#3A3F44", THAN2 = "#6a7278", GO = "#B98A5A", DO = "#C9463A", BAC = "#B8BDC2", VANG = "#C9A24A", XLT = "#4F7A5A", XLT2 = "#3A5C43";
+    var XANH = "#3D5A80", XANH2 = "#2B4262", KEM = "#EFE3C8", GILE = "#E9DDC3", GILE2 = "#B9A983", KINH = "#1F2326", NHATHO = "#A8322A";
+
+    api.chiaKirunaSVG = function (o) {
+      o = o || {};
+      var L = o.dai || 130, s = "";
+      if (o.the !== false) {
+        s += '<g class="ck-the">' + sk("M -6 18 C -10 30 -14 40 -16 52", 4, DO) +
+          fp("M -34 62 L -16 50 L 2 62 L 2 100 L -34 100 Z", GO, 4) + '<circle cx="-16" cy="61" r="4" fill="' + KEM + '" stroke="' + INK + '" stroke-width="2"/>' +
+          '<path d="M -27 76 C -20 70 -12 78 -6 72 C -2 80 -10 88 -20 90 C -28 88 -31 82 -27 76 Z" fill="#4a3220" opacity=".42"/>' + sk("M -28 95 L -6 94", 2, "#7a5a3a", ' opacity=".5"') + "</g>";
+      }
+      s += fp("M 18 -7 L " + (L - 2) + " -7 L " + (L - 2) + " 7 L 18 7 Z", THAN, 4) + sk("M 24 -2 L " + (L - 8) + " -2", 2.5, THAN2);
+      s += fp("M " + (L - 36) + " 6 L " + (L - 36) + " 24 L " + (L - 27) + " 24 L " + (L - 27) + " 15 L " + (L - 18) + " 15 L " + (L - 18) + " 27 L " + (L - 8) + " 27 L " + (L - 8) + " 6 Z", THAN, 3.5);
+      s += fp("M 16 -12 L 30 -12 L 30 12 L 16 12 Z", THAN, 4);
+      s += fp("M -24 0 A 24 24 0 1 0 24 0 A 24 24 0 1 0 -24 0 Z M -9 0 A 9 9 0 1 1 9 0 A 9 9 0 1 1 -9 0 Z", THAN, 4.5, ' fill-rule="evenodd"');
+      s += sk("M -14 -14 C -8 -19 2 -20 10 -16", 3, THAN2);
+      return s;
+    };
+
+    api.CHUM_KIRUNA = [24, 12, 62, 0.82];
+    api.chumChiaNhaSVG = function (o) {
+      o = o || {};
+      var s = "";
+      var kh = function (goc, L, dau, than) {
+        var a = goc * Math.PI / 180, x = Math.sin(a) * 26, y = Math.cos(a) * 26;
+        var g = '<g transform="translate(' + f1(x) + " " + f1(y) + ") rotate(" + f1(-goc) + ')">';
+        g += fp("M -5 24 L 5 24 L 5 " + (L - 4) + " L -5 " + (L - 4) + " Z", than, 3.5) +
+          fp("M 5 " + (L - 22) + " L 15 " + (L - 22) + " L 15 " + (L - 15) + " L 5 " + (L - 15) + " Z M 5 " + (L - 12) + " L 12 " + (L - 12) + " L 12 " + (L - 5) + " L 5 " + (L - 5) + " Z", than, 3);
+        if (dau === "nhua") g += fp("M -16 2 L 16 2 C 20 2 20 6 20 10 L 20 22 C 20 28 16 30 12 30 L -12 30 C -16 30 -20 28 -20 22 L -20 10 C -20 6 -20 2 -16 2 Z", XLT, 4) + '<circle cx="0" cy="10" r="4.5" fill="' + KEM + '" stroke="' + INK + '" stroke-width="2"/>';
+        else if (dau === "vuong") g += fp("M -13 2 L 13 2 L 15 28 L -15 28 Z", than, 4) + '<circle cx="0" cy="11" r="4.5" fill="' + KEM + '" stroke="' + INK + '" stroke-width="2"/>';
+        else g += '<circle cx="0" cy="14" r="14" fill="' + than + '" stroke="' + INK + '" stroke-width="4"/><circle cx="0" cy="11" r="4.5" fill="' + KEM + '" stroke="' + INK + '" stroke-width="2"/>';
+        return g + "</g>";
+      };
+      s += kh(-34, 76, "tron", VANG) + kh(-4, 88, "vuong", BAC) + kh(26, 72, "nhua", BAC);
+      if (o.kiruna) {
+        var K = api.CHUM_KIRUNA;
+        s += '<g class="ck-kiruna"><g transform="translate(' + K[0] + " " + K[1] + ") rotate(" + K[2] + ") scale(" + K[3] + ')">' + api.chiaKirunaSVG({ dai: 120 }) + "</g></g>";
+      }
+      s += '<circle cx="0" cy="0" r="26" fill="none" stroke="' + INK + '" stroke-width="10"/><circle cx="0" cy="0" r="26" fill="none" stroke="' + BAC + '" stroke-width="5"/>' +
+        sk("M -16 -18 C -8 -24 4 -25 12 -21", 2.5, "#f4f6f8", ' opacity=".9"');
+      return s;
+    };
+
+    api.aoPhaoTreoSVG = function (o) {
+      o = o || {};
+      var s = sk("M 110 2 L 110 22", 6, "#6b5a4a") + sk("M 110 22 C 110 34 94 34 94 24", 5, "#6b5a4a");
+      s += fp("M 40 66 C 18 90 14 170 20 270 L 46 274 C 50 190 56 120 66 84 Z", XANH, 5) + fp("M 180 66 C 202 90 206 170 200 270 L 174 274 C 170 190 164 120 154 84 Z", XANH, 5);
+      [130, 180, 230].forEach(function (y) { s += sk("M 22 " + y + " L 50 " + (y + 2) + " M 198 " + y + " L 170 " + (y + 2), 3, XANH2); });
+      s += fp("M 62 50 C 80 36 140 36 158 50 L 176 70 C 178 150 178 230 172 316 L 48 316 C 42 230 42 150 44 70 Z", XANH, 6);
+      [96, 136, 176, 216, 256, 296].forEach(function (y) { s += sk("M 50 " + y + " C 90 " + (y + 8) + " 130 " + (y + 8) + " 170 " + y, 3, XANH2); });
+      s += fp("M 70 40 C 90 26 130 26 150 40 L 140 64 C 124 56 96 56 80 64 Z", XANH2, 5);
+      s += sk("M 110 60 L 110 312", 6, KEM) + '<rect x="104" y="60" width="12" height="18" rx="3" fill="' + KEM + '" stroke="' + INK + '" stroke-width="3"/>';
+      s += fp("M 128 200 L 166 200 L 166 246 L 128 246 Z", XANH, 4) + fp("M 126 196 L 168 196 L 168 212 L 126 212 Z", XANH2, 4);
+      if (o.mu) {
+        s += '<g transform="translate(110 30) rotate(-8)">' + fp("M -46 4 C -44 -40 44 -40 46 4 Z", XLT, 5) + sk("M -20 -26 L -16 2 M 0 -32 L 0 2 M 20 -26 L 16 2", 3, XLT2) +
+          fp("M -52 0 C -20 -8 20 -8 52 0 L 50 16 C 20 8 -20 8 -50 16 Z", XLT2, 5) + '<circle cx="0" cy="-36" r="13" fill="#F6EEDC" stroke="' + INK + '" stroke-width="4"/></g>';
+      }
+      return s;
+    };
+
+    api.cuaSoDinh = function (w, h) { return [w - 12, Math.round(h * 0.4)]; };
+    api.cuaSoSVG = function (w, h, o) {
+      o = o || {};
+      var B = 22, sill = 26, kinh = o.troi === "ngay" ? "#cfe3ec" : o.troi === "mua" ? "#8fa3b4" : "#2b3b5a";
+      var s = fp("M 0 0 L " + w + " 0 L " + w + " " + (h - sill) + " L 0 " + (h - sill) + " Z", "#8a5a3b", 6);
+      s += '<rect x="' + B + '" y="' + B + '" width="' + (w - 2 * B) + '" height="' + (h - sill - 2 * B) + '" fill="' + kinh + '" stroke="' + INK + '" stroke-width="4"/>';
+      if (o.troi !== "ngay") {
+        s += '<circle cx="' + f1(w * 0.68) + '" cy="' + f1(h * 0.2) + '" r="' + f1(w * 0.07) + '" fill="#f3ead2" stroke="' + INK + '" stroke-width="3" opacity=".9"/>';
+        [[0.2, 0.15], [0.35, 0.3], [0.8, 0.42], [0.25, 0.5], [0.6, 0.12]].forEach(function (p) { s += '<circle cx="' + f1(w * p[0]) + '" cy="' + f1(h * p[1]) + '" r="2.5" fill="#f3ead2" opacity=".8"/>'; });
+      } else s += fp("M " + B + " " + f1(h * 0.62) + " C " + f1(w * 0.3) + " " + f1(h * 0.5) + " " + f1(w * 0.6) + " " + f1(h * 0.58) + " " + (w - B) + " " + f1(h * 0.5) + " L " + (w - B) + " " + (h - sill - B) + " L " + B + " " + (h - sill - B) + " Z", "#e9eef0", 3);
+      var bar = "M " + (w / 2) + " " + B + " L " + (w / 2) + " " + (h - sill - B) + " M " + B + " " + f1((h - sill) / 2) + " L " + (w - B) + " " + f1((h - sill) / 2);
+      s += sk(bar, 12, "#8a5a3b") + sk(bar, 3, INK, ' opacity=".55"');
+      s += sk("M " + (B + 10) + " " + (B + 16) + " L " + (B + 40) + " " + (B + 46), 4, "#ffffff", ' opacity=".35"');
+      if (o.giot) {
+        var r = api.rng(o.seed || 61);
+        for (var i = 0; i < o.giot; i++) {
+          var gx = B + 14 + r() * (w - 2 * B - 28), gy = B + 10 + r() * (h * 0.3);
+          s += '<g class="cs-giot cs-giot-' + i + '" transform="translate(' + f1(gx) + " " + f1(gy) + ')"><g class="cs-g">' + sk("M 0 -18 L 0 0", 2.5, "#dfeaf2", ' opacity=".7"') +
+            '<path d="M 0 -6 C 4 0 5 3 5 5 C 5 9 -5 9 -5 5 C -5 3 -4 0 0 -6 Z" fill="#dfeaf2" stroke="' + INK + '" stroke-width="1.5"/></g></g>';
+        }
+      }
+      s += fp("M -14 " + (h - sill) + " L " + (w + 14) + " " + (h - sill) + " L " + (w + 8) + " " + h + " L -8 " + h + " Z", "#a8754f", 5);
+      var D = api.cuaSoDinh(w, h);
+      s += '<g class="cs-dinh">' + sk("M " + D[0] + " " + D[1] + " l -4 7", 4, "#5d6266") + '<circle cx="' + D[0] + '" cy="' + D[1] + '" r="7" fill="#9aa1a6" stroke="' + INK + '" stroke-width="3"/></g>';
+      return s;
+    };
+
+    api.congTacSVG = function () {
+      var s = sk("M 0 62 C 20 62 30 50 46 48", 5, "#2f3b3c");
+      s += fp("M 46 26 L 112 26 C 118 26 118 30 118 34 L 118 56 C 118 62 114 64 110 64 L 50 64 C 46 64 44 60 44 56 L 44 34 C 44 30 44 26 46 26 Z", KEM, 5);
+      s += '<rect x="66" y="34" width="28" height="22" rx="5" fill="#c9b994" stroke="' + INK + '" stroke-width="3"/>';
+      s += '<g class="ct-can">' + sk("M 80 46 L 80 12", 9, INK) + sk("M 80 46 L 80 12", 4, DO) + '<circle cx="80" cy="12" r="7" fill="' + DO + '" stroke="' + INK + '" stroke-width="3"/></g>';
+      return s;
+    };
+
+    api.theVeSVG = function (loai) {
+      var s = fp("M 4 4 L 156 4 L 156 106 L 4 106 Z", "#f6eedb", 5);
+      if (loai === "khoiBang") {
+        s += '<rect x="14" y="14" width="132" height="82" fill="#dcebf1"/>';
+        s += fp("M 52 44 L 92 30 L 124 44 L 84 58 Z", "#eef8fc", 4) + fp("M 52 44 L 84 58 L 84 92 L 52 78 Z", "#bfe3f0", 4) + fp("M 84 58 L 124 44 L 124 78 L 84 92 Z", "#8ec4da", 4);
+        s += sk("M 60 52 L 70 70 M 100 54 L 110 66", 3, "#ffffff", ' opacity=".9"');
+      } else {
+        s += '<rect x="14" y="14" width="132" height="82" fill="#1e2a44"/>';
+        s += sk("M 18 70 C 44 36 70 64 92 34 C 108 16 126 30 142 22", 12, "#63d39a", ' opacity=".85"') + sk("M 22 84 C 50 56 78 80 104 52 C 118 40 132 46 142 40", 8, "#3fb6c8", ' opacity=".75"');
+        [[30, 26], [120, 70], [70, 22], [134, 88]].forEach(function (p) { s += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="2.4" fill="#f3ead2"/>'; });
+        s += fp("M 14 96 L 40 80 L 64 92 L 96 78 L 146 96 Z", "#2a3a2e", 3);
+      }
+      return s;
+    };
+
+    api.thieuThanSVG = function (chu, co) {
+      co = co || 34;
+      var canh = function (g) {
+        return fp("M 0 -6 C " + g * 30 + " -46 " + g * 92 + " -50 " + g * 104 + " -20 C " + g * 112 + " 2 " + g * 92 + " 20 " + g * 60 + " 22 C " + g * 84 + " 34 " + g * 80 + " 58 " + g * 50 + " 56 C " + g * 26 + " 54 " + g * 8 + " 34 0 14 Z", "#ead9b4", 4) +
+          sk("M " + g * 6 + " 0 C " + g * 40 + " -22 " + g * 70 + " -30 " + g * 96 + " -22 M " + g * 6 + " 10 C " + g * 30 + " 30 " + g * 48 + " 44 " + g * 56 + " 50", 2, "#9b8460", ' opacity=".8"') +
+          '<circle cx="' + g * 82 + '" cy="-24" r="6" fill="#9b8460" opacity=".6"/>';
+      };
+      var s = '<g class="tt-canh">' + canh(-1) + canh(1) + "</g>";
+      s += fp("M -7 -20 C -9 0 -8 30 0 40 C 8 30 9 0 7 -20 C 4 -26 -4 -26 -7 -20 Z", "#7a5a3a", 3);
+      s += sk("M -3 -24 C -10 -40 -18 -46 -26 -48 M 3 -24 C 10 -40 18 -46 26 -48", 2.5);
+      s += '<g class="tt-chu">' + api.txt(0, Math.round(co * 0.32), co, 800, chu, INK, ' paint-order="stroke" stroke="#ead9b4" stroke-width="6"') + "</g>";   // chữ nằm trên thân, vỗ cùng cánh
+      return s;
+    };
+
+    api.thungGiaySVG = function () {
+      var s = fp("M -30 0 L -30 -40 L 30 -40 L 30 0 Z", "#c49a63", 4) + fp("M -30 -40 L -20 -52 L 38 -52 L 30 -40 Z", "#d8b07a", 3.5) + fp("M 30 -40 L 38 -52 L 38 -12 L 30 0 Z", "#a8814e", 3.5);
+      s += sk("M -30 -22 L 30 -22", 2, "#8a6a40", ' opacity=".5"');
+      s += '<g class="tg-bang">' + fp("M -26 -50 L 34 -50 L 30 -42 L -30 -42 Z", "#e8d9a0", 2) + "</g>";
+      return s;
+    };
+    api.muiTenGiaySVG = function (dai) {
+      dai = dai || 120;
+      return fp("M 0 -10 L " + (dai - 30) + " -10 L " + (dai - 30) + " -24 L " + dai + " 0 L " + (dai - 30) + " 24 L " + (dai - 30) + " 10 L 0 10 Z", "#f6eedb", 4);
+    };
+
+    api.MAT_CAT_NHA = function (w, h) { var g = h * 0.42; return [[w * 0.48, g], [w * 0.62, g], [w * 0.76, g], [w * 0.9, g]]; };
+    api.matCatDoiSVG = function (w, h) {
+      var g = h * 0.42, s = "";
+      s += fp("M 4 " + h + " L 4 " + f1(g) + " L " + (w - 4) + " " + f1(g) + " L " + (w - 4) + " " + h + " Z", "#8a5f3e", 5);
+      s += '<path d="M 10 ' + f1(g + 20) + " L " + (w - 10) + " " + f1(g + 20) + '" stroke="#a87650" stroke-width="10" opacity=".5"/>';
+      s += fp("M 4 " + f1(g) + " C 30 " + f1(g - h * 0.34) + " " + f1(w * 0.18) + " " + f1(g - h * 0.4) + " " + f1(w * 0.3) + " " + f1(g - h * 0.12) + " C " + f1(w * 0.34) + " " + f1(g - h * 0.04) + " " + f1(w * 0.38) + " " + f1(g) + " " + f1(w * 0.4) + " " + f1(g) + " Z", "#6d7a6a", 5);
+      s += fp("M " + f1(w * 0.06) + " " + f1(g + h * 0.08) + " C " + f1(w * 0.12) + " " + f1(g + h * 0.3) + " " + f1(w * 0.28) + " " + f1(g + h * 0.44) + " " + f1(w * 0.34) + " " + f1(h - 10) + " L " + f1(w * 0.22) + " " + f1(h - 10) + " C " + f1(w * 0.16) + " " + f1(g + h * 0.36) + " " + f1(w * 0.08) + " " + f1(g + h * 0.2) + " " + f1(w * 0.06) + " " + f1(g + h * 0.08) + " Z", "#3d3a3a", 3);
+      var R = function (d, sw) { s += sk(d, sw || 7, "#2a1d14"); s += sk(d, (sw || 7) - 4, "#e6c98f", ' opacity=".55"'); };
+      R("M " + f1(w * 0.2) + " " + f1(g + 4) + " L " + f1(w * 0.22) + " " + f1(h - 16), 9);
+      R("M " + f1(w * 0.215) + " " + f1(g + h * 0.18) + " C " + f1(w * 0.3) + " " + f1(g + h * 0.2) + " " + f1(w * 0.42) + " " + f1(g + h * 0.16) + " " + f1(w * 0.56) + " " + f1(g + h * 0.2));
+      R("M " + f1(w * 0.218) + " " + f1(g + h * 0.32) + " C " + f1(w * 0.34) + " " + f1(g + h * 0.36) + " " + f1(w * 0.5) + " " + f1(g + h * 0.3) + " " + f1(w * 0.7) + " " + f1(g + h * 0.36));
+      R("M " + f1(w * 0.22) + " " + f1(g + h * 0.46) + " C " + f1(w * 0.4) + " " + f1(g + h * 0.5) + " " + f1(w * 0.62) + " " + f1(g + h * 0.44) + " " + f1(w * 0.86) + " " + f1(g + h * 0.5));
+      R("M " + f1(w * 0.42) + " " + f1(g + h * 0.17) + " C " + f1(w * 0.46) + " " + f1(g + h * 0.24) + " " + f1(w * 0.5) + " " + f1(g + h * 0.28) + " " + f1(w * 0.54) + " " + f1(g + h * 0.32), 5);
+      R("M " + f1(w * 0.6) + " " + f1(g + h * 0.33) + " C " + f1(w * 0.64) + " " + f1(g + h * 0.4) + " " + f1(w * 0.66) + " " + f1(g + h * 0.42) + " " + f1(w * 0.7) + " " + f1(g + h * 0.47), 5);
+      s += '<g class="md-lom" opacity="0">' + fp("M " + f1(w * 0.4) + " " + f1(g) + " C " + f1(w * 0.5) + " " + f1(g + 26) + " " + f1(w * 0.66) + " " + f1(g + 30) + " " + f1(w * 0.8) + " " + f1(g) + " Z", "#5a3d28", 3) + "</g>";
+      api.MAT_CAT_NHA(w, h).forEach(function (p, i) {
+        var x = p[0], bw = w * 0.1, mau = ["#e8d9b8", "#c99a62", "#e2b33c", "#d98f6e"][i];
+        s += '<g class="md-nha md-nha-' + i + '">' + fp("M " + f1(x - bw / 2) + " " + f1(g) + " L " + f1(x - bw / 2) + " " + f1(g - bw * 0.7) + " L " + f1(x + bw / 2) + " " + f1(g - bw * 0.7) + " L " + f1(x + bw / 2) + " " + f1(g) + " Z", mau, 3.5) +
+          '<g class="md-mai md-mai-' + i + '">' + fp("M " + f1(x - bw / 2 - 6) + " " + f1(g - bw * 0.66) + " L " + f1(x) + " " + f1(g - bw * 1.25) + " L " + f1(x + bw / 2 + 6) + " " + f1(g - bw * 0.66) + " Z", "#7a3a2c", 3.5) + "</g>" +
+          '<rect x="' + f1(x - bw * 0.16) + '" y="' + f1(g - bw * 0.48) + '" width="' + f1(bw * 0.32) + '" height="' + f1(bw * 0.28) + '" fill="' + C.WIN + '" stroke="' + INK + '" stroke-width="2"/>' +
+          '<g class="md-thung md-thung-' + i + '" opacity="0"><g transform="translate(' + f1(x) + " " + f1(g - bw * 1.2) + ') scale(.6)">' + api.thungGiaySVG() + "</g></g></g>";
+      });
+      s += '<g class="md-mui" opacity="0"><g transform="translate(' + f1(w * 0.5) + " " + f1(g - h * 0.33) + ')">' + api.muiTenGiaySVG(w * 0.36) + "</g></g>";
+      return s;
+    };
+
+    api.cuaHangSVG = function (w, h) {
+      var s = fp("M 8 " + h + " L 8 " + f1(h * 0.3) + " L " + (w - 8) + " " + f1(h * 0.3) + " L " + (w - 8) + " " + h + " Z", "#d9c49a", 4);
+      s += fp("M 0 " + f1(h * 0.3) + " L " + w + " " + f1(h * 0.3) + " L " + (w - 6) + " " + f1(h * 0.14) + " L 6 " + f1(h * 0.14) + " Z", "#6b4a33", 4);
+      for (var i = 0; i < 5; i++) s += fp("M " + f1(6 + i * (w - 12) / 5) + " " + f1(h * 0.3) + " l " + f1((w - 12) / 5) + " 0 l 0 " + f1(h * 0.12) + " q " + f1(-(w - 12) / 10) + " " + f1(h * 0.06) + " " + f1(-(w - 12) / 5) + " 0 Z", i % 2 ? "#f6eedb" : DO, 2.5);
+      s += '<rect x="' + f1(w * 0.14) + '" y="' + f1(h * 0.52) + '" width="' + f1(w * 0.42) + '" height="' + f1(h * 0.3) + '" fill="' + C.WIN + '" stroke="' + INK + '" stroke-width="3"/>';
+      s += '<rect x="' + f1(w * 0.64) + '" y="' + f1(h * 0.5) + '" width="' + f1(w * 0.22) + '" height="' + f1(h * 0.5) + '" fill="#7a4a3a" stroke="' + INK + '" stroke-width="3"/>';
+      return s;
+    };
+    api.thapDongHoSVG = function (w, h) {
+      var cx = w / 2, bw = w * 0.5, s = "";
+      s += fp("M " + f1(cx - bw / 2) + " " + h + " L " + f1(cx - bw / 2) + " " + f1(h * 0.3) + " L " + f1(cx + bw / 2) + " " + f1(h * 0.3) + " L " + f1(cx + bw / 2) + " " + h + " Z", "#c9a27a", 4);
+      s += fp("M " + f1(cx - bw / 2 - 6) + " " + f1(h * 0.3) + " L " + cx + " 4 L " + f1(cx + bw / 2 + 6) + " " + f1(h * 0.3) + " Z", "#3f4a4a", 4);
+      var r = bw * 0.36, cy = h * 0.42;
+      s += '<circle cx="' + f1(cx) + '" cy="' + f1(cy) + '" r="' + f1(r) + '" fill="#f6eedb" stroke="' + INK + '" stroke-width="3.5"/>';
+      for (var k = 0; k < 4; k++) { var a = k * Math.PI / 2; s += sk("M " + f1(cx + Math.sin(a) * r * 0.72) + " " + f1(cy - Math.cos(a) * r * 0.72) + " L " + f1(cx + Math.sin(a) * r * 0.92) + " " + f1(cy - Math.cos(a) * r * 0.92), 3); }
+      s += sk("M " + f1(cx) + " " + f1(cy) + " L " + f1(cx) + " " + f1(cy - r * 0.62) + " M " + f1(cx) + " " + f1(cy) + " L " + f1(cx + r * 0.45) + " " + f1(cy + r * 0.1), 3);
+      s += '<rect x="' + f1(cx - bw * 0.18) + '" y="' + f1(h * 0.72) + '" width="' + f1(bw * 0.36) + '" height="' + f1(h * 0.28) + '" fill="#7a4a3a" stroke="' + INK + '" stroke-width="3"/>';
+      return s;
+    };
+    api.nhaThoGoSVG = function (w, h) {
+      var s = "", mx = w * 0.4, tx = w * 0.86, tw = w * 0.13;
+      s += fp("M " + f1(tx - tw / 2) + " " + h + " L " + f1(tx - tw / 2) + " " + f1(h * 0.34) + " L " + f1(tx + tw / 2) + " " + f1(h * 0.34) + " L " + f1(tx + tw / 2) + " " + h + " Z", NHATHO, 4);
+      s += '<rect x="' + f1(tx - tw * 0.3) + '" y="' + f1(h * 0.38) + '" width="' + f1(tw * 0.6) + '" height="' + f1(h * 0.1) + '" fill="#2a1d14" stroke="' + INK + '" stroke-width="2.5"/>';
+      s += fp("M " + f1(tx - tw / 2 - 5) + " " + f1(h * 0.34) + " L " + f1(tx) + " " + f1(h * 0.04) + " L " + f1(tx + tw / 2 + 5) + " " + f1(h * 0.34) + " Z", "#3a2a26", 4);
+      s += fp("M " + f1(w * 0.06) + " " + h + " L " + f1(w * 0.06) + " " + f1(h * 0.78) + " L " + f1(w * 0.72) + " " + f1(h * 0.78) + " L " + f1(w * 0.72) + " " + h + " Z", NHATHO, 4);
+      s += fp("M " + f1(w * 0.01) + " " + f1(h * 0.82) + " L " + f1(mx) + " " + f1(h * 0.12) + " L " + f1(w * 0.77) + " " + f1(h * 0.82) + " Z", "#3a2a26", 5);
+      s += fp("M " + f1(mx - w * 0.1) + " " + f1(h * 0.82) + " L " + f1(mx) + " " + f1(h * 0.48) + " L " + f1(mx + w * 0.1) + " " + f1(h * 0.82) + " Z", NHATHO, 3.5);
+      s += sk("M " + f1(mx) + " " + f1(h * 0.12) + " L " + f1(mx) + " " + f1(h * 0.02), 4) + sk("M " + f1(mx - 8) + " " + f1(h * 0.06) + " L " + f1(mx + 8) + " " + f1(h * 0.06), 4);
+      s += '<rect x="' + f1(mx - w * 0.04) + '" y="' + f1(h * 0.86) + '" width="' + f1(w * 0.08) + '" height="' + f1(h * 0.14) + '" fill="#2a1d14" stroke="' + INK + '" stroke-width="2.5"/>';
+      [0.15, 0.6].forEach(function (u) { s += '<rect x="' + f1(w * u) + '" y="' + f1(h * 0.86) + '" width="' + f1(w * 0.05) + '" height="' + f1(h * 0.07) + '" fill="' + C.WIN + '" stroke="' + INK + '" stroke-width="2"/>'; });
+      return s;
+    };
+    api.banhQueSVG = function (r) {
+      r = r || 40;
+      var s = '<ellipse cx="0" cy="0" rx="' + r + '" ry="' + f1(r * 0.78) + '" fill="#c98a4b" stroke="' + INK + '" stroke-width="4"/>';
+      s += sk("M 0 0 C " + f1(r * 0.2) + " " + f1(-r * 0.2) + " " + f1(r * 0.4) + " " + f1(r * 0.1) + " " + f1(r * 0.1) + " " + f1(r * 0.3) + " C " + f1(-r * 0.3) + " " + f1(r * 0.5) + " " + f1(-r * 0.6) + " 0 " + f1(-r * 0.3) + " " + f1(-r * 0.4) + " C 0 " + f1(-r * 0.7) + " " + f1(r * 0.7) + " " + f1(-r * 0.5) + " " + f1(r * 0.75) + " " + f1(r * 0.1), 4, "#7a4a22");
+      [[-0.4, -0.3], [0.3, -0.4], [0.5, 0.2], [-0.2, 0.45], [0.05, -0.05], [-0.6, 0.15]].forEach(function (p) { s += '<rect x="' + f1(p[0] * r - 3) + '" y="' + f1(p[1] * r - 3) + '" width="6" height="6" rx="1" fill="#fbfbf6" stroke="' + INK + '" stroke-width="1.2"/>'; });
+      return s;
+    };
+    api.matTroiGiaySVG = function (r) {
+      r = r || 36;
+      var s = "";
+      for (var k = 0; k < 10; k++) { var a = k * Math.PI / 5, a1 = a - 0.16, a2 = a + 0.16; s += fp("M " + f1(Math.cos(a1) * r * 1.05) + " " + f1(Math.sin(a1) * r * 1.05) + " L " + f1(Math.cos(a) * r * 1.5) + " " + f1(Math.sin(a) * r * 1.5) + " L " + f1(Math.cos(a2) * r * 1.05) + " " + f1(Math.sin(a2) * r * 1.05) + " Z", "#e8a83a", 3); }
+      return s + '<circle cx="0" cy="0" r="' + r + '" fill="#f3c46a" stroke="' + INK + '" stroke-width="4"/>' + sk("M " + f1(-r * 0.5) + " " + f1(-r * 0.4) + " C " + f1(-r * 0.3) + " " + f1(-r * 0.6) + " 0 " + f1(-r * 0.65) + " " + f1(r * 0.2) + " " + f1(-r * 0.6), 3, "#fff3c8", ' opacity=".8"');
+    };
+    api.quangTruongNhoSVG = function (w, h) {
+      var s = fp("M 4 " + h + " L 4 " + f1(h - 18) + " L " + (w - 4) + " " + f1(h - 18) + " L " + (w - 4) + " " + h + " Z", "#9aa1a6", 4);
+      s += fp("M " + f1(w * 0.1) + " " + f1(h - 20) + " L " + f1(w * 0.1) + " " + f1(h * 0.42) + " C " + f1(w * 0.1) + " " + f1(h * 0.32) + " " + f1(w * 0.46) + " " + f1(h * 0.32) + " " + f1(w * 0.46) + " " + f1(h * 0.42) + " L " + f1(w * 0.46) + " " + f1(h - 20) + " Z", "#a9c4cf", 4);
+      s += sk("M " + f1(w * 0.12) + " " + f1(h * 0.55) + " L " + f1(w * 0.44) + " " + f1(h * 0.55) + " M " + f1(w * 0.12) + " " + f1(h * 0.7) + " L " + f1(w * 0.44) + " " + f1(h * 0.7), 2.5, "#5d7c88");
+      s += '<g transform="translate(' + f1(w * 0.56) + ' 0)">' + api.thapDongHoSVG(w * 0.2, h - 18) + "</g>";
+      s += sk("M " + f1(w * 0.9) + " " + f1(h - 20) + " L " + f1(w * 0.9) + " " + f1(h * 0.4), 4) + '<circle cx="' + f1(w * 0.9) + '" cy="' + f1(h * 0.38) + '" r="7" fill="' + C.WIN + '" stroke="' + INK + '" stroke-width="3"/>';
+      s += '<ellipse class="qt-vung" cx="' + f1(w * 0.5) + '" cy="' + f1(h - 12) + '" rx="' + f1(w * 0.34) + '" ry="10" fill="#bfe3f0" stroke="' + C.ICE2 + '" stroke-width="3" opacity=".95"/>';
+      return s;
+    };
+    api.NHA_TUYET_KHOI = function (w, h) { return [w * 0.73, h * 0.12]; };
+    api.nhaTuyetDocSachSVG = function (w, h) {
+      var s = fp("M " + f1(w * 0.1) + " " + h + " L " + f1(w * 0.1) + " " + f1(h * 0.45) + " L " + f1(w * 0.9) + " " + f1(h * 0.45) + " L " + f1(w * 0.9) + " " + h + " Z", C.WOOD, 4);
+      for (var y = h * 0.52; y < h; y += h * 0.09) s += sk("M " + f1(w * 0.1) + " " + f1(y) + " L " + f1(w * 0.9) + " " + f1(y), 2, C.WOOD2, ' opacity=".6"');
+      s += fp("M " + f1(w * 0.68) + " " + f1(h * 0.34) + " L " + f1(w * 0.68) + " " + f1(h * 0.12) + " L " + f1(w * 0.78) + " " + f1(h * 0.12) + " L " + f1(w * 0.78) + " " + f1(h * 0.3) + " Z", "#7a4a3a", 3);
+      s += fp("M 0 " + f1(h * 0.5) + " L " + f1(w * 0.5) + " " + f1(h * 0.16) + " L " + w + " " + f1(h * 0.5) + " Z", C.SNOW, 4);
+      s += '<rect x="' + f1(w * 0.3) + '" y="' + f1(h * 0.58) + '" width="' + f1(w * 0.4) + '" height="' + f1(h * 0.28) + '" fill="' + C.WIN + '" stroke="' + INK + '" stroke-width="3.5"/>';
+      s += api.nguoiGiaySVG(w * 0.44, h * 0.86, Math.max(0.6, h / 160), "#4f7486");
+      s += fp("M " + f1(w * 0.48) + " " + f1(h * 0.74) + " L " + f1(w * 0.58) + " " + f1(h * 0.7) + " L " + f1(w * 0.58) + " " + f1(h * 0.78) + " L " + f1(w * 0.48) + " " + f1(h * 0.82) + " Z", "#f6eedb", 2);
+      s += sk("M " + f1(w * 0.5) + " " + f1(h * 0.58) + " L " + f1(w * 0.5) + " " + f1(h * 0.86), 3, "#8a5a3b");
+      s += fp(api.lumpy(w * 0.02, w * 0.98, h - 2, -12, 8, 7) + " L " + f1(w * 0.98) + " " + h + " L " + f1(w * 0.02) + " " + h + " Z", C.SNOW, 3);
+      return s;
+    };
+    api.vaLiSVG = function () {
+      var s = '<g class="vl-nap">' + fp("M 18 10 L 182 10 C 190 10 192 14 192 20 L 188 72 L 12 72 L 8 20 C 8 14 10 10 18 10 Z", "#7d5434", 5) + sk("M 30 30 L 170 30", 3, "#5c3d28") + "</g>";
+      s += fp("M 6 72 L 194 72 L 190 146 L 10 146 Z", "#9c6b42", 5);
+      s += fp("M 18 76 L 182 76 L 178 96 L 22 96 Z", "#c9b48a", 3);
+      s += fp("M 84 96 L 116 96 L 116 108 L 84 108 Z", VANG, 3) + sk("M 8 122 L 192 122", 3, "#7d5434");
+      return s;
+    };
+    api.chongTatSVG = function () {
+      var tat = function (y, mau, soc) {
+        return fp("M 10 " + y + " C 10 " + (y - 14) + " 90 " + (y - 14) + " 108 " + (y - 10) + " C 124 " + (y - 6) + " 124 " + (y + 10) + " 108 " + (y + 10) + " C 80 " + (y + 12) + " 30 " + (y + 12) + " 14 " + (y + 10) + " C 8 " + (y + 8) + " 8 " + (y + 2) + " 10 " + y + " Z", mau, 4) +
+          sk("M 22 " + (y - 6) + " L 22 " + (y + 8) + " M 34 " + (y - 7) + " L 34 " + (y + 9), 3, soc);
+      };
+      var s = tat(90, "#c9463a", "#f6eedb") + tat(70, "#4f7a5a", "#f6eedb") + tat(50, "#e2b33c", "#7a5a2a");
+      s += '<g class="tat-tren">' + tat(30, "#5a9fb8", "#f6eedb") + '<ellipse class="tat-am" cx="70" cy="28" rx="20" ry="8" fill="#2b4a5c" opacity="0"/></g>';
+      return s;
+    };
+    api.mayMuaSVG = function () {
+      var s = "";
+      [[-16, 24], [6, 30], [26, 22]].forEach(function (p, i) { s += '<g class="mm-giot mm-giot-' + i + '" opacity="0"><path d="M ' + p[0] + " " + p[1] + ' c 4 6 5 9 5 11 c 0 4 -10 4 -10 0 c 0 -2 1 -5 5 -11 Z" fill="' + C.ICE + '" stroke="' + INK + '" stroke-width="2.5"/></g>'; });
+      s += fp("M -46 14 C -58 14 -58 -6 -44 -6 C -44 -24 -16 -30 -6 -14 C 2 -30 34 -28 34 -8 C 52 -10 54 14 38 14 Z", "#a9b2b8", 4);
+      return s;
+    };
+
+    // ------------------------------------------------------------ đồ mặc tập 6
+    api.doKiruna = function (w, o, t) {
+      if (!w.krDung) {
+        w.krDung = true;
+        var ao = '<g class="kr-ao" opacity="0">' +
+          fp("M 76 234 C 120 262 280 262 324 234 C 340 262 340 300 320 322 L 80 322 C 60 300 60 262 76 234 Z", XANH, 6) +
+          sk("M 70 266 C 130 284 270 284 330 266 M 70 296 C 130 312 270 312 330 296", 4, XANH2) +
+          fp("M 236 282 L 290 282 L 290 318 L 236 318 Z", XANH, 4) + fp("M 233 276 L 293 276 L 293 292 L 233 292 Z", XANH2, 4) +
+          sk("M 200 262 L 200 320", 7, KEM) + "</g>";
+        var gile = '<g class="kr-gile" opacity="0">' +
+          fp("M 80 236 C 110 252 150 262 184 264 L 186 322 L 84 322 C 64 300 64 262 80 236 Z", GILE, 5) + fp("M 320 236 C 290 252 250 262 216 264 L 214 322 L 316 322 C 336 300 336 262 320 236 Z", GILE, 5) +
+          sk("M 184 266 L 186 320 M 216 266 L 214 320", 5, GILE2) + fp("M 236 284 L 284 284 L 284 316 L 236 316 Z", GILE, 3.5) + sk("M 236 290 L 284 290", 3, GILE2) +
+          '<circle cx="176" cy="284" r="4" fill="' + GILE2 + '" stroke="' + INK + '" stroke-width="2"/><circle cx="176" cy="304" r="4" fill="' + GILE2 + '" stroke="' + INK + '" stroke-width="2"/></g>';
+        w.body.insertAdjacentHTML("afterend", ao + gile);
+        w.krAo = w.svg.querySelector(".kr-ao"); w.krGile = w.svg.querySelector(".kr-gile");
+        w.krTay = [];
+        [["armL", "M 86 212 C 72 240 68 262 70 284"], ["armR", "M 314 212 C 328 240 332 262 330 284"]].forEach(function (a) {
+          w[a[0]].insertAdjacentHTML("afterbegin", '<g class="kr-tay" opacity="0">' + sk(a[1], 30, INK) + sk(a[1], 22, XANH) + "</g>");
+          w.krTay.push(w[a[0]].querySelector(".kr-tay"));
+        });
+        var co = '<g class="kr-coWrap" opacity="0"><g class="kr-co">' + fp("M 96 196 C 150 214 250 214 304 196 L 300 262 C 250 280 150 280 100 262 Z", XANH, 6) +
+          sk("M 104 226 C 150 242 250 242 296 226", 3.5, XANH2) + sk("M 200 210 L 200 272", 7, KEM) + "</g>" +
+          '<g class="kr-coMo" opacity="0">' + fp("M 100 250 C 140 262 170 268 196 296 L 200 282 L 204 296 C 230 268 260 262 300 250 L 300 272 C 250 288 150 288 100 272 Z", XANH, 5) + fp("M 176 268 L 200 296 L 224 268 Z", "#cfd9e6", 3) + "</g>" +
+          '<g class="kr-khoa"><rect x="190" y="0" width="20" height="32" rx="5" fill="' + KEM + '" stroke="' + INK + '" stroke-width="4"/><circle cx="200" cy="24" r="3.5" fill="' + INK + '"/></g></g>';
+        w.face.insertAdjacentHTML("afterend", co);
+        w.coAo = w.svg.querySelector(".kr-coWrap"); w.coIn = w.svg.querySelector(".kr-co"); w.coMo = w.svg.querySelector(".kr-coMo"); w.khoaKeo = w.svg.querySelector(".kr-khoa");
+        var CO = { "0": { sy: 0.36, ky: 238 }, "-1": { sy: 0.2, ky: 272 }, "1": { sy: 1, ky: 200 } };
+        w.krCO = CO;
+        gsap.set(w.coIn, { scaleY: CO["0"].sy, svgOrigin: "200 272" }); gsap.set(w.khoaKeo, { y: CO["0"].ky });
+        w.keoKhoa = function (tt, d, muc) {
+          var k = CO[String(muc)] || CO["0"];
+          tl.to(w.khoaKeo, { y: k.ky, duration: d, ease: "power2.inOut" }, tt);
+          tl.to(w.coIn, { scaleY: k.sy, svgOrigin: "200 272", duration: d, ease: "power2.inOut" }, tt);
+          tl.to(w.coMo, { opacity: muc === -1 ? 1 : 0, duration: Math.min(0.12, d), ease: "none" }, muc === -1 ? tt + d * 0.4 : tt);
+        };
+        w.face.insertAdjacentHTML("beforeend", '<g class="kr-kinh" opacity="0">' + sk("M 186 150 C 194 144 204 144 212 150", 6, KINH) + sk("M 130 146 L 106 138 M 268 146 L 292 138", 6, KINH) +
+          '<circle cx="160" cy="156" r="30" fill="' + KINH + '" stroke="' + INK + '" stroke-width="5"/><circle cx="238" cy="156" r="30" fill="' + KINH + '" stroke="' + INK + '" stroke-width="5"/>' +
+          sk("M 144 142 C 150 136 158 134 166 136 M 222 142 C 228 136 236 134 244 136", 4, "#9fb6c4", ' opacity=".8"') + "</g>");
+        w.kinhRam = w.svg.querySelector(".kr-kinh");
+        w.deoKinh = function (tt, d, len) { tl.to(w.kinhRam, { y: len ? -86 : 0, scale: len ? 0.86 : 1, svgOrigin: "200 156", duration: d, ease: "power2.inOut" }, tt); };
+        w.scarf.insertAdjacentHTML("beforeend", '<g class="kr-khan2" opacity="0">' + fp("M 108 230 C 156 262 244 262 292 230 L 296 254 C 246 286 154 286 104 254 Z", KEM, 6) +
+          sk("M 116 246 C 160 268 240 268 284 246", 6, XLT) + "</g>");
+        w.krKhan2 = w.svg.querySelector(".kr-khan2");
+      }
+      var set = function (el, v) { if (!el) return; if (t == null) gsap.set(el, v); else tl.set(el, v, t); };
+      if (o.aoPhao != null) { set(w.krAo, { opacity: o.aoPhao ? 1 : 0 }); set(w.krTay, { opacity: o.aoPhao ? 1 : 0 }); set(w.coAo, { opacity: o.aoPhao ? 1 : 0 }); }
+      if (o.giLe != null) set(w.krGile, { opacity: o.giLe ? 1 : 0 });
+      if (o.kinhRam != null) {
+        set(w.kinhRam, { opacity: o.kinhRam ? 1 : 0 });
+        if (o.kinhRam === "tran") set(w.kinhRam, { y: -86, scale: 0.86, svgOrigin: "200 156" });
+      }
+      if (o.khan2 != null) set(w.krKhan2, { opacity: o.khan2 ? 1 : 0 });
+      if (o.khanSoc) {
+        if (!w.khanTo) w.khanTo = Array.prototype.filter.call(w.scarf.querySelectorAll("path"), function (el) { return el.getAttribute("fill") === C.TERRA; });
+        set(w.khanTo, { attr: { fill: KEM } });
+        var soc = Array.prototype.filter.call(w.scarf.querySelectorAll("path"), function (el) { return el.getAttribute("stroke") === C.PAPER; });
+        set(soc, { attr: { stroke: XLT, "stroke-width": 7 } });
+      }
+    };
+
+    // ------------------------------------------------------------ kỷ vật cho api.duoiTap (đuôi tập)
+    api.duoiVE = {
+      chiaKhoa: function () {
+        return { svg: '<g transform="translate(46 46)">' + api.chiaKirunaSVG({ dai: 132 }) + "</g>" +
+          '<circle cx="46" cy="46" r="5" fill="#9aa1a6" stroke="' + INK + '" stroke-width="2.5"/>', w: 190, h: 150 };
+      },
+      buuThiep: function () {
+        return { svg: fp("M 30 148 L 170 148 L 164 156 L 36 156 Z", "#8a5a3b", 3) + '<g transform="translate(100 82) rotate(-3)">' + api.buuThiepSVG({ w: 190, h: 128 }) + "</g>", w: 200, h: 158 };
+      }
+    };
+  });
+})();

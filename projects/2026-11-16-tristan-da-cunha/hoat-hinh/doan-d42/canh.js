@@ -225,10 +225,10 @@ var TB = (function () {
     // kệ tem nhỏ sau song (hình chữ nhật, không chữ)
     for (var q = 0; q < 4; q++) s += '<rect x="' + (985 + q * 62) + '" y="478" width="40" height="50" fill="' + (q % 2 ? "#E9DEC4" : "#D8C9A6") + '" stroke="' + INK + '" stroke-width="2.5"/>';
     // biển POST OFFICE
-    s += '<g id="bdBien">' + line("M 900 250 L 930 190 M 1320 250 L 1290 190", 4, "#3A3F44") +
-      paper(rRect(820, 192, 580, 112, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
-      '<rect x="836" y="206" width="548" height="84" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
-      D.txt(1110, 274, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
+    s += '<g id="bdBien">' + line("M 860 316 L 880 250 M 1240 316 L 1220 250", 4, "#3A3F44") + '<circle cx="880" cy="250" r="6" fill="#3A3F44"/><circle cx="1220" cy="250" r="6" fill="#3A3F44"/>' +
+      paper(rRect(780, 312, 540, 98, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
+      '<rect x="794" y="324" width="512" height="74" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
+      D.txt(1050, 384, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
     // đèn treo
     s += line("M 640 -200 L 640 150", 3, "#2B2F33") + paper("M 600 150 L 680 150 L 700 190 L 580 190 Z", "#3F5A4A", { stroke: true, sw: 4 }) + '<ellipse cx="640" cy="192" rx="60" ry="10" fill="#FFE6A8" stroke="' + INK + '" stroke-width="3"/>';
     s += '<ellipse cx="640" cy="330" rx="220" ry="170" fill="url(#lampG)"/>';
@@ -482,19 +482,19 @@ window.CANH = function (api, data) {
   var T = function (w, tMin, du) { var v = api.tuDung(w, tMin || 0, 0); return v == null || v > DUR ? du : v; };
   var cx = data.chu_tren_do_vat;      // ["April 1963", "198 · 10 Nov 1963"]
   var tApril = T("April", 0, 0.36), tLanded = T("landed", 0, 2.83), tOn = T("On", 4, 4.39), tMain = T("main", 0, 5.83), tNine = T("ninety-eight", 0, 7.09), tArr = T("arrived.", 0, 7.59);
-  // ================= bàn kỷ vật nhìn từ trên: sổ mở, vệt đèn, mép bàn gần, đèn bàn góc phải trên =================
+  // ================= bàn kỷ vật nhìn từ trên: sổ mở, vệt đèn, mép bàn gần, đèn bàn góc trái =================
   var BS = TB.banSo({ seed: 3801 });
+  BS.nen = BS.nen.replace('<ellipse cx="1560" cy="250" rx="1100" ry="760"', '<ellipse cx="260" cy="560" rx="1100" ry="760"').replace('<ellipse cx="1500" cy="300" rx="700" ry="500"', '<ellipse cx="320" cy="560" rx="700" ry="500"');
   var PL = BS.vt.trai, PR = BS.vt.phai, GX = BS.vt.gay;           // trang trái [290,150,660,780], phải [970,150,660,780]
   var X0 = PL[0], X1 = PR[0] + PR[2], Y0 = PL[1], Y1 = PL[1] + PL[3];
   var mepBan = '<rect x="-600" y="1012" width="3200" height="400" fill="#4A2E1C"/>' + D.line("M -600 1012 L 2600 1012", 6, "#2E1C10") + D.line("M -600 1022 L 2600 1022", 3, "#7A5236", ' opacity="0.6"');
-  // đèn bàn nhìn từ trên: đế tròn, cần, chao tròn sáng
-  var den = '<g>' + D.paper(D.rEll(1850, 70, 80, 64, 2, 3802), "#2C3A3B", { stroke: true, sw: 5 }) + D.line("M 1850 70 L 1720 190", 22, INK) + D.line("M 1850 70 L 1720 190", 13, "#3F6A70") +
-    '<circle cx="1720" cy="190" r="96" fill="#FFD68A" opacity="0.25"/>' + D.paper(D.rEll(1720, 190, 74, 70, 2, 3803), "#E0703A", { stroke: true, sw: 6, half: 0.15 }) +
-    '<circle cx="1720" cy="190" r="40" fill="#FFE6A8" stroke="' + INK + '" stroke-width="4"/><circle cx="1720" cy="190" r="20" fill="#FFF6D8"/></g>';
-  // ba lô nhỏ dựa chân đèn, áo mưa cam gấp ở góc bàn trái trên (chuyến đi đã xong)
-  var balo = at(1790, 300, '<g transform="rotate(-18)">' + D.paper(D.rRect(-56, -70, 112, 140, 2, 3804), TB.OLIU, { stroke: true, sw: 5, sx: 6, sy: 8 }) + D.paper(D.rRect(-56, -70, 112, 40, 1.5, 3805), "#566030", { stroke: true, sw: 4, shadow: false }) +
+  // đèn bàn ở góc TRÁI (không đè logo góc phải trên), ba lô dưới chân đèn, áo mưa cam gấp góc trái trên
+  var den = '<g>' + D.paper(D.rEll(-20, 640, 80, 64, 2, 3802), "#2C3A3B", { stroke: true, sw: 5 }) + D.line("M -20 640 L 140 470", 22, INK) + D.line("M -20 640 L 140 470", 13, "#3F6A70") +
+    '<circle cx="140" cy="470" r="96" fill="#FFD68A" opacity="0.25"/>' + D.paper(D.rEll(140, 470, 74, 70, 2, 3803), "#E0703A", { stroke: true, sw: 6, half: 0.15 }) +
+    '<circle cx="140" cy="470" r="40" fill="#FFE6A8" stroke="' + INK + '" stroke-width="4"/><circle cx="140" cy="470" r="20" fill="#FFF6D8"/></g>';
+  var balo = at(130, 830, '<g transform="rotate(14)">' + D.paper(D.rRect(-56, -70, 112, 140, 2, 3804), TB.OLIU, { stroke: true, sw: 5, sx: 6, sy: 8 }) + D.paper(D.rRect(-56, -70, 112, 40, 1.5, 3805), "#566030", { stroke: true, sw: 4, shadow: false }) +
     D.paper(D.rRect(-60, -98, 120, 30, 1.2, 3806), TB.THAM, { stroke: true, sw: 4, shadow: false }) + "</g>");
-  var ao = at(150, 90, '<g transform="rotate(8)">' + D.paper(D.rough([[-120, -60], [110, -70], [130, 60], [-110, 70]], 3, 3807, 20), TB.CAM, { stroke: true, sw: 5, sx: 6, sy: 8 }) +
+  var ao = at(150, 160, '<g transform="rotate(8)">' + D.paper(D.rough([[-120, -60], [110, -70], [130, 60], [-110, 70]], 3, 3807, 20), TB.CAM, { stroke: true, sw: 5, sx: 6, sy: 8 }) +
     D.line("M -100 -10 L 110 -18", 4, TB.CAM_D) + '<circle cx="-20" cy="20" r="9" fill="#8A5A33" stroke="' + INK + '" stroke-width="3"/><circle cx="40" cy="16" r="9" fill="#8A5A33" stroke="' + INK + '" stroke-width="3"/></g>');
   // ================= đôi trang: đảo và làng mái thấp, biển quanh =================
   var SEP = "#3E4248";

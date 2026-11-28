@@ -53,7 +53,13 @@ window.CANH = function (api, data) {
   d += at(-100, 900, TD.tuongDa(2300, 150, 2352));
   d += '<g id="bkTuong">' + at(1420, 752, '<g transform="rotate(-8) scale(0.9)">' + TD.bangKep("bk3") + "</g>") + "</g>";
   var WD = TD.wob(api, "WD", { muTrum: 0 });
-  d += WD.svg;
+  // hai bàn tay giấu sau lưng: tay áo + nắm tay ló ra sau mép thân (vẽ sau lớp áo, cùng nhóm thân trên)
+  var sauLung = '<g id="WD-sl">' + [-1, 1].map(function (sd) {
+    var x0 = 200 + sd * 112, x1 = 200 + sd * 168, y1 = 300;
+    return D.line("M " + x0 + " 214 C " + (x0 + sd * 40) + " 250 " + (x1 + sd * 4) + " 280 " + x1 + " " + y1, 27, D.INK) + D.line("M " + x0 + " 214 C " + (x0 + sd * 40) + " 250 " + (x1 + sd * 4) + " 280 " + x1 + " " + y1, 17, M.cam) +
+      '<circle cx="' + (x1 + sd * 2) + '" cy="' + (y1 + 8) + '" r="15" fill="' + D.INK + '"/>';
+  }).join("") + "</g>";
+  d += WD.svg.replace('<g id="WD-up">', '<g id="WD-up">' + sauLung);
   d += '<g id="nong">' + [[-1, 0], [1, 0]].map(function (s, j) { return '<g id="ng' + j + '">' + D.line("M 0 0 C 6 -14 -6 -24 0 -38 M 16 4 C 22 -10 10 -20 16 -34", 5, "#C9463A") + "</g>"; }).join("") + "</g>";
   d += "</g></g>";
 
@@ -101,7 +107,9 @@ window.CANH = function (api, data) {
   WD.mouth(tOut, "o");
   WD.pose(tOut + 0.18, 0.12, { aLu: 0, aLf: 0, aRu: 0, aRf: 0, sy: 1, sx: 1, upY: 0 }, "power3.in");
   api.show("#WD-aLu", 0, 1); api.show("#WD-aRu", 0, 1); api.show("#WD-aLu", tOut + 0.3, 0); api.show("#WD-aRu", tOut + 0.3, 0);
-  WD.pose(tOut + 0.32, 0.12, { sx: 0.96, lean: 0 }, "power2.out");
+  api.show("#WD-sl", 0, 0); api.show("#WD-sl", tOut + 0.3, 1);
+  WD.pose(tOut + 0.32, 0.12, { sx: 0.96, lean: 0, upY: -10 }, "power2.out");
+  WD.pose(tOut + 0.6, 0.25, { upY: -6 }, "sine.inOut");
   WD.mouth(tOut + 0.4, "flat");
   WD.pose(tOut + 0.5, 0.3, { pupX: 10, pupY: -2, eye: 1.05 }, "power2.inOut"); WD.pose(tOut + 1.0, 0.3, { pupX: -10 }, "power2.inOut");
   api.sfx("bonk", tOut + 0.02, 0.35);

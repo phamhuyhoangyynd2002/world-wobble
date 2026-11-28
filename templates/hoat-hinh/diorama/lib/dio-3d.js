@@ -25,6 +25,9 @@
     // thêm 18/11/2026 (tập 1, d21/d23/d30): sáng sớm còn tối, giờ xanh ban mai, trưa hè nắng gắt (cửa sổ tắt, kính phản trời)
     "sang-som": { troiDinh: "#22365e", chanTroi: "#6a7ba0", nang: { huong: [-26, 18, -12], mau: "#b0c2ff", manh: 1.1 }, troiSang: { tren: "#6680b4", duoi: "#38445f", manh: 1.5 }, cuaSo: 2.5 },
     "ban-mai": { troiDinh: "#3d5a8c", chanTroi: "#b9a9c0", nang: { huong: [-34, 8, -16], mau: "#ffc4a8", manh: 1.4 }, troiSang: { tren: "#8198c4", duoi: "#5c6079", manh: 1.45 }, cuaSo: 2.2 },
+    // thêm 28/11/2026 (tập 6 Kiruna, d32/d35): trưa đêm cực (trời xanh thẫm, mép chân trời ửng hồng) · mặt trời nửa đêm (nắng vàng thấp, cửa sổ tắt)
+    "dem-hong": { troiDinh: "#24345c", chanTroi: "#e2a0ae", nang: { huong: [24, 4, -40], mau: "#ffb4bc", manh: 0.95 }, troiSang: { tren: "#4f6594", duoi: "#7a5a74", manh: 1.45 }, cuaSo: 2.4 },
+    "dem-trang": { troiDinh: "#5f93cf", chanTroi: "#f6d9a6", nang: { huong: [30, 5, -40], mau: "#ffc878", manh: 2.6 }, troiSang: { tren: "#b8cde6", duoi: "#cdb98c", manh: 1.2 }, cuaSo: 0.6, kinhTat: 0.6 },
     "trua-he": { troiDinh: "#2f74c4", chanTroi: "#cfe4ef", nang: { huong: [-16, 38, 20], mau: "#fff0d2", manh: 2.9 }, troiSang: { tren: "#b9d6f2", duoi: "#a7b878", manh: 1.25 }, cuaSo: 0.5, kinhTat: 0.85 }
   };
 

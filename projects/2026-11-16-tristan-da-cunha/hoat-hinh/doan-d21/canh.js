@@ -323,7 +323,8 @@ window.CANH = function (VT, D) {
   shots.push({ a: B4, b: B5, ten: "1827, năm người tới", ve: function (t, lt, T) {
     var inner = daoBen(t) + lang(B4 + 5) + den(t, T_FIVE - 0.4, PN, [0.3, 0.66], "", 2.3) + namNguoi(t) + the(t, T_1827 - 0.03, "1827");
     var out = bg() + khung(inner) + vachDem(t) + wob(t, { px: -16, py: 2, mouth: "flat", brows: "flat" });
-    return { cam: [key(T, [[B4, 960], [B5, 980]]), 540, key(T, [[B4, 1.04], [B5, 1.09, "sine"]])], world: out, tint: "warm" };
+    var cam = key(T, [[B4, [960, 540, 1.04]], [T_1827, [980, 520, 1.06], "sine"], [T_1827 + 0.3, [1140, 330, 1.7], "io3"], [T_FIVE - 0.45, [1150, 335, 1.74], "sine"], [T_FIVE + 0.25, [980, 540, 1.08], "io3"], [B5, [985, 540, 1.09], "sine"]]); // cận thẻ 1827 rồi lùi
+    return { cam: cam, world: out, tint: "warm" };
   } });
   var IT = [1330, SEA_Y - 30], LOI0 = T_TWO + 0.1, LOI1 = T_ASH + 0.5, DON0 = T_ASH - 0.1;
   shots.push({ a: B5, b: DUR, ten: "1892, tàu Italia mắc cạn", ve: function (t, lt, T) {

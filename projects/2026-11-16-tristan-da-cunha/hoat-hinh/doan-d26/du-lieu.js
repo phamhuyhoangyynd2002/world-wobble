@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 13.437,
- "bat_dau_tuyet_doi": 314.834,
+ "bat_dau_tuyet_doi": 315.026,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: huy hiệu khiên xanh trắng, hai con tôm hùm gai đứng hai bên (vẽ phác, không khẩu hiệu, không chữ); rồi một chiếc bánh chia năm phần",
  "trang_phuc": "Wob vẽ tay ở mép khung, áo mưa cam mũ trùm hạ, ba lô nhỏ, bảng kẹp (đánh dấu ô 2 ở đầu đoạn)",
@@ -32,8 +32,8 @@ window.HH_DATA = {
   {
    "tai": 4.825,
    "loi": "There are even two lobsters on the coat of arms.",
-   "hanh_dong": "[luot-smootherstep] Camera lướt từ con tôm hùm đang bò sang huy hiệu vẽ tay (≈ 319.66 s): hai con tôm hùm đứng hai bên khiên như lính gác; Wob đứng nghiêm cạnh khiên, bắt chước dáng hai con tôm",
-   "gag": "Đúng \"arms.\" (≈ 321.51 s) Wob liếc sang, một con tôm hùm khẽ đổi chân rồi đứng nghiêm lại",
+   "hanh_dong": "[luot-smootherstep] Camera lướt từ con tôm hùm đang bò sang huy hiệu vẽ tay (≈ 319.85 s): hai con tôm hùm đứng hai bên khiên như lính gác; Wob đứng nghiêm cạnh khiên, bắt chước dáng hai con tôm",
+   "gag": "Đúng \"arms.\" (≈ 321.70 s) Wob liếc sang, một con tôm hùm khẽ đổi chân rồi đứng nghiêm lại",
    "dao_cu": [],
    "sfx": []
   },

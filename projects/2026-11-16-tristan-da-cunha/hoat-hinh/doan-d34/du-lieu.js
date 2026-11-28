@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 17.634,
- "bat_dau_tuyet_doi": 437.67,
+ "bat_dau_tuyet_doi": 437.862,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay lùi dần (phong-quy-mo): con tem → quầy bưu điện → cả hòn đảo có thùng tôm hùm, xấp tem (nét mực đen trắng, KHÔNG chim cánh cụt), tiền xu như hàng gửi đi → quả địa cầu giấy; rồi lại quầy; rồi boong tàu có túi thư. Tem trên bưu thiếp KHÔNG chim cánh cụt",
  "trang_phuc": "Wob vẽ tay, áo mưa cam mũ trùm hạ, ba lô nhỏ; lấy bốn củ khoai từ túi hông ba lô (củ nhặt ở d15 là một trong bốn)",
@@ -67,7 +67,7 @@ window.HH_DATA = {
   {
    "tai": 14.163,
    "loi": "via Cape Town, taking the long way home.",
-   "hanh_dong": "[lia-theo-vat] Camera lia theo túi thư vải trên boong tàu: nhãn CAPE TOWN trên túi ≥ 45 px, hiện ≥ 1 s quanh \"Cape Town\" (≈ 452.13 s); tàu chở túi thư chạy ra khỏi khung về mép phải trên biển xám, RỒI mới phủ dần thành giấy",
+   "hanh_dong": "[lia-theo-vat] Camera lia theo túi thư vải trên boong tàu: nhãn CAPE TOWN trên túi ≥ 45 px, hiện ≥ 1 s quanh \"Cape Town\" (≈ 452.32 s); tàu chở túi thư chạy ra khỏi khung về mép phải trên biển xám, RỒI mới phủ dần thành giấy",
    "gag": "",
    "dao_cu": [
     "tui-thu"

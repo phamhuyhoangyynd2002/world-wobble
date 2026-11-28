@@ -71,10 +71,14 @@ window.CANH = function (api, data) {
 
   // camera: đẩy rất chậm
   api.camSet(R, null, { cx: 240, cy: 90, cz: 60, k: 430, rx: -18, ry: 3 });
-  api.camTo(R, 0, DUR, { k: 470, cy: 96 }, "sine.inOut");
+  // vòng sửa 29/11: chuyển động ngay từ khung 0 (phản biện: 13 khung đầu đứng hình) – đẩy nhẹ ease-out rồi đẩy chậm tới khung cuối
+  api.camTo(R, 0, 1.3, { k: 442, cy: 92, ry: 1.5 }, "sine.out");
+  api.camTo(R, 1.3, DUR - 1.3, { k: 478, cy: 97, ry: 0 }, "power1.in");
 
   // "Back home," – ngẩng lên một chút; "face down" – lật úp xuống bàn; hai tay đặt lên lưng
   var tBack = tu.back || 1.1, tFace = tu.face || 2.94, tDown = tu.down || 3.3;
+  api.nghieng(w, 0, -2.5, 0.9, "sine.out");                 // nghiêng đầu nhìn tấm bưu thiếp ngay từ khung 0
+  api.look(w, 0, 3, 14, 0.6);
   api.look(w, tBack, 0, 4, 0.3);
   api.lids(w, tBack, 0.3, 0.3);
   tl.to(bt, Object.assign(api.holdPose("L", A0, hL[0] + 70, hL[1] - 10, -4, 0.02), { duration: 0.22, ease: "power2.in" }), tFace - 0.1);

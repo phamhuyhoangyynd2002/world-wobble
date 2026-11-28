@@ -124,14 +124,15 @@ window.CANH = function (api, data) {
   api.camSet(R, null, { cx: 290, cy: 10, cz: -150, k: 470, rx: -10, ry: 4 });
   api.camTo(R, 0, 3.3, { k: 510 }, "sine.inOut");
   var tWhy = tu.why || 4.1, tWant = tu.wanted || 3.6;
+  var DL = (tu.who || 7.08) - 6.88;   // lời mới 29/11: từ "Who" trễ +0,2 s so với bản đầu
   api.camTo(R, 3.3, 0.8, { cx: 220, cy: 150, cz: -90, k: 460, rx: -50, ry: 2 }, "power2.inOut");   // lề dưới trang + Wob
   api.camTo(R, 4.1, 0.7, { k: 480 }, "sine.inOut");
-  api.camTo(R, 4.8, 0.9, { cx: 170, cy: 150, cz: -230, k: 440, rx: -50, ry: 2 }, "power2.inOut");   // chấm Tristan
-  api.camTo(R, 5.7, 2.5, { k: 500 }, "sine.inOut");                                                 // đẩy chậm vào trang
-  api.camTo(R, 8.2, 0.6, { cx: 190, cy: 140, cz: -270, k: 470, rx: -46, ry: 2 }, "power2.inOut");
-  api.camTo(R, 8.8, 4.7, { k: 520 }, "sine.inOut");
+  api.camTo(R, 4.8, 0.9, { cx: 170, cy: 168, cz: -230, k: 440, rx: -50, ry: 2 }, "power2.inOut");   // chấm Tristan
+  api.camTo(R, 5.7, 2.5 + DL, { k: 470 }, "sine.inOut");                                                 // đẩy chậm vào trang
+  api.camTo(R, 8.2 + DL, 0.6, { cx: 190, cy: 200, cz: -250, k: 440, rx: -46, ry: 2 }, "power2.inOut");   // giữ WHY GO BACK? trong lề dưới
+  api.camTo(R, 8.8 + DL, 4.7, { k: 448 }, "sine.inOut");
   var shW = diem(SH[0], SH[1]);
-  api.camTo(R, 13.62, 0.78, { cx: shW.x, cy: shW.y - 4, cz: shW.z, k: 1060, rx: -80, ry: 0 }, "power3.in");   // [lao-vao-hinh-ve]
+  api.camTo(R, 13.62 + DL, 0.78, { cx: shW.x, cy: shW.y - 4, cz: shW.z, k: 1060, rx: -80, ry: 0 }, "power3.in");   // [lao-vao-hinh-ve]
 
   // ---------------------------------------------------------------- 0–3,4 lá phiếu đáp lên hình núi lửa
   api.look(w, 0.15, -6, -10, 0.2, 1.15);                 // mắt mở to (soc)
@@ -190,7 +191,7 @@ window.CANH = function (api, data) {
   });
   api.look(w, 5.2, -16, 16, 0.2);
   api.lids(w, tWho - 0.6, 0.55, 0.2);                    // nhíu mắt (ngam-nghi)
-  api.lids(w, 8.0, 0.1, 0.15);
+  api.lids(w, 8.0 + DL, 0.1, 0.15);
   // ---------------------------------------------------------------- từ "all?" cầm sẵn tàu (trái) + ván (phải)
   var tAll = (function () { var r = null; data.loi.forEach(function (L) { L.tu.forEach(function (x) { if (/^all\?/i.test(x.text) && x.start > 7 && r === null) r = x.start; }); }); return r === null ? 8.2 : r; })();
   api.nghieng(w, tAll - 0.25, 0, 0.25);
@@ -205,7 +206,7 @@ window.CANH = function (api, data) {
   var tWrong = tu.wrong || 9.34, tTw = tu.twice || 10.05;
   var tauW = diem(TAU[0], TAU[1]), vanW = diem(VAN[0], VAN[1]);
   var tayL = api.wobTheGioi({ x: 385, y: TY, z: -190, s: 0.9 }, api.handWorld("L", AB)[0], api.handWorld("L", AB)[1]);
-  var tTha = 8.68;
+  var tTha = 8.68 + DL;
   api.armTo(w, "L", tTha - 0.2, 0.2, AB - 25, "power2.in");
   tl.set(tauTay, { opacity: 0 }, tTha - 0.18); tl.set(tau, { opacity: 1 }, tTha - 0.18);
   tl.fromTo(tau, { x: tayL.x, y: tayL.y + 30, z: -175, rotationZ: 0 }, { x: tauW.x, z: tauW.z, rotationZ: 0, duration: 0.18, ease: "power1.out", immediateRender: false }, tTha - 0.18);
@@ -217,7 +218,7 @@ window.CANH = function (api, data) {
   api.sfx("drop", tWrong - 0.03, 0.5);
   api.armTo(w, "L", tTha + 0.1, 0.3, 0, "power2.inOut");
   // ván: thả 9,68, nổi một chút, chìm đúng "Twice."
-  var tTha2 = 9.68;
+  var tTha2 = 9.68 + DL;
   var tayR = api.wobTheGioi({ x: 385, y: TY, z: -190, s: 0.9 }, api.handWorld("R", ABR)[0], api.handWorld("R", ABR)[1]);
   api.armTo(w, "R", tTha2 - 0.25, 0.22, -150, "power2.in");
   tl.set(vanTay, { opacity: 0 }, tTha2 - 0.2); tl.set(van, { opacity: 1 }, tTha2 - 0.2);
@@ -234,8 +235,9 @@ window.CANH = function (api, data) {
   api.lids(w, tTw + 0.1, 0.5, 0.15);                     // nhìn chỗ chìm, giữ tới "The answer"
   // ---------------------------------------------------------------- "different island": chấm phía bắc nháy MỘT lần, Wob liếc theo
   var tDiff = tu.different || 13.14;
-  api.lids(w, (tu.answer || 11.22) - 0.1, 0.15, 0.15);
-  api.quay(w, 11.6, -0.2, 0.3); api.look(w, 11.65, -4, 2, 0.2);
+  var tAns = null; data.loi.forEach(function (L) { L.tu.forEach(function (x) { if (/^answer/i.test(x.text) && x.start > 10 && tAns === null) tAns = x.start; }); }); if (tAns === null) tAns = 11.43;
+  api.lids(w, tAns - 0.1, 0.15, 0.15);
+  api.quay(w, 11.6 + DL, -0.2, 0.3); api.look(w, 11.65 + DL, -4, 2, 0.2);
   tl.fromTo(shSang, { opacity: 0, scale: 0.4, svgOrigin: SH[0] + " " + SH[1] }, { opacity: 1, scale: 1.2, svgOrigin: SH[0] + " " + SH[1], duration: 0.18, ease: "power2.out", immediateRender: false }, tDiff - 0.06);
   tl.to(shSang, { opacity: 0, scale: 1.6, svgOrigin: SH[0] + " " + SH[1], duration: 0.4, ease: "power1.in" }, tDiff + 0.2);
   api.sfx("ting", tDiff - 0.05, 0.4);
@@ -243,7 +245,7 @@ window.CANH = function (api, data) {
 
   // ---------------------------------------------------------------- liên tục
   api.khauHinh(w);
-  api.gatDau(w, { bo: [[3.3, 5.0], [8.4, 10.5]] });
+  api.gatDau(w, { bo: [[3.3, 5.0], [8.4 + DL, 10.5 + DL]] });
   api.breathe(w, 0, DUR);
-  api.blink(w, 1.4, 0); api.blink(w, 12.2, 0.15);
+  api.blink(w, 1.4, 0); api.blink(w, 12.2 + DL, 0.15);
 };

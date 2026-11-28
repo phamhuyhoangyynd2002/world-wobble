@@ -1,0 +1,77 @@
+[
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.329,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.607,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 0.886,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.164,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.443,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 1.721,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 2,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "ting",
+  "tai": 2.22,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "ting",
+  "tai": 2.75,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 3.94,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "buoc-tuyet",
+  "tai": 4.18,
+  "am_luong": 0.42
+ },
+ {
+  "ten": "pop",
+  "tai": 7.512,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "rise",
+  "tai": 10.737,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 14.315,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "bonk",
+  "tai": 15.675,
+  "am_luong": 0.15
+ }
+]

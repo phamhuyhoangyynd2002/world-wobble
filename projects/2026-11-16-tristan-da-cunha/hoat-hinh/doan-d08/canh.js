@@ -220,7 +220,7 @@ window.CANH = function (VT, D) {
     var turn = seg(t, TURN0, TURN1), sx = turn < 0.5 ? 1 - turn * 2 : (turn - 0.5) * 2, back = turn >= 0.5;
     if (t < CYC[0][0]) open = 1;
     var o = { x: WX, y: G, s: WS, flip: 1, noPack: true, mouth: "content", px: 16, py: -6, brows: "flat" };
-    var hand = ci >= 0 ? ip : (t >= CYC[2][1] ? [WX + 40, G - 150] : [WX + 70, G - 200]);
+    var hand = ci >= 0 ? ip : (t >= CYC[2][1] ? [WX + 40, VT.lerp(G - 150, G - 70, VT.ease.io(seg(t, CYC[2][1], CYC[2][1] + 0.3)))] : [WX + 70, G - 200]);
     if (ci >= 0) { o.brows = "down"; o.mouth = ci === 2 ? "chatter" : "flat"; o.px = 18; o.py = k < 0.55 ? 8 : -10; if (ci === 2) o.marks = "sweat"; o.lean = 6 * Math.sin(Math.PI * k); }
     if (t >= CYC[2][1]) { o.brows = "up"; o.mouth = "oSmall"; o.px = 18; o.py = -8; }
     if (t >= PAPER) { o.eyes = "wide"; o.mouth = "o"; o.py = -18; }
@@ -228,7 +228,7 @@ window.CANH = function (VT, D) {
     o.armR = VT.wobLocal({ x: WX, y: G, s: WS }, hand[0] - 4, hand[1] + 6); o.handR = "nam";
     var it = "";
     if (ci >= 0 && !inside) it = item(ci, ip[0], ip[1], rot);
-    else if (ci < 0 && lastItem === 2 && t >= CYC[2][1]) it = item(2, WX + 46, G - 168, 80);
+    else if (ci < 0 && lastItem === 2 && t >= CYC[2][1]) { var kl = VT.ease.io(seg(t, CYC[2][1], CYC[2][1] + 0.3)); it = item(2, WX + 46 + 10 * kl, VT.lerp(G - 168, G - 84, kl), VT.lerp(80, 8, kl)); }
     out += (inside ? item(ci, ip[0], ip[1], rot) : "") + baLo(open, back, sx, back) + wobDi(t, o) + it;
     if (t >= PAPER && t < TURN0) { var py = VT.lerp(G - 215, G - 320, VT.ease.back(seg(t, PAPER, PAPER + 0.2))); out += giayCau(py, Math.sin(Math.round(t * 12) * 1.2) * 6); }
     if (t >= TURN0 && t < TURN1 + 0.2) out += VT.puffBurst({ x: BX, y: G - 40, k: seg(t, TURN0, TURN1 + 0.2), s: 0.35, spread: 70 });

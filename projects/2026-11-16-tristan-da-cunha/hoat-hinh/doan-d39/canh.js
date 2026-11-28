@@ -62,11 +62,14 @@ window.CANH = function (api, data) {
   var tau = api.cut(the, 140, 130, '<g transform="translate(70 124) scale(.7)">' + api.tauBuomSVG() + "</g>", { pos: { x: TAU0.x, y: TAU0.y - 2, z: TAU0.z, rotationY: 50 }, ax: 70, ay: 124, f: api.F.AM_NHO });
   gsap.set(tau, { opacity: 0 });
   // bưu thiếp úp trên bàn: hai mặt, bản lề ở mép xa; lật nửa = nhấc mép gần lên (rotationX 90 → 138)
-  var BT = { w: 220, h: 146 }, BP = { x: 540, z: 40 };
-  var bt = api.P(the, { x: BP.x, y: TY - 4, z: BP.z - 65, rotationX: 90 });
-  api.cut(bt, 240, 170, '<g transform="translate(120 85) rotate(3)">' + api.buuThiepSVG({ w: BT.w, h: BT.h }) + "</g>", { pos: { scale: 0.9 }, ax: 120, ay: 10, cls: "dio-bfh", f: api.F.AM_NHO });
-  var btSau = api.P(bt, { rotationY: 180 });
-  api.cut(btSau, 240, 170, '<g transform="translate(120 85) rotate(-3)">' + api.buuThiepSVG({ w: BT.w, h: BT.h, mat: "tranh" }) + "</g>", { pos: { scale: 0.9 }, ax: 120, ay: 10, cls: "dio-bfh", f: api.F.AM_NHO });
+  // bưu thiếp úp trên bàn (mặt viết lên, như cuối d37) → Wob nhấc lên, cầm cạnh mặt cho thấy mặt tranh núi lửa → dựng nghiêng
+  // trên bàn (mặt tranh ra, cùng chỗ đầu d41: x 650, z 60)
+  var BT = { w: 220, h: 146 }, BP = { x: 540, z: 40 }, BD = { x: 650, z: 60 };
+  var btNam = api.cut(the, 240, 170, '<g transform="translate(120 85) rotate(3)">' + api.buuThiepSVG({ w: BT.w, h: BT.h }) + "</g>", { pos: { x: BP.x, y: TY - 4, z: BP.z, rotationX: 90, scale: 0.9 }, ax: 120, ay: 85, f: api.F.AM_NHO });
+  var btDung = api.cut(the, 240, 170, '<g transform="translate(120 85) rotate(-2)">' + api.buuThiepSVG({ w: BT.w, h: BT.h, mat: "tranh" }) + "</g>", { pos: { x: BD.x, y: TY, z: BD.z, rotationX: 8, scale: 0.9 }, ax: 120, ay: 160, f: api.F.AM_NHO });
+  gsap.set(btDung, { opacity: 0 });
+  w.holdR.insertAdjacentHTML("beforeend", '<g class="btr" opacity="0"><g transform="scale(.8)">' + api.buuThiepSVG({ w: BT.w, h: BT.h, mat: "tranh" }) + "</g></g>");
+  var btr = w.holdR.querySelector(".btr");
   // hộp phiếu + hai chồng phiếu + thẻ
   var HP = diem(240, 250);
   var hop = api.cut(the, 160, 130, '<g transform="translate(80 126)">' + api.hopPhieuSVG() + "</g>", { pos: { x: HP.x, y: HP.y, z: HP.z, scale: 0.9 }, ax: 80, ay: 126, f: api.F.AM_NHO });
@@ -122,12 +125,24 @@ window.CANH = function (api, data) {
   var tBack = tu.back || 2.06;
   api.quay(w, tBack - 0.3, 0.45, 0.3);
   api.look(w, tBack - 0.25, 12, 14, 0.2);
-  api.armTo(w, "R", tBack - 0.2, 0.3, -30, "power2.out");
-  tl.to(bt, { rotationX: 138, duration: 0.55, ease: "power2.inOut" }, tBack);
-  api.armTo(w, "R", tBack + 0.35, 0.3, -10, "sine.inOut");
-  api.lids(w, tBack + 0.4, 0.5, 0.25);                       // ngẫm nghĩ
-  api.nghieng(w, tBack + 0.4, 4, 0.4);
-  api.look(w, 4.2, 4, 6, 0.3);
+  var PR = PIV.R.join(" "), xuong = { rotation: goc("R", 372, 380), scaleY: Math.hypot(372 - 314, 380 - 212) / 97, svgOrigin: PR };
+  tl.to(w.armR, Object.assign({}, xuong, { duration: 0.28, ease: "power2.out" }), tBack - 0.25);
+  var AC = goc("R", 352, 168), hC = api.handWorld("R", AC), dxC = (BT.w / 2 - 16) * 0.8;
+  tl.set(btNam, { opacity: 0 }, tBack + 0.05);
+  tl.set(btr, api.holdPose("R", AC, hC[0] + dxC, hC[1], -4), tBack + 0.05);
+  tl.to(w.armR, { rotation: AC, scaleY: 1, svgOrigin: PR, duration: 0.3, ease: "back.out(1.4)" }, tBack + 0.05);
+  tl.set(btr, { opacity: 1 }, tBack + 0.05);
+  api.look(w, tBack + 0.3, 14, -2, 0.15);
+  api.lids(w, tBack + 0.6, 0.45, 0.25);                      // ngẫm nghĩ nhìn mặt tranh
+  api.nghieng(w, tBack + 0.6, 4, 0.4);
+  // 3,7: dựng nghiêng bưu thiếp trên bàn, mặt tranh quay ra
+  var tDat = 3.75, AD = goc("R", 380, 300), hD = api.handWorld("R", AD), pD = api.wobTheGioi(w, hD[0] + dxC, hD[1]);
+  api.armTo(w, "R", tDat - 0.3, 0.3, AD, "power2.inOut");
+  tl.to(btr, Object.assign(api.holdPose("R", AD, hD[0] + dxC, hD[1], 0), { duration: 0.3, ease: "power2.inOut" }), tDat - 0.3);
+  tl.set(btr, { opacity: 0 }, tDat); tl.set(btDung, { opacity: 1 }, tDat);
+  tl.fromTo(btDung, { x: pD.x, y: pD.y + 60, z: pD.z }, { x: BD.x, y: TY, z: BD.z, duration: 0.35, ease: "power2.inOut", immediateRender: false }, tDat);
+  api.armTo(w, "R", tDat + 0.2, 0.35, 0, "sine.inOut");
+  api.look(w, 4.2, 8, 8, 0.3);
   api.nghieng(w, 4.6, 0, 0.4);
   // ---------------------------------------------------------------- "In December…": lật trang, đặt hộp phiếu
   var tDec = tu.in || 6.21;

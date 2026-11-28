@@ -1,5 +1,5 @@
 {
-  "title": "They Evacuated the World's Remotest Island. Then Went Back.",
+  "title": "A Volcano Emptied This Island. They Voted to Go Back.",
   "format": "horizontal",
   "template": "explainer",
   "language": "en-US",
@@ -38,7 +38,7 @@
   "scenes": [
     {
       "type": "hook",
-      "chapter": "The Postcard That Lost the Race",
+      "chapter": "A Postcard From a Volcano",
       "lop": "hien-tai",
       "role": "hook: kỷ vật bưu thiếp dán tem vừa về sáng nay (Wob về trước bưu thiếp); kết cục trước: cả đảo từng phải rời đi vì núi lửa, sang Anh, rồi bỏ phiếu quay về (nối câu nhá cuối tập 4); lời chào nhận diện cố định",
       "narration": "This postcard arrived this morning. I posted it from an island that everyone once had to leave. A volcano. They were taken to England, then voted to go back. I got home first. Hi, I'm Wob. I visit odd places and ask why anyone stays.",
@@ -120,7 +120,7 @@
       "type": "section",
       "lop": "hien-tai",
       "role": "lời hứa ở bàn (trong 60 s đầu): tên đảo (thẻ hộ chiếu), danh hiệu Guinness có tiêu chí, dân số 11/2026, gần như cả đảo chọn quay về; treo câu hỏi cũ hơn 'ai lập làng ở đây' + manh mối bằng hình (một đảo khác ở phía bắc), KHÔNG nói đáp án; Wob báo trước mình sẽ đoán sai hai lần",
-      "narration": "The island is Tristan da Cunha, in the middle of the South Atlantic. Guinness lists it as the most remote inhabited island, measured by the distance to the nearest other people. As of November twenty twenty-six, it counted about two hundred and twenty islanders. In England they'd had buses, shops and dry socks. Nearly all of them still voted for the island with the volcano. I wanted to know why. But first, an older question. Who would start a village out there at all? I guessed wrong. Twice. The answer, it turned out, lived on a different island.",
+      "narration": "The island is Tristan da Cunha, in the middle of the South Atlantic. Guinness lists it as the most remote inhabited island, measured by the distance to the nearest other people. As of November twenty twenty-six, it counted about two hundred and twenty islanders. In England they'd had buses, shops and dry socks. Nearly all of them still voted for the island with the volcano. I wanted to know why. The answer starts with an older question. Who would start a village out there at all? I guessed wrong. Twice. The answer, it turned out, lived on a different island.",
       "pronunciation": "Tristan da Cunha: TRIS-tan da KOON-ya",
       "facts": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "show": "asset:map-tristan",
-          "cue": "But first, an older question",
+          "cue": "The answer starts with an older question",
           "move": "zoom-out",
           "zoom": 1.05
         },
@@ -1352,12 +1352,12 @@
     },
     {
       "type": "section",
-      "chapter": "A Vote for the Volcano",
+      "chapter": "Calshot, Then the Ballot",
       "lop": "hien-tai",
       "khuon": "so-sanh-doi-thuong",
       "music_mood": "to-mo",
       "role": "chương 6 (so sánh đời thường): bỏ phiếu 12/1962, 148–5; so sánh trả lại chìa khoá thành phố để lấy chìa khoá nhà cạnh núi lửa; Wob tự bỏ phiếu cho con phố của mình (gag tay); nhóm tiên phong về 4/1963 (không số), nhóm chính 198 người tới 10/11/1963; Wob đoán vì sao (nhận định, không phải khẳng định)",
-      "narration": "In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before. I tried that vote on myself, about my own street. I like my street. I raised one hand. The other one stayed in my pocket. In April nineteen sixty-three, an advance party landed home first. On the tenth of November, the main group of a hundred and ninety-eight arrived. My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run.",
+      "narration": "In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before. I tried that vote on myself, about my own street. I like my street. I raised one hand. The other one stayed in my pocket. In April nineteen sixty-three, an advance party landed home first. On the tenth of November, the main group of a hundred and ninety-eight arrived. So why go back? The scientists had found the village still standing, and some of them had gone to see it. The rest is my guess. England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run.",
       "facts": [
         {
           "label": "Ballot, Dec 1962",
@@ -1429,7 +1429,7 @@
         },
         {
           "show": "asset:map-tristan",
-          "cue": "My best guess at why",
+          "cue": "So why go back",
           "move": "zoom-in",
           "zoom": 1.6,
           "focus": [
@@ -1452,7 +1452,7 @@
           "bieu_cam": "dong-goi"
         },
         {
-          "cue": "My best guess at why",
+          "cue": "So why go back",
           "bieu_cam": "ngam-nghi"
         }
       ],
@@ -1575,7 +1575,7 @@
       "chapter": "What the Postcard Says",
       "lop": "hien-tai",
       "role": "outro khuôn mới (khác tập 1–4): Wob đọc to mặt sau bưu thiếp mình viết trên boong lúc rời đảo (callback hook), lá thư gửi chính mình nêu cái giá cụ thể và lỗi của Wob (ngủ quên tiếng cồng), Wob ở bàn đồng ý từng chữ, rồi mới đóng dấu WOULD MOVE; đảo không nhận vì không có liên hệ gia đình; callback dây thừng; câu hỏi bình luận mới. Không tóm ba vế, không 'Would I move', không cặp suits, không 'changed my mind'",
-      "narration": "So, the postcard. I wrote it at the post office counter, the day before my ship left, and I haven't read it since. It says: Dear me. You can't move here. Outsiders can't buy land, and you can't settle without family on the island. You asked anyway. The harbour opens when the sea agrees. The big hospital is a week or so away by sea. Groceries get ordered months ahead. Patient people who like their neighbours do fine here. You are neither, yet. You slept through the gong. Twice. You still want to live here. Love, me. Reading it at my desk, I agree with every word, including the part where they wouldn't have me. It's their island, by family and by ballot. I'm stamping it anyway. WOULD MOVE. If they ever need someone to hold a rope and not become cargo, I'm packed. What would you sail a week to get back to?",
+      "narration": "So, the postcard. I wrote it at the post office counter, the day before my ship left, and I haven't read it since. It says: Dear me. You can't move here. Outsiders can't buy land, and you can't settle without family on the island. You asked anyway. The harbour opens when the sea agrees. The big hospital is usually about a week away by sea, longer in bad weather. Groceries get ordered months ahead. But the land is shared, and the lobster pays the bills. You slept through the gong. Twice. You still want to live here. Love, me. Reading it at my desk, I agree with every word, including the part where they wouldn't have me. It's their island, by family and by ballot. I'm stamping it for the shared land and the lobster boats, not for my chances. WOULD MOVE. If they ever need someone to hold a rope and not become cargo, I'm packed. What would you sail a week to get back to?",
       "verdict": {
         "label": "WOULD MOVE",
         "reason": "Shared land, a lobster fishery and an island run by its own people won Wob over, and the costs are real (a harbour that opens on calm days, serious care a voyage away, orders placed months ahead); but newcomers can't buy land or settle without family on the island, so the move stays a wish, and Wob still sleeps through the gong.",
@@ -1604,7 +1604,7 @@
           "y": "Wob đặt bưu thiếp xuống, gật đầu chậm"
         },
         {
-          "cue": "I'm stamping it anyway",
+          "cue": "I'm stamping it for the shared land",
           "y": "Trang hộ chiếu ở cảnh 2 lật trở lại giữa khung"
         },
         {
@@ -1633,7 +1633,7 @@
         },
         {
           "show": "asset:map-tristan-route",
-          "cue": "The big hospital is a week or so away",
+          "cue": "The big hospital is usually about a week away",
           "move": "pan-right"
         },
         {
@@ -2445,7 +2445,7 @@
     {
       "id": "C66",
       "scene": 16,
-      "quote": "The big hospital is a week or so away by sea.",
+      "quote": "The big hospital is usually about a week away by sea, longer in bad weather.",
       "statement": "Serious medical cases from Tristan da Cunha are taken to hospital in Cape Town, roughly a week away by sea (about six days on the usual ships, sometimes longer in bad weather).",
       "source_ids": [
         "S34",

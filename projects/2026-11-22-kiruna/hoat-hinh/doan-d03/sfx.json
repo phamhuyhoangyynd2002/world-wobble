@@ -1,0 +1,97 @@
+[
+ {
+  "ten": "lat-giay",
+  "tai": 0.976,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "ting",
+  "tai": 2.026,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 5.17,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 7.78,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 8.6,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 9.6,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "pop",
+  "tai": 9.9,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 12.438,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 13.058,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 18.32,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 19.2,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "pop",
+  "tai": 19.925,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 20.428,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "pop",
+  "tai": 21.252,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "pop",
+  "tai": 21.877,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "pop",
+  "tai": 23.977,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "ting",
+  "tai": 28.025,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "ting",
+  "tai": 29.387,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "ting",
+  "tai": 29.567,
+  "am_luong": 0.25
+ }
+]

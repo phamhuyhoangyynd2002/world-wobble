@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 16.575,
- "bat_dau_tuyet_doi": 273.198,
+ "bat_dau_tuyet_doi": 273.39,
  "lop": "hoi-uc",
  "boi_canh": "Sáng sớm ở làng; con đường đất ra khỏi làng; đồi thấp với những ô ruộng nhỏ quây tường đá thấp (Potato Patches), chòi gỗ nhỏ, núi lửa phía sau; góc nhìn từ trên các ô ruộng khác màu khít nhau như tấm chăn chắp mảnh",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm tấm bảng kẹp giấy có ba ô vuông trống (ô 1 hình củ khoai, ô 2 hình tôm hùm, ô 3 hình con bò, không chữ)",
@@ -50,7 +50,7 @@ window.HH_DATA = {
   {
    "tai": 14.2,
    "loi": "No outsider can buy a piece of it.",
-   "hanh_dong": "[take-cham] CẮT vào trung cảnh Wob cạnh bức tường đá: Wob dang tay ướm thử một ô ruộng, rồi đúng \"outsider\" (≈ 288.07 s) rụt tay về ngay, giấu tay sau lưng; giữ 0,6 s tới cắt 289.77 s",
+   "hanh_dong": "[take-cham] CẮT vào trung cảnh Wob cạnh bức tường đá: Wob dang tay ướm thử một ô ruộng, rồi đúng \"outsider\" (≈ 288.26 s) rụt tay về ngay, giấu tay sau lưng; giữ 0,6 s tới cắt 289.96 s",
    "gag": "Wob rụt tay như chạm phải bếp nóng",
    "dao_cu": [],
    "sfx": []

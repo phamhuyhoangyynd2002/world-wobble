@@ -19,7 +19,7 @@ window.CANH = function (api, data) {
   s += at(SH[0], SH[1], D.mapDot("dSH", { nhan: CH[0], ben: "phai", co: 50 }));
   s += at(TR[0], TR[1], D.mapDot("dTR", { nhan: CH[1], ben: "trai", co: 50 }));
   s += '<path id="chi" d="M 0 0" fill="none" stroke="#2F4A6B" stroke-width="6" stroke-linecap="round"/>';
-  s += '<g id="mu"><g id="muIn">' + TD.muHaiSung(170) + "</g></g>";
+  s += '<g id="mu"><g id="muIn">' + TD.muHaiSung(158) + "</g></g>";
   var W = TD.wob(api, "W", { muTrum: 0, holdL: '<g id="W-chi">' + TD.cuonChi(24) + "</g>" });
   s += W.svg;
   s += '<g id="tKm">' + TD.the("tKmi", CH[2], 56, { seed: 1603 }) + "</g>";
@@ -31,7 +31,8 @@ window.CANH = function (api, data) {
   // ---------- mũ rơi ----------
   var tCham = tNap - 0.05;
   api.origin("#mu", "0 0"); api.origin("#muIn", "0 0");
-  api.key("#mu", "x", 0, SH[0], "step"); api.key("#mu", "y", 0, SH[1] - 210, "step");
+  var MUX = SH[0] - 58; // lệch trái để sừng phải không chạm nhãn St Helena
+  api.key("#mu", "x", 0, MUX, "step"); api.key("#mu", "y", 0, SH[1] - 210, "step");
   api.key("#mu", "y", tCham, SH[1] - 6, "power2.in");
   api.key("#muIn", "scaleY", 0, 1.1); api.key("#muIn", "scaleY", tCham, 1.1, "none"); api.key("#muIn", "scaleY", tCham + 0.06, 0.78, "power3.out"); api.key("#muIn", "scaleY", tCham + 0.3, 1, "back.out(3)");
   api.key("#muIn", "scaleX", 0, 0.92); api.key("#muIn", "scaleX", tCham, 0.92, "none"); api.key("#muIn", "scaleX", tCham + 0.06, 1.18, "power3.out"); api.key("#muIn", "scaleX", tCham + 0.3, 1, "back.out(3)");
@@ -40,7 +41,7 @@ window.CANH = function (api, data) {
   // xoay vành ngó xuống Tristan
   api.key("#muIn", "rotation", tLon - 0.2, 0, "none"); api.key("#muIn", "rotation", tLon + 0.25, -16, "power2.inOut");
   api.key("#muIn", "scaleX", tLon - 0.2, 1, "none"); api.key("#muIn", "scaleX", tLon + 0.25, 0.86, "power2.inOut");
-  api.key("#mu", "x", tLon - 0.2, SH[0], "none"); api.key("#mu", "x", tLon + 0.25, SH[0] - 8, "power2.inOut");
+  api.key("#mu", "x", tLon - 0.2, MUX, "none"); api.key("#mu", "x", tLon + 0.25, MUX - 8, "power2.inOut");
 
   // ---------- nhãn ----------
   api.origin("#dSH", "0 0"); api.origin("#dTR", "0 0");

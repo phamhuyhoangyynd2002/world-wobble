@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 11.936,
- "bat_dau_tuyet_doi": 261.262,
+ "bat_dau_tuyet_doi": 261.454,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: cửa một nhà chung có bảy tấm thẻ gỗ nhỏ (chỉ hình thẻ, không chữ); rồi cuốn sổ khách khổng lồ mở trên bàn",
  "trang_phuc": "Wob vẽ tay to, áo mưa cam mũ trùm hạ, ba lô nhỏ; cầm bút chì ngắn, rồi thêm cục tẩy ở tay kia (cuối đoạn vẫn cầm cả hai)",

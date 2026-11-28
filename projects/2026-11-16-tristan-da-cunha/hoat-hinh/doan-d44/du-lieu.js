@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 22.5,
- "bat_dau_tuyet_doi": 586.26,
+ "bat_dau_tuyet_doi": 592.428,
  "lop": "hoi-uc",
  "boi_canh": "Bến cảng nhỏ xíu có đê chắn sóng bằng khối bê tông bốn chân, sóng xám đập vào, cọc buộc thuyền; tấm biển gỗ CALSHOT HARBOUR ở đầu bến; cửa bến hẹp",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); ba lô nhỏ trên lưng; cầm một mẩu phấn trắng ở nhịp đo cửa bến",
@@ -56,7 +56,7 @@ window.HH_DATA = {
    "tai": 12.912,
    "loi": "The entrance is about eleven metres wide, roughly thirty-six feet.",
    "hanh_dong": "Wob đo cửa bến; thẻ ~11 m · ~36 ft",
-   "gag": "Đo kiểu SÂU ĐO: Wob nằm thẳng trên đê, vạch một vạch phấn ở đỉnh đầu, đứng dậy bước tới vạch, nằm xuống lần nữa, cứ thế nhích dần; giữ 0,6 s ở \"feet.\" (≈ 602.60 s) khi Wob mới đo được một quãng ngắn",
+   "gag": "Đo kiểu SÂU ĐO: Wob nằm thẳng trên đê, vạch một vạch phấn ở đỉnh đầu, đứng dậy bước tới vạch, nằm xuống lần nữa, cứ thế nhích dần; giữ 0,6 s ở \"feet.\" (≈ 608.77 s) khi Wob mới đo được một quãng ngắn",
    "dao_cu": [
     "phan-trang"
    ],

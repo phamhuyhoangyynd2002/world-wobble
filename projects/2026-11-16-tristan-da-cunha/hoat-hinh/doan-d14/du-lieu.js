@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 7.025,
- "bat_dau_tuyet_doi": 157.708,
+ "bat_dau_tuyet_doi": 157.9,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay trên trang sổ phác thứ hai: bè gỗ, bãi biển, túp lều",
  "trang_phuc": "Wob vẽ tay ở mép trang, áo mưa cam mũ trùm hạ, ba lô nhỏ",

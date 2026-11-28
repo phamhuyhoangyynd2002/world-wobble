@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 19.084,
- "bat_dau_tuyet_doi": 213.458,
+ "bat_dau_tuyet_doi": 213.65,
  "lop": "hoi-uc",
  "boi_canh": "Trang tông sepia: tàu lính nhỏ dần ngoài khơi; trên bờ vài người que đứng nhìn theo; rồi làng hiện tại (tông màu thường) dãy mái nhà có một dấu hỏi giấy to; rồi lại trang sepia: túp lều đá, một gia đình que",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo)",
@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 7.48,
    "loi": "Soldiers leave. That's their job.",
-   "hanh_dong": "Wob ngoài mép trang vẫy theo con tàu một cái đúng \"leave.\" (≈ 221.37 s), hạ tay ở \"job.\" (≈ 222.53 s), giữ tỉnh bơ 0,8 s trước \"So why\" (223.41 s)",
+   "hanh_dong": "Wob ngoài mép trang vẫy theo con tàu một cái đúng \"leave.\" (≈ 221.56 s), hạ tay ở \"job.\" (≈ 222.72 s), giữ tỉnh bơ 0,8 s trước \"So why\" (223.60 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

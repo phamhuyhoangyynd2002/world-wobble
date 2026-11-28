@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 9.54,
- "bat_dau_tuyet_doi": 177.738,
+ "bat_dau_tuyet_doi": 177.93,
  "lop": "hoi-uc",
  "boi_canh": "Wob ngồi trên tảng đá bên bờ, sổ du lịch mở trên đùi; CẬN trang sổ (≥ 70% khung): journalPage + mapSticker map-napoleon (St Helena trên, Tristan dưới, đường nét đứt nối hai đảo)",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); sổ trên đùi; cầm cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3)",
@@ -26,7 +26,7 @@ window.HH_DATA = {
   {
    "tai": 0.15,
    "loi": "Napoleon.",
-   "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc, chạm trang 0–3 khung trước \"Napoleon.\" (177.89 s); giữ tới \"After\"",
+   "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc, chạm trang 0–3 khung trước \"Napoleon.\" (178.08 s); giữ tới \"After\"",
    "gag": "",
    "dao_cu": [
     "mu-hai-sung",
@@ -39,7 +39,7 @@ window.HH_DATA = {
   {
    "tai": 1.29,
    "loi": "After his final defeat, Britain exiled Napoleon to St Helena, another lonely island,",
-   "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; đúng \"lonely\" (≈ 183.35 s) chiếc mũ hai sừng khẽ xoay vành về phía chấm Tristan như ngó xuống",
+   "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; đúng \"lonely\" (≈ 183.54 s) chiếc mũ hai sừng khẽ xoay vành về phía chấm Tristan như ngó xuống",
    "gag": "",
    "dao_cu": [
     "map-napoleon",

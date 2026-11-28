@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "brr",
+  "tai": 2.05,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 2.72,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "dau-wob",
+  "tai": 3.275,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 6.725,
+  "am_luong": 0.35
+ },
+ {
+  "ten": "pop",
+  "tai": 8.974,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "ting",
+  "tai": 14.749,
+  "am_luong": 0.25
+ }
+]

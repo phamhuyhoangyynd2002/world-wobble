@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 21.158,
- "bat_dau_tuyet_doi": 118.9,
+ "bat_dau_tuyet_doi": 119.092,
  "lop": "hoi-uc",
  "boi_canh": "Dải đất bằng xanh dưới vách đá dựng, dãy nhà mái thấp tường đá (mái tôn màu), vài con bò; biển xám phía trước, bãi đá đen. Tấm biển tên làng dài quá khổ ở đầu làng. Mây quấn đỉnh núi phía sau",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo) (kéo xuống khi đặt chân lên bờ), áo khô dần; ba lô nhỏ trên lưng",
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 3.08,
    "loi": "Officially, it's Edinburgh of the Seven Seas,",
-   "hanh_dong": "[lia-theo-vat] Tấm biển tên làng dài tới mức camera phải lia theo chữ EDINBURGH OF THE SEVEN SEAS; Wob đi bộ dọc tấm biển đọc, đi mãi chưa hết. CUỐI cú lia (≈ 123.46 s) camera LÙI NHANH ra cho CẢ DÒNG EDINBURGH OF THE SEVEN SEAS nằm trọn khung, chữ ≥ 45 px, giữ ≥ 1 s trước \"named\" (125.06 s)",
+   "hanh_dong": "[lia-theo-vat] Tấm biển tên làng dài tới mức camera phải lia theo chữ EDINBURGH OF THE SEVEN SEAS; Wob đi bộ dọc tấm biển đọc, đi mãi chưa hết. CUỐI cú lia (≈ 123.65 s) camera LÙI NHANH ra cho CẢ DÒNG EDINBURGH OF THE SEVEN SEAS nằm trọn khung, chữ ≥ 45 px, giữ ≥ 1 s trước \"named\" (125.25 s)",
    "gag": "Wob đi dọc tấm biển dài hơn cả dãy nhà, bé tí ở một đầu khi cả dòng hiện trọn",
    "dao_cu": [
     "bien-ten-lang"

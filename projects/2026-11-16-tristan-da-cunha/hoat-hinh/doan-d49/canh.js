@@ -1,19 +1,22 @@
-/* d49 · vẽ tay · chèn (650,050–657,600 s; 7,55 s). Vào "chen" (tự whoosh), ra "cat". Hồi ức, không khẩu hình. Không chữ.
+/* d49 · vẽ tay · chèn (656,218–665,393 s; 9,175 s). Vào "chen" (tự whoosh), ra "cat". Hồi ức, không khẩu hình. Không chữ.
  * Hình vẽ nguệch ngoạc bên lề bưu thiếp sống dậy (giấy bưu thiếp, nét mực xanh đen sôi; chỉ Wob tô màu).
  *  1. Hình to: cửa bến vẽ tay đóng chặt; Wob nhỏ (đồ ở nhà) đứng chờ trên kè; con sóng ngồi cạnh cửa như người gác, đúng "sea agrees" gật gù hai lần (song),
  *     cửa bến mở ra, Wob bước qua.
  *  2. Nghiêm, KHÔNG gag: chữ thập bệnh viện ở mép xa; con tàu nhỏ bò từng nấc theo nét đứt dài, mặt trời mọc lặn ba lần trên đường; Wob đi bộ cạnh tàu, mặt nghiêm.
+ *     Đúng "longer in bad weather" một con sóng lớn dựng lên ở mũi tàu, tàu khựng, chồm lùi; Wob dừng, quay lại nhìn; sóng lặn thì tàu bò tiếp (vẫn nghiêm).
  *  3. Danh sách đi chợ dài (nét nguệch ngoạc, không chữ) gấp lại bỏ vào phong bì; tờ lịch lật liền mấy tháng, gió lật thổi tung phong bì;
  *     Wob nhảy lên chụp được đúng "ahead.", giữ tới cắt.
  */
 window.CANH = function (VT, D) {
   var B = window.VTB(VT, D), key = VT.key, seg = VT.seg, f = VT.f, INK = VT.C.ink, DUR = D.thoi_luong;
-  var N1 = VT.nhip(1), N2 = VT.nhip(2), T_SEA = VT.tu("sea"), T_AGREES = VT.tu("agrees."), T_WEEK = VT.tu("week");
+  var N1 = VT.nhip(1), N2 = VT.nhip(2), T_SEA = VT.tu("sea"), T_AGREES = VT.tu("agrees."), T_WEEK = VT.tu("week"), T_LONG = VT.tu("longer"), T_WEA = VT.tu("weather.");
   var T_ORDERED = VT.tu("ordered"), T_MONTHS = VT.tu("months"), T_AHEAD = VT.tu("ahead.");
   var PEN = "#2c4f6e", PAPER = "#F3E9D2";
   var NOD0 = T_SEA - 0.15, NOD1 = NOD0 + 0.75, OPEN0 = T_AGREES - 0.05, OPEN1 = OPEN0 + 0.4, WALK0 = OPEN1 - 0.05;
   var FOLD0 = N2 + 0.05, FOLD1 = T_ORDERED + 0.15, FLIP0 = T_MONTHS - 0.25, FLIP1 = T_AHEAD + 0.1, BLOW = T_MONTHS + 0.05, CATCH = T_AHEAD;
   VT.sfx("song", NOD0, 0.45);
+  var WV0 = T_LONG - 0.12, WV1 = T_LONG + 0.3, WV2 = T_WEA + 0.1, WV3 = WV2 + 0.35; // sóng lớn: dựng, giữ, lặn
+  VT.sfx("song", WV0, 0.35);
   VT.sfx("lat-giay", FLIP0, 0.45); VT.sfx("lat-giay", FLIP0 + 0.3, 0.4);
   VT.sfx("whoosh", BLOW, 0.3);
   VT.sfx("pop", CATCH, 0.4);
@@ -91,11 +94,21 @@ window.CANH = function (VT, D) {
     var night = Math.max(0, 1 - Math.sin(Math.PI * ph) * 3) * 0.18;
     out = '<rect x="-400" y="-300" width="2800" height="' + (HY + 300) + '" fill="#2c4f6e" opacity="' + f(night * 100) / 100 + '"/>' + (sy < HY - 10 ? sun : "") + out;
     // tàu bò từng nấc: 8 nấc, mỗi nấc trượt nhanh rồi đứng
-    var steps = 8, kk = k * steps, i = Math.floor(kk), fr = kk - i, sk = Math.min(1, fr / 0.45);
+    // tiến độ: 6 nấc tới "longer", khựng suốt "in bad weather", rồi 2 nấc nữa tới hết cảnh
+    var kp = t < WV0 ? 0.75 * seg(t, N1, WV0) : t < WV3 ? 0.75 : 0.75 + 0.25 * seg(t, WV3, N2);
+    var steps = 8, kk = Math.min(kp * steps, steps - 1e-6), i = Math.floor(kk), fr = t >= WV0 && t < WV3 ? 1 : kk - i, sk = Math.min(1, fr / 0.45);
     var pos = VT.clamp((i + VT.ease.io(sk)) / steps, 0, 1), shipX = VT.lerp(320, 1180, pos);
-    out += VT.ship({ x: shipX, y: HY + 4, s: 0.6, rot: fr < 0.45 ? -2 : 0 });
+    var h = VT.ease.back(seg(t, WV0, WV1)) * (1 - VT.ease.io(seg(t, WV2, WV3))), rock = Math.sin(Math.round(t * 12) * 1.3) * 3 * h;
+    out += VT.ship({ x: shipX - 46 * h, y: HY + 4 - 26 * h, s: 0.6, rot: (fr < 0.45 ? -2 : 0) - 12 * h + rock });
+    if (h > 0.02) { // sóng lớn dựng ở mũi tàu
+      var wx = shipX + 40, H = 190 * h;
+      out += VT.shape("M " + f(wx - 120) + " " + HY + " C " + f(wx - 85) + " " + f(HY - 0.25 * H) + " " + f(wx - 30) + " " + f(HY - H) + " " + f(wx + 40) + " " + f(HY - 0.92 * H) + " C " + f(wx + 100) + " " + f(HY - 0.85 * H) + " " + f(wx + 96) + " " + f(HY - 0.5 * H) + " " + f(wx + 62) + " " + f(HY - 0.55 * H) + " C " + f(wx + 50) + " " + f(HY - 0.3 * H) + " " + f(wx + 80) + " " + f(HY - 0.08 * H) + " " + f(wx + 120) + " " + HY + " Z", "#BFD3DC", { sw: 5 });
+      out += ink("M " + f(wx - 60) + " " + f(HY - 0.55 * H) + " q 30 -" + f(0.2 * H) + " 70 -" + f(0.3 * H), 3, 0.6);
+      for (var d = 0; d < 3; d++) out += VT.ell(wx + 20 + d * 34, HY - H - 14 - 10 * Math.sin(Math.round(t * 12) + d), 7, 7, "#FFFDF6", 3);
+    }
     // Wob đi bộ cạnh tàu (phía trước tàu, trên nét đứt), mặt nghiêm
-    var o = { t: t, s: 0.5, x: shipX + 170, y: HY + 20, flip: -1, mouth: "flat", brows: "down", px: 16, py: 0, legs: fr < 0.45 ? "walk" : "stand", phase: kk * 1.1, stride: 40 };
+    var o = { t: t, s: 0.5, x: shipX + 170 + 110 * VT.ease.out(seg(t, WV0, WV1)) * (1 - seg(t, WV2, WV3)), y: HY + 20, flip: -1, mouth: "flat", brows: "down", px: 16, py: 0, legs: fr < 0.45 ? "walk" : "stand", phase: kk * 1.1, stride: 40 };
+    if (t >= WV0 + 0.1 && t < WV3) { o.flip = 1; o.brows = "worried"; o.px = -16; o.py = -6; o.legs = "stand"; }
     out += wob(o);
     return out;
   }

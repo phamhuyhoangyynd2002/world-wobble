@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 4.975,
- "bat_dau_tuyet_doi": 140.058,
+ "bat_dau_tuyet_doi": 140.25,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay trên trang sổ phác: hình con tàu buồm, mũi tên chỉ vào đảo, dấu \"?\"",
  "trang_phuc": "Wob vẽ tay ở mép trang, ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác), mũ trùm HẠ (trên đảo), ba lô nhỏ",
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 3.95,
    "loi": "The explorer.",
-   "hanh_dong": "[day-vao-cham] Camera đẩy vào con tàu: đúng \"explorer.\" (≈ 144.20 s) Wob vẽ thêm cho tàu một mỏ neo thả xuống sát bờ đảo (ông ấy chắc ở lại), gật gù đắc ý (hao-hung); giữ 0,6 s trước cắt 145.03 s",
+   "hanh_dong": "[day-vao-cham] Camera đẩy vào con tàu: đúng \"explorer.\" (≈ 144.39 s) Wob vẽ thêm cho tàu một mỏ neo thả xuống sát bờ đảo (ông ấy chắc ở lại), gật gù đắc ý (hao-hung); giữ 0,6 s trước cắt 145.22 s",
    "gag": "Mỏ neo Wob vẽ thả \"tõm\" sát bờ (gài cho d13: tàu kéo neo lên đi tiếp)",
    "dao_cu": [
     "so-phac-thao"

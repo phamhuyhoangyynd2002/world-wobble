@@ -1,7 +1,7 @@
 /* d33 · vẽ tay (430,596–437,670 s; 7,07 s). Vào "cat", ra "cat". Hồi ức, không khẩu hình. Chữ: 2015 (thẻ giấy). Dòng TRISTAN DA CUNHA không vẽ (tem < 45 px).
- *  1. Tờ giấy có chín mẫu tem vẽ tay nét mực đen trắng (núi lửa, thuyền dài, nhà mái thấp, tôm hùm, khoai, tàu buồm, sóng, hòn đảo, nhà thờ nhỏ;
+ *  1. Tờ giấy có chín mẫu tem vẽ tay nét mực đen trắng, ĐÚNG bộ mẫu d32 (núi lửa, thuyền dài, ba lều; bò, tôm hùm, cá; khoai, tàu buồm, mũ;
  *     KHÔNG chim cánh cụt, KHÔNG mệnh giá); thẻ "2015" viết dần ở "twenty fifteen"; nét mực sôi: từng hàng mọc răng cưa thành tem thật ("printed … real stamps").
- *  2. Wob giơ bưu thiếp: con tem núi lửa trên đó khớp đúng ô giữa của bộ chín, lắp vào như mảnh ghép "tách" (ting); Wob ôm bưu thiếp vào ngực, hớn hở.
+ *  2. Wob giơ bưu thiếp: con tem núi lửa trên đó khớp đúng ô núi lửa (trên trái) của bộ chín, lắp vào như mảnh ghép "tách" (ting); Wob ôm bưu thiếp vào ngực, hớn hở.
  * Trang phục: áo mưa cam mũ trùm hạ, ba lô nhỏ ô liu; cầm bưu thiếp (tem trên bưu thiếp cũng không chim cánh cụt).
  */
 window.CANH = function (VT, D) {
@@ -11,11 +11,11 @@ window.CANH = function (VT, D) {
   var SNAP = T_SET - 0.5, HUG0 = SNAP + 0.3, HUG1 = HUG0 + 0.35;
   ROW_T.forEach(function (tt, i) { VT.sfx("pop", tt, 0.3 + i * 0.05); });
   VT.sfx("ting", SNAP, 0.7);
-  var SC = [900, 560], SW = 96, SHt = 116, ORDER = [6, 1, 2, 3, 0, 5, 4, 7, 8];
+  var SC = [900, 560], SW = 96, SHt = 116, ORDER = [0, 1, 2, 3, 4, 5, 6, 7, 8], TGT = 0;   // đúng bố cục và thứ tự tờ mẫu d32 (B.TEM32), núi lửa ô trên trái
   var CARD_S = SW / 64;                                   // tem trên bưu thiếp (64×78) phóng bằng đúng tem của bộ
   var OFF = [(150 - 48) * CARD_S, (-100 + 54) * CARD_S];  // tâm tem so với tâm bưu thiếp (w 300, h 200)
   function cell(i) { return [SC[0] + ((i % 3) - 1) * 140, SC[1] + (Math.floor(i / 3) - 1) * 165 + 20]; }
-  function design(idx, w, h, scale) { return function (ww, hh) { return VT.g("scale(" + scale + ")", B.TEM[idx](ww / scale, hh / scale)); }; }
+  function design(idx, w, h, scale) { return function (ww, hh) { return VT.g("scale(" + scale + ")", B.TEM32[idx](ww / scale, hh / scale)); }; }
   function sheet(t, flashK) {
     var out = B.fill("#E3D3B4") + VT.shape("M 600 210 L 1200 210 L 1200 900 L 600 900 Z", "#EFE3C8", { sw: 6, ox: 10, oy: 10 });
     for (var y = 260; y < 890; y += 60) out += VT.line("M 620 " + y + " L 1180 " + y, 2, "#C9B590", 0.35);
@@ -27,10 +27,10 @@ window.CANH = function (VT, D) {
       var sc = 1 + 0.12 * Math.sin(Math.PI * k);
       if (k <= 0) {   // còn là mẫu vẽ: ô chữ nhật nét bút chì
         out += VT.line("M " + (p[0] - SW / 2) + " " + (p[1] - SHt / 2) + " L " + (p[0] + SW / 2) + " " + (p[1] - SHt / 2) + " L " + (p[0] + SW / 2) + " " + (p[1] + SHt / 2) + " L " + (p[0] - SW / 2) + " " + (p[1] + SHt / 2) + " Z", 3, "#6B6B6B", 0.8);
-        out += VT.g("translate(" + p[0] + " " + p[1] + ")", VT.g("scale(0.62)", B.TEM[ORDER[i]]((SW - 20) / 0.62, (SHt - 20) / 0.62)));
+        out += VT.g("translate(" + p[0] + " " + p[1] + ")", VT.g("scale(0.62)", B.TEM32[ORDER[i]]((SW - 20) / 0.62, (SHt - 20) / 0.62)));
       } else out += B.stamp({ x: p[0], y: p[1], w: SW, h: SHt, s: sc, perf: k, design: design(ORDER[i], SW, SHt, 0.62) });
     }
-    if (flashK > 0 && flashK < 1) { var c = cell(4); out += VT.line("M " + (c[0] - 64) + " " + (c[1] - 74) + " L " + (c[0] + 64) + " " + (c[1] - 74) + " L " + (c[0] + 64) + " " + (c[1] + 74) + " L " + (c[0] - 64) + " " + (c[1] + 74) + " Z", 7, "#E8C25A", 1 - flashK) + VT.radialLines(c[0], c[1], 110, 170 + 40 * flashK, 10, 3, 6, "#E8C25A"); }
+    if (flashK > 0 && flashK < 1) { var c = cell(TGT); out += VT.line("M " + (c[0] - 64) + " " + (c[1] - 74) + " L " + (c[0] + 64) + " " + (c[1] - 74) + " L " + (c[0] + 64) + " " + (c[1] + 74) + " L " + (c[0] - 64) + " " + (c[1] + 74) + " Z", 7, "#E8C25A", 1 - flashK) + VT.radialLines(c[0], c[1], 110, 170 + 40 * flashK, 10, 3, 6, "#E8C25A"); }
     return out;
   }
   function card(x, y, s, rot) { return B.postcard({ x: x, y: y, s: s, rot: rot || 0, stampDesign: 0 }); }
@@ -43,7 +43,7 @@ window.CANH = function (VT, D) {
   }
   function shot2(t) {
     var snapK = seg(t, SNAP, SNAP + 0.5), out = sheet(t, snapK);
-    var tgt = cell(4), cEnd = [tgt[0] - OFF[0], tgt[1] - OFF[1]];
+    var tgt = cell(TGT), cEnd = [tgt[0] - OFF[0], tgt[1] - OFF[1]];
     var o = { t: t, s: 1.0, x: 1320, y: 960, flip: -1, mouth: "content", brows: "up", px: -18, py: -6 };
     var cx, cy, cs, cr;
     if (t < SNAP) {
@@ -184,6 +184,25 @@ window.VTB = function (VT, D) {
     function (w, h) { return L("M -50 14 C -30 -30 30 -30 50 14 Z") + L("M -10 -16 L 0 -34 L 10 -16", 3) + L("M -56 22 L 56 22", 3); }, // hòn đảo
     function (w, h) { return L("M -30 30 L -30 -20 L 30 -20 L 30 30") + L("M -38 -20 L 0 -46 L 38 -20", 4) + L("M 0 -46 L 0 -60 M -8 -54 L 8 -54", 3) + L("M -8 30 L -8 6 L 8 6 L 8 30", 3); }, // nhà thờ nhỏ
   ];
+  /** Chín mẫu tem ĐÚNG như tờ mẫu d32 (cắt giấy, khung 15,0 s), thứ tự hàng: núi lửa mây đội đỉnh, thuyền dài mái chèo, ba lều; bò, tôm hùm, cá; khoai, tàu buồm, mũ.
+   *  Mỗi mẫu có vạch tên đậm trên đầu (không chữ) và dấu tròn hai chấm góc dưới phải như d32. KHÔNG chim cánh cụt, KHÔNG mệnh giá. B.TEM32[i](w, h), gốc tâm. */
+  var FI = function (d, sw) { return VT.shape(d, INK, { sw: sw || 3, ox: 0, oy: 0 }); };
+  function khung32(w, h, body) {
+    return FI("M " + f(-w * 0.4) + " " + f(-h * 0.46) + " L " + f(w * 0.4) + " " + f(-h * 0.46) + " L " + f(w * 0.4) + " " + f(-h * 0.38) + " L " + f(-w * 0.4) + " " + f(-h * 0.38) + " Z") +
+      VT.g("translate(0 " + f(h * 0.04) + ")", body) + VT.ell(w * 0.36, h * 0.42, 9, 8, "#FFFDF6", 3, { ox: 0, oy: 0 }) + VT.dot(w * 0.36 - 3, h * 0.42, 2) + VT.dot(w * 0.36 + 3, h * 0.42, 2);
+  }
+  B.TEM32 = [
+    function (w, h) { return khung32(w, h, L("M -40 24 L -12 -24 L 12 -24 L 40 24 Z", 4) + VT.shape("M -20 -22 C -26 -34 -14 -42 -4 -38 C 2 -48 18 -44 18 -34 C 28 -34 28 -22 18 -20 Z", "#FFFDF6", { sw: 3, ox: 0, oy: 0 }) + L("M -6 24 L -2 34 M 6 24 L 2 36", 3) + L("M -52 34 q 13 -7 26 0 t 26 0 t 26 0 t 26 0", 3) + L("M -46 44 q 13 -7 26 0 t 26 0 t 26 0", 3)); },
+    function (w, h) { return khung32(w, h, FI("M -50 4 C -30 16 30 16 52 2 C 40 10 -36 10 -50 4 Z", 3) + FI("M -50 2 L 52 0 L 46 8 L -44 9 Z", 2) + L("M -30 10 L -38 26 M -14 10 L -20 28 M 2 10 L -2 28 M 18 10 L 16 28 M 34 9 L 34 26", 3) + L("M -52 24 q 13 -6 26 0 t 26 0 t 26 0 t 26 0", 3)); },
+    function (w, h) { var o = ""; for (var i = -1; i <= 1; i++) o += L("M " + (i * 34 - 14) + " 14 L " + (i * 34 - 14) + " -8 L " + (i * 34) + " -24 L " + (i * 34 + 14) + " -8 L " + (i * 34 + 14) + " 14", 4); return khung32(w, h, o + L("M -54 14 L 54 14", 4)); },
+    function (w, h) { return khung32(w, h, L("M -40 -14 L 22 -14 L 22 12 L -40 12 Z", 4) + L("M -34 12 L -34 30 M -22 12 L -22 30 M 6 12 L 6 30 M 16 12 L 16 30", 4) + VT.ell(36, -18, 14, 12, "#FFFDF6", 4, { ox: 0, oy: 0 }) + L("M -40 -10 C -50 -4 -52 6 -48 14", 3) + L("M -54 32 L 54 32", 3)); },
+    function (w, h) { return khung32(w, h, FI("M -26 4 C -18 -8 18 -8 30 2 C 18 12 -18 12 -26 4 Z", 3) + L("M -26 4 L -44 -2 M -26 4 L -44 10", 3) + L("M 24 -2 L 2 -34 M 26 8 L 44 28", 4) + VT.dot(2, -34, 6) + VT.dot(44, 28, 6) + L("M -10 8 L -16 22 M 4 9 L 4 24 M 16 8 L 22 22 M -6 -2 L -12 -16 M 10 -3 L 16 -16", 3) + L("M 30 2 L 46 -6 M 30 2 L 46 10", 3)); },
+    function (w, h) { return khung32(w, h, L("M -34 2 C -22 -16 16 -16 28 2 C 16 20 -22 20 -34 2 Z", 4) + L("M 28 2 L 46 -12 L 46 16 Z", 4) + VT.dot(-20, -2, 4) + L("M -10 -8 C -6 -2 -6 6 -10 12", 3) + L("M 2 2 L 18 2", 3)); },
+    function (w, h) { return khung32(w, h, L("M -32 2 C -32 -18 32 -18 32 2 C 32 20 -32 20 -32 2 Z", 4) + VT.dot(-12, -4, 3.5) + VT.dot(10, -6, 3.5) + VT.dot(2, 8, 3.5)); },
+    function (w, h) { return khung32(w, h, L("M 0 16 L 0 -36", 3) + L("M -4 12 L -4 -30 L -30 12 Z", 4) + L("M 4 12 L 4 -26 L 26 12 Z", 4) + FI("M -34 18 L 34 18 L 26 30 L -26 30 Z", 3)); },
+    function (w, h) { return khung32(w, h, L("M -34 16 C -34 -14 34 -14 34 16 Z", 4) + FI("M -8 -10 L 0 -22 L 8 -10 Z", 2) + L("M -52 24 q 13 -6 26 0 t 26 0 t 26 0 t 26 0", 3)); },
+  ];
+  B.TEM[0] = B.TEM32[0];   // tem bưu thiếp = ô núi lửa của bộ d32 (d33 khớp ô, d34 cận tem)
   /** Bưu thiếp (mặt viết): gốc tâm, w 300, h 200, stampDesign (chỉ số B.TEM), stampOff (ẩn tem). */
   B.postcard = function (o) {
     var w = o.w || 300, h = o.h || 200, hw = w / 2, hh = h / 2, out = VT.shape("M " + (-hw) + " " + (-hh) + " L " + hw + " " + (-hh) + " L " + hw + " " + hh + " L " + (-hw) + " " + hh + " Z", "#FBF4E2", { sw: 5, ox: 4, oy: 4 });
@@ -195,15 +214,16 @@ window.VTB = function (VT, D) {
   };
   /** Túi thư vải bố nâu nhạt, dây rút: gốc giữa đáy, cao ~260 ở s = 1. open 0..1 (miệng mở), label: chữ trên thẻ (chu_tren_do_vat), labelSize. */
   B.mailBag = function (o) {
-    var op = o.open == null ? 0 : o.open, out = "", CB = "#D8C29A", CBD = "#B79E72";
+    var op = o.open == null ? 0 : o.open, out = "", CB = "#CDB88E", CBD = "#B39A6C", DAY = "#8A6440";
     var neck = VT.lerp(26, 70, op);
     out += VT.shape("M -110 -10 C -130 -120 -90 -200 " + f(-neck) + " -220 L " + f(neck) + " -220 C 90 -200 130 -120 110 -10 C 80 6 -80 6 -110 -10 Z", CB, { sw: 6, ox: 6, oy: 5 });
+    out += VT.shape("M -78 -120 L -6 -124 L -4 -66 L -74 -62 Z", CBD, { sw: 4, ox: 0, oy: 0 }) + VT.line("M -70 -114 L -12 -116 M -68 -72 L -10 -74", 2, INK, 0.45) + VT.line("M 66 -140 C 74 -90 70 -50 60 -18", 3, CBD);
     out += VT.line("M -70 -150 C -76 -100 -72 -50 -60 -16", 3, CBD) + VT.line("M 66 -140 C 74 -90 70 -50 60 -18", 3, CBD) + VT.line("M -20 -190 C -24 -120 -20 -60 -14 -10", 3, CBD, 0.7);
     if (op > 0.05) out += VT.ell(0, -222, neck, 12 + 10 * op, "#5E4A30", 5, { ox: 0, oy: 0 });
     else out += VT.shape("M -34 -226 C -10 -250 10 -250 34 -226 C 14 -214 -14 -214 -34 -226 Z", CB, { sw: 5 });
-    out += VT.line("M " + f(-neck - 6) + " -204 C -20 -194 20 -194 " + f(neck + 6) + " -204", 6, "#8A6A3A") + VT.line("M " + f(neck + 4) + " -204 C " + f(neck + 26) + " -190 " + f(neck + 20) + " -170 " + f(neck + 34) + " -160", 5, "#8A6A3A");
+    out += VT.line("M " + f(-neck - 6) + " -204 C -20 -194 20 -194 " + f(neck + 6) + " -204", 6, DAY) + VT.line("M " + f(neck + 4) + " -204 C " + f(neck + 26) + " -190 " + f(neck + 20) + " -170 " + f(neck + 34) + " -160", 5, DAY);
     if (o.label) {
-      var ls = o.labelSize || 60, lw = VT.textW(o.label, ls) + 40;
+      var ls = o.labelSize || 60, lw = VT.textW(o.label, ls) * 1.14 + Math.max(28, ls * 0.7);
       out += VT.line("M " + f(neck + 34) + " -160 L " + f(neck + 40) + " -130", 4) + VT.shape("M " + f(-lw / 2) + " -130 L " + f(lw / 2) + " -130 L " + f(lw / 2) + " " + f(-130 + ls * 1.5) + " L " + f(-lw / 2) + " " + f(-130 + ls * 1.5) + " Z", "#FFFDF6", { sw: 5 }) +
         VT.text(0, -130 + ls * 1.1, o.label, ls, { fill: "#2c4f6e" });
     }

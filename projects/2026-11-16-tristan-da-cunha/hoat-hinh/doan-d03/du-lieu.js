@@ -710,7 +710,7 @@ window.HH_DATA = {
   {
    "scene": 2,
    "bat_dau": 7.137,
-   "thoi_luong": 31.776,
+   "thoi_luong": 31.968,
    "tu": [
     {
      "text": "The",
@@ -1053,144 +1053,154 @@ window.HH_DATA = {
      "end": 29.187
     },
     {
-     "text": "But",
+     "text": "The",
      "start": 29.55,
      "end": 29.75
     },
     {
-     "text": "first,",
+     "text": "answer",
      "start": 29.762,
-     "end": 30.262
+     "end": 30.125
+    },
+    {
+     "text": "starts",
+     "start": 30.137,
+     "end": 30.5
+    },
+    {
+     "text": "with",
+     "start": 30.512,
+     "end": 30.637
     },
     {
      "text": "an",
-     "start": 30.462,
-     "end": 30.537
+     "start": 30.649,
+     "end": 30.724
     },
     {
      "text": "older",
-     "start": 30.55,
-     "end": 30.775
+     "start": 30.737,
+     "end": 30.987
     },
     {
      "text": "question.",
-     "start": 30.787,
-     "end": 31.262
+     "start": 31.0,
+     "end": 31.462
     },
     {
      "text": "Who",
-     "start": 31.625,
-     "end": 31.8
+     "start": 31.825,
+     "end": 32.0
     },
     {
      "text": "would",
-     "start": 31.812,
-     "end": 31.912
+     "start": 32.012,
+     "end": 32.112
     },
     {
      "text": "start",
-     "start": 31.925,
-     "end": 32.125
+     "start": 32.125,
+     "end": 32.325
     },
     {
      "text": "a",
-     "start": 32.137,
-     "end": 32.175
+     "start": 32.337,
+     "end": 32.375
     },
     {
      "text": "village",
-     "start": 32.187,
-     "end": 32.537
+     "start": 32.387,
+     "end": 32.737
     },
     {
      "text": "out",
-     "start": 32.55,
-     "end": 32.687
+     "start": 32.75,
+     "end": 32.887
     },
     {
      "text": "there",
-     "start": 32.699,
-     "end": 32.837
+     "start": 32.899,
+     "end": 33.037
     },
     {
      "text": "at",
-     "start": 32.849,
-     "end": 32.937
+     "start": 33.05,
+     "end": 33.137
     },
     {
      "text": "all?",
-     "start": 32.949,
-     "end": 33.287
+     "start": 33.149,
+     "end": 33.487
     },
     {
      "text": "I",
-     "start": 33.649,
-     "end": 33.837
+     "start": 33.849,
+     "end": 34.037
     },
     {
      "text": "guessed",
-     "start": 33.849,
-     "end": 34.075
+     "start": 34.05,
+     "end": 34.275
     },
     {
      "text": "wrong.",
-     "start": 34.087,
-     "end": 34.437
+     "start": 34.287,
+     "end": 34.637
     },
     {
      "text": "Twice.",
-     "start": 34.8,
-     "end": 35.4
+     "start": 35.0,
+     "end": 35.6
     },
     {
      "text": "The",
-     "start": 35.762,
-     "end": 35.962
+     "start": 35.962,
+     "end": 36.162
     },
     {
      "text": "answer,",
-     "start": 35.974,
-     "end": 36.399
+     "start": 36.175,
+     "end": 36.6
     },
     {
      "text": "it",
-     "start": 36.524,
-     "end": 36.599
+     "start": 36.724,
+     "end": 36.799
     },
     {
      "text": "turned",
-     "start": 36.612,
-     "end": 36.937
+     "start": 36.812,
+     "end": 37.137
     },
     {
      "text": "out,",
-     "start": 36.949,
-     "end": 37.162
+     "start": 37.149,
+     "end": 37.362
     },
     {
      "text": "lived",
-     "start": 37.474,
-     "end": 37.699
+     "start": 37.675,
+     "end": 37.9
     },
     {
      "text": "on",
-     "start": 37.712,
-     "end": 37.799
+     "start": 37.912,
+     "end": 37.999
     },
     {
      "text": "a",
-     "start": 37.812,
-     "end": 37.875
+     "start": 38.012,
+     "end": 38.075
     },
     {
      "text": "different",
-     "start": 37.887,
-     "end": 38.175
+     "start": 38.087,
+     "end": 38.375
     },
     {
      "text": "island.",
-     "start": 38.187,
-     "end": 38.537
+     "start": 38.387,
+     "end": 38.737
     }
    ],
    "khau_hinh": [

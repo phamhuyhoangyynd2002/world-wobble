@@ -1,0 +1,84 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.4,
+      "true_peak": -1.3
+    },
+    "video.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.4
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 0.0,
+      "end": 140.25
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 140.25,
+      "end": 273.39
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 273.39,
+      "end": 398.45
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 398.45,
+      "end": 455.496
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 455.996,
+      "end": 502.328
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 504.328,
+      "end": 541.076
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 541.776,
+      "end": 592.428
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 592.428,
+      "end": 639.93
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 639.93,
+      "end": 714.668
+    }
+  ],
+  "sfx_count": 200,
+  "sections": {
+    "than_video": {
+      "lufs": -14.2,
+      "true_peak": -1.4
+    },
+    "canh_cuoi": {
+      "lufs": -14.1,
+      "true_peak": -2.1
+    }
+  }
+}

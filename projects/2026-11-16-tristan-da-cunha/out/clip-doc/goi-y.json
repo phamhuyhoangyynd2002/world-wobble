@@ -1,0 +1,1660 @@
+{
+ "so_ung_vien": 1523,
+ "da_loai": {
+  "cau_mo": 79,
+  "it_tu": 0,
+  "khung_trong": 0
+ },
+ "chon": [
+  {
+   "start": 54.95,
+   "end": 110.08,
+   "duration": 55.1,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me. We met halfway. Not gracefully."
+  },
+  {
+   "start": 129.4,
+   "end": 170.33,
+   "duration": 40.9,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato."
+  },
+  {
+   "start": 217.57,
+   "end": 261.39,
+   "duration": 43.8,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 242.05,
+    "den": 243.53,
+    "cau": "Others kept arriving."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed."
+  },
+  {
+   "start": 510.93,
+   "end": 549.88,
+   "duration": 39.0,
+   "chapter": "October 1961",
+   "claims": [
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "near Southampton, from January nineteen sixty-two.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 548.07,
+    "den": 549.78,
+    "cau": "Five voted to stay."
+   },
+   "text": "near Southampton, from January nineteen sixty-two. They found work quickly. By the end of February, a hundred and thirteen of them had jobs. But they had little resistance to the flu going around, and the winter that followed was bitter. In July nineteen sixty-two, the British government told Parliament the islanders should stay in England. Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there. By September, twelve islanders were back on Tristan to see it for themselves. In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay."
+  },
+  {
+   "start": 577.47,
+   "end": 625.97,
+   "duration": 48.5,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 17.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it."
+  }
+ ],
+ "tat_ca": [
+  {
+   "start": 577.47,
+   "end": 625.97,
+   "duration": 48.5,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 17.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it."
+  },
+  {
+   "start": 54.95,
+   "end": 110.08,
+   "duration": 55.1,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me. We met halfway. Not gracefully."
+  },
+  {
+   "start": 217.57,
+   "end": 261.39,
+   "duration": 43.8,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 242.05,
+    "den": 243.53,
+    "cau": "Others kept arriving."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed."
+  },
+  {
+   "start": 217.57,
+   "end": 270.37,
+   "duration": 52.8,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 261.31,
+    "den": 265.03,
+    "cau": "Today, nearly every islander carries one of seven family names."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed. Today, nearly every islander carries one of seven family names. It works a bit like a guestbook where every signature turned into a family. I signed it too."
+  },
+  {
+   "start": 217.57,
+   "end": 271.44,
+   "duration": 53.9,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 261.31,
+    "den": 265.03,
+    "cau": "Today, nearly every islander carries one of seven family names."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed. Today, nearly every islander carries one of seven family names. It works a bit like a guestbook where every signature turned into a family. I signed it too. In pencil."
+  },
+  {
+   "start": 217.57,
+   "end": 272.43,
+   "duration": 54.9,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 261.31,
+    "den": 265.03,
+    "cau": "Today, nearly every islander carries one of seven family names."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed. Today, nearly every islander carries one of seven family names. It works a bit like a guestbook where every signature turned into a family. I signed it too. In pencil. Just in case."
+  },
+  {
+   "start": 577.47,
+   "end": 620.86,
+   "duration": 43.4,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea."
+  },
+  {
+   "start": 577.47,
+   "end": 628.13,
+   "duration": 50.7,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back."
+  },
+  {
+   "start": 577.47,
+   "end": 630.55,
+   "duration": 53.1,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages."
+  },
+  {
+   "start": 577.47,
+   "end": 633.25,
+   "duration": 55.8,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 16.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages. Then the boat came, and I almost didn't get in."
+  },
+  {
+   "start": 168.58,
+   "end": 222.23,
+   "duration": 53.7,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave."
+  },
+  {
+   "start": 168.58,
+   "end": 223.49,
+   "duration": 54.9,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job."
+  },
+  {
+   "start": 217.57,
+   "end": 250.67,
+   "duration": 33.1,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 242.05,
+    "den": 243.53,
+    "cau": "Others kept arriving."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain."
+  },
+  {
+   "start": 217.57,
+   "end": 255.43,
+   "duration": 37.9,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 242.05,
+    "den": 243.53,
+    "cau": "Others kept arriving."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena."
+  },
+  {
+   "start": 217.57,
+   "end": 265.13,
+   "duration": 47.6,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 261.31,
+    "den": 265.03,
+    "cau": "Today, nearly every islander carries one of seven family names."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed. Today, nearly every islander carries one of seven family names."
+  },
+  {
+   "start": 217.57,
+   "end": 269.07,
+   "duration": 51.5,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26"
+   ],
+   "score": 15.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định"
+   ],
+   "cau_mo": "The soldiers sailed away in November eighteen seventeen.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 261.31,
+    "den": 265.03,
+    "cau": "Today, nearly every islander carries one of seven family names."
+   },
+   "text": "The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others. Others kept arriving. A sailor from Hastings. A Dutchman whose ship was wrecked. An American whaler, and later an American whaling captain. In eighteen twenty-seven, a ship's captain brought five women over from St Helena. In eighteen ninety-two, two Italian sailors came ashore from a wrecked ship, the Italia, and stayed. Today, nearly every islander carries one of seven family names. It works a bit like a guestbook where every signature turned into a family."
+  },
+  {
+   "start": 54.95,
+   "end": 98.65,
+   "duration": 43.7,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off."
+  },
+  {
+   "start": 54.95,
+   "end": 108.76,
+   "duration": 53.8,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me. We met halfway."
+  },
+  {
+   "start": 577.47,
+   "end": 615.67,
+   "duration": 38.2,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62",
+    "C63"
+   ],
+   "score": 14.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest."
+  },
+  {
+   "start": 60.41,
+   "end": 110.08,
+   "duration": 49.7,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The crossing usually takes around six days.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me. We met halfway. Not gracefully."
+  },
+  {
+   "start": 129.4,
+   "end": 170.33,
+   "duration": 40.9,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato."
+  },
+  {
+   "start": 129.4,
+   "end": 173.22,
+   "duration": 43.8,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato. Shipwrecks do turn up in this story, later."
+  },
+  {
+   "start": 129.4,
+   "end": 174.25,
+   "duration": 44.8,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato. Shipwrecks do turn up in this story, later. They didn't start it."
+  },
+  {
+   "start": 129.4,
+   "end": 179.05,
+   "duration": 49.6,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon."
+  },
+  {
+   "start": 168.58,
+   "end": 202.23,
+   "duration": 33.7,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island."
+  },
+  {
+   "start": 168.58,
+   "end": 207.57,
+   "duration": 39.0,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach."
+  },
+  {
+   "start": 168.58,
+   "end": 213.55,
+   "duration": 45.0,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut."
+  },
+  {
+   "start": 168.58,
+   "end": 217.65,
+   "duration": 49.1,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother."
+  },
+  {
+   "start": 168.58,
+   "end": 221.27,
+   "duration": 52.7,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen."
+  },
+  {
+   "start": 168.58,
+   "end": 225.23,
+   "duration": 56.7,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "5 khẳng định"
+   ],
+   "cau_mo": "I found a potato.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon. After his final defeat, Britain exiled Napoleon to St Helena, another lonely island, more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village?"
+  },
+  {
+   "start": 184.41,
+   "end": 239.43,
+   "duration": 55.0,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "more than two thousand kilometres north of Tristan.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits."
+  },
+  {
+   "start": 510.93,
+   "end": 549.88,
+   "duration": 39.0,
+   "chapter": "October 1961",
+   "claims": [
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "near Southampton, from January nineteen sixty-two.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 548.07,
+    "den": 549.78,
+    "cau": "Five voted to stay."
+   },
+   "text": "near Southampton, from January nineteen sixty-two. They found work quickly. By the end of February, a hundred and thirteen of them had jobs. But they had little resistance to the flu going around, and the winter that followed was bitter. In July nineteen sixty-two, the British government told Parliament the islanders should stay in England. Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there. By September, twelve islanders were back on Tristan to see it for themselves. In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay."
+  },
+  {
+   "start": 510.93,
+   "end": 561.83,
+   "duration": 50.9,
+   "chapter": "October 1961",
+   "claims": [
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "near Southampton, from January nineteen sixty-two.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 548.07,
+    "den": 549.78,
+    "cau": "Five voted to stay."
+   },
+   "text": "near Southampton, from January nineteen sixty-two. They found work quickly. By the end of February, a hundred and thirteen of them had jobs. But they had little resistance to the flu going around, and the winter that followed was bitter. In July nineteen sixty-two, the British government told Parliament the islanders should stay in England. Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there. By September, twelve islanders were back on Tristan to see it for themselves. In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before."
+  },
+  {
+   "start": 510.93,
+   "end": 566.07,
+   "duration": 55.1,
+   "chapter": "October 1961",
+   "claims": [
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "near Southampton, from January nineteen sixty-two.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 548.07,
+    "den": 549.78,
+    "cau": "Five voted to stay."
+   },
+   "text": "near Southampton, from January nineteen sixty-two. They found work quickly. By the end of February, a hundred and thirteen of them had jobs. But they had little resistance to the flu going around, and the winter that followed was bitter. In July nineteen sixty-two, the British government told Parliament the islanders should stay in England. Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there. By September, twelve islanders were back on Tristan to see it for themselves. In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before. I tried that vote on myself, about my own street. I like my street."
+  },
+  {
+   "start": 510.93,
+   "end": 567.58,
+   "duration": 56.7,
+   "chapter": "October 1961",
+   "claims": [
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "6 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "near Southampton, from January nineteen sixty-two.",
+   "tu_trong_5s": 10,
+   "teaser": {
+    "tu": 548.07,
+    "den": 549.78,
+    "cau": "Five voted to stay."
+   },
+   "text": "near Southampton, from January nineteen sixty-two. They found work quickly. By the end of February, a hundred and thirteen of them had jobs. But they had little resistance to the flu going around, and the winter that followed was bitter. In July nineteen sixty-two, the British government told Parliament the islanders should stay in England. Meanwhile, a team of scientists visited the volcano and reported that most of the village was still there. By September, twelve islanders were back on Tristan to see it for themselves. In December nineteen sixty-two, the islanders were given a ballot. A hundred and forty-eight voted to go back. Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before. I tried that vote on myself, about my own street. I like my street. I raised one hand."
+  },
+  {
+   "start": 548.09,
+   "end": 603.49,
+   "duration": 55.4,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C59",
+    "C60",
+    "C61",
+    "C62"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Five voted to stay.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 569.18,
+    "den": 573.66,
+    "cau": "In April nineteen sixty-three, an advance party landed home first."
+   },
+   "text": "Five voted to stay. Picture being handed the keys to a big city, with buses, shops and a doctor down the road. Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before. I tried that vote on myself, about my own street. I like my street. I raised one hand. The other one stayed in my pocket. In April nineteen sixty-three, an advance party landed home first. On the tenth of November, the main group of a hundred and ninety-eight arrived. My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet."
+  },
+  {
+   "start": 577.47,
+   "end": 609.15,
+   "duration": 31.7,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year."
+  },
+  {
+   "start": 577.47,
+   "end": 613.28,
+   "duration": 35.8,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C61",
+    "C62"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "My best guess at why?",
+   "tu_trong_5s": 16,
+   "teaser": null,
+   "text": "My best guess at why? England had more of almost everything. It didn't have their land, shared between them, or their say in how it was run. The next morning, I waited at the harbour for the small boat out to my ship. It opened in nineteen sixty-seven, a few years after the islanders came home. They named it Calshot, after the village in England that took them in. The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which."
+  },
+  {
+   "start": 599.09,
+   "end": 644.65,
+   "duration": 45.6,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C62",
+    "C63",
+    "C64",
+    "C65"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "The entrance is about eleven metres wide,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 642.99,
+    "den": 644.55,
+    "cau": "You can't move here."
+   },
+   "text": "The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages. Then the boat came, and I almost didn't get in. So, the postcard. I wrote it at the post office counter, the day before my ship left, and I haven't read it since. It says: Dear me. You can't move here."
+  },
+  {
+   "start": 599.09,
+   "end": 650.44,
+   "duration": 51.3,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C62",
+    "C63",
+    "C64",
+    "C65"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn",
+    "vắt hai chương"
+   ],
+   "cau_mo": "The entrance is about eleven metres wide,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 642.99,
+    "den": 644.55,
+    "cau": "You can't move here."
+   },
+   "text": "The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages. Then the boat came, and I almost didn't get in. So, the postcard. I wrote it at the post office counter, the day before my ship left, and I haven't read it since. It says: Dear me. You can't move here. Outsiders can't buy land, and you can't settle without family on the island. You asked anyway."
+  },
+  {
+   "start": 54.95,
+   "end": 104.76,
+   "duration": 49.8,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat."
+  },
+  {
+   "start": 54.95,
+   "end": 107.6,
+   "duration": 52.7,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08",
+    "C09"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me."
+  },
+  {
+   "start": 599.09,
+   "end": 630.55,
+   "duration": 31.5,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "The entrance is about eleven metres wide,",
+   "tu_trong_5s": 14,
+   "teaser": null,
+   "text": "The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages."
+  },
+  {
+   "start": 599.09,
+   "end": 633.25,
+   "duration": 34.2,
+   "chapter": "A Vote for the Volcano",
+   "claims": [
+    "C62",
+    "C63",
+    "C64"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định"
+   ],
+   "cau_mo": "The entrance is about eleven metres wide,",
+   "tu_trong_5s": 14,
+   "teaser": null,
+   "text": "The entrance is about eleven metres wide, roughly thirty-six feet. And the island government reckons the weather lets boats in and out safely on only about seventy days a year. Think of a shop that opens about one day in five, and never says which. While I waited, I added up the rest. The hospital usually has two doctors, and serious cases go to Cape Town by sea. In twenty oh eight, the fish factory burned down and took the island's power station with it. Full power took about a month to come back. My plan to move here was losing pages. Then the boat came, and I almost didn't get in."
+  },
+  {
+   "start": 54.95,
+   "end": 94.21,
+   "duration": 39.3,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C07",
+    "C08"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "about two thousand eight hundred kilometres away.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles. The crossing usually takes around six days. Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it."
+  },
+  {
+   "start": 63.1,
+   "end": 118.9,
+   "duration": 55.8,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Only nine sailings from Cape Town were on the twenty twenty-six schedule.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 78.24,
+    "den": 79.94,
+    "cau": "The sea stayed grey."
+   },
+   "text": "Only nine sailings from Cape Town were on the twenty twenty-six schedule. I took the small backpack this time. I got a bunk on a fishing ship and drew our route in my notebook, one dot for every hour. By the third day, the dots had gone off the edge of the page and across the table. The sea stayed grey. On Monday it was grey. By Thursday it was grey with real commitment. I packed and unpacked the small backpack until it filed a complaint. Then, one morning, a cloud sat on the horizon and refused to move. There was a mountain under it. Then came the part the ticket doesn't cover. Getting off. Big ships can't tie up at Tristan, so ours anchored offshore, and people and cargo went in by small boat. I stepped down into it just as it rose up to meet me. We met halfway. Not gracefully. Up close, the island is basically one volcano, just over two thousand metres tall, about sixty-seven hundred feet, wearing a cloud like a hat."
+  },
+  {
+   "start": 129.4,
+   "end": 176.91,
+   "duration": 47.5,
+   "chapter": "Six Days of Grey",
+   "claims": [
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "vắt hai chương"
+   ],
+   "cau_mo": "in eighteen sixty-seven.",
+   "tu_trong_5s": 12,
+   "teaser": {
+    "tu": 142.41,
+    "den": 144.15,
+    "cau": "I had a theory ready."
+   },
+   "text": "in eighteen sixty-seven. The islanders don't call it that. It's the Settlement. I stood on the shore with my small backpack and thought, nobody picks this on purpose. So who started all this? I had a theory ready. The explorer. A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north."
+  },
+  {
+   "start": 145.1,
+   "end": 179.05,
+   "duration": 33.9,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C14",
+    "C15",
+    "C16",
+    "C17"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "A Portuguese commander sighted the island in fifteen oh six,",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 168.56,
+    "den": 170.23,
+    "cau": "I found a potato."
+   },
+   "text": "A Portuguese commander sighted the island in fifteen oh six, and it still carries his name. Surely he moved in. He sailed on. The first landing anyone recorded came in sixteen forty-three, by a Dutch ship. Second theory. A shipwreck. Somebody's terrible day at sea, a raft, a beach, a brave new life. I walked the shore with a stick, looking for the wreck that started it all. I found a potato. Shipwrecks do turn up in this story, later. They didn't start it. The real beginning came from much further north. Napoleon."
+  },
+  {
+   "start": 184.41,
+   "end": 228.39,
+   "duration": 44.0,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C18",
+    "C19",
+    "C20",
+    "C21"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "more than two thousand kilometres north of Tristan.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay."
+  },
+  {
+   "start": 184.41,
+   "end": 232.81,
+   "duration": 48.4,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "more than two thousand kilometres north of Tristan.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children."
+  },
+  {
+   "start": 184.41,
+   "end": 242.15,
+   "duration": 57.7,
+   "chapter": "Who Starts a Village Here?",
+   "claims": [
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 8 từ",
+    "5 khẳng định"
+   ],
+   "cau_mo": "more than two thousand kilometres north of Tristan.",
+   "tu_trong_5s": 16,
+   "teaser": {
+    "tu": 217.55,
+    "den": 221.17,
+    "cau": "The soldiers sailed away in November eighteen seventeen."
+   },
+   "text": "more than two thousand kilometres north of Tristan. Britain worried the French could use Tristan as a base for a rescue. It also wanted to stop American ships using it as a base, as they had in the War of eighteen twelve. So on the fourteenth of August, eighteen sixteen, British troops landed and claimed the island. A garrison, guarding an emperor who wasn't there, on an island almost nobody could reach. I pictured it as locking the back door of a house across town, just in case a burglar uses it as a shortcut. About a year later, the navy decided the island wasn't worth the bother. The soldiers sailed away in November eighteen seventeen. Soldiers leave. That's their job. So why is there still a village? Because one of them asked to stay. Corporal William Glass, a Scotsman, stayed on with his wife and children. Then he and two stonemasons signed an agreement to share everything equally, the animals, the stores and the profits. Nobody in the group would stand above the others."
+  },
+  {
+   "start": 300.73,
+   "end": 343.23,
+   "duration": 42.5,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug very carefully.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 319.56,
+    "den": 322.48,
+    "cau": "There are even two lobsters on the coat of arms."
+   },
+   "text": "I dug very carefully. I lifted out one potato and held it up like a trophy. A cow on the other side of the wall looked at it. Then it went back to eating. Spare potatoes end up as cattle feed. The cow had seen better trophies. Second job, lobster. Tristan rock lobster is what the island lives on. There are even two lobsters on the coat of arms. The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong."
+  },
+  {
+   "start": 300.73,
+   "end": 344.43,
+   "duration": 43.7,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug very carefully.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 319.56,
+    "den": 322.48,
+    "cau": "There are even two lobsters on the coat of arms."
+   },
+   "text": "I dug very carefully. I lifted out one potato and held it up like a trophy. A cow on the other side of the wall looked at it. Then it went back to eating. Spare potatoes end up as cattle feed. The cow had seen better trophies. Second job, lobster. Tristan rock lobster is what the island lives on. There are even two lobsters on the coat of arms. The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it."
+  },
+  {
+   "start": 300.73,
+   "end": 345.93,
+   "duration": 45.2,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug very carefully.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 319.56,
+    "den": 322.48,
+    "cau": "There are even two lobsters on the coat of arms."
+   },
+   "text": "I dug very carefully. I lifted out one potato and held it up like a trophy. A cow on the other side of the wall looked at it. Then it went back to eating. Spare potatoes end up as cattle feed. The cow had seen better trophies. Second job, lobster. Tristan rock lobster is what the island lives on. There are even two lobsters on the coat of arms. The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again."
+  },
+  {
+   "start": 300.73,
+   "end": 350.41,
+   "duration": 49.7,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 4 từ",
+    "6 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug very carefully.",
+   "tu_trong_5s": 18,
+   "teaser": {
+    "tu": 319.56,
+    "den": 322.48,
+    "cau": "There are even two lobsters on the coat of arms."
+   },
+   "text": "I dug very carefully. I lifted out one potato and held it up like a trophy. A cow on the other side of the wall looked at it. Then it went back to eating. Spare potatoes end up as cattle feed. The cow had seen better trophies. Second job, lobster. Tristan rock lobster is what the island lives on. There are even two lobsters on the coat of arms. The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle."
+  },
+  {
+   "start": 322.27,
+   "end": 359.87,
+   "duration": 37.6,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C32",
+    "C33",
+    "C34",
+    "C35"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "4 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The fishery brings in roughly four-fifths of the territory's revenue,",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 342.9,
+    "den": 344.33,
+    "cau": "I slept through it."
+   },
+   "text": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo. Third job."
+  },
+  {
+   "start": 322.27,
+   "end": 361.21,
+   "duration": 38.9,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The fishery brings in roughly four-fifths of the territory's revenue,",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 342.9,
+    "den": 344.33,
+    "cau": "I slept through it."
+   },
+   "text": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo. Third job. I asked for a cow."
+  },
+  {
+   "start": 322.27,
+   "end": 370.92,
+   "duration": 48.7,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The fishery brings in roughly four-fifths of the territory's revenue,",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 342.9,
+    "den": 344.33,
+    "cau": "I slept through it."
+   },
+   "text": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo. Third job. I asked for a cow. The island keeps it to one breeding cow per household, so the grass doesn't get eaten bare. Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot."
+  },
+  {
+   "start": 322.27,
+   "end": 374.35,
+   "duration": 52.1,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The fishery brings in roughly four-fifths of the territory's revenue,",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 342.9,
+    "den": 344.33,
+    "cau": "I slept through it."
+   },
+   "text": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo. Third job. I asked for a cow. The island keeps it to one breeding cow per household, so the grass doesn't get eaten bare. Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot. I don't have a household on Tristan. So, no cow."
+  },
+  {
+   "start": 322.27,
+   "end": 376.79,
+   "duration": 54.5,
+   "chapter": "Auditioning for the Island",
+   "claims": [
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "5 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The fishery brings in roughly four-fifths of the territory's revenue,",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 342.9,
+    "den": 344.33,
+    "cau": "I slept through it."
+   },
+   "text": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council. But the boats only go out when the sea allows, and estimates of how many days that adds up to vary a lot. So the alarm clock here isn't a clock. Early in the morning, if the sky looks right, someone takes a hammer to an old oxygen bottle. That's the fishing gong. I slept through it. I slept through it again. On the next calm morning, I slept sitting up in my boots, right next to the bottle. Each little boat carries two fishermen, who haul up their traps with a winch. I mostly held a rope and tried not to become cargo. Third job. I asked for a cow. The island keeps it to one breeding cow per household, so the grass doesn't get eaten bare. Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot. I don't have a household on Tristan. So, no cow. I patted somebody else's cow instead."
+  }
+ ]
+}

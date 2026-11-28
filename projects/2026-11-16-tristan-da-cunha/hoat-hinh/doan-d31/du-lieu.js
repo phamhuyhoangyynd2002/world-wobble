@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 12.887,
- "bat_dau_tuyet_doi": 398.258,
+ "bat_dau_tuyet_doi": 398.45,
  "lop": "hoi-uc",
  "boi_canh": "Quầy bưu điện gỗ nhỏ (biển POST OFFICE trên cửa), cửa sổ bán tem; rồi CẬN CỰC GẦN con tem trên bưu thiếp; rồi một chồng thư buộc dây nằm trên mỏm đá, bóng một cánh buồm lướt qua chân trời",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); cầm BƯU THIẾP: giấy kem #F3E6C8 mép quăn, một góc sờn. MẶT TRANH: núi lửa hình nón đội mây trên biển xám. MẶT VIẾT: nét chữ tay mực xanh đen chi chít kín tới mép (vẽ là nét nguệch ngoạc, KHÔNG chữ đọc được trừ khi đoạn ghi rõ), 2–3 dấu bưu điện tròn chồng chéo (vòng + vạch sóng, KHÔNG chữ, KHÔNG số); góc phải trên dán CON TEM nét mực ĐEN TRẮNG kiểu vẽ tay 1946 có răng cưa: núi lửa hình nón + thuyền dài có mái chèo, dòng TRISTAN DA CUNHA trên đỉnh tem (chỉ vẽ chữ khi cận ≥ 45 px, cỡ xa thay bằng vạch mực); KHÔNG mệnh giá, KHÔNG chim cánh cụt. Ở đoạn này MẶT VIẾT ÚP xuống quầy, không thấy chữ (Wob viết nó ngay tại quầy này: chớp lại ở d47)",
@@ -57,7 +57,7 @@ window.HH_DATA = {
    "tai": 10.0,
    "loi": "Before that, letters waited for a passing ship.",
    "hanh_dong": "Trung cảnh: một chồng thư buộc dây nằm trên mỏm đá; Wob ngồi cạnh chồng thư chống cằm chờ cùng",
-   "gag": "Đúng \"ship.\" (≈ 410.56 s) bóng một cánh buồm lướt qua chân trời KHÔNG dừng; Wob quay đầu dõi theo tới khi cánh buồm khuất, tay vẫn chống cằm, giữ tới cắt 411.14 s",
+   "gag": "Đúng \"ship.\" (≈ 410.75 s) bóng một cánh buồm lướt qua chân trời KHÔNG dừng; Wob quay đầu dõi theo tới khi cánh buồm khuất, tay vẫn chống cằm, giữ tới cắt 411.34 s",
    "dao_cu": [
     "chong-thu"
    ],

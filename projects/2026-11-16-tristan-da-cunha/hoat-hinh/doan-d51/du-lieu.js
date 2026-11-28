@@ -11,10 +11,10 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 20.0,
- "bat_dau_tuyet_doi": 685.38,
+ "bat_dau_tuyet_doi": 694.668,
  "lop": "duoi",
  "boi_canh": "ĐUÔI TẬP theo skill mo-ket mục 2, dựng bằng templates/hoat-hinh/_chung/mo-ket/duoi-tap.js. Bàn kỷ vật (cùng bàn d01), đèn ấm. Bên trái (x 96–900): kệ gỗ giấy hai tầng: bình xịt còn niêm phong (binhXit, thẻ SANTA CRUZ / DEL ISLOTE), tờ lịch hầm còn băng dính (toLich, thẻ WHITTIER), lọ gần như không có opal (loOpal, thẻ COOBER PEDY), tủ đông nhỏ có cá (tuDong, thẻ OYMYAKON) cạnh kệ; BƯU THIẾP là kỷ vật MỚI (thêm khoá \"buuThiep\" vào VE của duoi-tap.js: chỉ thêm), đứng trên kệ, MẶT TEM QUAY RA, thẻ \"TRISTAN\" / \"DA CUNHA\" hai dòng. Thẻ kệ chữ ≥ 45 px. Bản đồ giấy trừu tượng trái dưới (x < 1100, không biên giới thật, không vùng Đông Nam Á), ghim KHÔNG nhãn. TẮT \"mặt trời nhô\" (ghimRung matTroi: false). Bên phải: vùng end screen để TRỐNG: endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]} (khung 560×315, vòng Ø200). CAMERA KHOÁ CỨNG cả đoạn",
- "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50). Khung 0 còn bị dây thừng quấn thành kiện hàng (liên tục từ d50); trong 0–0,6 s dây tuột thành cuộn dưới chân, để lại trên bàn tới hết đoạn; từ 685.98 s cầm bưu thiếp",
+ "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50). Khung 0 còn bị dây thừng quấn thành kiện hàng (liên tục từ d50); trong 0–0,6 s dây tuột thành cuộn dưới chân, để lại trên bàn tới hết đoạn; từ 695.27 s cầm bưu thiếp",
  "vao": "cat",
  "ra": "cuoi-video",
  "chu_tren_do_vat": [
@@ -28,7 +28,7 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "",
-   "hanh_dong": "Khung 0 (cắt cứng từ d50): đủ bàn, kệ, kỷ vật cũ; Wob CÒN bị dây quấn thành kiện hàng có nơ, đứng cạnh bưu thiếp nằm trên bàn; nhún một cái, dây tuột thành cuộn dưới chân (pop); Wob nhặt bưu thiếp từ bàn đúng 685.98 s (giây 0,6 của đoạn). Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, dây, bưu thiếp ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
+   "hanh_dong": "Khung 0 (cắt cứng từ d50): đủ bàn, kệ, kỷ vật cũ; Wob CÒN bị dây quấn thành kiện hàng có nơ, đứng cạnh bưu thiếp nằm trên bàn; nhún một cái, dây tuột thành cuộn dưới chân (pop); Wob nhặt bưu thiếp từ bàn đúng 695.27 s (giây 0,6 của đoạn). Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, dây, bưu thiếp ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
    "gag": "Wob thoát khỏi kiện hàng bằng một cú nhún",
    "dao_cu": [
     "khung-anh-trong",

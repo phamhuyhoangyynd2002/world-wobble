@@ -43,7 +43,7 @@ window.CANH = function (api, data) {
     kyVat: [
       { the: chu[1], dong: ["SANTA CRUZ", "DEL ISLOTE"], ve: "binhXit", tang: 0, cho: 0.25, theW: 420, theDy: 104 },
       { the: chu[2], ve: "toLich", tang: 0, cho: 1.2, theW: 390, theDy: 178 },
-      { the: chu[0], dong: ["TRISTAN", "DA CUNHA"], ve: veBuuThiep, tang: 0, cho: 2.1, theW: 330, theDy: 104, moi: true },
+      { the: chu[0], dong: ["TRISTAN", "DA CUNHA"], ve: veBuuThiep, tang: 0, cho: 2.1, theW: 372, theDx: -24, theDy: 104, moi: true },
       { the: chu[3], ve: "loOpal", tang: 0, cho: 0.001, theW: 470, co: 53 },
       { the: chu[4], ve: veTuDong, tang: 1, cho: 1.6, theW: 400 }
     ],
@@ -54,7 +54,7 @@ window.CANH = function (api, data) {
   // nóc kệ: lọ opal (trái, thẻ một dòng dưới lọ), bản đồ thu nhỏ (giữa), tủ đông (phải, thẻ trên cửa tủ)
   var BDK = 0.77;
   gsap.set(dt.banDo, { y: TY - 524, scaleY: BDK });
-  gsap.set(dt.mon[3].el, { x: -975, y: TY - 524, z: -300 }); gsap.set(dt.mon[3].tag, { x: -930, y: TY - 445, z: -262 });
+  gsap.set(dt.mon[3].el, { x: -975, y: TY - 524, z: -300 }); gsap.set(dt.mon[3].tag, { x: -892, y: TY - 445, z: -262 });
   gsap.set(dt.mon[4].el, { x: -420, y: TY - 524, z: -300 }); gsap.set(dt.mon[4].tag, { x: -400, y: TY - 520, z: -262 });
   var I_XIT = 0, I_LICH = 1, I_BT = 2, I_LO = 3, I_TU = 4;
 
@@ -180,7 +180,7 @@ window.CANH = function (api, data) {
   api.moiKhung(function (t) {
     gsap.set(amDen, { opacity: 0.45 + 0.55 * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI * 0.45)) });
     var tt = Math.max(0, t - 0.6);
-    gsap.set(w.pos, { y: TY - 6 * (0.5 - 0.5 * Math.cos(tt * 2 * Math.PI * 0.85)), rotationZ: 2 * Math.sin(tt * 2 * Math.PI * 0.42) });
+    gsap.set(w.pos, { y: TY - 10 * (0.5 - 0.5 * Math.cos(tt * 2 * Math.PI * 0.85)), rotationZ: 3 * Math.sin(tt * 2 * Math.PI * 0.42) });
     gsap.set(lo, { rotationZ: 1.2 * Math.sin(t * 2 * Math.PI * 0.5) });
   });
   api.blinks(w, 3.6, 6.4, [], 0);

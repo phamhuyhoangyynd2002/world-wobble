@@ -545,6 +545,13 @@ window.CANH = function (api, data) {
   for (var st = 0; st < 4; st++) bac += D.paper(D.rRect(G0 - 150 + st * 36, Q + st * 40, 160 - st * 36, 42, 1, 4650 + st), "#8E8C84", { stroke: true, sw: 4, sx: 3, sy: 4 });
   var xuong = '<g id="xuong"><g transform="translate(' + (G0 + 120) + "," + (Q + 120) + ')"><g id="xuongR">' + TB.tau("xu46", { dai: 230, kieu: "xuong", nguoi: 1, mau: "#6E5A48" }) + "</g></g></g>";
 
+  // biển bến (cùng chỗ d44) nhưng quay MẶT SAU trơn: d46 không có chữ CALSHOT HARBOUR trong chu_tren_do_vat
+  function bienSauF(ban, van, cot) {
+    return D.paper(D.rRect(310, 380, 580, 112, 1.6, 4408), ban, { stroke: true, sw: 5, sx: 6, sy: 8 }) + D.line("M 320 420 L 880 418 M 320 456 L 880 458", 2.5, van, ' opacity="0.6"') +
+      D.line("M 330 486 L 870 390", 8, van) + D.line("M 380 " + Q + " L 380 370 M 820 " + Q + " L 820 370", 18, INK) + D.line("M 380 " + Q + " L 380 370 M 820 " + Q + " L 820 370", 10, cot) +
+      [[380, 404], [380, 468], [820, 404], [820, 468]].map(function (q) { return '<circle cx="' + q[0] + '" cy="' + q[1] + '" r="6" fill="#4A4E50" stroke="' + INK + '" stroke-width="2"/>'; }).join("");
+  }
+  var bienSau = '<g id="bienD">' + bienSauF("#8E6844", "#6E4E30", "#8A6440") + '</g><g id="bienN">' + bienSauF("#463A30", "#30281E", "#3E3228") + "</g>";
   // trang dính mặt (cảnh bậc bến) + thẻ 2008 trên cọc (đêm)
   var XB = G0 - 10, YB = Q;
   var gd = '<g id="dinh"><g transform="translate(' + XB + "," + (YB - 0.7 * 200) + ')"><g id="dinhS" transform="scale(1.7) rotate(6)">' + D.paper(D.rRect(-44, -32, 88, 64, 1, 4625), "#F2EAD8", { stroke: true, sw: 3, sx: 3, sy: 4 }) +
@@ -566,7 +573,7 @@ window.CANH = function (api, data) {
   can += '<g id="cBut"><g transform="translate(720,600) rotate(30)">' + D.line("M 0 0 L 0 -150", 16, INK) + D.line("M 0 -6 L 0 -144", 9, "#2F4A6B") + D.line("M 0 0 L 0 14", 5, INK) + "</g></g>";
   can += "</g>";
 
-  api.dat(D.defsNhietDoi() + troi + api.lop("xa", xa + dem, 0.4, { mat: 600 }) + api.lop("giua", khe + de + bac + xuong + coc + phuDem + W.svg + the08 + so + bay + gd, 1, { mat: Q }) +
+  api.dat(D.defsNhietDoi() + troi + api.lop("xa", xa + dem, 0.4, { mat: 600 }) + api.lop("giua", khe + de + bac + xuong + bienSau + coc + phuDem + W.svg + the08 + so + bay + gd, 1, { mat: Q }) +
     api.lop("nuoc", nuocGan, 1.15, { mat: 940 }) + api.lop("gan", gan, 1.5, { mat: 1080 }) + can);
   api.noi({ raDai: 0.4 });
 
@@ -575,6 +582,7 @@ window.CANH = function (api, data) {
   TB.hien(api, "#canSo", tB, tC);
   TB.hien(api, "#dem", tC, tE);
   api.key("#phuDem", "opacity", 0, 0, "step"); api.key("#phuDem", "opacity", tC, 0.55, "step"); api.key("#phuDem", "opacity", tE, 0, "step");
+  TB.hien(api, "#bienN", tC, tE); api.key("#bienD", "opacity", 0, 1, "step"); api.key("#bienD", "opacity", tC, 0, "step"); api.key("#bienD", "opacity", tE, 1, "step");
   api.camera([
     [0, 760, 640, 1.35], [tB - 0.01, 740, 640, 1.42, "sine.inOut"],
     [tC, 960, 560, 1.02, "step"], [tFull, 940, 570, 1.06, "sine.inOut"], [tE - 0.01, 920, 580, 1.1, "sine.inOut"],

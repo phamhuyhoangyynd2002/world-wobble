@@ -225,10 +225,10 @@ var TB = (function () {
     // kệ tem nhỏ sau song (hình chữ nhật, không chữ)
     for (var q = 0; q < 4; q++) s += '<rect x="' + (985 + q * 62) + '" y="478" width="40" height="50" fill="' + (q % 2 ? "#E9DEC4" : "#D8C9A6") + '" stroke="' + INK + '" stroke-width="2.5"/>';
     // biển POST OFFICE
-    s += '<g id="bdBien">' + line("M 900 250 L 930 190 M 1320 250 L 1290 190", 4, "#3A3F44") +
-      paper(rRect(820, 192, 580, 112, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
-      '<rect x="836" y="206" width="548" height="84" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
-      D.txt(1110, 274, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
+    s += '<g id="bdBien">' + line("M 860 316 L 880 250 M 1240 316 L 1220 250", 4, "#3A3F44") + '<circle cx="880" cy="250" r="6" fill="#3A3F44"/><circle cx="1220" cy="250" r="6" fill="#3A3F44"/>' +
+      paper(rRect(780, 312, 540, 98, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
+      '<rect x="794" y="324" width="512" height="74" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
+      D.txt(1050, 384, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
     // đèn treo
     s += line("M 640 -200 L 640 150", 3, "#2B2F33") + paper("M 600 150 L 680 150 L 700 190 L 580 190 Z", "#3F5A4A", { stroke: true, sw: 4 }) + '<ellipse cx="640" cy="192" rx="60" ry="10" fill="#FFE6A8" stroke="' + INK + '" stroke-width="3"/>';
     s += '<ellipse cx="640" cy="330" rx="220" ry="170" fill="url(#lampG)"/>';
@@ -528,6 +528,7 @@ window.CANH = function (api, data) {
   api.origin("#canTemS", "1060 640");
   api.key("#canTem", "opacity", 0, 0, "step"); api.key("#canTem", "opacity", tIn, 0, "none"); api.key("#canTem", "opacity", tIn + 0.07, 1, "power1.out");
   api.key("#canTem", "opacity", tOut, 0, "step");
+  api.key("#bdBien", "opacity", 0, 1, "step"); api.key("#bdBien", "opacity", tIn + 0.3, 0, "step"); api.key("#bdBien", "opacity", tOut, 1, "step");   // cận tem che kín biển: tắt biển cho khỏi chồng chữ
   api.key("#canTemS", "scale", 0, 0.22, "step"); api.key("#canTemS", "scale", tIn, 0.22, "none"); api.key("#canTemS", "scale", tIn + 0.3, 1, "expo.out");
   api.key("#canTemS", "scale", tOut, 1.05, "sine.inOut");
   api.key("#canTemS", "x", 0, 0, "step"); api.key("#canTemS", "x", tIn + 0.3, 0, "none"); api.key("#canTemS", "x", tOut, -40, "sine.inOut");
@@ -535,7 +536,7 @@ window.CANH = function (api, data) {
   // ---------- camera ----------
   api.camera([
     [0, 760, 612, 1.18], [tPost - 0.2, 900, 590, 1.12, "sine.inOut"], [tCard, 940, 600, 1.24, "power2.inOut"], [tIn, 950, 604, 1.27, "sine.inOut"],
-    [tOut, 1060, 762, 1.22, "step"], [tNine, 1180, 760, 1.42, "power2.inOut"], [tS4 - 0.02, 1190, 765, 1.46, "sine.inOut"],
+    [tOut, 1060, 700, 1.22, "step"], [tNine, 1170, 680, 1.3, "power2.inOut"], [tS4 - 0.02, 1180, 672, 1.33, "sine.inOut"],   // cả biển POST OFFICE trong khung, đỉnh biển >= 54 px từ mép trên
     [tS4, 720, 700, 1.45, "step"], [DUR, 740, 700, 1.52, "sine.inOut"]
   ]);
 
@@ -599,10 +600,13 @@ window.CANH = function (api, data) {
   W2.pose(tLetters, 0.4, { pupX: 12, pupY: 6, upRot: 2 }, "sine.inOut");          // nhìn chồng thư
   W2.pose(tLetters + 0.9, 0.3, { pupX: -10, pupY: -6, upRot: -2 }, "sine.inOut"); // ngó ra chân trời bên trái
   // cánh buồm lướt qua chân trời không dừng; Wob quay đầu dõi theo, tay vẫn chống cằm
-  var b0 = tShip - 0.55, b1 = tShip + 0.62;
-  api.key("#buom", "x", 0, -300, "step"); api.key("#buom", "x", b0, -60, "none"); api.key("#buom", "x", b1, 1900, "sine.inOut");
-  W2.pose(b0, 0.2, { pupX: -12, pupY: -8 }, "power2.out");
-  W2.pose(b0 + 0.25, b1 - b0 - 0.25, { pupX: 13, pupY: -8, upRot: 4 }, "sine.inOut");
+  // cánh buồm lướt trái → phải đều tay; đầu và mắt Wob dõi theo tới khi cắt
+  var b0 = Math.min(tShip - 0.6, DUR - 1.2), BX0 = -80, BX1 = 1700, vB = (BX1 - BX0) / (DUR - b0);
+  api.key("#buom", "x", 0, -300, "step"); api.key("#buom", "x", b0, BX0, "none"); api.key("#buom", "x", DUR, BX1, "none");
+  for (var tb = b0, kb = 0; tb <= DUR + 1e-6; tb += 0.2, kb++) {
+    var bx = BX0 + vB * (tb - b0), px = Math.max(-14, Math.min(14, (bx - X2) / 45));
+    W2.pose(tb, kb ? 0.2 : 0.15, { pupX: px, pupY: -8, upRot: px * 0.45, lean: px * 0.12 }, kb ? "none" : "power2.out");
+  }
   W2.mouth(tShip + 0.05, "o");
   W2.blinkAt(tS4 + 0.5);
 };

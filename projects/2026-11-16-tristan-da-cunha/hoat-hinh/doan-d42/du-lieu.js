@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 8.263,
- "bat_dau_tuyet_doi": 569.134,
+ "bat_dau_tuyet_doi": 569.326,
  "lop": "hoi-uc",
  "boi_canh": "Trang sổ cắt giấy tông ấm dần (sau tông trầm của d38): hình hòn đảo và làng mái thấp; một con tàu giấy nhỏ cập đảo; rồi con tàu lớn hơn; khói bếp bốc lên lại từ từng mái nhà",
  "trang_phuc": "Wob ở nhà đứng ngoài mép trang lật trang (như d38), mặt dịu dần; KHÔNG khẩu hình",
@@ -45,7 +45,7 @@ window.HH_DATA = {
   {
    "scene": 14,
    "bat_dau": -27.25,
-   "thoi_luong": 43.776,
+   "thoi_luong": 49.752,
    "tu": [
     {
      "text": "In",
@@ -603,139 +603,244 @@ window.HH_DATA = {
      "end": 8.05
     },
     {
-     "text": "My",
+     "text": "So",
      "start": 8.413,
-     "end": 8.625
+     "end": 8.663
     },
     {
-     "text": "best",
-     "start": 8.638,
-     "end": 8.9
+     "text": "why",
+     "start": 8.675,
+     "end": 8.825
     },
     {
-     "text": "guess",
-     "start": 8.913,
-     "end": 9.087
+     "text": "go",
+     "start": 8.837,
+     "end": 8.962
     },
     {
-     "text": "at",
-     "start": 9.1,
-     "end": 9.2
+     "text": "back?",
+     "start": 8.975,
+     "end": 9.363
     },
     {
-     "text": "why?",
-     "start": 9.212,
-     "end": 9.525
+     "text": "The",
+     "start": 9.725,
+     "end": 9.9
     },
     {
-     "text": "England",
-     "start": 9.888,
-     "end": 10.288
+     "text": "scientists",
+     "start": 9.913,
+     "end": 10.488
     },
     {
      "text": "had",
-     "start": 10.3,
-     "end": 10.438
+     "start": 10.5,
+     "end": 10.625
     },
     {
-     "text": "more",
-     "start": 10.45,
-     "end": 10.65
+     "text": "found",
+     "start": 10.638,
+     "end": 10.988
     },
     {
-     "text": "of",
-     "start": 10.663,
-     "end": 10.75
+     "text": "the",
+     "start": 11.0,
+     "end": 11.062
     },
     {
-     "text": "almost",
-     "start": 10.763,
-     "end": 11.15
+     "text": "village",
+     "start": 11.075,
+     "end": 11.4
     },
     {
-     "text": "everything.",
-     "start": 11.225,
+     "text": "still",
+     "start": 11.413,
      "end": 11.675
     },
     {
-     "text": "It",
-     "start": 12.038,
-     "end": 12.212
+     "text": "standing,",
+     "start": 11.688,
+     "end": 12.163
     },
     {
-     "text": "didn't",
-     "start": 12.225,
-     "end": 12.438
+     "text": "and",
+     "start": 12.487,
+     "end": 12.55
     },
     {
-     "text": "have",
-     "start": 12.45,
-     "end": 12.638
+     "text": "some",
+     "start": 12.562,
+     "end": 12.788
     },
     {
-     "text": "their",
-     "start": 12.65,
-     "end": 12.8
+     "text": "of",
+     "start": 12.8,
+     "end": 12.887
     },
     {
-     "text": "land,",
-     "start": 12.812,
+     "text": "them",
+     "start": 12.9,
+     "end": 13.05
+    },
+    {
+     "text": "had",
+     "start": 13.062,
      "end": 13.188
     },
     {
-     "text": "shared",
-     "start": 13.525,
-     "end": 13.775
+     "text": "gone",
+     "start": 13.2,
+     "end": 13.425
     },
     {
-     "text": "between",
-     "start": 13.788,
-     "end": 14.163
+     "text": "to",
+     "start": 13.438,
+     "end": 13.487
     },
     {
-     "text": "them,",
-     "start": 14.175,
-     "end": 14.375
+     "text": "see",
+     "start": 13.5,
+     "end": 13.737
     },
     {
-     "text": "or",
-     "start": 14.775,
-     "end": 14.837
+     "text": "it.",
+     "start": 13.75,
+     "end": 13.888
+    },
+    {
+     "text": "The",
+     "start": 14.25,
+     "end": 14.438
+    },
+    {
+     "text": "rest",
+     "start": 14.45,
+     "end": 14.75
+    },
+    {
+     "text": "is",
+     "start": 14.763,
+     "end": 14.863
+    },
+    {
+     "text": "my",
+     "start": 14.875,
+     "end": 15.025
+    },
+    {
+     "text": "guess.",
+     "start": 15.038,
+     "end": 15.488
+    },
+    {
+     "text": "England",
+     "start": 15.85,
+     "end": 16.25
+    },
+    {
+     "text": "had",
+     "start": 16.263,
+     "end": 16.4
+    },
+    {
+     "text": "more",
+     "start": 16.413,
+     "end": 16.613
+    },
+    {
+     "text": "of",
+     "start": 16.625,
+     "end": 16.712
+    },
+    {
+     "text": "almost",
+     "start": 16.725,
+     "end": 17.113
+    },
+    {
+     "text": "everything.",
+     "start": 17.188,
+     "end": 17.638
+    },
+    {
+     "text": "It",
+     "start": 18.0,
+     "end": 18.175
+    },
+    {
+     "text": "didn't",
+     "start": 18.188,
+     "end": 18.4
+    },
+    {
+     "text": "have",
+     "start": 18.413,
+     "end": 18.6
     },
     {
      "text": "their",
-     "start": 14.85,
-     "end": 15.013
+     "start": 18.612,
+     "end": 18.762
+    },
+    {
+     "text": "land,",
+     "start": 18.775,
+     "end": 19.15
+    },
+    {
+     "text": "shared",
+     "start": 19.487,
+     "end": 19.737
+    },
+    {
+     "text": "between",
+     "start": 19.75,
+     "end": 20.125
+    },
+    {
+     "text": "them,",
+     "start": 20.138,
+     "end": 20.338
+    },
+    {
+     "text": "or",
+     "start": 20.737,
+     "end": 20.8
+    },
+    {
+     "text": "their",
+     "start": 20.812,
+     "end": 20.975
     },
     {
      "text": "say",
-     "start": 15.025,
-     "end": 15.275
+     "start": 20.987,
+     "end": 21.237
     },
     {
      "text": "in",
-     "start": 15.288,
-     "end": 15.388
+     "start": 21.25,
+     "end": 21.35
     },
     {
      "text": "how",
-     "start": 15.4,
-     "end": 15.612
+     "start": 21.362,
+     "end": 21.575
     },
     {
      "text": "it",
-     "start": 15.625,
-     "end": 15.675
+     "start": 21.587,
+     "end": 21.637
     },
     {
      "text": "was",
-     "start": 15.688,
-     "end": 15.825
+     "start": 21.65,
+     "end": 21.788
     },
     {
      "text": "run.",
-     "start": 15.837,
-     "end": 16.163
+     "start": 21.8,
+     "end": 22.125
     }
    ],
    "khau_hinh": [

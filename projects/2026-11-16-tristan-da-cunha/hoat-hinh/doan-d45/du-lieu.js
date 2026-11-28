@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 4.138,
- "bat_dau_tuyet_doi": 608.76,
+ "bat_dau_tuyet_doi": 614.928,
  "lop": "hoi-uc",
  "boi_canh": "Bong bóng tưởng tượng vẽ tay: cửa hàng nhỏ có tấm biển hai mặt (mặt OPEN, mặt kia hình ổ khoá, không chữ) tự lật lung tung",
  "trang_phuc": "Wob vẽ tay cầm giỏ hàng, áo mưa cam mũ trùm hạ",

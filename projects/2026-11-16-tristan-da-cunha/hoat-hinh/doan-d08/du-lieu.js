@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 3.826,
- "bat_dau_tuyet_doi": 83.95,
+ "bat_dau_tuyet_doi": 84.142,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: giường tầng trong cabin, ba lô nhỏ mở nắp, đồ đạc nhỏ bày quanh",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo); ba lô nhỏ TÁCH khỏi lưng (rig noPack, vẽ riêng VT.backpack)",
@@ -22,8 +22,8 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "I packed and unpacked the small backpack until it filed a complaint.",
-   "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần trong ≈ 84.28–86.26 s (mỗi lần ≥ 0,6 s, lần sau nhanh hơn); ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ) đúng \"filed\" (≈ 86.61 s)",
-   "gag": "Ba lô quay lưng lại với Wob đúng \"complaint\" (≈ 87.06 s), khoá kéo mím chặt; giữ tới cắt 87.78 s",
+   "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần trong ≈ 84.47–86.46 s (mỗi lần ≥ 0,6 s, lần sau nhanh hơn); ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ) đúng \"filed\" (≈ 86.81 s)",
+   "gag": "Ba lô quay lưng lại với Wob đúng \"complaint\" (≈ 87.25 s), khoá kéo mím chặt; giữ tới cắt 87.97 s",
    "dao_cu": [
     "ba-lo-nho"
    ],

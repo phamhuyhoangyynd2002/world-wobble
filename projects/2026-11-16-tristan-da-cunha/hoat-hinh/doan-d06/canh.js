@@ -203,7 +203,8 @@ window.CANH = function (VT, D) {
       if (sl >= 1) out += VT.line("M " + f(bx - 80) + " " + f(by + 8) + " q -40 8 -90 2", 3, "#2c4f6e", 0.6);
     }
     // Wob ở mép trang
-    var o = { x: WX, y: WY, s: WS, flip: 1, mouth: "content", px: 12, py: -14 };
+    var grow = 1 + 0.3 * VT.ease.back(seg(t, HIT - 0.12, HIT + 0.08)) * (1 - VT.ease.io(seg(t, FOOT + 0.25, FOOT + 0.6))); // phóng Wob 1,3× lúc che mắt
+    var o = { x: WX + 40 * (grow - 1), y: WY, s: WS * grow, flip: 1, mouth: "content", px: 12, py: -14 };
     if (t >= FLY0) { o.px = 16; o.py = -18; o.eyes = "wide"; o.mouth = "o"; }
     if (t >= HIT - 0.04 && t < FOLD0 - 0.1) {
       o.armL = [150, 152]; o.armR = [252, 152]; o.handL = "xoe"; o.handR = "xoe"; o.eyes = "closed"; o.mouth = "wobbly"; o.brows = "worried";

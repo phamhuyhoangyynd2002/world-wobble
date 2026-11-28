@@ -8,7 +8,7 @@ Hàm dựng: `TB.buuDien({ chu, tuiX })` trong khối `TB` chép ở đầu `can
 |---|---|---|
 | Tường | ván sơn kem toàn khung, chân tường gỗ từ y 640, sàn y 1010 | tường `#E6D9BC`, chân tường `#B98C62`, sàn `#6E4E36` |
 | Cửa sổ có núi lửa | x 180–580, y 250–580 | khung gỗ `#8A5A3A`, trời `#C8D3D6`, núi `#5C6B58`, mây `#F6F4EE` đội đỉnh, biển `#7D9097` |
-| Biển POST OFFICE | x 820–1400, y 192–304, chữ 64 px | nền xanh `#2F4A3A`, chữ `#F3E6C2`, viền mực |
+| Biển POST OFFICE | x 780–1320, y 312–410 (gắn trên đỉnh vách quầy, ngay trên vòm ô bán tem, hai thanh treo lên tường), chữ 64 px. Dời ngày 28/11 khỏi vùng logo góc phải trên | nền xanh `#2F4A3A`, chữ `#F3E6C2`, viền mực |
 | Vách quầy + ô bán tem | vách x 800–1420, y 300–770; ô tem vòm có song x 930–1290 | vách `#9B6B45`, song đồng `#C9A55A`; đèn treo chao `#3F5A4A` ở x 640 |
 | Mặt quầy | quầy x 560–1700, mặt quầy y 790, mặt nghiêng viết x 760–1200 | thân `#8A5A3A`, mặt `#A87A50`, mặt nghiêng `#B88A5C` |
 | Ngăn kéo tem | x 1240–1470, y 880–950, núm đồng (1355, 918); ruột ngăn kéo trống `nganLong` ẩn sẵn | mặt ngăn `#9E6E46`, lòng `#3A2A1E` |

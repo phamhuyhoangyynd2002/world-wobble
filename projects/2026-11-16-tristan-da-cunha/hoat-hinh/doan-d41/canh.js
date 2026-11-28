@@ -52,8 +52,8 @@ window.CANH = function (api, data) {
   var diem = function (u, v) { return { x: SO.x + u, y: TY - 3, z: SO.z - SO.d / 2 + v }; };
   var HP = diem(240, 250);
   api.cut(the, 160, 130, '<g transform="translate(80 126)">' + api.hopPhieuSVG() + "</g>", { pos: { x: HP.x, y: HP.y, z: HP.z, scale: 0.9 }, ax: 80, ay: 126, f: api.F.AM_NHO });
-  // bưu thiếp nằm trên bàn (mặt viết lên), như cuối d39 đã đặt xuống
-  api.cut(the, 240, 170, '<g transform="translate(120 85) rotate(4)">' + api.buuThiepSVG({ w: 220, h: 146 }) + "</g>", { pos: { x: 640, y: TY - 4, z: 70, rotationX: 90, scale: 0.9 }, ax: 120, ay: 85, f: api.F.AM_NHO });
+  // bưu thiếp dựng nghiêng trên bàn, mặt tranh ra (khớp cuối d39: x 650, z 60)
+  api.cut(the, 240, 170, '<g transform="translate(120 85) rotate(-2)">' + api.buuThiepSVG({ w: 220, h: 146, mat: "tranh" }) + "</g>", { pos: { x: 650, y: TY, z: 60, rotationX: 8, scale: 0.9 }, ax: 120, ay: 160, f: api.F.AM_NHO });
 
   var PIV = { L: [86, 212], R: [314, 212] }, REST = { L: [-14, 96], R: [14, 96] }, DAI = Math.hypot(14, 96);
   var goc = function (side, x, y) {

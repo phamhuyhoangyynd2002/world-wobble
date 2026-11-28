@@ -1,0 +1,84 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.2,
+      "true_peak": -0.7
+    },
+    "video.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.1
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 0.0,
+      "end": 57.086
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 57.086,
+      "end": 143.514
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 143.514,
+      "end": 303.214
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 303.214,
+      "end": 391.298
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 391.298,
+      "end": 473.142
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 473.142,
+      "end": 529.626
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 529.626,
+      "end": 561.328
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 563.328,
+      "end": 650.308
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 651.508,
+      "end": 719.412
+    }
+  ],
+  "sfx_count": 191,
+  "sections": {
+    "than_video": {
+      "lufs": -14.2,
+      "true_peak": -1.1
+    },
+    "canh_cuoi": {
+      "lufs": -14.3,
+      "true_peak": -1.8
+    }
+  }
+}

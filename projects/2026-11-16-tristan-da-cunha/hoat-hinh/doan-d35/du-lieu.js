@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 23.325,
- "bat_dau_tuyet_doi": 455.304,
+ "bat_dau_tuyet_doi": 455.496,
  "lop": "hoi-uc",
  "boi_canh": "Tông giấy TRẦM (xám xanh, nâu đất): rìa đông làng nơi cỏ xanh dừng và bãi đá dung nham đen sần sùi bắt đầu, nhà mái thấp ngay sau lưng; rồi trang lịch sử 1961: bậu cửa sổ có cốc nước, tấm lịch tháng Tám; vết nứt giữa dãy mái nhà và nhà máy đồ hộp; đêm: chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 10.175,
    "loi": "On the eighth of October, a big tremor brought rock down east of the village.",
-   "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961; Wob ngoài mép trang lặng lẽ nhìn theo tảng đá lăn đúng \"rock\" (≈ 467.82 s)",
+   "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961; Wob ngoài mép trang lặng lẽ nhìn theo tảng đá lăn đúng \"rock\" (≈ 468.01 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -49,7 +49,7 @@ window.HH_DATA = {
   {
    "tai": 14.325,
    "loi": "The next morning, a crack opened between the houses and the fish cannery, and the ground swelled.",
-   "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm; Wob ngoài mép trang lùi nửa bước khỏi mép gần vết nứt đúng \"crack\" (≈ 470.69 s)",
+   "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm; Wob ngoài mép trang lùi nửa bước khỏi mép gần vết nứt đúng \"crack\" (≈ 470.88 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -57,7 +57,7 @@ window.HH_DATA = {
   {
    "tai": 19.488,
    "loi": "That night, everyone was sent out to the huts at the Potato Patches.",
-   "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa; Wob ngồi xuống mép trang khi đèn chòi le lói, đúng \"huts\" (≈ 476.79 s)",
+   "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa; Wob ngồi xuống mép trang khi đèn chòi le lói, đúng \"huts\" (≈ 476.98 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

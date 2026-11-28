@@ -43,15 +43,18 @@
   ];
 
   /** Màu ba lô theo tập (thêm 23/11/2026): o.packColor "oliu" (xanh ô liu, tập Coober Pedy) hoặc {pack, dark}; mặc định màu gốc tao_wob.py. */
-  VT.PACK_MAU = { oliu: { pack: "#7C8646", dark: "#566030" } };
+  VT.PACK_MAU = { oliu: { pack: "#7C8646", dark: "#566030" }, kiruna: { pack: "#7C8646", dark: "#566030", mat: "#C9463A" } };
   function packCols(o) { var c = o && o.packColor; c = typeof c === "string" ? VT.PACK_MAU[c] : c; return c || { pack: PACK, dark: PACK_DARK }; }
   /** o: {packColor, grassRoll (cuộn cỏ xanh buộc cạnh cuộn thảm đỏ), packOpen 0..1 (nắp ba lô bật mở)}. */
   function backpack(angle, o) {
-    var pc = packCols(o), PACK = pc.pack, PACK_DARK = pc.dark, op = o && o.packOpen ? VT.clamp(o.packOpen, 0, 1) : 0;
+    var pc = packCols(o), PACK = pc.pack, PACK_DARK = pc.dark, MATC = pc.mat || MAT, op = o && o.packOpen ? VT.clamp(o.packOpen, 0, 1) : 0;
     var inner = '<rect x="255" y="100" width="98" height="160" rx="30" fill="' + PACK + '"/>' +
       '<rect x="250" y="96" width="98" height="160" rx="30" fill="none" stroke="' + INK + '" stroke-width="' + SW + '"/>' +
       '<rect x="300" y="150" width="44" height="58" rx="12" fill="' + PACK_DARK + '" stroke="' + INK + '" stroke-width="5"/>' +
-      '<rect x="266" y="70" width="96" height="36" rx="18" fill="' + MAT + '"/>' +
+      (o && o.coatRoll ? '<rect x="258" y="100" width="100" height="30" rx="15" fill="' + VT.AO_PHAO.mau + '"/>' +
+        '<rect x="254" y="96" width="100" height="30" rx="15" fill="none" stroke="' + INK + '" stroke-width="5"/>' +
+        VT.line("M 276 100 L 276 124", 3, VT.AO_PHAO.chan) + VT.line("M 300 98 L 300 126", 3, VT.AO_PHAO.chan) + VT.line("M 324 98 L 324 126", 3, VT.AO_PHAO.chan) : "") +
+      '<rect x="266" y="70" width="96" height="36" rx="18" fill="' + MATC + '"/>' +
       '<rect x="262" y="66" width="96" height="36" rx="18" fill="none" stroke="' + INK + '" stroke-width="' + SW + '"/>' +
       VT.line("M 282 70 L 282 98", 4) + VT.line("M 336 70 L 336 98", 4);
     if (o && o.grassRoll) inner += '<rect x="272" y="34" width="88" height="34" rx="17" fill="#5E9E48"/>' +
@@ -70,6 +73,12 @@
     out.push('<path d="' + path + '" fill="' + sea + '" transform="translate(4 3)"/>');
     out.push('<g clip-path="url(#' + id + ')">');
     LANDS.forEach(function (d) { out.push('<path d="' + d + '" fill="' + LAND + '" stroke="' + INK + '" stroke-width="3.5" stroke-linejoin="round"/>'); });
+    if (o.landFrost) { // thêm 28/11/2026 (Kiruna d13): một mảng lục địa tê trắng như phủ sương ("mũi tê"); {k 0..1 độ trắng, i chỉ số mảng (mặc định 1, mảng giữa mặt), pink 0..1 ửng hồng khi xoa lại}
+      var lf = typeof o.landFrost === "number" ? { k: o.landFrost } : o.landFrost, ld = LANDS[lf.i == null ? 1 : lf.i];
+      if (lf.k > 0) out.push('<path d="' + ld + '" fill="#F4F8FB" opacity="' + f(VT.clamp(lf.k, 0, 1)) + '" stroke="#9FB8C8" stroke-width="3"/>');
+      if (lf.pink > 0) out.push('<path d="' + ld + '" fill="#F2A0A0" opacity="' + f(0.55 * VT.clamp(lf.pink, 0, 1)) + '"/>');
+      out.push('<path d="' + ld + '" fill="none" stroke="' + INK + '" stroke-width="3.5" stroke-linejoin="round"/>');
+    }
     out.push(VT.line("M 200 46 C 130 138 130 218 200 310", 2.5, INK, 0.28));
     out.push(VT.line("M 200 46 C 270 138 270 218 200 310", 2.5, INK, 0.28));
     out.push(VT.line("M 68 188 C 160 218 240 218 332 188", 2.5, INK, 0.28));
@@ -215,7 +224,7 @@
       if (nx * sideSign + 0.6 * ny < 0) { nx = -nx; ny = -ny; }
       cx = (s[0] + hx) / 2 + nx * bend; cy = (s[1] + hy) / 2 + ny * bend;
     }
-    return { d: "M " + f(s[0]) + " " + f(s[1]) + " Q " + f(cx) + " " + f(cy) + " " + f(hx) + " " + f(hy), hx: hx, hy: hy, ang: Math.atan2(hy - cy, hx - cx) };
+    return { d: "M " + f(s[0]) + " " + f(s[1]) + " Q " + f(cx) + " " + f(cy) + " " + f(hx) + " " + f(hy), hx: hx, hy: hy, ang: Math.atan2(hy - cy, hx - cx), p0: s, p1: [cx, cy] };
   }
   /** Bàn tay: "tron" (đúng gốc: tròn r=14), "nam" (nắm/cầm: thêm ngón cái ôm vật), "chi" (ngón trỏ), "xoe" (xoè 3 ngón + cái). */
   function hand(a, pose, side) {
@@ -293,6 +302,86 @@
       VT.line("M " + (x0 + 30) + " 144 L " + (x1 - 30) + " 144", 5) + VT.line("M " + (x0 - 18) + " 148 L " + (x0 - 6) + " 158", 4, "#ffffff", 0.7);
   }
 
+
+  // ---------- khoá trang phục tập Kiruna (thêm 28/11/2026, chỉ thêm) ----------
+  /** Áo phao xanh lam #3D5A80 (đường chần #2B4262, khoá kéo kem), dài tới ngang hông, MỘT túi vá bên PHẢI (phía +x của hệ Wob, phía tay armR),
+   *  nắp túi #2B4262; tay áo phồng trùm 3/4 tay ống. Gọi puffer: true | {sleeves: false, keyTag: 0..1 (thẻ gỗ dây đỏ thò khỏi túi)}. */
+  VT.AO_PHAO = { mau: "#3D5A80", chan: "#2B4262", khoa: "#EFE3C8", nap: "#2B4262" };
+  /** Gi-lê vải mỏng kem #E9DDC3 viền #B9A983, túi vá bên PHẢI cùng chỗ túi áo phao. Gọi vest: true | {keyTag: 0..1}. */
+  VT.GILE = { mau: "#E9DDC3", vien: "#B9A983" };
+  /** Mũ len xanh lá thông (vành gập #3A5C43, bông kem): beanie: "thong". */
+  VT.MU_THONG = { mu: "#4F7A5A", vanh: "#3A5C43", bong: "#F6EEDC" };
+  function keyTagPeek(k) { // thẻ gỗ #B98A5A dây đỏ thò lên khỏi miệng túi (k 0..1)
+    if (!k) return "";
+    var y = 236 - 26 * k;
+    return VT.line("M 262 238 C 262 " + f(y + 10) + " 266 " + f(y + 6) + " 268 " + f(y + 2), 4, "#C9463A") +
+      VT.shape("M 258 " + f(y - 18) + " L 282 " + f(y - 22) + " L 286 " + f(y + 2) + " L 262 " + f(y + 6) + " Z", "#B98A5A", { sw: 4, ox: 2, oy: 2 }) +
+      VT.line("M 265 " + f(y - 8) + " L 279 " + f(y - 10), 3, INK, 0.35);
+  }
+  function pocket(fill, flap, trim) {
+    var d = "M 244 230 L 288 226 L 290 262 L 248 266 Z";
+    return VT.shape(d, fill, { sw: 5, ox: 2, oy: 2 }) + (trim ? VT.line("M 250 260 L 286 256", 3, trim) : "") +
+      VT.shape("M 242 228 L 290 224 L 291 240 C 276 246 258 248 243 244 Z", flap, { sw: 5, ox: 2, oy: 2 }) + VT.dot(267, 240, 4, INK);
+  }
+  function puffer(o, path) {
+    var sp = typeof o.puffer === "object" ? o.puffer : {}, id = VT.uid("ap"), A = VT.AO_PHAO, out = "";
+    var top = "M 30 196 C 104 194 144 226 166 254 Q 200 276 234 254 C 256 226 296 194 370 196";
+    out += '<clipPath id="' + id + '"><path d="' + path + '"/></clipPath><g clip-path="url(#' + id + ')">';
+    out += '<path d="' + top + ' L 370 420 L 30 420 Z" fill="' + A.mau + '"/>';
+    [238, 266, 292].forEach(function (y) { out += VT.line("M 40 " + (y - 8) + " C 120 " + (y + 8) + " 280 " + (y + 8) + " 360 " + (y - 8), 4, A.chan); });
+    out += VT.line("M 200 270 L 200 330", 10, INK) + VT.line("M 200 270 L 200 330", 5, A.khoa);
+    out += VT.line(top, 6);
+    out += "</g>";
+    out += pocket(A.mau, A.nap) + keyTagPeek(sp.keyTag || 0);
+    return out;
+  }
+  function vest(o, path) {
+    var sp = typeof o.vest === "object" ? o.vest : {}, id = VT.uid("gl"), G = VT.GILE, out = "";
+    var top = "M 30 214 C 110 212 150 236 174 262 L 200 296 L 226 262 C 250 236 290 212 370 214";
+    out += '<clipPath id="' + id + '"><path d="' + path + '"/></clipPath><g clip-path="url(#' + id + ')">';
+    out += '<path d="' + top + ' L 370 420 L 30 420 Z" fill="' + G.mau + '"/>';
+    out += VT.line("M 34 222 C 112 220 150 244 172 268 L 200 302 L 228 268 C 250 244 288 220 366 222", 6, G.vien);
+    out += VT.line("M 200 300 L 200 360", 4, G.vien) + VT.dot(210, 316, 4, INK);
+    out += VT.line(top, 5);
+    out += VT.line("M 66 190 Q 100 222 90 256", 5, G.vien) + VT.line("M 334 190 Q 300 222 310 256", 5, G.vien);
+    out += "</g>";
+    out += pocket(G.mau, G.mau, G.vien) + keyTagPeek(sp.keyTag || 0);
+    return out;
+  }
+  /** Tay áo phồng: đoạn đầu (0..0,72) của đường cong tay ống, nét mực dày + xanh lam, cổ tay. */
+  function sleeve(a) {
+    var k = 0.72, p0 = a.p0, p1 = a.p1, p2 = [a.hx, a.hy];
+    var q1 = [p0[0] + (p1[0] - p0[0]) * k, p0[1] + (p1[1] - p0[1]) * k];
+    var m = [p1[0] + (p2[0] - p1[0]) * k, p1[1] + (p2[1] - p1[1]) * k];
+    var e = [q1[0] + (m[0] - q1[0]) * k, q1[1] + (m[1] - q1[1]) * k];
+    var d = "M " + f(p0[0]) + " " + f(p0[1]) + " Q " + f(q1[0]) + " " + f(q1[1]) + " " + f(e[0]) + " " + f(e[1]);
+    var dx = e[0] - q1[0], dy = e[1] - q1[1], L = Math.sqrt(dx * dx + dy * dy) || 1, nx = -dy / L * 14, ny = dx / L * 14;
+    return VT.line(d, 34) + VT.line(d, 23, VT.AO_PHAO.mau) + VT.line("M " + f(e[0] + nx) + " " + f(e[1] + ny) + " L " + f(e[0] - nx) + " " + f(e[1] - ny), 6);
+  }
+  /** Kính râm tròn gọng đen #1F2326: sunglasses: "tron" (đeo) | "tran" (tròn, đẩy lên trán). */
+  function sunglassesRound(fs, tran) {
+    var y = tran ? 96 : 150, r = tran ? 22 : 27, x0 = 162 + fs, x1 = 238 + fs, out = "";
+    [x0, x1].forEach(function (x) { out += VT.ell(x, y, r, r, "#2a3236", 6, { ox: 0, oy: 0, stroke: "#1F2326" }) + VT.line("M " + f(x - r * 0.5) + " " + f(y - r * 0.2) + " L " + f(x - r * 0.15) + " " + f(y - r * 0.55), 4, "#ffffff", 0.7); });
+    out += VT.line("M " + f(x0 + r) + " " + f(y - 2) + " Q 200 " + f(y - 12) + " " + f(x1 - r) + " " + f(y - 2), 5, "#1F2326");
+    if (tran) out += VT.line("M " + f(x0 - r) + " " + y + " L " + f(x0 - r - 30) + " " + (y + 6), 5, "#1F2326") + VT.line("M " + f(x1 + r) + " " + y + " L " + f(x1 + r + 30) + " " + (y + 6), 5, "#1F2326");
+    return out;
+  }
+  /** Mũ bảo hộ trắng có đèn, cỡ "quá to": hardhat: true | {dy (px, kéo sụp xuống: ≈ 80 che kín mắt), rot, lamp (đèn bật)}. Hệ Wob: vành ở y≈106. */
+  function hardhatSvg(spec) {
+    var o = spec && typeof spec === "object" ? spec : {}, out = "";
+    out += VT.shape("M 64 104 C 58 -36 342 -36 336 104 Z", "#F7F4EC", { sw: 6 });
+    out += VT.line("M 200 -2 L 200 100", 12, "#E2DDD0") + VT.line("M 200 -2 L 200 100", 3, INK, 0.5);
+    out += VT.shape("M 34 106 C 60 88 340 88 366 106 C 356 122 44 122 34 106 Z", "#ECE7DA", { sw: 6 });
+    out += VT.shape("M 178 28 L 222 28 L 226 62 L 174 62 Z", "#5d6a72", { sw: 4 }) + VT.ell(200, 45, 14, 12, o.lamp ? "#FFE6A0" : "#d9d4c4", 4, { ox: 0, oy: 0 });
+    if (o.lamp) out += '<path d="M 186 40 L 120 -60 L 280 -60 L 214 40 Z" fill="#FFE6A0" opacity="0.35"/>';
+    var tr = "";
+    if (o.dx || o.dy) tr += "translate(" + f(o.dx || 0) + " " + f(o.dy || 0) + ") ";
+    if (o.rot) tr += "rotate(" + f(o.rot) + " 200 100)";
+    return tr ? VT.g(tr, out) : out;
+  }
+  /** Mũ bảo hộ đứng riêng (cầm tay, đặt xuống). Gốc giữa vành. o: {x, y, s, rot, sx, lamp}. */
+  VT.muBaoHo = function (o) { return VT.wrap(o, VT.g("translate(-200 -106)", hardhatSvg({ lamp: o.lamp }))); };
+
   // ---------- đồ mặc ----------
   /** Màu mũ khoá liên tục (19/11/2026, khớp cat-giay, diorama): truyền beanie: "khoa" hoặc {mu, vanh, bong}. beanie: true giữ màu cũ. */
   VT.MU_KHOA = { mu: "#C9463A", vanh: "#A8352B", bong: "#F6EEDC" };
@@ -300,15 +389,31 @@
   VT.MU_KEM = { mu: "#EFE3C8", vanh: "#DCCBA4", bong: "#C9463A" };
   function beanie(spec) {
     if (spec && typeof spec === "object" && spec.rot) { var sp2 = {}; for (var kk in spec) sp2[kk] = spec[kk]; var rr = sp2.rot; delete sp2.rot; if (!sp2.mu) { sp2.mu = VT.MU_KEM.mu; sp2.vanh = VT.MU_KEM.vanh; sp2.bong = VT.MU_KEM.bong; } return VT.g("rotate(" + f(rr) + " 200 96)", beanie(sp2)); }
-    var c = spec === "khoa" ? VT.MU_KHOA : spec === "kem" ? VT.MU_KEM : (spec && typeof spec === "object") ? spec : null;
+    var c = spec === "khoa" ? VT.MU_KHOA : spec === "kem" ? VT.MU_KEM : spec === "thong" ? VT.MU_THONG : (spec && typeof spec === "object") ? spec : null;
     var MU = c ? c.mu : MAT, VANH = c ? c.vanh : "#EFE3C8", BONG = c ? c.bong : "#EFE3C8";
     return VT.shape("M 118 86 C 118 24 282 24 282 86 Z", MU, { sw: 6 }) +
       VT.line("M 150 40 L 156 82", 3, INK, 0.5) + VT.line("M 200 30 L 200 82", 3, INK, 0.5) + VT.line("M 250 40 L 244 82", 3, INK, 0.5) +
       VT.shape("M 104 104 C 140 76 260 76 296 104 L 292 80 C 256 56 144 56 108 80 Z", VANH, { sw: 6 }) +
       VT.ell(200, 26, 20, 18, BONG, 6);
   }
+  /** Khăn: col "kem" (sọc đỏ, Whittier) | "kem-xanh" (kem #EFE3C8 sọc xanh lá thông #4F7A5A, Kiruna 28/11/2026) | màu;
+   *  hoặc {mau, vong: 2} (quấn hai vòng: thêm một vòng cao hơn, lên tới dưới miệng). */
+  VT.KHAN_KEM_XANH = { mau: "#EFE3C8", soc: "#4F7A5A" };
   function scarf(t, col) {
-    var w = t != null ? Math.sin(Math.round(t * 12) * 1.3) * 4 : 0, SC = col === "kem" ? "#EFE3C8" : (col || MAT), ST = col === "kem" ? "#C9463A" : "#EFE3C8";
+    var vong = 1;
+    if (col && typeof col === "object") { vong = col.vong || 1; col = col.mau || null; }
+    var w = t != null ? Math.sin(Math.round(t * 12) * 1.3) * 4 : 0, SC = (col === "kem" || col === "kem-xanh") ? "#EFE3C8" : (col || MAT),
+      ST = col === "kem" ? "#C9463A" : col === "kem-xanh" ? VT.KHAN_KEM_XANH.soc : "#EFE3C8";
+    if (col === "kem-xanh") { // sọc dày, nhiều, thấy rõ ở trung cảnh
+      var o2 = "";
+      if (vong >= 2) o2 += VT.shape("M 106 230 C 152 254 248 254 294 228 L 296 260 C 248 286 152 286 104 262 Z", SC, { sw: 6 }) +
+        VT.line("M 140 242 L 138 270", 7, ST) + VT.line("M 200 250 L 200 278", 7, ST) + VT.line("M 260 242 L 262 270", 7, ST);
+      return o2 + VT.shape("M 112 258 C 156 282 244 282 290 256 L 294 286 C 246 312 154 312 108 288 Z", SC, { sw: 6 }) +
+        VT.line("M 140 270 L 136 300", 7, ST) + VT.line("M 182 278 L 180 306", 7, ST) + VT.line("M 224 278 L 226 306", 7, ST) + VT.line("M 264 268 L 268 298", 7, ST) +
+        VT.shape("M 134 292 C 128 322 " + f(118 + w) + " 346 " + f(106 + w) + " 372 L " + f(136 + w) + " 380 C 146 352 154 324 162 298 Z", SC, { sw: 6 }) +
+        VT.line("M " + f(126 + w * 0.4) + " 322 L " + f(152 + w * 0.4) + " 330", 7, ST) + VT.line("M " + f(116 + w * 0.8) + " 350 L " + f(142 + w * 0.8) + " 357", 7, ST) +
+        VT.line("M " + f(112 + w) + " 378 L " + f(108 + w) + " 392", 4) + VT.line("M " + f(122 + w) + " 380 L " + f(120 + w) + " 394", 4) + VT.line("M " + f(132 + w) + " 382 L " + f(132 + w) + " 396", 4);
+    }
     return VT.shape("M 112 258 C 156 282 244 282 290 256 L 294 286 C 246 312 154 312 108 288 Z", SC, { sw: 6 }) +
       VT.line("M 150 272 L 146 302", 4, ST) + VT.line("M 250 272 L 254 302", 4, ST) +
       VT.shape("M 134 292 C 128 322 " + f(118 + w) + " 346 " + f(106 + w) + " 372 L " + f(136 + w) + " 380 C 146 352 154 324 162 298 Z", SC, { sw: 6 }) +
@@ -419,6 +524,9 @@
    *  pack: góc ba lô (độ, từ VT.conLac) · smear: px (thân kéo thành giọt theo hướng ngược chuyển động)
    *  sunhat (true | "coi" | {mau: "coi", rot, dx, dy, smoke, dust}: mũ rộng vành kraft, "coi" = mũ cói tập 4) · packColor ("oliu" | {pack, dark}) · grassRoll · packOpen 0..1
    *  raincoat (true | {hood, wet}), pajama, cap, sunglasses, shoes ("dep" dép lê | "ung" ủng cao su), scarf ("kem" | màu) [Whittier 23/11/2026]
+   *  puffer (áo phao xanh lam, túi phải; true | {sleeves, keyTag}), vest (gi-lê kem, túi phải; true | {keyTag}), beanie: "thong", scarf: "kem-xanh" | {mau, vong: 2},
+   *  sunglasses: "tron" | "tran" (kính tròn, đẩy lên trán), hardhat (true | {dy, rot, lamp}), packColor: "kiruna" (+ thảm đỏ #C9463A), coatRoll (áo phao cuộn dưới cuộn thảm),
+   *  keyRing (true: chùm chìa nhà + chìa Kiruna móc quai ba lô | "nha": chỉ chìa nhà) [Kiruna 28/11/2026]
    *  cold, frost, beanie (true | "khoa" = màu khoá liên tục | "kem" | {mu, vanh, bong, rot}), scarf, blanket, snowhat · noPack (không vẽ ba lô + quai: ba lô đã tháo, vẽ riêng bằng VT.backpack) · shiver (px rung) · marks: shiver|shock|sweat */
   VT.wob = function (o) {
     var P = pose(o), sea = o.cold ? SEA_COLD : SEA;
@@ -437,6 +545,9 @@
     up.push(body(o, path));
     if (o.pajama) up.push(pajama(path));
     if (o.raincoat) up.push(raincoat(o, path));
+    if (o.puffer) up.push(puffer(o, path));
+    if (o.vest) up.push(vest(o, path));
+    if (o.keyRing && !o.noPack && VT.chumChia) up.push(VT.chumChia({ x: 322, y: 188, s: 0.42, kiruna: o.keyRing !== "nha", rot: -(o.pack || 0) * 0.6 }));
     if (o.scarf) up.push(scarf(o.t, o.scarf === true ? null : o.scarf));
     if (o.blanket) up.push(blanket());
     if (!o.cold && !o.blanket) up.push('<ellipse cx="' + (124 + fs) + '" cy="204" rx="16" ry="10" fill="' + CHEEK + '" opacity="0.55"/><ellipse cx="' + (276 + fs) + '" cy="204" rx="16" ry="10" fill="' + CHEEK + '" opacity="0.55"/>');
@@ -447,9 +558,12 @@
     if (o.beanie) up.push(beanie(o.beanie));
     if (o.snowhat) up.push(snowhat());
     if (o.cap) up.push(cap());
-    if (o.sunglasses) up.push(sunglasses(fs));
+    if (o.sunglasses === "tron" || o.sunglasses === "tran") up.push(sunglassesRound(fs, o.sunglasses === "tran"));
+    else if (o.sunglasses) up.push(sunglasses(fs));
+    if (o.hardhat) up.push(hardhatSvg(o.hardhat));
     if (o.sunhat) up.push(sunhatSvg(o.sunhat, o.t));
     up.push(VT.line(aL.d, 13) + VT.line(aR.d, 13));
+    if (o.puffer && !(typeof o.puffer === "object" && o.puffer.sleeves === false)) up.push(sleeve(aL) + sleeve(aR));
     if (o.prop) up.push(o.prop);
     up.push(hand(aL, hL, "l") + hand(aR, hR, "r"));
     if (o.propFront) up.push(o.propFront);

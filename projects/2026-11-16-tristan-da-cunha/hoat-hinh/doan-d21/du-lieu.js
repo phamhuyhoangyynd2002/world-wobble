@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 28.72,
- "bat_dau_tuyet_doi": 232.542,
+ "bat_dau_tuyet_doi": 232.734,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay trang sổ: bàn gỗ, đàn bò, bao hàng, đồng xu chia ba đống; rồi trang sổ có hình hòn đảo, từng con tàu giấy nhỏ ghé đảo; tàu bốc khói mắc cạn",
  "trang_phuc": "Wob vẽ tay ở mép trang, áo mưa cam mũ trùm hạ, ba lô nhỏ",

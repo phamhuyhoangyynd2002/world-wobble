@@ -1,4 +1,4 @@
-/* Đoạn d38 · cắt giấy tông trầm · Wob ở nhà đứng trên bàn kỷ vật lật sổ du lịch (nhìn từ trên): trại Calshot 1962, dãy nhà giống hệt nhau, hàng móc áo 113, mùa đông tuyết và cúm, lá thư STAY, bản phác làng còn nguyên. Khung luôn thấy mép bàn và đèn bàn. Không khẩu hình, không cười, không gag. Vào "cat", ra "cat". */
+/* Đoạn d38 · cắt giấy tông trầm · lịch sử nghiêm, KHÔNG gag, không sfx hài · Wob ở nhà lật sổ rồi bước vào trang sổ Calshot 1962 làm người quan sát: đi dọc dãy nhà trại giống hệt nhau; đứng ngoài bên giá móc áo nhìn hàng người giấy (không mặt) treo áo đi làm, giá kín dần (113); mùa đông: đứng lặng ôm vai ngoài tuyết, nhìn ô cửa đọng sương có ấm nước bốc hơi; đứng cạnh lá thư STAY; về bàn lật sang bản phác làng còn nguyên. Đèn bàn ở góc TRÁI. Vào "cat", ra "cat". */
 /* ---- Bộ dựng riêng tập 5 Tristan da Cunha · cắt giấy nhóm B (d28 d30 d31 d32 d35 d36 d38 d42 d44 d46 d47).
    Chép nguyên vào đầu canh.js của các đoạn này (không sửa lib chung vì nhóm A chạy song song).
    Khoá trang phục: áo mưa vải dầu cam #E07A2E (viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33, dài tới gối), mũ trùm lên/hạ,
@@ -225,10 +225,10 @@ var TB = (function () {
     // kệ tem nhỏ sau song (hình chữ nhật, không chữ)
     for (var q = 0; q < 4; q++) s += '<rect x="' + (985 + q * 62) + '" y="478" width="40" height="50" fill="' + (q % 2 ? "#E9DEC4" : "#D8C9A6") + '" stroke="' + INK + '" stroke-width="2.5"/>';
     // biển POST OFFICE
-    s += '<g id="bdBien">' + line("M 900 250 L 930 190 M 1320 250 L 1290 190", 4, "#3A3F44") +
-      paper(rRect(820, 192, 580, 112, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
-      '<rect x="836" y="206" width="548" height="84" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
-      D.txt(1110, 274, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
+    s += '<g id="bdBien">' + line("M 860 316 L 880 250 M 1240 316 L 1220 250", 4, "#3A3F44") + '<circle cx="880" cy="250" r="6" fill="#3A3F44"/><circle cx="1220" cy="250" r="6" fill="#3A3F44"/>' +
+      paper(rRect(780, 312, 540, 98, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
+      '<rect x="794" y="324" width="512" height="74" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
+      D.txt(1050, 384, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
     // đèn treo
     s += line("M 640 -200 L 640 150", 3, "#2B2F33") + paper("M 600 150 L 680 150 L 700 190 L 580 190 Z", "#3F5A4A", { stroke: true, sw: 4 }) + '<ellipse cx="640" cy="192" rx="60" ry="10" fill="#FFE6A8" stroke="' + INK + '" stroke-width="3"/>';
     s += '<ellipse cx="640" cy="330" rx="220" ry="170" fill="url(#lampG)"/>';
@@ -481,148 +481,149 @@ window.CANH = function (api, data) {
   var D = api.D, at = api.at, DUR = api.DUR, INK = D.INK, f1 = D.f1;
   var T = function (w, tMin, du) { var v = api.tuDung(w, tMin || 0, 0); return v == null || v > DUR ? du : v; };
   var cx = data.chu_tren_do_vat;      // ["CALSHOT · Jan 1962", "113", "STAY"]
-  var tCalshot = T("Calshot,", 0, 3.58), tFrom = T("from", 5, 5.71), tThey = T("They", 7, 8.00), tThirteen = T("thirteen", 0, 11.27), tJobs = T("jobs.", 0, 12.30);
-  var tBut = T("But", 0, 13.21), tFlu = T("flu", 0, 14.75), tWinter = T("winter", 0, 16.29), tBitter = T("bitter.", 0, 17.31), tIn = T("In", 17.5, 18.04);
-  var tStay = T("stay", 0, 22.34), tMean = T("Meanwhile,", 0, 23.52), tStill = T("still", 0, 28.48);
-  var LAT = [0.05, tFrom, tThey, tBut, tIn, tMean];       // 6 lần lật: trống → S1 → S1b → S2 → S3 → S4 → S5
+  var tCamp = T("camp", 0, 3.12), tFrom = T("from", 5, 5.71), tSixty2 = T("sixty-two.", 6, 6.97), tThey = T("They", 7, 8.00), tThirteen = T("thirteen", 0, 11.27), tJobs = T("jobs.", 0, 12.30);
+  var tBut = T("But", 0, 13.21), tFlu = T("flu", 0, 14.75), tWinter = T("winter", 0, 16.29), tBitter = T("bitter.", 0, 17.31), tIn = T("In", 17.5, 18.04), tParl = T("Parliament", 0, 20.99);
+  var tStay = T("stay", 0, 22.34), tEngland = T("England.", 22, 22.75), tMean = T("Meanwhile,", 0, 23.52), tStill = T("still", 0, 28.48);
+  var tVe = Math.min(tMean - 0.17, tEngland + 0.5);       // cắt về bàn
 
-  // ================= bàn kỷ vật nhìn từ trên: sổ mở, vệt đèn, mép bàn gần, đèn bàn góc phải trên =================
+  // ================= bàn kỷ vật nhìn từ trên: sổ mở, vệt đèn, mép bàn gần; đèn bàn ở TRÁI =================
   var BS = TB.banSo({ seed: 3801 });
+  BS.nen = BS.nen.replace('<ellipse cx="1560" cy="250" rx="1100" ry="760"', '<ellipse cx="260" cy="560" rx="1100" ry="760"').replace('<ellipse cx="1500" cy="300" rx="700" ry="500"', '<ellipse cx="320" cy="560" rx="700" ry="500"');
   var PL = BS.vt.trai, PR = BS.vt.phai, GX = BS.vt.gay;           // trang trái [290,150,660,780], phải [970,150,660,780]
-  var X0 = PL[0], X1 = PR[0] + PR[2], Y0 = PL[1], Y1 = PL[1] + PL[3];
+  var X0 = PL[0], X1 = PR[0] + PR[2], Y0 = PL[1];
   var mepBan = '<rect x="-600" y="1012" width="3200" height="400" fill="#4A2E1C"/>' + D.line("M -600 1012 L 2600 1012", 6, "#2E1C10") + D.line("M -600 1022 L 2600 1022", 3, "#7A5236", ' opacity="0.6"');
-  // đèn bàn nhìn từ trên: đế tròn, cần, chao tròn sáng
-  var den = '<g>' + D.paper(D.rEll(1850, 70, 80, 64, 2, 3802), "#2C3A3B", { stroke: true, sw: 5 }) + D.line("M 1850 70 L 1720 190", 22, INK) + D.line("M 1850 70 L 1720 190", 13, "#3F6A70") +
-    '<circle cx="1720" cy="190" r="96" fill="#FFD68A" opacity="0.25"/>' + D.paper(D.rEll(1720, 190, 74, 70, 2, 3803), "#E0703A", { stroke: true, sw: 6, half: 0.15 }) +
-    '<circle cx="1720" cy="190" r="40" fill="#FFE6A8" stroke="' + INK + '" stroke-width="4"/><circle cx="1720" cy="190" r="20" fill="#FFF6D8"/></g>';
-  // ba lô nhỏ dựa chân đèn, áo mưa cam gấp ở góc bàn trái trên (chuyến đi đã xong)
-  var balo = at(1790, 300, '<g transform="rotate(-18)">' + D.paper(D.rRect(-56, -70, 112, 140, 2, 3804), TB.OLIU, { stroke: true, sw: 5, sx: 6, sy: 8 }) + D.paper(D.rRect(-56, -70, 112, 40, 1.5, 3805), "#566030", { stroke: true, sw: 4, shadow: false }) +
+  var den = '<g>' + D.paper(D.rEll(-20, 640, 80, 64, 2, 3802), "#2C3A3B", { stroke: true, sw: 5 }) + D.line("M -20 640 L 140 470", 22, INK) + D.line("M -20 640 L 140 470", 13, "#3F6A70") +
+    '<circle cx="140" cy="470" r="96" fill="#FFD68A" opacity="0.25"/>' + D.paper(D.rEll(140, 470, 74, 70, 2, 3803), "#E0703A", { stroke: true, sw: 6, half: 0.15 }) +
+    '<circle cx="140" cy="470" r="40" fill="#FFE6A8" stroke="' + INK + '" stroke-width="4"/><circle cx="140" cy="470" r="20" fill="#FFF6D8"/></g>';
+  var balo = at(130, 830, '<g transform="rotate(14)">' + D.paper(D.rRect(-56, -70, 112, 140, 2, 3804), TB.OLIU, { stroke: true, sw: 5, sx: 6, sy: 8 }) + D.paper(D.rRect(-56, -70, 112, 40, 1.5, 3805), "#566030", { stroke: true, sw: 4, shadow: false }) +
     D.paper(D.rRect(-60, -98, 120, 30, 1.2, 3806), TB.THAM, { stroke: true, sw: 4, shadow: false }) + "</g>");
-  var ao = at(150, 90, '<g transform="rotate(8)">' + D.paper(D.rough([[-120, -60], [110, -70], [130, 60], [-110, 70]], 3, 3807, 20), TB.CAM, { stroke: true, sw: 5, sx: 6, sy: 8 }) +
+  var ao = at(150, 160, '<g transform="rotate(8)">' + D.paper(D.rough([[-120, -60], [110, -70], [130, 60], [-110, 70]], 3, 3807, 20), TB.CAM, { stroke: true, sw: 5, sx: 6, sy: 8 }) +
     D.line("M -100 -10 L 110 -18", 4, TB.CAM_D) + '<circle cx="-20" cy="20" r="9" fill="#8A5A33" stroke="' + INK + '" stroke-width="3"/><circle cx="40" cy="16" r="9" fill="#8A5A33" stroke="' + INK + '" stroke-width="3"/></g>');
 
-  // ================= nội dung các đôi trang (toạ độ khung, cắt theo hai trang) =================
-  var SEP = "#3E4248";
-  function nhaTrai(x, y, s, tuyet) {   // nhà trại một tầng giống hệt nhau, ống khói nhỏ
+  // ================= nội dung đôi trang (toạ độ khung, cắt theo cả đôi trang). Mặt đất trong trang: y 850 =================
+  var SEP = "#3E4248", GY = 850, AOK = "#4A5A6A", AOK_D = "#34404C";
+  function nhaTrai(x, y, s, tuyet, den1) {
     var g = '<g transform="translate(' + x + "," + y + ') scale(' + s + ')">' + D.paper(D.rRect(-90, -70, 180, 70, 1.2, 3810), "#A9AEAE", { stroke: true, sw: 4, sx: 4, sy: 5 }) +
       D.paper("M -100 -66 L -70 -104 L 70 -104 L 100 -66 Z", "#6E7A84", { stroke: true, sw: 4, shadow: false }) + D.paper(D.rRect(46, -128, 16, 30, 1, 3811), "#7A7470", { stroke: true, sw: 3, shadow: false }) +
-      '<rect x="-60" y="-50" width="28" height="22" fill="#5E6E78" stroke="' + SEP + '" stroke-width="2.5"/><rect x="34" y="-50" width="28" height="22" fill="#5E6E78" stroke="' + SEP + '" stroke-width="2.5"/>' +
+      '<rect x="-60" y="-50" width="28" height="22" fill="' + (den1 ? "#FFD68A" : "#5E6E78") + '" stroke="' + SEP + '" stroke-width="2.5"/><rect x="34" y="-50" width="28" height="22" fill="' + (den1 ? "#FFD68A" : "#5E6E78") + '" stroke="' + SEP + '" stroke-width="2.5"/>' +
       '<rect x="-12" y="-46" width="24" height="46" fill="#4E5458" stroke="' + SEP + '" stroke-width="2.5"/>';
     if (tuyet) g += D.paper("M -104 -64 C -80 -76 -70 -100 -70 -110 L 70 -110 C 72 -96 84 -78 104 -64 C 60 -70 -60 -70 -104 -64 Z", "#F4F6F4", { stroke: true, sw: 3, shadow: false }) +
-      '<rect x="-60" y="-50" width="28" height="22" fill="#E8EEF0" opacity="0.7"/><rect x="34" y="-50" width="28" height="22" fill="#E8EEF0" opacity="0.7"/>';
+      (den1 ? "" : '<rect x="-60" y="-50" width="28" height="22" fill="#E8EEF0" opacity="0.7"/><rect x="34" y="-50" width="28" height="22" fill="#E8EEF0" opacity="0.7"/>');
     return g + "</g>";
   }
   var KHOIS = [];
   function khoiMong(id, x, y) { KHOIS.push([id, x, y]); return '<path id="' + id + '" d="M ' + x + " " + y + '" fill="none" stroke="#C9CDCB" stroke-width="7" stroke-linecap="round" opacity="0.8"/>'; }
-  // --- S1: dãy nhà trại bên bờ nước xám + thẻ CALSHOT ---
-  var s1 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#C3C8C6"/>' + '<rect x="' + X0 + '" y="420" width="1340" height="120" fill="#8E9A9E"/>' + D.line("M " + X0 + " 420 L " + X1 + " 420", 3, SEP) +
-    '<rect x="' + X0 + '" y="540" width="1340" height="390" fill="#9AA094"/>';
-  for (var w = 0; w < 4; w++) s1 += D.line("M " + (340 + w * 320) + " " + (460 + (w % 2) * 30) + " q 20 -6 40 0 t 40 0", 3, "#B5C0C2");
-  for (var h = 0; h < 6; h++) { s1 += khoiMong("k1-" + h, 380 + h * 220 + 46 * 0.9, 640 - 128 * 0.9); s1 += nhaTrai(380 + h * 220, 640, 0.9); }
-  for (var h2 = 0; h2 < 6; h2++) s1 += nhaTrai(380 + h2 * 220, 830, 0.95);
-  s1 += '<g id="theCal"><g transform="translate(600,250) rotate(-3)">' + D.paper(D.rRect(-280, -56, 560, 104, 1.4, 3820), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
-    '<circle cx="0" cy="-42" r="8" fill="#6E5A4A" stroke="' + SEP + '" stroke-width="2.5"/>' + D.txt(0, 20, cx[0], 50, { w: 800, fill: SEP, extra: ' textLength="500" lengthAdjust="spacingAndGlyphs"' }) + "</g></g>";
-  // --- S1b: thêm dãy nhà giống hệt (hai hàng) ---
-  var s1b = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#C3C8C6"/>' + '<rect x="' + X0 + '" y="330" width="1340" height="90" fill="#8E9A9E"/>' + '<rect x="' + X0 + '" y="420" width="1340" height="510" fill="#9AA094"/>';
-  for (var r2 = 0; r2 < 3; r2++) for (var h3 = 0; h3 < 7; h3++) {
-    var hx = 350 + h3 * 200 + (r2 % 2) * 60, hy = 540 + r2 * 160, sc = 0.7 + r2 * 0.12;
-    if (r2 === 0) s1b += khoiMong("k2-" + h3, hx + 54 * sc, hy - 128 * sc);
-    s1b += nhaTrai(hx, hy, sc);
+  // --- S1: dãy nhà trại giống hệt nhau bên bờ nước xám + thẻ CALSHOT (chữ 64 px) ---
+  var s1 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#C3C8C6"/>' + '<rect x="' + X0 + '" y="400" width="1340" height="110" fill="#8E9A9E"/>' + D.line("M " + X0 + " 400 L " + X1 + " 400", 3, SEP) +
+    '<rect x="' + X0 + '" y="510" width="1340" height="420" fill="#9AA094"/>';
+  for (var w = 0; w < 4; w++) s1 += D.line("M " + (340 + w * 320) + " " + (440 + (w % 2) * 30) + " q 20 -8 40 0 t 40 0", 3, "#B5C0C2");
+  for (var h = 0; h < 7; h++) { s1 += khoiMong("k1-" + h, 330 + h * 200 + 54 * 0.75, 610 - 128 * 0.75); s1 += nhaTrai(330 + h * 200, 610, 0.75); }
+  for (var h2 = 0; h2 < 6; h2++) s1 += nhaTrai(380 + h2 * 230, 790, 0.95);
+  s1 += '<g id="theCal"><g transform="translate(730,320) rotate(-3)">' + D.paper(D.rRect(-330, -62, 660, 116, 1.4, 3820), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
+    '<circle cx="0" cy="-46" r="8" fill="#6E5A4A" stroke="' + SEP + '" stroke-width="2.5"/>' + D.txt(0, 24, cx[0], 64, { w: 800, fill: SEP, extra: ' textLength="600" lengthAdjust="spacingAndGlyphs"' }) + "</g></g>";
+  // --- S2: giá móc áo lao động kín dần: hàng người giấy (không mặt) lần lượt treo áo đi làm lên móc; Wob đứng ngoài, bên phải giá, nhìn ---
+  var AO = ["#5E5448", "#3E4A44", "#6A5E50", "#56606A", "#4E5A4A", "#4A5A6A"];
+  var s2 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#B9B6AC"/>' + '<rect x="' + X0 + '" y="700" width="1340" height="230" fill="#9A968A"/>' + D.line("M " + X0 + " 700 L " + X1 + " 700", 3, SEP);
+  s2 += D.line("M 1010 566 L 1010 850 M 1430 566 L 1430 850", 12, "#5E4A38") + D.paper(D.rRect(990, 546, 460, 34, 1.2, 3830), "#7A6650", { stroke: true, sw: 4, sx: 4, sy: 6 });
+  var HK = [];
+  for (var m = 0; m < 6; m++) {
+    var mx = 1050 + m * 70; HK.push(mx);
+    s2 += '<path d="M ' + mx + " 570 L " + mx + " 584 C " + mx + " 596 " + (mx + 12) + " 596 " + (mx + 12) + ' 586" fill="none" stroke="' + SEP + '" stroke-width="5" stroke-linecap="round"/>';
+    s2 += '<g id="ao' + m + '"><g transform="translate(' + mx + ',586) scale(0.8)">' + D.paper("M -10 0 L 10 0 L 46 30 L 40 70 L 30 64 L 30 200 L -30 200 L -30 64 L -40 70 L -46 30 Z", AO[m], { stroke: true, sw: 3.5, sx: 4, sy: 5 }) +
+      D.line("M 0 6 L 0 196", 2.5, "#2E3436", ' opacity="0.6"') + "</g></g>";
   }
-  // --- S2: hàng móc áo lao động, áo treo dần; thẻ 113 ---
-  var AO = ["#4A5A6A", "#5E5448", "#3E4A44", "#6A5E50", "#56606A"];
-  var s2 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#B9B6AC"/>';
-  var NM = 22, moc = "";
-  for (var rr = 0; rr < 2; rr++) {
-    var by = 280 + rr * 330;
-    s2 += D.paper(D.rRect(X0 + 20, by - 26, 1300, 40, 1.2, 3830 + rr), "#7A6650", { stroke: true, sw: 4, sx: 4, sy: 6 });
-    for (var m = 0; m < 11; m++) {
-      var mx = 350 + m * 120 + (m > 4 ? 30 : 0), id = rr * 11 + m;
-      s2 += '<path d="M ' + mx + " " + (by - 6) + " L " + mx + " " + (by + 12) + " C " + mx + " " + (by + 26) + " " + (mx + 14) + " " + (by + 26) + " " + (mx + 14) + " " + (by + 14) + '" fill="none" stroke="' + SEP + '" stroke-width="5" stroke-linecap="round"/>';
-      moc += '<g id="ao' + id + '"><g transform="translate(' + mx + "," + (by + 14) + ')">' + D.paper("M -10 0 L 10 0 L 46 30 L 40 70 L 30 64 L 30 200 L -30 200 L -30 64 L -40 70 L -46 30 Z", AO[id % 5], { stroke: true, sw: 3.5, sx: 4, sy: 5 }) +
-        D.line("M 0 6 L 0 196", 2.5, "#2E3436", ' opacity="0.6"') + D.line("M -22 120 L -6 120 M 6 120 L 22 120", 3, "#2E3436", ' opacity="0.5"') + "</g></g>";
-    }
+  var NG = 6, QX = 900, QB = 130, nguoiS = "";
+  for (var p = 0; p < NG; p++) {
+    var px = QX - QB * p;
+    nguoiS += '<g id="ng' + p + '"><g transform="translate(' + px + "," + GY + ')"><g id="ngA' + p + '">' + TB.nguoi("nga" + p, { ao: AO[p], quan: "#3E4448", s: 1.0 }) + '</g><g id="ngB' + p + '" opacity="0">' + TB.nguoi("ngb" + p, { ao: "#8A8C86", quan: "#3E4448", s: 1.0 }) + "</g></g></g>";
   }
-  s2 += moc;
-  s2 += '<g id="the113"><g transform="translate(1500,870) rotate(4)">' + D.paper(D.rRect(-100, -74, 200, 130, 1.4, 3840), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
+  s2 += nguoiS;
+  s2 += '<g id="the113"><g transform="translate(1100,340) rotate(4)">' + D.paper(D.rRect(-100, -74, 200, 130, 1.4, 3840), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
     '<circle cx="0" cy="-58" r="8" fill="#6E5A4A" stroke="' + SEP + '" stroke-width="2.5"/>' + D.txt(0, 38, cx[1], 96, { w: 800, fill: SEP }) + "</g></g>";
-  // --- S3: trang trái cửa sổ đọng sương + ấm nước bốc hơi; trang phải dãy nhà trại dưới tuyết rơi ---
-  var s3 = '<rect x="' + X0 + '" y="' + Y0 + '" width="660" height="780" fill="#A9A49A"/>' + '<rect x="' + PR[0] + '" y="' + Y0 + '" width="660" height="780" fill="#B7C0C4"/>';
-  s3 += '<rect x="360" y="210" width="380" height="330" fill="#7E8C94" stroke="' + SEP + '" stroke-width="8"/>' + D.line("M 550 210 L 550 540 M 360 375 L 740 375", 7, SEP);
-  [[364, 214, 1, 1], [736, 214, -1, 1], [364, 536, 1, -1], [736, 536, -1, -1], [554, 379, 1, 1], [546, 379, -1, 1]].forEach(function (q) {
-    s3 += '<path d="M ' + q[0] + " " + q[1] + " l " + 70 * q[2] + " 0 c " + (-30 * q[2]) + " " + 14 * q[3] + " " + (-50 * q[2]) + " " + 34 * q[3] + " " + (-70 * q[2]) + " " + 60 * q[3] + ' Z" fill="#E9EEF0" opacity="0.85"/>';
+  // --- S3: mùa đông: vách nhà trại cận cảnh bên trái, cửa sổ đọng sương, trong nhà bếp có ấm nước bốc hơi; dãy nhà phủ tuyết phía sau; tuyết rơi ---
+  var s3 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#B7C0C4"/>' + '<rect x="' + X0 + '" y="560" width="1340" height="370" fill="#E8ECEC"/>' + D.line("M " + X0 + " 560 L " + X1 + " 560", 3, SEP);
+  for (var h4 = 0; h4 < 4; h4++) s3 += nhaTrai(930 + h4 * 230, 600, 0.8, true);
+  for (var h5 = 0; h5 < 3; h5++) s3 += nhaTrai(1010 + h5 * 280, 780, 0.95, true);
+  s3 += D.paper(D.rRect(230, 300, 600, 560, 1.2, 3850), "#A9AEAE", { stroke: true, sw: 5, sx: 8, sy: 8 });
+  for (var vb = 0; vb < 9; vb++) s3 += D.line("M 230 " + (360 + vb * 58) + " L 830 " + (360 + vb * 58), 2.5, "#8E9494", ' opacity="0.7"');
+  s3 += D.paper("M 210 306 C 300 270 700 270 850 300 C 820 330 740 326 700 340 C 600 322 420 330 210 330 Z", "#F4F6F4", { stroke: true, sw: 3, shadow: false });
+  s3 += '<clipPath id="clipCua38"><rect x="400" y="400" width="300" height="250"/></clipPath><g clip-path="url(#clipCua38)"><rect x="400" y="400" width="300" height="250" fill="#D9B57A"/>' +
+    '<rect x="400" y="400" width="300" height="250" fill="#FFE2A0" opacity="0.35"/>' + D.paper(D.rRect(470, 580, 170, 90, 1, 3851), "#3A3A38", { stroke: true, sw: 4, shadow: false }) +
+    '<g transform="translate(555,580)">' + D.paper("M -46 0 C -54 -40 -32 -62 0 -62 C 32 -62 54 -40 46 0 Z", "#7A8486", { stroke: true, sw: 4, shadow: false }) + D.line("M 40 -26 C 64 -32 72 -46 80 -62", 8, SEP) +
+    D.line("M -24 -62 C -24 -84 24 -84 24 -62", 5, SEP) + "</g>";
+  for (var hj = 0; hj < 6; hj++) s3 += '<circle id="hoi' + hj + '" cx="635" cy="518" r="12" fill="#F4F1EA" opacity="0"/>';
+  [[400, 400, 1, 1], [700, 400, -1, 1], [400, 650, 1, -1], [700, 650, -1, -1]].forEach(function (q) {
+    s3 += '<path d="M ' + q[0] + " " + q[1] + " l " + 90 * q[2] + " 0 c " + (-40 * q[2]) + " " + 18 * q[3] + " " + (-70 * q[2]) + " " + 44 * q[3] + " " + (-90 * q[2]) + " " + 80 * q[3] + ' Z" fill="#EEF3F4" opacity="0.9"/>';
   });
-  s3 += D.paper(D.rRect(330, 640, 420, 260, 1.4, 3850), "#4E4E4C", { stroke: true, sw: 5 }) + '<rect x="360" y="610" width="360" height="40" fill="#3A3A38" stroke="' + SEP + '" stroke-width="4"/>' +
-    '<rect x="380" y="720" width="120" height="80" fill="#6E3A2A" stroke="' + SEP + '" stroke-width="4"/>' + '<rect x="394" y="736" width="92" height="50" fill="#E89A4A" opacity="0.8"/>';
-  s3 += '<g transform="translate(600,610)">' + D.paper("M -70 0 C -80 -60 -50 -90 0 -90 C 50 -90 80 -60 70 0 Z", "#7A8486", { stroke: true, sw: 4, sx: 3, sy: 4 }) + D.line("M 64 -40 C 100 -50 110 -70 120 -90", 9, SEP) +
-    D.line("M -40 -96 C -30 -120 30 -120 40 -96", 6, SEP) + "</g>";
-  s3 += '<g id="hoi">' + [0, 1, 2, 3, 4].map(function (j) { return '<circle id="hoi' + j + '" cx="720" cy="500" r="16" fill="#E6E8E6" opacity="0"/>'; }).join("") + "</g>";
-  s3 += '<g clip-path="url(#clipR38)">' + '<rect x="' + PR[0] + '" y="560" width="660" height="370" fill="#E8ECEC"/>';
-  for (var h4 = 0; h4 < 3; h4++) s3 += nhaTrai(1080 + h4 * 220, 600, 0.85, true) + nhaTrai(1050 + h4 * 230, 800, 0.95, true);
+  s3 += '<rect x="400" y="400" width="300" height="250" fill="#E8EEF0" opacity="0.22"/><rect x="400" y="400" width="300" height="250" fill="none" stroke="#F2F6F7" stroke-width="44" opacity="0.8"/><rect x="400" y="400" width="300" height="250" fill="none" stroke="#F2F6F7" stroke-width="80" opacity="0.35"/></g>';   // sương đọng quanh khung kính
+  s3 += '<rect x="400" y="400" width="300" height="250" fill="none" stroke="' + SEP + '" stroke-width="10"/>' + D.line("M 550 400 L 550 650 M 400 525 L 700 525", 7, SEP) +
+    D.paper(D.rRect(380, 650, 340, 22, 1.2, 3852), "#8E9494", { stroke: true, sw: 4, shadow: false }) + D.paper("M 384 650 C 440 638 640 636 716 650 Z", "#F4F6F4", { shadow: false });
   s3 += '<g id="tuyet">';
-  for (var f = 0; f < 46; f++) s3 += '<circle id="ty' + f + '" cx="0" cy="0" r="' + (4 + (f % 4) * 1.5) + '" fill="#FFFFFF" stroke="#9FAFB6" stroke-width="1.2"/>';
-  s3 += "</g></g>";
-  // --- S4: lá thư đánh máy trên bàn gỗ, chỉ đọc được STAY gạch dưới ---
+  for (var f = 0; f < 70; f++) s3 += '<circle id="ty' + f + '" cx="0" cy="0" r="' + (4 + (f % 4) * 1.5) + '" fill="#FFFFFF" stroke="#9FAFB6" stroke-width="1.2"/>';
+  s3 += "</g>";
+  // --- S4: lá thư đánh máy trên mặt bàn gỗ, chỉ đọc được STAY gạch dưới ---
   var s4 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#7A6450"/>';
   var rg = D.rng(3860);
   for (var gl = 0; gl < 12; gl++) { var gy = 170 + gl * 66 + rg() * 20; s4 += D.line("M " + X0 + " " + f1(gy) + " C 700 " + f1(gy + 12) + " 1100 " + f1(gy - 12) + " " + X1 + " " + f1(gy), 3, "#5E4A38", ' opacity="0.6"'); }
-  s4 += '<g transform="translate(960,540) rotate(-2)">' + D.paper(D.rRect(-260, -350, 520, 700, 1.4, 3861), "#EEEAE0", { stroke: true, sw: 4, sx: 8, sy: 10 });
+  s4 += '<g transform="translate(800,540) rotate(-2)">' + D.paper(D.rRect(-260, -350, 520, 700, 1.4, 3861), "#EEEAE0", { stroke: true, sw: 4, sx: 8, sy: 10 });
   var rt = D.rng(3862);
   for (var ln = 0; ln < 13; ln++) {
     if (ln === 8) continue;
     var yL = -290 + ln * 46, xL = -210, len = ln === 0 ? 180 : (ln === 12 ? 220 : 400 - rt() * 60);
     for (var xx = xL; xx < xL + len; xx += 14) if (rt() > 0.18) s4 += '<rect x="' + f1(xx) + '" y="' + f1(yL - 12) + '" width="10" height="14" fill="#3A3E44" opacity="0.75"/>';
   }
-  s4 += D.txt(-210, 92, cx[2], 72, { w: 800, fill: "#2E3238", anchor: "start" }) + '<path id="gach" d="M -214 108 L -50 106" fill="none" stroke="#2E3238" stroke-width="7" stroke-linecap="round"/>';
-  s4 += "</g>";
+  s4 += D.txt(-210, 92, cx[2], 72, { w: 800, fill: "#2E3238", anchor: "start" }) + '<path id="gach" d="M -214 108 L -50 106" fill="none" stroke="#2E3238" stroke-width="7" stroke-linecap="round"/>' + "</g>";
   // --- S5: bản phác bút chì: làng mái còn nguyên, dòng dung nham dừng ở rìa đông ---
   var CHI = "#6A6A66";
   var s5 = '<rect x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#F1EBDD"/>';
   s5 += D.line("M 300 560 C 520 520 700 300 860 230 C 960 200 1040 210 1120 260 C 1300 380 1460 520 1630 560", 4, CHI);
   for (var hp = 0; hp < 9; hp++) {
-    var px = 360 + (hp % 5) * 130 + Math.floor(hp / 5) * 60, py = 700 + Math.floor(hp / 5) * 110;
-    s5 += '<path d="M ' + (px - 50) + " " + py + " L " + (px - 50) + " " + (py - 40) + " L " + (px - 30) + " " + (py - 66) + " L " + (px + 30) + " " + (py - 66) + " L " + (px + 50) + " " + (py - 40) + " L " + (px + 50) + " " + py + ' Z" fill="none" stroke="' + CHI + '" stroke-width="3.5" stroke-linejoin="round"/>' +
-      D.line("M " + (px - 50) + " " + (py - 40) + " L " + (px + 50) + " " + (py - 40), 2.5, CHI) + '<rect x="' + (px - 8) + '" y="' + (py - 26) + '" width="16" height="26" fill="none" stroke="' + CHI + '" stroke-width="2.5"/>';
+    var hx = 360 + (hp % 5) * 130 + Math.floor(hp / 5) * 60, hy = 700 + Math.floor(hp / 5) * 110;
+    s5 += '<path d="M ' + (hx - 50) + " " + hy + " L " + (hx - 50) + " " + (hy - 40) + " L " + (hx - 30) + " " + (hy - 66) + " L " + (hx + 30) + " " + (hy - 66) + " L " + (hx + 50) + " " + (hy - 40) + " L " + (hx + 50) + " " + hy + ' Z" fill="none" stroke="' + CHI + '" stroke-width="3.5" stroke-linejoin="round"/>' +
+      D.line("M " + (hx - 50) + " " + (hy - 40) + " L " + (hx + 50) + " " + (hy - 40), 2.5, CHI) + '<rect x="' + (hx - 8) + '" y="' + (hy - 26) + '" width="16" height="26" fill="none" stroke="' + CHI + '" stroke-width="2.5"/>';
   }
   s5 += '<path d="M 1630 560 L 1500 600 C 1420 640 1380 700 1300 740 C 1260 780 1260 840 1290 900 L 1630 900 Z" fill="#8A8680" opacity="0.55" stroke="' + CHI + '" stroke-width="3.5"/>';
   for (var hh = 0; hh < 14; hh++) s5 += D.line("M " + (1300 + hh * 24) + " 900 L " + (1380 + hh * 24) + " 640", 2, CHI, ' opacity="0.7"');
-  s5 += D.line("M 1250 640 L 1250 900", 4, "#8A3A2A", ' stroke-dasharray="14 12"');
-  s5 += '<rect id="sang" x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#FFF4D8" opacity="0"/>';
+  s5 += D.line("M 1250 640 L 1250 900", 4, "#8A3A2A", ' stroke-dasharray="14 12"') + '<rect id="sang" x="' + X0 + '" y="' + Y0 + '" width="1340" height="780" fill="#FFF4D8" opacity="0"/>';
 
-  var clips = '<clipPath id="clipP38"><rect x="' + PL[0] + '" y="' + Y0 + '" width="' + PL[2] + '" height="' + PL[3] + '"/><rect x="' + PR[0] + '" y="' + Y0 + '" width="' + PR[2] + '" height="' + PR[3] + '"/></clipPath>' +
-    '<clipPath id="clipR38"><rect x="' + PR[0] + '" y="' + Y0 + '" width="' + PR[2] + '" height="' + PR[3] + '"/></clipPath>';
-  var noiDung = '<g clip-path="url(#clipP38)"><g id="s1">' + s1 + '</g><g id="s1b">' + s1b + '</g><g id="s2">' + s2 + '</g><g id="s3">' + s3 + '</g><g id="s4">' + s4 + '</g><g id="s5">' + s5 + "</g></g>";
-  noiDung += '<rect x="' + (GX - 30) + '" y="' + Y0 + '" width="60" height="780" fill="url(#gayG)"/>';
-  // tờ đang lật (quay quanh gáy): mặt giấy trơn có vài dòng chữ mờ
+  // ================= Wob: W ở nhà (không áo), là người quan sát trong trang sổ =================
+  var W = TB.wob(api, "W", { nha: true });
+
+  var clips = '<clipPath id="clipP38"><rect x="' + X0 + '" y="' + Y0 + '" width="' + (X1 - X0) + '" height="780"/></clipPath>';
+  var noiDung = '<g clip-path="url(#clipP38)"><g id="s1">' + s1 + '</g><g id="s2">' + s2 + '</g><g id="s3">' + s3 + '</g><g id="s4">' + s4 + '</g><g id="s5">' + s5 + "</g>" + "</g>";
+  var gay = '<rect id="gayR" x="' + (GX - 30) + '" y="' + Y0 + '" width="60" height="780" fill="url(#gayG)"/>';
   var lat = '<g id="latT">' + D.paper(D.rRect(GX, Y0, X1 - GX, 780, 1.2, 3870), "#F2EAD8", { stroke: true, sw: 4, shadow: false });
   for (var lq = 0; lq < 8; lq++) lat += '<path d="' + TB.scrib(GX + 80, GX + 520, Y0 + 120 + lq * 70, 3871 + lq, 8) + '" fill="none" stroke="#8A8478" stroke-width="3" opacity="0.5"/>';
   lat += '<rect x="' + GX + '" y="' + Y0 + '" width="660" height="780" fill="#3E3A36" opacity="0.08"/></g>';
 
-  var XW = 1770, YW = 990, SW = 0.58;
-  var W = TB.wob(api, "W", { nha: true });
-  api.dat(D.defsNhietDoi() + "<defs>" + clips + "</defs>" + api.lop("giua", BS.nen + noiDung + lat + ao + balo + den + mepBan + W.svg, 1, { mat: 1012 }));
+  api.dat(D.defsNhietDoi() + "<defs>" + clips + "</defs>" + api.lop("giua", BS.nen + noiDung + gay + lat + ao + balo + den + mepBan + W.svg, 1, { mat: 1012 }));
   api.noi({});
 
-  // ---------- đổi đôi trang theo từng lần lật ----------
-  var SS = [null, "#s1", "#s1b", "#s2", "#s3", "#s4", "#s5"];
-  for (var si = 1; si < SS.length; si++) TB.hien(api, SS[si], LAT[si - 1] + 0.42, si < SS.length - 1 ? LAT[si] + 0.42 : null);
+  // ---------- mốc cảnh ----------
+  var tVao0 = 1.75, tVao1 = 2.55;                 // Wob nhảy vào trang, camera lao vào sổ
+  var tS2 = tThey - 0.1, tS3 = tBut - 0.1, tS4 = tIn - 0.1;
+  TB.hien(api, "#s1", 0.42, tS2); TB.hien(api, "#s2", tS2, tS3); TB.hien(api, "#s3", tS3, tS4); TB.hien(api, "#s4", tS4, tMean); TB.hien(api, "#s5", tMean, null);
+  api.key("#gayR", "opacity", 0, 1, "step"); api.key("#gayR", "opacity", tVao1, 0, "step"); api.key("#gayR", "opacity", tVe, 1, "step");
+  // lật trang ở bàn: đầu đoạn (trống → trại) và "Meanwhile" (lá thư → bản phác)
   api.origin("#latT", GX + " 540");
   api.key("#latT", "opacity", 0, 0, "step"); api.key("#latT", "scaleX", 0, 1, "step");
-  LAT.forEach(function (tl) {
+  [0.05, tMean].forEach(function (tl) {
     api.key("#latT", "opacity", tl, 1, "step"); api.key("#latT", "scaleX", tl, 1, "step");
-    api.key("#latT", "scaleX", tl + 0.42, -1, "power2.inOut");
-    api.key("#latT", "opacity", tl + 0.44, 0, "step");
+    api.key("#latT", "scaleX", tl + 0.42, -1, "power2.inOut"); api.key("#latT", "opacity", tl + 0.44, 0, "step");
   });
-  api.sfx("lat-giay", 0.05, 0.5); api.sfx("lat-giay", tMean + 0.05, 0.5);
 
-  // ---------- camera: luôn thấy mép bàn và đèn; lướt chậm dọc dãy nhà ----------
+  // ---------- camera: bàn → lao vào sổ (Wob ở hẳn trong trại, đứng ngoài nhìn) → cắt về bàn ----------
+  var Z = 1.5;
   api.camera([
-    [0, 960, 548, 1.02], [tFrom, 950, 548, 1.04, "sine.inOut"], [tThey - 0.01, 1000, 548, 1.05, "sine.inOut"],
-    [tThey + 0.4, 965, 545, 1.03, "power2.inOut"], [tBut, 965, 545, 1.04, "sine.inOut"], [tIn, 975, 548, 1.05, "sine.inOut"],
-    [tMean, 960, 548, 1.03, "power2.inOut"], [DUR, 960, 546, 1.0, "sine.inOut"]
+    [0, 960, 548, 1.02], [tVao0, 960, 548, 1.03, "sine.inOut"], [tVao1 + 0.3, 990, 566, Z, "power2.inOut"],
+    [tS2 - 0.01, 940, 566, Z, "sine.inOut"],
+    [tS2, 975, 568, 1.5, "step"], [tS3 - 0.01, 985, 568, 1.52, "sine.inOut"],
+    [tS3, 950, 566, Z, "step"], [tS4 - 0.01, 975, 566, 1.55, "sine.inOut"],
+    [tS4, 960, 540, 1.44, "step"], [tVe - 0.01, 975, 540, 1.47, "sine.inOut"],
+    [tVe, 960, 548, 1.03, "step"], [DUR, 960, 546, 1.0, "sine.inOut"]
   ]);
 
-  // ---------- khói mảnh từ ống khói (S1, S1b), tuyết, hơi ấm nước ----------
+  // ---------- khói mảnh, hơi ấm nước, tuyết rơi đều (không gió giật), gạch dưới STAY ----------
   api.moiKhung(function (t) {
     KHOIS.forEach(function (k, j) {
       var e = window.document.getElementById(k[0]); if (!e) return;
@@ -630,31 +631,23 @@ window.CANH = function (api, data) {
       for (var s = 1; s <= 6; s++) d += " L " + f1(k[1] + 6 * Math.sin(t * 1.6 + s * 0.9 + j) + s * 3) + " " + f1(k[2] - s * 14);
       e.setAttribute("d", d);
     });
-    for (var fl = 0; fl < 46; fl++) {
-      var ef = window.document.getElementById("ty" + fl); if (!ef) continue;
-      var sp = 60 + (fl % 5) * 14, u = ((t - tBut) * sp + fl * 97) % 820;
-      ef.setAttribute("cx", f1(990 + ((fl * 137) % 640) + 14 * Math.sin(t * 1.3 + fl)));
-      ef.setAttribute("cy", f1(110 + u));
+    for (var hj = 0; hj < 6; hj++) {
+      var eh = window.document.getElementById("hoi" + hj); if (!eh) continue;
+      var uh = (t * 0.45 + hj / 6) % 1;
+      eh.setAttribute("cx", f1(635 + 34 * uh + 8 * Math.sin(uh * 6 + hj)));
+      eh.setAttribute("cy", f1(518 - 120 * uh));
+      eh.setAttribute("r", f1(10 + 18 * uh));
+      eh.setAttribute("opacity", f1(0.85 * (1 - uh)));
     }
-    for (var hq = 0; hq < 5; hq++) {
-      var eh = window.document.getElementById("hoi" + hq); if (!eh) continue;
-      var v = ((t * 0.5 + hq / 5) % 1);
-      eh.setAttribute("cx", f1(722 + 30 * v + 8 * Math.sin(v * 6 + hq)));
-      eh.setAttribute("cy", f1(510 - 170 * v));
-      eh.setAttribute("r", f1(12 + 26 * v));
-      eh.setAttribute("opacity", f1(0.8 * (1 - v)));
+    var tt = Math.max(0, t - tBut);
+    for (var fl = 0; fl < 70; fl++) {
+      var ef = window.document.getElementById("ty" + fl); if (!ef) continue;
+      var sp = 50 + (fl % 5) * 12, u = (tt * sp + fl * 97) % 800;
+      var xg = ((fl * 137) % 1340) + 14 * Math.sin(t * 1.3 + fl) + tt * 18;
+      ef.setAttribute("cx", f1(X0 + ((xg % 1340) + 1340) % 1340));
+      ef.setAttribute("cy", f1(Y0 + u));
     }
   }, { twos: true });
-
-  // ---------- thẻ, áo treo dần, gạch dưới STAY, trang sáng lên ----------
-  api.origin("#theCal", "600 250"); api.pop("#theCal", tCalshot - 0.2, 0.3);
-  var tAo0 = tThey + 0.6, tAo1 = tThirteen + 0.2;
-  for (var a = 0; a < NM; a++) {
-    var ta = tAo0 + (tAo1 - tAo0) * a / (NM - 1);
-    api.key("#ao" + a, "opacity", 0, 0, "step"); api.key("#ao" + a, "opacity", ta, 1, "step");
-    api.key("#ao" + a, "y", 0, -40, "step"); api.key("#ao" + a, "y", ta, -40, "none"); api.key("#ao" + a, "y", ta + 0.16, 0, "back.out(2)");
-  }
-  api.origin("#the113", "1500 870"); api.pop("#the113", tThirteen - 0.05, 0.3);
   var gach = null, GL = 0;
   api.moiKhung(function (t) {
     if (!gach) { gach = window.document.getElementById("gach"); if (gach) { GL = gach.getTotalLength() + 2; gach.setAttribute("stroke-dasharray", GL.toFixed(1)); } }
@@ -662,43 +655,87 @@ window.CANH = function (api, data) {
     var u = Math.max(0, Math.min(1, (t - tStay + 0.05) / 0.4));
     gach.setAttribute("stroke-dashoffset", (GL * (1 - u)).toFixed(1));
   });
+  api.origin("#theCal", "730 320"); api.pop("#theCal", 0.75, 0.3);
   api.key("#sang", "opacity", 0, 0, "step"); api.key("#sang", "opacity", tMean + 0.6, 0, "none"); api.key("#sang", "opacity", tStill, 0.28, "sine.inOut");
 
-  // ================= Wob trên mặt bàn: lật trang, không khẩu hình, không cười =================
-  W.set(0, { x: XW, y: YW, size: SW, op: 1, lid: 20, pupX: -12, pupY: -8 });
+  // ================= W (ở nhà): lật trang, bước vào sổ, đi dọc dãy nhà trại =================
+  var XW = 1770, YW = 990, SW = 0.58, SP = 0.42;
+  W.set(0, { x: XW, y: YW, size: SW, op: 1, lid: 14, aLu: 150, aLf: 20, pupX: -12, pupY: -8 });
   W.mouth(0, "thang");
-  var REST = { aLu: 18, aLf: -10, lean: 0 };
-  function latTay(tl) {   // với tay trái tới mép trang phải, hất theo tờ giấy về gáy
-    W.pose(tl - 0.3, 0.28, { aLu: 88, aLf: 30, lean: -6, pupX: -12, pupY: 4 }, "power2.out");
-    W.pose(tl, 0.3, { aLu: 150, aLf: 20, lean: -2 }, "power2.inOut");
-    W.pose(tl + 0.45, 0.35, { aLu: REST.aLu, aLf: REST.aLf, lean: 0, pupX: -12, pupY: -6 }, "power2.inOut");
+  W.pose(0.3, 0.35, { aLu: 18, aLf: -10 }, "power2.inOut");
+  W.pose(0.8, 0.5, { pupX: -14, pupY: -4, lean: -3 }, "sine.inOut");
+  // bước vào trang: nhún, bật, vòng cung, nhỏ lại cho khớp tỉ lệ trang (camera đang lao vào)
+  W.pose(tVao0 - 0.2, 0.2, { sy: 0.9, sx: 1.05, lean: -5 }, "power2.in");
+  W.pose(tVao0, 0.12, { sy: 1.06, sx: 0.96 }, "power2.out");
+  W.pose(tVao0, tVao1 - tVao0, { x: 1450, size: SP, lean: 0 }, "power1.inOut");
+  W.pose(tVao0, (tVao1 - tVao0) * 0.45, { y: 700 }, "power2.out"); W.pose(tVao0 + (tVao1 - tVao0) * 0.45, (tVao1 - tVao0) * 0.55, { y: GY }, "power2.in");
+  W.pose(tVao1, 0.1, { sy: 0.92, sx: 1.06 }, "power2.out"); W.pose(tVao1 + 0.1, 0.25, { sy: 1, sx: 1 }, "power2.out");
+  api.sfx("whoosh", tVao0, 0.3);
+  // S1: đi chậm dọc dãy nhà giống hệt nhau, ngó từng căn, đứng lại nhìn quanh
+  W.walk(tCamp, tFrom + 0.2, 1450, 760, { step: 0.32 });
+  for (var tg = tCamp + 0.2, gs = 1; tg < tFrom; tg += 0.6, gs = -gs) W.pose(tg, 0.25, { pupX: gs * 10, pupY: -12 }, "sine.inOut");
+  W.nhinQuanh(tFrom + 0.4, { nhip: 0.5 });
+  W.idle(tFrom + 1.6, tS2, { seed: 381, bien: 1.2 });
+  W.pose(tSixty2, 0.4, { pupX: 6, pupY: -10, lid: 20 }, "sine.inOut");
+
+  // S2: hàng người giấy lần lượt treo áo đi làm lên móc, giá kín dần; Wob đứng ngoài bên phải giá, nhìn từng chiếc
+  var XO = 1515;
+  W.set(tS2, { x: XO, y: GY, size: SP, lean: 0, pupX: -14, pupY: -4, aLu: 18, aLf: -10, aRu: -18, aRf: 10, upY: 0, lid: 16 });
+  W.mouth(tS2, "thang");
+  var TD = [], tD0 = tS2 + 0.3, stepQ = 0.45;
+  for (var k = 0; k < NG; k++) TD.push(tD0 + k * stepQ);
+  for (var pi = 0; pi < NG; pi++) {
+    var sel = "#ng" + pi, tme = TD[pi], tTreo = tme + 0.32, dx = HK[pi] - 36 - QX;
+    api.key(sel, "x", 0, 0, "step");
+    for (var dk = 0; dk < pi; dk++) { var td = TD[dk]; api.key(sel, "x", td + 0.12, QB * dk, "none"); api.key(sel, "x", td + 0.4, QB * (dk + 1), "power1.inOut"); }
+    api.key(sel, "x", tme, QB * pi, "none"); api.key(sel, "x", tTreo, QB * pi + dx, "power1.inOut");          // tới móc
+    api.key("#ao" + pi, "opacity", 0, 0, "step"); api.key("#ao" + pi, "opacity", tTreo, 1, "step");             // treo áo lên móc
+    api.key("#ngA" + pi, "opacity", 0, 1, "step"); api.key("#ngA" + pi, "opacity", tTreo, 0, "step");
+    api.key("#ngB" + pi, "opacity", 0, 0, "step"); api.key("#ngB" + pi, "opacity", tTreo, 1, "step");
+    api.key(sel, "x", tTreo + 0.2, QB * pi + dx, "none"); api.key(sel, "x", tTreo + 0.85, QB * pi + dx + 520, "power1.in");   // đi tiếp, qua sau Wob
+    api.key(sel, "opacity", 0, 1, "step"); api.key(sel, "opacity", tTreo + 0.85, 0, "step");
+    ["#nga" + pi + "-cP", "#nga" + pi + "-cT", "#ngb" + pi + "-cP", "#ngb" + pi + "-cT"].forEach(function (c, ci) {
+      api.origin(c, "0 0"); api.key(c, "rotation", 0, 0, "step");
+      for (var tw = tme + 0.04, s2 = 1; tw < tTreo + 0.85; tw += 0.12, s2 = -s2) { if (tw > tTreo - 0.02 && tw < tTreo + 0.2) continue; api.key(c, "rotation", tw, (ci % 2 ? -1 : 1) * 16 * s2, "sine.inOut"); }
+      api.key(c, "rotation", tTreo + 0.9, 0, "sine.out");
+    });
+    W.pose(tTreo - 0.1, 0.25, { pupX: -14 + pi * 1.2, pupY: -10, upY: 3 }, "sine.inOut"); W.pose(tTreo + 0.18, 0.2, { upY: 0 }, "sine.out");
   }
-  W.pose(0, 0.01, { aLu: 150, aLf: 20 }, "none");
-  W.pose(0.3, 0.35, { aLu: REST.aLu, aLf: REST.aLf }, "power2.inOut");
-  LAT.slice(1).forEach(latTay);
-  // S1: ngó dãy nhà; nghiêng người khi thẻ hiện
-  W.idle(0.8, tCalshot - 0.3, { seed: 381, bien: 1.2 });
-  W.pose(tCalshot, 0.4, { lean: -4, pupX: -14, pupY: -12 }, "sine.inOut"); W.pose(tCalshot + 1.2, 0.4, { lean: 0, pupX: -10, pupY: -4 }, "sine.inOut");
-  W.breathe(tCalshot, tFrom - 0.3);
-  // S1b: mắt lướt theo dãy nhà
-  W.pose(tFrom + 0.8, 1.2, { pupX: -16, pupY: -4 }, "sine.inOut"); W.pose(tFrom + 2.0, 0.6, { pupX: -6, pupY: -6 }, "sine.inOut");
-  // S2: đếm áo, gật nhẹ theo nhịp
-  for (var tn = tThey + 0.9, nn = 0; tn < tThirteen; tn += 0.75, nn++) { W.pose(tn, 0.12, { upY: 4, pupX: -14 + (nn % 4) * 3, pupY: nn % 2 ? 4 : -10 }, "power2.out"); W.pose(tn + 0.2, 0.2, { upY: 0 }, "power2.out"); }
-  W.pose(tThirteen + 0.1, 0.4, { pupX: -6, pupY: 8 }, "sine.inOut");
-  W.blinkAt(tJobs + 0.2);
-  // S3: tay ôm vai (không run cường điệu), mắt nhìn tuyết
-  W.pose(tFlu - 0.2, 0.6, { aLu: -52, aLf: -70, aRu: 52, aRf: 70, sy: 0.97, upY: 4, pupX: -12, pupY: -10, lid: 26 }, "sine.inOut");
-  W.mouth(tFlu, "buon");
-  W.breathe(tFlu + 0.5, tIn - 0.4, 2.6);
-  W.pose(tBitter, 0.5, { pupX: -14, pupY: 2 }, "sine.inOut");
-  W.pose(tIn - 0.45, 0.25, { aLu: REST.aLu, aLf: REST.aLf, aRu: -18, aRf: 10, sy: 1, upY: 0 }, "power2.inOut");
-  // S4: nhìn lá thư, không nói gì; chớp mắt chậm ở STAY
-  W.mouth(tIn + 0.5, "thang");
-  W.pose(tIn + 0.6, 0.6, { pupX: -14, pupY: 6, lean: -2 }, "sine.inOut");
-  W.idle(tIn + 1.3, tStay - 0.3, { seed: 382, bien: 1 });
-  W.pose(tStay, 0.3, { lid: 55 }, "sine.inOut"); W.pose(tStay + 0.6, 0.4, { lid: 26 }, "sine.inOut");
-  // S5: trang sáng lên, mắt mở hơn một chút, vẫn không cười
-  W.pose(tMean + 0.7, 0.8, { lid: 12, pupX: -12, pupY: -4, upRot: -2 }, "sine.inOut");
-  W.breathe(tMean + 0.8, DUR);
-  W.pose(tStill - 0.2, 0.5, { lean: -3, upRot: 0 }, "sine.inOut");
+  W.idle(tS2 + 0.2, tS3, { seed: 382, bien: 1 });
+  api.origin("#the113", "1100 340"); api.pop("#the113", tThirteen - 0.05, 0.3);
+  W.pose(tThirteen, 0.35, { pupX: -12, pupY: -14 }, "sine.inOut");
+  W.pose(tJobs + 0.1, 0.25, { upY: 4, pupY: -6 }, "sine.inOut"); W.pose(tJobs + 0.4, 0.25, { upY: 0 }, "sine.inOut");
+
+  // S3: mùa đông. Wob đứng lặng ngoài tuyết, tay ôm vai, nhìn ô cửa đọng sương có ấm nước bốc hơi; mặt buồn; run rất nhẹ
+  var XT = 1130;
+  W.set(tS3, { x: XT + 70, y: GY, size: SP, lean: 0, upY: 0, aLu: -52, aLf: -70, aRu: 52, aRf: 70, pupX: -14, pupY: -6, lid: 24 });
+  W.mouth(tS3, "thang");
+  W.walk(tS3 + 0.3, tS3 + 1.1, XT + 70, XT, { step: 0.4, arms: false });
+  W.pose(tFlu - 0.2, 0.6, { lid: 34, pupY: -2 }, "sine.inOut");
+  W.mouth(tFlu + 0.2, "buon");
+  W.idle(tS3 + 1.3, tS4, { seed: 385, bien: 0.8 });
+  W.pose(tWinter, 0.8, { pupX: -4, pupY: -14, lid: 22 }, "sine.inOut");                      // ngước nhìn tuyết rơi
+  W.pose(tBitter + 0.1, 0.6, { pupX: -14, pupY: -4, lid: 34, upY: 3, sy: 0.98 }, "sine.inOut");
+  W.shiver(tWinter + 0.2, tS4 - 0.1, 2, 7);
+
+  // S4: đứng cạnh lá thư trên bàn, đọc từng dòng, lặng đi ở "stay"
+  W.set(tS4, { x: 1380, y: GY, lean: 0, sx: 1, sy: 1, eye: 1, upY: 0, aLu: 18, aLf: -10, aRu: -18, aRf: 10, pupX: -14, pupY: 4, lid: 16 });
+  W.mouth(tS4, "thang");
+  W.idle(tS4 + 0.3, tStay - 0.3, { seed: 383, bien: 1.2 });
+  W.pose(tS4 + 0.4, 0.4, { lean: -6, pupX: -14, pupY: -8 }, "sine.inOut");
+  for (var tr = tS4 + 1.0, rr = 0; tr < tParl + 0.8; tr += 0.75, rr++) W.pose(tr, 0.3, { pupX: rr % 2 ? -14 : -6, pupY: -8 + rr * 2.5 }, "sine.inOut");
+  W.pose(tParl + 0.9, 0.4, { lean: -2, pupX: -12, pupY: 8 }, "sine.inOut");
+  W.pose(tStay - 0.1, 0.35, { lid: 58 }, "sine.inOut"); W.pose(tStay + 0.6, 0.4, { lid: 22, sy: 0.97, upY: 4 }, "sine.inOut");
+  W.mouth(tStay + 0.3, "buon");
+
+  // ================= W về bàn (ở nhà), lật sang bản phác =================
+  W.set(tVe, { op: 1, x: XW, y: YW, size: SW, sx: 1, sy: 1, lean: -6, aLu: 88, aLf: 30, aRu: -18, aRf: 10, lid: 20, pupX: -12, pupY: 4, upY: 0 });
+  W.mouth(tVe, "thang");
+  W.pose(tMean - 0.15, 0.2, { aLu: 150, aLf: 20, lean: -2 }, "power2.inOut");
+  W.pose(tMean + 0.45, 0.35, { aLu: 18, aLf: -10, lean: 0, pupX: -12, pupY: -6 }, "power2.inOut");
+  api.sfx("lat-giay", 0.05, 0.5); api.sfx("lat-giay", tMean + 0.05, 0.5);
+  W.pose(tMean + 0.9, 0.8, { lid: 10, pupX: -12, pupY: -4, upRot: -2 }, "sine.inOut");
+  W.idle(tMean + 1.0, tStill - 0.3, { seed: 384, bien: 1.5, liec: true });
+  W.pose(tStill - 0.2, 0.5, { lean: -4, upRot: 0, eye: 1.08 }, "sine.inOut");
+  W.mouth(tStill, "smirk");
 };

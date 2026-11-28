@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 6.08,
- "bat_dau_tuyet_doi": 207.378,
+ "bat_dau_tuyet_doi": 207.57,
  "lop": "hoi-uc",
  "boi_canh": "Bong bóng tưởng tượng vẽ tay: một thành phố nhỏ, ngôi nhà ở tận bên kia thành phố có cửa sau",
  "trang_phuc": "Wob vẽ tay trong bong bóng, áo mưa cam mũ trùm hạ, ba lô nhỏ, cầm chùm chìa khoá to",

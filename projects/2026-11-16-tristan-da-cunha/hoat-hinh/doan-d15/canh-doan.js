@@ -25,12 +25,20 @@ window.CANH = function (api, data) {
   gan += '<g id="rg">' + at(940, 985, TD.rong(1541)) + "</g>";
   [[420, 990], [1500, 992], [2100, 996], [2700, 990]].forEach(function (p, j) { gan += at(p[0], p[1], TD.rong(1550 + j)); });
   gan += '<g id="hoKh"><path d="' + D.rEll(1290, 968, 46, 14, 1.5, 1532) + '" fill="#141618"/></g>';
-  gan += '<g id="khDat">' + at(1290, 962, TD.khoai(26, 1560)) + "</g>";
+  // củ khoai to, nâu sẫm, viền mực, chấm mắt khoai (đọc được ở trung cảnh)
+  function khoaiTo(r) {
+    var s = "<g>" + D.paper(D.rEll(0, 0, r, r * 0.76, 2.5, 1561), "#7A5232", { stroke: true, sw: Math.max(3, r * 0.11), sx: 3, sy: 4 });
+    [[-0.38, -0.2, 0.1], [0.34, 0.16, 0.09], [0.02, 0.36, 0.08], [0.46, -0.28, 0.07], [-0.2, 0.3, 0.07]].forEach(function (e) { s += '<circle cx="' + (e[0] * r).toFixed(1) + '" cy="' + (e[1] * r).toFixed(1) + '" r="' + (e[2] * r).toFixed(1) + '" fill="#3A2614"/>'; });
+    s += D.line("M " + (-r * 0.55).toFixed(1) + " " + (-r * 0.38).toFixed(1) + " C " + (-r * 0.3).toFixed(1) + " " + (-r * 0.62).toFixed(1) + " " + (r * 0.1).toFixed(1) + " " + (-r * 0.66).toFixed(1) + " " + (r * 0.32).toFixed(1) + " " + (-r * 0.56).toFixed(1), Math.max(2, r * 0.07), "#B08458", ' opacity="0.8"');
+    return s + "</g>";
+  }
+  gan += '<g id="khDat">' + at(1290, 950, khoaiTo(36)) + "</g>";
   var W = TD.wob(api, "W", {
     muTrum: 0,
     holdL: '<g id="W-gay">' + TD.gay(250) + "</g>",
-    holdR: '<g id="W-kh">' + at(0, -8, TD.khoai(26, 1560)) + "</g>",
-    packExtra: '<g id="W-tui">' + at(352, 206, TD.khoai(24, 1560)) + D.paper("M 326 196 L 372 196 L 372 236 C 360 246 338 246 326 236 Z", M.oliuToi, { stroke: true, sw: 4, shadow: false }) + "</g>"
+    holdR: '<g id="W-kh">' + at(0, -8, khoaiTo(78)) + "</g>",
+    packExtra: '<g id="W-tui">' + at(398, 192, '<g transform="rotate(-12)">' + khoaiTo(44) + "</g>") + "</g>" +
+      D.paper("M 346 212 L 444 206 L 446 278 C 430 300 364 302 348 280 Z", M.oliuToi, { stroke: true, sw: 5, sx: 3, sy: 4 }) + D.line("M 352 236 L 440 230", 3, M.oliu, ' stroke-dasharray="7 6"')
   });
   gan += W.svg;
   var truoc = TD.bien(api, "bT", { x0: -1400, x1: 4400, y: 1070, n: 2, day: 34, bien: 30, chuKy: 2.6, mau: ["#7A8B8F", "#63757A"] });
@@ -39,8 +47,8 @@ window.CANH = function (api, data) {
     api.lop("xa", xa, 0.3, { mat: 600 }) + api.lop("giua", gi, 0.65, { mat: 790 }) + api.lop("gan", gan, 1, { mat: 960 }) + api.lop("truoc", truoc, 1.4, { mat: 1080 }));
   api.noi({});
 
-  api.camera([[0, 600, 650, 1.32], [3.7, 1060, 650, 1.32, "sine.inOut"], [tPot + 0.1, 1110, 640, 1.62, "power2.inOut"], [tShip + 0.05, 1110, 630, 1.64, "sine.inOut"],
-    [tShip + 0.7, 1240, 600, 1.3, "power2.inOut"], [tReal - 0.1, 1220, 610, 1.34, "sine.inOut"], [tNorth - 0.1, 2550, 520, 1.06, "power2.inOut"], [DUR, 2580, 516, 1.08, "sine.inOut"]]);
+  api.camera([[0, 600, 650, 1.32], [3.7, 1060, 650, 1.32, "sine.inOut"], [tFound + 0.15, 1220, 790, 1.85, "power2.inOut"], [6.0, 1226, 786, 1.88, "sine.inOut"],
+    [6.6, 1250, 650, 1.32, "power2.inOut"], [tReal - 0.1, 1220, 610, 1.34, "sine.inOut"], [tNorth - 0.1, 2550, 520, 1.06, "power2.inOut"], [DUR, 2580, 516, 1.08, "sine.inOut"]]);
 
   // ---------- Wob ----------
   W.set(0, { x: 520, y: 962, size: 0.52, pupX: 4, pupY: 10, aLu: 34, aLf: 10 });
@@ -63,33 +71,33 @@ window.CANH = function (api, data) {
   W.mouth(2.4, "flat");
   W.walk(2.65, 3.45, 860, 1180, { step: 0.28, arms: "R" });
   choc(3.5, 2);
-  // bới ra củ khoai (tay phải)
-  api.origin("#khDat", "1290 962");
-  api.key("#khDat", "y", 0, 18, "step"); api.key("#khDat", "y", 3.85, 18, "none"); api.key("#khDat", "y", 4.0, -40, "back.out(2)");
+  // bới ra củ khoai (tay phải), giơ ngang mắt
+  api.origin("#khDat", "1290 950");
+  api.key("#khDat", "y", 0, 26, "step"); api.key("#khDat", "y", 3.85, 26, "none"); api.key("#khDat", "y", 4.0, -24, "back.out(2)");
   api.show("#khDat", 0, 0); api.show("#khDat", 3.85, 1); api.show("#khDat", tFound + 0.05, 0); api.show("#W-kh", tFound + 0.05, 1);
   api.sfx("pop", 3.95, 0.5);
   W.soc(3.98, { mieng: "o" });
-  W.pose(tFound - 0.1, 0.15, { aRu: -40, aRf: -30 }, "power2.out");
-  W.pose(tFound + 0.1, 0.3, { aRu: -150, aRf: -40, pupX: 10, pupY: -2 }, "power2.out");
-  W.mouth(tPot + 0.1, "flat");
-  W.blinkAt(tPot + 0.5);
-  // áp vào tai như vỏ ốc
-  var tTai = tPot + 0.65;
-  W.pose(tTai, 0.3, { aRu: -158, aRf: -78, upRot: 9, pupX: 12, pupY: 0 }, "power2.inOut");
-  W.lid(tTai + 0.3, 0.2, 0.75);
-  W.mouth(tTai + 0.35, "smirk");
-  W.lid(tTai + 1.1, 0.15, 0);
+  W.pose(tFound - 0.12, 0.15, { aRu: -40, aRf: -30 }, "power2.out");
+  W.pose(tFound + 0.1, 0.25, { aRu: -90, aRf: 0, pupX: 15, pupY: -2, eye: 1.1 }, "power2.out");
+  W.mouth(tPot, "flat");
+  W.blinkAt(tPot + 0.25);
+  // ghé tai nghe như vỏ ốc, giữ 0,8 s
+  var tTai = 4.9;
+  W.pose(tTai, 0.3, { aRu: -128, aRf: -20, upRot: 10, pupX: 12, pupY: -4, eye: 1 }, "power2.inOut");
+  W.lid(tTai + 0.25, 0.15, 0.85);
+  W.mouth(tTai + 0.3, "smirk");
+  W.lid(tTai + 1.05, 0.15, 0);
   // ván trôi, cất củ khoai vào túi hông, vỗ túi
-  W.pose(tShip + 0.05, 0.3, { upRot: 0, pupX: 14, pupY: -8 }, "power2.inOut");
-  W.mouth(tShip + 0.1, "o");
-  var tCat = tLater - 0.3;
-  W.pose(tCat - 0.3, 0.3, { aRu: -40, aRf: 30, pupX: 14, pupY: 4 }, "power2.inOut");
+  W.pose(6.0, 0.3, { upRot: 0, pupX: 14, pupY: -8 }, "power2.inOut");
+  W.mouth(6.05, "o");
+  var tCat = 6.95;
+  W.pose(tCat - 0.35, 0.3, { aRu: -40, aRf: -20, pupX: 14, pupY: 10 }, "power2.inOut");
   api.show("#W-kh", tCat, 0); api.show("#W-tui", tCat, 1);
-  api.origin("#W-tui", "352 206"); api.key("#W-tui", "scale", 0, 1); api.key("#W-tui", "scale", tCat, 0.6, "none"); api.key("#W-tui", "scale", tCat + 0.2, 1, "back.out(2.5)");
-  api.sfx("pop", tCat, 0.25);
-  for (var p = 0; p < 2; p++) { W.pose(tCat + 0.25 + p * 0.3, 0.12, { aRf: 10 }, "power2.in"); W.pose(tCat + 0.37 + p * 0.3, 0.12, { aRf: 40 }, "power2.out"); }
-  W.pose(tCat + 1.0, 0.3, { aRu: -18, aRf: 10, pupX: 8, pupY: -4 }, "power2.inOut");
-  W.mouth(tCat + 0.6, "grin");
+  api.origin("#W-tui", "398 192"); api.key("#W-tui", "y", 0, 0); api.key("#W-tui", "y", tCat, -30, "none"); api.key("#W-tui", "y", tCat + 0.2, 0, "power2.in");
+  api.sfx("pop", tCat + 0.2, 0.3);
+  for (var p = 0; p < 2; p++) { W.pose(tCat + 0.3 + p * 0.3, 0.12, { aRf: -6 }, "power2.in"); W.pose(tCat + 0.42 + p * 0.3, 0.12, { aRf: -22 }, "power2.out"); }
+  W.mouth(tCat + 0.4, "grin");
+  W.pose(tCat + 1.05, 0.3, { aRu: -18, aRf: 10, pupX: 8, pupY: -4 }, "power2.inOut");
   W.mouth(tDid, "flat");
   W.pose(tDid + 0.1, 0.2, { upRot: -4 }, "sine.inOut"); W.pose(tDid + 0.4, 0.2, { upRot: 4 }, "sine.inOut"); W.pose(tDid + 0.7, 0.2, { upRot: 0 }, "sine.inOut");
   // quay nhìn phía bắc

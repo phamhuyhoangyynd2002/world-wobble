@@ -1,0 +1,79 @@
+{
+ "k1": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 54.0,
+   "khung0_ti_le_giay": 0.06,
+   "chuyen_dong": [
+    58.47,
+    9.78,
+    11.6,
+    14.94,
+    14.67,
+    10.31,
+    8.51,
+    73.97,
+    21.51,
+    13.18
+   ],
+   "tu_trong_5s": 16,
+   "cau_mo": "Only nine sailings from Cape Town were on the twenty twenty-six schedule.",
+   "diem_cau_mo": 3.0,
+   "uu": [
+    "có con số",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k2": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 33.0,
+   "khung0_ti_le_giay": 0.01,
+   "chuyen_dong": [
+    5.08,
+    5.58,
+    5.29,
+    6.34,
+    9.45,
+    13.77,
+    24.07,
+    18.24,
+    8.83,
+    10.31
+   ],
+   "tu_trong_5s": 19,
+   "cau_mo": "Tristan rock lobster is what the island lives on.",
+   "diem_cau_mo": 0.0,
+   "uu": []
+  }
+ },
+ "k3": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 48.0,
+   "khung0_ti_le_giay": 0.0,
+   "chuyen_dong": [
+    9.62,
+    18.89,
+    22.8,
+    14.09,
+    8.38,
+    12.43,
+    10.61,
+    40.4,
+    3.02,
+    3.66
+   ],
+   "tu_trong_5s": 13,
+   "cau_mo": "Tristan had no stamps of its own until nineteen fifty-two.",
+   "diem_cau_mo": 2.0,
+   "uu": [
+    "có con số"
+   ]
+  }
+ }
+}

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 9.02,
- "bat_dau_tuyet_doi": 187.278,
+ "bat_dau_tuyet_doi": 187.47,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay sơ đồ: hai hình đảo (đảo có chiếc mũ hai sừng phía trên, Tristan phía dưới), mũi tên, thuyền nhỏ; rồi một con tàu buồm khác (không cờ) ghé Tristan",
  "trang_phuc": "Wob vẽ tay ở mép sơ đồ, áo mưa cam mũ trùm hạ, ba lô nhỏ",

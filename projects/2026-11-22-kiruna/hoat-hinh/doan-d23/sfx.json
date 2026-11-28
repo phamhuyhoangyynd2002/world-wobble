@@ -1,0 +1,22 @@
+[
+ {
+  "ten": "lat-giay",
+  "tai": 0.05,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "bonk",
+  "tai": 3.522,
+  "am_luong": 0.32
+ },
+ {
+  "ten": "bonk",
+  "tai": 3.722,
+  "am_luong": 0.32
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 11.36,
+  "am_luong": 0.45
+ }
+]

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 29.25,
- "bat_dau_tuyet_doi": 506.524,
+ "bat_dau_tuyet_doi": 506.716,
  "lop": "hoi-uc",
  "boi_canh": "Trang sổ cắt giấy tông TRẦM (xám, xanh nhạt), Wob ở nhà đứng NGOÀI mép trang, tay lật mép trang như lật sách: dãy nhà một tầng giống nhau của trại cũ bên bờ nước xám, ống khói nhỏ; hàng móc áo lao động; tuyết rơi trên dãy nhà trại, cửa sổ đọng sương, ấm nước bốc hơi; lá thư đánh máy có dòng STAY gạch dưới; bản vẽ phác làng mái nhà còn nguyên, dòng dung nham dừng ở rìa đông",
  "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (không áo mưa, không ba lô). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn; KHÔNG khẩu hình (Wob không nhìn người xem, chỉ lật trang)",

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 23.507,
- "bat_dau_tuyet_doi": 478.629,
+ "bat_dau_tuyet_doi": 478.821,
  "lop": "hoi-uc",
  "boi_canh": "Tông trầm: hình nón nhỏ mới mọc sát rìa làng, khói xám; hai tàu cá nhỏ rời bến trong ánh chiều, đảo Nightingale nhô lên phía xa; tàu khách lớn dừng ngoài khơi, xuồng chở người; boong tàu có chiếc va li nhỏ và bọc vải; làng vắng, nhà máy đổ nát dưới dòng dung nham đen phía đông",
  "trang_phuc": "Wob ngoài mép trang, ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm HẠ (trên đảo). Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -32,7 +32,7 @@ window.HH_DATA = {
   {
    "tai": 2.425,
    "loi": "Two fishing ships, the Tristania and the Frances Repetto, carried everyone to Nightingale Island for the night.",
-   "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa; Wob ngoài mép trang nhìn theo hai tàu đúng \"Nightingale\" (≈ 485.63 s)",
+   "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa; Wob ngoài mép trang nhìn theo hai tàu đúng \"Nightingale\" (≈ 485.82 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -56,7 +56,7 @@ window.HH_DATA = {
   {
    "tai": 15.887,
    "loi": "They took what they could carry.",
-   "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag; đúng \"carry.\" (≈ 495.34 s) bàn tay Wob đặt lên mép trang cạnh chiếc va li (KHÔNG chạm va li)",
+   "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag; đúng \"carry.\" (≈ 495.53 s) bàn tay Wob đặt lên mép trang cạnh chiếc va li (KHÔNG chạm va li)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

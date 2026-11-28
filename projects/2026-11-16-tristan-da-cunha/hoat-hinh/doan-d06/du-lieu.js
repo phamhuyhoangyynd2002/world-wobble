@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 5.637,
- "bat_dau_tuyet_doi": 49.238,
+ "bat_dau_tuyet_doi": 49.43,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay nét sôi trên trang sổ phác: chấm đảo là hình nón núi lửa bé giữa biển kẻ sóng; một chiếc máy bay giấy",
  "trang_phuc": "Wob vẽ tay nhỏ ở mép trang (ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác), mũ trùm HẠ (trên đảo), ba lô nhỏ, giày đỏ)",
@@ -22,7 +22,7 @@ window.HH_DATA = {
   {
    "tai": 0.75,
    "loi": "There is no airstrip on Tristan.",
-   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; một chiếc máy bay giấy bay vào và LAO THẲNG vào sườn núi đúng \"airstrip\" (≈ 50.70 s), KHÔNG lượn vòng tìm chỗ đáp",
+   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; một chiếc máy bay giấy bay vào và LAO THẲNG vào sườn núi đúng \"airstrip\" (≈ 50.89 s), KHÔNG lượn vòng tìm chỗ đáp",
    "gag": "Máy bay trượt xuống sườn núi như cầu trượt, nằm bẹp ở chân núi 0,6 s; Wob ở mép trang che mắt",
    "dao_cu": [
     "may-bay-giay"
@@ -35,7 +35,7 @@ window.HH_DATA = {
   {
    "tai": 2.85,
    "loi": "You go by sea, from Cape Town in South Africa,",
-   "hanh_dong": "Máy bay giấy nằm ở chân núi tự mở nếp gấp thành một chiếc thuyền giấy đúng \"sea,\" (≈ 52.65 s), trượt xuống nước nổi bập bềnh; Wob ở mép trang thổi phù cho thuyền trôi về phía Cape Town (mép phải trang)",
+   "hanh_dong": "Máy bay giấy nằm ở chân núi tự mở nếp gấp thành một chiếc thuyền giấy đúng \"sea,\" (≈ 52.84 s), trượt xuống nước nổi bập bềnh; Wob ở mép trang thổi phù cho thuyền trôi về phía Cape Town (mép phải trang)",
    "gag": "Máy bay tự gấp thành thuyền",
    "dao_cu": [
     "thuyen-giay"

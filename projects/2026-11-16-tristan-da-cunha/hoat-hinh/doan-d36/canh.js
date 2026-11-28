@@ -1,4 +1,4 @@
-/* Đoạn d36 · cắt giấy tông trầm · lịch sử nghiêm (không gag, không sfx): núi lửa mới bên rìa làng; hai tàu cá chở cả làng sang Nightingale; tàu khách Hà Lan và xuồng; 264 islanders · Oct 1961; va li và bọc vải trên boong; làng vắng, nhà máy dưới dung nham, lùi chậm im lặng. Wob ngoài mép trang. Vào "cat", ra "cat". */
+/* Đoạn d36 · cắt giấy tông trầm · lịch sử nghiêm (không gag, không sfx). Wob là người quan sát, áo mưa cam, không mang đồ của người dân: đứng ở rìa làng nhìn hình nón mới; đứng trên cầu tàu nhìn hai tàu cá chở cả làng rời bến về Nightingale, tay đặt lên ngực; đứng trên vách đá nhìn xuồng ra tàu khách Hà Lan, tàu nhỏ dần (thẻ 264 islanders · Oct 1961); boong tàu chỉ có va li và bọc vải; đi chậm qua làng vắng, nhìn nhà máy dưới dung nham, cúi đầu. Cảnh phủ toàn khung. Vào "cat", ra "cat". */
 /* ---- Bộ dựng riêng tập 5 Tristan da Cunha · cắt giấy nhóm B (d28 d30 d31 d32 d35 d36 d38 d42 d44 d46 d47).
    Chép nguyên vào đầu canh.js của các đoạn này (không sửa lib chung vì nhóm A chạy song song).
    Khoá trang phục: áo mưa vải dầu cam #E07A2E (viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33, dài tới gối), mũ trùm lên/hạ,
@@ -225,10 +225,10 @@ var TB = (function () {
     // kệ tem nhỏ sau song (hình chữ nhật, không chữ)
     for (var q = 0; q < 4; q++) s += '<rect x="' + (985 + q * 62) + '" y="478" width="40" height="50" fill="' + (q % 2 ? "#E9DEC4" : "#D8C9A6") + '" stroke="' + INK + '" stroke-width="2.5"/>';
     // biển POST OFFICE
-    s += '<g id="bdBien">' + line("M 900 250 L 930 190 M 1320 250 L 1290 190", 4, "#3A3F44") +
-      paper(rRect(820, 192, 580, 112, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
-      '<rect x="836" y="206" width="548" height="84" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
-      D.txt(1110, 274, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
+    s += '<g id="bdBien">' + line("M 860 316 L 880 250 M 1240 316 L 1220 250", 4, "#3A3F44") + '<circle cx="880" cy="250" r="6" fill="#3A3F44"/><circle cx="1220" cy="250" r="6" fill="#3A3F44"/>' +
+      paper(rRect(780, 312, 540, 98, 1.6, 4907), "#2F4A3A", { stroke: true, sw: 6, sx: 7, sy: 9 }) +
+      '<rect x="794" y="324" width="512" height="74" fill="none" stroke="#E9D9A6" stroke-width="3" rx="4"/>' +
+      D.txt(1050, 384, o.chu || "", 64, { w: 800, fill: "#F3E6C2" }) + "</g>";
     // đèn treo
     s += line("M 640 -200 L 640 150", 3, "#2B2F33") + paper("M 600 150 L 680 150 L 700 190 L 580 190 Z", "#3F5A4A", { stroke: true, sw: 4 }) + '<ellipse cx="640" cy="192" rx="60" ry="10" fill="#FFE6A8" stroke="' + INK + '" stroke-width="3"/>';
     s += '<ellipse cx="640" cy="330" rx="220" ry="170" fill="url(#lampG)"/>';
@@ -481,92 +481,87 @@ window.CANH = function (api, data) {
   var D = api.D, at = api.at, DUR = api.DUR, INK = D.INK, f1 = D.f1;
   var T = function (w, tMin, du) { var v = api.tuDung(w, tMin || 0, 0); return v == null || v > DUR ? du : v; };
   var cx = data.chu_tren_do_vat;      // ["264 islanders · Oct 1961"]
-  var tTwo = T("Two", 2, 2.42), tCarried = T("carried", 0, 6.10), tNight = T("Nightingale", 0, 7.00), tNext = T("The", 8.5, 8.80), tLiner = T("liner", 0, 10.47);
-  var tTwo2 = T("Two", 11, 11.78), tIsl = T("islanders", 0, 13.18), tEng = T("England.", 0, 15.12), tThey = T("They", 15, 15.89), tCarry = T("carry.", 0, 16.71);
+  var tVol = T("volcano.", 0, 1.44), tTwo = T("Two", 2, 2.42), tTris = T("Tristania", 0, 3.71), tCarried = T("carried", 0, 6.10), tNight = T("Nightingale", 0, 7.00), tNext = T("The", 8.5, 8.80), tLiner = T("liner", 0, 10.47), tPicked = T("picked", 0, 10.84);
+  var tTwo2 = T("Two", 11, 11.78), tIsl = T("islanders", 0, 13.18), tCape = T("Cape", 0, 13.86), tEng = T("England.", 0, 15.12), tThey = T("They", 15, 15.89), tCarry = T("carry.", 0, 16.71);
   var tLava = T("The", 17, 17.50), tCann = T("cannery.", 0, 18.61), tHouses = T("houses", 19, 20.01), tNobody = T("nobody", 0, 21.34);
 
-  // ================= nền + kệ + trang (cùng bố cục d35) =================
-  var PX = 520, PY = 110, PW = 1320, PH = 860, SEP = "#3E3A36";
+  // ================= cảnh (toạ độ trang 1320 × 860, phóng phủ toàn khung) =================
+  var PW = 1320, PH = 860, SEP = "#3E3A36", SC = 1920 / PW, TY = -150;      // trang y 103..846 nằm trong khung ở zoom 1
   var nen = '<rect x="-600" y="-400" width="3200" height="1900" fill="#3F3B38"/>';
-  var rb = D.rng(3650);
-  for (var i = 0; i < 18; i++) { var yy = -300 + i * 90 + rb() * 30; nen += D.line("M -600 " + f1(yy) + " C 300 " + f1(yy + 20) + " 1400 " + f1(yy - 20) + " 2600 " + f1(yy + 10), 3, "#302D2A", ' opacity="0.5"'); }
-  var ke = D.paper(D.rRect(-400, 1000, 2800, 200, 2, 3651), "#5A4A3C", { stroke: true, sw: 5, sx: 0, sy: -6 }) + D.line("M -400 1018 L 2400 1018", 3, "#7A6450");
-  var tr = TB.trangLS({ w: PW, h: PH, mau: "#D8D3C6", id: "tls36", seed: 3652 });
-  var BIEN = '<rect x="0" y="470" width="' + PW + '" height="420" fill="#66767C"/>' + D.line("M 0 470 L " + PW + " 470", 3, SEP);
+  var BIEN = '<rect x="-40" y="470" width="' + (PW + 80) + '" height="460" fill="#66767C"/>' + D.line("M -40 470 L " + (PW + 40) + " 470", 3, SEP);
   function song(y0, n, mau) { var s = ""; for (var j = 0; j < n; j++) s += D.line("M " + (40 + (j % 5) * 260 + (j % 2) * 90) + " " + (y0 + Math.floor(j / 5) * 60) + " q 20 -8 40 0 t 40 0", 3, mau || "#8A989C"); return s; }
-
+  function bg(mau) { return '<rect x="-40" y="-40" width="' + (PW + 80) + '" height="' + (PH + 80) + '" fill="' + mau + '"/>'; }
   // --- D1: hình nón mới sát rìa làng, khói xám ---
-  var d1 = '<rect x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#A9AEAA"/>' + at(330, 600, TB.nuiLua({ w: 1300, h: 560, mau: "#646A64", may: false, seed: 3653 }));
-  d1 += D.paper(D.rough([[-40, 640], [500, 620], [900, 640], [1400, 610], [1400, 900], [-40, 900]], 4, 3654, 40), "#727C66", { stroke: true, sw: 4, shadow: false });
-  d1 += at(250, 700, TB.nhaThap({ w: 220, h: 90, mai: "#4F6A5A", seed: 3655 })) + at(480, 690, TB.nhaThap({ w: 200, h: 84, mai: "#7A4A40", seed: 3656 })) + at(360, 790, TB.nhaThap({ w: 240, h: 96, mai: "#5A6070", seed: 3657 }));
+  var d1 = bg("#A9AEAA") + at(330, 600, TB.nuiLua({ w: 1300, h: 560, mau: "#646A64", may: false, seed: 3653 }));
+  d1 += D.paper(D.rough([[-60, 640], [500, 620], [900, 640], [1400, 610], [1400, 940], [-60, 940]], 4, 3654, 40), "#727C66", { stroke: true, sw: 4, shadow: false });
+  d1 += at(250, 700, TB.nhaThap({ w: 220, h: 90, mai: "#4F6A5A", seed: 3655 })) + at(480, 690, TB.nhaThap({ w: 200, h: 84, mai: "#7A4A40", seed: 3656 })) + at(300, 800, TB.nhaThap({ w: 240, h: 96, mai: "#5A6070", seed: 3657 }));
   d1 += D.paper("M 760 700 L 900 540 L 960 540 L 1110 700 Z", "#2E2C2A", { stroke: true, sw: 5 }) + D.paper("M 900 540 L 960 540 L 948 556 L 912 556 Z", "#5A3A30", { shadow: false });
   var KHOI = 9;
   d1 += '<g id="khoi">';
   for (var k = 0; k < KHOI; k++) d1 += '<circle id="kh' + k + '" cx="930" cy="530" r="40" fill="#8C8E8A" stroke="' + SEP + '" stroke-width="3" opacity="0.85"/>';
   d1 += "</g>";
 
-  // --- D2: chiều, hai tàu cá rời bến, Nightingale nhô xa ---
-  var d2 = '<rect x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#B9A397"/>' + '<rect x="0" y="300" width="' + PW + '" height="180" fill="#C7B0A0" opacity="0.7"/>' + '<circle cx="980" cy="380" r="60" fill="#D9BFA0" opacity="0.8"/>' + BIEN + song(540, 15);
+  // --- D2: chiều, cầu tàu, hai tàu cá rời bến, Nightingale nhô xa ---
+  var d2 = bg("#B9A397") + '<rect x="-40" y="300" width="' + (PW + 80) + '" height="180" fill="#C7B0A0" opacity="0.7"/>' + '<circle cx="980" cy="380" r="60" fill="#D9BFA0" opacity="0.8"/>' + BIEN + song(540, 15);
   d2 += '<g id="dao2">' + D.paper("M 920 472 C 960 430 1010 400 1060 404 C 1110 410 1140 440 1180 472 Z", "#5E625C", { stroke: true, sw: 4, shadow: false }) + "</g>";
-  d2 += D.paper(D.rough([[-40, 420], [120, 430], [220, 520], [300, 600], [260, 900], [-40, 900]], 5, 3660, 30), "#5A5852", { stroke: true, sw: 5, shadow: false }) + D.paper(D.rRect(150, 560, 210, 26, 1.2, 3661), "#6E5A48", { stroke: true, sw: 4 });
-  d2 += '<g id="tc1"><g transform="translate(380,640)">' + TB.tau("tau1", { dai: 300, kieu: "ca", nguoi: 5, mau: "#6E7A7E" }) + "</g></g>";
-  d2 += '<g id="tc2"><g transform="translate(260,740)">' + TB.tau("tau2", { dai: 340, kieu: "ca", nguoi: 6, mau: "#7A6E62" }) + "</g></g>";
+  d2 += D.paper(D.rough([[-60, 420], [120, 430], [220, 520], [300, 600], [260, 940], [-60, 940]], 5, 3660, 30), "#5A5852", { stroke: true, sw: 5, shadow: false });
+  d2 += D.line("M 190 586 L 190 700 M 330 586 L 330 700", 12, "#4A3A2C") + D.paper(D.rRect(120, 560, 260, 26, 1.2, 3661), "#6E5A48", { stroke: true, sw: 4 });
+  d2 += D.paper(D.rRect(344, 536, 18, 26, 1, 3662), "#3E3430", { stroke: true, sw: 3, shadow: false });            // cọc buộc dây
+  var d2tau = '<g id="tc1"><g transform="translate(470,650)">' + TB.tau("tau1", { dai: 300, kieu: "ca", nguoi: 5, mau: "#6E7A7E" }) + "</g></g>" +
+    '<g id="tc2"><g transform="translate(300,760)">' + TB.tau("tau2", { dai: 340, kieu: "ca", nguoi: 6, mau: "#7A6E62" }) + "</g></g>";
 
   // --- D3/D4: tàu khách lớn ngoài khơi, xuồng đi lại; rồi nhỏ dần về chân trời + thẻ 264 ---
-  var d3 = '<rect x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#AEB2AC"/>' + BIEN + song(520, 15);
-  d3 += D.paper(D.rough([[-40, 380], [160, 400], [300, 470], [380, 560], [340, 900], [-40, 900]], 5, 3670, 30), "#5E5C56", { stroke: true, sw: 5, shadow: false }) + at(110, 420, '<g transform="scale(0.55)">' + TB.nhaThap({ w: 240, h: 96, mai: "#4F6A5A", seed: 3671 }) + "</g>");
+  var d3 = bg("#AEB2AC") + BIEN + song(520, 15);
+  d3 += D.paper(D.rough([[-60, 380], [160, 400], [300, 470], [380, 560], [340, 940], [-60, 940]], 5, 3670, 30), "#5E5C56", { stroke: true, sw: 5, shadow: false }) + at(110, 420, '<g transform="scale(0.55)">' + TB.nhaThap({ w: 240, h: 96, mai: "#4F6A5A", seed: 3671 }) + "</g>");
   d3 += '<g id="lin"><g transform="translate(900,520)"><g id="linS">' + TB.tau("lin0", { dai: 640, kieu: "khach" }) + "</g></g></g>";
-  d3 += '<g id="xu1"><g transform="translate(420,660)">' + TB.tau("xu1t", { dai: 150, kieu: "xuong", nguoi: 3, mau: "#6E5A48" }) + "</g></g>";
-  d3 += '<g id="xu2"><g transform="translate(700,760)">' + TB.tau("xu2t", { dai: 150, kieu: "xuong", nguoi: 3, mau: "#5A6A70" }) + "</g></g>";
-  d3 += '<g id="the264"><g transform="translate(660,170)">' + D.paper(D.rRect(-390, -64, 780, 120, 1.4, 3672), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
+  d3 += '<g id="xu1"><g transform="translate(430,700)">' + TB.tau("xu1t", { dai: 150, kieu: "xuong", nguoi: 3, mau: "#6E5A48" }) + "</g></g>";
+  d3 += '<g id="xu2"><g transform="translate(720,790)">' + TB.tau("xu2t", { dai: 150, kieu: "xuong", nguoi: 3, mau: "#5A6A70" }) + "</g></g>";
+  d3 += '<g id="the264"><g transform="translate(600,250)">' + D.paper(D.rRect(-390, -64, 780, 120, 1.4, 3672), "#EDEAE0", { stroke: true, sw: 4, sx: 5, sy: 6 }) +
     '<circle cx="0" cy="-48" r="8" fill="#6E5A4A" stroke="' + SEP + '" stroke-width="2.5"/>' + D.txt(0, 22, cx[0], 54, { w: 800, fill: SEP, extra: ' textLength="700" lengthAdjust="spacingAndGlyphs"' }) + "</g></g>";
 
-  // --- D5: cận va li nhỏ + bọc vải trên boong (không người) ---
-  var d5 = '<rect x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#9FA8A8"/>' + '<rect x="0" y="250" width="' + PW + '" height="300" fill="#6E7E84"/>' + song(300, 10, "#8EA0A4");
-  d5 += D.line("M 0 250 L " + PW + " 250", 3, SEP) + '<rect x="0" y="480" width="' + PW + '" height="20" fill="#E3DFD4" stroke="' + SEP + '" stroke-width="4"/>';
-  for (var p = 0; p < 12; p++) d5 += D.line("M " + (40 + p * 110) + " 500 L " + (40 + p * 110) + " 560", 6, SEP);
-  d5 += '<rect x="0" y="560" width="' + PW + '" height="340" fill="#8A7660"/>';
-  for (var pl = 0; pl < 6; pl++) d5 += D.line("M 0 " + (600 + pl * 50) + " L " + PW + " " + (600 + pl * 50), 3, "#6E5C48", ' opacity="0.7"');
-  // va li (gốc đáy giữa 300, 800)
+  // --- D5: boong tàu: va li nhỏ + bọc vải (không người) ---
+  var d5 = bg("#9FA8A8") + '<rect x="-40" y="250" width="' + (PW + 80) + '" height="300" fill="#6E7E84"/>' + song(300, 10, "#8EA0A4");
+  d5 += D.line("M -40 250 L " + (PW + 40) + " 250", 3, SEP) + '<rect x="-40" y="480" width="' + (PW + 80) + '" height="20" fill="#E3DFD4" stroke="' + SEP + '" stroke-width="4"/>';
+  for (var p = 0; p < 13; p++) d5 += D.line("M " + (40 + p * 110) + " 500 L " + (40 + p * 110) + " 560", 6, SEP);
+  d5 += '<rect x="-40" y="560" width="' + (PW + 80) + '" height="380" fill="#8A7660"/>';
+  for (var pl = 0; pl < 7; pl++) d5 += D.line("M -40 " + (600 + pl * 50) + " L " + (PW + 40) + " " + (600 + pl * 50), 3, "#6E5C48", ' opacity="0.7"');
   d5 += '<g transform="translate(300,800)">' + D.paper(D.rRect(-150, -200, 300, 200, 2, 3680), "#7A5236", { stroke: true, sw: 5, sx: 8, sy: 8 }) + D.line("M -150 -110 L 150 -110", 4, "#5E3B24") +
     D.line("M -90 -200 L -90 0 M 90 -200 L 90 0", 10, "#4A3020") + D.line("M -90 -200 L -90 0 M 90 -200 L 90 0", 4, "#8A6440") +
     D.paper("M -40 -200 L -40 -236 C -40 -250 40 -250 40 -236 L 40 -200 L 26 -200 L 26 -230 L -26 -230 L -26 -200 Z", "#4A3020", { stroke: true, sw: 3, shadow: false }) +
     [[-150, -200], [150, -200], [-150, 0], [150, 0]].map(function (q) { return '<circle cx="' + q[0] + '" cy="' + q[1] + '" r="12" fill="#B0A080" stroke="' + SEP + '" stroke-width="3"/>'; }).join("") + "</g>";
-  // bọc vải buộc nút
-  d5 += '<g transform="translate(640,800)">' + D.paper("M -120 0 C -150 -60 -110 -150 -20 -160 C 60 -170 140 -120 130 -40 C 126 -10 90 0 -120 0 Z", "#8A7A9A", { stroke: true, sw: 5, sx: 8, sy: 8 }) +
+  d5 += '<g transform="translate(600,800)">' + D.paper("M -120 0 C -150 -60 -110 -150 -20 -160 C 60 -170 140 -120 130 -40 C 126 -10 90 0 -120 0 Z", "#8A7A9A", { stroke: true, sw: 5, sx: 8, sy: 8 }) +
     '<path d="M -100 -40 L 100 -60 M -110 -90 L 110 -110 M -60 -150 L -60 -10 M 40 -160 L 40 -10" stroke="#6E5E7E" stroke-width="5" opacity="0.6"/>' +
     D.paper("M -20 -160 C -50 -210 -10 -220 0 -190 C 10 -220 50 -210 20 -160 Z", "#7A6A8A", { stroke: true, sw: 4, shadow: false }) + "</g>";
 
   // --- D6: làng vắng, cửa đóng, không khói; nhà máy đổ nát dưới dòng dung nham đen phía đông ---
-  var d6 = '<rect x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#A7ABA6"/>' + at(400, 520, TB.nuiLua({ w: 1500, h: 480, mau: "#646A64", may: false, seed: 3690 }));
-  d6 += D.paper(D.rough([[-40, 540], [600, 520], [1400, 540], [1400, 900], [-40, 900]], 4, 3691, 40), "#727C66", { stroke: true, sw: 4, shadow: false });
-  [[160, 640, 220, "#4F6A5A"], [380, 620, 200, "#7A4A40"], [250, 760, 240, "#5A6070"], [520, 740, 210, "#4F6A5A"]].forEach(function (h, j) { d6 += at(h[0], h[1], TB.nhaThap({ w: h[2], h: 90, mai: h[3], seed: 3692 + j })); });
-  // nhà máy đổ nát
+  var d6 = bg("#A7ABA6") + at(400, 520, TB.nuiLua({ w: 1500, h: 480, mau: "#646A64", may: false, seed: 3690 }));
+  d6 += D.paper(D.rough([[-60, 540], [600, 520], [1400, 540], [1400, 940], [-60, 940]], 4, 3691, 40), "#727C66", { stroke: true, sw: 4, shadow: false });
+  [[160, 640, 220, "#4F6A5A"], [380, 620, 200, "#7A4A40"], [250, 740, 240, "#5A6070"], [560, 720, 210, "#4F6A5A"]].forEach(function (h, j) { d6 += at(h[0], h[1], TB.nhaThap({ w: h[2], h: 90, mai: h[3], seed: 3692 + j })); });
   d6 += D.paper("M 860 700 L 860 560 L 920 540 L 960 590 L 1010 520 L 1060 600 L 1120 560 L 1180 620 L 1180 700 Z", "#8A8880", { stroke: true, sw: 5 }) + D.paper(D.rRect(1140, 430, 34, 130, 1, 3696), "#6E6258", { stroke: true, sw: 4 }) + D.line("M 1140 430 L 1160 470 L 1174 440", 3, SEP);
-  // dòng dung nham đen tràn từ phía đông phủ chân nhà máy
-  d6 += D.paper(D.rough([[1400, 460], [1260, 520], [1160, 600], [1000, 660], [900, 720], [860, 800], [1000, 860], [1400, 880]], 8, 3697, 36), "#2B2927", { stroke: true, sw: 5, shadow: false });
+  d6 += D.paper(D.rough([[1400, 460], [1260, 520], [1160, 600], [1000, 660], [900, 720], [860, 800], [1000, 900], [1400, 920]], 8, 3697, 36), "#2B2927", { stroke: true, sw: 5, shadow: false });
   var rl = D.rng(3698);
   for (var lr = 0; lr < 12; lr++) { var lx = 980 + rl() * 400, ly = 640 + rl() * 220; d6 += D.paper(D.rEll(lx, ly, 26 + rl() * 20, 14 + rl() * 10, 4, 3700 + lr), "#3B3835", { stroke: true, sw: 2.5, shadow: false }); }
-  d6 += '<rect id="toiDan" x="0" y="0" width="' + PW + '" height="' + PH + '" fill="#1E2224" opacity="0"/>';
 
-  var trang = '<g transform="translate(' + PX + "," + PY + ')">' + tr.s + '<g clip-path="url(#' + tr.clip + ')">' +
-    '<g id="d1">' + d1 + '</g><g id="d2">' + d2 + '</g><g id="d3">' + d3 + '</g><g id="d5">' + d5 + '</g><g id="d6">' + d6 + "</g></g></g>";
-  var XW = 254, YW = 1004, SW = 0.62;
+  // ================= Wob (người quan sát, không mang đồ của người dân): D1 rìa làng, D2 cầu tàu, D3–D4 vách đá, D6 làng vắng =================
   var W = TB.wob(api, "W", { mu: "ha" });
+  var toi = '<rect id="toiDan" x="-60" y="-200" width="' + (PW + 120) + '" height="' + (PH + 400) + '" fill="#1E2224" opacity="0"/>';
+  var canh = '<g transform="translate(0,' + TY + ') scale(' + SC.toFixed(5) + ')">' +
+    '<g id="d1">' + d1 + '</g><g id="d2">' + d2 + '</g><g id="d3">' + d3 + '</g><g id="d5">' + d5 + '</g><g id="d6">' + d6 + "</g>" +
+    W.svg + '<g id="d2t">' + d2tau + "</g>" + toi + "</g>";
 
-  api.dat(D.defsNhietDoi() + api.lop("xa", nen, 0.85, { mat: 1000 }) + api.lop("giua", trang + ke + W.svg, 1, { mat: 1004 }));
+  api.dat(D.defsNhietDoi() + api.lop("giua", nen + canh, 1, {}));
   api.noi({});
 
   var tD2 = tTwo - 0.12, tD3 = tNext - 0.1, tD5 = tThey - 0.12, tD6 = tLava - 0.1;
-  TB.hien(api, "#d1", 0, tD2); TB.hien(api, "#d2", tD2, tD3); TB.hien(api, "#d3", tD3, tD5); TB.hien(api, "#d5", tD5, tD6); TB.hien(api, "#d6", tD6, null);
+  TB.hien(api, "#d1", 0, tD2); TB.hien(api, "#d2", tD2, tD3); TB.hien(api, "#d2t", tD2, tD3); TB.hien(api, "#d3", tD3, tD5); TB.hien(api, "#d5", tD5, tD6); TB.hien(api, "#d6", tD6, null);
 
-  // ---------- camera ----------
+  // ---------- camera (zoom ≥ 1, khung luôn nằm trong cảnh) ----------
   api.camera([
-    [0, 1050, 585, 1.07], [tD2 - 0.01, 1060, 580, 1.09, "sine.inOut"],
-    [tD2, 1070, 545, 1.07, "step"], [tD3 - 0.01, 1085, 545, 1.1, "sine.inOut"],
-    [tD3, 1070, 545, 1.07, "step"], [tD5 - 0.01, 1080, 545, 1.09, "sine.inOut"],
-    [tD5, 1020, 600, 1.12, "step"], [tD6 - 0.01, 1010, 605, 1.15, "sine.inOut"],
-    [tD6, 1050, 560, 1.14, "step"], [DUR, 1040, 560, 1.02, "sine.inOut"]
+    [0, 930, 560, 1.06], [tD2 - 0.01, 960, 556, 1.1, "sine.inOut"],
+    [tD2, 880, 590, 1.14, "step"], [tTris + 0.6, 880, 590, 1.14, "none"], [tD3 - 0.01, 1040, 560, 1.12, "sine.inOut"],
+    [tD3, 960, 580, 1.1, "step"], [tTwo2, 1000, 570, 1.1, "sine.inOut"], [tD5 - 0.01, 1010, 560, 1.12, "sine.inOut"],
+    [tD5, 980, 585, 1.12, "step"], [tD6 - 0.01, 960, 588, 1.14, "sine.inOut"],
+    [tD6, 900, 590, 1.12, "step"], [DUR, 960, 542, 1.0, "sine.inOut"]
   ]);
 
   // ---------- D1: khói xám bốc từ miệng núi mới (tất định, on twos) ----------
@@ -581,51 +576,71 @@ window.CANH = function (api, data) {
     }
   }, { twos: true });
 
-  // ---------- D2: hai tàu cá rời bến về phía đảo xa ----------
-  [["#tc1", tD2 + 0.2, 560], ["#tc2", tD2 + 0.7, 600]].forEach(function (b) {
+  // ================= D1: Wob đứng ở rìa làng nhìn hình nón mới, lùi một bước =================
+  var S1 = 0.36, Y1 = 800;
+  W.set(0, { x: 600, y: Y1, size: S1, op: 1, pupX: 14, pupY: -10, lid: 10, eye: 1.04 });
+  W.mouth(0, "flat");
+  W.walk(0.5, 1.2, 600, 540, { step: 0.35 });
+  W.pose(0.5, 0.3, { lean: -4 }, "sine.inOut");
+  W.pose(tVol - 0.1, 0.4, { aLu: 30, aLf: 20, aRu: -30, aRf: -20, eye: 1.1, pupY: -14 }, "sine.out");
+  W.pose(tVol + 0.5, 0.3, { lean: 0 }, "sine.inOut");
+
+  // ================= D2: Wob đứng trên cầu tàu (người quan sát), nhìn hai tàu cá chở cả làng rời bến về Nightingale =================
+  var S2 = 0.34, Y2 = 562, XJ = 250;
+  var tRoi = tTris + 0.6;
+  W.set(tD2, { x: XJ, y: Y2, size: S2, lean: 0, eye: 1, aLu: 18, aLf: -10, aRu: -18, aRf: 10, pupX: 12, pupY: 10, lid: 18, upRot: 0 });
+  W.mouth(tD2, "thang");
+  W.idle(tD2 + 0.2, tRoi, { seed: 362, bien: 1 });
+  W.pose(tD2 + 0.4, 0.5, { pupX: 14, pupY: 12 }, "sine.inOut");                            // nhìn người lên tàu
+  W.pose(tTris, 0.5, { pupX: 8, pupY: 10, lid: 24 }, "sine.inOut");
+  W.walk(tRoi + 0.3, tRoi + 1.1, XJ, 340, { step: 0.4 });                                  // bước ra đầu cầu tàu theo tàu
+  W.pose(tCarried - 0.1, 0.5, { aRu: 40, aRf: 92, pupX: 14, pupY: 2 }, "sine.inOut");     // tay đặt lên ngực, nhìn tàu đi
+  W.pose(tNight, 0.5, { pupX: 14, pupY: -10, upRot: 3, lean: 3 }, "sine.inOut");           // nhìn theo về đảo xa
+  W.breathe(tRoi + 1.2, tD3);
+  // hai tàu rời bến về phía đảo xa
+  [["#tc1", tRoi, 520], ["#tc2", tRoi + 0.5, 560]].forEach(function (b) {
     api.key(b[0], "x", 0, 0, "step"); api.key(b[0], "x", b[1], 0, "none"); api.key(b[0], "x", tD3, b[2], "sine.in");
     api.origin(b[0], "0 0");
-    for (var tb = b[1], s = 1; tb < tD3; tb += 0.6, s = -s) api.key(b[0], "rotation", tb, 1.5 * s, "sine.inOut");
+    for (var tb = tD2, s = 1; tb < tD3; tb += 0.6, s = -s) api.key(b[0], "rotation", tb, 1.5 * s, "sine.inOut");
   });
 
-  // ---------- D3: xuồng qua lại giữa đảo và tàu; D4: tàu nhỏ dần, thẻ 264 ----------
-  api.key("#xu1", "x", 0, 0, "step"); api.key("#xu1", "x", tD3 + 0.2, 0, "none"); api.key("#xu1", "x", tTwo2 - 0.2, 330, "sine.inOut");
-  api.key("#xu2", "x", 0, 0, "step"); api.key("#xu2", "x", tD3 + 0.2, 0, "none"); api.key("#xu2", "x", tTwo2 - 0.2, -260, "sine.inOut");
-  ["#xu1", "#xu2"].forEach(function (s) { api.key(s, "opacity", tTwo2 - 0.2, 1, "none"); api.key(s, "opacity", tTwo2 + 0.3, 0, "power1.in"); });
-  api.origin("#linS", "0 0");
-  api.key("#linS", "scale", 0, 1, "step"); api.key("#linS", "scale", tTwo2, 1, "none"); api.key("#linS", "scale", tD5 - 0.1, 0.28, "sine.inOut");
-  api.key("#lin", "x", 0, 0, "step"); api.key("#lin", "x", tTwo2, 0, "none"); api.key("#lin", "x", tD5 - 0.1, 220, "sine.inOut");
-  api.key("#lin", "y", 0, 0, "step"); api.key("#lin", "y", tTwo2, 0, "none"); api.key("#lin", "y", tD5 - 0.1, -46, "sine.inOut");
-  api.origin("#the264", "660 170"); api.pop("#the264", tIsl - 0.3, 0.3);
-
-  // ---------- D6: lùi chậm, tối dần một nấc ----------
-  api.key("#toiDan", "opacity", 0, 0, "step"); api.key("#toiDan", "opacity", tD6 + 1.5, 0, "none"); api.key("#toiDan", "opacity", DUR, 0.22, "sine.inOut");
-
-  // ---------- Wob ngoài mép trang ----------
-  var YS = YW + SW * 97;
-  W.set(0, { x: XW, y: YS, size: SW, op: 1, legL: -6, legR: 6, aLu: 10, aLf: 30, aRu: -10, aRf: -30, lid: 26, pupX: 12, pupY: -6 });
-  W.mouth(0, "thang");
-  W.pose(0.4, 0.9, { legL: 0, legR: 1 }, "sine.inOut"); W.pose(1.3, 0.9, { legL: -8, legR: 6 }, "sine.inOut");
-  // đứng dậy khi hai tàu rời bến
-  W.pose(tD2 + 0.1, 0.25, { sy: 0.92, sx: 1.04 }, "power2.in");
-  W.set(tD2 + 0.35, { y: YW, legL: 0, legR: 0, sy: 1, sx: 1, aLu: 18, aLf: -10, aRu: -18, aRf: 10 });
-  W.pose(tD2 + 0.35, 0.3, { upY: -6 }, "back.out(2)"); W.pose(tD2 + 0.65, 0.2, { upY: 0 }, "power2.out");
-  W.pose(tD2 + 0.9, 1.6, { pupX: 10, pupY: 2 }, "sine.inOut");
-  W.pose(tCarried, 0.8, { pupX: 14, pupY: -2 }, "sine.inOut");
-  W.pose(tNight, 0.4, { pupX: 14, pupY: -10, upRot: 3, lean: 4 }, "sine.inOut");   // nhìn theo hai tàu về phía đảo xa
-  W.breathe(tD2 + 0.7, tD5);
-  W.pose(tD3 + 0.3, 0.4, { upRot: 0, lean: 0, pupX: 12, pupY: -4 }, "sine.inOut");
-  for (var tg = tD3 + 1.0, gs = 1; tg < tTwo2 - 0.3; tg += 1.2, gs = -gs) W.pose(tg, 0.5, { pupX: gs > 0 ? 6 : 14, pupY: gs > 0 ? 4 : -4 }, "sine.inOut");   // mắt theo xuồng
-  W.pose(tTwo2 + 0.3, 1.5, { pupX: 14, pupY: -8, lid: 30 }, "sine.inOut");
+  // ================= D3/D4: Wob đứng trên vách đá cạnh nhà, nhìn xuồng chở người ra tàu khách, rồi nhìn tàu khách nhỏ dần =================
+  var S3 = 0.3, X3 = 205, Y3 = 424;
+  W.set(tD3, { x: X3, y: Y3, size: S3, lean: 0, upRot: 0, upY: 0, aLu: 18, aLf: -10, aRu: -18, aRf: 10, pupX: 14, pupY: 10, lid: 18 });
+  W.mouth(tD3, "thang");
+  W.idle(tD3 + 0.3, tD5, { seed: 363, bien: 1 });
+  for (var tx = tD3 + 0.8, gx = 0; tx < tTwo2 - 0.3; tx += 0.9, gx++) W.pose(tx, 0.4, { pupX: gx % 2 ? 14 : 10, pupY: gx % 2 ? 4 : 10 }, "sine.inOut");   // mắt theo xuồng
+  W.pose(tLiner, 0.4, { pupX: 14, pupY: -2 }, "sine.inOut");
+  W.pose(tTwo2 + 0.2, 0.6, { pupX: 14, pupY: -6, lean: 2 }, "sine.inOut");                  // theo tàu khách ra khơi
+  W.pose(tIsl, 0.6, { aRu: 40, aRf: 92, lid: 30 }, "sine.inOut");
   W.mouth(tIsl, "buon");
+  W.pose(tCape, 0.8, { pupX: 14, pupY: -10, upRot: 2 }, "sine.inOut");
   W.blinkAt(tEng + 0.2);
-  // va li: bước sát mép trang, đặt tay lên mép trang cạnh va li (không chạm va li)
-  var XV = 392;
-  W.walk(tD5 + 0.05, tD5 + 0.65, XW, XV, { step: 0.3, arms: false });
-  W.pose(tCarry - 0.4, 0.4, { aRu: -70, aRf: -30, pupX: 14, pupY: 6, lean: 3 }, "sine.inOut");
-  W.mouth(tD5, "thang");
-  W.breathe(tD5 + 0.7, DUR);
-  // làng vắng: cúi đầu
-  W.pose(tD6 + 0.4, 0.8, { aRu: -18, aRf: 10, lean: 0, upRot: -2, upY: 8, sy: 0.97, pupX: 4, pupY: 14, lid: 42 }, "sine.inOut");
-  W.mouth(tD6 + 0.6, "buon");
+  api.key("#xu1", "x", 0, 0, "step"); api.key("#xu1", "x", tD3 + 0.2, 0, "none"); api.key("#xu1", "x", tTwo2 - 0.2, 300, "sine.inOut");
+  api.key("#xu2", "x", 0, 0, "step"); api.key("#xu2", "x", tD3 + 0.2, 0, "none"); api.key("#xu2", "x", tTwo2 - 0.2, -260, "sine.inOut");
+  ["#xu1", "#xu2"].forEach(function (s, j) {
+    api.origin(s, "0 0");
+    for (var tb = tD3, sg = 1; tb < tTwo2; tb += 0.55, sg = -sg) api.key(s, "rotation", tb + j * 0.2, 1.6 * sg, "sine.inOut");
+    api.key(s, "opacity", 0, 1, "step"); api.key(s, "opacity", tTwo2 - 0.2, 1, "none"); api.key(s, "opacity", tTwo2 + 0.3, 0, "power1.in");
+  });
+  api.origin("#linS", "0 0");
+  api.key("#linS", "scale", 0, 1, "step"); api.key("#linS", "scale", tTwo2, 1, "none"); api.key("#linS", "scale", tD5 - 0.1, 0.32, "sine.inOut");
+  api.key("#lin", "x", 0, 0, "step"); api.key("#lin", "x", tTwo2, 0, "none"); api.key("#lin", "x", tD5 - 0.1, 200, "sine.inOut");
+  api.key("#lin", "y", 0, 0, "step"); api.key("#lin", "y", tTwo2, 0, "none"); api.key("#lin", "y", tD5 - 0.1, -46, "sine.inOut");
+  api.origin("#the264", "600 250"); api.pop("#the264", tIsl - 0.3, 0.3);
+
+  // ================= D5: boong tàu, va li và bọc vải một mình (không người, không Wob), đẩy chậm =================
+  W.set(tD5, { op: 0 });
+
+  // ================= D6: đi chậm qua làng vắng, nhìn nhà máy dưới dung nham, cúi đầu =================
+  var S6 = 0.36, Y6 = 812;
+  W.set(tD6, { op: 1, x: 120, y: Y6, size: S6, aLu: 18, aLf: -10, aRu: -18, aRf: 10, pupX: 10, pupY: -2, lid: 18, upY: 0, sx: 1, sy: 1 });
+  W.mouth(tD6, "thang");
+  W.walk(tD6 + 0.2, tHouses - 0.3, 120, 560, { step: 0.42 });
+  W.pose(tCann - 0.2, 0.5, { pupX: 14, pupY: -2, upRot: 2 }, "sine.inOut");               // nhà máy dưới dung nham
+  W.pose(tHouses, 0.5, { pupX: -14, pupY: -6, upRot: -2 }, "sine.inOut");                  // ngoái lại các mái nhà còn nguyên
+  W.pose(tNobody, 0.9, { upRot: 0, upY: 8, sy: 0.97, pupX: 2, pupY: 14, lid: 44 }, "sine.inOut");
+  W.mouth(tNobody + 0.3, "buon");
+  W.idle(tNobody + 1.0, DUR, { seed: 361, bien: 1 });
+  api.key("#toiDan", "opacity", 0, 0, "step"); api.key("#toiDan", "opacity", tD6 + 1.5, 0, "none"); api.key("#toiDan", "opacity", DUR, 0.2, "sine.inOut");
 };

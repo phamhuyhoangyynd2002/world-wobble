@@ -33,7 +33,9 @@ window.CANH = function (api, data) {
   }
   gan += mua("ms0", 0) + mua("ms1", 1) + mua("ms2", 2);
   gan += '<g id="hoDao"><path d="' + D.rEll(1290, 1040, 70, 18, 2, 2540) + '" fill="#3E2C1E" stroke="' + D.INK + '" stroke-width="3"/></g>';
-  gan += '<g id="bkDat">' + at(1520, 1030, '<g transform="rotate(-70) scale(0.45)">' + TD.bangKep("bk2") + "</g>") + "</g>";
+  // bảng kẹp ba hàng như d23 (khoai/tôm/bò), dựng nghiêng nhẹ trên đất; dấu X đỏ ô khoai hiện ~17,5 s (khớp đầu d26)
+  gan += '<g id="bkDat">' + at(1318, 936, '<g transform="rotate(-6) scale(0.8)">' + TD.bangKep("bk2") +
+    '<g id="bkX">' + D.line("M -56 -94 L -20 -58 M -20 -94 L -56 -58", 9, "#C9463A") + "</g></g>") + "</g>";
   gan += '<g id="chiaDat">' + at(1360, 1060, '<g transform="rotate(-84)">' + TD.chia(420) + "</g>") + "</g>";
   var W = TD.wob(api, "W", {
     muTrum: 0,
@@ -147,6 +149,14 @@ window.CANH = function (api, data) {
   W.pose(tPull + 1.0, 1.4, { aRu: -60, aRf: -10, aLu: 60, aLf: 10, pupX: 14, pupY: -2, lean: 2 }, "sine.inOut");
   W.mouth(tPull + 1.6, "buon");
   W.lid(tFeed, 0.4, 0.35);
+  // gạch X ô khoai: cúi về bảng kẹp, dập củ khoai xuống như con dấu
+  api.show("#bkX", 0, 0); api.show("#bkX", tTros + 0.35, 1);
+  W.pose(tTros - 0.15, 0.3, { lean: 16, aRu: -12, aRf: 6, pupX: 14, pupY: 16, sy: 0.94 }, "power2.out");
+  W.pose(tTros + 0.3, 0.08, { sy: 0.88 }, "power2.in");
+  W.pose(tTros + 0.42, 0.25, { sy: 0.97 }, "power2.out");
+  W.pose(tTros + 0.9, 0.35, { lean: 4, aRu: -50, aRf: -10, pupX: 10, pupY: 10, sy: 1 }, "sine.inOut");
+  W.mouth(tTros + 0.4, "smirk");
+  api.sfx("pop", tTros + 0.35, 0.3);
   W.blinkAt(tTros + 0.4);
   W.autoBlink(0, tLift, 251);
   void tTro;

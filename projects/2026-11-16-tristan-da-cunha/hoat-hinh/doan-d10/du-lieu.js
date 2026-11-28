@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 9.05,
- "bat_dau_tuyet_doi": 109.85,
+ "bat_dau_tuyet_doi": 110.042,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: toàn cảnh núi lửa hình nón từ xuồng, mây quấn đỉnh như cái mũ, vách đá dựng",
  "trang_phuc": "ÁO MƯA VẢI DẦU CAM #E07A2E (đường may, viền mũ trùm #B85A1E, hai cúc gỗ #8A5A33; dài tới gối Wob; giữ DÁNG áo mưa có mũ trùm đã có từ tập 3: ve-tay rig `raincoat` thêm khoá màu cam (chỉ thêm, vd `raincoat: {mau: \"cam\", hood}`), cắt giấy/diorama vẽ cùng dáng đổi màu. KHÁC áo mưa vàng #E2B33C tập 3 và mũ cói tập 4; không đội mũ nào khác); BA LÔ NHỎ: ba lô mặc định của rig (xanh ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A buộc trên nắp), cao ≈ 0,4 thân Wob, ĐÚNG ba lô bé Wob đeo ở cuối đuôi tập 4; quai vắt ngoài áo mưa. KHÔNG ba lô khổng lồ; giày đỏ của tạo hình gốc (lời gọi là \"boots\"), mũ trùm LÊN (gió biển), áo mưa còn ướt; ngồi trong xuồng",
@@ -33,7 +33,7 @@ window.HH_DATA = {
    "tai": 7.25,
    "loi": "wearing a cloud like a hat.",
    "hanh_dong": "Cận đỉnh núi: đám mây quấn đỉnh",
-   "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ ở \"cloud\" (≈ 117.44 s) rồi đội lại; Wob trong xuồng nhấc mũ trùm (đang LÊN) khỏi đầu chào lại ở \"like\" (≈ 117.78 s), trùm lại xong ở ≈ 118.20 s, giữ mặt tỉnh bơ tới 118.82 s (cắt 118.90 s)",
+   "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ ở \"cloud\" (≈ 117.63 s) rồi đội lại; Wob trong xuồng nhấc mũ trùm (đang LÊN) khỏi đầu chào lại ở \"like\" (≈ 117.97 s), trùm lại xong ở ≈ 118.39 s, giữ mặt tỉnh bơ tới 119.01 s (cắt 119.09 s)",
    "dao_cu": [],
    "sfx": [
     "boing"

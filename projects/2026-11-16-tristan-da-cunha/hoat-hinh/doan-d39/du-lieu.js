@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 13.723,
- "bat_dau_tuyet_doi": 535.774,
+ "bat_dau_tuyet_doi": 535.966,
  "lop": "hien-tai",
  "boi_canh": "Như d37 nhưng đèn bàn sáng dần lên về mức thường; trên sổ một con tàu giấy nhỏ; rồi hộp phiếu gỗ nhỏ trên trang sổ, hai chồng phiếu",
  "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); bưu thiếp úp trên bàn, Wob lật lên MỘT NỬA ở \"back on Tristan\"; rồi đặt hộp phiếu",
@@ -1611,7 +1611,7 @@ window.HH_DATA = {
   {
    "scene": 14,
    "bat_dau": 6.11,
-   "thoi_luong": 43.776,
+   "thoi_luong": 49.752,
    "tu": [
     {
      "text": "In",
@@ -2169,139 +2169,244 @@ window.HH_DATA = {
      "end": 41.41
     },
     {
-     "text": "My",
+     "text": "So",
      "start": 41.773,
-     "end": 41.985
+     "end": 42.023
     },
     {
-     "text": "best",
-     "start": 41.998,
-     "end": 42.26
+     "text": "why",
+     "start": 42.035,
+     "end": 42.185
     },
     {
-     "text": "guess",
-     "start": 42.273,
-     "end": 42.447
+     "text": "go",
+     "start": 42.197,
+     "end": 42.322
     },
     {
-     "text": "at",
-     "start": 42.46,
-     "end": 42.56
+     "text": "back?",
+     "start": 42.335,
+     "end": 42.723
     },
     {
-     "text": "why?",
-     "start": 42.572,
-     "end": 42.885
+     "text": "The",
+     "start": 43.085,
+     "end": 43.26
     },
     {
-     "text": "England",
-     "start": 43.248,
-     "end": 43.648
+     "text": "scientists",
+     "start": 43.273,
+     "end": 43.848
     },
     {
      "text": "had",
-     "start": 43.66,
-     "end": 43.798
+     "start": 43.86,
+     "end": 43.985
     },
     {
-     "text": "more",
-     "start": 43.81,
-     "end": 44.01
+     "text": "found",
+     "start": 43.998,
+     "end": 44.348
     },
     {
-     "text": "of",
-     "start": 44.023,
-     "end": 44.11
+     "text": "the",
+     "start": 44.36,
+     "end": 44.422
     },
     {
-     "text": "almost",
-     "start": 44.123,
-     "end": 44.51
+     "text": "village",
+     "start": 44.435,
+     "end": 44.76
     },
     {
-     "text": "everything.",
-     "start": 44.585,
+     "text": "still",
+     "start": 44.773,
      "end": 45.035
     },
     {
-     "text": "It",
-     "start": 45.398,
-     "end": 45.572
+     "text": "standing,",
+     "start": 45.048,
+     "end": 45.523
     },
     {
-     "text": "didn't",
-     "start": 45.585,
-     "end": 45.798
+     "text": "and",
+     "start": 45.847,
+     "end": 45.91
     },
     {
-     "text": "have",
-     "start": 45.81,
-     "end": 45.998
+     "text": "some",
+     "start": 45.922,
+     "end": 46.148
     },
     {
-     "text": "their",
-     "start": 46.01,
-     "end": 46.16
+     "text": "of",
+     "start": 46.16,
+     "end": 46.247
     },
     {
-     "text": "land,",
-     "start": 46.172,
+     "text": "them",
+     "start": 46.26,
+     "end": 46.41
+    },
+    {
+     "text": "had",
+     "start": 46.422,
      "end": 46.548
     },
     {
-     "text": "shared",
-     "start": 46.885,
-     "end": 47.135
+     "text": "gone",
+     "start": 46.56,
+     "end": 46.785
     },
     {
-     "text": "between",
-     "start": 47.148,
-     "end": 47.523
+     "text": "to",
+     "start": 46.798,
+     "end": 46.847
     },
     {
-     "text": "them,",
-     "start": 47.535,
-     "end": 47.735
+     "text": "see",
+     "start": 46.86,
+     "end": 47.097
     },
     {
-     "text": "or",
-     "start": 48.135,
-     "end": 48.197
+     "text": "it.",
+     "start": 47.11,
+     "end": 47.248
+    },
+    {
+     "text": "The",
+     "start": 47.61,
+     "end": 47.798
+    },
+    {
+     "text": "rest",
+     "start": 47.81,
+     "end": 48.11
+    },
+    {
+     "text": "is",
+     "start": 48.123,
+     "end": 48.223
+    },
+    {
+     "text": "my",
+     "start": 48.235,
+     "end": 48.385
+    },
+    {
+     "text": "guess.",
+     "start": 48.398,
+     "end": 48.848
+    },
+    {
+     "text": "England",
+     "start": 49.21,
+     "end": 49.61
+    },
+    {
+     "text": "had",
+     "start": 49.623,
+     "end": 49.76
+    },
+    {
+     "text": "more",
+     "start": 49.773,
+     "end": 49.973
+    },
+    {
+     "text": "of",
+     "start": 49.985,
+     "end": 50.072
+    },
+    {
+     "text": "almost",
+     "start": 50.085,
+     "end": 50.473
+    },
+    {
+     "text": "everything.",
+     "start": 50.548,
+     "end": 50.998
+    },
+    {
+     "text": "It",
+     "start": 51.36,
+     "end": 51.535
+    },
+    {
+     "text": "didn't",
+     "start": 51.548,
+     "end": 51.76
+    },
+    {
+     "text": "have",
+     "start": 51.773,
+     "end": 51.96
     },
     {
      "text": "their",
-     "start": 48.21,
-     "end": 48.373
+     "start": 51.972,
+     "end": 52.122
+    },
+    {
+     "text": "land,",
+     "start": 52.135,
+     "end": 52.51
+    },
+    {
+     "text": "shared",
+     "start": 52.847,
+     "end": 53.097
+    },
+    {
+     "text": "between",
+     "start": 53.11,
+     "end": 53.485
+    },
+    {
+     "text": "them,",
+     "start": 53.498,
+     "end": 53.698
+    },
+    {
+     "text": "or",
+     "start": 54.097,
+     "end": 54.16
+    },
+    {
+     "text": "their",
+     "start": 54.172,
+     "end": 54.335
     },
     {
      "text": "say",
-     "start": 48.385,
-     "end": 48.635
+     "start": 54.347,
+     "end": 54.597
     },
     {
      "text": "in",
-     "start": 48.648,
-     "end": 48.748
+     "start": 54.61,
+     "end": 54.71
     },
     {
      "text": "how",
-     "start": 48.76,
-     "end": 48.972
+     "start": 54.722,
+     "end": 54.935
     },
     {
      "text": "it",
-     "start": 48.985,
-     "end": 49.035
+     "start": 54.947,
+     "end": 54.997
     },
     {
      "text": "was",
-     "start": 49.048,
-     "end": 49.185
+     "start": 55.01,
+     "end": 55.148
     },
     {
      "text": "run.",
-     "start": 49.197,
-     "end": 49.523
+     "start": 55.16,
+     "end": 55.485
     }
    ],
    "khau_hinh": [

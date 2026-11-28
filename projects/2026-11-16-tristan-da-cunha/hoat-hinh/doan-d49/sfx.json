@@ -10,23 +10,28 @@
   "am_luong": 0.45
  },
  {
+  "ten": "song",
+  "tai": 5.604,
+  "am_luong": 0.35
+ },
+ {
   "ten": "lat-giay",
-  "tai": 6.4,
+  "tai": 8.024,
   "am_luong": 0.45
  },
  {
   "ten": "lat-giay",
-  "tai": 6.7,
+  "tai": 8.324,
   "am_luong": 0.4
  },
  {
   "ten": "whoosh",
-  "tai": 6.7,
+  "tai": 8.324,
   "am_luong": 0.3
  },
  {
   "ten": "pop",
-  "tai": 6.924,
+  "tai": 8.549,
   "am_luong": 0.4
  }
 ]

@@ -1,0 +1,1285 @@
+{
+ "vong": 2,
+ "che_do": "phan-canh",
+ "ngay": "2026-11-28",
+ "du_an": "projects/2026-11-22-kiruna",
+ "doan_cham_lai": [
+  "d01",
+  "d02",
+  "d03",
+  "d06",
+  "d07",
+  "d08",
+  "d10",
+  "d11",
+  "d13",
+  "d14",
+  "d15",
+  "d16",
+  "d17",
+  "d18",
+  "d19",
+  "d21",
+  "d23",
+  "d24",
+  "d25",
+  "d26",
+  "d28",
+  "d29",
+  "d30",
+  "d31",
+  "d32",
+  "d33",
+  "d36",
+  "d37",
+  "d38",
+  "d41",
+  "d42",
+  "d43",
+  "d45",
+  "d47"
+ ],
+ "tong_the": {
+  "ket_luan": "ĐẠT",
+  "diem": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "T4": 2,
+   "T5": 2,
+   "T6": 2,
+   "T7": 2,
+   "T8": 2
+  },
+  "tong": 16,
+  "nhan_xet": {
+   "T1": "Không đổi (2). Ranh d14/d15 nay 189.848: khung đường ngang hiện 0,04 s (1 khung) trước mốc cảnh 6, 0,14 s trước chữ đầu, trong khoảng lặng; không lời hay hình đường sắt, cảng, Narvik, Luleå nào sớm hơn. Các ranh mới khác đều sau cảnh 6 hoặc không liên quan đáp án.",
+   "T2": "Không đổi (2). Danh sách mốc mồi như vòng 1; gag mới d02, d13, d32, d33 đứng đúng chỗ gag cũ.",
+   "T3": "Không đổi (2). Vẫn 23 thẻ, day-vao-cham 15/92 = 16%; tỉ lệ cắt giấy 54,4% · vẽ tay 25,8% · diorama 19,8%.",
+   "T4": "Không đổi (2). Mô-típ chìa thêm một vòng gọi lại: lỗ chìa thấy cửa (d02) → lỗ chìa chỉ thấy con quạ (d31).",
+   "T5": "Vòng 1: 1. Đã hết 4 gag lặp tập trước (d02, d13, d32, d33 thay bằng gag mới, đã soát lại với 810 nhịp tập 1–5: không trùng). Đồ vật sống dậy còn ~9 lần, trong đó hòn quặng giấy (d12, d17, d18, d19) là một nhân vật xuyên suốt, nên không còn là lặp kiểu; đã bỏ d03 tháp gõ chân, d16, d21, d30. 'Đoàn đi hàng một' còn d03 và d45 (d45 cố ý gọi lại d03); d18 là hàng đứng chờ. Lác mắt còn 0 lần. Punchline cuối đoạn: d06 0,63 s, d14 1,52 s, d15 0,61 s, d18 0,61 s, d30 0,60 s, d36 0,56 s (thiếu 1 khung, chấp nhận). Chỗ nghiêm giữ nguyên lặng 2,5 s trước, 2,6 s sau (d43 thêm việc tắt đèn trong khoảng lặng, không gag).",
+   "T6": "Không đổi (2).",
+   "T7": "Vòng 1: 1. Đã nối: d05 chìa trên chùm → d38 tháo chìa, đặt dưới chân đèn → d43, d44 chìa dưới đèn; d43 tắt đèn → d44 mở trong tối; d15 một túi; d32 không kính râm trong túi áo; d47 khung 0 đã cầm chìa; trang_phuc các đoạn vẽ tay trong nhà và mùa đông ghi gọn. Còn sót một chữ trong d28 nhịp 412.61 ('mái nhà sáng đèn' thay vì 'có thùng các-tông'): ghi chú thợ, không phải chỗ nhảy giữa các đoạn.",
+   "T8": "Không đổi (2). d47 rõ hơn: 0–1,2 s chỉ có khung end screen bật lên."
+  },
+  "so_vong_truoc": {
+   "tong": 14,
+   "diem": {
+    "T1": 2,
+    "T2": 2,
+    "T3": 2,
+    "T4": 2,
+    "T5": 1,
+    "T6": 2,
+    "T7": 1,
+    "T8": 2
+   }
+  }
+ },
+ "dem": {
+  "ĐẠT": 47
+ },
+ "dem_vong_truoc": {
+  "ĐẠT": 45,
+  "SỬA NHỎ": 2
+ },
+ "doan": [
+  {
+   "id": "d01",
+   "phong_cach": "diorama",
+   "bat_dau": 0.0,
+   "ket_thuc": 3.263,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Đã bỏ cú gõ chìa lên bản đồ; chỉ còn thổi bụi 1.43 → bụi 1.50–2.10 → nhìn bụi 2.10 → nhìn người xem 2.60–3.26."
+  },
+  {
+   "id": "d02",
+   "phong_cach": "ve-tay",
+   "bat_dau": 3.263,
+   "ket_thuc": 7.362,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Gag mới: nhìn qua lỗ chìa thấy cánh cửa cũ ở 'door' 5.15, hạ chìa ở 'gone.' 5.51, giữ 0,77 s tới 'So' 6.28; cận lỗ chìa là cỡ cảnh thứ hai. Không còn trùng tập 4."
+  },
+  {
+   "id": "d03",
+   "phong_cach": "diorama",
+   "bat_dau": 7.362,
+   "ket_thuc": 39.512,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Thiêu thân lượn một vòng, đậu ở 'bugging' 38.81, lao vào cánh 38.98, phủ giấy 0,4 s cuối: hết chồng việc. Bút chì 19.8 còn một chuỗi; bỏ tháp gõ chân 28.0."
+  },
+  {
+   "id": "d04",
+   "phong_cach": "cat-giay",
+   "bat_dau": 39.512,
+   "ket_thuc": 51.55,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d05",
+   "phong_cach": "diorama",
+   "bat_dau": 51.55,
+   "ket_thuc": 57.086,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d06",
+   "phong_cach": "cat-giay",
+   "bat_dau": 57.086,
+   "ket_thuc": 73.953,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Phòng hiện với chùm chìa đã treo, áo đã vắt; Wob chỉ chui vào giường 63.60–64.90. Ranh mới 73.953: 'So did the radiator.' giữ 0,63 s."
+  },
+  {
+   "id": "d07",
+   "phong_cach": "ve-tay",
+   "bat_dau": 73.953,
+   "ket_thuc": 83.211,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "trang_phuc ghi gọn trong phòng không áo khoác. Lời 'The' (73.69) vắt qua ranh 0,27 s; việc đầu tiên ở 'blasts' 74.12 vẫn sau ranh. Đạt."
+  },
+  {
+   "id": "d08",
+   "phong_cach": "cat-giay",
+   "bat_dau": 83.211,
+   "ket_thuc": 95.032,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "trang_phuc ghi gọn trong phòng. Đạt."
+  },
+  {
+   "id": "d09",
+   "phong_cach": "ve-tay",
+   "bat_dau": 95.032,
+   "ket_thuc": 99.219,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d10",
+   "phong_cach": "cat-giay",
+   "bat_dau": 99.219,
+   "ket_thuc": 117.92,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Tiếng vọng đổi thành 'cạch' xa. Đạt."
+  },
+  {
+   "id": "d11",
+   "phong_cach": "ve-tay",
+   "bat_dau": 117.92,
+   "ket_thuc": 125.769,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "trang_phuc vẽ tay ghi gọn (một túi phải, sọc khăn rõ). Đạt."
+  },
+  {
+   "id": "d12",
+   "phong_cach": "cat-giay",
+   "bat_dau": 125.769,
+   "ket_thuc": 143.514,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d13",
+   "phong_cach": "ve-tay",
+   "bat_dau": 143.514,
+   "ket_thuc": 168.114,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Gag mới: mảng lục địa giữa mặt tê trắng ở 'nose' 154.83, xoa hồng lại ở 'Lovely.' 155.90; sổ khách tự lật thay hàng va li. Không còn trùng Whittier d17, hết 'đoàn đi hàng một' lần 2."
+  },
+  {
+   "id": "d14",
+   "phong_cach": "cat-giay",
+   "bat_dau": 168.114,
+   "ket_thuc": 189.848,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Ranh mới 189.848: 'My bottom agreed.' giữ 1,52 s (câu tỉnh bơ kết giả thuyết sai)."
+  },
+  {
+   "id": "d15",
+   "phong_cach": "cat-giay",
+   "bat_dau": 189.848,
+   "ket_thuc": 204.698,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 17,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "viec": "Thẻ 'up to 68 wagons · ~750 m' khớp C15; tay phải đút túi phải, tay trái nắm quai; 'Twice.' giữ 0,61 s. Khung đường ngang hiện từ 189.848, chỉ 0,04 s (1 khung) trước mốc cảnh 6 189.888 và 0,14 s trước chữ đầu 'The' 189.99, trong khoảng lặng: không lộ đáp án."
+  },
+  {
+   "id": "d16",
+   "phong_cach": "ve-tay",
+   "bat_dau": 204.698,
+   "ket_thuc": 216.55,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Bỏ quặng phồng ngực. Lời 'First,' (204.45) bắt đầu 0,25 s trước ranh 204.698; hòn quặng hiện ở ranh, trước 'flaw' 205.9: không cắt punchline 'Twice.' của d15."
+  },
+  {
+   "id": "d17",
+   "phong_cach": "cat-giay",
+   "bat_dau": 216.55,
+   "ket_thuc": 228.45,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Chỉ đổi ly_do (che chấm Narvik tới 235.44). Đạt."
+  },
+  {
+   "id": "d18",
+   "phong_cach": "ve-tay",
+   "bat_dau": 228.45,
+   "ket_thuc": 232.723,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Cắt vào cận tay nắm gãy ở 'shut' 231.15 và giữ; ranh mới 232.723: giữ 0,61 s sau 'winter.'. Lời 'So' (232.48) vắt qua ranh 0,25 s; đường ray chỉ vẽ từ 'railway' 233.10."
+  },
+  {
+   "id": "d19",
+   "phong_cach": "cat-giay",
+   "bat_dau": 232.723,
+   "ket_thuc": 261.38,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Wob vào khung ở 246.60 (đứng nghiêm khi cắt ruy băng) và 253.71 (thổi phù lên băng Luleå); gag tàu chìm một nấc ở 240.2–241.7; 1900, 1902 mờ khi 1903 hiện, 1903 rút trước 'Today,': tối đa 4 khối chữ."
+  },
+  {
+   "id": "d20",
+   "phong_cach": "cat-giay",
+   "bat_dau": 261.38,
+   "ket_thuc": 282.03,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d21",
+   "phong_cach": "ve-tay",
+   "bat_dau": 282.03,
+   "ket_thuc": 297.792,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Mũi tên dài thêm thay vì chìa tay. Đạt."
+  },
+  {
+   "id": "d22",
+   "phong_cach": "cat-giay",
+   "bat_dau": 297.792,
+   "ket_thuc": 303.214,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d23",
+   "phong_cach": "cat-giay",
+   "bat_dau": 303.214,
+   "ket_thuc": 321.852,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Cờ giấy trơn không hình. Đạt."
+  },
+  {
+   "id": "d24",
+   "phong_cach": "ve-tay",
+   "bat_dau": 321.852,
+   "ket_thuc": 352.728,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Wob sau dải băng rào, ống nhòm; camera một mình lao vào gầm; đẩy nhà thờ khi rơ-moóc đứng chờ; đi bộ phía ngoài dải băng. Đạt luật an toàn."
+  },
+  {
+   "id": "d25",
+   "phong_cach": "cat-giay",
+   "bat_dau": 352.728,
+   "ket_thuc": 370.84,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Cờ giấy trơn không hình. Đạt."
+  },
+  {
+   "id": "d26",
+   "phong_cach": "ve-tay",
+   "bat_dau": 370.84,
+   "ket_thuc": 380.878,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "SỬA NHỎ"
+   },
+   "viec": "Thẻ '2027?' khớp mức 'hopes' của C32; gag dấu hỏi ăn theo. Ghi chú thợ: nhịp 370.84 Wob 'đứng ở mép rơ-moóc bị xoay theo' nên dựng là Wob đứng trên nền đất cạnh rơ-moóc rồi tự xoay theo (cùng lý do d24), không đổi biên đạo."
+  },
+  {
+   "id": "d27",
+   "phong_cach": "cat-giay",
+   "bat_dau": 380.878,
+   "ket_thuc": 391.298,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d28",
+   "phong_cach": "cat-giay",
+   "bat_dau": 391.298,
+   "ket_thuc": 417.16,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 17,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Bỏ gag trèo ghế; người que lặng lẽ nhường chỗ; vùng sọc phủ đúng ô nhà có cửa phòng thuê cũ ở 'homes' 399.95; 'hai phần ba' bằng thùng các-tông 411.20–411.86. Ghi chú thợ: nhịp 412.61 còn sót chữ 'nhìn các mái nhà sáng đèn', dựng là mái nhà có thùng các-tông (khớp nhịp 410.61)."
+  },
+  {
+   "id": "d29",
+   "phong_cach": "ve-tay",
+   "bat_dau": 417.16,
+   "ket_thuc": 437.836,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Bỏ cờ hộp thư; cúi rạp qua cầu 419.31–420.30, đồng xu ở 'paying' 421.19. Hết quá tải."
+  },
+  {
+   "id": "d30",
+   "phong_cach": "cat-giay",
+   "bat_dau": 437.836,
+   "ket_thuc": 462.098,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Hoa giấy sót thay bóng bay vẫy; ranh mới 462.098: 'minute.' giữ 0,60 s."
+  },
+  {
+   "id": "d31",
+   "phong_cach": "ve-tay",
+   "bat_dau": 462.098,
+   "ket_thuc": 473.142,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Gọi lại lỗ chìa: trong lỗ chỉ còn con quạ (đóng vòng hook bằng chính gag mở). Lời 'Then' (461.86) vắt qua ranh 0,24 s dưới cú lia nhoè."
+  },
+  {
+   "id": "d32",
+   "phong_cach": "diorama",
+   "bat_dau": 473.142,
+   "ket_thuc": 488.304,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Gag mới: kéo khoá áo tắm nắng màu hồng ở 'pink' 486.25, kéo lên tận mắt ở 'gave up.' 487.63; bỏ kính râm khỏi túi. Không còn trùng Whittier d09."
+  },
+  {
+   "id": "d33",
+   "phong_cach": "ve-tay",
+   "bat_dau": 488.304,
+   "ket_thuc": 506.104,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Vòng khói móc quả bông mũ thay hơi thở đóng cục (đúng vật lý ở −11°C); múc muôi khí lạnh trên vành bát thay ngồi đáy bát. Không còn trùng Oymyakon d17."
+  },
+  {
+   "id": "d34",
+   "phong_cach": "cat-giay",
+   "bat_dau": 506.104,
+   "ket_thuc": 529.626,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d35",
+   "phong_cach": "diorama",
+   "bat_dau": 529.626,
+   "ket_thuc": 544.226,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d36",
+   "phong_cach": "ve-tay",
+   "bat_dau": 544.226,
+   "ket_thuc": 551.448,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Lần 3 và tia nắng cận mặt. Ranh mới 551.448: 'anyway.' (hết 550.89) giữ 0,56 s, thiếu 1 khung so với 0,6 s: chấp nhận, không cần sửa."
+  },
+  {
+   "id": "d37",
+   "phong_cach": "cat-giay",
+   "bat_dau": 551.448,
+   "ket_thuc": 561.328,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Chỉ đổi ranh: lời 'Summer' (551.25) vắt qua ranh 0,20 s, lịch hiện ở ranh, trước 'here' 551.69. Đạt."
+  },
+  {
+   "id": "d38",
+   "phong_cach": "diorama",
+   "bat_dau": 561.328,
+   "ket_thuc": 567.653,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Trong 1,1 s lặng đầu đoạn Wob tháo chìa khỏi chùm, đặt dưới chân đèn ở 'down' 564.12: liên tục d05 → d38 → d43 → d44."
+  },
+  {
+   "id": "d39",
+   "phong_cach": "cat-giay",
+   "bat_dau": 567.653,
+   "ket_thuc": 588.68,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d40",
+   "phong_cach": "cat-giay",
+   "bat_dau": 588.68,
+   "ket_thuc": 604.35,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d41",
+   "phong_cach": "cat-giay",
+   "bat_dau": 604.35,
+   "ket_thuc": 631.47,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Hai thẻ GABNA / LKAB dựng ở mép trang quay ra bàn; Wob đứng trên mặt bàn giữa hai thẻ, không bước lên trang. Đúng luật đoạn nghiêm."
+  },
+  {
+   "id": "d42",
+   "phong_cach": "cat-giay",
+   "bat_dau": 631.47,
+   "ket_thuc": 647.65,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Wob đẩy thẳng tờ giấy trắng giữa hai ghế ở 644.88 (việc trung lập). Đạt."
+  },
+  {
+   "id": "d43",
+   "phong_cach": "diorama",
+   "bat_dau": 647.65,
+   "ket_thuc": 650.808,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 18,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Tách nhịp lặng 650.008–650.808: Wob tắt hẳn đèn bàn; d44 mở trong tối, khớp liền. 'part.' giữ 0,67 s trước khi với tay."
+  },
+  {
+   "id": "d44",
+   "phong_cach": "diorama",
+   "bat_dau": 650.808,
+   "ket_thuc": 671.258,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d45",
+   "phong_cach": "ve-tay",
+   "bat_dau": 671.258,
+   "ket_thuc": 677.646,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Cận Wob khiêng chong chóng ở 'kept going.' 676.80. Đạt."
+  },
+  {
+   "id": "d46",
+   "phong_cach": "diorama",
+   "bat_dau": 677.646,
+   "ket_thuc": 699.412,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 20,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Không đổi so với vòng 1."
+  },
+  {
+   "id": "d47",
+   "phong_cach": "diorama",
+   "bat_dau": 699.412,
+   "ket_thuc": 719.412,
+   "diem": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2,
+    "D7": 2,
+    "D8": 2,
+    "D9": 2,
+    "D10": 2
+   },
+   "tong": 20,
+   "ket_luan": "ĐẠT",
+   "so_vong_truoc": {
+    "tong": 19,
+    "ket_luan": "ĐẠT"
+   },
+   "viec": "Khung 0 Wob đã cầm chìa, đinh cửa sổ trống; 0–1,2 s chỉ có khung end screen bật lên; treo chìa ở 700.11. Hết dồn việc."
+  }
+ ],
+ "giao_tho": true,
+ "viec_dao_dien": [],
+ "viec_tho": {
+  "dung-cat-giay": [
+   "d28 nhịp 412.61: dựng Wob nhìn các mái nhà có thùng các-tông (khớp nhịp 410.61), bỏ chữ sót 'sáng đèn'.",
+   "Ba bản đồ SVG không có chữ: mọi nhãn đặt đúng chu_tren_do_vat từng đoạn. map-kiruna-centre có 4 ghim: ở d23, d30 chỉ ghi 'Old centre', 'New centre (approx.)'; hai ghim núi để trống nhãn hoặc ẩn. map-kiruna-rail có sẵn chấm Narvik: d17 che chấm và đường sang Narvik tới d19 235.44.",
+   "Áo phao xanh lam #3D5A80 một túi vá bên phải; khăn kem phải thấy rõ sọc xanh lá thông #4F7A5A (tập 3 cũng khăn kem).",
+   "Đoạn nghiêm d38–d43: Wob không bước lên trang, mặt trầm, không sfx ngoài lật trang ở d39; d41 hai thẻ dựng ở mép trang, cùng cỡ."
+  ],
+  "dung-ve-tay": [
+   "d26 nhịp 370.84: Wob đứng trên nền đất cạnh rơ-moóc rồi tự xoay theo, không đứng trên mép rơ-moóc đang xoay (cùng lý do an toàn d24).",
+   "d02 và d31 cùng một bố cục bãi sỏi; cận lỗ chìa ≥ 1/3 khung (d02: thấy cánh cửa; d31: chỉ thấy con quạ).",
+   "Thêm khoá rig gi-lê kem #E9DDC3 túi phải, áo phao xanh lam, chùm chìa; d07, d08 Wob trong phòng không áo khoác."
+  ],
+  "dung-diorama": [
+   "d32 và d35 cùng góc máy mở đoạn (cặp hai mùa); d32 khoá kéo áo phao phải đọc được ở trung cảnh (gag tắm nắng).",
+   "d43 tắt đèn bằng ban.diuDen tới tối xanh ở 650.0; d44 mở trong tối.",
+   "d47: thêm khoá VE 'chiaKhoa' (và 'buuThiep' nếu chưa có) vào duoi-tap.js; endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]}; matTroi: false; camera khoá; vùng x ≥ 1150 đứng yên sau 1,2 s.",
+   "d46: dấu SUMMER ONLY to giữa khung 680.97–683.97 rồi mới thu (0,3 s); dau-wob chỉ ở đây."
+  ]
+ },
+ "gui_bien_kich": []
+}

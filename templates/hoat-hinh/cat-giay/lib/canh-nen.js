@@ -769,3 +769,704 @@
     manh: manh, theChu: theChu, bienHoi: bienHoi, muiTen: muiTen, trang: trang, sao: sao, mayBao: mayBao, chieu: chieu, songTat: songTat
   };
 })(typeof window !== "undefined" ? window : globalThis);
+
+/* ===== Bộ xứ lạnh window.XuLanh (thêm 28/11/2026, tập 6 Kiruna, nhóm A cắt giấy) =====
+   Khối riêng nối cuối canh-nen.js (không đổi hàm cũ). canh.js chèn XuLanh.defs() một lần trong api.dat(...).
+   Trang phục chung cho cả hai nhóm thợ: áo phao xanh lam MỘT túi vá bên phải (phía tay "R" của rig), khăn kem sọc xanh lá thông
+   (sọc dày, đọc rõ ở trung cảnh), mũ len xanh lá thông, ba lô ô liu cỡ thường; gi-lê kem mùa hè + kính râm; ở nhà không đồ.
+   Chìa khoá: chìa sắt than đầu tròn có lỗ, thẻ gỗ dây đỏ (vệt mực, KHÔNG chữ); chùm chìa nhà ba chìa (đồng, bạc, đầu nhựa xanh).
+   Không chữ cứng trong hàm; tất định (mọi nhiễu qua DaoCu.rng). */
+(function (G) {
+  "use strict";
+  var D = G.DaoCu, INK = D.INK, paper = D.paper, rRect = D.rRect, rEll = D.rEll, rough = D.rough, line = D.line, f1 = D.f1, rng = D.rng;
+  var M = {
+    ao: "#3D5A80", aoToi: "#2B4262", aoSang: "#5A7BA6", khoa: "#EFE3C8",
+    mu: "#4F7A5A", muVanh: "#3A5C43", bong: "#F6EEDC", khan: "#EFE3C8", khanSoc: "#4F7A5A",
+    gile: "#E9DDC3", gileVien: "#B9A983", kinh: "#1F2326",
+    oliu: "#7C8646", oliuToi: "#566030", tham: "#C9463A",
+    chia: "#3A3F44", chiaSang: "#6A727A", theGo: "#B98A5A", theGoToi: "#8E6538", day: "#C9463A",
+    dong: "#C9A24A", bac: "#B8BDC2", nhuaXanh: "#4F7A5A",
+    nhaTho: "#A8322A", nhaThoToi: "#6E1F1A",
+    go: "#8A6440", goToi: "#5E4228", goSang: "#B08A5E",
+    gang: "#4A5450", gangToi: "#343C39", gangSang: "#66716C",
+    da: ["#7A6E62", "#6A5F55", "#5A5049", "#4C443E"], quang: "#2A2A30", quangSang: "#4A4A55",
+    nha: ["#B4443A", "#D49A3A", "#3F6E9A", "#5E8E6A", "#C9B48A", "#8E4A3A", "#E2C46A"],
+    S: { giay: "#E8D4A8", giayToi: "#D2B985", giaySang: "#F1E2BE", muc: "#5A4430", nau: "#8E6E4A", nauNhat: "#B89A70" }
+  };
+  function at(x, y, s, sc) { return '<g transform="translate(' + f1(x) + "," + f1(y) + ")" + (sc != null && sc !== 1 ? " scale(" + sc + ")" : "") + '">' + s + "</g>"; }
+  function g(id, s, tr) { return "<g" + (id ? ' id="' + id + '"' : "") + (tr ? ' transform="' + tr + '"' : "") + ">" + s + "</g>"; }
+  function rr(x, y, w, h, r) {
+    r = Math.min(r, w / 2, h / 2);
+    return "M " + f1(x + r) + " " + f1(y) + " L " + f1(x + w - r) + " " + f1(y) + " Q " + f1(x + w) + " " + f1(y) + " " + f1(x + w) + " " + f1(y + r) +
+      " L " + f1(x + w) + " " + f1(y + h - r) + " Q " + f1(x + w) + " " + f1(y + h) + " " + f1(x + w - r) + " " + f1(y + h) + " L " + f1(x + r) + " " + f1(y + h) +
+      " Q " + f1(x) + " " + f1(y + h) + " " + f1(x) + " " + f1(y + h - r) + " L " + f1(x) + " " + f1(y + r) + " Q " + f1(x) + " " + f1(y) + " " + f1(x + r) + " " + f1(y) + " Z";
+  }
+  function vong(cx, cy, R, r) {   // vành khuyên (lỗ trong suốt, fill-rule evenodd)
+    return "M " + f1(cx - R) + " " + f1(cy) + " a " + R + " " + R + " 0 1 0 " + (2 * R) + " 0 a " + R + " " + R + " 0 1 0 " + (-2 * R) + " 0 Z M " +
+      f1(cx - r) + " " + f1(cy) + " a " + r + " " + r + " 0 1 1 " + (2 * r) + " 0 a " + r + " " + r + " 0 1 1 " + (-2 * r) + " 0 Z";
+  }
+
+  function defs() {
+    return "<defs>" +
+      '<linearGradient id="xlTroiChieu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26355A"/><stop offset="0.5" stop-color="#5A6A93"/><stop offset="0.82" stop-color="#B7A2A6"/><stop offset="1" stop-color="#E8BE92"/></linearGradient>' +
+      '<linearGradient id="xlTroiDem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#132036"/><stop offset="0.6" stop-color="#253A5A"/><stop offset="1" stop-color="#3D5677"/></linearGradient>' +
+      '<linearGradient id="xlTroiNgay" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FB4CC"/><stop offset="0.6" stop-color="#C9DCE4"/><stop offset="1" stop-color="#EEEBE0"/></linearGradient>' +
+      '<linearGradient id="xlTroiHong" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F86AE"/><stop offset="0.55" stop-color="#C6B3C2"/><stop offset="1" stop-color="#F0CFAE"/></linearGradient>' +
+      '<radialGradient id="xlDen" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE0A0" stop-opacity="0.75"/><stop offset="0.5" stop-color="#FFC878" stop-opacity="0.25"/><stop offset="1" stop-color="#FFB86A" stop-opacity="0"/></radialGradient>' +
+      '<radialGradient id="xlDenBan" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE6A8" stop-opacity="0.6"/><stop offset="0.55" stop-color="#FFC27A" stop-opacity="0.22"/><stop offset="1" stop-color="#FFB86A" stop-opacity="0"/></radialGradient>' +
+      '<radialGradient id="xlDenMo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF4C8" stop-opacity="0.9"/><stop offset="1" stop-color="#FFF4C8" stop-opacity="0"/></radialGradient>' +
+      '<linearGradient id="xlSep" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEDDB6"/><stop offset="1" stop-color="#DCC292"/></linearGradient>' +
+      '<radialGradient id="xlSepVi" cx="0.5" cy="0.5" r="0.7"><stop offset="0.55" stop-color="#8E6E4A" stop-opacity="0"/><stop offset="1" stop-color="#8E6E4A" stop-opacity="0.4"/></radialGradient>' +
+      '<linearGradient id="xlBangG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4FBFD"/><stop offset="0.5" stop-color="#D3EAF2"/><stop offset="1" stop-color="#A9CFE0"/></linearGradient>' +
+      '<radialGradient id="xlBangSang" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C8F0FF" stop-opacity="0.85"/><stop offset="1" stop-color="#7FC4E8" stop-opacity="0"/></radialGradient>' +
+      '<linearGradient id="xlNuocCoc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BFE0EE" stop-opacity="0.75"/><stop offset="1" stop-color="#86B9CF" stop-opacity="0.85"/></linearGradient>' +
+      '<pattern id="xlGo" width="160" height="40" patternUnits="userSpaceOnUse"><rect width="160" height="40" fill="#9A6E44"/><path d="M 0 12 C 40 6 80 18 160 10 M 0 30 C 50 26 110 36 160 28" stroke="#7A5434" stroke-width="2.5" fill="none" opacity="0.6"/><path d="M 0 39 L 160 39" stroke="#5E4228" stroke-width="2"/></pattern>' +
+      '<pattern id="xlTuong" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#D9C4A0"/><rect x="0" width="16" height="48" fill="#CDB68E" opacity="0.7"/><circle cx="32" cy="12" r="2.4" fill="#B79E74" opacity="0.6"/><circle cx="32" cy="36" r="2.4" fill="#B79E74" opacity="0.6"/></pattern>' +
+      '<pattern id="xlBangVan" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)"><rect width="90" height="90" fill="#E6F4F8"/><path d="M 0 30 L 90 22 M 10 70 L 80 60 M 40 0 L 30 90" stroke="#B9DCEA" stroke-width="2.5" fill="none"/><path d="M 60 10 L 70 30 L 52 40" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.8"/></pattern>' +
+      "</defs>";
+  }
+
+  /* ---------- trang phục Wob ---------- */
+  function sleeves(svg, mau) {
+    return svg.replace(/<path d="M 0 0 L 0 (48|46)"([^>]*?)stroke="#1f2326"([^>]*?)stroke-width="13"([^>]*?)\/>/g, function (m, n, a, b, c) {
+      return '<path d="M 0 0 L 0 ' + n + '"' + a + 'stroke="#1f2326"' + b + 'stroke-width="26"' + c + "/>" +
+        '<path d="M 0 0 L 0 ' + n + '"' + a + 'stroke="' + mau + '"' + b + 'stroke-width="16"' + c + "/>" +
+        '<path d="M -6 ' + (+n - 8) + ' L 6 ' + (+n - 8) + '" stroke="' + M.aoToi + '" stroke-width="3" fill="none"/>';
+    });
+  }
+  /* Thẻ gỗ dây đỏ thò khỏi miệng túi (toạ độ Wob 400×400): dây vắt qua nắp túi phải, thẻ treo ở mép phải túi (đổi 28/11: bản cũ chĩa lên bị khăn che). */
+  function theThoTui() {
+    // dây đỏ vắt qua nắp túi, thẻ gỗ treo lủng lẳng bên mép phải túi (không bị khăn che)
+    return line("M 292 338 C 296 322 322 320 332 334", 4, M.day) +
+      '<g transform="translate(333,334) rotate(-8)">' + paper(rr(-12, 0, 24, 36, 4), M.theGo, { stroke: true, sw: 3, sx: 2, sy: 3 }) +
+      '<circle cx="0" cy="7" r="3" fill="#5A3E22"/>' + line("M -6 20 C -2 17 2 23 6 20", 2.5, "#5A3E22", ' opacity="0.45"') + "</g>";
+  }
+  /* Wob của tập (áo phao / gi-lê / ở nhà). Trả bộ điều khiển của api.wob + W.xl (selector) + W.theTui(t, 0|1), W.dutTui(t), W.choang(t, 0|1), W.baLo(t, 0|1).
+     o: như api.wob, thêm:
+       ao: "phao" (mặc định) | "gile" | null (ở nhà: không áo, không mũ, không khăn trừ khi truyền),
+       kinh: 1|0 kính râm tròn (nhóm id-kinh), noPack: không đeo ba lô, aoCuon: áo phao cuộn trên nắp ba lô (mùa hè),
+       muBaoHo: true | "to" mũ bảo hộ trắng có đèn (nhóm id-mbh, đèn id-mbhDen; thay mũ len), the: 1 thẻ gỗ thò khỏi túi lúc đầu,
+       cuc: 1 túi phồng (chìa trong túi), chum: true | "nha" chùm chìa móc ở quai ba lô (nhóm id-chum; "nha" = không có chìa Kiruna), khongMu, khongKhan.
+     Mặc định mùa đông: mũ len #4F7A5A vành #3A5C43, khăn #EFE3C8 sọc #4F7A5A (sọc dày 10). Không lông mi (tạo hình gốc). */
+  function wob(api, id, o) {
+    o = o || {};
+    var ao = o.ao === undefined ? "phao" : o.ao, rieng = ["ao", "kinh", "noPack", "aoCuon", "muBaoHo", "the", "cuc", "chum", "khongMu", "khongKhan"];
+    var oo = {};
+    Object.keys(o).forEach(function (k) { if (rieng.indexOf(k) < 0) oo[k] = o[k]; });
+    if (ao === "phao") {
+      if (oo.scarf === undefined && !o.khongKhan) oo.scarf = true;
+      if (oo.mu === undefined && !o.khongMu && !o.muBaoHo) oo.mu = M.mu;
+    }
+    var khan = null;   // khăn vẽ riêng đè lên cổ áo (sọc dày đọc rõ), thay khăn mảnh của rig
+    if (oo.scarf) { khan = { c: oo.khan || M.khan, soc: oo.khanSoc || M.khanSoc }; delete oo.scarf; delete oo.khan; delete oo.khanSoc; }
+    if (oo.mu) { if (oo.mu === true) oo.mu = M.mu; oo.muVanh = oo.muVanh || M.muVanh; }
+    var pk = "", sau = "";
+    var C = ao === "gile" ? M.gile : M.ao, CT = ao === "gile" ? M.gileVien : M.aoToi;
+    if (ao) {
+      sau += '<g id="' + id + '-aoSau">' + paper("M 64 318 C 30 270 36 200 74 156 L 326 156 C 364 200 370 270 336 318 Z", C, { stroke: true, sw: 6, shadow: false });
+      if (ao === "phao") sau += line("M 48 212 L 70 214 M 40 256 L 64 258 M 330 214 L 352 212 M 336 258 L 360 256", 4, CT);
+      sau += "</g>";
+      var vat = ao === "gile" ? "M 70 298 C 120 322 280 322 330 298 L 336 346 C 270 364 130 364 64 346 Z" : "M 66 290 C 120 316 280 316 334 290 L 348 372 C 270 396 130 396 52 372 Z";
+      pk += '<g id="' + id + '-aoTruoc">' + paper(vat, C, { stroke: true, sw: 5, sx: 4, sy: 6 });
+      if (ao === "phao") {
+        pk += line("M 58 340 C 130 362 270 362 342 340", 4, CT) + line("M 55 358 C 130 380 270 380 345 358", 3.5, CT, ' opacity="0.8"');
+        pk += line("M 200 318 L 200 388", 9) + line("M 200 318 L 200 388", 5, M.khoa) + '<rect x="194" y="326" width="12" height="16" rx="3" fill="' + M.khoa + '" stroke="' + INK + '" stroke-width="2.5"/>';
+      } else {
+        pk += line("M 196 318 L 190 362 M 204 318 L 210 362", 4) + line("M 76 304 C 130 326 186 326 194 322 M 324 304 C 270 326 214 326 206 322", 3, CT, ' stroke-dasharray="6 5"');
+      }
+      pk += '<g id="' + id + '-tui">';
+      pk += '<g id="' + id + '-tuiCuc">' + paper("M 258 344 C 256 322 316 320 316 344 Z", C, { stroke: true, sw: 3.5, shadow: false }) + "</g>";
+      pk += paper(rRect(258, 334, 58, 42, 1.2, 4401), C, { stroke: true, sw: 4, shadow: false });
+      pk += line("M 264 370 L 310 370", 2.5, CT, ' stroke-dasharray="5 4"');
+      pk += '<g id="' + id + '-the">' + theThoTui() + "</g>";
+      pk += paper("M 255 330 L 319 330 L 317 346 L 257 346 Z", CT, { stroke: true, sw: 3.5, shadow: false });
+      pk += '<circle cx="287" cy="339" r="3.5" fill="' + M.khoa + '" stroke="' + INK + '" stroke-width="1.5"/></g>';
+      pk += "</g>";
+    }
+    if (khan) {
+      var band = "M 58 266 C 120 296 280 296 342 266 L 346 300 C 280 330 120 330 54 300 Z";
+      pk += '<g id="' + id + '-khan">' + paper(band, khan.c, { stroke: true, sw: 5, sx: 3, sy: 5 }) +
+        line("M 57 277 C 120 307 280 307 343 277", 8, khan.soc) + line("M 55 290 C 120 320 280 320 345 290", 8, khan.soc) +
+        '<g transform="translate(128,302)"><g id="' + id + '-khanDuoi">' + paper("M -18 -6 C -26 24 -30 54 -24 86 L 12 88 C 10 58 14 28 20 -4 Z", khan.c, { stroke: true, sw: 4.5, shadow: false }) +
+        line("M -22 26 C -10 29 4 29 16 25 M -25 44 C -12 47 2 47 14 44", 7, khan.soc) + line("M -22 86 L -24 100 M -10 87 L -11 101 M 2 88 L 2 102", 4) + "</g></g></g>";
+    }
+    if (o.muBaoHo) {
+      var k = o.muBaoHo === "to" ? 1.22 : 1;
+      pk += '<g id="' + id + '-mbh"><g transform="translate(200,98) scale(' + k + ') translate(-200,-98)">';
+      pk += '<path d="M 96 98 C 98 30 150 4 200 4 C 250 4 302 30 304 98 Z" fill="#0b1214" opacity="0.18" transform="translate(5,6)"/>';
+      pk += paper("M 96 98 C 98 30 150 4 200 4 C 250 4 302 30 304 98 Z", "#F4F2EA", { stroke: true, sw: 6, shadow: false });
+      pk += line("M 200 6 L 200 96", 5, "#D8D4C6") + line("M 150 18 C 140 40 136 70 138 96 M 250 18 C 260 40 264 70 262 96", 3, "#D8D4C6");
+      pk += paper(rRect(76, 90, 248, 20, 1, 4411), "#E6E2D4", { stroke: true, sw: 5, shadow: false });
+      pk += '<g id="' + id + '-mbhDen"><circle cx="200" cy="54" r="70" fill="url(#xlDenMo)" opacity="0.8"/></g>';
+      pk += '<rect x="182" y="40" width="36" height="28" rx="6" fill="#4A5450" stroke="' + INK + '" stroke-width="4"/><circle cx="200" cy="54" r="10" fill="#FFF4C8" stroke="' + INK + '" stroke-width="3"/>';
+      pk += line("M 120 36 C 140 22 166 14 188 14", 6, "#FFFFFF", ' opacity="0.6"');
+      pk += "</g></g>";
+    }
+    pk += '<g id="' + id + '-kinh">' + '<circle cx="160" cy="158" r="36" fill="' + M.kinh + '" opacity="0.78"/><circle cx="238" cy="158" r="36" fill="' + M.kinh + '" opacity="0.78"/>' +
+      '<circle cx="160" cy="158" r="36" fill="none" stroke="' + INK + '" stroke-width="7"/><circle cx="238" cy="158" r="36" fill="none" stroke="' + INK + '" stroke-width="7"/>' +
+      line("M 196 150 C 200 142 198 142 202 150", 6) + line("M 124 152 L 84 140 M 274 152 L 316 140", 6) +
+      line("M 142 140 C 150 132 160 130 168 132 M 220 140 C 228 132 238 130 246 132", 5, "#FFFFFF", ' opacity="0.55"') + "</g>";
+    pk += '<g id="' + id + '-xoay">' + [160, 238].map(function (x) {
+      return '<ellipse cx="' + x + '" cy="156" rx="25" ry="31" fill="#fffdf6" stroke="' + INK + '" stroke-width="5"/>' +
+        line("M " + x + " 156 C " + (x + 8) + " 150 " + (x + 12) + " 162 " + (x + 2) + " 166 C " + (x - 12) + " 170 " + (x - 16) + " 150 " + (x - 4) + " 142 C " + (x + 12) + " 134 " + (x + 22) + " 156 " + (x + 16) + " 170", 4.5);
+    }).join("") + "</g>";
+    if (o.phuKien) pk += o.phuKien;
+    if (o.chum) pk += '<g id="' + id + '-chum"><g transform="translate(300,150) scale(0.42)">' + chumChia(id + "-cc", { kiruna: o.chum !== "nha" }) + "</g></g>";
+    oo.phuKien = pk;
+    var W = api.wob(id, oo), s = W.svg;
+    if (sau) s = s.replace('<g id="' + id + '-up">', '<g id="' + id + '-up">' + sau);
+    var a = s.indexOf('<g id="' + id + '-pack">'), b = s.indexOf('<clipPath id="' + id + '-clip">');
+    if (a >= 0 && b > a) {
+      var seg = s.slice(a, b).replace(/#b8743a/g, M.oliu).replace(/#8e5527/g, M.oliuToi).replace(/#d9543c/g, M.tham);
+      if (o.aoCuon) { var e = seg.lastIndexOf("</g>"); seg = seg.slice(0, e) + paper(rr(256, 98, 106, 26, 12), M.ao, { stroke: true, sw: 5, shadow: false }) + line("M 276 102 L 276 120 M 340 102 L 340 120", 3, M.aoToi) + seg.slice(e); }
+      s = s.slice(0, a) + seg + s.slice(b);
+    }
+    s = s.replace(/#8e5527/g, M.oliuToi);
+    s = s.replace(/((?:<path d="M 300 96 C 286 130 284 168 300 206"[^>]*\/>)+)/, '<g id="' + id + '-quai">$1</g>');
+    if (oo.mu) s = s.replace(/#8E2C24/g, "#2C4A34").replace(/#6E2019/g, "#28402E");
+    if (ao === "phao") s = sleeves(s, M.ao);
+    W.svg = s;
+    W.set(0, { lashes: 0, ice: 0 });
+    W.xl = { tui: "#" + id + "-tui", the: "#" + id + "-the", cuc: "#" + id + "-tuiCuc", kinh: "#" + id + "-kinh", xoay: "#" + id + "-xoay", mbh: "#" + id + "-mbh", mbhDen: "#" + id + "-mbhDen",
+      khan: "#" + id + "-khan", khanDuoi: "#" + id + "-khanDuoi", chum: "#" + id + "-chum", pack: "#" + id + "-pack", quai: "#" + id + "-quai", aoSau: "#" + id + "-aoSau", aoTruoc: "#" + id + "-aoTruoc" };
+    if (ao) { api.show(W.xl.the, 0, o.the ? 1 : 0); api.show(W.xl.cuc, 0, o.cuc || o.the ? 1 : 0); }
+    api.show(W.xl.kinh, 0, o.kinh ? 1 : 0); api.show(W.xl.xoay, 0, 0);
+    if (o.noPack) { api.show(W.xl.pack, 0, 0); api.show(W.xl.quai, 0, 0); }
+    if (khan) {   // đuôi khăn đung đưa theo bước đi (thay khớp scarf của rig)
+      api.origin(W.xl.khanDuoi, "0 0");
+      var walk0 = W.walk;
+      W.walk = function (t0, t1, x0, x1, wo) {
+        var r0 = walk0.call(W, t0, t1, x0, x1, wo), n = Math.max(2, Math.round((t1 - t0) / ((wo && wo.step) || 0.3))), dt = (t1 - t0) / n;
+        for (var i = 0; i <= n; i++) api.key(W.xl.khanDuoi, "rotation", t0 + i * dt, i === n ? 0 : (i % 2 ? 9 : -6) * (x1 >= x0 ? 1 : -1), "sine.inOut");
+        return r0;
+      };
+    }
+    W.theTui = function (t, v) { api.show(W.xl.the, t, v); api.show(W.xl.cuc, t, v); };
+    W.dutTui = function (t, dur) { W.pose(t, dur || 0.3, { aRu: 9, aRf: 3 }, "power2.inOut"); };
+    W.choang = function (t, v) { api.show(W.xl.xoay, t, v); };
+    W.baLo = function (t, v) { api.show(W.xl.pack, t, v); api.show(W.xl.quai, t, v); };
+    return W;
+  }
+
+  /* ---------- chìa khoá ---------- */
+  function keyShape(mau, o) {   // một chìa trơn, gốc tâm lỗ đầu, thân xuống (+y), dài ≈ 110
+    o = o || {};
+    var s = "";
+    if (o.dauNhua) s += paper(rr(-20, -20, 40, 40, 12), o.dauNhua, { stroke: true, sw: 3.5, sx: 2, sy: 3 }) + '<circle cx="0" cy="-6" r="6" fill="#EFE3C8" stroke="' + INK + '" stroke-width="2.5"/>';
+    else s += '<path d="' + vong(0, 0, o.R || 20, 7) + '" fill="' + mau + '" fill-rule="evenodd" stroke="' + INK + '" stroke-width="3.5"/>';
+    s += '<path d="M -6 18 L 6 18 L 6 70 L 18 70 L 18 78 L 10 78 L 10 84 L 18 84 L 18 94 L 6 94 L 6 100 L -6 100 Z" fill="' + (o.than || mau) + '" stroke="' + INK + '" stroke-width="3.5" stroke-linejoin="round"/>';
+    s += line("M -2 24 L -2 90", 2.5, "#FFFFFF", ' opacity="0.4"');
+    return s;
+  }
+  /* Chìa khoá Kiruna: sắt than #3A3F44, đầu tròn có lỗ, răng thô; thẻ gỗ #B98A5A buộc dây đỏ, một vệt mực mờ (KHÔNG chữ).
+     Gốc: tâm lỗ đầu chìa; thân hướng xuống, thẻ treo lệch trái. Dài ≈ 120 ở s = 1 (cầm ở bàn cho dài ≈ 1/3 thân Wob: s ≈ 1,1 với Wob size 1).
+     o: { the (true), goc (độ xoay cả chìa), s } . Nhóm con id+"-the" (thẻ, xoay quanh lỗ: origin "0 0"). */
+  function chiaKhoa(id, o) {
+    o = o || {};
+    var s = "<g" + (id ? ' id="' + id + '"' : "") + (o.goc || o.s ? ' transform="rotate(' + (o.goc || 0) + ") scale(" + (o.s || 1) + ')"' : "") + ">";
+    if (o.the !== false) {
+      s += "<g" + (id ? ' id="' + id + '-the"' : "") + ">" + line("M -2 -2 C -16 4 -28 18 -32 38", 4, M.day);
+      s += '<g transform="translate(-32,38) rotate(14)">' + paper(rr(-18, 0, 36, 52, 7), M.theGo, { stroke: true, sw: 3.5, sx: 3, sy: 4 }) +
+        '<circle cx="0" cy="9" r="4.5" fill="#5A3E22"/>' + line("M -10 26 C -4 21 4 33 11 27 M -8 38 C -2 35 2 41 8 38", 3, "#5A3E22", ' opacity="0.35"') +
+        line("M -12 4 L -12 46", 2, "#D9B282", ' opacity="0.7"') + "</g></g>";
+    }
+    s += '<path d="' + vong(0, 0, 22, 8) + '" fill="' + M.chia + '" fill-rule="evenodd" stroke="' + INK + '" stroke-width="4"/>';
+    s += '<path d="M -7 20 L 7 20 L 7 76 L 24 76 L 24 86 L 14 86 L 14 92 L 26 92 L 26 104 L 15 104 L 15 110 L 7 110 L 7 116 L -7 116 Z" fill="' + M.chia + '" stroke="' + INK + '" stroke-width="4" stroke-linejoin="round"/>';
+    s += line("M -2 26 L -2 108", 3, M.chiaSang, ' opacity="0.8"') + line("M -14 -10 C -8 -16 0 -18 8 -16", 3, M.chiaSang);
+    return s + "</g>";
+  }
+  /* Chùm chìa nhà: vòng bạc + chìa đồng vàng, chìa bạc, chìa đầu nhựa xanh lá thông; o.kiruna: có chìa Kiruna (nhóm id+"-kir").
+     Gốc: điểm treo đỉnh vòng (móc). Cao ≈ 170. */
+  function chumChia(id, o) {
+    o = o || {};
+    var s = "<g" + (id ? ' id="' + id + '"' : "") + ">";
+    s += '<circle cx="0" cy="30" r="28" fill="none" stroke="' + INK + '" stroke-width="10"/><circle cx="0" cy="30" r="28" fill="none" stroke="' + M.bac + '" stroke-width="5"/>';
+    s += line("M -8 6 C -4 0 4 0 8 6", 3, "#FFFFFF", ' opacity="0.7"');
+    s += '<g transform="translate(-20,52) rotate(28) scale(0.72)">' + keyShape(M.dong) + "</g>";
+    s += '<g transform="translate(-4,58) rotate(8) scale(0.72)">' + keyShape(M.bac, { R: 17 }) + "</g>";
+    s += '<g transform="translate(14,54) rotate(-16) scale(0.72)">' + keyShape(M.bac, { dauNhua: M.nhuaXanh, than: "#C9CDD2" }) + "</g>";
+    if (o.kiruna) s += '<g' + (id ? ' id="' + id + '-kir"' : "") + ' transform="translate(26,46) rotate(-38) scale(0.66)">' + chiaKhoa("", { the: true }) + "</g>";
+    return s + "</g>";
+  }
+
+  /* ---------- người que / người giấy chung (KHÔNG mặt) ----------
+     Gốc: giữa chân. Cao ≈ 230 ở s = 1. Nhóm: id-vt (x, y: canh.js đặt), id-dau, id-tL / id-tR (tay, gốc vai), id-cL / id-cR (chân, gốc hông).
+     o: { s, ao, quan, da, mu: "phot" | "toc" | "trum" | null, dai (áo choàng dài chạm đất), cam: SVG cầm tay phải (gốc bàn tay), camL, lat (-1 quay trái), sep (tông giấy cũ) } */
+  function nguoiQue(api, id, o) {
+    o = o || {};
+    var sep = !!o.sep, ao = o.ao || (sep ? "#8E6E4A" : "#6A7FA0"), quan = o.quan || (sep ? "#5A4430" : "#3E4A58"), da = o.da || (sep ? "#E3CC9C" : "#E6CFA8");
+    var s = "";
+    function chan(side) {
+      return '<g transform="translate(' + (side * 14) + ',-74)"><g id="' + id + "-c" + (side < 0 ? "L" : "R") + '">' + line("M 0 0 L " + (side * 3) + " 72", 16) + line("M 0 0 L " + (side * 3) + " 72", 9, quan) +
+        '<ellipse cx="' + (side * 8) + '" cy="74" rx="15" ry="7" fill="' + INK + '"/></g></g>';
+    }
+    function tay(side, cam) {
+      return '<g transform="translate(' + (side * 34) + ',-150)"><g id="' + id + "-t" + (side < 0 ? "L" : "R") + '">' + line("M 0 0 L " + (side * 4) + " 76", 15) + line("M 0 0 L " + (side * 4) + " 76", 9, ao) +
+        '<g transform="translate(' + (side * 4) + ',80)">' + (cam || "") + '<circle cx="0" cy="0" r="9" fill="' + da + '" stroke="' + INK + '" stroke-width="3"/></g></g></g>';
+    }
+    if (!o.dai) s += chan(-1) + chan(1);
+    s += tay(-1, o.camL);
+    var than = o.dai ? "M -40 -4 L -34 -150 C -22 -170 22 -170 34 -150 L 40 -4 C 20 4 -20 4 -40 -4 Z" : "M -34 -66 L -32 -150 C -20 -168 20 -168 32 -150 L 34 -66 C 18 -58 -18 -58 -34 -66 Z";
+    s += paper(than, ao, { stroke: true, sw: 4, sx: 4, sy: 5, half: 0.08 });
+    if (o.dai) s += line("M 0 -150 L 0 -8", 3, INK, ' opacity="0.35"') + line("M -38 -40 C -10 -32 10 -32 38 -40", 3, INK, ' opacity="0.3"');
+    s += tay(1, o.cam);
+    s += '<g transform="translate(0,-190)"><g id="' + id + '-dau">';
+    if (o.mu === "trum") s += paper("M -34 14 C -40 -30 -24 -46 0 -46 C 24 -46 40 -30 34 14 Z", ao, { stroke: true, sw: 4, shadow: false });
+    if (o.mu === "toc") s += paper("M -36 18 C -48 0 -44 -30 -24 -40 C -10 -50 10 -50 24 -40 C 44 -30 48 0 36 18 C 30 30 -30 30 -36 18 Z", sep ? "#F1E2BE" : "#EFEDE6", { stroke: true, sw: 3.5, shadow: false });
+    s += '<circle cx="0" cy="0" r="26" fill="' + da + '" stroke="' + INK + '" stroke-width="4"/>';
+    if (o.mu === "toc") s += '<path d="M -26 -6 C -26 -30 26 -30 26 -6 C 14 -16 -14 -16 -26 -6 Z" fill="' + (sep ? "#F1E2BE" : "#EFEDE6") + '" stroke="' + INK + '" stroke-width="3"/>';
+    if (o.mu === "phot") s += paper(rEll(0, -16, 46, 9, 1, 4501), sep ? "#5A4430" : "#3E3A36", { stroke: true, sw: 3, shadow: false }) + paper("M -22 -18 C -22 -50 22 -50 22 -18 Z", sep ? "#6A5038" : "#4A4540", { stroke: true, sw: 3, shadow: false });
+    if (o.mu === "trum") s += '<path d="M -30 10 C -32 -22 -18 -38 0 -38 C 18 -38 32 -22 30 10" fill="none" stroke="' + INK + '" stroke-width="3" opacity="0.5"/>';
+    s += "</g></g>";
+    var sc = o.s || 1;
+    ["dau", "tL", "tR", "cL", "cR"].forEach(function (q) { api.origin("#" + id + "-" + q, "0 0"); });
+    return '<g id="' + id + '-vt"><g transform="scale(' + f1((o.lat || 1) * sc * 100) / 100 + "," + sc + ')">' + s + "</g></g>";
+  }
+  /* đi trong [t0, t1] tới x1 (nhóm id-vt); chân đá, đầu nhún. */
+  function queDi(api, id, t0, t1, x1, o) {
+    o = o || {};
+    var K = api.K, vt = "#" + id + "-vt", st = o.buoc || 0.32, n = Math.max(2, Math.round((t1 - t0) / st)), dt = (t1 - t0) / n;
+    K.add(vt, "x", t0, K.at(vt, "x", t0), "none"); K.add(vt, "x", t1, x1, "sine.inOut");
+    for (var k = 0; k <= n; k++) {
+      var t = t0 + k * dt, a = k === n ? 0 : (k % 2 ? 18 : -18);
+      K.add("#" + id + "-cL", "rotation", t, a, "sine.inOut"); K.add("#" + id + "-cR", "rotation", t, -a, "sine.inOut");
+      if (o.tay !== false) { K.add("#" + id + "-tL", "rotation", t, -a * 0.7, "sine.inOut"); K.add("#" + id + "-tR", "rotation", t, a * 0.7, "sine.inOut"); }
+      K.add("#" + id + "-dau", "y", t, 0, "sine.in"); if (k < n) K.add("#" + id + "-dau", "y", t + dt / 2, -5, "sine.out");
+    }
+  }
+
+  /* ---------- trang giấy cũ, bàn kỷ vật ---------- */
+  /* Trang lịch sử tông giấy cũ (sepia), mép xé, viền tối, vết ố. Gốc: góc trên trái. o: { seed, ke } */
+  function trangCu(w, h, o) {
+    o = o || {};
+    var sd = o.seed || 4601, r = rng(sd), s = "<g>";
+    var d = rough([[0, 0], [w, 0], [w, h], [0, h]], 5, sd, 22);
+    s += '<path d="' + d + '" fill="#0b1214" opacity="0.28" transform="translate(12,16)"/>';
+    s += '<path d="' + d + '" fill="url(#xlSep)" stroke="' + M.S.nau + '" stroke-width="4"/>';
+    for (var k = 0; k < 5; k++) s += '<path d="' + rEll(r() * w, r() * h, 40 + r() * 90, 30 + r() * 60, 6, sd + 10 + k) + '" fill="' + M.S.nauNhat + '" opacity="0.13"/>';
+    if (o.ke) for (var y = 80; y < h - 40; y += 70) s += line("M 40 " + y + " L " + (w - 40) + " " + y, 2, M.S.nauNhat, ' opacity="0.35"');
+    s += '<path d="' + d + '" fill="url(#xlSepVi)"/>';
+    s += '<path d="' + d + '" fill="url(#half)" opacity="0.05"/>';
+    return s + "</g>";
+  }
+  /* Mặt bàn kỷ vật nhìn từ trên (khung quanh trang sổ): gỗ ấm, vệt đèn bàn, chao đèn cam (cùng màu DaoCu.deskLamp) ở góc, mép bàn tối.
+     Trả { nen (gỗ + vệt đèn + cốc trà, dưới trang), den (chao đèn, vẽ trên cùng) }. o: { den: [x, y] (mặc định [1700, 120]), coc: [x, y] | null } */
+  function banTuTren(o) {
+    o = o || {};
+    var dx = (o.den || [1700, 120])[0], dy = (o.den || [1700, 120])[1], nen = "<g>";
+    nen += '<rect x="-400" y="-300" width="2720" height="1680" fill="url(#xlGo)"/>';
+    nen += '<rect x="-400" y="-300" width="2720" height="1680" fill="#3A2416" opacity="0.18"/>';
+    nen += '<ellipse cx="' + (dx - 520) + '" cy="' + (dy + 380) + '" rx="1350" ry="900" fill="url(#xlDenBan)"/>';
+    nen += '<rect x="-400" y="1180" width="2720" height="200" fill="#3A2416" opacity="0.55"/>' + line("M -400 1180 L 2320 1180", 6, "#2A1A10");
+    if (o.coc !== null) {
+      var c = o.coc || [150, 920];
+      nen += at(c[0], c[1], '<circle cx="8" cy="10" r="62" fill="#0b1214" opacity="0.25"/><circle cx="0" cy="0" r="62" fill="' + D.C.mug + '" stroke="' + INK + '" stroke-width="5"/><circle cx="0" cy="0" r="48" fill="' + D.C.tea + '" stroke="' + INK + '" stroke-width="3"/>' +
+        '<ellipse cx="-14" cy="-14" rx="16" ry="9" fill="#B9773E" opacity="0.6"/>' + '<path d="M 58 -18 C 92 -22 92 22 58 18" fill="none" stroke="' + INK + '" stroke-width="14"/><path d="M 58 -18 C 92 -22 92 22 58 18" fill="none" stroke="' + D.C.mug + '" stroke-width="7"/>');
+    }
+    nen += "</g>";
+    var den = at(dx, dy, '<ellipse cx="14" cy="18" rx="150" ry="150" fill="#0b1214" opacity="0.25"/>' + paper(rEll(0, 0, 150, 150, 3, 4611), D.C.accent, { stroke: true, sw: 7, fringe: "#F3C27A" }) +
+      '<circle cx="0" cy="0" r="100" fill="#FFE6A8" stroke="' + INK + '" stroke-width="5"/><circle cx="0" cy="0" r="46" fill="#FFF6D8"/>' + line("M -100 -60 C -70 -100 -20 -118 30 -112", 8, "#FFFFFF", ' opacity="0.35"'));
+    return { nen: nen, den: den };
+  }
+
+  /* ---------- phòng thuê ---------- */
+  /* Đồng hồ báo thức (mặt chỉ có vạch, KHÔNG số). Gốc: giữa đáy. r: bán kính mặt. id-kimG (giờ), id-kimP (phút) xoay quanh tâm mặt (origin "0 0"). */
+  function dongHoBao(id, r) {
+    r = r || 40;
+    var cy = -r - 14, s = '<g id="' + id + '">';
+    s += line("M " + f1(-r * 0.6) + " " + f1(cy + r * 0.8) + " L " + f1(-r * 0.8) + " 0 M " + f1(r * 0.6) + " " + f1(cy + r * 0.8) + " L " + f1(r * 0.8) + " 0", 6);
+    s += '<g id="' + id + '-chuong">' + paper(rEll(-r * 0.62, cy - r * 0.86, r * 0.42, r * 0.3, 1, 4701), "#C9A24A", { stroke: true, sw: 3.5, shadow: false }) + paper(rEll(r * 0.62, cy - r * 0.86, r * 0.42, r * 0.3, 1, 4702), "#C9A24A", { stroke: true, sw: 3.5, shadow: false }) + "</g>";
+    s += '<circle cx="3" cy="' + f1(cy + 4) + '" r="' + (r + 8) + '" fill="#0b1214" opacity="0.22"/><circle cx="0" cy="' + f1(cy) + '" r="' + (r + 8) + '" fill="#3F6A70" stroke="' + INK + '" stroke-width="4.5"/>';
+    s += '<circle cx="0" cy="' + f1(cy) + '" r="' + r + '" fill="#FFF8EC" stroke="' + INK + '" stroke-width="3"/>';
+    for (var i = 0; i < 12; i++) { var a = i * Math.PI / 6, l = i % 3 ? 0.12 : 0.22; s += line("M " + f1(Math.sin(a) * r * 0.9) + " " + f1(cy - Math.cos(a) * r * 0.9) + " L " + f1(Math.sin(a) * r * (0.9 - l)) + " " + f1(cy - Math.cos(a) * r * (0.9 - l)), i % 3 ? 2.5 : 4); }
+    s += '<g transform="translate(0,' + f1(cy) + ')"><g id="' + id + '-kimG">' + line("M 0 4 L 0 " + f1(-r * 0.5), 6) + '</g><g id="' + id + '-kimP">' + line("M 0 6 L 0 " + f1(-r * 0.78), 4) + '</g><circle cx="0" cy="0" r="5" fill="' + INK + '"/></g>';
+    return s + "</g>";
+  }
+  /* Cốc nước thuỷ tinh. Gốc: giữa đáy. Cao 92. id-mat: mặt nước, id-gon: 3 vòng gợn đồng tâm (ẩn; scale quanh tâm mặt nước, origin "0 -60"). */
+  function cocNuoc(id) {
+    var s = '<g id="' + id + '">';
+    s += '<ellipse cx="4" cy="2" rx="38" ry="8" fill="#0b1214" opacity="0.2"/>';
+    s += '<path d="M -34 -92 L 34 -92 L 28 0 L -28 0 Z" fill="#E8F4F8" opacity="0.45"/>';
+    s += '<path d="M -32 -60 L 32 -60 L 28 0 L -28 0 Z" fill="url(#xlNuocCoc)"/>';
+    s += '<g id="' + id + '-mat"><ellipse cx="0" cy="-60" rx="32" ry="7" fill="#D6EEF6" stroke="#5E8FA3" stroke-width="2.5"/></g>';
+    s += '<g id="' + id + '-gon">' + [0.35, 0.65, 0.95].map(function (k) { return '<ellipse cx="0" cy="-60" rx="' + f1(30 * k) + '" ry="' + f1(6.5 * k) + '" fill="none" stroke="#3F7A92" stroke-width="2.2"/>'; }).join("") + "</g>";
+    s += '<path d="M -34 -92 L 34 -92 L 28 0 L -28 0 Z" fill="none" stroke="' + INK + '" stroke-width="4" stroke-linejoin="round"/>';
+    s += '<ellipse cx="0" cy="-92" rx="34" ry="7" fill="none" stroke="' + INK + '" stroke-width="3"/>';
+    s += line("M -22 -82 L -18 -10", 5, "#FFFFFF", ' opacity="0.7"');
+    return s + "</g>";
+  }
+  /* Lò sưởi gang nhiều lá. Gốc: giữa đáy. n lá, cao h. id-l<i>: từng lá (khép bằng x), id-mat: đôi mắt vẽ tay (gốc tâm hai mắt, ở y = -h*0.62). */
+  function loSuoi(id, n, h) {
+    n = n || 9; h = h || 200;
+    var w = n * 30, s = '<g id="' + id + '">';
+    s += '<rect x="' + (-w / 2 + 8) + '" y="' + (-h + 10) + '" width="' + w + '" height="' + (h - 10) + '" fill="#0b1214" opacity="0.2"/>';
+    s += line("M " + (-w / 2 - 16) + " " + (-h + 26) + " L " + (w / 2 + 16) + " " + (-h + 26) + " M " + (-w / 2 - 16) + " -26 L " + (w / 2 + 16) + " -26", 16, M.gangToi);
+    for (var i = 0; i < n; i++) {
+      var x = -w / 2 + i * 30 + 15;
+      s += '<g id="' + id + '-l' + i + '">' + paper(rr(x - 13, -h, 26, h - 6, 12), i % 2 ? M.gang : M.gangSang, { stroke: true, sw: 3.5, shadow: false }) + line("M " + (x - 4) + " " + (-h + 18) + " L " + (x - 4) + " -24", 3, "#FFFFFF", ' opacity="0.18"') + "</g>";
+    }
+    s += line("M " + (-w / 2 - 8) + " -4 L " + (-w / 2 - 8) + " 0 M " + (w / 2 + 8) + " -4 L " + (w / 2 + 8) + " 0", 10, M.gangToi);
+    s += '<g transform="translate(0,' + f1(-h * 0.62) + ')"><g id="' + id + '-mat">' +
+      [-1, 1].map(function (k) { return '<ellipse cx="' + (k * 40) + '" cy="0" rx="32" ry="40" fill="#FFFDF6" stroke="' + INK + '" stroke-width="5"/><circle cx="' + (k * 40 + 4) + '" cy="6" r="15" fill="' + INK + '"/><circle cx="' + (k * 40 + 9) + '" cy="0" r="5" fill="#fff"/>'; }).join("") + "</g></g>";
+    return s + "</g>";
+  }
+  /* Phòng thuê nhỏ (nhìn thẳng), toạ độ thế giới cố định dùng chung các đoạn: tường x -300..2220, sàn từ y 860.
+     Trả { tuong (tường, cửa sổ đêm, cửa ra vào, móc + chùm chìa), sau (lò sưởi, ghế + áo, giường), chan (chăn, vẽ TRÊN Wob), truoc (tủ đầu giường + cốc + đồng hồ),
+           vt: { giuong: [x0, x1, mặt nệm], coc, dh, moc, ghe, so: [x, y, w, h], ls, wobNam } }.
+     Nhóm (tiền tố id): -coc (-coc-mat, -coc-gon), -dh (-dh-kimG, -dh-kimP), -ls (-ls-l0.., -ls-mat ẩn sẵn), -chum (chùm chìa trên móc, gốc móc; -cc-kir chìa Kiruna),
+     -chanP (chăn phẳng), -chanC (chăn cục tròn: ẩn), -gheAo, -gheMu, -gheKhan. o: { chum (true), kiruna (true), aoGhe (true), muGhe (true), dem (true) } */
+  function phongThue(api, id, o) {
+    o = o || {};
+    var r = rng(4801), T = "", S = "", C = "", F = "";
+    T += '<rect x="-300" y="-200" width="2520" height="1080" fill="url(#xlTuong)"/>';
+    T += '<rect x="-300" y="-200" width="2520" height="1080" fill="#2A2F45" opacity="' + (o.dem === false ? 0 : 0.28) + '"/>';
+    T += '<rect x="-300" y="860" width="2520" height="400" fill="url(#xlGo)"/>' + '<rect x="-300" y="860" width="2520" height="400" fill="#1E1A28" opacity="0.25"/>';
+    T += paper(rRect(-300, 830, 2520, 34, 1, 4811), "#7A5236", { stroke: true, sw: 4, shadow: false });
+    var SO = [1240, 230, 340, 330];
+    T += paper(rRect(SO[0] - 22, SO[1] - 22, SO[2] + 44, SO[3] + 44, 1.5, 4812), M.goSang, { stroke: true, sw: 5, sx: 6, sy: 8 });
+    T += '<rect x="' + SO[0] + '" y="' + SO[1] + '" width="' + SO[2] + '" height="' + SO[3] + '" fill="url(#xlTroiDem)"/>';
+    var maiD = "M " + SO[0] + " " + (SO[1] + 250) + " L " + (SO[0] + 60) + " " + (SO[1] + 190) + " L " + (SO[0] + 130) + " " + (SO[1] + 250) + " L " + (SO[0] + 170) + " " + (SO[1] + 210) + " L " + (SO[0] + 250) + " " + (SO[1] + 160) + " L " + (SO[0] + 340) + " " + (SO[1] + 230);
+    T += '<path d="' + maiD + " L " + (SO[0] + 340) + " " + (SO[1] + 330) + " L " + SO[0] + " " + (SO[1] + 330) + ' Z" fill="#1E2C44"/>' + '<path d="' + maiD + '" fill="none" stroke="#F7FBFC" stroke-width="9"/>';
+    T += '<rect x="' + (SO[0] + 200) + '" y="' + (SO[1] + 250) + '" width="26" height="30" fill="#FFD68A"/><rect x="' + (SO[0] + 60) + '" y="' + (SO[1] + 270) + '" width="22" height="26" fill="#FFD68A" opacity="0.8"/>';
+    for (var k = 0; k < 14; k++) T += '<circle cx="' + f1(SO[0] + 14 + r() * (SO[2] - 28)) + '" cy="' + f1(SO[1] + 10 + r() * 200) + '" r="' + f1(2 + r() * 3) + '" fill="#FFFFFF" opacity="0.85"/>';
+    var khung = "M " + (SO[0] + SO[2] / 2) + " " + SO[1] + " L " + (SO[0] + SO[2] / 2) + " " + (SO[1] + SO[3]) + " M " + SO[0] + " " + (SO[1] + SO[3] / 2) + " L " + (SO[0] + SO[2]) + " " + (SO[1] + SO[3] / 2);
+    T += line(khung, 10, M.goSang) + line(khung, 3, INK, ' opacity="0.5"');
+    T += paper(rRect(SO[0] - 40, SO[1] + SO[3] + 18, SO[2] + 80, 22, 1, 4813), M.goSang, { stroke: true, sw: 4 });
+    T += paper("M " + (SO[0] - 70) + " " + (SO[1] - 40) + " L " + (SO[0] + 10) + " " + (SO[1] - 40) + " C " + (SO[0] - 10) + " " + (SO[1] + 120) + " " + (SO[0] + 20) + " " + (SO[1] + 260) + " " + (SO[0] - 30) + " " + (SO[1] + 380) + " L " + (SO[0] - 80) + " " + (SO[1] + 380) + " Z", "#8E5A6A", { stroke: true, sw: 4, half: 0.12 });
+    T += paper("M " + (SO[0] + SO[2] + 70) + " " + (SO[1] - 40) + " L " + (SO[0] + SO[2] - 10) + " " + (SO[1] - 40) + " C " + (SO[0] + SO[2] + 10) + " " + (SO[1] + 120) + " " + (SO[0] + SO[2] - 20) + " " + (SO[1] + 260) + " " + (SO[0] + SO[2] + 30) + " " + (SO[1] + 380) + " L " + (SO[0] + SO[2] + 80) + " " + (SO[1] + 380) + " Z", "#8E5A6A", { stroke: true, sw: 4, half: 0.12 });
+    T += paper(rRect(1690, 330, 230, 530, 1.5, 4814), "#8A6440", { stroke: true, sw: 5, sx: 6, sy: 8 }) + paper(rRect(1712, 352, 186, 230, 1.2, 4815), "#7A5434", { stroke: true, sw: 3.5, shadow: false }) +
+      paper(rRect(1712, 606, 186, 230, 1.2, 4816), "#7A5434", { stroke: true, sw: 3.5, shadow: false }) + '<circle cx="1724" cy="600" r="11" fill="#C9A24A" stroke="' + INK + '" stroke-width="3"/>';
+    T += paper(rRect(1590, 512, 70, 20, 1, 4817), M.goToi, { stroke: true, sw: 3.5 }) + line("M 1625 530 C 1625 552 1645 552 1645 540", 5, "#8A8F94");
+    if (o.chum !== false) T += '<g transform="translate(1640,544)"><g id="' + id + '-chum"><g transform="scale(0.62)">' + chumChia(id + "-cc", { kiruna: o.kiruna !== false }) + "</g></g></g>";
+    S += at(1410, 842, loSuoi(id + "-ls", 9, 190));
+    var gx = 190;
+    S += at(gx, 860, '<g id="' + id + '-ghe">' + line("M -90 0 L -86 -200 M 90 0 L 86 -200", 16) + line("M -90 0 L -86 -200 M 90 0 L 86 -200", 9, M.go) +
+      paper(rRect(-110, -230, 220, 34, 1.5, 4818), M.goSang, { stroke: true, sw: 4 }) + line("M -96 -230 L -100 -470 M 96 -230 L 100 -470", 18) + line("M -96 -230 L -100 -470 M 96 -230 L 100 -470", 10, M.go) +
+      paper(rRect(-112, -480, 224, 40, 1.5, 4819), M.goSang, { stroke: true, sw: 4 }) + paper(rRect(-104, -400, 208, 26, 1.5, 4820), M.go, { stroke: true, sw: 3.5 }) + "</g>");
+    if (o.aoGhe !== false) S += at(gx, 860, '<g id="' + id + '-gheAo">' + paper("M -128 -486 C -60 -506 60 -506 128 -486 L 140 -300 C 70 -284 -70 -284 -140 -300 Z", M.ao, { stroke: true, sw: 5, sx: 6, sy: 8 }) +
+      line("M -134 -440 C -60 -456 60 -456 134 -440 M -136 -390 C -60 -404 60 -404 136 -390 M -138 -340 C -60 -352 60 -352 138 -340", 4, M.aoToi) +
+      line("M 0 -500 L 0 -292", 8) + line("M 0 -500 L 0 -292", 4, M.khoa) +
+      paper(rRect(30, -380, 70, 52, 1.2, 4821), M.ao, { stroke: true, sw: 4, shadow: false }) + paper("M 27 -386 L 103 -386 L 101 -366 L 29 -366 Z", M.aoToi, { stroke: true, sw: 3.5, shadow: false }) +
+      line("M -130 -480 C -150 -420 -156 -360 -148 -300", 22) + line("M -130 -480 C -150 -420 -156 -360 -148 -300", 14, M.ao) + "</g>");
+    if (o.muGhe !== false) S += at(gx - 40, 630, '<g id="' + id + '-gheMu">' + paper("M -56 0 C -54 -50 -26 -70 0 -70 C 26 -70 54 -50 56 0 Z", M.mu, { stroke: true, sw: 4, shadow: false }) + paper(rRect(-60, -12, 120, 20, 1, 4822), M.muVanh, { stroke: true, sw: 4, shadow: false }) +
+      paper(rEll(0, -76, 16, 14, 2, 4823), M.bong, { stroke: true, sw: 3.5, shadow: false }) + "</g>" +
+      '<g id="' + id + '-gheKhan">' + paper("M 40 -6 C 70 -20 120 -18 140 -2 L 140 10 C 110 0 70 0 40 12 Z", M.khan, { stroke: true, sw: 4, shadow: false }) + line("M 60 -8 L 64 6 M 90 -12 L 92 4 M 120 -12 L 120 4", 6, M.khanSoc) + "</g>");
+    var G0 = 420, G1 = 1060, NEM = 712;
+    S += paper(rRect(G1 - 50, 470, 60, 390, 1.5, 4824), M.goToi, { stroke: true, sw: 5 }) + paper("M " + (G1 - 50) + " 470 C " + (G1 - 40) + " 440 " + G1 + " 440 " + (G1 + 10) + " 470 Z", M.go, { stroke: true, sw: 4 });
+    S += paper(rRect(G0 - 30, 640, 40, 220, 1.5, 4830), M.goToi, { stroke: true, sw: 5 });
+    S += paper(rRect(G0, NEM, G1 - G0 - 50, 60, 1.5, 4825), "#EDE6D6", { stroke: true, sw: 4.5 }) + paper(rRect(G0 + 10, NEM + 60, G1 - G0 - 70, 70, 1.5, 4826), M.go, { stroke: true, sw: 4.5, shadow: false });
+    S += line("M " + (G0 + 20) + " " + (NEM + 130) + " L " + (G0 + 20) + " 860 M " + (G1 - 70) + " " + (NEM + 130) + " L " + (G1 - 70) + " 860", 14, M.goToi);
+    S += paper(rEll(G1 - 150, NEM - 18, 90, 34, 3, 4827), "#F6F1E6", { stroke: true, sw: 4.5 });
+    C += '<g id="' + id + '-chanP">' + paper("M " + (G0 - 8) + " " + (NEM - 8) + " C " + (G0 + 200) + " " + (NEM - 26) + " " + (G1 - 300) + " " + (NEM - 30) + " " + (G1 - 70) + " " + (NEM - 4) + " L " + (G1 - 60) + " " + (NEM + 110) + " L " + (G0 - 14) + " " + (NEM + 110) + " Z", "#5E86A0", { stroke: true, sw: 5, sx: 6, sy: 8, half: 0.12 }) +
+      paper("M " + (G0 + 330) + " " + (NEM - 22) + " C " + (G0 + 420) + " " + (NEM - 30) + " " + (G1 - 160) + " " + (NEM - 34) + " " + (G1 - 70) + " " + (NEM - 6) + " L " + (G1 - 72) + " " + (NEM + 22) + " C " + (G1 - 200) + " " + (NEM + 4) + " " + (G0 + 400) + " " + (NEM + 6) + " " + (G0 + 330) + " " + (NEM + 14) + " Z", "#EDE6D6", { stroke: true, sw: 4, shadow: false }) +
+      line("M " + (G0 + 40) + " " + (NEM + 40) + " L " + (G1 - 120) + " " + (NEM + 36), 3, "#3F6A80", ' stroke-dasharray="10 8"') + "</g>";
+    C += '<g id="' + id + '-chanC">' + paper("M " + (G0 - 8) + " " + (NEM - 8) + " C " + (G0 + 160) + " " + (NEM - 24) + " " + (G0 + 300) + " " + (NEM - 26) + " " + (G0 + 350) + " " + (NEM - 24) +
+      " C " + (G0 + 350) + " " + (NEM - 170) + " " + (G1 - 70) + " " + (NEM - 180) + " " + (G1 - 70) + " " + (NEM - 10) + " L " + (G1 - 60) + " " + (NEM + 110) + " L " + (G0 - 14) + " " + (NEM + 110) + " Z", "#5E86A0", { stroke: true, sw: 5, sx: 6, sy: 8, half: 0.12 }) +
+      line("M " + (G0 + 400) + " " + (NEM - 90) + " C " + (G0 + 430) + " " + (NEM - 130) + " " + (G1 - 160) + " " + (NEM - 140) + " " + (G1 - 120) + " " + (NEM - 100), 4, "#3F6A80", ' opacity="0.6"') +
+      line("M " + (G0 + 40) + " " + (NEM + 40) + " L " + (G1 - 120) + " " + (NEM + 36), 3, "#3F6A80", ' stroke-dasharray="10 8"') + "</g>";
+    F += paper(rRect(1080, 700, 170, 160, 1.5, 4828), M.goSang, { stroke: true, sw: 5 }) + paper(rRect(1072, 690, 186, 22, 1, 4829), M.go, { stroke: true, sw: 4 }) +
+      line("M 1094 776 L 1236 776", 3, INK, ' opacity="0.5"') + '<circle cx="1165" cy="740" r="7" fill="#C9A24A" stroke="' + INK + '" stroke-width="2.5"/>';
+    F += at(1124, 692, cocNuoc(id + "-coc")) + at(1212, 692, dongHoBao(id + "-dh", 30));
+    api.origin("#" + id + "-coc-mat", "0 -60"); api.origin("#" + id + "-coc-gon", "0 -60");
+    api.origin("#" + id + "-dh-kimG", "0 0"); api.origin("#" + id + "-dh-kimP", "0 0");
+    api.origin("#" + id + "-ls-mat", "0 0"); api.origin("#" + id + "-chum", "0 0");
+    api.show("#" + id + "-ls-mat", 0, 0); api.show("#" + id + "-chanC", 0, 0); api.show("#" + id + "-coc-gon", 0, 0);
+    return { tuong: T, sau: S, chan: C, truoc: F,
+      vt: { giuong: [G0, G1, NEM], coc: [1124, 692], dh: [1212, 692], moc: [1640, 544], ghe: [gx, 860], so: SO, ls: [1410, 842], wobNam: [930, 800] } };
+  }
+
+  /* ---------- phố cũ chiều tối mùa đông ---------- */
+  /* Nhà gỗ nhiều màu hai tầng (mái dốc, tuyết trên mái, cửa sổ sáng ấm). Gốc: giữa chân tường. o: { w, h, mau, seed, cua: x tương đối (null: không cửa), sang (true), sep (tông giấy cũ: mái nâu, không tuyết) } */
+  function nhaGo(o) {
+    o = o || {};
+    var w = o.w || 300, h = o.h || 260, sd = o.seed || 4901, r = rng(sd), mau = o.mau || M.nha[sd % M.nha.length], s = "<g>";
+    var sang = o.sang === false ? (o.sep ? "#C9B48A" : "#3E4A60") : (o.sep ? "#F1E2BE" : "#FFD68A");
+    s += paper(rRect(-w / 2, -h, w, h, 2, sd), mau, { stroke: true, sw: 5, sx: 6, sy: 8, half: 0.06 });
+    for (var x = -w / 2 + 18; x < w / 2 - 6; x += 22) s += line("M " + f1(x) + " " + f1(-h + 6) + " L " + f1(x) + " -4", 2, INK, ' opacity="0.16"');
+    var mai = "M " + f1(-w / 2 - 22) + " " + f1(-h + 4) + " L 0 " + f1(-h - w * 0.42) + " L " + f1(w / 2 + 22) + " " + f1(-h + 4) + " Z";
+    s += paper(mai, o.sep ? M.S.nau : "#4A3A36", { stroke: true, sw: 5, sx: 6, sy: 8 });
+    if (!o.sep) s += paper("M " + f1(-w / 2 - 22) + " " + f1(-h + 4) + " L 0 " + f1(-h - w * 0.42) + " L " + f1(w / 2 + 22) + " " + f1(-h + 4) + " L " + f1(w / 2 + 8) + " " + f1(-h + 14) + " L 0 " + f1(-h - w * 0.42 + 26) + " L " + f1(-w / 2 - 8) + " " + f1(-h + 14) + " Z", "#F7FBFC", { stroke: true, sw: 3.5, shadow: false });
+    var cols = Math.max(2, Math.round(w / 110)), cw = w / cols;
+    for (var row = 0; row < 2; row++) for (var c = 0; c < cols; c++) {
+      var wx = -w / 2 + cw * (c + 0.5), wy = -h + 40 + row * (h * 0.46);
+      if (o.cua != null && row === 1 && Math.abs(wx - o.cua) < cw * 0.6) continue;
+      var lit = r() < 0.75;
+      s += paper(rRect(wx - 26, wy, 52, 64, 1, sd + 10 + row * 9 + c), lit ? sang : (o.sep ? "#B89A70" : "#3E4A60"), { stroke: true, sw: 3.5, shadow: false }) + line("M " + f1(wx) + " " + f1(wy) + " L " + f1(wx) + " " + f1(wy + 64) + " M " + f1(wx - 26) + " " + f1(wy + 30) + " L " + f1(wx + 26) + " " + f1(wy + 30), 3, "#FFFFFF", ' opacity="0.8"');
+      if (!o.sep) s += line("M " + f1(wx - 30) + " " + f1(wy + 64) + " L " + f1(wx + 30) + " " + f1(wy + 64), 6, "#F7FBFC");
+    }
+    if (o.cua != null) s += paper(rRect(o.cua - 36, -128, 72, 128, 1.2, sd + 40), o.sep ? M.S.nau : "#5E4228", { stroke: true, sw: 4, shadow: false }) + '<circle cx="' + f1(o.cua + 22) + '" cy="-62" r="5" fill="#C9A24A"/>';
+    return s + "</g>";
+  }
+  /* Cột đèn đường có quầng sáng vàng. Gốc: chân. h: cao. o: { quang (true), r (150) } */
+  function cotDen(h, o) {
+    h = h || 360; o = o || {};
+    var s = "<g>";
+    if (o.quang !== false) s += '<circle cx="34" cy="' + f1(-h + 14) + '" r="' + (o.r || 150) + '" fill="url(#xlDen)"/>';
+    s += line("M 0 0 L 0 " + (-h) + " C 0 " + (-h - 30) + " 30 " + (-h - 30) + " 34 " + (-h - 6), 12) + line("M 0 0 L 0 " + (-h) + " C 0 " + (-h - 30) + " 30 " + (-h - 30) + " 34 " + (-h - 6), 6, "#3E4A4A");
+    s += paper("M 18 " + (-h - 4) + " L 50 " + (-h - 4) + " L 44 " + (-h + 22) + " L 24 " + (-h + 22) + " Z", "#2C3A3B", { stroke: true, sw: 3.5, shadow: false }) + '<ellipse cx="34" cy="' + (-h + 22) + '" rx="12" ry="5" fill="#FFF0B8"/>';
+    s += paper(rEll(0, -2, 26, 8, 1, 4951), "#F7FBFC", { stroke: true, sw: 3, shadow: false });
+    return s + "</g>";
+  }
+  /* Phố trung tâm cũ chiều tối tháng 2 (tuyết, đèn vàng, cửa sổ ấm, núi mỏ xa). Thế giới -600..3600, mặt đất y 820.
+     Trả { troi, xa, giua, gan, mat, cua: x cửa phòng thuê }. Nhóm id-cuaLa: cánh cửa (scaleX quanh bản lề trái, origin "0 0"), id-cuaSang (ô sáng sau cửa). o: { seed, cua (2050) } */
+  function phoCu(api, id, o) {
+    o = o || {};
+    var sd = o.seed || 5001, r = rng(sd), MAT = 820, cua = o.cua || 2050;
+    var troi = '<rect x="0" y="0" width="1920" height="1080" fill="url(#xlTroiChieu)"/>';
+    for (var k = 0; k < 18; k++) troi += '<circle cx="' + f1(r() * 1920) + '" cy="' + f1(r() * 300) + '" r="' + f1(1.5 + r() * 2) + '" fill="#FFFFFF" opacity="0.6"/>';
+    var xa = paper("M -600 760 L -100 520 C 0 470 120 450 260 470 L 700 420 C 820 410 900 470 1100 560 L 1700 700 L 2400 640 L 3400 720 L 3400 900 L -600 900 Z", "#3A4766", { shadow: false, stroke: true, sw: 3 });
+    xa += line("M 260 470 L 700 420", 6, "#F7FBFC", ' opacity="0.7"');
+    for (var j = 0; j < 9; j++) xa += '<rect x="' + f1(80 + j * 90 + r() * 30) + '" y="' + f1(520 + r() * 60) + '" width="8" height="8" fill="#FFD68A" opacity="0.8"/>';
+    for (var q = 0; q < 14; q++) { var hx = -500 + q * 280 + r() * 60; xa += at(hx, 790, '<g transform="scale(0.55)">' + nhaGo({ w: 260 + r() * 80, h: 200 + r() * 60, mau: "#5A6480", seed: sd + 20 + q }) + "</g>"); }
+    xa += '<rect x="-600" y="780" width="4200" height="140" fill="#C9D3DE"/>';
+    var giua = paper(rRect(-600, MAT - 6, 4200, 400, 2, sd + 1), "#EEF3F6", { stroke: true, sw: 4, shadow: false });
+    giua += line("M -600 " + (MAT + 60) + " C 400 " + (MAT + 50) + " 1600 " + (MAT + 70) + " 3600 " + (MAT + 58), 4, "#B9CBD6", ' opacity="0.8"');
+    var NHA = [[-260, 330, 270, 0], [120, 300, 300, 1], [470, 320, 260, 2], [840, 300, 290, 3], [1210, 330, 270, 4], [1590, 310, 300, 5], [cua, 340, 290, 6, 0], [2420, 320, 270, 0], [2790, 300, 300, 2], [3160, 330, 280, 3]];
+    NHA.forEach(function (n, i) { giua += at(n[0], MAT, nhaGo({ w: n[1], h: n[2], mau: M.nha[n[3]], seed: sd + 40 + i, cua: n[4] == null ? (i % 2 ? -n[1] * 0.25 : null) : n[4] })); });
+    giua += at(cua, MAT, '<rect x="-36" y="-128" width="72" height="128" fill="#FFD68A" id="' + id + '-cuaSang"/><g transform="translate(-36,0)"><g id="' + id + '-cuaLa">' + paper(rRect(0, -128, 72, 128, 1.2, sd + 99), "#5E4228", { stroke: true, sw: 4, shadow: false }) + '<circle cx="58" cy="-62" r="6" fill="#C9A24A" stroke="' + INK + '" stroke-width="2"/></g></g>');
+    api.origin("#" + id + "-cuaLa", "0 0");
+    [-80, 660, 1400, 2280, 3000].forEach(function (x) { giua += at(x, MAT + 4, cotDen(380)); });
+    var gan = "";
+    [[-200, 1070, 520, 150], [900, 1090, 600, 120], [2000, 1080, 560, 140], [3100, 1080, 600, 150]].forEach(function (p, i) { gan += at(p[0], p[1], D.snowPile(p[2], p[3], sd + 70 + i)); });
+    gan += at(1500, 1090, cotDen(620, { r: 200 }));
+    return { troi: troi, xa: xa, giua: giua, gan: gan, mat: MAT, cua: cua };
+  }
+
+  /* ---------- mặt cắt mỏ ---------- */
+  /* Mặt cắt núi mỏ (không nhãn): núi bên trái, thị trấn phía đông, đá nhiều lớp, thân quặng sẫm chạy chéo xuống dưới phố,
+     đường hầm như rễ cây, giếng thang có vạch tầng + lồng thang, ô kính quan sát ở tầng trên, đống quặng ở chỗ cụt chân núi (một hòn có mắt).
+     Thế giới: x -600..3600, mặt đất y 300, tầng khách y 540, tầng vận chuyển (đáy giếng) y 1500.
+     Trả { troi, dat (đá, quặng, hầm, giếng), giua (núi, phố, ô kính, lồng, đống quặng, mũi tên đông), vt: { gieng, tren, day, mat, kinh: [x0, x1, y], dong: [x, y], pho: [x0, x1] } }.
+     Nhóm: id-long (lồng thang: đặt y = tầng), id-qd<i> (dải quặng rút ra, 0..3), id-sup<i> (mảng đá sụp, 0..3), id-dong, id-honMat, id-muiDong (ẩn). */
+  function matCatMo(api, id, o) {
+    o = o || {};
+    var sd = o.seed || 5101, r = rng(sd), MAT = 300, GX = 1000, TREN = 540, DAY = 1500;
+    var troi = '<rect x="-2000" y="-1400" width="7000" height="1720" fill="url(#xlTroiNgay)"/>';
+    var dat = "";
+    for (var b = 0; b < 4; b++) dat += '<path d="M -1200 ' + (MAT + b * 380) + " C 0 " + (MAT + b * 380 + 40) + " 1600 " + (MAT + b * 380 - 30) + " 4800 " + (MAT + b * 380 + 20) + ' L 4800 2800 L -1200 2800 Z" fill="' + M.da[b] + '"/>';
+    for (var k = 0; k < 60; k++) dat += '<path d="' + rEll(-800 + r() * 5200, MAT + 80 + r() * 1900, 10 + r() * 24, 6 + r() * 12, 2, sd + 10 + k) + '" fill="#000" opacity="0.1"/>';
+    dat += paper("M 380 " + (MAT + 20) + " L 900 " + (MAT + 20) + " C 1300 700 1900 1100 2700 1640 L 2100 1700 C 1500 1260 900 860 380 " + (MAT + 20) + " Z", M.quang, { stroke: true, sw: 5, shadow: false });
+    for (var q = 0; q < 26; q++) { var u = r(); dat += '<path d="' + rEll(520 + u * 1900 + r() * 200, MAT + 80 + u * 1250 + r() * 120, 14 + r() * 18, 6 + r() * 8, 1.5, sd + 80 + q) + '" fill="' + M.quangSang + '" opacity="0.7"/>'; }
+    [TREN, 800, 1100, DAY].forEach(function (y, i) {
+      var x0 = 300 + i * 60, x1 = 1900 + i * 220, d = "M " + x0 + " " + y + " C " + (x0 + 300) + " " + (y - 14) + " " + (x1 - 400) + " " + (y + 18) + " " + x1 + " " + (y + 6);
+      dat += line(d, i === 3 ? 26 : 16, "#2A221E") + line(d, i === 3 ? 16 : 9, "#C8B48A");
+      for (var c = 0; c < 4; c++) {
+        var bx = x0 + 200 + c * (x1 - x0 - 300) / 4 + r() * 60, by = y + 6, ex = bx + (r() < 0.5 ? -1 : 1) * (80 + r() * 140), ey = by + 120 + r() * 140;
+        var dd = "M " + f1(bx) + " " + f1(by) + " Q " + f1((bx + ex) / 2 + 30) + " " + f1((by + ey) / 2) + " " + f1(ex) + " " + f1(ey);
+        dat += line(dd, 8, "#2A221E") + line(dd, 4, "#B8A27A");
+      }
+    });
+    dat += '<rect x="' + (GX - 34) + '" y="' + MAT + '" width="68" height="' + (DAY - MAT + 20) + '" fill="#1E1916" stroke="' + INK + '" stroke-width="5"/>';
+    dat += line("M " + (GX - 18) + " " + MAT + " L " + (GX - 18) + " " + DAY + " M " + (GX + 18) + " " + MAT + " L " + (GX + 18) + " " + DAY, 3, "#8A7A5C");
+    for (var y = MAT + 100; y < DAY; y += 100) dat += line("M " + (GX - 56) + " " + y + " L " + (GX - 34) + " " + y, 6, "#E8D4A8");
+    dat += paper(rRect(GX - 40, DAY - 10, 420, 60, 1.5, sd + 3), "#C8B48A", { stroke: true, sw: 4, shadow: false });
+    var qd = "", sup = "";
+    for (var i = 0; i < 4; i++) {
+      var yy = 1380 - i * 90, xx = 1560 + i * 40;
+      sup += '<g id="' + id + '-sup' + i + '">' + paper(rough([[xx + 20, yy - 90], [xx + 140, yy - 110], [xx + 280, yy - 86], [xx + 270, yy - 20], [xx + 30, yy - 24]], 6, sd + 140 + i, 20), M.da[2], { stroke: true, sw: 4, shadow: false }) + "</g>";
+      qd += '<g id="' + id + '-qd' + i + '">' + paper(rRect(xx, yy, 300, 60, 2, sd + 120 + i), M.quang, { stroke: true, sw: 4, shadow: false }) + '<path d="' + rEll(xx + 80, yy + 26, 30, 12, 2, sd + 130 + i) + '" fill="' + M.quangSang + '"/></g>';
+    }
+    dat += qd + sup;
+    var giua = paper("M -600 " + MAT + " L -100 " + (MAT - 60) + " L 300 " + (MAT - 180) + " L 600 " + (MAT - 300) + " L 760 " + (MAT - 310) + " L 1000 " + (MAT - 200) + " L 1400 " + (MAT - 30) + " L 1600 " + MAT + " Z", "#6A6E7A", { stroke: true, sw: 5, shadow: false }) +
+      paper("M 500 " + (MAT - 260) + " L 600 " + (MAT - 300) + " L 760 " + (MAT - 310) + " L 880 " + (MAT - 260) + " L 800 " + (MAT - 240) + " L 700 " + (MAT - 268) + " L 600 " + (MAT - 244) + " Z", "#F7FBFC", { stroke: true, sw: 3.5, shadow: false });
+    giua += '<rect x="-2000" y="' + (MAT - 6) + '" width="7000" height="14" fill="#F7FBFC"/>';
+    for (var h = 0; h < 12; h++) giua += at(1640 + h * 118, MAT, '<g transform="scale(0.34)">' + nhaGo({ w: 300, h: 240 + (h % 3) * 30, mau: M.nha[h % 7], seed: sd + 200 + h }) + "</g>");
+    giua += paper(rRect(GX + 40, TREN - 80, 240, 90, 1.5, sd + 4), "#3A3430", { stroke: true, sw: 4, shadow: false }) + '<rect x="' + (GX + 54) + '" y="' + (TREN - 72) + '" width="90" height="64" fill="#BFE0EE" opacity="0.55" stroke="' + INK + '" stroke-width="3"/>';
+    giua += '<g id="' + id + '-long">' + paper(rRect(GX - 28, -70, 56, 70, 1, sd + 5), "#C9B48A", { stroke: true, sw: 3.5, shadow: false }) + line("M " + (GX - 14) + " -66 L " + (GX - 14) + " -4 M " + GX + " -66 L " + GX + " -4 M " + (GX + 14) + " -66 L " + (GX + 14) + " -4", 2, INK, ' opacity="0.5"') + line("M " + GX + " -70 L " + GX + " -1400", 2.5, "#8A8F94") + "</g>";
+    var dong = '<g id="' + id + '-dong">' + paper(rough([[-110, 0], [-70, -60], [-10, -90], [50, -70], [110, 0]], 4, sd + 6, 16), M.quang, { stroke: true, sw: 4 }) +
+      paper(rough([[-90, -46], [-40, -82], [20, -92], [70, -60], [40, -50], [-30, -62]], 4, sd + 7, 14), "#F7FBFC", { stroke: true, sw: 3, shadow: false }) +
+      '<g id="' + id + '-honMat" transform="translate(-60,-20)">' + paper(rEll(0, 0, 24, 18, 2, sd + 8), M.quangSang, { stroke: true, sw: 3.5, shadow: false }) + '<circle cx="-9" cy="-3" r="3.6" fill="#FFFDF6"/><circle cx="3" cy="-3" r="3.6" fill="#FFFDF6"/><circle cx="-10" cy="-3" r="1.8" fill="' + INK + '"/><circle cx="2" cy="-3" r="1.8" fill="' + INK + '"/></g></g>';
+    giua += at(-260, MAT, dong);
+    giua += '<g id="' + id + '-muiDong">' + line("M 1300 940 C 1700 1000 2100 1120 2500 1260", 9, "#F7FBFC", ' stroke-dasharray="26 18"') + '<path d="M 2470 1210 L 2560 1290 L 2450 1300 Z" fill="#F7FBFC" stroke="' + INK + '" stroke-width="4"/></g>';
+    for (var i2 = 0; i2 < 4; i2++) { api.origin("#" + id + "-qd" + i2, "0 0"); api.origin("#" + id + "-sup" + i2, "0 0"); }
+    api.show("#" + id + "-muiDong", 0, 0);
+    return { troi: troi, dat: dat, giua: giua, vt: { gieng: GX, tren: TREN, day: DAY, mat: MAT, kinh: [GX + 54, GX + 144, TREN - 10], dong: [-260, MAT], pho: [1640, 2940] } };
+  }
+
+  /* Máy ghi địa chấn trên bàn (trống, băng giấy, cần bút). Gốc: giữa mặt bàn. Đầu bút ở (0, -131).
+     id-net: nét bút (canh.js đặt d mỗi khung), id-but: cần bút, id-bang: băng giấy. */
+  function mayDiaChan(id) {
+    var s = '<g id="' + id + '">';
+    s += paper(rRect(-420, 0, 840, 40, 1.5, 5201), M.goSang, { stroke: true, sw: 5 }) + line("M -380 40 L -380 260 M 380 40 L 380 260", 18, M.goToi);
+    s += paper(rRect(-360, -230, 120, 230, 2, 5202), "#4A5450", { stroke: true, sw: 4.5 });
+    s += '<ellipse cx="-300" cy="-130" rx="60" ry="80" fill="#E8DFC8" stroke="' + INK + '" stroke-width="4"/>';
+    s += '<g id="' + id + '-bang">' + paper("M -300 -190 L 420 -190 C 440 -160 440 -100 420 -70 L -300 -70 Z", "#F8F2E2", { stroke: true, sw: 4, shadow: false });
+    for (var x = -280; x < 420; x += 40) s += line("M " + x + " -186 L " + x + " -74", 1.5, "#D9776A", ' opacity="0.35"');
+    s += line("M -300 -130 L 420 -130", 1.5, "#D9776A", ' opacity="0.5"');
+    s += '<path id="' + id + '-net" d="M -290 -130 L 0 -130" fill="none" stroke="#1F3A6B" stroke-width="4" stroke-linejoin="round"/></g>';
+    s += paper(rRect(-40, -330, 120, 90, 1.5, 5203), "#4A5450", { stroke: true, sw: 4.5 });
+    s += '<g id="' + id + '-but">' + line("M 20 -240 L 0 -136", 8) + line("M 20 -240 L 0 -136", 4, "#B8BDC2") + '<circle cx="0" cy="-131" r="6" fill="#1F3A6B" stroke="' + INK + '" stroke-width="2"/></g>';
+    return s + "</g>";
+  }
+
+  /* ---------- băng, khách sạn băng (dạng chung, không biểu tượng thương hiệu) ---------- */
+  /* Toà nhà khối băng. Gốc: giữa chân. w, h. */
+  function nhaBang(w, h, o) {
+    w = w || 700; h = h || 300; o = o || {};
+    var s = "<g>", sd = o.seed || 5301;
+    s += paper("M " + (-w / 2) + " 0 L " + (-w / 2) + " " + (-h * 0.8) + " C " + (-w / 2) + " " + (-h) + " " + (w / 2) + " " + (-h) + " " + (w / 2) + " " + (-h * 0.8) + " L " + (w / 2) + " 0 Z", "url(#xlBangG)", { stroke: true, sw: 5, sx: 8, sy: 10 });
+    for (var row = 1; row < 5; row++) { var y = -row * h * 0.17; s += line("M " + (-w / 2 + 6) + " " + f1(y) + " L " + (w / 2 - 6) + " " + f1(y), 2.5, "#9CC6D8"); for (var x = -w / 2 + (row % 2 ? 40 : 90); x < w / 2; x += 100) s += line("M " + x + " " + f1(y) + " L " + x + " " + f1(y + h * 0.17), 2.5, "#9CC6D8"); }
+    s += paper("M -70 0 L -70 -130 C -70 -200 70 -200 70 -130 L 70 0 Z", "#3E6A86", { stroke: true, sw: 5, shadow: false }) + '<path d="M -50 0 L -50 -126 C -50 -176 50 -176 50 -126 L 50 0 Z" fill="url(#xlBangSang)"/>';
+    s += paper(rough([[-w / 2 - 20, -h * 0.8], [0, -h * 1.02], [w / 2 + 20, -h * 0.8], [w / 2, -h * 0.74], [-w / 2, -h * 0.74]], 3, sd, 22), "#F7FBFC", { stroke: true, sw: 3.5, shadow: false });
+    s += line("M " + (-w / 2 + 30) + " " + f1(-h * 0.6) + " L " + (-w / 2 + 60) + " -40", 8, "#FFFFFF", ' opacity="0.6"');
+    return s + "</g>";
+  }
+  /* Tường khối băng trong suốt có vân. Gốc: góc trên trái. o: { bw, bh } */
+  function tuongBang(w, h, o) {
+    o = o || {};
+    var s = '<rect x="0" y="0" width="' + w + '" height="' + h + '" fill="url(#xlBangVan)"/>', bw = o.bw || 180, bh = o.bh || 110;
+    for (var y = 0, row = 0; y < h; y += bh, row++) for (var x = (row % 2 ? -bw / 2 : 0); x < w; x += bw) s += '<rect x="' + x + '" y="' + y + '" width="' + bw + '" height="' + bh + '" fill="none" stroke="#A9CFE0" stroke-width="3"/>';
+    s += '<rect x="0" y="0" width="' + w + '" height="' + h + '" fill="#7FB5CF" opacity="0.18"/>';
+    return s;
+  }
+  /* Giường băng phủ tấm lông nhạt dạng chung. Gốc: giữa mặt trên khối. w. id-vet: vết tròn đóng sương (ẩn). */
+  function giuongBang(api, id, w) {
+    w = w || 520;
+    var s = '<g id="' + id + '">' + paper(rRect(-w / 2, 0, w, 150, 2, 5401), "url(#xlBangG)", { stroke: true, sw: 5, sx: 8, sy: 10 }) + line("M " + (-w / 2 + 20) + " 70 L " + (w / 2 - 20) + " 74", 2.5, "#9CC6D8");
+    s += paper("M " + (-w / 2 + 14) + " 6 C " + (-w / 4) + " -26 " + (w / 4) + " -26 " + (w / 2 - 14) + " 6 L " + (w / 2 - 24) + " 40 C " + (w / 4) + " 30 " + (-w / 4) + " 30 " + (-w / 2 + 24) + " 40 Z", "#EDE6D8", { stroke: true, sw: 4.5, shadow: false });
+    for (var i = 0; i < 9; i++) s += line("M " + f1(-w / 2 + 40 + i * (w - 80) / 8) + " -6 l -6 24", 3, "#C9BFA8");
+    s += '<g id="' + id + '-vet">' + '<ellipse cx="0" cy="2" rx="78" ry="22" fill="#E4F4FA" stroke="#9CC6D8" stroke-width="4"/>' + '<ellipse cx="0" cy="2" rx="78" ry="22" fill="url(#halfW)" opacity="0.6"/>' +
+      [-50, -18, 22, 52].map(function (x, j) { return '<g transform="translate(' + x + ',' + (j % 2 ? -4 : 6) + ')">' + D.sparkle(7, "#FFFFFF") + "</g>"; }).join("") + "</g>";
+    api.show("#" + id + "-vet", 0, 0);
+    return s + "</g>";
+  }
+  /* Tác phẩm điêu khắc băng trừu tượng trong khung hốc tường. Gốc: giữa đáy. id-sang: quầng sáng (opacity). */
+  function dieuKhacBang(id) {
+    var s = '<g id="' + id + '">' + paper(rRect(-150, -380, 300, 380, 2, 5501), "#2E5670", { stroke: true, sw: 6 });
+    s += '<g id="' + id + '-sang"><ellipse cx="0" cy="-190" rx="160" ry="190" fill="url(#xlBangSang)"/></g>';
+    s += paper("M -40 -40 C -90 -120 -20 -170 10 -220 C 40 -270 -10 -320 30 -350 C 80 -300 90 -230 40 -180 C 10 -140 70 -90 40 -40 Z", "url(#xlBangG)", { stroke: true, sw: 4.5, shadow: false });
+    s += paper("M -60 0 L 60 0 L 50 -40 L -50 -40 Z", "#BFE0EE", { stroke: true, sw: 4, shadow: false });
+    return s + "</g>";
+  }
+
+  /* ---------- đường sắt, tàu quặng ---------- */
+  /* Đường ray nhìn ngang từ x0 tới x1, mặt ray y. */
+  function duongRay(x0, x1, y) {
+    var s = '<rect x="' + x0 + '" y="' + (y + 6) + '" width="' + (x1 - x0) + '" height="26" fill="#8C8478"/>';
+    for (var x = x0; x < x1; x += 44) s += '<rect x="' + x + '" y="' + (y + 4) + '" width="26" height="14" fill="#5E4228" stroke="' + INK + '" stroke-width="2"/>';
+    s += line("M " + x0 + " " + y + " L " + x1 + " " + y, 10) + line("M " + x0 + " " + y + " L " + x1 + " " + y, 5, "#B8BDC2");
+    return s;
+  }
+  /* Toa quặng sẫm. Gốc: trái, mặt ray. dài 240. */
+  function toaQuang(dai, seed) {
+    dai = dai || 240;
+    var s = "<g>" + paper(rough([[6, -150], [dai - 6, -150], [dai - 18, -40], [18, -40]], 2, seed || 5601, 20), "#3A3530", { stroke: true, sw: 4.5, sx: 4, sy: 6 });
+    s += paper(rough([[14, -150], [dai * 0.3, -186], [dai * 0.6, -178], [dai - 14, -150]], 4, (seed || 5601) + 1, 16), M.quang, { stroke: true, sw: 3.5, shadow: false });
+    s += line("M 20 -120 L " + (dai - 20) + " -120", 3, "#5A524A") + line("M " + (dai / 2) + " -150 L " + (dai / 2) + " -44", 3, "#5A524A");
+    s += line("M 0 -40 L " + dai + " -40", 8, "#2A2622");
+    [dai * 0.18, dai * 0.36, dai * 0.64, dai * 0.82].forEach(function (x) { s += '<circle cx="' + f1(x) + '" cy="-18" r="18" fill="#2A2622" stroke="' + INK + '" stroke-width="3"/><circle cx="' + f1(x) + '" cy="-18" r="6" fill="#8A8F94"/>'; });
+    return s + "</g>";
+  }
+  /* Đầu máy điện dạng chung (không logo, không chữ). Gốc: trái, mặt ray. dài 380, mũi bên phải. o: { mau, soc } */
+  function dauMay(dai, o) {
+    dai = dai || 380; o = o || {};
+    var s = "<g>";
+    s += line("M " + (dai * 0.3) + " -230 L " + (dai * 0.45) + " -290 L " + (dai * 0.6) + " -230 M " + (dai * 0.36) + " -290 L " + (dai * 0.56) + " -290", 4);
+    s += paper("M 6 -40 L 6 -230 L " + (dai - 60) + " -230 C " + (dai - 20) + " -228 " + (dai - 4) + " -200 " + (dai - 4) + " -150 L " + (dai - 4) + " -40 Z", o.mau || "#4E5E58", { stroke: true, sw: 5, sx: 5, sy: 7, half: 0.06 });
+    s += '<rect x="6" y="-110" width="' + (dai - 10) + '" height="18" fill="' + (o.soc || "#D9A441") + '" stroke="' + INK + '" stroke-width="2.5"/>';
+    s += paper("M " + (dai - 92) + " -216 L " + (dai - 58) + " -216 C " + (dai - 30) + " -214 " + (dai - 18) + " -196 " + (dai - 16) + " -170 L " + (dai - 92) + " -170 Z", "#BFE0EE", { stroke: true, sw: 3.5, shadow: false });
+    for (var i = 0; i < 3; i++) s += paper(rRect(40 + i * 70, -200, 44, 40, 1, 5701 + i), "#2F3A38", { stroke: true, sw: 3, shadow: false });
+    s += '<circle cx="' + (dai - 14) + '" cy="-70" r="8" fill="#FFF0B8" stroke="' + INK + '" stroke-width="2.5"/>';
+    [dai * 0.14, dai * 0.3, dai * 0.7, dai * 0.86].forEach(function (x) { s += '<circle cx="' + f1(x) + '" cy="-18" r="20" fill="#2A2622" stroke="' + INK + '" stroke-width="3"/><circle cx="' + f1(x) + '" cy="-18" r="7" fill="#8A8F94"/>'; });
+    return s + "</g>";
+  }
+  /* Đoàn tàu quặng: hai đầu máy (đầu đoàn bên phải) + n toa nối sang trái. Gốc: mép phải đầu máy, mặt ray. Dài = 760 + n·248. */
+  function tauQuang(n, o) {
+    o = o || {};
+    var s = "<g>";
+    s += at(-380, 0, dauMay(380, o)) + at(-760, 0, dauMay(380, o));
+    for (var i = 0; i < n; i++) s += at(-760 - (i + 1) * 248, 0, toaQuang(240, 5601 + (i % 7) * 3));
+    return s + "</g>";
+  }
+  /* Rào chắn đường ngang sọc đỏ trắng (biển chéo không chữ). Gốc: chân trụ. id-tay: cần (gốc trục; 0 = hạ ngang sang phải, -80 = nâng; origin đã đặt). dai: dài cần. */
+  function raoChan(api, id, dai) {
+    dai = dai || 620;
+    var s = '<g id="' + id + '">' + paper(rRect(-22, -170, 44, 170, 1.5, 5801), "#E9E4D8", { stroke: true, sw: 4.5 }) + paper(rRect(-40, -190, 80, 40, 1.5, 5802), "#4A5450", { stroke: true, sw: 4 });
+    s += '<circle cx="-14" cy="-210" r="12" fill="#C9463A" stroke="' + INK + '" stroke-width="3"/><circle cx="14" cy="-210" r="12" fill="#C9463A" stroke="' + INK + '" stroke-width="3"/>';
+    var x = "M -60 -290 L 60 -230 M 60 -290 L -60 -230";
+    s += line(x, 18) + line(x, 10, "#F4F1E8") + line(x, 3, "#C9463A", ' stroke-dasharray="14 14"') + line("M 0 -260 L 0 -190", 8);
+    s += '<g transform="translate(0,-150)"><g id="' + id + '-tay">' + paper(rr(-10, -14, dai, 28, 12), "#F4F1E8", { stroke: true, sw: 4, sx: 4, sy: 6 });
+    for (var xx = 40; xx < dai - 20; xx += 80) s += '<rect x="' + xx + '" y="-12" width="40" height="24" fill="#C9463A"/>';
+    s += '<path d="' + rr(-10, -14, dai, 28, 12) + '" fill="none" stroke="' + INK + '" stroke-width="4"/></g></g>';
+    api.origin("#" + id + "-tay", "0 0");
+    return s + "</g>";
+  }
+  /* Sân bóng phủ tuyết (nhìn từ trên). Gốc: tâm. */
+  function sanBongTuyet(w, h, seed) {
+    var c = "#C3D3DB", s = "<g>" + paper(rRect(-w / 2, -h / 2, w, h, 2, seed || 911), "#F2F7F9", { stroke: true, sw: 5, sx: 8, sy: 10 });
+    s += '<path d="' + rEll(-w * 0.2, h * 0.1, w * 0.12, h * 0.16, 4, (seed || 911) + 3) + '" fill="#7FB070" opacity="0.35"/>';
+    s += '<rect x="' + f1(-w / 2 + 14) + '" y="' + f1(-h / 2 + 14) + '" width="' + f1(w - 28) + '" height="' + f1(h - 28) + '" fill="none" stroke="' + c + '" stroke-width="5"/>';
+    s += line("M 0 " + f1(-h / 2 + 14) + " L 0 " + f1(h / 2 - 14), 5, c) + '<circle cx="0" cy="0" r="' + f1(h * 0.17) + '" fill="none" stroke="' + c + '" stroke-width="5"/>';
+    s += '<rect x="' + f1(-w / 2 + 14) + '" y="' + f1(-h * 0.22) + '" width="' + f1(w * 0.14) + '" height="' + f1(h * 0.44) + '" fill="none" stroke="' + c + '" stroke-width="5"/>';
+    s += '<rect x="' + f1(w / 2 - 14 - w * 0.14) + '" y="' + f1(-h * 0.22) + '" width="' + f1(w * 0.14) + '" height="' + f1(h * 0.44) + '" fill="none" stroke="' + c + '" stroke-width="5"/>';
+    return s + "</g>";
+  }
+
+  /* ---------- trang sổ bản đồ ---------- */
+  /* Hòn quặng giấy nhỏ có hai chấm mắt. Gốc: giữa đáy. id-mat: nhóm mắt (x đổi hướng nhìn). r: bán kính. */
+  function honQuang(id, r) {
+    r = r || 26;
+    return '<g id="' + id + '">' + '<ellipse cx="3" cy="-2" rx="' + f1(r * 1.1) + '" ry="5" fill="#0b1214" opacity="0.25"/>' + paper(rough([[-r, 0], [-r * 1.05, -r * 0.8], [-r * 0.3, -r * 1.5], [r * 0.6, -r * 1.35], [r * 1.05, -r * 0.6], [r * 0.9, 0]], 2.5, 5901, 10), M.quangSang, { stroke: true, sw: 4, shadow: false }) +
+      '<g id="' + id + '-mat"><circle cx="' + f1(-r * 0.32) + '" cy="' + f1(-r * 0.78) + '" r="' + f1(r * 0.2) + '" fill="#FFFDF6"/><circle cx="' + f1(r * 0.24) + '" cy="' + f1(-r * 0.78) + '" r="' + f1(r * 0.2) + '" fill="#FFFDF6"/>' +
+      '<circle cx="' + f1(-r * 0.28) + '" cy="' + f1(-r * 0.76) + '" r="' + f1(r * 0.1) + '" fill="' + INK + '"/><circle cx="' + f1(r * 0.28) + '" cy="' + f1(-r * 0.76) + '" r="' + f1(r * 0.1) + '" fill="' + INK + '"/></g></g>';
+  }
+  /* Tàu biển giấy nhỏ nhìn ngang (thân đỏ sẫm, cabin trắng). Gốc: giữa, mặt nước. */
+  function tauBien(id, dai) {
+    dai = dai || 160;
+    return '<g id="' + id + '">' + paper("M " + f1(-dai / 2) + " -30 L " + f1(dai / 2 + 10) + " -30 L " + f1(dai / 2 - 14) + " 6 L " + f1(-dai / 2 + 10) + " 6 Z", "#8E3A2E", { stroke: true, sw: 3.5, sx: 3, sy: 4 }) +
+      paper(rRect(-dai * 0.1, -64, dai * 0.36, 34, 1, 5911), "#F4F1E8", { stroke: true, sw: 3, shadow: false }) + line("M " + f1(-dai * 0.36) + " -30 L " + f1(-dai * 0.36) + " -70", 4) + "</g>";
+  }
+  /* Tàu phá băng giấy nhỏ (thân đỏ, cabin cao). Gốc: giữa, mặt nước. Mũi bên trái. */
+  function tauPhaBang(id) {
+    return '<g id="' + id + '">' + paper("M -90 -20 L 70 -34 L 80 6 L -60 6 Z", "#C9463A", { stroke: true, sw: 3.5, sx: 3, sy: 4 }) + paper(rRect(-10, -76, 56, 44, 1, 5921), "#F4F1E8", { stroke: true, sw: 3, shadow: false }) +
+      '<rect x="0" y="-66" width="36" height="10" fill="#3F6A70"/>' + line("M 30 -76 L 30 -96", 4) + "</g>";
+  }
+  /* Vương miện giấy (không người). Gốc: giữa vành dưới. */
+  function vuongMien(id, w) {
+    w = w || 90;
+    return '<g id="' + id + '">' + paper("M " + f1(-w / 2) + " 0 L " + f1(-w / 2) + " " + f1(-w * 0.5) + " L " + f1(-w / 4) + " " + f1(-w * 0.26) + " L 0 " + f1(-w * 0.62) + " L " + f1(w / 4) + " " + f1(-w * 0.26) + " L " + f1(w / 2) + " " + f1(-w * 0.5) + " L " + f1(w / 2) + " 0 Z", "#D9A441", { stroke: true, sw: 4, sx: 3, sy: 4 }) +
+      '<circle cx="0" cy="' + f1(-w * 0.2) + '" r="' + f1(w * 0.07) + '" fill="#C9463A" stroke="' + INK + '" stroke-width="2"/>' + line("M " + f1(-w / 2) + " " + f1(-w * 0.1) + " L " + f1(w / 2) + " " + f1(-w * 0.1), 3, "#A87A20") + "</g>";
+  }
+  /* Kéo (hai lưỡi xoay quanh chốt). Gốc: chốt. id-a, id-b: hai lưỡi (rotation mở/khép; origin "0 0" do canh.js đặt). Lưỡi hướng sang phải. */
+  function keo(id, l) {
+    l = l || 110;
+    function luoi(sid, k) { return '<g id="' + sid + '">' + paper("M 0 " + (-6 * k) + " L " + l + " " + (-2 * k) + " L 0 " + (8 * k) + " Z", "#B8BDC2", { stroke: true, sw: 3.5, shadow: false }) + line("M 0 0 L " + f1(-l * 0.38) + " " + (12 * k), 10, "#C9463A") + '<g transform="translate(' + f1(-l * 0.5) + "," + (16 * k) + ')"><path d="' + vong(0, 0, 20, 11) + '" fill="#C9463A" fill-rule="evenodd" stroke="' + INK + '" stroke-width="3.5"/></g>' + "</g>"; }
+    return '<g id="' + id + '">' + luoi(id + "-a", 1) + luoi(id + "-b", -1) + '<circle cx="0" cy="0" r="6" fill="#8A8F94" stroke="' + INK + '" stroke-width="2.5"/></g>';
+  }
+  /* Tay Wob (ống tay áo phao + nắm tay mực) thò vào khung. Gốc: nắm tay; ống tay kéo về hướng goc (độ, 90 = xuống). */
+  function tayWob(len, goc, mau) {
+    var a = (goc == null ? 90 : goc) * Math.PI / 180, ex = f1(Math.cos(a) * len), ey = f1(Math.sin(a) * len);
+    return "<g>" + line("M 0 0 L " + ex + " " + ey, 44) + line("M 0 0 L " + ex + " " + ey, 28, mau || M.ao) + '<circle cx="0" cy="0" r="26" fill="' + INK + '"/></g>';
+  }
+  /* Mũi tên cong dày (hải lưu, gió). pts: [[x, y]…]; mau; w: bề dày. */
+  function muiTenCong(pts, mau, w) {
+    w = w || 22;
+    var d = "M " + pts.map(function (p) { return f1(p[0]) + " " + f1(p[1]); }).join(" L ");
+    var a = pts[pts.length - 2], b = pts[pts.length - 1], ang = Math.atan2(b[1] - a[1], b[0] - a[0]);
+    var hx = b[0] + Math.cos(ang) * w * 1.3, hy = b[1] + Math.sin(ang) * w * 1.3, px = -Math.sin(ang) * w * 1.1, py = Math.cos(ang) * w * 1.1;
+    return line(d, w + 8) + line(d, w, mau || "#E0703A") + '<path d="M ' + f1(b[0] + px) + " " + f1(b[1] + py) + " L " + f1(hx) + " " + f1(hy) + " L " + f1(b[0] - px) + " " + f1(b[1] - py) + ' Z" fill="' + (mau || "#E0703A") + '" stroke="' + INK + '" stroke-width="4" stroke-linejoin="round"/>';
+  }
+
+  /* Ghế gấp nhỏ (khung nhôm chéo chữ X, mặt vải). Gốc: giữa chân trên mặt đất. cao: chiều cao mặt ghế (mặc định 120), rong: bề ngang (150), mau: màu vải. */
+  function gheGap(cao, rong, mau) {
+    cao = cao || 120; rong = rong || 150;
+    var w = rong / 2, s = "<g>";
+    s += '<ellipse cx="0" cy="4" rx="' + f1(w + 16) + '" ry="10" fill="#0b1214" opacity="0.18"/>';
+    s += line("M " + f1(-w) + " 0 L " + f1(w * 0.9) + " " + f1(-cao), 14) + line("M " + f1(-w) + " 0 L " + f1(w * 0.9) + " " + f1(-cao), 7, "#B8BDC2");
+    s += line("M " + f1(w) + " 0 L " + f1(-w * 0.9) + " " + f1(-cao), 14) + line("M " + f1(w) + " 0 L " + f1(-w * 0.9) + " " + f1(-cao), 7, "#C9CED2");
+    s += '<circle cx="0" cy="' + f1(-cao / 2) + '" r="6" fill="#8A8F94" stroke="' + INK + '" stroke-width="3"/>';
+    s += paper("M " + f1(-w - 8) + " " + f1(-cao - 8) + " C " + f1(-w / 2) + " " + f1(-cao + 10) + " " + f1(w / 2) + " " + f1(-cao + 10) + " " + f1(w + 8) + " " + f1(-cao - 8) + " L " + f1(w + 4) + " " + f1(-cao + 6) + " C " + f1(w / 2) + " " + f1(-cao + 24) + " " + f1(-w / 2) + " " + f1(-cao + 24) + " " + f1(-w - 4) + " " + f1(-cao + 6) + " Z", mau || "#C9463A", { stroke: true, sw: 4.5, shadow: false });
+    return s + "</g>";
+  }
+
+  G.XuLanh = {
+    M: M, defs: defs, wob: wob, chiaKhoa: chiaKhoa, chumChia: chumChia, keyShape: keyShape, theThoTui: theThoTui,
+    nguoiQue: nguoiQue, queDi: queDi, trangCu: trangCu, banTuTren: banTuTren,
+    dongHoBao: dongHoBao, cocNuoc: cocNuoc, loSuoi: loSuoi, phongThue: phongThue,
+    nhaGo: nhaGo, cotDen: cotDen, phoCu: phoCu, matCatMo: matCatMo, mayDiaChan: mayDiaChan,
+    nhaBang: nhaBang, tuongBang: tuongBang, giuongBang: giuongBang, dieuKhacBang: dieuKhacBang,
+    duongRay: duongRay, toaQuang: toaQuang, dauMay: dauMay, tauQuang: tauQuang, raoChan: raoChan, sanBongTuyet: sanBongTuyet,
+    honQuang: honQuang, tauBien: tauBien, tauPhaBang: tauPhaBang, vuongMien: vuongMien, keo: keo, tayWob: tayWob, muiTenCong: muiTenCong, gheGap: gheGap,
+    rr: rr, vong: vong, at: at, g: g
+  };
+})(typeof window !== "undefined" ? window : globalThis);

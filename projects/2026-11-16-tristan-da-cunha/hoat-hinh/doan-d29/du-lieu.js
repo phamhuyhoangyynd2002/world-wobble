@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 4.862,
- "bat_dau_tuyet_doi": 365.674,
+ "bat_dau_tuyet_doi": 365.866,
  "lop": "hoi-uc",
  "boi_canh": "Bong bóng tưởng tượng vẽ tay: nồi súp lớn giữa bàn dài, mỗi người que cầm một cái muôi y hệt nhau",
  "trang_phuc": "Wob vẽ tay trong bong bóng, áo mưa cam mũ trùm hạ",
@@ -23,7 +23,7 @@ window.HH_DATA = {
    "tai": 0.0,
    "loi": "Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot.",
    "hanh_dong": "[bong-bong-tuong-tuong] Người que múc súp lần lượt bằng những cái muôi y hệt nhau",
-   "gag": "Wob lén rút ra cái muôi to gấp đôi ở \"same ladle,\" (≈ 368.29 s), lấy đà múc; đúng \"pot.\" (≈ 369.94 s) cái muôi to kẹt cứng ở miệng nồi, Wob treo lơ lửng trên cán muôi; giữ tới cắt 370.54 s",
+   "gag": "Wob lén rút ra cái muôi to gấp đôi ở \"same ladle,\" (≈ 368.48 s), lấy đà múc; đúng \"pot.\" (≈ 370.13 s) cái muôi to kẹt cứng ở miệng nồi, Wob treo lơ lửng trên cán muôi; giữ tới cắt 370.73 s",
    "dao_cu": [
     "muoi-mui"
    ],

@@ -123,6 +123,22 @@ Khối riêng nối cuối `lib/canh-nen.js` (không đổi hàm cũ). `canh.js`
 - Render 2K nhóm B (`-q delivery -w 2`, 2–3 render song song): 9,1 s → 121 s; 21,8 s → 317 s; 25 s → 484–720 s.
 - Thời gian render 2K (`-q delivery -w 2`, máy chạy 2–3 render cùng lúc, 26/11/2026): d13 7,5 s → 105 s; d02 23,9 s → 210–330 s; d07 37,2 s → 832 s (≈ 10–22 giây máy cho mỗi giây phim khi chạy song song).
 
+## Bộ xứ lạnh `window.XuLanh` (thêm 28/11/2026, tập 6 Kiruna, nhóm A)
+
+Khối riêng nối cuối `lib/canh-nen.js` (không đổi hàm cũ). `canh.js` chèn `XuLanh.defs()` một lần trong `api.dat(...)` (trời `xlTroiNgay`, băng `xlBangG` / `xlBangVan` / `xlBangSang`, gỗ `xlGo`, giấy cũ `xlSep` / `xlSepVi`, đèn bàn `xlDenBan`, đèn mũ `xlDenMo`). Bảng màu ở `XuLanh.M` (`M.S` là tông sepia). Bộ trang phục chung của tập: `projects/2026-11-22-kiruna/hoat-hinh/doan-d04/bo-chung.md`. Mẫu: `doan-d04…d20` nhóm A của tập 6.
+
+- **Wob xứ lạnh** `wob(api, id, o)`: bọc `api.wob`, mặc định áo phao lam một túi vá phải, mũ len xanh thông, khăn kem sọc xanh (vẽ riêng, đuôi `W.xl.khanDuoi` xoay gốc "0 0", tự đung đưa trong `W.walk`). o: `ao` (`"phao"` mặc định | `"gile"` | `null`), `the: 1` (thẻ gỗ treo ngoài túi), `cuc`, `kinh`, `noPack`, `aoCuon`, `muBaoHo` (`true` | `"to"`, đèn `W.xl.mbhDen`), `chum` (chùm chìa trên ba lô; `"nha"` = không chìa Kiruna), `khongMu`, `khongKhan`, cộng mọi tuỳ chọn của rig (`holdL`, `holdR`…). Trả thêm `W.xl` (selector: `tui`, `the`, `cuc`, `kinh`, `xoay` mắt xoáy, `mbh`, `khan`, `khanDuoi`, `chum`, `pack`, `quai`…) và `W.theTui(t, v)`, `W.dutTui(t)`, `W.choang(t, v)`, `W.baLo(t, v)`.
+- **Chìa khoá**: `chiaKhoa`, `chumChia(id, {kiruna})`, `keyShape`, `theThoTui()` (thẻ gỗ: dây vắt qua nắp túi, thẻ treo mép PHẢI túi để khăn không che; sửa 28/11).
+- **Người, giấy cũ**: `nguoiQue(api, id, {s, ao, quan, da, mu: "phot"|"toc"|"trum", dai, cam, camL, lat, sep})` người giấy KHÔNG mặt (nhóm `#id-vt`, khớp `-dau`, `-tL/-tR`, `-cL/-cR`); `queDi(api, id, t0, t1, x1, {buoc, tay})`; `trangCu(w, h, {seed, ke})` trang sepia; `banTuTren({den, coc})` → `{nen, den}`.
+- **Phòng thuê**: `phongThue(api, id, o)` (thế giới x −300..2220, sàn y 860), `dongHoBao(id, r)` (không số), `cocNuoc(id)` (`-mat`, `-gon`), `loSuoi(id, n, h)` (`-l<i>`, `-mat`).
+- **Phố, mỏ**: `nhaGo({w, h, mau, seed, cua, sang, sep})` (cửa sổ 52×64 cố định: muốn nhà nhỏ thì `scale` cả nhóm, đừng giảm `w/h`); `cotDen(h, {quang, r})`; `phoCu(api, id, o)`; `matCatMo(api, id, o)` mặt cắt núi mỏ (trả `{troi, dat, giua, vt: {gieng, tren, day, kinh}}`, dải quặng `-qd0..3`, đá sụp `-sup0..3`, lồng `-long`, mũi tên `-muiDong`); `mayDiaChan(id)` máy địa chấn (nét vẽ bằng `api.moiKhung`).
+- **Băng**: `nhaBang(w, h, {seed})` (gốc giữa chân), `tuongBang(w, h, {bw, bh})` (gốc góc trên trái), `giuongBang(api, id, w)` (gốc giữa mặt trên, `id-vet` vết sương ẩn sẵn), `dieuKhacBang(id)` (`id-sang`).
+- **Đường sắt**: `duongRay(x0, x1, y)`, `toaQuang`, `dauMay(dai, {mau, soc})`, `tauQuang(n, o)` (dài 760 + n·248), `raoChan(api, id, dai)` (`id-tay`: 0 hạ, −80 nâng), `sanBongTuyet(w, h, seed)`, `gheGap(cao, rong, mau)` ghế gấp (gốc giữa chân, thêm 28/11).
+- **Trang sổ bản đồ**: `honQuang(id, r)` (`-mat`), `tauBien(id, dai)`, `tauPhaBang(id)`, `vuongMien(id, w)`, `keo(id, l)` (`-a`, `-b`), `tayWob(len, goc, mau)` tay áo phao thò vào khung, `muiTenCong(pts, mau, w)`.
+- Bẫy gặp ở tập 6: `api.pop` tự khoá scale 0 từ t = 0, **không** đặt `api.show(sel, 0, 0)` trước `pop` (phần tử không bao giờ hiện); phần tử có thuộc tính `transform` mà khoá `x/y` thì `transform` bị ghi đè → bọc thêm `<g id>` ngoài; phần tử đặt bằng `cx/cy` thì khoá `x` là độ lệch thêm; chân Wob lòi dưới gầm giường/chăn → ẩn `#ID-legL/#ID-legR`; xoay cả quả địa cầu bằng `#ID-up` origin "200 195"; mouth chỉ nhận tên có thật (không có `wavy`).
+- **`.clip` có `data-duration` cũ**: `chuan_bi_doan.py` chỉ sửa duration của root, không sửa các `.clip` đã có số. Phân cảnh đổi độ dài thì các lớp hết sớm hơn root → cuối clip ra giấy trơn (d06, d14 tập 6). Sau mỗi lần chuẩn bị, so `grep -o 'data-duration="[^"]*"' index.html` với `thoi_luong` và sửa tay cho bằng.
+- Ổ C gần đầy thì `hyperframes render` dừng ở "Low disk space" (kiểm thư mục chứa file `-o`): render ra `D:/YouTube/world-wobble/tmp/<tên>.mp4` rồi `ffmpeg -map 0:v -c copy` về `out/doan.mp4`.
+
 ## Nối giữa đoạn
 
 - `giay` vào: khung 0 là giấy phẳng `#EFE3C8` (lớp `#hh-giay` phủ kín, hạt giấy/viền tối tắt); ~0,5 s các lớp bật dựng từ mép đất (hoặc trượt vào), giấy tan.

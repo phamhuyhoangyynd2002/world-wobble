@@ -10,7 +10,7 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 14.914,
+ "thoi_luong": 15.106,
  "bat_dau_tuyet_doi": 34.324,
  "lop": "hien-tai",
  "boi_canh": "Như d03 (bàn, sổ map-tristan). BẢN ĐỒ TRÊN SỔ có thêm một chấm đảo nhỏ ở PHÍA BẮC Tristan (vị trí St Helena −15.96, −5.71 tính bằng cùng phép chiếu orthographic của map-tristan trong manifest: center [−12.28, −37.11], zoom 1.6, anchor 1320,560), KHÔNG nhãn, không tên, không mũ, không lính; chấm chỉ sáng ở nhịp cuối",
@@ -47,7 +47,7 @@ window.HH_DATA = {
   },
   {
    "tai": 4.801,
-   "loi": "But first, an older question. Who would start a village out there at all?",
+   "loi": "The answer starts with an older question. Who would start a village out there at all?",
    "hanh_dong": "Wob gõ đầu bút chì lên chấm Tristan ba cái, nhíu mắt (ngam-nghi); camera đẩy chậm vào trang sổ",
    "gag": "",
    "dao_cu": [
@@ -56,10 +56,10 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 8.9,
+   "tai": 9.1,
    "loi": "I guessed wrong. Twice.",
-   "hanh_dong": "[va-cham-vat-ly] Từ sau \"all?\" (≈ 42.86 s) Wob đã cầm sẵn một con tàu buồm giấy (giả thuyết 1) và một mảnh ván giấy (giả thuyết 2). Thả tàu lên vùng biển trên bản đồ trong sổ ở ≈ 43.22 s, tàu NỔI ≥ 0,5 s rồi mới chìm đúng \"wrong.\" (≈ 43.66 s), rồi thả ván, ván nổi một chút rồi chìm đúng \"Twice.\" (≈ 44.38 s)",
-   "gag": "Hai thứ lần lượt chìm nghỉm, vòng sóng giấy lan ra; Wob nhìn chỗ chìm, giữ 0,6 s trước \"The answer,\" (45.34 s)",
+   "hanh_dong": "[va-cham-vat-ly] Từ sau \"all?\" (≈ 43.06 s) Wob đã cầm sẵn một con tàu buồm giấy (giả thuyết 1) và một mảnh ván giấy (giả thuyết 2). Thả tàu lên vùng biển trên bản đồ trong sổ ở ≈ 43.42 s, tàu NỔI ≥ 0,5 s rồi mới chìm đúng \"wrong.\" (≈ 43.86 s), rồi thả ván, ván nổi một chút rồi chìm đúng \"Twice.\" (≈ 44.58 s)",
+   "gag": "Hai thứ lần lượt chìm nghỉm, vòng sóng giấy lan ra; Wob nhìn chỗ chìm, giữ 0,6 s trước \"The answer,\" (45.54 s)",
    "dao_cu": [
     "tau-buom",
     "van-giay"
@@ -70,7 +70,7 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 11.013,
+   "tai": 11.213,
    "loi": "The answer, it turned out, lived on a different island.",
    "hanh_dong": "MANH MỐI CHỈ BẰNG HÌNH: trên bản đồ trong sổ, chấm đảo nhỏ phía bắc (không nhãn) nháy sáng MỘT lần đúng \"different island\"; Wob liếc theo. Rồi [lao-vao-hinh-ve] camera lao vào trang sổ, 0,5 s cuối phủ thành giấy phẳng #EFE3C8",
    "gag": "",
@@ -87,7 +87,7 @@ window.HH_DATA = {
   {
    "scene": 2,
    "bat_dau": -17.612,
-   "thoi_luong": 31.776,
+   "thoi_luong": 31.968,
    "tu": [
     {
      "text": "The",
@@ -430,144 +430,154 @@ window.HH_DATA = {
      "end": 4.438
     },
     {
-     "text": "But",
+     "text": "The",
      "start": 4.801,
      "end": 5.001
     },
     {
-     "text": "first,",
+     "text": "answer",
      "start": 5.013,
-     "end": 5.513
+     "end": 5.376
+    },
+    {
+     "text": "starts",
+     "start": 5.388,
+     "end": 5.751
+    },
+    {
+     "text": "with",
+     "start": 5.763,
+     "end": 5.888
     },
     {
      "text": "an",
-     "start": 5.713,
-     "end": 5.788
+     "start": 5.9,
+     "end": 5.975
     },
     {
      "text": "older",
-     "start": 5.801,
-     "end": 6.026
+     "start": 5.988,
+     "end": 6.238
     },
     {
      "text": "question.",
-     "start": 6.038,
-     "end": 6.513
+     "start": 6.251,
+     "end": 6.713
     },
     {
      "text": "Who",
-     "start": 6.876,
-     "end": 7.051
+     "start": 7.076,
+     "end": 7.251
     },
     {
      "text": "would",
-     "start": 7.063,
-     "end": 7.163
+     "start": 7.263,
+     "end": 7.363
     },
     {
      "text": "start",
-     "start": 7.176,
-     "end": 7.376
+     "start": 7.376,
+     "end": 7.576
     },
     {
      "text": "a",
-     "start": 7.388,
-     "end": 7.426
+     "start": 7.588,
+     "end": 7.626
     },
     {
      "text": "village",
-     "start": 7.438,
-     "end": 7.788
+     "start": 7.638,
+     "end": 7.988
     },
     {
      "text": "out",
-     "start": 7.801,
-     "end": 7.938
+     "start": 8.001,
+     "end": 8.138
     },
     {
      "text": "there",
-     "start": 7.95,
-     "end": 8.088
+     "start": 8.15,
+     "end": 8.288
     },
     {
      "text": "at",
-     "start": 8.1,
-     "end": 8.188
+     "start": 8.301,
+     "end": 8.388
     },
     {
      "text": "all?",
-     "start": 8.2,
-     "end": 8.538
+     "start": 8.4,
+     "end": 8.738
     },
     {
      "text": "I",
-     "start": 8.9,
-     "end": 9.088
+     "start": 9.1,
+     "end": 9.288
     },
     {
      "text": "guessed",
-     "start": 9.1,
-     "end": 9.326
+     "start": 9.301,
+     "end": 9.526
     },
     {
      "text": "wrong.",
-     "start": 9.338,
-     "end": 9.688
+     "start": 9.538,
+     "end": 9.888
     },
     {
      "text": "Twice.",
-     "start": 10.051,
-     "end": 10.651
+     "start": 10.251,
+     "end": 10.851
     },
     {
      "text": "The",
-     "start": 11.013,
-     "end": 11.213
+     "start": 11.213,
+     "end": 11.413
     },
     {
      "text": "answer,",
-     "start": 11.225,
-     "end": 11.65
+     "start": 11.426,
+     "end": 11.851
     },
     {
      "text": "it",
-     "start": 11.775,
-     "end": 11.85
+     "start": 11.975,
+     "end": 12.05
     },
     {
      "text": "turned",
-     "start": 11.863,
-     "end": 12.188
+     "start": 12.063,
+     "end": 12.388
     },
     {
      "text": "out,",
-     "start": 12.2,
-     "end": 12.413
+     "start": 12.4,
+     "end": 12.613
     },
     {
      "text": "lived",
-     "start": 12.725,
-     "end": 12.95
+     "start": 12.926,
+     "end": 13.151
     },
     {
      "text": "on",
-     "start": 12.963,
-     "end": 13.05
+     "start": 13.163,
+     "end": 13.25
     },
     {
      "text": "a",
-     "start": 13.063,
-     "end": 13.126
+     "start": 13.263,
+     "end": 13.326
     },
     {
      "text": "different",
-     "start": 13.138,
-     "end": 13.426
+     "start": 13.338,
+     "end": 13.626
     },
     {
      "text": "island.",
-     "start": 13.438,
-     "end": 13.788
+     "start": 13.638,
+     "end": 13.988
     }
    ],
    "khau_hinh": [
