@@ -1,0 +1,199 @@
+[
+{
+"id": "C33",
+"verdict": "dung",
+"correct_value": null,
+"note": "The IMD's June 2022 climate summary and contemporaneous reporting support 1,003.6 mm in the 24 hours ending at 08:30 IST on 17 June, setting a June daily record against 945.4 mm on 7 June 1966.",
+"sources": [
+{
+"title": "Climate Summary for the month of June 2022",
+"publisher": "India Meteorological Department",
+"url": "https://www.imdpune.gov.in/cmpg/Product/Monthly_Climate_Summary/Monthly_Clim_Summary_6_2022.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day",
+"publisher": "ThePrint / Press Trust of India",
+"url": "https://theprint.in/india/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd/1001205/",
+"type": "bao",
+"published": "2022-06-17"
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": null,
+"note": "A UNICEF situation report explicitly attributes the flooding partly to heavy rainfall in the adjacent Indian states of Assam and Meghalaya and reports approximately four million people affected in Sylhet Division.",
+"sources": [
+{
+"title": "Bangladesh Country Office: Humanitarian Situation Report No. 02 – North Eastern Flash Flood",
+"publisher": "UNICEF",
+"url": "https://www.unicef.org/media/122776/file/Bangladesh%20Humanitarian%20Situation%20Report%20No.2%20%28floods%29%2019%20Jun%202022.pdf",
+"type": "goc",
+"published": "2022-06-19"
+},
+{
+"title": "Severe Flash Floods Situation Update 1 (19 June 2022)",
+"publisher": "United Nations in Bangladesh",
+"url": "https://bangladesh.un.org/en/186873-severe-flash-floods-situation-update-1-19-june-2022",
+"type": "goc",
+"published": "2022-06-19"
+}
+]
+},
+{
+"id": "C35",
+"verdict": "sai",
+"correct_value": "Living root bridges occur across the Khasi and Jaintia Hills, including the Mawsynram plateau region; the documented 2015–2017 survey recorded elevations from 57 to 1,211 m, with most between 250 and 900 m.",
+"note": "The survey supports the elevation and regional distribution, but Meghalaya Tourism explicitly describes a giant living root bridge in the Mawsynram region, contradicting the assertion that they are absent from Mawsynram itself.",
+"sources": [
+{
+"title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+"publisher": "Scientific Reports / Nature",
+"url": "https://www.nature.com/articles/s41598-019-48652-w",
+"type": "goc",
+"published": "2019-08-22"
+},
+{
+"title": "Mawsynram: Meghalaya's Rain Capital",
+"publisher": "Meghalaya Tourism",
+"url": "https://rc-www.meghalayatourism.in/destinations/mawsynram/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Jingkieng jri: Living Root Bridge Cultural Landscapes",
+"publisher": "UNESCO World Heritage Centre",
+"url": "https://whc.unesco.org/en/tentativelists/6606/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C36",
+"verdict": "dung",
+"correct_value": null,
+"note": "Scientific research and UNDP describe bridges made by guiding the aerial roots of Ficus elastica across streams, using bamboo structures to direct and support their growth toward the opposite bank.",
+"sources": [
+{
+"title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+"publisher": "Scientific Reports / Nature",
+"url": "https://www.nature.com/articles/s41598-019-48652-w",
+"type": "goc",
+"published": "2019-08-22"
+},
+{
+"title": "Conserving the living root bridges of Meghalaya",
+"publisher": "United Nations Development Programme",
+"url": "https://www.undp.org/stories/conserving-living-root-bridges-meghalaya",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C37",
+"verdict": "dung",
+"correct_value": null,
+"note": "UNDP estimates 20–25 years for the process, while Ludwig et al. describe construction extending over decades or centuries and explain that the bridges strengthen through continued biological growth and root fusion; these estimates concern different stages of development.",
+"sources": [
+{
+"title": "Conserving the living root bridges of Meghalaya",
+"publisher": "United Nations Development Programme",
+"url": "https://www.undp.org/stories/conserving-living-root-bridges-meghalaya",
+"type": "goc",
+"published": null
+},
+{
+"title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+"publisher": "Scientific Reports / Nature",
+"url": "https://www.nature.com/articles/s41598-019-48652-w",
+"type": "goc",
+"published": "2019-08-22"
+},
+{
+"title": "Living bridges",
+"publisher": "Technical University of Munich",
+"url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/35782",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C38",
+"verdict": "sai",
+"correct_value": "Jingkieng Jri / Lyucharai Cultural Landscape; UNESCO records the nomination as received on 27 January 2026 for examination at the 49th World Heritage Committee session in 2027.",
+"note": "UNESCO confirms the January 2026 nomination and 2027 evaluation cycle, but its official nomination list spells the title Lyucharai, not Lyu Chrai; the tentative-list entry dates from 2022 and no 2026–27 decision is recorded in the searched material.",
+"sources": [
+{
+"title": "List of nominations received by 30 January 2026 for examination by the World Heritage Committee at its 49th session in 2027",
+"publisher": "UNESCO World Heritage Centre",
+"url": "https://whc.unesco.org/document/225905",
+"type": "goc",
+"published": null
+},
+{
+"title": "Jingkieng jri: Living Root Bridge Cultural Landscapes",
+"publisher": "UNESCO World Heritage Centre",
+"url": "https://whc.unesco.org/en/tentativelists/6606/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C39",
+"verdict": "dung",
+"correct_value": null,
+"note": "Research and reporting support matrilineal descent, the youngest daughter's custodial responsibilities over ancestral property, and customary restrictions on disposing of that property without family or maternal-uncle consent; the precise arrangements can vary between families.",
+"sources": [
+{
+"title": "Explained: A proposed Bill and its possible ramifications in matrilineal Meghalaya",
+"publisher": "The Indian Express",
+"url": "https://indianexpress.com/article/explained/explained-a-proposed-bill-and-its-possible-ramifications-in-matrilineal-meghalaya-7603014/",
+"type": "bao",
+"published": "2021-11-02"
+},
+{
+"title": "Sociocultural Changes in the Khasi Tribe of Meghalaya",
+"publisher": "Centre for Research and Communication",
+"url": "https://www.crvp.org/publications/Series-IIIB/IIIB-16.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Changing gender roles and relations in food provisioning among matrilineal Khasi and patrilineal Chakhesang Indigenous rural People of North-East India",
+"publisher": "Maternal & Child Nutrition",
+"url": "https://doi.org/10.1111/MCN.12560",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C40",
+"verdict": "dung",
+"correct_value": null,
+"note": "The 2021 Bill proposes sharing ancestral property among all children and remained pending at KHADC when the Council revived its Select Committee review in June 2026.",
+"sources": [
+{
+"title": "Meghalaya: KHADC revives stalled review of Khasi Inheritance of Property Bill",
+"publisher": "NE NOW",
+"url": "https://nenow.in/north-east-news/meghalaya/meghalaya-khadc-revives-stalled-review-of-khasi-inheritance-of-property-bill.html",
+"type": "bao",
+"published": "2026-06-18"
+},
+{
+"title": "Meghalaya: District council to introduce Bill changing age-old Khasi matrilineal inheritance custom",
+"publisher": "The Indian Express",
+"url": "https://indianexpress.com/article/north-east-india/meghalaya/meghalaya-bill-change-khasi-matrilineal-inheritance-custom-7594026/",
+"type": "bao",
+"published": "2021-11-01"
+}
+]
+}
+]

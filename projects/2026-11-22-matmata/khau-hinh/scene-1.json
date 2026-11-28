@@ -1,0 +1,333 @@
+{
+ "metadata": {
+  "nguon": "tao_khau_hinh.py (bien do + moc tu)",
+  "fps": 30
+ },
+ "mouthCues": [
+  {
+   "start": 0.0,
+   "end": 0.3,
+   "value": "X"
+  },
+  {
+   "start": 0.3,
+   "end": 0.467,
+   "value": "C"
+  },
+  {
+   "start": 0.467,
+   "end": 0.833,
+   "value": "D"
+  },
+  {
+   "start": 0.833,
+   "end": 0.967,
+   "value": "X"
+  },
+  {
+   "start": 0.967,
+   "end": 1.2,
+   "value": "F"
+  },
+  {
+   "start": 1.2,
+   "end": 1.467,
+   "value": "C"
+  },
+  {
+   "start": 1.467,
+   "end": 1.633,
+   "value": "X"
+  },
+  {
+   "start": 1.633,
+   "end": 1.9,
+   "value": "B"
+  },
+  {
+   "start": 1.9,
+   "end": 2.033,
+   "value": "C"
+  },
+  {
+   "start": 2.033,
+   "end": 2.633,
+   "value": "X"
+  },
+  {
+   "start": 2.633,
+   "end": 2.733,
+   "value": "D"
+  },
+  {
+   "start": 2.733,
+   "end": 2.933,
+   "value": "C"
+  },
+  {
+   "start": 2.933,
+   "end": 3.0,
+   "value": "B"
+  },
+  {
+   "start": 3.0,
+   "end": 3.5,
+   "value": "C"
+  },
+  {
+   "start": 3.5,
+   "end": 3.667,
+   "value": "F"
+  },
+  {
+   "start": 3.667,
+   "end": 3.933,
+   "value": "F"
+  },
+  {
+   "start": 3.933,
+   "end": 4.067,
+   "value": "B"
+  },
+  {
+   "start": 4.067,
+   "end": 4.6,
+   "value": "X"
+  },
+  {
+   "start": 4.6,
+   "end": 4.7,
+   "value": "D"
+  },
+  {
+   "start": 4.7,
+   "end": 4.833,
+   "value": "D"
+  },
+  {
+   "start": 4.833,
+   "end": 4.933,
+   "value": "X"
+  },
+  {
+   "start": 4.933,
+   "end": 5.0,
+   "value": "B"
+  },
+  {
+   "start": 5.0,
+   "end": 5.233,
+   "value": "C"
+  },
+  {
+   "start": 5.233,
+   "end": 5.333,
+   "value": "D"
+  },
+  {
+   "start": 5.333,
+   "end": 5.4,
+   "value": "C"
+  },
+  {
+   "start": 5.4,
+   "end": 5.533,
+   "value": "D"
+  },
+  {
+   "start": 5.533,
+   "end": 5.633,
+   "value": "B"
+  },
+  {
+   "start": 5.633,
+   "end": 5.8,
+   "value": "D"
+  },
+  {
+   "start": 5.8,
+   "end": 5.9,
+   "value": "B"
+  },
+  {
+   "start": 5.9,
+   "end": 5.967,
+   "value": "D"
+  },
+  {
+   "start": 5.967,
+   "end": 6.233,
+   "value": "C"
+  },
+  {
+   "start": 6.233,
+   "end": 6.367,
+   "value": "X"
+  },
+  {
+   "start": 6.367,
+   "end": 6.5,
+   "value": "C"
+  },
+  {
+   "start": 6.5,
+   "end": 6.633,
+   "value": "G"
+  },
+  {
+   "start": 6.633,
+   "end": 6.7,
+   "value": "B"
+  },
+  {
+   "start": 6.7,
+   "end": 6.767,
+   "value": "F"
+  },
+  {
+   "start": 6.767,
+   "end": 6.967,
+   "value": "B"
+  },
+  {
+   "start": 6.967,
+   "end": 7.533,
+   "value": "X"
+  },
+  {
+   "start": 7.533,
+   "end": 7.867,
+   "value": "D"
+  },
+  {
+   "start": 7.867,
+   "end": 8.133,
+   "value": "D"
+  },
+  {
+   "start": 8.133,
+   "end": 8.3,
+   "value": "B"
+  },
+  {
+   "start": 8.3,
+   "end": 8.867,
+   "value": "X"
+  },
+  {
+   "start": 8.867,
+   "end": 9.033,
+   "value": "D"
+  },
+  {
+   "start": 9.033,
+   "end": 9.1,
+   "value": "B"
+  },
+  {
+   "start": 9.1,
+   "end": 9.5,
+   "value": "X"
+  },
+  {
+   "start": 9.5,
+   "end": 9.6,
+   "value": "D"
+  },
+  {
+   "start": 9.6,
+   "end": 9.733,
+   "value": "D"
+  },
+  {
+   "start": 9.733,
+   "end": 9.8,
+   "value": "C"
+  },
+  {
+   "start": 9.8,
+   "end": 9.867,
+   "value": "B"
+  },
+  {
+   "start": 9.867,
+   "end": 10.6,
+   "value": "X"
+  },
+  {
+   "start": 10.6,
+   "end": 10.733,
+   "value": "C"
+  },
+  {
+   "start": 10.733,
+   "end": 10.9,
+   "value": "D"
+  },
+  {
+   "start": 10.9,
+   "end": 11.033,
+   "value": "X"
+  },
+  {
+   "start": 11.033,
+   "end": 11.1,
+   "value": "D"
+  },
+  {
+   "start": 11.1,
+   "end": 11.333,
+   "value": "C"
+  },
+  {
+   "start": 11.333,
+   "end": 11.4,
+   "value": "B"
+  },
+  {
+   "start": 11.4,
+   "end": 11.5,
+   "value": "C"
+  },
+  {
+   "start": 11.5,
+   "end": 11.6,
+   "value": "B"
+  },
+  {
+   "start": 11.6,
+   "end": 12.0,
+   "value": "C"
+  },
+  {
+   "start": 12.0,
+   "end": 12.067,
+   "value": "C"
+  },
+  {
+   "start": 12.067,
+   "end": 12.2,
+   "value": "D"
+  },
+  {
+   "start": 12.2,
+   "end": 12.3,
+   "value": "C"
+  },
+  {
+   "start": 12.3,
+   "end": 12.567,
+   "value": "B"
+  },
+  {
+   "start": 12.567,
+   "end": 12.867,
+   "value": "B"
+  },
+  {
+   "start": 12.867,
+   "end": 13.233,
+   "value": "X"
+  }
+ ]
+}

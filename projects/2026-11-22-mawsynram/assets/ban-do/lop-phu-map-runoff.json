@@ -1,0 +1,11 @@
+{ "id": "map-runoff",
+  "lop": [
+    { "loai": "vung", "vong": [[90.9,25.25],[92.3,25.25],[92.3,24.97],[91.95,24.96],[91.75,24.97],[91.4,24.98],[90.9,25.0]], "hoa_tiet": "song-nuoc", "mau": "#3f6a70", "cat_theo_nuoc": "BGD", "ghi_chu": "đồng bằng ngập phía bắc Sylhet (gợi lũ 2022, không số liệu); cắt theo biên Bangladesh" },
+    { "loai": "duong", "diem": [[90.75,25.4],[90.78,25.3],[90.74,25.22],[90.78,25.12],[90.76,25.04]], "mau": "#3f6a70", "day": 3.5, "ghi_chu": "suối giản lược" },
+    { "loai": "duong", "diem": [[91.1,25.42],[91.07,25.33],[91.12,25.24],[91.09,25.15],[91.13,25.05]], "mau": "#3f6a70", "day": 3.5, "ghi_chu": "suối giản lược" },
+    { "loai": "duong", "diem": [[91.4,25.38],[91.43,25.29],[91.39,25.21],[91.44,25.12],[91.42,25.03]], "mau": "#3f6a70", "day": 3.5, "ghi_chu": "suối giản lược" },
+    { "loai": "duong", "diem": [[91.95,25.36],[91.92,25.28],[91.97,25.2],[91.94,25.11],[91.98,25.02]], "mau": "#3f6a70", "day": 3.5, "ghi_chu": "suối giản lược" },
+    { "loai": "duong", "diem": [[92.25,25.34],[92.22,25.25],[92.27,25.17],[92.24,25.08]], "mau": "#3f6a70", "day": 3.5, "ghi_chu": "suối giản lược" },
+    { "loai": "mui-ten", "diem": [[91.62,25.25],[91.64,25.13],[91.66,25.01]], "mau": "#3f6a70", "day": 10, "ghi_chu": "run-off, hướng nam" } ],
+  "nhan": [ { "lon": 91.8, "lat": 25.235, "label": "run-off" } ],
+  "huong_nhan": { "Mawsynram": "phai", "Sylhet": "phai" } }

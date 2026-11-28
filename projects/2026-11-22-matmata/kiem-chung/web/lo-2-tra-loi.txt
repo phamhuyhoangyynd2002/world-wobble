@@ -1,0 +1,213 @@
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "Peer-reviewed research confirms that jessour are small earth dams built across gullies and wadi channels to intercept runoff and sediment, forming agricultural terraces used for olives, figs, date palms and other crops.",
+"sources": [
+{
+"title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+"publisher": "Biodiversity and Conservation (Springer)",
+"url": "https://link.springer.com/article/10.1007/s10531-021-02286-5",
+"type": "khac",
+"published": null
+},
+{
+"title": "Study Site Database",
+"publisher": "Wageningen University & Research",
+"url": "https://edepot.wur.nl/263494",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": null,
+"note": "The research explicitly states that sediment accumulates behind the tabias after successive floods, requiring the dams to be raised and sometimes reaching heights exceeding 5 metres.",
+"sources": [
+{
+"title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+"publisher": "Biodiversity and Conservation (Springer)",
+"url": "https://link.springer.com/article/10.1007/s10531-021-02286-5",
+"type": "khac",
+"published": null
+},
+{
+"title": "Supplemental irrigation and water harvesting in Tunisia",
+"publisher": "CGIAR",
+"url": "https://mel.cgiar.org/reporting/download/hash/ZyboKy5o",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": null,
+"note": "Scientific studies confirm that runoff harvesting increases available soil moisture and enables olive and other fruit trees to grow beyond their normal climatic cultivation limits in southeastern Tunisia.",
+"sources": [
+{
+"title": "Benefits of Water-Harvesting Systems (Jessour) on Soil Water Retention in Southeast Tunisia",
+"publisher": "Water (MDPI)",
+"url": "https://www.mdpi.com/2073-4441/12/1/295",
+"type": "khac",
+"published": null
+},
+{
+"title": "Effect of traditional check dams (jessour) on soil and olive trees water status in Tunisia",
+"publisher": "Science of the Total Environment (Elsevier)",
+"url": "https://www.sciencedirect.com/science/article/pii/S0048969719330876",
+"type": "khac",
+"published": "2019-11-10"
+},
+{
+"title": "Upstream-Downstream Influence of Water Harvesting Techniques (Jessour) on Soil Water Retention in Southeast Tunisia",
+"publisher": "Water (MDPI)",
+"url": "https://www.mdpi.com/2073-4441/15/7/1361",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": null,
+"note": "An academic architectural study confirms that olive granaries are elevated approximately half or one level above the courtyard, with a roof pipe allowing olives to be unloaded directly from outside using a camel; another study documents elevated granary rooms and upper openings for depositing grain.",
+"sources": [
+{
+"title": "Tangible and Intangible Heritage of the Mediterranean",
+"publisher": "Open Book Publishers",
+"url": "https://books.openbookpublishers.com/10.11647/obp.0388.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C13",
+"verdict": "sai",
+"correct_value": "A rainwater collection cistern or tank is commonly located in the courtyard; the searched sources do not establish a central well 3–4 metres deep.",
+"note": "Architectural research describes a central cistern for collecting rainwater and a courtyard drainage arrangement, not a well of the specified depth that prevents flooding; the claimed 3–4-metre measurement remains unsupported.",
+"sources": [
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Matmata",
+"publisher": "Explore with MWNF",
+"url": "https://explore.museumwnf.org/countries/c-tn/l-476/m-1044",
+"type": "khac",
+"published": null
+},
+{
+"title": "Matmata's Pit Houses: Ancient Wonder or a Younger Amazigh Achievement?",
+"publisher": "Ancient Origins",
+"url": "https://www.ancient-origins.net/news-history-archaeology/matmata-pit-houses-tunisia-how-old-00103300",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches found evidence of grain grinding and bread preparation in Matmata households, but did not find sufficiently reliable documentation establishing that the traditional courtyard specifically served all three listed activities, including drying figs.",
+"sources": [
+{
+"title": "Visiting the Ben Nasrs in their troglodyte house, Matmata, Tunisia",
+"publisher": "Rashmee Roshan Lall",
+"url": "https://www.rashmee.com/visiting-the-ben-nasrs-in-their-troglodyte-house-matmata-tunisia/",
+"type": "bao",
+"published": null
+},
+{
+"title": "The wealth of heritage and cultural tourism in Tunisia through two different cases: the archipelago of Kerkena and the mountains of southeastern Tunisia",
+"publisher": "Journal of Tourism and Heritage Research",
+"url": "https://dialnet.unirioja.es/descarga/articulo/7554075.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "dung",
+"correct_value": null,
+"note": "Geological research documents loess deposits approximately 10–20 metres thick in the Matmata depressions, while research discussing the local dwelling construction confirms that this cohesive material can be excavated with simple agricultural tools without the walls crumbling.",
+"sources": [
+{
+"title": "Les accumulations calcaires dans les limons de Matmata de la région de Gabès en Tunisie",
+"publisher": "Persée",
+"url": "https://www.persee.fr/doc/sgeol_0302-2692_1984_num_37_4_1680",
+"type": "khac",
+"published": null
+},
+{
+"title": "Paléosols d'âge Pléistocène supérieur dans les loess des Matmata (Sud Tunisien)",
+"publisher": "Persée",
+"url": "https://www.persee.fr/doc/sgeol_0302-2692_1984_num_37_4_1679",
+"type": "khac",
+"published": null
+},
+{
+"title": "Matmata's Pit Houses: Ancient Wonder or a Younger Amazigh Achievement?",
+"publisher": "Ancient Origins",
+"url": "https://www.ancient-origins.net/news-history-archaeology/matmata-pit-houses-tunisia-how-old-00103300",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "mau-thuan",
+"correct_value": "Courtyard diameters are reported at approximately 5–10 metres or 7–15 metres; reported depths range from approximately 3–7 metres to 5–10 metres, depending on the source and dwelling.",
+"note": "The general description of a deep courtyard with rooms excavated laterally and minimal conventional construction materials is supported, but published dimensions vary: some sources report 3–7 metres deep while others report 5–10 metres, and courtyard widths also vary.",
+"sources": [
+{
+"title": "Matmata",
+"publisher": "Ksour.org",
+"url": "https://www.ksour.org/atlas/matmata",
+"type": "khac",
+"published": null
+},
+{
+"title": "The underground houses of Matmata benefit from",
+"publisher": "Gazi University",
+"url": "https://abis-files.gazi.edu.tr/avesis/79f7bc63-a37c-4ff1-9486-bc6c72fb55e5?AWSAccessKeyId=XSO45GTNG2LKZD8YO90K&Expires=1794010051&Signature=OG1pTWqDL6JVfSsSHx0qj%2Fn46Y0%3D",
+"type": "khac",
+"published": null
+},
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Matmata | Explore with MWNF",
+"publisher": "Explore with MWNF",
+"url": "https://explore.museumwnf.org/countries/c-tn/l-476/m-1044",
+"type": "khac",
+"published": null
+}
+]
+}
+]

@@ -5,8 +5,10 @@
  *   node .claude/skills/lay-tai-nguyen/scripts/ve_ban_do.mjs <thư mục dự án> --id map-yakutia \
  *     --center 142.79,63.46 --zoom 6 [--projection orthographic|mercator|naturalEarth] \
  *     [--highlight RUS] [--mark "142.79,63.46,Oymyakon"] [--mark "129.73,62.03,Yakutsk"] [--scenes 1,2] \
- *     [--anchor 1320,560]
+ *     [--anchor 1320,560] [--fill "BGD,MMR=#f7f0e1"] [--fill "*=#f7f0e1"]
  *
+ * - --fill MÃ,MÃ=#hex (lặp được, "*" = mọi nước còn lại): tô láng giềng giấy nhạt hơn, trung tính (thêm 29/11/2026).
+ * - Mũi tên, nét đứt, vùng gạch: chạy tiếp lop_phu_ban_do.mjs với file mô tả lớp phủ (cùng phép chiếu, đọc từ manifest).
  * - Dữ liệu: ne_10m_admin_0_countries_vnm (Natural Earth, bản theo QUAN ĐIỂM VIỆT NAM), tải một lần vào .cache/.
  *   Không đổi sang bản mặc định khi bản đồ có vùng Biển Đông (.claude/rules/chinh-xac-va-ban-quyen.md, mục 6).
  * - --zoom 1 là cả quả địa cầu (orthographic) hoặc cả thế giới; số lớn hơn là gần hơn.
@@ -29,12 +31,13 @@ const EAST_SEA = { lon: [99, 125], lat: [0, 26] };
 const C = { ocean: "#3f6a70", land: "#efe3c8", border: "#8a7a5c", highlight: "#e0703a", graticule: "#ffffff22", mark: "#e85d45" }; // theo templates/_shared/frame.md (chốt 15/11/2026)
 
 function args(argv) {
-  const out = { mark: [], projection: "orthographic", zoom: 1 };
+  const out = { mark: [], fill: [], projection: "orthographic", zoom: 1 };
   out.project = argv[0];
   for (let i = 1; i < argv.length; i++) {
     const k = argv[i].replace(/^--/, "");
     const v = argv[i + 1];
     if (k === "mark") out.mark.push(v);
+    else if (k === "fill") out.fill.push(v);
     else out[k] = v;
     i++;
   }
@@ -120,6 +123,13 @@ async function main() {
   const p = geoPath({ stream: (out) => projection.stream(thin(out)) }).digits(1);
   const pRaw = geoPath(projection).digits(1); // cho đường kinh vĩ tuyến (đường hở, không lọc)
   const hl = (a.highlight || "").split(",").filter(Boolean);
+  // --fill "BGD,MMR=#f7f0e1" (lặp được; mã "*" = mọi nước còn lại): tô nước láng giềng nhạt hơn mà không làm nổi nước nào
+  const fills = {};
+  for (const f of a.fill) {
+    const [codes, color] = f.split("=");
+    if (!/^#[0-9a-fA-F]{3,8}$/.test(color || "")) throw new Error(`--fill sai dạng: ${f} (cần MÃ,MÃ=#hex)`);
+    for (const c of codes.split(",").filter(Boolean)) fills[c] = color;
+  }
   const parts = [];
   parts.push(`<rect width="${W}" height="${H}" fill="${C.ocean}"/>`);
   if (a.projection === "orthographic" || !a.projection) {
@@ -130,7 +140,7 @@ async function main() {
     const d = p(f);
     if (!d) continue;
     const code = f.properties.ADM0_A3 || f.properties.ISO_A3;
-    const fill = hl.includes(code) ? C.highlight : C.land;
+    const fill = hl.includes(code) ? C.highlight : fills[code] || fills["*"] || C.land;
     parts.push(`<path d="${d}" fill="${fill}" stroke="${C.border}" stroke-width="1.2" stroke-linejoin="round"/>`);
   }
   const marks = [];
@@ -167,6 +177,7 @@ async function main() {
     zoom,
     anchor: [ax, ay],
     highlight: hl,
+    ...(Object.keys(fills).length ? { fill: fills } : {}),
     marks,
     vung_bien_dong: eastSea,
     // vẽ lại là phải xem lại: không giữ dấu đã kiểm của bản cũ

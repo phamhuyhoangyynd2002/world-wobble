@@ -1,0 +1,6 @@
+{ "id": "map-matmata",
+  "lop": [
+    { "loai": "duong", "diem": [[10.181,36.806],[9.75,35.6],[9.72,34.4],[9.967,33.543]], "mau": "#e0703a", "day": 6, "net_dut": [20,13], "ghi_chu": "Tunis → Matmata, nét đứt cong nhẹ về tây để không đè ghim Gabès" } ],
+  "nhan": [ { "lon": 9.0, "lat": 35.1, "label": "~365 km", "nhan_huong": "trai" } ],
+  "huong_nhan": { "Matmata": "trai", "Gabès": "phai", "Tunis": "phai" },
+  "ghim_nho": ["Tunis", "Gabès"] }

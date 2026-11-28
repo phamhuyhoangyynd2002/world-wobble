@@ -1,0 +1,8 @@
+{ "id": "map-khasi-slopes",
+  "lop": [
+    { "loai": "duong", "diem": [[91.0,25.245],[91.25,25.25],[91.45,25.258],[91.6,25.262],[91.75,25.252],[91.9,25.245],[92.1,25.235],[92.3,25.225],[92.5,25.22]], "mau": "#8a5a3a", "day": 6, "ghi_chu": "mép nam cao nguyên, giản lược (không phải đường đồng mức thật)" },
+    { "loai": "vung", "vong": [[91.66,25.235],[91.8,25.24],[91.96,25.228],[91.97,25.19],[91.85,25.178],[91.7,25.182]], "hoa_tiet": "gach-cheo", "mau": "#8a5a3a", "cat_theo_nuoc": "IND", "ghi_chu": "root-bridge villages (lower slopes, approx.): vùng phỏng chừng, không ghim làng cụ thể; cắt theo biên Ấn Độ" },
+    { "loai": "mui-ten", "diem": [[91.583,25.287],[91.588,25.245],[91.605,25.215],[91.63,25.207],[91.655,25.207]], "mau": "#e0703a", "day": 6, "net_dut": [16,11], "ghi_chu": "đường đi nét đứt từ Mawsynram xuống nam rồi sang đông, dùng cảnh 10" } ],
+  "nhan": [ { "lon": 91.975, "lat": 25.212, "label": "root-bridge villages (lower slopes, approx.)", "nhan_huong": "phai", "ghi_chu": "nhãn dài: thợ dựng xuống hai dòng root-bridge villages | (lower slopes, approx.)" } ],
+  "huong_nhan": { "Mawsynram": "trai", "Sohra (Cherrapunji)": "phai", "Shillong": "phai" },
+  "ghim_nho": ["Shillong"] }

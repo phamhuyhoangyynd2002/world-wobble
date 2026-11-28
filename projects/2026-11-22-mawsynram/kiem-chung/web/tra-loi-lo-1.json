@@ -1,0 +1,192 @@
+[
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "Mawsynram is in the Khasi Hills of Meghalaya in northeast India, although the description as a cluster of villages is less clearly established than its identification as a town and surrounding village area.",
+"sources": [
+{
+"title": "District Profile | East Khasi Hills",
+"publisher": "Government of Meghalaya",
+"url": "https://eastkhasihills.gov.in/district-profile/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Mawsynram",
+"publisher": "Meghalaya Tourism",
+"url": "https://www.meghalayatourism.in/experiences/adventure-%26-outdoor/living-root-bridges/mawsynram/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C02",
+"verdict": "dung",
+"correct_value": "East Khasi Hills district; 1,431 m (4,695 ft); approximately 25°18'N, 91°35'E.",
+"note": "The WMO confirms the elevation and coordinates, while the district government confirms the southern plateau escarpment and the border with Bangladesh.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+},
+{
+"title": "District Profile | East Khasi Hills",
+"publisher": "Government of Meghalaya",
+"url": "https://eastkhasihills.gov.in/district-profile/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": "11,872 mm (11.872 m) average annual rainfall; WMO Region II (Asia); 38 years, 1941–1979.",
+"note": "The WMO explicitly identifies Mawsynram as the holder of the greatest average annual rainfall record in its Asia region.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": "11,872 mm (467.4 inches); 38 years of record, 1941–1979; Mawsynram, India.",
+"note": "The WMO's regional extremes archive confirms the rainfall figure, location, elevation and 38-year observation period.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+},
+{
+"title": "Records of Weather and Climate Extremes",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/sites/default/files/2024-07/Table_Records_02Jul2024.pdf",
+"type": "goc",
+"published": "2024-07-02"
+}
+]
+},
+{
+"id": "C05",
+"verdict": "dung",
+"correct_value": "11,872 mm = 11.872 m = approximately 38.95 feet.",
+"note": "The conversion is mathematically correct, and a 9–10 m three-storey building is a reasonable illustrative comparison rather than a standardized building-height measurement.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "mau-thuan",
+"correct_value": "Mawsynram: 11,872 mm/year in the WMO regional record; Cherrapunji: 26,470 mm over 12 months (August 1860–July 1861); López de Micay: reported historical average of 12,892.4 mm/year; Lloró: reported historical average of 12,717 mm/year.",
+"note": "The distinction between the WMO's evaluated regional records and competing Colombian rainfall datasets makes the worldwide wettest-place designation dependent on the dataset and observation period; the specific 2013 IMD official statement was not independently verified.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+},
+{
+"title": "Global: Greatest 12-Month Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_043",
+"type": "goc",
+"published": null
+},
+{
+"title": "Where is the world's rainiest city?",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/cities/2019/jun/07/where-is-the-worlds-rainiest-city",
+"type": "bao",
+"published": "2019-06-07"
+},
+{
+"title": "On the general circulation of the atmosphere around Colombia",
+"publisher": "Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales",
+"url": "https://pdfs.semanticscholar.org/f6da/1301d43af2d8f97ac88b8f899afbec469f15.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "WETTEST PLACE ON THE EARTH: MAWSYNRAM",
+"publisher": "Jamia Millia Islamia University",
+"url": "https://www.jmi.ac.in/upload/menuupload/fns_geo_ejournal2016.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "sai",
+"correct_value": "A rain museum was reported as a Rs 25 crore proposal on December 29, 2025. By April 15, 2026, it was reported to be under construction with a stated project cost of Rs 27 crore.",
+"note": "The December 2025 proposal is supported, but the claim that construction had not begun by late 2026 is contradicted by an April 2026 report explicitly stating that construction was underway.",
+"sources": [
+{
+"title": "Rs 25 crore rain museum to put Meghalaya’s Mawsynram on global tourism map",
+"publisher": "Meghalaya Today",
+"url": "https://meghalayatoday.com/rs-25-crore-rain-museum-to-put-meghalayas-mawsynram-on-global-tourism-map/",
+"type": "bao",
+"published": "2025-12-29"
+},
+{
+"title": "Rs 27-cr rain museum in Mawsynram to be ready in a year: Suin",
+"publisher": "The Meghalayan Express",
+"url": "https://themeghalayanexpress.com/rs-27-cr-rain-museum-in-mawsynram-to-be-ready-in-a-year-suin/",
+"type": "bao",
+"published": "2026-04-15"
+},
+{
+"title": "Development of Rain and Bamboo Interpretation Center and related works at Mawsynram-Dongrum",
+"publisher": "Meghalaya eTenders / TenderKart",
+"url": "https://tenderkart.in/tender/a6c1c47d-1f21-43cf-bff9-323e1737f75a",
+"type": "khac",
+"published": "2025-04-16"
+}
+]
+},
+{
+"id": "C08",
+"verdict": "dung",
+"correct_value": "61 km from Shillong by road, according to Meghalaya Tourism.",
+"note": "The official Meghalaya Tourism destination page explicitly gives the distance from Shillong as 61 km.",
+"sources": [
+{
+"title": "Mawsynram",
+"publisher": "Meghalaya Tourism",
+"url": "https://www.meghalayatourism.in/experiences/adventure-%26-outdoor/living-root-bridges/mawsynram/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Mawsynram: Meghalaya's Rain Capital",
+"publisher": "Meghalaya Tourism",
+"url": "https://rc-www.meghalayatourism.in/destinations/mawsynram/",
+"type": "goc",
+"published": null
+}
+]
+}
+]

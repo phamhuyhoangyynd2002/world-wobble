@@ -1,0 +1,182 @@
+{
+  "assets": {
+    "map-matmata": {
+      "file": "assets/ban-do/map-matmata.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        9.967,
+        33.543
+      ],
+      "zoom": 21.4,
+      "anchor": [
+        1320,
+        560
+      ],
+      "highlight": [],
+      "fill": {
+        "*": "#f7f0e1",
+        "TUN": "#efe3c8"
+      },
+      "marks": [
+        {
+          "x": 1320,
+          "y": 560,
+          "label": "Matmata",
+          "lon": 9.967,
+          "lat": 33.543,
+          "nhan_huong": "trai"
+        },
+        {
+          "x": 1344,
+          "y": 104,
+          "label": "Tunis",
+          "lon": 10.181,
+          "lat": 36.806,
+          "nhan_huong": "phai",
+          "co": "nho"
+        },
+        {
+          "x": 1335,
+          "y": 514,
+          "label": "Gabès",
+          "lon": 10.098,
+          "lat": 33.881,
+          "nhan_huong": "phai",
+          "co": "nho"
+        },
+        {
+          "x": 1210,
+          "y": 345,
+          "label": "~365 km",
+          "lon": 9,
+          "lat": 35.1,
+          "ghim": false,
+          "nhan_huong": "trai"
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [
+        {
+          "loai": "duong",
+          "ghi_chu": "Tunis → Matmata, nét đứt cong nhẹ về tây để không đè ghim Gabès"
+        }
+      ],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-matmata.json",
+      "khung_lonlat": {
+        "tay": -1.6,
+        "dong": 15.22,
+        "nam": 29.66,
+        "bac": 37.53
+      },
+      "nguon_toa_do": {
+        "Matmata": "research.md (33.543, 9.967); OSM Nominatim 'Matmata Ancienne' 33.5457, 9.9671",
+        "Tunis": "research.md (36.806, 10.181)",
+        "Gabès": "research.md (33.881, 10.098); Wikipedia 33.883, 10.117"
+      },
+      "ghi_chu": "Lệch có chủ ý: visual_hint 29.5–38.5°N × 4–14.5°E không vừa 16:9 khi giữ anchor 1320,560; dùng zoom 21.4 → xem khung_lonlat. Tô TUN #efe3c8, mọi nước khác giấy nhạt #f7f0e1 (DZA, LBY, ITA, MLT; một mẩu MAR ở mép trái và góc ESP 56×19px ngoài vùng an toàn). Không có Tây Sahara (ở nam 27.7°N, ngoài khung). Lớp phủ: nét đứt Tunis → Matmata cong nhẹ về tây để không đè ghim Gabès; nhãn '~365 km' (khẳng định C03, nguồn S1/S13; khoảng cách chim bay tự tính ~363 km nên nhãn khớp) là mark ghim:false. Không vẽ khe núi, jessour, ô liu.",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    },
+    "map-matmata-local": {
+      "file": "assets/ban-do/map-matmata-local.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        9.967,
+        33.543
+      ],
+      "zoom": 259.26,
+      "anchor": [
+        860,
+        760
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 860,
+          "y": 760,
+          "label": "Matmata",
+          "lon": 9.967,
+          "lat": 33.543,
+          "nhan_huong": "phai"
+        },
+        {
+          "x": 926,
+          "y": 552,
+          "label": "New Matmata",
+          "lon": 10.015,
+          "lat": 33.668,
+          "nhan_huong": "phai"
+        },
+        {
+          "x": 1041,
+          "y": 198,
+          "label": "Gabès",
+          "lon": 10.098,
+          "lat": 33.881,
+          "nhan_huong": "trai",
+          "co": "nho"
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [
+        {
+          "loai": "vung",
+          "hoa_tiet": "gach-cheo",
+          "cat_theo_nuoc": "TUN",
+          "ghi_chu": "đồi Dahar/núi Matmata phía tây nam, giản lược"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "Matmata ↔ New Matmata, không ghi km"
+        }
+      ],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-matmata-local.json",
+      "khung_lonlat": {
+        "tay": 9.35,
+        "dong": 10.73,
+        "nam": 33.35,
+        "bac": 34
+      },
+      "nguon_toa_do": {
+        "Matmata": "research.md (33.543, 9.967); OSM Nominatim 'Matmata Ancienne' 33.5457, 9.9671",
+        "New Matmata": "Kiểm 29/11/2026: Wikipedia tiếng Anh (S28) chỉ ghi thô 33.63, 10.06 (lệch ~5 km); Wikipedia tiếng Pháp 'Nouvelle Matmata' 33.6677, 10.0150; OpenStreetMap Nominatim node town 352752197 'مطماطة الجديدة' 33.6689, 10.0144. Hai nguồn sau khớp nhau → ghim 33.668, 10.015 (gần giá trị phỏng chừng 33.66, 10.02 của script). Matmata → New Matmata ~14,7 km chim bay (số tự tính, không ghi lên bản đồ).",
+        "Gabès": "research.md (33.881, 10.098); Wikipedia 33.883, 10.117"
+      },
+      "ghi_chu": "Lệch có chủ ý: visual_hint 33.35–34.0°N × 9.7–10.35°E không vừa 16:9; dùng 33.35–34.00°N × 9.35–10.73°E. Không tô nước nào (cả khung là Tunisia). Lớp phủ: vùng gạch nâu nhạt đồi Dahar/núi Matmata phía tây nam (giản lược, cắt theo biên TUN), nét đứt thẳng Matmata ↔ New Matmata KHÔNG ghi km. Bờ biển Natural Earth 10m ở tỉ lệ này khá thô (đủ cho sơ đồ).",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    }
+  }
+}

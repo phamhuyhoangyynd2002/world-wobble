@@ -1,0 +1,26 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Mawsynram" (India). The episode asks: "Why do people live in Mawsynram?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C07: The Meghalaya government has a rain museum project at Mawsynram (proposed in December 2025); the museum was not yet open as of late 2026.
+C16: Mawsynram is the headquarters of the Mawsynram community development (C&RD) block in East Khasi Hills, Meghalaya, which had 54,109 people living in well over a hundred villages in the 2011 Census of India.
+C17: The Community Health Centre at Mawsynram runs monthly mobile health outreach clinics to nearby villages; a taxi driver who carries the health team told WHO India (2024) that he has to change his brake pads about every two weeks because of the steep roads.
+C25: At nearby Cherrapunji, Japan Meteorological Agency monthly normals show about 75% of annual rainfall falling from June to September, and an average July day (about 95 mm) brings more rain than the whole of December (about 8 mm).
+C26: In January 2024, Mawsynram's member of the Meghalaya Legislative Assembly, Olan Singh Suin, said some villages in the area run short of drinking water in the dry season because water does not stay on the high hills, and that streams sometimes dry up.
+C33: The India Meteorological Department recorded 1,003.6 mm (about 39.5 inches) of rain at Mawsynram in the 24 hours to 17 June 2022.
+C34: In June 2022, Bangladesh's Flood Forecasting and Warning Centre cited extremely heavy rainfall in Meghalaya and Assam as one cause of the floods in Bangladesh's Sylhet region, which affected millions of people.
+C35: Living root bridges are found in Khasi and Jaintia villages in the hills of Meghalaya, mostly on the lower slopes (a 2015–2017 survey found most between about 250 and 900 m).
+C38: In January 2026 India submitted Meghalaya's living root bridges ('Jingkieng Jri / Lyucharai Cultural Landscape') to UNESCO for World Heritage status, for examination by the World Heritage Committee in 2027.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

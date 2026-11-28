@@ -1,0 +1,148 @@
+[
+ {
+  "id": "C07",
+  "verdict": "khong-ro",
+  "correct_value": null,
+  "note": "No reliable source was found in this search session confirming the specific 10 m ground-temperature stability or the claimed months-long seasonal heat delay.",
+  "sources": []
+ },
+ {
+  "id": "C08",
+  "verdict": "mau-thuan",
+  "correct_value": "Published estimates vary: approximately 147–200 mm annually for the Matmata region, with some studies reporting about 170 mm.",
+  "note": "Regional research supports low and irregular rainfall, but published annual averages differ according to the study area and observation period.",
+  "sources": [
+   {
+    "title": "WEFE nexus management plan for sustainable development and gender equity in the Matmata region, SE Tunisia",
+    "publisher": "Frontiers in Water",
+    "url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2025.1563873/full",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "Landslide risk assessment using digital photogrammetry and Gis multi criteria evaluation IN Matmata region (SE Tunisia)",
+    "publisher": "Research Square",
+    "url": "https://assets-eu.researchsquare.com/files/rs-4659295/v1/192a9198-1d5a-472e-be3d-8711d981f97a.pdf",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C13",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "Architectural research describes a courtyard cistern, usually centrally located, for collecting rainwater.",
+  "sources": [
+   {
+    "title": "Sustainable Architecture and Urban Development",
+    "publisher": "International Conference on Sustainable Architecture and Urban Development",
+    "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "The underground houses of Matmata benefit from the unique properties of the local soil",
+    "publisher": "Gazi University",
+    "url": "https://abis-files.gazi.edu.tr/avesis/79f7bc63-a37c-4ff1-9486-bc6c72fb55e5?AWSAccessKeyId=XSO45GTNG2LKZD8YO90K&Expires=1795046850&Signature=Sp7Q8Wo%2BA6YjGjyjxH7yb3NtsW0%3D",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C16",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "UNESCO and architectural documentation describe a deep central courtyard with rooms excavated horizontally into its surrounding walls, although the claim about requiring almost no building materials is an oversimplification.",
+  "sources": [
+   {
+    "title": "Architectural lessons for the future, via the past",
+    "publisher": "The UNESCO Courier",
+    "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Matmata pit house",
+    "publisher": "Budapest University of Technology and Economics",
+    "url": "https://habitatio.epitesz.bme.hu/en/portfolio/tunisian-pit-house/",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C17",
+  "verdict": "khong-ro",
+  "correct_value": null,
+  "note": "The search found descriptions of vaulted ceilings, but no reliable source establishing the specific room-void-to-overburden stability rule.",
+  "sources": []
+ },
+ {
+  "id": "C20",
+  "verdict": "khong-ro",
+  "correct_value": null,
+  "note": "The search did not locate an Associated Press article or another reliable source independently confirming Mahboub Theouibi's identity and the specific recollections attributed to her.",
+  "sources": []
+ },
+ {
+  "id": "C21",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "Architectural research describes the central courtyard as the principal source of natural daylight for the surrounding underground rooms.",
+  "sources": [
+   {
+    "title": "Analyzing the ecologicality and functionality of kiln architecture in China through KH coder data mining algorithm and hierarchical event coding",
+    "publisher": "Computational Urban Science",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12064666/",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "Architectural lessons for the future, via the past",
+    "publisher": "The UNESCO Courier",
+    "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C24",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "National Geographic explicitly reports that the 1969 flood destroyed many homes around Matmata and Haddej and that residents were offered land in New Matmata for three dinars per square metre.",
+  "sources": [
+   {
+    "title": "What we can learn from the world’s vanishing cave dwellers",
+    "publisher": "National Geographic",
+    "url": "https://www.nationalgeographic.com/culture/article/cave-dwellers-human-adaptation",
+    "type": "bao",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C26",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "Architectural and heritage research documents widespread abandonment and deterioration of traditional troglodyte dwellings in the Matmata area.",
+  "sources": [
+   {
+    "title": "Diagnostic of the landscape area with selected views in ancient Matmata",
+    "publisher": "International Journal of Advanced Engineering Research and Science",
+    "url": "https://ijaers.com/uploads/issue_files/31IJAERS-MAY-2019-107-Diagnostic.pdf",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "Actes du colloque international : tourisme saharien et développement durable",
+    "publisher": "Institut de recherche pour le développement (IRD)",
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-09/010045751.pdf",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ }
+]

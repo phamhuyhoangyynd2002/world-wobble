@@ -1,0 +1,227 @@
+[
+{
+"id": "C09",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The 4 April 2022 landslide at km 33 is confirmed by an official Meghalaya government press release, and a separate news report documents 17 villages being cut off for six days, but the claim that villages were isolated for weeks during May–October was not verified.",
+"sources": [
+{
+"title": "Report on Natural Calamities under East Khasi Hills District on the 4th April, 2022",
+"publisher": "Government of Meghalaya, Deputy Commissioner East Khasi Hills",
+"url": "https://meghalaya.gov.in/sites/default/files/announcement/Press_Release_DDMA_EKH_77.pdf",
+"type": "goc",
+"published": "2022-04-04"
+},
+{
+"title": "Mawsynram landslide: Connectivity restored after 6 days",
+"publisher": "The Northeast Today",
+"url": "https://thenortheasttoday.com/mawsynram-landslide-connectivity-restored-after-6-days/",
+"type": "bao",
+"published": null
+},
+{
+"title": "Mawsynram in India- the wettest place on earth",
+"publisher": "NDTV (AFP)",
+"url": "https://www.ndtv.com/india-news/mawsynram-in-india-the-wettest-place-on-earth-529799",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": null,
+"note": "Cultural heritage documentation confirms that the knup is used around Mawsynram and Cherrapunji, constructed from woven bamboo and dried palm leaves, sometimes supplemented by plastic, and worn over the head and back down to the knees.",
+"sources": [
+{
+"title": "Bamboo Rain Shields of Meghalaya",
+"publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+"url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Bamboo and Cane Culture of Meghalaya",
+"publisher": "Indira Gandhi National Centre for the Arts (IGNCA)",
+"url": "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/bamboo-and-cane-culture-of-meghalaya/",
+"type": "goc",
+"published": null
+},
+{
+"title": "FEATURE: A glimpse at life in the wettest place on Earth",
+"publisher": "Taipei Times (AFP)",
+"url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+"type": "bao",
+"published": "2013-08-04"
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": null,
+"note": "Asia InCH explicitly documents women making rain shields using bamboo moulds and dao (wide-bladed knives), while an AFP report published in 2013 confirms that women in Mawsynram weave knups throughout the rainy season.",
+"sources": [
+{
+"title": "Bamboo Rain Shields of Meghalaya",
+"publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+"url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+"type": "khac",
+"published": null
+},
+{
+"title": "FEATURE: A glimpse at life in the wettest place on Earth",
+"publisher": "Taipei Times (AFP)",
+"url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+"type": "bao",
+"published": "2013-08-04"
+},
+{
+"title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+"publisher": "TheJournal.ie (AFP)",
+"url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": null,
+"note": "Asia InCH explicitly states that the knup allows people to work freely on steep hill slopes without using their hands for additional support or holding an umbrella.",
+"sources": [
+{
+"title": "Bamboo Rain Shields of Meghalaya",
+"publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+"url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+"type": "khac",
+"published": null
+},
+{
+"title": "How Meghalaya’s natural umbrellas are made",
+"publisher": "The Economic Times",
+"url": "https://economictimes.indiatimes.com/magazines/panache/no-plastic-or-metal-only-bamboo-and-palm-leaves-meghalayas-100-year-old-umbrellas-do-not-have-a-handle-but-can-protect-you-from-heavy-rains/articleshow/131740476.cms",
+"type": "bao",
+"published": "2026-06-15"
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": null,
+"note": "WHO's 2024 report on Kenmynsaw, explicitly identified as a village in Mawsynram subdivision, confirms that local smallholdings grow areca nut palms, jackfruit, black pepper, betel leaf, broom grass and bamboo.",
+"sources": [
+{
+"title": "Taking health care to the people, come rain or shine",
+"publisher": "World Health Organization (WHO India)",
+"url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+"type": "goc",
+"published": "2024-06-12"
+},
+{
+"title": "Bamboo Rain Shields of Meghalaya",
+"publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+"url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Sources confirm exceptionally heavy rainfall on Meghalaya's steep southern slopes and significant runoff and soil erosion, but the specific assertion that rainfall runs off quickly from Mawsynram hilltops along the same slopes where these crops are cultivated was not directly established.",
+"sources": [
+{
+"title": "Details of the types of areas covered under the IWMP Programme",
+"publisher": "Government of Meghalaya",
+"url": "https://www.meghalaya.gov.in/meghalaya/sites/default/files/documents/IWMP_V_mawsynram.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Rainforests north of the Tropic of Cancer: Physiognomy, floristics and diversity in 'lowland rainforests' of Meghalaya, India",
+"publisher": "Plant Diversity and Resources",
+"url": "https://html.rhhz.net/PDR/html/1636100863426-857767191.htm",
+"type": "khac",
+"published": null
+},
+{
+"title": "From jhum to broom: Agricultural land-use change and food security implications on the Meghalaya Plateau, India",
+"publisher": "PeerJ / PubMed Central",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4709356/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "WHO confirms that basket weaving and broom making are important household cottage industries in Kenmynsaw using locally produced bamboo, and AFP documents broom grass processing and household broom production, but the complete claim that broom grass is one of the area's main commercial crops was not conclusively verified.",
+"sources": [
+{
+"title": "Taking health care to the people, come rain or shine",
+"publisher": "World Health Organization (WHO India)",
+"url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+"type": "goc",
+"published": "2024-06-12"
+},
+{
+"title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+"publisher": "TheJournal.ie (AFP)",
+"url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+"type": "bao",
+"published": null
+},
+{
+"title": "FEATURE: A glimpse at life in the wettest place on Earth",
+"publisher": "Taipei Times (AFP)",
+"url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+"type": "bao",
+"published": "2013-08-04"
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": null,
+"note": "An official Meghalaya government report confirms that Mawsynram village is the headquarters of the Mawsynram C&RD Block; Census 2011 figures give 54,109 residents and 162 inhabited villages, although some contemporary reporting gives 164 villages when referring to the block.",
+"sources": [
+{
+"title": "Report of the Directorate of Border Areas Development 2013-2015",
+"publisher": "Government of Meghalaya, Directorate of Border Areas Development",
+"url": "https://megbad.gov.in/pdf/Border%20Area%20Report%202013-2015.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "SHB-2025 – Table 1.14: Block-Wise Number of Inhabited Villages, 2011 Census",
+"publisher": "Census Office, Registrar General of India (reproduced in Statistical Handbook 2025)",
+"url": "https://www.scribd.com/document/1072231671/SHB-2025",
+"type": "goc",
+"published": null
+},
+{
+"title": "Mawsynram Sub-district Villages, East Khasi Hills: Census Codes",
+"publisher": "Vill.co.in",
+"url": "https://vill.co.in/meghalaya/east-khasi-hills/mawsynram-298019930/",
+"type": "khac",
+"published": null
+},
+{
+"title": "KSU supports Mawsynram civil sub division demand",
+"publisher": "Meghalaya Monitor",
+"url": "https://meghalayamonitor.com/ksu-supports-mawsynram-civil-sub-division-demand/",
+"type": "bao",
+"published": "2021-07-20"
+}
+]
+}
+]

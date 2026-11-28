@@ -1,0 +1,133 @@
+[
+{
+"id": "C33",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Associated Press reported in April 2018 that Star Wars fans continued visiting Hotel Sidi Driss, where the courtyard used as Luke Skywalker's home was located.",
+"sources": [
+{
+"title": "Visiting the Tunisian desert where 'Star Wars' was filmed",
+"publisher": "Associated Press / KSL.com",
+"url": "https://www.ksl.com/article/46306250",
+"type": "bao",
+"published": "2018-04-23"
+},
+{
+"title": "Star Wars: why the desert in Tunisia was the perfect location for original film, and how to visit the area",
+"publisher": "South China Morning Post / Associated Press",
+"url": "https://www.scmp.com/lifestyle/travel-leisure/article/2144063/star-wars-why-desert-tunisia-was-perfect-location-original",
+"type": "bao",
+"published": "2018-04-30"
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": null,
+"note": "Reuters reported that Saliha Mohamedi let tourists visit her underground home for tips and said leaving would mean throwing away her life and traditions; a few families remained in the traditional houses.",
+"sources": [
+{
+"title": "Last residents hold on in Tunisia’s underground houses",
+"publisher": "Arab News / Reuters",
+"url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+"type": "bao",
+"published": "2018-02-24"
+},
+{
+"title": "In Tunisia, preserving tradition in the last underground homes",
+"publisher": "The World from PRX / Reuters",
+"url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+"type": "bao",
+"published": "2018-02-23"
+},
+{
+"title": "The Wider Image: Last residents hold on in Tunisia's underground houses",
+"publisher": "Reuters Connect",
+"url": "https://www.reutersconnect.com/item/the-wider-image-last-residents-hold-on-in-tunisias-underground-houses/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1JDMTYyMzczODg0MA",
+"type": "goc",
+"published": "2018-02-23"
+}
+]
+},
+{
+"id": "C35",
+"verdict": "dung",
+"correct_value": null,
+"note": "Reuters identified Hedi Ali Kayel as one of the last people in the area who knew how to build and maintain these houses and reported that the last new house he dug was in the 1970s.",
+"sources": [
+{
+"title": "In Tunisia, preserving tradition in the last underground homes",
+"publisher": "The World from PRX / Reuters",
+"url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+"type": "bao",
+"published": "2018-02-23"
+},
+{
+"title": "Last residents hold on in Tunisia's underground houses",
+"publisher": "Arab News / Reuters",
+"url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+"type": "bao",
+"published": "2018-02-24"
+},
+{
+"title": "The last residents of Tunisia’s underground houses",
+"publisher": "Al Jazeera",
+"url": "https://www.aljazeera.com/amp/gallery/2018/2/27/the-last-residents-of-tunisias-underground-houses",
+"type": "bao",
+"published": "2018-02-27"
+}
+]
+},
+{
+"id": "C36",
+"verdict": "dung",
+"correct_value": null,
+"note": "Academic research documents jessour earthworks intercepting runoff in the Matmata mountain region, while Géoconfluences explains that compact geological formations and thick loess deposits allow underground dwellings to be excavated without foundation collapse.",
+"sources": [
+{
+"title": "Les jessour du sud tunisien, mutations d’un système agraire et hydraulique en milieu aride",
+"publisher": "Géoconfluences, École normale supérieure de Lyon",
+"url": "https://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-thematiques/changement-global/articles-scientifiques/les-jessour-du-sud-tunisien",
+"type": "goc",
+"published": null
+},
+{
+"title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+"publisher": "Biodiversity and Conservation / Springer",
+"url": "https://doi.org/10.1007/s10531-021-02286-5",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C37",
+"verdict": "dung",
+"correct_value": null,
+"note": "Reuters quoted Hedi Ali Kayel saying he repairs the houses every time it rains, and separately reported that heavy rain can cause these earthen structures to collapse.",
+"sources": [
+{
+"title": "In Tunisia, preserving tradition in the last underground homes",
+"publisher": "The World from PRX / Reuters",
+"url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+"type": "bao",
+"published": "2018-02-23"
+},
+{
+"title": "Last residents hold on in Tunisia’s underground houses",
+"publisher": "Arab News / Reuters",
+"url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+"type": "bao",
+"published": "2018-02-24"
+},
+{
+"title": "Last Residents Hold on in Tunisia's Underground Houses",
+"publisher": "Africa Defense Forum",
+"url": "https://adf-magazine.com/2018/07/last-residents-hold-on-in-tunisias-underground-houses/",
+"type": "khac",
+"published": null
+}
+]
+}
+]

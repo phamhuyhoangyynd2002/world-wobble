@@ -1,0 +1,383 @@
+{
+  "assets": {
+    "map-mawsynram": {
+      "file": "assets/ban-do/map-mawsynram.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        91.58,
+        25.3
+      ],
+      "zoom": 32.57,
+      "anchor": [
+        1320,
+        193
+      ],
+      "highlight": [],
+      "fill": {
+        "*": "#f7f0e1",
+        "IND": "#efe3c8"
+      },
+      "marks": [
+        {
+          "x": 1320,
+          "y": 193,
+          "label": "Mawsynram",
+          "lon": 91.58,
+          "lat": 25.3,
+          "nhan_huong": "trai"
+        },
+        {
+          "x": 1344,
+          "y": 196,
+          "label": "Cherrapunji",
+          "lon": 91.721,
+          "lat": 25.284,
+          "nhan_huong": "duoi",
+          "co": "nho"
+        },
+        {
+          "x": 1374,
+          "y": 140,
+          "label": "Shillong",
+          "lon": 91.893,
+          "lat": 25.578,
+          "nhan_huong": "phai",
+          "co": "nho"
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        1,
+        2,
+        3,
+        6,
+        11,
+        12
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-mawsynram.json",
+      "khung_lonlat": {
+        "tay": 83.98,
+        "dong": 95.03,
+        "nam": 20.6,
+        "bac": 26.3
+      },
+      "nguon_toa_do": {
+        "Mawsynram": "research.md mục Bản đồ (25.30, 91.58); khớp Wikipedia 25.2989, 91.5814",
+        "Cherrapunji": "research.md (25.284, 91.721); OSM Nominatim 25.2777, 91.7292; JMA S21 25.25, 91.73",
+        "Shillong": "research.md (25.578, 91.893); Wikipedia 25.5822, 91.8944"
+      },
+      "ghi_chu": "Lệch có chủ ý so với visual_hint: khung 16:9 không chứa được cả 21–26.8°N lẫn 88–93.5°E cùng lúc. Ưu tiên luật chủ quyền: đỉnh khung 26.30°N (không lọt Bhutan, Nepal, Sikkim, Arunachal; khung chỉ có IND, BGD, MMR), đáy 20.60°N để thấy vịnh Bengal, đông tới 95.03°E (Manipur/Nagaland/Myanmar, xa 99°E). Mawsynram ở x=1320 nhưng y=193 (không phải 520) vì đỉnh khung phải thấp; focus [0.68,0.45] của shots vẫn thấy ghim khi zoom ≤1.7. Không tô nổi nước nào: IND #efe3c8, láng giềng (BGD, MMR) giấy nhạt #f7f0e1, không nhãn nước.",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    },
+    "map-monsoon": {
+      "file": "assets/ban-do/map-monsoon.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        91.58,
+        25.3
+      ],
+      "zoom": 32.57,
+      "anchor": [
+        1320,
+        193
+      ],
+      "highlight": [],
+      "fill": {
+        "*": "#f7f0e1",
+        "IND": "#efe3c8"
+      },
+      "marks": [
+        {
+          "x": 1320,
+          "y": 193,
+          "label": "Mawsynram",
+          "lon": 91.58,
+          "lat": 25.3,
+          "nhan_huong": "trai"
+        },
+        {
+          "x": 1344,
+          "y": 196,
+          "label": "Cherrapunji",
+          "lon": 91.721,
+          "lat": 25.284,
+          "nhan_huong": "phai",
+          "co": "nho"
+        },
+        {
+          "x": 724,
+          "y": 968,
+          "label": "Bay of Bengal",
+          "lon": 88.15,
+          "lat": 21.2,
+          "ghim": false
+        },
+        {
+          "x": 872,
+          "y": 631,
+          "label": "monsoon air",
+          "lon": 89,
+          "lat": 23,
+          "ghim": false
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        6,
+        7
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [
+        {
+          "loai": "duong",
+          "ghi_chu": "mép nam cao nguyên Meghalaya, giản lược"
+        },
+        {
+          "loai": "mui-ten",
+          "ghi_chu": "gió mùa từ vịnh Bengal, nhánh tây"
+        },
+        {
+          "loai": "mui-ten",
+          "ghi_chu": "gió mùa, nhánh giữa"
+        },
+        {
+          "loai": "mui-ten",
+          "ghi_chu": "gió mùa, nhánh đông"
+        }
+      ],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-monsoon.json",
+      "khung_lonlat": {
+        "tay": 83.98,
+        "dong": 95.03,
+        "nam": 20.6,
+        "bac": 26.3
+      },
+      "nguon_toa_do": {
+        "Mawsynram": "research.md mục Bản đồ (25.30, 91.58); khớp Wikipedia 25.2989, 91.5814",
+        "Cherrapunji": "research.md (25.284, 91.721); OSM Nominatim 25.2777, 91.7292; JMA S21 25.25, 91.73"
+      },
+      "ghi_chu": "Cùng khung, cùng màu với map-mawsynram. Lớp phủ trong SVG (<g id=lop-phu>): 3 mũi tên gió nét đứt #e0703a từ vịnh Bengal qua đồng bằng Bangladesh, cong lên mép cao nguyên, đầu mũi tên ngay dưới ghim Mawsynram/Cherrapunji; vạch nâu mép cao nguyên 25.13–25.2°N, 90.5–92.3°E (giản lược, gần trùng biên giới ở tỉ lệ này). Nhãn 'Bay of Bengal', 'monsoon air' là marks ghim:false để thợ dựng vẽ bằng font kênh.",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    },
+    "map-runoff": {
+      "file": "assets/ban-do/map-runoff.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        91.58,
+        25.3
+      ],
+      "zoom": 141.06,
+      "anchor": [
+        1060,
+        375
+      ],
+      "highlight": [],
+      "fill": {
+        "*": "#f7f0e1",
+        "IND": "#efe3c8"
+      },
+      "marks": [
+        {
+          "x": 1060,
+          "y": 375,
+          "label": "Mawsynram",
+          "lon": 91.58,
+          "lat": 25.3,
+          "nhan_huong": "phai"
+        },
+        {
+          "x": 1276,
+          "y": 707,
+          "label": "Sylhet",
+          "lon": 91.867,
+          "lat": 24.9,
+          "nhan_huong": "phai"
+        },
+        {
+          "x": 1226,
+          "y": 429,
+          "label": "run-off",
+          "lon": 91.8,
+          "lat": 25.235,
+          "ghim": false
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        9
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [
+        {
+          "loai": "vung",
+          "hoa_tiet": "song-nuoc",
+          "cat_theo_nuoc": "BGD",
+          "ghi_chu": "đồng bằng ngập phía bắc Sylhet (gợi lũ 2022, không số liệu); cắt theo biên Bangladesh"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "suối giản lược"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "suối giản lược"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "suối giản lược"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "suối giản lược"
+        },
+        {
+          "loai": "duong",
+          "ghi_chu": "suối giản lược"
+        },
+        {
+          "loai": "mui-ten",
+          "ghi_chu": "run-off, hướng nam"
+        }
+      ],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-runoff.json",
+      "khung_lonlat": {
+        "tay": 90.17,
+        "dong": 92.72,
+        "nam": 24.45,
+        "bac": 25.75
+      },
+      "nguon_toa_do": {
+        "Mawsynram": "research.md mục Bản đồ (25.30, 91.58); khớp Wikipedia 25.2989, 91.5814",
+        "Sylhet": "Wikipedia 24.90, 91.867 (script ghi 24.90, 91.87)"
+      },
+      "ghi_chu": "Lệch có chủ ý: visual_hint 23.9–25.8°N × 90.6–92.6°E không vừa 16:9; dùng 24.45–25.75°N × 90.17–92.72°E (giữ Mawsynram, Sylhet, mép cao nguyên, đồng bằng ngập). Lớp phủ: 5 suối giản lược, mũi tên run-off #3f6a70 hướng nam, vùng sóng nước phía bắc Sylhet CẮT THEO BIÊN BANGLADESH (clipPath Natural Earth bản VN), không ghi số. Biên giới IND–BGD giữ nét mặc định của ve_ban_do (#8a7a5c, 1.2px).",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    },
+    "map-khasi-slopes": {
+      "file": "assets/ban-do/map-khasi-slopes.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        91.58,
+        25.3
+      ],
+      "zoom": 261.43,
+      "anchor": [
+        740,
+        618
+      ],
+      "highlight": [],
+      "fill": {
+        "*": "#f7f0e1",
+        "IND": "#efe3c8"
+      },
+      "marks": [
+        {
+          "x": 740,
+          "y": 618,
+          "label": "Mawsynram",
+          "lon": 91.58,
+          "lat": 25.3,
+          "nhan_huong": "trai"
+        },
+        {
+          "x": 937,
+          "y": 643,
+          "label": "Sohra (Cherrapunji)",
+          "lon": 91.721,
+          "lat": 25.284,
+          "nhan_huong": "phai"
+        },
+        {
+          "x": 1176,
+          "y": 189,
+          "label": "Shillong",
+          "lon": 91.893,
+          "lat": 25.578,
+          "nhan_huong": "phai",
+          "co": "nho"
+        },
+        {
+          "x": 1291,
+          "y": 754,
+          "label": "root-bridge villages (lower slopes, approx.)",
+          "lon": 91.975,
+          "lat": 25.212,
+          "ghim": false,
+          "nhan_huong": "phai",
+          "ghi_chu": "nhãn dài: thợ dựng xuống hai dòng root-bridge villages | (lower slopes, approx.)"
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "created": "2026-11-28",
+      "lop_phu": [
+        {
+          "loai": "duong",
+          "ghi_chu": "mép nam cao nguyên, giản lược (không phải đường đồng mức thật)"
+        },
+        {
+          "loai": "vung",
+          "hoa_tiet": "gach-cheo",
+          "cat_theo_nuoc": "IND",
+          "ghi_chu": "root-bridge villages (lower slopes, approx.): vùng phỏng chừng, không ghim làng cụ thể; cắt theo biên Ấn Độ"
+        },
+        {
+          "loai": "mui-ten",
+          "ghi_chu": "đường đi nét đứt từ Mawsynram xuống nam rồi sang đông, dùng cảnh 10"
+        }
+      ],
+      "lop_phu_spec": "assets/ban-do/lop-phu-map-khasi-slopes.json",
+      "khung_lonlat": {
+        "tay": 91.05,
+        "dong": 92.43,
+        "nam": 25,
+        "bac": 25.7
+      },
+      "nguon_toa_do": {
+        "Mawsynram": "research.md mục Bản đồ (25.30, 91.58); khớp Wikipedia 25.2989, 91.5814",
+        "Sohra (Cherrapunji)": "research.md (25.284, 91.721); OSM Nominatim 25.2777, 91.7292; JMA S21 25.25, 91.73",
+        "Shillong": "research.md (25.578, 91.893); Wikipedia 25.5822, 91.8944"
+      },
+      "ghi_chu": "Lệch có chủ ý: visual_hint 25.0–25.65°N × 91.35–92.1°E không vừa 16:9; dùng 25.00–25.70°N × 91.05–92.43°E. Lớp phủ: vạch nâu mép cao nguyên ~25.22–25.26°N (giản lược, không phải đường đồng mức thật), vùng gạch chéo 'root-bridge villages (lower slopes, approx.)' 91.66–91.97°E × 25.18–25.24°N CẮT THEO BIÊN ẤN ĐỘ, KHÔNG ghim tên làng; mũi tên nét đứt Mawsynram → nam → đông tới vùng gạch (dùng cảnh 10; cảnh khác thợ dựng có thể che lớp này bằng --khung hoặc phủ giấy). Nhãn dài: xuống hai dòng.",
+      "da_xem": "2026-11-29: chụp PNG bằng Chrome headless, xem từng tấm (ghim, nhãn 34–38px trong vùng an toàn, lớp phủ không tràn biên giới, không biên giới phía bắc Ấn Độ, không Tây Sahara)"
+    }
+  }
+}

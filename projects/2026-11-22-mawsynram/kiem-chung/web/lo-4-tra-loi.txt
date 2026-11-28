@@ -1,0 +1,178 @@
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "Japan Meteorological Agency normals for Cherrapunji support the figures: June–September total 7,618.8 mm (approximately 75% of the 10,166.1 mm annual total), July 2,954.1 mm (95.3 mm/day), December 8.4 mm, and December–February 93.7 mm (approximately 0.9% annually); the absence of official monthly normals specifically for Mawsynram is not independently established.",
+"sources": [
+{
+"title": "Normals Data: Cherrapunji",
+"publisher": "Japan Meteorological Agency",
+"url": "https://ds.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=42515",
+"type": "goc",
+"published": null
+},
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": null,
+"note": "A January 7, 2024 report quotes Mawsynram MLA Olan Singh Suin explaining that high terrain prevents water accumulation, leaving some villages without drinking water during lean periods and causing streams to dry up during spring.",
+"sources": [
+{
+"title": "Meghalaya: Mawsynram MLA blames region’s terrain for inability to conserve water",
+"publisher": "Northeast Live",
+"url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water/",
+"type": "bao",
+"published": "2024-01-07"
+}
+]
+},
+{
+"id": "C27",
+"verdict": "dung",
+"correct_value": null,
+"note": "The January 2020 AFP report directly quotes Mawsynram school principal Miralin Kharchandy saying residents never learned to conserve water because there was so much water around them.",
+"sources": [
+{
+"title": "Dispatches from the wettest place on earth",
+"publisher": "Agence France-Presse (republished by Malay Mail)",
+"url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+"type": "bao",
+"published": "2020-01-10"
+},
+{
+"title": "Declining rain stresses need for water conservation in Meghalaya",
+"publisher": "Hindustan Times (AFP photographs and captions)",
+"url": "https://www.hindustantimes.com/photos/india-news/photos-declining-rain-stresses-need-for-water-conservation-in-meghalaya/photo-PO4GYrkkHgnn8ihBhTQCzO.html",
+"type": "bao",
+"published": "2020-01-12"
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": null,
+"note": "The AFP report describes Meghalaya authorities working with communities to build rainwater reservoirs for local areas, while village headman Tarcisius Dhkar confirms villagers participate in building and maintaining them and consequently feel ownership; the claim that residents built them entirely themselves is stronger than the source's wording.",
+"sources": [
+{
+"title": "Dispatches from the wettest place on earth",
+"publisher": "Agence France-Presse (republished by Malay Mail)",
+"url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+"type": "bao",
+"published": "2020-01-10"
+},
+{
+"title": "Declining rain stresses need for water conservation in Meghalaya",
+"publisher": "Hindustan Times (AFP photographs and captions)",
+"url": "https://www.hindustantimes.com/photos/india-news/photos-declining-rain-stresses-need-for-water-conservation-in-meghalaya/photo-PO4GYrkkHgnn8ihBhTQCzO.html",
+"type": "bao",
+"published": "2020-01-12"
+}
+]
+},
+{
+"id": "C29",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "WMO confirms Mawsynram's Asian record for greatest average annual rainfall, and reporting documents declining springs and seasonal stream shortages, but the specific assertion that springs, streams and lakes throughout the area all dry up is not fully established by the sources found.",
+"sources": [
+{
+"title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+"publisher": "World Meteorological Organization",
+"url": "https://wmo.int/asu-map?map=Rain_041",
+"type": "goc",
+"published": null
+},
+{
+"title": "Meghalaya: Mawsynram MLA blames region’s terrain for inability to conserve water",
+"publisher": "Northeast Live",
+"url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water/",
+"type": "bao",
+"published": "2024-01-07"
+},
+{
+"title": "Environmental Assessment for Umling-Patharkhamah Road",
+"publisher": "World Bank",
+"url": "https://documents1.worldbank.org/curated/en/889771591677401225/pdf/Environmental-Assessment-for-Umling-Patharkhamah-Road.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Dispatches from the wettest place on earth",
+"publisher": "Agence France-Presse (republished by Malay Mail)",
+"url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+"type": "bao",
+"published": "2020-01-10"
+}
+]
+},
+{
+"id": "C30",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Meghalaya Tourism confirms panoramic views of the Bangladesh plains from Mawsynram, but the specific claim about visibility on clear dry-season days from the southern edge of the plateau was not independently verified by a sufficiently authoritative source.",
+"sources": [
+{
+"title": "Mawsynram – Wettest Place on Earth",
+"publisher": "Meghalaya Tourism",
+"url": "https://welcomemeghalaya.com/destinations/mawsynram/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": null,
+"note": "A World Bank environmental assessment documents the steep, sloping terrain around Meghalaya's wettest regions and very high monsoon surface runoff, supporting the explanation that heavy rainfall is rapidly drained rather than retained locally.",
+"sources": [
+{
+"title": "Environmental Assessment for Umling-Patharkhamah Road",
+"publisher": "World Bank",
+"url": "https://documents1.worldbank.org/curated/en/889771591677401225/pdf/Environmental-Assessment-for-Umling-Patharkhamah-Road.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Dominant Synoptic Disturbance in the Extreme Rainfall at Cherrapunji, Northeast India, Based on 104 Years of Rainfall Data (1902–2005)",
+"publisher": "Journal of Climate, American Meteorological Society",
+"url": "https://journals.ametsoc.org/doi/10.1175/JCLI-D-16-0435.1",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "dung",
+"correct_value": null,
+"note": "A July 13, 2019 Press Trust of India report quotes Deputy Chief Minister Prestone Tynsong saying Meghalaya receives substantial rainfall but cannot retain the water because the state is hilly and it flows into Bangladesh quickly; the report supports the statement but does not establish that steep terrain is the sole cause.",
+"sources": [
+{
+"title": "Meghalaya Cabinet approves draft water policy",
+"publisher": "Press Trust of India (republished by Business Standard)",
+"url": "https://www.business-standard.com/amp/article/pti-stories/meghalaya-cabinet-approves-draft-water-policy-119071300182_1.html",
+"type": "bao",
+"published": "2019-07-13"
+},
+{
+"title": "Meghalaya State Water Policy 2019",
+"publisher": "Government of Meghalaya",
+"url": "https://meghalaya.gov.in/node/35678",
+"type": "goc",
+"published": "2019-07-12"
+}
+]
+}
+]

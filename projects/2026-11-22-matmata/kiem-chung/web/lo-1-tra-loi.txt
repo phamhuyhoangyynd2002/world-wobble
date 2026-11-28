@@ -1,0 +1,227 @@
+[
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "Matmata is in the Gabès region of southern Tunisia; approximately 365 km is plausible as a straight-line distance, although the driving distance is about 406 km.",
+"sources": [
+{
+"title": "Matmata: architecture under ground_line",
+"publisher": "Università Mediterranea di Reggio Calabria",
+"url": "https://iris.unirc.it/handle/20.12318/20396",
+"type": "goc",
+"published": "2011-01-01"
+},
+{
+"title": "How do I get from Tunis to Matmata?",
+"publisher": "Rome2Rio",
+"url": "https://www.rome2rio.com/s/Tunis/Matmata-Tunisia",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C02",
+"verdict": "dung",
+"correct_value": null,
+"note": "Academic architectural research confirms that the underground dwellings are difficult to distinguish from the surface, with courtyards and rooms excavated into the surrounding hills.",
+"sources": [
+{
+"title": "L’Université d’Aix-Marseille – L’habitat troglodyte en profondeur",
+"publisher": "Université d'Aix-Marseille",
+"url": "https://theses.fr/2018AIXM0169.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Architectural lessons for the future, via the past",
+"publisher": "UNESCO Courier",
+"url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "Matmata Troglodyte Homes: How to Visit Tunisia’s Underground Amazigh Houses",
+"publisher": "Tourism Tunisia",
+"url": "https://www.tourismtunisia.com/troglodyte-homes-of-matmata-tunisia/",
+"type": "khac",
+"published": "2026-09-13"
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": null,
+"note": "Architectural documentation confirms that the circular sunken courtyard is surrounded by excavated rooms with openings directly onto the courtyard.",
+"sources": [
+{
+"title": "L’Université d’Aix-Marseille – L’habitat troglodyte en profondeur",
+"publisher": "Université d'Aix-Marseille",
+"url": "https://theses.fr/2018AIXM0169.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Sustainable Architecture and Urban Development 289",
+"publisher": "CIB / International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Architectural lessons for the future, via the past",
+"publisher": "UNESCO Courier",
+"url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+"type": "bach-khoa",
+"published": null
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": null,
+"note": "Academic research identifies Matmata's underground settlement tradition with Berber communities and dates its development to approximately the seventh through twelfth centuries, supporting a centuries-old tradition.",
+"sources": [
+{
+"title": "Matmata: architecture under ground_line",
+"publisher": "Università Mediterranea di Reggio Calabria",
+"url": "https://iris.unirc.it/handle/20.500.12318/20396",
+"type": "goc",
+"published": "2011-01-01"
+},
+{
+"title": "Architectural lessons for the future, via the past",
+"publisher": "UNESCO Courier",
+"url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "Rural Vernacular Heritage and Strategic Design: Matmata as an example of Sustainable Development",
+"publisher": "Index Academic Documents",
+"url": "https://www.indexacademicdocs.org/paper/19/81372/1345342",
+"type": "khac",
+"published": "2023-12-15"
+}
+]
+},
+{
+"id": "C05",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Research confirms defensive features such as concealed dwellings, fortified entrances and winding access tunnels, but the specific explanation involving prolonged insecurity, tribal raids and conflicts is not sufficiently established by the sources found.",
+"sources": [
+{
+"title": "Sustainable Architecture and Urban Development 289",
+"publisher": "CIB / International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Matmata pit house",
+"publisher": "Budapest University of Technology and Economics – BME Habitatio",
+"url": "https://habitatio.epitesz.bme.hu/en/portfolio/tunisian-pit-house/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "No reliable source was found documenting the specific 24–25 July 1997 indoor and outdoor measurements or the stated hourly temperatures; historical airport weather records do not establish temperatures inside a pit dwelling.",
+"sources": [
+{
+"title": "July 1997 Historical Weather at Gabès – Matmata International Airport",
+"publisher": "Weather Spark",
+"url": "https://weatherspark.com/h/m/148137/1997/7/Historical-Weather-in-July-1997-at-Gab%C3%A8s-%E2%80%93-Matmata-International-Airport-Tunisia",
+"type": "khac",
+"published": null
+},
+{
+"title": "Matmata (Djebel) / Monts de Matmata (Tunisie)",
+"publisher": "Encyclopédie berbère",
+"url": "https://journals.openedition.org/encyclopedieberbere/pdf/511",
+"type": "bach-khoa",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Sources confirm the thermal stability and insulating properties of underground Matmata dwellings, but no reliable source was found verifying the specific 10-metre depth and three-month seasonal heat propagation measurement.",
+"sources": [
+{
+"title": "Architectural lessons for the future, via the past",
+"publisher": "UNESCO Courier",
+"url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "Matmata (Djebel) / Monts de Matmata (Tunisie)",
+"publisher": "Encyclopédie berbère",
+"url": "https://journals.openedition.org/encyclopedieberbere/pdf/511",
+"type": "bach-khoa",
+"published": null
+},
+{
+"title": "Sustainable Architecture and Urban Development 289",
+"publisher": "CIB / International Council for Research and Innovation in Building and Construction",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C08",
+"verdict": "sai",
+"correct_value": "Annual precipitation is approximately 170–240 mm depending on the measurement period and location. The rainy season generally extends from September to April, with substantial winter rainfall; summers are dry and rainfall is irregular and sometimes intense.",
+"note": "The approximately 200 mm annual average is reasonable, and intense irregular rainfall is documented, but the claim that most rainfall occurs in autumn is misleading: research identifies a Mediterranean rainy season extending from September to April, with winter accounting for the largest seasonal share in some datasets.",
+"sources": [
+{
+"title": "WEFE nexus management plan for sustainable development and gender equity in the Matmata region, SE Tunisia",
+"publisher": "Frontiers in Water",
+"url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2025.1563873/full",
+"type": "goc",
+"published": null
+},
+{
+"title": "Upstream-Downstream Influence of Water Harvesting Techniques (Jessour) on Soil Water Retention in Southeast Tunisia",
+"publisher": "Water (MDPI)",
+"url": "https://www.mdpi.com/2073-4441/15/7/1361",
+"type": "goc",
+"published": null
+},
+{
+"title": "MÉTHODOLOGIE D'IDENTIFICATION DES OUVRAGES EXISTANTS ET DES SITES POTENTIELS POUR LES JESSOUR",
+"publisher": "ResearchGate",
+"url": "https://www.researchgate.net/publication/234046491_METHODOLOGIE_D%27IDENTIFICATION_DES_OUVRAGES_EXISTANTS_ET_DES_SITES_POTENTIELS_POUR_LES_JESSOUR",
+"type": "khac",
+"published": null
+},
+{
+"title": "Accepted for publication in QUATERNAIRE: 2020-05-20",
+"publisher": "University of Aberystwyth",
+"url": "https://pure.aber.ac.uk/ws/files/42098257/Faust_et_al_2020_accepted.pdf",
+"type": "goc",
+"published": "2020-05-20"
+},
+{
+"title": "14th International Soil Conservation Organization Conference – Water Management and Soil Conservation in Semi-Arid Environments",
+"publisher": "Purdue University",
+"url": "https://topsoil.nserl.purdue.edu/isco/isco14/1_Water_Management/Oral/T1-Hill-Traditional%20Water%20Mgt%20Tunisia-UK.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]

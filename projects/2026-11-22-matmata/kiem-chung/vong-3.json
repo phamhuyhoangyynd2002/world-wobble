@@ -1,0 +1,127 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-29",
+  "ket_qua": [
+    {
+      "id": "C05",
+      "statement": "Researchers studying the pit dwellings of south-eastern Tunisia link their hidden design (hard to see from a distance, indirect entrances, storerooms set high) to long periods of insecurity in these mountain villages, including raids and conflicts between tribes.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, đọc lại toàn văn hai nguồn gốc. Driss (OBP 2024), phần kết luận: 'Beni Zelten, like all Jbelia villages, has long suffered from insecurity and political conflicts between tribes. The houses were an adapted response … contend with invaders and looters … difficult for enemies to spot. Access … vestibule … never direct … food supply stored in granaries that are difficult to access.' Cùng chương: mọi bộ phận nhà nằm trong một vòng khép kín 'because of the lack of security and the conflicts that have prevailed in this territory'. Driss & Kharrat 2020: làng 'imperceptible at first glance … protect against possible invaders', nhà 'camouflage so as not to be easily spotted'. Đủ cả ba ý (khó thấy, lối vào gián tiếp, kho đặt cao) và nguyên nhân (bất an, xung đột bộ tộc, cướp phá). Claim hedged, lời nên giữ 'researchers link…'.",
+      "nguon": [
+        {"title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten (Houda Driss), ch. 1 of Tangible and Intangible Heritage in the Age of Globalisation", "publisher": "Open Book Publishers (bản PDF cả sách trên Zenodo)", "url": "https://doi.org/10.11647/OBP.0388.01", "type": "goc", "published": "2024-04-10"},
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"}
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "In measurements on 24–25 July 1997 at a Matmata pit dwelling, the outdoor air temperature reached about 46 °C (about 115 °F) at 3 pm, while the room stayed at about 27–28 °C throughout the 24 hours.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, đọc lại toàn văn PDF. Driss & Kharrat, Graph 3 (số đo của Krarti, 24–25/7/1997, khách sạn Marhala ở Matmata, gồm ba nhà hố nối nhau): phòng site 6 giữ 27–28 °C suốt 24 giờ; ngoài trời 25 °C lúc 6 giờ sáng, 46 °C lúc 3 giờ chiều. 46 °C = 114,8 °F, nên 'about 115 °F' đúng. Nhà đo là nhà hố đã đổi thành khách sạn, vẫn đúng là 'a Matmata pit dwelling'. Slide của Krarti (ĐH Colorado) ghi cùng ngày đo ở Marhala.",
+      "nguon": [
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"},
+        {"title": "Thermal Performance of Ancient Underground Dwellings in Tunisia (Krarti, slides)", "publisher": "University of Colorado Boulder", "url": "https://ceae.colorado.edu/~krarti/matmata.ppt", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "In the pit houses of south-eastern Tunisia, the courtyard was used for household work such as making bread, grinding grain and drying figs.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba. Driss (OBP 2024): 'This patio is the site of various daily and occasional activities, especially those conducted by women, such as preparing meals, grinding grains, drying fruits and vegetables and laundry.' Bảng 1.1 liệt kê 'Making bread' (việc hằng ngày của phụ nữ) và 'Drying figs' (việc định kỳ). Xay hạt và phơi trái cây được gắn thẳng vào sân; phơi sung là một dạng phơi trái cây; làm bánh mì thuộc 'preparing meals' nhưng văn bản không nói riêng chữ 'bread' ở sân. Rủi ro thấp; nếu muốn chặt chẽ tuyệt đối có thể đổi 'making bread' thành 'cooking'.",
+      "nguon": [
+        {"title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten (Houda Driss)", "publisher": "Open Book Publishers (bản PDF cả sách trên Zenodo)", "url": "https://doi.org/10.11647/OBP.0388.01", "type": "goc", "published": "2024-04-10"}
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "In pit houses of south-eastern Tunisia, grain and olive stores were set high in the courtyard walls and reached by footholds cut into the wall or olive-wood pegs driven into it, partly to protect stores against theft.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba. Driss (OBP 2024): kho 'raised a half or whole level above the patio floor … accessible by carved notches or pieces of olive wood embedded in the wall … to protect the contents of this space from thieves by making access difficult'. Khớp từng ý: đặt cao, bậc khoét hoặc cọc gỗ ô liu, chống trộm.",
+      "nguon": [
+        {"title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten (Houda Driss)", "publisher": "Open Book Publishers (bản PDF cả sách trên Zenodo)", "url": "https://doi.org/10.11647/OBP.0388.01", "type": "goc", "published": "2024-04-10"}
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "In pit houses of south-eastern Tunisia, livestock stalls and storage for farm tools were placed in niches along the entrance tunnel, away from the living rooms, for hygiene.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba. Driss (OBP 2024): 'Located on both sides of the access corridor … are barn(s) and storage area(s) for agricultural equipment'; các không gian phục vụ 'relatively far from the living spaces. This arrangement is a matter of health and hygiene, as it distances occupants from their animals.' Driss & Kharrat 2020: 'vestibule contains other side excavations that form animal shelters and agricultural warehouses'. Khớp cả vị trí và lý do vệ sinh.",
+      "nguon": [
+        {"title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten (Houda Driss)", "publisher": "Open Book Publishers (bản PDF cả sách trên Zenodo)", "url": "https://doi.org/10.11647/OBP.0388.01", "type": "goc", "published": "2024-04-10"},
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"}
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "New Matmata, a short drive from old Matmata (about 14 km in a straight line), is a town of conventional above-ground houses with a main road, cafés and a butcher's shop.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba. NatGeo (John Bartlett, 2/7/2025): 'Today there's one main road through the town, lined by a string of packed coffee shops, a butcher'; NatGeo không ghi khoảng cách. Toạ độ trên Wikipedia tiếng Pháp: Matmata 33°32′45″N 9°58′01″E, Nouvelle Matmata 33°40′04″N 10°00′54″E, tính ra khoảng 14,3 km đường chim bay (Wikipedia FR ghi 'une quinzaine de kilomètres au nord de Matmata'), nên 'about 14 km' đúng. Nouvelle Matmata xây năm 1969 để dời dân làng hang (Wikipedia FR); nhà 'conventional above-ground' khớp với Driss & Kharrat (dân chuyển sang nhà thông thường) và AP 2018 ('moved into a modern house'). Ý nhà cửa là suy ra từ nhiều nguồn chứ không có câu nguyên văn tả nhà ở New Matmata, rủi ro thấp.",
+      "nguon": [
+        {"title": "What we can learn from the world's vanishing cave dwellers (John Bartlett)", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/culture/article/cave-dwellers-human-adaptation", "type": "bao", "published": "2025-07-02"},
+        {"title": "Nouvelle Matmata", "publisher": "Wikipédia (tiếng Pháp)", "url": "https://fr.wikipedia.org/wiki/Nouvelle_Matmata", "type": "bach-khoa", "published": null},
+        {"title": "Matmata", "publisher": "Wikipédia (tiếng Pháp)", "url": "https://fr.wikipedia.org/wiki/Matmata", "type": "bach-khoa", "published": null},
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"}
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "Researchers report that some Matmata-area residents who moved to conventional houses have kept a few rooms in their ancestral pit dwellings to use during long summer heat waves.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, đọc lại toàn văn PDF. Driss & Kharrat 2020: 'some interviewees confirmed that they maintain some rooms in the ancestral home to occupy them during the long heatwaves of summer'. Khớp gần như nguyên văn; nguồn là phỏng vấn trong nghiên cứu, nên 'researchers report' đúng.",
+      "nguon": [
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"}
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "The Hotel Sidi Driss in Matmata was a traditional family home before it became a hotel in 1969.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, mở lại bài AP trên Bay News 9: 'Before becoming a hotel in 1969, the Star Wars dwelling was a traditional home used by indigenous Berbers.' Chỉ một nguồn báo uy tín cho mốc 1969; một trang tour (không uy tín) ghi 1968. Chữ 'family home' là diễn giải 'traditional home', chấp nhận được.",
+      "nguon": [
+        {"title": "Visiting the Tunisian desert where Star Wars was filmed (AP)", "publisher": "Bay News 9 (AP)", "url": "https://baynews9.com/fl/tampa/ap-online/2018/04/23/visiting-the-tunisian-desert-where-star-wars-was-filmed", "type": "bao", "published": "2018-04-23"}
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "At a depth of about 10 m (about 33 feet) the ground temperature around Matmata's pit dwellings is nearly constant, and the seasonal summer heat takes months to reach that depth, arriving long after summer has ended.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, đọc toàn văn PDF. Driss & Kharrat 2020 (dẫn Golany, nghiên cứu nhà hố Matmata): 'it takes one season of around three months for the air temperature to travel to a depth of around 10 meters … the summer air temperature will reach geo-space at a depth of 10 meters by the winter season'. Slide của Krarti (ĐH Colorado, số đo Matmata): nhiệt độ đất 'becomes constant at 10m depth from the surface' (Graph 4, đồ thị chỉ vẽ tới khoảng 7,5 m). Statement chỉ nói 'takes months … long after summer has ended', khớp nguồn. Lưu ý cho lời đọc: con số 'about three months' trong quote là số của Golany; theo lý thuyết dẫn nhiệt (sóng nhiệt năm, hệ số khuếch tán đất thường gặp) độ trễ ở 10 m thường khoảng 6–8 tháng, nên 'ba tháng' có thể là ước tính thấp. Cả hai đều cho kết luận 'tới nơi khi hè đã qua lâu'. Rủi ro thấp; nếu muốn an toàn, nói 'Researchers say summer heat takes months to reach ten metres down' thay cho 'about three months'.",
+      "nguon": [
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"},
+        {"title": "Thermal Performance of Ancient Underground Dwellings in Tunisia (Krarti, slides)", "publisher": "University of Colorado Boulder", "url": "https://ceae.colorado.edu/~krarti/matmata.ppt", "type": "goc", "published": null},
+        {"title": "13.4 Sub-Surface Soil Temperatures (Rain or Shine: An Introduction to Soil Physical Properties and Processes)", "publisher": "Oklahoma State University Libraries", "url": "https://open.library.okstate.edu/rainorshine/chapter/13-4-sub-surface-soil-temperatures/", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "Researchers studying Matmata-area pit dwellings describe a rule of thumb for stability: a room's void should be smaller than the thickness of earth left above it; room ceilings are vaulted (curved), not flat.",
+      "verdict": "sai",
+      "gia_tri_dung": "Quy tắc trong nguồn nói về chiều CAO: chiều cao khoảng rỗng (phòng) phải nhỏ hơn chiều cao (bề dày) khối đất phía trên, không phải 'kích thước/độ lớn' của phòng. Trần không bao giờ phẳng, nhưng có thể là vòm cung, vòm parabol hoặc hình tam giác (không chỉ vòm cong).",
+      "ghi_chu": "Tra lần ba, đọc toàn văn hai nguồn gốc. Driss & Kharrat 2020: 'For the stability of the structure, the height of the void must be less than the height of the mass of earth above it' (bản tiếng Pháp: 'la hauteur du vide doit être inférieure à la hauteur de la masse de terre qui le surmonte'); phòng rộng 3–4 m, sâu tới 7 m, cao 2,5–3 m. Driss (OBP 2024): 'The roofs of these underground spaces are never flat. Rather, they take the form of a raised arch, a parabolic vault or a triangular shape … allows the distribution and transmission of load without the risk of collapse.' Hai nguồn thống nhất, nên không phải mâu thuẫn; lỗi ở diễn đạt: 'void smaller than' và nhất là quote 'A room should never be bigger than the layer of earth' đổi chiều cao thành độ lớn (phòng sâu tới 7 m vẫn được nếu chỉ cao 2,5–3 m); 'vaulted (curved)' bỏ sót dạng tam giác. Đề xuất lời: 'Researchers who study these homes describe a rule of thumb. A room should never be taller than the earth left above it. My room had an arched ceiling. They're never flat here.' Statement sửa tương ứng: '…the height of a room's void should be less than the thickness of earth above it; ceilings are never flat (arched, vaulted or pointed).'",
+      "nguon": [
+        {"title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Driss, Kharrat)", "publisher": "Sustainable Mediterranean Construction no. 12", "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf", "type": "goc", "published": "2020"},
+        {"title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten (Houda Driss), ch. 1 of Tangible and Intangible Heritage in the Age of Globalisation", "publisher": "Open Book Publishers (bản PDF cả sách trên Zenodo)", "url": "https://doi.org/10.11647/OBP.0388.01", "type": "goc", "published": "2024-04-10"}
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "In 2018, a woman who used to live in a traditional pit home in Matmata (Mahboub Theouibi, whose family later moved to a modern house) told the Associated Press she remembered fetching water by camel from a distant spring and searching for food every day.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tra lần ba, mở bài AP 'Visiting the Tunisian desert where Star Wars was filmed' (dateline MATMATA, Tunisia (AP), Copyright 2018 AP) trên Bay News 9: nhà hố 'owned by Mahboub Theouibi, whose family moved into a modern house about 25 years ago … She remembered her life there fondly, despite hardships like carrying water by camel from a spring far away and the daily search for food.' Bản AP trên Gulf News (2018) cùng nội dung. Khớp tên, năm, chuyển nhà hiện đại, chở nước bằng lạc đà từ suối xa, tìm thức ăn hằng ngày. Lưu ý nhỏ: AP thuật lại lời bà, không trích nguyên văn; 'told the Associated Press' là cách nói chấp nhận được. Nhà bà nay mở cho khách xem như bảo tàng.",
+      "nguon": [
+        {"title": "Visiting the Tunisian desert where Star Wars was filmed (AP)", "publisher": "Bay News 9 (AP)", "url": "https://baynews9.com/fl/tampa/ap-online/2018/04/23/visiting-the-tunisian-desert-where-star-wars-was-filmed", "type": "bao", "published": "2018-04-23"},
+        {"title": "Revisiting Tunisia's 'Star Wars' desert (AP)", "publisher": "Gulf News (AP)", "url": "https://gulfnews.com/entertainment/revisiting-tunisias-star-wars-desert-1.2214806", "type": "bao", "published": "2018"}
+      ]
+    }
+  ]
+}

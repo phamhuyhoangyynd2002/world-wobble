@@ -1,0 +1,1670 @@
+{
+  "claude_model": "claude-opus-5-5",
+  "gemini_model": "Gemini web (ChatGPT web)",
+  "ngay_claude": "2026-11-29",
+  "ngay_gemini": "2026-11-29",
+  "rows": [
+    {
+      "id": "C01",
+      "scene": 1,
+      "quote": "The village that did this sits in the hills of northeast India.",
+      "statement": "Mawsynram, a village (in fact a cluster of villages) in the Khasi Hills of the state of Meghalaya, lies in the hills of northeast India.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Villages (Mawsynram Block)",
+          "publisher": "East Khasi Hills District Administration",
+          "url": "https://eastkhasihills.gov.in/villages/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "District Profile | East Khasi Hills",
+          "url": "https://eastkhasihills.gov.in/district-profile/",
+          "publisher": "Government of Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mawsynram",
+          "url": "https://www.meghalayatourism.in/experiences/adventure-%26-outdoor/living-root-bridges/mawsynram/",
+          "publisher": "Meghalaya Tourism",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "The village is Mawsynram, in the Khasi Hills of Meghalaya, on the edge of a plateau above Bangladesh.",
+      "statement": "Mawsynram is in the East Khasi Hills district of Meghalaya, India, at about 1,431 m on the southern edge of the Meghalaya (Khasi) plateau, above the low plains of Bangladesh's Sylhet region.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Villages (Mawsynram Block)",
+          "publisher": "East Khasi Hills District Administration",
+          "url": "https://eastkhasihills.gov.in/villages/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)",
+          "publisher": "Eastern Mirror",
+          "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd",
+          "type": "bao",
+          "published": "2022-06-17"
+        },
+        {
+          "title": "District Profile | East Khasi Hills",
+          "url": "https://eastkhasihills.gov.in/district-profile/",
+          "publisher": "Government of Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "In one of the rainiest places on Earth, I paid for water.",
+      "statement": "Mawsynram is one of the rainiest places on Earth: the World Meteorological Organization lists it as having the greatest average annual rainfall in its Asia region (11,872 mm, 1941–1979).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "The World Meteorological Organization lists Mawsynram as the record holder for average yearly rainfall in Asia. About eleven thousand eight hundred and seventy-two millimetres, averaged from nineteen forty-one to nineteen seventy-nine. That's about four hundred and sixty-seven inches.",
+      "statement": "The World Meteorological Organization lists Mawsynram, India, as the record for the greatest average annual rainfall in WMO Region II (Asia): 11,872 mm (467.4 inches), based on data from 1941 to 1979 (38 years of record).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Records of Weather and Climate Extremes",
+          "url": "https://wmo.int/sites/default/files/2024-07/Table_Records_02Jul2024.pdf",
+          "publisher": "World Meteorological Organization",
+          "type": "goc",
+          "published": "2024-07-02",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "Left to pile up, one year of it would stand almost twelve metres deep. About thirty-nine feet. Taller than a three-storey house.",
+      "statement": "An average annual rainfall of 11,872 mm corresponds to a water depth of about 11.9 metres (about 39 feet), more than the height of a typical three-storey house (roughly 9–10 metres).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "Is it the wettest place on the whole planet? Depending on who's measuring. Nearby Cherrapunji and two spots in Colombia have numbers of their own.",
+      "statement": "Whether Mawsynram is the wettest place on Earth is disputed: nearby Cherrapunji (Sohra) holds the WMO world record for the greatest 12-month rainfall (26,470 mm, August 1860 to July 1861) and has a comparable long-term average; Lloró and López de Micay in Colombia have reported higher average annual rainfall that the WMO has not evaluated; and in 2013 an India Meteorological Department official said it could not be concluded with certainty which place is wettest.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "mau-thuan",
+      "vong3": null,
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest 12-Month Rainfall, Cherrapunji",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_043",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Cherrapunji still the wettest place on earth",
+          "publisher": "DNA India",
+          "url": "https://www.dnaindia.com/india/report-cherrapunji-still-the-wettest-place-on-earth-1888909",
+          "type": "bao",
+          "published": "2013-11-21"
+        },
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)",
+          "publisher": "Eastern Mirror",
+          "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd",
+          "type": "bao",
+          "published": "2022-06-17"
+        },
+        {
+          "title": "WMO Region II (Asia): Greatest Average Annual Rainfall",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "publisher": "World Meteorological Organization",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Where is the world's rainiest city?",
+          "url": "https://www.theguardian.com/cities/2019/jun/07/where-is-the-worlds-rainiest-city",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2019-06-07",
+          "url_song": true
+        },
+        {
+          "title": "On the general circulation of the atmosphere around Colombia",
+          "url": "https://pdfs.semanticscholar.org/f6da/1301d43af2d8f97ac88b8f899afbec469f15.pdf",
+          "publisher": "Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "WETTEST PLACE ON THE EARTH: MAWSYNRAM",
+          "url": "https://www.jmi.ac.in/upload/menuupload/fns_geo_ejournal2016.pdf",
+          "publisher": "Jamia Millia Islamia University",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "scene": 3,
+      "quote": "Shillong is about sixty kilometres away by road, under forty miles.",
+      "statement": "Mawsynram is about 60 km (under 40 miles) by road from Shillong; Meghalaya Tourism gives the distance as 61 km.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mawsynram",
+          "publisher": "Meghalaya Tourism (Government of Meghalaya)",
+          "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/mawsynram/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Mawsynram",
+          "url": "https://www.meghalayatourism.in/experiences/adventure-%26-outdoor/living-root-bridges/mawsynram/",
+          "publisher": "Meghalaya Tourism",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mawsynram: Meghalaya's Rain Capital",
+          "url": "https://rc-www.meghalayatourism.in/destinations/mawsynram/",
+          "publisher": "Meghalaya Tourism",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "scene": 3,
+      "quote": "Landslides block roads around here sometimes, and in the wettest months the rain can cut some villages off for weeks.",
+      "statement": "Landslides sometimes block roads in the Mawsynram block (for example at km 33 of the Mawphlang–Balat road on 4 April 2022), and during the rainy months (about May to October) heavy rain can cut off some villages in the Mawsynram area for weeks.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya: Landslides reported in several place; two dead",
+          "publisher": "India Today NE",
+          "url": "https://www.indiatodayne.in/amp/breaking-news/story/meghalaya-landslides-reported-several-place-two-dead-389684-2022-04-05",
+          "type": "bao",
+          "published": "2022-04-05"
+        },
+        {
+          "title": "Taking health care to the people, come rain or shine",
+          "publisher": "WHO India",
+          "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+          "type": "goc",
+          "published": "2024-06-12"
+        },
+        {
+          "title": "Report on Natural Calamities under East Khasi Hills District on the 4th April, 2022",
+          "url": "https://meghalaya.gov.in/sites/default/files/announcement/Press_Release_DDMA_EKH_77.pdf",
+          "publisher": "Government of Meghalaya, Deputy Commissioner East Khasi Hills",
+          "type": "goc",
+          "published": "2022-04-04",
+          "url_song": null
+        },
+        {
+          "title": "Mawsynram landslide: Connectivity restored after 6 days",
+          "url": "https://thenortheasttoday.com/mawsynram-landslide-connectivity-restored-after-6-days/",
+          "publisher": "The Northeast Today",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mawsynram in India- the wettest place on earth",
+          "url": "https://www.ndtv.com/india-news/mawsynram-in-india-the-wettest-place-on-earth-529799",
+          "publisher": "NDTV (AFP)",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Two killed as landslides hit Meghalaya",
+          "publisher": "The Sentinel (Assam)",
+          "url": "https://sentinelassam.com/north-east-india-news/meghalaya-news/two-killed-as-landslides-hit-meghalaya-586080",
+          "type": "bao",
+          "published": "2022-04-05"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "scene": 4,
+      "quote": "It's a rain shield, woven from bamboo and layered with dried palm leaves, sometimes with a plastic sheet these days. It sits over your head and back and reaches down to your knees.",
+      "statement": "The knup is a traditional Khasi rain shield used around Mawsynram and Cherrapunji: a woven bamboo frame waterproofed with dried palm leaves (sometimes plastic sheeting today), worn over the head and back and reaching down to about the knees.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Farmers' rain shield (knup), Meghalaya",
+          "publisher": "Asia InCH (Craft Revival Trust)",
+          "url": "https://asiainch.org/?p=179707",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "A life spent in the wettest place on earth (AFP)",
+          "publisher": "Fox News (AFP)",
+          "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+          "type": "bao",
+          "published": "2013-07-30"
+        },
+        {
+          "title": "Bamboo Rain Shields of Meghalaya",
+          "url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+          "publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Bamboo and Cane Culture of Meghalaya",
+          "url": "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/bamboo-and-cane-culture-of-meghalaya/",
+          "publisher": "Indira Gandhi National Centre for the Arts (IGNCA)",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "FEATURE: A glimpse at life in the wettest place on Earth",
+          "url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+          "publisher": "Taipei Times (AFP)",
+          "type": "bao",
+          "published": "2013-08-04",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "scene": 4,
+      "quote": "Women here make them.",
+      "statement": "Knups in Meghalaya are made by women, using bamboo moulds and broad-bladed knives; AFP reported in 2013 that women in Mawsynram weave knups during the rainy season.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Farmers' rain shield (knup), Meghalaya",
+          "publisher": "Asia InCH (Craft Revival Trust)",
+          "url": "https://asiainch.org/?p=179707",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "A life spent in the wettest place on earth (AFP)",
+          "publisher": "Fox News (AFP)",
+          "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+          "type": "bao",
+          "published": "2013-07-30"
+        },
+        {
+          "title": "Bamboo Rain Shields of Meghalaya",
+          "url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+          "publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "FEATURE: A glimpse at life in the wettest place on Earth",
+          "url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+          "publisher": "Taipei Times (AFP)",
+          "type": "bao",
+          "published": "2013-08-04",
+          "url_song": true
+        },
+        {
+          "title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+          "url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+          "publisher": "TheJournal.ie (AFP)",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "scene": 4,
+      "quote": "Then I saw what the free hands are for. People in knups were heading down the slopes below the village.",
+      "statement": "Because the knup is worn on the head and back rather than held, it leaves both hands free, which lets wearers work on steep hillside fields in the rain.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Farmers' rain shield (knup), Meghalaya",
+          "publisher": "Asia InCH (Craft Revival Trust)",
+          "url": "https://asiainch.org/?p=179707",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Bamboo Rain Shields of Meghalaya",
+          "url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+          "publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "How Meghalaya’s natural umbrellas are made",
+          "url": "https://economictimes.indiatimes.com/magazines/panache/no-plastic-or-metal-only-bamboo-and-palm-leaves-meghalayas-100-year-old-umbrellas-do-not-have-a-handle-but-can-protect-you-from-heavy-rains/articleshow/131740476.cms",
+          "publisher": "The Economic Times",
+          "type": "bao",
+          "published": "2026-06-15",
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "scene": 4,
+      "quote": "The slopes are farms. Areca nut. Betel leaf. Black pepper. Jackfruit. Broom grass. Bamboo.",
+      "statement": "Villages in the Mawsynram area (for example Kenmynsaw, in Mawsynram subdivision) grow areca nut, betel leaf, black pepper, jackfruit, broom grass and bamboo on the hill slopes.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Taking health care to the people, come rain or shine",
+          "publisher": "WHO India",
+          "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+          "type": "goc",
+          "published": "2024-06-12"
+        },
+        {
+          "title": "Bamboo Rain Shields of Meghalaya",
+          "url": "https://www.asiainch.org/craft/bamboo-rain-shields-of-meghalaya/",
+          "publisher": "Asia InCH – Encyclopedia of Intangible Cultural Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "scene": 4,
+      "quote": "The rain that soaks the hilltop runs downhill and waters all of it.",
+      "statement": "The heavy monsoon rain that falls on the hilltops around Mawsynram does not stay there but runs off quickly down the steep slopes, the same slopes where crops such as areca nut, betel leaf, pepper and broom grass are grown.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water",
+          "publisher": "Northeast Live",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water",
+          "type": "bao",
+          "published": "2024-01-07"
+        },
+        {
+          "title": "Meghalaya Cabinet approves draft water policy, to focus on rainwater harvesting",
+          "publisher": "Scroll.in",
+          "url": "https://scroll.in/latest/930375/scroll_in",
+          "type": "bao",
+          "published": "2019-07-13"
+        },
+        {
+          "title": "Why the wettest hills of India are running dry",
+          "publisher": "India Water Portal",
+          "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya",
+          "type": "bao",
+          "published": "2026-03-14"
+        },
+        {
+          "title": "Details of the types of areas covered under the IWMP Programme",
+          "url": "https://www.meghalaya.gov.in/meghalaya/sites/default/files/documents/IWMP_V_mawsynram.pdf",
+          "publisher": "Government of Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "Rainforests north of the Tropic of Cancer: Physiognomy, floristics and diversity in 'lowland rainforests' of Meghalaya, India",
+          "url": "https://html.rhhz.net/PDR/html/1636100863426-857767191.htm",
+          "publisher": "Plant Diversity and Resources",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "From jhum to broom: Agricultural land-use change and food security implications on the Meghalaya Plateau, India",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4709356/",
+          "publisher": "PeerJ / PubMed Central",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Taking health care to the people, come rain or shine",
+          "publisher": "WHO India",
+          "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+          "type": "goc",
+          "published": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "scene": 5,
+      "quote": "Families here turn broom grass into brooms and bamboo into baskets, right at home. Broom grass is one of the area's main cash crops.",
+      "statement": "Families in villages of the Mawsynram area make brooms and baskets at home from broom grass and bamboo, and broom grass is one of the area's main crops for sale.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Taking health care to the people, come rain or shine",
+          "publisher": "WHO India",
+          "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+          "type": "goc",
+          "published": "2024-06-12"
+        },
+        {
+          "title": "A life spent in the wettest place on earth (AFP)",
+          "publisher": "Fox News (AFP)",
+          "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+          "type": "bao",
+          "published": "2013-07-30"
+        },
+        {
+          "title": "Meghalaya urged to recognize key crops as agricultural produces",
+          "publisher": "Morung Express",
+          "url": "https://morungexpress.com/meghalaya-urged-recognize-key-crops-agricultural-produces",
+          "type": "bao",
+          "published": "2018-04-18"
+        },
+        {
+          "title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+          "url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+          "publisher": "TheJournal.ie (AFP)",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "FEATURE: A glimpse at life in the wettest place on Earth",
+          "url": "https://www.taipeitimes.com/News/world/archives/2013/08/04/2003568912",
+          "publisher": "Taipei Times (AFP)",
+          "type": "bao",
+          "published": "2013-08-04",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "scene": 5,
+      "quote": "In the twenty eleven census, it was the centre of a development block of well over a hundred villages, with around fifty-four thousand people.",
+      "statement": "Mawsynram is the headquarters of the Mawsynram community development (C&RD) block in East Khasi Hills, Meghalaya, which had 54,109 people living in well over a hundred villages in the 2011 Census of India.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "East Khasi Hills: CD block populations, Census 2011",
+          "publisher": "CityPopulation.de (compiled from Census of India)",
+          "url": "https://www.citypopulation.de/en/india/meghalaya/admin/298__east_khasi_hills",
+          "type": "khac",
+          "published": null
+        },
+        {
+          "title": "Mawsynram Block, East Khasi Hills: village list, Census 2011",
+          "publisher": "census2011.co.in",
+          "url": "https://www.census2011.co.in/data/subdistrict/1993-mawsynram-east-khasi-hills-meghalaya.html",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Villages (Mawsynram Block)",
+          "publisher": "East Khasi Hills District Administration",
+          "url": "https://eastkhasihills.gov.in/villages/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Border Areas Development Officer Mawsynram",
+          "url": "https://megbad.gov.in/bado_mawsynram.html",
+          "publisher": "Border Areas Development Department, Government of Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "District Census Handbook: East Khasi Hills, Census of India 2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/862/download/36316/DH_2011_1706_PART_A_DCHB_EAST_KHASI_HILLS.pdf",
+          "publisher": "Directorate of Census Operations, Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "Statistical Handbook Meghalaya 2023",
+          "url": "https://www.des.megplanning.gov.in/documents/SHB2023-as-on-02-05-24.pdf",
+          "publisher": "Directorate of Economics and Statistics, Government of Meghalaya",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "scene": 5,
+      "quote": "Its health centre sends a team out to nearby villages every month. One of their drivers has said these slopes wear out his brake pads about every two weeks.",
+      "statement": "The Community Health Centre at Mawsynram runs monthly mobile health outreach clinics to nearby villages; a taxi driver who carries the health team told WHO India (2024) that he has to change his brake pads about every two weeks because of the steep roads.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Taking health care to the people, come rain or shine",
+          "publisher": "WHO India",
+          "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+          "type": "goc",
+          "published": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "scene": 5,
+      "quote": "A road runs from these hills down toward the border with Bangladesh.",
+      "statement": "The Mawphlang–Balat road runs through the Mawsynram block, from the Khasi Hills down toward the India–Bangladesh border at Balat.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya: Landslides reported in several place; two dead",
+          "publisher": "India Today NE",
+          "url": "https://www.indiatodayne.in/amp/breaking-news/story/meghalaya-landslides-reported-several-place-two-dead-389684-2022-04-05",
+          "type": "bao",
+          "published": "2022-04-05"
+        },
+        {
+          "title": "Border Haat",
+          "publisher": "Commerce and Industries Department, Meghalaya",
+          "url": "https://megindustry.gov.in/borderhaat.html",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "The Gazette of Meghalaya dated 9th Nov, 2023",
+          "url": "https://megpns.gov.in/gazette/2023/11/09-11-23-IIA.pdf",
+          "publisher": "Government of Meghalaya",
+          "type": "goc",
+          "published": "2023-11-09",
+          "url_song": null
+        },
+        {
+          "title": "Damaged Roads",
+          "url": "https://eastkhasihills.gov.in/damaged-roads/",
+          "publisher": "East Khasi Hills District Administration",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Two killed as landslides hit Meghalaya",
+          "publisher": "The Sentinel (Assam)",
+          "url": "https://sentinelassam.com/north-east-india-news/meghalaya-news/two-killed-as-landslides-hit-meghalaya-586080",
+          "type": "bao",
+          "published": "2022-04-05"
+        },
+        {
+          "title": "India-Bangladesh border haat at Balat-Dolura reopens",
+          "publisher": "NE Now",
+          "url": "https://nenow.in/north-east-news/meghalaya/india-bangladesh-border-haat-balat-dolura-reopens.html",
+          "type": "bao",
+          "published": "2022-04-26"
+        },
+        {
+          "title": "Bangladesh yet to allow reopening of border haats in Meghalaya: Officials",
+          "publisher": "India Today NE",
+          "url": "https://www.indiatodayne.in/meghalaya/story/bangladesh-yet-to-allow-reopening-of-border-haats-in-meghalaya-officials-1215654-2025-05-19",
+          "type": "bao",
+          "published": "2025-05-19"
+        },
+        {
+          "title": "HYNY to stage 24-hour protest over pathetic road conditions",
+          "publisher": "Highland Post",
+          "url": "https://highlandpost.com/hyny-to-stage-24-hour-protest-over-pathetic-road-conditions",
+          "type": "bao",
+          "published": "2024-06-22"
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "scene": 6,
+      "quote": "I assumed the sea must be right next door. It isn't. The Bay of Bengal is far to the south, beyond the flat plains of Bangladesh.",
+      "statement": "Mawsynram is not on the coast: the Bay of Bengal lies far to the south of the Meghalaya plateau, beyond the low, flat plains of Bangladesh.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)",
+          "publisher": "Eastern Mirror",
+          "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd",
+          "type": "bao",
+          "published": "2022-06-17"
+        },
+        {
+          "title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+          "publisher": "Journal of Geophysical Research: Atmospheres",
+          "type": "goc",
+          "published": "2017-08-29",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "scene": 6,
+      "quote": "In the monsoon, warm wet air blows north off the bay, and across the plain nothing gets in its way. Then it hits this plateau. Mawsynram sits about fourteen hundred metres up, roughly forty-seven hundred feet. The air is shoved up the slope. It cools, and its water falls out.",
+      "statement": "During the summer monsoon, warm moist air from the Bay of Bengal flows north across the flat Bangladesh plains and is forced up the steep southern slopes of the Meghalaya plateau (Mawsynram lies at about 1,431 m, roughly 4,700 feet), where it cools and its moisture condenses into very heavy orographic rainfall.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "mau-thuan",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mechanism of Orographic Precipitation around the Meghalaya Plateau Associated with Intraseasonal Oscillation and the Diurnal Cycle (Sato 2013)",
+          "publisher": "Hokkaido University repository (Monthly Weather Review)",
+          "url": "https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/53972",
+          "type": "goc",
+          "published": "2013-07-01"
+        },
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)",
+          "publisher": "Eastern Mirror",
+          "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd",
+          "type": "bao",
+          "published": "2022-06-17"
+        },
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+          "publisher": "Journal of Geophysical Research: Atmospheres",
+          "type": "goc",
+          "published": "2017-08-29",
+          "url_song": true
+        },
+        {
+          "title": "Variation in the orographic extreme rain events over the Meghalaya Hills in northeast India in the two halves of the twentieth century",
+          "url": "https://link.springer.com/article/10.1007/s00704-014-1224-x",
+          "publisher": "Theoretical and Applied Climatology",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "scene": 7,
+      "quote": "According to satellite studies of these hills, the heaviest rain tends to come between midnight and early morning.",
+      "statement": "Satellite-based studies (Ohsawa et al. 2001; Romatschke and Houze 2011, cited by Sato 2013) found that rainfall around the Meghalaya plateau peaks from around midnight to early morning, associated with a nocturnal low-level wind from the Bangladesh plains striking the southern slopes; hourly records at Cherrapunji (1946–1949) also showed more rain from 1 to 7 a.m. No hourly rainfall data exist for Mawsynram itself.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "mau-thuan",
+      "vong3": null,
+      "level": "C",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mechanism of Orographic Precipitation around the Meghalaya Plateau ... Diurnal Cycle (Sato 2013)",
+          "publisher": "Hokkaido University repository (Monthly Weather Review)",
+          "url": "https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/53972",
+          "type": "goc",
+          "published": "2013-07-01"
+        },
+        {
+          "title": "On certain aspects of rainfall at Cherrapunji (J. C. Das)",
+          "publisher": "MAUSAM, India Meteorological Department",
+          "url": "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/4681",
+          "type": "goc",
+          "published": "1951-07-01"
+        },
+        {
+          "title": "Mechanism of Orographic Precipitation around the Meghalaya Plateau Associated with Intraseasonal Oscillation and the Diurnal Cycle",
+          "url": "https://eprints.lib.hokudai.ac.jp/repo/huscap/all/53972/mwr-TSato2013_2451.pdf",
+          "publisher": "Journal of the Meteorological Society of Japan",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+          "publisher": "Journal of Geophysical Research: Atmospheres",
+          "type": "goc",
+          "published": "2017-08-29",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "scene": 7,
+      "quote": "When AFP visited in twenty thirteen, its reporter wrote that clouds sometimes drift right into homes and leave everything damp.",
+      "statement": "A 2013 AFP report from Mawsynram described clouds sometimes drifting into homes and leaving a damp film on belongings.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "A life spent in the wettest place on earth (AFP)",
+          "publisher": "Fox News (AFP)",
+          "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+          "type": "bao",
+          "published": "2013-07-30"
+        },
+        {
+          "title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+          "url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+          "publisher": "TheJournal.ie / AFP",
+          "type": "bao",
+          "published": "2013-08-01",
+          "url_song": true
+        },
+        {
+          "title": "A life spent in the wettest place on earth",
+          "url": "https://phys.org/news/2013-07-life-spent-wettest-earth.html",
+          "publisher": "Phys.org / AFP",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "scene": 7,
+      "quote": "A Khasi poet has written about the local words for different rains. One of them, lapiwtung, is a rain that makes your clothes smell. There are words for a rain that lasts six nights, and one that lasts nine.",
+      "statement": "Khasi poet Kynpham Sing Nongkynrih has written that the Khasi language has many words for different kinds of rain, including lapiwtung, a rain that makes clothes smell, lap-hynriew-miet, a rain lasting six nights, and lap-khyndai-miet, a rain lasting nine nights.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "The rain of Sohra is medicinal and other stories",
+          "publisher": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/the-rain-of-sohra-is-medicinal-and-other-stories",
+          "type": "bao",
+          "published": "2024-06-16"
+        },
+        {
+          "title": "Capturing the monsoons",
+          "url": "https://www.downtoearth.org.in/environment/capturing-the-monsoons-38896",
+          "publisher": "Down To Earth",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Review: Funeral Nights by Kynpham Sing Nongkynrih",
+          "url": "https://www.hindustantimes.com/books/reviewfuneral-nights-by-kynpham-sing-nongkynrih-101635512540898.html",
+          "publisher": "Hindustan Times",
+          "type": "bao",
+          "published": "2021-10-29",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "scene": 7,
+      "quote": "The same report said that when the rains finally end, there is no festival. People just carry their clothes outside to dry.",
+      "statement": "According to the 2013 AFP report, Mawsynram's village headman said that when the monsoon rains end there is no celebration; people simply bring their clothes outside to dry.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "A life spent in the wettest place on earth (AFP)",
+          "publisher": "Fox News (AFP)",
+          "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth",
+          "type": "bao",
+          "published": "2013-07-30"
+        },
+        {
+          "title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+          "url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+          "publisher": "TheJournal.ie / AFP",
+          "type": "bao",
+          "published": "2013-08-01",
+          "url_song": true
+        },
+        {
+          "title": "A life spent in the wettest place on earth",
+          "url": "https://phys.org/news/2013-07-life-spent-wettest-earth.html",
+          "publisher": "Phys.org / AFP",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "scene": 8,
+      "quote": "I couldn't find official monthly averages for Mawsynram, so I borrowed the ones from nearby Cherrapunji. There, about three quarters of the year's rain falls between June and September. An average July day brings more rain than the whole of December. The dry season really is dry.",
+      "statement": "At nearby Cherrapunji, Japan Meteorological Agency monthly normals show about 75% of annual rainfall falling from June to September, and an average July day (about 95 mm) brings more rain than the whole of December (about 8 mm).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Monthly climate normals, Cherrapunji (42515)",
+          "publisher": "Japan Meteorological Agency, Tokyo Climate Center",
+          "url": "https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=42515",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Normals Data: Cherrapunji - India",
+          "url": "https://ds.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=42515",
+          "publisher": "Japan Meteorological Agency",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "scene": 8,
+      "quote": "In twenty twenty-four, the local member of the state assembly said some villages here run short of drinking water in the dry months. The water doesn't stay up on the hilltops, and streams can run dry.",
+      "statement": "In January 2024, Mawsynram's member of the Meghalaya Legislative Assembly, Olan Singh Suin, said some villages in the area run short of drinking water in the dry season because water does not stay on the high hills, and that streams sometimes dry up.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water",
+          "publisher": "Northeast Live",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water",
+          "type": "bao",
+          "published": "2024-01-07"
+        },
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region’s terrain for inability to conserve water",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water/",
+          "publisher": "Northeast Live",
+          "type": "bao",
+          "published": "2024-01-07",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "scene": 8,
+      "quote": "A headmistress told a reporter in twenty twenty that people never learned to save water, because there was always so much of it.",
+      "statement": "In a January 2020 AFP report from Mawsynram, headmistress Miralin Kharchandy said residents had never learned to save water because there was water all around them.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Dispatches from the wettest place on earth (AFP)",
+          "publisher": "Terra Daily (AFP)",
+          "url": "https://terradaily.com/dispatches-from-the-wettest-place-on-earth-999/",
+          "type": "bao",
+          "published": "2020-01-10"
+        },
+        {
+          "title": "Dispatches from the wettest place on earth",
+          "url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+          "publisher": "Agence France-Presse (republished by Malay Mail)",
+          "type": "bao",
+          "published": "2020-01-10",
+          "url_song": true
+        },
+        {
+          "title": "Declining rain stresses need for water conservation in Meghalaya",
+          "url": "https://www.hindustantimes.com/photos/india-news/photos-declining-rain-stresses-need-for-water-conservation-in-meghalaya/photo-PO4GYrkkHgnn8ihBhTQCzO.html",
+          "publisher": "Hindustan Times (AFP photographs and captions)",
+          "type": "bao",
+          "published": "2020-01-12",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "scene": 8,
+      "quote": "The same report described rainwater tanks built by the government and villagers together, one for each neighbourhood. The headman said that because people built them, they treat them as their own.",
+      "statement": "The same 2020 AFP report described rainwater-harvesting tanks built in Mawsynram by the authorities together with residents for each locality; village headman Tarcisius Dhkar said residents built them themselves and so regard the tanks as their own.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Dispatches from the wettest place on earth (AFP)",
+          "publisher": "Terra Daily (AFP)",
+          "url": "https://terradaily.com/dispatches-from-the-wettest-place-on-earth-999/",
+          "type": "bao",
+          "published": "2020-01-10"
+        },
+        {
+          "title": "Dispatches from the wettest place on earth",
+          "url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+          "publisher": "Agence France-Presse (republished by Malay Mail)",
+          "type": "bao",
+          "published": "2020-01-10",
+          "url_song": true
+        },
+        {
+          "title": "Declining rain stresses need for water conservation in Meghalaya",
+          "url": "https://www.hindustantimes.com/photos/india-news/photos-declining-rain-stresses-need-for-water-conservation-in-meghalaya/photo-PO4GYrkkHgnn8ihBhTQCzO.html",
+          "publisher": "Hindustan Times (AFP photographs and captions)",
+          "type": "bao",
+          "published": "2020-01-12",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "scene": 8,
+      "quote": "I stood beside an empty stream bed, in one of the rainiest corners of Asia, drinking water I had bought.",
+      "statement": "Mawsynram, which the WMO lists as having Asia's greatest average annual rainfall, nonetheless faces dry-season water shortages, with springs, streams and lakes in the area drying up.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Greatest Average Annual Rainfall, WMO Region II (Asia)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/asu-map?map=Rain_041",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water",
+          "publisher": "Northeast Live",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water",
+          "type": "bao",
+          "published": "2024-01-07"
+        },
+        {
+          "title": "Why the wettest hills of India are running dry",
+          "publisher": "India Water Portal",
+          "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya",
+          "type": "bao",
+          "published": "2026-03-14"
+        },
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region’s terrain for inability to conserve water",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water/",
+          "publisher": "Northeast Live",
+          "type": "bao",
+          "published": "2024-01-07",
+          "url_song": true
+        },
+        {
+          "title": "Environmental Assessment for Umling-Patharkhamah Road",
+          "url": "https://documents1.worldbank.org/curated/en/889771591677401225/pdf/Environmental-Assessment-for-Umling-Patharkhamah-Road.pdf",
+          "publisher": "World Bank",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Dispatches from the wettest place on earth",
+          "url": "https://www.malaymail.com/amp/news/life/2020/01/10/dispatches-from-the-wettest-place-on-earth/1826598",
+          "publisher": "Agence France-Presse (republished by Malay Mail)",
+          "type": "bao",
+          "published": "2020-01-10",
+          "url_song": true
+        },
+        {
+          "title": "Meghalaya: World's wettest towns Mawsynram and Cherrapunji face drought risks, says study (PTI)",
+          "publisher": "DT Next",
+          "url": "https://www.dtnext.in/news/national/meghalaya-worlds-wettest-towns-mawsynram-and-cherrapunji-face-drought-risks-says-study",
+          "type": "bao",
+          "published": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "scene": 9,
+      "quote": "On a clear dry day, from the edge of the plateau, you can see the plains of Bangladesh.",
+      "statement": "From the southern edge of the Meghalaya plateau around Mawsynram, the plains of Bangladesh are visible on clear days in the dry season.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Mawsynram",
+          "publisher": "Meghalaya Tourism (Government of Meghalaya)",
+          "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/mawsynram/",
+          "type": "goc",
+          "published": null
+        },
+        {
+          "title": "Mawsynram – Wettest Place on Earth",
+          "url": "https://welcomemeghalaya.com/destinations/mawsynram/",
+          "publisher": "Meghalaya Tourism",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Sohra: Singin' in the rain",
+          "publisher": "Outlook Traveller",
+          "url": "https://site.outlookindia.com/traveller/?p=59827",
+          "type": "bao",
+          "published": "2017-08-17"
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "scene": 9,
+      "quote": "The hilltop is a steep tin roof. Pour a bucket on it, and it gets very wet, very fast, and keeps almost nothing.",
+      "statement": "On the steep, rocky hills around Mawsynram and Cherrapunji, monsoon rain runs off quickly rather than soaking in, so very little of it is retained on the hilltops.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Why the wettest hills of India are running dry",
+          "publisher": "India Water Portal",
+          "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya",
+          "type": "bao",
+          "published": "2026-03-14"
+        },
+        {
+          "title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water",
+          "publisher": "Northeast Live",
+          "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water",
+          "type": "bao",
+          "published": "2024-01-07"
+        },
+        {
+          "title": "Environmental Assessment for Umling-Patharkhamah Road",
+          "url": "https://documents1.worldbank.org/curated/en/889771591677401225/pdf/Environmental-Assessment-for-Umling-Patharkhamah-Road.pdf",
+          "publisher": "World Bank",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Dominant Synoptic Disturbance in the Extreme Rainfall at Cherrapunji, Northeast India, Based on 104 Years of Rainfall Data (1902–2005)",
+          "url": "https://journals.ametsoc.org/doi/10.1175/JCLI-D-16-0435.1",
+          "publisher": "Journal of Climate, American Meteorological Society",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "scene": 9,
+      "quote": "In twenty nineteen, Meghalaya's deputy chief minister said much the same: the state's rain runs off quickly, into Bangladesh.",
+      "statement": "In July 2019, when Meghalaya's cabinet approved a draft water policy, Deputy Chief Minister Prestone Tynsong said the state's rainwater is not retained and flows quickly into Bangladesh because of the steep terrain.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya Cabinet approves draft water policy, to focus on rainwater harvesting",
+          "publisher": "Scroll.in",
+          "url": "https://scroll.in/latest/930375/scroll_in",
+          "type": "bao",
+          "published": "2019-07-13"
+        },
+        {
+          "title": "Meghalaya Cabinet approves draft water policy",
+          "url": "https://www.business-standard.com/amp/article/pti-stories/meghalaya-cabinet-approves-draft-water-policy-119071300182_1.html",
+          "publisher": "Press Trust of India (republished by Business Standard)",
+          "type": "bao",
+          "published": "2019-07-13",
+          "url_song": true
+        },
+        {
+          "title": "Meghalaya State Water Policy 2019",
+          "url": "https://meghalaya.gov.in/node/35678",
+          "publisher": "Government of Meghalaya",
+          "type": "goc",
+          "published": "2019-07-12",
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "scene": 9,
+      "quote": "On the seventeenth of June, twenty twenty-two, Mawsynram recorded more than a metre of rain in twenty-four hours. That's over thirty-nine inches.",
+      "statement": "The India Meteorological Department recorded 1,003.6 mm (about 39.5 inches) of rain at Mawsynram in the 24 hours to 17 June 2022.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)",
+          "publisher": "Eastern Mirror",
+          "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd",
+          "type": "bao",
+          "published": "2022-06-17"
+        },
+        {
+          "title": "Monthly Climate Summary, June 2022",
+          "publisher": "India Meteorological Department",
+          "url": "https://imdpune.gov.in/cmpg/Product/Monthly_Climate_Summary/Monthly_Clim_Summary_6_2022.pdf",
+          "type": "goc",
+          "published": "2022-07-01"
+        },
+        {
+          "title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day, Cherrapunji gauges 972 mm: IMD",
+          "url": "https://theprint.in/india/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd/1001205/",
+          "publisher": "ThePrint / Press Trust of India",
+          "type": "bao",
+          "published": "2022-06-17",
+          "url_song": true
+        },
+        {
+          "title": "Mawsynram sets new June rainfall record at 1003 mm in 24 hours",
+          "url": "https://indianexpress.com/article/weather/cherrapunji-972-mm-rain-24-hrs-third-wettest-june-day-122-years-7975357/",
+          "publisher": "The Indian Express",
+          "type": "bao",
+          "published": "2022-06-17",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "scene": 9,
+      "quote": "Bangladesh's flood forecasters named heavy rain in Meghalaya and Assam as one cause of the floods that followed in the Sylhet region. Millions of people were affected.",
+      "statement": "In June 2022, Bangladesh's Flood Forecasting and Warning Centre cited extremely heavy rainfall in Meghalaya and Assam as one cause of the floods in Bangladesh's Sylhet region, which affected millions of people.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "khong-ro",
+      "vong3": "dung",
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Four million people affected by 'double floods' within a month in Bangladesh's Sylhet division",
+          "publisher": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/four-million-people-affected-by-double-floods-within-a-month-in-bangladesh-s-sylhet-division-83351",
+          "type": "bao",
+          "published": "2022-06-18"
+        },
+        {
+          "title": "Severe Flash Floods Situation Update 2 (22 June 2022)",
+          "publisher": "United Nations Bangladesh",
+          "url": "https://bangladesh.un.org/bn/node/187390",
+          "type": "goc",
+          "published": "2022-06-22"
+        },
+        {
+          "title": "IFRC GO - Emergency - Bangladesh - Flash Flood 2022",
+          "url": "https://go.ifrc.org/emergencies/5983/details",
+          "publisher": "International Federation of Red Cross and Red Crescent Societies",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Climate-induced Shock Responsive Social Protection in Bangladesh",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2024/04/Climate-induced-Shock-Responsive-Draft-March-2024-Smaller.pdf",
+          "publisher": "Government of Bangladesh",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Devastating floods hit Sylhet after highest rainfall in 122 years in Cherrapunji",
+          "publisher": "Prothom Alo English",
+          "url": "https://en.prothomalo.com/bangladesh/devastating-floods-hit-sylhet-after-highest-rainfall-in-122-years-in-cherrapunji",
+          "type": "bao",
+          "published": "2022-06-17"
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "scene": 10,
+      "quote": "drew one more dotted line, south and east, down to Khasi and Jaintia villages on the lower slopes. That's where most of the living root bridges grow.",
+      "statement": "Living root bridges are found in Khasi and Jaintia villages in the hills of Meghalaya, mostly on the lower slopes (a 2015–2017 survey found most between about 250 and 900 m).",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Living bridges using aerial roots of Ficus elastica – an interdisciplinary perspective (Ludwig et al., Scientific Reports 9:12226)",
+          "publisher": "Europe PMC (Nature Portfolio)",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6706416/fullTextXML",
+          "type": "goc",
+          "published": "2019-08-22"
+        },
+        {
+          "title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+          "url": "https://www.nature.com/articles/s41598-019-48652-w",
+          "publisher": "Scientific Reports / Nature",
+          "type": "goc",
+          "published": "2019-08-20",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "scene": 10,
+      "quote": "Villagers guide the hanging roots of a rubber fig tree across a stream, until they reach the far bank and take hold.",
+      "statement": "Living root bridges are made by guiding the aerial roots of the rubber fig tree (Ficus elastica) across a stream, often along bamboo or other supports, until they root on the far bank.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Living bridges using aerial roots of Ficus elastica (press release)",
+          "publisher": "Technical University of Munich",
+          "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/35782",
+          "type": "goc",
+          "published": "2019-11-18"
+        },
+        {
+          "title": "Rooted in tradition: nature-based architecture bridges generations",
+          "publisher": "Mongabay India",
+          "url": "https://india.mongabay.com/2024/11/rooted-in-tradition-nature-based-architecture-bridges-generations/",
+          "type": "bao",
+          "published": "2024-11-01"
+        },
+        {
+          "title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+          "url": "https://www.nature.com/articles/s41598-019-48652-w",
+          "publisher": "Scientific Reports / Nature",
+          "type": "goc",
+          "published": "2019-08-22",
+          "url_song": true
+        },
+        {
+          "title": "Conserving the living root bridges of Meghalaya",
+          "url": "https://www.undp.org/stories/conserving-living-root-bridges-meghalaya",
+          "publisher": "United Nations Development Programme",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "scene": 10,
+      "quote": "The people who start a bridge are not always the ones who finish it. Estimates vary for how long a bridge takes, from about twenty years to several decades. Some bridges are still growing stronger after more than sixty years.",
+      "statement": "Living root bridges can take longer than a single generation to build: estimates of how long one takes to become usable vary, with UNDP giving 20 to 25 years and Ludwig et al. (2019) describing a process over generations, decades to centuries, including a bridge still not at full function after 66 years; the bridges keep growing and strengthening over time.",
+      "hedged": true,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Living bridges using aerial roots of Ficus elastica (press release)",
+          "publisher": "Technical University of Munich",
+          "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/35782",
+          "type": "goc",
+          "published": "2019-11-18"
+        },
+        {
+          "title": "Rooted in tradition: nature-based architecture bridges generations",
+          "publisher": "Mongabay India",
+          "url": "https://india.mongabay.com/2024/11/rooted-in-tradition-nature-based-architecture-bridges-generations/",
+          "type": "bao",
+          "published": "2024-11-01"
+        },
+        {
+          "title": "Conserving the living root bridges of Meghalaya",
+          "url": "https://www.undp.org/stories/conserving-living-root-bridges-meghalaya",
+          "publisher": "United Nations Development Programme",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+          "url": "https://www.nature.com/articles/s41598-019-48652-w",
+          "publisher": "Scientific Reports / Nature",
+          "type": "goc",
+          "published": "2019-08-22",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "scene": 10,
+      "quote": "India nominated them for World Heritage status in January twenty twenty-six, and UNESCO is due to look at them in twenty twenty-seven.",
+      "statement": "In January 2026 India submitted Meghalaya's living root bridges ('Jingkieng Jri / Lyucharai Cultural Landscape') to UNESCO for World Heritage status, for examination by the World Heritage Committee in 2027.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "India submits Meghalaya's living root bridges to UNESCO for World Heritage status",
+          "publisher": "All India Radio (News on AIR)",
+          "url": "https://www.newsonair.gov.in/india-submits-meghalayas-living-root-bridges-to-unesco-for-world-heritage-status",
+          "type": "goc",
+          "published": "2026-01-29"
+        },
+        {
+          "title": "Meghalaya's Living Root Bridges nominated for UNESCO World Heritage status",
+          "publisher": "India Today NE",
+          "url": "https://www.indiatodayne.in/meghalaya/story/meghalayas-living-root-bridges-nominated-for-unesco-world-heritage-status-1364202-2026-03-23",
+          "type": "bao",
+          "published": "2026-03-23"
+        },
+        {
+          "title": "India's ancient Buddhist site of Sarnath inscribed on UNESCO World Heritage List",
+          "publisher": "The Pioneer",
+          "url": "https://www.dailypioneer.com/news/indias-ancient-buddhist-site-of-sarnath-inscribed-on-unesco-world-heritage-list",
+          "type": "bao",
+          "published": "2026-07-25"
+        },
+        {
+          "title": "India submits Meghalaya’s living root bridges to UNESCO for World Heritage status",
+          "url": "https://newsonair.gov.in/india-submits-meghalayas-living-root-bridges-to-unesco-for-world-heritage-status/",
+          "publisher": "Akashvani News / News On AIR, Government of India",
+          "type": "goc",
+          "published": "2026-01-29",
+          "url_song": true
+        },
+        {
+          "title": "Jingkieng jri: Living Root Bridge Cultural Landscapes",
+          "url": "https://whc.unesco.org/en/tentativelists/6606/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "goc",
+          "published": "2022-02-17",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "scene": 11,
+      "quote": "Khasi families trace their line through the mother. By custom, the youngest daughter, called ka khadduh, keeps the ancestral house and the family land. Keeps, not owns. It belongs to the whole lineage, and selling it needs the agreement of her mother's brothers and her own brothers.",
+      "statement": "The Khasi are matrilineal: descent is traced through the mother, and by custom the youngest daughter (ka khadduh) is the custodian, not the individual owner, of the ancestral house and family property, which belong to the lineage; selling it traditionally requires the consent of her maternal uncles and brothers.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "A",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Culture & Heritage: The People",
+          "publisher": "East Khasi Hills District Administration",
+          "url": "https://eastkhasihills.gov.in/?p=2811",
+          "type": "goc",
+          "published": "2019-01-21"
+        },
+        {
+          "title": "Explained: A proposed Bill and its possible ramifications in matrilineal Meghalaya",
+          "url": "https://indianexpress.com/article/explained/explained-a-proposed-bill-and-its-possible-ramifications-in-matrilineal-meghalaya-7603014/",
+          "publisher": "The Indian Express",
+          "type": "bao",
+          "published": "2021-11-02",
+          "url_song": true
+        },
+        {
+          "title": "Sociocultural Changes in the Khasi Tribe of Meghalaya",
+          "url": "https://www.crvp.org/publications/Series-IIIB/IIIB-16.pdf",
+          "publisher": "Centre for Research and Communication",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Changing gender roles and relations in food provisioning among matrilineal Khasi and patrilineal Chakhesang Indigenous rural People of North-East India",
+          "url": "https://doi.org/10.1111/MCN.12560",
+          "publisher": "Maternal & Child Nutrition",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "scene": 11,
+      "quote": "That custom is being debated right now.",
+      "statement": "The Khasi inheritance custom is under debate: a Khasi Inheritance of Property Bill proposed in 2021 (equal division of property among children) remains pending at the Khasi Hills Autonomous District Council, which revived its review in June 2026.",
+      "hedged": false,
+      "claude": "dung",
+      "gemini": "dung",
+      "vong3": null,
+      "level": "B",
+      "issue": null,
+      "nguon": [
+        {
+          "title": "Meghalaya: KHADC revives stalled review of Khasi Inheritance of Property Bill",
+          "publisher": "NE NOW",
+          "url": "https://nenow.in/north-east-news/meghalaya/meghalaya-khadc-revives-stalled-review-of-khasi-inheritance-of-property-bill.html",
+          "type": "bao",
+          "published": "2026-06-18"
+        },
+        {
+          "title": "Meghalaya: District council to introduce Bill changing age-old Khasi matrilineal inheritance custom",
+          "url": "https://indianexpress.com/article/north-east-india/meghalaya/meghalaya-bill-change-khasi-matrilineal-inheritance-custom-7594026/",
+          "publisher": "The Indian Express",
+          "type": "bao",
+          "published": "2021-11-01",
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "A": 22,
+    "B": 15,
+    "C": 2,
+    "D": 0
+  },
+  "problems": [],
+  "lech": 10
+}

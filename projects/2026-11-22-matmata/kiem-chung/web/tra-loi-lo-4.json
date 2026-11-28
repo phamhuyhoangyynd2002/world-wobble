@@ -1,0 +1,184 @@
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "Reuters reports that many families left underground houses when new towns and villages were constructed during the 1960s and 1970s as part of President Habib Bourguiba's modernisation drive.",
+"sources": [
+{
+"title": "Last residents hold on in Tunisia’s underground houses",
+"publisher": "Arab News (Reuters)",
+"url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+"type": "bao",
+"published": "2018-02-27"
+},
+{
+"title": "The last residents of Tunisia’s underground houses",
+"publisher": "Al Jazeera",
+"url": "https://www.aljazeera.com/gallery/2018/2/27/the-last-residents-of-tunisias-underground-houses",
+"type": "bao",
+"published": "2018-02-27"
+},
+{
+"title": "MATMATA, THE VILLAGE WHERE YOU WALK ON ROOFTOPS!",
+"publisher": "Tunisair",
+"url": "https://www.tunisair.com/sites/default/files/2025-01/gaz-94_correct.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "sai",
+"correct_value": "Haddej was still inhabited in 2018; Reuters reported that local shopkeeper Hedi Ali Kayel lived and worked there and maintained the remaining traditional houses.",
+"note": "Although abandonment and deterioration of traditional dwellings are documented, the specific claim that Haddej had been abandoned since the 1990s is contradicted by reporting that identifies an active shopkeeper and ongoing maintenance work there in 2018.",
+"sources": [
+{
+"title": "Last residents hold on in Tunisia’s underground houses",
+"publisher": "Arab News (Reuters)",
+"url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+"type": "bao",
+"published": "2018-02-27"
+},
+{
+"title": "Last residents hold on in Tunisia’s underground houses",
+"publisher": "Jordan Times (Reuters)",
+"url": "https://jordantimes.com/news/region/last-residents-hold-tunisia%E2%80%99s-underground-houses",
+"type": "bao",
+"published": "2018-02-27"
+},
+{
+"title": "Matmata Underground Houses in Matmatat-Al-Qadimal",
+"publisher": "Atlas Obscura",
+"url": "https://www.atlasobscura.com/places/matmata-underground-houses",
+"type": "khac",
+"published": "2018-07-16"
+}
+]
+},
+{
+"id": "C27",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Sources identify Nouvelle Matmata as a modern above-ground settlement approximately 13–15 km from Old Matmata, but the complete description, particularly the specific butcher's shop and the straight-line distance of 14 km, could not be independently verified.",
+"sources": [
+{
+"title": "MATMATA, THE VILLAGE WHERE YOU WALK ON ROOFTOPS!",
+"publisher": "Tunisair",
+"url": "https://www.tunisair.com/sites/default/files/2025-01/gaz-94_correct.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Informations Utiles",
+"publisher": "Tamezret",
+"url": "https://www.tamezret.com/informations-utiles",
+"type": "khac",
+"published": null
+},
+{
+"title": "Restaurants Businesses in Matmata Tunisia",
+"publisher": "Cybo",
+"url": "https://www.cybo.com/TN/matmata-tunisia/restaurants",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C28",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches did not identify a reliable academic or primary source documenting residents specifically retaining ancestral pit-house rooms for occasional use during summer heat waves after moving into conventional houses.",
+"sources": []
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "A 2023 peer-reviewed paper reproducing Krarti's 1998 measurements gives indoor temperatures of 25.5°C versus 36.5°C in summer and 15°C versus 10.5°C in winter for subterranean and above-ground dwellings respectively; the claim's 36°C is a reasonable rounding.",
+"sources": [
+{
+"title": "Re-evaluating the health performance of historical buildings using WELLV1 rating system",
+"publisher": "Computational Urban Science, Springer Nature",
+"url": "https://www.researchgate.net/publication/373575995_Re-evaluating_the_health_performance_of_historical_buildings_using_WELLV1_rating_system",
+"type": "khac",
+"published": "2023-09-01"
+}
+]
+},
+{
+"id": "C30",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The Guardian confirms that Sidi Driss was a traditional Berber troglodyte house converted into a hotel in 1969, but the searches did not establish that it was specifically a family home before conversion; another source reports that the hotel opened in 1968.",
+"sources": [
+{
+"title": "Star Wars' abandoned Tunisian locations – in pictures",
+"publisher": "The Guardian",
+"url": "https://www.theguardian.com/film/2015/dec/03/star-wars-abandoned-tunisian-locations-in-pictures",
+"type": "bao",
+"published": "2015-12-03"
+},
+{
+"title": "Hotel Sidi Driss - Sleep In A 17th-Century Troglodyte Pit In Tunisia Where Star Wars Was Filmed",
+"publisher": "UNIQ Hotels",
+"url": "https://www.uniqhotels.com/hotel-sidi-driss-star-wars/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Urban Art Bio Academic Journal",
+"publisher": "Urban Art Bio",
+"url": "https://ajpsdz.org/rv/index.php/uab/article/download/164/108",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Tunisian Cinema database documents Hotel Sidi Driss among the filming locations, while StarWars.com confirms principal photography began in Tunisia on 22 March 1976; the hotel scenes were filmed on 1 April 1976.",
+"sources": [
+{
+"title": "Cinéma tunisien · TUNISIAN CINEMA: LA GUERRE DES ÉTOILES · UN NOUVEL ESPOIR",
+"publisher": "Tunisian Cinema",
+"url": "https://www.tunisiancinema.com/tournages/foreign-sw4/",
+"type": "khac",
+"published": null
+},
+{
+"title": "On This Day: Star Wars: A New Hope Began Filming 50 Years Ago",
+"publisher": "StarWars.com (Lucasfilm)",
+"url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+"type": "goc",
+"published": "2026-03-22"
+},
+{
+"title": "Hotel Sidi Idriss",
+"publisher": "Galaxy Tours",
+"url": "https://galaxytours.com/starwars-tunisia-film-sites/hotel-sidi-idriss/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "dung",
+"correct_value": null,
+"note": "StarWars.com, Lucasfilm's official website, explicitly reports that a once-in-a-generation storm struck the region shortly after filming began and disrupted the production schedule and logistics.",
+"sources": [
+{
+"title": "On This Day: Star Wars: A New Hope Began Filming 50 Years Ago",
+"publisher": "StarWars.com (Lucasfilm)",
+"url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+"type": "goc",
+"published": "2026-03-22"
+}
+]
+}
+]

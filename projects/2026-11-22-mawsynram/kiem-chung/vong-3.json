@@ -1,0 +1,104 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-29",
+  "ket_qua": [
+    {
+      "id": "C09",
+      "statement": "Landslides sometimes block roads in the Mawsynram block (for example at km 33 of the Mawphlang–Balat road on 4 April 2022), and during the rainy months (about May to October) heavy rain can cut off some villages in the Mawsynram area for weeks.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Sentinel 5/4/2022: 'On the Mawphlang-Balat Road under Mawsynram Block, a landslide occurred at 33rd km' (thứ Hai 4/4/2022, sau đã thông đường); WHO India 12/6/2024 về cụm làng Kenmynsaw thuộc phân khu Mawsynram: thân bài 'incessant rain, particularly intense during the wet season from May to October, isolates communities ... for extended periods', chú thích ảnh 'particularly from May to October, when ceaseless rain isolate them for weeks'. Chữ 'weeks' chỉ nằm ở chú thích ảnh của WHO; không tìm thấy nguồn '17 làng bị cô lập 6 ngày', các tin sạt lở khác nói tắc đường vài ngày (sửa tạm 10–14 ngày). Đủ cho 'can cut some villages off for weeks'.",
+      "nguon": [
+        {"title": "Two killed as landslides hit Meghalaya", "publisher": "The Sentinel (Assam)", "url": "https://sentinelassam.com/north-east-india-news/meghalaya-news/two-killed-as-landslides-hit-meghalaya-586080", "type": "bao", "published": "2022-04-05"},
+        {"title": "Taking health care to the people, come rain or shine", "publisher": "WHO India", "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine", "type": "goc", "published": "2024-06-12"}
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "The heavy monsoon rain that falls on the hilltops around Mawsynram does not stay there but runs off quickly down the steep slopes, the same slopes where crops such as areca nut, betel leaf, pepper and broom grass are grown.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Nghị sĩ Mawsynram Olan Singh Suin (Northeast Live 7/1/2024): 'Because of the high hills the water does not accumulate there'; Phó Thủ hiến Tynsong (Scroll 13/7/2019): 'water can't be retained and reaches Bangladesh within hours'; India Water Portal 3/2026 (Sohra): 'steep slopes and rocky, less porous terrain push rainwater downhill quickly'; WHO 2024: nông hộ nhỏ ở vùng đồi trồng cau, trầu, tiêu, cỏ chổi; AFP 2013: tre, cỏ chổi là cây chính 'in this rocky, hilly region'. Lưu ý: chữ 'slopes' cho ruộng là suy từ 'hilly region'; lời đọc 'waters all of it' (nước chảy xuống tưới ruộng) là cách kể, không nguồn nào nói nước tràn tưới vườn.",
+      "nguon": [
+        {"title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water", "publisher": "Northeast Live", "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water", "type": "bao", "published": "2024-01-07"},
+        {"title": "Meghalaya Cabinet approves draft water policy, to focus on rainwater harvesting", "publisher": "Scroll.in", "url": "https://scroll.in/latest/930375/scroll_in", "type": "bao", "published": "2019-07-13"},
+        {"title": "Why the wettest hills of India are running dry: the changing water story of Meghalaya", "publisher": "India Water Portal", "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya", "type": "bao", "published": "2026-03-14"},
+        {"title": "Taking health care to the people, come rain or shine", "publisher": "WHO India", "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine", "type": "goc", "published": "2024-06-12"}
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "Families in villages of the Mawsynram area make brooms and baskets at home from broom grass and bamboo, and broom grass is one of the area's main crops for sale.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "WHO 2024 (Kenmynsaw, phân khu Mawsynram): 'families can be seen sitting together, engaging in their primary cottage industry: weaving baskets and making brooms from locally-produced bamboo'; AFP 2013: tre và cỏ chổi 'are among the chief plants grown', cỏ chổi được ép, phơi 'on rooftops across Mawsynram', một phụ nữ làm 'bamboo baskets, brooms and knups which are bought by visiting businessmen'; Morung Express 18/4/2018: nghị sĩ Mawsynram nói khu bầu cử sản xuất lượng lớn chổi (con số 'one lakh tons' của ông khó tin, không dùng), Bộ trưởng Nông nghiệp: trồng cỏ chổi 'provides a good profit'.",
+      "nguon": [
+        {"title": "Taking health care to the people, come rain or shine", "publisher": "WHO India", "url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine", "type": "goc", "published": "2024-06-12"},
+        {"title": "A life spent in the wettest place on earth (AFP)", "publisher": "Fox News (AFP)", "url": "https://www.foxnews.com/world/a-life-spent-in-the-wettest-place-on-earth", "type": "bao", "published": "2013-07-30"},
+        {"title": "Meghalaya urged to recognize key crops as agricultural produces", "publisher": "Morung Express (Newmai)", "url": "https://morungexpress.com/meghalaya-urged-recognize-key-crops-agricultural-produces", "type": "bao", "published": "2018-04-18"}
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "The Mawphlang–Balat road runs through the Mawsynram block, from the Khasi Hills down toward the India–Bangladesh border at Balat.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Sentinel 2022: 'Mawphlang-Balat Road under Mawsynram Block'; NE Now 26/4/2022: 'Balat is a town in East Khasi Hills district', chợ biên giới 'India-Bangladesh border haat at Balat-Lauwaghar' (bên kia là Dalora, Sunamganj); India Today NE 5/2025: chợ biên giới Balat 'located along the zero line of the India-Bangladesh border'; Highland Post 6/2024: đường 'from Mawphlang to Balat' nối tới ba chợ biên giới, gần Bangladesh.",
+      "nguon": [
+        {"title": "Two killed as landslides hit Meghalaya", "publisher": "The Sentinel (Assam)", "url": "https://sentinelassam.com/north-east-india-news/meghalaya-news/two-killed-as-landslides-hit-meghalaya-586080", "type": "bao", "published": "2022-04-05"},
+        {"title": "India-Bangladesh border haat at Balat-Dolura reopens", "publisher": "NE Now", "url": "https://nenow.in/north-east-news/meghalaya/india-bangladesh-border-haat-balat-dolura-reopens.html", "type": "bao", "published": "2022-04-26"},
+        {"title": "Bangladesh yet to allow reopening of border haats in Meghalaya: Officials", "publisher": "India Today NE", "url": "https://www.indiatodayne.in/meghalaya/story/bangladesh-yet-to-allow-reopening-of-border-haats-in-meghalaya-officials-1215654-2025-05-19", "type": "bao", "published": "2025-05-19"},
+        {"title": "HYNY to stage 24-hour protest over pathetic road conditions", "publisher": "Highland Post", "url": "https://highlandpost.com/hyny-to-stage-24-hour-protest-over-pathetic-road-conditions", "type": "bao", "published": "2024-06-22"}
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "During the summer monsoon, warm moist air from the Bay of Bengal flows north across the flat Bangladesh plains and is forced up the steep southern slopes of the Meghalaya plateau (Mawsynram lies at about 1,431 m, roughly 4,700 feet), where it cools and its moisture condenses into very heavy orographic rainfall.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "WMO (trang cực trị Region II): Mawsynram 25°18'B, 91°35'Đ, '1431 m (4695 ft)', nên 'about fourteen hundred metres, roughly forty-seven hundred feet' đúng; Sato 2013 (MWR, tóm tắt ở kho Hokkaido): gió tây nam tầng thấp mạnh mang ẩm tới sườn nam cao nguyên Meghalaya và gây nâng địa hình; IMD Guwahati (PTI 2022): 'southwesterly winds have been continuously bringing a lot of moisture from the Bay of Bengal ... smash against the cliffs of the Khasi hills'. Ý 'đi qua đồng bằng Bangladesh' thấy trong tóm tắt Fujinami et al. (AGU 2016/JGR 2017) qua kết quả tìm kiếm (không mở được bản gốc), và hợp với vị trí địa lý.",
+      "nguon": [
+        {"title": "Greatest Average Annual Rainfall, WMO Region II (Asia)", "publisher": "World Meteorological Organization", "url": "https://wmo.int/asu-map?map=Rain_041", "type": "goc", "published": null},
+        {"title": "Mechanism of Orographic Precipitation around the Meghalaya Plateau Associated with Intraseasonal Oscillation and the Diurnal Cycle (Sato 2013), abstract", "publisher": "Hokkaido University repository (Monthly Weather Review)", "url": "https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/53972", "type": "goc", "published": "2013-07-01"},
+        {"title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day (PTI)", "publisher": "Eastern Mirror", "url": "https://www.easternmirrornagaland.com/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd", "type": "bao", "published": "2022-06-17"}
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "Mawsynram, which the WMO lists as having Asia's greatest average annual rainfall, nonetheless faces dry-season water shortages, with springs, streams and lakes in the area drying up.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "WMO: kỷ lục mưa trung bình năm châu Á; nghị sĩ Mawsynram (1/2024): 'In lean period we do not even have water to drink', 'the streams sometimes dry up'; India Water Portal 2026 (Meghalaya, Sohra): 'Springs that sustained generations have retreated into dry stone beds', suối 'fall silent by winter'; PTI 21/9/2026 (DT Next): dân Sohra và Mawsynram nói 'several waterbodies and waterfalls have been drying up faster this year'. Chữ 'lakes' không nguồn nào nói riêng, chỉ ứng với 'waterbodies'; nên đổi statement thành 'springs, streams and other waterbodies'. Lời đọc (lòng suối cạn, mua nước uống) đứng được.",
+      "nguon": [
+        {"title": "Greatest Average Annual Rainfall, WMO Region II (Asia)", "publisher": "World Meteorological Organization", "url": "https://wmo.int/asu-map?map=Rain_041", "type": "goc", "published": null},
+        {"title": "Meghalaya: Mawsynram MLA blames region's terrain for inability to conserve water", "publisher": "Northeast Live", "url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water", "type": "bao", "published": "2024-01-07"},
+        {"title": "Why the wettest hills of India are running dry: the changing water story of Meghalaya", "publisher": "India Water Portal", "url": "https://www.indiawaterportal.org/climate-change/why-the-wettest-hills-of-india-are-running-dry-the-changing-water-story-of-meghalaya", "type": "bao", "published": "2026-03-14"},
+        {"title": "Meghalaya: World's wettest towns Mawsynram and Cherrapunji face drought risks, says study (PTI)", "publisher": "DT Next", "url": "https://www.dtnext.in/news/national/meghalaya-worlds-wettest-towns-mawsynram-and-cherrapunji-face-drought-risks-says-study", "type": "bao", "published": "2026-09-21"}
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "From the southern edge of the Meghalaya plateau around Mawsynram, the plains of Bangladesh are visible on clear days in the dry season.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Meghalaya Tourism (trang Mawsynram của chính quyền bang): 'panoramic vistas stretching into Bangladesh'; Outlook Traveller 17/8/2017 (vùng Sohra, cùng mép nam cao nguyên): công viên Thangkharang cho 'breathtaking views of the waterlogged Bangladesh plains', ngày nắng nhìn được xa nhưng 'clouds obstruct views on most days'. Chi tiết 'mùa khô' là suy luận (Meghalaya Tourism chỉ nói sau gió mùa và mùa đông trời quang hơn cho đi bộ); 'ngày trời trong' thì có nguồn.",
+      "nguon": [
+        {"title": "Mawsynram", "publisher": "Meghalaya Tourism (Government of Meghalaya)", "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/mawsynram/", "type": "goc", "published": null},
+        {"title": "Sohra: Singin' in the rain", "publisher": "Outlook Traveller", "url": "https://site.outlookindia.com/traveller/?p=59827", "type": "bao", "published": "2017-08-17"}
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "In June 2022, Bangladesh's Flood Forecasting and Warning Centre cited extremely heavy rainfall in Meghalaya and Assam as one cause of the floods in Bangladesh's Sylhet region, which affected millions of people.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Down To Earth 18/6/2022 (Rafiqul Islam Montu, viết từ Sylhet): 'The Bangladesh Flood Forecasting and Warning Centre has cited extremely heavy rains in Meghalaya and Assam as well as unplanned embankments as the causes for the two rounds of floods' (đợt tháng 5 và đợt tháng 6/2022), 'left four million people fighting for survival'. Chữ 'one cause' khớp vì FFWC nêu hai nguyên nhân (mưa thượng nguồn + đê bao tự phát). Prothom Alo 17/6/2022: FFWC báo mưa 'heavy to very heavy' sẽ tiếp tục ở thượng nguồn Ấn Độ và Bangladesh, kỹ sư FFWC Arifuzzaman Bhuiyan: 'As heavy rain starts falling in the upstream, it is also raining in Bangladesh'; bài viết tự nói lũ tới sau khoảng 2.500 mm mưa ba ngày ở Assam và Meghalaya. Số người: LHQ Bangladesh (RCO, cập nhật 2, 22/6/2022): 'An estimated 7.2 million people are affected by this sudden flash flood', nguyên nhân 'heavy monsoon rains and water from upstream in India's northeast' (không nêu FFWC). DTE 4 triệu (18/6, lúc đang lũ) và LHQ 7,2 triệu (22/6) đều là 'millions'. Lưu ý nhỏ: lời đọc 'named heavy rain in Meghalaya and Assam as one cause' đứng được; không có nguồn FFWC gốc (bản tin BWDB) mở được, chỉ qua báo.",
+      "nguon": [
+        {"title": "Four million people affected by 'double floods' within a month in Bangladesh's Sylhet division", "publisher": "Down To Earth", "url": "https://www.downtoearth.org.in/climate-change/four-million-people-affected-by-double-floods-within-a-month-in-bangladesh-s-sylhet-division-83351", "type": "bao", "published": "2022-06-18"},
+        {"title": "Devastating floods hit Sylhet after highest rainfall in 122 years in Cherrapunji", "publisher": "Prothom Alo English", "url": "https://en.prothomalo.com/bangladesh/devastating-floods-hit-sylhet-after-highest-rainfall-in-122-years-in-cherrapunji", "type": "bao", "published": "2022-06-17"},
+        {"title": "Bangladesh: Severe Flash Floods Situation Update 2 (22 June 2022)", "publisher": "United Nations Bangladesh, Resident Coordinator's Office", "url": "https://bangladesh.un.org/bn/node/187390", "type": "goc", "published": "2022-06-22"}
+      ]
+    }
+  ]
+}

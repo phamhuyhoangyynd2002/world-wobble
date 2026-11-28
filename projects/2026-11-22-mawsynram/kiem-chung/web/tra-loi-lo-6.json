@@ -1,0 +1,186 @@
+[
+{
+"id": "C07",
+"verdict": "sai",
+"correct_value": "The rain museum was publicly announced in June 2025, not December 2025. Government tender documents and April 2026 reporting confirm the project was progressing and under construction.",
+"note": "The proposed December 2025 date is unsupported and appears incorrect; April 2026 reporting says construction was underway, but its status in late November 2026 could not be independently verified.",
+"sources": [
+{
+"title": "The Gazette of Meghalaya dated 24th April, 2025",
+"publisher": "Government of Meghalaya",
+"url": "https://megpns.gov.in/gazette/2025/04/24-04-25-IX.pdf",
+"type": "goc",
+"published": "2025-04-24"
+},
+{
+"title": "Rain museum at Mawnsynram",
+"publisher": "The Meghalayan Express",
+"url": "https://themeghalayanexpress.com/rain-museum-at-mawnsynram/",
+"type": "bao",
+"published": "2025-06-28"
+},
+{
+"title": "Rs 27-cr rain museum in Mawsynram to be ready in a year: Suin",
+"publisher": "The Meghalayan Express",
+"url": "https://themeghalayanexpress.com/rs-27-cr-rain-museum-in-mawsynram-to-be-ready-in-a-year-suin/",
+"type": "bao",
+"published": "2026-04-15"
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": "54,109 people and 162 inhabited villages according to the 2011 Census.",
+"note": "The Meghalaya government identifies Mawsynram village as the block headquarters, while the government statistical handbook records 162 inhabited villages and the Census records a population of 54,109.",
+"sources": [
+{
+"title": "Border Areas Development Officer Mawsynram",
+"publisher": "Border Areas Development Department, Government of Meghalaya",
+"url": "https://megbad.gov.in/bado_mawsynram.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "District Census Handbook: East Khasi Hills, Census of India 2011",
+"publisher": "Directorate of Census Operations, Meghalaya",
+"url": "https://censusindia.gov.in/nada/index.php/catalog/862/download/36316/DH_2011_1706_PART_A_DCHB_EAST_KHASI_HILLS.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Statistical Handbook Meghalaya 2023",
+"publisher": "Directorate of Economics and Statistics, Government of Meghalaya",
+"url": "https://www.des.megplanning.gov.in/documents/SHB2023-as-on-02-05-24.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": "Monthly outreach clinics; brake pads reportedly replaced every two weeks.",
+"note": "WHO India directly documents monthly outreach clinics organized by Mawsynram CHC and quotes a local taxi driver describing brake-pad replacement every two weeks on the steep roads.",
+"sources": [
+{
+"title": "Taking health care to the people, come rain or shine",
+"publisher": "World Health Organization, India",
+"url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+"type": "goc",
+"published": "2024-06-12"
+}
+]
+},
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": "July: 2,954.1 mm monthly normal, approximately 95.3 mm per day; December: 8.4 mm monthly normal. June–September account for approximately 75% of annual normal precipitation.",
+"note": "Japan Meteorological Agency normals directly support the comparison; the approximately 95 mm figure is the July monthly total divided by 31 days, rather than the monthly total itself.",
+"sources": [
+{
+"title": "Normals Data: Cherrapunji - India",
+"publisher": "Japan Meteorological Agency",
+"url": "https://ds.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=42515",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": "Olan Singh Suin's statement was reported on January 7, 2024.",
+"note": "A January 7, 2024 report quotes Mawsynram MLA Olan Singh Suin explaining that some high-altitude villages experience drinking-water shortages during the lean season because water does not accumulate and streams sometimes dry up in spring.",
+"sources": [
+{
+"title": "Meghalaya: Mawsynram MLA blames region’s terrain for inability to conserve water",
+"publisher": "Northeast Live",
+"url": "https://northeastlivetv.com/around-ne/meghalaya/meghalaya-mawsynram-mla-blames-regions-terrain-for-inability-to-conserve-water/",
+"type": "bao",
+"published": "2024-01-07"
+}
+]
+},
+{
+"id": "C33",
+"verdict": "dung",
+"correct_value": "1,003.6 mm in the 24 hours ending at 8:30 a.m. IST on June 17, 2022.",
+"note": "The India Meteorological Department figure is independently reported by PTI and The Indian Express, with the same measurement and observation period.",
+"sources": [
+{
+"title": "India's wettest place Mawsynram gets record 1003.6 mm rainfall on a June day, Cherrapunji gauges 972 mm: IMD",
+"publisher": "ThePrint / Press Trust of India",
+"url": "https://theprint.in/india/indias-wettest-place-mawsynram-gets-record-1003-6-mm-rainfall-on-a-june-day-cherrapunji-gauges-972-mm-imd/1001205/",
+"type": "bao",
+"published": "2022-06-17"
+},
+{
+"title": "Mawsynram sets new June rainfall record at 1003 mm in 24 hours",
+"publisher": "The Indian Express",
+"url": "https://indianexpress.com/article/weather/cherrapunji-972-mm-rain-24-hrs-third-wettest-june-day-122-years-7975357/",
+"type": "bao",
+"published": "2022-06-17"
+}
+]
+},
+{
+"id": "C34",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Reliable sources confirm that exceptionally heavy upstream rainfall in Meghalaya and Mawsynram contributed to the June 2022 northeastern Bangladesh floods, affecting millions, but the specific attribution to Bangladesh's Flood Forecasting and Warning Centre could not be verified in a directly accessible FFWC source.",
+"sources": [
+{
+"title": "IFRC GO - Emergency - Bangladesh - Flash Flood 2022",
+"publisher": "International Federation of Red Cross and Red Crescent Societies",
+"url": "https://go.ifrc.org/emergencies/5983/details",
+"type": "goc",
+"published": null
+},
+{
+"title": "Climate-induced Shock Responsive Social Protection in Bangladesh",
+"publisher": "Government of Bangladesh",
+"url": "https://socialprotection.gov.bd/wp-content/uploads/2024/04/Climate-induced-Shock-Responsive-Draft-March-2024-Smaller.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C35",
+"verdict": "dung",
+"correct_value": "The majority of surveyed living root bridges were located between 250 and 900 metres above sea level.",
+"note": "A 2019 peer-reviewed study documenting bridges surveyed between 2015 and 2017 confirms their distribution across the Khasi and Jaintia Hills and finds that the majority grow between 250 and 900 metres above sea level.",
+"sources": [
+{
+"title": "Living bridges using aerial roots of ficus elastica – an interdisciplinary perspective",
+"publisher": "Scientific Reports / Nature",
+"url": "https://www.nature.com/articles/s41598-019-48652-w",
+"type": "goc",
+"published": "2019-08-20"
+}
+]
+},
+{
+"id": "C38",
+"verdict": "dung",
+"correct_value": "India formally submitted the nomination on January 29, 2026, under the title Jingkieng Jri / Lyu Chrai Cultural Landscape, for the 2026–2027 World Heritage evaluation cycle.",
+"note": "India's public broadcaster confirms the January 2026 submission and the 2026–2027 evaluation cycle; the exact title spelling in the claim should be corrected to Lyu Chrai, and the 2027 committee examination should not be confused with guaranteed inscription.",
+"sources": [
+{
+"title": "India submits Meghalaya’s living root bridges to UNESCO for World Heritage status",
+"publisher": "Akashvani News / News On AIR, Government of India",
+"url": "https://newsonair.gov.in/india-submits-meghalayas-living-root-bridges-to-unesco-for-world-heritage-status/",
+"type": "goc",
+"published": "2026-01-29"
+},
+{
+"title": "Jingkieng jri: Living Root Bridge Cultural Landscapes",
+"publisher": "UNESCO World Heritage Centre",
+"url": "https://whc.unesco.org/en/tentativelists/6606/",
+"type": "goc",
+"published": "2022-02-17"
+}
+]
+}
+]

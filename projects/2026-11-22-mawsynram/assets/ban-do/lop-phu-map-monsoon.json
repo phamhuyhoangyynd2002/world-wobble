@@ -1,0 +1,9 @@
+{ "id": "map-monsoon",
+  "lop": [
+    { "loai": "duong", "diem": [[90.5,25.19],[90.9,25.17],[91.3,25.18],[91.6,25.2],[92.0,25.17],[92.3,25.13]], "mau": "#8a5a3a", "day": 6, "ghi_chu": "mép nam cao nguyên Meghalaya, giản lược" },
+    { "loai": "mui-ten", "diem": [[89.3,21.0],[89.6,22.6],[90.3,24.0],[91.0,24.85],[91.45,25.12],[91.54,25.2]], "mau": "#e0703a", "day": 7, "net_dut": [22,14], "ghi_chu": "gió mùa từ vịnh Bengal, nhánh tây" },
+    { "loai": "mui-ten", "diem": [[90.7,21.0],[90.95,22.5],[91.3,23.9],[91.55,24.8],[91.62,25.05],[91.64,25.19]], "mau": "#e0703a", "day": 7, "net_dut": [22,14], "ghi_chu": "gió mùa, nhánh giữa" },
+    { "loai": "mui-ten", "diem": [[92.0,21.0],[92.05,22.5],[92.0,23.9],[91.9,24.8],[91.8,25.07],[91.74,25.19]], "mau": "#e0703a", "day": 7, "net_dut": [22,14], "ghi_chu": "gió mùa, nhánh đông" } ],
+  "nhan": [ { "lon": 88.15, "lat": 21.2, "label": "Bay of Bengal" }, { "lon": 89.0, "lat": 23.0, "label": "monsoon air" } ],
+  "huong_nhan": { "Mawsynram": "trai", "Cherrapunji": "phai" },
+  "ghim_nho": ["Cherrapunji"] }

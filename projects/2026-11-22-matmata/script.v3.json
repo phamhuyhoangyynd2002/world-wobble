@@ -1,0 +1,2042 @@
+{
+  "title": "A Town You Can Walk Past Without Seeing",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Matmata",
+    "country": "Tunisia",
+    "lat": 33.543,
+    "lon": 9.967
+  },
+  "question": "Why do people live in Matmata?",
+  "message": "This video tells curious adults that Amazigh families farm Matmata's dry hills by catching its rare rain behind earth walls called jessour, and dig their homes into the soft loess as cool farm storehouses, and that the same rain brought many homes down in 1969, yet some families still keep a room below ground.",
+  "angle": "People live in Matmata because its dry hills can be farmed by catching rare autumn rain behind earth dams (jessour) for olives, figs and dates, and because thick wind-laid loess lets families dig cool, hidden farmhouse-storehouses around open pits, despite water once fetched by camel, windowless rooms, and the same rain that in 1969 brought many homes down and moved families up to New Matmata, where some still keep a room below for the summer.",
+  "dap_an_chinh": {
+    "canh": 5,
+    "tu_khoa": [
+      "jessour",
+      "olive",
+      "farm"
+    ]
+  },
+  "hook_type": "ky-vat-manh-vach",
+  "target_seconds": [
+    600,
+    900
+  ],
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "ghi_chu_khung": "Bản viết lại 29/11/2026 (bản 22/11 lưu ở script.v2.json; bản đầu ở script.v1.json), theo danh-gia-kich-ban-2026-11-29.md và research bổ sung S10–S31. Lập luận 'mưa mới là chủ nhà', khác Coober Pedy (tập 2: mỏ opal, trốn nắng, khoét ngang đồi): ở đây trốn nắng chỉ là giả thuyết đúng một nửa (cảnh 4); lời giải là jessour giữ mưa và đất cho ô liu/vả/chà là, nhà hố là nhà kho của nông trại (cảnh 5–6, ~3:00–4:30); đất loess là cơ chế (cảnh 7); cú lật là chính mưa phá nhà năm 1969 (cảnh 9), New Matmata, người giữ phòng dưới hố cho mùa nóng (cảnh 10). KHUNG TẬP (khác tập 6 Kiruna và tập 7 Mawsynram): 7 chương (Kiruna 8); một chuyến đi duy nhất vào tháng 10, không nhảy mùa, không nhịp 'quay lại mùa hè'; chương thân mở bằng doan-sai-roi-lat với hai giả thuyết ngay chương 1 (Kiruna mở bằng phong-quy-mo, Mawsynram dự kiến so-sanh-doi-thuong, Uros thu-hong-hieu); lời giải là cú lật bằng thời tiết xảy ra với chính Wob (mưa giữa sa mạc), kể bằng phong-quy-mo từ một giọt mưa ra cả thung lũng; chương nghiêm (1969) ở HỒI ỨC, Wob đặt mũ xuống ở mép một hố sập, không về bàn giữa tập (Kiruna về bàn); không chương nào đặt tên dạng 'Why…?', chương cuối đặt theo hành động vá vách chứ không theo 'kỷ vật quyết định'; outro ở bàn bằng khay cát và hai thìa nước (Kiruna: bật/tắt đèn bàn; Tristan: đọc bưu thiếp); đuôi mở bằng hành động đặt mẩu vách lên đĩa (không dùng 'X goes on the shelf' hay 'Up on the shelf, X gets'). So sánh đời thường: bưu điện chậm (c4), phễu và bọt biển (c5), đường nâu nén (c7), hũ bánh quy trên nóc tủ lạnh (c8); không mở bằng 'Think of…' hay 'Picture…'. Câu đối xứng 'not X, it's Y': 0 lần (c6 viết 'I'd been thinking of these pits as hiding places. They're farmhouses too.' để không mâu thuẫn với lý do ẩn mình ở c3) Nhóm 'here's…': 0 lần. CHUỖI ĐỒ VẬT WOB ĐỔI Ý: túi du lịch to. Cảnh 2: xếp đồ vào túi, cố ý không mang ô (định chuyển tới) → cảnh 4: dỡ hết đồ vào hốc tường phòng hố, gấp cả túi nhét vào (đổi ý 1: ở luôn) → cảnh 8: sau leo kho trượt, xách nước, phòng không cửa sổ, lặng lẽ xếp lại túi, để cạnh cửa (đổi ý 2) → cảnh 11: sau 'The house was here first', mở khoá túi lần nữa, đặt mũ lại vào hốc (đổi ý 3) → outro: WOULD MOVE, xô vữa cạnh giường. Chiếc ô: cảnh 2 bị đẩy vào góc; cảnh 5 Wob dùng mũ rộng vành thay ô, mũ đầy nước. Mũ: cảnh 9 đặt xuống đất (nghiêm), nhặt lên cuối cảnh; cảnh 10 đội lại. TRANG PHỤC WOB: trong chuyến đi: mũ rộng vành màu cát, khăn quàng mỏng, ba lô to, kéo túi du lịch to (cảnh 5 ướt sũng; cảnh 9 không đội mũ, mũ dưới đất). Ở bàn (cảnh 1, 2, 12, 13): đồ ở nhà, không ba lô, không mũ. ĐẠO CỤ XUYÊN TẬP: mẩu vách (1, 7, 12, 13); khay cát có lỗ tròn (2 → 12); đám mây 'ông chủ nhà' (6, 11, 12); thìa (7 cạo trần → 12 hai thìa nước); con dê (3, 8). Ảnh AI: không dùng (anh_ai rỗng); shots chỉ trỏ 2 bản đồ code (map-matmata, map-matmata-local) + thẻ chữ, mọi cảnh vẽ theo y_hinh. Người thật (bà Theouibi, bà Mohamedi, người thợ đào, Bourguiba) không vẽ mặt: người que, đồ vật hoặc thẻ chữ. Phim: chỉ nói tên phim và năm bằng lời; không vẽ nhân vật, đạo cụ, cảnh phim (y_hinh cảnh 11). Khách sạn Wob ở trong chuyến đi KHÔNG nêu tên (tránh ngụ ý một khách sạn có thật bị rơi vách).",
+  "visual_hint_tai_nguyen": {
+    "map-matmata": "Bản đồ D3 khung Tunisia và ven Địa Trung Hải (khoảng 29.5°N–38.5°N, 4°E–14.5°E): tô TUN màu đất nhạt #EFE3C8, DZA, LBY, ITA màu giấy nhạt hơn, biển #3F6A70, không nhãn nước; ghim Matmata 33.543, 9.967 đặt ở NỬA PHẢI khung (--anchor 1320,560), nhãn 'Matmata'; ghim phụ Tunis 36.806, 10.181 (nhãn 'Tunis') và Gabès 33.881, 10.098 (nhãn 'Gabès'); đường nét đứt Tunis → Matmata, nhãn '~365 km'. Tây Sahara nằm ngoài khung, không vẽ; biên giới Algeria, Libya vẽ thường. Không vẽ khe núi, đập jessour, ô liu (chưa lộ lời giải). Không chạm Biển Đông",
+    "map-matmata-local": "Sơ đồ cận vùng Matmata–Gabès (khung khoảng 33.35°N–34.0°N, 9.7°E–10.35°E): ghim 'Matmata' 33.543, 9.967; ghim 'New Matmata' khoảng 33.66, 10.02 (lấy toạ độ đúng ở trang Nouvelle Matmata, nguồn S28, trước khi vẽ); ghim 'Gabès' 33.881, 10.098 trên bờ vịnh Gabès; đường nét đứt Matmata ↔ New Matmata, KHÔNG ghi số km (khoảng cách là số tự tính, lời chỉ nói 'a short drive'); biển #3F6A70; đồi Dahar phía tây nam tô hoạ tiết nâu nhạt; không tô nước nào. Dùng từ cảnh 9. Không chạm Biển Đông"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "chapter": "Something Fell on My Pillow",
+      "lop": "hien-tai",
+      "role": "hook: kỷ vật mẩu vách rơi xuống gối đêm đầu; đi qua khách sạn hai lần vì nó nằm dưới chân; lời chào cố định (mo-ket). Không nói đất, mưa, nông nghiệp",
+      "narration": "This fell on my pillow on my first night. It is a piece of my bedroom wall. I walked past my hotel twice before I found it. I was standing on it. Hi, I'm Wob. I visit odd places and ask why anyone stays.",
+      "on_screen_text": "I WAS STANDING ON IT",
+      "y_hinh": [
+        {
+          "cue": "This fell on my pillow",
+          "y": "Bàn kỷ vật dưới đèn bàn. Wob (đồ ở nhà, không ba lô) giơ một mẩu đất vàng nhạt cỡ quả mận, mép vỡ, phủ bụi; một ít bụi rơi lả tả xuống mặt bàn. Trang sổ mở phía sau: bản đồ Tunisia, chấm nơi đến ở nửa phải"
+        },
+        {
+          "cue": "It is a piece of my bedroom wall",
+          "y": "Chèn vẽ tay 2 giây: đêm, phòng vòm tối, Wob ngủ; mẩu vách rơi 'bộp' xuống gối ngay cạnh đầu",
+          "gag": "Take chậm: Wob mở một mắt, nhìn mẩu vách, mẩu vách nằm im như chưa từng làm gì; Wob nhắm mắt lại, kéo chăn lên"
+        },
+        {
+          "cue": "I walked past my hotel twice",
+          "y": "Chèn vẽ tay: đồi khô vàng nhạt dưới nắng; Wob (mũ rộng vành, ba lô to, kéo túi du lịch to) đi ngang khung, ngó quanh tìm biển hiệu",
+          "gag": "Ba lần, lần ba lệch: Wob đi qua sang phải, quay lại đi qua sang trái, lần ba bước hụt chân vào khoảng không ở mép một cái hố tròn, khựng lại một chân giơ lơ lửng"
+        },
+        {
+          "cue": "I was standing on it",
+          "y": "Góc nhìn từ trên cao: Wob đứng sát miệng một sân tròn sâu, cửa vòm quanh vách; dưới đáy sân có tấm biển gỗ nhỏ không chữ; giữ hình"
+        },
+        {
+          "cue": "Hi, I'm Wob",
+          "y": "Lời chào nhận diện (skill mo-ket): về bàn, Wob vẫy tay bằng tay cầm mẩu vách, bụi rơi thêm một chút. Thẻ hộ chiếu KHÔNG hiện ở đây; lật vào ở cảnh 2 đúng chữ 'Matmata'"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "I walked past my hotel twice"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I was standing on it",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "Hi, I'm Wob",
+          "move": "zoom-out",
+          "zoom": 1.1
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This fell on my pillow",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I walked past my hotel twice",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I was standing on it",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Hi, I'm Wob",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "visual_hint": {
+        "map-matmata": "Bản đồ D3 khung Tunisia và ven Địa Trung Hải (khoảng 29.5°N–38.5°N, 4°E–14.5°E): tô TUN màu đất nhạt #EFE3C8, DZA, LBY, ITA màu giấy nhạt hơn, biển #3F6A70, không nhãn nước; ghim Matmata 33.543, 9.967 đặt ở NỬA PHẢI khung (--anchor 1320,560), nhãn 'Matmata'; ghim phụ Tunis 36.806, 10.181 (nhãn 'Tunis') và Gabès 33.881, 10.098 (nhãn 'Gabès'); đường nét đứt Tunis → Matmata, nhãn '~365 km'. Tây Sahara nằm ngoài khung, không vẽ; biên giới Algeria, Libya vẽ thường. Không vẽ khe núi, đập jessour, ô liu (chưa lộ lời giải). Không chạm Biển Đông"
+      }
+    },
+    {
+      "id": 2,
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa ở bàn (trong 60 s đầu): tên nơi (thẻ hộ chiếu), khoảng cách Tunis; từ đường không thấy nhà; Wob định chuyển tới (xếp đồ vào túi to: mũ, kem chống nắng, KHÔNG ô); hứa sẽ biết 'ai thật sự làm chủ nơi này', không phải Wob, không phải mặt trời; dựng khay cát có lỗ tròn (dùng lại ở outro). Không nói đất, mưa, nông nghiệp, nhà kho",
+      "narration": "The town is Matmata, in the dry hills of southern Tunisia, about three hundred and sixty-five kilometres south of Tunis. That's around two hundred and twenty-five miles. From the road, I couldn't see a single house. I went to find out who would choose to live like that, and whether I could. I even packed to stay. A sun hat, sunscreen, and a very big bag. No umbrella. Why would I need one? By the end of the trip, I knew who really runs the place. It wasn't me. It wasn't the sun either. Somewhere in this story, a camel makes a delivery through a roof. I'll show you on a tray of sand.",
+      "pronunciation": "Matmata: mat-MAH-tah",
+      "facts": [
+        {
+          "label": "Tunis → Matmata",
+          "value": "~365 km · ~227 mi",
+          "claim_ids": [
+            "C01"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "The town is Matmata",
+          "y": "THẺ HỘ CHIẾU lật vào góc trái trên đúng chữ này: MATMATA · TUNISIA · Would Wob move here? · ô con dấu trống; 3 giây rồi lật đi. Trên trang sổ, đường nét đứt từ Tunis chạy xuống phía nam tới chấm Matmata"
+        },
+        {
+          "cue": "I couldn't see a single house",
+          "y": "Trang sổ: Wob vẽ đường chân trời đồi thoải, không một mái nhà; chỉ có vài chấm tròn nhỏ trên sườn đồi (manh mối bằng hình, chưa giải thích)"
+        },
+        {
+          "cue": "I even packed to stay",
+          "y": "Wob kéo chiếc túi du lịch to gần bằng mình lên bàn, mở khoá kéo",
+          "gag": "Wob nhét mũ rộng vành vào túi, mũ bật ra; nhét lại, ngồi đè lên túi cho khoá kéo đóng"
+        },
+        {
+          "cue": "a camel makes a delivery through a roof",
+          "y": "Manh mối bằng hình (chưa giải thích): trên trang sổ, hình vẽ tay một con lạc đà đứng trên một mô đất tròn, chở hai bao buộc kín không rõ thứ gì, cúi nhìn một cái lỗ tròn dưới chân; Wob nhún vai. KHÔNG vẽ ô liu, khe núi, đê đất"
+        },
+        {
+          "cue": "No umbrella",
+          "y": "Một chiếc ô gấp đứng trong góc phòng; Wob đẩy nó ra xa khỏi túi bằng một ngón tay"
+        },
+        {
+          "cue": "Why would I need one",
+          "y": "Chiếc ô trong góc khẽ nghiêng về phía Wob như muốn nói gì đó; Wob không thấy; giữ hình"
+        },
+        {
+          "cue": "I knew who really runs the place",
+          "y": "Trên trang sổ, ba ô chữ nhật như thẻ chức vụ: một ô có hình Wob (gạch chéo), một ô có hình mặt trời (gạch chéo), ô thứ ba úp mặt, không lật"
+        },
+        {
+          "cue": "I'll show you on a tray of sand",
+          "y": "Wob kéo một khay gỗ nông đựng cát ẩm ra giữa bàn, ấn ngón tay xuống tạo một lỗ tròn sâu, khắc vài cửa vòm tí hon quanh vách lỗ"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "fact:Tunis → Matmata",
+          "cue": "about three hundred and sixty-five kilometres"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "From the road",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "I even packed to stay"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "By the end of the trip",
+          "move": "zoom-out",
+          "zoom": 1.2
+        },
+        {
+          "show": "text",
+          "cue": "I'll show you on a tray of sand"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The town is Matmata",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I even packed to stay",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Why would I need one",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I knew who really runs the place",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "section",
+      "chapter": "A Village With No Roofs",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 1 (đoán sai rồi lật), giả thuyết sai 1: làng bỏ hoang → con dê kêu dưới chân → làng ở tầng dưới; người Amazigh sống thế này nhiều thế kỷ; nhà khó thấy, theo các nhà nghiên cứu gắn với thời kỳ bất an (hedged)",
+      "narration": "I arrived in October. I got out of the car in old Matmata and looked for the village. No rooftops. No walls. No windows. Just pale yellow hills, with round holes in them. My first guess was that everybody had left. A ghost town, with very tidy holes. Then a goat complained. Below me. I walked to the edge of the nearest hole and looked down. A courtyard, swept clean, with arched doorways cut into its walls, and washing on a line. The village hadn't left. The village was downstairs. I had walked straight over somebody's kitchen. Amazigh families, also called Berbers, have lived in homes like this for centuries. According to researchers who study these homes, the hills went through long stretches of raids and feuds. A house nobody can see is a hard house to rob.",
+      "pronunciation": "Amazigh: ah-mah-ZEEG",
+      "y_hinh": [
+        {
+          "cue": "I got out of the car in old Matmata",
+          "y": "Wob (mũ rộng vành, ba lô to, túi du lịch) bước xuống xe; toàn cảnh đồi khô vàng nhạt, nắng gắt"
+        },
+        {
+          "cue": "No rooftops",
+          "y": "Wob xoay một vòng tại chỗ; quanh Wob chỉ có đồi trọc, không mái nhà, không tường"
+        },
+        {
+          "cue": "Just pale yellow hills, with round holes in them",
+          "y": "Camera lên cao: sườn đồi rỗ những hố tròn đều nhau như mặt một chiếc bánh"
+        },
+        {
+          "cue": "A ghost town, with very tidy holes",
+          "y": "Sơ đồ vẽ tay trên trang sổ: Wob vẽ một con ma nhỏ ngồi bên miệng hố, khoanh tròn, ghi dấu '?'"
+        },
+        {
+          "cue": "Then a goat complained",
+          "y": "Tiếng be be vang lên; Wob nhìn trái, nhìn phải",
+          "gag": "Take chậm: Wob nhìn trái, nhìn phải, nhìn lên trời, dừng hai nhịp, rồi mới từ từ cúi xuống nhìn dưới chân; một cái đầu dê ló ra từ miệng hầm dốc ngay cạnh giày Wob"
+        },
+        {
+          "cue": "A courtyard, swept clean",
+          "y": "Nhìn từ miệng hố xuống: sân tròn sạch, cửa vòm quanh vách quét vôi quanh mép cửa, dây phơi quần áo bay nhẹ; không vẽ mặt người"
+        },
+        {
+          "cue": "The village was downstairs",
+          "y": "Wob ngồi bệt bên miệng hố, gạch con ma trên trang sổ; giữ hình"
+        },
+        {
+          "cue": "have lived in homes like this for centuries",
+          "y": "Cắt giấy tông cũ: cùng một sân hố qua nhiều lớp giấy chồng lên nhau, mỗi lớp một chút khác (dây phơi, cái chum, cành cây che bếp)"
+        },
+        {
+          "cue": "long stretches of raids and feuds",
+          "y": "Cắt giấy tông cũ: bóng người que cưỡi ngựa đi ngang mặt đồi, nhìn quanh, không thấy gì vì làng nằm dưới đất"
+        },
+        {
+          "cue": "A house nobody can see is a hard house to rob",
+          "y": "Người que cưỡi ngựa gãi đầu bỏ đi; ngay dưới chân ngựa là miệng một sân hố",
+          "gag": "Con dê ló đầu khỏi miệng hầm nhìn theo người cưỡi ngựa, nhai cỏ tỉnh bơ"
+        }
+      ],
+      "que": [
+        {
+          "cue": "long stretches of raids and feuds",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 2,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "My first guess"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "Then a goat complained",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "The village was downstairs"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "Amazigh families",
+          "move": "zoom-out",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "A house nobody can see",
+          "move": "still",
+          "zoom": 1.5,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I arrived in October",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My first guess",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Then a goat complained",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "The village was downstairs",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "A house nobody can see",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 1, giả thuyết sai 2 (đúng một nửa): đào xuống để trốn nắng; số đo 24–25/7/1997 (46 °C ngoài, 27–28 °C trong); nhiệt mùa hè mất ~3 tháng xuống 10 m (so sánh bưu điện chậm); ĐỔI Ý LẦN 1: Wob dỡ hết túi vào hốc tường; câu treo: vì sao đào ở chính những ngọn đồi này",
+      "narration": "My second guess, I was sure of. They dug down to hide from the sun. I'd seen that trick before, on another trip. And I was half right. Researchers measured one of these rooms on a July day in nineteen ninety-seven. At three in the afternoon, the air outside hit forty-six degrees Celsius. That's about a hundred and fifteen Fahrenheit. Inside, the room sat at twenty-seven or twenty-eight all day. The ground is a very slow postal service. Summer heat takes about three months to reach ten metres down, about thirty-three feet. By the time it gets there, it's autumn. I lay on my cool bed and unpacked my whole bag into a niche in the wall. I was moving in. I even wrote my new address on a postcard. Third hole on the left. Then a small question kept me awake. Plenty of places are hot. Why dig here, in these hills, and not somewhere easier?",
+      "facts": [
+        {
+          "label": "July 1997, 3 pm",
+          "value": "outside 46°C · 115°F | room 27–28°C",
+          "claim_ids": [
+            "C06"
+          ]
+        },
+        {
+          "label": "Heat lag at ~10 m",
+          "value": "~3 months",
+          "claim_ids": [
+            "C07"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "They dug down to hide from the sun",
+          "y": "Sơ đồ vẽ tay trên trang sổ: mặt trời to, mũi tên đỏ chỉ xuống một cái hố, Wob đóng dấu tích tự tin"
+        },
+        {
+          "cue": "And I was half right",
+          "y": "Wob đánh dấu tích, rồi tẩy đi một nửa dấu tích"
+        },
+        {
+          "cue": "At three in the afternoon",
+          "y": "Trên mặt đồi trưa nắng: một nhiệt kế giấy cắm trên đất, cột đỏ vọt lên; thẻ 46°C · 115°F",
+          "gag": "Wob đứng cạnh nhiệt kế, chảy dần như kem; vành mũ rũ xuống che mắt"
+        },
+        {
+          "cue": "Inside, the room sat at twenty-seven or twenty-eight all day",
+          "y": "Trong phòng vòm mát: nhiệt kế thứ hai nằm thư giãn trên gối, cột đỏ đứng yên; đồng hồ trên vách quay nhanh mà cột không nhúc nhích"
+        },
+        {
+          "cue": "The ground is a very slow postal service",
+          "y": "Bong bóng tưởng tượng vẽ tay: một bác đưa thư ốc sên mang lá thư hình mặt trời bò xuống từng lớp đất; lịch bên cạnh lật tháng 7, 8, 9",
+          "gag": "Ốc sên tới đáy, đưa thư; người nhận đang quàng khăn, lá vàng rơi; ốc sên nhìn lịch, nhìn người xem"
+        },
+        {
+          "cue": "I lay on my cool bed and unpacked my whole bag",
+          "y": "Wob nằm trên giường thấp trong phòng vòm, lôi từng món trong túi du lịch xếp vào hốc tường: mũ, kem chống nắng, áo, một cái gối du lịch",
+          "gag": "Món cuối là cái túi rỗng, Wob gấp gọn nhét luôn vào hốc; hốc đầy vừa khít"
+        },
+        {
+          "cue": "I was moving in",
+          "y": "Wob nằm duỗi thẳng, hai tay sau đầu, cười mãn nguyện"
+        },
+        {
+          "cue": "Why dig here, in these hills",
+          "y": "Đêm: Wob mở mắt nhìn trần vòm; dấu '?' vẽ tay lơ lửng trên trần; ngoài cửa, khoanh trời tròn đầy sao"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "cue": "My second guess"
+        },
+        {
+          "show": "fact:July 1997, 3 pm",
+          "cue": "At three in the afternoon"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "The ground is a very slow postal service",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "fact:Heat lag at ~10 m",
+          "cue": "Summer heat takes about three months"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I lay on my cool bed",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "Why dig here"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My second guess",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "At three in the afternoon",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "Inside, the room sat",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I was moving in",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Then a small question kept me awake",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "section",
+      "chapter": "The Thing I Didn't Pack",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "LỜI GIẢI CHÍNH (dap_an_chinh), phóng quy mô từ giọt mưa trên mũ Wob → khe núi → bức đê đất → cả thung lũng bậc thang: ~200 mm/năm, dồn mùa thu, thất thường; jessour giữ nước và đất cho ô liu, vả, chà là; đê có khi cao hơn 5 m, nâng sau mỗi trận lũ; cây sống được vượt mức mưa. So sánh: phễu và bọt biển",
+      "narration": "On my third day, it rained. In the desert. I had packed sunscreen. I stood under my sun hat while it filled up like a bowl, and I felt personally betrayed. The goat from my first day watched me from a dry doorway. These hills only get about two hundred millimetres of rain a year. That's around eight inches, mostly in autumn, in heavy, unpredictable bursts. So I followed the water. It ran off the bare hilltop into a narrow gully, and stopped against a wall of earth built straight across it. Behind the wall, a pool of muddy water. Above that, another wall, and another, like steps up the valley. On every step, trees. Olives, figs, date palms. These walls are called jessour. Each one catches the rain and the soil it carries, and holds them for the trees. Some stand taller than five metres, raised a little after every flood. The gully is a funnel. The jessour are the sponge at the bottom. With them, trees grow here that the rainfall alone could never support.",
+      "pronunciation": "jessour: jess-OOR",
+      "facts": [
+        {
+          "label": "Rain a year",
+          "value": "~200 mm · ~8 in",
+          "claim_ids": [
+            "C08"
+          ]
+        },
+        {
+          "label": "Earth wall",
+          "value": "sometimes > 5 m",
+          "claim_ids": [
+            "C10"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "On my third day, it rained",
+          "y": "Cận một giọt mưa to rơi 'tách' lên vành mũ rộng của Wob (điểm khởi đầu của phóng quy mô)"
+        },
+        {
+          "cue": "I stood under my sun hat while it filled up like a bowl",
+          "y": "Wob đứng giữa đồi, mưa trút; vành mũ võng xuống đầy nước như cái bát",
+          "gag": "Mũ đầy tràn, nước đổ ụp một lần lên mặt Wob; Wob đứng yên, nhìn người xem, nước nhỏ giọt từ mũi; giữ hình"
+        },
+        {
+          "cue": "These hills only get about two hundred millimetres",
+          "y": "Thẻ ~200 mm · ~8 in; một chiếc cốc đo mưa giấy cạnh chân Wob, nước dâng tới vạch thấp"
+        },
+        {
+          "cue": "So I followed the water",
+          "y": "Lùi ra lần 1: dòng nước nhỏ chảy từ đỉnh đồi trọc xuống, Wob lội theo với túi kéo lật nghiêng"
+        },
+        {
+          "cue": "stopped against a wall of earth built straight across it",
+          "y": "Lùi ra lần 2: dòng nước dừng sau một bức đê đất chắn ngang khe núi, đọng thành vũng nước đục"
+        },
+        {
+          "cue": "another wall, and another, like steps up the valley",
+          "y": "Lùi ra lần 3 (camera rút cao): cả khe núi là chuỗi bậc đê đất nối nhau như cầu thang, mỗi bậc một vạt đất phẳng"
+        },
+        {
+          "cue": "Olives, figs, date palms",
+          "y": "Trên mỗi bậc mọc cây: ô liu lá bạc, cây vả lá to, chà là cao; nước mưa còn lấp lánh ở chân cây",
+          "gag": "Một cây chà là trên bậc cao nhất cúi xuống nhìn Wob ướt sũng như nhìn một kẻ đi lạc"
+        },
+        {
+          "cue": "These walls are called jessour",
+          "y": "Nhãn giấy viết tay 'jessour' cắm vào một bức đê; Wob vỗ nhẹ vào đê như vỗ vai bạn"
+        },
+        {
+          "cue": "Some stand taller than five metres",
+          "y": "Một bức đê cao gấp nhiều lần Wob; vạch đo trên đê; thẻ sometimes > 5 m; các lớp đất mới đắp thêm có màu đậm hơn ở đỉnh"
+        },
+        {
+          "cue": "The gully is a funnel",
+          "y": "Bong bóng tưởng tượng vẽ tay: một cái phễu lớn đổ nước xuống một miếng bọt biển ở đáy; từ bọt biển mọc lên một cây ô liu nhỏ",
+          "gag": "Miếng bọt biển ngấm no nước, ợ một bong bóng nhỏ"
+        },
+        {
+          "cue": "trees grow here that the rainfall alone could never support",
+          "y": "Lùi ra lần cuối: toàn cảnh thung lũng khô vàng có một dải xanh chạy dọc khe núi; Wob là một chấm nhỏ ướt giữa dải xanh"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "cue": "On my third day, it rained"
+        },
+        {
+          "show": "fact:Rain a year",
+          "cue": "These hills only get about two hundred millimetres"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "So I followed the water",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "These walls are called jessour"
+        },
+        {
+          "show": "fact:Earth wall",
+          "cue": "Some stand taller than five metres"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "The gully is a funnel",
+          "move": "zoom-out",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "On my third day, it rained",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I felt personally betrayed",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "So I followed the water",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "These walls are called jessour",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The gully is a funnel",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 6,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp lời giải: nhà hố là nhà của nông trại (kho ô liu cao nửa tầng, lỗ trên nóc để đổ ô liu từ lạc đà trên đồi; giếng giữa sân 3–4 m hứng mưa chống ngập; làm bánh, xay hạt, phơi vả trong sân); câu chốt 'mưa là chủ nhà'",
+      "narration": "That changed how I saw my room. I'd been thinking of these pits as hiding places. They're farmhouses too. The olive store sits high in the courtyard wall, half a floor or more above the ground. Its roof has an opening, and up top, the roof is just the hill. So olives could arrive by camel and be poured straight down into the store, without crossing the courtyard. The courtyard has a well in the middle, three or four metres deep. It catches rainwater and keeps the yard from flooding. Bread was baked down here. Grain was ground. Figs were dried in the sun. The trees live up in the gullies. The harvest comes down into the hill. I stood in the middle and turned around slowly. The sun is just the weather. The rain is the landlord.",
+      "facts": [
+        {
+          "label": "Courtyard well",
+          "value": "3–4 m deep",
+          "claim_ids": [
+            "C13"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "That changed how I saw my room",
+          "y": "Wob ướt sũng đứng ở cửa phòng vòm, nhìn lại hốc tường đầy đồ của mình bằng con mắt khác"
+        },
+        {
+          "cue": "They're farmhouses too",
+          "y": "Mặt cắt giấy của cả ngôi nhà hố: sân giữa, phòng quanh vách, phía trên là mặt đồi; các vật dụng nông trại hiện lên từng cái (chum, cối xay tay, sọt)"
+        },
+        {
+          "cue": "The olive store sits high in the courtyard wall",
+          "y": "Cửa kho nhỏ trên cao vách sân, cao hơn đầu Wob nhiều; Wob ngửa cổ nhìn"
+        },
+        {
+          "cue": "So olives could arrive by camel",
+          "y": "Mặt cắt: trên mặt đồi một con lạc đà chở hai sọt ô liu dừng cạnh một lỗ tròn trên nóc kho; ô liu đổ ào xuống kho qua lỗ",
+          "gag": "Một quả ô liu nảy ra khỏi dòng, lăn xuống sân, dừng đúng trước chân Wob; Wob nhặt lên, nhìn lên lạc đà; lạc đà nhìn đi chỗ khác"
+        },
+        {
+          "cue": "The courtyard has a well in the middle",
+          "y": "Giữa sân: miệng giếng tròn có nắp đá; mặt cắt cho thấy giếng sâu, nước mưa từ sân chảy vào; thẻ 3–4 m deep"
+        },
+        {
+          "cue": "Bread was baked down here",
+          "y": "Ba cảnh nhỏ nối nhau trong sân (không vẽ mặt người): mẻ bánh mì tròn trên vỉ, cối xay tay quay, vả xếp phơi trên chiếu"
+        },
+        {
+          "cue": "The harvest comes down into the hill",
+          "y": "Mặt cắt giấy: trên cao là khe núi có đê đất và cây ô liu (cảnh 5), mũi tên nét đứt đi từ cây xuống lỗ trên nóc kho, vào lòng đồi"
+        },
+        {
+          "cue": "I stood in the middle and turned around slowly",
+          "y": "Wob đứng giữa sân xoay một vòng chậm; vách tròn và các cửa vòm trôi qua phía sau"
+        },
+        {
+          "cue": "The rain is the landlord",
+          "y": "Trên khoanh trời tròn phía trên sân, một đám mây nhỏ trôi tới đứng yên ngay giữa miệng hố như ông chủ nhà đứng nhìn xuống",
+          "gag": "Đám mây chìa ra một tờ giấy nhỏ như hoá đơn; Wob nhìn tờ giấy, nhìn người xem; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "They're farmhouses too"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "So olives could arrive by camel",
+          "move": "zoom-in",
+          "zoom": 1.7,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "fact:Courtyard well",
+          "cue": "The courtyard has a well in the middle"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "Bread was baked down here",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "The rain is the landlord"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "That changed how I saw my room",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "They're farmhouses too",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "So olives could arrive by camel",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The rain is the landlord",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "section",
+      "chapter": "My Ceiling Request Was Denied",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 3 (thử, hỏng, hiểu) phần 1: vì sao đào được mà không sập: loess (bụi gió nén) dày 10–20 m, đào bằng cuốc, tự đứng vách, gần như không cần vật liệu; so sánh đường nâu nén; sân sâu 6–10 m, rộng 5–10 m; luật thợ đào (phòng không cao hơn lớp đất phía trên), trần cong, không phẳng, phòng rộng ~3 m; Wob đòi trần cao → hỏng",
+      "narration": "Which brings me back to my pillow. How do you dig a house that doesn't fall on you? Mostly. The valleys here are filled with loess, fine dust laid down by the wind and packed hard. In places the layer is ten to twenty metres thick. You can dig it with a farm hoe, yet it stands up in straight walls on its own. It behaves a lot like packed brown sugar. Easy to carve. Holds its shape. Not a fan of water. So a family digs a courtyard six to ten metres deep and five to ten metres across, then carves rooms sideways into its walls. Almost nothing has to be built. No bricks. No beams. Just a lot of digging, and somewhere to put the dirt. I asked for a taller ceiling. Diggers here follow a rule. A room must never be taller than the layer of earth left above it. My room was about three metres wide, with a curved ceiling. They're never flat here. I scraped at it with a spoon, just to see. The ceiling answered with a little dust, straight onto my pillow.",
+      "pronunciation": "loess: LOH-ess",
+      "facts": [
+        {
+          "label": "Loess layer",
+          "value": "10–20 m thick",
+          "claim_ids": [
+            "C15"
+          ]
+        },
+        {
+          "label": "Pit courtyard",
+          "value": "6–10 m deep · 5–10 m wide",
+          "claim_ids": [
+            "C16"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Which brings me back to my pillow",
+          "y": "Phòng vòm: Wob nhặt mẩu vách trên gối lên, giơ ra ánh sáng từ cửa"
+        },
+        {
+          "cue": "Mostly",
+          "y": "Một hạt bụi nhỏ rơi từ trần xuống đỉnh đầu Wob; Wob liếc lên; giữ hình"
+        },
+        {
+          "cue": "The valleys here are filled with loess",
+          "y": "Mặt cắt giấy: gió vẽ tay thổi bụi mịn từ xa tới, lắng thành từng lớp mỏng trong thung lũng, nén chặt dần; thẻ 10–20 m thick"
+        },
+        {
+          "cue": "You can dig it with a farm hoe",
+          "y": "Wob cầm một cái cuốc cao gấp đôi mình, bổ một nhát vào vách; vách lõm một miếng gọn như cắt bánh",
+          "gag": "Cuốc nặng quá, Wob bổ xong thì cuốc kéo Wob ngã ngửa ra sau; vách vẫn đứng thẳng tắp, không một vết nứt"
+        },
+        {
+          "cue": "It behaves a lot like packed brown sugar",
+          "y": "Bong bóng tưởng tượng vẽ tay: một khối đường nâu nén trong hộp, thìa khắc được một cái hang nhỏ, khối vẫn đứng; một giọt nước rơi xuống làm góc khối sụp mềm",
+          "gag": "Khối đường khẽ rùng mình khi giọt nước tới gần"
+        },
+        {
+          "cue": "So a family digs a courtyard six to ten metres deep",
+          "y": "Mặt cắt cắt giấy: sân hố đào dần từ trên xuống, các phòng khoét ngang vào vách; thẻ 6–10 m deep · 5–10 m wide; Wob đứng dưới đáy làm thước đo, bé tí"
+        },
+        {
+          "cue": "No bricks. No beams",
+          "y": "Hai món đồ giấy, viên gạch và cây xà gỗ, lần lượt bị Wob gạch chéo trên trang sổ",
+          "gag": "Một đống đất đào lên cao dần sau lưng Wob, cao hơn cả Wob; Wob quay lại nhìn đống đất, rồi nhìn cái cuốc"
+        },
+        {
+          "cue": "I asked for a taller ceiling",
+          "y": "Wob giơ một tờ giấy vẽ căn phòng trần cao vút có đèn chùm, chìa lên trần"
+        },
+        {
+          "cue": "A room must never be taller than the layer of earth left above it",
+          "y": "Mặt cắt: phòng vòm ở dưới, lớp đất dày phía trên; một thước kẻ giấy so chiều cao phòng với lớp đất, phòng thấp hơn; Wob kéo dài phòng lên thì lớp đất phía trên mỏng đi, nứt nét mực"
+        },
+        {
+          "cue": "I scraped at it with a spoon, just to see",
+          "y": "Wob kiễng chân cạo trần vòm bằng một cái thìa",
+          "gag": "Một vốc bụi rơi đúng xuống gối, phủ lên đúng chỗ mẩu vách từng nằm; Wob nhìn gối, nhìn thìa, lặng lẽ cất thìa vào túi"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "cue": "How do you dig a house"
+        },
+        {
+          "show": "fact:Loess layer",
+          "cue": "In places the layer is ten to twenty metres thick"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "You can dig it with a farm hoe",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "It behaves a lot like packed brown sugar"
+        },
+        {
+          "show": "fact:Pit courtyard",
+          "cue": "So a family digs a courtyard"
+        },
+        {
+          "show": "text",
+          "cue": "I asked for a taller ceiling"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I scraped at it with a spoon",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Which brings me back to my pillow",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "You can dig it with a farm hoe",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I asked for a taller ceiling",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The ceiling answered with a little dust",
+          "bieu_cam": "soc"
+        }
+      ],
+      "music_mood": "hai"
+    },
+    {
+      "id": 8,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 3 phần 2: thử leo lên kho (khấc chân, cọc gỗ ô liu; so sánh hũ bánh quy trên nóc tủ lạnh) → trượt; gia súc, nông cụ ở hốc bên đường hầm; thử xách nước → uống hết nửa ('That is why camels were involved'); người phụ nữ nói với AP về nước chở bằng lạc đà; phòng không cửa sổ; ĐỔI Ý LẦN 2: Wob xếp lại túi",
+      "narration": "Next I tried to get a snack. Grain and olives were stored up high, reached by footholds cut into the wall, or by pegs of olive wood. Like a cookie jar on top of the fridge, the point was to make it hard to reach. It was. I got a couple of footholds up and slid back down, gently, on my face. Animals and farm tools lived in niches along the entrance tunnel, away from the bedrooms. Then I tried the hardest job, which was water. A woman who grew up in one of these homes told the Associated Press about it. She remembered fetching water by camel from a distant spring, and searching for food every day. I carried a pair of buckets up the tunnel. Halfway, I sat down and drank most of the water. That is why camels were involved. My room had no window, only one door onto the courtyard. That night, in the dark, I quietly packed my bag again.",
+      "y_hinh": [
+        {
+          "cue": "reached by footholds cut into the wall, or by pegs of olive wood",
+          "y": "Vách sân: một hàng khấc chân nhỏ và vài cọc gỗ ô liu cắm vào vách dẫn lên cửa kho trên cao"
+        },
+        {
+          "cue": "Like a cookie jar on top of the fridge",
+          "y": "Chèn vẽ tay 2 giây: tủ lạnh trong bếp, hũ bánh quy trên nóc, một bàn tay nhỏ với không tới"
+        },
+        {
+          "cue": "I got a couple of footholds up and slid back down",
+          "y": "Wob leo lên khấc thứ nhất, khấc thứ hai, rồi trượt xuống",
+          "gag": "Wob trượt xuống chậm rãi, mặt áp vào vách, để lại một vệt sạch bụi dài trên vách vàng; đáp xuống đất ngồi im"
+        },
+        {
+          "cue": "Animals and farm tools lived in niches along the entrance tunnel",
+          "y": "Đường hầm dốc vào nhà: hai bên là các hốc nhỏ; một con dê trong hốc, cái cày gỗ và cuốc dựng trong hốc bên cạnh; con dê nhìn Wob đi qua"
+        },
+        {
+          "cue": "fetching water by camel from a distant spring",
+          "y": "Cắt giấy tông cũ: một con lạc đà chở hai thùng nước đi trên đồi khô xa tít, người dắt là người que nhỏ (không mặt)"
+        },
+        {
+          "cue": "I carried a pair of buckets up the tunnel",
+          "y": "Wob xách hai xô nước đầy lên đường hầm dốc, người nghiêng hẳn về một bên",
+          "gag": "Mỗi bước nước sóng sánh ra một ít; tới giữa dốc Wob ngồi phịch xuống, uống ừng ực từ một xô, rồi từ xô kia"
+        },
+        {
+          "cue": "That is why camels were involved",
+          "y": "Một con lạc đà thò đầu vào miệng hầm, nhìn Wob với vẻ thương hại; giữ hình"
+        },
+        {
+          "cue": "My room had no window, only one door onto the courtyard",
+          "y": "Phòng vòm từ bên trong: ba bức vách kín, chỉ một khung cửa sáng nhìn ra sân"
+        },
+        {
+          "cue": "I quietly packed my bag again",
+          "y": "Đêm: Wob lấy từng món khỏi hốc tường, nhét lại vào túi du lịch, kéo khoá; cái túi đứng cạnh cửa"
+        }
+      ],
+      "que": [
+        {
+          "cue": "fetching water by camel",
+          "hanh_dong": "di-bo",
+          "tu": "phai",
+          "so_luong": 1,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "still",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "Like a cookie jar on top of the fridge"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "Animals and farm tools",
+          "move": "pan-left"
+        },
+        {
+          "show": "text",
+          "cue": "Then I tried the hardest job"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I carried a pair of buckets",
+          "move": "zoom-in",
+          "zoom": 1.7,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "My room had no window"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Next I tried to get a snack",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "slid back down",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I carried a pair of buckets",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "That is why camels were involved",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I quietly packed my bag again",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "section",
+      "chapter": "When the Desert Flooded",
+      "lop": "hoi-uc",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 4 (nghiêm, KHÔNG gag, không sfx hài): mùa thu 1969 mưa nhiều tuần trên cả Tunisia; đầu tháng 10 vùng bờ biển phía dưới nhận 100–200 mm trong ~6 ngày (tới cả năm mưa của Matmata); cuối tháng 11: >500 người chết, >70.000 nhà sập; quanh Matmata nhiều nhà hố sập; đất ở New Matmata 3 dinar/m²; chính phủ Bourguiba xây thị trấn mới, nhiều gia đình chuyển lên; nhà bỏ hoang đổ nát dần. Wob đặt mũ xuống ở mép một hố sập, đứng yên",
+      "music_mood": "khac-nghiet",
+      "narration": "I set my hat down for this part. In the autumn of nineteen sixty-nine, rain fell across Tunisia for weeks. In early October, the coast below these hills got one hundred to two hundred millimetres in about six days. Up to a whole year's rain for Matmata, in less than a week. By the end of November, more than five hundred people had died in Tunisia, and more than seventy thousand homes had collapsed. Around Matmata, water poured into the pits, and many of these houses fell in. Families were offered land in a new town, New Matmata, for three dinars a square metre, about one US dollar. The government of President Habib Bourguiba was building new towns above ground across the country, and many families moved into them. Some of the empty pit houses slowly fell into ruin. One nearby village, Haddej, has stood empty since the nineteen nineties. The rain that kept the trees alive had brought the walls down.",
+      "pronunciation": "Habib Bourguiba: hah-BEEB boor-GHEE-bah; Haddej: hah-DEJ",
+      "facts": [
+        {
+          "label": "3–8 Oct 1969, coast",
+          "value": "100–200 mm in ~6 days",
+          "claim_ids": [
+            "C22"
+          ]
+        },
+        {
+          "label": "Tunisia, by end Nov 1969",
+          "value": ">500 dead · >70,000 homes collapsed",
+          "claim_ids": [
+            "C23"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I set my hat down for this part",
+          "y": "Mép một sân hố đã sụp một nửa, cỏ khô mọc trên đống đất; Wob (không mũ) đặt chiếc mũ rộng vành xuống đất cạnh mình, đứng yên, trung cảnh, đủ người trong khung. Tông giấy trầm, không nhạc hài"
+        },
+        {
+          "cue": "rain fell across Tunisia for weeks",
+          "y": "Cắt giấy tông trầm: bản đồ giấy Tunisia giản lược, những vệt mưa xiên phủ dần lên khắp nước"
+        },
+        {
+          "cue": "got one hundred to two hundred millimetres in about six days",
+          "y": "Lịch giấy sáu tờ lật chậm, mỗi tờ một cột nước dâng; thẻ 3–8 Oct 1969 · 100–200 mm"
+        },
+        {
+          "cue": "Up to a whole year's rain for Matmata, in less than a week",
+          "y": "Hai cốc đo mưa giấy đặt cạnh nhau: một cốc ghi 'a year', một cốc ghi 'six days', mực nước bằng nhau"
+        },
+        {
+          "cue": "more than five hundred people had died in Tunisia",
+          "y": "Thẻ >500 dead · >70,000 homes collapsed trên nền giấy tối; không hình người, không cảnh thương vong; Wob cúi đầu"
+        },
+        {
+          "cue": "water poured into the pits, and many of these houses fell in",
+          "y": "Cắt giấy tông trầm, nhìn từ xa: nước tràn qua miệng hố, vách đất trượt xuống chậm, cửa vòm khuất dần"
+        },
+        {
+          "cue": "Families were offered land in a new town, New Matmata",
+          "y": "Sơ đồ giấy (map-matmata-local): ghim New Matmata hiện lên; những ô đất vuông nhỏ được đánh dấu trên mặt đất phẳng"
+        },
+        {
+          "cue": "was building new towns above ground across the country",
+          "y": "Những dãy nhà mái bằng vuông vức mọc lên trên mặt đất phía xa, đường thẳng, cột điện"
+        },
+        {
+          "cue": "Some of the empty pit houses slowly fell into ruin",
+          "y": "Một cửa vòm trống, lớp vôi bong dần, đất rơi xuống ngưỡng cửa; camera lùi chậm, im lặng"
+        },
+        {
+          "cue": "The rain that kept the trees alive had brought the walls down",
+          "y": "Wob nhặt chiếc mũ lên, đứng giữa hai hình: phía xa là dải cây ô liu xanh dưới đê đất, phía gần là hố sập; giữ hình, không gag"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "still",
+          "zoom": 1.2
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "rain fell across Tunisia for weeks",
+          "move": "zoom-out",
+          "zoom": 1.0
+        },
+        {
+          "show": "fact:3–8 Oct 1969, coast",
+          "cue": "In early October"
+        },
+        {
+          "show": "fact:Tunisia, by end Nov 1969",
+          "cue": "By the end of November"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "Families were offered land",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.4
+          ]
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "Some of the empty pit houses",
+          "move": "still",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I set my hat down for this part",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "visual_hint": {
+        "map-matmata-local": "Sơ đồ cận vùng Matmata–Gabès (khung khoảng 33.35°N–34.0°N, 9.7°E–10.35°E): ghim 'Matmata' 33.543, 9.967; ghim 'New Matmata' khoảng 33.66, 10.02 (lấy toạ độ đúng ở trang Nouvelle Matmata, nguồn S28, trước khi vẽ); ghim 'Gabès' 33.881, 10.098 trên bờ vịnh Gabès; đường nét đứt Matmata ↔ New Matmata, KHÔNG ghi số km (khoảng cách là số tự tính, lời chỉ nói 'a short drive'); biển #3F6A70; đồi Dahar phía tây nam tô hoạ tiết nâu nhạt; không tô nước nào. Dùng từ cảnh 9. Không chạm Biển Đông"
+      }
+    },
+    {
+      "id": 10,
+      "type": "section",
+      "chapter": "Two Houses, a Short Drive Apart",
+      "lop": "hoi-uc",
+      "khuon": "trang-so-hanh-trinh",
+      "role": "chương 5 (trang sổ hành trình), mồi lại: lái xe lên New Matmata (một đường chính, quán cà phê, hàng thịt, nhà có cửa sổ); đường nét đứt trên sổ chạy cả hai chiều: một số người đã chuyển lên vẫn giữ vài phòng dưới hố cho những đợt nóng dài mùa hè; ngày hè điển hình: nhà xây > 36 °C, phòng hố ~25,5 °C; mùa đông phòng hố cũng ấm hơn",
+      "narration": "The next morning I drove up to New Matmata. It's a short drive. One main road, cafés, a butcher, houses with windows. In my notebook I drew the trip as a dotted line, from the holes to the roofs. Then I learned the line runs both ways. Some people who moved into built houses, researchers found, kept a few rooms in their family's old pit house, for the long heat waves of summer. On a typical summer day, a built house measured over thirty-six degrees, and a pit room about twenty-five and a half. In winter, the pit room was the warmer one too. So some families commute between two homes. The commute is measured in degrees. I tried it myself. Lunch up top, at a café. Then a nap downstairs, in the cool, with my hat over my face.",
+      "facts": [
+        {
+          "label": "Typical summer day",
+          "value": "built house >36°C | pit room ~25.5°C",
+          "claim_ids": [
+            "C29"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "The next morning I drove up to New Matmata",
+          "y": "Trang sổ pop-up: sơ đồ map-matmata-local trải trên bàn; chiếc xe giấy nhỏ có Wob (mũ đội lại) chạy theo đường nét đứt từ cụm hố tròn lên cụm mái nhà"
+        },
+        {
+          "cue": "One main road, cafés, a butcher, houses with windows",
+          "y": "Thị trấn mới giấy dựng đứng lên khỏi trang: một con đường thẳng, mái hiên quán cà phê, biển hàng thịt không chữ, dãy nhà có cửa sổ; người que đi lại (không mặt)",
+          "gag": "Wob đứng trước một ô cửa sổ, áp mặt vào kính nhìn qua nhìn lại như chưa từng thấy cửa sổ bao giờ"
+        },
+        {
+          "cue": "I drew the trip as a dotted line, from the holes to the roofs",
+          "y": "Wob cầm bút vẽ nét đứt trên trang sổ, đầu bút đi từ cụm hố lên cụm mái"
+        },
+        {
+          "cue": "Then I learned the line runs both ways",
+          "y": "Nét đứt mọc thêm mũi tên ở cả hai đầu; những chiếc xe giấy tí hon chạy đi chạy lại trên nét đứt",
+          "gag": "Nét đứt mòn dần vì xe chạy qua lại quá nhiều, Wob phải tô lại bằng bút"
+        },
+        {
+          "cue": "kept a few rooms in their family's old pit house",
+          "y": "Một sân hố có hai cửa vòm còn treo rèm và chiếc chiếu, các cửa khác đóng; trên mặt đất phía xa là ngôi nhà mới"
+        },
+        {
+          "cue": "a built house measured over thirty-six degrees, and a pit room about twenty-five and a half",
+          "y": "Hai nhiệt kế giấy cạnh nhau trên trang sổ: một cắm trên mái nhà mới, cột đỏ cao; một cắm trong phòng hố, cột thấp; thẻ built house >36°C | pit room ~25.5°C"
+        },
+        {
+          "cue": "In winter, the pit room was the warmer one too",
+          "y": "Trang sổ đổi sang tông xanh lạnh: nhiệt kế nhà mới tụt xuống, nhiệt kế hố vẫn đứng gần chỗ cũ"
+        },
+        {
+          "cue": "Then a nap downstairs, in the cool, with my hat over my face",
+          "y": "Phòng hố mát: Wob nằm ngủ trưa trên chiếu, mũ rộng vành úp lên mặt, bụng no",
+          "gag": "Trên mặt đất phía trên, cái nhiệt kế ở quán cà phê vẫn đỏ rực; dưới hố, mũ trên mặt Wob phập phồng theo nhịp ngáy"
+        },
+        {
+          "cue": "The commute is measured in degrees",
+          "y": "Xe giấy của Wob dừng giữa nét đứt; trên đồng hồ công-tơ-mét của xe, kim chỉ vào vạch có ký hiệu °C thay cho km; Wob gõ gõ vào đồng hồ; giữ hình"
+        }
+      ],
+      "que": [
+        {
+          "cue": "One main road, cafés, a butcher",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata-local",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.45
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "One main road, cafés, a butcher"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "Then I learned the line runs both ways",
+          "move": "pan-right"
+        },
+        {
+          "show": "fact:Typical summer day",
+          "cue": "On a typical summer day"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "So some families commute",
+          "move": "still",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.45
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The next morning I drove up",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Then I learned the line runs both ways",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "On a typical summer day",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The commute is measured in degrees",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "music_mood": "to-mo"
+    },
+    {
+      "id": 11,
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 5: khách sạn Sidi Driss (nhà gia đình thành khách sạn 1969; nơi quay Star Wars đầu tiên 1976, chỉ nói bằng lời, < 30 s); Lucasfilm kể trận bão hiếm gặp ở nam Tunisia ngay sau khi bắt đầu quay; fan vẫn tới; Reuters 2018: vài gia đình còn ở, cho khách xem lấy tiền tip, một phụ nữ nói rời nhà như vứt bỏ cuộc đời và truyền thống; 'The house was here first'; ĐỔI Ý LẦN 3: Wob mở khoá túi lần nữa",
+      "narration": "Back in the old town, I visited the most famous hole of all. In nineteen sixty-nine, a family home there became the Hotel Sidi Driss. In nineteen seventy-six, a film crew used it as a location for the first Star Wars film. Lucasfilm says a rare storm hit southern Tunisia soon after filming began there, and threw the schedule off. So even the film crew answered to the rain. Fans still come to stand in that courtyard. Around the town, Reuters found a few families still living underground in twenty eighteen, letting visitors look around for tips. One woman said leaving her house would be like throwing away her life and her traditions. The same reporters met a man who still knows how to dig these homes. His last new one was in the nineteen seventies. The visitors came for a film. The house was here first. Back in my room, the bag was still packed. I unzipped it again.",
+      "pronunciation": "Sidi Driss: SEE-dee DREESS",
+      "facts": [
+        {
+          "label": "Hotel Sidi Driss",
+          "value": "hotel 1969 · filming 1976",
+          "claim_ids": [
+            "C30",
+            "C31"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I visited the most famous hole of all",
+          "y": "Wob đứng ở miệng một sân hố lớn hơn các sân khác, có tấm biển gỗ 'HOTEL' vẽ tay treo ở lối vào (không logo, không tên phim)"
+        },
+        {
+          "cue": "a family home there became the Hotel Sidi Driss",
+          "y": "Cắt giấy tông cũ: một sân hố có dây phơi; một tấm biển gỗ 'HOTEL' được treo lên miệng hầm; nhãn 1969"
+        },
+        {
+          "cue": "a film crew used it as a location for the first Star Wars film",
+          "y": "CHỈ nói bằng lời: hình là một máy quay phim vẽ phác hình hộp trên chân máy và một chiếc ghế gấp vải trống đặt giữa sân; KHÔNG vẽ nhân vật, trang phục, đạo cụ, tàu, robot, chữ, logo hay bất kỳ khung cảnh nào của phim; nhãn 1976"
+        },
+        {
+          "cue": "a rare storm hit southern Tunisia soon after filming began there",
+          "y": "Một đám mây đen nhỏ trôi tới trên miệng sân, mưa xối xuống máy quay giấy",
+          "gag": "Chiếc ghế gấp trống tự gập lại, chạy vào trú dưới một cửa vòm; máy quay ở lại một mình, ướt sũng"
+        },
+        {
+          "cue": "So even the film crew answered to the rain",
+          "y": "Đám mây ông chủ nhà (từ cảnh 6) lơ lửng trên miệng sân, gật gù; giữ hình"
+        },
+        {
+          "cue": "Fans still come to stand in that courtyard",
+          "y": "Sân khách sạn: vài người que giơ điện thoại chụp ảnh các cửa vòm (không mặt, không trang phục phim)"
+        },
+        {
+          "cue": "Reuters found a few families still living underground",
+          "y": "Một sân hố khác bên rìa thị trấn: dây phơi, chum nước, vài quả ô liu phơi trên chiếu; một người que nhỏ mời khách vào bằng cử chỉ (không mặt, không phải chân dung người thật)"
+        },
+        {
+          "cue": "like throwing away her life and her traditions",
+          "y": "Cận cảnh đồ vật trong sân: chiếc chum cũ, cối xay tay, chiếc chiếu sờn; ánh nắng chiếu nghiêng; không vẽ người"
+        },
+        {
+          "cue": "The house was here first",
+          "y": "Wob đứng giữa sân khách sạn giữa đám người que chụp ảnh, ngước nhìn vách đất cũ có vết cuốc; lặng lẽ"
+        },
+        {
+          "cue": "I unzipped it again",
+          "y": "Phòng vòm: Wob ngồi trước túi du lịch đã đóng, kéo khoá mở ra, lấy chiếc mũ rộng vành đặt lại vào hốc tường",
+          "gag": "Khoá kéo kẹt giữa chừng; Wob giật hai lần, lần ba khoá bung, đồ trong túi phồng ra như thở phào"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Fans still come to stand in that courtyard",
+          "hanh_dong": "chi-tay",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata-local",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.45,
+            0.55
+          ]
+        },
+        {
+          "show": "fact:Hotel Sidi Driss",
+          "cue": "In nineteen sixty-nine"
+        },
+        {
+          "show": "text",
+          "cue": "So even the film crew answered to the rain"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "Around the town",
+          "move": "pan-left"
+        },
+        {
+          "show": "text",
+          "cue": "The house was here first"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "Back in my room",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.45,
+            0.55
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I visited the most famous hole of all",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "a rare storm",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "One woman said",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I unzipped it again",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "outro",
+      "chapter": "The Wall Gets Its Piece Back",
+      "lop": "hien-tai",
+      "role": "outro ở bàn (khuôn khác tập 5–6: không đèn bàn, không đọc bưu thiếp): khay cát có lỗ tròn từ cảnh 2; một thìa nước vách đứng, thìa thứ hai vách sụp ('Matmata in two spoons'); lý do người ta ở (bắt được mưa hiếm để trồng cây, đất cho phép đào); cái giá: mưa có tiếng nói, người thợ đào nói với Reuters ông tới sửa sau mỗi trận mưa; đóng dấu WOULD MOVE; lý do gắn cái giá (xách nước, sửa vách mỗi mùa thu) và tật lắc lư của Wob; ai hợp hơn Wob; callback: mẩu vách vá vào chỗ sụp; câu hỏi bình luận",
+      "narration": "The tray of sand on my desk still has its hole. I poured in one spoonful of water. The walls held. I poured in a second, and one side slumped. That's Matmata, explained by a spoon. People farm these hills because the rare rain can be caught, and they live inside them because the ground allows it. The price is that the rain gets a say. That same digger said he comes back to repair the houses every time it rains. I'd want him on speed dial. WOULD MOVE. I'd carry the water properly this time, help mend the walls every autumn, and keep a bucket of plaster by the bed, since I wobble into things. If you like quiet, cool rooms and don't miss windows, you'd settle in faster than me. I pressed the piece from my pillow into the slumped wall. It fits. It still drops a little dust, like it's thinking it over. Would you rather fight the heat every summer, or fix your walls after every rain?",
+      "verdict": {
+        "label": "WOULD MOVE",
+        "reason": "People in Matmata farm dry hills by catching rare rain behind jessour and live in cool rooms dug into loess that stands on its own; Wob would move, accepting the real price: carrying water, mending earth walls after every autumn rain, and living without windows, which suits Wob better than another desert summer above ground.",
+        "cue": "WOULD MOVE"
+      },
+      "y_hinh": [
+        {
+          "cue": "The tray of sand on my desk still has its hole",
+          "y": "Bàn kỷ vật (đồ ở nhà): khay cát ẩm từ cảnh 2, lỗ tròn với các cửa vòm tí hon vẫn còn; mẩu vách nằm cạnh khay; trang hộ chiếu Matmata mở bên cạnh, ô con dấu còn trống"
+        },
+        {
+          "cue": "I poured in one spoonful of water",
+          "y": "Wob múc một thìa nước từ cốc, nghiêng thìa đổ vào lỗ cát; nước thấm xuống đáy, vách đứng nguyên"
+        },
+        {
+          "cue": "I poured in a second, and one side slumped",
+          "y": "Thìa thứ hai: một mảng vách cát trượt xuống chậm, lấp mất hai cửa vòm tí hon",
+          "gag": "Take chậm: Wob nhìn mảng vách sụp, nhìn cái thìa, dừng, rồi lặng lẽ đặt thìa xuống thật xa khay"
+        },
+        {
+          "cue": "That's Matmata, explained by a spoon",
+          "y": "Hai cái thìa đặt cạnh nhau trên bàn như hai bằng chứng; giữ hình"
+        },
+        {
+          "cue": "People farm these hills because the rare rain can be caught",
+          "y": "Trên trang sổ, hình nhỏ dải đê đất bậc thang có cây ô liu (nhắc cảnh 5) cạnh mặt cắt sân hố (nhắc cảnh 7)"
+        },
+        {
+          "cue": "he comes back to repair the houses every time it rains",
+          "y": "Trên trang sổ: một cái bay trát vữa giấy và một xô vữa nhỏ đặt cạnh hình sân hố; đám mây ông chủ nhà nhỏ trôi qua góc trang"
+        },
+        {
+          "cue": "WOULD MOVE",
+          "y": "Đóng dấu: Wob nhấc con dấu, đóng lên ô trống của trang hộ chiếu Matmata: WOULD MOVE; tiếng dau-wob"
+        },
+        {
+          "cue": "keep a bucket of plaster by the bed, since I wobble into things",
+          "y": "Wob đặt một xô vữa giấy tí hon cạnh khay cát",
+          "gag": "Wob quay người, lắc lư va hông vào khay, một ít cát rơi; Wob nhìn xô vữa, gật đầu như 'đấy, thấy chưa'"
+        },
+        {
+          "cue": "I pressed the piece from my pillow into the slumped wall",
+          "y": "Wob ấn mẩu vách vàng nhạt vào đúng chỗ vách cát vừa sụp; nó vừa khít"
+        },
+        {
+          "cue": "It still drops a little dust, like it's thinking it over",
+          "y": "Cận mẩu vách: một hạt bụi rơi xuống chậm; Wob nín thở nhìn; hạt bụi thứ hai không rơi"
+        },
+        {
+          "cue": "Would you rather fight the heat every summer, or fix your walls after every rain",
+          "y": "Wob quay ra phía người xem, một tay chỉ vào khay cát, tay kia cầm cái thìa; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-matmata",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "That's Matmata, explained by a spoon"
+        },
+        {
+          "show": "asset:map-matmata-local",
+          "cue": "People farm these hills",
+          "move": "zoom-out",
+          "zoom": 1.0
+        },
+        {
+          "show": "text",
+          "cue": "WOULD MOVE"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "If you like quiet, cool rooms",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-matmata",
+          "cue": "I pressed the piece from my pillow",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.68,
+            0.58
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The tray of sand",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "one side slumped",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "The price is that the rain gets a say",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "WOULD MOVE",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "since I wobble into things",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "Would you rather fight the heat",
+          "bieu_cam": "ngam-nghi"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "duoi",
+      "lop": "hien-tai",
+      "role": "đuôi tập (skill mo-ket): mẩu vách lên kệ trên một cái đĩa hứng bụi (mở bằng hành động, không dùng khung 'X goes on the shelf' hay 'Up on the shelf, X gets'); nhìn lại chiếc tất ẩm tập 7 và chìa khoá Kiruna tập 6 trên đinh; nhá tập 9 bằng nét chung trong brief (đảo tự làm bằng tay, nổi trên nước); không tên nơi, không số",
+      "narration": "I set the piece of wall on a saucer, up on the shelf, to catch its dust. My sock from the rainy trip is still damp. The key still points east. Where I'm going next, people make the ground themselves, by hand. And it floats.",
+      "duoi": {
+        "ky_vat": "mẩu vách đất loess vàng nhạt cỡ quả mận, rơi xuống gối đêm đầu ở nhà hố Matmata; ở outro được ấn vào chỗ vách cát sụp trong khay, ở đuôi đặt trên một cái đĩa hứng bụi",
+        "nhin_lai": [
+          "2026-11-22-mawsynram",
+          "2026-11-22-kiruna"
+        ],
+        "nha_tap_sau": {
+          "slug": "2026-11-22-uros",
+          "cue": "Where I'm going next",
+          "goi_y": "nơi người ta tự làm mặt đất bằng tay và nó nổi trên nước (đảo tự làm); không nêu tên nơi, nước, không số"
+        }
+      },
+      "y_hinh": [
+        {
+          "cue": "I set the piece of wall on a saucer",
+          "y": "Kệ kỷ vật (diorama): Wob đặt mẩu vách lên một cái đĩa sứ nhỏ trên kệ, thẻ tên 'Matmata' bên dưới; một hạt bụi rơi xuống đĩa"
+        },
+        {
+          "cue": "My sock from the rainy trip is still damp",
+          "y": "Chiếc tất Mawsynram treo cạnh đó nhỏ một giọt nước xuống kệ; Wob liếc sang"
+        },
+        {
+          "cue": "The key still points east",
+          "y": "Chìa khoá Kiruna trên cái đinh riêng khẽ nhích về phía đông khi Wob chạm kệ"
+        },
+        {
+          "cue": "Where I'm going next",
+          "y": "Bản đồ giấy mở ra, ghim mới cắm ở Matmata; một ghim trống rung ở vùng tập sau (chỉ hình giấy gợi ý, không vẽ bản đồ chi tiết); Wob kéo túi du lịch ra"
+        },
+        {
+          "cue": "And it floats",
+          "y": "Hai khung ảnh giấy trống và vòng tròn giấy bật lên bên phải (vùng end screen, bên trong trống); một sợi lau khô nhỏ bay ngang khung; Wob chỉ tay vào khung, chớp mắt"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I set the piece of wall on a saucer",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Where I'm going next",
+          "bieu_cam": "dong-goi"
+        }
+      ]
+    }
+  ],
+  "anh_ai": [],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 2,
+      "quote": "The town is Matmata, in the dry hills of southern Tunisia, about three hundred and sixty-five kilometres south of Tunis. That's around two hundred and twenty-five miles.",
+      "statement": "Matmata is a town in the dry hills of southern Tunisia (Gabès governorate), about 365 km (about 227 miles) south of the capital, Tunis.",
+      "source_ids": [
+        "S13",
+        "S1"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 3,
+      "quote": "No rooftops. No walls. No windows. Just pale yellow hills, with round holes in them.",
+      "statement": "Seen from ground level, traditional (old) Matmata shows almost no buildings: the homes are dug below ground around round pits, so the landscape appears as pale yellowish hills pocked with holes (a 'cratered landscape').",
+      "source_ids": [
+        "S13",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 3,
+      "quote": "A courtyard, swept clean, with arched doorways cut into its walls",
+      "statement": "A traditional Matmata home is built around a sunken open courtyard pit, with rooms entered through arched doorways carved into the pit walls.",
+      "source_ids": [
+        "S13",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 3,
+      "quote": "Amazigh families, also called Berbers, have lived in homes like this for centuries.",
+      "statement": "Amazigh (Berber) families in the Matmata area of southern Tunisia have lived in underground pit homes for centuries.",
+      "source_ids": [
+        "S13",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 3,
+      "quote": "According to researchers who study these homes, the hills went through long stretches of raids and feuds. A house nobody can see is a hard house to rob.",
+      "statement": "Researchers studying the pit dwellings of south-eastern Tunisia link their hidden design (hard to see from a distance, indirect entrances, storerooms set high) to long periods of insecurity in these mountain villages, including raids and conflicts between tribes.",
+      "source_ids": [
+        "S11",
+        "S10"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C06",
+      "scene": 4,
+      "quote": "Researchers measured one of these rooms on a July day in nineteen ninety-seven. At three in the afternoon, the air outside hit forty-six degrees Celsius. That's about a hundred and fifteen Fahrenheit. Inside, the room sat at twenty-seven or twenty-eight all day.",
+      "statement": "In measurements on 24–25 July 1997 at a Matmata pit dwelling, the outdoor air temperature reached about 46 °C (about 115 °F) at 3 pm, while the room stayed at about 27–28 °C throughout the 24 hours.",
+      "source_ids": [
+        "S10",
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "Summer heat takes about three months to reach ten metres down, about thirty-three feet. By the time it gets there, it's autumn.",
+      "statement": "At a depth of about 10 m (about 33 feet) the ground temperature around Matmata's pit dwellings is nearly constant, and the seasonal summer heat takes roughly three months (about one season) to reach that depth.",
+      "source_ids": [
+        "S10",
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C08",
+      "scene": 5,
+      "quote": "These hills only get about two hundred millimetres of rain a year. That's around eight inches, mostly in autumn, in heavy, unpredictable bursts.",
+      "statement": "The Matmata hills, where the pit-house villages are, receive on average about 200 mm (about 8 inches) of rain per year; summers are dry, most rain falls in autumn, and rainfall is intense and irregular.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 5,
+      "quote": "On every step, trees. Olives, figs, date palms. These walls are called jessour. Each one catches the rain and the soil it carries, and holds them for the trees.",
+      "statement": "In southern Tunisia's mountains, jessour are earth dams built across valleys and gullies that trap runoff water and the sediment it carries, creating terraced plots where olives, figs, date palms and other crops are grown.",
+      "source_ids": [
+        "S18",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 5,
+      "quote": "Some stand taller than five metres, raised a little after every flood.",
+      "statement": "The earth dams (tabias) of the jessour system can be more than 5 m high and are progressively raised as each flood deposits more sediment behind them.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 5,
+      "quote": "With them, trees grow here that the rainfall alone could never support.",
+      "statement": "By concentrating runoff, the jessour system allows crops such as olive trees to grow in southern Tunisia beyond the limits that local rainfall alone would allow.",
+      "source_ids": [
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 6,
+      "quote": "The olive store sits high in the courtyard wall, half a floor or more above the ground. Its roof has an opening, and up top, the roof is just the hill. So olives could arrive by camel and be poured straight down into the store, without crossing the courtyard.",
+      "statement": "In the pit houses of south-eastern Tunisia, olive and grain storerooms are set half a storey to a full storey above the courtyard floor; olive stores have an opening in the roof, at ground level above, so olives brought by camel could be poured directly into the store without passing through the courtyard.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 6,
+      "quote": "The courtyard has a well in the middle, three or four metres deep. It catches rainwater and keeps the yard from flooding.",
+      "statement": "In the pit dwellings of the Matmata area, the courtyard has a central well about 3–4 m deep that collects rainwater and prevents the courtyard from flooding.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 6,
+      "quote": "Bread was baked down here. Grain was ground. Figs were dried in the sun.",
+      "statement": "In the pit houses of south-eastern Tunisia, the courtyard was used for household work such as making bread, grinding grain and drying figs.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 7,
+      "quote": "The valleys here are filled with loess, fine dust laid down by the wind and packed hard. In places the layer is ten to twenty metres thick. You can dig it with a farm hoe, yet it stands up in straight walls on its own.",
+      "statement": "Valleys in the Matmata mountains are filled with loess (compacted fine wind-blown dust), 10–20 m thick, which can be dug with simple farm tools such as a hoe yet stands in vertical walls without collapsing.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 7,
+      "quote": "So a family digs a courtyard six to ten metres deep and five to ten metres across, then carves rooms sideways into its walls. Almost nothing has to be built.",
+      "statement": "A Matmata pit dwelling consists of a courtyard pit about 6–10 m deep and 5–10 m across with rooms excavated laterally into its walls, requiring almost no building materials.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 7,
+      "quote": "Diggers here follow a rule. A room must never be taller than the layer of earth left above it. My room was about three metres wide, with a curved ceiling. They're never flat here.",
+      "statement": "A rule followed by the diggers of Matmata-area pit dwellings is that the void of a room must be less than the thickness of earth above it; rooms are about 3–4 m wide, and their ceilings are vaulted (curved, parabolic or pointed), never flat.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 8,
+      "quote": "Grain and olives were stored up high, reached by footholds cut into the wall, or by pegs of olive wood. Like a cookie jar on top of the fridge, the point was to make it hard to reach.",
+      "statement": "In pit houses of south-eastern Tunisia, grain and olive stores were set high in the courtyard walls and reached by footholds cut into the wall or olive-wood pegs driven into it, partly to protect stores against theft.",
+      "source_ids": [
+        "S11"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 8,
+      "quote": "Animals and farm tools lived in niches along the entrance tunnel, away from the bedrooms.",
+      "statement": "In pit houses of south-eastern Tunisia, livestock stalls and storage for farm tools were placed in niches along the entrance tunnel, away from the living rooms, for hygiene.",
+      "source_ids": [
+        "S11",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 8,
+      "quote": "A woman who grew up in one of these homes told the Associated Press about it. She remembered fetching water by camel from a distant spring, and searching for food every day.",
+      "statement": "In 2018, a woman who grew up in a traditional pit home in Matmata (Mahboub Theouibi, whose family later moved to a modern house) told the Associated Press she remembered fetching water by camel from a distant spring and searching for food every day.",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 8,
+      "quote": "My room had no window, only one door onto the courtyard.",
+      "statement": "Rooms in Matmata pit dwellings have no windows; each room opens onto the courtyard through a single doorway.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 9,
+      "quote": "In the autumn of nineteen sixty-nine, rain fell across Tunisia for weeks. In early October, the coast below these hills got one hundred to two hundred millimetres in about six days. Up to a whole year's rain for Matmata, in less than a week.",
+      "statement": "In autumn 1969 Tunisia had exceptional rain over about 40 days (September–October); during 3–8 October 1969 the south-eastern coastal area (Sfax, Gabès, Djerba) received 100–200 mm, comparable to the roughly 200 mm the Matmata hills receive in an average year.",
+      "source_ids": [
+        "S12",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 9,
+      "quote": "By the end of November, more than five hundred people had died in Tunisia, and more than seventy thousand homes had collapsed.",
+      "statement": "By 27 November 1969, the 1969 floods in Tunisia had caused 542 deaths and the collapse of 70,540 houses, according to figures compiled in a UNESCO report (Pias 1970) cited by Boudhraâ and Cudennec.",
+      "source_ids": [
+        "S12"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 9,
+      "quote": "Around Matmata, water poured into the pits, and many of these houses fell in. Families were offered land in a new town, New Matmata, for three dinars a square metre, about one US dollar.",
+      "statement": "In 1969 flooding caused many cave and pit homes around Matmata (and Haddej) to collapse, and displaced residents were sold land in New Matmata for 3 dinars (about 1 US dollar) per square metre, according to National Geographic.",
+      "source_ids": [
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 9,
+      "quote": "The government of President Habib Bourguiba was building new towns above ground across the country, and many families moved into them.",
+      "statement": "Many families left Tunisia's underground homes when new towns and villages were built in the 1960s and 1970s under President Habib Bourguiba's modernisation drive.",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 9,
+      "quote": "Some of the empty pit houses slowly fell into ruin. One nearby village, Haddej, has stood empty since the nineteen nineties.",
+      "statement": "Many pit houses abandoned in the Matmata area gradually fell into ruin; the nearby village of Haddej, for example, has been abandoned since the 1990s.",
+      "source_ids": [
+        "S11",
+        "S15"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 10,
+      "quote": "The next morning I drove up to New Matmata. It's a short drive. One main road, cafés, a butcher, houses with windows.",
+      "statement": "New Matmata, a short drive from old Matmata (about 14 km in a straight line), is a town of conventional above-ground houses with a main road, cafés and a butcher's shop.",
+      "source_ids": [
+        "S15",
+        "S28"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C28",
+      "scene": 10,
+      "quote": "Some people who moved into built houses, researchers found, kept a few rooms in their family's old pit house, for the long heat waves of summer.",
+      "statement": "Researchers report that some Matmata-area residents who moved to conventional houses have kept a few rooms in their ancestral pit dwellings to use during long summer heat waves.",
+      "source_ids": [
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C29",
+      "scene": 10,
+      "quote": "On a typical summer day, a built house measured over thirty-six degrees, and a pit room about twenty-five and a half. In winter, the pit room was the warmer one too. So some families commute between two homes. The commute is measured in degrees.",
+      "statement": "Measurements compared by Krarti (1998) for a typical summer day in the Matmata area found a conventional built house above 36 °C indoors versus about 25.5 °C in a pit dwelling; on a typical winter day the pit dwelling was warmer (about 15 °C versus 10.5 °C).",
+      "source_ids": [
+        "S10",
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C30",
+      "scene": 11,
+      "quote": "In nineteen sixty-nine, a family home there became the Hotel Sidi Driss.",
+      "statement": "The Hotel Sidi Driss in Matmata was a traditional family home before it became a hotel in 1969.",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C31",
+      "scene": 11,
+      "quote": "In nineteen seventy-six, a film crew used it as a location for the first Star Wars film.",
+      "statement": "The Hotel Sidi Driss in Matmata was used in 1976 as a filming location for the first Star Wars film (A New Hope), whose Tunisian shoot began on 22 March 1976.",
+      "source_ids": [
+        "S6",
+        "S22",
+        "S16"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 11,
+      "quote": "Lucasfilm says a rare storm hit southern Tunisia soon after filming began there, and threw the schedule off.",
+      "statement": "According to Lucasfilm (StarWars.com), soon after filming of the first Star Wars film began in Tunisia in March 1976, a rare storm hit southern Tunisia and disrupted the shooting schedule.",
+      "source_ids": [
+        "S22"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C33",
+      "scene": 11,
+      "quote": "Fans still come to stand in that courtyard.",
+      "statement": "Star Wars fans still visit the Hotel Sidi Driss in Matmata to see the courtyard used in the film (AP reporting, 2018).",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C34",
+      "scene": 11,
+      "quote": "Around the town, Reuters found a few families still living underground in twenty eighteen, letting visitors look around for tips. One woman said leaving her house would be like throwing away her life and her traditions.",
+      "statement": "Reuters reported in February 2018 that a few families still live in underground pit houses around Matmata and let tourists visit in return for tips; one resident said leaving her house would be like throwing away her life and her traditions.",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C35",
+      "scene": 11,
+      "quote": "The same reporters met a man who still knows how to dig these homes. His last new one was in the nineteen seventies.",
+      "statement": "Reuters reported in 2018 that a man in the Matmata area who still knows how to dig traditional underground houses built his last new one in the 1970s.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C36",
+      "scene": 12,
+      "quote": "People farm these hills because the rare rain can be caught, and they live inside them because the ground allows it.",
+      "statement": "Farming in the Matmata hills depends on capturing scarce runoff with jessour earth dams, and the area's thick, self-supporting loess allows dwellings to be excavated directly into the ground.",
+      "source_ids": [
+        "S18",
+        "S10"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C37",
+      "scene": 12,
+      "quote": "That same digger said he comes back to repair the houses every time it rains.",
+      "statement": "A man who still knows how to dig traditional underground houses in the Matmata area told Reuters in 2018 that he returns to repair them every time it rains, because heavy rain can make the earthen houses collapse.",
+      "source_ids": [
+        "S13"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Last residents hold on in Tunisia's underground houses (Reuters)",
+      "publisher": "Arab News",
+      "type": "bao",
+      "url": "https://www.arabnews.com/node/1253181",
+      "published": "2018-02-24",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S6",
+      "title": "Matmata, Tunisia (chỉ để tìm nguồn; dẫn AP 2006 về năm quay ở Sidi Driss)",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Matmata,_Tunisia",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S10",
+      "title": "Thermal Performance of Vertico-Lateral Cave Dwellings in Southeast Tunisia (Houda Driss, Fakher Kharrat), 2020",
+      "publisher": "Sustainable Mediterranean Construction, no. 12",
+      "type": "goc",
+      "url": "https://www.sustainablemediterraneanconstruction.eu/wp-content/uploads/2023/03/2020-12-038.pdf",
+      "published": null,
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S11",
+      "title": "Socio-Spatial Practices of a Community Living Beneath the Land in Beni Zelten, South-Eastern Tunisia (Houda Driss), ch. 1 of Tangible and Intangible Heritage in the Age of Globalisation, 2024",
+      "publisher": "Open Book Publishers",
+      "type": "goc",
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0388/ch1.xhtml",
+      "published": null,
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S12",
+      "title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie (H. Boudhraâ, C. Cudennec), Proc. IAHS 369, 2015",
+      "publisher": "Copernicus / IAHS",
+      "type": "goc",
+      "url": "https://piahs.copernicus.org/articles/369/169/2015/",
+      "published": null,
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S13",
+      "title": "Last residents hold on in Tunisia's underground houses (Reuters; Zohra Bensemra, Aidan Lewis)",
+      "publisher": "The Star (Reuters)",
+      "type": "bao",
+      "url": "https://www.thestar.com.my/news/world/2018/02/23/last-residents-hold-on-in-tunisias-underground-houses/",
+      "published": "2018-02-23",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S14",
+      "title": "The last residents of Tunisia's underground houses (Reuters photos, Zohra Bensemra)",
+      "publisher": "Al Jazeera",
+      "type": "bao",
+      "url": "https://www.aljazeera.com/gallery/2018/2/27/the-last-residents-of-tunisias-underground-houses/",
+      "published": "2018-02-27",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S15",
+      "title": "Cave dwellers: human adaptation in Tunisia, Turkey and Spain (John Bartlett, photos Tamara Merino)",
+      "publisher": "National Geographic",
+      "type": "bao",
+      "url": "https://www.nationalgeographic.com/culture/article/cave-dwellers-human-adaptation",
+      "published": "2025-07-02",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S16",
+      "title": "Revisiting Tunisia's 'Star Wars' desert (AP)",
+      "publisher": "Gulf News",
+      "type": "bao",
+      "url": "https://gulfnews.com/entertainment/revisiting-tunisias-star-wars-desert-1.2214806",
+      "published": "2018-11-05",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S17",
+      "title": "Visiting the Tunisian desert where Star Wars was filmed (AP)",
+      "publisher": "Bay News 9",
+      "type": "bao",
+      "url": "https://baynews9.com/fl/tampa/ap-online/2018/04/23/visiting-the-tunisian-desert-where-star-wars-was-filmed",
+      "published": "2018-04-23",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S18",
+      "title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia (Piras et al.), Biodiversity and Conservation 31:2479–2494",
+      "publisher": "Springer",
+      "type": "goc",
+      "url": "https://doi.org/10.1007/s10531-021-02286-5",
+      "published": "2021-09-25",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S22",
+      "title": "On This Day: Star Wars: A New Hope Began Filming 50 Years Ago",
+      "publisher": "StarWars.com (Lucasfilm)",
+      "type": "goc",
+      "url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+      "published": "2026-03-22",
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S27",
+      "title": "Thermal Performance of Ancient Underground Dwellings in Tunisia (Moncef Krarti, slides after ASME 1998 paper)",
+      "publisher": "University of Colorado Boulder",
+      "type": "goc",
+      "url": "https://ceae.colorado.edu/~krarti/matmata.ppt",
+      "published": null,
+      "accessed": "2026-11-29"
+    },
+    {
+      "id": "S28",
+      "title": "Nouvelle Matmata (toạ độ; chỉ để tìm nguồn)",
+      "publisher": "Wikipedia",
+      "type": "bach-khoa",
+      "url": "https://en.wikipedia.org/wiki/Nouvelle_Matmata",
+      "published": null,
+      "accessed": "2026-11-29"
+    }
+  ]
+}

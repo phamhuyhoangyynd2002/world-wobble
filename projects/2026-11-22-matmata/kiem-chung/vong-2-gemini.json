@@ -1,0 +1,932 @@
+{
+  "vong": 2,
+  "model": "Gemini web (ChatGPT web)",
+  "nguon": "gemini-web",
+  "ngay": "2026-11-29",
+  "lo_da_nhan": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "Matmata is a town in the dry hills of southern Tunisia (Gabès governorate), about 365 km (about 227 miles) south of the capital, Tunis.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Matmata is in the Gabès region of southern Tunisia; approximately 365 km is plausible as a straight-line distance, although the driving distance is about 406 km.",
+      "nguon": [
+        {
+          "title": "Matmata: architecture under ground_line",
+          "url": "https://iris.unirc.it/handle/20.12318/20396",
+          "publisher": "Università Mediterranea di Reggio Calabria",
+          "type": "goc",
+          "published": "2011-01-01",
+          "url_song": true
+        },
+        {
+          "title": "How do I get from Tunis to Matmata?",
+          "url": "https://www.rome2rio.com/s/Tunis/Matmata-Tunisia",
+          "publisher": "Rome2Rio",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "Seen from ground level, traditional (old) Matmata shows almost no buildings: the homes are dug below ground around round pits, so the landscape appears as pale yellowish hills pocked with holes (a 'cratered landscape').",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Academic architectural research confirms that the underground dwellings are difficult to distinguish from the surface, with courtyards and rooms excavated into the surrounding hills.",
+      "nguon": [
+        {
+          "title": "L’Université d’Aix-Marseille – L’habitat troglodyte en profondeur",
+          "url": "https://theses.fr/2018AIXM0169.pdf",
+          "publisher": "Université d'Aix-Marseille",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Architectural lessons for the future, via the past",
+          "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+          "publisher": "UNESCO Courier",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Matmata Troglodyte Homes: How to Visit Tunisia’s Underground Amazigh Houses",
+          "url": "https://www.tourismtunisia.com/troglodyte-homes-of-matmata-tunisia/",
+          "publisher": "Tourism Tunisia",
+          "type": "khac",
+          "published": "2026-09-13",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "A traditional Matmata home is built around a sunken open courtyard pit, with rooms entered through arched doorways carved into the pit walls.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Architectural documentation confirms that the circular sunken courtyard is surrounded by excavated rooms with openings directly onto the courtyard.",
+      "nguon": [
+        {
+          "title": "L’Université d’Aix-Marseille – L’habitat troglodyte en profondeur",
+          "url": "https://theses.fr/2018AIXM0169.pdf",
+          "publisher": "Université d'Aix-Marseille",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Sustainable Architecture and Urban Development 289",
+          "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+          "publisher": "CIB / International Council for Research and Innovation in Building and Construction",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Architectural lessons for the future, via the past",
+          "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+          "publisher": "UNESCO Courier",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "Amazigh (Berber) families in the Matmata area of southern Tunisia have lived in underground pit homes for centuries.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Academic research identifies Matmata's underground settlement tradition with Berber communities and dates its development to approximately the seventh through twelfth centuries, supporting a centuries-old tradition.",
+      "nguon": [
+        {
+          "title": "Matmata: architecture under ground_line",
+          "url": "https://iris.unirc.it/handle/20.500.12318/20396",
+          "publisher": "Università Mediterranea di Reggio Calabria",
+          "type": "goc",
+          "published": "2011-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Architectural lessons for the future, via the past",
+          "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+          "publisher": "UNESCO Courier",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Rural Vernacular Heritage and Strategic Design: Matmata as an example of Sustainable Development",
+          "url": "https://www.indexacademicdocs.org/paper/19/81372/1345342",
+          "publisher": "Index Academic Documents",
+          "type": "khac",
+          "published": "2023-12-15",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "Researchers studying the pit dwellings of south-eastern Tunisia link their hidden design (hard to see from a distance, indirect entrances, storerooms set high) to long periods of insecurity in these mountain villages, including raids and conflicts between tribes.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Research confirms defensive features such as concealed dwellings, fortified entrances and winding access tunnels, but the specific explanation involving prolonged insecurity, tribal raids and conflicts is not sufficiently established by the sources found.",
+      "nguon": [
+        {
+          "title": "Sustainable Architecture and Urban Development 289",
+          "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+          "publisher": "CIB / International Council for Research and Innovation in Building and Construction",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Matmata pit house",
+          "url": "https://habitatio.epitesz.bme.hu/en/portfolio/tunisian-pit-house/",
+          "publisher": "Budapest University of Technology and Economics – BME Habitatio",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "In measurements on 24–25 July 1997 at a Matmata pit dwelling, the outdoor air temperature reached about 46 °C (about 115 °F) at 3 pm, while the room stayed at about 27–28 °C throughout the 24 hours.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No reliable source was found documenting the specific 24–25 July 1997 indoor and outdoor measurements or the stated hourly temperatures; historical airport weather records do not establish temperatures inside a pit dwelling.",
+      "nguon": [
+        {
+          "title": "July 1997 Historical Weather at Gabès – Matmata International Airport",
+          "url": "https://weatherspark.com/h/m/148137/1997/7/Historical-Weather-in-July-1997-at-Gab%C3%A8s-%E2%80%93-Matmata-International-Airport-Tunisia",
+          "publisher": "Weather Spark",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Matmata (Djebel) / Monts de Matmata (Tunisie)",
+          "url": "https://journals.openedition.org/encyclopedieberbere/pdf/511",
+          "publisher": "Encyclopédie berbère",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "At a depth of about 10 m (about 33 feet) the ground temperature around Matmata's pit dwellings is nearly constant, and the seasonal summer heat takes months to reach that depth, arriving long after summer has ended.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "No reliable source was found in this search session confirming the specific 10 m ground-temperature stability or the claimed months-long seasonal heat delay.",
+      "nguon": []
+    },
+    {
+      "id": "C08",
+      "statement": "The Matmata hills, where the pit-house villages are, receive on average about 200 mm (about 8 inches) of rain per year, and the rainfall is intense and irregular.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "Published estimates vary: approximately 147–200 mm annually for the Matmata region, with some studies reporting about 170 mm.",
+      "ghi_chu": "Regional research supports low and irregular rainfall, but published annual averages differ according to the study area and observation period.",
+      "nguon": [
+        {
+          "title": "WEFE nexus management plan for sustainable development and gender equity in the Matmata region, SE Tunisia",
+          "url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2025.1563873/full",
+          "publisher": "Frontiers in Water",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Landslide risk assessment using digital photogrammetry and Gis multi criteria evaluation IN Matmata region (SE Tunisia)",
+          "url": "https://assets-eu.researchsquare.com/files/rs-4659295/v1/192a9198-1d5a-472e-be3d-8711d981f97a.pdf",
+          "publisher": "Research Square",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "In southern Tunisia's mountains, jessour are earth dams built across valleys and gullies that trap runoff water and the sediment it carries, creating terraced plots where olives, figs, date palms and other crops are grown.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Peer-reviewed research confirms that jessour are small earth dams built across gullies and wadi channels to intercept runoff and sediment, forming agricultural terraces used for olives, figs, date palms and other crops.",
+      "nguon": [
+        {
+          "title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+          "url": "https://link.springer.com/article/10.1007/s10531-021-02286-5",
+          "publisher": "Biodiversity and Conservation (Springer)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Study Site Database",
+          "url": "https://edepot.wur.nl/263494",
+          "publisher": "Wageningen University & Research",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "The earth dams (tabias) of the jessour system can be more than 5 m high and are progressively raised as each flood deposits more sediment behind them.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The research explicitly states that sediment accumulates behind the tabias after successive floods, requiring the dams to be raised and sometimes reaching heights exceeding 5 metres.",
+      "nguon": [
+        {
+          "title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+          "url": "https://link.springer.com/article/10.1007/s10531-021-02286-5",
+          "publisher": "Biodiversity and Conservation (Springer)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Supplemental irrigation and water harvesting in Tunisia",
+          "url": "https://mel.cgiar.org/reporting/download/hash/ZyboKy5o",
+          "publisher": "CGIAR",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "By concentrating runoff, the jessour system allows crops such as olive trees to grow in southern Tunisia beyond the limits that local rainfall alone would allow.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Scientific studies confirm that runoff harvesting increases available soil moisture and enables olive and other fruit trees to grow beyond their normal climatic cultivation limits in southeastern Tunisia.",
+      "nguon": [
+        {
+          "title": "Benefits of Water-Harvesting Systems (Jessour) on Soil Water Retention in Southeast Tunisia",
+          "url": "https://www.mdpi.com/2073-4441/12/1/295",
+          "publisher": "Water (MDPI)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Effect of traditional check dams (jessour) on soil and olive trees water status in Tunisia",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969719330876",
+          "publisher": "Science of the Total Environment (Elsevier)",
+          "type": "khac",
+          "published": "2019-11-10",
+          "url_song": true
+        },
+        {
+          "title": "Upstream-Downstream Influence of Water Harvesting Techniques (Jessour) on Soil Water Retention in Southeast Tunisia",
+          "url": "https://www.mdpi.com/2073-4441/15/7/1361",
+          "publisher": "Water (MDPI)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "In the pit houses of south-eastern Tunisia, olive and grain storerooms are set half a storey to a full storey above the courtyard floor; olive stores have an opening in the roof, at ground level above, so olives brought by camel could be poured directly into the store without passing through the courtyard.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "An academic architectural study confirms that olive granaries are elevated approximately half or one level above the courtyard, with a roof pipe allowing olives to be unloaded directly from outside using a camel; another study documents elevated granary rooms and upper openings for depositing grain.",
+      "nguon": [
+        {
+          "title": "Tangible and Intangible Heritage of the Mediterranean",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0388.pdf",
+          "publisher": "Open Book Publishers",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Sustainable Architecture and Urban Development",
+          "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+          "publisher": "International Council for Research and Innovation in Building and Construction",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "In Matmata pit dwellings, a cistern beneath or within the courtyard collects the rainwater that falls into the courtyard.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Architectural research describes a courtyard cistern, usually centrally located, for collecting rainwater.",
+      "nguon": [
+        {
+          "title": "Sustainable Architecture and Urban Development",
+          "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+          "publisher": "International Conference on Sustainable Architecture and Urban Development",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The underground houses of Matmata benefit from the unique properties of the local soil",
+          "url": "https://abis-files.gazi.edu.tr/avesis/79f7bc63-a37c-4ff1-9486-bc6c72fb55e5?AWSAccessKeyId=XSO45GTNG2LKZD8YO90K&Expires=1795046850&Signature=Sp7Q8Wo%2BA6YjGjyjxH7yb3NtsW0%3D",
+          "publisher": "Gazi University",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "In the pit houses of south-eastern Tunisia, the courtyard was used for household work such as making bread, grinding grain and drying figs.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The searches found evidence of grain grinding and bread preparation in Matmata households, but did not find sufficiently reliable documentation establishing that the traditional courtyard specifically served all three listed activities, including drying figs.",
+      "nguon": [
+        {
+          "title": "Visiting the Ben Nasrs in their troglodyte house, Matmata, Tunisia",
+          "url": "https://www.rashmee.com/visiting-the-ben-nasrs-in-their-troglodyte-house-matmata-tunisia/",
+          "publisher": "Rashmee Roshan Lall",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The wealth of heritage and cultural tourism in Tunisia through two different cases: the archipelago of Kerkena and the mountains of southeastern Tunisia",
+          "url": "https://dialnet.unirioja.es/descarga/articulo/7554075.pdf",
+          "publisher": "Journal of Tourism and Heritage Research",
+          "type": "khac",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "Valleys in the Matmata mountains are filled with loess (compacted fine wind-blown dust), 10–20 m thick, which can be dug with simple farm tools such as a hoe yet stands in vertical walls without collapsing.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Geological research documents loess deposits approximately 10–20 metres thick in the Matmata depressions, while research discussing the local dwelling construction confirms that this cohesive material can be excavated with simple agricultural tools without the walls crumbling.",
+      "nguon": [
+        {
+          "title": "Les accumulations calcaires dans les limons de Matmata de la région de Gabès en Tunisie",
+          "url": "https://www.persee.fr/doc/sgeol_0302-2692_1984_num_37_4_1680",
+          "publisher": "Persée",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Paléosols d'âge Pléistocène supérieur dans les loess des Matmata (Sud Tunisien)",
+          "url": "https://www.persee.fr/doc/sgeol_0302-2692_1984_num_37_4_1679",
+          "publisher": "Persée",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Matmata's Pit Houses: Ancient Wonder or a Younger Amazigh Achievement?",
+          "url": "https://www.ancient-origins.net/news-history-archaeology/matmata-pit-houses-tunisia-how-old-00103300",
+          "publisher": "Ancient Origins",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "A Matmata pit dwelling consists of a deep, round courtyard pit with rooms excavated laterally into its walls, requiring almost no building materials.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "UNESCO and architectural documentation describe a deep central courtyard with rooms excavated horizontally into its surrounding walls, although the claim about requiring almost no building materials is an oversimplification.",
+      "nguon": [
+        {
+          "title": "Architectural lessons for the future, via the past",
+          "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+          "publisher": "The UNESCO Courier",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Matmata pit house",
+          "url": "https://habitatio.epitesz.bme.hu/en/portfolio/tunisian-pit-house/",
+          "publisher": "Budapest University of Technology and Economics",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "Researchers studying Matmata-area pit dwellings describe a rule of thumb for stability: a room's void should be smaller than the thickness of earth left above it; room ceilings are vaulted (curved), not flat.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The search found descriptions of vaulted ceilings, but no reliable source establishing the specific room-void-to-overburden stability rule.",
+      "nguon": []
+    },
+    {
+      "id": "C18",
+      "statement": "In pit houses of south-eastern Tunisia, grain and olive stores were set high in the courtyard walls and reached by footholds cut into the wall or olive-wood pegs driven into it, partly to protect stores against theft.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The searches did not locate a sufficiently reliable source confirming the specific combination of grain and olive storage, footholds or olive-wood pegs, and theft prevention.",
+      "nguon": []
+    },
+    {
+      "id": "C19",
+      "statement": "In pit houses of south-eastern Tunisia, livestock stalls and storage for farm tools were placed in niches along the entrance tunnel, away from the living rooms, for hygiene.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "An architectural study describes agricultural-tool storage and occasional livestock sheltering near the end of the entrance tunnel, but does not establish the claimed arrangement in niches or its hygienic rationale.",
+      "nguon": [
+        {
+          "title": "Sustainable Architecture and Urban Development",
+          "url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+          "publisher": "IRBNet",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Troglodyte farms and herdsmen's dwellings",
+          "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_b6d9926d-f33c-4ca6-89ea-561109b3bd9a?_=049648engo.pdf&from=1&to=44",
+          "publisher": "UNESCO Courier",
+          "type": "goc",
+          "published": "1975-02-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "In 2018, a woman who used to live in a traditional pit home in Matmata (Mahboub Theouibi, whose family later moved to a modern house) told the Associated Press she remembered fetching water by camel from a distant spring and searching for food every day.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The search did not locate an Associated Press article or another reliable source independently confirming Mahboub Theouibi's identity and the specific recollections attributed to her.",
+      "nguon": []
+    },
+    {
+      "id": "C21",
+      "statement": "Rooms in Matmata pit dwellings get their daylight mainly from the central courtyard.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Architectural research describes the central courtyard as the principal source of natural daylight for the surrounding underground rooms.",
+      "nguon": [
+        {
+          "title": "Analyzing the ecologicality and functionality of kiln architecture in China through KH coder data mining algorithm and hierarchical event coding",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12064666/",
+          "publisher": "Computational Urban Science",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Architectural lessons for the future, via the past",
+          "url": "https://courier.unesco.org/en/articles/architectural-lessons-future-past",
+          "publisher": "The UNESCO Courier",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "In autumn 1969 Tunisia had exceptional rain over about 40 days (September–October); during 3–8 October 1969 the south-eastern coastal area (Sfax, Gabès, Djerba) received 100–200 mm, comparable to the roughly 200 mm the Matmata hills receive in an average year.",
+      "verdict": "dung",
+      "gia_tri_dung": "Approximately 40 days of exceptional rainfall across September and October 1969; 100–200 mm in parts of central and southern Tunisia, including Sfax, Gabès and Djerba, during 3–8 October. Matmata recorded 96.3 mm in September and 173.1 mm in October 1969.",
+      "ghi_chu": "A hydrometeorological research paper confirms the 40-day rainfall episode and the 3–8 October regional totals; historical measurements show 173.1 mm at Matmata in October against a monthly average of 21.7 mm, although the comparison with annual rainfall should be expressed cautiously.",
+      "nguon": [
+        {
+          "title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+          "url": "https://proc-iahs.net/369/169/2015/",
+          "publisher": "Proceedings of the International Association of Hydrological Sciences",
+          "type": "khac",
+          "published": "2015-06-01",
+          "url_song": true
+        },
+        {
+          "title": "Les précipitations et les crues exceptionnelles de l'automne 1969 en Tunisie",
+          "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-09/07443.pdf",
+          "publisher": "IRD (Institut de recherche pour le développement)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "By 27 November 1969, the 1969 floods in Tunisia had caused 542 deaths and the collapse of 70,540 houses, according to figures compiled in a UNESCO report (Pias 1970) cited by Boudhraâ and Cudennec.",
+      "verdict": "dung",
+      "gia_tri_dung": "542 deaths and 70,540 houses destroyed by 27 November 1969.",
+      "ghi_chu": "Boudhraâ and Cudennec reproduce these exact figures and attribute them to Pias (1970); the original wording refers to destroyed houses rather than independently verified structural collapses.",
+      "nguon": [
+        {
+          "title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+          "url": "https://proc-iahs.net/369/169/2015/",
+          "publisher": "Proceedings of the International Association of Hydrological Sciences",
+          "type": "khac",
+          "published": "2015-06-01",
+          "url_song": true
+        },
+        {
+          "title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+          "url": "https://www.researchgate.net/publication/279274187_Autopsie_des_evenements_hydrometeorologiques_extremes_de_1969_en_Tunisie",
+          "publisher": "ResearchGate",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "In 1969 flooding caused many cave and pit homes around Matmata to collapse, and displaced residents were sold land in New Matmata for 3 dinars per square metre, according to National Geographic.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "National Geographic explicitly reports that the 1969 flood destroyed many homes around Matmata and Haddej and that residents were offered land in New Matmata for three dinars per square metre.",
+      "nguon": [
+        {
+          "title": "What we can learn from the world’s vanishing cave dwellers",
+          "url": "https://www.nationalgeographic.com/culture/article/cave-dwellers-human-adaptation",
+          "publisher": "National Geographic",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "Many families left Tunisia's underground homes when new towns and villages were built in the 1960s and 1970s under President Habib Bourguiba's modernisation drive.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reuters reports that many families left underground houses when new towns and villages were constructed during the 1960s and 1970s as part of President Habib Bourguiba's modernisation drive.",
+      "nguon": [
+        {
+          "title": "Last residents hold on in Tunisia’s underground houses",
+          "url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+          "publisher": "Arab News (Reuters)",
+          "type": "bao",
+          "published": "2018-02-27",
+          "url_song": true
+        },
+        {
+          "title": "The last residents of Tunisia’s underground houses",
+          "url": "https://www.aljazeera.com/gallery/2018/2/27/the-last-residents-of-tunisias-underground-houses",
+          "publisher": "Al Jazeera",
+          "type": "bao",
+          "published": "2018-02-27",
+          "url_song": true
+        },
+        {
+          "title": "MATMATA, THE VILLAGE WHERE YOU WALK ON ROOFTOPS!",
+          "url": "https://www.tunisair.com/sites/default/files/2025-01/gaz-94_correct.pdf",
+          "publisher": "Tunisair",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "Many pit houses abandoned in the Matmata area gradually fell into ruin.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Architectural and heritage research documents widespread abandonment and deterioration of traditional troglodyte dwellings in the Matmata area.",
+      "nguon": [
+        {
+          "title": "Diagnostic of the landscape area with selected views in ancient Matmata",
+          "url": "https://ijaers.com/uploads/issue_files/31IJAERS-MAY-2019-107-Diagnostic.pdf",
+          "publisher": "International Journal of Advanced Engineering Research and Science",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Actes du colloque international : tourisme saharien et développement durable",
+          "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-09/010045751.pdf",
+          "publisher": "Institut de recherche pour le développement (IRD)",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "New Matmata, a short drive from old Matmata (about 14 km in a straight line), is a town of conventional above-ground houses with a main road, cafés and a butcher's shop.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Sources identify Nouvelle Matmata as a modern above-ground settlement approximately 13–15 km from Old Matmata, but the complete description, particularly the specific butcher's shop and the straight-line distance of 14 km, could not be independently verified.",
+      "nguon": [
+        {
+          "title": "MATMATA, THE VILLAGE WHERE YOU WALK ON ROOFTOPS!",
+          "url": "https://www.tunisair.com/sites/default/files/2025-01/gaz-94_correct.pdf",
+          "publisher": "Tunisair",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Informations Utiles",
+          "url": "https://www.tamezret.com/informations-utiles",
+          "publisher": "Tamezret",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Restaurants Businesses in Matmata Tunisia",
+          "url": "https://www.cybo.com/TN/matmata-tunisia/restaurants",
+          "publisher": "Cybo",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "Researchers report that some Matmata-area residents who moved to conventional houses have kept a few rooms in their ancestral pit dwellings to use during long summer heat waves.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The searches did not identify a reliable academic or primary source documenting residents specifically retaining ancestral pit-house rooms for occasional use during summer heat waves after moving into conventional houses.",
+      "nguon": []
+    },
+    {
+      "id": "C29",
+      "statement": "Measurements compared by Krarti (1998) for a typical summer day in the Matmata area found a conventional built house above 36 °C indoors versus about 25.5 °C in a pit dwelling; on a typical winter day the pit dwelling was warmer (about 15 °C versus 10.5 °C).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "A 2023 peer-reviewed paper reproducing Krarti's 1998 measurements gives indoor temperatures of 25.5°C versus 36.5°C in summer and 15°C versus 10.5°C in winter for subterranean and above-ground dwellings respectively; the claim's 36°C is a reasonable rounding.",
+      "nguon": [
+        {
+          "title": "Re-evaluating the health performance of historical buildings using WELLV1 rating system",
+          "url": "https://www.researchgate.net/publication/373575995_Re-evaluating_the_health_performance_of_historical_buildings_using_WELLV1_rating_system",
+          "publisher": "Computational Urban Science, Springer Nature",
+          "type": "khac",
+          "published": "2023-09-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "The Hotel Sidi Driss in Matmata was a traditional family home before it became a hotel in 1969.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Guardian confirms that Sidi Driss was a traditional Berber troglodyte house converted into a hotel in 1969, but the searches did not establish that it was specifically a family home before conversion; another source reports that the hotel opened in 1968.",
+      "nguon": [
+        {
+          "title": "Star Wars' abandoned Tunisian locations – in pictures",
+          "url": "https://www.theguardian.com/film/2015/dec/03/star-wars-abandoned-tunisian-locations-in-pictures",
+          "publisher": "The Guardian",
+          "type": "bao",
+          "published": "2015-12-03",
+          "url_song": true
+        },
+        {
+          "title": "Hotel Sidi Driss - Sleep In A 17th-Century Troglodyte Pit In Tunisia Where Star Wars Was Filmed",
+          "url": "https://www.uniqhotels.com/hotel-sidi-driss-star-wars/",
+          "publisher": "UNIQ Hotels",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Urban Art Bio Academic Journal",
+          "url": "https://ajpsdz.org/rv/index.php/uab/article/download/164/108",
+          "publisher": "Urban Art Bio",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "The Hotel Sidi Driss in Matmata was used in 1976 as a filming location for the first Star Wars film (A New Hope), whose Tunisian shoot began on 22 March 1976.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Tunisian Cinema database documents Hotel Sidi Driss among the filming locations, while StarWars.com confirms principal photography began in Tunisia on 22 March 1976; the hotel scenes were filmed on 1 April 1976.",
+      "nguon": [
+        {
+          "title": "Cinéma tunisien · TUNISIAN CINEMA: LA GUERRE DES ÉTOILES · UN NOUVEL ESPOIR",
+          "url": "https://www.tunisiancinema.com/tournages/foreign-sw4/",
+          "publisher": "Tunisian Cinema",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "On This Day: Star Wars: A New Hope Began Filming 50 Years Ago",
+          "url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+          "publisher": "StarWars.com (Lucasfilm)",
+          "type": "goc",
+          "published": "2026-03-22",
+          "url_song": true
+        },
+        {
+          "title": "Hotel Sidi Idriss",
+          "url": "https://galaxytours.com/starwars-tunisia-film-sites/hotel-sidi-idriss/",
+          "publisher": "Galaxy Tours",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "According to Lucasfilm (StarWars.com), soon after filming of the first Star Wars film began in Tunisia in March 1976, a rare storm hit southern Tunisia and disrupted the shooting schedule.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "StarWars.com, Lucasfilm's official website, explicitly reports that a once-in-a-generation storm struck the region shortly after filming began and disrupted the production schedule and logistics.",
+      "nguon": [
+        {
+          "title": "On This Day: Star Wars: A New Hope Began Filming 50 Years Ago",
+          "url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+          "publisher": "StarWars.com (Lucasfilm)",
+          "type": "goc",
+          "published": "2026-03-22",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "statement": "Star Wars fans still visit the Hotel Sidi Driss in Matmata to see the courtyard used in the film (AP reporting, 2018).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Associated Press reported in April 2018 that Star Wars fans continued visiting Hotel Sidi Driss, where the courtyard used as Luke Skywalker's home was located.",
+      "nguon": [
+        {
+          "title": "Visiting the Tunisian desert where 'Star Wars' was filmed",
+          "url": "https://www.ksl.com/article/46306250",
+          "publisher": "Associated Press / KSL.com",
+          "type": "bao",
+          "published": "2018-04-23",
+          "url_song": true
+        },
+        {
+          "title": "Star Wars: why the desert in Tunisia was the perfect location for original film, and how to visit the area",
+          "url": "https://www.scmp.com/lifestyle/travel-leisure/article/2144063/star-wars-why-desert-tunisia-was-perfect-location-original",
+          "publisher": "South China Morning Post / Associated Press",
+          "type": "bao",
+          "published": "2018-04-30",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "Reuters reported in February 2018 that a few families still live in underground pit houses around Matmata and let tourists visit in return for tips; one resident said leaving her house would be like throwing away her life and her traditions.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reuters reported that Saliha Mohamedi let tourists visit her underground home for tips and said leaving would mean throwing away her life and traditions; a few families remained in the traditional houses.",
+      "nguon": [
+        {
+          "title": "Last residents hold on in Tunisia’s underground houses",
+          "url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+          "publisher": "Arab News / Reuters",
+          "type": "bao",
+          "published": "2018-02-24",
+          "url_song": true
+        },
+        {
+          "title": "In Tunisia, preserving tradition in the last underground homes",
+          "url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+          "publisher": "The World from PRX / Reuters",
+          "type": "bao",
+          "published": "2018-02-23",
+          "url_song": null
+        },
+        {
+          "title": "The Wider Image: Last residents hold on in Tunisia's underground houses",
+          "url": "https://www.reutersconnect.com/item/the-wider-image-last-residents-hold-on-in-tunisias-underground-houses/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1JDMTYyMzczODg0MA",
+          "publisher": "Reuters Connect",
+          "type": "goc",
+          "published": "2018-02-23",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Reuters reported in 2018 that a man in the Matmata area who still knows how to dig traditional underground houses built his last new one in the 1970s.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reuters identified Hedi Ali Kayel as one of the last people in the area who knew how to build and maintain these houses and reported that the last new house he dug was in the 1970s.",
+      "nguon": [
+        {
+          "title": "In Tunisia, preserving tradition in the last underground homes",
+          "url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+          "publisher": "The World from PRX / Reuters",
+          "type": "bao",
+          "published": "2018-02-23",
+          "url_song": null
+        },
+        {
+          "title": "Last residents hold on in Tunisia's underground houses",
+          "url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+          "publisher": "Arab News / Reuters",
+          "type": "bao",
+          "published": "2018-02-24",
+          "url_song": true
+        },
+        {
+          "title": "The last residents of Tunisia’s underground houses",
+          "url": "https://www.aljazeera.com/amp/gallery/2018/2/27/the-last-residents-of-tunisias-underground-houses",
+          "publisher": "Al Jazeera",
+          "type": "bao",
+          "published": "2018-02-27",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "Farming in the Matmata hills depends on capturing scarce runoff with jessour earth dams, and the area's thick, self-supporting loess allows dwellings to be excavated directly into the ground.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Academic research documents jessour earthworks intercepting runoff in the Matmata mountain region, while Géoconfluences explains that compact geological formations and thick loess deposits allow underground dwellings to be excavated without foundation collapse.",
+      "nguon": [
+        {
+          "title": "Les jessour du sud tunisien, mutations d’un système agraire et hydraulique en milieu aride",
+          "url": "https://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-thematiques/changement-global/articles-scientifiques/les-jessour-du-sud-tunisien",
+          "publisher": "Géoconfluences, École normale supérieure de Lyon",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The role of the jessour system for agrobiodiversity preservation in Southern Tunisia",
+          "url": "https://doi.org/10.1007/s10531-021-02286-5",
+          "publisher": "Biodiversity and Conservation / Springer",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "statement": "A man who still knows how to dig traditional underground houses in the Matmata area told Reuters in 2018 that he returns to repair them every time it rains, because heavy rain can make the earthen houses collapse.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Reuters quoted Hedi Ali Kayel saying he repairs the houses every time it rains, and separately reported that heavy rain can cause these earthen structures to collapse.",
+      "nguon": [
+        {
+          "title": "In Tunisia, preserving tradition in the last underground homes",
+          "url": "https://theworld.org/stories/2018/02/23/tunisia-preserving-tradition-last-underground-homes",
+          "publisher": "The World from PRX / Reuters",
+          "type": "bao",
+          "published": "2018-02-23",
+          "url_song": null
+        },
+        {
+          "title": "Last residents hold on in Tunisia’s underground houses",
+          "url": "https://www.arabnews.com/middle-east/last-residents-hold-on-in-tunisias-underground-houses-1253181",
+          "publisher": "Arab News / Reuters",
+          "type": "bao",
+          "published": "2018-02-24",
+          "url_song": true
+        },
+        {
+          "title": "Last Residents Hold on in Tunisia's Underground Houses",
+          "url": "https://adf-magazine.com/2018/07/last-residents-hold-on-in-tunisias-underground-houses/",
+          "publisher": "Africa Defense Forum",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 6,
+    "ghi_chu": "giao diện web miễn phí, không tính token"
+  }
+}

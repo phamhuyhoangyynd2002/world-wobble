@@ -1,0 +1,3 @@
+{ "id": "map-mawsynram", "lop": [],
+  "huong_nhan": { "Mawsynram": "trai", "Cherrapunji": "duoi", "Shillong": "phai" },
+  "ghim_nho": ["Cherrapunji", "Shillong"] }

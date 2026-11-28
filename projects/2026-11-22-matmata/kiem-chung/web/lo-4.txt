@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Matmata" (Tunisia). The episode asks: "Why do people live in Matmata?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C25: Many families left Tunisia's underground homes when new towns and villages were built in the 1960s and 1970s under President Habib Bourguiba's modernisation drive.
+C26: Many pit houses abandoned in the Matmata area gradually fell into ruin; the nearby village of Haddej, for example, has been abandoned since the 1990s.
+C27: New Matmata, a short drive from old Matmata (about 14 km in a straight line), is a town of conventional above-ground houses with a main road, cafés and a butcher's shop.
+C28: Researchers report that some Matmata-area residents who moved to conventional houses have kept a few rooms in their ancestral pit dwellings to use during long summer heat waves.
+C29: Measurements compared by Krarti (1998) for a typical summer day in the Matmata area found a conventional built house above 36 °C indoors versus about 25.5 °C in a pit dwelling; on a typical winter day the pit dwelling was warmer (about 15 °C versus 10.5 °C).
+C30: The Hotel Sidi Driss in Matmata was a traditional family home before it became a hotel in 1969.
+C31: The Hotel Sidi Driss in Matmata was used in 1976 as a filming location for the first Star Wars film (A New Hope), whose Tunisian shoot began on 22 March 1976.
+C32: According to Lucasfilm (StarWars.com), soon after filming of the first Star Wars film began in Tunisia in March 1976, a rare storm hit southern Tunisia and disrupted the shooting schedule.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

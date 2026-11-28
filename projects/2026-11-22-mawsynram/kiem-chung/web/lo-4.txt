@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Mawsynram" (India). The episode asks: "Why do people live in Mawsynram?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C25: Published rainfall data for Mawsynram are annual totals (no official monthly normals); at nearby Cherrapunji, Japan Meteorological Agency monthly normals show about 75% of annual rainfall falling from June to September, average July rainfall of about 2,954 mm (about 95 mm per day, more than December's monthly total of about 8 mm), and only about 1% of the annual total from December to February.
+C26: In January 2024, Mawsynram's member of the Meghalaya Legislative Assembly, Olan Singh Suin, said some villages in the area run short of drinking water in the dry season because water does not stay on the high hills, and that springs sometimes dry up.
+C27: In a January 2020 AFP report from Mawsynram, headmistress Miralin Kharchandy said residents had never learned to save water because there was water all around them.
+C28: The same 2020 AFP report described rainwater-harvesting tanks built in Mawsynram by the authorities together with residents for each locality; village headman Tarcisius Dhkar said residents built them themselves and so regard the tanks as their own.
+C29: Mawsynram, which the WMO lists as having Asia's greatest average annual rainfall, nonetheless faces dry-season water shortages, with springs, streams and lakes in the area drying up.
+C30: From the southern edge of the Meghalaya plateau around Mawsynram, the plains of Bangladesh are visible on clear days in the dry season.
+C31: On the steep, rocky hills around Mawsynram and Cherrapunji, monsoon rain runs off quickly rather than soaking in, so very little of it is retained on the hilltops.
+C32: In July 2019, when Meghalaya's cabinet approved a draft water policy, Deputy Chief Minister Prestone Tynsong said the state's rainwater is not retained and flows quickly into Bangladesh because of the steep terrain.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

@@ -1,0 +1,171 @@
+[
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": null,
+"note": "WHO India directly confirms monthly outreach clinics organized by Mawsynram CHC and quotes taxi driver B. Konsang saying he changes his brake pads every two weeks because of the steep roads.",
+"sources": [
+{
+"title": "Taking health care to the people, come rain or shine",
+"publisher": "WHO India",
+"url": "https://www.who.int/india/news-room/feature-stories/detail/taking-health-care-to-the-people--come-rain-or-shine",
+"type": "goc",
+"published": "2024-06-12"
+}
+]
+},
+{
+"id": "C18",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The Meghalaya government confirms the Mawphlang–Balat road and East Khasi Hills records identify sections within Mawsynram block, but the searched sources do not establish the complete route or its precise endpoints at Balat.",
+"sources": [
+{
+"title": "The Gazette of Meghalaya dated 9th Nov, 2023",
+"publisher": "Government of Meghalaya",
+"url": "https://megpns.gov.in/gazette/2023/11/09-11-23-IIA.pdf",
+"type": "goc",
+"published": "2023-11-09"
+},
+{
+"title": "Damaged Roads",
+"publisher": "East Khasi Hills District Administration",
+"url": "https://eastkhasihills.gov.in/damaged-roads/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C19",
+"verdict": "dung",
+"correct_value": null,
+"note": "Peer-reviewed geographical research places the Meghalaya Plateau near the Bangladesh border and describes the flat Bangladeshi lowlands extending southward to the Bay of Bengal, confirming that Mawsynram is inland rather than coastal.",
+"sources": [
+{
+"title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+"publisher": "Journal of Geophysical Research: Atmospheres",
+"url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+"type": "goc",
+"published": "2017-08-29"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "mau-thuan",
+"correct_value": "The Meghalaya Plateau reaches approximately 2,000 m elevation; the cited research supports the Bay of Bengal–Bangladesh–southern Meghalaya orographic rainfall mechanism, but does not establish Mawsynram's stated elevation of 1,431 m.",
+"note": "Peer-reviewed studies support the northward transport of moist monsoon air through Bangladesh and forced uplift against the southern Meghalaya slopes, but the precise Mawsynram elevation in the claim was not independently verified.",
+"sources": [
+{
+"title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+"publisher": "Journal of Geophysical Research: Atmospheres",
+"url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+"type": "goc",
+"published": "2017-08-29"
+},
+{
+"title": "Variation in the orographic extreme rain events over the Meghalaya Hills in northeast India in the two halves of the twentieth century",
+"publisher": "Theoretical and Applied Climatology",
+"url": "https://link.springer.com/article/10.1007/s00704-014-1224-x",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C21",
+"verdict": "mau-thuan",
+"correct_value": "Cherrapunji hourly observations from 1946–1949 show greater rainfall during 01:00–07:00 IST than 12:00–18:00 IST, particularly from April to October. Sato (2013) identifies an evening-to-early-morning rainfall maximum and a nocturnal low-level jet, but the specific Bangladesh-plains wind explanation should not be treated as conclusively established by all the cited studies.",
+"note": "The early-morning rainfall pattern is supported by historical IMD observations and satellite-based research, but the proposed mechanisms differ between studies, and the searched sources do not establish the absence of hourly Mawsynram records.",
+"sources": [
+{
+"title": "On certain aspects of rainfall at Cherrapunji",
+"publisher": "MAUSAM, India Meteorological Department",
+"url": "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/4681",
+"type": "goc",
+"published": "1951-07-01"
+},
+{
+"title": "Mechanism of Orographic Precipitation around the Meghalaya Plateau Associated with Intraseasonal Oscillation and the Diurnal Cycle",
+"publisher": "Journal of the Meteorological Society of Japan",
+"url": "https://eprints.lib.hokudai.ac.jp/repo/huscap/all/53972/mwr-TSato2013_2451.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Contrasting Features of Monsoon Precipitation Around the Meghalaya Plateau Under Westerly and Easterly Regimes",
+"publisher": "Journal of Geophysical Research: Atmospheres",
+"url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JD026116",
+"type": "goc",
+"published": "2017-08-29"
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "The 2013 AFP report explicitly describes clouds drifting through homes in Mawsynram and leaving furniture damp with a wet film.",
+"sources": [
+{
+"title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+"publisher": "TheJournal.ie / AFP",
+"url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+"type": "bao",
+"published": "2013-08-01"
+},
+{
+"title": "A life spent in the wettest place on earth",
+"publisher": "Phys.org / AFP",
+"url": "https://phys.org/news/2013-07-life-spent-wettest-earth.html",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kynpham Sing Nongkynrih's published writing explicitly lists these Khasi rain expressions, explaining lapiwtung as prolonged rain that makes clothes smell, lap-hynriew-miet as six-night rain, and lap-khyndai-miet as nine-night rain.",
+"sources": [
+{
+"title": "Capturing the monsoons",
+"publisher": "Down To Earth",
+"url": "https://www.downtoearth.org.in/environment/capturing-the-monsoons-38896",
+"type": "bao",
+"published": null
+},
+{
+"title": "Review: Funeral Nights by Kynpham Sing Nongkynrih",
+"publisher": "Hindustan Times",
+"url": "https://www.hindustantimes.com/books/reviewfuneral-nights-by-kynpham-sing-nongkynrih-101635512540898.html",
+"type": "bao",
+"published": "2021-10-29"
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": null,
+"note": "The 2013 AFP report directly quotes Mawsynram's headman Moonstar Marbaniang saying there is no celebration or festival when the rain ends and residents simply start drying their clothes outside.",
+"sources": [
+{
+"title": "Life in the wettest village on Earth (including indoor clouds and 467 inches of rain)",
+"publisher": "TheJournal.ie / AFP",
+"url": "https://www.thejournal.ie/life-village-india-wettest-place-on-earth-1014727-Aug2013/",
+"type": "bao",
+"published": "2013-08-01"
+},
+{
+"title": "A life spent in the wettest place on earth",
+"publisher": "Phys.org / AFP",
+"url": "https://phys.org/news/2013-07-life-spent-wettest-earth.html",
+"type": "bao",
+"published": null
+}
+]
+}
+]

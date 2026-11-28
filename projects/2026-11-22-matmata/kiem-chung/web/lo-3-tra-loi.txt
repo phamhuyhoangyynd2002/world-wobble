@@ -1,0 +1,141 @@
+[
+{
+"id": "C17",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Academic architectural research supports vaulted ceilings and smaller rooms measuring 3–4 m wide, but does not establish the alleged rule that room voids must be narrower than the earth above them or that ceilings are always parabolic or pointed.",
+"sources": [
+{
+"title": "Earth Shelters; A Review of Energy Conservation Properties in Earth Sheltered Housing",
+"publisher": "IntechOpen",
+"url": "https://doi.org/10.5772/51873",
+"type": "khac",
+"published": null
+},
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "International Conference / IRBNet",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C18",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches did not locate a sufficiently reliable source confirming the specific combination of grain and olive storage, footholds or olive-wood pegs, and theft prevention.",
+"sources": []
+},
+{
+"id": "C19",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "An architectural study describes agricultural-tool storage and occasional livestock sheltering near the end of the entrance tunnel, but does not establish the claimed arrangement in niches or its hygienic rationale.",
+"sources": [
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "IRBNet",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Troglodyte farms and herdsmen's dwellings",
+"publisher": "UNESCO Courier",
+"url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_b6d9926d-f33c-4ca6-89ea-561109b3bd9a?_=049648engo.pdf&from=1&to=44",
+"type": "goc",
+"published": "1975-02-01"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches did not locate the alleged 2018 Associated Press interview or a reliable source independently confirming Mahboub Theouibi's quoted childhood recollections.",
+"sources": []
+},
+{
+"id": "C21",
+"verdict": "sai",
+"correct_value": "Matmata dwellings have openings for doors and windows; some also have upper openings in ceilings for ventilation and daylight.",
+"note": "Architectural research explicitly describes the carving of both doors and windows, contradicting the assertion that rooms have no windows.",
+"sources": [
+{
+"title": "Sustainable Architecture and Urban Development",
+"publisher": "IRBNet",
+"url": "https://www.irbnet.de/daten/iconda/CIB22588.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "L’Université d’Aix-Marseille",
+"publisher": "Aix-Marseille Université",
+"url": "https://theses.fr/2018AIXM0169.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": "Approximately 40 days of exceptional rainfall across September and October 1969; 100–200 mm in parts of central and southern Tunisia, including Sfax, Gabès and Djerba, during 3–8 October. Matmata recorded 96.3 mm in September and 173.1 mm in October 1969.",
+"note": "A hydrometeorological research paper confirms the 40-day rainfall episode and the 3–8 October regional totals; historical measurements show 173.1 mm at Matmata in October against a monthly average of 21.7 mm, although the comparison with annual rainfall should be expressed cautiously.",
+"sources": [
+{
+"title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+"publisher": "Proceedings of the International Association of Hydrological Sciences",
+"url": "https://proc-iahs.net/369/169/2015/",
+"type": "khac",
+"published": "2015-06-01"
+},
+{
+"title": "Les précipitations et les crues exceptionnelles de l'automne 1969 en Tunisie",
+"publisher": "IRD (Institut de recherche pour le développement)",
+"url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-09/07443.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": "542 deaths and 70,540 houses destroyed by 27 November 1969.",
+"note": "Boudhraâ and Cudennec reproduce these exact figures and attribute them to Pias (1970); the original wording refers to destroyed houses rather than independently verified structural collapses.",
+"sources": [
+{
+"title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+"publisher": "Proceedings of the International Association of Hydrological Sciences",
+"url": "https://proc-iahs.net/369/169/2015/",
+"type": "khac",
+"published": "2015-06-01"
+},
+{
+"title": "Autopsie des événements hydrométéorologiques extrêmes de 1969 en Tunisie",
+"publisher": "ResearchGate",
+"url": "https://www.researchgate.net/publication/279274187_Autopsie_des_evenements_hydrometeorologiques_extremes_de_1969_en_Tunisie",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": "Three Tunisian dinars per square metre, approximately one US dollar per square metre at the time, according to National Geographic.",
+"note": "National Geographic explicitly reports that flooding destroyed many homes around Matmata and Haddej in 1969 and that residents were offered land in nearby New Matmata for three dinars, approximately one dollar, per square metre.",
+"sources": [
+{
+"title": "What we can learn from the world’s vanishing cave dwellers",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/culture/article/cave-dwellers-human-adaptation",
+"type": "bao",
+"published": null
+}
+]
+}
+]

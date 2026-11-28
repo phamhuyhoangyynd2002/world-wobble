@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Mawsynram" (India). The episode asks: "Why do people live in Mawsynram?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C33: The India Meteorological Department recorded 1,003.6 mm (about 39.5 inches) of rain at Mawsynram in the 24 hours to 17 June 2022, a June 24-hour record for the station (previous record 945.4 mm on 7 June 1966).
+C34: In June 2022, Bangladesh's Flood Forecasting and Warning Centre cited extremely heavy rainfall in Meghalaya and Assam as one cause of the floods in Bangladesh's Sylhet division, which affected about four million people.
+C35: Living root bridges are found in Khasi and Jaintia villages in the hills of Meghalaya, mostly at lower elevations (a 2015–2017 survey of 76 bridges found them between 57 and 1,211 m, most between 250 and 900 m); the well-known bridges are in villages such as those around Sohra, not in Mawsynram itself.
+C36: Living root bridges are made by guiding the aerial roots of the rubber fig tree (Ficus elastica) across a stream, often along bamboo or other supports, until they root on the far bank.
+C37: Living root bridges can take longer than a single generation to build: estimates of how long one takes to become usable vary, with UNDP giving 20 to 25 years and Ludwig et al. (2019) describing a process over generations, decades to centuries, including a bridge still not at full function after 66 years; the bridges keep growing and strengthening over time.
+C38: In January 2026 India submitted the nomination 'Jingkieng Jri / Lyu Chrai Cultural Landscape' (Meghalaya's living root bridges) to UNESCO for World Heritage status, for the 2026–27 evaluation cycle; as of November 2026 no decision has been made.
+C39: The Khasi are matrilineal: descent is traced through the mother, and by custom the youngest daughter (ka khadduh) is the custodian, not the individual owner, of the ancestral house and family property, which belong to the lineage; selling it traditionally requires the consent of her maternal uncles and brothers.
+C40: The Khasi inheritance custom is under debate: a Khasi Inheritance of Property Bill proposed in 2021 (equal division of property among children) remains pending at the Khasi Hills Autonomous District Council, which revived its review in June 2026.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

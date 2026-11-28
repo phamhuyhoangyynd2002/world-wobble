@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Mawsynram" (India). The episode asks: "Why do people live in Mawsynram?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C17: The Community Health Centre at Mawsynram runs monthly mobile health outreach clinics to villages in the area; a taxi driver who carries the health team told WHO India (2024) that he has to change his brake pads about every two weeks because of the steep roads.
+C18: The Mawphlang–Balat road runs through the Mawsynram block, from the Khasi Hills down toward the India–Bangladesh border at Balat.
+C19: Mawsynram is not on the coast: the Bay of Bengal lies far to the south of the Meghalaya plateau, beyond the low, flat plains of Bangladesh.
+C20: During the summer monsoon, warm moist air from the Bay of Bengal flows north across the flat Bangladesh plains and is forced up the steep southern slopes of the Meghalaya plateau (Mawsynram lies at about 1,431 m, roughly 4,700 feet), where it cools and its moisture condenses into very heavy orographic rainfall.
+C21: Satellite-based studies (Ohsawa et al. 2001; Romatschke and Houze 2011, cited by Sato 2013) found that rainfall around the Meghalaya plateau peaks from around midnight to early morning, associated with a nocturnal low-level wind from the Bangladesh plains striking the southern slopes; hourly records at Cherrapunji (1946–1949) also showed more rain from 1 to 7 a.m. No hourly rainfall data exist for Mawsynram itself.
+C22: A 2013 AFP report from Mawsynram described clouds sometimes drifting into homes and leaving a damp film on belongings.
+C23: Khasi poet Kynpham Sing Nongkynrih has written that the Khasi language has many words for different kinds of rain, including lapiwtung, a rain that makes clothes smell, lap-hynriew-miet, a rain lasting six nights, and lap-khyndai-miet, a rain lasting nine nights.
+C24: According to the 2013 AFP report, Mawsynram's village headman said that when the monsoon rains end there is no celebration; people simply bring their clothes outside to dry.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.
