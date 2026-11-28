@@ -1,94 +1,86 @@
-# Duyệt hình: tập 6 Kiruna · vòng 2
+# Duyệt hình: tập 6 Kiruna · vòng 5b
 
-Người duyệt: agent `duyet-phan-canh`, chế độ `hinh` (cổng 6a), 28/11/2026. Chấm lại 12 đoạn đã render lại (d10 d13 d16 d19 d20 d21 d34 d39 d42 d44 d46 d47) theo tờ khung mới (20:46–20:51, mới hơn từng `doan.mp4`) và khung trích thẳng từ `doan-<id>/out/doan.mp4` (`soi/v2*.jpg`; `out/video.mp4` 20:07 là bản ghép cũ). Chấm lại T5, T7, T8; quyết d03. Vòng 1 lưu ở `duyet-hinh.v1.md`, `.v1.json`.
+Người duyệt: agent `duyet-phan-canh`, chế độ `hinh` (cổng 6a), 29/11/2026. Sau phản biện vòng 2, chấm lại 5 đoạn dựng lại (d04 d19 d20 d46 d47) cùng T7, T8, theo tờ khung mới và khung trích từ `doan.mp4` (`soi/v5-1.jpg`, `soi/b6.jpg`). Các đoạn khác giữ điểm vòng 4 (mốc cập nhật theo `phan-canh.json` mới, 723,024 s). Vòng 4 lưu ở `duyet-hinh.v4.md`, `.v4.json`.
 
-## Kết luận tổng thể: ĐẠT  (T: 16/16; vòng 1: 16/16)
+## Kết luận tổng thể: ĐẠT  (T: 15/16; vòng 4: 15/16)
 
-Đoạn: ĐẠT 47 · SỬA NHỎ 0 · LÀM LẠI 0 (vòng 1: ĐẠT 41 · SỬA NHỎ 6 · LÀM LẠI 0).
+Đoạn: ĐẠT 47 · SỬA NHỎ 0 · LÀM LẠI 0 (vòng 5: ĐẠT 46 · SỬA NHỎ 1).
 
-**Qua cổng 6a: ghép bản cuối được.** Sáu đoạn SỬA NHỎ vòng 1 đã sửa đúng; đứng hình d44, d47 đã hết (`kiem_dong_hinh.py` trên `doan.mp4` d44, d46, d47: 0 lỗi, chỉ cảnh báo ≤ 21 khung). Không lỗi nặng. **d03 không chặn**: gag chìa khít viền trống chưa có, nhưng đoạn đã có 3 gag đọc rõ, khung 0 và lời hứa không phụ thuộc nó; ghi vào `nhat-ky.md` như chỗ bỏ qua có lý do. Bốn ghi chú còn lại (d44/d46 thẻ hộ chiếu nhảy chỗ, d42 tay duỗi dài, d24 bồ công anh, d03) là tuỳ chọn, không phải điều kiện ghép.
+**Vòng 5b (29/11/2026): qua cổng 6a, ghép bản cuối được.** Duyệt lại riêng d04 (khung trích `soi/b7.jpg`): nhãn 1736 nay trọn chữ trong vùng an toàn suốt 42.6–49.4, d04 ĐẠT 20/20. Không còn đoạn SỬA NHỎ. Vòng 5 lưu ở `duyet-hinh.v5.md`, `.v5.json`. Chỗ nối d19→d20 (đứng sang ngồi) chấp nhận được.
 
-| T | Điểm | So vòng 1 | Nhận xét, mốc |
+| T | Điểm | So vòng 4 | Nhận xét, mốc |
 |---|---|---|---|
-| T1 | 2 | 2 | Khung 0 có Wob cầm chìa, bản đồ Bắc Âu dưới chân; lời chào và câu hỏi ở 9.7–12.9 s, thẻ hộ chiếu KIRUNA / SWEDEN / Would Wob move here? 12.9–16 s; thiêu thân 1736 treo câu hỏi ở 38.9. Không lộ đáp án: không có tàu, cảng, Narvik, Luleå nào trước 189.848 (d15 khung 0, sớm 1 khung so với cảnh 6, trong lặng). |
-| T2 | 2 | 2 | Mốc mồi: 0 chìa · 5 cửa biến mất · 13 thẻ hộ chiếu · 18 đi dây vòng Bắc Cực · 39 thiêu thân · 55 hai thẻ úp · 65–73 cốc ngân, lò sưởi mở mắt · 93 cụng ly · 98 mũ sụp · 125 ống khói bám mái · 141 túi · 155 mũi tê · 167 X · 188 vết sương · 190 tàu quặng (đáp án) · 203 xoay vòng · 210 sắt vỡ · 231 tay nắm gãy · 241 tàu chìm một nấc · 280 lén đặt nhà · 289 New Jersey · 301 mời trà · 306 gõ cửa nhà thờ · 327–352 đẩy, bốn mùa, vượt ba lần · 368 chó và bánh · 380 2027? · 390 chìa về chùm · 412 thùng các-tông · 420 cây thông cúi · 436 trái tim · 444 hoa giấy · 461 đồng hồ quả quýt · 470 quạ · 478 đổi mùa · 487 kéo khoá · 492 vòng khói · 505 muôi khí lạnh · 511 khăn bay · 522 Wob trắng · 530 đổi mùa · 543 đi dạo kính râm · 548 tủ · 556 chìa loé · 561–650 đoạn nghiêm (89 s, cố ý, có nhịp cảm xúc riêng) · 654–667 bật tắt đèn · 682 con dấu · 693 chìa nhích · 711 tất ẩm. Khoảng trống dài nhất ngoài đoạn nghiêm ≈ 24 s (241 → 262 bản đồ đường sắt, có nhãn mới liên tục). |
-| T3 | 2 | 2 | Không chuỗi > 90 s cùng phong cách; tỉ lệ theo thời lượng cắt giấy 54,4% · vẽ tay 25,8% · diorama 19,8%; ánh sáng đổi rõ theo mùa (đêm tháng 2, hè xanh, tối tháng 12 xanh đậm, nắng đêm vàng tháng 6, đèn bàn bật tắt). |
-| T4 | 2 | 2 | Khung đầu các chương đọc riêng vẫn ra chuyến đi: tới phố tuyết (d06) → mỏ (d09–d12) → đoán sai (d13–d14) → tàu quặng (d15) → lịch sử (d19–d20) → tháng 8 nhà thờ đi bộ (d23–d27) → dời nhà (d28–d31) → tháng 12 tối (d32–d34) → tháng 6 sáng (d35–d37) → bàn, đoạn nghiêm (d38–d43) → phán quyết (d46) → kệ (d47). Mô-típ chìa: chùm (d03) → túi (d12) → về chùm (d27) → lỗ chìa có cửa / có quạ (d02, d31) → ngăn kéo (d34, d37) → dưới đèn (d38–d44) → đinh cửa sổ (d46) → kệ (d47). |
-| T5 | 2 | 2 | Vòng 2: gag d10 (thả sỏi, Wob đủ to) và d44 (ôm chân đèn, không bị che) nay đọc được; gag cuối trước con dấu đứng trọn. Còn yếu, không chặn: d03 chìa khít viền trống (chưa có), d24 hạt bồ công anh nhỏ. Không kiểu gag nào lặp quá 2 lần; đoạn nghiêm d38–d43 vẫn không gag (d42 tay duỗi dài chỉ là việc trung lập, xem ghi chú). |
-| T6 | 2 | 2 | Tỉ lệ trong mục tiêu; đổi phong cách gắn với đổi lớp kể (hiện tại diorama, hồi ức cắt giấy, tưởng tượng và sơ đồ vẽ tay); không chỗ nào đổi > 2 lần trong 15 s. |
-| T7 | 2 | 2 | Vòng 2: dòng trang phục và đường đi của chìa không đổi, không chỗ nhảy màu. Một đồ vật nhảy vị trí, không chặn: thẻ hộ chiếu kết d44 ở bên phải sau công tắc, mở d46 ở bên trái bàn (qua 6,4 s hồi ức d45). Cách sửa ghi ở d46. |
-| T8 | 2 | 2 | Vòng 2: con dấu SUMMER ONLY một lần, to giữa khung; câu hỏi cuối có hình, nay khung sạch (thẻ hộ chiếu đã ra khỏi khung); đuôi tập hết đứng hình, Wob nhún, chìa đung đưa, hai khung và vòng tròn end screen trống và đứng yên, chữ trên kệ ở x < 1000. |
+| T1 | 2 | 2 | Không đổi: d01–d03 không dựng lại; không có tàu, cảng, Narvik, Luleå trước cảnh 6. d04 nay có Wob trọn khung ở mép trang. |
+| T2 | 2 | 2 | Mốc mồi như vòng 2, thêm: 219 hòn quặng ngó ra mép sổ · 227 quặng đâm tàu kẹt băng (chèn mới) · 255–258 Wob đếm hai ngón · 329 đo đường bằng sải tay · 519 Wob mọc lông · 679 pop-up tuần lộc. Khoảng trống dài nhất ngoài đoạn nghiêm vẫn ≈ 24 s. |
+| T3 | 2 | 2 | Không chuỗi > 90 s cùng phong cách; d18 đổi từ cửa hàng sang vịnh băng vẽ tay làm cụm 216–258 có thêm một cỡ cảnh ngang rộng khác hẳn bản đồ. |
+| T4 | 2 | 2 | Không đổi; câu chốt cảnh 6 mới ('a furnace that liked it, and a train to the sea') có hình Wob đếm hai ngón ở đường ngang, đóng chương lời giải rõ hơn. |
+| T5 | 2 | 2 | Gag mới đọc trong 1 s: quặng ngó ra mép sổ (219.3), quặng đâm tàu kẹt băng (227.9), Wob mọc lông (519.6). Không kiểu nào lặp quá 2 lần. Đoạn nghiêm d38–d43 không gag, sfx chỉ một tiếng lật giấy ở d39; d46 câu tuần lộc không gag. Lặng trước 'Lamp on' 4,4 s. |
+| T6 | 1 | 1 | Cụm d16 (vẽ tay) → d17 (cắt giấy, 216.55) → d18 (vẽ tay, 226.29) → d19 (cắt giấy, 228.45): 3 lần đổi phong cách trong 11,9 s, vượt luật 'không đổi > 2 lần trong 15 s' (vòng 2 là 16,2 s nên chưa phạm). Xem bằng mắt nối vẫn đọc được: d18 là chèn 2,2 s, khung cuối d18 (vịnh băng, tàu kẹt) và khung đầu d19 (bản đồ vịnh phủ băng, tàu kẹt) cùng ý nên người xem không lạc. Không chặn. Nếu đạo diễn muốn sạch luật: dựng d18 bằng cắt giấy (cùng lib d17, d19) thay vì vẽ tay, hoặc gộp ý 'vịnh đóng băng' vào cuối d17 trên chính bản đồ như vòng 2. Vòng 4: người điều phối chấp nhận, không sửa, lý do ghi nhat-ky.md. |
+| T7 | 2 | 2 | Vòng 5: trang phục, chìa không nhảy (d38–d44 chìa dưới đèn, d46 treo đinh cửa sổ, d47 lên kệ). d19→d20 có cú cắt nhảy đứng sang ngồi, cùng nền, cùng vị trí, chấp nhận như bước thời gian. Va li d47 dời sang trái là bố cục kệ, không mâu thuẫn đoạn trước. |
+| T8 | 2 | 2 | Vòng 5: dấu SUMMER ONLY một lần, không đè SWEDEN; câu 'As for me…' có hình; câu hỏi cuối có hình; đuôi tập lời mới đủ hình theo từng câu, end screen trống và đứng yên, không đứng hình. |
 
 ## Từng đoạn
 
-Điểm theo thứ tự D1 D2 D3 D4 D5 D6 D7 D8 D9 D10. Đoạn chấm lại và d03 lên đầu. Không có lỗi về người dân, chữ sai so với `claims` hay gag trong đoạn lịch sử.
+Điểm theo thứ tự D1..D10. Đoạn chấm lại lên đầu.
 
-| Đoạn | Phong cách | Giây | D1..D10 | Tổng | Kết luận | So vòng 1 | Nhận xét vòng 2 |
+| Đoạn | Phong cách | Giây | D1..D10 | Tổng | Kết luận | So vòng 4 | Nhận xét |
 |---|---|---|---|---|---|---|---|
-| d03 | diorama | 7.362–39.512 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | QUYẾT: KHÔNG CHẶN. Gag chìa khít viền trống 8.6–9.3 vẫn chưa có (thợ nói phải dựng lại 0–2,5 s đoạn). Lý do: d03 đã có 3 gag đọc rõ (đi dây vòng Bắc Cực 18.0, bút chì chặn mái 26.5, thiêu thân 1736 đậu chìa 38.9), khung 0 và lời hứa không phụ thuộc gag này, T1 và T5 vẫn 2. Ghi vào nhat-ky.md như một chỗ bỏ qua có lý do; làm nếu còn thời gian sau khi ghép. |
-| d10 | cat-giay | 99.219–117.92 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 18 ĐẠT | Đã sửa: camera vào gần lồng thang 106.0–108.8, Wob cao ≈ 1/4 khung, viên sỏi rơi thấy rõ (khung 108.0); 108.8–110.6 lia xuống đáy giếng hiện thẻ 1,365 m · ~4,480 ft (109.5), rồi về Wob ghé tai (111.5). Gag đọc được. |
-| d13 | ve-tay | 143.514–168.114 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: thẻ 2024 nằm trên gáy sổ, không đè 607,818 (record) (khung 163.0, 164.5). |
-| d16 | ve-tay | 204.698–216.55 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 SỬA NHỎ | Đã sửa: nhãn 1870s hạ xuống, trọn chữ, trong vùng an toàn ở 211.4–213.0. |
-| d19 | cat-giay | 232.723–261.38 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 SỬA NHỎ | Đã sửa: nhãn Luleå · freezes in winter nằm trên que vẽ (233.6 đọc trọn 'winter'); Narvik · ice-free nâng lên trên hòn quặng (241.3); thẻ 1900 dưới chấm Kiruna, không đè nhãn (244.6); thẻ 1903 ở trái trên, trọn trong khung (248.7). Tối đa 4 khối chữ cùng lúc. |
-| d20 | cat-giay | 261.38–282.03 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 SỬA NHỎ | Đã sửa: thẻ 1900 dời xuống, trọn trong khung suốt 270.5–281.5. |
-| d21 | ve-tay | 282.03–297.792 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: mảnh New Jersey đi dưới thẻ ~22,400 people (287.4, 288.2). |
-| d34 | cat-giay | 506.104–529.626 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 SỬA NHỎ | Đã sửa: biển Kiruna / Giron trọn khung khi bong bóng và gà gô hiện (ô 5, 15.55 s). |
-| d39 | cat-giay | 567.653–588.68 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 ĐẠT | Đã sửa: Wob đứng ở mép trang nhìn ô cửa sáng 580.0–581.0, rồi cạnh tờ kiến nghị. |
-| d42 | cat-giay | 631.47–647.65 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 ĐẠT | Đã sửa: Wob trong khung, với tay đẩy thẳng tờ giấy trắng 645.6–647.0. Ghi chú, không chặn: tay Wob duỗi dài gần gấp đôi (646.3) hơi giống kiểu tay cao su hoạt hình; ở đoạn nghiêm nên cho Wob bước tới gần bàn rồi đẩy bằng tay độ dài thường. |
-| d44 | diorama | 650.808–671.258 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 18 SỬA NHỎ | Đã sửa: thẻ hộ chiếu trượt ra sau công tắc từ 666.5; ở 'again.' thấy trọn Wob hai tay ôm chân đèn, nét mặt đổi ở 'stone.' (667.3–668.9). Hết đứng hình: kiem_dong_hinh trên doan.mp4 không còn lỗi, chỉ một cảnh báo 15 khung (7.57–8.07 s đoạn). Xem ghi chú liên tục ở d46. |
-| d46 | diorama | 677.646–699.412 | 2 2 2 2 2 2 2 1 2 2 | 19 | ĐẠT | 19 SỬA NHỎ | Đã sửa: thẻ hộ chiếu trượt ra khỏi khung trước cú đẩy cuối; 692.4–699.3 khung chỉ còn Wob, chìa trên đinh, đèn, ba lô; không chữ bị cắt. Đứng hình: chỉ cảnh báo 15 và 21 khung. D8 = 1 (không chặn): d44 kết với thẻ hộ chiếu đã dời sang phải, sau công tắc (671.2), còn d46 mở với thẻ ở chỗ cũ bên trái bàn (677.7); hai đoạn cách nhau 6,4 s hồi ức d45 nên nhảy nhẹ. Nếu sửa: ở d44 khoảng 669.4–669.8 (sau 'stone.', trước khi Wob lật sổ) cho thẻ trượt về chỗ cũ 0,3 s; hoặc ở d46 cho thẻ mở ở vị trí d44 để lại rồi Wob kéo về giữa lúc nhấc con dấu. |
-| d47 | diorama | 699.412–719.412 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: hết đứng hình (kiem_dong_hinh trên doan.mp4: không lỗi, không cảnh báo); Wob nhún, chìa đung đưa; hai khung và vòng tròn end screen đứng yên từ 1,2 s; chữ trên kệ ở x < 1000. |
-| d01 | diorama | 0.0–3.263 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: khung 0 có Wob và chìa, bụi sỏi bay 1.8 s. |
-| d02 | ve-tay | 3.263–7.362 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: cận lỗ chìa thấy cánh cửa, biển phố rơi. |
-| d04 | cat-giay | 39.512–51.55 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: người Sámi vẽ chung, tôn trọng; thước 1736 → 1900. |
-| d05 | diorama | 51.55–57.086 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: úp thẻ cực quang dưới cốc trà 55.6. |
-| d06 | cat-giay | 57.086–73.953 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: cốc nhích, trùm chăn, lò sưởi mở mắt. |
-| d07 | ve-tay | 73.953–83.211 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: nhãn 01:15–01:45 rõ 77.4, Wob quạt gối. |
-| d08 | cat-giay | 83.211–95.032 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: cụng ly với cốc nước 93.7. |
-| d09 | ve-tay | 95.032–99.219 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: mũ bảo hộ sụp che mắt 98.3. |
-| d11 | ve-tay | 117.92–125.769 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: ống khói thò tay bám mái. |
-| d12 | cat-giay | 125.769–143.514 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: thẻ M 4.1 · May 2020 rõ; túi phồng, thẻ gỗ thò ra. |
-| d14 | cat-giay | 168.114–189.848 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: biển Jukkasjärvi + ~17 km · ~11 mi rõ 171.5; vết sương in trên giường băng. |
-| d15 | cat-giay | 189.848–204.698 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: thẻ up to 68 wagons · ~750 m, bảy sân bóng 200.6, xoay vòng hai lần. Ranh 189.848 không lộ đáp án. |
-| d17 | cat-giay | 216.55–228.45 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: nhãn Luleå · freezes in winter, quặng trượt băng. |
-| d18 | ve-tay | 228.45–232.723 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: tay nắm gãy kèm cột băng 231.5. |
-| d22 | cat-giay | 297.792–303.214 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: rót trà mời tàu, thẻ gỗ thò khỏi túi. |
-| d23 | cat-giay | 303.214–321.852 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: gõ cửa nhà thờ, thẻ 1912, bản đồ không nhãn núi. |
-| d24 | ve-tay | 321.852–352.728 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt (đẩy nhà thờ khi đứng chờ 327.5, bốn mùa 337, vượt ba lần, đi lùi). Ghi chú nhỏ: hạt bồ công anh 347.35–349 chỉ là cung nét đứt nhỏ trên mái nhà thờ (khung 347.9), không đọc ra là bồ công anh; nếu tiện, phóng hạt to gấp đôi và cho bay ngang tầm mắt Wob. |
-| d25 | cat-giay | 352.728–370.84 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: người que chung, cờ trơn, vương miện không người, chó và bánh quế. |
-| d26 | ve-tay | 370.84–380.878 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: thẻ 180°, lịch 2027?. |
-| d27 | cat-giay | 380.878–391.298 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: xỏ chìa lại vào chùm, cận rõ. |
-| d28 | cat-giay | 391.298–417.16 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: thùng các-tông trên mái 412.0–416.6, thẻ ~12,000 people · ~5,400 homes rõ. Chùm chìa lệch tay khi Wob ngửa đầu là nhỏ, không chặn. |
-| d29 | ve-tay | 417.16–437.836 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: cây thông cúi qua cầu 420, market value +25%, chìa lên đĩa cân 433.4, kim chỉ trái tim. |
-| d30 | cat-giay | 437.836–462.098 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: ~3 km east, Sept 2022, đồng hồ quả quýt. |
-| d31 | ve-tay | 462.098–473.142 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: lỗ chìa chỉ còn con quạ 470.4, quạ bay đi. |
-| d32 | diorama | 473.142–488.304 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: thẻ ~11 Dec – 1 Jan 480.8, trời hồng rồi tắt, kéo khoá lên mắt 487.9. |
-| d33 | ve-tay | 488.304–506.104 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: vòng khói móc quả bông 492.9, muôi khí lạnh 505.0, nhãn −11°C / 12°F rõ. Wob bị cắt nửa dưới ở ≈ 492.9 là cỡ trung cố ý, mặt và vòng khói vẫn trọn: chấp nhận. |
-| d35 | diorama | 529.626–544.226 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: Wob ra khỏi khung ≈ 541.0–542.0 khi camera ngửa lên tháp đồng hồ 12 giờ là cố ý, Wob quay lại ở 542.6 với kính râm: chấp nhận. |
-| d36 | ve-tay | 544.226–551.448 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: khăn, ba khăn, tủ; tia nắng vào một mắt. |
-| d37 | cat-giay | 551.448–561.328 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: dải hè ngắn trên lịch, chìa loé phản vào kính râm. |
-| d38 | diorama | 561.328–567.653 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: tháo chìa, đặt dưới chân đèn, gập pop-up nhà thờ; không gag. |
-| d40 | cat-giay | 588.68–604.35 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: nhãn Luossavaara, đàn tuần lộc và người chăn vẽ chung, tôn trọng. |
-| d41 | cat-giay | 604.35–631.47 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: Per Geijer, hai thẻ GABNA / LKAB cùng cỡ ở mép trang, không vẽ mặt hai người được trích lời. |
-| d43 | diorama | 647.65–650.808 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: lặng, tắt đèn, d44 mở trong tối. |
-| d45 | ve-tay | 671.258–677.646 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không đổi so với vòng 1. Đạt: phố có chân đi theo nhà thờ, cận Wob khiêng chong chóng. |
+| d04 | cat-giay | 39.512–51.55 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 19 SỬA NHỎ (vòng 5) | Vòng 5b: đã sửa. Nhãn 1736 và thiêu thân hạ xuống, trọn chữ, mép trên cách khung ≈ 150–180 px hệ 1080 suốt 42.6–49.4 (khung 42.6, 43.5, 45.0, 46.5, 48.0, 49.4); trượt xuống thước ở 50.5. Wob đủ người từ 40.2, nhãn 1900 trên thước (51.5). Thời lượng clip khớp (12.07 s). |
+| d19 | cat-giay | 228.45–258.476 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: không còn thanh xanh dày; đầu mũi tên mực đen chạy ở đầu đường ray đỏ đang vẽ từ Kiruna sang Narvik (229.6–231.8), đọc như ngòi bút; tàu quặng còn ở khung cuối. Nhãn Narvik trong lề. |
+| d20 | cat-giay | 258.476–279.126 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: khung đầu cùng nền tuyết và đoàn tàu với cuối d19; Wob ngồi ghế gấp ở góc trái dưới trang, có việc ở từng câu (nhìn nhà đầu tiên, nhìn người que, khăn bay, lén đặt nhà). Chỗ nối d19→d20 (258.476): cú cắt nhảy từ Wob đứng giơ hai ngón sang Wob ngồi ghế gấp đọc sổ, cùng vị trí, cùng nền. Chấp nhận: lời sang ý mới ('Then the town could happen'), đọc như bước thời gian, và gọi trước hình Wob ngồi ghế gấp ở d22. Tuỳ chọn: 0,3 s đầu d20 cho Wob đang ngồi xuống để mềm hơn. |
+| d46 | diorama | 676.722–703.024 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: câu mới 'As for me, I can't do the dark.' có Wob chỉ vào ngực ở 'me,' (682.5) rồi liếc công tắc; nhịp sau dời +0,64 s khớp lời; dấu SUMMER ONLY không đè SWEDEN, giữ to giữa khung. |
+| d47 | diorama | 703.024–723.024 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: treo chìa lên đinh kệ ở 'nail', bưu thiếp tựa lọ opal, tất run ở 'nervous' (711.8–712.6, chồng tất nhỏ nhưng thấy rung), giọt mưa lên tất; va li dời sang trái Wob; hai khung và vòng tròn end screen trống, đứng yên; chữ trên kệ ở x < 1000. |
+| d01 | diorama | 0.0–3.263 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: khung 0 có Wob và chìa, bụi sỏi bay 1.8 s. |
+| d02 | ve-tay | 3.263–7.362 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: cận lỗ chìa thấy cánh cửa, biển phố rơi. |
+| d03 | diorama | 7.362–39.512 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: QUYẾT: KHÔNG CHẶN. Gag chìa khít viền trống 8.6–9.3 vẫn chưa có (thợ nói phải dựng lại 0–2,5 s đoạn). Lý do: d03 đã có 3 gag đọc rõ (đi dây vòng Bắc Cực 18.0, bút chì chặn mái 26.5, thiêu thân 1736 đậu chìa 38.9), khung 0 và lời hứa không phụ thuộc gag này, T1 và T5 vẫn 2. Ghi vào nhat-ky.md như một chỗ bỏ qua có lý do; làm nếu còn thời gian sau khi ghép. |
+| d05 | diorama | 51.55–57.086 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: úp thẻ cực quang dưới cốc trà 55.6. |
+| d06 | cat-giay | 57.086–73.953 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: cốc nhích, trùm chăn, lò sưởi mở mắt. |
+| d07 | ve-tay | 73.953–83.211 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: nhãn 01:15–01:45 rõ 77.4, Wob quạt gối. |
+| d08 | cat-giay | 83.211–95.032 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: cụng ly với cốc nước 93.7. |
+| d09 | ve-tay | 95.032–99.219 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: mũ bảo hộ sụp che mắt 98.3. |
+| d10 | cat-giay | 99.219–117.92 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đã sửa: camera vào gần lồng thang 106.0–108.8, Wob cao ≈ 1/4 khung, viên sỏi rơi thấy rõ (khung 108.0); 108.8–110.6 lia xuống đáy giếng hiện thẻ 1,365 m · ~4,480 ft (109.5), rồi về Wob ghé tai (111.5). Gag đọc được. |
+| d11 | ve-tay | 117.92–125.769 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: ống khói thò tay bám mái. |
+| d12 | cat-giay | 125.769–143.514 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: thẻ M 4.1 · May 2020 rõ; túi phồng, thẻ gỗ thò ra. |
+| d13 | ve-tay | 143.514–168.114 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: thẻ '607,818 guest nights' + nhãn 'record' + '2024' trên gáy sổ, không chồng (163.5, 165.0); mũi tê trắng, dấu X lên thẻ cực quang giữ nguyên. |
+| d14 | cat-giay | 168.114–189.848 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: biển Jukkasjärvi + ~17 km · ~11 mi rõ 171.5; vết sương in trên giường băng. |
+| d15 | cat-giay | 189.848–204.698 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: thẻ up to 68 wagons · ~750 m, bảy sân bóng 200.6, xoay vòng hai lần. Ranh 189.848 không lộ đáp án. |
+| d16 | ve-tay | 204.698–216.55 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đã sửa: nhãn 1870s hạ xuống, trọn chữ, trong vùng an toàn ở 211.4–213.0. |
+| d17 | cat-giay | 216.55–226.288 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: Wob mở sổ ở đường ngang (216.56); hòn quặng ngó ra mép trang (219.3) rồi que (tay áo Wob) kéo về Kiruna (219.9); nhãn Kiruna, Luleå, Gulf of Bothnia trọn; Wob ló góc phải dưới khi sắp cắt (226.0). |
+| d18 | ve-tay | 226.288–228.45 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: nhãn 'Luleå · freezes in winter' gõ dần từ ≈ 226.9, trọn chữ từ ≈ 227.6 tới cắt 228.45, nằm trái dưới khung như nhãn Luleå đầu d19 (228.46): không còn chớp, không nhảy chỗ. |
+| d21 | ve-tay | 279.126–294.888 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đã sửa: mảnh New Jersey đi dưới thẻ ~22,400 people (287.4, 288.2). |
+| d22 | cat-giay | 294.888–300.31 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: rót trà mời tàu, thẻ gỗ thò khỏi túi. |
+| d23 | cat-giay | 300.31–318.948 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: gõ cửa nhà thờ, thẻ 1912, bản đồ không nhãn núi. |
+| d24 | ve-tay | 318.948–349.824 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: camera vào gần lúc Wob đo sải tay (328.3) rồi lùi ra khi thẻ '9 m → 24 m' viết xong (329.5–331.0); Wob vẫn nhỏ nhưng đọc được việc, không chặn. |
+| d25 | cat-giay | 349.824–367.936 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: người que chung, cờ trơn, vương miện không người, chó và bánh quế. |
+| d26 | ve-tay | 367.936–377.974 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: thẻ 180°, lịch 2027?. |
+| d27 | cat-giay | 377.974–388.394 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: xỏ chìa lại vào chùm, cận rõ. |
+| d28 | cat-giay | 388.394–414.744 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: lời 'two thirds of the town itself' khớp thùng các-tông trên hai phần ba mái nhà (ô 4–7); thẻ ~12,000 people · ~5,400 homes. |
+| d29 | ve-tay | 414.744–434.86 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: bong bóng 'packing a whole street into one van': xe tải chở dãy nhà và cây thông cúi rạp qua cầu (416.6–417.6); các nhịp sau giữ nguyên. |
+| d30 | cat-giay | 434.86–459.122 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: ~3 km east, Sept 2022, đồng hồ quả quýt. |
+| d31 | ve-tay | 459.122–470.166 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: lỗ chìa chỉ còn con quạ 470.4, quạ bay đi. |
+| d32 | diorama | 470.166–485.328 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: thẻ ~11 Dec – 1 Jan 480.8, trời hồng rồi tắt, kéo khoá lên mắt 487.9. |
+| d33 | ve-tay | 485.328–503.128 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: thẻ '−11°C · 12°F' gõ dần đúng lúc đọc (488.0 → 489.6), vòng khói móc quả bông (490.3), tờ nghiên cứu có mũi tên xuống, muôi khí lạnh. |
+| d34 | cat-giay | 503.128–527.202 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt, đúng luật: bong bóng 'grow feathers and sit in a snowbank' (518.6–521.0): Wob mọc lông vũ trắng quanh người, vẫn giữ màu lục địa xanh và biển, ngồi ụ tuyết cạnh gà gô; bong bóng tan thành lông bay. Không còn hình Wob trắng toàn thân. Biển Kiruna / Giron trọn khung. |
+| d35 | diorama | 527.202–541.802 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: Wob ra khỏi khung ≈ 541.0–542.0 khi camera ngửa lên tháp đồng hồ 12 giờ là cố ý, Wob quay lại ở 542.6 với kính râm: chấp nhận. |
+| d36 | ve-tay | 541.802–549.024 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: khăn, ba khăn, tủ; tia nắng vào một mắt. |
+| d37 | cat-giay | 549.024–558.904 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: dải hè ngắn trên lịch, chìa loé phản vào kính râm. |
+| d38 | diorama | 558.904–565.229 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: tháo chìa, đặt dưới chân đèn, gập pop-up nhà thờ; không gag. |
+| d39 | cat-giay | 565.229–586.256 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: khung 0 là giấy phẳng (vào giay); Wob tay không suốt đoạn (572.0, 580.5, 585.5), chìa nằm dưới đèn như d38, d43. Không gag, sfx chỉ lật giấy. |
+| d40 | cat-giay | 586.256–601.926 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: Wob tay không (594.0, 601.5). Không gag, không sfx. |
+| d41 | cat-giay | 601.926–629.046 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: Wob tay không (602.0, 615.0, 628.9); GABNA / LKAB cùng cỡ. Không gag, không sfx. |
+| d42 | cat-giay | 629.046–645.226 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đã sửa: Wob tay không, khung cuối 645.15 ngồi cạnh tờ giấy trắng; nối sang d43 chìa dưới đèn liền mạch. Không gag, không sfx. |
+| d43 | diorama | 645.226–649.134 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: mở ngay sau d42 (645.25), chìa dưới chân đèn, Wob nhìn chìa không cầm, tắt đèn; nối sang d44 trong tối liền (649.10 → 649.15). |
+| d44 | diorama | 649.134–670.334 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Đạt: 4,4 s tối lặng (649.13–653.58, gồm 1,5 s mới thêm) trước 'Lamp on.'; bật đèn đúng chữ (653.8); ôm chân đèn trọn hình; thẻ hộ chiếu kết ở chỗ cũ bên trái, khớp mở d46. |
+| d45 | ve-tay | 670.334–676.722 | 2 2 2 2 2 2 2 2 2 2 | 20 | ĐẠT | 20 ĐẠT | Không dựng lại (chỉ dời mốc theo lời mới, nhịp tương đối không đổi). Nhận xét vòng 2: Đạt: phố có chân đi theo nhà thờ, cận Wob khiêng chong chóng. |
 
 ## Danh sách sửa theo người làm
 
-Không còn việc bắt buộc. Việc tuỳ chọn (làm thì chạy lại `to_khung.py --doan` cho đoạn đó; không cần duyệt lại nếu chỉ đổi vị trí đạo cụ):
+### dung-cat-giay A (đã xong)
+- d04: đã sửa ở vòng 5b.
 
-### dung-diorama (không chặn)
-- d44/d46: thẻ hộ chiếu nhảy vị trí qua d45; trượt thẻ về chỗ cũ ở d44 669.4–669.8, hoặc mở d46 với thẻ ở chỗ d44 để lại.
-- d03: gag chìa khít viền trống 8.6–9.3 (dựng lại 0–2,5 s đoạn) nếu còn thời gian.
-
-### dung-cat-giay B (không chặn)
-- d42: cho Wob bước tới bàn rồi đẩy tờ giấy bằng tay độ dài thường, thay vì duỗi tay dài gấp đôi.
-
-### dung-ve-tay B (không chặn)
-- d24: hạt bồ công anh 347.35–349 to gấp đôi, bay ngang tầm mắt Wob.
-
-### Đạo diễn
-Không có việc.
+### Không bắt buộc
+- d20: 0,3 s đầu cho Wob đang ngồi xuống ghế gấp để mềm cú cắt nhảy từ d19.
+- Đã chấp nhận từ trước: T6 cụm d16–d19; d46 tay che chữ 'here' ≈ 0,5 s.
 
 ## Gửi biên kịch
 

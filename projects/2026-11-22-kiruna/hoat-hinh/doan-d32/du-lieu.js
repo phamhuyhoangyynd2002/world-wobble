@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 15.162,
- "bat_dau_tuyet_doi": 473.142,
+ "bat_dau_tuyet_doi": 470.166,
  "lop": "hoi-uc",
  "boi_canh": "Diorama ngoài trời (chế độ cảnh 3D của diorama): QUẢNG TRƯỜNG MỚI: toà thị chính TRÒN mặt kính và đá (Kristallen, cách điệu, không chữ) + THÁP ĐỒNG HỒ khung sắt cũ đứng cạnh (mặt đồng hồ chỉ có kim, vạch, KHÔNG số), cột đèn mới, mặt đất lát đá, tháng 12, trời xanh thẫm, đèn đường vàng, tuyết dày; một băng ghế; đường chân trời giấy phía nam xa",
  "trang_phuc": "MÙA ĐÔNG (tháng 2, tháng 12): ÁO KHOÁC CHẦN BÔNG (áo phao) XANH LAM #3D5A80 (đường chần ngang #2B4262, khoá kéo kem #EFE3C8), dài tới ngang hông Wob, MỘT TÚI VÁ bên PHẢI thân áo (nắp túi #2B4262: túi đựng chìa khoá); MŨ LEN XANH LÁ THÔNG #4F7A5A (vành gập #3A5C43, quả bông kem #F6EEDC); KHĂN LEN KEM #EFE3C8 sọc xanh lá thông #4F7A5A; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc. KHÁC mũ len đỏ #C9463A + khăn đỏ #D9543C tập 1, áo mưa vàng #E2B33C tập 3, mũ cói tập 4, áo mưa cam #E07A2E tập 5; khăn quấn HAI vòng che tới dưới mắt, mũ len kéo thấp; chùm chìa (có chìa Kiruna) móc quai ba lô (KHÔNG kính râm: để dành cho tháng 6)",
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 3.4,
    "loi": "In Kiruna, the sun stays below the horizon from about the eleventh of December to the first of January.",
-   "hanh_dong": "Ở đường chân trời phía nam, mặt trời giấy ló nửa mép rồi thụt xuống ở \"below the horizon\" (≈ 478.04 s); thẻ ~11 Dec – 1 Jan",
+   "hanh_dong": "Ở đường chân trời phía nam, mặt trời giấy ló nửa mép rồi thụt xuống ở \"below the horizon\" (≈ 475.07 s); thẻ ~11 Dec – 1 Jan",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -50,8 +50,8 @@ window.HH_DATA = {
   {
    "tai": 11.8,
    "loi": "At noon, the sky went pink at the edges, then gave up.",
-   "hanh_dong": "Kim tháp đồng hồ chỉ 12 giờ (không số); mép trời ửng hồng ở \"pink\" (≈ 486.25 s); đúng lúc đó Wob kéo khoá áo phao xuống một nấc, ngửa mặt về mép trời hồng như tắm nắng",
-   "gag": "Đúng \"gave up.\" (≈ 487.63 s) màu hồng tắt ngấm; Wob kéo khoá áo lên tận dưới mắt; giữ 0,6 s",
+   "hanh_dong": "Kim tháp đồng hồ chỉ 12 giờ (không số); mép trời ửng hồng ở \"pink\" (≈ 483.28 s); đúng lúc đó Wob kéo khoá áo phao xuống một nấc, ngửa mặt về mép trời hồng như tắm nắng",
+   "gag": "Đúng \"gave up.\" (≈ 484.65 s) màu hồng tắt ngấm; Wob kéo khoá áo lên tận dưới mắt; giữ 0,6 s",
    "dao_cu": [
     "khoa-ao"
    ],
@@ -62,7 +62,7 @@ window.HH_DATA = {
   {
    "scene": 12,
    "bat_dau": 0.75,
-   "thoi_luong": 54.984,
+   "thoi_luong": 55.536,
    "tu": [
     {
      "text": "That",
@@ -812,152 +812,162 @@ window.HH_DATA = {
     {
      "text": "would",
      "start": 48.337,
-     "end": 48.438
+     "end": 48.45
     },
     {
      "text": "have",
-     "start": 48.45,
-     "end": 48.55
+     "start": 48.462,
+     "end": 48.562
     },
     {
      "text": "liked",
-     "start": 48.562,
-     "end": 48.75
+     "start": 48.575,
+     "end": 48.788
     },
     {
      "text": "to",
-     "start": 48.763,
-     "end": 48.812
+     "start": 48.8,
+     "end": 48.862
     },
     {
-     "text": "turn",
-     "start": 48.825,
-     "end": 49.113
+     "text": "grow",
+     "start": 48.875,
+     "end": 49.112
     },
     {
-     "text": "white",
+     "text": "feathers",
      "start": 49.125,
-     "end": 49.4
+     "end": 49.65
     },
     {
      "text": "and",
-     "start": 49.413,
-     "end": 49.5
+     "start": 49.663,
+     "end": 49.763
     },
     {
-     "text": "stop",
-     "start": 49.513,
-     "end": 49.8
-    },
-    {
-     "text": "caring.",
-     "start": 49.812,
-     "end": 50.225
-    },
-    {
-     "text": "Instead",
-     "start": 50.587,
-     "end": 51.038
-    },
-    {
-     "text": "I",
-     "start": 51.05,
-     "end": 51.087
-    },
-    {
-     "text": "went",
-     "start": 51.1,
-     "end": 51.3
-    },
-    {
-     "text": "back",
-     "start": 51.312,
-     "end": 51.513
-    },
-    {
-     "text": "to",
-     "start": 51.525,
-     "end": 51.587
-    },
-    {
-     "text": "my",
-     "start": 51.6,
-     "end": 51.8
-    },
-    {
-     "text": "room,",
-     "start": 51.812,
-     "end": 52.112
-    },
-    {
-     "text": "slid",
-     "start": 52.413,
-     "end": 52.638
-    },
-    {
-     "text": "the",
-     "start": 52.65,
-     "end": 52.725
-    },
-    {
-     "text": "key",
-     "start": 52.737,
-     "end": 52.938
-    },
-    {
-     "text": "off",
-     "start": 52.95,
-     "end": 53.1
-    },
-    {
-     "text": "my",
-     "start": 53.112,
-     "end": 53.25
-    },
-    {
-     "text": "key",
-     "start": 53.263,
-     "end": 53.5
-    },
-    {
-     "text": "ring",
-     "start": 53.513,
-     "end": 53.713
-    },
-    {
-     "text": "again,",
-     "start": 53.725,
-     "end": 54.038
-    },
-    {
-     "text": "and",
-     "start": 54.425,
-     "end": 54.475
-    },
-    {
-     "text": "put",
-     "start": 54.487,
-     "end": 54.675
-    },
-    {
-     "text": "it",
-     "start": 54.688,
-     "end": 54.763
+     "text": "sit",
+     "start": 49.775,
+     "end": 50.012
     },
     {
      "text": "in",
-     "start": 54.775,
-     "end": 54.85
+     "start": 50.025,
+     "end": 50.087
     },
     {
      "text": "a",
-     "start": 54.862,
-     "end": 54.912
+     "start": 50.1,
+     "end": 50.138
+    },
+    {
+     "text": "snowbank.",
+     "start": 50.15,
+     "end": 50.788
+    },
+    {
+     "text": "Instead",
+     "start": 51.15,
+     "end": 51.6
+    },
+    {
+     "text": "I",
+     "start": 51.612,
+     "end": 51.65
+    },
+    {
+     "text": "went",
+     "start": 51.663,
+     "end": 51.863
+    },
+    {
+     "text": "back",
+     "start": 51.875,
+     "end": 52.075
+    },
+    {
+     "text": "to",
+     "start": 52.087,
+     "end": 52.15
+    },
+    {
+     "text": "my",
+     "start": 52.163,
+     "end": 52.363
+    },
+    {
+     "text": "room,",
+     "start": 52.375,
+     "end": 52.675
+    },
+    {
+     "text": "slid",
+     "start": 52.975,
+     "end": 53.2
+    },
+    {
+     "text": "the",
+     "start": 53.212,
+     "end": 53.288
+    },
+    {
+     "text": "key",
+     "start": 53.3,
+     "end": 53.5
+    },
+    {
+     "text": "off",
+     "start": 53.513,
+     "end": 53.663
+    },
+    {
+     "text": "my",
+     "start": 53.675,
+     "end": 53.812
+    },
+    {
+     "text": "key",
+     "start": 53.825,
+     "end": 54.062
+    },
+    {
+     "text": "ring",
+     "start": 54.075,
+     "end": 54.275
+    },
+    {
+     "text": "again,",
+     "start": 54.288,
+     "end": 54.6
+    },
+    {
+     "text": "and",
+     "start": 54.987,
+     "end": 55.037
+    },
+    {
+     "text": "put",
+     "start": 55.05,
+     "end": 55.237
+    },
+    {
+     "text": "it",
+     "start": 55.25,
+     "end": 55.325
+    },
+    {
+     "text": "in",
+     "start": 55.337,
+     "end": 55.413
+    },
+    {
+     "text": "a",
+     "start": 55.425,
+     "end": 55.475
     },
     {
      "text": "drawer.",
-     "start": 54.925,
-     "end": 55.35
+     "start": 55.487,
+     "end": 55.912
     }
    ],
    "khau_hinh": [

@@ -440,16 +440,16 @@ window.CANH = function (api, data) {
   tr += "</g>";
   tr += '<g id="nhanL">' + at(890, 205, KR.the("nhanLi", CH[0], 50, { seed: 4090, nen: "#F3EAD8" })) + "</g>";
 
-  var W = KR.wob(api, "W", { mua: "nha" });
+  var W = KR.wob(api, "W", { mua: "nha" });   // tay không: chìa đang nằm dưới đèn bàn (d38–d43)
   api.dat(KR.defs() + api.lop("ban", B.nen + KR.mocAo() + B.trang + tr + W.svg + B.den, 1, { mat: 1010 }));
   api.noi({});
 
   // ---------- camera ----------
-  api.camera([[0, 1000, 540, 1.0], [tRein - 0.4, 980, 520, 1.06, "sine.inOut"], [tTheir - 0.05, 1010, 520, 1.1, "sine.inOut"], [tTheir + 1.15, 1350, 720, 1.42, "power2.inOut"], [DUR, 1356, 726, 1.46, "sine.inOut"]]);
+  api.camera([[0, 1000, 540, 1.0], [tRein - 0.4, 980, 545, 1.06, "sine.inOut"], [tTheir - 0.05, 1010, 555, 1.1, "sine.inOut"], [tTheir + 1.15, 1350, 720, 1.42, "power2.inOut"], [DUR, 1356, 726, 1.46, "sine.inOut"]]);
 
   // ---------- nhãn, đường vẽ dần ----------
   api.origin("#nhanL", "890 205");
-  api.pop("#nhanL", tMount + 0.1, 0.28);
+  api.pop("#nhanL", tMount + 0.1, 0.28, tTheir - 0.3);
   api.origin("#veRect", "300 0");
   api.key("#veRect", "scaleX", 0, 0.001); api.key("#veRect", "scaleX", tRein - 0.1, 0.001, "none"); api.key("#veRect", "scaleX", tRoute + 0.35, 1, "power1.inOut");
   // ---------- đàn đi hàng dọc theo vệt đường (theo đường cong sau núi) ----------
@@ -474,8 +474,8 @@ window.CANH = function (api, data) {
   api.key("#chan", "scaleY", 0, 1); api.key("#chan", "scaleY", tCut - 0.3, 1, "none"); api.key("#chan", "scaleY", tCut - 0.12, 1.08, "power2.out"); api.key("#chan", "scaleY", tCut + 0.05, 1, "power2.in");
 
   // ---------- Wob ----------
-  var WX = 220, WY = 1010;
-  W.set(0, { x: WX, y: WY, size: 0.6, pupX: 12, pupY: -16 });
+  var WX = 560, WY = 1010;
+  W.set(0, { x: WX, y: WY, size: 0.72, pupX: 12, pupY: -16 });
   W.mouth(0, "thang");
   W.idle(0.4, tTheir - 0.6, { seed: 401, bien: 1.0 });
   W.pose(tMount, 0.5, { pupX: 16, pupY: -22, upRot: -2 }, "sine.inOut");
@@ -484,10 +484,10 @@ window.CANH = function (api, data) {
   W.pose(t0 + 2.4, 2.0, { pupX: 14, pupY: -20, upRot: 0 }, "sine.inOut");
   W.pose(t0 + 5.0, 2.0, { pupX: 18, pupY: -14, upRot: 2 }, "sine.inOut");
   // đi sang phải dưới lối cũ, lần ngón tay theo nét đứt tới chỗ dừng, nhấc tay
-  var WX2 = 990;
+  var WX2 = 950;
   W.walk(tTheir - 0.45, tTheir + 0.55, WX, WX2, { step: 0.3 });
-  W.pose(tTheir + 0.6, 0.25, { aRu: 176, aRf: 60, pupX: 16, pupY: -16, upRot: 0 }, "power2.out");
-  W.walk(tTheir + 0.9, tOff + 0.05, WX2, 1350, { step: 0.32, arms: false });
+  W.pose(tTheir + 0.6, 0.3, { aRu: -74, aRf: -78, pupX: 16, pupY: -8, upRot: 0 }, "power2.out");
+  W.walk(tTheir + 0.9, tOff + 0.05, WX2, 1310, { step: 0.36, arms: false });
   W.pose(tOff + 0.3, 0.3, { aRu: -170, aRf: 20, pupX: 16, pupY: -20 }, "power2.out");
   W.pose(tOff + 0.75, 0.5, { aRu: -18, aRf: 10, pupX: 18, pupY: -14 }, "sine.inOut");
   W.mouth(tOff + 0.3, "buon");

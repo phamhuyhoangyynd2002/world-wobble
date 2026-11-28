@@ -6,7 +6,12 @@
  },
  {
   "ten": "tach-bang",
-  "tai": 2.701,
+  "tai": 0.927,
   "am_luong": 0.8
+ },
+ {
+  "ten": "bonk",
+  "tai": 1.557,
+  "am_luong": 0.45
  }
 ]

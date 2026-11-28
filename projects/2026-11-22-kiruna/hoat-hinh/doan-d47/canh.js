@@ -3,17 +3,21 @@
  * Kệ tầng trên: bình xịt (SANTA CRUZ / DEL ISLOTE), tờ lịch hầm (WHITTIER), bưu thiếp TRISTAN DA CUNHA mặt tem quay ra,
  * chìa KIRUNA (mới) treo trên đinh riêng ở cột kệ cạnh bưu thiếp, mũi chỉ sang phải (api.duoiVE.chiaKhoa). Nóc kệ: lọ opal
  * (COOBER PEDY), bản đồ giấy trừu tượng (không biên giới thật), tủ đông (OYMYAKON).
- * Khung 0: Wob đã cầm chìa. 0,6 treo chìa lên đinh (dt.datLen). "postcard" 3,88 bưu thiếp nghiêng tựa vào chìa.
- * "rattles" 7,60 khuỷu tay chạm kệ, lọ opal rung lách cách, Wob liếc. "Next," 9,06 bản đồ mở: ghim đỏ mới ở rất xa phía bắc
- * có tuyết; ghim trống không nhãn rung trên mảng đất xanh ấm phía đông xa, mây mưa nhỏ trên nó (matTroi: false).
- * "sock" 10,57 nhét chồng tất vào va li (drop). 11,57 một giọt mưa từ mây rơi rất chậm xuống chiếc tất trên cùng: tất ẩm.
- * 13,88 hết lời: quay phải, chỉ sang hai khung trống (bàn tay x ≤ 1100), chớp mắt, thở. Mưa trượt chậm trên kính.
+ * Vòng phản biện 2 (lời mới): lọ opal (COOBER PEDY) ở tầng trên của kệ, ngay bên trái bưu thiếp; tờ lịch (WHITTIER) trên nóc kệ góc trái.
+ * Khung 0: Wob đã cầm chìa; "Up on the shelf" 0,7 ngước nhìn kệ. 1,63 treo chìa lên đinh riêng ở cột kệ (dt.datLen), chạm đinh đúng "nail" 2,23
+ * (ting); chìa đung đưa tắt dần rồi đứng, mũi chỉ sang phải. "leans" 4,16 bưu thiếp nghiêng tựa vào lọ opal. "rattles" 6,08 khuỷu tay
+ * chạm kệ, lọ opal rung lách cách (bưu thiếp rung theo). "My" 7,59 bản đồ mở: ghim đỏ mới ở rất xa phía bắc có tuyết; ghim trống
+ * không nhãn rung trên mảng đất xanh ấm phía đông xa, mây mưa nhỏ trên nó (matTroi: false). Chồng tất ĐÃ nằm trong va li từ khung 0;
+ * "nervous" 8,80 chồng tất run rẩy, Wob bước tới đặt tay lên trấn an, tất dịu dần. "I hear" 10,51 một giọt mưa từ mây rơi rất chậm,
+ * chạm chiếc tất trên cùng ngay sau "time." 11,79: tất ẩm.
+ * 12,9 hết lời: quay phải, chỉ sang hai khung trống (bàn tay x ≤ 1100), chớp mắt, thở. Mưa trượt chậm trên kính.
  * End screen bật trong 0–1,2 s rồi đứng yên tuyệt đối; sau 1,2 s vùng x ≥ 1150 không chuyển động, không chữ. Không mờ đen.
  */
 window.CANH = function (api, data) {
   "use strict";
   var tl = api.tl, C = api.C, DUR = api.DUR, sk = api.sk, fp = api.fp;
   var tu = {};
+  var tuSau = function (k0, t0) { var r = null; data.loi.forEach(function (L) { L.tu.forEach(function (w) { var k = w.text.replace(/[^A-Za-z]/g, "").toLowerCase(); if (k === k0 && w.start >= t0 && r == null) r = w.start; }); }); return r; };
   data.loi.forEach(function (L) { L.tu.forEach(function (w) { var k = w.text.replace(/[^A-Za-z]/g, "").toLowerCase(); if (w.start >= 0 && tu[k] == null) tu[k] = w.start; }); });
   var chu = data.chu_tren_do_vat; // KIRUNA, TRISTAN DA CUNHA, SANTA CRUZ DEL ISLOTE, WHITTIER, COOBER PEDY, OYMYAKON
 
@@ -34,7 +38,7 @@ window.CANH = function (api, data) {
     s += '<g class="nap">' + fp("M 6 30 L 174 30 L 174 50 L 6 50 Z", "#d4e6ec", 6) + "</g>";
     return { svg: s, w: 180, h: 190 };
   };
-  var CO = 55;
+  var CO = 55, BDX = -700;
   var dt = api.duoiTap(ban, {
     ke: { x: -700, z: -300 },
     theCo: CO, theW: 300, matTroi: false,
@@ -46,14 +50,20 @@ window.CANH = function (api, data) {
       { the: chu[5], ve: veTuDong, tang: 1, cho: 1.6, theW: 400 },
       { the: chu[0], ve: api.duoiVE.chiaKhoa, tang: 0, cho: 2.75, theW: 260, theDx: 30, theDy: -150, moi: true }
     ],
-    banDo: { x: -720, z: -330, w: 520, h: 320 },
+    banDo: { x: BDX, z: -330, w: 520, h: 320 },
     ghimMoi: { u: 0.78, v: 0.16 }, ghimTrong: { u: 0.86, v: 0.76 },
     endScreen: { khung: [[1180, 160], [1180, 500]], vong: [1460, 922] }
   });
   var I_XIT = 0, I_LICH = 1, I_BT = 2, I_LO = 3, I_TU = 4, I_CK = 5;
   var BDK = 0.77;
   gsap.set(dt.banDo, { y: TY - 524, scaleY: BDK });
-  gsap.set(dt.mon[I_LO].el, { x: -975, y: TY - 524, z: -300 }); gsap.set(dt.mon[I_LO].tag, { x: -892, y: TY - 445, z: -262 });
+  // lọ opal xuống tầng trên, sát trái bưu thiếp (để bưu thiếp tựa vào); thẻ COOBER PEDY vào chỗ thẻ WHITTIER cũ.
+  // tờ lịch WHITTIER lên nóc kệ góc trái (chỗ lọ cũ, thu nhỏ 0,82), thẻ của nó vào chỗ thẻ COOBER PEDY cũ.
+  var pBT = dt.mon[I_BT].cho, tagL = dt.mon[I_LICH].tag;
+  var tagLCu = { x: gsap.getProperty(tagL, "x"), y: gsap.getProperty(tagL, "y"), z: gsap.getProperty(tagL, "z") };
+  var LO = { x: pBT.x - 160, y: pBT.y, z: pBT.z };
+  gsap.set(dt.mon[I_LO].el, LO); gsap.set(dt.mon[I_LO].tag, { x: tagLCu.x + 20, y: tagLCu.y, z: tagLCu.z });
+  gsap.set(dt.mon[I_LICH].el, { x: -965, y: TY - 524, z: -300, scale: 0.82 }); gsap.set(tagL, { x: -892, y: TY - 445, z: -262 });
   gsap.set(dt.mon[I_TU].el, { x: -420, y: TY - 524, z: -300 }); gsap.set(dt.mon[I_TU].tag, { x: -400, y: TY - 520, z: -262 });
   // bản đồ: mảng đất xanh ấm phía đông xa, mây mưa trên ghim trống, vài bông tuyết quanh ghim mới (không chữ)
   var BW = 520, BH = 320;
@@ -70,9 +80,10 @@ window.CANH = function (api, data) {
   var mayEl = bdSvg.querySelector(".may");
 
   // va li mở + chồng tất trên bàn
-  var VL = { x: -760, z: 70 };   // va li trước chân kệ, bên trái Wob: mọi chuyển động sau 1,2 s nằm ở x < 1100
+  var VL = { x: -470, z: 70 };   // va li trên sàn trước kệ, sát trái Wob (chỗ chồng tất cũ): Wob với tay tới mà không phải đứng che thẻ kệ; mọi chuyển động sau 1,2 s ở x < 1100
   var vaLi = api.cut(the, 200, 150, api.vaLiSVG(), { pos: { x: VL.x, y: TY, z: VL.z }, f: api.F.AM_NHO });
   var tat = api.cut(the, 130, 100, api.chongTatSVG(), { pos: { x: -470, y: TY, z: 60 }, f: api.F.AM_NHO });
+  gsap.set(tat, { x: VL.x + 40, y: TY - 80, z: VL.z + 4 });      // tất đã nằm trong va li từ khung 0 (đáy trên mép lót, trước nắp)
   var tatAm = tat.svg.querySelector(".tat-am");
   gsap.set(tatAm, { opacity: 0 });
 
@@ -88,30 +99,42 @@ window.CANH = function (api, data) {
   gsap.set(ck, api.holdPose("L", A0, h0[0], h0[1], -90, 1.1));
   api.quaySet(w, -0.4);
   api.look(w, 0, -12, -6, 0.01);
+  api.look(w, (tu.up || 0.70) - 0.1, -16, -16, 0.25);              // "Up on the shelf": ngước nhìn kệ
   var A1 = 140, h1 = api.handWorld("L", A1);
-  api.armTo(w, "L", 0.25, 0.35, A1, "power2.out");
-  tl.to(ck, Object.assign(api.holdPose("L", A1, h1[0], h1[1], 0, 1.1), { duration: 0.35, ease: "power2.out" }), 0.25);
+  var tNail = tu.nail || 2.23, tTreo = tNail - 0.6, tChamDinh = tNail;   // dt.datLen bay 0,6 s: chạm đinh đúng "nail"
+  api.armTo(w, "L", tTreo - 0.32, 0.32, A1, "power2.out");
+  tl.to(ck, Object.assign(api.holdPose("L", A1, h1[0], h1[1], 0, 1.1), { duration: 0.32, ease: "power2.out" }), tTreo - 0.32);
   var tay = api.wobTheGioi(w, h1[0], h1[1]);
-  tl.set(ck, { opacity: 0 }, 0.6);
-  dt.datLen(I_CK, 0.6, { x: tay.x, y: tay.y, z: w.z });
-  api.sfx("ting", 1.2, 0.25);
-  api.armTo(w, "L", 1.3, 0.35, 0, "power2.inOut");
-  api.look(w, 0.7, -14, -10, 0.2);
-  // "postcard": bưu thiếp nghiêng tựa vào chìa
-  var tPost = tu.postcard || 3.88;
-  tl.to(dt.mon[I_BT].rung, { rotation: 7, transformOrigin: "50% 100%", duration: 0.5, ease: "back.out(2)" }, tPost);
+  tl.set(ck, { opacity: 0 }, tTreo);
+  dt.datLen(I_CK, tTreo, { x: tay.x, y: tay.y, z: w.z });
+  api.sfx("ting", tChamDinh, 0.25);
+  api.armTo(w, "L", tChamDinh + 0.1, 0.35, 0, "power2.inOut");
+  api.look(w, tTreo - 0.2, -18, -8, 0.2);
+  // chìa đung đưa tắt dần trên đinh rồi đứng, mũi chỉ sang phải
+  var tYen = tChamDinh + 1.3;
+  var gocCK = function (t) {
+    if (t < tChamDinh || t >= tYen) return 0;
+    var u = (t - tChamDinh) / (tYen - tChamDinh);
+    return 30 * (1 - u) * (1 - u) * Math.cos(u * Math.PI * 3.5);
+  };
+  api.look(w, (tu.own || 2.79) - 0.1, -16, -6, 0.15); api.lids(w, tu.own || 2.79, 0.3, 0.15);
+  // "leans": bưu thiếp nghiêng sang trái, tựa vào lọ opal
+  var tPost = tu.postcard || 3.58, tLean = tu.leans || 4.16;
   api.look(w, tPost - 0.1, -16, -10, 0.2);
-  api.lids(w, tPost + 0.3, 0.35, 0.2); api.lids(w, 5.3, 0, 0.15);
+  tl.to(dt.mon[I_BT].rung, { rotation: -11, transformOrigin: "18% 100%", duration: 0.45, ease: "back.out(2)" }, tLean - 0.1);
+  api.lids(w, tLean + 0.2, 0.35, 0.2); api.lids(w, tLean + 1.1, 0, 0.15);
   // "rattles": khuỷu tay chạm kệ, lọ opal rung, Wob liếc
-  var tRat = tu.rattles || 7.60;
+  var tRat = tu.rattles || 6.08;
   api.armTo(w, "L", tRat - 0.25, 0.15, 70, "power2.out");
   api.armTo(w, "L", tRat - 0.1, 0.2, 20, "power2.inOut");
   dt.rung(I_LO, tRat, 0.7);
+  tl.to(dt.mon[I_BT].rung, { rotation: -9, duration: 0.07, yoyo: true, repeat: 5, ease: "sine.inOut" }, tRat + 0.02);   // bưu thiếp đang tựa rung theo
+  tl.to(dt.mon[I_BT].rung, { rotation: -11, duration: 0.1 }, tRat + 0.46);
   api.sfx("bonk", tRat - 0.1, 0.2);
   api.look(w, tRat + 0.05, -16, -16, 0.15);
   api.look(w, tRat + 0.9, 0, 2, 0.2);
-  // "Next,": bản đồ mở, ghim mới phía bắc (tuyết), ghim trống rung ở đất xanh ấm phía đông, mây mưa
-  var tNext = tu.next || 9.06;
+  // "My": bản đồ mở, ghim mới phía bắc (tuyết), ghim trống rung ở đất xanh ấm phía đông, mây mưa
+  var tNext = tu.my || 7.59;
   tl.set(dt.banDo, { opacity: 1 }, tNext - 0.05);
   tl.fromTo(dt.banDo, { scaleX: 0 }, { scaleX: BDK, duration: 0.45, ease: "back.out(1.4)", immediateRender: false }, tNext - 0.05);
   dt.camGhim(tNext + 0.4);
@@ -123,27 +146,30 @@ window.CANH = function (api, data) {
   dt.ghimRung(tNext + 0.7, 1.2, { matTroi: false });
   tl.to(mayEl, { opacity: 1, duration: 0.3 }, tNext + 0.8);
   api.quay(w, tNext - 0.2, -0.45, 0.25); api.look(w, tNext - 0.1, -14, -12, 0.2);
-  // nhặt chồng tất, nhét vào va li đúng "sock"
-  var tSock = tu.sock || 10.57;
-  // bước sang trái tới chồng tất (sau khi bản đồ mở), nhặt, thả cả chồng vào va li đúng "sock"
-  api.walk(w, 9.5, 9.85, -300, -10, { face: -0.5, endFace: -0.35, step: 0.17 });
-  api.look(w, 9.86, -10, 16, 0.12);
-  api.armTo(w, "L", 9.88, 0.16, 30, "power2.out");
-  var hT = api.handWorld("L", 30), tayT = api.wobTheGioi(w, hT[0], hT[1]);
-  tl.to(tat, { x: tayT.x - 40, y: tayT.y + 40, z: w.z + 20, duration: 0.22, ease: "power2.out" }, 10.02);
-  api.armTo(w, "L", 10.2, 0.25, 75, "power2.inOut");
-  api.look(w, 10.2, -16, 14, 0.15);
-  tl.to(tat, { x: VL.x + 40, z: VL.z + 4, duration: 0.3, ease: "power2.inOut" }, 10.24);
-  tl.to(tat, { y: TY - 80, duration: 0.33, ease: "power2.in" }, 10.24);   // đáy chồng tất ngồi trên mép lót va li, trước nắp
-  api.sfx("drop", tSock, 0.45);
-  tl.fromTo(vaLi, { scaleY: 1 }, { scaleY: 0.94, duration: 0.06, yoyo: true, repeat: 1, immediateRender: false }, tSock);
-  api.armTo(w, "L", tSock + 0.1, 0.3, 4, "power2.inOut");
-  // 11,57 một giọt mưa từ mây rơi rất chậm xuống chiếc tất trên cùng
-  var tI = tu.hear ? tu.hear - 0.19 : 11.57;
+  // "nervous": chồng tất (đã trong va li) run rẩy; Wob bước tới, đặt tay lên trấn an, tất dịu dần
+  var tNer = tu.nervous || 8.80, WXT = -255;
+  api.walk(w, tNer - 0.55, tNer - 0.15, WXT, -10, { face: -0.5, endFace: -0.4, step: 0.17 });
+  tl.fromTo(tat, { rotationZ: -3.5 }, { rotationZ: 3.5, duration: 0.05, yoyo: true, repeat: 9, ease: "sine.inOut", immediateRender: false }, tNer - 0.05);
+  tl.fromTo(tat, { rotationZ: -1.5 }, { rotationZ: 1.5, duration: 0.08, yoyo: true, repeat: 3, ease: "sine.inOut", immediateRender: false }, tNer + 0.45);
+  tl.to(tat, { rotationZ: 0, duration: 0.15, ease: "sine.out" }, tNer + 0.77);
+  api.sfx("brr", tNer, 0.2);
+  api.look(w, tNer - 0.1, -14, 16, 0.15);
+  var PVL = [86, 212], RVL = [-14, 96];
+  var gocL = function (x, y) { var a = Math.atan2(y - PVL[1], x - PVL[0]) - Math.atan2(RVL[1], RVL[0]), d = a * 180 / Math.PI; while (d > 180) d -= 360; while (d < -180) d += 360; return d; };
+  var pT = [200 + (VL.x + 40 - WXT) / 0.8, 392 + (-140) / 0.8], AT = gocL(pT[0], pT[1]), ST = Math.max(1, Math.hypot(pT[0] - PVL[0], pT[1] - PVL[1]) / 96);
+  api.armTo(w, "L", tNer + 0.2, 0.25, AT, "power2.out");
+  tl.to(w.armL, { scaleY: ST, svgOrigin: "86 212", duration: 0.25, ease: "power2.out" }, tNer + 0.2);
+  tl.to(w.armL, { scaleY: ST * 0.93, svgOrigin: "86 212", duration: 0.18, yoyo: true, repeat: 3, ease: "sine.inOut" }, tNer + 0.5);   // vỗ nhẹ hai lần
+  api.lids(w, tNer + 0.3, 0.35, 0.2); api.nghieng(w, tNer + 0.3, -6, 0.3);
+  api.armTo(w, "L", tNer + 1.35, 0.3, 4, "power2.inOut");
+  tl.to(w.armL, { scaleY: 1, svgOrigin: "86 212", duration: 0.3 }, tNer + 1.35);
+  api.nghieng(w, tNer + 1.35, 0, 0.3);
+  // "I hear" một giọt mưa từ mây rơi rất chậm xuống chiếc tất trên cùng
+  var tI = tu.hear ? tu.hear - 0.19 : 10.51;
   var giotRoi = api.cut(the, 40, 50, '<path d="M 20 4 C 28 18 34 28 34 36 C 34 46 6 46 6 36 C 6 28 12 18 20 4 Z" fill="#9fd0e6" stroke="' + C.INK + '" stroke-width="3"/>', { pos: { x: -560, y: TY - 600, z: -260 }, ax: 20, ay: 46, f: api.F.AM_NHO });
   gsap.set(giotRoi, { opacity: 0 });
-  var DR0 = { x: -720 + (0.86 - 0.5) * BW, y: TY - 524 - (BH - 0.76 * BH + 70) * BDK, z: -300 }, DR1 = { x: VL.x + 45, y: TY - 150, z: VL.z + 6 };
-  var tRoi = tI, tCham = 12.95;
+  var DR0 = { x: BDX + (0.86 - 0.5) * BW, y: TY - 524 - (BH - 0.76 * BH + 70) * BDK, z: -300 }, DR1 = { x: VL.x + 45, y: TY - 150, z: VL.z + 6 };
+  var tRoi = tI, tCham = (tu.time || 11.79) + 0.09;              // chạm tất ngay sau "time."
   api.moiKhung(function (t) {
     if (t < tRoi || t > tCham + 0.15) { gsap.set(giotRoi, { opacity: 0 }); return; }
     var u = Math.min(1, (t - tRoi) / (tCham - tRoi)), e = u * u * (3 - 2 * u);
@@ -151,13 +177,13 @@ window.CANH = function (api, data) {
   });
   tl.to(tatAm, { opacity: 1, duration: 0.3 }, tCham);
   api.look(w, tRoi + 0.2, -12, -14, 0.3);
-  api.look(w, 12.4, 6, 16, 0.4);
+  api.look(w, tCham - 0.55, 6, 16, 0.4);
   api.lids(w, tCham + 0.1, 0.45, 0.2);                             // tỉnh bơ
   // mưa trượt chậm trên kính (x < 1100)
   api.moiKhung(function (t) { giot.forEach(function (el, k) { var p = ((t * (0.07 + 0.02 * k) + k * 0.23) % 1); el.setAttribute("transform", "translate(0 " + (p * 120).toFixed(1) + ")"); }); });
   // ---------------------------------------------------------------- hết lời: quay phải, chỉ sang hai khung trống, thở
-  api.walk(w, 13.25, 13.75, -220, -20, { face: 0.4, endFace: 0.5, step: 0.17 });   // về chỗ cũ, trả lại thẻ TRISTAN DA CUNHA
-  var tEnd = 13.95;
+  api.walk(w, tCham + 0.3, tCham + 0.8, -220, -20, { face: 0.4, endFace: 0.5, step: 0.17 });   // về chỗ cũ, trả lại thẻ TRISTAN DA CUNHA
+  var tEnd = tCham + 1.0;
   api.quay(w, tEnd - 0.1, 0.6, 0.25); api.look(w, tEnd - 0.05, 14, -4, 0.15);
   api.lids(w, tEnd, 0, 0.12);
   api.armTo(w, "R", tEnd, 0.3, -62, "back.out(2)");
@@ -166,10 +192,10 @@ window.CANH = function (api, data) {
   api.blink(w, tEnd + 4.6, 0);
 
   var lop = data.lop; data.lop = "hien-tai"; api.khauHinh(w); data.lop = lop;
-  api.gatDau(w, { bo: [[13.0, DUR]] });
+  api.gatDau(w, { bo: [[tCham + 0.05, DUR]] });
   api.breathe(w, 0.4, DUR);
   // chuyển động nhỏ liên tục ở nửa trái (x < 1100) tới khung cuối (như tập 5 d51): quầng đèn ấm thở, Wob nhún và lắc nhẹ,
-  // chìa KIRUNA đung đưa trên đinh. Camera và vùng end screen (x ≥ 1150) vẫn đứng yên.
+  // chìa KIRUNA đung đưa tắt dần trên đinh tới "east." rồi đứng, mũi chỉ đông. Camera và vùng end screen (x ≥ 1150) vẫn đứng yên.
   var amDen = api.div("", api.root, "position:absolute;left:0;top:0;width:1000px;height:1080px;pointer-events:none;" +
     "background:radial-gradient(ellipse 620px 560px at 430px 360px, rgba(255,206,130,.34), rgba(255,206,130,.12) 55%, rgba(255,206,130,0) 80%);");
   amDen.setAttribute("data-layout-allow-occlusion", "");
@@ -178,6 +204,6 @@ window.CANH = function (api, data) {
     gsap.set(amDen, { opacity: 0.45 + 0.55 * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI * 0.45)) });
     var tt = Math.max(0, t - 0.6);
     gsap.set(w.pos, { y: Y_W - 10 * (0.5 - 0.5 * Math.cos(tt * 2 * Math.PI * 0.85)), rotationZ: 3 * Math.sin(tt * 2 * Math.PI * 0.42) });
-    if (t > 1.6) gsap.set(ckRung, { rotation: 3 * Math.sin((t - 1.6) * 2 * Math.PI * 0.55), svgOrigin: "46 46" });
+    gsap.set(ckRung, { rotation: gocCK(t), svgOrigin: "46 46" });
   });
 };

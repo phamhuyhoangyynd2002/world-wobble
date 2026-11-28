@@ -16,22 +16,22 @@
  },
  {
   "ten": "ting",
-  "tai": 1.2,
+  "tai": 2.225,
   "am_luong": 0.25
  },
  {
   "ten": "bonk",
-  "tai": 7.5,
+  "tai": 5.975,
   "am_luong": 0.2
  },
  {
   "ten": "drop",
-  "tai": 9.463,
+  "tai": 7.987,
   "am_luong": 0.4
  },
  {
-  "ten": "drop",
-  "tai": 10.575,
-  "am_luong": 0.45
+  "ten": "brr",
+  "tai": 8.8,
+  "am_luong": 0.2
  }
 ]

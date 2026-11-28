@@ -447,19 +447,19 @@ window.CANH = function (api, data) {
   }
   var kienNghi = '<g id="kn"><g transform="rotate(-4)">' + kn + "</g></g>";
 
-  var W = KR.wob(api, "W", { mua: "nha" });
+  var W = KR.wob(api, "W", { mua: "nha" });   // tay không: chìa đang nằm dưới đèn bàn (d38–d43)
   api.dat(KR.defs() + api.lop("ban", B.nen + KR.mocAo() + pg2 + pg1 + kienNghi + W.svg + B.den, 1, { mat: 1010 }));
   api.noi({});
   api.show("#pg1", 0, 1);
 
   // ---------- camera ----------
-  api.camera([[0, 1000, 540, 1.0], [tThey, 990, 548, 1.03, "sine.inOut"], [tIn - 0.1, 980, 560, 1.12, "sine.inOut"], [tNot - 0.1, 1000, 540, 1.0, "sine.inOut"],
-    [tNot + 0.8, 1360, 600, 1.22, "power2.inOut"], [tIn2 + 0.3, 1340, 620, 1.2, "sine.inOut"], [tIn2 + 1.6, 1200, 760, 1.18, "power2.inOut"], [tAnd - 0.3, 1190, 760, 1.22, "sine.inOut"],
-    [tAnd + 0.4, 1000, 560, 1.0, "power2.inOut"], [tAnd + 1.2, 1000, 556, 1.0, "none"], [DUR, 1000, 500, 1.5, "power2.in"]]);
+  api.camera([[0, 1000, 540, 1.0], [tThey, 990, 548, 1.03, "sine.inOut"], [tIn - 0.1, 980, 570, 1.12, "sine.inOut"], [tNot - 0.1, 1000, 540, 1.0, "sine.inOut"],
+    [tNot + 0.8, 1360, 612, 1.22, "power2.inOut"], [tIn2 + 0.3, 1340, 620, 1.2, "sine.inOut"], [tIn2 + 1.6, 1200, 760, 1.18, "power2.inOut"], [tAnd - 0.3, 1190, 760, 1.22, "sine.inOut"],
+    [tAnd + 0.4, 1000, 560, 1.0, "power2.inOut"], [DUR - 0.75, 1000, 556, 1.0, "none"], [DUR, 1000, 470, 1.4, "power2.in"]]);
 
   // ---------- Wob ----------
-  var WX = 230, WY = 1010;
-  W.set(0, { x: WX, y: WY, size: 0.6, pupX: 12, pupY: -14 });
+  var WX = 540, WY = 1010;
+  W.set(0, { x: WX, y: WY, size: 0.72, pupX: 12, pupY: -14 });
   W.mouth(0, "thang");
   W.idle(0.3, tThey + 0.4, { seed: 391, bien: 1.0 });
   // nhà nhấc khỏi trang, để lại khoảng trống (trừ nhà cuối)

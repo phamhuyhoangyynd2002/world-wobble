@@ -10,7 +10,7 @@ window.CANH = function (api, data) {
   var T = function (w, k, du) { var v = api.tuDung(w, 0, k); return v == null ? du : v; };
   var tLow = T("low", 0, 2.063), tOn = T("on", 0, 3.613), tFound = T("found", 0, 5.051), tTown = T("the", 4, 6.488), tGiron = T("giron", 0, 8.088),
     tIt = T("it", 0, 9.25), tMount = T("mountain,", 0, 9.938), tRock = T("rock", 0, 11.775), tWhite = T("white", 0, 14.113), tI = T("i", 0, 15.201),
-    tCaring = T("caring.", 0, 16.85), tInstead = T("instead", 0, 17.625), tSlid = T("slid", 0, 19.451), tPut = T("put", 0, 21.525), tDrawer = T("drawer.", 0, 21.963);
+    tFeath = T("feathers", 0, 16.16), tSnow = T("snowbank.", 0, 17.19), tInstead = T("instead", 0, 17.625), tSlid = T("slid", 0, 19.451), tPut = T("put", 0, 21.525), tDrawer = T("drawer.", 0, 21.963);
   var tB = tOn - 0.05, tC = tTown - 0.05, tF = tInstead - 0.04;
 
   // =================== B: quảng trường mới (lớp có thị sai) ===================
@@ -101,9 +101,20 @@ window.CANH = function (api, data) {
   // bong bóng tưởng tượng: Wob trắng toàn thân lim dim cạnh gà gô
   var PX = 1120, PY = 470;
   var Wt = KR.wob(api, "Wt", { mua: "dong" });
+  // lông vũ giấy (không chữ), mọc quanh thân Wob trong bong bóng
+  function longVu(i) { var mau = ["#F7F4EC", "#EDE6D6", "#FBFAF6"][i % 3];
+    return paper("M 0 -24 C 12 -12 11 12 0 24 C -11 12 -12 -12 0 -24 Z", mau, { stroke: true, sw: 3, shadow: false }) + line("M 0 -20 L 0 26", 2.5, "#B9AE98"); }
+  var WTX = PX - 70, WTY = PY + 120 - 0.56 * 200, long = '<g id="long">';
+  for (var lv = 0; lv < 16; lv++) { var ang = -170 + lv * (340 / 15), rad = ang * Math.PI / 180, rr0 = lv % 2 ? 78 : 92;
+    long += '<g id="lv' + lv + '" transform="translate(' + f1(WTX + Math.sin(rad) * rr0) + "," + f1(WTY - Math.cos(rad) * rr0) + ") rotate(" + f1(ang) + ')"><g id="lvS' + lv + '">' + longVu(lv) + "</g></g>"; }
+  long += "</g>";
   c += '<g id="bong"><circle cx="' + (PX + 20) + '" cy="' + (PY + 250) + '" r="18" fill="#FFF8EC" stroke="' + INK + '" stroke-width="4"/><circle cx="' + (PX + 40) + '" cy="' + (PY + 200) + '" r="26" fill="#FFF8EC" stroke="' + INK + '" stroke-width="4"/>' +
     paper(D.rough([[PX - 250, PY], [PX - 200, PY - 130], [PX - 40, PY - 180], [PX + 140, PY - 160], [PX + 260, PY - 50], [PX + 230, PY + 110], [PX + 60, PY + 160], [PX - 140, PY + 150], [PX - 240, PY + 90]], 8, 3450, 30), "#FFF8EC", { stroke: true, sw: 5, sx: 6, sy: 8 }) +
-    '<g filter="url(#d34trang)">' + Wt.svg + "</g>" + at(PX + 140, PY + 110, ga.replace(/id="ga(T|Mat)?"/g, ""), 0.55) + "</g>";
+    Wt.svg + long + '<g id="uTuyet">' + paper("M " + (PX - 190) + " " + (PY + 128) + " C " + (PX - 170) + " " + (PY + 70) + " " + (PX + 30) + " " + (PY + 70) + " " + (PX + 50) + " " + (PY + 128) + " Z", "#F4F6F6", { stroke: true, sw: 4, sx: 3, sy: 4 }) + "</g>" +
+    at(PX + 140, PY + 110, ga.replace(/id="ga(T|Mat)?"/g, ""), 0.55) + "</g>";
+  // lông vũ rụng xuống tuyết khi bong bóng tắt (toạ độ cảnh)
+  var LR = [[1000, 470], [1060, 420], [1110, 500], [960, 540], [1150, 450], [1030, 560], [1090, 590]];
+  LR.forEach(function (q, i) { c += '<g id="lr' + i + '" opacity="0"><g id="lrT' + i + '"><g transform="scale(1.5)">' + longVu(i) + "</g></g></g>"; });
   c += "</g></g>";
 
   // =================== F: phòng thuê ===================
@@ -128,7 +139,7 @@ window.CANH = function (api, data) {
   var Wf = KR.wob(api, "Wf", { mua: "dong", chum: "kr", holdR: rR, holdL: kL });
   f += Wf.svg + "</g></g>";
 
-  api.dat(KR.defs() + '<defs><filter id="d34trang" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.65 1.3 0.25 0 -0.12  0.65 1.3 0.25 0 -0.1  0.65 1.3 0.25 0 -0.04  0 0 0 1 0"/></filter></defs>' +
+  api.dat(KR.defs() + '' +
     troi + api.lop("xa", xa, 0.4, { mat: 760 }) + api.lop("giua", gi, 1, { mat: G }) + c + f + a);
   api.noi({});
   api.show(W.xl.khan, 0, 1); api.show(Wf.xl.chum, 0, 1); api.show("#rRi-kr", 0, 1); api.show("#nkLong", 0, 0); api.show("#chiaNam", 0, 0);
@@ -221,17 +232,35 @@ window.CANH = function (api, data) {
   Wc.pose(tWhite, 0.4, { lid: 26, pupX: 8, pupY: 4 }, "sine.inOut");
   Wc.idle(tXom + 0.5, tI, { seed: 342, bien: 1.0 });
   // bong bóng: Wob trắng lim dim
-  Wt.set(0, { x: PX - 70, y: PY + 120, size: 0.56, lid: 34 });
+  Wt.set(0, { x: PX - 70, y: PY + 120, size: 0.56, pupX: 10, pupY: -8 });
   Wt.mouth(0, "smile");
-  Wt.pose(0, 0.01, { sy: 0.82, sx: 1.14, legL: 26, legR: -26, legLs: 0.6, legRs: 0.6, aLu: -10, aLf: 40, aRu: 10, aRf: -40 }, "none");
-  for (var tb2 = 0; tb2 < 3; tb2++) Wt.pose(tI + 0.4 + tb2 * 0.5, 0.25, { upRot: tb2 % 2 ? 3 : -3 }, "sine.inOut");
+  Wt.idle(tI + 0.3, tSnow, { seed: 343, bien: 1.2 });
+  // lông mọc lần lượt ở "feathers"
+  for (var lv2 = 0; lv2 < 16; lv2++) { var tl = tFeath - 0.05 + lv2 * 0.035; api.origin("#lvS" + lv2, "0 24");
+    api.key("#lvS" + lv2, "scale", 0, 0); api.key("#lvS" + lv2, "scale", tl, 0, "none"); api.key("#lvS" + lv2, "scale", tl + 0.18, 1, "back.out(2)"); }
+  Wt.mouth(tFeath + 0.3, "grin");
+  // ngồi tròn lim dim trong ụ tuyết ở "snowbank."
+  api.origin("#uTuyet", (PX - 70) + " " + (PY + 128));
+  api.key("#uTuyet", "scaleY", 0, 0); api.key("#uTuyet", "scaleY", tSnow - 0.1, 0, "none"); api.key("#uTuyet", "scaleY", tSnow + 0.15, 1, "back.out(1.6)");
+  Wt.pose(tSnow - 0.1, 0.25, { sy: 0.84, sx: 1.12, legL: 26, legR: -26, legLs: 0.6, legRs: 0.6, aLu: -10, aLf: 40, aRu: 10, aRf: -40, lid: 34, pupY: 4 }, "power2.out");
+  api.key("#long", "y", 0, 0); api.key("#long", "y", tSnow - 0.1, 0, "none"); api.key("#long", "y", tSnow + 0.15, 16, "power2.out");
+  Wt.mouth(tSnow + 0.1, "smile");
+  var tTat = tSnow + 0.3;
   api.origin("#bong", (PX + 20) + " " + (PY + 250));
   api.pop("#bong", tI + 0.15, 0.3);
-  api.key("#bong", "scale", tCaring + 0.15, 1, "none"); api.key("#bong", "scale", tCaring + 0.22, 1.12, "power2.out"); api.key("#bong", "scale", tCaring + 0.3, 0, "power2.in");
+  api.key("#bong", "scale", tTat, 1, "none"); api.key("#bong", "scale", tTat + 0.07, 1.1, "power2.out"); api.key("#bong", "scale", tTat + 0.15, 0, "power2.in");
+  // lông rụng từng chiếc xuống tuyết cạnh Wob
+  LR.forEach(function (q, i) { var t0 = tTat + 0.05 + i * 0.07, sel = "#lr" + i, xe = 880 + i * 32, ye = 1000 - (i % 3) * 8;
+    api.origin(sel, "0 0"); api.origin("#lrT" + i, "0 0");
+    api.show(sel, 0, 0); api.show(sel, t0, 1);
+    api.key(sel, "x", 0, q[0]); api.key(sel, "y", 0, q[1]); api.key(sel, "x", t0, q[0], "none"); api.key(sel, "y", t0, q[1], "none");
+    api.key(sel, "x", t0 + 0.25, (q[0] + xe) / 2 + (i % 2 ? 40 : -40), "sine.inOut"); api.key(sel, "x", t0 + 0.55, xe, "sine.inOut");
+    api.key(sel, "y", t0 + 0.55, ye, "power1.in");
+    api.key("#lrT" + i, "rotation", 0, i * 20); api.key("#lrT" + i, "rotation", t0, i * 20, "none"); api.key("#lrT" + i, "rotation", t0 + 0.55, 80 + (i % 2) * 20, "sine.inOut"); });
   Wc.pose(tI + 0.2, 0.3, { pupX: -4, pupY: -20, upRot: 0, lid: 0 }, "power2.out");
   Wc.mouth(tI + 0.4, "grin");
   // vụt tắt: run lập cập
-  var tRun = tCaring + 0.3;
+  var tRun = tTat + 0.1;
   Wc.mouth(tRun, "o");
   Wc.pose(tRun, 0.12, { eye: 1.15, pupX: 0, pupY: 0, sy: 0.84 }, "power2.out");
   for (var r = 0; r < 12; r++) api.key("#Wc", "x", tRun + r * 0.05, CX2 + (r % 2 ? 6 : -6), "none");

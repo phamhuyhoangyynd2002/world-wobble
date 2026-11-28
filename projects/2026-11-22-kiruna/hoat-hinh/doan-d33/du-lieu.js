@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 17.8,
- "bat_dau_tuyet_doi": 488.304,
+ "bat_dau_tuyet_doi": 485.328,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: nhiệt kế giấy to; một tờ nghiên cứu giấy (dòng kẻ, không chữ) có mũi tên chỉ xuống; sơ đồ mặt cắt: trung tâm mới nằm trong một chỗ trũng hình cái bát, khí lạnh xanh nhạt chảy xuống đọng đầy bát như nước",
  "trang_phuc": "Wob vẽ tay, MÙA ĐÔNG (gọn): áo phao xanh lam #3D5A80 MỘT túi vá bên phải, mũ len xanh lá thông #4F7A5A quả bông kem, khăn kem #EFE3C8 sọc xanh lá thông #4F7A5A (sọc thấy rõ), ba lô ô liu cỡ thường, giày đỏ; khăn quấn HAI vòng",
@@ -24,7 +24,7 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "January averages about minus eleven Celsius. That's around twelve Fahrenheit.",
-   "hanh_dong": "[nhiet-ke-tut] Nhiệt kế tụt xuống; thẻ −11°C · 12°F ở \"minus eleven\" (≈ 489.89 s)",
+   "hanh_dong": "[nhiet-ke-tut] Nhiệt kế tụt xuống; thẻ −11°C · 12°F ở \"minus eleven\" (≈ 486.92 s)",
    "gag": "Wob thở ra khói trắng, cố thổi thành một vòng tròn khói; vòng khói bay lên móc vào quả bông mũ len (ở −11°C hơi thở chỉ thành khói, không đóng cục)",
    "dao_cu": [],
    "sfx": []
@@ -49,7 +49,7 @@ window.HH_DATA = {
    "tai": 14.038,
    "loi": "Cold air pools in the dip where it was built, the way water fills a bowl.",
    "hanh_dong": "Khí lạnh xanh nhạt chảy xuống, đọng đầy chỗ trũng như nước đổ vào bát",
-   "gag": "Wob đứng trên VÀNH bát phía trung tâm cũ, múc một muôi khí lạnh xanh lên nếm đúng \"bowl.\" (≈ 505.56 s), rùng mình, đổ lại vào bát; giữ tới cắt 506.10 s",
+   "gag": "Wob đứng trên VÀNH bát phía trung tâm cũ, múc một muôi khí lạnh xanh lên nếm đúng \"bowl.\" (≈ 502.58 s), rùng mình, đổ lại vào bát; giữ tới cắt 503.13 s",
    "dao_cu": [
     "muoi-mu"
    ],
@@ -60,7 +60,7 @@ window.HH_DATA = {
   {
    "scene": 12,
    "bat_dau": -14.412,
-   "thoi_luong": 54.984,
+   "thoi_luong": 55.536,
    "tu": [
     {
      "text": "That",
@@ -810,152 +810,162 @@ window.HH_DATA = {
     {
      "text": "would",
      "start": 33.175,
-     "end": 33.276
+     "end": 33.288
     },
     {
      "text": "have",
-     "start": 33.288,
-     "end": 33.388
+     "start": 33.3,
+     "end": 33.4
     },
     {
      "text": "liked",
-     "start": 33.4,
-     "end": 33.588
+     "start": 33.413,
+     "end": 33.626
     },
     {
      "text": "to",
-     "start": 33.601,
-     "end": 33.65
+     "start": 33.638,
+     "end": 33.7
     },
     {
-     "text": "turn",
-     "start": 33.663,
-     "end": 33.951
+     "text": "grow",
+     "start": 33.713,
+     "end": 33.95
     },
     {
-     "text": "white",
+     "text": "feathers",
      "start": 33.963,
-     "end": 34.238
+     "end": 34.488
     },
     {
      "text": "and",
-     "start": 34.251,
-     "end": 34.338
+     "start": 34.501,
+     "end": 34.601
     },
     {
-     "text": "stop",
-     "start": 34.351,
-     "end": 34.638
-    },
-    {
-     "text": "caring.",
-     "start": 34.65,
-     "end": 35.063
-    },
-    {
-     "text": "Instead",
-     "start": 35.425,
-     "end": 35.876
-    },
-    {
-     "text": "I",
-     "start": 35.888,
-     "end": 35.925
-    },
-    {
-     "text": "went",
-     "start": 35.938,
-     "end": 36.138
-    },
-    {
-     "text": "back",
-     "start": 36.15,
-     "end": 36.351
-    },
-    {
-     "text": "to",
-     "start": 36.363,
-     "end": 36.425
-    },
-    {
-     "text": "my",
-     "start": 36.438,
-     "end": 36.638
-    },
-    {
-     "text": "room,",
-     "start": 36.65,
-     "end": 36.95
-    },
-    {
-     "text": "slid",
-     "start": 37.251,
-     "end": 37.476
-    },
-    {
-     "text": "the",
-     "start": 37.488,
-     "end": 37.563
-    },
-    {
-     "text": "key",
-     "start": 37.575,
-     "end": 37.776
-    },
-    {
-     "text": "off",
-     "start": 37.788,
-     "end": 37.938
-    },
-    {
-     "text": "my",
-     "start": 37.95,
-     "end": 38.088
-    },
-    {
-     "text": "key",
-     "start": 38.101,
-     "end": 38.338
-    },
-    {
-     "text": "ring",
-     "start": 38.351,
-     "end": 38.551
-    },
-    {
-     "text": "again,",
-     "start": 38.563,
-     "end": 38.876
-    },
-    {
-     "text": "and",
-     "start": 39.263,
-     "end": 39.313
-    },
-    {
-     "text": "put",
-     "start": 39.325,
-     "end": 39.513
-    },
-    {
-     "text": "it",
-     "start": 39.526,
-     "end": 39.601
+     "text": "sit",
+     "start": 34.613,
+     "end": 34.85
     },
     {
      "text": "in",
-     "start": 39.613,
-     "end": 39.688
+     "start": 34.863,
+     "end": 34.925
     },
     {
      "text": "a",
-     "start": 39.7,
-     "end": 39.75
+     "start": 34.938,
+     "end": 34.976
+    },
+    {
+     "text": "snowbank.",
+     "start": 34.988,
+     "end": 35.626
+    },
+    {
+     "text": "Instead",
+     "start": 35.988,
+     "end": 36.438
+    },
+    {
+     "text": "I",
+     "start": 36.45,
+     "end": 36.488
+    },
+    {
+     "text": "went",
+     "start": 36.501,
+     "end": 36.701
+    },
+    {
+     "text": "back",
+     "start": 36.713,
+     "end": 36.913
+    },
+    {
+     "text": "to",
+     "start": 36.925,
+     "end": 36.988
+    },
+    {
+     "text": "my",
+     "start": 37.001,
+     "end": 37.201
+    },
+    {
+     "text": "room,",
+     "start": 37.213,
+     "end": 37.513
+    },
+    {
+     "text": "slid",
+     "start": 37.813,
+     "end": 38.038
+    },
+    {
+     "text": "the",
+     "start": 38.05,
+     "end": 38.126
+    },
+    {
+     "text": "key",
+     "start": 38.138,
+     "end": 38.338
+    },
+    {
+     "text": "off",
+     "start": 38.351,
+     "end": 38.501
+    },
+    {
+     "text": "my",
+     "start": 38.513,
+     "end": 38.65
+    },
+    {
+     "text": "key",
+     "start": 38.663,
+     "end": 38.9
+    },
+    {
+     "text": "ring",
+     "start": 38.913,
+     "end": 39.113
+    },
+    {
+     "text": "again,",
+     "start": 39.126,
+     "end": 39.438
+    },
+    {
+     "text": "and",
+     "start": 39.825,
+     "end": 39.875
+    },
+    {
+     "text": "put",
+     "start": 39.888,
+     "end": 40.075
+    },
+    {
+     "text": "it",
+     "start": 40.088,
+     "end": 40.163
+    },
+    {
+     "text": "in",
+     "start": 40.175,
+     "end": 40.251
+    },
+    {
+     "text": "a",
+     "start": 40.263,
+     "end": 40.313
     },
     {
      "text": "drawer.",
-     "start": 39.763,
-     "end": 40.188
+     "start": 40.325,
+     "end": 40.75
     }
    ],
    "khau_hinh": [

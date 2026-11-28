@@ -440,7 +440,7 @@
     },
     {
       "type": "section",
-      "chapter": "Why Wait Until 1900?",
+      "chapter": "Two Terrible Guesses",
       "lop": "hoi-uc",
       "khuon": "doan-sai-roi-lat",
       "role": "chương 2 (đoán sai rồi lật), phần đoán: giả thuyết 1 cực quang/du lịch (kỷ lục 607.818 đêm nghỉ 2024, nhưng thị trấn có trước), giả thuyết 2 Icehotel (1989, Jukkasjärvi ~17 km, 89 năm sau thị trấn). KHÔNG nhắc tàu, đường sắt, cảng",
@@ -551,7 +551,7 @@
       "type": "section",
       "lop": "hoi-uc",
       "role": "LỜI GIẢI CHÍNH (dap_an_chinh): tàu quặng 68 toa ~750 m (≈7 sân bóng); quặng giàu phốt-pho thành có giá nhờ phương pháp Thomas thập niên 1870 (C57); quặng cần ra biển; bờ biển Thuỵ Điển ở Luleå, vịnh Bothnia đóng băng 5–6 tháng; đường sắt vượt núi sang Narvik (Na Uy), Gulf Stream giữ cảng không đóng băng; đường tới Kiruna ~1900, nối Narvik 1902, vua khánh thành 1903; ~12 đoàn có hàng/ngày; Luleå vẫn chở quặng nhờ tàu phá băng. map-kiruna-rail xuất hiện lần đầu ở đây",
-      "narration": "The real answer rolled past me at a level crossing on the way back. An ore train. Up to sixty-eight wagons, about seven hundred and fifty metres long. Roughly seven football pitches of iron. I started counting wagons and lost count. Twice. First, the ore had a flaw. It is rich in phosphorus, and in older furnaces that made the iron brittle. In the eighteen-seventies, a new method, the Thomas process, turned that flaw into a selling point. That left the bigger problem. Iron is no use inside a mountain. It has to reach the sea. Sweden's own coast is to the east, at Luleå, on the Gulf of Bothnia. That sea freezes over every winter. A port like that is a shop whose front door freezes shut every winter. So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast. Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year. The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two. The king opened it officially in nineteen oh three. Today, about twelve loaded trains a day still run from Kiruna to Narvik. Luleå ships ore too, with icebreakers helping in winter. The iron had been waiting for a door that opens in January.",
+      "narration": "The real answer rolled past me at a level crossing on the way back. An ore train. Up to sixty-eight wagons, about seven hundred and fifty metres long. Roughly seven football pitches of iron. I started counting wagons and lost count. Twice. First, the ore had a flaw. It is rich in phosphorus, and in older furnaces that made the iron brittle. In the eighteen-seventies, a new method, the Thomas process, turned that flaw into a selling point. That left the bigger problem. Iron is no use inside a mountain. It has to reach the sea. Sweden's own coast is to the east, at Luleå, on the Gulf of Bothnia. That sea freezes over every winter. So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast. Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year. The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two. The king opened it officially in nineteen oh three. Today, about twelve loaded trains a day still run from Kiruna to Narvik. Luleå ships ore too, with icebreakers helping in winter. So the iron had been waiting for a furnace that liked it, and a train to the sea.",
       "pronunciation": "Luleå: LOO-leh-oh",
       "facts": [
         {
@@ -599,11 +599,6 @@
           "y": "Vịnh Bothnia trên bản đồ phủ băng trắng dần; cảng Luleå thành một tảng băng có con tàu giấy kẹt giữa"
         },
         {
-          "cue": "a shop whose front door freezes shut every winter",
-          "y": "Bong bóng tưởng tượng vẽ tay: cửa hàng nhỏ, cửa trước đóng băng, khách đứng ngoài đẩy không được",
-          "gag": "Biển 'OPEN' treo trên cửa cũng đóng băng cứng, kêu 'cạch' khi Wob gõ thử"
-        },
-        {
           "cue": "So they ran a railway the other way, over the mountains",
           "y": "Đường ray nét đứt màu đất nung vẽ dần từ Kiruna về phía tây, leo qua dãy núi giấy, xuống tới bờ biển"
         },
@@ -620,7 +615,7 @@
           "y": "Thẻ ~12 a day; trên bản đồ những chấm tàu nhỏ chạy nối nhau Kiruna → Narvik"
         },
         {
-          "cue": "a door that opens in January",
+          "cue": "a train to the sea",
           "y": "Wob đứng ở rào chắn, chìa khoá phòng thuê thò ra khỏi túi áo; tàu vẫn đang chạy qua phía sau; giữ hình"
         }
       ],
@@ -664,7 +659,7 @@
         },
         {
           "show": "asset:map-kiruna-rail",
-          "cue": "The iron had been waiting",
+          "cue": "So the iron had been waiting",
           "move": "still",
           "zoom": 1.1
         }
@@ -683,7 +678,7 @@
           "bieu_cam": "hao-hung"
         },
         {
-          "cue": "a door that opens in January",
+          "cue": "a train to the sea",
           "bieu_cam": "ngam-nghi"
         }
       ],
@@ -1035,7 +1030,7 @@
       "lop": "hoi-uc",
       "khuon": "so-sanh-doi-thuong",
       "role": "chương 4 (so sánh đời thường), mồi lại: tám ngày sau khi nhà thờ tới nơi (28/8/2025), LKAB công bố thêm ~6.000 người, ~2.700 nhà trong khoảng 10 năm; tổng theo LKAB ~12.000 người, ~5.400 nhà, ~2/3 thị trấn; bồi thường: nhà tương đương hoặc giá thị trường +25% do thẩm định viên độc lập",
-      "narration": "Eight days after the church parked, LKAB presented a new forecast. About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years. Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town. I held my key ring and said nothing for a while. So what happens to a house in the way? Picture moving house, except your whole street is moving too, and the mine is paying for the van. Homeowners get a choice. LKAB can build them an equivalent new home. Or it pays the market value plus twenty-five percent, set by an independent valuer. I asked myself what my key ring was worth. An independent valuer would have said, sentimental.",
+      "narration": "Eight days after the church parked, LKAB presented a new forecast. About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years. Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town itself. I held my key ring and said nothing for a while. So what happens to a house in the way? I tried to imagine packing a whole street into one van, with the mine paying for it. Homeowners get a choice. LKAB can build them an equivalent new home. Or it pays the market value plus twenty-five percent, set by an independent valuer. I asked myself what my key ring was worth. An independent valuer would have said, sentimental.",
       "facts": [
         {
           "label": "Affected in total (LKAB)",
@@ -1070,7 +1065,7 @@
           "y": "Wob đứng trên vỉa hè, cầm chùm chìa, nhìn các mái nhà sáng đèn; im lặng; giữ hình"
         },
         {
-          "cue": "Picture moving house, except your whole street is moving too",
+          "cue": "I tried to imagine packing a whole street into one van",
           "y": "Bong bóng tưởng tượng vẽ tay: một xe tải dọn nhà chở nguyên cả dãy phố (nhà, cây, cột đèn, hộp thư) đi trên đường; một bàn tay giấy ghi 'paid' dán lên xe",
           "gag": "Một hộp thư trên xe tải vẫy cờ đỏ nhỏ chào khi xe chạy qua; một cây thông trên xe phải cúi đầu khi chui qua cầu"
         },
@@ -1109,7 +1104,7 @@
         },
         {
           "show": "asset:map-kiruna-centre",
-          "cue": "Picture moving house",
+          "cue": "I tried to imagine packing",
           "move": "pan-right"
         },
         {
@@ -1133,7 +1128,7 @@
           "bieu_cam": "ngam-nghi"
         },
         {
-          "cue": "Picture moving house",
+          "cue": "I tried to imagine packing",
           "bieu_cam": "dong-goi"
         },
         {
@@ -1251,7 +1246,7 @@
       "lop": "hoi-uc",
       "khuon": "hai-mua",
       "role": "chương 5 (hai mùa), phần đông: tháng 12/2025, đêm vùng cực ~11/12–1/1 (~3 tuần); tháng 1 TB ≈ −11 °C (≈12 °F, SMHI 1991–2020); một nghiên cứu: trung tâm mới mùa đông có thể lạnh hơn tới 10 độ (mức C, rào); tên Sámi Giron = gà gô núi; ĐỔI Ý LẦN 3: chìa khoá tháo khỏi chùm, cất ngăn kéo",
-      "narration": "That December, I went back for the dark. In Kiruna, the sun stays below the horizon from about the eleventh of December to the first of January. That's about three weeks without a sunrise. At noon, the sky went pink at the edges, then gave up. January averages about minus eleven Celsius. That's around twelve Fahrenheit. And the new centre has a problem of its own. According to a University of Gothenburg study, winter temperatures there can be noticeably lower than at the old site. Cold air pools in the dip where it was built, the way water fills a bowl. Narrow streets and tall blocks keep the low sun off the pavement. On the new square, the wind found me in seconds. The town's North Sámi name is Giron. It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter. I would have liked to turn white and stop caring. Instead I went back to my room, slid the key off my key ring again, and put it in a drawer.",
+      "narration": "That December, I went back for the dark. In Kiruna, the sun stays below the horizon from about the eleventh of December to the first of January. That's about three weeks without a sunrise. At noon, the sky went pink at the edges, then gave up. January averages about minus eleven Celsius. That's around twelve Fahrenheit. And the new centre has a problem of its own. According to a University of Gothenburg study, winter temperatures there can be noticeably lower than at the old site. Cold air pools in the dip where it was built, the way water fills a bowl. Narrow streets and tall blocks keep the low sun off the pavement. On the new square, the wind found me in seconds. The town's North Sámi name is Giron. It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter. I would have liked to grow feathers and sit in a snowbank. Instead I went back to my room, slid the key off my key ring again, and put it in a drawer.",
       "pronunciation": "Giron: GHEE-ron",
       "facts": [
         {
@@ -1653,10 +1648,10 @@
     },
     {
       "type": "outro",
-      "chapter": "Lamp On, Lamp Off",
+      "chapter": "A Nail Facing East",
       "lop": "hien-tai",
       "role": "outro ở bàn (khuôn khác tập 5): Wob bật/tắt đèn bàn trên chìa khoá để kể hai mùa; lý do người ta ở (đi theo quặng, dời thị trấn thay vì bỏ đi); đóng dấu SUMMER ONLY trong ánh đèn; ai hợp hơn Wob; chìa khoá treo trên đinh bên cửa sổ, hướng đông (callback hook); câu hỏi bình luận",
-      "narration": "The key lives under my desk lamp now. Lamp on. That's June. Sun at midnight, a church you can walk beside, a cinnamon bun at the roadside. Lamp off. That's December. Weeks without a sunrise, and a new square that holds the cold. Lamp on again. I'm not made of stone. Kiruna didn't come here for the weather. It came for the iron, and when the iron started pulling the ground away, the town picked up its church and kept going. I admire that a lot. I just can't do the dark. Summer only. I'd come every June, help carry something heavy, and leave before the sun does. If you like snow, quiet and a project measured in decades, you'd outlast me easily. I hung the key on a nail by my window, pointing east, in case its door turns up. Would you move your whole town to keep your job?",
+      "narration": "The key lives under my desk lamp now. Lamp on. That's June. Sun at midnight, a church you can walk beside, a cinnamon bun at the roadside. Lamp off. That's December. Weeks without a sunrise, and a new square that holds the cold. Lamp on again. I'm not made of stone. Kiruna didn't come here for the weather. It came for the iron, and when the iron started pulling the ground away, the town picked up its church and kept going. I admire that a lot. Not everyone got to choose, and the reindeer still need a way through. As for me, I can't do the dark. Summer only. I'd come every June, help carry something heavy, and leave before the sun does. If you like snow, quiet and a project measured in decades, you'd outlast me easily. I hung the key on a nail by my window, pointing east, in case its door turns up. What would you refuse to move, even for a mine?",
       "verdict": {
         "label": "SUMMER ONLY",
         "reason": "Kiruna followed its iron (worth mining once a railway reached an ice-free Norwegian harbour) and, when the mine began swallowing the ground, moved its centre rather than leave, which Wob admires; but weeks without sunrise, a new centre that one study found can be colder than the old one, and a nightly blast mean Wob would only come for the midnight-sun summer.",
@@ -1698,7 +1693,7 @@
           "gag": "Chìa khoá dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó; Wob nhìn nó, nhìn người xem"
         },
         {
-          "cue": "Would you move your whole town to keep your job",
+          "cue": "What would you refuse to move, even for a mine",
           "y": "Wob quay ra phía người xem, tay chỉ vào chìa khoá trên đinh; giữ hình"
         }
       ],
@@ -1764,7 +1759,7 @@
           "bieu_cam": "hao-hung"
         },
         {
-          "cue": "Would you move your whole town",
+          "cue": "What would you refuse to move",
           "bieu_cam": "ngam-nghi"
         }
       ],
@@ -1774,7 +1769,7 @@
       "type": "duoi",
       "lop": "hien-tai",
       "role": "đuôi tập (skill mo-ket): chìa khoá lên kệ trên đinh riêng, cạnh bưu thiếp tập 5 và lọ opal tập 2; nhá tập 7 bằng tất ẩm và mưa, không tên nơi, không số",
-      "narration": "The key goes on the shelf, on a nail of its own, beside the postcard that lost the race home. Behind them, the opal jar still rattles mostly air. Next, I am packing every sock I own. I hear the rain there takes its time.",
+      "narration": "Up on the shelf, the key gets a nail of its own. The postcard leans on the opal jar, which still rattles mostly air. My socks are already nervous about the next trip. I hear the rain there takes its time.",
       "duoi": {
         "ky_vat": "chìa khoá sắt cũ có thẻ gỗ buộc dây đỏ (phòng thuê ở trung tâm cũ Kiruna, cánh cửa không còn)",
         "nhin_lai": [
@@ -1783,25 +1778,25 @@
         ],
         "nha_tap_sau": {
           "slug": "2026-11-22-mawsynram",
-          "cue": "every sock I own",
+          "cue": "My socks are already nervous",
           "goi_y": "ngôi làng mưa rất nhiều: tất không khô, mưa kéo dài; không nêu tên, không số"
         }
       },
       "y_hinh": [
         {
-          "cue": "The key goes on the shelf",
+          "cue": "Up on the shelf, the key gets a nail",
           "y": "Kệ kỷ vật (diorama): Wob treo chìa khoá lên một cái đinh nhỏ trên kệ, thẻ tên 'Kiruna' bên dưới"
         },
         {
-          "cue": "beside the postcard that lost the race home",
+          "cue": "The postcard leans on the opal jar",
           "y": "Bưu thiếp Tristan da Cunha dựng cạnh, tem quay ra ngoài; bưu thiếp nghiêng nhẹ về phía chìa khoá"
         },
         {
-          "cue": "the opal jar still rattles mostly air",
+          "cue": "which still rattles mostly air",
           "y": "Lọ opal Coober Pedy rung lách cách khi Wob chạm kệ"
         },
         {
-          "cue": "Next, I am packing every sock I own",
+          "cue": "My socks are already nervous",
           "y": "Bản đồ giấy mở ra, ghim mới cắm ở Kiruna; một ghim trống rung ở vùng tập sau (chỉ hình giấy gợi ý); Wob nhét một chồng tất vào va li, một chiếc tất rỉ một giọt nước"
         },
         {
@@ -1811,11 +1806,11 @@
       ],
       "wob": [
         {
-          "cue": "The key goes on the shelf",
+          "cue": "Up on the shelf, the key gets a nail",
           "bieu_cam": "ngam-nghi"
         },
         {
-          "cue": "Next, I am packing",
+          "cue": "My socks are already nervous",
           "bieu_cam": "dong-goi"
         }
       ],
@@ -2186,7 +2181,7 @@
     {
       "id": "C34",
       "scene": 10,
-      "quote": "Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town.",
+      "quote": "Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town itself.",
       "statement": "According to LKAB, Kiruna's urban transformation now affects about 12,000 people and about 5,400 homes in total, roughly two thirds of the town.",
       "source_ids": [
         "S30"

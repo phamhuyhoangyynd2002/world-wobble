@@ -10,8 +10,8 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 20.45,
- "bat_dau_tuyet_doi": 650.808,
+ "thoi_luong": 21.2,
+ "bat_dau_tuyet_doi": 649.134,
  "lop": "hien-tai",
  "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, cốc trà; cửa sổ ở BÊN TRÁI bàn, sát kệ kỷ vật (đinh treo chìa ở khung cửa sổ, d46); chìa Kiruna nằm DƯỚI đèn bàn; trang hộ chiếu Kiruna (cùng mẫu thẻ d03: THẺ HỘ CHIẾU giấy: KIRUNA cỡ ≥ 72 px hệ 1920, dòng SWEDEN và dòng Would Wob move here? ≥ 54 px, một ô con dấu vuông còn trống; thẻ ở góc trái trên x 96–900, y 54–540) mở cạnh, ô con dấu trống; trên sổ các trang pop-up nhỏ: mặt trời, nhà thờ đỏ nhỏ, bánh quế; rồi một quảng trường giấy nhỏ có vũng lạnh xanh; rồi map-kiruna-rail dán trên sổ (đường đỏ sang Narvik). Công tắc đèn bàn nhìn rõ",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); tay không (bật tắt đèn), cuối đoạn ôm chân đèn rồi buông",
@@ -25,7 +25,7 @@ window.HH_DATA = {
  ],
  "nhip": [
   {
-   "tai": 1.0,
+   "tai": 1.75,
    "loi": "The key lives under my desk lamp now.",
    "hanh_dong": "[luot-smootherstep] Đèn bàn đang tắt, bàn tối nhạt; camera lướt tới chìa khoá nằm dưới chân đèn, trang hộ chiếu Kiruna mở cạnh, ô dấu còn trống",
    "gag": "",
@@ -36,9 +36,9 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 3.325,
+   "tai": 4.075,
    "loi": "Lamp on. That's June.",
-   "hanh_dong": "Wob bật công tắc đúng \"on.\" (≈ 654.51 s): bàn sáng vàng ấm, bóng chìa khoá đổ ngắn",
+   "hanh_dong": "Wob bật công tắc đúng \"on.\" (≈ 653.58 s): bàn sáng vàng ấm, bóng chìa khoá đổ ngắn",
    "gag": "",
    "dao_cu": [
     "den-ban"
@@ -48,9 +48,9 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 5.25,
+   "tai": 6.0,
    "loi": "Sun at midnight, a church you can walk beside, a cinnamon bun at the roadside.",
-   "hanh_dong": "Trên trang sổ ba pop-up nhỏ bật dựng 0–3 khung trước từng chữ: mặt trời (\"Sun\" ≈ 656.06 s), nhà thờ đỏ (\"church\" ≈ 657.31 s), bánh quế (\"cinnamon\" ≈ 659.06 s); Wob chỉ vào từng cái, mặt sáng lên",
+   "hanh_dong": "Trên trang sổ ba pop-up nhỏ bật dựng 0–3 khung trước từng chữ: mặt trời (\"Sun\" ≈ 655.13 s), nhà thờ đỏ (\"church\" ≈ 656.38 s), bánh quế (\"cinnamon\" ≈ 658.13 s); Wob chỉ vào từng cái, mặt sáng lên",
    "gag": "",
    "dao_cu": [
     "so-du-lich"
@@ -58,9 +58,9 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 10.075,
+   "tai": 10.825,
    "loi": "Lamp off. That's December.",
-   "hanh_dong": "Wob tắt công tắc đúng \"off.\" (≈ 661.23 s): bàn tối xanh, chỉ còn ánh trăng giấy; ba pop-up gập nằm xuống; Wob run nhẹ",
+   "hanh_dong": "Wob tắt công tắc đúng \"off.\" (≈ 660.31 s): bàn tối xanh, chỉ còn ánh trăng giấy; ba pop-up gập nằm xuống; Wob run nhẹ",
    "gag": "",
    "dao_cu": [
     "den-ban"
@@ -68,7 +68,7 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 12.287,
+   "tai": 13.037,
    "loi": "Weeks without a sunrise, and a new square that holds the cold.",
    "hanh_dong": "Trong tối, một quảng trường giấy nhỏ bật dựng, giữa có vũng lạnh xanh nhạt; Wob ôm lấy mình",
    "gag": "",
@@ -78,10 +78,10 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 15.887,
+   "tai": 16.637,
    "loi": "Lamp on again. I'm not made of stone.",
    "hanh_dong": "[take-cham] Wob mò mẫm trong tối tìm công tắc hai nhịp",
-   "gag": "Đèn bật lại đúng \"again.\" (≈ 667.15 s): Wob đang ôm chặt chân đèn như ôm lò sưởi; ở \"stone.\" Wob vẫn ôm, quay ra nhìn người xem; giữ 0,6 s",
+   "gag": "Đèn bật lại đúng \"again.\" (≈ 666.22 s): Wob đang ôm chặt chân đèn như ôm lò sưởi; ở \"stone.\" Wob vẫn ôm, quay ra nhìn người xem; giữ 0,6 s",
    "dao_cu": [
     "den-ban"
    ],
@@ -90,7 +90,7 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 18.5,
+   "tai": 19.25,
    "loi": "Kiruna didn't come here for the weather.",
    "hanh_dong": "Wob buông chân đèn, lật sổ tới map-kiruna-rail, gõ ngón tay lên đường đỏ sang Narvik",
    "gag": "",
@@ -106,1899 +106,1974 @@ window.HH_DATA = {
  "loi": [
   {
    "scene": 16,
-   "bat_dau": 1.0,
-   "thoi_luong": 46.704,
+   "bat_dau": 1.75,
+   "thoi_luong": 51.24,
    "tu": [
     {
      "text": "The",
-     "start": 1.1,
-     "end": 1.287
+     "start": 1.85,
+     "end": 2.037
     },
     {
      "text": "key",
-     "start": 1.3,
-     "end": 1.475
+     "start": 2.05,
+     "end": 2.225
     },
     {
      "text": "lives",
-     "start": 1.487,
-     "end": 1.812
+     "start": 2.237,
+     "end": 2.562
     },
     {
      "text": "under",
-     "start": 1.825,
-     "end": 1.975
+     "start": 2.575,
+     "end": 2.725
     },
     {
      "text": "my",
-     "start": 1.988,
-     "end": 2.088
+     "start": 2.738,
+     "end": 2.838
     },
     {
      "text": "desk",
-     "start": 2.1,
-     "end": 2.438
+     "start": 2.85,
+     "end": 3.188
     },
     {
      "text": "lamp",
-     "start": 2.45,
-     "end": 2.712
+     "start": 3.2,
+     "end": 3.462
     },
     {
      "text": "now.",
-     "start": 2.725,
-     "end": 2.963
+     "start": 3.475,
+     "end": 3.713
     },
     {
      "text": "Lamp",
-     "start": 3.325,
-     "end": 3.688
+     "start": 4.075,
+     "end": 4.438
     },
     {
      "text": "on.",
-     "start": 3.7,
-     "end": 3.963
+     "start": 4.45,
+     "end": 4.713
     },
     {
      "text": "That's",
-     "start": 4.325,
-     "end": 4.588
+     "start": 5.075,
+     "end": 5.338
     },
     {
      "text": "June.",
-     "start": 4.6,
-     "end": 4.888
-    },
-    {
-     "text": "Sun",
-     "start": 5.25,
-     "end": 5.55
-    },
-    {
-     "text": "at",
-     "start": 5.562,
+     "start": 5.35,
      "end": 5.638
     },
     {
-     "text": "midnight,",
-     "start": 5.65,
-     "end": 6.1
-    },
-    {
-     "text": "a",
-     "start": 6.463,
-     "end": 6.488
-    },
-    {
-     "text": "church",
-     "start": 6.5,
-     "end": 6.812
-    },
-    {
-     "text": "you",
-     "start": 6.825,
-     "end": 6.9
-    },
-    {
-     "text": "can",
-     "start": 6.912,
-     "end": 7.05
-    },
-    {
-     "text": "walk",
-     "start": 7.062,
-     "end": 7.3
-    },
-    {
-     "text": "beside,",
-     "start": 7.312,
-     "end": 7.838
-    },
-    {
-     "text": "a",
-     "start": 8.2,
-     "end": 8.237
-    },
-    {
-     "text": "cinnamon",
-     "start": 8.25,
-     "end": 8.7
-    },
-    {
-     "text": "bun",
-     "start": 8.713,
-     "end": 8.9
+     "text": "Sun",
+     "start": 6.0,
+     "end": 6.3
     },
     {
      "text": "at",
-     "start": 8.912,
-     "end": 8.987
+     "start": 6.312,
+     "end": 6.388
     },
     {
-     "text": "the",
-     "start": 9.0,
-     "end": 9.088
-    },
-    {
-     "text": "roadside.",
-     "start": 9.1,
-     "end": 9.713
-    },
-    {
-     "text": "Lamp",
-     "start": 10.075,
-     "end": 10.412
-    },
-    {
-     "text": "off.",
-     "start": 10.425,
-     "end": 10.738
-    },
-    {
-     "text": "That's",
-     "start": 11.1,
-     "end": 11.375
-    },
-    {
-     "text": "December.",
-     "start": 11.387,
-     "end": 11.925
-    },
-    {
-     "text": "Weeks",
-     "start": 12.287,
-     "end": 12.588
-    },
-    {
-     "text": "without",
-     "start": 12.6,
-     "end": 12.887
+     "text": "midnight,",
+     "start": 6.4,
+     "end": 6.85
     },
     {
      "text": "a",
-     "start": 12.9,
-     "end": 12.938
-    },
-    {
-     "text": "sunrise,",
-     "start": 12.95,
-     "end": 13.65
-    },
-    {
-     "text": "and",
-     "start": 13.85,
-     "end": 13.963
-    },
-    {
-     "text": "a",
-     "start": 13.975,
-     "end": 14.0
-    },
-    {
-     "text": "new",
-     "start": 14.012,
-     "end": 14.25
-    },
-    {
-     "text": "square",
-     "start": 14.262,
-     "end": 14.612
-    },
-    {
-     "text": "that",
-     "start": 14.625,
-     "end": 14.725
-    },
-    {
-     "text": "holds",
-     "start": 14.738,
-     "end": 15.038
-    },
-    {
-     "text": "the",
-     "start": 15.05,
-     "end": 15.138
-    },
-    {
-     "text": "cold.",
-     "start": 15.15,
-     "end": 15.525
-    },
-    {
-     "text": "Lamp",
-     "start": 15.887,
-     "end": 16.237
-    },
-    {
-     "text": "on",
-     "start": 16.25,
-     "end": 16.325
-    },
-    {
-     "text": "again.",
-     "start": 16.338,
-     "end": 16.7
-    },
-    {
-     "text": "I'm",
-     "start": 17.062,
-     "end": 17.275
-    },
-    {
-     "text": "not",
-     "start": 17.288,
-     "end": 17.45
-    },
-    {
-     "text": "made",
-     "start": 17.462,
-     "end": 17.625
-    },
-    {
-     "text": "of",
-     "start": 17.637,
-     "end": 17.712
-    },
-    {
-     "text": "stone.",
-     "start": 17.725,
-     "end": 18.138
-    },
-    {
-     "text": "Kiruna",
-     "start": 18.5,
-     "end": 18.975
-    },
-    {
-     "text": "didn't",
-     "start": 18.988,
-     "end": 19.225
-    },
-    {
-     "text": "come",
-     "start": 19.238,
-     "end": 19.45
-    },
-    {
-     "text": "here",
-     "start": 19.462,
-     "end": 19.637
-    },
-    {
-     "text": "for",
-     "start": 19.65,
-     "end": 19.75
-    },
-    {
-     "text": "the",
-     "start": 19.762,
-     "end": 19.85
-    },
-    {
-     "text": "weather.",
-     "start": 19.863,
-     "end": 20.238
-    },
-    {
-     "text": "It",
-     "start": 20.6,
-     "end": 20.788
-    },
-    {
-     "text": "came",
-     "start": 20.8,
-     "end": 21.025
-    },
-    {
-     "text": "for",
-     "start": 21.038,
-     "end": 21.15
-    },
-    {
-     "text": "the",
-     "start": 21.163,
-     "end": 21.275
-    },
-    {
-     "text": "iron,",
-     "start": 21.288,
-     "end": 21.713
-    },
-    {
-     "text": "and",
-     "start": 22.062,
-     "end": 22.137
-    },
-    {
-     "text": "when",
-     "start": 22.15,
-     "end": 22.262
-    },
-    {
-     "text": "the",
-     "start": 22.275,
-     "end": 22.362
-    },
-    {
-     "text": "iron",
-     "start": 22.375,
-     "end": 22.688
-    },
-    {
-     "text": "started",
-     "start": 22.7,
-     "end": 23.075
-    },
-    {
-     "text": "pulling",
-     "start": 23.087,
-     "end": 23.438
-    },
-    {
-     "text": "the",
-     "start": 23.45,
-     "end": 23.537
-    },
-    {
-     "text": "ground",
-     "start": 23.55,
-     "end": 23.825
-    },
-    {
-     "text": "away,",
-     "start": 23.837,
-     "end": 24.2
-    },
-    {
-     "text": "the",
-     "start": 24.462,
-     "end": 24.562
-    },
-    {
-     "text": "town",
-     "start": 24.575,
-     "end": 24.863
-    },
-    {
-     "text": "picked",
-     "start": 24.875,
-     "end": 25.125
-    },
-    {
-     "text": "up",
-     "start": 25.137,
-     "end": 25.25
-    },
-    {
-     "text": "its",
-     "start": 25.262,
-     "end": 25.4
+     "start": 7.213,
+     "end": 7.238
     },
     {
      "text": "church",
-     "start": 25.413,
-     "end": 25.788
+     "start": 7.25,
+     "end": 7.562
+    },
+    {
+     "text": "you",
+     "start": 7.575,
+     "end": 7.65
+    },
+    {
+     "text": "can",
+     "start": 7.662,
+     "end": 7.8
+    },
+    {
+     "text": "walk",
+     "start": 7.812,
+     "end": 8.05
+    },
+    {
+     "text": "beside,",
+     "start": 8.062,
+     "end": 8.588
+    },
+    {
+     "text": "a",
+     "start": 8.95,
+     "end": 8.987
+    },
+    {
+     "text": "cinnamon",
+     "start": 9.0,
+     "end": 9.45
+    },
+    {
+     "text": "bun",
+     "start": 9.463,
+     "end": 9.65
+    },
+    {
+     "text": "at",
+     "start": 9.662,
+     "end": 9.737
+    },
+    {
+     "text": "the",
+     "start": 9.75,
+     "end": 9.838
+    },
+    {
+     "text": "roadside.",
+     "start": 9.85,
+     "end": 10.463
+    },
+    {
+     "text": "Lamp",
+     "start": 10.825,
+     "end": 11.162
+    },
+    {
+     "text": "off.",
+     "start": 11.175,
+     "end": 11.488
+    },
+    {
+     "text": "That's",
+     "start": 11.85,
+     "end": 12.125
+    },
+    {
+     "text": "December.",
+     "start": 12.137,
+     "end": 12.675
+    },
+    {
+     "text": "Weeks",
+     "start": 13.037,
+     "end": 13.338
+    },
+    {
+     "text": "without",
+     "start": 13.35,
+     "end": 13.637
+    },
+    {
+     "text": "a",
+     "start": 13.65,
+     "end": 13.688
+    },
+    {
+     "text": "sunrise,",
+     "start": 13.7,
+     "end": 14.4
     },
     {
      "text": "and",
-     "start": 25.887,
-     "end": 25.975
+     "start": 14.6,
+     "end": 14.713
     },
     {
-     "text": "kept",
-     "start": 25.988,
-     "end": 26.275
+     "text": "a",
+     "start": 14.725,
+     "end": 14.75
     },
     {
-     "text": "going.",
-     "start": 26.288,
-     "end": 26.625
+     "text": "new",
+     "start": 14.762,
+     "end": 15.0
     },
     {
-     "text": "I",
-     "start": 26.988,
-     "end": 27.2
-    },
-    {
-     "text": "admire",
-     "start": 27.212,
-     "end": 27.562
+     "text": "square",
+     "start": 15.012,
+     "end": 15.362
     },
     {
      "text": "that",
-     "start": 27.575,
-     "end": 27.7
+     "start": 15.375,
+     "end": 15.475
     },
     {
-     "text": "a",
-     "start": 27.712,
-     "end": 27.75
-    },
-    {
-     "text": "lot.",
-     "start": 27.762,
-     "end": 28.175
-    },
-    {
-     "text": "I",
-     "start": 28.538,
-     "end": 28.688
-    },
-    {
-     "text": "just",
-     "start": 28.7,
-     "end": 28.938
-    },
-    {
-     "text": "can't",
-     "start": 28.95,
-     "end": 29.212
-    },
-    {
-     "text": "do",
-     "start": 29.225,
-     "end": 29.312
+     "text": "holds",
+     "start": 15.488,
+     "end": 15.788
     },
     {
      "text": "the",
-     "start": 29.325,
-     "end": 29.425
+     "start": 15.8,
+     "end": 15.888
     },
     {
-     "text": "dark.",
-     "start": 29.438,
-     "end": 29.8
+     "text": "cold.",
+     "start": 15.9,
+     "end": 16.275
     },
     {
-     "text": "Summer",
-     "start": 30.163,
-     "end": 30.562
-    },
-    {
-     "text": "only.",
-     "start": 30.575,
-     "end": 30.875
-    },
-    {
-     "text": "I'd",
-     "start": 31.238,
-     "end": 31.425
-    },
-    {
-     "text": "come",
-     "start": 31.438,
-     "end": 31.55
-    },
-    {
-     "text": "every",
-     "start": 31.562,
-     "end": 31.762
-    },
-    {
-     "text": "June,",
-     "start": 31.775,
-     "end": 32.1
-    },
-    {
-     "text": "help",
-     "start": 32.5,
-     "end": 32.663
-    },
-    {
-     "text": "carry",
-     "start": 32.675,
-     "end": 32.963
-    },
-    {
-     "text": "something",
-     "start": 32.975,
-     "end": 33.3
-    },
-    {
-     "text": "heavy,",
-     "start": 33.312,
-     "end": 33.775
-    },
-    {
-     "text": "and",
-     "start": 34.013,
-     "end": 34.138
-    },
-    {
-     "text": "leave",
-     "start": 34.15,
-     "end": 34.337
-    },
-    {
-     "text": "before",
-     "start": 34.35,
-     "end": 34.625
-    },
-    {
-     "text": "the",
-     "start": 34.638,
-     "end": 34.7
-    },
-    {
-     "text": "sun",
-     "start": 34.712,
-     "end": 34.962
-    },
-    {
-     "text": "does.",
-     "start": 34.975,
-     "end": 35.35
-    },
-    {
-     "text": "If",
-     "start": 35.712,
-     "end": 35.913
-    },
-    {
-     "text": "you",
-     "start": 35.925,
-     "end": 36.0
-    },
-    {
-     "text": "like",
-     "start": 36.013,
-     "end": 36.2
-    },
-    {
-     "text": "snow,",
-     "start": 36.212,
-     "end": 36.612
-    },
-    {
-     "text": "quiet",
-     "start": 36.7,
-     "end": 37.113
-    },
-    {
-     "text": "and",
-     "start": 37.175,
-     "end": 37.262
-    },
-    {
-     "text": "a",
-     "start": 37.275,
-     "end": 37.337
-    },
-    {
-     "text": "project",
-     "start": 37.35,
-     "end": 37.863
-    },
-    {
-     "text": "measured",
-     "start": 37.875,
-     "end": 38.175
-    },
-    {
-     "text": "in",
-     "start": 38.188,
-     "end": 38.288
-    },
-    {
-     "text": "decades,",
-     "start": 38.3,
-     "end": 38.85
-    },
-    {
-     "text": "you'd",
-     "start": 39.1,
-     "end": 39.212
-    },
-    {
-     "text": "outlast",
-     "start": 39.225,
-     "end": 39.738
-    },
-    {
-     "text": "me",
-     "start": 39.75,
-     "end": 39.875
-    },
-    {
-     "text": "easily.",
-     "start": 39.888,
-     "end": 40.338
-    },
-    {
-     "text": "I",
-     "start": 40.7,
-     "end": 40.863
-    },
-    {
-     "text": "hung",
-     "start": 40.875,
-     "end": 41.05
-    },
-    {
-     "text": "the",
-     "start": 41.062,
-     "end": 41.163
-    },
-    {
-     "text": "key",
-     "start": 41.175,
-     "end": 41.412
+     "text": "Lamp",
+     "start": 16.637,
+     "end": 16.987
     },
     {
      "text": "on",
-     "start": 41.425,
-     "end": 41.525
+     "start": 17.0,
+     "end": 17.075
     },
     {
-     "text": "a",
-     "start": 41.538,
-     "end": 41.575
+     "text": "again.",
+     "start": 17.088,
+     "end": 17.45
     },
     {
-     "text": "nail",
-     "start": 41.587,
-     "end": 41.875
+     "text": "I'm",
+     "start": 17.812,
+     "end": 18.025
     },
     {
-     "text": "by",
-     "start": 41.888,
-     "end": 42.0
+     "text": "not",
+     "start": 18.038,
+     "end": 18.2
     },
     {
-     "text": "my",
-     "start": 42.013,
-     "end": 42.188
+     "text": "made",
+     "start": 18.212,
+     "end": 18.375
     },
     {
-     "text": "window,",
-     "start": 42.2,
-     "end": 42.65
+     "text": "of",
+     "start": 18.387,
+     "end": 18.462
     },
     {
-     "text": "pointing",
-     "start": 42.913,
-     "end": 43.263
+     "text": "stone.",
+     "start": 18.475,
+     "end": 18.888
     },
     {
-     "text": "east,",
-     "start": 43.275,
-     "end": 43.587
+     "text": "Kiruna",
+     "start": 19.25,
+     "end": 19.725
     },
     {
-     "text": "in",
-     "start": 43.825,
-     "end": 43.938
+     "text": "didn't",
+     "start": 19.738,
+     "end": 19.975
     },
     {
-     "text": "case",
-     "start": 43.95,
-     "end": 44.213
+     "text": "come",
+     "start": 19.988,
+     "end": 20.2
     },
     {
-     "text": "its",
-     "start": 44.225,
-     "end": 44.35
+     "text": "here",
+     "start": 20.212,
+     "end": 20.387
     },
     {
-     "text": "door",
-     "start": 44.362,
-     "end": 44.587
+     "text": "for",
+     "start": 20.4,
+     "end": 20.5
     },
     {
-     "text": "turns",
-     "start": 44.6,
-     "end": 44.925
+     "text": "the",
+     "start": 20.512,
+     "end": 20.6
     },
     {
-     "text": "up.",
-     "start": 44.938,
-     "end": 45.175
+     "text": "weather.",
+     "start": 20.613,
+     "end": 20.988
     },
     {
-     "text": "Would",
-     "start": 45.538,
-     "end": 45.725
+     "text": "It",
+     "start": 21.35,
+     "end": 21.538
     },
     {
-     "text": "you",
-     "start": 45.737,
-     "end": 45.8
+     "text": "came",
+     "start": 21.55,
+     "end": 21.775
     },
     {
-     "text": "move",
-     "start": 45.812,
-     "end": 46.013
+     "text": "for",
+     "start": 21.788,
+     "end": 21.9
     },
     {
-     "text": "your",
-     "start": 46.025,
-     "end": 46.112
+     "text": "the",
+     "start": 21.913,
+     "end": 22.025
     },
     {
-     "text": "whole",
-     "start": 46.125,
-     "end": 46.337
+     "text": "iron,",
+     "start": 22.038,
+     "end": 22.463
+    },
+    {
+     "text": "and",
+     "start": 22.812,
+     "end": 22.887
+    },
+    {
+     "text": "when",
+     "start": 22.9,
+     "end": 23.012
+    },
+    {
+     "text": "the",
+     "start": 23.025,
+     "end": 23.112
+    },
+    {
+     "text": "iron",
+     "start": 23.125,
+     "end": 23.438
+    },
+    {
+     "text": "started",
+     "start": 23.45,
+     "end": 23.825
+    },
+    {
+     "text": "pulling",
+     "start": 23.837,
+     "end": 24.188
+    },
+    {
+     "text": "the",
+     "start": 24.2,
+     "end": 24.287
+    },
+    {
+     "text": "ground",
+     "start": 24.3,
+     "end": 24.575
+    },
+    {
+     "text": "away,",
+     "start": 24.587,
+     "end": 24.95
+    },
+    {
+     "text": "the",
+     "start": 25.212,
+     "end": 25.312
     },
     {
      "text": "town",
-     "start": 46.35,
-     "end": 46.562
+     "start": 25.325,
+     "end": 25.613
+    },
+    {
+     "text": "picked",
+     "start": 25.625,
+     "end": 25.875
+    },
+    {
+     "text": "up",
+     "start": 25.887,
+     "end": 26.0
+    },
+    {
+     "text": "its",
+     "start": 26.012,
+     "end": 26.15
+    },
+    {
+     "text": "church",
+     "start": 26.163,
+     "end": 26.538
+    },
+    {
+     "text": "and",
+     "start": 26.637,
+     "end": 26.725
+    },
+    {
+     "text": "kept",
+     "start": 26.738,
+     "end": 27.025
+    },
+    {
+     "text": "going.",
+     "start": 27.038,
+     "end": 27.375
+    },
+    {
+     "text": "I",
+     "start": 27.738,
+     "end": 27.95
+    },
+    {
+     "text": "admire",
+     "start": 27.962,
+     "end": 28.312
+    },
+    {
+     "text": "that",
+     "start": 28.325,
+     "end": 28.45
+    },
+    {
+     "text": "a",
+     "start": 28.462,
+     "end": 28.5
+    },
+    {
+     "text": "lot.",
+     "start": 28.512,
+     "end": 28.925
+    },
+    {
+     "text": "Not",
+     "start": 29.288,
+     "end": 29.55
+    },
+    {
+     "text": "everyone",
+     "start": 29.575,
+     "end": 29.9
+    },
+    {
+     "text": "got",
+     "start": 29.913,
+     "end": 30.062
     },
     {
      "text": "to",
-     "start": 46.575,
-     "end": 46.638
+     "start": 30.075,
+     "end": 30.125
     },
     {
-     "text": "keep",
-     "start": 46.65,
-     "end": 46.825
+     "text": "choose,",
+     "start": 30.137,
+     "end": 30.65
     },
     {
-     "text": "your",
-     "start": 46.837,
-     "end": 46.925
+     "text": "and",
+     "start": 30.837,
+     "end": 30.938
     },
     {
-     "text": "job?",
-     "start": 46.938,
-     "end": 47.325
+     "text": "the",
+     "start": 30.95,
+     "end": 31.037
+    },
+    {
+     "text": "reindeer",
+     "start": 31.05,
+     "end": 31.425
+    },
+    {
+     "text": "still",
+     "start": 31.438,
+     "end": 31.688
+    },
+    {
+     "text": "need",
+     "start": 31.7,
+     "end": 31.85
+    },
+    {
+     "text": "a",
+     "start": 31.863,
+     "end": 31.913
+    },
+    {
+     "text": "way",
+     "start": 31.925,
+     "end": 32.113
+    },
+    {
+     "text": "through.",
+     "start": 32.125,
+     "end": 32.45
+    },
+    {
+     "text": "As",
+     "start": 32.812,
+     "end": 33.075
+    },
+    {
+     "text": "for",
+     "start": 33.087,
+     "end": 33.262
+    },
+    {
+     "text": "me,",
+     "start": 33.275,
+     "end": 33.475
+    },
+    {
+     "text": "I",
+     "start": 33.763,
+     "end": 33.875
+    },
+    {
+     "text": "can't",
+     "start": 33.888,
+     "end": 34.163
+    },
+    {
+     "text": "do",
+     "start": 34.175,
+     "end": 34.262
+    },
+    {
+     "text": "the",
+     "start": 34.275,
+     "end": 34.362
+    },
+    {
+     "text": "dark.",
+     "start": 34.375,
+     "end": 34.712
+    },
+    {
+     "text": "Summer",
+     "start": 35.075,
+     "end": 35.475
+    },
+    {
+     "text": "only.",
+     "start": 35.487,
+     "end": 35.787
+    },
+    {
+     "text": "I'd",
+     "start": 36.15,
+     "end": 36.337
+    },
+    {
+     "text": "come",
+     "start": 36.35,
+     "end": 36.462
+    },
+    {
+     "text": "every",
+     "start": 36.475,
+     "end": 36.675
+    },
+    {
+     "text": "June,",
+     "start": 36.688,
+     "end": 37.013
+    },
+    {
+     "text": "help",
+     "start": 37.413,
+     "end": 37.575
+    },
+    {
+     "text": "carry",
+     "start": 37.587,
+     "end": 37.875
+    },
+    {
+     "text": "something",
+     "start": 37.888,
+     "end": 38.213
+    },
+    {
+     "text": "heavy,",
+     "start": 38.225,
+     "end": 38.688
+    },
+    {
+     "text": "and",
+     "start": 38.925,
+     "end": 39.05
+    },
+    {
+     "text": "leave",
+     "start": 39.062,
+     "end": 39.25
+    },
+    {
+     "text": "before",
+     "start": 39.263,
+     "end": 39.538
+    },
+    {
+     "text": "the",
+     "start": 39.55,
+     "end": 39.612
+    },
+    {
+     "text": "sun",
+     "start": 39.625,
+     "end": 39.875
+    },
+    {
+     "text": "does.",
+     "start": 39.888,
+     "end": 40.263
+    },
+    {
+     "text": "If",
+     "start": 40.625,
+     "end": 40.825
+    },
+    {
+     "text": "you",
+     "start": 40.837,
+     "end": 40.913
+    },
+    {
+     "text": "like",
+     "start": 40.925,
+     "end": 41.112
+    },
+    {
+     "text": "snow,",
+     "start": 41.125,
+     "end": 41.525
+    },
+    {
+     "text": "quiet",
+     "start": 41.612,
+     "end": 42.025
+    },
+    {
+     "text": "and",
+     "start": 42.087,
+     "end": 42.175
+    },
+    {
+     "text": "a",
+     "start": 42.188,
+     "end": 42.25
+    },
+    {
+     "text": "project",
+     "start": 42.263,
+     "end": 42.775
+    },
+    {
+     "text": "measured",
+     "start": 42.788,
+     "end": 43.087
+    },
+    {
+     "text": "in",
+     "start": 43.1,
+     "end": 43.2
+    },
+    {
+     "text": "decades,",
+     "start": 43.212,
+     "end": 43.762
+    },
+    {
+     "text": "you'd",
+     "start": 44.013,
+     "end": 44.125
+    },
+    {
+     "text": "outlast",
+     "start": 44.138,
+     "end": 44.65
+    },
+    {
+     "text": "me",
+     "start": 44.663,
+     "end": 44.788
+    },
+    {
+     "text": "easily.",
+     "start": 44.8,
+     "end": 45.25
+    },
+    {
+     "text": "I",
+     "start": 45.612,
+     "end": 45.775
+    },
+    {
+     "text": "hung",
+     "start": 45.788,
+     "end": 45.962
+    },
+    {
+     "text": "the",
+     "start": 45.975,
+     "end": 46.075
+    },
+    {
+     "text": "key",
+     "start": 46.087,
+     "end": 46.325
+    },
+    {
+     "text": "on",
+     "start": 46.337,
+     "end": 46.438
+    },
+    {
+     "text": "a",
+     "start": 46.45,
+     "end": 46.488
+    },
+    {
+     "text": "nail",
+     "start": 46.5,
+     "end": 46.788
+    },
+    {
+     "text": "by",
+     "start": 46.8,
+     "end": 46.912
+    },
+    {
+     "text": "my",
+     "start": 46.925,
+     "end": 47.1
+    },
+    {
+     "text": "window,",
+     "start": 47.112,
+     "end": 47.562
+    },
+    {
+     "text": "pointing",
+     "start": 47.825,
+     "end": 48.175
+    },
+    {
+     "text": "east,",
+     "start": 48.188,
+     "end": 48.5
+    },
+    {
+     "text": "in",
+     "start": 48.737,
+     "end": 48.85
+    },
+    {
+     "text": "case",
+     "start": 48.862,
+     "end": 49.125
+    },
+    {
+     "text": "its",
+     "start": 49.138,
+     "end": 49.263
+    },
+    {
+     "text": "door",
+     "start": 49.275,
+     "end": 49.5
+    },
+    {
+     "text": "turns",
+     "start": 49.513,
+     "end": 49.838
+    },
+    {
+     "text": "up.",
+     "start": 49.85,
+     "end": 50.087
+    },
+    {
+     "text": "What",
+     "start": 50.45,
+     "end": 50.625
+    },
+    {
+     "text": "would",
+     "start": 50.638,
+     "end": 50.738
+    },
+    {
+     "text": "you",
+     "start": 50.75,
+     "end": 50.812
+    },
+    {
+     "text": "refuse",
+     "start": 50.825,
+     "end": 51.2
+    },
+    {
+     "text": "to",
+     "start": 51.212,
+     "end": 51.3
+    },
+    {
+     "text": "move,",
+     "start": 51.312,
+     "end": 51.663
+    },
+    {
+     "text": "even",
+     "start": 51.837,
+     "end": 52.025
+    },
+    {
+     "text": "for",
+     "start": 52.038,
+     "end": 52.188
+    },
+    {
+     "text": "a",
+     "start": 52.2,
+     "end": 52.238
+    },
+    {
+     "text": "mine?",
+     "start": 52.25,
+     "end": 52.625
     }
    ],
    "khau_hinh": [
     {
-     "start": 1.0,
-     "end": 1.433,
+     "start": 1.75,
+     "end": 2.183,
      "value": "X"
     },
     {
-     "start": 1.433,
-     "end": 1.567,
+     "start": 2.183,
+     "end": 2.317,
      "value": "D"
     },
     {
-     "start": 1.567,
-     "end": 1.833,
+     "start": 2.317,
+     "end": 2.583,
      "value": "D"
     },
     {
-     "start": 1.833,
-     "end": 2.133,
+     "start": 2.583,
+     "end": 2.883,
      "value": "F"
     },
     {
-     "start": 2.133,
-     "end": 2.333,
+     "start": 2.883,
+     "end": 3.083,
      "value": "B"
     },
     {
-     "start": 2.333,
-     "end": 2.433,
+     "start": 3.083,
+     "end": 3.183,
      "value": "C"
     },
     {
-     "start": 2.433,
-     "end": 2.5,
+     "start": 3.183,
+     "end": 3.25,
      "value": "X"
     },
     {
-     "start": 2.5,
-     "end": 2.7,
+     "start": 3.25,
+     "end": 3.45,
      "value": "B"
     },
     {
-     "start": 2.7,
-     "end": 2.8,
+     "start": 3.45,
+     "end": 3.55,
      "value": "X"
     },
     {
-     "start": 2.8,
-     "end": 3.0,
+     "start": 3.55,
+     "end": 3.75,
      "value": "B"
     },
     {
-     "start": 3.0,
-     "end": 3.533,
+     "start": 3.75,
+     "end": 4.283,
      "value": "X"
     },
     {
-     "start": 3.533,
-     "end": 3.833,
+     "start": 4.283,
+     "end": 4.583,
      "value": "D"
     },
     {
-     "start": 3.833,
-     "end": 3.967,
+     "start": 4.583,
+     "end": 4.717,
      "value": "B"
     },
     {
-     "start": 3.967,
-     "end": 4.7,
+     "start": 4.717,
+     "end": 5.45,
      "value": "X"
     },
     {
-     "start": 4.7,
-     "end": 4.9,
+     "start": 5.45,
+     "end": 5.65,
      "value": "F"
     },
     {
-     "start": 4.9,
-     "end": 5.433,
+     "start": 5.65,
+     "end": 6.183,
      "value": "X"
     },
     {
-     "start": 5.433,
-     "end": 5.733,
+     "start": 6.183,
+     "end": 6.483,
      "value": "F"
     },
     {
-     "start": 5.733,
-     "end": 5.967,
+     "start": 6.483,
+     "end": 6.717,
      "value": "D"
     },
     {
-     "start": 5.967,
-     "end": 6.1,
+     "start": 6.717,
+     "end": 6.85,
      "value": "B"
     },
     {
-     "start": 6.1,
-     "end": 6.533,
+     "start": 6.85,
+     "end": 7.283,
      "value": "X"
     },
     {
-     "start": 6.533,
-     "end": 6.6,
+     "start": 7.283,
+     "end": 7.35,
      "value": "B"
     },
     {
-     "start": 6.6,
-     "end": 6.8,
+     "start": 7.35,
+     "end": 7.55,
      "value": "F"
     },
     {
-     "start": 6.8,
-     "end": 7.033,
+     "start": 7.55,
+     "end": 7.783,
      "value": "B"
     },
     {
-     "start": 7.033,
-     "end": 7.167,
+     "start": 7.783,
+     "end": 7.917,
      "value": "D"
     },
     {
-     "start": 7.167,
-     "end": 7.333,
+     "start": 7.917,
+     "end": 8.083,
      "value": "D"
     },
     {
-     "start": 7.333,
-     "end": 7.4,
+     "start": 8.083,
+     "end": 8.15,
      "value": "X"
     },
     {
-     "start": 7.4,
-     "end": 7.6,
+     "start": 8.15,
+     "end": 8.35,
      "value": "C"
     },
     {
-     "start": 7.6,
-     "end": 7.7,
+     "start": 8.35,
+     "end": 8.45,
      "value": "D"
     },
     {
-     "start": 7.7,
-     "end": 7.767,
+     "start": 8.45,
+     "end": 8.517,
      "value": "C"
     },
     {
-     "start": 7.767,
-     "end": 7.867,
+     "start": 8.517,
+     "end": 8.617,
      "value": "B"
     },
     {
-     "start": 7.867,
-     "end": 8.233,
+     "start": 8.617,
+     "end": 8.983,
      "value": "X"
     },
     {
-     "start": 8.233,
-     "end": 8.3,
+     "start": 8.983,
+     "end": 9.05,
      "value": "B"
     },
     {
-     "start": 8.3,
-     "end": 8.567,
+     "start": 9.05,
+     "end": 9.317,
      "value": "C"
     },
     {
-     "start": 8.567,
-     "end": 8.8,
+     "start": 9.317,
+     "end": 9.55,
      "value": "D"
     },
     {
-     "start": 8.8,
-     "end": 8.9,
+     "start": 9.55,
+     "end": 9.65,
      "value": "F"
     },
     {
-     "start": 8.9,
-     "end": 9.067,
+     "start": 9.65,
+     "end": 9.817,
      "value": "B"
     },
     {
-     "start": 9.067,
-     "end": 9.267,
+     "start": 9.817,
+     "end": 10.017,
      "value": "B"
     },
     {
-     "start": 9.267,
-     "end": 9.4,
+     "start": 10.017,
+     "end": 10.15,
      "value": "B"
     },
     {
-     "start": 9.4,
-     "end": 9.467,
+     "start": 10.15,
+     "end": 10.217,
      "value": "C"
     },
     {
-     "start": 9.467,
-     "end": 9.667,
+     "start": 10.217,
+     "end": 10.417,
      "value": "B"
     },
     {
-     "start": 9.667,
-     "end": 10.267,
+     "start": 10.417,
+     "end": 11.017,
      "value": "X"
     },
     {
-     "start": 10.267,
-     "end": 10.533,
+     "start": 11.017,
+     "end": 11.283,
      "value": "D"
     },
     {
-     "start": 10.533,
-     "end": 10.6,
+     "start": 11.283,
+     "end": 11.35,
      "value": "C"
     },
     {
-     "start": 10.6,
-     "end": 10.667,
+     "start": 11.35,
+     "end": 11.417,
      "value": "B"
     },
     {
-     "start": 10.667,
-     "end": 11.333,
+     "start": 11.417,
+     "end": 12.083,
      "value": "X"
     },
     {
-     "start": 11.333,
-     "end": 11.567,
+     "start": 12.083,
+     "end": 12.317,
      "value": "B"
     },
     {
-     "start": 11.567,
-     "end": 11.667,
+     "start": 12.317,
+     "end": 12.417,
      "value": "C"
     },
     {
-     "start": 11.667,
-     "end": 11.8,
+     "start": 12.417,
+     "end": 12.55,
      "value": "D"
     },
     {
-     "start": 11.8,
-     "end": 11.933,
+     "start": 12.55,
+     "end": 12.683,
      "value": "B"
     },
     {
-     "start": 11.933,
-     "end": 12.667,
+     "start": 12.683,
+     "end": 13.417,
      "value": "X"
     },
     {
-     "start": 12.667,
-     "end": 12.8,
+     "start": 13.417,
+     "end": 13.55,
      "value": "F"
     },
     {
-     "start": 12.8,
-     "end": 12.9,
+     "start": 13.55,
+     "end": 13.65,
      "value": "F"
     },
     {
-     "start": 12.9,
-     "end": 13.0,
+     "start": 13.65,
+     "end": 13.75,
      "value": "C"
     },
     {
-     "start": 13.0,
-     "end": 13.4,
+     "start": 13.75,
+     "end": 14.15,
      "value": "F"
     },
     {
-     "start": 13.4,
-     "end": 13.667,
+     "start": 14.15,
+     "end": 14.417,
      "value": "B"
     },
     {
-     "start": 13.667,
-     "end": 14.033,
+     "start": 14.417,
+     "end": 14.783,
      "value": "X"
     },
     {
-     "start": 14.033,
-     "end": 14.2,
+     "start": 14.783,
+     "end": 14.95,
      "value": "D"
     },
     {
-     "start": 14.2,
-     "end": 14.267,
+     "start": 14.95,
+     "end": 15.017,
      "value": "C"
     },
     {
-     "start": 14.267,
-     "end": 14.433,
+     "start": 15.017,
+     "end": 15.183,
      "value": "F"
     },
     {
-     "start": 14.433,
-     "end": 14.5,
+     "start": 15.183,
+     "end": 15.25,
      "value": "X"
     },
     {
-     "start": 14.5,
-     "end": 14.733,
+     "start": 15.25,
+     "end": 15.483,
      "value": "F"
     },
     {
-     "start": 14.733,
-     "end": 14.9,
+     "start": 15.483,
+     "end": 15.65,
      "value": "B"
     },
     {
-     "start": 14.9,
-     "end": 15.0,
+     "start": 15.65,
+     "end": 15.75,
      "value": "D"
     },
     {
-     "start": 15.0,
-     "end": 15.133,
+     "start": 15.75,
+     "end": 15.883,
      "value": "B"
     },
     {
-     "start": 15.133,
-     "end": 15.233,
+     "start": 15.883,
+     "end": 15.983,
      "value": "B"
     },
     {
-     "start": 15.233,
-     "end": 15.3,
+     "start": 15.983,
+     "end": 16.05,
      "value": "B"
     },
     {
-     "start": 15.3,
-     "end": 15.4,
+     "start": 16.05,
+     "end": 16.15,
      "value": "D"
     },
     {
-     "start": 15.4,
-     "end": 15.5,
+     "start": 16.15,
+     "end": 16.25,
      "value": "B"
     },
     {
-     "start": 15.5,
-     "end": 16.1,
+     "start": 16.25,
+     "end": 16.85,
      "value": "X"
     },
     {
-     "start": 16.1,
-     "end": 16.5,
+     "start": 16.85,
+     "end": 17.25,
      "value": "D"
     },
     {
-     "start": 16.5,
-     "end": 16.7,
+     "start": 17.25,
+     "end": 17.45,
      "value": "B"
     },
     {
-     "start": 16.7,
-     "end": 17.233,
+     "start": 17.45,
+     "end": 17.983,
      "value": "X"
     },
     {
-     "start": 17.233,
-     "end": 17.367,
+     "start": 17.983,
+     "end": 18.117,
      "value": "D"
     },
     {
-     "start": 17.367,
-     "end": 17.533,
+     "start": 18.117,
+     "end": 18.283,
      "value": "D"
     },
     {
-     "start": 17.533,
-     "end": 17.7,
+     "start": 18.283,
+     "end": 18.45,
      "value": "D"
     },
     {
-     "start": 17.7,
-     "end": 17.933,
+     "start": 18.45,
+     "end": 18.683,
      "value": "B"
     },
     {
-     "start": 17.933,
-     "end": 18.0,
+     "start": 18.683,
+     "end": 18.75,
      "value": "D"
     },
     {
-     "start": 18.0,
-     "end": 18.133,
+     "start": 18.75,
+     "end": 18.883,
      "value": "C"
     },
     {
-     "start": 18.133,
-     "end": 18.7,
+     "start": 18.883,
+     "end": 19.45,
      "value": "X"
     },
     {
-     "start": 18.7,
-     "end": 19.0,
+     "start": 19.45,
+     "end": 19.75,
      "value": "F"
     },
     {
-     "start": 19.0,
-     "end": 19.133,
+     "start": 19.75,
+     "end": 19.883,
      "value": "B"
     },
     {
-     "start": 19.133,
-     "end": 19.3,
+     "start": 19.883,
+     "end": 20.05,
      "value": "C"
     },
     {
-     "start": 19.3,
-     "end": 19.433,
+     "start": 20.05,
+     "end": 20.183,
      "value": "B"
     },
     {
-     "start": 19.433,
-     "end": 19.5,
+     "start": 20.183,
+     "end": 20.25,
      "value": "C"
     },
     {
-     "start": 19.5,
-     "end": 19.567,
+     "start": 20.25,
+     "end": 20.317,
      "value": "B"
     },
     {
-     "start": 19.567,
-     "end": 19.7,
+     "start": 20.317,
+     "end": 20.45,
      "value": "D"
     },
     {
-     "start": 19.7,
-     "end": 19.767,
+     "start": 20.45,
+     "end": 20.517,
      "value": "X"
     },
     {
-     "start": 19.767,
-     "end": 19.967,
+     "start": 20.517,
+     "end": 20.717,
      "value": "B"
     },
     {
-     "start": 19.967,
-     "end": 20.067,
+     "start": 20.717,
+     "end": 20.817,
      "value": "C"
     },
     {
-     "start": 20.067,
-     "end": 20.267,
+     "start": 20.817,
+     "end": 21.017,
      "value": "B"
     },
     {
-     "start": 20.267,
-     "end": 21.233,
+     "start": 21.017,
+     "end": 21.983,
      "value": "X"
     },
     {
-     "start": 21.233,
-     "end": 21.3,
+     "start": 21.983,
+     "end": 22.05,
      "value": "D"
     },
     {
-     "start": 21.3,
-     "end": 21.433,
+     "start": 22.05,
+     "end": 22.183,
      "value": "C"
     },
     {
-     "start": 21.433,
-     "end": 21.533,
+     "start": 22.183,
+     "end": 22.283,
      "value": "D"
     },
     {
-     "start": 21.533,
-     "end": 21.6,
+     "start": 22.283,
+     "end": 22.35,
      "value": "C"
     },
     {
-     "start": 21.6,
-     "end": 21.733,
+     "start": 22.35,
+     "end": 22.483,
      "value": "B"
     },
     {
-     "start": 21.733,
-     "end": 22.133,
+     "start": 22.483,
+     "end": 22.883,
      "value": "X"
     },
     {
-     "start": 22.133,
-     "end": 22.633,
+     "start": 22.883,
+     "end": 23.383,
      "value": "D"
     },
     {
-     "start": 22.633,
-     "end": 22.7,
+     "start": 23.383,
+     "end": 23.45,
      "value": "D"
     },
     {
-     "start": 22.7,
-     "end": 22.867,
+     "start": 23.45,
+     "end": 23.617,
      "value": "C"
     },
     {
-     "start": 22.867,
-     "end": 23.0,
+     "start": 23.617,
+     "end": 23.75,
      "value": "C"
     },
     {
-     "start": 23.0,
-     "end": 23.133,
+     "start": 23.75,
+     "end": 23.883,
      "value": "C"
     },
     {
-     "start": 23.133,
-     "end": 23.267,
+     "start": 23.883,
+     "end": 24.017,
      "value": "X"
     },
     {
-     "start": 23.267,
-     "end": 23.533,
+     "start": 24.017,
+     "end": 24.283,
      "value": "F"
     },
     {
-     "start": 23.533,
-     "end": 23.7,
+     "start": 24.283,
+     "end": 24.45,
      "value": "B"
     },
     {
-     "start": 23.7,
-     "end": 23.833,
+     "start": 24.45,
+     "end": 24.583,
      "value": "F"
     },
     {
-     "start": 23.833,
-     "end": 24.067,
+     "start": 24.583,
+     "end": 24.817,
      "value": "B"
     },
     {
-     "start": 24.067,
-     "end": 24.167,
+     "start": 24.817,
+     "end": 24.917,
      "value": "C"
     },
     {
-     "start": 24.167,
-     "end": 24.267,
+     "start": 24.917,
+     "end": 25.017,
      "value": "B"
     },
     {
-     "start": 24.267,
-     "end": 24.733,
+     "start": 25.017,
+     "end": 25.483,
      "value": "X"
     },
     {
-     "start": 24.733,
-     "end": 24.933,
+     "start": 25.483,
+     "end": 25.683,
      "value": "F"
     },
     {
-     "start": 24.933,
-     "end": 25.033,
+     "start": 25.683,
+     "end": 25.783,
      "value": "X"
     },
     {
-     "start": 25.033,
-     "end": 25.1,
+     "start": 25.783,
+     "end": 25.85,
      "value": "C"
     },
     {
-     "start": 25.1,
-     "end": 25.167,
+     "start": 25.85,
+     "end": 25.917,
      "value": "X"
     },
     {
-     "start": 25.167,
-     "end": 25.367,
+     "start": 25.917,
+     "end": 26.117,
      "value": "F"
     },
     {
-     "start": 25.367,
-     "end": 25.533,
+     "start": 26.117,
+     "end": 26.283,
      "value": "B"
     },
     {
-     "start": 25.533,
-     "end": 25.733,
+     "start": 26.283,
+     "end": 26.483,
      "value": "F"
     },
     {
-     "start": 25.733,
-     "end": 25.833,
+     "start": 26.483,
+     "end": 26.583,
      "value": "B"
     },
     {
-     "start": 25.833,
-     "end": 26.033,
+     "start": 26.583,
+     "end": 26.783,
      "value": "X"
     },
     {
-     "start": 26.033,
-     "end": 26.1,
+     "start": 26.783,
+     "end": 26.85,
      "value": "X"
     },
     {
-     "start": 26.1,
-     "end": 26.267,
+     "start": 26.85,
+     "end": 27.017,
      "value": "B"
     },
     {
-     "start": 26.267,
-     "end": 26.4,
+     "start": 27.017,
+     "end": 27.15,
      "value": "X"
     },
     {
-     "start": 26.4,
-     "end": 26.5,
+     "start": 27.15,
+     "end": 27.25,
      "value": "C"
     },
     {
-     "start": 26.5,
-     "end": 26.6,
+     "start": 27.25,
+     "end": 27.35,
      "value": "B"
     },
     {
-     "start": 26.6,
-     "end": 27.4,
+     "start": 27.35,
+     "end": 28.15,
      "value": "X"
     },
     {
-     "start": 27.4,
-     "end": 27.7,
+     "start": 28.15,
+     "end": 28.45,
      "value": "D"
     },
     {
-     "start": 27.7,
-     "end": 27.833,
+     "start": 28.45,
+     "end": 28.583,
      "value": "B"
     },
     {
-     "start": 27.833,
-     "end": 27.933,
+     "start": 28.583,
+     "end": 28.683,
      "value": "B"
     },
     {
-     "start": 27.933,
-     "end": 28.033,
+     "start": 28.683,
+     "end": 28.783,
      "value": "D"
     },
     {
-     "start": 28.033,
-     "end": 28.167,
+     "start": 28.783,
+     "end": 28.917,
      "value": "B"
     },
     {
-     "start": 28.167,
-     "end": 28.7,
+     "start": 28.917,
+     "end": 29.45,
      "value": "X"
     },
     {
-     "start": 28.7,
-     "end": 29.033,
+     "start": 29.45,
+     "end": 29.783,
      "value": "F"
     },
     {
-     "start": 29.033,
-     "end": 29.133,
+     "start": 29.783,
+     "end": 29.883,
      "value": "B"
     },
     {
-     "start": 29.133,
-     "end": 29.233,
+     "start": 29.883,
+     "end": 29.983,
      "value": "D"
     },
     {
-     "start": 29.233,
-     "end": 29.4,
+     "start": 29.983,
+     "end": 30.15,
      "value": "B"
     },
     {
-     "start": 29.4,
-     "end": 29.533,
+     "start": 30.15,
+     "end": 30.283,
      "value": "B"
     },
     {
-     "start": 29.533,
-     "end": 29.633,
+     "start": 30.283,
+     "end": 30.383,
      "value": "C"
     },
     {
-     "start": 29.633,
-     "end": 29.767,
+     "start": 30.383,
+     "end": 30.517,
      "value": "B"
     },
     {
-     "start": 29.767,
-     "end": 30.367,
+     "start": 30.517,
+     "end": 31.117,
      "value": "X"
     },
     {
-     "start": 30.367,
-     "end": 30.6,
+     "start": 31.117,
+     "end": 31.35,
      "value": "F"
     },
     {
-     "start": 30.6,
-     "end": 30.7,
+     "start": 31.35,
+     "end": 31.45,
      "value": "D"
     },
     {
-     "start": 30.7,
-     "end": 30.767,
+     "start": 31.45,
+     "end": 31.517,
      "value": "C"
     },
     {
-     "start": 30.767,
-     "end": 30.867,
+     "start": 31.517,
+     "end": 31.617,
      "value": "B"
     },
     {
-     "start": 30.867,
-     "end": 31.433,
+     "start": 31.617,
+     "end": 32.183,
      "value": "X"
     },
     {
-     "start": 31.433,
-     "end": 31.567,
+     "start": 32.183,
+     "end": 32.317,
      "value": "B"
     },
     {
-     "start": 31.567,
-     "end": 31.8,
+     "start": 32.317,
+     "end": 32.55,
      "value": "D"
     },
     {
-     "start": 31.8,
-     "end": 31.9,
+     "start": 32.55,
+     "end": 32.65,
      "value": "F"
     },
     {
-     "start": 31.9,
-     "end": 32.1,
+     "start": 32.65,
+     "end": 32.85,
      "value": "F"
     },
     {
-     "start": 32.1,
-     "end": 32.2,
+     "start": 32.85,
+     "end": 32.95,
      "value": "B"
     },
     {
-     "start": 32.2,
-     "end": 32.6,
+     "start": 32.95,
+     "end": 33.35,
      "value": "X"
     },
     {
-     "start": 32.6,
-     "end": 32.7,
+     "start": 33.35,
+     "end": 33.45,
      "value": "D"
     },
     {
-     "start": 32.7,
-     "end": 32.8,
+     "start": 33.45,
+     "end": 33.55,
      "value": "X"
     },
     {
-     "start": 32.8,
-     "end": 33.067,
+     "start": 33.55,
+     "end": 33.817,
      "value": "B"
     },
     {
-     "start": 33.067,
-     "end": 33.367,
+     "start": 33.817,
+     "end": 34.117,
      "value": "C"
     },
     {
-     "start": 33.367,
-     "end": 33.533,
+     "start": 34.117,
+     "end": 34.283,
      "value": "B"
     },
     {
-     "start": 33.533,
-     "end": 33.667,
+     "start": 34.283,
+     "end": 34.417,
      "value": "D"
     },
     {
-     "start": 33.667,
-     "end": 33.833,
+     "start": 34.417,
+     "end": 34.583,
      "value": "C"
     },
     {
-     "start": 33.833,
-     "end": 34.133,
+     "start": 34.583,
+     "end": 34.883,
      "value": "X"
     },
     {
-     "start": 34.133,
-     "end": 34.4,
+     "start": 34.883,
+     "end": 35.15,
      "value": "C"
     },
     {
-     "start": 34.4,
-     "end": 34.533,
+     "start": 35.15,
+     "end": 35.283,
      "value": "B"
     },
     {
-     "start": 34.533,
-     "end": 34.7,
+     "start": 35.283,
+     "end": 35.45,
      "value": "X"
     },
     {
-     "start": 34.7,
-     "end": 34.8,
+     "start": 35.45,
+     "end": 35.55,
      "value": "B"
     },
     {
-     "start": 34.8,
-     "end": 35.033,
+     "start": 35.55,
+     "end": 35.783,
      "value": "F"
     },
     {
-     "start": 35.033,
-     "end": 35.3,
+     "start": 35.783,
+     "end": 36.05,
      "value": "B"
     },
     {
-     "start": 35.3,
-     "end": 35.4,
+     "start": 36.05,
+     "end": 36.15,
      "value": "C"
     },
     {
-     "start": 35.4,
-     "end": 35.933,
+     "start": 36.15,
+     "end": 36.683,
      "value": "X"
     },
     {
-     "start": 35.933,
-     "end": 36.033,
+     "start": 36.683,
+     "end": 36.783,
      "value": "B"
     },
     {
-     "start": 36.033,
-     "end": 36.1,
+     "start": 36.783,
+     "end": 36.85,
      "value": "C"
     },
     {
-     "start": 36.1,
-     "end": 36.2,
+     "start": 36.85,
+     "end": 36.95,
      "value": "D"
     },
     {
-     "start": 36.2,
-     "end": 36.267,
+     "start": 36.95,
+     "end": 37.017,
      "value": "B"
     },
     {
-     "start": 36.267,
-     "end": 36.4,
+     "start": 37.017,
+     "end": 37.15,
      "value": "F"
     },
     {
-     "start": 36.4,
-     "end": 36.667,
+     "start": 37.15,
+     "end": 37.417,
      "value": "F"
     },
     {
-     "start": 36.667,
-     "end": 36.867,
+     "start": 37.417,
+     "end": 37.617,
      "value": "X"
     },
     {
-     "start": 36.867,
-     "end": 37.133,
+     "start": 37.617,
+     "end": 37.883,
      "value": "F"
     },
     {
-     "start": 37.133,
-     "end": 37.233,
+     "start": 37.883,
+     "end": 37.983,
      "value": "X"
     },
     {
-     "start": 37.233,
-     "end": 37.3,
+     "start": 37.983,
+     "end": 38.05,
      "value": "B"
     },
     {
-     "start": 37.3,
-     "end": 37.433,
+     "start": 38.05,
+     "end": 38.183,
      "value": "D"
     },
     {
-     "start": 37.433,
-     "end": 37.533,
+     "start": 38.183,
+     "end": 38.283,
      "value": "X"
     },
     {
-     "start": 37.533,
-     "end": 37.967,
+     "start": 38.283,
+     "end": 38.717,
      "value": "D"
     },
     {
-     "start": 37.967,
-     "end": 38.233,
+     "start": 38.717,
+     "end": 38.983,
      "value": "F"
     },
     {
-     "start": 38.233,
-     "end": 38.433,
+     "start": 38.983,
+     "end": 39.183,
      "value": "B"
     },
     {
-     "start": 38.433,
-     "end": 38.6,
+     "start": 39.183,
+     "end": 39.35,
      "value": "C"
     },
     {
-     "start": 38.6,
-     "end": 38.7,
+     "start": 39.35,
+     "end": 39.45,
      "value": "B"
     },
     {
-     "start": 38.7,
-     "end": 38.933,
+     "start": 39.45,
+     "end": 39.683,
      "value": "B"
     },
     {
-     "start": 38.933,
-     "end": 39.167,
+     "start": 39.683,
+     "end": 39.917,
      "value": "X"
     },
     {
-     "start": 39.167,
-     "end": 39.4,
+     "start": 39.917,
+     "end": 40.15,
      "value": "F"
     },
     {
-     "start": 39.4,
-     "end": 39.467,
+     "start": 40.15,
+     "end": 40.217,
      "value": "B"
     },
     {
-     "start": 39.467,
-     "end": 39.833,
+     "start": 40.217,
+     "end": 40.583,
      "value": "F"
     },
     {
-     "start": 39.833,
-     "end": 40.0,
+     "start": 40.583,
+     "end": 40.75,
      "value": "D"
     },
     {
-     "start": 40.0,
-     "end": 40.1,
+     "start": 40.75,
+     "end": 40.85,
      "value": "D"
     },
     {
-     "start": 40.1,
-     "end": 40.167,
+     "start": 40.85,
+     "end": 40.917,
      "value": "C"
     },
     {
-     "start": 40.167,
-     "end": 40.3,
+     "start": 40.917,
+     "end": 41.05,
      "value": "B"
     },
     {
-     "start": 40.3,
-     "end": 40.9,
+     "start": 41.05,
+     "end": 41.65,
      "value": "X"
     },
     {
-     "start": 40.9,
-     "end": 41.367,
+     "start": 41.65,
+     "end": 42.117,
      "value": "F"
     },
     {
-     "start": 41.367,
-     "end": 41.633,
+     "start": 42.117,
+     "end": 42.383,
      "value": "D"
     },
     {
-     "start": 41.633,
-     "end": 41.733,
+     "start": 42.383,
+     "end": 42.483,
      "value": "B"
     },
     {
-     "start": 41.733,
-     "end": 41.833,
+     "start": 42.483,
+     "end": 42.583,
      "value": "C"
     },
     {
-     "start": 41.833,
-     "end": 41.933,
+     "start": 42.583,
+     "end": 42.683,
      "value": "D"
     },
     {
-     "start": 41.933,
-     "end": 42.067,
+     "start": 42.683,
+     "end": 42.817,
      "value": "B"
     },
     {
-     "start": 42.067,
-     "end": 42.4,
+     "start": 42.817,
+     "end": 43.15,
      "value": "B"
     },
     {
-     "start": 42.4,
-     "end": 42.7,
+     "start": 43.15,
+     "end": 43.45,
      "value": "F"
     },
     {
-     "start": 42.7,
-     "end": 43.1,
+     "start": 43.45,
+     "end": 43.85,
      "value": "X"
     },
     {
-     "start": 43.1,
-     "end": 43.333,
+     "start": 43.85,
+     "end": 44.083,
      "value": "D"
     },
     {
-     "start": 43.333,
-     "end": 43.4,
+     "start": 44.083,
+     "end": 44.15,
      "value": "D"
     },
     {
-     "start": 43.4,
-     "end": 43.6,
+     "start": 44.15,
+     "end": 44.35,
      "value": "C"
     },
     {
-     "start": 43.6,
-     "end": 43.933,
+     "start": 44.35,
+     "end": 44.683,
      "value": "X"
     },
     {
-     "start": 43.933,
-     "end": 44.0,
+     "start": 44.683,
+     "end": 44.75,
      "value": "C"
     },
     {
-     "start": 44.0,
-     "end": 44.133,
+     "start": 44.75,
+     "end": 44.883,
      "value": "B"
     },
     {
-     "start": 44.133,
-     "end": 44.2,
+     "start": 44.883,
+     "end": 44.95,
      "value": "D"
     },
     {
-     "start": 44.2,
-     "end": 44.333,
+     "start": 44.95,
+     "end": 45.083,
      "value": "C"
     },
     {
-     "start": 44.333,
-     "end": 44.5,
+     "start": 45.083,
+     "end": 45.25,
      "value": "B"
     },
     {
-     "start": 44.5,
-     "end": 44.7,
+     "start": 45.25,
+     "end": 45.45,
      "value": "F"
     },
     {
-     "start": 44.7,
-     "end": 44.767,
+     "start": 45.45,
+     "end": 45.517,
      "value": "B"
     },
     {
-     "start": 44.767,
-     "end": 44.9,
+     "start": 45.517,
+     "end": 45.65,
      "value": "F"
     },
     {
-     "start": 44.9,
-     "end": 45.0,
+     "start": 45.65,
+     "end": 45.75,
      "value": "B"
     },
     {
-     "start": 45.0,
-     "end": 45.1,
+     "start": 45.75,
+     "end": 45.85,
      "value": "F"
     },
     {
-     "start": 45.1,
-     "end": 45.167,
+     "start": 45.85,
+     "end": 45.917,
      "value": "B"
     },
     {
-     "start": 45.167,
-     "end": 45.7,
+     "start": 45.917,
+     "end": 46.45,
      "value": "X"
     },
     {
-     "start": 45.7,
-     "end": 45.867,
+     "start": 46.45,
+     "end": 46.617,
      "value": "B"
     },
     {
-     "start": 45.867,
-     "end": 46.167,
+     "start": 46.617,
+     "end": 46.917,
      "value": "D"
     },
     {
-     "start": 46.167,
-     "end": 46.4,
+     "start": 46.917,
+     "end": 47.15,
      "value": "B"
     },
     {
-     "start": 46.4,
-     "end": 46.5,
+     "start": 47.15,
+     "end": 47.25,
      "value": "B"
     },
     {
-     "start": 46.5,
-     "end": 46.6,
+     "start": 47.25,
+     "end": 47.35,
      "value": "F"
     },
     {
-     "start": 46.6,
-     "end": 46.933,
+     "start": 47.35,
+     "end": 47.683,
      "value": "C"
     },
     {
-     "start": 46.933,
-     "end": 47.233,
+     "start": 47.683,
+     "end": 47.983,
      "value": "B"
     },
     {
-     "start": 47.233,
-     "end": 47.367,
+     "start": 47.983,
+     "end": 48.117,
      "value": "C"
     },
     {
-     "start": 47.367,
-     "end": 47.733,
+     "start": 48.117,
+     "end": 48.483,
      "value": "X"
     }
    ]

@@ -10,8 +10,8 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 28.657,
- "bat_dau_tuyet_doi": 232.723,
+ "thoi_luong": 30.026,
+ "bat_dau_tuyet_doi": 228.45,
  "lop": "hoi-uc",
  "boi_canh": "Cận trang sổ map-kiruna-rail như d17; dãy núi giấy giữa Kiruna và bờ biển Na Uy; cảng Narvik giấy: nước xanh #3F6A70, mũi tên ấm màu cam uốn vào vịnh (Gulf Stream), tàu biển giấy cập bến; một lớp tông cũ: dải ruy băng cắt ngang đường ray, một chiếc vương miện giấy lơ lửng trên chiếc kéo (KHÔNG người, KHÔNG mặt); tàu phá băng giấy nhỏ phía Luleå. Cuối đoạn: lại đường ngang (như d15)",
  "trang_phuc": "MÙA ĐÔNG (tháng 2, tháng 12): ÁO KHOÁC CHẦN BÔNG (áo phao) XANH LAM #3D5A80 (đường chần ngang #2B4262, khoá kéo kem #EFE3C8), dài tới ngang hông Wob, MỘT TÚI VÁ bên PHẢI thân áo (nắp túi #2B4262: túi đựng chìa khoá); MŨ LEN XANH LÁ THÔNG #4F7A5A (vành gập #3A5C43, quả bông kem #F6EEDC); KHĂN LEN KEM #EFE3C8 sọc xanh lá thông #4F7A5A; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc. KHÁC mũ len đỏ #C9463A + khăn đỏ #D9543C tập 1, áo mưa vàng #E2B33C tập 3, mũ cói tập 4, áo mưa cam #E07A2E tập 5; cầm sổ, ngón tay lần theo đường; cuối đoạn đứng ở rào chắn đã nâng, chìa khoá thò thẻ gỗ khỏi túi phải",
@@ -31,7 +31,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast.",
-   "hanh_dong": "[trang-so-ban-do] Đường ray nét đứt màu đất nung #E0703A vẽ dần từ Kiruna về phía TÂY từ \"railway\" (≈ 233.10 s), leo qua dãy núi giấy, xuống tới bờ biển; ngón tay Wob lần theo; nhãn Narvik hiện đúng \"Narvik\" (≈ 235.44 s)",
+   "hanh_dong": "[trang-so-ban-do] Mở đoạn: vịnh Bothnia đã phủ băng, con tàu giấy kẹt ở Luleå, nhãn Luleå · freezes in winter (như cuối d18). Đường ray nét đứt màu đất nung #E0703A vẽ dần từ Kiruna về phía TÂY từ \"railway\" (≈ 229.22 s), leo qua dãy núi giấy, xuống tới bờ biển; ngón tay Wob lần theo; nhãn Narvik hiện đúng \"Narvik\" (≈ 231.56 s)",
    "gag": "",
    "dao_cu": [
     "map-kiruna-rail"
@@ -39,10 +39,10 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 4.703,
+   "tai": 5.101,
    "loi": "Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year.",
-   "hanh_dong": "Cảng Narvik: mũi tên ấm màu cam uốn vào vịnh ở \"Gulf Stream\" (≈ 238.35 s), nước xanh không băng; nhãn đổi thành Narvik · ice-free ở \"ice-free\" (≈ 240.21 s); hòn quặng giấy (từ d17) nhảy dọc đường đỏ tới Narvik",
-   "gag": "Hòn quặng giấy nhảy lên tàu biển giấy: con tàu chìm xuống một nấc vì nặng rồi nổi lại; Wob nín thở rồi thở ra; giữ 0,6 s trước \"The line\" (241.71 s)",
+   "hanh_dong": "Cảng Narvik: mũi tên ấm màu cam uốn vào vịnh ở \"Gulf Stream\" (≈ 234.47 s), nước xanh không băng; nhãn đổi thành Narvik · ice-free ở \"ice-free\" (≈ 236.34 s); hòn quặng giấy (từ d17) nhảy dọc đường đỏ tới Narvik",
+   "gag": "Hòn quặng giấy nhảy lên tàu biển giấy: con tàu chìm xuống một nấc vì nặng rồi nổi lại; Wob nín thở rồi thở ra; giữ 0,6 s trước \"The line\" (237.84 s)",
    "dao_cu": [
     "map-kiruna-rail",
     "hon-quang-giay"
@@ -52,9 +52,9 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 8.99,
+   "tai": 9.388,
    "loi": "The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two.",
-   "hanh_dong": "Nhãn 1900 ghim vào đầu Kiruna, nhãn 1902 ghim vào đầu Narvik đúng \"two.\" (≈ 245.90 s)",
+   "hanh_dong": "Nhãn 1900 ghim vào đầu Kiruna, nhãn 1902 ghim vào đầu Narvik đúng \"two.\" (≈ 242.03 s)",
    "gag": "",
    "dao_cu": [
     "map-kiruna-rail"
@@ -62,17 +62,17 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 13.877,
+   "tai": 14.275,
    "loi": "The king opened it officially in nineteen oh three.",
-   "hanh_dong": "[lao-vao-can-canh] Lớp tông cũ trên trang: dải ruy băng ngang đường ray; vương miện giấy lơ lửng trên chiếc kéo (không người); kéo cắt ruy băng đúng \"three.\" (≈ 248.68 s); nhãn 1903. Nhãn 1900 và 1902 mờ đi khi lớp tông cũ hiện. Wob đứng nghiêm ở mép trang khi kéo cắt (không chạm vương miện)",
+   "hanh_dong": "[lao-vao-can-canh] Lớp tông cũ trên trang: dải ruy băng ngang đường ray; vương miện giấy lơ lửng trên chiếc kéo (không người); kéo cắt ruy băng đúng \"three.\" (≈ 244.80 s); nhãn 1903. Nhãn 1900 và 1902 mờ đi khi lớp tông cũ hiện. Wob đứng nghiêm ở mép trang khi kéo cắt (không chạm vương miện)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
   },
   {
-   "tai": 16.765,
+   "tai": 17.163,
    "loi": "Today, about twelve loaded trains a day still run from Kiruna to Narvik.",
-   "hanh_dong": "Lớp tông cũ và nhãn 1903 rút đi trước \"Today,\"; thẻ ~12 a day ở \"twelve\" (≈ 250.35 s); những chấm tàu nhỏ chạy nối nhau dọc đường đỏ Kiruna → Narvik",
+   "hanh_dong": "Lớp tông cũ và nhãn 1903 rút đi trước \"Today,\"; thẻ ~12 a day ở \"twelve\" (≈ 246.47 s); những chấm tàu nhỏ chạy nối nhau dọc đường đỏ Kiruna → Narvik",
    "gag": "",
    "dao_cu": [
     "map-kiruna-rail"
@@ -80,9 +80,9 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 20.99,
+   "tai": 21.388,
    "loi": "Luleå ships ore too, with icebreakers helping in winter.",
-   "hanh_dong": "Phía đông: tàu phá băng giấy nhỏ rẽ băng mở lối vào Luleå đúng \"icebreakers\" (≈ 255.64 s); Wob cúi xuống thổi phù lên mặt băng phía Luleå cùng lúc; con tàu kẹt ở d17 được giải thoát, nhích đi",
+   "hanh_dong": "Phía đông: tàu phá băng giấy nhỏ rẽ băng mở lối vào Luleå đúng \"icebreakers\" (≈ 251.76 s); Wob cúi xuống thổi phù lên mặt băng phía Luleå cùng lúc; con tàu kẹt ở d17 được giải thoát, nhích đi",
    "gag": "",
    "dao_cu": [
     "map-kiruna-rail"
@@ -92,9 +92,9 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 24.753,
-   "loi": "The iron had been waiting for a door that opens in January.",
-   "hanh_dong": "[day-vao-cham] Về đường ngang: rào chắn đã nâng, tàu vẫn đang chạy qua phía sau; Wob đứng nhìn, thẻ gỗ dây đỏ thò khỏi túi phải áo khoác; Wob nhét nó vào sâu hơn; giữ hình tới cắt 261.38 s",
+   "tai": 25.15,
+   "loi": "So the iron had been waiting for a furnace that liked it, and a train to the sea.",
+   "hanh_dong": "[day-vao-cham] Về đường ngang: rào chắn đã nâng, tàu quặng vẫn đang chạy qua phía sau; Wob đứng ĐỦ NGƯỜI giữa khung, giơ một ngón tay ở \"furnace\" (≈ 255.14 s), ngón thứ hai ở \"train\" (≈ 193.96 s); thẻ gỗ dây đỏ thò khỏi túi phải áo khoác, Wob nhét nó vào sâu hơn; giữ hình tới cắt 258.48 s",
    "gag": "",
    "dao_cu": [
     "chia-khoa"
@@ -105,2869 +105,2829 @@ window.HH_DATA = {
  "loi": [
   {
    "scene": 6,
-   "bat_dau": -42.835,
-   "thoi_luong": 70.992,
+   "bat_dau": -38.562,
+   "thoi_luong": 68.088,
    "tu": [
     {
      "text": "The",
-     "start": -42.735,
-     "end": -42.56
+     "start": -38.462,
+     "end": -38.287
     },
     {
      "text": "real",
-     "start": -42.548,
-     "end": -42.31
+     "start": -38.275,
+     "end": -38.037
     },
     {
      "text": "answer",
-     "start": -42.298,
-     "end": -42.023
+     "start": -38.025,
+     "end": -37.75
     },
     {
      "text": "rolled",
-     "start": -42.01,
-     "end": -41.723
+     "start": -37.737,
+     "end": -37.45
     },
     {
      "text": "past",
-     "start": -41.71,
-     "end": -41.347
+     "start": -37.437,
+     "end": -37.074
     },
     {
      "text": "me",
-     "start": -41.335,
-     "end": -41.222
+     "start": -37.062,
+     "end": -36.949
     },
     {
      "text": "at",
-     "start": -41.21,
-     "end": -41.135
+     "start": -36.937,
+     "end": -36.862
     },
     {
      "text": "a",
-     "start": -41.123,
-     "end": -41.073
+     "start": -36.85,
+     "end": -36.8
     },
     {
      "text": "level",
-     "start": -41.06,
-     "end": -40.735
+     "start": -36.787,
+     "end": -36.462
     },
     {
      "text": "crossing",
-     "start": -40.723,
-     "end": -40.235
+     "start": -36.45,
+     "end": -35.962
     },
     {
      "text": "on",
-     "start": -40.223,
-     "end": -40.147
+     "start": -35.95,
+     "end": -35.874
     },
     {
      "text": "the",
-     "start": -40.135,
-     "end": -40.06
+     "start": -35.862,
+     "end": -35.787
     },
     {
      "text": "way",
-     "start": -40.047,
-     "end": -39.91
+     "start": -35.774,
+     "end": -35.637
     },
     {
      "text": "back.",
-     "start": -39.897,
-     "end": -39.498
+     "start": -35.624,
+     "end": -35.225
     },
     {
      "text": "An",
-     "start": -39.135,
-     "end": -38.885
+     "start": -34.862,
+     "end": -34.612
     },
     {
      "text": "ore",
-     "start": -38.848,
-     "end": -38.773
+     "start": -34.575,
+     "end": -34.5
     },
     {
      "text": "train.",
-     "start": -38.76,
-     "end": -38.348
+     "start": -34.487,
+     "end": -34.075
     },
     {
      "text": "Up",
-     "start": -37.985,
-     "end": -37.81
+     "start": -33.712,
+     "end": -33.537
     },
     {
      "text": "to",
-     "start": -37.798,
-     "end": -37.723
+     "start": -33.525,
+     "end": -33.45
     },
     {
      "text": "sixty-eight",
-     "start": -37.71,
-     "end": -37.16
+     "start": -33.437,
+     "end": -32.887
     },
     {
      "text": "wagons,",
-     "start": -37.147,
-     "end": -36.647
+     "start": -32.874,
+     "end": -32.374
     },
     {
      "text": "about",
-     "start": -36.46,
-     "end": -36.235
+     "start": -32.187,
+     "end": -31.962
     },
     {
      "text": "seven",
-     "start": -36.223,
-     "end": -35.897
+     "start": -31.95,
+     "end": -31.624
     },
     {
      "text": "hundred",
-     "start": -35.885,
-     "end": -35.523
+     "start": -31.612,
+     "end": -31.25
     },
     {
      "text": "and",
-     "start": -35.51,
-     "end": -35.435
+     "start": -31.237,
+     "end": -31.162
     },
     {
      "text": "fifty",
-     "start": -35.423,
-     "end": -35.085
+     "start": -31.15,
+     "end": -30.812
     },
     {
      "text": "metres",
-     "start": -35.072,
-     "end": -34.685
+     "start": -30.799,
+     "end": -30.412
     },
     {
      "text": "long.",
-     "start": -34.673,
-     "end": -34.285
+     "start": -30.4,
+     "end": -30.012
     },
     {
      "text": "Roughly",
-     "start": -33.923,
-     "end": -33.523
+     "start": -29.65,
+     "end": -29.25
     },
     {
      "text": "seven",
-     "start": -33.51,
-     "end": -33.223
+     "start": -29.237,
+     "end": -28.95
     },
     {
      "text": "football",
-     "start": -33.21,
-     "end": -32.835
+     "start": -28.937,
+     "end": -28.562
     },
     {
      "text": "pitches",
-     "start": -32.823,
-     "end": -32.498
+     "start": -28.55,
+     "end": -28.225
     },
     {
      "text": "of",
-     "start": -32.485,
-     "end": -32.397
+     "start": -28.212,
+     "end": -28.124
     },
     {
      "text": "iron.",
-     "start": -32.385,
-     "end": -32.01
+     "start": -28.112,
+     "end": -27.737
     },
     {
      "text": "I",
-     "start": -31.647,
-     "end": -31.497
+     "start": -27.374,
+     "end": -27.224
     },
     {
      "text": "started",
-     "start": -31.485,
-     "end": -31.16
+     "start": -27.212,
+     "end": -26.887
     },
     {
      "text": "counting",
-     "start": -31.147,
-     "end": -30.773
+     "start": -26.874,
+     "end": -26.5
     },
     {
      "text": "wagons",
-     "start": -30.76,
-     "end": -30.323
+     "start": -26.487,
+     "end": -26.05
     },
     {
      "text": "and",
-     "start": -30.31,
-     "end": -30.21
+     "start": -26.037,
+     "end": -25.937
     },
     {
      "text": "lost",
-     "start": -30.198,
-     "end": -29.91
+     "start": -25.925,
+     "end": -25.637
     },
     {
      "text": "count.",
-     "start": -29.897,
-     "end": -29.597
+     "start": -25.624,
+     "end": -25.324
     },
     {
      "text": "Twice.",
-     "start": -29.235,
-     "end": -28.635
+     "start": -24.962,
+     "end": -24.362
     },
     {
      "text": "First,",
-     "start": -28.273,
-     "end": -27.722
+     "start": -24.0,
+     "end": -23.449
     },
     {
      "text": "the",
-     "start": -27.51,
-     "end": -27.385
+     "start": -23.237,
+     "end": -23.112
     },
     {
      "text": "ore",
-     "start": -27.36,
-     "end": -27.247
+     "start": -23.087,
+     "end": -22.974
     },
     {
      "text": "had",
-     "start": -27.235,
-     "end": -27.073
+     "start": -22.962,
+     "end": -22.8
     },
     {
      "text": "a",
-     "start": -27.06,
-     "end": -27.01
+     "start": -22.787,
+     "end": -22.737
     },
     {
      "text": "flaw.",
-     "start": -26.997,
-     "end": -26.585
+     "start": -22.724,
+     "end": -22.312
     },
     {
      "text": "It",
-     "start": -26.222,
-     "end": -26.06
+     "start": -21.949,
+     "end": -21.787
     },
     {
      "text": "is",
-     "start": -26.047,
-     "end": -25.922
+     "start": -21.774,
+     "end": -21.649
     },
     {
      "text": "rich",
-     "start": -25.91,
-     "end": -25.66
+     "start": -21.637,
+     "end": -21.387
     },
     {
      "text": "in",
-     "start": -25.647,
-     "end": -25.573
+     "start": -21.374,
+     "end": -21.3
     },
     {
      "text": "phosphorus,",
-     "start": -25.56,
-     "end": -24.798
+     "start": -21.287,
+     "end": -20.525
     },
     {
      "text": "and",
-     "start": -24.623,
-     "end": -24.498
+     "start": -20.35,
+     "end": -20.225
     },
     {
      "text": "in",
-     "start": -24.485,
-     "end": -24.397
+     "start": -20.212,
+     "end": -20.124
     },
     {
      "text": "older",
-     "start": -24.385,
-     "end": -24.135
+     "start": -20.112,
+     "end": -19.862
     },
     {
      "text": "furnaces",
-     "start": -24.123,
-     "end": -23.598
+     "start": -19.85,
+     "end": -19.325
     },
     {
      "text": "that",
-     "start": -23.585,
-     "end": -23.46
+     "start": -19.312,
+     "end": -19.187
     },
     {
      "text": "made",
-     "start": -23.448,
-     "end": -23.222
+     "start": -19.175,
+     "end": -18.949
     },
     {
      "text": "the",
-     "start": -23.21,
-     "end": -23.135
+     "start": -18.937,
+     "end": -18.862
     },
     {
      "text": "iron",
-     "start": -23.123,
-     "end": -22.773
+     "start": -18.85,
+     "end": -18.5
     },
     {
      "text": "brittle.",
-     "start": -22.76,
-     "end": -22.373
+     "start": -18.487,
+     "end": -18.1
     },
     {
      "text": "In",
-     "start": -22.01,
-     "end": -21.835
+     "start": -17.737,
+     "end": -17.562
     },
     {
      "text": "the",
-     "start": -21.823,
-     "end": -21.722
+     "start": -17.55,
+     "end": -17.449
     },
     {
      "text": "eighteen-seventies,",
-     "start": -21.71,
-     "end": -20.672
+     "start": -17.437,
+     "end": -16.399
     },
     {
      "text": "a",
-     "start": -20.51,
-     "end": -20.472
+     "start": -16.237,
+     "end": -16.199
     },
     {
      "text": "new",
-     "start": -20.46,
-     "end": -20.285
+     "start": -16.187,
+     "end": -16.012
     },
     {
      "text": "method,",
-     "start": -20.273,
-     "end": -19.885
+     "start": -16.0,
+     "end": -15.612
     },
     {
      "text": "the",
-     "start": -19.597,
-     "end": -19.523
+     "start": -15.324,
+     "end": -15.25
     },
     {
      "text": "Thomas",
-     "start": -19.51,
-     "end": -19.16
+     "start": -15.237,
+     "end": -14.887
     },
     {
      "text": "process,",
-     "start": -19.147,
-     "end": -18.51
+     "start": -14.874,
+     "end": -14.237
     },
     {
      "text": "turned",
-     "start": -18.26,
-     "end": -17.985
+     "start": -13.987,
+     "end": -13.712
     },
     {
      "text": "that",
-     "start": -17.972,
-     "end": -17.847
+     "start": -13.699,
+     "end": -13.574
     },
     {
      "text": "flaw",
-     "start": -17.835,
-     "end": -17.435
+     "start": -13.562,
+     "end": -13.162
     },
     {
      "text": "into",
-     "start": -17.422,
-     "end": -17.21
+     "start": -13.149,
+     "end": -12.937
     },
     {
      "text": "a",
-     "start": -17.198,
-     "end": -17.135
+     "start": -12.925,
+     "end": -12.862
     },
     {
      "text": "selling",
-     "start": -17.123,
-     "end": -16.773
+     "start": -12.85,
+     "end": -12.5
     },
     {
      "text": "point.",
-     "start": -16.76,
-     "end": -16.385
+     "start": -12.487,
+     "end": -12.112
     },
     {
      "text": "That",
-     "start": -16.023,
-     "end": -15.797
+     "start": -11.75,
+     "end": -11.524
     },
     {
      "text": "left",
-     "start": -15.785,
-     "end": -15.597
+     "start": -11.512,
+     "end": -11.324
     },
     {
      "text": "the",
-     "start": -15.585,
-     "end": -15.51
+     "start": -11.312,
+     "end": -11.237
     },
     {
      "text": "bigger",
-     "start": -15.485,
-     "end": -15.185
+     "start": -11.212,
+     "end": -10.912
     },
     {
      "text": "problem.",
-     "start": -15.172,
-     "end": -14.81
+     "start": -10.899,
+     "end": -10.537
     },
     {
      "text": "Iron",
-     "start": -14.448,
-     "end": -14.123
+     "start": -10.175,
+     "end": -9.85
     },
     {
      "text": "is",
-     "start": -14.11,
-     "end": -13.985
+     "start": -9.837,
+     "end": -9.712
     },
     {
      "text": "no",
-     "start": -13.972,
-     "end": -13.76
+     "start": -9.699,
+     "end": -9.487
     },
     {
      "text": "use",
-     "start": -13.748,
-     "end": -13.51
+     "start": -9.475,
+     "end": -9.237
     },
     {
      "text": "inside",
-     "start": -13.498,
-     "end": -13.135
+     "start": -9.225,
+     "end": -8.862
     },
     {
      "text": "a",
-     "start": -13.123,
-     "end": -13.098
+     "start": -8.85,
+     "end": -8.825
     },
     {
      "text": "mountain.",
-     "start": -13.085,
-     "end": -12.685
+     "start": -8.812,
+     "end": -8.412
     },
     {
      "text": "It",
-     "start": -12.323,
-     "end": -12.147
+     "start": -8.05,
+     "end": -7.874
     },
     {
      "text": "has",
-     "start": -12.135,
-     "end": -11.923
+     "start": -7.862,
+     "end": -7.65
     },
     {
      "text": "to",
-     "start": -11.91,
-     "end": -11.81
+     "start": -7.637,
+     "end": -7.537
     },
     {
      "text": "reach",
-     "start": -11.797,
-     "end": -11.56
+     "start": -7.524,
+     "end": -7.287
     },
     {
      "text": "the",
-     "start": -11.547,
-     "end": -11.46
+     "start": -7.274,
+     "end": -7.187
     },
     {
      "text": "sea.",
-     "start": -11.448,
-     "end": -11.073
+     "start": -7.175,
+     "end": -6.8
     },
     {
      "text": "Sweden's",
-     "start": -10.71,
-     "end": -10.147
+     "start": -6.437,
+     "end": -5.874
     },
     {
      "text": "own",
-     "start": -10.135,
-     "end": -9.935
+     "start": -5.862,
+     "end": -5.662
     },
     {
      "text": "coast",
-     "start": -9.922,
-     "end": -9.535
+     "start": -5.649,
+     "end": -5.262
     },
     {
      "text": "is",
-     "start": -9.523,
-     "end": -9.435
+     "start": -5.25,
+     "end": -5.162
     },
     {
      "text": "to",
-     "start": -9.422,
-     "end": -9.335
+     "start": -5.149,
+     "end": -5.062
     },
     {
      "text": "the",
-     "start": -9.322,
-     "end": -9.21
+     "start": -5.049,
+     "end": -4.937
     },
     {
      "text": "east,",
-     "start": -9.197,
-     "end": -8.822
+     "start": -4.924,
+     "end": -4.549
     },
     {
      "text": "at",
-     "start": -8.723,
-     "end": -8.647
+     "start": -4.45,
+     "end": -4.374
     },
     {
      "text": "Luleå,",
-     "start": -8.635,
-     "end": -7.935
+     "start": -4.362,
+     "end": -3.662
     },
     {
      "text": "on",
-     "start": -7.835,
-     "end": -7.735
+     "start": -3.562,
+     "end": -3.462
     },
     {
      "text": "the",
-     "start": -7.723,
-     "end": -7.635
+     "start": -3.45,
+     "end": -3.362
     },
     {
      "text": "Gulf",
-     "start": -7.623,
-     "end": -7.323
+     "start": -3.35,
+     "end": -3.05
     },
     {
      "text": "of",
-     "start": -7.31,
-     "end": -7.223
+     "start": -3.037,
+     "end": -2.95
     },
     {
      "text": "Bothnia.",
-     "start": -7.21,
-     "end": -6.647
+     "start": -2.937,
+     "end": -2.374
     },
     {
      "text": "That",
-     "start": -6.285,
-     "end": -6.06
+     "start": -2.012,
+     "end": -1.787
     },
     {
      "text": "sea",
-     "start": -6.047,
-     "end": -5.86
+     "start": -1.774,
+     "end": -1.587
     },
     {
      "text": "freezes",
-     "start": -5.848,
-     "end": -5.36
+     "start": -1.575,
+     "end": -1.087
     },
     {
      "text": "over",
-     "start": -5.348,
-     "end": -5.11
+     "start": -1.075,
+     "end": -0.837
     },
     {
      "text": "every",
-     "start": -5.098,
-     "end": -4.885
+     "start": -0.825,
+     "end": -0.612
     },
     {
      "text": "winter.",
-     "start": -4.873,
-     "end": -4.485
-    },
-    {
-     "text": "A",
-     "start": -4.123,
-     "end": -3.96
-    },
-    {
-     "text": "port",
-     "start": -3.947,
-     "end": -3.722
-    },
-    {
-     "text": "like",
-     "start": -3.71,
-     "end": -3.56
-    },
-    {
-     "text": "that",
-     "start": -3.547,
-     "end": -3.435
-    },
-    {
-     "text": "is",
-     "start": -3.422,
-     "end": -3.335
-    },
-    {
-     "text": "a",
-     "start": -3.322,
-     "end": -3.285
-    },
-    {
-     "text": "shop",
-     "start": -3.273,
-     "end": -2.91
-    },
-    {
-     "text": "whose",
-     "start": -2.897,
-     "end": -2.71
-    },
-    {
-     "text": "front",
-     "start": -2.697,
-     "end": -2.41
-    },
-    {
-     "text": "door",
-     "start": -2.397,
-     "end": -2.16
-    },
-    {
-     "text": "freezes",
-     "start": -2.147,
-     "end": -1.61
-    },
-    {
-     "text": "shut",
-     "start": -1.572,
-     "end": -1.297
-    },
-    {
-     "text": "every",
-     "start": -1.21,
-     "end": -0.998
-    },
-    {
-     "text": "winter.",
-     "start": -0.985,
-     "end": -0.61
+     "start": -0.6,
+     "end": -0.212
     },
     {
      "text": "So",
-     "start": -0.248,
-     "end": -0.023
+     "start": 0.15,
+     "end": 0.376
     },
     {
      "text": "they",
-     "start": -0.01,
-     "end": 0.103
+     "start": 0.388,
+     "end": 0.5
     },
     {
      "text": "ran",
-     "start": 0.115,
-     "end": 0.315
+     "start": 0.513,
+     "end": 0.713
     },
     {
      "text": "a",
-     "start": 0.328,
-     "end": 0.365
+     "start": 0.726,
+     "end": 0.763
     },
     {
      "text": "railway",
-     "start": 0.377,
-     "end": 0.853
+     "start": 0.775,
+     "end": 1.25
     },
     {
      "text": "the",
-     "start": 0.865,
-     "end": 0.977
+     "start": 1.263,
+     "end": 1.376
     },
     {
      "text": "other",
-     "start": 0.99,
-     "end": 1.253
+     "start": 1.388,
+     "end": 1.651
     },
     {
      "text": "way,",
-     "start": 1.265,
-     "end": 1.502
+     "start": 1.663,
+     "end": 1.9
     },
     {
      "text": "over",
-     "start": 1.627,
-     "end": 1.84
+     "start": 2.025,
+     "end": 2.238
     },
     {
      "text": "the",
-     "start": 1.853,
-     "end": 1.915
+     "start": 2.25,
+     "end": 2.313
     },
     {
      "text": "mountains,",
-     "start": 1.928,
-     "end": 2.428
+     "start": 2.326,
+     "end": 2.826
     },
     {
      "text": "to",
-     "start": 2.603,
-     "end": 2.703
+     "start": 3.0,
+     "end": 3.101
     },
     {
      "text": "Narvik",
-     "start": 2.715,
-     "end": 3.165
+     "start": 3.113,
+     "end": 3.563
     },
     {
      "text": "on",
-     "start": 3.178,
-     "end": 3.265
+     "start": 3.576,
+     "end": 3.663
     },
     {
      "text": "the",
-     "start": 3.277,
-     "end": 3.34
+     "start": 3.675,
+     "end": 3.738
     },
     {
      "text": "Norwegian",
-     "start": 3.353,
-     "end": 3.89
+     "start": 3.75,
+     "end": 4.288
     },
     {
      "text": "coast.",
-     "start": 3.902,
-     "end": 4.34
+     "start": 4.3,
+     "end": 4.738
     },
     {
      "text": "Warm",
-     "start": 4.703,
-     "end": 5.04
+     "start": 5.101,
+     "end": 5.438
     },
     {
      "text": "water",
-     "start": 5.053,
-     "end": 5.365
+     "start": 5.451,
+     "end": 5.763
     },
     {
      "text": "from",
-     "start": 5.377,
-     "end": 5.515
+     "start": 5.775,
+     "end": 5.913
     },
     {
      "text": "the",
-     "start": 5.527,
-     "end": 5.615
+     "start": 5.925,
+     "end": 6.013
     },
     {
      "text": "Gulf",
-     "start": 5.627,
-     "end": 5.89
+     "start": 6.025,
+     "end": 6.288
     },
     {
      "text": "Stream",
-     "start": 5.902,
-     "end": 6.302
+     "start": 6.3,
+     "end": 6.7
     },
     {
      "text": "keeps",
-     "start": 6.34,
-     "end": 6.615
+     "start": 6.738,
+     "end": 7.013
     },
     {
      "text": "Narvik's",
-     "start": 6.627,
-     "end": 7.103
+     "start": 7.025,
+     "end": 7.5
     },
     {
      "text": "harbour",
-     "start": 7.115,
-     "end": 7.477
+     "start": 7.513,
+     "end": 7.876
     },
     {
      "text": "ice-free",
-     "start": 7.49,
-     "end": 8.053
+     "start": 7.888,
+     "end": 8.451
     },
     {
      "text": "all",
-     "start": 8.09,
-     "end": 8.315
+     "start": 8.488,
+     "end": 8.713
     },
     {
      "text": "year.",
-     "start": 8.328,
-     "end": 8.627
+     "start": 8.726,
+     "end": 9.025
     },
     {
      "text": "The",
-     "start": 8.99,
-     "end": 9.165
+     "start": 9.388,
+     "end": 9.563
     },
     {
      "text": "line",
-     "start": 9.178,
-     "end": 9.44
+     "start": 9.576,
+     "end": 9.838
     },
     {
      "text": "reached",
-     "start": 9.453,
-     "end": 9.678
+     "start": 9.851,
+     "end": 10.076
     },
     {
      "text": "Kiruna",
-     "start": 9.69,
-     "end": 10.065
+     "start": 10.088,
+     "end": 10.463
     },
     {
      "text": "around",
-     "start": 10.078,
-     "end": 10.303
+     "start": 10.476,
+     "end": 10.701
     },
     {
      "text": "nineteen",
-     "start": 10.315,
-     "end": 10.727
+     "start": 10.713,
+     "end": 11.126
     },
     {
      "text": "hundred",
-     "start": 10.74,
-     "end": 11.14
+     "start": 11.138,
+     "end": 11.538
     },
     {
      "text": "and",
-     "start": 11.178,
-     "end": 11.303
+     "start": 11.576,
+     "end": 11.701
     },
     {
      "text": "was",
-     "start": 11.315,
-     "end": 11.465
+     "start": 11.713,
+     "end": 11.863
     },
     {
      "text": "joined",
-     "start": 11.477,
-     "end": 11.815
+     "start": 11.876,
+     "end": 12.213
     },
     {
      "text": "up",
-     "start": 11.828,
-     "end": 11.915
+     "start": 12.226,
+     "end": 12.313
     },
     {
      "text": "to",
-     "start": 11.928,
-     "end": 12.015
+     "start": 12.326,
+     "end": 12.413
     },
     {
      "text": "Narvik",
-     "start": 12.027,
-     "end": 12.49
+     "start": 12.425,
+     "end": 12.888
     },
     {
      "text": "in",
-     "start": 12.502,
-     "end": 12.603
+     "start": 12.9,
+     "end": 13.0
     },
     {
      "text": "nineteen",
-     "start": 12.615,
-     "end": 13.065
+     "start": 13.013,
+     "end": 13.463
     },
     {
      "text": "oh",
-     "start": 13.078,
-     "end": 13.165
+     "start": 13.476,
+     "end": 13.563
     },
     {
      "text": "two.",
-     "start": 13.178,
-     "end": 13.515
+     "start": 13.576,
+     "end": 13.913
     },
     {
      "text": "The",
-     "start": 13.877,
-     "end": 14.052
+     "start": 14.275,
+     "end": 14.45
     },
     {
      "text": "king",
-     "start": 14.065,
-     "end": 14.34
+     "start": 14.463,
+     "end": 14.738
     },
     {
      "text": "opened",
-     "start": 14.353,
-     "end": 14.603
+     "start": 14.75,
+     "end": 15.0
     },
     {
      "text": "it",
-     "start": 14.615,
-     "end": 14.703
+     "start": 15.013,
+     "end": 15.101
     },
     {
      "text": "officially",
-     "start": 14.715,
-     "end": 15.19
+     "start": 15.113,
+     "end": 15.588
     },
     {
      "text": "in",
-     "start": 15.203,
-     "end": 15.315
+     "start": 15.601,
+     "end": 15.713
     },
     {
      "text": "nineteen",
-     "start": 15.328,
-     "end": 15.84
+     "start": 15.726,
+     "end": 16.238
     },
     {
      "text": "oh",
-     "start": 15.853,
-     "end": 15.94
+     "start": 16.25,
+     "end": 16.338
     },
     {
      "text": "three.",
-     "start": 15.953,
-     "end": 16.403
+     "start": 16.351,
+     "end": 16.801
     },
     {
      "text": "Today,",
-     "start": 16.765,
-     "end": 17.252
+     "start": 17.163,
+     "end": 17.65
     },
     {
      "text": "about",
-     "start": 17.39,
-     "end": 17.615
+     "start": 17.788,
+     "end": 18.013
     },
     {
      "text": "twelve",
-     "start": 17.627,
-     "end": 17.927
+     "start": 18.025,
+     "end": 18.325
     },
     {
      "text": "loaded",
-     "start": 17.94,
-     "end": 18.215
+     "start": 18.338,
+     "end": 18.613
     },
     {
      "text": "trains",
-     "start": 18.227,
-     "end": 18.553
+     "start": 18.626,
+     "end": 18.951
     },
     {
      "text": "a",
-     "start": 18.565,
-     "end": 18.627
+     "start": 18.963,
+     "end": 19.025
     },
     {
      "text": "day",
-     "start": 18.64,
-     "end": 18.915
+     "start": 19.038,
+     "end": 19.313
     },
     {
      "text": "still",
-     "start": 18.953,
-     "end": 19.328
+     "start": 19.351,
+     "end": 19.726
     },
     {
      "text": "run",
-     "start": 19.34,
-     "end": 19.502
+     "start": 19.738,
+     "end": 19.9
     },
     {
      "text": "from",
-     "start": 19.515,
-     "end": 19.665
+     "start": 19.913,
+     "end": 20.063
     },
     {
      "text": "Kiruna",
-     "start": 19.678,
-     "end": 20.09
+     "start": 20.076,
+     "end": 20.488
     },
     {
      "text": "to",
-     "start": 20.103,
-     "end": 20.165
+     "start": 20.5,
+     "end": 20.563
     },
     {
      "text": "Narvik.",
-     "start": 20.178,
-     "end": 20.628
+     "start": 20.576,
+     "end": 21.026
     },
     {
      "text": "Luleå",
-     "start": 20.99,
-     "end": 21.815
+     "start": 21.388,
+     "end": 22.213
     },
     {
      "text": "ships",
-     "start": 21.827,
-     "end": 22.152
+     "start": 22.226,
+     "end": 22.551
     },
     {
      "text": "ore",
-     "start": 22.165,
-     "end": 22.277
+     "start": 22.563,
+     "end": 22.675
     },
     {
      "text": "too,",
-     "start": 22.29,
-     "end": 22.615
+     "start": 22.688,
+     "end": 23.013
     },
     {
      "text": "with",
-     "start": 22.753,
-     "end": 22.903
+     "start": 23.15,
+     "end": 23.3
     },
     {
      "text": "icebreakers",
-     "start": 22.915,
-     "end": 23.615
+     "start": 23.313,
+     "end": 24.013
     },
     {
      "text": "helping",
-     "start": 23.628,
-     "end": 23.94
+     "start": 24.025,
+     "end": 24.338
     },
     {
      "text": "in",
-     "start": 23.952,
-     "end": 24.04
+     "start": 24.351,
+     "end": 24.438
     },
     {
      "text": "winter.",
-     "start": 24.053,
-     "end": 24.39
+     "start": 24.451,
+     "end": 24.788
     },
     {
-     "text": "The",
-     "start": 24.753,
-     "end": 24.953
+     "text": "So",
+     "start": 25.15,
+     "end": 25.376
+    },
+    {
+     "text": "the",
+     "start": 25.388,
+     "end": 25.488
     },
     {
      "text": "iron",
-     "start": 24.965,
-     "end": 25.29
+     "start": 25.5,
+     "end": 25.8
     },
     {
      "text": "had",
-     "start": 25.303,
-     "end": 25.44
+     "start": 25.813,
+     "end": 25.951
     },
     {
      "text": "been",
-     "start": 25.452,
-     "end": 25.615
+     "start": 25.963,
+     "end": 26.126
     },
     {
      "text": "waiting",
-     "start": 25.628,
-     "end": 25.915
+     "start": 26.138,
+     "end": 26.438
     },
     {
      "text": "for",
-     "start": 25.928,
-     "end": 26.103
+     "start": 26.451,
+     "end": 26.613
     },
     {
      "text": "a",
-     "start": 26.115,
-     "end": 26.203
+     "start": 26.626,
+     "end": 26.675
     },
     {
-     "text": "door",
-     "start": 26.215,
-     "end": 26.527
+     "text": "furnace",
+     "start": 26.688,
+     "end": 27.1
     },
     {
      "text": "that",
-     "start": 26.54,
-     "end": 26.727
+     "start": 27.113,
+     "end": 27.326
     },
     {
-     "text": "opens",
-     "start": 26.753,
-     "end": 27.065
+     "text": "liked",
+     "start": 27.338,
+     "end": 27.638
     },
     {
-     "text": "in",
-     "start": 27.077,
-     "end": 27.152
+     "text": "it,",
+     "start": 27.651,
+     "end": 27.75
     },
     {
-     "text": "January.",
-     "start": 27.165,
-     "end": 27.79
+     "text": "and",
+     "start": 28.088,
+     "end": 28.151
+    },
+    {
+     "text": "a",
+     "start": 28.163,
+     "end": 28.213
+    },
+    {
+     "text": "train",
+     "start": 28.225,
+     "end": 28.588
+    },
+    {
+     "text": "to",
+     "start": 28.6,
+     "end": 28.675
+    },
+    {
+     "text": "the",
+     "start": 28.688,
+     "end": 28.776
+    },
+    {
+     "text": "sea.",
+     "start": 28.788,
+     "end": 29.163
     }
    ],
    "khau_hinh": [
     {
-     "start": -42.835,
-     "end": -42.402,
+     "start": -38.562,
+     "end": -38.129,
      "value": "X"
     },
     {
-     "start": -42.402,
-     "end": -42.268,
+     "start": -38.129,
+     "end": -37.995,
      "value": "D"
     },
     {
-     "start": -42.268,
-     "end": -42.102,
+     "start": -37.995,
+     "end": -37.829,
      "value": "C"
     },
     {
-     "start": -42.102,
-     "end": -42.002,
+     "start": -37.829,
+     "end": -37.729,
      "value": "C"
     },
     {
-     "start": -42.002,
-     "end": -41.935,
+     "start": -37.729,
+     "end": -37.662,
      "value": "C"
     },
     {
-     "start": -41.935,
-     "end": -41.702,
+     "start": -37.662,
+     "end": -37.429,
      "value": "D"
     },
     {
-     "start": -41.702,
-     "end": -41.635,
+     "start": -37.429,
+     "end": -37.362,
      "value": "X"
     },
     {
-     "start": -41.635,
-     "end": -41.535,
+     "start": -37.362,
+     "end": -37.262,
      "value": "B"
     },
     {
-     "start": -41.535,
-     "end": -41.402,
+     "start": -37.262,
+     "end": -37.129,
      "value": "C"
     },
     {
-     "start": -41.402,
-     "end": -41.268,
+     "start": -37.129,
+     "end": -36.995,
      "value": "B"
     },
     {
-     "start": -41.268,
-     "end": -41.068,
+     "start": -36.995,
+     "end": -36.795,
      "value": "C"
     },
     {
-     "start": -41.068,
-     "end": -40.902,
+     "start": -36.795,
+     "end": -36.629,
      "value": "B"
     },
     {
-     "start": -40.902,
-     "end": -40.735,
+     "start": -36.629,
+     "end": -36.462,
      "value": "D"
     },
     {
-     "start": -40.735,
-     "end": -40.568,
+     "start": -36.462,
+     "end": -36.295,
      "value": "B"
     },
     {
-     "start": -40.568,
-     "end": -40.435,
+     "start": -36.295,
+     "end": -36.162,
      "value": "C"
     },
     {
-     "start": -40.435,
-     "end": -40.335,
+     "start": -36.162,
+     "end": -36.062,
      "value": "B"
     },
     {
-     "start": -40.335,
-     "end": -40.202,
+     "start": -36.062,
+     "end": -35.929,
      "value": "B"
     },
     {
-     "start": -40.202,
-     "end": -40.135,
+     "start": -35.929,
+     "end": -35.862,
      "value": "C"
     },
     {
-     "start": -40.135,
-     "end": -39.802,
+     "start": -35.862,
+     "end": -35.529,
      "value": "B"
     },
     {
-     "start": -39.802,
-     "end": -39.568,
+     "start": -35.529,
+     "end": -35.295,
      "value": "B"
     },
     {
-     "start": -39.568,
-     "end": -38.802,
+     "start": -35.295,
+     "end": -34.529,
      "value": "X"
     },
     {
-     "start": -38.802,
-     "end": -38.568,
+     "start": -34.529,
+     "end": -34.295,
      "value": "B"
     },
     {
-     "start": -38.568,
-     "end": -38.402,
+     "start": -34.295,
+     "end": -34.129,
      "value": "D"
     },
     {
-     "start": -38.402,
-     "end": -38.335,
+     "start": -34.129,
+     "end": -34.062,
      "value": "B"
     },
     {
-     "start": -38.335,
-     "end": -37.702,
+     "start": -34.062,
+     "end": -33.429,
      "value": "X"
     },
     {
-     "start": -37.702,
-     "end": -37.535,
+     "start": -33.429,
+     "end": -33.262,
      "value": "C"
     },
     {
-     "start": -37.535,
-     "end": -37.435,
+     "start": -33.262,
+     "end": -33.162,
      "value": "C"
     },
     {
-     "start": -37.435,
-     "end": -37.168,
+     "start": -33.162,
+     "end": -32.895,
      "value": "B"
     },
     {
-     "start": -37.168,
-     "end": -37.068,
+     "start": -32.895,
+     "end": -32.795,
      "value": "B"
     },
     {
-     "start": -37.068,
-     "end": -36.835,
+     "start": -32.795,
+     "end": -32.562,
      "value": "C"
     },
     {
-     "start": -36.835,
-     "end": -36.602,
+     "start": -32.562,
+     "end": -32.329,
      "value": "B"
     },
     {
-     "start": -36.602,
-     "end": -36.335,
+     "start": -32.329,
+     "end": -32.062,
      "value": "X"
     },
     {
-     "start": -36.335,
-     "end": -36.235,
+     "start": -32.062,
+     "end": -31.962,
      "value": "F"
     },
     {
-     "start": -36.235,
-     "end": -36.035,
+     "start": -31.962,
+     "end": -31.762,
      "value": "B"
     },
     {
-     "start": -36.035,
-     "end": -35.935,
+     "start": -31.762,
+     "end": -31.662,
      "value": "D"
     },
     {
-     "start": -35.935,
-     "end": -35.802,
+     "start": -31.662,
+     "end": -31.529,
      "value": "C"
     },
     {
-     "start": -35.802,
-     "end": -35.735,
+     "start": -31.529,
+     "end": -31.462,
      "value": "B"
     },
     {
-     "start": -35.735,
-     "end": -35.502,
+     "start": -31.462,
+     "end": -31.229,
      "value": "F"
     },
     {
-     "start": -35.502,
-     "end": -35.368,
+     "start": -31.229,
+     "end": -31.095,
      "value": "C"
     },
     {
-     "start": -35.368,
-     "end": -35.035,
+     "start": -31.095,
+     "end": -30.762,
      "value": "X"
     },
     {
-     "start": -35.035,
-     "end": -34.868,
+     "start": -30.762,
+     "end": -30.595,
      "value": "C"
     },
     {
-     "start": -34.868,
-     "end": -34.535,
+     "start": -30.595,
+     "end": -30.262,
      "value": "B"
     },
     {
-     "start": -34.535,
-     "end": -34.402,
+     "start": -30.262,
+     "end": -30.129,
      "value": "D"
     },
     {
-     "start": -34.402,
-     "end": -34.302,
+     "start": -30.129,
+     "end": -30.029,
      "value": "B"
     },
     {
-     "start": -34.302,
-     "end": -33.768,
+     "start": -30.029,
+     "end": -29.495,
      "value": "X"
     },
     {
-     "start": -33.768,
-     "end": -33.635,
+     "start": -29.495,
+     "end": -29.362,
      "value": "F"
     },
     {
-     "start": -33.635,
-     "end": -33.435,
+     "start": -29.362,
+     "end": -29.162,
      "value": "X"
     },
     {
-     "start": -33.435,
-     "end": -33.102,
+     "start": -29.162,
+     "end": -28.829,
      "value": "C"
     },
     {
-     "start": -33.102,
-     "end": -33.002,
+     "start": -28.829,
+     "end": -28.729,
      "value": "F"
     },
     {
-     "start": -33.002,
-     "end": -32.935,
+     "start": -28.729,
+     "end": -28.662,
      "value": "X"
     },
     {
-     "start": -32.935,
-     "end": -32.668,
+     "start": -28.662,
+     "end": -28.395,
      "value": "F"
     },
     {
-     "start": -32.668,
-     "end": -32.235,
+     "start": -28.395,
+     "end": -27.962,
      "value": "B"
     },
     {
-     "start": -32.235,
-     "end": -32.035,
+     "start": -27.962,
+     "end": -27.762,
      "value": "B"
     },
     {
-     "start": -32.035,
-     "end": -31.402,
+     "start": -27.762,
+     "end": -27.129,
      "value": "X"
     },
     {
-     "start": -31.402,
-     "end": -31.335,
+     "start": -27.129,
+     "end": -27.062,
      "value": "B"
     },
     {
-     "start": -31.335,
-     "end": -31.002,
+     "start": -27.062,
+     "end": -26.729,
      "value": "C"
     },
     {
-     "start": -31.002,
-     "end": -30.735,
+     "start": -26.729,
+     "end": -26.462,
      "value": "F"
     },
     {
-     "start": -30.735,
-     "end": -30.435,
+     "start": -26.462,
+     "end": -26.162,
      "value": "D"
     },
     {
-     "start": -30.435,
-     "end": -30.335,
+     "start": -26.162,
+     "end": -26.062,
      "value": "D"
     },
     {
-     "start": -30.335,
-     "end": -30.102,
+     "start": -26.062,
+     "end": -25.829,
      "value": "B"
     },
     {
-     "start": -30.102,
-     "end": -29.902,
+     "start": -25.829,
+     "end": -25.629,
      "value": "C"
     },
     {
-     "start": -29.902,
-     "end": -29.835,
+     "start": -25.629,
+     "end": -25.562,
      "value": "X"
     },
     {
-     "start": -29.835,
-     "end": -29.635,
+     "start": -25.562,
+     "end": -25.362,
      "value": "B"
     },
     {
-     "start": -29.635,
-     "end": -29.002,
+     "start": -25.362,
+     "end": -24.729,
      "value": "X"
     },
     {
-     "start": -29.002,
-     "end": -28.935,
+     "start": -24.729,
+     "end": -24.662,
      "value": "D"
     },
     {
-     "start": -28.935,
-     "end": -28.868,
+     "start": -24.662,
+     "end": -24.595,
      "value": "C"
     },
     {
-     "start": -28.868,
-     "end": -28.702,
+     "start": -24.595,
+     "end": -24.429,
      "value": "B"
     },
     {
-     "start": -28.702,
-     "end": -28.635,
+     "start": -24.429,
+     "end": -24.362,
      "value": "B"
     },
     {
-     "start": -28.635,
-     "end": -27.968,
+     "start": -24.362,
+     "end": -23.695,
      "value": "X"
     },
     {
-     "start": -27.968,
-     "end": -27.735,
+     "start": -23.695,
+     "end": -23.462,
      "value": "C"
     },
     {
-     "start": -27.735,
-     "end": -27.435,
+     "start": -23.462,
+     "end": -23.162,
      "value": "X"
     },
     {
-     "start": -27.435,
-     "end": -27.335,
+     "start": -23.162,
+     "end": -23.062,
      "value": "D"
     },
     {
-     "start": -27.335,
-     "end": -27.135,
+     "start": -23.062,
+     "end": -22.862,
      "value": "C"
     },
     {
-     "start": -27.135,
-     "end": -26.935,
+     "start": -22.862,
+     "end": -22.662,
      "value": "D"
     },
     {
-     "start": -26.935,
-     "end": -26.735,
+     "start": -22.662,
+     "end": -22.462,
      "value": "X"
     },
     {
-     "start": -26.735,
-     "end": -26.668,
+     "start": -22.462,
+     "end": -22.395,
      "value": "C"
     },
     {
-     "start": -26.668,
-     "end": -26.535,
+     "start": -22.395,
+     "end": -22.262,
      "value": "B"
     },
     {
-     "start": -26.535,
-     "end": -26.002,
+     "start": -22.262,
+     "end": -21.729,
      "value": "X"
     },
     {
-     "start": -26.002,
-     "end": -25.868,
+     "start": -21.729,
+     "end": -21.595,
      "value": "D"
     },
     {
-     "start": -25.868,
-     "end": -25.635,
+     "start": -21.595,
+     "end": -21.362,
      "value": "C"
     },
     {
-     "start": -25.635,
-     "end": -25.502,
+     "start": -21.362,
+     "end": -21.229,
      "value": "C"
     },
     {
-     "start": -25.502,
-     "end": -25.402,
+     "start": -21.229,
+     "end": -21.129,
      "value": "X"
     },
     {
-     "start": -25.402,
-     "end": -25.102,
+     "start": -21.129,
+     "end": -20.829,
      "value": "F"
     },
     {
-     "start": -25.102,
-     "end": -24.902,
+     "start": -20.829,
+     "end": -20.629,
      "value": "B"
     },
     {
-     "start": -24.902,
-     "end": -24.768,
+     "start": -20.629,
+     "end": -20.495,
      "value": "F"
     },
     {
-     "start": -24.768,
-     "end": -24.502,
+     "start": -20.495,
+     "end": -20.229,
      "value": "X"
     },
     {
-     "start": -24.502,
-     "end": -24.302,
+     "start": -20.229,
+     "end": -20.029,
      "value": "D"
     },
     {
-     "start": -24.302,
-     "end": -24.035,
+     "start": -20.029,
+     "end": -19.762,
      "value": "D"
     },
     {
-     "start": -24.035,
-     "end": -23.935,
+     "start": -19.762,
+     "end": -19.662,
      "value": "X"
     },
     {
-     "start": -23.935,
-     "end": -23.502,
+     "start": -19.662,
+     "end": -19.229,
      "value": "F"
     },
     {
-     "start": -23.502,
-     "end": -23.335,
+     "start": -19.229,
+     "end": -19.062,
      "value": "C"
     },
     {
-     "start": -23.335,
-     "end": -23.168,
+     "start": -19.062,
+     "end": -18.895,
      "value": "D"
     },
     {
-     "start": -23.168,
-     "end": -23.035,
+     "start": -18.895,
+     "end": -18.762,
      "value": "B"
     },
     {
-     "start": -23.035,
-     "end": -22.968,
+     "start": -18.762,
+     "end": -18.695,
      "value": "B"
     },
     {
-     "start": -22.968,
-     "end": -22.702,
+     "start": -18.695,
+     "end": -18.429,
      "value": "C"
     },
     {
-     "start": -22.702,
-     "end": -22.602,
+     "start": -18.429,
+     "end": -18.329,
      "value": "B"
     },
     {
-     "start": -22.602,
-     "end": -22.502,
+     "start": -18.329,
+     "end": -18.229,
      "value": "C"
     },
     {
-     "start": -22.502,
-     "end": -22.368,
+     "start": -18.229,
+     "end": -18.095,
      "value": "B"
     },
     {
-     "start": -22.368,
-     "end": -21.802,
+     "start": -18.095,
+     "end": -17.529,
      "value": "X"
     },
     {
-     "start": -21.802,
-     "end": -21.602,
+     "start": -17.529,
+     "end": -17.329,
      "value": "D"
     },
     {
-     "start": -21.602,
-     "end": -21.435,
+     "start": -17.329,
+     "end": -17.162,
      "value": "D"
     },
     {
-     "start": -21.435,
-     "end": -21.368,
+     "start": -17.162,
+     "end": -17.095,
      "value": "B"
     },
     {
-     "start": -21.368,
-     "end": -21.235,
+     "start": -17.095,
+     "end": -16.962,
      "value": "C"
     },
     {
-     "start": -21.235,
-     "end": -21.035,
+     "start": -16.962,
+     "end": -16.762,
      "value": "B"
     },
     {
-     "start": -21.035,
-     "end": -20.902,
+     "start": -16.762,
+     "end": -16.629,
      "value": "B"
     },
     {
-     "start": -20.902,
-     "end": -20.602,
+     "start": -16.629,
+     "end": -16.329,
      "value": "B"
     },
     {
-     "start": -20.602,
-     "end": -20.435,
+     "start": -16.329,
+     "end": -16.162,
      "value": "X"
     },
     {
-     "start": -20.435,
-     "end": -20.235,
+     "start": -16.162,
+     "end": -15.962,
      "value": "C"
     },
     {
-     "start": -20.235,
-     "end": -20.102,
+     "start": -15.962,
+     "end": -15.829,
      "value": "D"
     },
     {
-     "start": -20.102,
-     "end": -19.835,
+     "start": -15.829,
+     "end": -15.562,
      "value": "D"
     },
     {
-     "start": -19.835,
-     "end": -19.468,
+     "start": -15.562,
+     "end": -15.195,
      "value": "X"
     },
     {
-     "start": -19.468,
-     "end": -19.368,
+     "start": -15.195,
+     "end": -15.095,
      "value": "B"
     },
     {
-     "start": -19.368,
-     "end": -19.102,
+     "start": -15.095,
+     "end": -14.829,
      "value": "C"
     },
     {
-     "start": -19.102,
-     "end": -19.002,
+     "start": -14.829,
+     "end": -14.729,
      "value": "X"
     },
     {
-     "start": -19.002,
-     "end": -18.868,
+     "start": -14.729,
+     "end": -14.595,
      "value": "C"
     },
     {
-     "start": -18.868,
-     "end": -18.468,
+     "start": -14.595,
+     "end": -14.195,
      "value": "B"
     },
     {
-     "start": -18.468,
-     "end": -18.102,
+     "start": -14.195,
+     "end": -13.829,
      "value": "X"
     },
     {
-     "start": -18.102,
-     "end": -17.902,
+     "start": -13.829,
+     "end": -13.629,
      "value": "F"
     },
     {
-     "start": -17.902,
-     "end": -17.802,
+     "start": -13.629,
+     "end": -13.529,
      "value": "D"
     },
     {
-     "start": -17.802,
-     "end": -17.568,
+     "start": -13.529,
+     "end": -13.295,
      "value": "X"
     },
     {
-     "start": -17.568,
-     "end": -17.402,
+     "start": -13.295,
+     "end": -13.129,
      "value": "D"
     },
     {
-     "start": -17.402,
-     "end": -17.335,
+     "start": -13.129,
+     "end": -13.062,
      "value": "C"
     },
     {
-     "start": -17.335,
-     "end": -17.002,
+     "start": -13.062,
+     "end": -12.729,
      "value": "B"
     },
     {
-     "start": -17.002,
-     "end": -16.935,
+     "start": -12.729,
+     "end": -12.662,
      "value": "B"
     },
     {
-     "start": -16.935,
-     "end": -16.868,
+     "start": -12.662,
+     "end": -12.595,
      "value": "C"
     },
     {
-     "start": -16.868,
-     "end": -16.702,
+     "start": -12.595,
+     "end": -12.429,
      "value": "B"
     },
     {
-     "start": -16.702,
-     "end": -16.635,
+     "start": -12.429,
+     "end": -12.362,
      "value": "X"
     },
     {
-     "start": -16.635,
-     "end": -16.468,
+     "start": -12.362,
+     "end": -12.195,
      "value": "B"
     },
     {
-     "start": -16.468,
-     "end": -15.068,
+     "start": -12.195,
+     "end": -10.795,
      "value": "X"
     },
     {
-     "start": -15.068,
-     "end": -14.868,
+     "start": -10.795,
+     "end": -10.595,
      "value": "B"
     },
     {
-     "start": -14.868,
-     "end": -14.768,
+     "start": -10.595,
+     "end": -10.495,
      "value": "B"
     },
     {
-     "start": -14.768,
-     "end": -14.235,
+     "start": -10.495,
+     "end": -9.962,
      "value": "X"
     },
     {
-     "start": -14.235,
-     "end": -14.068,
+     "start": -9.962,
+     "end": -9.795,
      "value": "D"
     },
     {
-     "start": -14.068,
-     "end": -13.868,
+     "start": -9.795,
+     "end": -9.595,
      "value": "D"
     },
     {
-     "start": -13.868,
-     "end": -13.735,
+     "start": -9.595,
+     "end": -9.462,
      "value": "D"
     },
     {
-     "start": -13.735,
-     "end": -13.302,
+     "start": -9.462,
+     "end": -9.029,
      "value": "F"
     },
     {
-     "start": -13.302,
-     "end": -13.135,
+     "start": -9.029,
+     "end": -8.862,
      "value": "C"
     },
     {
-     "start": -13.135,
-     "end": -13.035,
+     "start": -8.862,
+     "end": -8.762,
      "value": "B"
     },
     {
-     "start": -13.035,
-     "end": -12.935,
+     "start": -8.762,
+     "end": -8.662,
      "value": "B"
     },
     {
-     "start": -12.935,
-     "end": -12.802,
+     "start": -8.662,
+     "end": -8.529,
      "value": "F"
     },
     {
-     "start": -12.802,
-     "end": -12.068,
+     "start": -8.529,
+     "end": -7.795,
      "value": "X"
     },
     {
-     "start": -12.068,
-     "end": -11.868,
+     "start": -7.795,
+     "end": -7.595,
      "value": "D"
     },
     {
-     "start": -11.868,
-     "end": -11.702,
+     "start": -7.595,
+     "end": -7.429,
      "value": "B"
     },
     {
-     "start": -11.702,
-     "end": -11.502,
+     "start": -7.429,
+     "end": -7.229,
      "value": "D"
     },
     {
-     "start": -11.502,
-     "end": -11.435,
+     "start": -7.229,
+     "end": -7.162,
      "value": "X"
     },
     {
-     "start": -11.435,
-     "end": -11.368,
+     "start": -7.162,
+     "end": -7.095,
      "value": "B"
     },
     {
-     "start": -11.368,
-     "end": -11.235,
+     "start": -7.095,
+     "end": -6.962,
      "value": "C"
     },
     {
-     "start": -11.235,
-     "end": -11.168,
+     "start": -6.962,
+     "end": -6.895,
      "value": "C"
     },
     {
-     "start": -11.168,
-     "end": -11.068,
+     "start": -6.895,
+     "end": -6.795,
      "value": "B"
     },
     {
-     "start": -11.068,
-     "end": -10.335,
+     "start": -6.795,
+     "end": -6.062,
      "value": "X"
     },
     {
-     "start": -10.335,
-     "end": -10.235,
+     "start": -6.062,
+     "end": -5.962,
      "value": "C"
     },
     {
-     "start": -10.235,
-     "end": -10.135,
+     "start": -5.962,
+     "end": -5.862,
      "value": "D"
     },
     {
-     "start": -10.135,
-     "end": -9.868,
+     "start": -5.862,
+     "end": -5.595,
      "value": "F"
     },
     {
-     "start": -9.868,
-     "end": -9.735,
+     "start": -5.595,
+     "end": -5.462,
      "value": "B"
     },
     {
-     "start": -9.735,
-     "end": -9.635,
+     "start": -5.462,
+     "end": -5.362,
      "value": "D"
     },
     {
-     "start": -9.635,
-     "end": -9.435,
+     "start": -5.362,
+     "end": -5.162,
      "value": "C"
     },
     {
-     "start": -9.435,
-     "end": -9.102,
+     "start": -5.162,
+     "end": -4.829,
      "value": "B"
     },
     {
-     "start": -9.102,
-     "end": -8.835,
+     "start": -4.829,
+     "end": -4.562,
      "value": "D"
     },
     {
-     "start": -8.835,
-     "end": -8.602,
+     "start": -4.562,
+     "end": -4.329,
      "value": "X"
     },
     {
-     "start": -8.602,
-     "end": -8.535,
+     "start": -4.329,
+     "end": -4.262,
      "value": "B"
     },
     {
-     "start": -8.535,
-     "end": -8.402,
+     "start": -4.262,
+     "end": -4.129,
      "value": "F"
     },
     {
-     "start": -8.402,
-     "end": -8.335,
+     "start": -4.129,
+     "end": -4.062,
      "value": "B"
     },
     {
-     "start": -8.335,
-     "end": -7.935,
+     "start": -4.062,
+     "end": -3.662,
      "value": "F"
     },
     {
-     "start": -7.935,
-     "end": -7.868,
+     "start": -3.662,
+     "end": -3.595,
      "value": "B"
     },
     {
-     "start": -7.868,
-     "end": -7.468,
+     "start": -3.595,
+     "end": -3.195,
      "value": "X"
     },
     {
-     "start": -7.468,
-     "end": -7.102,
+     "start": -3.195,
+     "end": -2.829,
      "value": "F"
     },
     {
-     "start": -7.102,
-     "end": -6.902,
+     "start": -2.829,
+     "end": -2.629,
      "value": "C"
     },
     {
-     "start": -6.902,
-     "end": -6.835,
+     "start": -2.629,
+     "end": -2.562,
      "value": "X"
     },
     {
-     "start": -6.835,
-     "end": -6.602,
+     "start": -2.562,
+     "end": -2.329,
      "value": "B"
     },
     {
-     "start": -6.602,
-     "end": -6.102,
+     "start": -2.329,
+     "end": -1.829,
      "value": "X"
     },
     {
-     "start": -6.102,
-     "end": -6.035,
+     "start": -1.829,
+     "end": -1.762,
      "value": "D"
     },
     {
-     "start": -6.035,
-     "end": -5.768,
+     "start": -1.762,
+     "end": -1.495,
      "value": "B"
     },
     {
-     "start": -5.768,
-     "end": -5.602,
+     "start": -1.495,
+     "end": -1.329,
      "value": "X"
     },
     {
-     "start": -5.602,
-     "end": -5.535,
+     "start": -1.329,
+     "end": -1.262,
      "value": "D"
     },
     {
-     "start": -5.535,
-     "end": -5.302,
+     "start": -1.262,
+     "end": -1.029,
      "value": "C"
     },
     {
-     "start": -5.302,
-     "end": -5.202,
+     "start": -1.029,
+     "end": -0.929,
      "value": "C"
     },
     {
-     "start": -5.202,
-     "end": -5.102,
+     "start": -0.929,
+     "end": -0.829,
      "value": "B"
     },
     {
-     "start": -5.102,
-     "end": -5.035,
+     "start": -0.829,
+     "end": -0.762,
      "value": "B"
     },
     {
-     "start": -5.035,
-     "end": -4.902,
+     "start": -0.762,
+     "end": -0.629,
      "value": "C"
     },
     {
-     "start": -4.902,
-     "end": -4.802,
+     "start": -0.629,
+     "end": -0.529,
      "value": "C"
     },
     {
-     "start": -4.802,
-     "end": -4.735,
+     "start": -0.529,
+     "end": -0.462,
      "value": "B"
     },
     {
-     "start": -4.735,
-     "end": -4.602,
+     "start": -0.462,
+     "end": -0.329,
      "value": "C"
     },
     {
-     "start": -4.602,
-     "end": -4.468,
+     "start": -0.329,
+     "end": -0.195,
      "value": "B"
     },
     {
-     "start": -4.468,
-     "end": -3.702,
+     "start": -0.195,
+     "end": 0.571,
      "value": "X"
     },
     {
-     "start": -3.702,
-     "end": -3.402,
+     "start": 0.571,
+     "end": 0.871,
      "value": "B"
     },
     {
-     "start": -3.402,
-     "end": -3.335,
+     "start": 0.871,
+     "end": 0.938,
      "value": "C"
     },
     {
-     "start": -3.335,
-     "end": -3.035,
+     "start": 0.938,
+     "end": 1.238,
      "value": "B"
     },
     {
-     "start": -3.035,
-     "end": -2.602,
+     "start": 1.238,
+     "end": 1.671,
      "value": "C"
     },
     {
-     "start": -2.602,
-     "end": -2.502,
+     "start": 1.671,
+     "end": 1.771,
      "value": "X"
     },
     {
-     "start": -2.502,
-     "end": -2.402,
+     "start": 1.771,
+     "end": 1.871,
      "value": "D"
     },
     {
-     "start": -2.402,
-     "end": -2.268,
+     "start": 1.871,
+     "end": 2.005,
      "value": "B"
     },
     {
-     "start": -2.268,
-     "end": -2.068,
+     "start": 2.005,
+     "end": 2.205,
      "value": "F"
     },
     {
-     "start": -2.068,
-     "end": -1.935,
+     "start": 2.205,
+     "end": 2.338,
      "value": "X"
     },
     {
-     "start": -1.935,
-     "end": -1.768,
+     "start": 2.338,
+     "end": 2.505,
      "value": "C"
     },
     {
-     "start": -1.768,
-     "end": -1.635,
+     "start": 2.505,
+     "end": 2.638,
      "value": "B"
     },
     {
-     "start": -1.635,
-     "end": -1.368,
+     "start": 2.638,
+     "end": 2.905,
      "value": "B"
     },
     {
-     "start": -1.368,
-     "end": -1.268,
+     "start": 2.905,
+     "end": 3.005,
      "value": "F"
     },
     {
-     "start": -1.268,
-     "end": -0.902,
+     "start": 3.005,
+     "end": 3.371,
      "value": "X"
     },
     {
-     "start": -0.902,
-     "end": -0.835,
+     "start": 3.371,
+     "end": 3.438,
      "value": "B"
     },
     {
-     "start": -0.835,
-     "end": -0.735,
+     "start": 3.438,
+     "end": 3.538,
      "value": "C"
     },
     {
-     "start": -0.735,
-     "end": -0.602,
+     "start": 3.538,
+     "end": 3.671,
      "value": "B"
     },
     {
-     "start": -0.602,
-     "end": -0.002,
+     "start": 3.671,
+     "end": 4.271,
      "value": "X"
     },
     {
-     "start": -0.002,
-     "end": 0.098,
+     "start": 4.271,
+     "end": 4.371,
      "value": "D"
     },
     {
-     "start": 0.098,
-     "end": 0.165,
+     "start": 4.371,
+     "end": 4.438,
      "value": "D"
     },
     {
-     "start": 0.165,
-     "end": 0.265,
+     "start": 4.438,
+     "end": 4.538,
      "value": "C"
     },
     {
-     "start": 0.265,
-     "end": 0.465,
+     "start": 4.538,
+     "end": 4.738,
      "value": "C"
     },
     {
-     "start": 0.465,
-     "end": 0.598,
+     "start": 4.738,
+     "end": 4.871,
      "value": "B"
     },
     {
-     "start": 0.598,
-     "end": 0.698,
+     "start": 4.871,
+     "end": 4.971,
      "value": "D"
     },
     {
-     "start": 0.698,
-     "end": 1.332,
+     "start": 4.971,
+     "end": 5.605,
      "value": "C"
     },
     {
-     "start": 1.332,
-     "end": 1.532,
+     "start": 5.605,
+     "end": 5.805,
      "value": "B"
     },
     {
-     "start": 1.532,
-     "end": 1.765,
+     "start": 5.805,
+     "end": 6.038,
      "value": "X"
     },
     {
-     "start": 1.765,
-     "end": 1.865,
+     "start": 6.038,
+     "end": 6.138,
      "value": "D"
     },
     {
-     "start": 1.865,
-     "end": 2.032,
+     "start": 6.138,
+     "end": 6.305,
      "value": "C"
     },
     {
-     "start": 2.032,
-     "end": 2.232,
+     "start": 6.305,
+     "end": 6.505,
      "value": "F"
     },
     {
-     "start": 2.232,
-     "end": 2.365,
+     "start": 6.505,
+     "end": 6.638,
      "value": "B"
     },
     {
-     "start": 2.365,
-     "end": 2.498,
+     "start": 6.638,
+     "end": 6.771,
      "value": "B"
     },
     {
-     "start": 2.498,
-     "end": 2.765,
+     "start": 6.771,
+     "end": 7.038,
      "value": "X"
     },
     {
-     "start": 2.765,
-     "end": 3.065,
+     "start": 7.038,
+     "end": 7.338,
      "value": "D"
     },
     {
-     "start": 3.065,
-     "end": 3.198,
+     "start": 7.338,
+     "end": 7.471,
      "value": "B"
     },
     {
-     "start": 3.198,
-     "end": 3.432,
+     "start": 7.471,
+     "end": 7.705,
      "value": "B"
     },
     {
-     "start": 3.432,
-     "end": 3.632,
+     "start": 7.705,
+     "end": 7.905,
      "value": "C"
     },
     {
-     "start": 3.632,
-     "end": 3.798,
+     "start": 7.905,
+     "end": 8.071,
      "value": "B"
     },
     {
-     "start": 3.798,
-     "end": 3.965,
+     "start": 8.071,
+     "end": 8.238,
      "value": "B"
     },
     {
-     "start": 3.965,
-     "end": 4.098,
+     "start": 8.238,
+     "end": 8.371,
      "value": "X"
     },
     {
-     "start": 4.098,
-     "end": 4.165,
+     "start": 8.371,
+     "end": 8.438,
      "value": "C"
     },
     {
-     "start": 4.165,
-     "end": 4.265,
+     "start": 8.438,
+     "end": 8.538,
      "value": "B"
     },
     {
-     "start": 4.265,
-     "end": 4.365,
+     "start": 8.538,
+     "end": 8.638,
      "value": "C"
     },
     {
-     "start": 4.365,
-     "end": 4.932,
+     "start": 8.638,
+     "end": 9.205,
      "value": "X"
     },
     {
-     "start": 4.932,
-     "end": 5.032,
+     "start": 9.205,
+     "end": 9.305,
      "value": "D"
     },
     {
-     "start": 5.032,
-     "end": 5.265,
+     "start": 9.305,
+     "end": 9.538,
      "value": "C"
     },
     {
-     "start": 5.265,
-     "end": 5.432,
+     "start": 9.538,
+     "end": 9.705,
      "value": "D"
     },
     {
-     "start": 5.432,
-     "end": 5.532,
+     "start": 9.705,
+     "end": 9.805,
      "value": "B"
     },
     {
-     "start": 5.532,
-     "end": 5.765,
+     "start": 9.805,
+     "end": 10.038,
      "value": "C"
     },
     {
-     "start": 5.765,
-     "end": 5.898,
+     "start": 10.038,
+     "end": 10.171,
      "value": "F"
     },
     {
-     "start": 5.898,
-     "end": 6.098,
+     "start": 10.171,
+     "end": 10.371,
      "value": "B"
     },
     {
-     "start": 6.098,
-     "end": 6.365,
+     "start": 10.371,
+     "end": 10.638,
      "value": "B"
     },
     {
-     "start": 6.365,
-     "end": 6.465,
+     "start": 10.638,
+     "end": 10.738,
      "value": "X"
     },
     {
-     "start": 6.465,
-     "end": 6.598,
+     "start": 10.738,
+     "end": 10.871,
      "value": "B"
     },
     {
-     "start": 6.598,
-     "end": 6.765,
+     "start": 10.871,
+     "end": 11.038,
      "value": "B"
     },
     {
-     "start": 6.765,
-     "end": 6.998,
+     "start": 11.038,
+     "end": 11.271,
      "value": "D"
     },
     {
-     "start": 6.998,
-     "end": 7.198,
+     "start": 11.271,
+     "end": 11.471,
      "value": "C"
     },
     {
-     "start": 7.198,
-     "end": 7.265,
+     "start": 11.471,
+     "end": 11.538,
      "value": "B"
     },
     {
-     "start": 7.265,
-     "end": 7.498,
+     "start": 11.538,
+     "end": 11.771,
      "value": "F"
     },
     {
-     "start": 7.498,
-     "end": 7.932,
+     "start": 11.771,
+     "end": 12.205,
      "value": "B"
     },
     {
-     "start": 7.932,
-     "end": 8.098,
+     "start": 12.205,
+     "end": 12.371,
      "value": "C"
     },
     {
-     "start": 8.098,
-     "end": 8.298,
+     "start": 12.371,
+     "end": 12.571,
      "value": "X"
     },
     {
-     "start": 8.298,
-     "end": 8.465,
+     "start": 12.571,
+     "end": 12.738,
      "value": "C"
     },
     {
-     "start": 8.465,
-     "end": 8.632,
+     "start": 12.738,
+     "end": 12.905,
      "value": "B"
     },
     {
-     "start": 8.632,
-     "end": 9.298,
+     "start": 12.905,
+     "end": 13.571,
      "value": "X"
     },
     {
-     "start": 9.298,
-     "end": 9.398,
+     "start": 13.571,
+     "end": 13.671,
      "value": "D"
     },
     {
-     "start": 9.398,
-     "end": 9.532,
+     "start": 13.671,
+     "end": 13.805,
      "value": "C"
     },
     {
-     "start": 9.532,
-     "end": 9.732,
+     "start": 13.805,
+     "end": 14.005,
      "value": "C"
     },
     {
-     "start": 9.732,
-     "end": 9.865,
+     "start": 14.005,
+     "end": 14.138,
      "value": "B"
     },
     {
-     "start": 9.865,
-     "end": 10.098,
+     "start": 14.138,
+     "end": 14.371,
      "value": "F"
     },
     {
-     "start": 10.098,
-     "end": 10.332,
+     "start": 14.371,
+     "end": 14.605,
      "value": "F"
     },
     {
-     "start": 10.332,
-     "end": 10.498,
+     "start": 14.605,
+     "end": 14.771,
      "value": "B"
     },
     {
-     "start": 10.498,
-     "end": 10.565,
+     "start": 14.771,
+     "end": 14.838,
      "value": "B"
     },
     {
-     "start": 10.565,
-     "end": 10.765,
+     "start": 14.838,
+     "end": 15.038,
      "value": "X"
     },
     {
-     "start": 10.765,
-     "end": 10.865,
+     "start": 15.038,
+     "end": 15.138,
      "value": "F"
     },
     {
-     "start": 10.865,
-     "end": 10.932,
+     "start": 15.138,
+     "end": 15.205,
      "value": "B"
     },
     {
-     "start": 10.932,
-     "end": 11.165,
+     "start": 15.205,
+     "end": 15.438,
      "value": "F"
     },
     {
-     "start": 11.165,
-     "end": 11.332,
+     "start": 15.438,
+     "end": 15.605,
      "value": "B"
     },
     {
-     "start": 11.332,
-     "end": 11.465,
+     "start": 15.605,
+     "end": 15.738,
      "value": "C"
     },
     {
-     "start": 11.465,
-     "end": 11.598,
+     "start": 15.738,
+     "end": 15.871,
      "value": "B"
     },
     {
-     "start": 11.598,
-     "end": 11.665,
+     "start": 15.871,
+     "end": 15.938,
      "value": "B"
     },
     {
-     "start": 11.665,
-     "end": 11.832,
+     "start": 15.938,
+     "end": 16.105,
      "value": "C"
     },
     {
-     "start": 11.832,
-     "end": 11.965,
+     "start": 16.105,
+     "end": 16.238,
      "value": "F"
     },
     {
-     "start": 11.965,
-     "end": 12.065,
+     "start": 16.238,
+     "end": 16.338,
      "value": "X"
     },
     {
-     "start": 12.065,
-     "end": 12.198,
+     "start": 16.338,
+     "end": 16.471,
      "value": "C"
     },
     {
-     "start": 12.198,
-     "end": 12.365,
+     "start": 16.471,
+     "end": 16.638,
      "value": "C"
     },
     {
-     "start": 12.365,
-     "end": 12.498,
+     "start": 16.638,
+     "end": 16.771,
      "value": "B"
     },
     {
-     "start": 12.498,
-     "end": 12.565,
+     "start": 16.771,
+     "end": 16.838,
      "value": "X"
     },
     {
-     "start": 12.565,
-     "end": 12.765,
+     "start": 16.838,
+     "end": 17.038,
      "value": "B"
     },
     {
-     "start": 12.765,
-     "end": 12.865,
+     "start": 17.038,
+     "end": 17.138,
      "value": "B"
     },
     {
-     "start": 12.865,
-     "end": 13.098,
+     "start": 17.138,
+     "end": 17.371,
      "value": "X"
     },
     {
-     "start": 13.098,
-     "end": 13.298,
+     "start": 17.371,
+     "end": 17.571,
      "value": "C"
     },
     {
-     "start": 13.298,
-     "end": 13.532,
+     "start": 17.571,
+     "end": 17.805,
      "value": "B"
     },
     {
-     "start": 13.532,
-     "end": 14.132,
+     "start": 17.805,
+     "end": 18.405,
      "value": "X"
     },
     {
-     "start": 14.132,
-     "end": 14.232,
+     "start": 18.405,
+     "end": 18.505,
      "value": "B"
     },
     {
-     "start": 14.232,
-     "end": 14.332,
+     "start": 18.505,
+     "end": 18.605,
      "value": "D"
     },
     {
-     "start": 14.332,
-     "end": 14.832,
+     "start": 18.605,
+     "end": 19.105,
      "value": "C"
     },
     {
-     "start": 14.832,
-     "end": 15.232,
+     "start": 19.105,
+     "end": 19.505,
      "value": "X"
     },
     {
-     "start": 15.232,
-     "end": 15.365,
+     "start": 19.505,
+     "end": 19.638,
      "value": "C"
     },
     {
-     "start": 15.365,
-     "end": 15.465,
+     "start": 19.638,
+     "end": 19.738,
      "value": "B"
     },
     {
-     "start": 15.465,
-     "end": 15.565,
+     "start": 19.738,
+     "end": 19.838,
      "value": "C"
     },
     {
-     "start": 15.565,
-     "end": 15.698,
+     "start": 19.838,
+     "end": 19.971,
      "value": "B"
     },
     {
-     "start": 15.698,
-     "end": 15.832,
+     "start": 19.971,
+     "end": 20.105,
      "value": "B"
     },
     {
-     "start": 15.832,
-     "end": 15.998,
+     "start": 20.105,
+     "end": 20.271,
      "value": "C"
     },
     {
-     "start": 15.998,
-     "end": 16.065,
+     "start": 20.271,
+     "end": 20.338,
      "value": "B"
     },
     {
-     "start": 16.065,
-     "end": 16.132,
+     "start": 20.338,
+     "end": 20.405,
      "value": "X"
     },
     {
-     "start": 16.132,
-     "end": 16.265,
+     "start": 20.405,
+     "end": 20.538,
      "value": "B"
     },
     {
-     "start": 16.265,
-     "end": 16.365,
+     "start": 20.538,
+     "end": 20.638,
      "value": "B"
     },
     {
-     "start": 16.365,
-     "end": 17.132,
+     "start": 20.638,
+     "end": 21.405,
      "value": "X"
     },
     {
-     "start": 17.132,
-     "end": 17.265,
+     "start": 21.405,
+     "end": 21.538,
      "value": "C"
     },
     {
-     "start": 17.265,
-     "end": 17.332,
+     "start": 21.538,
+     "end": 21.605,
      "value": "B"
     },
     {
-     "start": 17.332,
-     "end": 17.465,
+     "start": 21.605,
+     "end": 21.738,
      "value": "X"
     },
     {
-     "start": 17.465,
-     "end": 17.665,
+     "start": 21.738,
+     "end": 21.938,
      "value": "F"
     },
     {
-     "start": 17.665,
-     "end": 17.832,
+     "start": 21.938,
+     "end": 22.105,
      "value": "X"
     },
     {
-     "start": 17.832,
-     "end": 17.932,
+     "start": 22.105,
+     "end": 22.205,
      "value": "D"
     },
     {
-     "start": 17.932,
-     "end": 18.065,
+     "start": 22.205,
+     "end": 22.338,
      "value": "B"
     },
     {
-     "start": 18.065,
-     "end": 18.165,
+     "start": 22.338,
+     "end": 22.438,
      "value": "D"
     },
     {
-     "start": 18.165,
-     "end": 18.265,
+     "start": 22.438,
+     "end": 22.538,
      "value": "C"
     },
     {
-     "start": 18.265,
-     "end": 18.365,
+     "start": 22.538,
+     "end": 22.638,
      "value": "B"
     },
     {
-     "start": 18.365,
-     "end": 18.432,
+     "start": 22.638,
+     "end": 22.705,
      "value": "B"
     },
     {
-     "start": 18.432,
-     "end": 18.598,
+     "start": 22.705,
+     "end": 22.871,
      "value": "C"
     },
     {
-     "start": 18.598,
-     "end": 18.798,
+     "start": 22.871,
+     "end": 23.071,
      "value": "B"
     },
     {
-     "start": 18.798,
-     "end": 18.932,
+     "start": 23.071,
+     "end": 23.205,
      "value": "C"
     },
     {
-     "start": 18.932,
-     "end": 19.165,
+     "start": 23.205,
+     "end": 23.438,
      "value": "B"
     },
     {
-     "start": 19.165,
-     "end": 19.265,
+     "start": 23.438,
+     "end": 23.538,
      "value": "X"
     },
     {
-     "start": 19.265,
-     "end": 19.365,
+     "start": 23.538,
+     "end": 23.638,
      "value": "D"
     },
     {
-     "start": 19.365,
-     "end": 19.598,
+     "start": 23.638,
+     "end": 23.871,
      "value": "F"
     },
     {
-     "start": 19.598,
-     "end": 19.798,
+     "start": 23.871,
+     "end": 24.071,
      "value": "B"
     },
     {
-     "start": 19.798,
-     "end": 19.865,
+     "start": 24.071,
+     "end": 24.138,
      "value": "B"
     },
     {
-     "start": 19.865,
-     "end": 19.965,
+     "start": 24.138,
+     "end": 24.238,
      "value": "F"
     },
     {
-     "start": 19.965,
-     "end": 20.165,
+     "start": 24.238,
+     "end": 24.438,
      "value": "F"
     },
     {
-     "start": 20.165,
-     "end": 20.498,
+     "start": 24.438,
+     "end": 24.771,
      "value": "B"
     },
     {
-     "start": 20.498,
-     "end": 21.198,
+     "start": 24.771,
+     "end": 25.471,
      "value": "X"
     },
     {
-     "start": 21.198,
-     "end": 21.332,
+     "start": 25.471,
+     "end": 25.605,
      "value": "F"
     },
     {
-     "start": 21.332,
-     "end": 21.465,
+     "start": 25.605,
+     "end": 25.738,
      "value": "X"
     },
     {
-     "start": 21.465,
-     "end": 21.832,
+     "start": 25.738,
+     "end": 26.105,
      "value": "F"
     },
     {
-     "start": 21.832,
-     "end": 21.932,
+     "start": 26.105,
+     "end": 26.205,
      "value": "C"
     },
     {
-     "start": 21.932,
-     "end": 22.065,
+     "start": 26.205,
+     "end": 26.338,
      "value": "B"
     },
     {
-     "start": 22.065,
-     "end": 22.298,
+     "start": 26.338,
+     "end": 26.571,
      "value": "C"
     },
     {
-     "start": 22.298,
-     "end": 22.498,
+     "start": 26.571,
+     "end": 26.771,
      "value": "F"
     },
     {
-     "start": 22.498,
-     "end": 22.632,
+     "start": 26.771,
+     "end": 26.905,
      "value": "F"
     },
     {
-     "start": 22.632,
-     "end": 22.732,
+     "start": 26.905,
+     "end": 27.005,
      "value": "B"
     },
     {
-     "start": 22.732,
-     "end": 22.865,
+     "start": 27.005,
+     "end": 27.138,
      "value": "X"
     },
     {
-     "start": 22.865,
-     "end": 22.932,
+     "start": 27.138,
+     "end": 27.205,
      "value": "C"
     },
     {
-     "start": 22.932,
-     "end": 23.065,
+     "start": 27.205,
+     "end": 27.338,
      "value": "X"
     },
     {
-     "start": 23.065,
-     "end": 23.265,
+     "start": 27.338,
+     "end": 27.538,
      "value": "C"
     },
     {
-     "start": 23.265,
-     "end": 23.332,
+     "start": 27.538,
+     "end": 27.605,
      "value": "X"
     },
     {
-     "start": 23.332,
-     "end": 23.565,
+     "start": 27.605,
+     "end": 27.838,
      "value": "C"
     },
     {
-     "start": 23.565,
-     "end": 23.632,
+     "start": 27.838,
+     "end": 27.905,
      "value": "C"
     },
     {
-     "start": 23.632,
-     "end": 23.765,
+     "start": 27.905,
+     "end": 28.038,
      "value": "B"
     },
     {
-     "start": 23.765,
-     "end": 23.932,
+     "start": 28.038,
+     "end": 28.205,
      "value": "C"
     },
     {
-     "start": 23.932,
-     "end": 24.065,
+     "start": 28.205,
+     "end": 28.338,
      "value": "C"
     },
     {
-     "start": 24.065,
-     "end": 24.398,
+     "start": 28.338,
+     "end": 28.671,
      "value": "B"
     },
     {
-     "start": 24.398,
-     "end": 24.965,
+     "start": 28.671,
+     "end": 29.238,
      "value": "X"
     },
     {
-     "start": 24.965,
-     "end": 25.198,
+     "start": 29.238,
+     "end": 29.471,
      "value": "D"
     },
     {
-     "start": 25.198,
-     "end": 25.332,
+     "start": 29.471,
+     "end": 29.605,
      "value": "C"
     },
     {
-     "start": 25.332,
-     "end": 25.498,
+     "start": 29.605,
+     "end": 29.771,
      "value": "C"
     },
     {
-     "start": 25.498,
-     "end": 25.565,
+     "start": 29.771,
+     "end": 29.838,
      "value": "B"
     },
     {
-     "start": 25.565,
-     "end": 25.698,
+     "start": 29.838,
+     "end": 29.971,
      "value": "D"
     },
     {
-     "start": 25.698,
-     "end": 26.098,
+     "start": 29.971,
+     "end": 30.371,
      "value": "C"
     },
     {
-     "start": 26.098,
-     "end": 26.365,
+     "start": 30.371,
+     "end": 30.638,
      "value": "C"
     },
     {
-     "start": 26.365,
-     "end": 26.598,
+     "start": 30.638,
+     "end": 30.871,
      "value": "F"
     },
     {
-     "start": 26.598,
-     "end": 26.732,
+     "start": 30.871,
+     "end": 31.005,
      "value": "B"
     },
     {
-     "start": 26.732,
-     "end": 26.865,
+     "start": 31.005,
+     "end": 31.138,
      "value": "X"
     },
     {
-     "start": 26.865,
-     "end": 27.065,
+     "start": 31.138,
+     "end": 31.338,
      "value": "D"
     },
     {
-     "start": 27.065,
-     "end": 27.365,
+     "start": 31.338,
+     "end": 31.638,
      "value": "B"
     },
     {
-     "start": 27.365,
-     "end": 27.565,
+     "start": 31.638,
+     "end": 31.838,
      "value": "F"
     },
     {
-     "start": 27.565,
-     "end": 27.798,
+     "start": 31.838,
+     "end": 32.071,
      "value": "B"
     },
     {
-     "start": 27.798,
-     "end": 28.232,
+     "start": 32.071,
+     "end": 32.505,
      "value": "X"
     }
    ]

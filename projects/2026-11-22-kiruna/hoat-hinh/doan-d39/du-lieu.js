@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 21.027,
- "bat_dau_tuyet_doi": 567.653,
+ "bat_dau_tuyet_doi": 565.229,
  "lop": "hoi-uc",
  "boi_canh": "Trang sổ tông trầm, trang sổ du lịch nhìn từ trên, LUÔN thấy mép bàn kỷ vật và vệt đèn bàn ấm quanh trang (lớp kể ở hiện tại); Wob đứng trên mặt bàn ở mép trang: một dãy nhà gỗ cũ; một tấm biển tên phố cũ (không chữ); đường chân trời giấy có mấy khối nhà cao; một tờ kiến nghị giấy dài nhiều dòng chữ ký nét mực (KHÔNG đọc được tên) trên bàn gỗ; trang sau: núi Luossavaara thấp, một vệt đường mảnh nét đứt sau núi",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); đứng ở mép trang; Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -32,7 +32,7 @@ window.HH_DATA = {
   {
    "tai": 2.412,
    "loi": "They are demolished, and for many people the streets they grew up on are simply gone.",
-   "hanh_dong": "Từng ngôi nhà được nhấc khỏi trang, để lại khoảng trống trắng; tấm biển tên phố cũ đứng một mình giữa khoảng trống ở \"streets\" (≈ 572.22 s); Wob đặt bàn tay phẳng xuống mép trang cạnh khoảng trống (không chạm biển), đứng yên",
+   "hanh_dong": "Từng ngôi nhà được nhấc khỏi trang, để lại khoảng trống trắng; tấm biển tên phố cũ đứng một mình giữa khoảng trống ở \"streets\" (≈ 569.79 s); Wob đặt bàn tay phẳng xuống mép trang cạnh khoảng trống (không chạm biển), đứng yên",
    "gag": "",
    "dao_cu": [],
    "sfx": []

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 10.42,
- "bat_dau_tuyet_doi": 380.878,
+ "bat_dau_tuyet_doi": 377.974,
  "lop": "hoi-uc",
  "boi_canh": "Chiều muộn tháng 8: nhà thờ gỗ đỏ ở chỗ mới quay mặt về thị trấn mới; người que gấp ghế ra về; nắng xiên",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; cuối đoạn cầm CHÙM CHÌA NHÀ: vòng kim loại bạc + ba chìa nhà (đồng vàng #C9A24A, bạc #B8BDC2, chìa đầu nhựa xanh lá thông #4F7A5A); trong chuyến đi, lúc không cầm thì MÓC ở quai TRÁI ba lô bằng móc khoá đã có chìa Kiruna trở lại",
@@ -30,7 +30,7 @@ window.HH_DATA = {
   {
    "tai": 6.113,
    "loi": "I took the key out of my pocket and threaded it back onto my key ring.",
-   "hanh_dong": "[day-vao-cham] MÔ-TÍP CHÌA 3 (cận, rõ): Wob lấy chìa Kiruna (than, thẻ gỗ dây đỏ) ra khỏi túi phải gi-lê đúng \"key out\" (≈ 387.43 s), tháo chùm chìa nhà khỏi quai ba lô, luồn chìa trở lại vòng đúng \"threaded\" (≈ 388.55 s), lắc nhẹ cho kêu leng keng",
+   "hanh_dong": "[day-vao-cham] MÔ-TÍP CHÌA 3 (cận, rõ): Wob lấy chìa Kiruna (than, thẻ gỗ dây đỏ) ra khỏi túi phải gi-lê đúng \"key out\" (≈ 384.52 s), tháo chùm chìa nhà khỏi quai ba lô, luồn chìa trở lại vòng đúng \"threaded\" (≈ 385.65 s), lắc nhẹ cho kêu leng keng",
    "gag": "Chùm chìa kêu leng keng; Wob mỉm cười với nó; giữ ≥ 0,6 s rồi 0,4 s cuối phủ dần thành giấy #EFE3C8",
    "dao_cu": [
     "chum-chia",

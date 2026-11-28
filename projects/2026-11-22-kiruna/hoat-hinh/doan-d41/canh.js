@@ -443,14 +443,14 @@ window.CANH = function (api, data) {
     '<circle cx="0" cy="-176" r="26" fill="none" stroke="' + INK + '" stroke-width="6"/><circle cx="0" cy="-176" r="5" fill="' + INK + '"/>' + paper(rRect(60, -60, 70, 60, 1, 4132), "#7E786E", { stroke: true, sw: 3, shadow: false }) + "</g>", 0.62);
   var theG = the("theG", CL, CH[1], hinhG, 4133), theL = the("theL", CR, CH[2], hinhL, 4134);
 
-  var W = KR.wob(api, "W", { mua: "nha" });
+  var W = KR.wob(api, "W", { mua: "nha" });   // tay không: chìa đang nằm dưới đèn bàn (d38–d43)
   api.dat(KR.defs() + api.lop("ban", B.nen + KR.mocAo() + B.trang + tr + khung + nhan + hs + nc + xe + theG + theL + W.svg + B.den, 1, { mat: 1010 }));
   api.noi({});
 
   // ---------- camera ----------
-  api.camera([[0, 1000, 540, 1.0], [tRight - 0.4, 1060, 500, 1.1, "sine.inOut"], [tRight + 0.8, 1300, 470, 1.36, "power2.inOut"], [tLKAB + 0.4, 1310, 470, 1.4, "sine.inOut"],
-    [tLKAB + 1.6, 1100, 540, 1.08, "power2.inOut"], [tCompany - 0.2, 1080, 560, 1.12, "sine.inOut"], [tCompany + 0.8, 1060, 640, 1.3, "power2.inOut"],
-    [tGabna - 0.5, 1060, 640, 1.32, "sine.inOut"], [tGabna + 0.6, 1050, 600, 1.0, "power2.inOut"], [DUR, 1050, 610, 1.06, "sine.inOut"]]);
+  api.camera([[0, 1000, 540, 1.0], [tRight - 0.4, 1060, 560, 1.06, "sine.inOut"], [tRight + 0.8, 1150, 610, 1.12, "power2.inOut"], [tLKAB + 0.4, 1160, 612, 1.14, "sine.inOut"],
+    [tLKAB + 1.6, 1110, 560, 1.08, "power2.inOut"], [tCompany - 0.2, 1080, 556, 1.1, "sine.inOut"], [tCompany + 0.8, 1060, 556, 1.1, "power2.inOut"],
+    [tGabna - 0.5, 1060, 556, 1.1, "sine.inOut"], [tGabna + 0.6, 1060, 590, 1.0, "power2.inOut"], [DUR, 1100, 590, 1.04, "sine.inOut"]]);
 
   // ---------- khung mỏ đặt chồng lên vệt đường; nhãn ----------
   api.origin("#khung", (FX + FW / 2) + " " + (FY + FH / 2));
@@ -470,8 +470,8 @@ window.CANH = function (api, data) {
   KR.batDung(api, "#theL", tLKAB2 - 0.05, 0.5, CR, CBY);
 
   // ---------- Wob ----------
-  var WY = 1010, WX0 = 900;
-  W.set(0, { x: WX0, y: WY, size: 0.6, pupX: 14, pupY: -20, aRu: -120, aRf: 40 });
+  var WY = 1010, WX0 = 980;
+  W.set(0, { x: WX0, y: WY, size: 0.72, pupX: 14, pupY: -20, aRu: -120, aRf: 40 });
   W.mouth(0, "thang");
   W.idle(0.3, tLKAB, { seed: 411, bien: 0.9 });
   W.pose(tRight, 0.5, { pupX: 18, pupY: -24, upRot: -2 }, "sine.inOut");

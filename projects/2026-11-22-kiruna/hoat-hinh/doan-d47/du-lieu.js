@@ -11,10 +11,10 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 20.0,
- "bat_dau_tuyet_doi": 699.412,
+ "bat_dau_tuyet_doi": 703.024,
  "lop": "duoi",
  "boi_canh": "ĐUÔI TẬP theo skill mo-ket mục 2, dựng bằng templates/hoat-hinh/_chung/mo-ket/duoi-tap.js. Bàn kỷ vật (cùng bàn d01), đèn ấm; cửa sổ bên trái cạnh kệ (đinh ở khung cửa sổ, như d46). Bên trái (x 96–900): kệ gỗ giấy hai tầng: bưu thiếp Tristan da Cunha MẶT TEM QUAY RA (khoá VE \"buuThiep\" của tập 5; nếu template chưa có thì lấy từ projects/2026-11-16-tristan-da-cunha/hoat-hinh/doan-d51 rồi thêm vào VE, chỉ thêm), lọ gần như không có opal (loOpal), bình xịt còn niêm phong (binhXit), tờ lịch hầm còn băng dính (toLich), tủ đông nhỏ có cá (tuDong) cạnh kệ; CHÌA KHOÁ KIRUNA là kỷ vật MỚI: treo trên một ĐINH RIÊNG ở cột kệ cạnh bưu thiếp (thêm khoá VE \"chiaKhoa\": chìa than, thẻ gỗ dây đỏ, mũi chìa chỉ sang phải; chỉ thêm). Thẻ tên dưới mỗi món, chữ ≥ 45 px. Bản đồ giấy trừu tượng trái dưới (x < 1100, không biên giới thật, không vùng Đông Nam Á/Biển Đông): ghim đỏ MỚI ở vùng rất xa phía bắc (đúng chỗ ghim trống cuối tập 5, có vài bông tuyết), ghim trống KHÔNG nhãn rung ở một mảng đất xanh ấm phía đông xa, trên nó một đám mây mưa giấy xám nhỏ. TẮT \"mặt trời nhô\" (ghimRung matTroi: false). Một va li nhỏ mở trên bàn và một chồng tất. Bên phải: vùng end screen để TRỐNG: endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]} (khung 560×315, vòng Ø200). CAMERA KHOÁ CỨNG cả đoạn",
- "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d43–d46). Khung 0: Wob ĐÃ cầm chìa Kiruna trong tay (cắt cứng che bước gỡ; đinh khung cửa sổ trống thấy rõ); từ 700.01 s treo chìa lên đinh riêng ở kệ; rồi cầm chồng tất",
+ "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d43–d46). Khung 0: Wob ĐÃ cầm chìa Kiruna trong tay (cắt cứng che bước gỡ; đinh khung cửa sổ trống thấy rõ); từ 703.62 s treo chìa lên đinh riêng ở kệ; rồi cầm chồng tất",
  "vao": "cat",
  "ra": "cuoi-video",
  "chu_tren_do_vat": [
@@ -42,29 +42,29 @@ window.HH_DATA = {
   },
   {
    "tai": 0.6,
-   "loi": "The key goes on the shelf, on a nail of its own, beside the postcard that lost the race home.",
-   "hanh_dong": "Wob treo chìa Kiruna lên đinh riêng ở cột kệ (dt.datLen), mũi chìa chỉ sang phải; thẻ KIRUNA dưới chìa; bưu thiếp Tristan da Cunha đứng cạnh, mặt tem quay ra, nghiêng nhẹ về phía chìa ở \"postcard\" (≈ 703.29 s)",
-   "gag": "Bưu thiếp nghiêng sang tựa vào chìa khoá như hai kỷ vật làm quen",
+   "loi": "Up on the shelf, the key gets a nail of its own.",
+   "hanh_dong": "Wob treo chìa Kiruna lên đinh riêng ở cột kệ (dt.datLen) đúng \"nail\" (≈ 705.25 s); chìa đung đưa rồi dừng, mũi chỉ sang phải; thẻ KIRUNA dưới chìa",
+   "gag": "",
    "dao_cu": [
-    "chia-khoa",
-    "buu-thiep"
+    "chia-khoa"
    ],
    "sfx": []
   },
   {
-   "tai": 5.925,
-   "loi": "Behind them, the opal jar still rattles mostly air.",
-   "hanh_dong": "Khuỷu tay Wob chạm kệ: lọ opal phía sau rung lách cách (dt.rung) ở \"rattles\" (≈ 707.01 s); Wob liếc nó",
-   "gag": "",
+   "tai": 3.388,
+   "loi": "The postcard leans on the opal jar, which still rattles mostly air.",
+   "hanh_dong": "Bưu thiếp Tristan da Cunha (mặt tem quay ra) nghiêng sang tựa vào lọ opal ở \"leans\" (≈ 707.19 s); lọ opal rung lách cách (dt.rung) ở \"rattles\" (≈ 709.10 s); Wob liếc nó",
+   "gag": "Bưu thiếp tựa vào lọ như hai kỷ vật làm quen; lọ rung làm bưu thiếp nảy nhẹ",
    "dao_cu": [
+    "buu-thiep",
     "lo-opal"
    ],
    "sfx": []
   },
   {
-   "tai": 9.063,
-   "loi": "Next, I am packing every sock I own.",
-   "hanh_dong": "CHỈ từ chữ \"Next,\": bản đồ giấy trừu tượng mở ra ở trái dưới (dt.moBanDo); ghim đỏ mới cắm vào vùng rất xa phía bắc (dt.camGhim, vài bông tuyết quanh); ghim trống KHÔNG nhãn rung ở mảng đất xanh ấm phía đông xa (dt.ghimRung, matTroi: false), đám mây mưa giấy nhỏ trên ghim nhỏ giọt; Wob nhét cả chồng tất vào va li nhỏ trên bàn ở \"sock\" (≈ 709.99 s). Không tên nơi, không số, không chữ",
+   "tai": 7.587,
+   "loi": "My socks are already nervous about the next trip.",
+   "hanh_dong": "CHỈ từ chữ \"My\": bản đồ giấy trừu tượng mở ra ở trái dưới (dt.moBanDo); ghim đỏ mới cắm vào vùng rất xa phía bắc (dt.camGhim, vài bông tuyết quanh); ghim trống KHÔNG nhãn rung ở mảng đất xanh ấm phía đông xa (dt.ghimRung, matTroi: false), đám mây mưa giấy nhỏ trên ghim nhỏ giọt; chồng tất trong va li nhỏ trên bàn run rẩy ở \"nervous\" (≈ 711.82 s), Wob đặt tay lên trấn an. Không tên nơi, không số, không chữ",
    "gag": "",
    "dao_cu": [
     "ban-do-giay",
@@ -77,7 +77,7 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 11.575,
+   "tai": 10.512,
    "loi": "I hear the rain there takes its time.",
    "hanh_dong": "Một giọt mưa từ đám mây trên ghim rơi rất chậm, đáp lên chiếc tất trên cùng, chiếc tất sẫm màu ẩm; vài giọt mưa giấy trượt chậm trên kính cửa sổ bên trái; Wob nhìn chiếc tất ẩm, tỉnh bơ",
    "gag": "Chiếc tất ẩm trước cả chuyến đi",
@@ -87,7 +87,7 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 13.884,
+   "tai": 12.804,
    "loi": "",
    "hanh_dong": "Hết lời: Wob quay sang phải, chỉ tay về phía hai khung trống (bàn tay dừng ở x ≤ 1100), chớp mắt, đứng thở tới hết đoạn; mưa trên cửa sổ vẫn trượt chậm (x < 1100); nhạc nhỏ dần nhưng không tắt; không mờ đen",
    "gag": "",
@@ -99,232 +99,212 @@ window.HH_DATA = {
   {
    "scene": 17,
    "bat_dau": 0.6,
-   "thoi_luong": 12.984,
+   "thoi_luong": 11.904,
    "tu": [
     {
-     "text": "The",
+     "text": "Up",
      "start": 0.7,
      "end": 0.9
     },
     {
-     "text": "key",
-     "start": 0.912,
-     "end": 1.1
-    },
-    {
-     "text": "goes",
-     "start": 1.112,
-     "end": 1.312
-    },
-    {
      "text": "on",
-     "start": 1.325,
-     "end": 1.412
+     "start": 0.912,
+     "end": 0.988
     },
     {
      "text": "the",
-     "start": 1.425,
-     "end": 1.475
+     "start": 1.0,
+     "end": 1.05
     },
     {
      "text": "shelf,",
-     "start": 1.487,
-     "end": 1.912
+     "start": 1.063,
+     "end": 1.5
     },
     {
-     "text": "on",
-     "start": 2.162,
-     "end": 2.237
+     "text": "the",
+     "start": 1.687,
+     "end": 1.775
+    },
+    {
+     "text": "key",
+     "start": 1.788,
+     "end": 1.987
+    },
+    {
+     "text": "gets",
+     "start": 2.0,
+     "end": 2.175
     },
     {
      "text": "a",
-     "start": 2.25,
-     "end": 2.275
+     "start": 2.187,
+     "end": 2.212
     },
     {
      "text": "nail",
-     "start": 2.288,
-     "end": 2.55
+     "start": 2.225,
+     "end": 2.538
     },
     {
      "text": "of",
-     "start": 2.562,
-     "end": 2.638
+     "start": 2.55,
+     "end": 2.613
     },
     {
      "text": "its",
-     "start": 2.65,
-     "end": 2.8
-    },
-    {
-     "text": "own,",
-     "start": 2.825,
-     "end": 3.088
-    },
-    {
-     "text": "beside",
-     "start": 3.388,
-     "end": 3.775
-    },
-    {
-     "text": "the",
-     "start": 3.788,
-     "end": 3.863
-    },
-    {
-     "text": "postcard",
-     "start": 3.875,
-     "end": 4.45
-    },
-    {
-     "text": "that",
-     "start": 4.462,
-     "end": 4.6
-    },
-    {
-     "text": "lost",
-     "start": 4.613,
-     "end": 4.912
-    },
-    {
-     "text": "the",
-     "start": 4.925,
-     "end": 5.0
-    },
-    {
-     "text": "race",
-     "start": 5.012,
-     "end": 5.275
-    },
-    {
-     "text": "home.",
-     "start": 5.288,
-     "end": 5.563
-    },
-    {
-     "text": "Behind",
-     "start": 5.925,
-     "end": 6.325
-    },
-    {
-     "text": "them,",
-     "start": 6.337,
-     "end": 6.512
-    },
-    {
-     "text": "the",
-     "start": 6.662,
-     "end": 6.762
-    },
-    {
-     "text": "opal",
-     "start": 6.775,
-     "end": 7.038
-    },
-    {
-     "text": "jar",
-     "start": 7.05,
-     "end": 7.263
-    },
-    {
-     "text": "still",
-     "start": 7.275,
-     "end": 7.587
-    },
-    {
-     "text": "rattles",
-     "start": 7.6,
-     "end": 7.938
-    },
-    {
-     "text": "mostly",
-     "start": 7.95,
-     "end": 8.375
-    },
-    {
-     "text": "air.",
-     "start": 8.387,
-     "end": 8.7
-    },
-    {
-     "text": "Next,",
-     "start": 9.063,
-     "end": 9.512
-    },
-    {
-     "text": "I",
-     "start": 9.813,
-     "end": 9.875
-    },
-    {
-     "text": "am",
-     "start": 9.887,
-     "end": 9.987
-    },
-    {
-     "text": "packing",
-     "start": 10.0,
-     "end": 10.4
-    },
-    {
-     "text": "every",
-     "start": 10.412,
-     "end": 10.563
-    },
-    {
-     "text": "sock",
-     "start": 10.575,
-     "end": 10.85
-    },
-    {
-     "text": "I",
-     "start": 10.862,
-     "end": 10.975
+     "start": 2.625,
+     "end": 2.775
     },
     {
      "text": "own.",
-     "start": 10.987,
-     "end": 11.212
+     "start": 2.788,
+     "end": 3.025
     },
     {
-     "text": "I",
-     "start": 11.575,
-     "end": 11.75
+     "text": "The",
+     "start": 3.388,
+     "end": 3.562
     },
     {
-     "text": "hear",
-     "start": 11.762,
-     "end": 11.95
+     "text": "postcard",
+     "start": 3.575,
+     "end": 4.15
+    },
+    {
+     "text": "leans",
+     "start": 4.162,
+     "end": 4.412
+    },
+    {
+     "text": "on",
+     "start": 4.425,
+     "end": 4.513
     },
     {
      "text": "the",
-     "start": 11.963,
-     "end": 12.063
+     "start": 4.525,
+     "end": 4.625
+    },
+    {
+     "text": "opal",
+     "start": 4.637,
+     "end": 4.925
+    },
+    {
+     "text": "jar,",
+     "start": 4.938,
+     "end": 5.325
+    },
+    {
+     "text": "which",
+     "start": 5.613,
+     "end": 5.763
+    },
+    {
+     "text": "still",
+     "start": 5.775,
+     "end": 6.062
+    },
+    {
+     "text": "rattles",
+     "start": 6.075,
+     "end": 6.437
+    },
+    {
+     "text": "mostly",
+     "start": 6.45,
+     "end": 6.875
+    },
+    {
+     "text": "air.",
+     "start": 6.887,
+     "end": 7.225
+    },
+    {
+     "text": "My",
+     "start": 7.587,
+     "end": 7.788
+    },
+    {
+     "text": "socks",
+     "start": 7.8,
+     "end": 8.275
+    },
+    {
+     "text": "are",
+     "start": 8.288,
+     "end": 8.412
+    },
+    {
+     "text": "already",
+     "start": 8.425,
+     "end": 8.788
+    },
+    {
+     "text": "nervous",
+     "start": 8.8,
+     "end": 9.237
+    },
+    {
+     "text": "about",
+     "start": 9.25,
+     "end": 9.475
+    },
+    {
+     "text": "the",
+     "start": 9.487,
+     "end": 9.538
+    },
+    {
+     "text": "next",
+     "start": 9.55,
+     "end": 9.812
+    },
+    {
+     "text": "trip.",
+     "start": 9.825,
+     "end": 10.15
+    },
+    {
+     "text": "I",
+     "start": 10.512,
+     "end": 10.688
+    },
+    {
+     "text": "hear",
+     "start": 10.7,
+     "end": 10.887
+    },
+    {
+     "text": "the",
+     "start": 10.9,
+     "end": 11.0
     },
     {
      "text": "rain",
-     "start": 12.075,
-     "end": 12.3
+     "start": 11.012,
+     "end": 11.237
     },
     {
      "text": "there",
-     "start": 12.313,
-     "end": 12.438
+     "start": 11.25,
+     "end": 11.375
     },
     {
      "text": "takes",
-     "start": 12.45,
-     "end": 12.688
+     "start": 11.387,
+     "end": 11.625
     },
     {
      "text": "its",
-     "start": 12.7,
-     "end": 12.837
+     "start": 11.637,
+     "end": 11.775
     },
     {
      "text": "time.",
-     "start": 12.85,
-     "end": 13.2
+     "start": 11.788,
+     "end": 12.137
     }
    ],
    "khau_hinh": [

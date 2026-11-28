@@ -10,20 +10,22 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 4.273,
- "bat_dau_tuyet_doi": 228.45,
+ "thoi_luong": 2.162,
+ "bat_dau_tuyet_doi": 226.288,
  "lop": "hoi-uc",
- "boi_canh": "Bong bóng tưởng tượng vẽ tay: một cửa hàng nhỏ, cửa trước đóng băng cứng, cột băng rủ từ mái; mấy hòn quặng tí hon xách giỏ đứng xếp hàng ngoài cửa",
+ "boi_canh": "Chèn vẽ tay hình to: vịnh Bothnia nhìn nghiêng, mặt biển đóng băng trắng lan dần từ bờ ra; cảng Luleå nhỏ có cần cẩu; một con tàu biển nhỏ kẹt giữa băng; một hòn quặng vẽ tay có hai chấm mắt",
  "trang_phuc": "Wob vẽ tay, MÙA ĐÔNG (gọn): áo phao xanh lam #3D5A80 MỘT túi vá bên phải, mũ len xanh lá thông #4F7A5A quả bông kem, khăn kem #EFE3C8 sọc xanh lá thông #4F7A5A (sọc thấy rõ), ba lô ô liu cỡ thường, giày đỏ",
  "vao": "chen",
  "ra": "cat",
- "chu_tren_do_vat": [],
+ "chu_tren_do_vat": [
+  "Luleå · freezes in winter"
+ ],
  "nhip": [
   {
    "tai": 0.0,
-   "loi": "A port like that is a shop whose front door freezes shut every winter.",
-   "hanh_dong": "[chen-ve-tay] Hình to: cửa hàng có cửa trước đóng băng; hàng hòn quặng tí hon xách giỏ đứng chờ ngoài cửa, tuyết đọng trên đầu chúng; Wob bước tới nắm tay nắm cửa kéo",
-   "gag": "Đúng \"shut\" (≈ 231.15 s) tay nắm cửa gãy rời trong tay Wob, còn dính một cột băng; cửa vẫn đóng; cắt vào CẬN tay nắm gãy trong tay Wob ở \"shut\" và giữ cận đó; Wob cầm tay nắm nhìn người xem; giữ tới cắt 232.72 s",
+   "loi": "That sea freezes over every winter.",
+   "hanh_dong": "[chen-ve-tay] Hình to: băng trắng lan từ bờ ra phủ kín vịnh, đóng cứng quanh con tàu ở cảng ở \"freezes\" (≈ 226.88 s); nhãn Luleå · freezes in winter ở \"winter.\" (≈ 227.85 s); Wob đứng đủ người trên bờ băng",
+   "gag": "Hòn quặng vẽ tay trượt trên mặt băng mới, xoay vòng vòng, trôi qua cả cảng rồi dừng lại khi đụng con tàu kẹt băng; Wob nhăn mặt; giữ tới cắt 228.45 s",
    "dao_cu": [],
    "sfx": [
     "whoosh",
@@ -34,2869 +36,2829 @@ window.HH_DATA = {
  "loi": [
   {
    "scene": 6,
-   "bat_dau": -38.562,
-   "thoi_luong": 70.992,
+   "bat_dau": -36.4,
+   "thoi_luong": 68.088,
    "tu": [
     {
      "text": "The",
-     "start": -38.462,
-     "end": -38.287
+     "start": -36.3,
+     "end": -36.125
     },
     {
      "text": "real",
-     "start": -38.275,
-     "end": -38.037
+     "start": -36.113,
+     "end": -35.875
     },
     {
      "text": "answer",
-     "start": -38.025,
-     "end": -37.75
+     "start": -35.863,
+     "end": -35.588
     },
     {
      "text": "rolled",
-     "start": -37.737,
-     "end": -37.45
+     "start": -35.575,
+     "end": -35.288
     },
     {
      "text": "past",
-     "start": -37.437,
-     "end": -37.074
+     "start": -35.275,
+     "end": -34.912
     },
     {
      "text": "me",
-     "start": -37.062,
-     "end": -36.949
+     "start": -34.9,
+     "end": -34.787
     },
     {
      "text": "at",
-     "start": -36.937,
-     "end": -36.862
+     "start": -34.775,
+     "end": -34.7
     },
     {
      "text": "a",
-     "start": -36.85,
-     "end": -36.8
+     "start": -34.688,
+     "end": -34.638
     },
     {
      "text": "level",
-     "start": -36.787,
-     "end": -36.462
+     "start": -34.625,
+     "end": -34.3
     },
     {
      "text": "crossing",
-     "start": -36.45,
-     "end": -35.962
+     "start": -34.288,
+     "end": -33.8
     },
     {
      "text": "on",
-     "start": -35.95,
-     "end": -35.874
+     "start": -33.788,
+     "end": -33.712
     },
     {
      "text": "the",
-     "start": -35.862,
-     "end": -35.787
+     "start": -33.7,
+     "end": -33.625
     },
     {
      "text": "way",
-     "start": -35.774,
-     "end": -35.637
+     "start": -33.612,
+     "end": -33.475
     },
     {
      "text": "back.",
-     "start": -35.624,
-     "end": -35.225
+     "start": -33.462,
+     "end": -33.063
     },
     {
      "text": "An",
-     "start": -34.862,
-     "end": -34.612
+     "start": -32.7,
+     "end": -32.45
     },
     {
      "text": "ore",
-     "start": -34.575,
-     "end": -34.5
+     "start": -32.413,
+     "end": -32.338
     },
     {
      "text": "train.",
-     "start": -34.487,
-     "end": -34.075
+     "start": -32.325,
+     "end": -31.913
     },
     {
      "text": "Up",
-     "start": -33.712,
-     "end": -33.537
+     "start": -31.55,
+     "end": -31.375
     },
     {
      "text": "to",
-     "start": -33.525,
-     "end": -33.45
+     "start": -31.363,
+     "end": -31.288
     },
     {
      "text": "sixty-eight",
-     "start": -33.437,
-     "end": -32.887
+     "start": -31.275,
+     "end": -30.725
     },
     {
      "text": "wagons,",
-     "start": -32.874,
-     "end": -32.374
+     "start": -30.712,
+     "end": -30.212
     },
     {
      "text": "about",
-     "start": -32.187,
-     "end": -31.962
+     "start": -30.025,
+     "end": -29.8
     },
     {
      "text": "seven",
-     "start": -31.95,
-     "end": -31.624
+     "start": -29.788,
+     "end": -29.462
     },
     {
      "text": "hundred",
-     "start": -31.612,
-     "end": -31.25
+     "start": -29.45,
+     "end": -29.088
     },
     {
      "text": "and",
-     "start": -31.237,
-     "end": -31.162
+     "start": -29.075,
+     "end": -29.0
     },
     {
      "text": "fifty",
-     "start": -31.15,
-     "end": -30.812
+     "start": -28.988,
+     "end": -28.65
     },
     {
      "text": "metres",
-     "start": -30.799,
-     "end": -30.412
+     "start": -28.637,
+     "end": -28.25
     },
     {
      "text": "long.",
-     "start": -30.4,
-     "end": -30.012
+     "start": -28.238,
+     "end": -27.85
     },
     {
      "text": "Roughly",
-     "start": -29.65,
-     "end": -29.25
+     "start": -27.488,
+     "end": -27.088
     },
     {
      "text": "seven",
-     "start": -29.237,
-     "end": -28.95
+     "start": -27.075,
+     "end": -26.788
     },
     {
      "text": "football",
-     "start": -28.937,
-     "end": -28.562
+     "start": -26.775,
+     "end": -26.4
     },
     {
      "text": "pitches",
-     "start": -28.55,
-     "end": -28.225
+     "start": -26.388,
+     "end": -26.063
     },
     {
      "text": "of",
-     "start": -28.212,
-     "end": -28.124
+     "start": -26.05,
+     "end": -25.962
     },
     {
      "text": "iron.",
-     "start": -28.112,
-     "end": -27.737
+     "start": -25.95,
+     "end": -25.575
     },
     {
      "text": "I",
-     "start": -27.374,
-     "end": -27.224
+     "start": -25.212,
+     "end": -25.062
     },
     {
      "text": "started",
-     "start": -27.212,
-     "end": -26.887
+     "start": -25.05,
+     "end": -24.725
     },
     {
      "text": "counting",
-     "start": -26.874,
-     "end": -26.5
+     "start": -24.712,
+     "end": -24.338
     },
     {
      "text": "wagons",
-     "start": -26.487,
-     "end": -26.05
+     "start": -24.325,
+     "end": -23.888
     },
     {
      "text": "and",
-     "start": -26.037,
-     "end": -25.937
+     "start": -23.875,
+     "end": -23.775
     },
     {
      "text": "lost",
-     "start": -25.925,
-     "end": -25.637
+     "start": -23.763,
+     "end": -23.475
     },
     {
      "text": "count.",
-     "start": -25.624,
-     "end": -25.324
+     "start": -23.462,
+     "end": -23.162
     },
     {
      "text": "Twice.",
-     "start": -24.962,
-     "end": -24.362
+     "start": -22.8,
+     "end": -22.2
     },
     {
      "text": "First,",
-     "start": -24.0,
-     "end": -23.449
+     "start": -21.838,
+     "end": -21.287
     },
     {
      "text": "the",
-     "start": -23.237,
-     "end": -23.112
+     "start": -21.075,
+     "end": -20.95
     },
     {
      "text": "ore",
-     "start": -23.087,
-     "end": -22.974
+     "start": -20.925,
+     "end": -20.812
     },
     {
      "text": "had",
-     "start": -22.962,
-     "end": -22.8
+     "start": -20.8,
+     "end": -20.638
     },
     {
      "text": "a",
-     "start": -22.787,
-     "end": -22.737
+     "start": -20.625,
+     "end": -20.575
     },
     {
      "text": "flaw.",
-     "start": -22.724,
-     "end": -22.312
+     "start": -20.562,
+     "end": -20.15
     },
     {
      "text": "It",
-     "start": -21.949,
-     "end": -21.787
+     "start": -19.787,
+     "end": -19.625
     },
     {
      "text": "is",
-     "start": -21.774,
-     "end": -21.649
+     "start": -19.612,
+     "end": -19.487
     },
     {
      "text": "rich",
-     "start": -21.637,
-     "end": -21.387
+     "start": -19.475,
+     "end": -19.225
     },
     {
      "text": "in",
-     "start": -21.374,
-     "end": -21.3
+     "start": -19.212,
+     "end": -19.138
     },
     {
      "text": "phosphorus,",
-     "start": -21.287,
-     "end": -20.525
+     "start": -19.125,
+     "end": -18.363
     },
     {
      "text": "and",
-     "start": -20.35,
-     "end": -20.225
+     "start": -18.188,
+     "end": -18.063
     },
     {
      "text": "in",
-     "start": -20.212,
-     "end": -20.124
+     "start": -18.05,
+     "end": -17.962
     },
     {
      "text": "older",
-     "start": -20.112,
-     "end": -19.862
+     "start": -17.95,
+     "end": -17.7
     },
     {
      "text": "furnaces",
-     "start": -19.85,
-     "end": -19.325
+     "start": -17.688,
+     "end": -17.163
     },
     {
      "text": "that",
-     "start": -19.312,
-     "end": -19.187
+     "start": -17.15,
+     "end": -17.025
     },
     {
      "text": "made",
-     "start": -19.175,
-     "end": -18.949
+     "start": -17.013,
+     "end": -16.787
     },
     {
      "text": "the",
-     "start": -18.937,
-     "end": -18.862
+     "start": -16.775,
+     "end": -16.7
     },
     {
      "text": "iron",
-     "start": -18.85,
-     "end": -18.5
+     "start": -16.688,
+     "end": -16.338
     },
     {
      "text": "brittle.",
-     "start": -18.487,
-     "end": -18.1
+     "start": -16.325,
+     "end": -15.938
     },
     {
      "text": "In",
-     "start": -17.737,
-     "end": -17.562
+     "start": -15.575,
+     "end": -15.4
     },
     {
      "text": "the",
-     "start": -17.55,
-     "end": -17.449
+     "start": -15.388,
+     "end": -15.287
     },
     {
      "text": "eighteen-seventies,",
-     "start": -17.437,
-     "end": -16.399
-    },
-    {
-     "text": "a",
-     "start": -16.237,
-     "end": -16.199
-    },
-    {
-     "text": "new",
-     "start": -16.187,
-     "end": -16.012
-    },
-    {
-     "text": "method,",
-     "start": -16.0,
-     "end": -15.612
-    },
-    {
-     "text": "the",
-     "start": -15.324,
-     "end": -15.25
-    },
-    {
-     "text": "Thomas",
-     "start": -15.237,
-     "end": -14.887
-    },
-    {
-     "text": "process,",
-     "start": -14.874,
+     "start": -15.275,
      "end": -14.237
     },
     {
+     "text": "a",
+     "start": -14.075,
+     "end": -14.037
+    },
+    {
+     "text": "new",
+     "start": -14.025,
+     "end": -13.85
+    },
+    {
+     "text": "method,",
+     "start": -13.838,
+     "end": -13.45
+    },
+    {
+     "text": "the",
+     "start": -13.162,
+     "end": -13.088
+    },
+    {
+     "text": "Thomas",
+     "start": -13.075,
+     "end": -12.725
+    },
+    {
+     "text": "process,",
+     "start": -12.712,
+     "end": -12.075
+    },
+    {
      "text": "turned",
-     "start": -13.987,
-     "end": -13.712
+     "start": -11.825,
+     "end": -11.55
     },
     {
      "text": "that",
-     "start": -13.699,
-     "end": -13.574
+     "start": -11.537,
+     "end": -11.412
     },
     {
      "text": "flaw",
-     "start": -13.562,
-     "end": -13.162
+     "start": -11.4,
+     "end": -11.0
     },
     {
      "text": "into",
-     "start": -13.149,
-     "end": -12.937
+     "start": -10.987,
+     "end": -10.775
     },
     {
      "text": "a",
-     "start": -12.925,
-     "end": -12.862
+     "start": -10.763,
+     "end": -10.7
     },
     {
      "text": "selling",
-     "start": -12.85,
-     "end": -12.5
+     "start": -10.688,
+     "end": -10.338
     },
     {
      "text": "point.",
-     "start": -12.487,
-     "end": -12.112
+     "start": -10.325,
+     "end": -9.95
     },
     {
      "text": "That",
-     "start": -11.75,
-     "end": -11.524
+     "start": -9.588,
+     "end": -9.362
     },
     {
      "text": "left",
-     "start": -11.512,
-     "end": -11.324
+     "start": -9.35,
+     "end": -9.162
     },
     {
      "text": "the",
-     "start": -11.312,
-     "end": -11.237
+     "start": -9.15,
+     "end": -9.075
     },
     {
      "text": "bigger",
-     "start": -11.212,
-     "end": -10.912
+     "start": -9.05,
+     "end": -8.75
     },
     {
      "text": "problem.",
-     "start": -10.899,
-     "end": -10.537
+     "start": -8.737,
+     "end": -8.375
     },
     {
      "text": "Iron",
-     "start": -10.175,
-     "end": -9.85
+     "start": -8.013,
+     "end": -7.688
     },
     {
      "text": "is",
-     "start": -9.837,
-     "end": -9.712
+     "start": -7.675,
+     "end": -7.55
     },
     {
      "text": "no",
-     "start": -9.699,
-     "end": -9.487
+     "start": -7.537,
+     "end": -7.325
     },
     {
      "text": "use",
-     "start": -9.475,
-     "end": -9.237
+     "start": -7.313,
+     "end": -7.075
     },
     {
      "text": "inside",
-     "start": -9.225,
-     "end": -8.862
+     "start": -7.063,
+     "end": -6.7
     },
     {
      "text": "a",
-     "start": -8.85,
-     "end": -8.825
+     "start": -6.688,
+     "end": -6.663
     },
     {
      "text": "mountain.",
-     "start": -8.812,
-     "end": -8.412
+     "start": -6.65,
+     "end": -6.25
     },
     {
      "text": "It",
-     "start": -8.05,
-     "end": -7.874
+     "start": -5.888,
+     "end": -5.712
     },
     {
      "text": "has",
-     "start": -7.862,
-     "end": -7.65
+     "start": -5.7,
+     "end": -5.488
     },
     {
      "text": "to",
-     "start": -7.637,
-     "end": -7.537
+     "start": -5.475,
+     "end": -5.375
     },
     {
      "text": "reach",
-     "start": -7.524,
-     "end": -7.287
+     "start": -5.362,
+     "end": -5.125
     },
     {
      "text": "the",
-     "start": -7.274,
-     "end": -7.187
+     "start": -5.112,
+     "end": -5.025
     },
     {
      "text": "sea.",
-     "start": -7.175,
-     "end": -6.8
+     "start": -5.013,
+     "end": -4.638
     },
     {
      "text": "Sweden's",
-     "start": -6.437,
-     "end": -5.874
+     "start": -4.275,
+     "end": -3.712
     },
     {
      "text": "own",
-     "start": -5.862,
-     "end": -5.662
+     "start": -3.7,
+     "end": -3.5
     },
     {
      "text": "coast",
-     "start": -5.649,
-     "end": -5.262
+     "start": -3.487,
+     "end": -3.1
     },
     {
      "text": "is",
-     "start": -5.25,
-     "end": -5.162
+     "start": -3.088,
+     "end": -3.0
     },
     {
      "text": "to",
-     "start": -5.149,
-     "end": -5.062
+     "start": -2.987,
+     "end": -2.9
     },
     {
      "text": "the",
-     "start": -5.049,
-     "end": -4.937
+     "start": -2.887,
+     "end": -2.775
     },
     {
      "text": "east,",
-     "start": -4.924,
-     "end": -4.549
+     "start": -2.762,
+     "end": -2.387
     },
     {
      "text": "at",
-     "start": -4.45,
-     "end": -4.374
+     "start": -2.288,
+     "end": -2.212
     },
     {
      "text": "Luleå,",
-     "start": -4.362,
-     "end": -3.662
+     "start": -2.2,
+     "end": -1.5
     },
     {
      "text": "on",
-     "start": -3.562,
-     "end": -3.462
+     "start": -1.4,
+     "end": -1.3
     },
     {
      "text": "the",
-     "start": -3.45,
-     "end": -3.362
+     "start": -1.288,
+     "end": -1.2
     },
     {
      "text": "Gulf",
-     "start": -3.35,
-     "end": -3.05
+     "start": -1.188,
+     "end": -0.888
     },
     {
      "text": "of",
-     "start": -3.037,
-     "end": -2.95
+     "start": -0.875,
+     "end": -0.788
     },
     {
      "text": "Bothnia.",
-     "start": -2.937,
-     "end": -2.374
-    },
-    {
-     "text": "That",
-     "start": -2.012,
-     "end": -1.787
-    },
-    {
-     "text": "sea",
-     "start": -1.774,
-     "end": -1.587
-    },
-    {
-     "text": "freezes",
-     "start": -1.575,
-     "end": -1.087
-    },
-    {
-     "text": "over",
-     "start": -1.075,
-     "end": -0.837
-    },
-    {
-     "text": "every",
-     "start": -0.825,
-     "end": -0.612
-    },
-    {
-     "text": "winter.",
-     "start": -0.6,
+     "start": -0.775,
      "end": -0.212
     },
     {
-     "text": "A",
+     "text": "That",
      "start": 0.15,
-     "end": 0.313
+     "end": 0.375
     },
     {
-     "text": "port",
-     "start": 0.326,
-     "end": 0.551
-    },
-    {
-     "text": "like",
-     "start": 0.563,
-     "end": 0.713
-    },
-    {
-     "text": "that",
-     "start": 0.726,
-     "end": 0.838
-    },
-    {
-     "text": "is",
-     "start": 0.851,
-     "end": 0.938
-    },
-    {
-     "text": "a",
-     "start": 0.951,
-     "end": 0.988
-    },
-    {
-     "text": "shop",
-     "start": 1.0,
-     "end": 1.363
-    },
-    {
-     "text": "whose",
-     "start": 1.376,
-     "end": 1.563
-    },
-    {
-     "text": "front",
-     "start": 1.576,
-     "end": 1.863
-    },
-    {
-     "text": "door",
-     "start": 1.876,
-     "end": 2.113
+     "text": "sea",
+     "start": 0.388,
+     "end": 0.575
     },
     {
      "text": "freezes",
-     "start": 2.126,
-     "end": 2.663
-    },
-    {
-     "text": "shut",
-     "start": 2.701,
-     "end": 2.976
-    },
-    {
-     "text": "every",
-     "start": 3.063,
-     "end": 3.275
-    },
-    {
-     "text": "winter.",
-     "start": 3.288,
-     "end": 3.663
-    },
-    {
-     "text": "So",
-     "start": 4.025,
-     "end": 4.25
-    },
-    {
-     "text": "they",
-     "start": 4.263,
-     "end": 4.376
-    },
-    {
-     "text": "ran",
-     "start": 4.388,
-     "end": 4.588
-    },
-    {
-     "text": "a",
-     "start": 4.601,
-     "end": 4.638
-    },
-    {
-     "text": "railway",
-     "start": 4.65,
-     "end": 5.126
-    },
-    {
-     "text": "the",
-     "start": 5.138,
-     "end": 5.25
-    },
-    {
-     "text": "other",
-     "start": 5.263,
-     "end": 5.526
-    },
-    {
-     "text": "way,",
-     "start": 5.538,
-     "end": 5.775
+     "start": 0.587,
+     "end": 1.075
     },
     {
      "text": "over",
-     "start": 5.9,
-     "end": 6.113
+     "start": 1.087,
+     "end": 1.325
     },
     {
-     "text": "the",
-     "start": 6.126,
-     "end": 6.188
-    },
-    {
-     "text": "mountains,",
-     "start": 6.201,
-     "end": 6.701
-    },
-    {
-     "text": "to",
-     "start": 6.876,
-     "end": 6.976
-    },
-    {
-     "text": "Narvik",
-     "start": 6.988,
-     "end": 7.438
-    },
-    {
-     "text": "on",
-     "start": 7.451,
-     "end": 7.538
-    },
-    {
-     "text": "the",
-     "start": 7.55,
-     "end": 7.613
-    },
-    {
-     "text": "Norwegian",
-     "start": 7.626,
-     "end": 8.163
-    },
-    {
-     "text": "coast.",
-     "start": 8.175,
-     "end": 8.613
-    },
-    {
-     "text": "Warm",
-     "start": 8.976,
-     "end": 9.313
-    },
-    {
-     "text": "water",
-     "start": 9.326,
-     "end": 9.638
-    },
-    {
-     "text": "from",
-     "start": 9.65,
-     "end": 9.788
-    },
-    {
-     "text": "the",
-     "start": 9.8,
-     "end": 9.888
-    },
-    {
-     "text": "Gulf",
-     "start": 9.9,
-     "end": 10.163
-    },
-    {
-     "text": "Stream",
-     "start": 10.175,
-     "end": 10.575
-    },
-    {
-     "text": "keeps",
-     "start": 10.613,
-     "end": 10.888
-    },
-    {
-     "text": "Narvik's",
-     "start": 10.9,
-     "end": 11.376
-    },
-    {
-     "text": "harbour",
-     "start": 11.388,
-     "end": 11.75
-    },
-    {
-     "text": "ice-free",
-     "start": 11.763,
-     "end": 12.326
-    },
-    {
-     "text": "all",
-     "start": 12.363,
-     "end": 12.588
-    },
-    {
-     "text": "year.",
-     "start": 12.601,
-     "end": 12.9
-    },
-    {
-     "text": "The",
-     "start": 13.263,
-     "end": 13.438
-    },
-    {
-     "text": "line",
-     "start": 13.451,
-     "end": 13.713
-    },
-    {
-     "text": "reached",
-     "start": 13.726,
-     "end": 13.951
-    },
-    {
-     "text": "Kiruna",
-     "start": 13.963,
-     "end": 14.338
-    },
-    {
-     "text": "around",
-     "start": 14.351,
-     "end": 14.576
-    },
-    {
-     "text": "nineteen",
-     "start": 14.588,
-     "end": 15.0
-    },
-    {
-     "text": "hundred",
-     "start": 15.013,
-     "end": 15.413
-    },
-    {
-     "text": "and",
-     "start": 15.451,
-     "end": 15.576
-    },
-    {
-     "text": "was",
-     "start": 15.588,
-     "end": 15.738
-    },
-    {
-     "text": "joined",
-     "start": 15.75,
-     "end": 16.088
-    },
-    {
-     "text": "up",
-     "start": 16.101,
-     "end": 16.188
-    },
-    {
-     "text": "to",
-     "start": 16.201,
-     "end": 16.288
-    },
-    {
-     "text": "Narvik",
-     "start": 16.3,
-     "end": 16.763
-    },
-    {
-     "text": "in",
-     "start": 16.775,
-     "end": 16.876
-    },
-    {
-     "text": "nineteen",
-     "start": 16.888,
-     "end": 17.338
-    },
-    {
-     "text": "oh",
-     "start": 17.351,
-     "end": 17.438
-    },
-    {
-     "text": "two.",
-     "start": 17.451,
-     "end": 17.788
-    },
-    {
-     "text": "The",
-     "start": 18.15,
-     "end": 18.325
-    },
-    {
-     "text": "king",
-     "start": 18.338,
-     "end": 18.613
-    },
-    {
-     "text": "opened",
-     "start": 18.626,
-     "end": 18.876
-    },
-    {
-     "text": "it",
-     "start": 18.888,
-     "end": 18.976
-    },
-    {
-     "text": "officially",
-     "start": 18.988,
-     "end": 19.463
-    },
-    {
-     "text": "in",
-     "start": 19.476,
-     "end": 19.588
-    },
-    {
-     "text": "nineteen",
-     "start": 19.601,
-     "end": 20.113
-    },
-    {
-     "text": "oh",
-     "start": 20.126,
-     "end": 20.213
-    },
-    {
-     "text": "three.",
-     "start": 20.226,
-     "end": 20.676
-    },
-    {
-     "text": "Today,",
-     "start": 21.038,
-     "end": 21.525
-    },
-    {
-     "text": "about",
-     "start": 21.663,
-     "end": 21.888
-    },
-    {
-     "text": "twelve",
-     "start": 21.9,
-     "end": 22.2
-    },
-    {
-     "text": "loaded",
-     "start": 22.213,
-     "end": 22.488
-    },
-    {
-     "text": "trains",
-     "start": 22.5,
-     "end": 22.826
-    },
-    {
-     "text": "a",
-     "start": 22.838,
-     "end": 22.9
-    },
-    {
-     "text": "day",
-     "start": 22.913,
-     "end": 23.188
-    },
-    {
-     "text": "still",
-     "start": 23.226,
-     "end": 23.601
-    },
-    {
-     "text": "run",
-     "start": 23.613,
-     "end": 23.775
-    },
-    {
-     "text": "from",
-     "start": 23.788,
-     "end": 23.938
-    },
-    {
-     "text": "Kiruna",
-     "start": 23.951,
-     "end": 24.363
-    },
-    {
-     "text": "to",
-     "start": 24.376,
-     "end": 24.438
-    },
-    {
-     "text": "Narvik.",
-     "start": 24.451,
-     "end": 24.901
-    },
-    {
-     "text": "Luleå",
-     "start": 25.263,
-     "end": 26.088
-    },
-    {
-     "text": "ships",
-     "start": 26.1,
-     "end": 26.425
-    },
-    {
-     "text": "ore",
-     "start": 26.438,
-     "end": 26.55
-    },
-    {
-     "text": "too,",
-     "start": 26.563,
-     "end": 26.888
-    },
-    {
-     "text": "with",
-     "start": 27.026,
-     "end": 27.176
-    },
-    {
-     "text": "icebreakers",
-     "start": 27.188,
-     "end": 27.888
-    },
-    {
-     "text": "helping",
-     "start": 27.901,
-     "end": 28.213
-    },
-    {
-     "text": "in",
-     "start": 28.225,
-     "end": 28.313
+     "text": "every",
+     "start": 1.337,
+     "end": 1.55
     },
     {
      "text": "winter.",
-     "start": 28.326,
-     "end": 28.663
+     "start": 1.562,
+     "end": 1.95
     },
     {
-     "text": "The",
-     "start": 29.026,
-     "end": 29.226
+     "text": "So",
+     "start": 2.312,
+     "end": 2.538
     },
     {
-     "text": "iron",
-     "start": 29.238,
-     "end": 29.563
+     "text": "they",
+     "start": 2.55,
+     "end": 2.662
     },
     {
-     "text": "had",
-     "start": 29.576,
-     "end": 29.713
-    },
-    {
-     "text": "been",
-     "start": 29.725,
-     "end": 29.888
-    },
-    {
-     "text": "waiting",
-     "start": 29.901,
-     "end": 30.188
-    },
-    {
-     "text": "for",
-     "start": 30.201,
-     "end": 30.376
+     "text": "ran",
+     "start": 2.675,
+     "end": 2.875
     },
     {
      "text": "a",
-     "start": 30.388,
-     "end": 30.476
+     "start": 2.888,
+     "end": 2.925
     },
     {
-     "text": "door",
-     "start": 30.488,
-     "end": 30.8
+     "text": "railway",
+     "start": 2.937,
+     "end": 3.412
     },
     {
-     "text": "that",
-     "start": 30.813,
-     "end": 31.0
+     "text": "the",
+     "start": 3.425,
+     "end": 3.538
     },
     {
-     "text": "opens",
-     "start": 31.026,
-     "end": 31.338
+     "text": "other",
+     "start": 3.55,
+     "end": 3.813
+    },
+    {
+     "text": "way,",
+     "start": 3.825,
+     "end": 4.062
+    },
+    {
+     "text": "over",
+     "start": 4.187,
+     "end": 4.4
+    },
+    {
+     "text": "the",
+     "start": 4.412,
+     "end": 4.475
+    },
+    {
+     "text": "mountains,",
+     "start": 4.488,
+     "end": 4.988
+    },
+    {
+     "text": "to",
+     "start": 5.162,
+     "end": 5.263
+    },
+    {
+     "text": "Narvik",
+     "start": 5.275,
+     "end": 5.725
+    },
+    {
+     "text": "on",
+     "start": 5.738,
+     "end": 5.825
+    },
+    {
+     "text": "the",
+     "start": 5.837,
+     "end": 5.9
+    },
+    {
+     "text": "Norwegian",
+     "start": 5.912,
+     "end": 6.45
+    },
+    {
+     "text": "coast.",
+     "start": 6.462,
+     "end": 6.9
+    },
+    {
+     "text": "Warm",
+     "start": 7.263,
+     "end": 7.6
+    },
+    {
+     "text": "water",
+     "start": 7.613,
+     "end": 7.925
+    },
+    {
+     "text": "from",
+     "start": 7.937,
+     "end": 8.075
+    },
+    {
+     "text": "the",
+     "start": 8.087,
+     "end": 8.175
+    },
+    {
+     "text": "Gulf",
+     "start": 8.187,
+     "end": 8.45
+    },
+    {
+     "text": "Stream",
+     "start": 8.462,
+     "end": 8.862
+    },
+    {
+     "text": "keeps",
+     "start": 8.9,
+     "end": 9.175
+    },
+    {
+     "text": "Narvik's",
+     "start": 9.187,
+     "end": 9.662
+    },
+    {
+     "text": "harbour",
+     "start": 9.675,
+     "end": 10.038
+    },
+    {
+     "text": "ice-free",
+     "start": 10.05,
+     "end": 10.613
+    },
+    {
+     "text": "all",
+     "start": 10.65,
+     "end": 10.875
+    },
+    {
+     "text": "year.",
+     "start": 10.888,
+     "end": 11.187
+    },
+    {
+     "text": "The",
+     "start": 11.55,
+     "end": 11.725
+    },
+    {
+     "text": "line",
+     "start": 11.738,
+     "end": 12.0
+    },
+    {
+     "text": "reached",
+     "start": 12.013,
+     "end": 12.238
+    },
+    {
+     "text": "Kiruna",
+     "start": 12.25,
+     "end": 12.625
+    },
+    {
+     "text": "around",
+     "start": 12.638,
+     "end": 12.863
+    },
+    {
+     "text": "nineteen",
+     "start": 12.875,
+     "end": 13.288
+    },
+    {
+     "text": "hundred",
+     "start": 13.3,
+     "end": 13.7
+    },
+    {
+     "text": "and",
+     "start": 13.738,
+     "end": 13.863
+    },
+    {
+     "text": "was",
+     "start": 13.875,
+     "end": 14.025
+    },
+    {
+     "text": "joined",
+     "start": 14.038,
+     "end": 14.375
+    },
+    {
+     "text": "up",
+     "start": 14.388,
+     "end": 14.475
+    },
+    {
+     "text": "to",
+     "start": 14.488,
+     "end": 14.575
+    },
+    {
+     "text": "Narvik",
+     "start": 14.587,
+     "end": 15.05
     },
     {
      "text": "in",
-     "start": 31.35,
-     "end": 31.425
+     "start": 15.062,
+     "end": 15.162
     },
     {
-     "text": "January.",
-     "start": 31.438,
-     "end": 32.063
+     "text": "nineteen",
+     "start": 15.175,
+     "end": 15.625
+    },
+    {
+     "text": "oh",
+     "start": 15.638,
+     "end": 15.725
+    },
+    {
+     "text": "two.",
+     "start": 15.738,
+     "end": 16.075
+    },
+    {
+     "text": "The",
+     "start": 16.437,
+     "end": 16.612
+    },
+    {
+     "text": "king",
+     "start": 16.625,
+     "end": 16.9
+    },
+    {
+     "text": "opened",
+     "start": 16.912,
+     "end": 17.162
+    },
+    {
+     "text": "it",
+     "start": 17.175,
+     "end": 17.263
+    },
+    {
+     "text": "officially",
+     "start": 17.275,
+     "end": 17.75
+    },
+    {
+     "text": "in",
+     "start": 17.763,
+     "end": 17.875
+    },
+    {
+     "text": "nineteen",
+     "start": 17.888,
+     "end": 18.4
+    },
+    {
+     "text": "oh",
+     "start": 18.412,
+     "end": 18.5
+    },
+    {
+     "text": "three.",
+     "start": 18.513,
+     "end": 18.963
+    },
+    {
+     "text": "Today,",
+     "start": 19.325,
+     "end": 19.812
+    },
+    {
+     "text": "about",
+     "start": 19.95,
+     "end": 20.175
+    },
+    {
+     "text": "twelve",
+     "start": 20.187,
+     "end": 20.487
+    },
+    {
+     "text": "loaded",
+     "start": 20.5,
+     "end": 20.775
+    },
+    {
+     "text": "trains",
+     "start": 20.788,
+     "end": 21.113
+    },
+    {
+     "text": "a",
+     "start": 21.125,
+     "end": 21.187
+    },
+    {
+     "text": "day",
+     "start": 21.2,
+     "end": 21.475
+    },
+    {
+     "text": "still",
+     "start": 21.513,
+     "end": 21.888
+    },
+    {
+     "text": "run",
+     "start": 21.9,
+     "end": 22.062
+    },
+    {
+     "text": "from",
+     "start": 22.075,
+     "end": 22.225
+    },
+    {
+     "text": "Kiruna",
+     "start": 22.238,
+     "end": 22.65
+    },
+    {
+     "text": "to",
+     "start": 22.662,
+     "end": 22.725
+    },
+    {
+     "text": "Narvik.",
+     "start": 22.738,
+     "end": 23.188
+    },
+    {
+     "text": "Luleå",
+     "start": 23.55,
+     "end": 24.375
+    },
+    {
+     "text": "ships",
+     "start": 24.388,
+     "end": 24.713
+    },
+    {
+     "text": "ore",
+     "start": 24.725,
+     "end": 24.837
+    },
+    {
+     "text": "too,",
+     "start": 24.85,
+     "end": 25.175
+    },
+    {
+     "text": "with",
+     "start": 25.312,
+     "end": 25.462
+    },
+    {
+     "text": "icebreakers",
+     "start": 25.475,
+     "end": 26.175
+    },
+    {
+     "text": "helping",
+     "start": 26.187,
+     "end": 26.5
+    },
+    {
+     "text": "in",
+     "start": 26.513,
+     "end": 26.6
+    },
+    {
+     "text": "winter.",
+     "start": 26.613,
+     "end": 26.95
+    },
+    {
+     "text": "So",
+     "start": 27.312,
+     "end": 27.538
+    },
+    {
+     "text": "the",
+     "start": 27.55,
+     "end": 27.65
+    },
+    {
+     "text": "iron",
+     "start": 27.662,
+     "end": 27.962
+    },
+    {
+     "text": "had",
+     "start": 27.975,
+     "end": 28.113
+    },
+    {
+     "text": "been",
+     "start": 28.125,
+     "end": 28.288
+    },
+    {
+     "text": "waiting",
+     "start": 28.3,
+     "end": 28.6
+    },
+    {
+     "text": "for",
+     "start": 28.613,
+     "end": 28.775
+    },
+    {
+     "text": "a",
+     "start": 28.788,
+     "end": 28.837
+    },
+    {
+     "text": "furnace",
+     "start": 28.85,
+     "end": 29.262
+    },
+    {
+     "text": "that",
+     "start": 29.275,
+     "end": 29.488
+    },
+    {
+     "text": "liked",
+     "start": 29.5,
+     "end": 29.8
+    },
+    {
+     "text": "it,",
+     "start": 29.813,
+     "end": 29.912
+    },
+    {
+     "text": "and",
+     "start": 30.25,
+     "end": 30.313
+    },
+    {
+     "text": "a",
+     "start": 30.325,
+     "end": 30.375
+    },
+    {
+     "text": "train",
+     "start": 30.387,
+     "end": 30.75
+    },
+    {
+     "text": "to",
+     "start": 30.762,
+     "end": 30.837
+    },
+    {
+     "text": "the",
+     "start": 30.85,
+     "end": 30.938
+    },
+    {
+     "text": "sea.",
+     "start": 30.95,
+     "end": 31.325
     }
    ],
    "khau_hinh": [
     {
-     "start": -38.562,
-     "end": -38.129,
+     "start": -36.4,
+     "end": -35.967,
      "value": "X"
     },
     {
-     "start": -38.129,
-     "end": -37.995,
+     "start": -35.967,
+     "end": -35.833,
      "value": "D"
     },
     {
-     "start": -37.995,
-     "end": -37.829,
+     "start": -35.833,
+     "end": -35.667,
      "value": "C"
     },
     {
-     "start": -37.829,
-     "end": -37.729,
+     "start": -35.667,
+     "end": -35.567,
      "value": "C"
     },
     {
-     "start": -37.729,
-     "end": -37.662,
+     "start": -35.567,
+     "end": -35.5,
      "value": "C"
     },
     {
-     "start": -37.662,
-     "end": -37.429,
+     "start": -35.5,
+     "end": -35.267,
      "value": "D"
     },
     {
-     "start": -37.429,
-     "end": -37.362,
+     "start": -35.267,
+     "end": -35.2,
      "value": "X"
     },
     {
-     "start": -37.362,
-     "end": -37.262,
+     "start": -35.2,
+     "end": -35.1,
      "value": "B"
     },
     {
-     "start": -37.262,
-     "end": -37.129,
+     "start": -35.1,
+     "end": -34.967,
      "value": "C"
     },
     {
-     "start": -37.129,
-     "end": -36.995,
+     "start": -34.967,
+     "end": -34.833,
      "value": "B"
     },
     {
-     "start": -36.995,
-     "end": -36.795,
+     "start": -34.833,
+     "end": -34.633,
      "value": "C"
     },
     {
-     "start": -36.795,
-     "end": -36.629,
+     "start": -34.633,
+     "end": -34.467,
      "value": "B"
     },
     {
-     "start": -36.629,
-     "end": -36.462,
+     "start": -34.467,
+     "end": -34.3,
      "value": "D"
     },
     {
-     "start": -36.462,
-     "end": -36.295,
+     "start": -34.3,
+     "end": -34.133,
      "value": "B"
     },
     {
-     "start": -36.295,
-     "end": -36.162,
+     "start": -34.133,
+     "end": -34.0,
      "value": "C"
     },
     {
-     "start": -36.162,
-     "end": -36.062,
+     "start": -34.0,
+     "end": -33.9,
      "value": "B"
     },
     {
-     "start": -36.062,
-     "end": -35.929,
+     "start": -33.9,
+     "end": -33.767,
      "value": "B"
     },
     {
-     "start": -35.929,
-     "end": -35.862,
+     "start": -33.767,
+     "end": -33.7,
      "value": "C"
     },
     {
-     "start": -35.862,
-     "end": -35.529,
+     "start": -33.7,
+     "end": -33.367,
      "value": "B"
     },
     {
-     "start": -35.529,
-     "end": -35.295,
+     "start": -33.367,
+     "end": -33.133,
      "value": "B"
     },
     {
-     "start": -35.295,
-     "end": -34.529,
+     "start": -33.133,
+     "end": -32.367,
      "value": "X"
     },
     {
-     "start": -34.529,
-     "end": -34.295,
+     "start": -32.367,
+     "end": -32.133,
      "value": "B"
     },
     {
-     "start": -34.295,
-     "end": -34.129,
+     "start": -32.133,
+     "end": -31.967,
      "value": "D"
     },
     {
-     "start": -34.129,
-     "end": -34.062,
+     "start": -31.967,
+     "end": -31.9,
      "value": "B"
     },
     {
-     "start": -34.062,
-     "end": -33.429,
+     "start": -31.9,
+     "end": -31.267,
      "value": "X"
     },
     {
-     "start": -33.429,
-     "end": -33.262,
+     "start": -31.267,
+     "end": -31.1,
      "value": "C"
     },
     {
-     "start": -33.262,
-     "end": -33.162,
+     "start": -31.1,
+     "end": -31.0,
      "value": "C"
     },
     {
-     "start": -33.162,
-     "end": -32.895,
+     "start": -31.0,
+     "end": -30.733,
      "value": "B"
     },
     {
-     "start": -32.895,
-     "end": -32.795,
+     "start": -30.733,
+     "end": -30.633,
      "value": "B"
     },
     {
-     "start": -32.795,
-     "end": -32.562,
+     "start": -30.633,
+     "end": -30.4,
      "value": "C"
     },
     {
-     "start": -32.562,
-     "end": -32.329,
+     "start": -30.4,
+     "end": -30.167,
      "value": "B"
     },
     {
-     "start": -32.329,
-     "end": -32.062,
+     "start": -30.167,
+     "end": -29.9,
      "value": "X"
     },
     {
-     "start": -32.062,
-     "end": -31.962,
+     "start": -29.9,
+     "end": -29.8,
      "value": "F"
     },
     {
-     "start": -31.962,
-     "end": -31.762,
+     "start": -29.8,
+     "end": -29.6,
      "value": "B"
     },
     {
-     "start": -31.762,
-     "end": -31.662,
+     "start": -29.6,
+     "end": -29.5,
      "value": "D"
     },
     {
-     "start": -31.662,
-     "end": -31.529,
+     "start": -29.5,
+     "end": -29.367,
      "value": "C"
     },
     {
-     "start": -31.529,
-     "end": -31.462,
+     "start": -29.367,
+     "end": -29.3,
      "value": "B"
     },
     {
-     "start": -31.462,
-     "end": -31.229,
+     "start": -29.3,
+     "end": -29.067,
      "value": "F"
     },
     {
-     "start": -31.229,
-     "end": -31.095,
+     "start": -29.067,
+     "end": -28.933,
      "value": "C"
     },
     {
-     "start": -31.095,
-     "end": -30.762,
+     "start": -28.933,
+     "end": -28.6,
      "value": "X"
     },
     {
-     "start": -30.762,
-     "end": -30.595,
+     "start": -28.6,
+     "end": -28.433,
      "value": "C"
     },
     {
-     "start": -30.595,
-     "end": -30.262,
+     "start": -28.433,
+     "end": -28.1,
      "value": "B"
     },
     {
-     "start": -30.262,
-     "end": -30.129,
+     "start": -28.1,
+     "end": -27.967,
      "value": "D"
     },
     {
-     "start": -30.129,
-     "end": -30.029,
+     "start": -27.967,
+     "end": -27.867,
      "value": "B"
     },
     {
-     "start": -30.029,
-     "end": -29.495,
+     "start": -27.867,
+     "end": -27.333,
      "value": "X"
     },
     {
-     "start": -29.495,
-     "end": -29.362,
+     "start": -27.333,
+     "end": -27.2,
      "value": "F"
     },
     {
-     "start": -29.362,
-     "end": -29.162,
+     "start": -27.2,
+     "end": -27.0,
      "value": "X"
     },
     {
-     "start": -29.162,
-     "end": -28.829,
+     "start": -27.0,
+     "end": -26.667,
      "value": "C"
     },
     {
-     "start": -28.829,
-     "end": -28.729,
+     "start": -26.667,
+     "end": -26.567,
      "value": "F"
     },
     {
-     "start": -28.729,
-     "end": -28.662,
+     "start": -26.567,
+     "end": -26.5,
      "value": "X"
     },
     {
-     "start": -28.662,
-     "end": -28.395,
+     "start": -26.5,
+     "end": -26.233,
      "value": "F"
     },
     {
-     "start": -28.395,
-     "end": -27.962,
+     "start": -26.233,
+     "end": -25.8,
      "value": "B"
     },
     {
-     "start": -27.962,
-     "end": -27.762,
+     "start": -25.8,
+     "end": -25.6,
      "value": "B"
     },
     {
-     "start": -27.762,
-     "end": -27.129,
+     "start": -25.6,
+     "end": -24.967,
      "value": "X"
     },
     {
-     "start": -27.129,
-     "end": -27.062,
+     "start": -24.967,
+     "end": -24.9,
      "value": "B"
     },
     {
-     "start": -27.062,
-     "end": -26.729,
+     "start": -24.9,
+     "end": -24.567,
      "value": "C"
     },
     {
-     "start": -26.729,
-     "end": -26.462,
+     "start": -24.567,
+     "end": -24.3,
      "value": "F"
     },
     {
-     "start": -26.462,
-     "end": -26.162,
+     "start": -24.3,
+     "end": -24.0,
      "value": "D"
     },
     {
-     "start": -26.162,
-     "end": -26.062,
+     "start": -24.0,
+     "end": -23.9,
      "value": "D"
     },
     {
-     "start": -26.062,
-     "end": -25.829,
+     "start": -23.9,
+     "end": -23.667,
      "value": "B"
     },
     {
-     "start": -25.829,
-     "end": -25.629,
+     "start": -23.667,
+     "end": -23.467,
      "value": "C"
     },
     {
-     "start": -25.629,
-     "end": -25.562,
+     "start": -23.467,
+     "end": -23.4,
      "value": "X"
     },
     {
-     "start": -25.562,
-     "end": -25.362,
+     "start": -23.4,
+     "end": -23.2,
      "value": "B"
     },
     {
-     "start": -25.362,
-     "end": -24.729,
+     "start": -23.2,
+     "end": -22.567,
      "value": "X"
     },
     {
-     "start": -24.729,
-     "end": -24.662,
+     "start": -22.567,
+     "end": -22.5,
      "value": "D"
     },
     {
-     "start": -24.662,
-     "end": -24.595,
+     "start": -22.5,
+     "end": -22.433,
      "value": "C"
     },
     {
-     "start": -24.595,
-     "end": -24.429,
+     "start": -22.433,
+     "end": -22.267,
      "value": "B"
     },
     {
-     "start": -24.429,
-     "end": -24.362,
+     "start": -22.267,
+     "end": -22.2,
      "value": "B"
     },
     {
-     "start": -24.362,
-     "end": -23.695,
+     "start": -22.2,
+     "end": -21.533,
      "value": "X"
     },
     {
-     "start": -23.695,
-     "end": -23.462,
+     "start": -21.533,
+     "end": -21.3,
      "value": "C"
     },
     {
-     "start": -23.462,
-     "end": -23.162,
+     "start": -21.3,
+     "end": -21.0,
      "value": "X"
     },
     {
-     "start": -23.162,
-     "end": -23.062,
+     "start": -21.0,
+     "end": -20.9,
      "value": "D"
     },
     {
-     "start": -23.062,
-     "end": -22.862,
+     "start": -20.9,
+     "end": -20.7,
      "value": "C"
     },
     {
-     "start": -22.862,
-     "end": -22.662,
+     "start": -20.7,
+     "end": -20.5,
      "value": "D"
     },
     {
-     "start": -22.662,
-     "end": -22.462,
+     "start": -20.5,
+     "end": -20.3,
      "value": "X"
     },
     {
-     "start": -22.462,
-     "end": -22.395,
+     "start": -20.3,
+     "end": -20.233,
      "value": "C"
     },
     {
-     "start": -22.395,
-     "end": -22.262,
+     "start": -20.233,
+     "end": -20.1,
      "value": "B"
     },
     {
-     "start": -22.262,
-     "end": -21.729,
+     "start": -20.1,
+     "end": -19.567,
      "value": "X"
     },
     {
-     "start": -21.729,
-     "end": -21.595,
+     "start": -19.567,
+     "end": -19.433,
      "value": "D"
     },
     {
-     "start": -21.595,
-     "end": -21.362,
+     "start": -19.433,
+     "end": -19.2,
      "value": "C"
     },
     {
-     "start": -21.362,
-     "end": -21.229,
+     "start": -19.2,
+     "end": -19.067,
      "value": "C"
     },
     {
-     "start": -21.229,
-     "end": -21.129,
+     "start": -19.067,
+     "end": -18.967,
      "value": "X"
     },
     {
-     "start": -21.129,
-     "end": -20.829,
+     "start": -18.967,
+     "end": -18.667,
      "value": "F"
     },
     {
-     "start": -20.829,
-     "end": -20.629,
+     "start": -18.667,
+     "end": -18.467,
      "value": "B"
     },
     {
-     "start": -20.629,
-     "end": -20.495,
+     "start": -18.467,
+     "end": -18.333,
      "value": "F"
     },
     {
-     "start": -20.495,
-     "end": -20.229,
+     "start": -18.333,
+     "end": -18.067,
      "value": "X"
     },
     {
-     "start": -20.229,
-     "end": -20.029,
+     "start": -18.067,
+     "end": -17.867,
      "value": "D"
     },
     {
-     "start": -20.029,
-     "end": -19.762,
+     "start": -17.867,
+     "end": -17.6,
      "value": "D"
     },
     {
-     "start": -19.762,
-     "end": -19.662,
+     "start": -17.6,
+     "end": -17.5,
      "value": "X"
     },
     {
-     "start": -19.662,
-     "end": -19.229,
+     "start": -17.5,
+     "end": -17.067,
      "value": "F"
     },
     {
-     "start": -19.229,
-     "end": -19.062,
+     "start": -17.067,
+     "end": -16.9,
      "value": "C"
     },
     {
-     "start": -19.062,
-     "end": -18.895,
+     "start": -16.9,
+     "end": -16.733,
      "value": "D"
     },
     {
-     "start": -18.895,
-     "end": -18.762,
+     "start": -16.733,
+     "end": -16.6,
      "value": "B"
     },
     {
-     "start": -18.762,
-     "end": -18.695,
+     "start": -16.6,
+     "end": -16.533,
      "value": "B"
     },
     {
-     "start": -18.695,
-     "end": -18.429,
+     "start": -16.533,
+     "end": -16.267,
      "value": "C"
     },
     {
-     "start": -18.429,
-     "end": -18.329,
+     "start": -16.267,
+     "end": -16.167,
      "value": "B"
     },
     {
-     "start": -18.329,
-     "end": -18.229,
+     "start": -16.167,
+     "end": -16.067,
      "value": "C"
     },
     {
-     "start": -18.229,
-     "end": -18.095,
+     "start": -16.067,
+     "end": -15.933,
      "value": "B"
     },
     {
-     "start": -18.095,
-     "end": -17.529,
+     "start": -15.933,
+     "end": -15.367,
      "value": "X"
     },
     {
-     "start": -17.529,
-     "end": -17.329,
+     "start": -15.367,
+     "end": -15.167,
      "value": "D"
     },
     {
-     "start": -17.329,
-     "end": -17.162,
+     "start": -15.167,
+     "end": -15.0,
      "value": "D"
     },
     {
-     "start": -17.162,
-     "end": -17.095,
+     "start": -15.0,
+     "end": -14.933,
      "value": "B"
     },
     {
-     "start": -17.095,
-     "end": -16.962,
+     "start": -14.933,
+     "end": -14.8,
      "value": "C"
     },
     {
-     "start": -16.962,
-     "end": -16.762,
+     "start": -14.8,
+     "end": -14.6,
      "value": "B"
     },
     {
-     "start": -16.762,
-     "end": -16.629,
+     "start": -14.6,
+     "end": -14.467,
      "value": "B"
     },
     {
-     "start": -16.629,
-     "end": -16.329,
+     "start": -14.467,
+     "end": -14.167,
      "value": "B"
     },
     {
-     "start": -16.329,
-     "end": -16.162,
+     "start": -14.167,
+     "end": -14.0,
      "value": "X"
     },
     {
-     "start": -16.162,
-     "end": -15.962,
+     "start": -14.0,
+     "end": -13.8,
      "value": "C"
     },
     {
-     "start": -15.962,
-     "end": -15.829,
+     "start": -13.8,
+     "end": -13.667,
      "value": "D"
     },
     {
-     "start": -15.829,
-     "end": -15.562,
+     "start": -13.667,
+     "end": -13.4,
      "value": "D"
     },
     {
-     "start": -15.562,
-     "end": -15.195,
+     "start": -13.4,
+     "end": -13.033,
      "value": "X"
     },
     {
-     "start": -15.195,
-     "end": -15.095,
+     "start": -13.033,
+     "end": -12.933,
      "value": "B"
     },
     {
-     "start": -15.095,
-     "end": -14.829,
+     "start": -12.933,
+     "end": -12.667,
      "value": "C"
     },
     {
-     "start": -14.829,
-     "end": -14.729,
+     "start": -12.667,
+     "end": -12.567,
      "value": "X"
     },
     {
-     "start": -14.729,
-     "end": -14.595,
+     "start": -12.567,
+     "end": -12.433,
      "value": "C"
     },
     {
-     "start": -14.595,
-     "end": -14.195,
+     "start": -12.433,
+     "end": -12.033,
      "value": "B"
     },
     {
-     "start": -14.195,
-     "end": -13.829,
+     "start": -12.033,
+     "end": -11.667,
      "value": "X"
     },
     {
-     "start": -13.829,
-     "end": -13.629,
+     "start": -11.667,
+     "end": -11.467,
      "value": "F"
     },
     {
-     "start": -13.629,
-     "end": -13.529,
+     "start": -11.467,
+     "end": -11.367,
      "value": "D"
     },
     {
-     "start": -13.529,
-     "end": -13.295,
+     "start": -11.367,
+     "end": -11.133,
      "value": "X"
     },
     {
-     "start": -13.295,
-     "end": -13.129,
+     "start": -11.133,
+     "end": -10.967,
      "value": "D"
     },
     {
-     "start": -13.129,
-     "end": -13.062,
+     "start": -10.967,
+     "end": -10.9,
      "value": "C"
     },
     {
-     "start": -13.062,
-     "end": -12.729,
+     "start": -10.9,
+     "end": -10.567,
      "value": "B"
     },
     {
-     "start": -12.729,
-     "end": -12.662,
+     "start": -10.567,
+     "end": -10.5,
      "value": "B"
     },
     {
-     "start": -12.662,
-     "end": -12.595,
+     "start": -10.5,
+     "end": -10.433,
      "value": "C"
     },
     {
-     "start": -12.595,
-     "end": -12.429,
+     "start": -10.433,
+     "end": -10.267,
      "value": "B"
     },
     {
-     "start": -12.429,
-     "end": -12.362,
+     "start": -10.267,
+     "end": -10.2,
      "value": "X"
     },
     {
-     "start": -12.362,
-     "end": -12.195,
+     "start": -10.2,
+     "end": -10.033,
      "value": "B"
     },
     {
-     "start": -12.195,
-     "end": -10.795,
+     "start": -10.033,
+     "end": -8.633,
      "value": "X"
     },
     {
-     "start": -10.795,
-     "end": -10.595,
+     "start": -8.633,
+     "end": -8.433,
      "value": "B"
     },
     {
-     "start": -10.595,
-     "end": -10.495,
+     "start": -8.433,
+     "end": -8.333,
      "value": "B"
     },
     {
-     "start": -10.495,
-     "end": -9.962,
+     "start": -8.333,
+     "end": -7.8,
      "value": "X"
     },
     {
-     "start": -9.962,
-     "end": -9.795,
+     "start": -7.8,
+     "end": -7.633,
      "value": "D"
     },
     {
-     "start": -9.795,
-     "end": -9.595,
+     "start": -7.633,
+     "end": -7.433,
      "value": "D"
     },
     {
-     "start": -9.595,
-     "end": -9.462,
+     "start": -7.433,
+     "end": -7.3,
      "value": "D"
     },
     {
-     "start": -9.462,
-     "end": -9.029,
+     "start": -7.3,
+     "end": -6.867,
      "value": "F"
     },
     {
-     "start": -9.029,
-     "end": -8.862,
+     "start": -6.867,
+     "end": -6.7,
      "value": "C"
     },
     {
-     "start": -8.862,
-     "end": -8.762,
+     "start": -6.7,
+     "end": -6.6,
      "value": "B"
     },
     {
-     "start": -8.762,
-     "end": -8.662,
+     "start": -6.6,
+     "end": -6.5,
      "value": "B"
     },
     {
-     "start": -8.662,
-     "end": -8.529,
+     "start": -6.5,
+     "end": -6.367,
      "value": "F"
     },
     {
-     "start": -8.529,
-     "end": -7.795,
+     "start": -6.367,
+     "end": -5.633,
      "value": "X"
     },
     {
-     "start": -7.795,
-     "end": -7.595,
+     "start": -5.633,
+     "end": -5.433,
      "value": "D"
     },
     {
-     "start": -7.595,
-     "end": -7.429,
+     "start": -5.433,
+     "end": -5.267,
      "value": "B"
     },
     {
-     "start": -7.429,
-     "end": -7.229,
+     "start": -5.267,
+     "end": -5.067,
      "value": "D"
     },
     {
-     "start": -7.229,
-     "end": -7.162,
+     "start": -5.067,
+     "end": -5.0,
      "value": "X"
     },
     {
-     "start": -7.162,
-     "end": -7.095,
+     "start": -5.0,
+     "end": -4.933,
      "value": "B"
     },
     {
-     "start": -7.095,
-     "end": -6.962,
+     "start": -4.933,
+     "end": -4.8,
      "value": "C"
     },
     {
-     "start": -6.962,
-     "end": -6.895,
+     "start": -4.8,
+     "end": -4.733,
      "value": "C"
     },
     {
-     "start": -6.895,
-     "end": -6.795,
+     "start": -4.733,
+     "end": -4.633,
      "value": "B"
     },
     {
-     "start": -6.795,
-     "end": -6.062,
+     "start": -4.633,
+     "end": -3.9,
      "value": "X"
     },
     {
-     "start": -6.062,
-     "end": -5.962,
+     "start": -3.9,
+     "end": -3.8,
      "value": "C"
     },
     {
-     "start": -5.962,
-     "end": -5.862,
+     "start": -3.8,
+     "end": -3.7,
      "value": "D"
     },
     {
-     "start": -5.862,
-     "end": -5.595,
+     "start": -3.7,
+     "end": -3.433,
      "value": "F"
     },
     {
-     "start": -5.595,
-     "end": -5.462,
+     "start": -3.433,
+     "end": -3.3,
      "value": "B"
     },
     {
-     "start": -5.462,
-     "end": -5.362,
+     "start": -3.3,
+     "end": -3.2,
      "value": "D"
     },
     {
-     "start": -5.362,
-     "end": -5.162,
+     "start": -3.2,
+     "end": -3.0,
      "value": "C"
     },
     {
-     "start": -5.162,
-     "end": -4.829,
+     "start": -3.0,
+     "end": -2.667,
      "value": "B"
     },
     {
-     "start": -4.829,
-     "end": -4.562,
+     "start": -2.667,
+     "end": -2.4,
      "value": "D"
     },
     {
-     "start": -4.562,
-     "end": -4.329,
+     "start": -2.4,
+     "end": -2.167,
      "value": "X"
     },
     {
-     "start": -4.329,
-     "end": -4.262,
+     "start": -2.167,
+     "end": -2.1,
      "value": "B"
     },
     {
-     "start": -4.262,
-     "end": -4.129,
+     "start": -2.1,
+     "end": -1.967,
      "value": "F"
     },
     {
-     "start": -4.129,
-     "end": -4.062,
+     "start": -1.967,
+     "end": -1.9,
      "value": "B"
     },
     {
-     "start": -4.062,
-     "end": -3.662,
+     "start": -1.9,
+     "end": -1.5,
      "value": "F"
     },
     {
-     "start": -3.662,
-     "end": -3.595,
+     "start": -1.5,
+     "end": -1.433,
      "value": "B"
     },
     {
-     "start": -3.595,
-     "end": -3.195,
+     "start": -1.433,
+     "end": -1.033,
      "value": "X"
     },
     {
-     "start": -3.195,
-     "end": -2.829,
+     "start": -1.033,
+     "end": -0.667,
      "value": "F"
     },
     {
-     "start": -2.829,
-     "end": -2.629,
+     "start": -0.667,
+     "end": -0.467,
      "value": "C"
     },
     {
-     "start": -2.629,
-     "end": -2.562,
+     "start": -0.467,
+     "end": -0.4,
      "value": "X"
     },
     {
-     "start": -2.562,
-     "end": -2.329,
+     "start": -0.4,
+     "end": -0.167,
      "value": "B"
     },
     {
-     "start": -2.329,
-     "end": -1.829,
+     "start": -0.167,
+     "end": 0.333,
      "value": "X"
     },
     {
-     "start": -1.829,
-     "end": -1.762,
+     "start": 0.333,
+     "end": 0.4,
      "value": "D"
     },
     {
-     "start": -1.762,
-     "end": -1.495,
+     "start": 0.4,
+     "end": 0.667,
      "value": "B"
     },
     {
-     "start": -1.495,
-     "end": -1.329,
+     "start": 0.667,
+     "end": 0.833,
      "value": "X"
     },
     {
-     "start": -1.329,
-     "end": -1.262,
+     "start": 0.833,
+     "end": 0.9,
      "value": "D"
     },
     {
-     "start": -1.262,
-     "end": -1.029,
+     "start": 0.9,
+     "end": 1.133,
      "value": "C"
     },
     {
-     "start": -1.029,
-     "end": -0.929,
+     "start": 1.133,
+     "end": 1.233,
      "value": "C"
     },
     {
-     "start": -0.929,
-     "end": -0.829,
+     "start": 1.233,
+     "end": 1.333,
      "value": "B"
     },
     {
-     "start": -0.829,
-     "end": -0.762,
+     "start": 1.333,
+     "end": 1.4,
      "value": "B"
     },
     {
-     "start": -0.762,
-     "end": -0.629,
+     "start": 1.4,
+     "end": 1.533,
      "value": "C"
     },
     {
-     "start": -0.629,
-     "end": -0.529,
+     "start": 1.533,
+     "end": 1.633,
      "value": "C"
     },
     {
-     "start": -0.529,
-     "end": -0.462,
+     "start": 1.633,
+     "end": 1.7,
      "value": "B"
     },
     {
-     "start": -0.462,
-     "end": -0.329,
+     "start": 1.7,
+     "end": 1.833,
      "value": "C"
     },
     {
-     "start": -0.329,
-     "end": -0.195,
+     "start": 1.833,
+     "end": 1.967,
      "value": "B"
     },
     {
-     "start": -0.195,
-     "end": 0.571,
+     "start": 1.967,
+     "end": 2.733,
      "value": "X"
     },
     {
-     "start": 0.571,
-     "end": 0.871,
+     "start": 2.733,
+     "end": 3.033,
      "value": "B"
     },
     {
-     "start": 0.871,
-     "end": 0.938,
+     "start": 3.033,
+     "end": 3.1,
      "value": "C"
     },
     {
-     "start": 0.938,
-     "end": 1.238,
+     "start": 3.1,
+     "end": 3.4,
      "value": "B"
     },
     {
-     "start": 1.238,
-     "end": 1.671,
+     "start": 3.4,
+     "end": 3.833,
      "value": "C"
     },
     {
-     "start": 1.671,
-     "end": 1.771,
+     "start": 3.833,
+     "end": 3.933,
      "value": "X"
     },
     {
-     "start": 1.771,
-     "end": 1.871,
+     "start": 3.933,
+     "end": 4.033,
      "value": "D"
     },
     {
-     "start": 1.871,
-     "end": 2.005,
+     "start": 4.033,
+     "end": 4.167,
      "value": "B"
     },
     {
-     "start": 2.005,
-     "end": 2.205,
+     "start": 4.167,
+     "end": 4.367,
      "value": "F"
     },
     {
-     "start": 2.205,
-     "end": 2.338,
+     "start": 4.367,
+     "end": 4.5,
      "value": "X"
     },
     {
-     "start": 2.338,
-     "end": 2.505,
+     "start": 4.5,
+     "end": 4.667,
      "value": "C"
     },
     {
-     "start": 2.505,
-     "end": 2.638,
+     "start": 4.667,
+     "end": 4.8,
      "value": "B"
     },
     {
-     "start": 2.638,
-     "end": 2.905,
+     "start": 4.8,
+     "end": 5.067,
      "value": "B"
     },
     {
-     "start": 2.905,
-     "end": 3.005,
+     "start": 5.067,
+     "end": 5.167,
      "value": "F"
     },
     {
-     "start": 3.005,
-     "end": 3.371,
+     "start": 5.167,
+     "end": 5.533,
      "value": "X"
     },
     {
-     "start": 3.371,
-     "end": 3.438,
+     "start": 5.533,
+     "end": 5.6,
      "value": "B"
     },
     {
-     "start": 3.438,
-     "end": 3.538,
+     "start": 5.6,
+     "end": 5.7,
      "value": "C"
     },
     {
-     "start": 3.538,
-     "end": 3.671,
+     "start": 5.7,
+     "end": 5.833,
      "value": "B"
     },
     {
-     "start": 3.671,
-     "end": 4.271,
+     "start": 5.833,
+     "end": 6.433,
      "value": "X"
     },
     {
-     "start": 4.271,
-     "end": 4.371,
+     "start": 6.433,
+     "end": 6.533,
      "value": "D"
     },
     {
-     "start": 4.371,
-     "end": 4.438,
+     "start": 6.533,
+     "end": 6.6,
      "value": "D"
     },
     {
-     "start": 4.438,
-     "end": 4.538,
+     "start": 6.6,
+     "end": 6.7,
      "value": "C"
     },
     {
-     "start": 4.538,
-     "end": 4.738,
+     "start": 6.7,
+     "end": 6.9,
      "value": "C"
     },
     {
-     "start": 4.738,
-     "end": 4.871,
+     "start": 6.9,
+     "end": 7.033,
      "value": "B"
     },
     {
-     "start": 4.871,
-     "end": 4.971,
+     "start": 7.033,
+     "end": 7.133,
      "value": "D"
     },
     {
-     "start": 4.971,
-     "end": 5.605,
+     "start": 7.133,
+     "end": 7.767,
      "value": "C"
     },
     {
-     "start": 5.605,
-     "end": 5.805,
+     "start": 7.767,
+     "end": 7.967,
      "value": "B"
     },
     {
-     "start": 5.805,
-     "end": 6.038,
+     "start": 7.967,
+     "end": 8.2,
      "value": "X"
     },
     {
-     "start": 6.038,
-     "end": 6.138,
+     "start": 8.2,
+     "end": 8.3,
      "value": "D"
     },
     {
-     "start": 6.138,
-     "end": 6.305,
+     "start": 8.3,
+     "end": 8.467,
      "value": "C"
     },
     {
-     "start": 6.305,
-     "end": 6.505,
+     "start": 8.467,
+     "end": 8.667,
      "value": "F"
     },
     {
-     "start": 6.505,
-     "end": 6.638,
+     "start": 8.667,
+     "end": 8.8,
      "value": "B"
     },
     {
-     "start": 6.638,
-     "end": 6.771,
+     "start": 8.8,
+     "end": 8.933,
      "value": "B"
     },
     {
-     "start": 6.771,
-     "end": 7.038,
+     "start": 8.933,
+     "end": 9.2,
      "value": "X"
     },
     {
-     "start": 7.038,
-     "end": 7.338,
+     "start": 9.2,
+     "end": 9.5,
      "value": "D"
     },
     {
-     "start": 7.338,
-     "end": 7.471,
+     "start": 9.5,
+     "end": 9.633,
      "value": "B"
     },
     {
-     "start": 7.471,
-     "end": 7.705,
+     "start": 9.633,
+     "end": 9.867,
      "value": "B"
     },
     {
-     "start": 7.705,
-     "end": 7.905,
+     "start": 9.867,
+     "end": 10.067,
      "value": "C"
     },
     {
-     "start": 7.905,
-     "end": 8.071,
+     "start": 10.067,
+     "end": 10.233,
      "value": "B"
     },
     {
-     "start": 8.071,
-     "end": 8.238,
+     "start": 10.233,
+     "end": 10.4,
      "value": "B"
     },
     {
-     "start": 8.238,
-     "end": 8.371,
+     "start": 10.4,
+     "end": 10.533,
      "value": "X"
     },
     {
-     "start": 8.371,
-     "end": 8.438,
+     "start": 10.533,
+     "end": 10.6,
      "value": "C"
     },
     {
-     "start": 8.438,
-     "end": 8.538,
+     "start": 10.6,
+     "end": 10.7,
      "value": "B"
     },
     {
-     "start": 8.538,
-     "end": 8.638,
+     "start": 10.7,
+     "end": 10.8,
      "value": "C"
     },
     {
-     "start": 8.638,
-     "end": 9.205,
+     "start": 10.8,
+     "end": 11.367,
      "value": "X"
     },
     {
-     "start": 9.205,
-     "end": 9.305,
+     "start": 11.367,
+     "end": 11.467,
      "value": "D"
     },
     {
-     "start": 9.305,
-     "end": 9.538,
+     "start": 11.467,
+     "end": 11.7,
      "value": "C"
     },
     {
-     "start": 9.538,
-     "end": 9.705,
+     "start": 11.7,
+     "end": 11.867,
      "value": "D"
     },
     {
-     "start": 9.705,
-     "end": 9.805,
+     "start": 11.867,
+     "end": 11.967,
      "value": "B"
     },
     {
-     "start": 9.805,
-     "end": 10.038,
+     "start": 11.967,
+     "end": 12.2,
      "value": "C"
     },
     {
-     "start": 10.038,
-     "end": 10.171,
+     "start": 12.2,
+     "end": 12.333,
      "value": "F"
     },
     {
-     "start": 10.171,
-     "end": 10.371,
+     "start": 12.333,
+     "end": 12.533,
      "value": "B"
     },
     {
-     "start": 10.371,
-     "end": 10.638,
+     "start": 12.533,
+     "end": 12.8,
      "value": "B"
     },
     {
-     "start": 10.638,
-     "end": 10.738,
+     "start": 12.8,
+     "end": 12.9,
      "value": "X"
     },
     {
-     "start": 10.738,
-     "end": 10.871,
+     "start": 12.9,
+     "end": 13.033,
      "value": "B"
     },
     {
-     "start": 10.871,
-     "end": 11.038,
+     "start": 13.033,
+     "end": 13.2,
      "value": "B"
     },
     {
-     "start": 11.038,
-     "end": 11.271,
+     "start": 13.2,
+     "end": 13.433,
      "value": "D"
     },
     {
-     "start": 11.271,
-     "end": 11.471,
+     "start": 13.433,
+     "end": 13.633,
      "value": "C"
     },
     {
-     "start": 11.471,
-     "end": 11.538,
+     "start": 13.633,
+     "end": 13.7,
      "value": "B"
     },
     {
-     "start": 11.538,
-     "end": 11.771,
+     "start": 13.7,
+     "end": 13.933,
      "value": "F"
     },
     {
-     "start": 11.771,
-     "end": 12.205,
+     "start": 13.933,
+     "end": 14.367,
      "value": "B"
     },
     {
-     "start": 12.205,
-     "end": 12.371,
+     "start": 14.367,
+     "end": 14.533,
      "value": "C"
     },
     {
-     "start": 12.371,
-     "end": 12.571,
+     "start": 14.533,
+     "end": 14.733,
      "value": "X"
     },
     {
-     "start": 12.571,
-     "end": 12.738,
+     "start": 14.733,
+     "end": 14.9,
      "value": "C"
     },
     {
-     "start": 12.738,
-     "end": 12.905,
+     "start": 14.9,
+     "end": 15.067,
      "value": "B"
     },
     {
-     "start": 12.905,
-     "end": 13.571,
+     "start": 15.067,
+     "end": 15.733,
      "value": "X"
     },
     {
-     "start": 13.571,
-     "end": 13.671,
+     "start": 15.733,
+     "end": 15.833,
      "value": "D"
     },
     {
-     "start": 13.671,
-     "end": 13.805,
+     "start": 15.833,
+     "end": 15.967,
      "value": "C"
     },
     {
-     "start": 13.805,
-     "end": 14.005,
+     "start": 15.967,
+     "end": 16.167,
      "value": "C"
     },
     {
-     "start": 14.005,
-     "end": 14.138,
+     "start": 16.167,
+     "end": 16.3,
      "value": "B"
     },
     {
-     "start": 14.138,
-     "end": 14.371,
+     "start": 16.3,
+     "end": 16.533,
      "value": "F"
     },
     {
-     "start": 14.371,
-     "end": 14.605,
+     "start": 16.533,
+     "end": 16.767,
      "value": "F"
     },
     {
-     "start": 14.605,
-     "end": 14.771,
+     "start": 16.767,
+     "end": 16.933,
      "value": "B"
     },
     {
-     "start": 14.771,
-     "end": 14.838,
+     "start": 16.933,
+     "end": 17.0,
      "value": "B"
     },
     {
-     "start": 14.838,
-     "end": 15.038,
+     "start": 17.0,
+     "end": 17.2,
      "value": "X"
     },
     {
-     "start": 15.038,
-     "end": 15.138,
+     "start": 17.2,
+     "end": 17.3,
      "value": "F"
     },
     {
-     "start": 15.138,
-     "end": 15.205,
+     "start": 17.3,
+     "end": 17.367,
      "value": "B"
     },
     {
-     "start": 15.205,
-     "end": 15.438,
+     "start": 17.367,
+     "end": 17.6,
      "value": "F"
     },
     {
-     "start": 15.438,
-     "end": 15.605,
+     "start": 17.6,
+     "end": 17.767,
      "value": "B"
     },
     {
-     "start": 15.605,
-     "end": 15.738,
+     "start": 17.767,
+     "end": 17.9,
      "value": "C"
     },
     {
-     "start": 15.738,
-     "end": 15.871,
+     "start": 17.9,
+     "end": 18.033,
      "value": "B"
     },
     {
-     "start": 15.871,
-     "end": 15.938,
+     "start": 18.033,
+     "end": 18.1,
      "value": "B"
     },
     {
-     "start": 15.938,
-     "end": 16.105,
+     "start": 18.1,
+     "end": 18.267,
      "value": "C"
     },
     {
-     "start": 16.105,
-     "end": 16.238,
+     "start": 18.267,
+     "end": 18.4,
      "value": "F"
     },
     {
-     "start": 16.238,
-     "end": 16.338,
+     "start": 18.4,
+     "end": 18.5,
      "value": "X"
     },
     {
-     "start": 16.338,
-     "end": 16.471,
+     "start": 18.5,
+     "end": 18.633,
      "value": "C"
     },
     {
-     "start": 16.471,
-     "end": 16.638,
+     "start": 18.633,
+     "end": 18.8,
      "value": "C"
     },
     {
-     "start": 16.638,
-     "end": 16.771,
+     "start": 18.8,
+     "end": 18.933,
      "value": "B"
     },
     {
-     "start": 16.771,
-     "end": 16.838,
+     "start": 18.933,
+     "end": 19.0,
      "value": "X"
     },
     {
-     "start": 16.838,
-     "end": 17.038,
+     "start": 19.0,
+     "end": 19.2,
      "value": "B"
     },
     {
-     "start": 17.038,
-     "end": 17.138,
+     "start": 19.2,
+     "end": 19.3,
      "value": "B"
     },
     {
-     "start": 17.138,
-     "end": 17.371,
+     "start": 19.3,
+     "end": 19.533,
      "value": "X"
     },
     {
-     "start": 17.371,
-     "end": 17.571,
+     "start": 19.533,
+     "end": 19.733,
      "value": "C"
     },
     {
-     "start": 17.571,
-     "end": 17.805,
+     "start": 19.733,
+     "end": 19.967,
      "value": "B"
     },
     {
-     "start": 17.805,
-     "end": 18.405,
+     "start": 19.967,
+     "end": 20.567,
      "value": "X"
     },
     {
-     "start": 18.405,
-     "end": 18.505,
+     "start": 20.567,
+     "end": 20.667,
      "value": "B"
     },
     {
-     "start": 18.505,
-     "end": 18.605,
+     "start": 20.667,
+     "end": 20.767,
      "value": "D"
     },
     {
-     "start": 18.605,
-     "end": 19.105,
+     "start": 20.767,
+     "end": 21.267,
      "value": "C"
     },
     {
-     "start": 19.105,
-     "end": 19.505,
+     "start": 21.267,
+     "end": 21.667,
      "value": "X"
     },
     {
-     "start": 19.505,
-     "end": 19.638,
+     "start": 21.667,
+     "end": 21.8,
      "value": "C"
     },
     {
-     "start": 19.638,
-     "end": 19.738,
+     "start": 21.8,
+     "end": 21.9,
      "value": "B"
     },
     {
-     "start": 19.738,
-     "end": 19.838,
+     "start": 21.9,
+     "end": 22.0,
      "value": "C"
     },
     {
-     "start": 19.838,
-     "end": 19.971,
+     "start": 22.0,
+     "end": 22.133,
      "value": "B"
     },
     {
-     "start": 19.971,
-     "end": 20.105,
+     "start": 22.133,
+     "end": 22.267,
      "value": "B"
     },
     {
-     "start": 20.105,
-     "end": 20.271,
+     "start": 22.267,
+     "end": 22.433,
      "value": "C"
     },
     {
-     "start": 20.271,
-     "end": 20.338,
+     "start": 22.433,
+     "end": 22.5,
      "value": "B"
     },
     {
-     "start": 20.338,
-     "end": 20.405,
+     "start": 22.5,
+     "end": 22.567,
      "value": "X"
     },
     {
-     "start": 20.405,
-     "end": 20.538,
+     "start": 22.567,
+     "end": 22.7,
      "value": "B"
     },
     {
-     "start": 20.538,
-     "end": 20.638,
+     "start": 22.7,
+     "end": 22.8,
      "value": "B"
     },
     {
-     "start": 20.638,
-     "end": 21.405,
+     "start": 22.8,
+     "end": 23.567,
      "value": "X"
     },
     {
-     "start": 21.405,
-     "end": 21.538,
+     "start": 23.567,
+     "end": 23.7,
      "value": "C"
     },
     {
-     "start": 21.538,
-     "end": 21.605,
+     "start": 23.7,
+     "end": 23.767,
      "value": "B"
     },
     {
-     "start": 21.605,
-     "end": 21.738,
+     "start": 23.767,
+     "end": 23.9,
      "value": "X"
     },
     {
-     "start": 21.738,
-     "end": 21.938,
+     "start": 23.9,
+     "end": 24.1,
      "value": "F"
     },
     {
-     "start": 21.938,
-     "end": 22.105,
+     "start": 24.1,
+     "end": 24.267,
      "value": "X"
     },
     {
-     "start": 22.105,
-     "end": 22.205,
+     "start": 24.267,
+     "end": 24.367,
      "value": "D"
     },
     {
-     "start": 22.205,
-     "end": 22.338,
+     "start": 24.367,
+     "end": 24.5,
      "value": "B"
     },
     {
-     "start": 22.338,
-     "end": 22.438,
+     "start": 24.5,
+     "end": 24.6,
      "value": "D"
     },
     {
-     "start": 22.438,
-     "end": 22.538,
+     "start": 24.6,
+     "end": 24.7,
      "value": "C"
     },
     {
-     "start": 22.538,
-     "end": 22.638,
+     "start": 24.7,
+     "end": 24.8,
      "value": "B"
     },
     {
-     "start": 22.638,
-     "end": 22.705,
+     "start": 24.8,
+     "end": 24.867,
      "value": "B"
     },
     {
-     "start": 22.705,
-     "end": 22.871,
+     "start": 24.867,
+     "end": 25.033,
      "value": "C"
     },
     {
-     "start": 22.871,
-     "end": 23.071,
+     "start": 25.033,
+     "end": 25.233,
      "value": "B"
     },
     {
-     "start": 23.071,
-     "end": 23.205,
+     "start": 25.233,
+     "end": 25.367,
      "value": "C"
     },
     {
-     "start": 23.205,
-     "end": 23.438,
+     "start": 25.367,
+     "end": 25.6,
      "value": "B"
     },
     {
-     "start": 23.438,
-     "end": 23.538,
+     "start": 25.6,
+     "end": 25.7,
      "value": "X"
     },
     {
-     "start": 23.538,
-     "end": 23.638,
+     "start": 25.7,
+     "end": 25.8,
      "value": "D"
     },
     {
-     "start": 23.638,
-     "end": 23.871,
+     "start": 25.8,
+     "end": 26.033,
      "value": "F"
     },
     {
-     "start": 23.871,
-     "end": 24.071,
+     "start": 26.033,
+     "end": 26.233,
      "value": "B"
     },
     {
-     "start": 24.071,
-     "end": 24.138,
+     "start": 26.233,
+     "end": 26.3,
      "value": "B"
     },
     {
-     "start": 24.138,
-     "end": 24.238,
+     "start": 26.3,
+     "end": 26.4,
      "value": "F"
     },
     {
-     "start": 24.238,
-     "end": 24.438,
+     "start": 26.4,
+     "end": 26.6,
      "value": "F"
     },
     {
-     "start": 24.438,
-     "end": 24.771,
+     "start": 26.6,
+     "end": 26.933,
      "value": "B"
     },
     {
-     "start": 24.771,
-     "end": 25.471,
+     "start": 26.933,
+     "end": 27.633,
      "value": "X"
     },
     {
-     "start": 25.471,
-     "end": 25.605,
+     "start": 27.633,
+     "end": 27.767,
      "value": "F"
     },
     {
-     "start": 25.605,
-     "end": 25.738,
+     "start": 27.767,
+     "end": 27.9,
      "value": "X"
     },
     {
-     "start": 25.738,
-     "end": 26.105,
+     "start": 27.9,
+     "end": 28.267,
      "value": "F"
     },
     {
-     "start": 26.105,
-     "end": 26.205,
+     "start": 28.267,
+     "end": 28.367,
      "value": "C"
     },
     {
-     "start": 26.205,
-     "end": 26.338,
+     "start": 28.367,
+     "end": 28.5,
      "value": "B"
     },
     {
-     "start": 26.338,
-     "end": 26.571,
+     "start": 28.5,
+     "end": 28.733,
      "value": "C"
     },
     {
-     "start": 26.571,
-     "end": 26.771,
+     "start": 28.733,
+     "end": 28.933,
      "value": "F"
     },
     {
-     "start": 26.771,
-     "end": 26.905,
+     "start": 28.933,
+     "end": 29.067,
      "value": "F"
     },
     {
-     "start": 26.905,
-     "end": 27.005,
+     "start": 29.067,
+     "end": 29.167,
      "value": "B"
     },
     {
-     "start": 27.005,
-     "end": 27.138,
+     "start": 29.167,
+     "end": 29.3,
      "value": "X"
     },
     {
-     "start": 27.138,
-     "end": 27.205,
+     "start": 29.3,
+     "end": 29.367,
      "value": "C"
     },
     {
-     "start": 27.205,
-     "end": 27.338,
+     "start": 29.367,
+     "end": 29.5,
      "value": "X"
     },
     {
-     "start": 27.338,
-     "end": 27.538,
+     "start": 29.5,
+     "end": 29.7,
      "value": "C"
     },
     {
-     "start": 27.538,
-     "end": 27.605,
+     "start": 29.7,
+     "end": 29.767,
      "value": "X"
     },
     {
-     "start": 27.605,
-     "end": 27.838,
+     "start": 29.767,
+     "end": 30.0,
      "value": "C"
     },
     {
-     "start": 27.838,
-     "end": 27.905,
+     "start": 30.0,
+     "end": 30.067,
      "value": "C"
     },
     {
-     "start": 27.905,
-     "end": 28.038,
+     "start": 30.067,
+     "end": 30.2,
      "value": "B"
     },
     {
-     "start": 28.038,
-     "end": 28.205,
+     "start": 30.2,
+     "end": 30.367,
      "value": "C"
     },
     {
-     "start": 28.205,
-     "end": 28.338,
+     "start": 30.367,
+     "end": 30.5,
      "value": "C"
     },
     {
-     "start": 28.338,
-     "end": 28.671,
+     "start": 30.5,
+     "end": 30.833,
      "value": "B"
     },
     {
-     "start": 28.671,
-     "end": 29.238,
+     "start": 30.833,
+     "end": 31.4,
      "value": "X"
     },
     {
-     "start": 29.238,
-     "end": 29.471,
+     "start": 31.4,
+     "end": 31.633,
      "value": "D"
     },
     {
-     "start": 29.471,
-     "end": 29.605,
+     "start": 31.633,
+     "end": 31.767,
      "value": "C"
     },
     {
-     "start": 29.605,
-     "end": 29.771,
+     "start": 31.767,
+     "end": 31.933,
      "value": "C"
     },
     {
-     "start": 29.771,
-     "end": 29.838,
+     "start": 31.933,
+     "end": 32.0,
      "value": "B"
     },
     {
-     "start": 29.838,
-     "end": 29.971,
+     "start": 32.0,
+     "end": 32.133,
      "value": "D"
     },
     {
-     "start": 29.971,
-     "end": 30.371,
+     "start": 32.133,
+     "end": 32.533,
      "value": "C"
     },
     {
-     "start": 30.371,
-     "end": 30.638,
+     "start": 32.533,
+     "end": 32.8,
      "value": "C"
     },
     {
-     "start": 30.638,
-     "end": 30.871,
+     "start": 32.8,
+     "end": 33.033,
      "value": "F"
     },
     {
-     "start": 30.871,
-     "end": 31.005,
+     "start": 33.033,
+     "end": 33.167,
      "value": "B"
     },
     {
-     "start": 31.005,
-     "end": 31.138,
+     "start": 33.167,
+     "end": 33.3,
      "value": "X"
     },
     {
-     "start": 31.138,
-     "end": 31.338,
+     "start": 33.3,
+     "end": 33.5,
      "value": "D"
     },
     {
-     "start": 31.338,
-     "end": 31.638,
+     "start": 33.5,
+     "end": 33.8,
      "value": "B"
     },
     {
-     "start": 31.638,
-     "end": 31.838,
+     "start": 33.8,
+     "end": 34.0,
      "value": "F"
     },
     {
-     "start": 31.838,
-     "end": 32.071,
+     "start": 34.0,
+     "end": 34.233,
      "value": "B"
     },
     {
-     "start": 32.071,
-     "end": 32.505,
+     "start": 34.233,
+     "end": 34.667,
      "value": "X"
     }
    ]

@@ -2,10 +2,10 @@
  * S0 sơ đồ trang sổ: tấm thẻ cực quang (đế lót ly ở d05) lật ngửa; mũi tên mực từ vệt cực quang xuống mái nhà; Wob ở mép trang viết "?", gõ bút đúng "sky.".
  * S1 cánh đồng tuyết đêm, Wob ngửa mặt, tay cầm bình trà bốc hơi. S2 cực quang từ "northern", ánh xanh phủ lên Wob, Wob há miệng.
  * S3 cận mặt: "nose" mảng lục địa giữa mặt tê trắng (rig landFrost); "Lovely." xoa hai cái, hồng lại; "wrong." ánh xanh tắt phụt, giữ.
- * S4–S5 sơ đồ: sổ khách tự lật vù vù, dày dần; "record" thẻ 607,818 (record) + 2024 bật lên, dán vào gáy/bìa; sổ phồng gấp đôi, Wob ôm cho khỏi bung.
+ * S4–S5 sơ đồ: sổ khách tự lật vù vù, dày dần; "record" thẻ "607,818 guest nights" (dấu "record") + 2024 bật lên, dán vào gáy/bìa; sổ phồng gấp đôi, Wob ôm cho khỏi bung.
  * S6 thước thời gian: nhà nhỏ 1900 đầu trái; "tourists" sổ khách trượt về đầu phải; "followed." Wob gạch X lên thẻ cực quang; giữ.
  * Đồ Wob: áo phao xanh lam túi phải, mũ len xanh lá thông bông kem, khăn kem sọc xanh lá thông, ba lô ô liu, giày đỏ.
- * Chữ: "?", "607,818 (record)", "2024", "1900".
+ * Chữ: "?", "607,818 guest nights", "record", "2024", "1900" (thẻ ghi rõ đơn vị: đêm lưu trú, không phải số khách).
  */
 window.CANH = function (VT, D) {
   var key = VT.key, seg = VT.seg, E = VT.ease, C = VT.C, f = VT.f;
@@ -138,7 +138,7 @@ window.CANH = function (VT, D) {
     return { cam: [c[0], c[1], 3.4 + 0.12 * seg(T, B2, T_WRONG) + (T >= T_WRONG ? 0.3 : 0)], world: s, tint: null };
   });
 
-  // ===== S4–S5 · sơ đồ: sổ khách lật vù vù, dày dần; thẻ 607,818 (record) + 2024; sổ phồng, Wob ôm =====
+  // ===== S4–S5 · sơ đồ: sổ khách lật vù vù, dày dần; thẻ 607,818 guest nights + dấu record + 2024; sổ phồng, Wob ôm =====
   var BOOK = { x: 880, y: 830, w: 460, s: 1.4 };
   function thick(t) { return 1 + 0.45 * E.io(seg(t, T_TOUR, T_IN + 0.6)) + 1.15 * E.io(seg(t, T_REC + 1.3, T_REC + 2.6)); }
   function bookFace(th) { // mặt gáy trước (toạ độ thế giới)
@@ -149,12 +149,13 @@ window.CANH = function (VT, D) {
     var s = "", fc = bookFace(th);
     var k1 = E.back(seg(t, T_REC, T_REC + 0.3)), m1 = E.io(seg(t, T_REC + 0.7, T_REC + 1.15));
     if (k1 > 0) {
-      var x = VT.lerp(BOOK.x + 40, fc.cx, m1), y = VT.lerp(430, fc.cy + 4, m1), sc = k1 * VT.lerp(1.05, 0.9, m1);
-      s += VT.g("translate(" + f(x) + " " + f(y) + ") scale(" + f(sc) + ") rotate(" + f(VT.lerp(-3, 0, m1)) + ")", VT.rectS(-330, -48, 330, 48, "#FFFDF6", { sw: 5, ox: 3, oy: 3 }) + VT.text(0, 22, "607,818 (record)", 64, { fill: BLUE }));
+      var x = VT.lerp(BOOK.x + 40, fc.cx, m1), y = VT.lerp(475, fc.cy + 4, m1), sc = k1 * VT.lerp(1.0, 0.86, m1), ks = E.back(seg(t, T_REC + 0.2, T_REC + 0.45));
+      s += VT.g("translate(" + f(x) + " " + f(y) + ") scale(" + f(sc) + ") rotate(" + f(VT.lerp(-3, 0, m1)) + ")", VT.rectS(-362, -48, 362, 48, "#FFFDF6", { sw: 5, ox: 3, oy: 3 }) + VT.text(0, 21, "607,818 guest nights", 58, { fill: BLUE }) +
+        (ks > 0 ? VT.g("translate(262 -84) rotate(7) scale(" + f(ks) + ")", VT.rectS(-96, -34, 96, 34, "#FFFDF6", { sw: 5, ox: 2, oy: 2 }) + VT.rectS(-86, -26, 86, 26, null, { sw: 3, ox: 0, oy: 0 }) + VT.text(0, 17, "record", 52, { fill: RED })) : ""));
     }
     var k2 = E.back(seg(t, T_REC + 0.15, T_REC + 0.45)), m2 = E.io(seg(t, T_REC + 1.15, T_REC + 1.55));
     if (k2 > 0) {
-      var x2 = VT.lerp(BOOK.x - 420, fc.top[0] - 150, m2), y2 = VT.lerp(590, fc.top[1] - 44, m2);
+      var x2 = VT.lerp(BOOK.x - 420, fc.top[0] - 150, m2), y2 = VT.lerp(610, fc.top[1] - 44, m2);
       s += VT.g("translate(" + f(x2) + " " + f(y2) + ") scale(" + f(k2) + ") rotate(" + f(VT.lerp(-8, -4, m2)) + ")", VT.rectS(-118, -50, 118, 50, "#F6D36A", { sw: 5, ox: 3, oy: 3 }) + VT.text(0, 28, "2024", 80, { fill: RED }));
     }
     return s;

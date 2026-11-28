@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 7.222,
- "bat_dau_tuyet_doi": 544.226,
+ "bat_dau_tuyet_doi": 541.802,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: phòng thuê tháng 6, cửa sổ sáng choang lúc nửa đêm, giường, tủ quần áo, khăn tắm, cuộn băng dính",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc (vẽ tay, kính râm đặt trên bậu cửa sổ)",
@@ -44,7 +44,7 @@ window.HH_DATA = {
   {
    "tai": 3.938,
    "loi": "Then the wardrobe.",
-   "hanh_dong": "Lần 3, lệch: Wob gồng mình đẩy cả tủ quần áo chắn kín cửa sổ đúng \"wardrobe.\" (≈ 548.48 s), leo lên giường nhắm mắt; cắt vào CẬN mặt Wob",
+   "hanh_dong": "Lần 3, lệch: Wob gồng mình đẩy cả tủ quần áo chắn kín cửa sổ đúng \"wardrobe.\" (≈ 546.05 s), leo lên giường nhắm mắt; cắt vào CẬN mặt Wob",
    "gag": "",
    "dao_cu": [
     "tu-quan-ao"
@@ -54,8 +54,8 @@ window.HH_DATA = {
   {
    "tai": 5.075,
    "loi": "The sun found the gap anyway.",
-   "hanh_dong": "Một tia nắng mảnh lách qua khe tủ, rọi đúng vào mắt Wob đang nhắm (CẬN mặt) ở \"gap\" (≈ 550.14 s)",
-   "gag": "Wob mở một mắt, nhìn tia nắng, không nhúc nhích; giữ 0,6 s tới cắt 551.45 s",
+   "hanh_dong": "Một tia nắng mảnh lách qua khe tủ, rọi đúng vào mắt Wob đang nhắm (CẬN mặt) ở \"gap\" (≈ 547.71 s)",
+   "gag": "Wob mở một mắt, nhìn tia nắng, không nhúc nhích; giữ 0,6 s tới cắt 549.02 s",
    "dao_cu": [],
    "sfx": []
   }

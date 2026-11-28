@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 11.044,
- "bat_dau_tuyet_doi": 462.098,
+ "bat_dau_tuyet_doi": 459.122,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay, CÙNG KHUNG HÌNH d02: KHOẢNG ĐẤT TRỐNG RẢI SỎI xám giữa hai đoạn HÀNG RÀO CÔNG TRƯỜNG lưới thép, vỉa hè khô mùa hè (KHÔNG tuyết); tấm biển tên phố trắng (rơi ở d02) vẫn nằm trên sỏi; một con quạ đậu trên hàng rào",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc (vẽ tay, kính râm đẩy lên trán như d02); cầm chùm chìa, giơ riêng chìa Kiruna ra trước",
@@ -53,7 +53,7 @@ window.HH_DATA = {
   {
    "tai": 8.588,
    "loi": "There was nobody to give it to.",
-   "hanh_dong": "Con quạ nhìn chìa khoá, rồi vỗ cánh bay đi đúng \"nobody\" (≈ 471.06 s); Wob từ từ hạ tay, giữ chùm chìa trước ngực; giữ 0,8 s tới cắt 473.14 s",
+   "hanh_dong": "Con quạ nhìn chìa khoá, rồi vỗ cánh bay đi đúng \"nobody\" (≈ 468.08 s); Wob từ từ hạ tay, giữ chùm chìa trước ngực; giữ 0,8 s tới cắt 470.17 s",
    "gag": "Con quạ từ chối nhận chìa khoá",
    "dao_cu": [
     "chum-chia"

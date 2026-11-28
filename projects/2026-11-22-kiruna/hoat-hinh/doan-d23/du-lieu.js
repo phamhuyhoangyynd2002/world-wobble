@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 18.638,
- "bat_dau_tuyet_doi": 303.214,
+ "bat_dau_tuyet_doi": 300.31,
  "lop": "hoi-uc",
  "boi_canh": "Mùa hè tháng 8: cỏ xanh, trời xanh nhạt. NHÀ THỜ KIRUNA cách điệu: nhà thờ GỖ ĐỎ #A8322A mái dốc lớn sẫm (dáng gợi lều goahti), tháp chuông gỗ đứng RIÊNG cạnh; không chữ, không chi tiết thương hiệu đứng trên một rơ-moóc dài rất nhiều trục bánh. Lớp tông cũ: giàn giáo gỗ quanh nhà thờ. Rồi trang sổ (journalPage + mapSticker map-kiruna-centre: ghim Old centre, New centre (approx.), mũi tên nét đứt)",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; chùm chìa nhà móc ở quai trái ba lô; chìa Kiruna trong túi phải gi-lê (từ cảnh 4)",
@@ -28,7 +28,7 @@ window.HH_DATA = {
    "tai": 0.75,
    "loi": "I went back that August, because a church was going for a walk.",
    "hanh_dong": "[wob-be-ti] Từ giấy phẳng hiện nhà thờ gỗ đỏ to trên rơ-moóc dài; Wob (đồ hè, kính râm) đứng cạnh bánh xe, bé tí",
-   "gag": "Đúng \"walk.\" (≈ 306.78 s) Wob gõ cửa hông nhà thờ hai cái rất lịch sự như hỏi \"đi được chưa\", đứng chờ",
+   "gag": "Đúng \"walk.\" (≈ 303.87 s) Wob gõ cửa hông nhà thờ hai cái rất lịch sự như hỏi \"đi được chưa\", đứng chờ",
    "dao_cu": [
     "nha-tho"
    ],
@@ -39,7 +39,7 @@ window.HH_DATA = {
   {
    "tai": 4.337,
    "loi": "Kiruna Church is big, red and wooden, finished in nineteen twelve, and much loved.",
-   "hanh_dong": "[lia-theo-vat] Camera lia ngược lên mái dốc, tháp chuông riêng; ở \"nineteen twelve,\" (≈ 310.63 s) lớp tông cũ hiện giàn giáo gỗ quanh nhà thờ rồi gập xuống, nhãn 1912; ở \"much loved.\" mấy người que đứng xa phía bên kia vẫy cờ giấy TRƠN, không hình",
+   "hanh_dong": "[lia-theo-vat] Camera lia ngược lên mái dốc, tháp chuông riêng; ở \"nineteen twelve,\" (≈ 307.72 s) lớp tông cũ hiện giàn giáo gỗ quanh nhà thờ rồi gập xuống, nhãn 1912; ở \"much loved.\" mấy người que đứng xa phía bên kia vẫy cờ giấy TRƠN, không hình",
    "gag": "",
    "dao_cu": [
     "nha-tho"
@@ -57,7 +57,7 @@ window.HH_DATA = {
   {
    "tai": 11.4,
    "loi": "So on the nineteenth and twentieth of August, twenty twenty-five, it rolled about five kilometres to the new centre, in one piece.",
-   "hanh_dong": "[trang-so-ban-do] Cận trang sổ map-kiruna-centre: chấm nhà thờ đỏ bò dọc nét đứt từ Old centre sang New centre (approx.); thẻ 19–20 Aug 2025 · ~5 km ở \"five kilometres\" (≈ 318.76 s); hai ngón tay Wob \"đi bộ\" cạnh chấm nhà thờ trên trang",
+   "hanh_dong": "[trang-so-ban-do] Cận trang sổ map-kiruna-centre: chấm nhà thờ đỏ bò dọc nét đứt từ Old centre sang New centre (approx.); thẻ 19–20 Aug 2025 · ~5 km ở \"five kilometres\" (≈ 315.86 s); hai ngón tay Wob \"đi bộ\" cạnh chấm nhà thờ trên trang",
    "gag": "",
    "dao_cu": [
     "map-kiruna-centre"

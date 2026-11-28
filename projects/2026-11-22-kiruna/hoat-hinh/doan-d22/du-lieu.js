@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 5.422,
- "bat_dau_tuyet_doi": 297.792,
+ "bat_dau_tuyet_doi": 294.888,
  "lop": "hoi-uc",
  "boi_canh": "Lại đường ngang như d15/d19: rào chắn nâng, tàu quặng vẫn đang chạy qua; ghế gấp nhỏ của Wob (từ d20)",
  "trang_phuc": "MÙA ĐÔNG (tháng 2, tháng 12): ÁO KHOÁC CHẦN BÔNG (áo phao) XANH LAM #3D5A80 (đường chần ngang #2B4262, khoá kéo kem #EFE3C8), dài tới ngang hông Wob, MỘT TÚI VÁ bên PHẢI thân áo (nắp túi #2B4262: túi đựng chìa khoá); MŨ LEN XANH LÁ THÔNG #4F7A5A (vành gập #3A5C43, quả bông kem #F6EEDC); KHĂN LEN KEM #EFE3C8 sọc xanh lá thông #4F7A5A; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc. KHÁC mũ len đỏ #C9463A + khăn đỏ #D9543C tập 1, áo mưa vàng #E2B33C tập 3, mũ cói tập 4, áo mưa cam #E07A2E tập 5; ngồi ghế gấp, rót trà từ bình giữ nhiệt; thẻ gỗ dây đỏ thò khỏi túi phải",

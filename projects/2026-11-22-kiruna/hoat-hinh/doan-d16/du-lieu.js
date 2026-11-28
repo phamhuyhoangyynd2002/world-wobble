@@ -58,7 +58,7 @@ window.HH_DATA = {
   {
    "scene": 6,
    "bat_dau": -14.81,
-   "thoi_luong": 70.992,
+   "thoi_luong": 68.088,
    "tu": [
     {
      "text": "The",
@@ -641,519 +641,479 @@ window.HH_DATA = {
      "end": 23.54
     },
     {
-     "text": "A",
-     "start": 23.902,
-     "end": 24.065
-    },
-    {
-     "text": "port",
-     "start": 24.078,
-     "end": 24.303
-    },
-    {
-     "text": "like",
-     "start": 24.315,
-     "end": 24.465
-    },
-    {
-     "text": "that",
-     "start": 24.478,
-     "end": 24.59
-    },
-    {
-     "text": "is",
-     "start": 24.603,
-     "end": 24.69
-    },
-    {
-     "text": "a",
-     "start": 24.703,
-     "end": 24.74
-    },
-    {
-     "text": "shop",
-     "start": 24.752,
-     "end": 25.115
-    },
-    {
-     "text": "whose",
-     "start": 25.128,
-     "end": 25.315
-    },
-    {
-     "text": "front",
-     "start": 25.328,
-     "end": 25.615
-    },
-    {
-     "text": "door",
-     "start": 25.628,
-     "end": 25.865
-    },
-    {
-     "text": "freezes",
-     "start": 25.878,
-     "end": 26.415
-    },
-    {
-     "text": "shut",
-     "start": 26.453,
-     "end": 26.728
-    },
-    {
-     "text": "every",
-     "start": 26.815,
-     "end": 27.027
-    },
-    {
-     "text": "winter.",
-     "start": 27.04,
-     "end": 27.415
-    },
-    {
      "text": "So",
-     "start": 27.777,
-     "end": 28.002
+     "start": 23.902,
+     "end": 24.128
     },
     {
      "text": "they",
-     "start": 28.015,
-     "end": 28.128
+     "start": 24.14,
+     "end": 24.252
     },
     {
      "text": "ran",
-     "start": 28.14,
-     "end": 28.34
+     "start": 24.265,
+     "end": 24.465
     },
     {
      "text": "a",
-     "start": 28.353,
-     "end": 28.39
+     "start": 24.478,
+     "end": 24.515
     },
     {
      "text": "railway",
-     "start": 28.402,
-     "end": 28.878
+     "start": 24.527,
+     "end": 25.002
     },
     {
      "text": "the",
-     "start": 28.89,
-     "end": 29.002
+     "start": 25.015,
+     "end": 25.128
     },
     {
      "text": "other",
-     "start": 29.015,
-     "end": 29.278
+     "start": 25.14,
+     "end": 25.403
     },
     {
      "text": "way,",
-     "start": 29.29,
-     "end": 29.527
+     "start": 25.415,
+     "end": 25.652
     },
     {
      "text": "over",
-     "start": 29.652,
-     "end": 29.865
+     "start": 25.777,
+     "end": 25.99
     },
     {
      "text": "the",
-     "start": 29.878,
-     "end": 29.94
+     "start": 26.002,
+     "end": 26.065
     },
     {
      "text": "mountains,",
-     "start": 29.953,
-     "end": 30.453
+     "start": 26.078,
+     "end": 26.578
     },
     {
      "text": "to",
-     "start": 30.628,
-     "end": 30.728
+     "start": 26.752,
+     "end": 26.853
     },
     {
      "text": "Narvik",
-     "start": 30.74,
-     "end": 31.19
+     "start": 26.865,
+     "end": 27.315
     },
     {
      "text": "on",
-     "start": 31.203,
-     "end": 31.29
+     "start": 27.328,
+     "end": 27.415
     },
     {
      "text": "the",
-     "start": 31.302,
-     "end": 31.365
+     "start": 27.427,
+     "end": 27.49
     },
     {
      "text": "Norwegian",
-     "start": 31.378,
-     "end": 31.915
+     "start": 27.502,
+     "end": 28.04
     },
     {
      "text": "coast.",
-     "start": 31.927,
-     "end": 32.365
+     "start": 28.052,
+     "end": 28.49
     },
     {
      "text": "Warm",
-     "start": 32.728,
-     "end": 33.065
+     "start": 28.853,
+     "end": 29.19
     },
     {
      "text": "water",
-     "start": 33.078,
-     "end": 33.39
+     "start": 29.203,
+     "end": 29.515
     },
     {
      "text": "from",
-     "start": 33.402,
-     "end": 33.54
+     "start": 29.527,
+     "end": 29.665
     },
     {
      "text": "the",
-     "start": 33.552,
-     "end": 33.64
+     "start": 29.677,
+     "end": 29.765
     },
     {
      "text": "Gulf",
-     "start": 33.652,
-     "end": 33.915
+     "start": 29.777,
+     "end": 30.04
     },
     {
      "text": "Stream",
-     "start": 33.927,
-     "end": 34.327
+     "start": 30.052,
+     "end": 30.452
     },
     {
      "text": "keeps",
-     "start": 34.365,
-     "end": 34.64
+     "start": 30.49,
+     "end": 30.765
     },
     {
      "text": "Narvik's",
-     "start": 34.652,
-     "end": 35.128
+     "start": 30.777,
+     "end": 31.252
     },
     {
      "text": "harbour",
-     "start": 35.14,
-     "end": 35.502
+     "start": 31.265,
+     "end": 31.628
     },
     {
      "text": "ice-free",
-     "start": 35.515,
-     "end": 36.078
+     "start": 31.64,
+     "end": 32.203
     },
     {
      "text": "all",
-     "start": 36.115,
-     "end": 36.34
+     "start": 32.24,
+     "end": 32.465
     },
     {
      "text": "year.",
-     "start": 36.353,
-     "end": 36.652
+     "start": 32.478,
+     "end": 32.777
     },
     {
      "text": "The",
-     "start": 37.015,
-     "end": 37.19
+     "start": 33.14,
+     "end": 33.315
     },
     {
      "text": "line",
-     "start": 37.203,
-     "end": 37.465
+     "start": 33.328,
+     "end": 33.59
     },
     {
      "text": "reached",
-     "start": 37.478,
-     "end": 37.703
+     "start": 33.603,
+     "end": 33.828
     },
     {
      "text": "Kiruna",
-     "start": 37.715,
-     "end": 38.09
+     "start": 33.84,
+     "end": 34.215
     },
     {
      "text": "around",
-     "start": 38.103,
-     "end": 38.328
+     "start": 34.228,
+     "end": 34.453
     },
     {
      "text": "nineteen",
-     "start": 38.34,
-     "end": 38.752
+     "start": 34.465,
+     "end": 34.878
     },
     {
      "text": "hundred",
-     "start": 38.765,
-     "end": 39.165
+     "start": 34.89,
+     "end": 35.29
     },
     {
      "text": "and",
-     "start": 39.203,
-     "end": 39.328
+     "start": 35.328,
+     "end": 35.453
     },
     {
      "text": "was",
-     "start": 39.34,
-     "end": 39.49
+     "start": 35.465,
+     "end": 35.615
     },
     {
      "text": "joined",
-     "start": 39.502,
-     "end": 39.84
+     "start": 35.628,
+     "end": 35.965
     },
     {
      "text": "up",
-     "start": 39.853,
-     "end": 39.94
+     "start": 35.978,
+     "end": 36.065
     },
     {
      "text": "to",
-     "start": 39.953,
-     "end": 40.04
+     "start": 36.078,
+     "end": 36.165
     },
     {
      "text": "Narvik",
-     "start": 40.052,
-     "end": 40.515
+     "start": 36.177,
+     "end": 36.64
     },
     {
      "text": "in",
-     "start": 40.527,
-     "end": 40.628
+     "start": 36.652,
+     "end": 36.752
     },
     {
      "text": "nineteen",
-     "start": 40.64,
-     "end": 41.09
+     "start": 36.765,
+     "end": 37.215
     },
     {
      "text": "oh",
-     "start": 41.103,
-     "end": 41.19
+     "start": 37.228,
+     "end": 37.315
     },
     {
      "text": "two.",
-     "start": 41.203,
-     "end": 41.54
+     "start": 37.328,
+     "end": 37.665
     },
     {
      "text": "The",
-     "start": 41.902,
-     "end": 42.077
+     "start": 38.027,
+     "end": 38.202
     },
     {
      "text": "king",
+     "start": 38.215,
+     "end": 38.49
+    },
+    {
+     "text": "opened",
+     "start": 38.502,
+     "end": 38.752
+    },
+    {
+     "text": "it",
+     "start": 38.765,
+     "end": 38.853
+    },
+    {
+     "text": "officially",
+     "start": 38.865,
+     "end": 39.34
+    },
+    {
+     "text": "in",
+     "start": 39.353,
+     "end": 39.465
+    },
+    {
+     "text": "nineteen",
+     "start": 39.478,
+     "end": 39.99
+    },
+    {
+     "text": "oh",
+     "start": 40.002,
+     "end": 40.09
+    },
+    {
+     "text": "three.",
+     "start": 40.103,
+     "end": 40.553
+    },
+    {
+     "text": "Today,",
+     "start": 40.915,
+     "end": 41.402
+    },
+    {
+     "text": "about",
+     "start": 41.54,
+     "end": 41.765
+    },
+    {
+     "text": "twelve",
+     "start": 41.777,
+     "end": 42.077
+    },
+    {
+     "text": "loaded",
      "start": 42.09,
      "end": 42.365
     },
     {
-     "text": "opened",
-     "start": 42.378,
-     "end": 42.628
-    },
-    {
-     "text": "it",
-     "start": 42.64,
-     "end": 42.728
-    },
-    {
-     "text": "officially",
-     "start": 42.74,
-     "end": 43.215
-    },
-    {
-     "text": "in",
-     "start": 43.228,
-     "end": 43.34
-    },
-    {
-     "text": "nineteen",
-     "start": 43.353,
-     "end": 43.865
-    },
-    {
-     "text": "oh",
-     "start": 43.878,
-     "end": 43.965
-    },
-    {
-     "text": "three.",
-     "start": 43.978,
-     "end": 44.428
-    },
-    {
-     "text": "Today,",
-     "start": 44.79,
-     "end": 45.277
-    },
-    {
-     "text": "about",
-     "start": 45.415,
-     "end": 45.64
-    },
-    {
-     "text": "twelve",
-     "start": 45.652,
-     "end": 45.952
-    },
-    {
-     "text": "loaded",
-     "start": 45.965,
-     "end": 46.24
-    },
-    {
      "text": "trains",
-     "start": 46.252,
-     "end": 46.578
+     "start": 42.378,
+     "end": 42.703
     },
     {
      "text": "a",
-     "start": 46.59,
-     "end": 46.652
+     "start": 42.715,
+     "end": 42.777
     },
     {
      "text": "day",
-     "start": 46.665,
-     "end": 46.94
+     "start": 42.79,
+     "end": 43.065
     },
     {
      "text": "still",
-     "start": 46.978,
-     "end": 47.353
+     "start": 43.103,
+     "end": 43.478
     },
     {
      "text": "run",
-     "start": 47.365,
-     "end": 47.527
+     "start": 43.49,
+     "end": 43.652
     },
     {
      "text": "from",
-     "start": 47.54,
-     "end": 47.69
+     "start": 43.665,
+     "end": 43.815
     },
     {
      "text": "Kiruna",
-     "start": 47.703,
-     "end": 48.115
+     "start": 43.828,
+     "end": 44.24
     },
     {
      "text": "to",
-     "start": 48.128,
-     "end": 48.19
+     "start": 44.252,
+     "end": 44.315
     },
     {
      "text": "Narvik.",
-     "start": 48.203,
-     "end": 48.653
+     "start": 44.328,
+     "end": 44.778
     },
     {
      "text": "Luleå",
-     "start": 49.015,
-     "end": 49.84
+     "start": 45.14,
+     "end": 45.965
     },
     {
      "text": "ships",
-     "start": 49.852,
-     "end": 50.177
+     "start": 45.978,
+     "end": 46.303
     },
     {
      "text": "ore",
-     "start": 50.19,
-     "end": 50.302
+     "start": 46.315,
+     "end": 46.427
     },
     {
      "text": "too,",
-     "start": 50.315,
-     "end": 50.64
+     "start": 46.44,
+     "end": 46.765
     },
     {
      "text": "with",
-     "start": 50.778,
-     "end": 50.928
+     "start": 46.902,
+     "end": 47.052
     },
     {
      "text": "icebreakers",
-     "start": 50.94,
-     "end": 51.64
+     "start": 47.065,
+     "end": 47.765
     },
     {
      "text": "helping",
-     "start": 51.653,
-     "end": 51.965
+     "start": 47.777,
+     "end": 48.09
     },
     {
      "text": "in",
-     "start": 51.977,
-     "end": 52.065
+     "start": 48.103,
+     "end": 48.19
     },
     {
      "text": "winter.",
-     "start": 52.078,
-     "end": 52.415
+     "start": 48.203,
+     "end": 48.54
     },
     {
-     "text": "The",
-     "start": 52.778,
-     "end": 52.978
+     "text": "So",
+     "start": 48.902,
+     "end": 49.128
+    },
+    {
+     "text": "the",
+     "start": 49.14,
+     "end": 49.24
     },
     {
      "text": "iron",
-     "start": 52.99,
-     "end": 53.315
+     "start": 49.252,
+     "end": 49.552
     },
     {
      "text": "had",
-     "start": 53.328,
-     "end": 53.465
+     "start": 49.565,
+     "end": 49.703
     },
     {
      "text": "been",
-     "start": 53.477,
-     "end": 53.64
+     "start": 49.715,
+     "end": 49.878
     },
     {
      "text": "waiting",
-     "start": 53.653,
-     "end": 53.94
+     "start": 49.89,
+     "end": 50.19
     },
     {
      "text": "for",
-     "start": 53.953,
-     "end": 54.128
+     "start": 50.203,
+     "end": 50.365
     },
     {
      "text": "a",
-     "start": 54.14,
-     "end": 54.228
+     "start": 50.378,
+     "end": 50.427
     },
     {
-     "text": "door",
-     "start": 54.24,
-     "end": 54.552
+     "text": "furnace",
+     "start": 50.44,
+     "end": 50.852
     },
     {
      "text": "that",
-     "start": 54.565,
-     "end": 54.752
+     "start": 50.865,
+     "end": 51.078
     },
     {
-     "text": "opens",
-     "start": 54.778,
-     "end": 55.09
+     "text": "liked",
+     "start": 51.09,
+     "end": 51.39
     },
     {
-     "text": "in",
-     "start": 55.102,
-     "end": 55.177
+     "text": "it,",
+     "start": 51.403,
+     "end": 51.502
     },
     {
-     "text": "January.",
-     "start": 55.19,
-     "end": 55.815
+     "text": "and",
+     "start": 51.84,
+     "end": 51.903
+    },
+    {
+     "text": "a",
+     "start": 51.915,
+     "end": 51.965
+    },
+    {
+     "text": "train",
+     "start": 51.977,
+     "end": 52.34
+    },
+    {
+     "text": "to",
+     "start": 52.352,
+     "end": 52.427
+    },
+    {
+     "text": "the",
+     "start": 52.44,
+     "end": 52.528
+    },
+    {
+     "text": "sea.",
+     "start": 52.54,
+     "end": 52.915
     }
    ],
    "khau_hinh": [

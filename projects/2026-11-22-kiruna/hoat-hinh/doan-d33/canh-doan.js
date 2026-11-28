@@ -1,5 +1,5 @@
 /* d33 · vẽ tay (488,304–506,104 s; 17,8 s). Vào "cat", ra "cat". Hồi ức tháng 12, không khẩu hình.
- * Nhiệt kế giấy to tụt xuống; "−11°C" viết ở "minus eleven", "12°F" ở "twelve" (hai phần của đúng chữ trong chu_tren_do_vat).
+ * Nhiệt kế giấy to tụt xuống; một dòng "−11°C · 12°F" (đúng chu_tren_do_vat): "−11°C" viết ở "minus eleven", " · 12°F" ở "twelve".
  * Wob (áo phao xanh lam, mũ len xanh lá thông quả bông kem, khăn kem sọc xanh quấn hai vòng) thở ra khói trắng, cố thổi một vòng khói;
  * vòng khói bay lên móc vào quả bông mũ len (ở −11°C hơi thở chỉ thành khói, không đóng cục). Tờ nghiên cứu giấy (dòng kẻ, không chữ)
  * trượt vào, mũi tên chỉ xuống; Wob nhíu mày. Mặt cắt: trung tâm cũ trên chỗ cao, trung tâm mới trong chỗ trũng hình cái bát; nhiệt kế nhỏ
@@ -25,8 +25,10 @@ window.CANH = function (VT, D) {
   function nhietKe(t) {
     var l = lvl(t), s = VT.thermo({ x: TH.x, y: TH.y, s: TH.s, level: l, mark: 0.3, frost: true });
     var mk = TH.y + TH.s * (-150 - (510) * 0.3);
-    s += VT.textWrite(TH.x + TH.s * 66, mk + 22, "−11°C", 64, seg(t, T_MINUS - 0.05, T_MINUS + 0.4), { anchor: "start", fill: "#1f2326" });
-    s += VT.textWrite(TH.x + TH.s * 66, mk + 96, "12°F", 58, seg(t, T_TWELVE - 0.05, T_TWELVE + 0.3), { anchor: "start", fill: "#2c4f6e" });
+    // một dòng đúng chu_tren_do_vat: "−11°C" viết ở "minus eleven", " · 12°F" ở "twelve"; thẻ giấy nền cho dễ đọc
+    var STR = "−11°C · 12°F", SZ = 56, x0 = TH.x + TH.s * 66, tw = VT.textW(STR, SZ), ty = mk + 22;
+    var kw = 0.44 * seg(t, T_MINUS - 0.05, T_MINUS + 0.4) + 0.56 * seg(t, T_TWELVE - 0.05, T_TWELVE + 0.35);
+    if (kw > 0) s += K.rect(x0 - 16, ty - SZ * 0.95, x0 + tw * 0.8 + 18, ty + SZ * 0.4, "#FFFDF6", { sw: 5, ox: 4, oy: 4 }) + VT.textWrite(x0, ty, STR, SZ, kw, { anchor: "start", fill: "#1f2326" });
     return s;
   }
   function nenDong(t) { return '<rect x="-600" y="-600" width="3120" height="2280" fill="#DCE6EE"/>' + VT.snowGround(1000) + VT.snowfall(t, 26, [-300, -100, 2300, 1000], 50); }

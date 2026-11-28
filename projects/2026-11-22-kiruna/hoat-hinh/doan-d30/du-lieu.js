@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 24.262,
- "bat_dau_tuyet_doi": 437.836,
+ "bat_dau_tuyet_doi": 434.86,
  "lop": "hoi-uc",
  "boi_canh": "Trang sổ (journalPage + mapSticker map-kiruna-centre: Old centre, New centre (approx.), mũi tên nét đứt); rồi phố hè tháng 8 cỏ xanh; QUẢNG TRƯỜNG MỚI: toà thị chính TRÒN mặt kính và đá (Kristallen, cách điệu, không chữ) + THÁP ĐỒNG HỒ khung sắt cũ đứng cạnh (mặt đồng hồ chỉ có kim, vạch, KHÔNG số), cột đèn mới, mặt đất lát đá; dây cờ giấy, vài mẩu hoa giấy sót trên mặt đá",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; chùm chìa (có chìa Kiruna) móc quai ba lô; một chiếc đồng hồ quả quýt trong túi gi-lê",
@@ -27,7 +27,7 @@ window.HH_DATA = {
   {
    "tai": 0.57,
    "loi": "I walked east, about three kilometres, to where everyone was going.",
-   "hanh_dong": "[trang-so-ban-do] Cận trang sổ: chấm Wob đeo ba lô đi dọc mũi tên nét đứt từ Old centre sang New centre (approx.), thẻ ~3 km east ở \"three\" (≈ 439.64 s); rồi [di-bo-parallax] Wob đi trên phố hè cỏ xanh",
+   "hanh_dong": "[trang-so-ban-do] Cận trang sổ: chấm Wob đeo ba lô đi dọc mũi tên nét đứt từ Old centre sang New centre (approx.), thẻ ~3 km east ở \"three\" (≈ 436.66 s); rồi [di-bo-parallax] Wob đi trên phố hè cỏ xanh",
    "gag": "",
    "dao_cu": [
     "map-kiruna-centre"
@@ -37,7 +37,7 @@ window.HH_DATA = {
   {
    "tai": 4.438,
    "loi": "The new centre opened in September twenty twenty-two, with a three-day party.",
-   "hanh_dong": "Quảng trường mới treo dây cờ giấy; thẻ Sept 2022 ở \"September\" (≈ 443.42 s)",
+   "hanh_dong": "Quảng trường mới treo dây cờ giấy; thẻ Sept 2022 ở \"September\" (≈ 440.45 s)",
    "gag": "Wob nhặt một mẩu hoa giấy sót của bữa tiệc trên mặt đá, ngắm nghía, rồi bỏ vào túi gi-lê",
    "dao_cu": [],
    "sfx": []
@@ -79,8 +79,8 @@ window.HH_DATA = {
   {
    "tai": 21.087,
    "loi": "The clock had moved house and not lost a minute.",
-   "hanh_dong": "Kim phút nhích đúng một nấc ở \"minute.\" (≈ 461.16 s); Wob rút đồng hồ quả quýt khỏi túi gi-lê so",
-   "gag": "Đồng hồ quả quýt của Wob chạy nhanh hơn; Wob lặng lẽ vặn chỉnh lại cho khớp tháp; giữ 0,6 s tới cắt 462.10 s",
+   "hanh_dong": "Kim phút nhích đúng một nấc ở \"minute.\" (≈ 458.19 s); Wob rút đồng hồ quả quýt khỏi túi gi-lê so",
+   "gag": "Đồng hồ quả quýt của Wob chạy nhanh hơn; Wob lặng lẽ vặn chỉnh lại cho khớp tháp; giữ 0,6 s tới cắt 459.12 s",
    "dao_cu": [
     "dong-ho-qua-quyt"
    ],

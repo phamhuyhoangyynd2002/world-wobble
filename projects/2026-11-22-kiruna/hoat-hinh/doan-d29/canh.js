@@ -301,9 +301,9 @@ window.KB = function (VT, D) {
   };
 };
 
-/* d29 · vẽ tay (417,16–437,836 s; 20,676 s). Vào "cat", ra "cat". Hồi ức tháng 8, không khẩu hình.
+/* d29 · vẽ tay (414,744–434,860 s; 20,116 s; căn lại 28/11/2026 theo lời mới của cảnh 10). Vào "cat", ra "cat". Hồi ức tháng 8, không khẩu hình.
  * Bong bóng tưởng tượng (viền mây): xe tải dọn nhà chở NGUYÊN một dãy phố (nhà, cây thông, cột đèn); Wob ngồi trên nóc cabin giữ chặt chùm chìa;
- * ở "street is moving too" xe chui qua cầu: cây thông cúi rạp đầu, Wob (đã qua cầu rồi) cũng cúi rạp theo, rồi cả hai cùng ngẩng lên;
+ * ở "a whole street into one van," xe chui qua cầu: cây thông cúi rạp đầu, Wob (đã qua cầu rồi) cũng cúi rạp theo, rồi cả hai cùng ngẩng lên; giữ tới "it.";
  * ở "paying" tháp giếng mỏ tí hon thả một đồng xu theo dây cáp xuống bàn tay chung của bác tài (không mặt).
  * Sơ đồ: ngã ba với hai biển hình (ngôi nhà / đồng xu) → hai ngôi nhà giống hệt, dấu "=", Wob đảo chỗ như trò úp cốc rồi nhún vai →
  * cân đĩa: nhà giấy / chồng tiền, thêm một phần tư chồng ở "plus" (ka-ching), thẻ "market value +25%" → Wob đặt chùm chìa lên đĩa ở "key ring" →
@@ -312,14 +312,16 @@ window.KB = function (VT, D) {
  */
 window.CANH = function (VT, D) {
   var K = window.KB(VT, D), M = K.M, f = K.f, key = K.key, seg = K.seg, clamp = K.clamp, DUR = D.thoi_luong;
-  var T_STREET = VT.tu("street"), T_TOO_E = VT.tu("too,", 0, "end"), T_PAY = VT.tu("paying"), T_VAN_E = VT.tu("van.", 0, "end"),
+  var T_WHOLE = VT.tu("whole"), T_STREET = VT.tu("street"), T_PAY = VT.tu("paying"), T_VAN_E = VT.tu("van,", 0, "end"), T_IT_E = VT.tu("it.", 0, "end"),
     T_HOME_OWN = VT.tu("Homeowners"), T_LKAB = VT.tu("LKAB"), T_EQ = VT.tu("equivalent"), T_HOME_E = VT.tu("home.", 0, "end"),
     T_OR = VT.tu("Or"), T_PAYS = VT.tu("pays"), T_MARKET = VT.tu("market"), T_PLUS = VT.tu("plus"), T_25 = VT.tu("twenty-five"), T_PCT_E = VT.tu("percent,", 0, "end"),
     T_INDEP = VT.tu("independent"), T_ASKED = VT.tu("asked"), T_KEY = VT.tu("key"), T_WORTH_E = VT.tu("worth.", 0, "end"),
-    T_SAID = VT.tu("said,"), T_SENT = VT.tu("sentimental."), T_SENT_E = VT.tu("sentimental.", 0, "end");
-  var A2 = 3.3, B0 = 5.15, C0 = 6.95, D0 = 9.35, E0 = 14.3, F0 = 17.0;
+    T_SAID = VT.tu("said,"), T_SENT = VT.tu("sentimental."), T_SENT_E = VT.tu("sentimental.", 0, "end"), T_OR0 = VT.tu("Or"), T_AN = VT.tu("An", 2);
+  // mốc cắt theo lời mới (cũ: 3.3, 5.15, 6.95, 9.35, 14.3, 17.0 với lời cũ dài hơn 0,56 s)
+  var A2 = T_VAN_E + 0.12, B0 = T_HOME_OWN - 0.12, C0 = T_LKAB, D0 = T_OR0 - 0.03, E0 = T_ASKED - 0.29, F0 = T_AN - 0.06;
+  var TX = 0.25; // dời chuyển động xe: cây thông chui cầu đúng "a whole street into one van,
   var ROAD = 860, XB = 1250;
-  VT.sfx("whoosh", T_STREET - 0.05, 0.3);
+  VT.sfx("whoosh", T_WHOLE - 0.05, 0.3);
   VT.sfx("ting", T_PAY + 0.42, 0.45);
   VT.sfx("pop", T_PAYS + 0.25, 0.4);
   VT.sfx("ka-ching", T_PLUS, 0.6);
@@ -331,9 +333,9 @@ window.CANH = function (VT, D) {
   function chiaTay(x, y, s, lac) { return K.chumChia({ x: x, y: y, s: s || 0.6, kiruna: true, lac: lac || 0 }); }
 
   // ---------- A: xe tải dọn nhà ----------
-  function x0(t) { return t < 3.0 ? 1850 + 300 * (t - 2.5) : key(t, [[3.0, 2000], [3.75, 2130, "out2"]]); }
+  function x0(t) { return t < 3.5 ? 1850 + 300 * (t - 2.5) : key(t, [[3.5, 2150], [4.1, 2290, "out2"]]); } // cây thông ra khỏi cầu (xf ≥ 2220) ở t + TX ≈ 3,83
   function xeTai(xf, t, bow, wobO) {
-    var s = "", run = t < 3.75, a = (t * 300 / 36) * 57.3;
+    var tt = t + TX, s = "", run = tt < 4.05, a = (tt * 300 / 36) * 57.3;
     var deckY = ROAD - 84, bedL = xf - 980, bedR = xf - 210;
     // hàng phố trên sàn xe: vỉa hè, nhà, cột đèn, cây thông
     s += K.rect(bedL + 10, deckY - 22, bedR - 10, deckY, "#C9C2B2", { sw: 5, ox: 2, oy: 2 });
@@ -413,8 +415,8 @@ window.CANH = function (VT, D) {
   ];
 
   function canhXe(t, T, sh) {
-    var xf = x0(t), s = nenDuong(t);
-    var tTree = seg(t, T_STREET + 0.02, T_STREET + 0.3), tUp = seg(t, T_TOO_E - 0.3, T_TOO_E - 0.02), bow = -70 * VT.ease.out(tTree) * (1 - VT.ease.back(tUp));
+    var xf = x0(t + TX), s = nenDuong(t);
+    var tTree = seg(t, T_WHOLE + 0.02, T_WHOLE + 0.3), tUp = seg(t, 3.52 - TX + 0.25, 3.8 - TX + 0.25), bow = -70 * VT.ease.out(tTree) * (1 - VT.ease.back(tUp));
     var duck = tTree * (1 - tUp);
     s += cau(false);
     // tháp giếng mỏ tí hon bên đường (phía xa), đồng xu theo cáp
@@ -425,7 +427,7 @@ window.CANH = function (VT, D) {
       propFront: chiaTay(204, 236, 0.75, Math.sin(t * 10) * 5), lean: 0 };
     if (duck > 0) { wo.lean = -38 * duck; wo.bob = 40 * duck; wo.eyes = "squint"; wo.mouth = "wobbly"; wo.px = -10; }
     else if (t < T_STREET) { wo.px = 10; }
-    else if (t > T_TOO_E) { wo.px = 10; wo.mouth = "smirk"; }
+    else if (t > 3.8) { wo.px = 10; wo.mouth = "smirk"; }
     s += xeTai(xf, t, bow, wo);
     // bàn tay chung của bác tài thò cửa sổ nhận đồng xu
     var hk = seg(t, T_PAY - 0.3, T_PAY), hb = seg(t, T_PAY + 0.6, T_PAY + 0.9), hx = xf - 70 + 50 * hk * (1 - hb);

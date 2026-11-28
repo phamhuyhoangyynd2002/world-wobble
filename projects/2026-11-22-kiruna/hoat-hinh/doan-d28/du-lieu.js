@@ -10,8 +10,8 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 25.862,
- "bat_dau_tuyet_doi": 391.298,
+ "thoi_luong": 26.35,
+ "bat_dau_tuyet_doi": 388.394,
  "lop": "hoi-uc",
  "boi_canh": "Tờ lịch bóc giấy (trang trống, KHÔNG số) trước nhà thờ đỏ đã đỗ; một hội trường đơn sơ: tấm bản đồ dự báo giấy (lưới phố trừu tượng, không chữ) ghim lên bảng, vùng tô sọc; người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng đứng xem; rồi vỉa hè nhìn ra các mái nhà",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; cầm chùm chìa (có chìa Kiruna)",
@@ -24,7 +24,7 @@ window.HH_DATA = {
   {
    "tai": 0.75,
    "loi": "Eight days after the church parked, LKAB presented a new forecast.",
-   "hanh_dong": "Từ giấy phẳng: tờ lịch bóc lật nhanh đúng tám trang (trang trống) trước nhà thờ đỏ đứng yên; rồi trong hội trường, tấm bản đồ dự báo được ghim lên bảng đúng \"forecast.\" (≈ 395.25 s)",
+   "hanh_dong": "Từ giấy phẳng: tờ lịch bóc lật nhanh đúng tám trang (trang trống) trước nhà thờ đỏ đứng yên; rồi trong hội trường, tấm bản đồ dự báo được ghim lên bảng đúng \"forecast.\" (≈ 392.34 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": [
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 5.0,
    "loi": "About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years.",
-   "hanh_dong": "[tien-canh-khung] Vai người que làm tiền cảnh: vùng tô sọc trên bản đồ lan rộng thêm về phía đông và phủ tới ĐÚNG ô nhà nhỏ có cửa gỗ giống cửa phòng thuê cũ của Wob (cửa d06) ở \"homes\" (≈ 399.95 s); Wob đứng sau đám đông kiễng chân không thấy; người que bên cạnh lặng lẽ dịch sang nhường chỗ; Wob nhìn ô nhà có cửa gỗ",
+   "hanh_dong": "[tien-canh-khung] Vai người que làm tiền cảnh: vùng tô sọc trên bản đồ lan rộng thêm về phía đông và phủ tới ĐÚNG ô nhà nhỏ có cửa gỗ giống cửa phòng thuê cũ của Wob (cửa d06) ở \"homes\" (≈ 397.04 s); Wob đứng sau đám đông kiễng chân không thấy; người que bên cạnh lặng lẽ dịch sang nhường chỗ; Wob nhìn ô nhà có cửa gỗ",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -42,21 +42,21 @@ window.HH_DATA = {
   {
    "tai": 12.025,
    "loi": "Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes.",
-   "hanh_dong": "Thẻ ~12,000 people · ~5,400 homes ở \"twelve thousand\" (≈ 406.89 s)",
+   "hanh_dong": "Thẻ ~12,000 people · ~5,400 homes ở \"twelve thousand\" (≈ 403.98 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
   },
   {
    "tai": 19.312,
-   "loi": "That's roughly two thirds of the town.",
-   "hanh_dong": "[luot-smootherstep] Ngoài vỉa hè nhìn ra thị trấn: hai phần ba số mái nhà giấy lần lượt bật lên một thùng các-tông giấy (gọi lại d03 \"packing up\") từ \"two thirds\" (≈ 411.20 s) tới \"town.\" (≈ 411.86 s)",
+   "loi": "That's roughly two thirds of the town itself.",
+   "hanh_dong": "[luot-smootherstep] Ngoài vỉa hè nhìn ra thị trấn: hai phần ba số mái nhà giấy lần lượt bật lên một thùng các-tông giấy (gọi lại d03 \"packing up\") từ \"two thirds\" (≈ 408.33 s) tới \"itself.\" (≈ 409.33 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
   },
   {
-   "tai": 21.312,
+   "tai": 21.8,
    "loi": "I held my key ring and said nothing for a while.",
    "hanh_dong": "Wob đứng trên vỉa hè, cầm chùm chìa trước ngực, nhìn các mái nhà sáng đèn; im lặng; giữ ≥ 1,5 s",
    "gag": "",
@@ -66,7 +66,7 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 24.025,
+   "tai": 24.512,
    "loi": "So what happens to a house in the way?",
    "hanh_dong": "[day-vao-cham] Camera đẩy vào một ngôi nhà nhỏ nằm trong vùng sọc; Wob nghiêng đầu nhìn nó",
    "gag": "",
@@ -78,7 +78,7 @@ window.HH_DATA = {
   {
    "scene": 10,
    "bat_dau": 0.75,
-   "thoi_luong": 45.288,
+   "thoi_luong": 45.216,
    "tu": [
     {
      "text": "Eight",
@@ -353,432 +353,432 @@ window.HH_DATA = {
     {
      "text": "roughly",
      "start": 19.587,
-     "end": 19.887
+     "end": 19.925
     },
     {
      "text": "two",
-     "start": 19.9,
-     "end": 20.112
+     "start": 19.938,
+     "end": 20.163
     },
     {
      "text": "thirds",
-     "start": 20.125,
-     "end": 20.413
+     "start": 20.175,
+     "end": 20.488
     },
     {
      "text": "of",
-     "start": 20.425,
-     "end": 20.463
-    },
-    {
-     "text": "the",
-     "start": 20.475,
+     "start": 20.5,
      "end": 20.55
     },
     {
-     "text": "town.",
+     "text": "the",
      "start": 20.562,
-     "end": 20.95
+     "end": 20.637
+    },
+    {
+     "text": "town",
+     "start": 20.65,
+     "end": 20.925
+    },
+    {
+     "text": "itself.",
+     "start": 20.938,
+     "end": 21.438
     },
     {
      "text": "I",
-     "start": 21.312,
-     "end": 21.488
+     "start": 21.8,
+     "end": 21.975
     },
     {
      "text": "held",
-     "start": 21.5,
-     "end": 21.688
+     "start": 21.988,
+     "end": 22.175
     },
     {
      "text": "my",
-     "start": 21.7,
-     "end": 21.825
+     "start": 22.188,
+     "end": 22.312
     },
     {
      "text": "key",
-     "start": 21.837,
-     "end": 22.05
+     "start": 22.325,
+     "end": 22.537
     },
     {
      "text": "ring",
-     "start": 22.062,
-     "end": 22.337
+     "start": 22.55,
+     "end": 22.825
     },
     {
      "text": "and",
-     "start": 22.35,
-     "end": 22.425
+     "start": 22.837,
+     "end": 22.912
     },
     {
      "text": "said",
-     "start": 22.438,
-     "end": 22.7
+     "start": 22.925,
+     "end": 23.188
     },
     {
      "text": "nothing",
-     "start": 22.712,
-     "end": 23.0
+     "start": 23.2,
+     "end": 23.488
     },
     {
      "text": "for",
-     "start": 23.012,
-     "end": 23.175
+     "start": 23.5,
+     "end": 23.663
     },
     {
      "text": "a",
-     "start": 23.188,
-     "end": 23.262
+     "start": 23.675,
+     "end": 23.75
     },
     {
      "text": "while.",
-     "start": 23.275,
-     "end": 23.662
+     "start": 23.762,
+     "end": 24.15
     },
     {
      "text": "So",
-     "start": 24.025,
-     "end": 24.275
+     "start": 24.512,
+     "end": 24.762
     },
     {
      "text": "what",
-     "start": 24.288,
-     "end": 24.4
+     "start": 24.775,
+     "end": 24.887
     },
     {
      "text": "happens",
-     "start": 24.413,
-     "end": 24.738
+     "start": 24.9,
+     "end": 25.225
     },
     {
      "text": "to",
-     "start": 24.75,
-     "end": 24.863
+     "start": 25.238,
+     "end": 25.35
     },
     {
      "text": "a",
-     "start": 24.875,
-     "end": 24.938
+     "start": 25.363,
+     "end": 25.425
     },
     {
      "text": "house",
-     "start": 24.95,
-     "end": 25.238
+     "start": 25.438,
+     "end": 25.725
     },
     {
      "text": "in",
-     "start": 25.25,
-     "end": 25.312
+     "start": 25.738,
+     "end": 25.8
     },
     {
      "text": "the",
-     "start": 25.325,
-     "end": 25.4
+     "start": 25.812,
+     "end": 25.887
     },
     {
      "text": "way?",
-     "start": 25.413,
-     "end": 25.65
-    },
-    {
-     "text": "Picture",
-     "start": 26.012,
-     "end": 26.363
-    },
-    {
-     "text": "moving",
-     "start": 26.375,
-     "end": 26.625
-    },
-    {
-     "text": "house,",
-     "start": 26.637,
-     "end": 27.087
-    },
-    {
-     "text": "except",
-     "start": 27.275,
-     "end": 27.65
-    },
-    {
-     "text": "your",
-     "start": 27.663,
-     "end": 27.738
-    },
-    {
-     "text": "whole",
-     "start": 27.75,
-     "end": 28.0
-    },
-    {
-     "text": "street",
-     "start": 28.012,
-     "end": 28.312
-    },
-    {
-     "text": "is",
-     "start": 28.325,
-     "end": 28.387
-    },
-    {
-     "text": "moving",
-     "start": 28.4,
-     "end": 28.688
-    },
-    {
-     "text": "too,",
-     "start": 28.7,
-     "end": 29.0
-    },
-    {
-     "text": "and",
-     "start": 29.325,
-     "end": 29.425
-    },
-    {
-     "text": "the",
-     "start": 29.438,
-     "end": 29.5
-    },
-    {
-     "text": "mine",
-     "start": 29.512,
-     "end": 29.762
-    },
-    {
-     "text": "is",
-     "start": 29.775,
-     "end": 29.875
-    },
-    {
-     "text": "paying",
-     "start": 29.887,
-     "end": 30.2
-    },
-    {
-     "text": "for",
-     "start": 30.212,
-     "end": 30.325
-    },
-    {
-     "text": "the",
-     "start": 30.337,
-     "end": 30.412
-    },
-    {
-     "text": "van.",
-     "start": 30.425,
-     "end": 30.775
-    },
-    {
-     "text": "Homeowners",
-     "start": 31.137,
-     "end": 31.7
-    },
-    {
-     "text": "get",
-     "start": 31.712,
-     "end": 31.85
-    },
-    {
-     "text": "a",
-     "start": 31.863,
-     "end": 31.887
-    },
-    {
-     "text": "choice.",
-     "start": 31.9,
-     "end": 32.45
-    },
-    {
-     "text": "LKAB",
-     "start": 32.812,
-     "end": 33.35
-    },
-    {
-     "text": "can",
-     "start": 33.362,
-     "end": 33.5
-    },
-    {
-     "text": "build",
-     "start": 33.513,
-     "end": 33.75
-    },
-    {
-     "text": "them",
-     "start": 33.763,
-     "end": 33.875
-    },
-    {
-     "text": "an",
-     "start": 33.888,
-     "end": 33.975
-    },
-    {
-     "text": "equivalent",
-     "start": 33.987,
-     "end": 34.438
-    },
-    {
-     "text": "new",
-     "start": 34.45,
-     "end": 34.562
-    },
-    {
-     "text": "home.",
-     "start": 34.575,
-     "end": 34.888
-    },
-    {
-     "text": "Or",
-     "start": 35.25,
-     "end": 35.425
-    },
-    {
-     "text": "it",
-     "start": 35.438,
-     "end": 35.525
-    },
-    {
-     "text": "pays",
-     "start": 35.538,
-     "end": 35.812
-    },
-    {
-     "text": "the",
-     "start": 35.825,
-     "end": 35.9
-    },
-    {
-     "text": "market",
-     "start": 35.913,
-     "end": 36.238
-    },
-    {
-     "text": "value",
-     "start": 36.25,
-     "end": 36.65
-    },
-    {
-     "text": "plus",
-     "start": 36.688,
-     "end": 36.925
-    },
-    {
-     "text": "twenty-five",
-     "start": 36.938,
-     "end": 37.413
-    },
-    {
-     "text": "percent,",
-     "start": 37.425,
-     "end": 37.912
-    },
-    {
-     "text": "set",
-     "start": 38.362,
-     "end": 38.562
-    },
-    {
-     "text": "by",
-     "start": 38.575,
-     "end": 38.713
-    },
-    {
-     "text": "an",
-     "start": 38.725,
-     "end": 38.85
-    },
-    {
-     "text": "independent",
-     "start": 38.875,
-     "end": 39.362
-    },
-    {
-     "text": "valuer.",
-     "start": 39.375,
-     "end": 39.888
+     "start": 25.9,
+     "end": 26.137
     },
     {
      "text": "I",
-     "start": 40.25,
-     "end": 40.438
+     "start": 26.5,
+     "end": 26.637
     },
     {
-     "text": "asked",
-     "start": 40.45,
-     "end": 40.725
+     "text": "tried",
+     "start": 26.65,
+     "end": 26.912
     },
     {
-     "text": "myself",
-     "start": 40.737,
-     "end": 41.212
+     "text": "to",
+     "start": 26.925,
+     "end": 27.0
     },
     {
-     "text": "what",
-     "start": 41.225,
-     "end": 41.325
+     "text": "imagine",
+     "start": 27.012,
+     "end": 27.488
     },
     {
-     "text": "my",
-     "start": 41.337,
-     "end": 41.475
+     "text": "packing",
+     "start": 27.5,
+     "end": 27.913
     },
     {
-     "text": "key",
-     "start": 41.487,
-     "end": 41.75
+     "text": "a",
+     "start": 27.925,
+     "end": 27.975
     },
     {
-     "text": "ring",
-     "start": 41.763,
-     "end": 41.975
+     "text": "whole",
+     "start": 27.988,
+     "end": 28.25
     },
     {
-     "text": "was",
-     "start": 41.987,
-     "end": 42.125
+     "text": "street",
+     "start": 28.262,
+     "end": 28.55
     },
     {
-     "text": "worth.",
-     "start": 42.138,
-     "end": 42.562
+     "text": "into",
+     "start": 28.562,
+     "end": 28.738
     },
     {
-     "text": "An",
-     "start": 42.925,
-     "end": 43.125
+     "text": "one",
+     "start": 28.75,
+     "end": 29.0
+    },
+    {
+     "text": "van,",
+     "start": 29.012,
+     "end": 29.312
+    },
+    {
+     "text": "with",
+     "start": 29.538,
+     "end": 29.663
+    },
+    {
+     "text": "the",
+     "start": 29.675,
+     "end": 29.75
+    },
+    {
+     "text": "mine",
+     "start": 29.762,
+     "end": 30.037
+    },
+    {
+     "text": "paying",
+     "start": 30.05,
+     "end": 30.35
+    },
+    {
+     "text": "for",
+     "start": 30.363,
+     "end": 30.575
+    },
+    {
+     "text": "it.",
+     "start": 30.587,
+     "end": 30.7
+    },
+    {
+     "text": "Homeowners",
+     "start": 31.062,
+     "end": 31.625
+    },
+    {
+     "text": "get",
+     "start": 31.637,
+     "end": 31.775
+    },
+    {
+     "text": "a",
+     "start": 31.788,
+     "end": 31.812
+    },
+    {
+     "text": "choice.",
+     "start": 31.825,
+     "end": 32.375
+    },
+    {
+     "text": "LKAB",
+     "start": 32.738,
+     "end": 33.275
+    },
+    {
+     "text": "can",
+     "start": 33.288,
+     "end": 33.425
+    },
+    {
+     "text": "build",
+     "start": 33.438,
+     "end": 33.675
+    },
+    {
+     "text": "them",
+     "start": 33.688,
+     "end": 33.8
+    },
+    {
+     "text": "an",
+     "start": 33.812,
+     "end": 33.9
+    },
+    {
+     "text": "equivalent",
+     "start": 33.913,
+     "end": 34.363
+    },
+    {
+     "text": "new",
+     "start": 34.375,
+     "end": 34.487
+    },
+    {
+     "text": "home.",
+     "start": 34.5,
+     "end": 34.812
+    },
+    {
+     "text": "Or",
+     "start": 35.175,
+     "end": 35.35
+    },
+    {
+     "text": "it",
+     "start": 35.362,
+     "end": 35.45
+    },
+    {
+     "text": "pays",
+     "start": 35.462,
+     "end": 35.737
+    },
+    {
+     "text": "the",
+     "start": 35.75,
+     "end": 35.825
+    },
+    {
+     "text": "market",
+     "start": 35.837,
+     "end": 36.163
+    },
+    {
+     "text": "value",
+     "start": 36.175,
+     "end": 36.575
+    },
+    {
+     "text": "plus",
+     "start": 36.612,
+     "end": 36.85
+    },
+    {
+     "text": "twenty-five",
+     "start": 36.862,
+     "end": 37.337
+    },
+    {
+     "text": "percent,",
+     "start": 37.35,
+     "end": 37.837
+    },
+    {
+     "text": "set",
+     "start": 38.288,
+     "end": 38.488
+    },
+    {
+     "text": "by",
+     "start": 38.5,
+     "end": 38.638
+    },
+    {
+     "text": "an",
+     "start": 38.65,
+     "end": 38.775
     },
     {
      "text": "independent",
-     "start": 43.138,
-     "end": 43.613
+     "start": 38.8,
+     "end": 39.287
+    },
+    {
+     "text": "valuer.",
+     "start": 39.3,
+     "end": 39.812
+    },
+    {
+     "text": "I",
+     "start": 40.175,
+     "end": 40.362
+    },
+    {
+     "text": "asked",
+     "start": 40.375,
+     "end": 40.65
+    },
+    {
+     "text": "myself",
+     "start": 40.663,
+     "end": 41.138
+    },
+    {
+     "text": "what",
+     "start": 41.15,
+     "end": 41.25
+    },
+    {
+     "text": "my",
+     "start": 41.263,
+     "end": 41.4
+    },
+    {
+     "text": "key",
+     "start": 41.413,
+     "end": 41.675
+    },
+    {
+     "text": "ring",
+     "start": 41.688,
+     "end": 41.9
+    },
+    {
+     "text": "was",
+     "start": 41.913,
+     "end": 42.05
+    },
+    {
+     "text": "worth.",
+     "start": 42.062,
+     "end": 42.487
+    },
+    {
+     "text": "An",
+     "start": 42.85,
+     "end": 43.05
+    },
+    {
+     "text": "independent",
+     "start": 43.062,
+     "end": 43.538
     },
     {
      "text": "valuer",
-     "start": 43.625,
-     "end": 44.087
+     "start": 43.55,
+     "end": 44.012
     },
     {
      "text": "would",
-     "start": 44.1,
-     "end": 44.188
+     "start": 44.025,
+     "end": 44.112
     },
     {
      "text": "have",
-     "start": 44.2,
-     "end": 44.288
+     "start": 44.125,
+     "end": 44.212
     },
     {
      "text": "said,",
-     "start": 44.3,
-     "end": 44.662
+     "start": 44.225,
+     "end": 44.587
     },
     {
      "text": "sentimental.",
-     "start": 45.075,
-     "end": 45.663
+     "start": 45.0,
+     "end": 45.587
     }
    ],
    "khau_hinh": [

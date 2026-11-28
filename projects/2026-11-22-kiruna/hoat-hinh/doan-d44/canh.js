@@ -1,4 +1,4 @@
-/* Đoạn d44 (diorama, hiện tại, 20,45 s) – "The key lives under my desk lamp now. Lamp on. That's June... Lamp off. That's December...
+/* Đoạn d44 (diorama, hiện tại, 21,2 s; vòng sửa 3: 0,75 s lặng trong tối ở đầu, mọi mốc ghi dưới đây cộng 0,75) – "The key lives under my desk lamp now. Lamp on. That's June... Lamp off. That's December...
  * Lamp on again. I'm not made of stone. Kiruna didn't come here for the weather."
  * Vào cat (khớp d43: đèn tắt, tối xanh), ra chen. Bố cục bàn chung tập 6 (ban6). Công tắc đèn nhìn rõ.
  * 1,0 [luot-smootherstep] camera lướt tới chìa dưới chân đèn + trang hộ chiếu Kiruna dựng cạnh (ô dấu trống).
@@ -129,19 +129,22 @@ window.CANH = function (api, data) {
   api.lidsSet(w, 0.3);
   var smoother = function (x) { return x * x * x * (x * (x * 6 - 15) + 10); };
   api.camSet(R, null, { cx: -230, cy: 50, cz: -560, k: 470, rx: -14, ry: 6 });
-  api.camTo(R, 0, 0.98, { cx: -250, cy: 56, k: 505 }, "sine.inOut");                       // đẩy chậm từ khung 0 (không đứng hình trong tối)
-  api.camTo(R, 1.0, 1.9, { cx: -455, cy: 160, cz: -700, k: 690, rx: -20, ry: 6 }, smoother);       // [luot-smootherstep] chìa + hộ chiếu
-  api.camTo(R, 2.95, 0.45, { cx: -200, cy: 70, cz: -580, k: 520, rx: -14, ry: 5 }, "power2.inOut");
+  var S = 0.75;   // vòng sửa 3: thêm 0,75 s lặng trong tối ở đầu đoạn, mọi nhịp sau dời +0,75
+  api.camTo(R, 0, 0.98 + S, { cx: -262, cy: 60, k: 525 }, "sine.in");   // tăng tốc dần vào cú lướt sau: không khựng ở 1,5–1,9                   // đẩy chậm từ khung 0 trong tối: Wob đứng yên nhìn chìa
+  api.look(w, 0.9, -14, 12, 0.6); api.blink(w, 1.1, 0.3); api.nghieng(w, 1.25, 4, 0.6); api.look(w, 1.55, -8, 16, 0.4); api.nghieng(w, 2.3, 0, 0.5);
+  api.camTo(R, 1.0 + S, 1.9, { cx: -455, cy: 160, cz: -700, k: 690, rx: -20, ry: 6 }, smoother);       // [luot-smootherstep] chìa + hộ chiếu
+  api.camTo(R, 2.95 + S, 0.45, { cx: -200, cy: 70, cz: -580, k: 520, rx: -14, ry: 5 }, "power2.inOut");
   // "on."
-  var tOn = tu.on || 3.70;
+  var tOn = tu.on || 4.45;
   batTay(tOn);
   den(tOn, true);
   api.sfx("pop", tOn, 0.45);
   api.lids(w, tOn + 0.05, 0, 0.1);
-  api.camTo(R, 4.1, 0.9, { cx: 80, cy: 90, cz: -420, k: 500, rx: -24, ry: 0 }, "power2.inOut");   // sổ + Wob
-  api.quay(w, 4.3, 0.4, 0.25);
+  api.camTo(R, 4.1 + S, 0.9, { cx: 80, cy: 90, cz: -420, k: 500, rx: -24, ry: 0 }, "power2.inOut");   // sổ + Wob
+  api.quay(w, 4.3 + S, 0.4, 0.25);
+  api.camTo(R, 5.8, 5.2, { cx: 100, cy: 96, cz: -415, k: 535, rx: -23, ry: -2 }, "sine.inOut");   // trôi chậm suốt ba pop-up (lời dài thêm: không đứng hình giữa church và cinnamon)
   // ba pop-up + Wob chỉ từng cái
-  var popAt = [tu.sun || 5.25, tu.church || 6.50, tu.cinnamon || 8.25];
+  var popAt = [tu.sun || 6.00, tu.church || 7.25, tu.cinnamon || 9.00];
   popAt.forEach(function (t, i) {
     tl.set(so.lop[i], { visibility: "visible" }, t - 0.2);
     so.batLop(i, t - 0.2, 0.18);
@@ -152,32 +155,32 @@ window.CANH = function (api, data) {
     api.lids(w, t + 0.1, 0, 0.1);
     api.hop(w, t + 0.05, 6, 0.2);
   });
-  api.armTo(w, "R", 9.6, 0.3, 0, "power2.inOut");
-  tl.to(w.armR, { scaleY: 1, svgOrigin: "314 212", duration: 0.3 }, 9.6);
+  api.armTo(w, "R", 9.6 + S, 0.3, 0, "power2.inOut");
+  tl.to(w.armR, { scaleY: 1, svgOrigin: "314 212", duration: 0.3 }, 9.6 + S);
   // "off."
-  var tOff = tu.off || 10.43;
+  var tOff = tu.off || 11.18;
   batTay(tOff);
   den(tOff, false);
   [0, 1, 2].forEach(function (i) { so.gapLop(i, tOff + 0.15 + i * 0.08, 0.3); tl.set(so.lop[i], { visibility: "hidden" }, tOff + 0.6 + i * 0.08); });
   api.shiver(w, tOff + 0.3, tOff + 1.4, 3);
   api.lids(w, tOff + 0.2, 0.35, 0.15);
   // 12,29 quảng trường giấy, vũng lạnh; Wob ôm mình
-  var tWeeks = tu.weeks || 12.29;
+  var tWeeks = tu.weeks || 13.04;
   tl.set(so.lop[3], { visibility: "visible" }, tWeeks - 0.15);
   so.batLop(3, tWeeks - 0.15, 0.3);
   api.armTo(w, "L", tWeeks, 0.25, goc("L", 262, 270), "power2.out");
   api.armTo(w, "R", tWeeks, 0.25, goc("R", 138, 270), "power2.out");
   api.sfx("brr", tWeeks + 0.15, 0.4);
-  api.shiver(w, tWeeks + 0.1, 15.6, 2.5);
+  api.shiver(w, tWeeks + 0.1, 15.6 + S, 2.5);
   api.look(w, tWeeks + 0.2, 10, 10, 0.15);
-  api.camTo(R, 15.0, 0.75, { cx: -170, cy: 50, cz: -560, k: 455, rx: -14, ry: 4 }, "sine.inOut");    // trong tối, mở rộng khung
+  api.camTo(R, 15.0 + S, 0.75, { cx: -170, cy: 50, cz: -560, k: 455, rx: -14, ry: 4 }, "sine.inOut");    // trong tối, mở rộng khung
   // 15,89 mò công tắc hai nhịp
-  var tLamp2 = 15.89;
+  var tLamp2 = 15.89 + S;
   api.armTo(w, "L", tLamp2, 0.2, 70, "sine.inOut"); api.armTo(w, "R", tLamp2, 0.2, -40, "sine.inOut");
   api.armTo(w, "L", tLamp2 + 0.22, 0.18, 30, "sine.inOut"); api.armTo(w, "R", tLamp2 + 0.22, 0.18, -70, "sine.inOut");
   api.look(w, tLamp2, -16, 4, 0.1); api.look(w, tLamp2 + 0.22, 16, 4, 0.1);
   // "again." đèn bật: Wob đang ôm chân đèn
-  var tAg = tu.again || 16.34, HX = -648, HZ = -768;              // bên trái cột đèn, ôm sang phải
+  var tAg = tu.again || 17.09, HX = -648, HZ = -768;              // bên trái cột đèn, ôm sang phải
   tl.set(w.pos, { x: HX, z: HZ }, tAg - 0.04); w.x = HX; w.z = HZ;
   api.quay(w, tAg - 0.04, 0.85, 0.01);
   api.armTo(w, "R", tAg - 0.04, 0.01, goc("R", 395, 205));
@@ -191,14 +194,15 @@ window.CANH = function (api, data) {
   api.sfx("pop", tAg, 0.45);
   tl.fromTo(w.upper, { x: 3 }, { x: -3, duration: 0.18, yoyo: true, repeat: 3, ease: "sine.inOut", immediateRender: false }, tAg + 0.1);   // ôm chặt, dụi
   // "stone." quay ra người xem, vẫn ôm, giữ
-  var tSt = tu.stone || 17.73;
+  var tSt = tu.stone || 18.48;
   api.quay(w, tSt - 0.25, 0.15, 0.25);
   api.look(w, tSt - 0.2, 0, 2, 0.15);
   api.lids(w, tSt - 0.2, 0.4, 0.15);
   // 18,5 buông, về sổ, lật map-kiruna-rail, gõ đường đỏ sang Narvik
-  tl.to(hcBan, { x: 60, duration: 0.35, ease: "power2.inOut" }, 15.69);   // trong tối: thẻ hộ chiếu dời sang phải, không che Wob ôm chân đèn
-  var tKir = tu.kiruna || 18.5;
-  api.camTo(R, 15.8, tKir + 0.05 - 15.8, { cx: -185, cy: 58, k: 492 }, "sine.inOut");         // đẩy chậm suốt lúc ôm cột đèn, quay ra người xem
+  tl.to(hcBan, { x: 60, duration: 0.35, ease: "power2.inOut" }, 15.69 + S);   // trong tối: thẻ hộ chiếu dời sang phải, không che Wob ôm chân đèn
+  tl.to(hcBan, { x: -395, duration: 0.4, ease: "power2.inOut" }, 18.6 + S);   // camera lia sang bản đồ: thẻ trượt về chỗ cũ, khớp khung mở d46
+  var tKir = tu.kiruna || 19.25;
+  api.camTo(R, 15.8 + S, tKir + 0.05 - 15.8 - S, { cx: -185, cy: 58, k: 492 }, "sine.inOut");         // đẩy chậm suốt lúc ôm cột đèn, quay ra người xem
   tl.to(w.armL, { scaleY: 1, svgOrigin: "86 212", duration: 0.15 }, tKir);
   api.armTo(w, "L", tKir, 0.15, 4); api.armTo(w, "R", tKir, 0.15, -4);
   api.nghieng(w, tKir, 0, 0.15);
@@ -233,7 +237,7 @@ window.CANH = function (api, data) {
   api.sfx("pop", tTap + 0.08, 0.3);
 
   api.khauHinh(w);
-  api.gatDau(w, { bo: [[16.2, 18.5]] });
+  api.gatDau(w, { bo: [[16.2 + S, 18.5 + S]] });
   api.breathe(w, 0, DUR);
-  api.blink(w, 7.4, 0); api.blink(w, 13.6, 0.35);
+  api.blink(w, 7.4 + S, 0); api.blink(w, 13.6 + S, 0.35);
 };

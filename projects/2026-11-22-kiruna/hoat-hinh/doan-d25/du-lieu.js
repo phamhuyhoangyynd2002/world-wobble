@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 18.112,
- "bat_dau_tuyet_doi": 352.728,
+ "bat_dau_tuyet_doi": 349.824,
  "lop": "hoi-uc",
  "boi_canh": "Con đường rộng hai bên là hàng người que (không mặt) ngồi ghế xếp, cầm bình giữ nhiệt, cờ giấy nhỏ TRƠN không hình; máy quay truyền hình giấy trên chân máy chĩa vào nhà thờ; trong một ô cửa sổ có chiếc TV giấy nhỏ chiếu đúng cảnh nhà thờ đang nhích; vỉa hè; một con chó lông xù",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; cầm chiếc bánh quế cuộn to bằng nửa người",
@@ -56,7 +56,7 @@ window.HH_DATA = {
   {
    "tai": 10.4,
    "loi": "So I stopped racing a building and had a cinnamon bun.",
-   "hanh_dong": "Wob ngồi xuống vỉa hè, cầm chiếc bánh quế cuộn to bằng nửa người, cắn một miếng đúng \"bun.\" (≈ 365.49 s)",
+   "hanh_dong": "Wob ngồi xuống vỉa hè, cầm chiếc bánh quế cuộn to bằng nửa người, cắn một miếng đúng \"bun.\" (≈ 362.59 s)",
    "gag": "",
    "dao_cu": [
     "banh-que"
@@ -68,8 +68,8 @@ window.HH_DATA = {
   {
    "tai": 13.4,
    "loi": "A dog sat down next to me and watched the church, very seriously, the whole time.",
-   "hanh_dong": "[take-cham] Con chó lông xù ngồi xuống cạnh Wob đúng \"sat\" (≈ 366.54 s); cả hai nhìn nhà thờ",
-   "gag": "Ở \"very seriously,\" con chó quay sang nhìn cái bánh; Wob nhìn con chó; dừng; Wob bẻ đôi bánh đưa nó một nửa; con chó ngậm lấy rồi lập tức quay lại nhìn nhà thờ rất nghiêm túc; giữ 0,6 s tới cắt 370.84 s",
+   "hanh_dong": "[take-cham] Con chó lông xù ngồi xuống cạnh Wob đúng \"sat\" (≈ 363.64 s); cả hai nhìn nhà thờ",
+   "gag": "Ở \"very seriously,\" con chó quay sang nhìn cái bánh; Wob nhìn con chó; dừng; Wob bẻ đôi bánh đưa nó một nửa; con chó ngậm lấy rồi lập tức quay lại nhìn nhà thờ rất nghiêm túc; giữ 0,6 s tới cắt 367.94 s",
    "dao_cu": [
     "banh-que"
    ],

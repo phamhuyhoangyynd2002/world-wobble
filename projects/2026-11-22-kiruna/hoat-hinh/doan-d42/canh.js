@@ -391,7 +391,7 @@ var KR = (function () {
 /* Đoạn d42 · cắt giấy · đoạn nghiêm, kể ở bàn kỷ vật (đồ ở nhà). Không gag, không sfx.
    Trang tông trầm: phong bì giấy đi chầm chậm qua trang tới toà nhà có hàng cột (dạng chung, KHÔNG cờ, KHÔNG chữ) ở "European Court"; Wob nhìn theo.
    Tờ thoả thuận trên bàn giấy được gấp lại đúng "ended", đặt sang một bên (không xé). Tờ giấy trắng mới đặt lên bàn giữa hai ghế trống đối diện nhau;
-   tay Wob từ mép trang đẩy góc tờ giấy cho nằm thẳng rồi rút tay; camera lùi chậm; Wob nhìn hai ghế trống. Vào "cat", ra "cat". Không chữ. */
+   Wob bước lên mép trang cạnh bàn, lấy tay thường đẩy góc tờ giấy cho nằm thẳng rồi rút tay; camera lùi chậm; Wob nhìn hai ghế trống. Vào "cat", ra "cat". Không chữ. */
 window.CANH = function (api, data) {
   "use strict";
   var D = api.D, DUR = api.DUR, at = KR.at, M = KR.M, INK = D.INK, paper = D.paper, rRect = D.rRect, line = D.line, f1 = D.f1;
@@ -432,16 +432,14 @@ window.CANH = function (api, data) {
   }
   tr += ghe(B2X - 220, 1) + ghe(B2X + 220, -1);
   var gt = '<g id="gt">' + at(B2X, B2Y - 26, '<g id="gtR">' + paper("M -70 -16 L 64 -20 L 70 16 L -64 20 Z", "#FFFFFF", { stroke: true, sw: 3.5, shadow: false }) + "</g>") + "</g>";
-  // tay Wob vươn từ mép dưới khung (như d23)
-  var tay = '<g id="tay"><g transform="rotate(30)">' + line("M 0 0 L 0 900", 40, INK) + line("M 0 0 L 0 900", 24, "#2E3338") + "</g>" + '<circle cx="0" cy="0" r="30" fill="' + INK + '"/></g>';
 
-  var W = KR.wob(api, "W", { mua: "nha" });
-  api.dat(KR.defs() + api.lop("ban", B.nen + KR.mocAo() + B.trang + tr + tt + gt + pb + '<clipPath id="d42vai"><rect x="-1000" y="-1000" width="4000" height="1905"/></clipPath><g clip-path="url(#d42vai)">' + tay + "</g>" + W.svg + B.den, 1, { mat: 1010 }));
+  var W = KR.wob(api, "W", { mua: "nha" });   // tay không: chìa đang nằm dưới đèn bàn (d38–d43)
+  api.dat(KR.defs() + api.lop("ban", B.nen + KR.mocAo() + B.trang + tr + tt + gt + pb + W.svg + B.den, 1, { mat: 1010 }));
   api.noi({});
 
   // ---------- camera ----------
-  api.camera([[0, 980, 560, 1.12], [tCourt + 0.3, 1100, 575, 1.18, "sine.inOut"], [tIn - 0.2, 1080, 575, 1.18, "sine.inOut"], [tIn + 0.9, 760, 640, 1.4, "power2.inOut"],
-    [tLKAB - 0.3, 780, 650, 1.42, "sine.inOut"], [tLKAB + 0.7, 1000, 860, 2.1, "power2.inOut"], [tLook + 0.1, 1004, 864, 2.16, "sine.inOut"], [DUR, 1000, 700, 1.5, "sine.inOut"]]);
+  api.camera([[0, 980, 572, 1.12], [tCourt + 0.3, 1100, 592, 1.18, "sine.inOut"], [tIn - 0.2, 1080, 592, 1.18, "sine.inOut"], [tIn + 0.9, 760, 645, 1.3, "power2.inOut"],
+    [tLKAB - 0.3, 790, 650, 1.3, "sine.inOut"], [tLKAB + 0.7, 1000, 770, 2.1, "power2.inOut"], [tLook + 0.1, 1004, 774, 2.16, "sine.inOut"], [DUR, 1000, 700, 1.5, "sine.inOut"]]);
 
   // ---------- phong bì đi chầm chậm tới toà nhà ----------
   var d = api.duong([[420, 300], [700, 250], [1000, 260], [1300, 360], [TX, TB - 80]]);
@@ -473,19 +471,10 @@ window.CANH = function (api, data) {
   var tDay = tLook - 0.1;
   api.key("#gtR", "rotation", tDay, -11, "none"); api.key("#gtR", "rotation", tDay + 0.45, 0, "sine.inOut");
   api.key("#gtR", "x", 0, -6); api.key("#gtR", "x", tDay, -6, "none"); api.key("#gtR", "x", tDay + 0.45, 0, "sine.inOut");
-  // tay vào từ mép dưới, đặt vào góc trái dưới tờ giấy, đẩy, rút ra
-  var gx = B2X - 64, gy = B2Y - 6;
-  api.origin("#tay", "0 0");
-  api.key("#tay", "x", 0, gx - 300); api.key("#tay", "y", 0, gy + 520);
-  api.key("#tay", "x", tDay - 0.55, gx - 300, "none"); api.key("#tay", "y", tDay - 0.55, gy + 520, "none");
-  api.key("#tay", "x", tDay - 0.05, gx - 4, "power2.out"); api.key("#tay", "y", tDay - 0.05, gy + 6, "power2.out");
-  api.key("#tay", "x", tDay + 0.45, gx + 4, "sine.inOut"); api.key("#tay", "y", tDay + 0.45, gy - 2, "sine.inOut");
-  api.key("#tay", "x", tDay + 0.75, gx + 4, "none"); api.key("#tay", "y", tDay + 0.75, gy - 2, "none");
-  api.key("#tay", "x", tDay + 1.25, gx - 300, "power2.in"); api.key("#tay", "y", tDay + 1.25, gy + 520, "power2.in");
 
   // ---------- Wob ----------
   var WX = 600, WY = 1010;
-  W.set(0, { x: WX, y: WY, size: 0.6, pupX: -8, pupY: -24 });
+  W.set(0, { x: WX, y: WY, size: 0.72, pupX: -8, pupY: -24 });
   W.mouth(0, "thang");
   W.pose(0.6, 1.6, { pupX: 4, pupY: -26, upRot: -2 }, "sine.inOut");
   W.pose(2.4, 1.8, { pupX: 18, pupY: -24, upRot: 0 }, "sine.inOut");
@@ -496,8 +485,14 @@ window.CANH = function (api, data) {
   W.mouth(tEnded + 0.3, "buon");
   W.pose(tEnded + 0.8, 0.6, { pupX: -12, pupY: -10 }, "sine.inOut");
   W.pose(tChanged, 0.6, { pupX: 12, pupY: -6, lid: 10 }, "sine.inOut");
-  W.pose(tDay - 0.6, 0.4, { aRu: -150, aRf: 0, pupX: 14, pupY: -16 }, "sine.inOut");
-  W.pose(tDay + 1.0, 0.5, { aRu: -18, aRf: 10 }, "sine.inOut");
+  // bước lên mép trang cạnh bàn 2, đẩy tờ giấy bằng tay thường
+  var tLen = tChanged + 0.25;
+  W.pose(tLen, 0.22, { x: 905, y: 850, legL: -14, legR: 10, pupX: 14, pupY: -10 }, "power2.out");
+  W.pose(tLen + 0.22, 0.16, { x: 920, y: 874, legL: 0, legR: 0 }, "power2.in");
+  W.pose(tLen + 0.38, 0.1, { sy: 0.94, sx: 1.04 }, "power2.out"); W.pose(tLen + 0.48, 0.16, { sy: 1, sx: 1 }, "sine.out");
+  W.pose(tDay - 0.45, 0.4, { aRu: 18, aRf: -126, pupX: 16, pupY: 4 }, "sine.inOut");
+  W.pose(tDay, 0.45, { aRu: -10, aRf: -104 }, "sine.inOut");
+  W.pose(tDay + 0.8, 0.5, { aRu: -18, aRf: 10 }, "sine.inOut");
   // nhìn hai ghế trống
   W.pose(tTalk - 0.1, 0.6, { pupX: 16, pupY: -14, upRot: 2, lid: 12 }, "sine.inOut");
   W.mouth(tTalk + 0.2, "thang");

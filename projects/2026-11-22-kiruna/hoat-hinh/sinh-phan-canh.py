@@ -10,9 +10,9 @@ from collections import Counter
 P = sys.argv[1]
 sub = json.load(open(P + '/audio/subtitles.json', encoding='utf8'))['scenes']
 script = json.load(open(P + '/script.json', encoding='utf8'))
-# khoảng nghỉ sau mỗi cảnh (giây). Trước chương: 1,5; cắt về bàn chương nghiêm (13→14) và lặng trước outro (15→16): 2,0
+# khoảng nghỉ sau mỗi cảnh (giây). Trước chương: 1,5; cắt về bàn chương nghiêm (13→14) và lặng trước outro (15→16): 3,5 (phản biện #3a)
 GAP = {1: 1.0, 2: 1.5, 3: 1.0, 4: 1.5, 5: 1.2, 6: 1.0, 7: 1.5, 8: 1.0, 9: 1.5, 10: 1.0,
-       11: 1.5, 12: 1.5, 13: 2.0, 14: 1.2, 15: 2.0, 16: 1.5}
+       11: 1.5, 12: 1.5, 13: 2.0, 14: 1.2, 15: 3.5, 16: 1.5}
 START = {}; t = 0.4
 for s in sub:
     START[s['id']] = round(t, 3); t += s['duration'] + GAP.get(s['id'], 0)
@@ -150,7 +150,7 @@ seg('d04', 'cat-giay', b04, b05, 'hoi-uc',
     N(T(2, 'He got'), 'He got a reward, and no taxes for life.', 'Một túi tiền nhỏ trao qua bàn ở "reward," ; một tờ giấy thuế (dòng kẻ, không chữ) bị gạch chéo bằng nét mực ở "taxes"; Wob ngoài mép trang vỗ tay hai cái không tiếng', '', [], []),
     N(T(2, "The town didn't"), "The town didn't start until nineteen hundred.", '[lia-theo-vat] Thước thời gian giấy kéo dài từ 1736 sang 1900, camera lia theo; khoảng giữa trống chỉ có tuyết rơi, tuyết đọng thành đống', 'Wob cúi xuống khoảng giữa thước, phủi tuyết tìm xem có gì: dưới tuyết chỉ có một CÁNH CỬA giấy nhỏ đóng băng, không nhãn (MANH MỐI MƠ HỒ); Wob nhún vai, giữ 0,6 s tới cắt ' + f2(b05) + ' s', ['thuoc-thoi-gian'], []),
     ], ['1736', '1900'],
-    'Lịch sử 1736 trên trang sổ tông cũ: cắt giấy (Wob kể ở bàn, đứng ngoài mép trang). C04, C05. Người thật (Mangi, viên chức) là người que không mặt, không trang phục Sámi chi tiết, không gag ở người; gag ở Wob phủi tuyết. Cánh cửa đóng băng là manh mối mơ hồ cho "a door that opens in January" (cảnh 6), không nhãn, không biển, không tàu. GHI CHO THỢ (dung-cat-giay): luôn thấy mép bàn và vệt đèn bàn quanh trang; nhãn 1736, 1900 ≥ 45 px')
+    'Lịch sử 1736 trên trang sổ tông cũ: cắt giấy (Wob kể ở bàn, đứng ngoài mép trang). C04, C05. Người thật (Mangi, viên chức) là người que không mặt, không trang phục Sámi chi tiết, không gag ở người; gag ở Wob phủi tuyết. Cánh cửa đóng băng là manh mối mơ hồ cho lời giải cảnh 6, không nhãn, không biển, không tàu. GHI CHO THỢ (dung-cat-giay): luôn thấy mép bàn và vệt đèn bàn quanh trang; nhãn 1736, 1900 ≥ 45 px')
 
 b06 = G(2, 0.5)
 seg('d05', 'diorama', b05, b06, 'hien-tai',
@@ -239,7 +239,7 @@ seg('d12', 'cat-giay', b12, b13, 'hoi-uc',
     ], ['M 4.1 · May 2020'],
     'Thân quặng + động đất + đổi ý lần 1: cắt giấy. C10, C11. Đống quặng ở chỗ cụt là manh mối mơ hồ thứ hai (quặng nằm chờ, không có lối ra), KHÔNG đường ray, cảng, tàu. Lệch y_hinh: "cốc nước nảy lên" bỏ (Wob chưa ở Kiruna năm 2020), thay bằng Wob giữ băng giấy máy địa chấn ở phòng trưng bày. Mô-típ chìa 2: tháo bỏ túi. GHI CHO THỢ (dung-cat-giay): nhãn M 4.1 · May 2020 ≥ 45 px; túi phải áo khoác nhìn rõ (thẻ gỗ thò ra); không vẽ đường ray nào')
 
-# ================= CHƯƠNG 2 · Why Wait Until 1900? (cảnh 5–7, tháng 2) =================
+# ================= CHƯƠNG 2 · Two Terrible Guesses (cảnh 5–7, tháng 2) =================
 b14 = B(5, 'My second')
 seg('d13', 've-tay', b13, b14, 'hoi-uc',
     'Vẽ tay, màu nước lem: tấm thẻ cực quang (cùng hình thẻ ở d05) phóng to trên trang sổ phác; rồi cánh đồng tuyết đêm, cực quang xanh uốn lượn; rồi sơ đồ cuốn sổ khách giấy dày và thước thời gian',
@@ -249,10 +249,10 @@ seg('d13', 've-tay', b13, b14, 'hoi-uc',
     N(T(5, 'The northern'), 'The northern lights came out, green and slow.', 'Cực quang xanh uốn lượn chậm từ "northern" (≈ ' + f2(T(5, 'northern')) + ' s); ánh xanh phủ lên mặt Wob; Wob há miệng nhìn', '', [], []),
     N(T(5, 'My nose'), 'My nose went numb. Lovely. And wrong.', '[take-cham] Đúng "nose" (≈ ' + f2(T(5, 'nose')) + ' s) mảng lục địa giữa mặt Wob trắng bệch dần như phủ sương (Wob không có mũi; chỗ tê là một mảnh lục địa)', 'Đúng "Lovely." (≈ ' + f2(T(5, 'Lovely.')) + ' s) Wob xoa hai cái lên mảng trắng, nó hồng lại; đúng "wrong." (≈ ' + f2(T(5, 'wrong.')) + ' s) ánh xanh trên mặt Wob tắt phụt; giữ 0,6 s', [], []),
     N(T(5, 'Tourism'), 'Tourism is big here now.', '[so-do-ve-tay] Sơ đồ: một cuốn sổ khách giấy dày tự lật trang vù vù, dày dần lên', '', [], []),
-    N(T(5, 'In twenty'), 'In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights.', 'Thẻ 607,818 (record) và 2024 bật lên ở "record" (≈ ' + f2(T(5, 'record')) + ' s), dán lên gáy cuốn sổ khách; cuốn sổ phồng dày gấp đôi; Wob ở mép trang ôm cuốn sổ cho khỏi bung', '', [], ['pop']),
+    N(T(5, 'In twenty'), 'In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights.', 'Thẻ 607,818 guest nights (record) và 2024 bật lên ở "record" (≈ ' + f2(T(5, 'record')) + ' s), dán lên gáy cuốn sổ khách; cuốn sổ phồng dày gấp đôi; Wob ở mép trang ôm cuốn sổ cho khỏi bung', '', [], ['pop']),
     N(T(5, 'But the'), 'But the town came first, and the tourists followed.', 'Thước thời gian: ngôi nhà nhỏ ở mốc 1900 đầu trái; ở "tourists followed." (≈ ' + f2(T(5, 'tourists')) + ' s) cuốn sổ khách nằm tận đầu phải thước', 'Wob vẽ một dấu X to lên tấm thẻ cực quang đúng "followed." (≈ ' + f2(T(5, 'followed.')) + ' s); giữ 0,6 s tới cắt ' + f2(b14) + ' s', ['the-ve'], []),
-    ], ['?', '607,818 (record)', '2024', '1900'],
-    'Mở chương bằng nét vẽ + đoán sai lần 1 (khuôn doan-sai-roi-lat): vẽ tay; cực quang màu nước lem hợp vẽ tay. C12. KHÔNG nhắc tàu, đường sắt, cảng. GHI CHO THỢ (dung-ve-tay): thẻ 607,818 (record), 2024, 1900 ≥ 45 px; chỗ tê là mảng lục địa giữa mặt (vòng 2 thay bông tuyết + lác mắt vì trùng tập 3 d17); cuốn sổ khách thay hàng va li (tập đã có nhiều đoàn đi hàng một)')
+    ], ['?', '607,818 guest nights', 'record', '2024', '1900'],
+    'Mở chương bằng nét vẽ + đoán sai lần 1 (khuôn doan-sai-roi-lat): vẽ tay; cực quang màu nước lem hợp vẽ tay. C12. KHÔNG nhắc tàu, đường sắt, cảng. GHI CHO THỢ (dung-ve-tay): thẻ 607,818 guest nights, record, 2024, 1900 ≥ 45 px (đơn vị guest nights bắt buộc, phản biện #10); chỗ tê là mảng lục địa giữa mặt (vòng 2 thay bông tuyết + lác mắt vì trùng tập 3 d17); cuốn sổ khách thay hàng va li (tập đã có nhiều đoàn đi hàng một)')
 
 b15 = round(START[6] - 0.04, 3)   # vòng 2: đường ngang không hiện trước cảnh 6 (duyệt 5a: 189.85)
 seg('d14', 'cat-giay', b14, b15, 'hoi-uc',
@@ -290,38 +290,37 @@ seg('d16', 've-tay', b16, b17, 'hoi-uc',
     ], ['1870s'],
     'Cơ chế luyện kim trừu tượng: sơ đồ vẽ tay. C57')
 
-b18 = B(6, 'A port')
+b18 = B(6, 'That sea')
 t_lul = T(6, 'Luleå,')
 seg('d17', 'cat-giay', b17, b18, 'hoi-uc',
     'Wob ngồi trên tuyết cạnh đường ngang, mở sổ trên đầu gối; cận trang sổ hành trình (journalPage) dán bản đồ code map-kiruna-rail (LẦN ĐẦU XUẤT HIỆN, cảnh 6): NHÃN Narvik VÀ đường đỏ sang Narvik CHƯA hiện ở đoạn này (che bằng mảnh giấy dán hoặc chưa vẽ); đường mảnh xám Kiruna→Luleå; vịnh Bothnia; một hòn quặng giấy nhỏ có hai chấm mắt',
     DONG + '; ngồi trên tuyết, sổ trên đầu gối; tay đẩy hòn quặng giấy', 'cat', 'chen', [
     N(b17 + 0.05, 'That left the bigger problem.', 'Wob ngồi xuống tuyết cạnh đường ngang, mở sổ; một hòn quặng giấy nhỏ nhảy ra khỏi hình núi trên trang', '', ['so-du-lich', 'hon-quang-giay'], ['lat-giay']),
-    N(T(6, 'Iron is'), 'Iron is no use inside a mountain. It has to reach the sea.', f'[trang-so-ban-do] Cận trang (trang ≥ 70% khung): map-kiruna-rail hiện ra lần đầu ở "It has" (≈ {f2(T(6, "It has"))} s); hòn quặng giấy đứng ở chấm Kiruna nhảy qua nhảy lại nhìn quanh tìm biển', '', ['map-kiruna-rail', 'hon-quang-giay'], []),
+    N(T(6, 'Iron is'), 'Iron is no use inside a mountain. It has to reach the sea.', f'[trang-so-ban-do] Cận trang (trang ≥ 70% khung): map-kiruna-rail hiện ra lần đầu ở "It has" (≈ {f2(T(6, "It has"))} s); hòn quặng giấy đứng ở chấm Kiruna nhảy qua nhảy lại nhìn quanh tìm biển', 'Hòn quặng nhảy lên tận mép trang, nghển ra ngoài sổ ngó tìm biển; Wob lấy ngón tay kéo nó về chấm Kiruna', ['map-kiruna-rail', 'hon-quang-giay'], []),
     N(T(6, "Sweden's"), "Sweden's own coast is to the east, at Luleå, on the Gulf of Bothnia.", f'Wob đẩy hòn quặng đi theo đường mảnh xám về phía đông; nhãn Luleå hiện ở "Luleå," (≈ {f2(t_lul)} s), nhãn Gulf of Bothnia ở "Bothnia." (≈ {f2(T(6, "Bothnia."))} s)', '', ['map-kiruna-rail', 'hon-quang-giay'], []),
-    N(T(6, 'That sea'), 'That sea freezes over every winter.', f'Vịnh Bothnia phủ hoạ tiết băng trắng dần; cảng Luleå thành một khối băng có con tàu giấy kẹt giữa; nhãn đổi thành Luleå · freezes in winter ở "freezes" (≈ {f2(T(6, "freezes"))} s)', 'Hòn quặng giấy trượt trên mặt băng mới, xoay vòng vòng, trôi qua cả cảng rồi dừng lại khi đụng con tàu kẹt băng; Wob nhăn mặt; giữ 0,6 s', ['map-kiruna-rail', 'hon-quang-giay'], ['tach-bang']),
-    ], ['Kiruna', 'Luleå', 'Gulf of Bothnia', 'Luleå · freezes in winter'],
+    ], ['Kiruna', 'Luleå', 'Gulf of Bothnia'],
     'Bản đồ trang sổ (trang-so-ban-do): cắt giấy với mapSticker. C16. map-kiruna-rail chỉ từ cảnh 6. GHI CHO THỢ (dung-cat-giay): nhãn ≥ 45 px chỉ khi cận trang; nhãn Narvik và đường đỏ Kiruna→Narvik CHƯA hiện ở đoạn này (bản SVG có nhãn sẵn thì che lại tới d19, chữ "Narvik" đầu tiên ở ' + f2(T(6, 'Narvik')) + ' s). map-kiruna-rail KHÔNG có chữ nhưng có sẵn CHẤM Narvik: che chấm và đường sang Narvik tới d19; mọi nhãn do thợ đặt theo chu_tren_do_vat')
 
-b19 = round(T(6, 'shut every winter.', end=True) + 0.61, 3)   # vòng 2: giữ tay nắm gãy (232.72)
+b19 = B(6, 'So they')   # vòng 3: bỏ câu so sánh cửa hàng (phản biện #11); d18 thành chèn vẽ tay "biển đóng băng"
 seg('d18', 've-tay', b18, b19, 'hoi-uc',
-    'Bong bóng tưởng tượng vẽ tay: một cửa hàng nhỏ, cửa trước đóng băng cứng, cột băng rủ từ mái; mấy hòn quặng tí hon xách giỏ đứng xếp hàng ngoài cửa',
+    'Chèn vẽ tay hình to: vịnh Bothnia nhìn nghiêng, mặt biển đóng băng trắng lan dần từ bờ ra; cảng Luleå nhỏ có cần cẩu; một con tàu biển nhỏ kẹt giữa băng; một hòn quặng vẽ tay có hai chấm mắt',
     'Wob vẽ tay, ' + DONG_GON, 'chen', 'cat', [
-    N(b18, 'A port like that is a shop whose front door freezes shut every winter.', '[chen-ve-tay] Hình to: cửa hàng có cửa trước đóng băng; hàng hòn quặng tí hon xách giỏ đứng chờ ngoài cửa, tuyết đọng trên đầu chúng; Wob bước tới nắm tay nắm cửa kéo', 'Đúng "shut" (≈ ' + f2(T(6, 'shut')) + ' s) tay nắm cửa gãy rời trong tay Wob, còn dính một cột băng; cửa vẫn đóng; cắt vào CẬN tay nắm gãy trong tay Wob ở "shut" và giữ cận đó; Wob cầm tay nắm nhìn người xem; giữ tới cắt ' + f2(b19) + ' s', [], ['whoosh', 'tach-bang']),
-    ], [],
-    'So sánh "cửa hàng đóng băng cửa" là giả định: chèn vẽ tay 4 s. Lệch y_hinh có chủ ý: y_hinh có biển OPEN đóng băng, trùng đạo cụ biển OPEN tập 5 d45; đổi thành tay nắm gãy')
+    N(b18, 'That sea freezes over every winter.', '[chen-ve-tay] Hình to: băng trắng lan từ bờ ra phủ kín vịnh, đóng cứng quanh con tàu ở cảng ở "freezes" (≈ ' + f2(T(6, 'freezes')) + ' s); nhãn Luleå · freezes in winter ở "winter." (≈ ' + f2(T(6, 'winter.')) + ' s); Wob đứng đủ người trên bờ băng', 'Hòn quặng vẽ tay trượt trên mặt băng mới, xoay vòng vòng, trôi qua cả cảng rồi dừng lại khi đụng con tàu kẹt băng; Wob nhăn mặt; giữ tới cắt ' + f2(b19) + ' s', [], ['whoosh', 'tach-bang']),
+    ], ['Luleå · freezes in winter'],
+    'Vòng 3 (phản biện #11): bỏ câu so sánh cửa hàng đóng băng để câu chốt cảnh 6 tự làm việc; d18 giữ vị trí và nối chen, nay là chèn vẽ tay ngắn cho nhịp vịnh Bothnia đóng băng (gag hòn quặng trượt chuyển từ d17 sang). C16. GHI CHO THỢ (dung-ve-tay): nhãn ≥ 45 px, Wob đủ người trong khung')
 
 b20 = G(6, 0.5)
 t_nar = T(6, 'Narvik')
 seg('d19', 'cat-giay', b19, b20, 'hoi-uc',
     'Cận trang sổ map-kiruna-rail như d17; dãy núi giấy giữa Kiruna và bờ biển Na Uy; cảng Narvik giấy: nước xanh #3F6A70, mũi tên ấm màu cam uốn vào vịnh (Gulf Stream), tàu biển giấy cập bến; một lớp tông cũ: dải ruy băng cắt ngang đường ray, một chiếc vương miện giấy lơ lửng trên chiếc kéo (KHÔNG người, KHÔNG mặt); tàu phá băng giấy nhỏ phía Luleå. Cuối đoạn: lại đường ngang (như d15)',
     DONG + '; cầm sổ, ngón tay lần theo đường; cuối đoạn đứng ở rào chắn đã nâng, chìa khoá thò thẻ gỗ khỏi túi phải', 'cat', 'cat', [
-    N(b19 + 0.05, 'So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast.', f'[trang-so-ban-do] Đường ray nét đứt màu đất nung #E0703A vẽ dần từ Kiruna về phía TÂY từ "railway" (≈ {f2(T(6, "railway"))} s), leo qua dãy núi giấy, xuống tới bờ biển; ngón tay Wob lần theo; nhãn Narvik hiện đúng "Narvik" (≈ {f2(t_nar)} s)', '', ['map-kiruna-rail'], []),
+    N(b19 + 0.05, 'So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast.', f'[trang-so-ban-do] Mở đoạn: vịnh Bothnia đã phủ băng, con tàu giấy kẹt ở Luleå, nhãn Luleå · freezes in winter (như cuối d18). Đường ray nét đứt màu đất nung #E0703A vẽ dần từ Kiruna về phía TÂY từ "railway" (≈ {f2(T(6, "railway"))} s), leo qua dãy núi giấy, xuống tới bờ biển; ngón tay Wob lần theo; nhãn Narvik hiện đúng "Narvik" (≈ {f2(t_nar)} s)', '', ['map-kiruna-rail'], []),
     N(T(6, 'Warm'), "Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year.", f'Cảng Narvik: mũi tên ấm màu cam uốn vào vịnh ở "Gulf Stream" (≈ {f2(T(6, "Gulf Stream"))} s), nước xanh không băng; nhãn đổi thành Narvik · ice-free ở "ice-free" (≈ {f2(T(6, "ice-free"))} s); hòn quặng giấy (từ d17) nhảy dọc đường đỏ tới Narvik', 'Hòn quặng giấy nhảy lên tàu biển giấy: con tàu chìm xuống một nấc vì nặng rồi nổi lại; Wob nín thở rồi thở ra; giữ 0,6 s trước "The line" (' + f2(T(6, 'The line')) + ' s)', ['map-kiruna-rail', 'hon-quang-giay'], ['song']),
     N(T(6, 'The line'), 'The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two.', 'Nhãn 1900 ghim vào đầu Kiruna, nhãn 1902 ghim vào đầu Narvik đúng "two." (≈ ' + f2(T(6, 'two.')) + ' s)', '', ['map-kiruna-rail'], []),
     N(T(6, 'The king'), 'The king opened it officially in nineteen oh three.', '[lao-vao-can-canh] Lớp tông cũ trên trang: dải ruy băng ngang đường ray; vương miện giấy lơ lửng trên chiếc kéo (không người); kéo cắt ruy băng đúng "three." (≈ ' + f2(T(6, 'three.')) + ' s); nhãn 1903. Nhãn 1900 và 1902 mờ đi khi lớp tông cũ hiện. Wob đứng nghiêm ở mép trang khi kéo cắt (không chạm vương miện)', '', [], []),
     N(T(6, 'Today,'), 'Today, about twelve loaded trains a day still run from Kiruna to Narvik.', 'Lớp tông cũ và nhãn 1903 rút đi trước "Today,"; thẻ ~12 a day ở "twelve" (≈ ' + f2(T(6, 'twelve')) + ' s); những chấm tàu nhỏ chạy nối nhau dọc đường đỏ Kiruna → Narvik', '', ['map-kiruna-rail'], []),
     N(T(6, 'Luleå ships'), 'Luleå ships ore too, with icebreakers helping in winter.', 'Phía đông: tàu phá băng giấy nhỏ rẽ băng mở lối vào Luleå đúng "icebreakers" (≈ ' + f2(T(6, 'icebreakers')) + ' s); Wob cúi xuống thổi phù lên mặt băng phía Luleå cùng lúc; con tàu kẹt ở d17 được giải thoát, nhích đi', '', ['map-kiruna-rail'], ['tach-bang']),
-    N(T(6, 'The iron had'), 'The iron had been waiting for a door that opens in January.', '[day-vao-cham] Về đường ngang: rào chắn đã nâng, tàu vẫn đang chạy qua phía sau; Wob đứng nhìn, thẻ gỗ dây đỏ thò khỏi túi phải áo khoác; Wob nhét nó vào sâu hơn; giữ hình tới cắt ' + f2(b20) + ' s', '', ['chia-khoa'], []),
+    N(T(6, 'So the iron'), 'So the iron had been waiting for a furnace that liked it, and a train to the sea.', '[day-vao-cham] Về đường ngang: rào chắn đã nâng, tàu quặng vẫn đang chạy qua phía sau; Wob đứng ĐỦ NGƯỜI giữa khung, giơ một ngón tay ở "furnace" (≈ ' + f2(T(6, 'furnace')) + ' s), ngón thứ hai ở "train" (≈ ' + f2(T(6, 'train')) + ' s); thẻ gỗ dây đỏ thò khỏi túi phải áo khoác, Wob nhét nó vào sâu hơn; giữ hình tới cắt ' + f2(b20) + ' s', '', ['chia-khoa'], []),
     ], ['Kiruna', 'Narvik', 'Narvik · ice-free', 'Luleå · freezes in winter', '1900', '1902', '1903', '~12 a day'],
     'Lời giải chính trên bản đồ trang sổ + lớp tông cũ: cắt giấy. C17–C19. Vua khánh thành 1903 chỉ là vương miện giấy (không vẽ người thật). GHI CHO THỢ (dung-cat-giay): nhãn ≥ 45 px khi cận trang; Narvik chỉ hiện từ ' + f2(t_nar) + ' s; KHÔNG quá 4 khối chữ cùng lúc (1900/1902 mờ khi 1903 hiện, 1903 rút trước ~12 a day); Wob vào khung ở nhịp vua cắt ruy băng (đứng nghiêm ở mép trang) và nhịp tàu phá băng (thổi lên mặt băng)')
 
@@ -419,14 +418,14 @@ seg('d27', 'cat-giay', b27, b28, 'hoi-uc',
     'Đóng chương 3, đổi ý lần 2 (đeo chìa lại): cắt giấy, lùi chậm')
 
 # ================= CHƯƠNG 4 · Moving House, With the Neighbours (cảnh 10–11, tháng 8) =================
-b29 = B(10, 'Picture')
+b29 = B(10, 'I tried')
 seg('d28', 'cat-giay', b28, b29, 'hoi-uc',
     'Tờ lịch bóc giấy (trang trống, KHÔNG số) trước nhà thờ đỏ đã đỗ; một hội trường đơn sơ: tấm bản đồ dự báo giấy (lưới phố trừu tượng, không chữ) ghim lên bảng, vùng tô sọc; ' + NGUOI + ' đứng xem; rồi vỉa hè nhìn ra các mái nhà',
     HE + '; cầm chùm chìa (có chìa Kiruna)', 'giay', 'cat', [
     N(START[10], 'Eight days after the church parked, LKAB presented a new forecast.', 'Từ giấy phẳng: tờ lịch bóc lật nhanh đúng tám trang (trang trống) trước nhà thờ đỏ đứng yên; rồi trong hội trường, tấm bản đồ dự báo được ghim lên bảng đúng "forecast." (≈ ' + f2(T(10, 'forecast.')) + ' s)', '', [], ['lat-giay']),
     N(T(10, 'About six'), 'About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years.', '[tien-canh-khung] Vai người que làm tiền cảnh: vùng tô sọc trên bản đồ lan rộng thêm về phía đông và phủ tới ĐÚNG ô nhà nhỏ có cửa gỗ giống cửa phòng thuê cũ của Wob (cửa d06) ở "homes" (≈ ' + f2(T(10, 'homes')) + ' s); Wob đứng sau đám đông kiễng chân không thấy; người que bên cạnh lặng lẽ dịch sang nhường chỗ; Wob nhìn ô nhà có cửa gỗ', '', [], []),
     N(T(10, 'Altogether,'), 'Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes.', 'Thẻ ~12,000 people · ~5,400 homes ở "twelve thousand" (≈ ' + f2(T(10, 'twelve')) + ' s)', '', [], []),
-    N(T(10, "That's roughly"), "That's roughly two thirds of the town.", '[luot-smootherstep] Ngoài vỉa hè nhìn ra thị trấn: hai phần ba số mái nhà giấy lần lượt bật lên một thùng các-tông giấy (gọi lại d03 "packing up") từ "two thirds" (≈ ' + f2(T(10, 'two thirds')) + ' s) tới "town." (≈ ' + f2(T(10, 'town.')) + ' s)', '', [], []),
+    N(T(10, "That's roughly"), "That's roughly two thirds of the town itself.", '[luot-smootherstep] Ngoài vỉa hè nhìn ra thị trấn: hai phần ba số mái nhà giấy lần lượt bật lên một thùng các-tông giấy (gọi lại d03 "packing up") từ "two thirds" (≈ ' + f2(T(10, 'two thirds')) + ' s) tới "itself." (≈ ' + f2(T(10, 'itself.')) + ' s)', '', [], []),
     N(T(10, 'I held'), 'I held my key ring and said nothing for a while.', 'Wob đứng trên vỉa hè, cầm chùm chìa trước ngực, nhìn các mái nhà sáng đèn; im lặng; giữ ≥ 1,5 s', '', ['chum-chia'], []),
     N(T(10, 'So what'), 'So what happens to a house in the way?', '[day-vao-cham] Camera đẩy vào một ngôi nhà nhỏ nằm trong vùng sọc; Wob nghiêng đầu nhìn nó', '', [], []),
     ], ['~12,000 people · ~5,400 homes'],
@@ -436,14 +435,14 @@ b30 = G(10, 0.5)
 seg('d29', 've-tay', b29, b30, 'hoi-uc',
     'Bong bóng tưởng tượng vẽ tay (viền mây): xe tải dọn nhà chở NGUYÊN một dãy phố (nhà, cây thông, cột đèn) chạy trên đường, chui qua một cây cầu; một tháp giếng mỏ giấy tí hon; rồi sơ đồ: ngã ba có hai biển hình (ngôi nhà / đồng xu), hai ngôi nhà giống hệt có dấu =, một cân đĩa với mặt cân chỉ có vạch và MỘT HÌNH TRÁI TIM nhỏ (không chữ, không số)',
     HE + ' (vẽ tay); cầm chùm chìa (có chìa Kiruna)', 'cat', 'cat', [
-    N(b29, 'Picture moving house, except your whole street is moving too, and the mine is paying for the van.', '[bong-bong-tuong-tuong] Xe tải chở cả dãy phố chạy vào; Wob ngồi trên nóc xe giữ chặt chùm chìa; ở "paying" (≈ ' + f2(T(10, 'paying')) + ' s) tháp giếng mỏ tí hon đưa một đồng xu cho bác tài; giữ tới "van."', 'Ở "street is moving too" (≈ ' + f2(T(10, 'street')) + '–' + f2(T(10, 'too,', end=True)) + ' s) xe chui qua cầu: cây thông trên xe cúi rạp đầu, Wob cũng cúi rạp theo, rồi cả hai cùng ngẩng lên', ['chum-chia'], []),
+    N(b29, 'I tried to imagine packing a whole street into one van, with the mine paying for it.', '[bong-bong-tuong-tuong] Xe tải chở cả dãy phố chạy vào; Wob ngồi trên nóc xe giữ chặt chùm chìa; ở "paying" (≈ ' + f2(T(10, 'paying')) + ' s) tháp giếng mỏ tí hon đưa một đồng xu cho bác tài; giữ tới "it."', 'Ở "a whole street into one van," (≈ ' + f2(T(10, 'whole')) + '–' + f2(T(10, 'van,', end=True)) + ' s) xe chui qua cầu: cây thông trên xe cúi rạp đầu, Wob cũng cúi rạp theo, rồi cả hai cùng ngẩng lên', ['chum-chia'], []),
     N(T(10, 'Homeowners'), 'Homeowners get a choice.', '[so-do-ve-tay] Ngã ba đường vẽ tay với hai biển hình: ngôi nhà và đồng xu', '', [], []),
     N(T(10, 'LKAB can'), 'LKAB can build them an equivalent new home.', 'Hai ngôi nhà giống hệt đứng cạnh nhau, dấu = ở giữa', 'Wob đảo hai ngôi nhà qua lại như trò úp cốc, rồi không biết cái nào cũ cái nào mới; nhún vai', [], []),
     N(T(10, 'Or it'), 'Or it pays the market value plus twenty-five percent, set by an independent valuer.', 'Cân đĩa: một bên ngôi nhà giấy, bên kia chồng tiền giấy rồi thêm một phần tư chồng nữa ở "plus" (≈ ' + f2(T(10, 'plus')) + ' s); thẻ market value +25%', '', [], ['ka-ching']),
     N(T(10, 'I asked'), 'I asked myself what my key ring was worth.', 'Wob đặt chùm chìa của mình lên đĩa cân', '', ['chum-chia'], []),
     N(T(10, 'An independent valuer would'), 'An independent valuer would have said, sentimental.', '[day-vao-cham] Cận mặt cân', 'Kim cân nhích đúng tới vạch có hình TRÁI TIM nhỏ (không chữ, không số) ở "sentimental." (≈ ' + f2(T(10, 'sentimental.')) + ' s); Wob lấy chùm chìa lại ôm vào lòng; giữ 0,6 s tới cắt ' + f2(b30) + ' s', ['chum-chia'], []),
     ], ['=', 'market value +25%'],
-    'So sánh đời thường (dọn nhà cả phố) + cơ chế đền bù: vẽ tay. C35. Lệch y_hinh có chủ ý: bỏ nhãn "paid" (chữ không có trong lời); kính lúp lắc đầu (gần gag kính lúp tập 2) đổi thành kim cân chỉ hình trái tim')
+    'Wob tưởng tượng dọn cả phố (vòng 3: bỏ khuôn Picture…, phản biện #11) + cơ chế đền bù: vẽ tay. C35. Lệch y_hinh có chủ ý: bỏ nhãn "paid" (chữ không có trong lời); kính lúp lắc đầu (gần gag kính lúp tập 2) đổi thành kim cân chỉ hình trái tim')
 
 b31 = round(T(11, 'minute.', end=True) + 0.60, 3)   # vòng 2: giữ đồng hồ quả quýt (462.10)
 seg('d30', 'cat-giay', b30, b31, 'hoi-uc',
@@ -501,7 +500,7 @@ seg('d34', 'cat-giay', b34, b35, 'hoi-uc',
     N(T(12, 'On the new'), 'On the new square, the wind found me in seconds.', 'Quảng trường mới trống trải, gió nét đứt cuộn tới Wob đúng "found" (≈ ' + f2(T(12, 'found')) + ' s)', 'Gió giật tung khăn của Wob; khăn bay một vòng quanh tháp đồng hồ rồi quấn trở lại cổ Wob, chặt hơn lúc đầu (mắt Wob lồi ra); giữ 0,6 s', ['khan-len'], ['brr']),
     N(T(12, "The town's"), "The town's North Sámi name is Giron.", 'Tấm biển tên thị trấn hai thứ tiếng: Kiruna / Giron, chữ Giron sáng lên ở "Giron." (≈ ' + f2(T(12, 'Giron.')) + ' s)', '', ['bien-ten'], []),
     N(T(12, 'It comes'), 'It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter.', 'Một con gà gô núi lông trắng ngồi tròn trên tuyết, rất thoải mái, hiện ở "rock ptarmigan," (≈ ' + f2(T(12, 'ptarmigan,')) + ' s); Wob ngồi xổm cạnh nó, bắt chước dáng tròn', '', [], []),
-    N(T(12, 'I would'), 'I would have liked to turn white and stop caring.', '[bong-bong-tuong-tuong] Bong bóng cắt giấy: Wob tưởng tượng mình trắng toàn thân (lục địa, biển đều trắng như tuyết), ngồi tròn lim dim cạnh con gà gô', 'Bong bóng vụt tắt: Wob xanh trở lại, run lập cập', [], []),
+    N(T(12, 'I would'), 'I would have liked to grow feathers and sit in a snowbank.', '[bong-bong-tuong-tuong] Bong bóng cắt giấy: lông vũ giấy mọc lên khắp người Wob ở "feathers" (≈ ' + f2(T(12, 'feathers')) + ' s) (Wob GIỮ NGUYÊN màu lục địa và biển, chỉ khoác thêm lông), Wob ngồi tròn lim dim trong ụ tuyết cạnh con gà gô ở "snowbank." (≈ ' + f2(T(12, 'snowbank.')) + ' s)', 'Bong bóng vụt tắt: lông vũ rụng từng chiếc xuống tuyết, Wob run lập cập', [], []),
     N(T(12, 'Instead'), 'Instead I went back to my room, slid the key off my key ring again, and put it in a drawer.', '[day-vao-cham] MÔ-TÍP CHÌA 4 (cận, rõ): phòng thuê mới; Wob tháo chùm chìa khỏi quai ba lô, tháo chìa Kiruna khỏi vòng đúng "slid" (≈ ' + f2(T(12, 'slid')) + ' s), kéo ngăn kéo tủ gỗ, đặt chìa vào, đẩy ngăn kéo đóng đúng "drawer." (≈ ' + f2(T(12, 'drawer.')) + ' s); giữ ≥ 0,6 s', '', ['chum-chia', 'chia-khoa', 'ngan-keo'], []),
     ], ['Kiruna', 'Giron'],
     'Phố hẹp, gió, tên Sámi, phòng: cắt giấy nhiều lớp. C42, C43. Đổi ý lần 3 (cất chìa vào ngăn kéo). Lệch y_hinh: Wob không với tay rồi rụt ở vệt nắng (đã dùng ở d31), Wob nhảy lên. GHI CHO THỢ (dung-cat-giay): biển Kiruna / Giron ≥ 45 px, không thêm chữ khác')
@@ -604,7 +603,7 @@ seg('d43', 'diorama', b43, b44, 'hien-tai',
     ], [],
     'Kết chương nghiêm ở bàn: diorama, KHÔNG gag, có khoảng lặng trước outro')
 
-# ================= OUTRO · Lamp On, Lamp Off (cảnh 16) =================
+# ================= OUTRO · A Nail Facing East (cảnh 16) =================
 b45 = B(16, 'It came')
 seg('d44', 'diorama', b44, b45, 'hien-tai',
     BAN + '; chìa Kiruna nằm DƯỚI đèn bàn; trang hộ chiếu Kiruna (cùng mẫu thẻ d03: ' + HC + ') mở cạnh, ô con dấu trống; trên sổ các trang pop-up nhỏ: mặt trời, nhà thờ đỏ nhỏ, bánh quế; rồi một quảng trường giấy nhỏ có vũng lạnh xanh; rồi map-kiruna-rail dán trên sổ (đường đỏ sang Narvik). Công tắc đèn bàn nhìn rõ',
@@ -632,12 +631,13 @@ seg('d46', 'diorama', b46, DUOI_A, 'hien-tai',
     'Như d44 (bàn, đèn sáng); trang hộ chiếu Kiruna và con dấu cao su (api.conDauSVG) trên bàn; một pop-up nhỏ: căn nhà gỗ phủ tuyết có ' + NGUOI + ' đọc sách bên cửa sổ; CỬA SỔ ở bên TRÁI bàn sát kệ kỷ vật, khung cửa sổ có một cái ĐINH nhỏ',
     NHA + '; cầm con dấu; rồi cầm chìa Kiruna, treo lên đinh ở khung cửa sổ; cuối đoạn tay không, chỉ vào chìa', 'cat', 'cat', [
     N(b46 + 0.05, 'I admire that a lot.', 'Cắt về bàn: Wob nhìn trang sổ, đặt tay lên ngực, gật chậm', '', [], []),
-    N(T(16, 'I just'), "I just can't do the dark.", 'Wob liếc công tắc đèn, rùng mình một cái', '', [], []),
+    N(T(16, 'Not everyone'), 'Not everyone got to choose, and the reindeer still need a way through.', 'Đèn bàn dịu đi một nấc; trên trang sổ một pop-up nhỏ, lặng: đàn tuần lộc giấy (không người) đi hàng một qua một khe hẹp giữa hai khối đất xám; Wob hạ tay khỏi ngực, nhìn lâu, không cười. KHÔNG gag, không sfx hài', '', ['so-du-lich'], []),
+    N(T(16, 'As for'), "As for me, I can't do the dark.", 'Wob quay lại phía người xem, tay chỉ vào mình ở "me," (≈ ' + f2(T(16, 'me,')) + ' s), rồi liếc công tắc đèn, rùng mình một cái', '', [], []),
     N(t_so - 0.07, 'Summer only.', f'[lao-vao-can-canh] Trang hộ chiếu lật ra GIỮA khung; Wob nhấc con dấu, hà hơi; dấu chạm giấy 0–3 khung trước "Summer" ({f2(t_so)} s): dấu khung đôi nghiêng, chữ SUMMER ONLY màu đất nung (#a8322a in trên giấy, như dấu các tập trước) ≥ 120 px, ép đúng bề rộng trong khung, cả dấu nằm trọn vùng an toàn. Dấu to giữa khung GIỮ {f2(t_so)}–{f2(t_so + 3.0)} s (≥ 3 s), rồi mới thu về trang hộ chiếu trong 0,3 s. Đúng một lần trong tập', '', ['the-ho-chieu', 'con-dau'], ['dau-wob']),
     N(T(16, "I'd come"), "I'd come every June, help carry something heavy, and leave before the sun does.", f'Dấu SUMMER ONLY VẪN to giữa khung tới {f2(t_so + 3.0)} s; Wob đứng cạnh làm động tác vác một thùng các-tông nặng ở "carry" (≈ {f2(T(16, "carry"))} s); dấu thu về trang ({f2(t_so + 3.0)}–{f2(t_so + 3.3)} s); ở "leave before the sun" Wob vẫy tay chào mặt trời pop-up trên sổ đang lặn dần', '', ['con-dau'], []),
     N(T(16, 'If you'), "If you like snow, quiet and a project measured in decades, you'd outlast me easily.", '[luot-smootherstep] Một pop-up nhỏ bật dựng: căn nhà gỗ phủ tuyết, người que đọc sách bên cửa sổ, khói bếp; Wob chỉ vào nó rồi chỉ ra người xem, nhún vai', '', [], []),
-    N(T(16, 'I hung'), 'I hung the key on a nail by my window, pointing east, in case its door turns up.', f'Wob nhặt chìa Kiruna từ dưới chân đèn, bước tới khung cửa sổ bên trái, treo chìa lên đinh đúng "nail" (≈ {f2(T(16, "nail"))} s); chìa đung đưa rồi dừng, mũi chìa chỉ sang PHẢI (phía đông) đúng "east," (≈ {f2(T(16, "east,"))} s)', 'Chìa dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó ra đường; Wob nhìn nó, nhìn người xem; giữ 0,6 s trước "Would" (' + f2(T(16, 'Would you')) + ' s)', ['chia-khoa', 'dinh-cua-so'], []),
-    N(T(16, 'Would you'), 'Would you move your whole town to keep your job?', '[day-vao-cham] Wob quay ra người xem, tay chỉ vào chìa khoá trên đinh; camera đẩy chậm; giữ hình tới hết đoạn; nhạc hạ', '', ['chia-khoa'], []),
+    N(T(16, 'I hung'), 'I hung the key on a nail by my window, pointing east, in case its door turns up.', f'Wob nhặt chìa Kiruna từ dưới chân đèn, bước tới khung cửa sổ bên trái, treo chìa lên đinh đúng "nail" (≈ {f2(T(16, "nail"))} s); chìa đung đưa rồi dừng, mũi chìa chỉ sang PHẢI (phía đông) đúng "east," (≈ {f2(T(16, "east,"))} s)', 'Chìa dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó ra đường; Wob nhìn nó, nhìn người xem; giữ 0,6 s trước "What" (' + f2(T(16, 'What would')) + ' s)', ['chia-khoa', 'dinh-cua-so'], []),
+    N(T(16, 'What would'), 'What would you refuse to move, even for a mine?', '[day-vao-cham] Wob quay ra người xem, tay chỉ vào chìa khoá trên đinh; camera đẩy chậm; giữ hình tới hết đoạn; nhạc hạ', '', ['chia-khoa'], []),
     ], ['KIRUNA', 'SWEDEN', 'Would Wob move here?', 'SUMMER ONLY'],
     'Outro ở bàn: diorama. Đóng dấu SUMMER ONLY dưới đèn (nhãn cố định, đúng một lần), treo chìa trên đinh hướng đông (mô-típ chìa 6, gọi lại hook). GHI CHO THỢ (dung-diorama): SUMMER ONLY ≥ 120 px ép bề rộng, dấu to giữ ' + f'{f2(t_so)}–{f2(t_so + 3.0)}' + ' s rồi mới thu (0,3 s); KIRUNA ≥ 72 px, dòng khác ≥ 54 px; cửa sổ và đinh ở BÊN TRÁI, sát kệ (d47 lấy chìa từ đinh này)')
 
@@ -650,9 +650,9 @@ seg('d47', 'diorama', DUOI_A, END, 'duoi',
     'TẮT "mặt trời nhô" (ghimRung matTroi: false). Một va li nhỏ mở trên bàn và một chồng tất. Bên phải: vùng end screen để TRỐNG: endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]} (khung 560×315, vòng Ø200). CAMERA KHOÁ CỨNG cả đoạn',
     NHA + ' (bộ ở nhà như d43–d46). Khung 0: Wob ĐÃ cầm chìa Kiruna trong tay (cắt cứng che bước gỡ; đinh khung cửa sổ trống thấy rõ); từ ' + f2(START[17]) + ' s treo chìa lên đinh riêng ở kệ; rồi cầm chồng tất', 'cat', 'cuoi-video', [
     N(DUOI_A, '', 'Khung 0 (cắt cứng từ d46): đủ bàn, cửa sổ, kệ, kỷ vật cũ; Wob ĐÃ cầm chìa Kiruna trong tay, đinh khung cửa sổ trống thấy rõ (cắt cứng che bước gỡ); 0–1,2 s đầu đoạn CHỈ có hai khung và vòng giấy trống bật lên (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, chìa, tất, mưa ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ', '', ['khung-anh-trong', 'vong-tron-trong', 'chia-khoa'], ['pop']),
-    N(START[17], 'The key goes on the shelf, on a nail of its own, beside the postcard that lost the race home.', 'Wob treo chìa Kiruna lên đinh riêng ở cột kệ (dt.datLen), mũi chìa chỉ sang phải; thẻ KIRUNA dưới chìa; bưu thiếp Tristan da Cunha đứng cạnh, mặt tem quay ra, nghiêng nhẹ về phía chìa ở "postcard" (≈ ' + f2(T(17, 'postcard')) + ' s)', 'Bưu thiếp nghiêng sang tựa vào chìa khoá như hai kỷ vật làm quen', ['chia-khoa', 'buu-thiep'], []),
-    N(T(17, 'Behind'), 'Behind them, the opal jar still rattles mostly air.', 'Khuỷu tay Wob chạm kệ: lọ opal phía sau rung lách cách (dt.rung) ở "rattles" (≈ ' + f2(T(17, 'rattles')) + ' s); Wob liếc nó', '', ['lo-opal'], []),
-    N(T(17, 'Next,'), 'Next, I am packing every sock I own.', 'CHỈ từ chữ "Next,": bản đồ giấy trừu tượng mở ra ở trái dưới (dt.moBanDo); ghim đỏ mới cắm vào vùng rất xa phía bắc (dt.camGhim, vài bông tuyết quanh); ghim trống KHÔNG nhãn rung ở mảng đất xanh ấm phía đông xa (dt.ghimRung, matTroi: false), đám mây mưa giấy nhỏ trên ghim nhỏ giọt; Wob nhét cả chồng tất vào va li nhỏ trên bàn ở "sock" (≈ ' + f2(T(17, 'sock')) + ' s). Không tên nơi, không số, không chữ', '', ['ban-do-giay', 'ghim', 'va-li', 'tat'], ['drop']),
+    N(START[17], 'Up on the shelf, the key gets a nail of its own.', 'Wob treo chìa Kiruna lên đinh riêng ở cột kệ (dt.datLen) đúng "nail" (≈ ' + f2(T(17, 'nail')) + ' s); chìa đung đưa rồi dừng, mũi chỉ sang phải; thẻ KIRUNA dưới chìa', '', ['chia-khoa'], []),
+    N(T(17, 'The postcard'), 'The postcard leans on the opal jar, which still rattles mostly air.', 'Bưu thiếp Tristan da Cunha (mặt tem quay ra) nghiêng sang tựa vào lọ opal ở "leans" (≈ ' + f2(T(17, 'leans')) + ' s); lọ opal rung lách cách (dt.rung) ở "rattles" (≈ ' + f2(T(17, 'rattles')) + ' s); Wob liếc nó', 'Bưu thiếp tựa vào lọ như hai kỷ vật làm quen; lọ rung làm bưu thiếp nảy nhẹ', ['buu-thiep', 'lo-opal'], []),
+    N(T(17, 'My socks'), 'My socks are already nervous about the next trip.', 'CHỈ từ chữ "My": bản đồ giấy trừu tượng mở ra ở trái dưới (dt.moBanDo); ghim đỏ mới cắm vào vùng rất xa phía bắc (dt.camGhim, vài bông tuyết quanh); ghim trống KHÔNG nhãn rung ở mảng đất xanh ấm phía đông xa (dt.ghimRung, matTroi: false), đám mây mưa giấy nhỏ trên ghim nhỏ giọt; chồng tất trong va li nhỏ trên bàn run rẩy ở "nervous" (≈ ' + f2(T(17, 'nervous')) + ' s), Wob đặt tay lên trấn an. Không tên nơi, không số, không chữ', '', ['ban-do-giay', 'ghim', 'va-li', 'tat'], ['drop']),
     N(T(17, 'I hear'), 'I hear the rain there takes its time.', 'Một giọt mưa từ đám mây trên ghim rơi rất chậm, đáp lên chiếc tất trên cùng, chiếc tất sẫm màu ẩm; vài giọt mưa giấy trượt chậm trên kính cửa sổ bên trái; Wob nhìn chiếc tất ẩm, tỉnh bơ', 'Chiếc tất ẩm trước cả chuyến đi', ['tat'], []),
     N(round(E(17) + 0.3, 3), '', 'Hết lời: Wob quay sang phải, chỉ tay về phía hai khung trống (bàn tay dừng ở x ≤ 1100), chớp mắt, đứng thở tới hết đoạn; mưa trên cửa sổ vẫn trượt chậm (x < 1100); nhạc nhỏ dần nhưng không tắt; không mờ đen', '', [], []),
     ], ['KIRUNA', 'TRISTAN DA CUNHA', 'SANTA CRUZ DEL ISLOTE', 'WHITTIER', 'COOBER PEDY', 'OYMYAKON'],

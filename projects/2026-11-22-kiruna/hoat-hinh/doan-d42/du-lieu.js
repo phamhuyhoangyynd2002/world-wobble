@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 16.18,
- "bat_dau_tuyet_doi": 631.47,
+ "bat_dau_tuyet_doi": 629.046,
  "lop": "hoi-uc",
  "boi_canh": "Như d40 (tông trầm): một phong bì giấy đi qua trang tới một toà nhà giấy có hàng cột (dạng chung, KHÔNG cờ, KHÔNG chữ); bàn gỗ có tờ thoả thuận giấy; một tờ giấy trắng mới; hai chiếc ghế trống đối diện nhau",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); đứng ngoài mép trang; Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -22,7 +22,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "According to the Swedish news agency TT, Gabna has asked the European Court of Human Rights to look at the case.",
-   "hanh_dong": "Một phong bì giấy đi chầm chậm qua trang tới toà nhà có hàng cột (không cờ, không chữ) ở \"European Court\" (≈ 635.62 s); Wob nhìn theo phong bì",
+   "hanh_dong": "Một phong bì giấy đi chầm chậm qua trang tới toà nhà có hàng cột (không cờ, không chữ) ở \"European Court\" (≈ 633.20 s); Wob nhìn theo phong bì",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -30,7 +30,7 @@ window.HH_DATA = {
   {
    "tai": 7.05,
    "loi": "In December twenty twenty-five, it ended its cooperation agreement with LKAB, saying consultations had changed nothing.",
-   "hanh_dong": "Tờ thoả thuận giấy trên bàn được gấp lại đúng \"ended\" (≈ 640.18 s), đặt sang một bên (KHÔNG xé, không kịch tính)",
+   "hanh_dong": "Tờ thoả thuận giấy trên bàn được gấp lại đúng \"ended\" (≈ 637.76 s), đặt sang một bên (KHÔNG xé, không kịch tính)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 14.6,
- "bat_dau_tuyet_doi": 529.626,
+ "bat_dau_tuyet_doi": 527.202,
  "lop": "hoi-uc",
  "boi_canh": "Diorama ngoài trời, CÙNG nơi và CÙNG góc camera mở đoạn như d32: QUẢNG TRƯỜNG MỚI: toà thị chính TRÒN mặt kính và đá (Kristallen, cách điệu, không chữ) + THÁP ĐỒNG HỒ khung sắt cũ đứng cạnh (mặt đồng hồ chỉ có kim, vạch, KHÔNG số), cột đèn mới, mặt đất lát đá, tháng 6, cỏ xanh, nắng vàng nhạt, mặt trời giấy thấp quanh chân trời; một nhiệt kế giấy treo trên cột đèn",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; chùm chìa (không có chìa Kiruna: chìa đang nằm trong ngăn kéo từ d34) móc quai ba lô",
@@ -33,7 +33,7 @@ window.HH_DATA = {
   {
    "tai": 3.575,
    "loi": "From late May to mid-July, about seven weeks, the sun doesn't set here at all.",
-   "hanh_dong": "[luot-smootherstep] Mặt trời giấy lăn một vòng thấp quanh chân trời mà không chạm xuống; thẻ late May – mid-July ở \"late May\" (≈ 533.45 s); Wob quay người theo mặt trời một vòng",
+   "hanh_dong": "[luot-smootherstep] Mặt trời giấy lăn một vòng thấp quanh chân trời mà không chạm xuống; thẻ late May – mid-July ở \"late May\" (≈ 531.03 s); Wob quay người theo mặt trời một vòng",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 8.088,
    "loi": "July averages about thirteen Celsius.",
-   "hanh_dong": "Nhiệt kế giấy trên cột đèn nhích lên; thẻ 13°C · 56°F ở \"thirteen\" (≈ 538.78 s); Wob nới cổ áo gi-lê",
+   "hanh_dong": "Nhiệt kế giấy trên cột đèn nhích lên; thẻ 13°C · 56°F ở \"thirteen\" (≈ 536.35 s); Wob nới cổ áo gi-lê",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -50,7 +50,7 @@ window.HH_DATA = {
    "tai": 10.838,
    "loi": "At midnight I went for a walk in sunglasses, which felt like cheating.",
    "hanh_dong": "Kim tháp đồng hồ chỉ 12 giờ (không số), trời vẫn sáng vàng; Wob đeo kính râm đi dạo, bóng đổ dài trên mặt đá",
-   "gag": "Ở \"cheating.\" (≈ 543.63 s) Wob nhón chân nhìn quanh như đang lén làm điều gì sai; cái bóng dài của Wob dừng lại, ngoái nhìn Wob; giữ 0,6 s",
+   "gag": "Ở \"cheating.\" (≈ 541.20 s) Wob nhón chân nhìn quanh như đang lén làm điều gì sai; cái bóng dài của Wob dừng lại, ngoái nhìn Wob; giữ 0,6 s",
    "dao_cu": [
     "kinh-ram"
    ],

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 27.12,
- "bat_dau_tuyet_doi": 604.35,
+ "bat_dau_tuyet_doi": 601.926,
  "lop": "hoi-uc",
  "boi_canh": "Như d40 (tông trầm): một khung ô vuông nét mực (khu mỏ dự kiến) đặt chồng lên vệt đường còn lại; một tập hồ sơ giấy không chữ; một nam châm giấy và một chiếc xe điện giấy; hai tấm thẻ CÙNG CỠ bật dựng như thẻ pop-up ĐÚNG ở mép trang, quay ra mặt bàn, đối xứng: thẻ trái GABNA (hình tuần lộc đứng trước vệt đường bị chặn), thẻ phải LKAB (hình tháp giếng mỏ và cùng mảnh đất)",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); đứng trên mặt bàn ngoài mép trang, rồi đứng trên mặt bàn GIỮA hai thẻ dựng ở mép trang (không bước lên trang); Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -26,7 +26,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "Now LKAB plans a rare earth mine called Per Geijer, right on the route that is left.",
-   "hanh_dong": "Khung ô vuông nét mực đặt chồng lên đúng vệt đường còn lại ở \"right on the route\" (≈ 607.94 s); nhãn Per Geijer cạnh khung; nét đứt của đàn tuần lộc chạy vào trong khung",
+   "hanh_dong": "Khung ô vuông nét mực đặt chồng lên đúng vệt đường còn lại ở \"right on the route\" (≈ 605.52 s); nhãn Per Geijer cạnh khung; nét đứt của đàn tuần lộc chạy vào trong khung",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -50,7 +50,7 @@ window.HH_DATA = {
   {
    "tai": 15.49,
    "loi": "Gabna's chair, Lars-Marcus Kuhmunen, has said there is nowhere left for them to move.",
-   "hanh_dong": "Thẻ trái GABNA bật dựng ở mép trang, quay ra mặt bàn, ở \"Gabna's\" (≈ 619.84 s): hình tuần lộc đứng trước vệt đường bị chặn (KHÔNG ảnh, KHÔNG chân dung người); Wob đứng trên mặt bàn dưới thẻ, nhìn",
+   "hanh_dong": "Thẻ trái GABNA bật dựng ở mép trang, quay ra mặt bàn, ở \"Gabna's\" (≈ 617.42 s): hình tuần lộc đứng trước vệt đường bị chặn (KHÔNG ảnh, KHÔNG chân dung người); Wob đứng trên mặt bàn dưới thẻ, nhìn",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -58,7 +58,7 @@ window.HH_DATA = {
   {
    "tai": 20.59,
    "loi": "LKAB's chief executive, Jan Moström, has said the problem is that both sides need the same land.",
-   "hanh_dong": "Thẻ phải LKAB, CÙNG CỠ, bật dựng ở mép trang đối xứng, ở \"LKAB's\" (≈ 624.94 s): hình tháp giếng mỏ và cùng mảnh đất (không chân dung); Wob đứng trên mặt bàn giữa hai thẻ (không bước lên trang), nhìn thẻ này rồi thẻ kia, như nhau",
+   "hanh_dong": "Thẻ phải LKAB, CÙNG CỠ, bật dựng ở mép trang đối xứng, ở \"LKAB's\" (≈ 622.52 s): hình tháp giếng mỏ và cùng mảnh đất (không chân dung); Wob đứng trên mặt bàn giữa hai thẻ (không bước lên trang), nhìn thẻ này rồi thẻ kia, như nhau",
    "gag": "",
    "dao_cu": [],
    "sfx": []

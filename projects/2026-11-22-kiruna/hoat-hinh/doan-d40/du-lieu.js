@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 15.67,
- "bat_dau_tuyet_doi": 588.68,
+ "bat_dau_tuyet_doi": 586.256,
  "lop": "hoi-uc",
  "boi_canh": "Cắt giấy tông trầm (trời xám nhạt, tuyết mỏng): núi Luossavaara thấp, rừng bạch dương lùn, vệt đường mảnh nét đứt chạy sau núi; đàn tuần lộc giấy; một người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng chăn tuần lộc đội mũ len (không mặt, KHÔNG trang phục chi tiết); hồ xanh giấy, dải nhà và cửa hầm chắn ngang lối cũ. Mép trang và vệt đèn bàn ở rìa khung (Wob kể ở bàn)",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); đứng NGOÀI mép trang, nhỏ, đứng yên; Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -24,7 +24,7 @@ window.HH_DATA = {
   {
    "tai": 0.6,
    "loi": "North of town, behind the mountain Luossavaara, runs a reindeer route.",
-   "hanh_dong": "Từ giấy phẳng hiện núi thấp, rừng bạch dương lùn; nhãn Luossavaara; vệt đường nét đứt sau núi vẽ dần ở \"reindeer route.\" (≈ 593.24 s); Wob đứng ngoài mép trang, nhỏ, yên",
+   "hanh_dong": "Từ giấy phẳng hiện núi thấp, rừng bạch dương lùn; nhãn Luossavaara; vệt đường nét đứt sau núi vẽ dần ở \"reindeer route.\" (≈ 590.82 s); Wob đứng ngoài mép trang, nhỏ, yên",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -40,7 +40,7 @@ window.HH_DATA = {
   {
    "tai": 12.32,
    "loi": "Their old route along the lake was cut off by the mine and the town.",
-   "hanh_dong": "[luot-smootherstep] Camera lướt sang hồ: vệt đường cũ dọc hồ bị dải nhà và cửa hầm chắn ngang, nét đứt dừng lại ở \"cut off\" (≈ 602.32 s); vệt đường mới vòng ra sau núi; Wob lần ngón tay theo nét đứt cũ tới chỗ nó dừng, nhấc tay lên",
+   "hanh_dong": "[luot-smootherstep] Camera lướt sang hồ: vệt đường cũ dọc hồ bị dải nhà và cửa hầm chắn ngang, nét đứt dừng lại ở \"cut off\" (≈ 599.90 s); vệt đường mới vòng ra sau núi; Wob lần ngón tay theo nét đứt cũ tới chỗ nó dừng, nhấc tay lên",
    "gag": "",
    "dao_cu": [],
    "sfx": []

@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 20.65,
- "bat_dau_tuyet_doi": 261.38,
+ "bat_dau_tuyet_doi": 258.476,
  "lop": "hoi-uc",
  "boi_canh": "Wob ngồi ghế gấp nhỏ cạnh đường ngang đọc sổ; camera vào trang lịch sử tông giấy cũ sepia (Wob đứng NGOÀI mép trang): đồng tuyết trống, tờ quy hoạch, con dấu sáp đỏ hình vương miện; một người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng đội mũ phớt cầm búa địa chất và cuộn giấy quy hoạch (không mặt); phố uốn theo sườn đồi; nhà gỗ nhiều màu mọc lên",
  "trang_phuc": "MÙA ĐÔNG (tháng 2, tháng 12): ÁO KHOÁC CHẦN BÔNG (áo phao) XANH LAM #3D5A80 (đường chần ngang #2B4262, khoá kéo kem #EFE3C8), dài tới ngang hông Wob, MỘT TÚI VÁ bên PHẢI thân áo (nắp túi #2B4262: túi đựng chìa khoá); MŨ LEN XANH LÁ THÔNG #4F7A5A (vành gập #3A5C43, quả bông kem #F6EEDC); KHĂN LEN KEM #EFE3C8 sọc xanh lá thông #4F7A5A; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc. KHÁC mũ len đỏ #C9463A + khăn đỏ #D9543C tập 1, áo mưa vàng #E2B33C tập 3, mũ cói tập 4, áo mưa cam #E07A2E tập 5; đứng ngoài mép trang sepia; khăn len kem sọc xanh",
@@ -25,7 +25,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "Then the town could happen.",
-   "hanh_dong": "Trên trang sepia: đồng tuyết trống; ngôi nhà gỗ đầu tiên bật dựng đúng \"happen.\" (≈ 262.73 s); Wob ngoài mép trang nghiêng người nhìn",
+   "hanh_dong": "Trên trang sepia: đồng tuyết trống; ngôi nhà gỗ đầu tiên bật dựng đúng \"happen.\" (≈ 259.83 s); Wob ngoài mép trang nghiêng người nhìn",
    "gag": "",
    "dao_cu": [],
    "sfx": [
@@ -35,7 +35,7 @@ window.HH_DATA = {
   {
    "tai": 2.075,
    "loi": "Kiruna counts nineteen hundred as its birth year, when the king approved its town plan.",
-   "hanh_dong": "Tờ quy hoạch trải trên bàn; con dấu sáp đỏ có hình vương miện đóng xuống đúng \"approved\" (≈ 266.65 s); nhãn 1900",
+   "hanh_dong": "Tờ quy hoạch trải trên bàn; con dấu sáp đỏ có hình vương miện đóng xuống đúng \"approved\" (≈ 263.75 s); nhãn 1900",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -43,7 +43,7 @@ window.HH_DATA = {
   {
    "tai": 6.862,
    "loi": "The mining company's first managing director, a geologist called Hjalmar Lundbohm, wanted a model town.",
-   "hanh_dong": "Người que đội mũ phớt cầm búa địa chất và cuộn giấy quy hoạch hiện ở \"geologist\" (≈ 270.87 s), mở cuộn giấy trên đồng tuyết (không mặt chân dung)",
+   "hanh_dong": "Người que đội mũ phớt cầm búa địa chất và cuộn giấy quy hoạch hiện ở \"geologist\" (≈ 267.96 s), mở cuộn giấy trên đồng tuyết (không mặt chân dung)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -51,7 +51,7 @@ window.HH_DATA = {
   {
    "tai": 13.387,
    "loi": "He brought in a leading planner to fit the streets to the climate.",
-   "hanh_dong": "Các phố uốn cong theo sườn đồi; một mũi tên gió lạnh giấy lao vào phố ở \"climate.\" (≈ 277.23 s)",
+   "hanh_dong": "Các phố uốn cong theo sườn đồi; một mũi tên gió lạnh giấy lao vào phố ở \"climate.\" (≈ 274.33 s)",
    "gag": "Mũi tên gió đập vào góc nhà, cong gập lại rồi lủi sang chỗ khác; ngoài mép trang, đuôi khăn của Wob đang bay phần phật bỗng rủ xuống im; Wob sờ khăn",
    "dao_cu": [],
    "sfx": [

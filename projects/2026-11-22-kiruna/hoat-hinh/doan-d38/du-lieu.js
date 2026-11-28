@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 6.325,
- "bat_dau_tuyet_doi": 561.328,
+ "bat_dau_tuyet_doi": 558.904,
  "lop": "hien-tai",
  "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, cốc trà; cửa sổ ở BÊN TRÁI bàn, sát kệ kỷ vật (đinh treo chìa ở khung cửa sổ, d46); đèn bàn DỊU XUỐNG (ban.diuDen v ≈ 0,4), tông trầm; trang pop-up nhà thờ đỏ trên sổ còn dựng (từ cảnh 2); chùm chìa nhà nằm cạnh chân đèn",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); tháo chìa Kiruna khỏi chùm chìa nhà nằm cạnh chân đèn, đặt chìa một mình ngay DƯỚI chân đèn; Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -33,7 +33,7 @@ window.HH_DATA = {
   {
    "tai": 1.0,
    "loi": "Back at my desk, I put the key down for this part.",
-   "hanh_dong": "Wob đặt chìa Kiruna xuống ngay DƯỚI chân đèn bàn đúng \"down\" (≈ 564.12 s), rời tay ra; nhạc lắng",
+   "hanh_dong": "Wob đặt chìa Kiruna xuống ngay DƯỚI chân đèn bàn đúng \"down\" (≈ 561.69 s), rời tay ra; nhạc lắng",
    "gag": "",
    "dao_cu": [
     "chia-khoa"

@@ -1,7 +1,7 @@
-/* Đoạn d43 (diorama, hiện tại, 3,16 s, NGHIÊM) – "I don't have a neat line for this part."
+/* Đoạn d43 (diorama, hiện tại, 3,91 s, NGHIÊM; vòng sửa 3: lặng dài thêm 0,75 s, với tay tắt đèn ở 3,11) – "I don't have a neat line for this part."
  * Vào cat, ra cat. Bố cục bàn chung tập 6 (ban6), đèn dịu như d38; chìa Kiruna nằm DƯỚI chân đèn (chỗ d38 đặt).
  * [day-vao-cham] Wob nhìn chìa dưới chân đèn, không cầm lên; camera đẩy rất chậm; sau "part." 1,47 lặng.
- * 2,36 trong khoảng lặng Wob với tay gạt công tắc tắt hẳn đèn bàn: tối xanh (d44 mở trong tối, khớp liền). Không sfx.
+ * 3,11 trong khoảng lặng Wob với tay gạt công tắc tắt hẳn đèn bàn: tối xanh (d44 mở trong tối, khớp liền). Không sfx.
  */
 window.CANH = function (api, data) {
   "use strict";
@@ -87,17 +87,18 @@ window.CANH = function (api, data) {
   api.lidsSet(w, 0.4);
   api.camSet(R, null, { cx: -410, cy: 60, cz: -640, k: 590, rx: -16, ry: 8 });
   api.camTo(R, 0, DUR, { cx: -400, cy: 66, k: 640 }, "sine.inOut");    // đẩy rất chậm
-  api.blink(w, 1.9, 0.4, true);
-  // 2,36 với tay tắt đèn
+  api.blink(w, 1.9, 0.4, true); api.blink(w, 2.65, 0.4, true);
+  // 3,11 với tay tắt đèn (sau "part." 1,47 lặng 1,6 s)
   var CT = B.CT;
   var wc = function (x, y) { return [200 + (x - WX) / 0.9, 392 + (y - TY) / 0.9]; };
   var tp = wc(CT.x - 10, TY - 40), AS = goc("R", tp[0], tp[1]), SS = Math.max(1, Math.hypot(tp[0] - 314, tp[1] - 212) / 96);
-  api.quay(w, 2.3, 0.3, 0.3);
-  api.look(w, 2.3, 14, 14, 0.2);
-  api.nghieng(w, 2.36, 6, 0.3);
-  api.armTo(w, "R", 2.36, 0.3, AS, "power2.inOut");
-  tl.to(w.armR, { scaleY: SS, svgOrigin: "314 212", duration: 0.3, ease: "power2.inOut" }, 2.36);
-  var tTat = 2.68;
+  var tVoi = 3.11;
+  api.quay(w, tVoi - 0.06, 0.3, 0.3);
+  api.look(w, tVoi - 0.06, 14, 14, 0.2);
+  api.nghieng(w, tVoi, 6, 0.3);
+  api.armTo(w, "R", tVoi, 0.3, AS, "power2.inOut");
+  tl.to(w.armR, { scaleY: SS, svgOrigin: "314 212", duration: 0.3, ease: "power2.inOut" }, tVoi);
+  var tTat = tVoi + 0.32;
   tl.to(B.ctCan, { rotation: -30, svgOrigin: "80 46", duration: 0.08, ease: "power2.in" }, tTat);
   ban.diuDen(tTat + 0.05, 0.12, 1);
   if (sang) tl.to(sang, { opacity: 0, duration: 0.1 }, tTat + 0.05);

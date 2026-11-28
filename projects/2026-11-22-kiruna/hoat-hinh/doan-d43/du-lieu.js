@@ -10,8 +10,8 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 3.158,
- "bat_dau_tuyet_doi": 647.65,
+ "thoi_luong": 3.908,
+ "bat_dau_tuyet_doi": 645.226,
  "lop": "hien-tai",
  "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, cốc trà; cửa sổ ở BÊN TRÁI bàn, sát kệ kỷ vật (đinh treo chìa ở khung cửa sổ, d46); đèn bàn dịu (như d38); chìa Kiruna nằm DƯỚI chân đèn bàn, chỗ Wob đặt ở d38",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); tay không; Mặt Wob TRẦM (miệng thẳng/buồn: cat-giay `thang`/`buon`), KHÔNG cười suốt đoạn",
@@ -22,7 +22,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "I don't have a neat line for this part.",
-   "hanh_dong": "[day-vao-cham] Về bàn: Wob nhìn chìa khoá dưới chân đèn, không cầm lên; camera đẩy rất chậm; sau \"part.\" (≈ 649.12 s) lặng",
+   "hanh_dong": "[day-vao-cham] Về bàn: Wob nhìn chìa khoá dưới chân đèn, không cầm lên; camera đẩy rất chậm; sau \"part.\" (≈ 646.70 s) lặng",
    "gag": "",
    "dao_cu": [
     "chia-khoa"
@@ -30,7 +30,7 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 2.358,
+   "tai": 3.108,
    "loi": "",
    "hanh_dong": "Trong khoảng lặng Wob với tay tắt hẳn đèn bàn (ban.diuDen tới tối xanh): d44 mở trong tối, khớp liền",
    "gag": "",

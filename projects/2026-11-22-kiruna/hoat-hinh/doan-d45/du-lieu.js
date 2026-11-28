@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 6.388,
- "bat_dau_tuyet_doi": 671.258,
+ "bat_dau_tuyet_doi": 670.334,
  "lop": "hoi-uc",
  "boi_canh": "Chèn vẽ tay tóm lại: một hòn quặng; mặt đất dưới dãy nhà trượt đi về phía núi; cả thị trấn (nhà, tháp đồng hồ) nhấc nhà thờ gỗ đỏ lên mái như khiêng một chiếc ghế sô-pha, đi sang phải",
  "trang_phuc": "Wob vẽ tay nhỏ, đồ ở nhà (không áo khoác, không mũ); KHÔNG khẩu hình (lop hoi-uc)",
@@ -22,8 +22,8 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "It came for the iron, and when the iron started pulling the ground away, the town picked up its church and kept going.",
-   "hanh_dong": "[chen-ve-tay] Hình to: hòn quặng ở \"iron,\" (≈ 672.10 s); mặt đất dưới dãy nhà trượt về phía núi ở \"pulling\" (≈ 673.89 s); cả dãy nhà và tháp đồng hồ nhấc nhà thờ đỏ lên mái khiêng đi sang phải ở \"picked up\" (≈ 675.68 s)",
-   "gag": "Ở \"kept going.\" (≈ 676.80 s) cắt vào CẬN Wob đi cuối đoàn, gồng mình khiêng món nhỏ nhất: chiếc chong chóng gió trên nóc tháp chuông; giữ 0,6 s tới cắt 677.65 s",
+   "hanh_dong": "[chen-ve-tay] Hình to: hòn quặng ở \"iron,\" (≈ 671.17 s); mặt đất dưới dãy nhà trượt về phía núi ở \"pulling\" (≈ 672.97 s); cả dãy nhà và tháp đồng hồ nhấc nhà thờ đỏ lên mái khiêng đi sang phải ở \"picked up\" (≈ 674.76 s)",
+   "gag": "Ở \"kept going.\" (≈ 675.87 s) cắt vào CẬN Wob đi cuối đoàn, gồng mình khiêng món nhỏ nhất: chiếc chong chóng gió trên nóc tháp chuông; giữ 0,6 s tới cắt 676.72 s",
    "dao_cu": [],
    "sfx": [
     "whoosh"
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "scene": 16,
    "bat_dau": -19.45,
-   "thoi_luong": 46.704,
+   "thoi_luong": 51.24,
    "tu": [
     {
      "text": "The",
@@ -467,329 +467,404 @@ window.HH_DATA = {
      "end": 7.725
     },
     {
-     "text": "I",
+     "text": "Not",
      "start": 8.088,
-     "end": 8.238
+     "end": 8.35
     },
     {
-     "text": "just",
-     "start": 8.25,
-     "end": 8.488
+     "text": "everyone",
+     "start": 8.375,
+     "end": 8.7
     },
     {
-     "text": "can't",
-     "start": 8.5,
-     "end": 8.762
-    },
-    {
-     "text": "do",
-     "start": 8.775,
+     "text": "got",
+     "start": 8.713,
      "end": 8.862
     },
     {
-     "text": "the",
+     "text": "to",
      "start": 8.875,
-     "end": 8.975
+     "end": 8.925
     },
     {
-     "text": "dark.",
-     "start": 8.988,
-     "end": 9.35
-    },
-    {
-     "text": "Summer",
-     "start": 9.713,
-     "end": 10.112
-    },
-    {
-     "text": "only.",
-     "start": 10.125,
-     "end": 10.425
-    },
-    {
-     "text": "I'd",
-     "start": 10.788,
-     "end": 10.975
-    },
-    {
-     "text": "come",
-     "start": 10.988,
-     "end": 11.1
-    },
-    {
-     "text": "every",
-     "start": 11.112,
-     "end": 11.312
-    },
-    {
-     "text": "June,",
-     "start": 11.325,
-     "end": 11.65
-    },
-    {
-     "text": "help",
-     "start": 12.05,
-     "end": 12.213
-    },
-    {
-     "text": "carry",
-     "start": 12.225,
-     "end": 12.513
-    },
-    {
-     "text": "something",
-     "start": 12.525,
-     "end": 12.85
-    },
-    {
-     "text": "heavy,",
-     "start": 12.862,
-     "end": 13.325
+     "text": "choose,",
+     "start": 8.937,
+     "end": 9.45
     },
     {
      "text": "and",
-     "start": 13.563,
-     "end": 13.688
-    },
-    {
-     "text": "leave",
-     "start": 13.7,
-     "end": 13.887
-    },
-    {
-     "text": "before",
-     "start": 13.9,
-     "end": 14.175
+     "start": 9.637,
+     "end": 9.738
     },
     {
      "text": "the",
-     "start": 14.188,
-     "end": 14.25
+     "start": 9.75,
+     "end": 9.837
     },
     {
-     "text": "sun",
-     "start": 14.262,
-     "end": 14.512
+     "text": "reindeer",
+     "start": 9.85,
+     "end": 10.225
     },
     {
-     "text": "does.",
-     "start": 14.525,
-     "end": 14.9
+     "text": "still",
+     "start": 10.238,
+     "end": 10.488
     },
     {
-     "text": "If",
-     "start": 15.262,
-     "end": 15.463
-    },
-    {
-     "text": "you",
-     "start": 15.475,
-     "end": 15.55
-    },
-    {
-     "text": "like",
-     "start": 15.563,
-     "end": 15.75
-    },
-    {
-     "text": "snow,",
-     "start": 15.762,
-     "end": 16.162
-    },
-    {
-     "text": "quiet",
-     "start": 16.25,
-     "end": 16.663
-    },
-    {
-     "text": "and",
-     "start": 16.725,
-     "end": 16.812
+     "text": "need",
+     "start": 10.5,
+     "end": 10.65
     },
     {
      "text": "a",
-     "start": 16.825,
-     "end": 16.887
+     "start": 10.663,
+     "end": 10.713
     },
     {
-     "text": "project",
-     "start": 16.9,
-     "end": 17.413
+     "text": "way",
+     "start": 10.725,
+     "end": 10.913
     },
     {
-     "text": "measured",
-     "start": 17.425,
-     "end": 17.725
+     "text": "through.",
+     "start": 10.925,
+     "end": 11.25
     },
     {
-     "text": "in",
-     "start": 17.738,
-     "end": 17.838
+     "text": "As",
+     "start": 11.612,
+     "end": 11.875
     },
     {
-     "text": "decades,",
-     "start": 17.85,
-     "end": 18.4
+     "text": "for",
+     "start": 11.887,
+     "end": 12.062
     },
     {
-     "text": "you'd",
-     "start": 18.65,
-     "end": 18.762
-    },
-    {
-     "text": "outlast",
-     "start": 18.775,
-     "end": 19.288
-    },
-    {
-     "text": "me",
-     "start": 19.3,
-     "end": 19.425
-    },
-    {
-     "text": "easily.",
-     "start": 19.438,
-     "end": 19.888
+     "text": "me,",
+     "start": 12.075,
+     "end": 12.275
     },
     {
      "text": "I",
-     "start": 20.25,
-     "end": 20.413
+     "start": 12.563,
+     "end": 12.675
     },
     {
-     "text": "hung",
-     "start": 20.425,
-     "end": 20.6
+     "text": "can't",
+     "start": 12.688,
+     "end": 12.963
+    },
+    {
+     "text": "do",
+     "start": 12.975,
+     "end": 13.062
     },
     {
      "text": "the",
-     "start": 20.612,
-     "end": 20.713
+     "start": 13.075,
+     "end": 13.162
     },
     {
-     "text": "key",
-     "start": 20.725,
-     "end": 20.962
+     "text": "dark.",
+     "start": 13.175,
+     "end": 13.512
     },
     {
-     "text": "on",
-     "start": 20.975,
-     "end": 21.075
+     "text": "Summer",
+     "start": 13.875,
+     "end": 14.275
     },
     {
-     "text": "a",
-     "start": 21.088,
-     "end": 21.125
+     "text": "only.",
+     "start": 14.287,
+     "end": 14.587
     },
     {
-     "text": "nail",
-     "start": 21.137,
-     "end": 21.425
+     "text": "I'd",
+     "start": 14.95,
+     "end": 15.137
     },
     {
-     "text": "by",
-     "start": 21.438,
-     "end": 21.55
+     "text": "come",
+     "start": 15.15,
+     "end": 15.262
     },
     {
-     "text": "my",
-     "start": 21.563,
-     "end": 21.738
+     "text": "every",
+     "start": 15.275,
+     "end": 15.475
     },
     {
-     "text": "window,",
-     "start": 21.75,
-     "end": 22.2
+     "text": "June,",
+     "start": 15.488,
+     "end": 15.813
     },
     {
-     "text": "pointing",
-     "start": 22.463,
-     "end": 22.813
+     "text": "help",
+     "start": 16.213,
+     "end": 16.375
     },
     {
-     "text": "east,",
-     "start": 22.825,
-     "end": 23.137
+     "text": "carry",
+     "start": 16.387,
+     "end": 16.675
     },
     {
-     "text": "in",
-     "start": 23.375,
-     "end": 23.488
+     "text": "something",
+     "start": 16.688,
+     "end": 17.013
     },
     {
-     "text": "case",
-     "start": 23.5,
-     "end": 23.763
+     "text": "heavy,",
+     "start": 17.025,
+     "end": 17.488
     },
     {
-     "text": "its",
-     "start": 23.775,
-     "end": 23.9
+     "text": "and",
+     "start": 17.725,
+     "end": 17.85
     },
     {
-     "text": "door",
-     "start": 23.912,
-     "end": 24.137
+     "text": "leave",
+     "start": 17.862,
+     "end": 18.05
     },
     {
-     "text": "turns",
-     "start": 24.15,
-     "end": 24.475
+     "text": "before",
+     "start": 18.063,
+     "end": 18.338
     },
     {
-     "text": "up.",
-     "start": 24.488,
-     "end": 24.725
+     "text": "the",
+     "start": 18.35,
+     "end": 18.412
     },
     {
-     "text": "Would",
-     "start": 25.088,
-     "end": 25.275
+     "text": "sun",
+     "start": 18.425,
+     "end": 18.675
+    },
+    {
+     "text": "does.",
+     "start": 18.688,
+     "end": 19.063
+    },
+    {
+     "text": "If",
+     "start": 19.425,
+     "end": 19.625
     },
     {
      "text": "you",
-     "start": 25.287,
-     "end": 25.35
+     "start": 19.637,
+     "end": 19.713
     },
     {
-     "text": "move",
-     "start": 25.362,
-     "end": 25.563
+     "text": "like",
+     "start": 19.725,
+     "end": 19.912
     },
     {
-     "text": "your",
-     "start": 25.575,
-     "end": 25.662
+     "text": "snow,",
+     "start": 19.925,
+     "end": 20.325
     },
     {
-     "text": "whole",
-     "start": 25.675,
-     "end": 25.887
+     "text": "quiet",
+     "start": 20.412,
+     "end": 20.825
     },
     {
-     "text": "town",
-     "start": 25.9,
-     "end": 26.112
+     "text": "and",
+     "start": 20.887,
+     "end": 20.975
+    },
+    {
+     "text": "a",
+     "start": 20.988,
+     "end": 21.05
+    },
+    {
+     "text": "project",
+     "start": 21.063,
+     "end": 21.575
+    },
+    {
+     "text": "measured",
+     "start": 21.588,
+     "end": 21.887
+    },
+    {
+     "text": "in",
+     "start": 21.9,
+     "end": 22.0
+    },
+    {
+     "text": "decades,",
+     "start": 22.012,
+     "end": 22.562
+    },
+    {
+     "text": "you'd",
+     "start": 22.813,
+     "end": 22.925
+    },
+    {
+     "text": "outlast",
+     "start": 22.938,
+     "end": 23.45
+    },
+    {
+     "text": "me",
+     "start": 23.463,
+     "end": 23.588
+    },
+    {
+     "text": "easily.",
+     "start": 23.6,
+     "end": 24.05
+    },
+    {
+     "text": "I",
+     "start": 24.412,
+     "end": 24.575
+    },
+    {
+     "text": "hung",
+     "start": 24.588,
+     "end": 24.762
+    },
+    {
+     "text": "the",
+     "start": 24.775,
+     "end": 24.875
+    },
+    {
+     "text": "key",
+     "start": 24.887,
+     "end": 25.125
+    },
+    {
+     "text": "on",
+     "start": 25.137,
+     "end": 25.238
+    },
+    {
+     "text": "a",
+     "start": 25.25,
+     "end": 25.288
+    },
+    {
+     "text": "nail",
+     "start": 25.3,
+     "end": 25.588
+    },
+    {
+     "text": "by",
+     "start": 25.6,
+     "end": 25.712
+    },
+    {
+     "text": "my",
+     "start": 25.725,
+     "end": 25.9
+    },
+    {
+     "text": "window,",
+     "start": 25.912,
+     "end": 26.362
+    },
+    {
+     "text": "pointing",
+     "start": 26.625,
+     "end": 26.975
+    },
+    {
+     "text": "east,",
+     "start": 26.988,
+     "end": 27.3
+    },
+    {
+     "text": "in",
+     "start": 27.537,
+     "end": 27.65
+    },
+    {
+     "text": "case",
+     "start": 27.662,
+     "end": 27.925
+    },
+    {
+     "text": "its",
+     "start": 27.938,
+     "end": 28.063
+    },
+    {
+     "text": "door",
+     "start": 28.075,
+     "end": 28.3
+    },
+    {
+     "text": "turns",
+     "start": 28.313,
+     "end": 28.638
+    },
+    {
+     "text": "up.",
+     "start": 28.65,
+     "end": 28.887
+    },
+    {
+     "text": "What",
+     "start": 29.25,
+     "end": 29.425
+    },
+    {
+     "text": "would",
+     "start": 29.438,
+     "end": 29.538
+    },
+    {
+     "text": "you",
+     "start": 29.55,
+     "end": 29.612
+    },
+    {
+     "text": "refuse",
+     "start": 29.625,
+     "end": 30.0
     },
     {
      "text": "to",
-     "start": 26.125,
-     "end": 26.188
+     "start": 30.012,
+     "end": 30.1
     },
     {
-     "text": "keep",
-     "start": 26.2,
-     "end": 26.375
+     "text": "move,",
+     "start": 30.112,
+     "end": 30.463
     },
     {
-     "text": "your",
-     "start": 26.387,
-     "end": 26.475
+     "text": "even",
+     "start": 30.637,
+     "end": 30.825
     },
     {
-     "text": "job?",
-     "start": 26.488,
-     "end": 26.875
+     "text": "for",
+     "start": 30.838,
+     "end": 30.988
+    },
+    {
+     "text": "a",
+     "start": 31.0,
+     "end": 31.038
+    },
+    {
+     "text": "mine?",
+     "start": 31.05,
+     "end": 31.425
     }
    ],
    "khau_hinh": [

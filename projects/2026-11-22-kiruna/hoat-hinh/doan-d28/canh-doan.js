@@ -2,14 +2,14 @@
    A: tờ lịch bóc trước nhà thờ đỏ đã đỗ, Wob xé đúng tám trang trống. B: hội trường, người que KHÔNG mặt quay lưng, bản đồ dự báo (lưới phố trừu tượng,
    không chữ) ghim lên bảng đúng "forecast."; tiền cảnh vai người; vùng sọc lan về phía đông, phủ ô nhà có cửa gỗ ở "homes"; Wob kiễng chân sau đám đông,
    người bên cạnh lặng lẽ dịch sang nhường chỗ. C: Wob tháo kính, thẻ "~12,000 people · ~5,400 homes" ở "twelve". D: vỉa hè nhìn ra thị trấn, hai phần ba mái nhà
-   bật thùng các-tông từ "two thirds" tới "town."; Wob tháo chùm chìa khỏi quai, cầm trước ngực, nhìn các mái có thùng, im ≥ 1,5 s; camera đẩy chậm vào
+   bật thùng các-tông từ "two thirds" tới "itself."; Wob tháo chùm chìa khỏi quai, cầm trước ngực, nhìn các mái có thùng, im ≥ 1,5 s; camera đẩy chậm vào
    một nhà nhỏ trong vùng sọc, Wob nghiêng đầu. Không gag (đoạn nghiêm). Vào "giay", ra "cat". Chữ: chỉ chu_tren_do_vat. */
 window.CANH = function (api, data) {
   "use strict";
   var D = api.D, DUR = api.DUR, at = KR.at, M = KR.M, CH = data.chu_tren_do_vat, INK = D.INK, paper = D.paper, rRect = D.rRect, line = D.line, f1 = D.f1;
   var T = function (w, k, du) { var v = api.tuDung(w, 0, k); return v == null ? du : v; };
   var tLKAB = T("lkab", 0, 2.763), tFore = T("forecast.", 0, 3.95), tAbout = T("about", 0, 5.0), tHomes = T("homes", 0, 8.65), tAlt = T("altogether,", 0, 12.025),
-    tTwelve = T("twelve", 0, 15.588), tHomes2 = T("homes", 1, 18.5), tThat = T("that's", 0, 19.312), tTwo = T("two", 1, 19.9), tTown = T("town.", 0, 20.562),
+    tTwelve = T("twelve", 0, 15.588), tHomes2 = T("homes", 1, 18.5), tThat = T("that's", 0, 19.312), tTwo = T("two", 1, 19.9), tTown = T("itself.", 0, 20.94),
     tI = T("i", 0, 21.312), tHeld = T("held", 0, 21.5), tSo = T("so", 0, 24.025), tHouse = T("house", 0, 24.95);
   var tA1 = tLKAB - 0.06, tD = tThat - 0.02;
 

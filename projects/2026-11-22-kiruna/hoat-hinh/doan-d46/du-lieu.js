@@ -10,8 +10,8 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 21.766,
- "bat_dau_tuyet_doi": 677.646,
+ "thoi_luong": 26.302,
+ "bat_dau_tuyet_doi": 676.722,
  "lop": "hien-tai",
  "boi_canh": "Như d44 (bàn, đèn sáng); trang hộ chiếu Kiruna và con dấu cao su (api.conDauSVG) trên bàn; một pop-up nhỏ: căn nhà gỗ phủ tuyết có người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng đọc sách bên cửa sổ; CỬA SỔ ở bên TRÁI bàn sát kệ kỷ vật, khung cửa sổ có một cái ĐINH nhỏ",
  "trang_phuc": "Ở NHÀ: không áo khoác, không gi-lê, không mũ, không khăn, không đeo ba lô (rig noPack); áo khoác chần bông xanh lam treo móc tường sau bàn, mũ len xanh lá thông vắt trên móc; ba lô dựa chân đèn bàn (dấu chuyến đi đã xong); cầm con dấu; rồi cầm chìa Kiruna, treo lên đinh ở khung cửa sổ; cuối đoạn tay không, chỉ vào chìa",
@@ -34,16 +34,26 @@ window.HH_DATA = {
   },
   {
    "tai": 1.7,
-   "loi": "I just can't do the dark.",
-   "hanh_dong": "Wob liếc công tắc đèn, rùng mình một cái",
+   "loi": "Not everyone got to choose, and the reindeer still need a way through.",
+   "hanh_dong": "Đèn bàn dịu đi một nấc; trên trang sổ một pop-up nhỏ, lặng: đàn tuần lộc giấy (không người) đi hàng một qua một khe hẹp giữa hai khối đất xám; Wob hạ tay khỏi ngực, nhìn lâu, không cười. KHÔNG gag, không sfx hài",
+   "gag": "",
+   "dao_cu": [
+    "so-du-lich"
+   ],
+   "sfx": []
+  },
+  {
+   "tai": 5.224,
+   "loi": "As for me, I can't do the dark.",
+   "hanh_dong": "Wob quay lại phía người xem, tay chỉ vào mình ở \"me,\" (≈ 682.41 s), rồi liếc công tắc đèn, rùng mình một cái",
    "gag": "",
    "dao_cu": [],
    "sfx": []
   },
   {
-   "tai": 3.255,
+   "tai": 7.417,
    "loi": "Summer only.",
-   "hanh_dong": "[lao-vao-can-canh] Trang hộ chiếu lật ra GIỮA khung; Wob nhấc con dấu, hà hơi; dấu chạm giấy 0–3 khung trước \"Summer\" (680.97 s): dấu khung đôi nghiêng, chữ SUMMER ONLY màu đất nung (#a8322a in trên giấy, như dấu các tập trước) ≥ 120 px, ép đúng bề rộng trong khung, cả dấu nằm trọn vùng an toàn. Dấu to giữa khung GIỮ 680.97–683.97 s (≥ 3 s), rồi mới thu về trang hộ chiếu trong 0,3 s. Đúng một lần trong tập",
+   "hanh_dong": "[lao-vao-can-canh] Trang hộ chiếu lật ra GIỮA khung; Wob nhấc con dấu, hà hơi; dấu chạm giấy 0–3 khung trước \"Summer\" (684.21 s): dấu khung đôi nghiêng, chữ SUMMER ONLY màu đất nung (#a8322a in trên giấy, như dấu các tập trước) ≥ 120 px, ép đúng bề rộng trong khung, cả dấu nằm trọn vùng an toàn. Dấu to giữa khung GIỮ 684.21–687.21 s (≥ 3 s), rồi mới thu về trang hộ chiếu trong 0,3 s. Đúng một lần trong tập",
    "gag": "",
    "dao_cu": [
     "the-ho-chieu",
@@ -54,9 +64,9 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 4.4,
+   "tai": 8.562,
    "loi": "I'd come every June, help carry something heavy, and leave before the sun does.",
-   "hanh_dong": "Dấu SUMMER ONLY VẪN to giữa khung tới 683.97 s; Wob đứng cạnh làm động tác vác một thùng các-tông nặng ở \"carry\" (≈ 683.48 s); dấu thu về trang (683.97–684.27 s); ở \"leave before the sun\" Wob vẫy tay chào mặt trời pop-up trên sổ đang lặn dần",
+   "hanh_dong": "Dấu SUMMER ONLY VẪN to giữa khung tới 687.21 s; Wob đứng cạnh làm động tác vác một thùng các-tông nặng ở \"carry\" (≈ 686.72 s); dấu thu về trang (687.21–687.51 s); ở \"leave before the sun\" Wob vẫy tay chào mặt trời pop-up trên sổ đang lặn dần",
    "gag": "",
    "dao_cu": [
     "con-dau"
@@ -64,7 +74,7 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 8.874,
+   "tai": 13.037,
    "loi": "If you like snow, quiet and a project measured in decades, you'd outlast me easily.",
    "hanh_dong": "[luot-smootherstep] Một pop-up nhỏ bật dựng: căn nhà gỗ phủ tuyết, người que đọc sách bên cửa sổ, khói bếp; Wob chỉ vào nó rồi chỉ ra người xem, nhún vai",
    "gag": "",
@@ -72,10 +82,10 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 13.862,
+   "tai": 18.024,
    "loi": "I hung the key on a nail by my window, pointing east, in case its door turns up.",
-   "hanh_dong": "Wob nhặt chìa Kiruna từ dưới chân đèn, bước tới khung cửa sổ bên trái, treo chìa lên đinh đúng \"nail\" (≈ 692.39 s); chìa đung đưa rồi dừng, mũi chìa chỉ sang PHẢI (phía đông) đúng \"east,\" (≈ 694.08 s)",
-   "gag": "Chìa dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó ra đường; Wob nhìn nó, nhìn người xem; giữ 0,6 s trước \"Would\" (696.35 s)",
+   "hanh_dong": "Wob nhặt chìa Kiruna từ dưới chân đèn, bước tới khung cửa sổ bên trái, treo chìa lên đinh đúng \"nail\" (≈ 695.63 s); chìa đung đưa rồi dừng, mũi chìa chỉ sang PHẢI (phía đông) đúng \"east,\" (≈ 697.32 s)",
+   "gag": "Chìa dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó ra đường; Wob nhìn nó, nhìn người xem; giữ 0,6 s trước \"What\" (699.58 s)",
    "dao_cu": [
     "chia-khoa",
     "dinh-cua-so"
@@ -83,8 +93,8 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 18.7,
-   "loi": "Would you move your whole town to keep your job?",
+   "tai": 22.862,
+   "loi": "What would you refuse to move, even for a mine?",
    "hanh_dong": "[day-vao-cham] Wob quay ra người xem, tay chỉ vào chìa khoá trên đinh; camera đẩy chậm; giữ hình tới hết đoạn; nhạc hạ",
    "gag": "",
    "dao_cu": [
@@ -97,7 +107,7 @@ window.HH_DATA = {
   {
    "scene": 16,
    "bat_dau": -25.838,
-   "thoi_luong": 46.704,
+   "thoi_luong": 51.24,
    "tu": [
     {
      "text": "The",
@@ -530,329 +540,404 @@ window.HH_DATA = {
      "end": 1.337
     },
     {
-     "text": "I",
+     "text": "Not",
      "start": 1.7,
-     "end": 1.85
+     "end": 1.962
     },
     {
-     "text": "just",
-     "start": 1.862,
-     "end": 2.1
+     "text": "everyone",
+     "start": 1.987,
+     "end": 2.312
     },
     {
-     "text": "can't",
-     "start": 2.112,
-     "end": 2.374
-    },
-    {
-     "text": "do",
-     "start": 2.387,
+     "text": "got",
+     "start": 2.325,
      "end": 2.474
     },
     {
-     "text": "the",
+     "text": "to",
      "start": 2.487,
-     "end": 2.587
+     "end": 2.537
     },
     {
-     "text": "dark.",
-     "start": 2.6,
-     "end": 2.962
-    },
-    {
-     "text": "Summer",
-     "start": 3.325,
-     "end": 3.724
-    },
-    {
-     "text": "only.",
-     "start": 3.737,
-     "end": 4.037
-    },
-    {
-     "text": "I'd",
-     "start": 4.4,
-     "end": 4.587
-    },
-    {
-     "text": "come",
-     "start": 4.6,
-     "end": 4.712
-    },
-    {
-     "text": "every",
-     "start": 4.724,
-     "end": 4.924
-    },
-    {
-     "text": "June,",
-     "start": 4.937,
-     "end": 5.262
-    },
-    {
-     "text": "help",
-     "start": 5.662,
-     "end": 5.825
-    },
-    {
-     "text": "carry",
-     "start": 5.837,
-     "end": 6.125
-    },
-    {
-     "text": "something",
-     "start": 6.137,
-     "end": 6.462
-    },
-    {
-     "text": "heavy,",
-     "start": 6.474,
-     "end": 6.937
+     "text": "choose,",
+     "start": 2.549,
+     "end": 3.062
     },
     {
      "text": "and",
-     "start": 7.175,
-     "end": 7.3
-    },
-    {
-     "text": "leave",
-     "start": 7.312,
-     "end": 7.499
-    },
-    {
-     "text": "before",
-     "start": 7.512,
-     "end": 7.787
+     "start": 3.249,
+     "end": 3.35
     },
     {
      "text": "the",
-     "start": 7.8,
-     "end": 7.862
+     "start": 3.362,
+     "end": 3.449
     },
     {
-     "text": "sun",
-     "start": 7.874,
-     "end": 8.124
+     "text": "reindeer",
+     "start": 3.462,
+     "end": 3.837
     },
     {
-     "text": "does.",
-     "start": 8.137,
-     "end": 8.512
+     "text": "still",
+     "start": 3.85,
+     "end": 4.1
     },
     {
-     "text": "If",
-     "start": 8.874,
-     "end": 9.075
-    },
-    {
-     "text": "you",
-     "start": 9.087,
-     "end": 9.162
-    },
-    {
-     "text": "like",
-     "start": 9.175,
-     "end": 9.362
-    },
-    {
-     "text": "snow,",
-     "start": 9.374,
-     "end": 9.774
-    },
-    {
-     "text": "quiet",
-     "start": 9.862,
-     "end": 10.275
-    },
-    {
-     "text": "and",
-     "start": 10.337,
-     "end": 10.424
+     "text": "need",
+     "start": 4.112,
+     "end": 4.262
     },
     {
      "text": "a",
-     "start": 10.437,
-     "end": 10.499
+     "start": 4.275,
+     "end": 4.325
     },
     {
-     "text": "project",
-     "start": 10.512,
-     "end": 11.025
+     "text": "way",
+     "start": 4.337,
+     "end": 4.525
     },
     {
-     "text": "measured",
-     "start": 11.037,
-     "end": 11.337
+     "text": "through.",
+     "start": 4.537,
+     "end": 4.862
     },
     {
-     "text": "in",
-     "start": 11.35,
-     "end": 11.45
+     "text": "As",
+     "start": 5.224,
+     "end": 5.487
     },
     {
-     "text": "decades,",
-     "start": 11.462,
-     "end": 12.012
+     "text": "for",
+     "start": 5.499,
+     "end": 5.674
     },
     {
-     "text": "you'd",
-     "start": 12.262,
-     "end": 12.374
-    },
-    {
-     "text": "outlast",
-     "start": 12.387,
-     "end": 12.9
-    },
-    {
-     "text": "me",
-     "start": 12.912,
-     "end": 13.037
-    },
-    {
-     "text": "easily.",
-     "start": 13.05,
-     "end": 13.5
+     "text": "me,",
+     "start": 5.687,
+     "end": 5.887
     },
     {
      "text": "I",
-     "start": 13.862,
-     "end": 14.025
+     "start": 6.175,
+     "end": 6.287
     },
     {
-     "text": "hung",
-     "start": 14.037,
-     "end": 14.212
+     "text": "can't",
+     "start": 6.3,
+     "end": 6.575
+    },
+    {
+     "text": "do",
+     "start": 6.587,
+     "end": 6.674
     },
     {
      "text": "the",
-     "start": 14.224,
-     "end": 14.325
+     "start": 6.687,
+     "end": 6.774
     },
     {
-     "text": "key",
-     "start": 14.337,
-     "end": 14.574
+     "text": "dark.",
+     "start": 6.787,
+     "end": 7.124
     },
     {
-     "text": "on",
-     "start": 14.587,
-     "end": 14.687
+     "text": "Summer",
+     "start": 7.487,
+     "end": 7.887
     },
     {
-     "text": "a",
-     "start": 14.7,
-     "end": 14.737
+     "text": "only.",
+     "start": 7.899,
+     "end": 8.199
     },
     {
-     "text": "nail",
-     "start": 14.749,
-     "end": 15.037
+     "text": "I'd",
+     "start": 8.562,
+     "end": 8.749
     },
     {
-     "text": "by",
-     "start": 15.05,
-     "end": 15.162
+     "text": "come",
+     "start": 8.762,
+     "end": 8.874
     },
     {
-     "text": "my",
-     "start": 15.175,
-     "end": 15.35
+     "text": "every",
+     "start": 8.887,
+     "end": 9.087
     },
     {
-     "text": "window,",
-     "start": 15.362,
-     "end": 15.812
+     "text": "June,",
+     "start": 9.1,
+     "end": 9.425
     },
     {
-     "text": "pointing",
-     "start": 16.075,
-     "end": 16.425
+     "text": "help",
+     "start": 9.825,
+     "end": 9.987
     },
     {
-     "text": "east,",
-     "start": 16.437,
-     "end": 16.749
+     "text": "carry",
+     "start": 9.999,
+     "end": 10.287
     },
     {
-     "text": "in",
-     "start": 16.987,
-     "end": 17.1
+     "text": "something",
+     "start": 10.3,
+     "end": 10.625
     },
     {
-     "text": "case",
-     "start": 17.112,
-     "end": 17.375
+     "text": "heavy,",
+     "start": 10.637,
+     "end": 11.1
     },
     {
-     "text": "its",
-     "start": 17.387,
-     "end": 17.512
+     "text": "and",
+     "start": 11.337,
+     "end": 11.462
     },
     {
-     "text": "door",
-     "start": 17.524,
-     "end": 17.749
+     "text": "leave",
+     "start": 11.474,
+     "end": 11.662
     },
     {
-     "text": "turns",
-     "start": 17.762,
-     "end": 18.087
+     "text": "before",
+     "start": 11.675,
+     "end": 11.95
     },
     {
-     "text": "up.",
-     "start": 18.1,
-     "end": 18.337
+     "text": "the",
+     "start": 11.962,
+     "end": 12.024
     },
     {
-     "text": "Would",
-     "start": 18.7,
-     "end": 18.887
+     "text": "sun",
+     "start": 12.037,
+     "end": 12.287
+    },
+    {
+     "text": "does.",
+     "start": 12.3,
+     "end": 12.675
+    },
+    {
+     "text": "If",
+     "start": 13.037,
+     "end": 13.237
     },
     {
      "text": "you",
-     "start": 18.899,
-     "end": 18.962
+     "start": 13.249,
+     "end": 13.325
     },
     {
-     "text": "move",
-     "start": 18.974,
-     "end": 19.175
+     "text": "like",
+     "start": 13.337,
+     "end": 13.524
     },
     {
-     "text": "your",
-     "start": 19.187,
-     "end": 19.274
+     "text": "snow,",
+     "start": 13.537,
+     "end": 13.937
     },
     {
-     "text": "whole",
-     "start": 19.287,
-     "end": 19.499
+     "text": "quiet",
+     "start": 14.024,
+     "end": 14.437
     },
     {
-     "text": "town",
-     "start": 19.512,
-     "end": 19.724
+     "text": "and",
+     "start": 14.499,
+     "end": 14.587
+    },
+    {
+     "text": "a",
+     "start": 14.6,
+     "end": 14.662
+    },
+    {
+     "text": "project",
+     "start": 14.675,
+     "end": 15.187
+    },
+    {
+     "text": "measured",
+     "start": 15.2,
+     "end": 15.499
+    },
+    {
+     "text": "in",
+     "start": 15.512,
+     "end": 15.612
+    },
+    {
+     "text": "decades,",
+     "start": 15.624,
+     "end": 16.174
+    },
+    {
+     "text": "you'd",
+     "start": 16.425,
+     "end": 16.537
+    },
+    {
+     "text": "outlast",
+     "start": 16.55,
+     "end": 17.062
+    },
+    {
+     "text": "me",
+     "start": 17.075,
+     "end": 17.2
+    },
+    {
+     "text": "easily.",
+     "start": 17.212,
+     "end": 17.662
+    },
+    {
+     "text": "I",
+     "start": 18.024,
+     "end": 18.187
+    },
+    {
+     "text": "hung",
+     "start": 18.2,
+     "end": 18.374
+    },
+    {
+     "text": "the",
+     "start": 18.387,
+     "end": 18.487
+    },
+    {
+     "text": "key",
+     "start": 18.499,
+     "end": 18.737
+    },
+    {
+     "text": "on",
+     "start": 18.749,
+     "end": 18.85
+    },
+    {
+     "text": "a",
+     "start": 18.862,
+     "end": 18.9
+    },
+    {
+     "text": "nail",
+     "start": 18.912,
+     "end": 19.2
+    },
+    {
+     "text": "by",
+     "start": 19.212,
+     "end": 19.324
+    },
+    {
+     "text": "my",
+     "start": 19.337,
+     "end": 19.512
+    },
+    {
+     "text": "window,",
+     "start": 19.524,
+     "end": 19.974
+    },
+    {
+     "text": "pointing",
+     "start": 20.237,
+     "end": 20.587
+    },
+    {
+     "text": "east,",
+     "start": 20.6,
+     "end": 20.912
+    },
+    {
+     "text": "in",
+     "start": 21.149,
+     "end": 21.262
+    },
+    {
+     "text": "case",
+     "start": 21.274,
+     "end": 21.537
+    },
+    {
+     "text": "its",
+     "start": 21.55,
+     "end": 21.675
+    },
+    {
+     "text": "door",
+     "start": 21.687,
+     "end": 21.912
+    },
+    {
+     "text": "turns",
+     "start": 21.925,
+     "end": 22.25
+    },
+    {
+     "text": "up.",
+     "start": 22.262,
+     "end": 22.499
+    },
+    {
+     "text": "What",
+     "start": 22.862,
+     "end": 23.037
+    },
+    {
+     "text": "would",
+     "start": 23.05,
+     "end": 23.15
+    },
+    {
+     "text": "you",
+     "start": 23.162,
+     "end": 23.224
+    },
+    {
+     "text": "refuse",
+     "start": 23.237,
+     "end": 23.612
     },
     {
      "text": "to",
-     "start": 19.737,
-     "end": 19.8
+     "start": 23.624,
+     "end": 23.712
     },
     {
-     "text": "keep",
-     "start": 19.812,
-     "end": 19.987
+     "text": "move,",
+     "start": 23.724,
+     "end": 24.075
     },
     {
-     "text": "your",
-     "start": 19.999,
-     "end": 20.087
+     "text": "even",
+     "start": 24.249,
+     "end": 24.437
     },
     {
-     "text": "job?",
-     "start": 20.1,
-     "end": 20.487
+     "text": "for",
+     "start": 24.45,
+     "end": 24.6
+    },
+    {
+     "text": "a",
+     "start": 24.612,
+     "end": 24.65
+    },
+    {
+     "text": "mine?",
+     "start": 24.662,
+     "end": 25.037
     }
    ],
    "khau_hinh": [

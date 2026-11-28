@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 15.762,
- "bat_dau_tuyet_doi": 282.03,
+ "bat_dau_tuyet_doi": 279.126,
  "lop": "hoi-uc",
  "boi_canh": "Sơ đồ vẽ tay: đường viền vùng kommun Kiruna (dạng giản lược) với đám chấm người; tấm hình bang New Jersey cắt giấy; rồi bản đồ châu Âu giản lược KHÔNG biên giới, nhiều mũi tên nhỏ toả ra từ Kiruna",
  "trang_phuc": "Wob vẽ tay, MÙA ĐÔNG (gọn): áo phao xanh lam #3D5A80 MỘT túi vá bên phải, mũ len xanh lá thông #4F7A5A quả bông kem, khăn kem #EFE3C8 sọc xanh lá thông #4F7A5A (sọc thấy rõ), ba lô ô liu cỡ thường, giày đỏ; cầm hòn quặng",
@@ -26,7 +26,7 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "At the end of twenty twenty-five, the municipality had about twenty-two thousand four hundred.",
-   "hanh_dong": "[so-do-ve-tay] Đường viền kommun vẽ dần, đám chấm người lấp vào; thẻ ~22,400 people ở \"twenty-two\" (≈ 285.13 s)",
+   "hanh_dong": "[so-do-ve-tay] Đường viền kommun vẽ dần, đám chấm người lấp vào; thẻ ~22,400 people ở \"twenty-two\" (≈ 282.23 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 4.925,
    "loi": "They're spread over an area about the size of New Jersey.",
-   "hanh_dong": "Wob đặt tấm New Jersey cắt giấy chồng lên kommun đúng \"New Jersey.\" (≈ 289.17 s): gần khít, mép kommun thò ra một chút",
+   "hanh_dong": "Wob đặt tấm New Jersey cắt giấy chồng lên kommun đúng \"New Jersey.\" (≈ 286.26 s): gần khít, mép kommun thò ra một chút",
    "gag": "Wob nhét mép thò ra xuống dưới; mép bật ra lại; Wob buông tay, giữ 0,6 s",
    "dao_cu": [
     "hinh-new-jersey"
@@ -54,8 +54,8 @@ window.HH_DATA = {
   {
    "tai": 10.775,
    "loi": "LKAB says it produces more than eighty percent of the iron ore mined in the European Union.",
-   "hanh_dong": "[lui-ra-toan-canh] Lùi ra bản đồ châu Âu giản lược (không biên giới); thẻ >80% ở \"eighty percent\" (≈ 294.62 s); nhiều mũi tên nhỏ toả ra từ Kiruna",
-   "gag": "Wob trao từng hòn quặng cho từng mũi tên như người đưa thư, nhanh dần; mỗi mũi tên dài thêm một đoạn khi nhận hòn quặng; giữ 0,6 s tới cắt 297.79 s",
+   "hanh_dong": "[lui-ra-toan-canh] Lùi ra bản đồ châu Âu giản lược (không biên giới); thẻ >80% ở \"eighty percent\" (≈ 291.71 s); nhiều mũi tên nhỏ toả ra từ Kiruna",
+   "gag": "Wob trao từng hòn quặng cho từng mũi tên như người đưa thư, nhanh dần; mỗi mũi tên dài thêm một đoạn khi nhận hòn quặng; giữ 0,6 s tới cắt 294.89 s",
    "dao_cu": [
     "hon-quang"
    ],

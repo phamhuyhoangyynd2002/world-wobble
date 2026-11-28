@@ -1039,10 +1039,11 @@
     };
 
     // ------------------------------------------------------------ dấu phán quyết ép bề rộng
-    api.dauEpSVG = function (chu, cx, cy, co, goc, cls) {
+    // padX (thêm 28/11/2026, tùy chọn): lề ngang trong khung dấu (px); mặc định max(30, 0,6 × cỡ). Lề nhỏ hơn để dấu chữ to vừa trong thẻ hẹp.
+    api.dauEpSVG = function (chu, cx, cy, co, goc, cls, padX) {
       if (!api.chuHopLe(chu)) { console.error("[dio] chữ không có trong chu_tren_do_vat, bỏ: " + chu); return ""; }
       co = co || 140;
-      var MUC = "#a8322a", pad = Math.max(30, co * 0.6), tw = String(chu).length * co * 0.74, w = tw + pad * 2, h = co * 1.6, r = api.rng(91);
+      var MUC = "#a8322a", pad = padX != null ? padX : Math.max(30, co * 0.6), tw = String(chu).length * co * 0.74, w = tw + pad * 2, h = co * 1.6, r = api.rng(91);
       var s = '<g class="' + (cls || "dau-ep") + '" transform="translate(' + f1(cx) + " " + f1(cy) + ") rotate(" + (goc == null ? -8 : goc) + ')">';
       s += '<rect x="' + f1(-w / 2) + '" y="' + f1(-h / 2) + '" width="' + f1(w) + '" height="' + f1(h) + '" rx="12" fill="none" stroke="' + MUC + '" stroke-width="' + f1(Math.max(6, co * 0.17)) + '"/>';
       s += '<rect x="' + f1(-w / 2 + co * 0.22) + '" y="' + f1(-h / 2 + co * 0.22) + '" width="' + f1(w - co * 0.44) + '" height="' + f1(h - co * 0.44) + '" rx="6" fill="none" stroke="' + MUC + '" stroke-width="' + f1(Math.max(2.5, co * 0.065)) + '"/>';
@@ -1916,6 +1917,56 @@
       [[-16, 24], [6, 30], [26, 22]].forEach(function (p, i) { s += '<g class="mm-giot mm-giot-' + i + '" opacity="0"><path d="M ' + p[0] + " " + p[1] + ' c 4 6 5 9 5 11 c 0 4 -10 4 -10 0 c 0 -2 1 -5 5 -11 Z" fill="' + C.ICE + '" stroke="' + INK + '" stroke-width="2.5"/></g>'; });
       s += fp("M -46 14 C -58 14 -58 -6 -44 -6 C -44 -24 -16 -30 -6 -14 C 2 -30 34 -28 34 -8 C 52 -10 54 14 38 14 Z", "#a9b2b8", 4);
       return s;
+    };
+
+    // ------------------------------------------------------------ tuần lộc giấy + khe giữa hai khối đất xám (thêm 28/11/2026, tập 6)
+    // api.tuanLocGiaySVG(o): tuần lộc nhìn ngang, mặt sang phải, gốc giữa chân (cao ~350 tới đỉnh sừng, dài ~240).
+    //   Bốn chân là <g class="tlg-c tlg-c0..3" data-x data-y> quay quanh hông (đặt transform="translate(x y) rotate(a)").
+    //   o: { mau, sung (mặc định có) }. Không người, không chữ.
+    api.tuanLocGiaySVG = function (o) {
+      o = o || {};
+      var m = o.mau || "#8A6A4E", dk = "#5C4433", s = "";
+      [[-70, -118], [-46, -118], [52, -118], [76, -118]].forEach(function (p, i) {
+        s += '<g class="tlg-c tlg-c' + i + '" data-x="' + p[0] + '" data-y="' + p[1] + '" transform="translate(' + p[0] + " " + p[1] + ')">' +
+          sk("M 0 0 L " + (i % 2 ? 4 : -4) + " 116", 13, INK) + sk("M 0 0 L " + (i % 2 ? 4 : -4) + " 116", 6.5, i % 2 ? m : dk) + "</g>";
+      });
+      s += fp("M -108 -150 C -108 -186 -60 -196 0 -196 C 62 -196 108 -186 110 -150 C 110 -116 60 -106 0 -106 C -60 -106 -108 -116 -108 -150 Z", m, 5);
+      s += fp("M -80 -124 C -40 -112 40 -112 76 -124 C 50 -134 -50 -134 -80 -124 Z", "#E8DCC6", 0);
+      s += fp("M -106 -168 L -126 -184 L -110 -148 Z", "#F1E8D6", 4);
+      s += fp("M 70 -178 C 90 -220 110 -246 128 -250 L 150 -236 C 136 -220 118 -190 108 -150 Z", m, 5);
+      s += fp("M 112 -246 C 112 -262 140 -268 162 -260 C 184 -252 186 -232 166 -228 C 148 -226 118 -230 112 -246 Z", m, 5);
+      s += '<circle cx="180" cy="-240" r="6" fill="' + INK + '"/><circle cx="146" cy="-250" r="4.5" fill="' + INK + '"/>';
+      s += fp("M 122 -258 L 106 -278 L 132 -264 Z", m, 3.5);
+      if (o.sung !== false) {
+        var sung = "M 136 -262 C 120 -300 136 -330 112 -350 M 128 -296 L 104 -306 M 132 -318 L 150 -336 M 150 -262 C 166 -296 186 -310 178 -338 M 170 -300 L 194 -306";
+        s += sk(sung, 9, INK) + sk(sung, 5, "#D9C6A2");
+      }
+      return s;
+    };
+    // api.kheTuanLocSVG(w, h, o): lớp pop-up w×h: nền đất nhạt, n tuần lộc đi hàng một (cắt trong [0, w]), hai khối đất xám
+    //   trái/phải che thân, chừa khe hẹp ở giữa (thân lộ ra trong khe, đầu và sừng nhô trên đỉnh khối).
+    //   o: { n (5), k (tỉ lệ tuần lộc, 0.34), khe: [x0, x1], dinh: [yTrái, yPhải], id }. Trả { svg, w, h, chan (y chân), k }.
+    //   Cho đàn đi: mỗi khung đặt el ".kdx-con-<i>" transform="translate(x chan) scale(k)" và xoay ".tlg-c" (xem README).
+    api.kheTuanLocSVG = function (w, h, o) {
+      o = o || {};
+      w = w || 380; h = h || 200;
+      var n = o.n || 5, k = o.k || 0.34, khe = o.khe || [w * 0.4, w * 0.58], dinh = o.dinh || [h * 0.56, h * 0.53], chan = h - 8, id = o.id || "kdx";
+      var MAU = ["#8A6A4E", "#7A5E46", "#9A7A5C"], XAM = "#8f9294", XAM2 = "#6f7376", XAM3 = "#a9acae", s = "";
+      s += '<defs><clipPath id="' + id + '-cat"><rect x="0" y="' + (-h) + '" width="' + w + '" height="' + (2 * h) + '"/></clipPath></defs>';
+      s += fp("M 0 " + h + " L 0 " + (h - 22) + " C " + f1(w * 0.3) + " " + (h - 30) + " " + f1(w * 0.7) + " " + (h - 16) + " " + w + " " + (h - 26) + " L " + w + " " + h + " Z", "#d9d2bd", 4);
+      s += '<g clip-path="url(#' + id + '-cat)">';
+      for (var i = 0; i < n; i++) s += '<g class="kdx-con kdx-con-' + i + '" transform="translate(' + f1(-200 - i * 90) + " " + chan + ") scale(" + k + ')">' + api.tuanLocGiaySVG({ mau: MAU[i % 3] }) + "</g>";
+      s += "</g>";
+      var khoi = function (x0, x1, y, trai) {
+        var b = trai ? x1 - 14 : x0 + 14, q = "";
+        q += fp("M " + f1(x0) + " " + h + " L " + f1(x0) + " " + f1(y + 10) + " L " + f1(x0 + 12) + " " + f1(y) + " L " + f1(x1 - 12) + " " + f1(y) + " L " + f1(x1) + " " + f1(y + 10) + " L " + f1(x1) + " " + h + " Z", XAM, 5);
+        q += sk("M " + f1(x0 + 10) + " " + f1(y + (h - y) * 0.38) + " L " + f1(x1 - 10) + " " + f1(y + (h - y) * 0.36) + " M " + f1(x0 + 10) + " " + f1(y + (h - y) * 0.7) + " L " + f1(x1 - 10) + " " + f1(y + (h - y) * 0.68), 3, XAM2, ' opacity=".7"');
+        q += sk("M " + f1(x0 + 16) + " " + f1(y + 6) + " L " + f1(x1 - 16) + " " + f1(y + 6), 3, XAM3);
+        q += fp("M " + f1(b) + " " + f1(y + 10) + " L " + f1(b + (trai ? 14 : -14)) + " " + f1(y + 22) + " L " + f1(b + (trai ? 14 : -14)) + " " + h + " L " + f1(b) + " " + h + " Z", XAM2, 3);
+        return q;
+      };
+      s += khoi(0, khe[0], dinh[0], true) + khoi(khe[1], w, dinh[1], false);
+      return { svg: s, w: w, h: h, chan: chan, k: k };
     };
 
     // ------------------------------------------------------------ đồ mặc tập 6

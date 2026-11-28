@@ -115,7 +115,7 @@ window.CANH = function (VT, D) {
           var sx0 = wx - 1220, sx1 = wx + 1220;
           s += K.rect(sx0, y + 4 - lift, sx1, y + H - lift, "#8F9496", { sw: 5, ox: 4, oy: 5 }) + VT.line("M " + f(sx0 + 30) + " " + f(y + H / 2 - lift) + " L " + f(sx1 - 30) + " " + f(y + H / 2 - lift), 4, "#F3EEDF", 0.7);
           var wk = VT.buoc(t, { t0: tA, t1: T_YEAR - 0.05, x0: 260, x1: 960, chuKy: 0.42, s: 0.5 }), carry = t < T_YEAR + 0.1;
-          var wo = { x: wx, y: y + H + 82, s: 0.5, flip: 1, legs: t < T_YEAR - 0.05 ? "walk" : "stand", phase: wk.phase, stride: wk.stride,
+          var wo = { x: wx, y: y + H + 132, s: 0.5, flip: 1, legs: t < T_YEAR - 0.05 ? "walk" : "stand", phase: wk.phase, stride: wk.stride,
             sq: t < T_YEAR - 0.05 ? 0.95 : key(t, [[T_YEAR, 0.9], [T_YEAR + 0.25, 1, "back"]]), mouth: t < T_YEAR ? "wobbly" : "content", brows: t < T_YEAR ? "worried" : "flat" };
           if (carry) { wo.armL = VT.wobLocal(wo, wx - 70, y + H - lift); wo.armR = VT.wobLocal(wo, wx + 70, y + H - lift); wo.handL = "xoe"; wo.handR = "xoe"; }
           if (t > T_YEAR + 0.35) { var cl = Math.sin((t - T_YEAR) * 22) * 18; wo.armL = [172 + cl, 250]; wo.armR = [228 - cl, 250]; }
@@ -128,16 +128,30 @@ window.CANH = function (VT, D) {
         if (t0 > 0 && k < 1) s += K.nguoiQue({ x: (from > 0 ? -220 : 2140) + dx, y: y + H + 4, s: 0.55, phase: t * 1.6, hat: true, arms: [[from > 0 ? 40 : -40, -150], [from > 0 ? 44 : -44, -140]] });
       });
       // người que công nhân đứng chờ hai bên mép, đổi chỗ theo dải
-      s += K.nguoiQue({ x: 180, y: 270, s: 0.55, hat: true }) + K.nguoiQue({ x: 1750, y: 270, s: 0.55, hat: true, phase: 0.25 });
+      s += K.nguoiQue({ x: 180, y: 270, s: 0.55, hat: true }) + K.nguoiQue({ x: 1390, y: 270, s: 0.55, hat: true, phase: 0.25 });
       // mũi tên đo bề rộng (không số)
       var stripsNow = STRIPS.filter(function (st) { return st[1] < 0 || t >= st[1] + 0.4; }).map(function (st) { return st[0]; });
       var mn = Math.min.apply(null, stripsNow), mx = Math.max.apply(null, stripsNow), y0 = top + mn * H + 8, y1 = top + (mx + 1) * H - 4;
       s += VT.line("M 1880 " + f(y0) + " L 1880 " + f(y1), 6) + VT.line("M 1864 " + f(y0 + 18) + " L 1880 " + f(y0) + " L 1896 " + f(y0 + 18), 6) + VT.line("M 1864 " + f(y1 - 18) + " L 1880 " + f(y1) + " L 1896 " + f(y1 - 18), 6);
       // thẻ gỗ cắm cọc: 9 m → 24 m viết dần từ "nine" tới "twenty-four"
-      s += VT.line("M 1110 210 L 1110 296", 9, "#6A4A30") + K.rect(800, 118, 1420, 216, "#F6EEDC", { sw: 6, ox: 6, oy: 6 });
-      s += VT.textWrite(1110, 190, "9 m → 24 m", 66, seg(t, T_NINE - 0.05, T_24 + 0.25), { fill: "#2c4f6e" });
+      s += VT.line("M 860 210 L 860 296", 9, "#6A4A30") + K.rect(540, 118, 1180, 216, "#F6EEDC", { sw: 6, ox: 6, oy: 6 });
+      s += VT.textWrite(860, 190, "9 m → 24 m", 66, key(t, [[T_NINE - 0.05, 0], [T_NINE + 0.6, 0.45], [T_24 - 0.02, 0.45], [T_24 + 0.35, 1]]), { fill: "#2c4f6e" });
+      if (!wobS) {
+        // Wob đứng sát mép dưới mặt đường, dang tay: tay trái sải ngang, tay phải vươn dài tới mép trên để đo bề rộng; dải mới tới thì nhảy lùi xuống
+        var wy = top + 5 * H + 215, hop = 0;
+        [5, 6].forEach(function (row) { var st = STRIPS.filter(function (q) { return q[0] === row; })[0], ta = st[1] + 0.4, kk = seg(t, ta - 0.3, ta);
+          wy += H * VT.ease.io(kk); if (kk > 0 && kk < 1) hop = Math.sin(kk * Math.PI) * 40; });
+        var mo = { x: 300, y: wy - hop, s: 0.5, flip: 1, legs: hop > 0 ? "tuck" : "apart", eyes: "open", py: -16, px: 6, brows: "worried", mouth: "flat" };
+        var reach = VT.ease.out(seg(t, D0 + 0.15, D0 + 0.5));
+        mo.armR = VT.wobLocal(mo, 330, VT.lerp(wy - 120, y0 + 6, reach)); mo.handR = "xoe";
+        mo.armL = VT.wobLocal(mo, VT.lerp(250, 150, reach), wy - 125); mo.handL = "xoe";
+        if (hop > 0 || (t > T_24 + 0.2 && t < T_24 + 0.9)) { mo.eyes = "wide"; mo.mouth = "o"; mo.brows = "up"; }
+        s += W(t, mo);
+      }
       s += wobS;
-      return { cam: [960, key(T, [[D0, 560], [E0, 575]]), key(T, [[D0, 1.0], [E0, 1.06, "sine"]])], world: s };
+      // đẩy vào cận Wob đang sải tay đo (Wob ~35% chiều cao khung), lùi ra trước "twenty-four" để thấy trọn thẻ khi viết xong
+      var P0 = T_NINE - 0.2, P1 = T_NINE + 0.5;
+      return { cam: [key(T, [[D0, 520], [P0, 500, "sine"], [P1, 960, "io"]]), key(T, [[D0, 700], [P0, 690, "sine"], [P1, 560, "io"], [E0, 575, "sine"]]), key(T, [[D0, 1.9], [P0, 2.0, "sine"], [P1, 1.0, "io"], [E0, 1.06, "sine"]])], world: s };
     } },
     // E · Wob ngồi cạnh nón giao thông; bốn mùa quay vòng; mặt trời mọc lặn hai lần ở "two days."; phủi tuyết; giữ
     { a: E0, b: F0, ten: "bon mua", ve: function (t, lt, T) {

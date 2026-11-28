@@ -8,7 +8,7 @@ window.CANH = function (api, data) {
   function T(w, lo, k) { return api.tuDung(w, lo || 0, k || 0); }
   var tRail = T("railway"), tNarvik = T("narvik"), tGulf = T("gulf"), tFree = T("ice-free"), tLine = T("the", 8.5), tHundred = T("hundred"), tTwo = T("two."),
     tKing = T("king"), tThree = T("three."), tToday = T("today,"), tTwelve = T("twelve"), tLulea = T("luleå"), tIce = T("icebreakers"), tWinter = T("winter."),
-    tIron = T("iron", 24), tDoor = T("door"), tJan = T("january.");
+    tIron = T("iron", 24), tFurn = T("furnace"), tTrain = T("train", 27);
   var tCut = tIron - 0.3;   // về đường ngang
 
   /* ================= cảnh 1: trang sổ bản đồ (cùng bố cục d17) ================= */
@@ -76,7 +76,8 @@ window.CANH = function (api, data) {
   var cuS = cu;
   var the12 = '<g id="the12" transform="translate(560,520) rotate(-3)">' + ND.theChu("", CH[7], 50, { seed: 19013 }) + "</g>";
   var hq = '<g id="hqv">' + XL.honQuang("hq", 26) + "</g>";
-  var tay = '<g id="tay"><g transform="scale(0.55)">' + XL.tayWob(1500, 96) + "</g></g>";
+  // đầu mũi tên đất nung chạy ở đầu đường ray đang vẽ (thay cánh tay dài dễ đọc nhầm thành vệt xanh)
+  var tay = '<g id="tay"><g transform="rotate(-151)"><path d="M 34 0 L -18 -26 L -6 0 L -18 26 Z" fill="none" stroke="#F7FBFC" stroke-width="14" stroke-linejoin="round"/><path d="M 34 0 L -18 -26 L -6 0 L -18 26 Z" fill="#2A2622" stroke="#1f2326" stroke-width="4" stroke-linejoin="round"/></g></g>';
   var V = XL.wob(api, "V", { the: 1 });
   var gio = '<g id="gio">' + line("M -10 0 C 40 -10 80 -6 120 -20 M 0 30 C 50 24 90 26 130 12 M 10 -30 C 50 -40 80 -40 110 -56", 6, "#9CC6D8") + "</g>";
   var c1 = '<g id="c1">' + api.lop("n1", s + hq + tay + nh + cuS + the12 + V.svg + at(1420, 950, gio), 1, { mat: 900 }) + "</g>";
@@ -89,7 +90,8 @@ window.CANH = function (api, data) {
   n2 += paper("M -400 720 L 2400 720 L 2400 1500 L -400 1500 Z", "#F2F6F7", { stroke: true, sw: 4, shadow: false }) + XL.duongRay(-400, 2400, 760);
   n2 += '<g transform="translate(0,760)"><g id="tau2"><g transform="scale(0.85)">' + XL.tauQuang(14) + "</g></g></g>";
   n2 += at(1500, 905, XL.raoChan(api, "rao2", 560));
-  var W = XL.wob(api, "W", { the: 1 });
+  var ngon = '<g id="W-ng1">' + line("M -6 10 L -10 74", 24, "#F7FBFC") + line("M -6 10 L -10 74", 15) + '</g><g id="W-ng2">' + line("M 10 8 L 30 70", 24, "#F7FBFC") + line("M 10 8 L 30 70", 15) + "</g>";
+  var W = XL.wob(api, "W", { the: 1, holdL: ngon });
   var c2 = '<g id="c2">' + api.lop("n2", n2 + W.svg + paper(D.rough([[-400, 1000], [600, 985], [1300, 1005], [2400, 990], [2400, 1500], [-400, 1500]], 4, 17040, 30), "#F7FBFC", { stroke: true, sw: 4, shadow: false }), 1, { mat: 900 }) + "</g>";
 
   api.dat(XL.defs() + c1 + c2);
@@ -99,18 +101,17 @@ window.CANH = function (api, data) {
   /* ---------- camera trang sổ ---------- */
   api.camera([[0, 990, 430, 1.5], [tGulf - 0.5, 980, 420, 1.55, "sine.inOut"], [tGulf + 0.3, 830, 470, 1.32, "power2.inOut"], [tFree + 0.5, 860, 430, 1.42, "sine.inOut"],
     [tLine, 920, 450, 1.42, "sine.inOut"], [tKing - 0.3, 920, 450, 1.42, "sine.inOut"], [tKing + 0.3, 880, 490, 1.45, "power2.inOut"], [tToday - 0.2, 880, 490, 1.45, "sine.inOut"],
-    [tToday + 0.4, 940, 430, 1.45, "power2.inOut"], [tLulea - 0.4, 960, 440, 1.42, "sine.inOut"], [tLulea + 0.4, 1090, 600, 1.42, "power2.inOut"], [tCut, 1100, 610, 1.46, "sine.inOut"]], ["n1"]);
+    [tToday + 0.4, 940, 430, 1.45, "power2.inOut"], [tLulea - 0.4, 960, 440, 1.42, "sine.inOut"], [tLulea + 0.4, 1090, 535, 1.33, "power2.inOut"], [tCut, 1095, 540, 1.35, "sine.inOut"]], ["n1"]);
 
   /* ---------- đường ray đỏ sang Narvik, ngón tay lần theo ---------- */
   var tR0 = tRail, tR1 = tNarvik - 0.05;
   dash.forEach(function (d0, i) { var t = tR0 + (tR1 - tR0) * (d0 / LEN); api.show("#r" + i, 0, 0); api.show("#r" + i, t, 1); });
-  var F = function (d) { var p = diem(d); return [MX + p[0] * MS + 8, MY + p[1] * MS + 14]; };
+  var F = function (d) { var p = diem(d); return [MX + p[0] * MS, MY + p[1] * MS]; };
   var f0 = F(0);
-  api.key("#tay", "x", 0, f0[0] + 120); api.key("#tay", "y", 0, f0[1] + 760);
-  api.key("#tay", "x", tR0 - 0.45, f0[0] + 120, "none"); api.key("#tay", "y", tR0 - 0.45, f0[1] + 760, "none");
-  api.key("#tay", "x", tR0, f0[0], "power2.out"); api.key("#tay", "y", tR0, f0[1], "power2.out");
+  api.key("#tay", "x", 0, f0[0]); api.key("#tay", "y", 0, f0[1]);
+  api.pop("#tay", tR0 - 0.05, 0.2);
   for (var q = 1; q <= 6; q++) { var fd = F(LEN * q / 6), tq = tR0 + (tR1 - tR0) * q / 6; api.key("#tay", "x", tq, fd[0], "sine.inOut"); api.key("#tay", "y", tq, fd[1], "sine.inOut"); }
-  api.key("#tay", "x", tR1 + 0.6, NAR[0] - 60, "power2.in"); api.key("#tay", "y", tR1 + 0.6, NAR[1] + 820, "power2.in");
+  api.fade("#tay", tR1 + 0.05, 0.25, 0);
   api.show("#dN", 0, 0); api.show("#dN", tNarvik - 0.1, 1); api.pop("#dN", tNarvik - 0.1, 0.2);
   api.show("#nN", 0, 1); api.pop("#nN", tNarvik - 0.12, 0.22); api.show("#nN", tFree - 0.06, 0);
   api.pop("#nN2", tFree - 0.06, 0.22);
@@ -214,22 +215,26 @@ window.CANH = function (api, data) {
   V.pose(tIce + 0.9, 0.3, { sx: 1, sy: 1, lean: -4 }, "sine.inOut"); V.mouth(tIce + 1.0, "smirk");
 
   /* ================= cảnh 2: đường ngang, rào nâng, tàu vẫn chạy ================= */
-  api.camera([[tCut, 900, 700, 1.25], [DUR, 860, 730, 1.42, "sine.inOut"]], ["n2"]);
+  api.camera([[tCut, 900, 730, 1.36], [DUR, 900, 745, 1.46, "sine.inOut"]], ["n2"]);
   api.key("#rao2-tay", "rotation", 0, -80);
   api.key("#tau2", "x", 0, 2200); api.key("#tau2", "x", tCut, 2200, "none"); api.key("#tau2", "x", DUR, 2200 + 330 * (DUR - tCut), "none");
-  W.set(0, { x: 760, y: 935, size: 0.82, aLu: 18, aLf: -10, aRu: 9, aRf: 3, pupX: 0, pupY: -2 });
-  W.idle(tCut, tDoor - 0.4, { seed: 19, bien: 2 });
+  // Wob đủ người giữa khung: một ngón ở "furnace", ngón thứ hai ở "train", tay kia nhét thẻ gỗ sâu vào túi
+  W.set(0, { x: 900, y: 935, size: 0.82, aLu: 18, aLf: -10, aRu: 9, aRf: 3, pupX: 0, pupY: -2 });
+  api.show("#W-ng1", 0, 0); api.show("#W-ng2", 0, 0);
   W.autoBlink(tCut, DUR, 192);
   W.mouth(0, "flat");
-  W.pose(tCut + 0.4, 0.6, { pupX: -10, pupY: -4 }, "sine.inOut");
-  W.pose(tCut + 1.4, 0.4, { pupX: 4, pupY: 10 }, "sine.inOut");
-  // nhìn xuống thẻ gỗ, nhét sâu vào túi
-  W.pose(tDoor - 0.3, 0.25, { aRu: -20, aRf: -60, pupX: 8, pupY: 14 }, "power2.out");
-  W.pose(tDoor + 0.05, 0.2, { aRu: 6, aRf: -10 }, "power2.in");
-  api.show(W.xl.the, tDoor + 0.2, 0);
-  W.pose(tDoor + 0.3, 0.25, { aRu: 9, aRf: 3 }, "back.out(2)");
-  W.pose(tDoor + 0.3, 0.12, { sy: 0.96, sx: 1.03 }, "power2.out"); W.pose(tDoor + 0.45, 0.25, { sy: 1, sx: 1 }, "back.out(2)");
-  W.pose(tJan - 0.4, 0.5, { pupX: -10, pupY: -4 }, "sine.inOut");
-  W.mouth(tJan, "smirk");
-  W.breathe(tJan, DUR, 2.2);
+  W.pose(tCut + 0.2, 0.4, { pupX: 12, pupY: -6, lean: 4 }, "sine.inOut");
+  W.pose(tCut + 0.8, 0.4, { pupX: -4, pupY: 0, lean: 0 }, "sine.inOut");
+  W.pose(tFurn - 0.25, 0.25, { aLu: 165, aLf: 0, pupX: -6, pupY: -10 }, "back.out(1.8)");
+  api.show("#W-ng1", tFurn - 0.05, 1); W.mouth(tFurn, "smirk");
+  W.pose(tFurn + 0.3, 0.3, { pupX: 0, pupY: 0 }, "sine.inOut");
+  W.pose(tTrain - 0.15, 0.15, { aLu: 168, aLf: 0, sy: 1.03, sx: 0.98 }, "power2.out"); api.show("#W-ng2", tTrain - 0.05, 1);
+  W.pose(tTrain + 0.15, 0.2, { sy: 1, sx: 1 }, "back.out(2)"); W.mouth(tTrain + 0.1, "grin");
+  // nhìn xuống thẻ gỗ thò khỏi túi, nhét sâu vào
+  var tN = tTrain + 0.55;
+  W.pose(tN, 0.25, { aRu: -20, aRf: -60, pupX: 8, pupY: 14 }, "power2.out"); W.mouth(tN, "flat");
+  W.pose(tN + 0.3, 0.2, { aRu: 6, aRf: -10 }, "power2.in");
+  api.show(W.xl.the, tN + 0.45, 0);
+  W.pose(tN + 0.55, 0.25, { aRu: 9, aRf: 3, pupX: 0, pupY: -2 }, "back.out(2)");
+  W.pose(tN + 0.55, 0.12, { sy: 0.96, sx: 1.03 }, "power2.out"); W.pose(tN + 0.7, 0.25, { sy: 1, sx: 1 }, "back.out(2)"); W.mouth(tN + 0.7, "smirk");
 };

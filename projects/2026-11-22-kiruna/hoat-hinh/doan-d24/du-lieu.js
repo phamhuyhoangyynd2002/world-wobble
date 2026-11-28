@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 30.876,
- "bat_dau_tuyet_doi": 321.852,
+ "bat_dau_tuyet_doi": 318.948,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: gầm rơ-moóc nhiều hàng bánh nhỏ, một người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng cầm hộp điều khiển từ xa đi bên cạnh; con đường giấy và người que công nhân trải thêm dải đường; một chiếc NÓN GIAO THÔNG cam bên lề; dải băng rào an toàn dọc đường; nhà thờ gỗ đỏ trên rơ-moóc đi dọc con đường rộng, vài người que đi bộ",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc (vẽ tay); chìa Kiruna trong túi gi-lê, chùm chìa nhà móc quai ba lô",
@@ -34,7 +34,7 @@ window.HH_DATA = {
   {
    "tai": 3.949,
    "loi": "LKAB put its weight at about six hundred and seventy tonnes.",
-   "hanh_dong": "Lúc rơ-moóc dừng chờ (CHƯA lăn), Wob chống hai tay vào hông nhà thờ đẩy thử; chân Wob trượt tại chỗ đúng \"tonnes.\" (≈ 328.31 s), nhà thờ không nhúc nhích",
+   "hanh_dong": "Lúc rơ-moóc dừng chờ (CHƯA lăn), Wob chống hai tay vào hông nhà thờ đẩy thử; chân Wob trượt tại chỗ đúng \"tonnes.\" (≈ 325.41 s), nhà thờ không nhúc nhích",
    "gag": "Wob đẩy nhà thờ, chân đạp trượt tại chỗ",
    "dao_cu": [],
    "sfx": []
@@ -42,7 +42,7 @@ window.HH_DATA = {
   {
    "tai": 7.3,
    "loi": "To make room, the road was widened from nine metres to twenty-four, which took a year, according to LKAB.",
-   "hanh_dong": "Người que công nhân trải thêm từng dải đường giấy cạnh nhau; thẻ 9 m → 24 m ở \"nine metres\" (≈ 331.04 s); Wob vác một dải đường giấy đặt vào chỗ trống",
+   "hanh_dong": "Người que công nhân trải thêm từng dải đường giấy cạnh nhau; thẻ 9 m → 24 m ở \"nine metres\" (≈ 328.13 s); Wob vác một dải đường giấy đặt vào chỗ trống",
    "gag": "",
    "dao_cu": [
     "dai-duong-giay"
@@ -53,7 +53,7 @@ window.HH_DATA = {
    "tai": 13.612,
    "loi": "A year of roadworks, for a trip of two days.",
    "hanh_dong": "Wob ngồi xuống cạnh chiếc nón giao thông cam bên lề",
-   "gag": "Bốn mùa quay vòng quanh Wob và chiếc nón trong ≈ 1,2 s: tuyết phủ cả hai, hoa mọc, lá rụng, tuyết lại; đúng \"two days.\" (≈ 337.24 s) mặt trời mọc lặn đúng hai lần thật nhanh; Wob phủi tuyết trên đầu; giữ 0,6 s",
+   "gag": "Bốn mùa quay vòng quanh Wob và chiếc nón trong ≈ 1,2 s: tuyết phủ cả hai, hoa mọc, lá rụng, tuyết lại; đúng \"two days.\" (≈ 334.33 s) mặt trời mọc lặn đúng hai lần thật nhanh; Wob phủi tuyết trên đầu; giữ 0,6 s",
    "dao_cu": [
     "non-giao-thong"
    ],
@@ -70,7 +70,7 @@ window.HH_DATA = {
   {
    "tai": 20.062,
    "loi": "I overtook it almost at once.",
-   "hanh_dong": "Lần 1: chỉ vài bước Wob đã vượt lên trước mũi nhà thờ đúng \"overtook\" (≈ 342.13 s); Wob quay lại nhìn",
+   "hanh_dong": "Lần 1: chỉ vài bước Wob đã vượt lên trước mũi nhà thờ đúng \"overtook\" (≈ 339.22 s); Wob quay lại nhìn",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -78,7 +78,7 @@ window.HH_DATA = {
   {
    "tai": 21.9,
    "loi": "I stopped. I waited. I overtook it again.",
-   "hanh_dong": "Lần 2: Wob dừng (\"stopped.\" ≈ 343.93 s), gõ chân chờ (\"waited.\" ≈ 344.90 s), nhà thờ nhích lên ngang; Wob đi tiếp, lại vượt (\"again.\" ≈ 346.26 s)",
+   "hanh_dong": "Lần 2: Wob dừng (\"stopped.\" ≈ 341.02 s), gõ chân chờ (\"waited.\" ≈ 342.00 s), nhà thờ nhích lên ngang; Wob đi tiếp, lại vượt (\"again.\" ≈ 343.36 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -94,7 +94,7 @@ window.HH_DATA = {
   {
    "tai": 27.112,
    "loi": "I tried walking backwards. Still too fast.",
-   "hanh_dong": "Lần 3, lệch: Wob đi LÙI mặt hướng về nhà thờ, vẫn trôi lên trước; đúng \"Still too fast.\" (≈ 350.76 s) Wob đứng yên hẳn, nhìn thẳng người xem tỉnh bơ, nhà thờ nhích từng chút sau lưng; giữ tới cắt 352.73 s",
+   "hanh_dong": "Lần 3, lệch: Wob đi LÙI mặt hướng về nhà thờ, vẫn trôi lên trước; đúng \"Still too fast.\" (≈ 347.86 s) Wob đứng yên hẳn, nhìn thẳng người xem tỉnh bơ, nhà thờ nhích từng chút sau lưng; giữ tới cắt 349.82 s",
    "gag": "Đi lùi vẫn quá nhanh",
    "dao_cu": [],
    "sfx": []

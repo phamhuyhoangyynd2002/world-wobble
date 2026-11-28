@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 9.88,
- "bat_dau_tuyet_doi": 551.448,
+ "bat_dau_tuyet_doi": 549.024,
  "lop": "hoi-uc",
  "boi_canh": "Lịch giấy dài treo tường: hai đầu trắng tuyết rất dài, ở giữa một dải xanh ngắn ngủn (không ngày, không chữ); phòng thuê tháng 6, tủ gỗ có ngăn kéo (như d34), cửa sổ nắng nửa đêm",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc; lấy chìa Kiruna từ ngăn kéo; cuối đoạn tay trái cầm chùm chìa nhà, tay phải cầm chìa Kiruna (CHƯA luồn lại)",
@@ -30,7 +30,7 @@ window.HH_DATA = {
   {
    "tai": 2.003,
    "loi": "I took the key out of the drawer and held it up to the midnight sun.",
-   "hanh_dong": "[day-vao-cham] MÔ-TÍP CHÌA 5 (cận, rõ): Wob kéo ngăn kéo, lấy chìa Kiruna ra đúng \"key out\" (≈ 553.86 s), tới bên cửa sổ, giơ chìa lên ánh nắng nửa đêm đúng \"held\" (≈ 554.89 s)",
+   "hanh_dong": "[day-vao-cham] MÔ-TÍP CHÌA 5 (cận, rõ): Wob kéo ngăn kéo, lấy chìa Kiruna ra đúng \"key out\" (≈ 551.44 s), tới bên cửa sổ, giơ chìa lên ánh nắng nửa đêm đúng \"held\" (≈ 552.46 s)",
    "gag": "",
    "dao_cu": [
     "ngan-keo",
@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 5.14,
    "loi": "It glinted.",
-   "hanh_dong": "Một ngôi sao loé sáng trên răng chìa đúng \"glinted.\" (≈ 556.78 s)",
+   "hanh_dong": "Một ngôi sao loé sáng trên răng chìa đúng \"glinted.\" (≈ 554.35 s)",
    "gag": "Tia loé phản vào kính râm trên bậu cửa sổ, kính râm loé theo; Wob nheo mắt",
    "dao_cu": [
     "chia-khoa"
@@ -53,7 +53,7 @@ window.HH_DATA = {
   {
    "tai": 6.103,
    "loi": "I didn't put it back on the ring. Not yet.",
-   "hanh_dong": "Wob tay trái cầm chùm chìa nhà, tay phải cầm chìa Kiruna, nhìn bên này rồi bên kia, không luồn vào; giữ ≥ 0,8 s tới cắt 561.33 s",
+   "hanh_dong": "Wob tay trái cầm chùm chìa nhà, tay phải cầm chìa Kiruna, nhìn bên này rồi bên kia, không luồn vào; giữ ≥ 0,8 s tới cắt 558.90 s",
    "gag": "",
    "dao_cu": [
     "chum-chia",

@@ -19,7 +19,8 @@ window.HH_DATA = {
  "ra": "cat",
  "chu_tren_do_vat": [
   "?",
-  "607,818 (record)",
+  "607,818 guest nights",
+  "record",
   "2024",
   "1900"
  ],
@@ -75,7 +76,7 @@ window.HH_DATA = {
   {
    "tai": 15.925,
    "loi": "In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights.",
-   "hanh_dong": "Thẻ 607,818 (record) và 2024 bật lên ở \"record\" (≈ 161.30 s), dán lên gáy cuốn sổ khách; cuốn sổ phồng dày gấp đôi; Wob ở mép trang ôm cuốn sổ cho khỏi bung",
+   "hanh_dong": "Thẻ 607,818 guest nights (record) và 2024 bật lên ở \"record\" (≈ 161.30 s), dán lên gáy cuốn sổ khách; cuốn sổ phồng dày gấp đôi; Wob ở mép trang ôm cuốn sổ cho khỏi bung",
    "gag": "",
    "dao_cu": [],
    "sfx": [

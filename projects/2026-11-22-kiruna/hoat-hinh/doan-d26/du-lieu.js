@@ -11,7 +11,7 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 10.038,
- "bat_dau_tuyet_doi": 370.84,
+ "bat_dau_tuyet_doi": 367.936,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay nhìn từ trên: nhà thờ trên rơ-moóc ở chỗ mới, mũi tên cong; rồi cửa nhà thờ đóng, treo một tờ lịch giấy ghi 2027? (có dấu hỏi: giáo xứ mới chỉ hy vọng); bậc cửa",
  "trang_phuc": "MÙA HÈ (tháng 8, tháng 6): ÁO GI-LÊ VẢI MỎNG KEM #E9DDC3 (viền #B9A983), TÚI VÁ bên PHẢI (cùng chỗ túi áo khoác: túi đựng chìa khoá); KÍNH RÂM tròn gọng đen #1F2326; không mũ, không khăn; áo khoác xanh lam cuộn tròn buộc dưới cuộn thảm đỏ trên nắp ba lô; ba lô mặc định của rig (ô liu #7C8646, viền #566030, cuộn thảm đỏ #C9463A trên nắp), cỡ THƯỜNG như đuôi tập 4 và tập 5, KHÔNG ba lô khổng lồ (gag tập 4); giày đỏ của tạo hình gốc (vẽ tay)",
@@ -25,8 +25,8 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "At its new spot, the church was turned around a hundred and eighty degrees, so it still faces the town.",
-   "hanh_dong": "[so-do-ve-tay] Nhìn từ trên: nhà thờ trên rơ-moóc xoay nửa vòng tại chỗ, mũi tên cong; thẻ 180° ở \"eighty\" (≈ 373.88 s). Wob đứng ở mép rơ-moóc bị xoay theo, cuối cùng quay lưng về thị trấn",
-   "gag": "Đúng \"faces the town.\" (≈ 375.43 s) Wob tự xoay người lại cho cùng hướng nhà thờ",
+   "hanh_dong": "[so-do-ve-tay] Nhìn từ trên: nhà thờ trên rơ-moóc xoay nửa vòng tại chỗ, mũi tên cong; thẻ 180° ở \"eighty\" (≈ 370.97 s). Wob đứng ở mép rơ-moóc bị xoay theo, cuối cùng quay lưng về thị trấn",
+   "gag": "Đúng \"faces the town.\" (≈ 372.52 s) Wob tự xoay người lại cho cùng hướng nhà thờ",
    "dao_cu": [],
    "sfx": []
   },
@@ -41,8 +41,8 @@ window.HH_DATA = {
   {
    "tai": 7.413,
    "loi": "The parish hopes to reopen it in twenty twenty-seven.",
-   "hanh_dong": "Tờ lịch giấy ghi 2027? treo trên cửa hiện ở \"twenty twenty-seven.\" (≈ 380.08 s)",
-   "gag": "Wob đọc tờ lịch, nghiêng đầu nhìn dấu hỏi, rồi vẫn ngồi xuống bậc cửa khoanh tay như định chờ luôn; giữ 0,6 s tới cắt 380.88 s",
+   "hanh_dong": "Tờ lịch giấy ghi 2027? treo trên cửa hiện ở \"twenty twenty-seven.\" (≈ 377.17 s)",
+   "gag": "Wob đọc tờ lịch, nghiêng đầu nhìn dấu hỏi, rồi vẫn ngồi xuống bậc cửa khoanh tay như định chờ luôn; giữ 0,6 s tới cắt 377.97 s",
    "dao_cu": [
     "to-lich-2027"
    ],

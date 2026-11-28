@@ -1,0 +1,85 @@
+{
+  "target": {
+    "I": -14.0,
+    "TP": -1.5,
+    "LRA": 11.0
+  },
+  "files": {
+    "video-no-music.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.1,
+      "ghi_chu": "sau ghep_doan TP -0.9; chặn đỉnh lại (alimiter 0.83, oversample 192k), chỉ luồng âm, 29/11/2026"
+    },
+    "video.mp4": {
+      "lufs": -14.2,
+      "true_peak": -1.1
+    }
+  },
+  "nhac_nen": [
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 0.0,
+      "end": 57.086
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/frost-waltz.mp3",
+      "mood": "khac-nghiet",
+      "start": 57.086,
+      "end": 143.514
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 143.514,
+      "end": 300.31
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/sneaky-snitch.mp3",
+      "mood": "hai",
+      "start": 300.31,
+      "end": 388.394
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 388.394,
+      "end": 470.166
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 470.166,
+      "end": 527.202
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/inspired.mp3",
+      "mood": "to-mo",
+      "start": 527.202,
+      "end": 558.904
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/lightless-dawn.mp3",
+      "mood": "khac-nghiet",
+      "start": 560.904,
+      "end": 647.884
+    },
+    {
+      "src": "C:/Users/phamh/OneDrive/Documents/GitHub/world-wobble/music/wallpaper.mp3",
+      "mood": "to-mo",
+      "start": 650.584,
+      "end": 723.024
+    }
+  ],
+  "sfx_count": 191,
+  "sections": {
+    "than_video": {
+      "lufs": -14.2,
+      "true_peak": -1.1
+    },
+    "canh_cuoi": {
+      "lufs": -14.3,
+      "true_peak": -1.8
+    }
+  }
+}
