@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "cong",
+  "tai": 5.295,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 18.199,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "dau-wob",
+  "tai": 19.692,
+  "am_luong": 0.9
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 23.12,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "boing",
+  "tai": 24.249,
+  "am_luong": 0.5
+ }
+]

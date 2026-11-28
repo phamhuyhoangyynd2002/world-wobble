@@ -1,0 +1,2889 @@
+{
+  "title": "This Arctic Town Is Moving Away From Its Own Mine",
+  "format": "horizontal",
+  "template": "explainer",
+  "language": "en-US",
+  "place": {
+    "name": "Kiruna",
+    "country": "Sweden",
+    "lat": 67.856,
+    "lon": 20.225
+  },
+  "question": "Why do people live in Kiruna?",
+  "message": "This video tells curious adults that Kiruna exists because iron ore reported to the Swedish state back in 1736 only became worth mining once a railway could carry it over the mountains to an ice-free Norwegian harbour, and that its people now move the town itself, rather than leave, as the mine swallows the ground beneath it.",
+  "angle": "People live in Kiruna because iron ore known since at least 1736 became worth mining once a railway could carry it over the mountains to Narvik's ice-free harbour, and because the mine still supplies most of the EU's iron ore and pays for the town to move rather than die, despite the mine swallowing the old centre, a blast under their feet every night, about three weeks without sunrise, a new centre that can be colder than the old one, and a move that costs residents their streets and squeezes the last reindeer route of a Sámi herding community.",
+  "dap_an_chinh": {
+    "canh": 6,
+    "tu_khoa": [
+      "Narvik",
+      "ice-free"
+    ]
+  },
+  "hook_type": "ky-vat-chia-khoa",
+  "target_seconds": [
+    600,
+    900
+  ],
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%"
+  },
+  "music_mood": "to-mo",
+  "ghi_chu_khung": "Bản viết lại 28/11/2026 (bản 22/11 lưu ở script.v2.json). Khung tập 6 (khác tập 5): mở ở bàn với chìa khoá phòng thuê (cảnh 1), vẫn ở bàn cho lời hứa, thẻ hộ chiếu lật vào đúng chữ 'Kiruna' (cảnh 2) → chuyến đi theo bốn lần tới: tháng 2 (3–7), tháng 8/2025 đi theo nhà thờ (8–11), tháng 12/2025 và tháng 6/2026 (12–13) → về bàn cho chương nghiêm (14), hồi ức lối tuần lộc không gag (15) → outro ở bàn: Wob bật/tắt đèn bàn trên chìa khoá để kể hai mùa, đóng dấu dưới đèn, treo chìa khoá lên đinh hướng đông (tập 5: đọc bưu thiếp rồi đóng dấu; tập 4: đóng dấu trước rồi nói lý do) → đuôi ở kệ. Wob đổi ý bằng đồ vật: chìa khoá vào chùm chìa nhà (cảnh 2, định chuyển tới) → tháo ra bỏ túi (cảnh 4, sau nổ mìn và động đất) → đeo lại (cảnh 9, sau Great Church Walk) → cất ngăn kéo (cảnh 12, tháng 12) → lấy ra ngắm nhưng không đeo (cảnh 13) → treo đinh (outro, SUMMER ONLY). Không 'I changed my mind', không tóm ba vế, không 'Would I move there?', không cặp 'It suits / It does not suit', không chương theo mốc giờ. Lời giải Narvik/ice-free ở cảnh 6, sau hai giả thuyết sai (cực quang/du lịch, Icehotel); map-kiruna-rail chỉ xuất hiện từ cảnh 6. Trang phục Wob trong chuyến đi: ba lô to, khăn len (mùa đông), kính râm (hè); ở bàn: đồ ở nhà. Ảnh AI: không dùng; shots chỉ trỏ 3 bản đồ code + thẻ chữ, mọi cảnh vẽ theo y_hinh. Người thật (Mangi, Lundbohm, nhà vua, Kuhmunen, Moström) không vẽ mặt: người que, vật tượng trưng hoặc thẻ chữ.",
+  "visual_hint_tai_nguyen": {
+    "map-kiruna": "Bản đồ D3 khung Bắc Âu (khoảng 54°N–71°N, 4°E–32°E): tô SWE màu đất nhạt #EFE3C8, NOR và FIN màu giấy nhạt hơn, không nhãn nước; ghim Kiruna 67.856, 20.225 đặt ở NỬA PHẢI khung (--anchor 1320,520); nhãn 'Kiruna'; đường nét đứt vòng Bắc Cực ở 66.56°N, nhãn nhỏ 'Arctic Circle'. KHÔNG vẽ đường sắt, KHÔNG ghim Narvik, Luleå (chưa lộ lời giải). Không chạm Biển Đông, không biên giới tranh chấp",
+    "map-kiruna-rail": "Bản đồ D3 Bắc Thuỵ Điển–Na Uy (khung khoảng 64.5°N–69.5°N, 13°E–25°E): tô SWE đất nhạt, NOR giấy nhạt; ghim Kiruna 67.856, 20.225, Narvik 68.438, 17.427, Luleå 65.584, 22.155; đường nét đứt Kiruna→Narvik đậm màu nhấn #E0703A, Kiruna→Luleå mảnh màu xám (vẽ giản lược theo tuyến Malmbanan/Ofotbanen, không cần từng khúc cua); biển Na Uy để xanh #3F6A70, vịnh Bothnia phủ hoạ tiết băng trắng; nhãn 'Narvik · ice-free', 'Luleå · freezes in winter'. CHỈ dùng từ cảnh 6 (lời giải) trở đi. Không chạm Biển Đông",
+    "map-kiruna-centre": "Sơ đồ cận thị trấn Kiruna (khung khoảng 8 km, tâm khoảng 67.855, 20.26): ghim 'Old centre' ở khoảng 67.855, 20.225 và 'New centre (approx.)' ở khoảng 67.862, 20.29 (vị trí phỏng chừng, ghi 'approx.'); mũi tên nét đứt Old → New, nhãn '~3 km east'; núi mỏ Kiirunavaara khối nâu ở tây nam (khoảng 67.83, 20.18), hồ Luossajärvi ở phía bắc trung tâm cũ, núi Luossavaara ở bắc hồ. Không tô nước nào. Không ghim Narvik, không đường sắt. Không chạm Biển Đông"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "chapter": "The Key to a Missing Door",
+      "lop": "hien-tai",
+      "role": "hook: kỷ vật chìa khoá của một phòng thuê ở trung tâm cũ; về trả thì cánh cửa, con phố đã không còn; thị trấn đã dời; lời chào nhận diện cố định (mo-ket). Không nói mỏ, không nói đường sắt/cảng",
+      "narration": "This is the key to a room I rented in an Arctic town. I went back to return it. The door was gone. So was the street. The whole town centre had moved. Hi, I'm Wob. I visit odd places and ask why anyone stays.",
+      "on_screen_text": "WHERE DID THE DOOR GO?",
+      "y_hinh": [
+        {
+          "cue": "This is the key to a room",
+          "y": "Bàn kỷ vật dưới đèn bàn. Wob (đồ ở nhà, không ba lô) giơ một chiếc chìa khoá sắt cũ có thẻ gỗ nhỏ buộc dây đỏ, thẻ ghi số phòng nét mực mờ. Trang sổ mở sau lưng: bản đồ Bắc Âu, chấm thị trấn ở nửa phải"
+        },
+        {
+          "cue": "I went back to return it",
+          "y": "Chèn vẽ tay: Wob cầm chìa khoá đi trên vỉa hè tuyết, dừng trước một khoảng đất trống rải sỏi, hàng rào công trường phía sau",
+          "gag": "Wob đưa chìa khoá ra tra vào ổ khoá giữa không khí, vặn một vòng; không có gì mở ra; Wob nhìn chìa khoá, nhìn người xem"
+        },
+        {
+          "cue": "So was the street",
+          "y": "Biển tên phố giấy rơi nhẹ khỏi cột, xoay một vòng rồi nằm trên tuyết"
+        },
+        {
+          "cue": "The whole town centre had moved",
+          "y": "Về bàn: trên trang sổ, một dãy nhà giấy tí hon xách vali đi hàng một sang phải trang; Wob nhìn theo, chìa khoá vẫn giơ trên tay; giữ hình"
+        },
+        {
+          "cue": "Hi, I'm Wob",
+          "y": "Lời chào nhận diện (skill mo-ket): Wob vẫy tay bằng tay cầm chìa khoá, chìa khoá kêu leng keng. Thẻ hộ chiếu KHÔNG hiện ở đây; lật vào ở cảnh 2 đúng chữ 'Kiruna'"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "The door was gone",
+          "move": "still",
+          "zoom": 1.3,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "The whole town centre had moved",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "Hi, I'm Wob",
+          "move": "zoom-out",
+          "zoom": 1.1
+        }
+      ],
+      "wob": [
+        {
+          "cue": "This is the key",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The door was gone",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Hi, I'm Wob",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "visual_hint": {
+        "map-kiruna": "Bản đồ D3 khung Bắc Âu (khoảng 54°N–71°N, 4°E–32°E): tô SWE màu đất nhạt #EFE3C8, NOR và FIN màu giấy nhạt hơn, không nhãn nước; ghim Kiruna 67.856, 20.225 đặt ở NỬA PHẢI khung (--anchor 1320,520); nhãn 'Kiruna'; đường nét đứt vòng Bắc Cực ở 66.56°N, nhãn nhỏ 'Arctic Circle'. KHÔNG vẽ đường sắt, KHÔNG ghim Narvik, Luleå (chưa lộ lời giải). Không chạm Biển Đông, không biên giới tranh chấp"
+      },
+      "id": 1
+    },
+    {
+      "type": "section",
+      "lop": "hien-tai",
+      "role": "lời hứa ở bàn (trong 60 s đầu): tên nơi (thẻ hộ chiếu), tiền đề mỏ sắt làm thị trấn dời (được nói sớm); Wob định chuyển tới (đeo chìa khoá vào chùm chìa nhà); câu treo: quặng đã được báo cho nhà nước năm 1736 mà thị trấn tới 1900 mới có; KHÔNG nói đường sắt/cảng",
+      "narration": "The town is Kiruna, in the far north of Sweden, above the Arctic Circle. Under the hill next door is an iron mine, and it is slowly swallowing the ground the old centre stood on. So the town is packing up and moving east. Houses, shops, a clock tower, even a big red wooden church. I went there to move in. I even put the key on my own key ring, next to my house keys. But one small fact kept bugging me. In seventeen thirty-six, a Sámi man named Amund Amundson Mangi reported the iron ore here to the Swedish state. He got a reward, and no taxes for life. The town didn't start until nineteen hundred. So what was everyone waiting for? My first guesses were terrible. Both of them.",
+      "pronunciation": "Kiruna: KEE-roo-nah",
+      "facts": [
+        {
+          "label": "Ore reported → town",
+          "value": "1736 → 1900",
+          "claim_ids": [
+            "C04",
+            "C05"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "The town is Kiruna",
+          "y": "THẺ HỘ CHIẾU lật vào góc trái trên đúng chữ này: KIRUNA · SWEDEN · Would Wob move here? · ô con dấu trống; 3 giây rồi lật đi. Trên trang sổ, vòng Bắc Cực nét đứt, chấm Kiruna nằm trên nó"
+        },
+        {
+          "cue": "slowly swallowing the ground",
+          "y": "Mặt cắt giấy trên trang sổ: núi bên cạnh thị trấn, dưới lòng có đường hầm; mặt đất phía trên lõm dần, mấy mái nhà nghiêng nhẹ về phía núi"
+        },
+        {
+          "cue": "Houses, shops, a clock tower, even a big red wooden church",
+          "y": "Một đoàn đồ vật giấy đi hàng một sang phải: ngôi nhà gỗ, cửa hàng, tháp đồng hồ, cuối cùng là nhà thờ gỗ đỏ to đi chậm nhất",
+          "gag": "Nhà thờ đi sau cùng, cả đoàn phải dừng chờ; tháp đồng hồ gõ chân sốt ruột"
+        },
+        {
+          "cue": "I even put the key on my own key ring",
+          "y": "Wob luồn chìa khoá Kiruna vào chùm chìa nhà mình, giơ lên tự hào; chùm chìa kêu leng keng"
+        },
+        {
+          "cue": "reported the iron ore here to the Swedish state",
+          "y": "Cắt giấy tông cũ: một người que mặc áo choàng mùa đông chỉ tay về hình núi, đặt một hòn đá đen lên bàn của một viên chức đội tóc giả (không mặt chân dung); nhãn 1736 trên trang sổ"
+        },
+        {
+          "cue": "He got a reward, and no taxes for life",
+          "y": "Túi tiền nhỏ trao tay; một tờ giấy thuế bị gạch chéo nét mực"
+        },
+        {
+          "cue": "The town didn't start until nineteen hundred",
+          "y": "Thước thời gian giấy kéo dài từ 1736 tới 1900; ở giữa chỉ có tuyết rơi trên trang trống"
+        },
+        {
+          "cue": "My first guesses were terrible",
+          "y": "Hai bong bóng ý nghĩ bật lên trên đầu Wob (một vệt cực quang xanh, một khối băng) rồi lần lượt vỡ 'bụp'; Wob nhìn người xem"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "So the town is packing up",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "I went there to move in",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "fact:Ore reported → town",
+          "cue": "In seventeen thirty-six"
+        },
+        {
+          "show": "text",
+          "cue": "So what was everyone waiting for"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The town is Kiruna",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "I went there to move in",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "one small fact kept bugging me",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "My first guesses were terrible",
+          "bieu_cam": "soc"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "type": "section",
+      "chapter": "Woken at a Quarter Past One",
+      "lop": "hoi-uc",
+      "khuon": "phong-quy-mo",
+      "role": "chương 1 (phóng quy mô): từ cốc nước rung lúc 1:15 sáng → nổ mìn mỗi đêm 01:15–01:45, sơ tán, thông gió, mặt đất đôi khi rung; Wob ở phòng thuê trung tâm cũ (tháng 2)",
+      "narration": "I arrived on a February evening and rented that room in the old centre. A bed, a radiator, a glass of water on the nightstand. At a quarter past one in the morning, the glass started to hum. Then it shuffled a little to the left. I lay very still. So did the radiator. The mine blasts every night, between one fifteen and one forty-five. The blasting area is cleared first, and the tunnels are aired out for a few hours afterwards. Up on the surface, the ground sometimes shivers. My glass shivered right on schedule. By the third night, I was awake before it started, just to be polite. The glass and I had an understanding.",
+      "facts": [
+        {
+          "label": "Nightly blasting",
+          "value": "01:15–01:45",
+          "claim_ids": [
+            "C06"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "rented that room in the old centre",
+          "y": "Phòng thuê nhỏ: giường gỗ, lò sưởi gang, cửa sổ đêm tuyết; Wob (khăn len, ba lô to) treo chìa khoá có thẻ gỗ lên móc cửa"
+        },
+        {
+          "cue": "the glass started to hum",
+          "y": "Cận cốc nước trên tủ đầu giường lúc 01:15 (đồng hồ báo thức kim dạ quang), mặt nước gợn vòng tròn",
+          "gag": "Take chậm: cốc nước tự nhích sang trái một chút; Wob ló mắt khỏi chăn, nhìn cốc, dừng, rồi kéo chăn trùm kín đầu"
+        },
+        {
+          "cue": "So did the radiator",
+          "y": "Lò sưởi gang 'nằm im' cạnh giường, các lá tản nhiệt khép lại như nín thở",
+          "gag": "Lò sưởi có đôi mắt vẽ tay mở to, cùng nín thở với Wob"
+        },
+        {
+          "cue": "The mine blasts every night",
+          "y": "Lùi ra (phóng quy mô): từ cốc nước xuyên qua sàn nhà, qua lớp đất, tới đường hầm sâu dưới núi; một chấm sáng nhỏ loé lên trong hầm; thẻ 01:15–01:45"
+        },
+        {
+          "cue": "the tunnels are aired out",
+          "y": "Trong hầm giấy: quạt thông gió lớn quay, mũi tên gió nét đứt chạy dọc hầm; không có người trong khu nổ"
+        },
+        {
+          "cue": "By the third night",
+          "y": "Đêm thứ ba: Wob ngồi dậy sẵn trên giường, hai tay đặt trên đầu gối, nhìn cốc nước",
+          "gag": "Đúng giờ cốc rung, Wob gật đầu chào cốc như chào hàng xóm; cốc nước rung đáp lại một nhịp"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.45,
+            0.5
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "At a quarter past one"
+        },
+        {
+          "show": "fact:Nightly blasting",
+          "cue": "The mine blasts every night"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "Up on the surface",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "By the third night",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.45,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I arrived on a February evening",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "the glass started to hum",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "The mine blasts every night",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The glass and I had an understanding",
+          "bieu_cam": "hao-hung"
+        }
+      ],
+      "music_mood": "to-mo",
+      "visual_hint": {
+        "map-kiruna-centre": "Sơ đồ cận thị trấn Kiruna (khung khoảng 8 km, tâm khoảng 67.855, 20.26): ghim 'Old centre' ở khoảng 67.855, 20.225 và 'New centre (approx.)' ở khoảng 67.862, 20.29 (vị trí phỏng chừng, ghi 'approx.'); mũi tên nét đứt Old → New, nhãn '~3 km east'; núi mỏ Kiirunavaara khối nâu ở tây nam (khoảng 67.83, 20.18), hồ Luossajärvi ở phía bắc trung tâm cũ, núi Luossavaara ở bắc hồ. Không tô nước nào. Không ghim Narvik, không đường sắt. Không chạm Biển Đông"
+      },
+      "id": 3
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 1: tham quan mỏ; LKAB nói mỏ sắt ngầm lớn nhất thế giới (mức C, rào); tầng vận chuyển chính 1.365 m; sublevel caving = đồng hồ cát; thân quặng chạy về phía đông dưới thị trấn; động đất do mỏ 2020 ML 4,1; ĐỔI Ý LẦN 1: Wob tháo chìa khoá khỏi chùm chìa nhà, bỏ túi",
+      "narration": "The next day I took the mine tour, into the mountain next to town. According to LKAB, the state-owned company that runs it, this is the world's largest underground iron ore mine. Its main haulage level sits about one thousand three hundred and sixty-five metres down. That's nearly four and a half thousand feet. They take the ore out from below, level by level, and let the rock above cave in behind them. Think of an hourglass. Pull sand from the bottom, and the top of the pile slowly sinks. Kiruna's old centre is the top of the pile. And the ore body keeps running east, under the town. In May twenty twenty, the mine set off the biggest mining-induced earthquake ever recorded in Sweden. Magnitude four point one. Nobody was hurt. That night I slid the key off my key ring and put it in my pocket. Pockets are for maybes.",
+      "facts": [
+        {
+          "label": "Main haulage level",
+          "value": "1,365 m · ~4,480 ft",
+          "claim_ids": [
+            "C08"
+          ]
+        },
+        {
+          "label": "Mining quake, May 2020",
+          "value": "M 4.1",
+          "claim_ids": [
+            "C11"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I took the mine tour",
+          "y": "Wob đội mũ bảo hộ quá to (che cả mắt) ngồi trên xe buýt chạy vào cửa hầm trong lòng núi; đèn hầm lướt qua cửa kính",
+          "gag": "Mũ bảo hộ trượt xuống che mắt mỗi lần xe xóc; Wob đẩy lên, mũ lại trượt, lần thứ ba Wob để luôn, ngồi tối om"
+        },
+        {
+          "cue": "the world's largest underground iron ore mine",
+          "y": "Lùi ra toàn cảnh mặt cắt núi Kiirunavaara: mạng đường hầm như rễ cây ăn sâu xuống; Wob là một chấm nhỏ ở tầng trên"
+        },
+        {
+          "cue": "about one thousand three hundred and sixty-five metres down",
+          "y": "Thước dây giấy thả từ đỉnh núi xuống tầng hầm sâu; thẻ 1,365 m · ~4,480 ft"
+        },
+        {
+          "cue": "Think of an hourglass",
+          "y": "Bong bóng tưởng tượng vẽ tay: đồng hồ cát; cát rút ra từ đáy, lớp trên cùng lõm xuống; trên lớp cát trên cùng có mấy mái nhà tí hon",
+          "gag": "Một mái nhà tí hon trên đỉnh đồng hồ cát nghiêng dần, ống khói tí hon bám chặt lấy mái"
+        },
+        {
+          "cue": "the ore body keeps running east, under the town",
+          "y": "Mặt cắt: thân quặng sẫm màu chạy chéo xuống về phía đông, nằm dưới chân dãy nhà của trung tâm cũ; mũi tên nét đứt hướng đông"
+        },
+        {
+          "cue": "Magnitude four point one",
+          "y": "Thẻ M 4.1; trên trang sổ một nét địa chấn ký giật mạnh một lần; cốc nước trong phòng thuê nảy lên một cái"
+        },
+        {
+          "cue": "I slid the key off my key ring",
+          "y": "Đêm, phòng thuê: Wob tháo chìa khoá có thẻ gỗ khỏi chùm chìa nhà, nhìn nó, rồi nhét vào túi áo khoác",
+          "gag": "Túi áo phồng lên một cục, Wob vỗ nhẹ túi như vỗ một con mèo đang ngủ; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.3,
+            0.7
+          ]
+        },
+        {
+          "show": "fact:Main haulage level",
+          "cue": "Its main haulage level"
+        },
+        {
+          "show": "text",
+          "cue": "Think of an hourglass"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "the ore body keeps running east",
+          "move": "pan-right"
+        },
+        {
+          "show": "fact:Mining quake, May 2020",
+          "cue": "Magnitude four point one"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "That night I slid the key",
+          "move": "still",
+          "zoom": 1.3,
+          "focus": [
+            0.45,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I took the mine tour",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Think of an hourglass",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "biggest mining-induced earthquake",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "Pockets are for maybes",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "type": "section",
+      "chapter": "Why Wait Until 1900?",
+      "lop": "hoi-uc",
+      "khuon": "doan-sai-roi-lat",
+      "role": "chương 2 (đoán sai rồi lật), phần đoán: giả thuyết 1 cực quang/du lịch (kỷ lục 607.818 đêm nghỉ 2024, nhưng thị trấn có trước), giả thuyết 2 Icehotel (1989, Jukkasjärvi ~17 km, 89 năm sau thị trấn). KHÔNG nhắc tàu, đường sắt, cảng",
+      "narration": "So, back to all that waiting. My first guess was the sky. I stood outside one night with a flask of tea, waiting for proof. The northern lights came out, green and slow. My nose went numb. Lovely. And wrong. Tourism is big here now. In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights. But the town came first, and the tourists followed. My second guess was the hotel made of ice, in the village of Jukkasjärvi, about seventeen kilometres away. That's roughly eleven miles. I sat on an ice bed in my coat to think it over. Icehotel began in nineteen eighty-nine as an art gallery made of ice and snow. That's eighty-nine years after the town. Wrong again. My bottom agreed.",
+      "pronunciation": "Jukkasjärvi: YOO-kas-yair-vee",
+      "facts": [
+        {
+          "label": "Guest nights, 2024",
+          "value": "607,818 (record)",
+          "claim_ids": [
+            "C12"
+          ]
+        },
+        {
+          "label": "Icehotel began",
+          "value": "1989",
+          "claim_ids": [
+            "C14"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "My first guess was the sky",
+          "y": "Sơ đồ vẽ tay trên trang sổ: vệt cực quang, mũi tên chỉ xuống thị trấn, dấu '?'"
+        },
+        {
+          "cue": "waiting for proof",
+          "y": "Đêm tuyết: Wob đứng ngửa mặt nhìn trời, ôm bình trà; bình trà bốc hơi"
+        },
+        {
+          "cue": "The northern lights came out, green and slow",
+          "y": "Cực quang xanh uốn lượn chậm trên nền trời; ánh xanh phản chiếu trên mặt Wob"
+        },
+        {
+          "cue": "My nose went numb",
+          "y": "Cận mũi Wob (một chấm nhỏ trên quả địa cầu) chuyển xanh tím",
+          "gag": "Một bông tuyết đậu lên mũi Wob và không chịu tan; Wob lác mắt nhìn nó, dừng, rồi thở dài làm bông tuyết bay đi"
+        },
+        {
+          "cue": "Tourism is big here now",
+          "y": "Sơ đồ vẽ tay: hàng vali du khách nối đuôi nhau; thẻ 607,818 (record)"
+        },
+        {
+          "cue": "But the town came first, and the tourists followed",
+          "y": "Thước thời gian giấy: ngôi nhà nhỏ ở mốc 1900, đoàn vali chỉ xuất hiện ở đầu kia thước; Wob gạch chéo bong bóng cực quang"
+        },
+        {
+          "cue": "I sat on an ice bed in my coat",
+          "y": "Phòng khách sạn băng: giường băng phủ da tuần lộc giả (không chi tiết thương hiệu), tường băng trong suốt; Wob mặc áo khoác dày ngồi bó gối",
+          "gag": "Wob ngồi xuống, dừng, rồi từ từ đứng thẳng dậy; một mảng băng hình tròn đúng cỡ Wob in lại trên giường"
+        },
+        {
+          "cue": "Icehotel began in nineteen eighty-nine as an art gallery",
+          "y": "Thước thời gian: khối băng nhỏ ở mốc 1989, cách rất xa mốc 1900; Wob gạch bong bóng thứ hai"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "fact:Guest nights, 2024",
+          "cue": "In twenty twenty-four, Kiruna had a record year"
+        },
+        {
+          "show": "text",
+          "cue": "My second guess"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I sat on an ice bed",
+          "move": "zoom-out",
+          "zoom": 1.0
+        },
+        {
+          "show": "fact:Icehotel began",
+          "cue": "Icehotel began"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "My first guess was the sky",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My nose went numb",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "My second guess",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "My bottom agreed",
+          "bieu_cam": "lanh-run"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "LỜI GIẢI CHÍNH (dap_an_chinh): tàu quặng 68 toa ~750 m (≈7 sân bóng); quặng giàu phốt-pho thành có giá nhờ phương pháp Thomas thập niên 1870 (C57); quặng cần ra biển; bờ biển Thuỵ Điển ở Luleå, vịnh Bothnia đóng băng 5–6 tháng; đường sắt vượt núi sang Narvik (Na Uy), Gulf Stream giữ cảng không đóng băng; đường tới Kiruna ~1900, nối Narvik 1902, vua khánh thành 1903; ~12 đoàn có hàng/ngày; Luleå vẫn chở quặng nhờ tàu phá băng. map-kiruna-rail xuất hiện lần đầu ở đây",
+      "narration": "The real answer rolled past me at a level crossing on the way back. An ore train. Up to sixty-eight wagons, about seven hundred and fifty metres long. Roughly seven football pitches of iron. I started counting wagons and lost count. Twice. First, the ore had a flaw. It is rich in phosphorus, and in older furnaces that made the iron brittle. In the eighteen-seventies, a new method, the Thomas process, turned that flaw into a selling point. That left the bigger problem. Iron is no use inside a mountain. It has to reach the sea. Sweden's own coast is to the east, at Luleå, on the Gulf of Bothnia. That sea freezes over every winter. A port like that is a shop whose front door freezes shut every winter. So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast. Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year. The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two. The king opened it officially in nineteen oh three. Today, about twelve loaded trains a day still run from Kiruna to Narvik. Luleå ships ore too, with icebreakers helping in winter. The iron had been waiting for a door that opens in January.",
+      "pronunciation": "Luleå: LOO-leh-oh",
+      "facts": [
+        {
+          "label": "Ore train",
+          "value": "68 wagons · ~750 m",
+          "claim_ids": [
+            "C15"
+          ]
+        },
+        {
+          "label": "Gulf of Bothnia ice",
+          "value": "freezes every winter",
+          "claim_ids": [
+            "C16"
+          ]
+        },
+        {
+          "label": "Loaded trains to Narvik",
+          "value": "~12 a day",
+          "claim_ids": [
+            "C19"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "rolled past me at a level crossing",
+          "y": "Rào chắn đường ngang sọc đỏ trắng hạ xuống; Wob đứng chờ, đoàn tàu quặng hai đầu máy điện kéo các toa sẫm màu lướt qua từ trái sang phải"
+        },
+        {
+          "cue": "Up to sixty-eight wagons",
+          "y": "Lùi ra (camera rút cao): đoàn tàu dài vắt qua cả khung, thẻ 68 wagons · ~750 m; bảy sân bóng giấy xếp hàng song song bên dưới để so"
+        },
+        {
+          "cue": "I started counting wagons and lost count",
+          "y": "Wob chỉ ngón tay đếm từng toa, đầu quay theo",
+          "gag": "Đầu Wob quay theo tàu mãi tới khi cả quả địa cầu xoay một vòng; Wob loạng choạng, chỉ tay lại từ đầu"
+        },
+        {
+          "cue": "It has to reach the sea",
+          "y": "Trang sổ: bản đồ code map-kiruna-rail hiện ra lần đầu; một hòn quặng giấy nhảy từ Kiruna nhìn quanh tìm biển"
+        },
+        {
+          "cue": "That sea freezes over every winter",
+          "y": "Vịnh Bothnia trên bản đồ phủ băng trắng dần; cảng Luleå thành một tảng băng có con tàu giấy kẹt giữa"
+        },
+        {
+          "cue": "a shop whose front door freezes shut every winter",
+          "y": "Bong bóng tưởng tượng vẽ tay: cửa hàng nhỏ, cửa trước đóng băng, khách đứng ngoài đẩy không được",
+          "gag": "Biển 'OPEN' treo trên cửa cũng đóng băng cứng, kêu 'cạch' khi Wob gõ thử"
+        },
+        {
+          "cue": "So they ran a railway the other way, over the mountains",
+          "y": "Đường ray nét đứt màu đất nung vẽ dần từ Kiruna về phía tây, leo qua dãy núi giấy, xuống tới bờ biển"
+        },
+        {
+          "cue": "keeps Narvik's harbour ice-free all year",
+          "y": "Cảng Narvik giấy: nước xanh, một dòng mũi tên ấm màu cam (Gulf Stream) uốn vào vịnh; tàu biển giấy cập bến nhận quặng; nhãn 'Narvik · ice-free'"
+        },
+        {
+          "cue": "The king opened it officially",
+          "y": "Cắt giấy tông cũ: dải ruy băng cắt ngang đường ray, một chiếc vương miện giấy (không người, không mặt) lơ lửng trên kéo; nhãn 1902 / 1903"
+        },
+        {
+          "cue": "about twelve loaded trains a day",
+          "y": "Thẻ ~12 a day; trên bản đồ những chấm tàu nhỏ chạy nối nhau Kiruna → Narvik"
+        },
+        {
+          "cue": "a door that opens in January",
+          "y": "Wob đứng ở rào chắn, chìa khoá phòng thuê thò ra khỏi túi áo; tàu vẫn đang chạy qua phía sau; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "cue": "An ore train"
+        },
+        {
+          "show": "fact:Ore train",
+          "cue": "Up to sixty-eight wagons"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "It has to reach the sea",
+          "move": "zoom-in",
+          "zoom": 1.2,
+          "focus": [
+            0.6,
+            0.6
+          ]
+        },
+        {
+          "show": "fact:Gulf of Bothnia ice",
+          "cue": "That sea freezes over"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "So they ran a railway the other way",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "The line reached Kiruna",
+          "move": "zoom-out",
+          "zoom": 1.0
+        },
+        {
+          "show": "fact:Loaded trains to Narvik",
+          "cue": "about twelve loaded trains a day"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "The iron had been waiting",
+          "move": "still",
+          "zoom": 1.1
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The real answer rolled past me",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I started counting wagons",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "So they ran a railway the other way",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "a door that opens in January",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "visual_hint": {
+        "map-kiruna-rail": "Bản đồ D3 Bắc Thuỵ Điển–Na Uy (khung khoảng 64.5°N–69.5°N, 13°E–25°E): tô SWE đất nhạt, NOR giấy nhạt; ghim Kiruna 67.856, 20.225, Narvik 68.438, 17.427, Luleå 65.584, 22.155; đường nét đứt Kiruna→Narvik đậm màu nhấn #E0703A, Kiruna→Luleå mảnh màu xám (vẽ giản lược theo tuyến Malmbanan/Ofotbanen, không cần từng khúc cua); biển Na Uy để xanh #3F6A70, vịnh Bothnia phủ hoạ tiết băng trắng; nhãn 'Narvik · ice-free', 'Luleå · freezes in winter'. CHỈ dùng từ cảnh 6 (lời giải) trở đi. Không chạm Biển Đông"
+      },
+      "id": 6
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 2: thị trấn ra đời 1900 khi vua duyệt quy hoạch; Lundbohm, thị trấn kiểu mẫu, quy hoạch thích nghi khí hậu; 7.500 dân năm 1910; dân số kommun ~22.400 (cuối 2025), đất nhỉnh hơn New Jersey; LKAB nói >80% quặng sắt EU (vì sao người ta ở lại hôm nay)",
+      "narration": "Then the town could happen. Kiruna counts nineteen hundred as its birth year, when the king approved its town plan. The mining company's first managing director, a geologist called Hjalmar Lundbohm, wanted a model town. He brought in a leading planner to fit the streets to the climate. By nineteen ten, about seven thousand five hundred people lived here. At the end of twenty twenty-five, the municipality had about twenty-two thousand four hundred. They're spread over an area about the size of New Jersey. And the mine still matters far beyond the town. LKAB says it produces more than eighty percent of the iron ore mined in the European Union. I stood by the tracks with the key in my pocket. The train was still going past.",
+      "pronunciation": "Hjalmar Lundbohm: YAHL-mar LOOND-boom",
+      "facts": [
+        {
+          "label": "Municipality, end 2025",
+          "value": "~22,400 people",
+          "claim_ids": [
+            "C23"
+          ]
+        },
+        {
+          "label": "LKAB share of EU iron ore",
+          "value": ">80%",
+          "claim_ids": [
+            "C24"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "when the king approved its town plan",
+          "y": "Cắt giấy tông cũ: tờ quy hoạch thị trấn trải trên bàn, một con dấu sáp đỏ có hình vương miện đóng xuống; nhãn 1900"
+        },
+        {
+          "cue": "a geologist called Hjalmar Lundbohm",
+          "y": "Người que đội mũ phớt cầm búa địa chất và một cuộn giấy quy hoạch (không mặt chân dung)"
+        },
+        {
+          "cue": "fit the streets to the climate",
+          "y": "Sơ đồ vẽ tay: các phố uốn cong theo sườn đồi, mũi tên gió lạnh bị dãy nhà chắn lại",
+          "gag": "Một mũi tên gió giấy lao vào phố, đập vào góc nhà, bẻ cong rồi lủi đi chỗ khác"
+        },
+        {
+          "cue": "By nineteen ten",
+          "y": "Dãy nhà gỗ nhiều màu mọc lên nhanh trên trang sổ, người que đi lại; nhãn 1910"
+        },
+        {
+          "cue": "about the size of New Jersey",
+          "y": "Trên trang sổ: hình bang New Jersey cắt giấy đặt chồng lên hình kommun Kiruna, mép Kiruna thò ra một chút; thẻ ~22,400 people"
+        },
+        {
+          "cue": "more than eighty percent of the iron ore mined in the European Union",
+          "y": "Thẻ >80%; từ Kiruna nhiều mũi tên quặng nhỏ toả ra một bản đồ châu Âu giấy giản lược (không vẽ biên giới chi tiết)"
+        },
+        {
+          "cue": "The train was still going past",
+          "y": "Quay lại rào chắn đường ngang: Wob vẫn đứng đó, tàu quặng vẫn chạy qua",
+          "gag": "Callback: Wob đã ngồi xuống ghế gấp, rót trà từ bình, tàu vẫn chưa hết; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.45,
+            0.45
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "a geologist called Hjalmar Lundbohm"
+        },
+        {
+          "show": "fact:Municipality, end 2025",
+          "cue": "At the end of twenty twenty-five"
+        },
+        {
+          "show": "fact:LKAB share of EU iron ore",
+          "cue": "LKAB says it produces"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "I stood by the tracks",
+          "move": "still",
+          "zoom": 1.3,
+          "focus": [
+            0.55,
+            0.4
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Then the town could happen",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "wanted a model town",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "The train was still going past",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "type": "section",
+      "chapter": "Overtaking a Church",
+      "lop": "hoi-uc",
+      "khuon": "thu-hong-hieu",
+      "role": "chương 3 (thử, hỏng, hiểu): tháng 8/2025 đi theo nhà thờ dời 19–20/8, ~5 km, rơ-moóc điều khiển từ xa >200 bánh, LKAB nói ~670 t (mức C, rào), đường nới 9→24 m mất một năm; Wob thử đi cạnh nhà thờ, cứ vượt lên",
+      "narration": "I went back that August, because a church was going for a walk. Kiruna Church is big, red and wooden, finished in nineteen twelve, and much loved. The mine needed its ground. So on the nineteenth and twentieth of August, twenty twenty-five, it rolled about five kilometres to the new centre, in one piece. It rode on remote-controlled trailers with more than two hundred wheels. LKAB put its weight at about six hundred and seventy tonnes. To make room, the road was widened from nine metres to twenty-four, which took a year, according to LKAB. A year of roadworks, for a trip of two days. My plan was simple. Walk beside the church, all the way. I overtook it almost at once. I stopped. I waited. I overtook it again. It was slower than a slow walk. I tried walking backwards. Still too fast.",
+      "facts": [
+        {
+          "label": "Church move",
+          "value": "19–20 Aug 2025 · ~5 km",
+          "claim_ids": [
+            "C26"
+          ]
+        },
+        {
+          "label": "Road widened",
+          "value": "9 m → 24 m",
+          "claim_ids": [
+            "C28"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "a church was going for a walk",
+          "y": "Nhà thờ gỗ đỏ mái dốc (dáng gợi lều goahti), tháp chuông riêng đứng cạnh, đứng trên một rơ-moóc dài nhiều trục bánh; Wob (ba lô to, kính râm) đứng cạnh, bé tí"
+        },
+        {
+          "cue": "finished in nineteen twelve",
+          "y": "Chèn cắt giấy tông cũ: giàn giáo gỗ quanh nhà thờ đang dựng; nhãn 1912"
+        },
+        {
+          "cue": "it rolled about five kilometres to the new centre",
+          "y": "Bản đồ sơ đồ: chấm nhà thờ bò dọc nét đứt từ Old centre sang New centre; thẻ 19–20 Aug 2025 · ~5 km"
+        },
+        {
+          "cue": "more than two hundred wheels",
+          "y": "Cận gầm rơ-moóc: hàng hàng bánh xe nhỏ quay rất chậm, một người que cầm hộp điều khiển từ xa đi bên cạnh"
+        },
+        {
+          "cue": "the road was widened from nine metres to twenty-four",
+          "y": "Con đường giấy kéo giãn ngang như dây thun, từ hẹp thành rộng gấp mấy lần; thẻ 9 m → 24 m",
+          "gag": "Một chiếc ghế đá bên đường bị kéo giãn theo, dài ngoẵng; một con chim đậu lên, trượt từ đầu này sang đầu kia"
+        },
+        {
+          "cue": "I overtook it almost at once",
+          "y": "Wob bước đi, chỉ vài bước đã vượt lên trước mũi nhà thờ; quay lại nhìn",
+          "gag": "Ba lần, lần ba lệch: Wob dừng chờ, nhà thờ nhích lên ngang; Wob đi tiếp, lại vượt; lần thứ ba Wob đi lùi, vẫn vượt, mặt tỉnh bơ nhìn người xem"
+        },
+        {
+          "cue": "Still too fast",
+          "y": "Wob đứng yên hẳn, nhà thờ nhích từng chút ngang qua; giữ hình"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Walk beside the church",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 3,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.55,
+            0.5
+          ]
+        },
+        {
+          "show": "fact:Church move",
+          "cue": "So on the nineteenth and twentieth of August"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "It rode on remote-controlled trailers",
+          "move": "pan-right"
+        },
+        {
+          "show": "fact:Road widened",
+          "cue": "the road was widened"
+        },
+        {
+          "show": "text",
+          "cue": "My plan was simple"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I tried walking backwards",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.6,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "a church was going for a walk",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "A year of roadworks",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "My plan was simple",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Still too fast",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "hai",
+      "id": 8
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 3, phần hiểu: SVT phát trực tiếp, đặt tên The Great Church Walk; hàng nghìn người, nhà vua có mặt; Wob học cách đi theo nhịp: dừng ăn bánh quế; nhà thờ xoay 180° để vẫn nhìn về thị trấn; còn đóng cửa, dự kiến mở lại 2027; ĐỔI Ý LẦN 2: chìa khoá trở lại chùm chìa",
+      "narration": "The people along the road had a better system. Swedish television showed the whole move live, and called it The Great Church Walk. Thousands of people lined the route. The king came too. So I stopped racing a building and had a cinnamon bun. A dog sat down next to me and watched the church, very seriously, the whole time. At its new spot, the church was turned around a hundred and eighty degrees, so it still faces the town. It's still closed for now. The parish hopes to reopen it in twenty twenty-seven. A town that carries its church across, instead of leaving it behind, is a town that plans to stay. I took the key out of my pocket and threaded it back onto my key ring.",
+      "facts": [
+        {
+          "label": "Church turned",
+          "value": "180°",
+          "claim_ids": [
+            "C31"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Swedish television showed the whole move live",
+          "y": "Một máy quay truyền hình giấy trên chân máy chĩa vào nhà thờ; ở góc khung một TV giấy nhỏ chiếu đúng cảnh nhà thờ nhích từng chút"
+        },
+        {
+          "cue": "Thousands of people lined the route",
+          "y": "Toàn cảnh con đường rộng, hai bên là hàng người que đứng xem, cờ giấy nhỏ"
+        },
+        {
+          "cue": "The king came too",
+          "y": "Một chiếc vương miện giấy nhỏ lơ lửng giữa đám đông (không vẽ người thật, không mặt)"
+        },
+        {
+          "cue": "had a cinnamon bun",
+          "y": "Wob ngồi trên vỉa hè, cầm bánh quế cuộn to bằng nửa người"
+        },
+        {
+          "cue": "A dog sat down next to me",
+          "y": "Một con chó lông xù ngồi cạnh Wob, cả hai cùng nhìn nhà thờ",
+          "gag": "Take chậm: con chó quay sang nhìn cái bánh của Wob, Wob nhìn con chó, dừng, Wob bẻ đôi bánh; con chó lại quay về nhìn nhà thờ rất nghiêm túc"
+        },
+        {
+          "cue": "turned around a hundred and eighty degrees",
+          "y": "Nhìn từ trên cao: nhà thờ trên rơ-moóc xoay nửa vòng tại chỗ; mũi tên cong; thẻ 180°"
+        },
+        {
+          "cue": "The parish hopes to reopen it in twenty twenty-seven",
+          "y": "Cửa nhà thờ đóng, treo tấm biển gỗ nhỏ không chữ có hình chiếc lịch"
+        },
+        {
+          "cue": "threaded it back onto my key ring",
+          "y": "Wob lấy chìa khoá có thẻ gỗ từ túi ra, luồn lại vào chùm chìa nhà, lắc nhẹ cho kêu leng keng; giữ hình"
+        }
+      ],
+      "que": [
+        {
+          "cue": "Thousands of people lined the route",
+          "hanh_dong": "vay-tay",
+          "so_luong": 4,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.6,
+            0.5
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "called it The Great Church Walk"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "So I stopped racing a building",
+          "move": "pan-right"
+        },
+        {
+          "show": "fact:Church turned",
+          "cue": "turned around a hundred and eighty degrees"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I took the key out of my pocket",
+          "move": "still",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.48
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The people along the road",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "had a cinnamon bun",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "It's still closed for now",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "threaded it back onto my key ring",
+          "bieu_cam": "dong-goi"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "type": "section",
+      "chapter": "Moving House, With the Neighbours",
+      "lop": "hoi-uc",
+      "khuon": "so-sanh-doi-thuong",
+      "role": "chương 4 (so sánh đời thường), mồi lại: tám ngày sau khi nhà thờ tới nơi (28/8/2025), LKAB công bố thêm ~6.000 người, ~2.700 nhà trong khoảng 10 năm; tổng theo LKAB ~12.000 người, ~5.400 nhà, ~2/3 thị trấn; bồi thường: nhà tương đương hoặc giá thị trường +25% do thẩm định viên độc lập",
+      "narration": "Eight days after the church parked, LKAB presented a new forecast. About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years. Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town. I held my key ring and said nothing for a while. So what happens to a house in the way? Picture moving house, except your whole street is moving too, and the mine is paying for the van. Homeowners get a choice. LKAB can build them an equivalent new home. Or it pays the market value plus twenty-five percent, set by an independent valuer. I asked myself what my key ring was worth. An independent valuer would have said, sentimental.",
+      "facts": [
+        {
+          "label": "Affected in total (LKAB)",
+          "value": "~12,000 people · ~5,400 homes",
+          "claim_ids": [
+            "C34"
+          ]
+        },
+        {
+          "label": "Homeowner option",
+          "value": "market value +25%",
+          "claim_ids": [
+            "C35"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "Eight days after the church parked",
+          "y": "Tờ lịch giấy lật nhanh tám tờ; nhà thờ đỏ đứng yên ở chỗ mới phía sau"
+        },
+        {
+          "cue": "LKAB presented a new forecast",
+          "y": "Một tấm bản đồ dự báo giấy được ghim lên bảng: vùng tô sọc lan rộng thêm về phía đông, phủ lên nhiều mái nhà hơn"
+        },
+        {
+          "cue": "about twelve thousand people and around five thousand four hundred homes",
+          "y": "Thẻ ~12,000 people · ~5,400 homes; trên sơ đồ thị trấn, hai phần ba số mái nhà giấy lần lượt bật đèn vàng"
+        },
+        {
+          "cue": "I held my key ring and said nothing for a while",
+          "y": "Wob đứng trên vỉa hè, cầm chùm chìa, nhìn các mái nhà sáng đèn; im lặng; giữ hình"
+        },
+        {
+          "cue": "Picture moving house, except your whole street is moving too",
+          "y": "Bong bóng tưởng tượng vẽ tay: một xe tải dọn nhà chở nguyên cả dãy phố (nhà, cây, cột đèn, hộp thư) đi trên đường; một bàn tay giấy ghi 'paid' dán lên xe",
+          "gag": "Một hộp thư trên xe tải vẫy cờ đỏ nhỏ chào khi xe chạy qua; một cây thông trên xe phải cúi đầu khi chui qua cầu"
+        },
+        {
+          "cue": "LKAB can build them an equivalent new home",
+          "y": "Bản vẽ hai ngôi nhà đứng cạnh nhau: nhà cũ và nhà mới giống hệt, có dấu bằng '=' ở giữa"
+        },
+        {
+          "cue": "market value plus twenty-five percent",
+          "y": "Cân đĩa: một bên là ngôi nhà giấy, bên kia là chồng tiền giấy kèm thêm một phần tư chồng nữa; thẻ market value +25%"
+        },
+        {
+          "cue": "An independent valuer would have said, sentimental",
+          "y": "Wob đặt chùm chìa lên cân đĩa; kim cân chỉ không nhúc nhích",
+          "gag": "Một kính lúp giấy cúi xuống soi chùm chìa, lắc đầu, rồi tự gập lại; Wob ôm chùm chìa vào lòng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "text",
+          "cue": "Eight days after the church parked"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "LKAB presented a new forecast",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.55,
+            0.5
+          ]
+        },
+        {
+          "show": "fact:Affected in total (LKAB)",
+          "cue": "Altogether, according to LKAB"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "Picture moving house",
+          "move": "pan-right"
+        },
+        {
+          "show": "fact:Homeowner option",
+          "cue": "Or it pays the market value"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I asked myself what my key ring was worth",
+          "move": "still",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "Eight days after the church parked",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I held my key ring",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Picture moving house",
+          "bieu_cam": "dong-goi"
+        },
+        {
+          "cue": "sentimental",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "to-mo",
+      "id": 10
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 4: đi bộ ~3 km sang trung tâm mới (khánh thành 9/2022, lễ hội ba ngày); toà thị chính Kristallen (cuối 2018); tháp đồng hồ toà thị chính cũ đứng cạnh; Wob về trả chìa khoá: chỗ toà nhà cũ là bãi sỏi (đóng vòng hook)",
+      "narration": "I walked east, about three kilometres, to where everyone was going. The new centre opened in September twenty twenty-two, with a three-day party. The new town hall is a round building called Kristallen, the Crystal. It opened back in late twenty eighteen. Next to it stands the old town hall's clock tower, moved across from the old centre. I stood underneath it. The clock had moved house and not lost a minute. Then I went back to the old centre to hand in my key, finally. Where my building had been, there was a gap with gravel in it, and a fence. I kept the key. There was nobody to give it to.",
+      "pronunciation": "Kristallen: kri-STAH-len",
+      "facts": [
+        {
+          "label": "New centre opened",
+          "value": "Sept 2022",
+          "claim_ids": [
+            "C37"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I walked east, about three kilometres",
+          "y": "Sơ đồ: Wob (chấm nhỏ có ba lô) đi dọc mũi tên nét đứt Old → New, nhãn ~3 km east; tuyết đã tan, cỏ hè"
+        },
+        {
+          "cue": "with a three-day party",
+          "y": "Quảng trường mới giấy treo dây cờ, bóng bay; thẻ Sept 2022",
+          "gag": "Một quả bóng bay buộc vào cột đèn mới vẫn còn sót lại từ bữa tiệc, xẹp một nửa, vẫy vẫy theo gió khi Wob đi qua"
+        },
+        {
+          "cue": "a round building called Kristallen",
+          "y": "Toà thị chính tròn, mặt kính và đá, trong sáng như pha lê"
+        },
+        {
+          "cue": "the old town hall's clock tower",
+          "y": "Tháp đồng hồ khung sắt cũ đứng cạnh toà nhà tròn mới; Wob ngửa cổ nhìn lên mặt đồng hồ"
+        },
+        {
+          "cue": "The clock had moved house and not lost a minute",
+          "y": "Kim đồng hồ nhích đúng một phút; Wob so với đồng hồ đeo tay của mình, gật gù",
+          "gag": "Đồng hồ đeo tay của Wob chạy nhanh hơn; Wob lặng lẽ chỉnh lại theo tháp"
+        },
+        {
+          "cue": "Where my building had been, there was a gap with gravel in it",
+          "y": "Trung tâm cũ: khoảng đất trống rải sỏi giữa hai hàng rào công trường; Wob cầm chìa khoá đứng nhìn (khớp hình ở hook)"
+        },
+        {
+          "cue": "There was nobody to give it to",
+          "y": "Wob giơ chìa khoá về phía bãi sỏi trống, rồi chậm rãi rút tay lại; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "pan-right",
+          "zoom": 1.3,
+          "focus": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "show": "fact:New centre opened",
+          "cue": "The new centre opened"
+        },
+        {
+          "show": "text",
+          "cue": "The new town hall"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "Then I went back to the old centre",
+          "move": "pan-left"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I kept the key",
+          "move": "still",
+          "zoom": 1.5,
+          "focus": [
+            0.4,
+            0.5
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I walked east",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "The clock had moved house",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "there was a gap with gravel in it",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "I kept the key",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "type": "section",
+      "chapter": "Midnight Sun, Midday Dark",
+      "lop": "hoi-uc",
+      "khuon": "hai-mua",
+      "role": "chương 5 (hai mùa), phần đông: tháng 12/2025, đêm vùng cực ~11/12–1/1 (~3 tuần); tháng 1 TB ≈ −11 °C (≈12 °F, SMHI 1991–2020); một nghiên cứu: trung tâm mới mùa đông có thể lạnh hơn tới 10 độ (mức C, rào); tên Sámi Giron = gà gô núi; ĐỔI Ý LẦN 3: chìa khoá tháo khỏi chùm, cất ngăn kéo",
+      "narration": "That December, I went back for the dark. In Kiruna, the sun stays below the horizon from about the eleventh of December to the first of January. That's about three weeks without a sunrise. At noon, the sky went pink at the edges, then gave up. January averages about minus eleven Celsius. That's around twelve Fahrenheit. And the new centre has a problem of its own. According to a University of Gothenburg study, winter temperatures there can be noticeably lower than at the old site. Cold air pools in the dip where it was built, the way water fills a bowl. Narrow streets and tall blocks keep the low sun off the pavement. On the new square, the wind found me in seconds. The town's North Sámi name is Giron. It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter. I would have liked to turn white and stop caring. Instead I went back to my room, slid the key off my key ring again, and put it in a drawer.",
+      "pronunciation": "Giron: GHEE-ron",
+      "facts": [
+        {
+          "label": "Polar night",
+          "value": "~11 Dec – 1 Jan",
+          "claim_ids": [
+            "C40"
+          ]
+        },
+        {
+          "label": "January average",
+          "value": "−11°C · 12°F",
+          "claim_ids": [
+            "C41"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "That December, I went back for the dark",
+          "y": "Cắt cứng sang mùa đông: cùng góc phố như chương nhà thờ, giờ tối xanh thẫm, đèn đường vàng; Wob mặc ba lớp áo, khăn quấn kín"
+        },
+        {
+          "cue": "the sun stays below the horizon",
+          "y": "Đường chân trời giấy; mặt trời giấy ló nửa mép rồi thụt xuống; thẻ ~11 Dec – 1 Jan"
+        },
+        {
+          "cue": "At noon, the sky went pink at the edges, then gave up",
+          "y": "Đồng hồ treo chỉ 12:00; mép trời ửng hồng một chút rồi tắt",
+          "gag": "Wob giơ đèn pin soi lên trời như muốn giúp mặt trời; đèn pin cũng run"
+        },
+        {
+          "cue": "January averages about minus eleven Celsius",
+          "y": "Nhiệt kế giấy tụt xuống; thẻ −11°C · 12°F; hơi thở Wob đông thành mây nhỏ"
+        },
+        {
+          "cue": "Cold air pools in the dip where it was built, the way water fills a bowl",
+          "y": "Sơ đồ vẽ tay mặt cắt: trung tâm mới nằm trong một cái bát; khí lạnh màu xanh nhạt chảy xuống đọng đầy bát như nước"
+        },
+        {
+          "cue": "keep the low sun off the pavement",
+          "y": "Phố hẹp giữa hai dãy nhà cao, vệt nắng thấp chỉ chạm tới tầng trên, mặt đường xanh lạnh"
+        },
+        {
+          "cue": "the wind found me in seconds",
+          "y": "Quảng trường mới trống trải, gió nét đứt cuộn quanh Wob",
+          "gag": "Gió thổi tung khăn Wob, khăn bay vòng quanh tháp đồng hồ rồi quấn trở lại cổ Wob, chặt hơn lúc đầu"
+        },
+        {
+          "cue": "giron means rock ptarmigan",
+          "y": "Bong bóng tưởng tượng: một con gà gô núi lông trắng ngồi tròn trên tuyết, thoải mái; cạnh đó tấm biển tên thị trấn hai thứ tiếng"
+        },
+        {
+          "cue": "put it in a drawer",
+          "y": "Phòng thuê mới: Wob tháo chìa khoá khỏi chùm, đặt vào ngăn kéo, đẩy ngăn kéo đóng lại; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "fact:Polar night",
+          "cue": "the sun stays below the horizon"
+        },
+        {
+          "show": "fact:January average",
+          "cue": "January averages about minus eleven Celsius"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "According to a University of Gothenburg study",
+          "move": "zoom-in",
+          "zoom": 1.5,
+          "focus": [
+            0.66,
+            0.48
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "The town's North Sámi name is Giron"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "Instead I went back to my room",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.66,
+            0.48
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "That December, I went back for the dark",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "then gave up",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "the wind found me in seconds",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "put it in a drawer",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "khac-nghiet",
+      "id": 12
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 5, phần hè: tháng 6/2026, mặt trời không lặn từ cuối tháng 5 tới giữa tháng 7 (~7 tuần); tháng 7 TB ≈ 13 °C; sương giá cuối xuân ~1/6, đầu thu ~4/9; Wob lấy chìa khoá ra ngắm nhưng chưa đeo lại (nghiêng về SUMMER ONLY)",
+      "narration": "I went back once more, in June, for the light. From late May to mid-July, about seven weeks, the sun doesn't set here at all. July averages about thirteen Celsius. At midnight I went for a walk in sunglasses, which felt like cheating. I tried sleeping with a towel over the window. Then more towels. Then the wardrobe. The sun found the gap anyway. Summer here is short and serious. I took the key out of the drawer and held it up to the midnight sun. It glinted. I didn't put it back on the ring. Not yet.",
+      "facts": [
+        {
+          "label": "Midnight sun",
+          "value": "late May – mid-July",
+          "claim_ids": [
+            "C44"
+          ]
+        },
+        {
+          "label": "July average",
+          "value": "13°C · 56°F",
+          "claim_ids": [
+            "C45"
+          ]
+        }
+      ],
+      "y_hinh": [
+        {
+          "cue": "I went back once more, in June",
+          "y": "Cắt cứng: cùng quảng trường mới, giờ là hè, cỏ xanh, bầu trời vàng nhạt; Wob đeo kính râm, áo cộc"
+        },
+        {
+          "cue": "the sun doesn't set here at all",
+          "y": "Mặt trời giấy lăn một vòng thấp quanh chân trời mà không chạm xuống; thẻ late May – mid-July"
+        },
+        {
+          "cue": "At midnight I went for a walk in sunglasses",
+          "y": "Đồng hồ treo chỉ 00:00; nắng vàng; bóng Wob đổ dài trên vỉa hè"
+        },
+        {
+          "cue": "I tried sleeping with a towel over the window",
+          "y": "Phòng thuê: Wob dán khăn tắm lên cửa sổ, rồi thêm khăn, rồi đẩy cả tủ quần áo chắn cửa",
+          "gag": "Ba lần, lần ba lệch: khăn một, khăn hai, rồi tủ; một tia nắng mảnh lách qua khe tủ, rọi đúng vào mắt Wob đang nhắm"
+        },
+        {
+          "cue": "Summer here is short and serious",
+          "y": "Lịch giấy: mùa hè chỉ là một dải xanh ngắn ngủn giữa hai mép tuyết, không ghi ngày"
+        },
+        {
+          "cue": "held it up to the midnight sun",
+          "y": "Wob đứng bên cửa sổ, giơ chìa khoá có thẻ gỗ lên ánh nắng nửa đêm; chìa khoá loé sáng"
+        },
+        {
+          "cue": "Not yet",
+          "y": "Wob nhìn chùm chìa nhà, nhìn chìa khoá, cầm cả hai mỗi tay một cái; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.6,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "fact:Midnight sun",
+          "cue": "From late May to mid-July"
+        },
+        {
+          "show": "fact:July average",
+          "cue": "July averages about thirteen Celsius"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I tried sleeping with a towel",
+          "move": "pan-left"
+        },
+        {
+          "show": "text",
+          "cue": "Summer here is short and serious"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "I took the key out of the drawer",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.66,
+            0.48
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I went back once more, in June",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "The sun found the gap anyway",
+          "bieu_cam": "soc"
+        },
+        {
+          "cue": "It glinted",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Not yet",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "to-mo",
+      "id": 13
+    },
+    {
+      "type": "section",
+      "chapter": "Who Else Pays for the Mine",
+      "lop": "hien-tai",
+      "khuon": "lich-su-nghiem",
+      "role": "chương 6 (nghiêm, không gag), ở bàn: Wob đặt chìa khoá xuống; phần lớn nhà cũ bị phá, nhiều người mất con phố mình lớn lên; 10/2023 các khối nhà cao tầng của đường chân trời cũ bị phá; 12/2025 người thuê ở một khu lập kiến nghị cho rằng đền bù không đủ",
+      "narration": "Back at my desk, I put the key down for this part. Moving a town is not only engineering. Most of the old houses are not moved. They are demolished, and for many people the streets they grew up on are simply gone. In October twenty twenty-three, the tall blocks that made the old skyline came down. Not everyone wants to go. In December twenty twenty-five, tenants in one neighbourhood started a petition against being moved. And the mine presses on more than houses.",
+      "y_hinh": [
+        {
+          "cue": "I put the key down for this part",
+          "y": "Bàn kỷ vật, đèn bàn hạ thấp, tông trầm. Wob đặt chìa khoá có thẻ gỗ xuống mặt bàn, tay rời ra; nhạc lắng"
+        },
+        {
+          "cue": "Most of the old houses are not moved",
+          "y": "Cắt giấy tông trầm: một dãy nhà gỗ cũ, từng ngôi một được nhấc khỏi trang, để lại khoảng trống trắng"
+        },
+        {
+          "cue": "the streets they grew up on are simply gone",
+          "y": "Biển tên phố cũ đứng một mình giữa khoảng trống, không có nhà hai bên"
+        },
+        {
+          "cue": "the tall blocks that made the old skyline came down",
+          "y": "Đường chân trời giấy với mấy khối nhà cao, lần lượt hạ thấp xuống tới khi chỉ còn đường thẳng; nhãn 2023"
+        },
+        {
+          "cue": "started a petition",
+          "y": "Một tờ kiến nghị giấy dài với nhiều dòng chữ ký nét mực (không đọc được tên), đặt trên bàn gỗ"
+        },
+        {
+          "cue": "And the mine presses on more than houses",
+          "y": "Wob nhìn trang sổ, lật sang trang có hình núi Luossavaara và một vệt đường mảnh chạy sau núi; im lặng"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-out",
+          "zoom": 1.1
+        },
+        {
+          "show": "text",
+          "cue": "Moving a town is not only engineering"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "In October twenty twenty-three",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.45,
+            0.5
+          ]
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "And the mine presses on more than houses",
+          "move": "pan-left"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "I put the key down for this part",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "music_mood": "to-mo",
+      "id": 14
+    },
+    {
+      "type": "section",
+      "lop": "hoi-uc",
+      "role": "tiếp chương 6 (không gag): làng chăn tuần lộc Sámi Gabna, lối di cư giữa đồng cỏ hè và đông; lối cũ dọc hồ bị mỏ và thị trấn chặn, nay đi sau núi Luossavaara; mỏ đất hiếm Per Geijer nằm trên lối còn lại; LKAB nói một trong những mỏ đất hiếm lớn nhất châu Âu, EU xếp dự án chiến lược, lập luận nam châm cho xe điện; lời hai bên (Kuhmunen, Moström); Gabna đề nghị Toà án Nhân quyền châu Âu xem xét; 1/12/2025 Gabna chấm dứt thoả thuận hợp tác, LKAB nói sẽ tìm cách đối thoại mới. Kết bằng câu thật, không nhẹ hẫng",
+      "narration": "North of town, behind the mountain Luossavaara, runs a reindeer route. Gabna, a Sámi reindeer herding community, moves its herds this way between summer and winter grazing land. Their old route along the lake was cut off by the mine and the town. Now LKAB plans a rare earth mine called Per Geijer, right on the route that is left. LKAB calls it one of the largest rare earth deposits in Europe, and the EU lists it as a strategic project. The company argues that electric cars need the magnets these metals go into. Gabna's chair, Lars-Marcus Kuhmunen, has said there is nowhere left for them to move. LKAB's chief executive, Jan Moström, has said the problem is that both sides need the same land. Gabna has asked the European Court of Human Rights to look at the case. In December twenty twenty-five, it ended its cooperation agreement with LKAB, saying consultations had changed nothing. LKAB said it would look for a new way to talk. I don't have a neat line for this part.",
+      "pronunciation": "Luossavaara: loo-OSS-ah-vah-rah; Gabna: GAHB-nah; Per Geijer: pair YAY-er; Kuhmunen: KOO-moo-nen; Moström: MOO-strerm",
+      "y_hinh": [
+        {
+          "cue": "behind the mountain Luossavaara, runs a reindeer route",
+          "y": "Cắt giấy tông trầm: núi Luossavaara thấp, sau núi là một vệt đường mảnh nét đứt chạy qua rừng bạch dương lùn; Wob đứng xa, nhỏ, đứng yên"
+        },
+        {
+          "cue": "moves its herds this way between summer and winter grazing land",
+          "y": "Một đàn tuần lộc giấy đi thành hàng dọc theo vệt đường; người chăn là người que đội mũ len (không mặt, không trang phục chi tiết)"
+        },
+        {
+          "cue": "Their old route along the lake was cut off by the mine and the town",
+          "y": "Sơ đồ: vệt đường cũ dọc hồ bị một dải nhà và đường hầm chắn ngang, nét đứt dừng lại; vệt đường mới vòng ra sau núi"
+        },
+        {
+          "cue": "right on the route that is left",
+          "y": "Một khung ô vuông nét mực (khu mỏ dự kiến) đặt chồng lên đúng vệt đường còn lại; không gag"
+        },
+        {
+          "cue": "electric cars need the magnets",
+          "y": "Hình đơn giản: một nam châm giấy và một chiếc xe điện giấy, đặt lặng lẽ cạnh khung mỏ"
+        },
+        {
+          "cue": "Gabna's chair, Lars-Marcus Kuhmunen, has said",
+          "y": "Thẻ chữ trích dẫn trên trang giấy, không ảnh người: 'Nowhere left to move' – Gabna"
+        },
+        {
+          "cue": "Jan Moström, has said the problem",
+          "y": "Thẻ chữ trích dẫn đối xứng bên kia trang, cùng cỡ: 'Both need the same land' – LKAB"
+        },
+        {
+          "cue": "ended its cooperation agreement with LKAB",
+          "y": "Một tờ thoả thuận giấy được gấp lại, đặt sang một bên; không xé, không kịch tính"
+        },
+        {
+          "cue": "I don't have a neat line for this part",
+          "y": "Về bàn: Wob nhìn chìa khoá trên bàn, không cầm lên; đèn bàn; im lặng 1 giây"
+        }
+      ],
+      "que": [
+        {
+          "cue": "moves its herds this way",
+          "hanh_dong": "di-bo",
+          "tu": "trai",
+          "so_luong": 1,
+          "giu": 4
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna-centre",
+          "move": "zoom-in",
+          "zoom": 1.4,
+          "focus": [
+            0.45,
+            0.25
+          ]
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "Their old route along the lake",
+          "move": "pan-right"
+        },
+        {
+          "show": "text",
+          "cue": "Now LKAB plans a rare earth mine"
+        },
+        {
+          "show": "text",
+          "cue": "Gabna's chair, Lars-Marcus Kuhmunen"
+        },
+        {
+          "show": "text",
+          "cue": "LKAB's chief executive, Jan Moström"
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "In December twenty twenty-five",
+          "move": "still",
+          "zoom": 1.2
+        }
+      ],
+      "wob": [
+        {
+          "cue": "North of town",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "I don't have a neat line",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "id": 15
+    },
+    {
+      "type": "outro",
+      "chapter": "Lamp On, Lamp Off",
+      "lop": "hien-tai",
+      "role": "outro ở bàn (khuôn khác tập 5): Wob bật/tắt đèn bàn trên chìa khoá để kể hai mùa; lý do người ta ở (đi theo quặng, dời thị trấn thay vì bỏ đi); đóng dấu SUMMER ONLY trong ánh đèn; ai hợp hơn Wob; chìa khoá treo trên đinh bên cửa sổ, hướng đông (callback hook); câu hỏi bình luận",
+      "narration": "The key lives under my desk lamp now. Lamp on. That's June. Sun at midnight, a church you can walk beside, a cinnamon bun at the roadside. Lamp off. That's December. Weeks without a sunrise, and a new square that holds the cold. Lamp on again. I'm not made of stone. Kiruna didn't come here for the weather. It came for the iron, and when the iron started pulling the ground away, the town picked up its church and kept going. I admire that a lot. I just can't do the dark. Summer only. I'd come every June, help carry something heavy, and leave before the sun does. If you like snow, quiet and a project measured in decades, you'd outlast me easily. I hung the key on a nail by my window, pointing east, in case its door turns up. Would you move your whole town to keep your job?",
+      "verdict": {
+        "label": "SUMMER ONLY",
+        "reason": "Kiruna followed its iron (worth mining once a railway reached an ice-free Norwegian harbour) and, when the mine began swallowing the ground, moved its centre rather than leave, which Wob admires; but weeks without sunrise, a new centre that one study found can be colder than the old one, and a nightly blast mean Wob would only come for the midnight-sun summer.",
+        "cue": "Summer only"
+      },
+      "y_hinh": [
+        {
+          "cue": "The key lives under my desk lamp now",
+          "y": "Bàn kỷ vật: chìa khoá có thẻ gỗ nằm dưới đèn bàn; trang hộ chiếu Kiruna mở cạnh, ô con dấu còn trống"
+        },
+        {
+          "cue": "Lamp on. That's June",
+          "y": "Wob bật đèn: bàn sáng vàng; bóng chìa khoá đổ ngắn; trên trang sổ hiện nhà thờ đỏ nhỏ và bánh quế"
+        },
+        {
+          "cue": "Lamp off. That's December",
+          "y": "Wob tắt đèn: bàn tối xanh, chỉ còn ánh trăng giấy; Wob run nhẹ"
+        },
+        {
+          "cue": "Lamp on again. I'm not made of stone",
+          "y": "Wob bật lại đèn rất nhanh, ôm lấy chân đèn",
+          "gag": "Take chậm: tắt đèn, Wob đứng trong tối hai nhịp, tay mò mẫm tìm công tắc, đèn bật lại, Wob đang ôm chân đèn như ôm lò sưởi; giữ hình"
+        },
+        {
+          "cue": "the town picked up its church and kept going",
+          "y": "Trên trang sổ, nhà thờ đỏ giấy tí hon nhích sang phải theo nét đứt, tháp đồng hồ đi theo"
+        },
+        {
+          "cue": "Summer only",
+          "y": "Đóng dấu: Wob nhấc con dấu, đóng lên ô trống của trang hộ chiếu Kiruna dưới ánh đèn bàn: SUMMER ONLY; tiếng dau-wob"
+        },
+        {
+          "cue": "leave before the sun does",
+          "y": "Wob làm động tác vác một thùng các-tông, rồi vẫy tay chào mặt trời giấy trên trang sổ"
+        },
+        {
+          "cue": "I hung the key on a nail by my window, pointing east",
+          "y": "Wob treo chìa khoá có thẻ gỗ lên cái đinh cạnh cửa sổ; chìa khoá đung đưa rồi dừng, mũi chìa chỉ sang phải (phía đông)",
+          "gag": "Chìa khoá dừng hẳn, rồi tự nhích thêm một chút về phía đông như đang ngó; Wob nhìn nó, nhìn người xem"
+        },
+        {
+          "cue": "Would you move your whole town to keep your job",
+          "y": "Wob quay ra phía người xem, tay chỉ vào chìa khoá trên đinh; giữ hình"
+        }
+      ],
+      "shots": [
+        {
+          "show": "asset:map-kiruna",
+          "move": "zoom-in",
+          "zoom": 1.3,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        },
+        {
+          "show": "text",
+          "cue": "Lamp on. That's June"
+        },
+        {
+          "show": "text",
+          "cue": "Lamp off. That's December"
+        },
+        {
+          "show": "asset:map-kiruna-rail",
+          "cue": "Kiruna didn't come here for the weather",
+          "move": "zoom-out",
+          "zoom": 1.0
+        },
+        {
+          "show": "asset:map-kiruna-centre",
+          "cue": "the town picked up its church",
+          "move": "pan-right"
+        },
+        {
+          "show": "asset:map-kiruna",
+          "cue": "I hung the key on a nail",
+          "move": "still",
+          "zoom": 1.4,
+          "focus": [
+            0.68,
+            0.48
+          ]
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The key lives under",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Lamp off",
+          "bieu_cam": "lanh-run"
+        },
+        {
+          "cue": "Lamp on again",
+          "bieu_cam": "nong-chay"
+        },
+        {
+          "cue": "I admire that a lot",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Summer only",
+          "bieu_cam": "hao-hung"
+        },
+        {
+          "cue": "Would you move your whole town",
+          "bieu_cam": "ngam-nghi"
+        }
+      ],
+      "id": 16
+    },
+    {
+      "type": "duoi",
+      "lop": "hien-tai",
+      "role": "đuôi tập (skill mo-ket): chìa khoá lên kệ trên đinh riêng, cạnh bưu thiếp tập 5 và lọ opal tập 2; nhá tập 7 bằng tất ẩm và mưa, không tên nơi, không số",
+      "narration": "The key goes on the shelf, on a nail of its own, beside the postcard that lost the race home. Behind them, the opal jar still rattles mostly air. Next, I am packing every sock I own. I hear the rain there takes its time.",
+      "duoi": {
+        "ky_vat": "chìa khoá sắt cũ có thẻ gỗ buộc dây đỏ (phòng thuê ở trung tâm cũ Kiruna, cánh cửa không còn)",
+        "nhin_lai": [
+          "2026-11-16-tristan-da-cunha",
+          "2026-11-16-coober-pedy"
+        ],
+        "nha_tap_sau": {
+          "slug": "2026-11-22-mawsynram",
+          "cue": "every sock I own",
+          "goi_y": "ngôi làng mưa rất nhiều: tất không khô, mưa kéo dài; không nêu tên, không số"
+        }
+      },
+      "y_hinh": [
+        {
+          "cue": "The key goes on the shelf",
+          "y": "Kệ kỷ vật (diorama): Wob treo chìa khoá lên một cái đinh nhỏ trên kệ, thẻ tên 'Kiruna' bên dưới"
+        },
+        {
+          "cue": "beside the postcard that lost the race home",
+          "y": "Bưu thiếp Tristan da Cunha dựng cạnh, tem quay ra ngoài; bưu thiếp nghiêng nhẹ về phía chìa khoá"
+        },
+        {
+          "cue": "the opal jar still rattles mostly air",
+          "y": "Lọ opal Coober Pedy rung lách cách khi Wob chạm kệ"
+        },
+        {
+          "cue": "Next, I am packing every sock I own",
+          "y": "Bản đồ giấy mở ra, ghim mới cắm ở Kiruna; một ghim trống rung ở vùng tập sau (chỉ hình giấy gợi ý); Wob nhét một chồng tất vào va li, một chiếc tất rỉ một giọt nước"
+        },
+        {
+          "cue": "I hear the rain there takes its time",
+          "y": "Hai khung ảnh giấy trống và vòng tròn giấy bật lên bên phải (vùng end screen, bên trong trống); vài giọt mưa giấy rơi chậm ngoài cửa sổ; Wob chỉ tay vào khung, chớp mắt"
+        }
+      ],
+      "wob": [
+        {
+          "cue": "The key goes on the shelf",
+          "bieu_cam": "ngam-nghi"
+        },
+        {
+          "cue": "Next, I am packing",
+          "bieu_cam": "dong-goi"
+        }
+      ],
+      "id": 17
+    }
+  ],
+  "anh_ai": [],
+  "claims": [
+    {
+      "id": "C01",
+      "scene": 2,
+      "quote": "The town is Kiruna, in the far north of Sweden, above the Arctic Circle.",
+      "statement": "Kiruna is a town in Norrbotten County in the far north of Sweden, located north of the Arctic Circle.",
+      "source_ids": [
+        "S44",
+        "S30"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C02",
+      "scene": 2,
+      "quote": "Under the hill next door is an iron mine, and it is slowly swallowing the ground the old centre stood on. So the town is packing up and moving east.",
+      "statement": "LKAB's underground iron ore mine in Kiirunavaara, next to Kiruna, causes ground deformation that spreads toward the town, so Kiruna's old centre is being dismantled and the centre relocated about 3 km to the east.",
+      "source_ids": [
+        "S12",
+        "S27",
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C03",
+      "scene": 2,
+      "quote": "Houses, shops, a clock tower, even a big red wooden church.",
+      "statement": "Kiruna's urban transformation involves replacing or moving homes and shops, moving the old town hall's clock tower to the new centre, and moving the large red wooden Kiruna Church (moved in August 2025).",
+      "source_ids": [
+        "S12",
+        "S14",
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C04",
+      "scene": 2,
+      "quote": "In seventeen thirty-six, a Sámi man named Amund Amundson Mangi reported the iron ore here to the Swedish state. He got a reward, and no taxes for life.",
+      "statement": "According to LKAB's company history, in 1736 a Sámi man named Amund Amundson Mangi reported the iron ore deposits in the Kiruna area to the Swedish state, and was rewarded with money and exemption from taxes for life.",
+      "source_ids": [
+        "S47"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C05",
+      "scene": 2,
+      "quote": "The town didn't start until nineteen hundred.",
+      "statement": "Kiruna counts 1900 as its founding year, the year the King approved its town plan.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C06",
+      "scene": 3,
+      "quote": "The mine blasts every night, between one fifteen and one forty-five. The blasting area is cleared first, and the tunnels are aired out for a few hours afterwards. Up on the surface, the ground sometimes shivers.",
+      "statement": "LKAB's Kiruna mine carries out its production blasting every night between 01:15 and 01:45; the blasting area is evacuated beforehand, the mine is ventilated for a few hours afterwards, and vibrations can sometimes be felt above ground.",
+      "source_ids": [
+        "S52"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C07",
+      "scene": 4,
+      "quote": "According to LKAB, the state-owned company that runs it, this is the world's largest underground iron ore mine.",
+      "statement": "LKAB, the Swedish state-owned mining company that operates the Kiruna mine, describes it as the world's largest underground iron ore mine (a description from LKAB itself, not independently confirmed).",
+      "source_ids": [
+        "S31",
+        "S30",
+        "S9"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C08",
+      "scene": 4,
+      "quote": "Its main haulage level sits about one thousand three hundred and sixty-five metres down. That's nearly four and a half thousand feet.",
+      "statement": "The current main haulage level of LKAB's Kiruna mine is at a depth of 1,365 metres (about 4,480 feet).",
+      "source_ids": [
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C09",
+      "scene": 4,
+      "quote": "They take the ore out from below, level by level, and let the rock above cave in behind them. Think of an hourglass. Pull sand from the bottom, and the top of the pile slowly sinks.",
+      "statement": "LKAB mines Kiruna by sublevel caving: ore is extracted level by level from below and the overlying rock caves in behind the mining, so the ground surface above gradually subsides.",
+      "source_ids": [
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C10",
+      "scene": 4,
+      "quote": "And the ore body keeps running east, under the town.",
+      "statement": "The Kiruna ore body continues eastward beneath the old town (and northward), so ground deformation from mining continues to spread toward the town.",
+      "source_ids": [
+        "S27"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C11",
+      "scene": 4,
+      "quote": "In May twenty twenty, the mine set off the biggest mining-induced earthquake ever recorded in Sweden. Magnitude four point one. Nobody was hurt.",
+      "statement": "On 18 May 2020 a magnitude 4.1 (ML, Swedish National Seismic Network) seismic event occurred at LKAB's Kiruna mine, the largest mining-induced earthquake recorded in Sweden; no one among the people in the mine was injured.",
+      "source_ids": [
+        "S56"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C12",
+      "scene": 5,
+      "quote": "In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights.",
+      "statement": "Kiruna recorded 607,818 commercial guest nights in 2024, a record for the municipality.",
+      "source_ids": [
+        "S71"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C13",
+      "scene": 5,
+      "quote": "My second guess was the hotel made of ice, in the village of Jukkasjärvi, about seventeen kilometres away. That's roughly eleven miles.",
+      "statement": "Icehotel is located in the village of Jukkasjärvi, about 17 km (about 11 miles) from Kiruna.",
+      "source_ids": [
+        "S70"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C14",
+      "scene": 5,
+      "quote": "Icehotel began in nineteen eighty-nine as an art gallery made of ice and snow.",
+      "statement": "Icehotel in Jukkasjärvi began in 1989 as an art gallery built of ice and snow (the Arctic Hall), 89 years after Kiruna's founding year of 1900.",
+      "source_ids": [
+        "S70",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C15",
+      "scene": 6,
+      "quote": "Up to sixty-eight wagons, about seven hundred and fifty metres long. Roughly seven football pitches of iron.",
+      "statement": "Iron ore trains on the Malmbanan line between Kiruna and Narvik run with up to 68 wagons and are about 750 m long, roughly the length of seven 105-metre football pitches.",
+      "source_ids": [
+        "S51"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C16",
+      "scene": 6,
+      "quote": "That sea freezes over every winter.",
+      "statement": "The sea off Luleå, Sweden's ore port on the northern Gulf of Bothnia east of Kiruna, freezes over every winter.",
+      "source_ids": [
+        "S50",
+        "S80"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C17",
+      "scene": 6,
+      "quote": "So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast. Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year.",
+      "statement": "The ore railway from Kiruna was built west over the mountains to the port of Narvik on the Norwegian coast, which LKAB says stays ice-free all year thanks to the warm Gulf Stream.",
+      "source_ids": [
+        "S49",
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C18",
+      "scene": 6,
+      "quote": "The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two. The king opened it officially in nineteen oh three.",
+      "statement": "The railway reached Kiruna around 1900, the line to Narvik was completed in 1902, and it was officially inaugurated by King Oscar II in 1903.",
+      "source_ids": [
+        "S5",
+        "S47"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C19",
+      "scene": 6,
+      "quote": "Today, about twelve loaded trains a day still run from Kiruna to Narvik. Luleå ships ore too, with icebreakers helping in winter.",
+      "statement": "According to Trafikverket, about 12 loaded ore trains a day run from Kiruna to Narvik; Luleå remains an LKAB ore port, and winter shipping there relies on icebreaker assistance.",
+      "source_ids": [
+        "S51",
+        "S49",
+        "S50"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C20",
+      "scene": 7,
+      "quote": "Kiruna counts nineteen hundred as its birth year, when the king approved its town plan.",
+      "statement": "Kiruna considers 1900 its year of birth, when the King approved the town plan.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C21",
+      "scene": 7,
+      "quote": "The mining company's first managing director, a geologist called Hjalmar Lundbohm, wanted a model town. He brought in a leading planner to fit the streets to the climate.",
+      "statement": "Hjalmar Lundbohm, a geologist who became LKAB's first managing director, wanted Kiruna to be a model community and engaged a leading town planner (Per-Olov Hallman) to design a plan adapted to the climate.",
+      "source_ids": [
+        "S4",
+        "S47"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C22",
+      "scene": 7,
+      "quote": "By nineteen ten, about seven thousand five hundred people lived here.",
+      "statement": "Kiruna had about 7,500 inhabitants in 1910.",
+      "source_ids": [
+        "S5"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C23",
+      "scene": 7,
+      "quote": "At the end of twenty twenty-five, the municipality had about twenty-two thousand four hundred. They're spread over an area about the size of New Jersey.",
+      "statement": "Kiruna Municipality had about 22,400 inhabitants at the end of 2025 (Statistics Sweden) and covers roughly 19,000–19,500 km², about the size of the US state of New Jersey (land area about 19,050 km²).",
+      "source_ids": [
+        "S41",
+        "S43",
+        "S45"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C24",
+      "scene": 7,
+      "quote": "LKAB says it produces more than eighty percent of the iron ore mined in the European Union.",
+      "statement": "LKAB states that it produces more than 80 percent of the iron ore mined in the European Union (86 percent in 2025, per its annual report).",
+      "source_ids": [
+        "S31",
+        "S30"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C25",
+      "scene": 8,
+      "quote": "Kiruna Church is big, red and wooden, finished in nineteen twelve, and much loved.",
+      "statement": "Kiruna Church is a large red wooden church completed in 1912 and is one of the town's best-loved buildings.",
+      "source_ids": [
+        "S33",
+        "S19"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C26",
+      "scene": 8,
+      "quote": "So on the nineteenth and twentieth of August, twenty twenty-five, it rolled about five kilometres to the new centre, in one piece. It rode on remote-controlled trailers with more than two hundred wheels.",
+      "statement": "On 19 and 20 August 2025 Kiruna Church was moved in one piece about 5 km to the new city centre on remote-controlled self-propelled trailers with more than 200 wheels.",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S19"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C27",
+      "scene": 8,
+      "quote": "LKAB put its weight at about six hundred and seventy tonnes.",
+      "statement": "LKAB gave the weight of Kiruna Church as about 672 tonnes; the Church of Sweden gives about 600 tonnes.",
+      "source_ids": [
+        "S18",
+        "S34"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C28",
+      "scene": 8,
+      "quote": "To make room, the road was widened from nine metres to twenty-four, which took a year, according to LKAB. A year of roadworks, for a trip of two days.",
+      "statement": "To move Kiruna Church, the road was widened from 9 to 24 metres, work that took about a year according to LKAB, for a move that took two days.",
+      "source_ids": [
+        "S7",
+        "S36",
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C29",
+      "scene": 9,
+      "quote": "Swedish television showed the whole move live, and called it The Great Church Walk.",
+      "statement": "Swedish public broadcaster SVT broadcast the whole Kiruna Church move live under the title 'The Great Church Walk' (Den stora kyrkflytten).",
+      "source_ids": [
+        "S32",
+        "S36"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C30",
+      "scene": 9,
+      "quote": "Thousands of people lined the route. The king came too.",
+      "statement": "Thousands of people watched the Kiruna Church move along the route, and King Carl XVI Gustaf attended.",
+      "source_ids": [
+        "S18",
+        "S36"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C31",
+      "scene": 9,
+      "quote": "At its new spot, the church was turned around a hundred and eighty degrees, so it still faces the town.",
+      "statement": "At its new site Kiruna Church was rotated 180 degrees, so that its front still faces the town.",
+      "source_ids": [
+        "S18",
+        "S33"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C32",
+      "scene": 9,
+      "quote": "The parish hopes to reopen it in twenty twenty-seven.",
+      "statement": "As of November 2026 Kiruna Church remains closed after the move; the Church of Sweden's Kiruna parish hopes to reopen it in 2027.",
+      "source_ids": [
+        "S34",
+        "S35"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C33",
+      "scene": 10,
+      "quote": "Eight days after the church parked, LKAB presented a new forecast. About six thousand more people and around two thousand seven hundred more homes would have to move, over roughly the next ten years.",
+      "statement": "On 28 August 2025, eight days after Kiruna Church reached its new site on 20 August, LKAB presented a new ground-deformation forecast under which about 6,000 more people and about 2,700 more homes in Kiruna would be affected and need to be compensated over the next ten years.",
+      "source_ids": [
+        "S27",
+        "S29",
+        "S18"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C34",
+      "scene": 10,
+      "quote": "Altogether, according to LKAB, the move now affects about twelve thousand people and around five thousand four hundred homes. That's roughly two thirds of the town.",
+      "statement": "According to LKAB, Kiruna's urban transformation now affects about 12,000 people and about 5,400 homes in total, roughly two thirds of the town.",
+      "source_ids": [
+        "S30"
+      ],
+      "hedged": true
+    },
+    {
+      "id": "C35",
+      "scene": 10,
+      "quote": "Homeowners get a choice. LKAB can build them an equivalent new home. Or it pays the market value plus twenty-five percent, set by an independent valuer.",
+      "statement": "Kiruna homeowners affected by the mine can choose an equivalent replacement home built by LKAB or a payment of the market value plus 25 percent, assessed by an independent certified valuer.",
+      "source_ids": [
+        "S38",
+        "S39"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C36",
+      "scene": 11,
+      "quote": "I walked east, about three kilometres, to where everyone was going.",
+      "statement": "Kiruna's new city centre lies about 3 km east of the old centre.",
+      "source_ids": [
+        "S12",
+        "S61"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C37",
+      "scene": 11,
+      "quote": "The new centre opened in September twenty twenty-two, with a three-day party.",
+      "statement": "Kiruna's new city centre was inaugurated with a three-day festival on 1 to 3 September 2022.",
+      "source_ids": [
+        "S60",
+        "S61"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C38",
+      "scene": 11,
+      "quote": "The new town hall is a round building called Kristallen, the Crystal. It opened back in late twenty eighteen.",
+      "statement": "Kiruna's new town hall, Kristallen ('The Crystal'), designed by Henning Larsen, is a round building that opened in November 2018.",
+      "source_ids": [
+        "S63"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C39",
+      "scene": 11,
+      "quote": "Next to it stands the old town hall's clock tower, moved across from the old centre.",
+      "statement": "The clock tower of Kiruna's old town hall was moved to the new centre and stands beside the new town hall, Kristallen.",
+      "source_ids": [
+        "S14",
+        "S62"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C40",
+      "scene": 12,
+      "quote": "In Kiruna, the sun stays below the horizon from about the eleventh of December to the first of January. That's about three weeks without a sunrise.",
+      "statement": "In Kiruna the polar night, when the sun does not rise above the horizon, lasts from about 11 December to 1 January, roughly three weeks (exact dates vary by a day or two with terrain).",
+      "source_ids": [
+        "S59"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C41",
+      "scene": 12,
+      "quote": "January averages about minus eleven Celsius. That's around twelve Fahrenheit.",
+      "statement": "Kiruna's average January temperature is about minus 11 °C (−11.3 °C, about 12 °F) according to SMHI's 1991–2020 normals for Kiruna Airport.",
+      "source_ids": [
+        "S57"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C42",
+      "scene": 12,
+      "quote": "According to a University of Gothenburg study, winter temperatures there can be noticeably lower than at the old site.",
+      "statement": "A University of Gothenburg study (Jennie Sjöholm, 2025) found that winter temperatures in Kiruna's new centre can be noticeably lower than at the old centre, because it lies in a hollow where cold air collects and its narrow streets and tall buildings block the low winter sun.",
+      "source_ids": [
+        "S64",
+        "S23"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C43",
+      "scene": 12,
+      "quote": "The town's North Sámi name is Giron. It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter.",
+      "statement": "Kiruna's North Sámi name is Giron, from the mountain Gironvárri (Kiirunavaara); giron means rock ptarmigan, a bird whose plumage turns white in winter.",
+      "source_ids": [
+        "S48"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C44",
+      "scene": 13,
+      "quote": "From late May to mid-July, about seven weeks, the sun doesn't set here at all.",
+      "statement": "In Kiruna the midnight sun lasts from about late May to mid-July, roughly seven weeks, during which the sun does not set.",
+      "source_ids": [
+        "S59"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C45",
+      "scene": 13,
+      "quote": "July averages about thirteen Celsius.",
+      "statement": "Kiruna's average July temperature is about 13 °C (13.2 °C) according to SMHI's 1991–2020 normals for Kiruna Airport.",
+      "source_ids": [
+        "S57"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C47",
+      "scene": 14,
+      "quote": "Most of the old houses are not moved. They are demolished, and for many people the streets they grew up on are simply gone.",
+      "statement": "Most buildings in Kiruna's old centre are demolished and replaced rather than moved, and many residents are unhappy at losing the streets they grew up in.",
+      "source_ids": [
+        "S11",
+        "S13",
+        "S36"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C48",
+      "scene": 14,
+      "quote": "In October twenty twenty-three, the tall blocks that made the old skyline came down.",
+      "statement": "In October 2023 the tall apartment blocks by architect Ralph Erskine that formed Kiruna's classic skyline in the old centre were demolished.",
+      "source_ids": [
+        "S79"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C49",
+      "scene": 14,
+      "quote": "In December twenty twenty-five, tenants in one neighbourhood started a petition against being moved.",
+      "statement": "In December 2025 tenants in Kiruna's Thule neighbourhood started a petition against their forced relocation.",
+      "source_ids": [
+        "S40"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C50",
+      "scene": 15,
+      "quote": "Gabna, a Sámi reindeer herding community, moves its herds this way between summer and winter grazing land. Their old route along the lake was cut off by the mine and the town.",
+      "statement": "Gabna, a Sámi reindeer herding community (sameby) near Kiruna, moves its reindeer between summer and winter pastures through the area north of the town; its former route along Lake Luossajärvi was blocked by the mine and the town, and the herds now pass behind the mountain Luossavaara.",
+      "source_ids": [
+        "S67",
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C51",
+      "scene": 15,
+      "quote": "Now LKAB plans a rare earth mine called Per Geijer, right on the route that is left.",
+      "statement": "LKAB's planned Per Geijer rare earth and iron deposit lies on the migration route that Gabna's reindeer still use behind Luossavaara.",
+      "source_ids": [
+        "S67",
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C52",
+      "scene": 15,
+      "quote": "LKAB calls it one of the largest rare earth deposits in Europe, and the EU lists it as a strategic project.",
+      "statement": "LKAB describes Per Geijer as one of the largest rare earth deposits in Europe, and the EU has designated it a strategic project under the Critical Raw Materials Act.",
+      "source_ids": [
+        "S30",
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C53",
+      "scene": 15,
+      "quote": "The company argues that electric cars need the magnets these metals go into.",
+      "statement": "LKAB argues that rare earth elements from Per Geijer are needed for the permanent magnets used in electric vehicles.",
+      "source_ids": [
+        "S65"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C54",
+      "scene": 15,
+      "quote": "Gabna's chair, Lars-Marcus Kuhmunen, has said there is nowhere left for them to move. LKAB's chief executive, Jan Moström, has said the problem is that both sides need the same land.",
+      "statement": "Gabna's chair Lars-Marcus Kuhmunen has said the community has nowhere left to move, while LKAB chief executive Jan Moström has said the problem is that both parties need the same land (TT, July 2025).",
+      "source_ids": [
+        "S67"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C55",
+      "scene": 15,
+      "quote": "Gabna has asked the European Court of Human Rights to look at the case.",
+      "statement": "Gabna reindeer herding community has asked the European Court of Human Rights to examine its case over the land affected by LKAB's mining plans.",
+      "source_ids": [
+        "S67"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C56",
+      "scene": 15,
+      "quote": "In December twenty twenty-five, it ended its cooperation agreement with LKAB, saying consultations had changed nothing. LKAB said it would look for a new way to talk.",
+      "statement": "On 1 December 2025 Gabna ended its cooperation agreement with LKAB, saying consultations had not changed any mining decisions; LKAB responded that it would seek a new form of dialogue.",
+      "source_ids": [
+        "S66",
+        "S31"
+      ],
+      "hedged": false
+    },
+    {
+      "id": "C57",
+      "scene": 6,
+      "quote": "It is rich in phosphorus, and in older furnaces that made the iron brittle. In the eighteen-seventies, a new method, the Thomas process, turned that flaw into a selling point.",
+      "statement": "The Kiruna-area iron ore is rich in phosphorus, which made iron brittle in older production processes; after the Thomas process was invented in the 1870s, phosphorus-rich ore became valuable, one reason the Swedish ore fields became profitable to mine.",
+      "source_ids": [
+        "S82"
+      ],
+      "hedged": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "S4",
+      "title": "Kiruna – a model community",
+      "publisher": "Kiruna kommun",
+      "type": "goc",
+      "url": "https://kiruna.se/arkiv/samlingssidor/in-english/kiruna---a-model-community.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S5",
+      "title": "History",
+      "publisher": "Kiruna kommun",
+      "type": "goc",
+      "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S7",
+      "title": "Sweden church move (AFP)",
+      "publisher": "RTÉ",
+      "type": "bao",
+      "url": "https://www.rte.ie/news/world/2025/0820/1529347-sweden-church-move",
+      "published": "2025-08-20",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S9",
+      "title": "Swedish city of Kiruna wheels entire 672-tonne church",
+      "publisher": "Dezeen",
+      "type": "bao",
+      "url": "https://www.dezeen.com/2025/08/20/kiruna-church-relocation-sweden/",
+      "published": "2025-08-20",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S11",
+      "title": "Historic Swedish church on the move (AFP)",
+      "publisher": "Khaleej Times",
+      "type": "bao",
+      "url": "https://www.khaleejtimes.com/world/europe/historic-swedish-church-kiruna-kyrka-on-the-move-in-logistical-feat",
+      "published": "2025-08-19",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S12",
+      "title": "We are moving a town",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://samhallsomvandling.lkab.com/en/kiruna/we-are-moving-a-town",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S13",
+      "title": "Moving house: Arctic mining town's move divides residents (AFP)",
+      "publisher": "Phys.org",
+      "type": "bao",
+      "url": "https://phys.org/news/2023-01-house-arctic-town-residents.pdf",
+      "published": "2023-01-18",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S14",
+      "title": "Moving the city of Kiruna",
+      "publisher": "Institution of Civil Engineers",
+      "type": "goc",
+      "url": "https://ice.org.uk/what-is-civil-engineering/infrastructure-projects/moving-the-city-of-kiruna",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S18",
+      "title": "Kiruna Church has found a new home",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+      "published": "2025-08-20",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S19",
+      "title": "Sweden is moving a century-old, 670-tonne church (AP)",
+      "publisher": "TheJournal.ie",
+      "type": "bao",
+      "url": "https://www.thejournal.ie/sweden-church-moving-6793684-Aug2025",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S20",
+      "title": "Historic Swedish church on the move in logistical feat (AFP)",
+      "publisher": "RNZ",
+      "type": "bao",
+      "url": "https://www.rnz.co.nz/news/world/570468/historic-swedish-church-on-the-move-in-logistical-feat",
+      "published": "2025-08-21",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S23",
+      "title": "Kiruna urban transformation (bài báo khoa học)",
+      "publisher": "Springer, Urban Design International",
+      "type": "goc",
+      "url": "https://link.springer.com/10.1057/s41289-025-00277-4",
+      "published": null,
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "S27",
+      "title": "Continued mining affects more of Kiruna",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/press/continued-mining-affects-more-of-kiruna/",
+      "published": "2025-08-29",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S29",
+      "title": "Gruvchocken: Ytterligare 6 000 måste flytta i Kiruna",
+      "publisher": "TV4 Nyheterna",
+      "type": "bao",
+      "url": "https://www.tv4.se/artikel/1P9fbjgS9U1K6MnRCBH6Th/gruvchocken-ytterligare-6-000-maste-flytta-i-kiruna",
+      "published": "2025-08-28",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S30",
+      "title": "Kiruna: mining and critical minerals for the future",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/lkab-in-kiruna",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S31",
+      "title": "Annual and Sustainability Report 2025",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/wp-content/uploads/2026/04/LKAB_Annual-and-Sustainability-Report-2025_260423.pdf",
+      "published": "2026-04-23",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S32",
+      "title": "Kiruna kyrka (Flytt av kulturbyggnader)",
+      "publisher": "Kiruna kommun, Stadsomvandling",
+      "type": "goc",
+      "url": "https://kiruna.se/stadsomvandling/startsida/besokare/flytt-av-kulturbyggnader/kiruna-kyrka.html",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S33",
+      "title": "Kiruna Kyrka (Kiruna stadsvandring)",
+      "publisher": "Kiruna kommun, Konst och kulturhistoria",
+      "type": "goc",
+      "url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kiruna-kyrka.html",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S34",
+      "title": "Flytten av Kiruna kyrka",
+      "publisher": "Svenska kyrkan, Kiruna pastorat",
+      "type": "goc",
+      "url": "https://www.svenskakyrkan.se/kiruna/flytten-av-kiruna-kyrka",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S35",
+      "title": "Nya kyrkoherdens första titt in i Kirunas världsberömda kyrka",
+      "publisher": "SVT Nyheter Norrbotten",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/lokalt/norrbotten/nya-kyrkoherdens-forsta-titt-in-i-kirunas-varldsberomda-kyrka",
+      "published": "2026-01-31",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S36",
+      "title": "How do you move a beloved Swedish church down the road? With prayer, engineering and some Eurovision",
+      "publisher": "AP (đăng lại trên News4Jax)",
+      "type": "bao",
+      "url": "https://www.news4jax.com/news/world/2025/08/19/how-do-you-move-a-beloved-swedish-church-down-the-road-with-prayer-engineering-and-some-eurovision/",
+      "published": "2025-08-19",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S38",
+      "title": "For residents (compensation)",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/community-development/for-those-affected/residents/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S39",
+      "title": "Kiruna Municipality and LKAB present way forward for continued urban transformation",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/press/kiruna-municipality-and-lkab-present-way-forward-for-continued-urban-transformation/",
+      "published": "2025-09-12",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S40",
+      "title": "Hyresgäster rasar mot höjda hyror – tvättstugeupproret är igång",
+      "publisher": "SVT Sápmi",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/sapmi/hyresgaster-rasar-mot-hojda-hyror-tvattstugeupproret-ar-igang",
+      "published": "2025-12-03",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S41",
+      "title": "Folkmängden efter region, civilstånd, ålder och kön, år 2025 (bảng TAB5557, Kiruna 2584)",
+      "publisher": "SCB Statistikdatabasen",
+      "type": "goc",
+      "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB5557/data?lang=sv&valueCodes%5BRegion%5D=2584&valueCodes%5BCivilstand%5D=SC&valueCodes%5BAlder%5D=TotSA&valueCodes%5BKon%5D=TotSa&valueCodes%5BContentsCode%5D=000007ME&valueCodes%5BTid%5D=2025&outputFormat=csv",
+      "published": "2026-02-24",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S43",
+      "title": "Befolkningstäthet, folkmängd och landareal efter region, 2025 (bảng TAB628)",
+      "publisher": "SCB Statistikdatabasen",
+      "type": "goc",
+      "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB628/data?lang=sv&valueCodes%5BRegion%5D=2584&valueCodes%5BKon%5D=1%2B2&valueCodes%5BContentsCode%5D=*&valueCodes%5BTid%5D=2025&outputFormat=csv",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S44",
+      "title": "Geography",
+      "publisher": "Kiruna kommun",
+      "type": "goc",
+      "url": "https://kiruna.se/arkiv/samlingssidor/in-english/geography.html",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S45",
+      "title": "QuickFacts New Jersey, Land area in square miles 2020",
+      "publisher": "U.S. Census Bureau",
+      "type": "goc",
+      "url": "https://www.census.gov/quickfacts/fact/table/NJ/LND110220",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S47",
+      "title": "A history of LKAB",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/who-we-are/a-history-of-lkab/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S48",
+      "title": "Kiruna",
+      "publisher": "Store norske leksikon (https://snl.no/Kiruna) và Den Store Danske (https://lex.dk/Kiruna)",
+      "type": "bach-khoa",
+      "url": "https://snl.no/Kiruna",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S49",
+      "title": "Narvik: our gateway to the world",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/community-development/lkab-in-narvik/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S50",
+      "title": "Project Malmporten (in English)",
+      "publisher": "Sjöfartsverket (Cục Hàng hải Thuỵ Điển)",
+      "type": "goc",
+      "url": "https://www.sjofartsverket.se/globalassets/farledsprojekt/malmporten/dokument/ovriga-dokument/project-malmporten-in-english.pdf",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S51",
+      "title": "Malmbanan, Boden–Riksgränsen",
+      "publisher": "Trafikverket",
+      "type": "goc",
+      "url": "https://www.trafikverket.se/vara-projekt/alla-strak/malmbanan/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S52",
+      "title": "Blasting",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/what-we-do/our-environmental-efforts/blasting/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S56",
+      "title": "Sweden reports its biggest ever quake caused by mining in Arctic (Reuters)",
+      "publisher": "Mining.com",
+      "type": "bao",
+      "url": "https://www.mining.com/web/sweden-reports-its-biggest-ever-quake-caused-by-mining-in-arctic/",
+      "published": "2020-05-18",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S57",
+      "title": "Normalvärden för månadstemperatur 1991–2020 (Normal-temp-1991-2020.xlsx, dòng Kiruna Flygplats 180940)",
+      "publisher": "SMHI",
+      "type": "goc",
+      "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e8313e96/1741337300232/Normal-temp-1991-2020.xlsx",
+      "published": "2021-06-04",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S58",
+      "title": "Normalvärden för mintemperatur 1991–2020 (Tmin-1991-2020.xlsx: trung bình Tmin, số đêm ≤ −0,1 °C, sương giá cuối/đầu)",
+      "publisher": "SMHI",
+      "type": "goc",
+      "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e8313e9a/1741339972820/Tmin-1991-2020.xlsx",
+      "published": "2022-10-07",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S59",
+      "title": "Kiruna, about your destination (mặt trời nửa đêm 27/5–14/7)",
+      "publisher": "Swedavia (công ty sân bay nhà nước)",
+      "type": "goc",
+      "url": "https://www.swedavia.com/kiruna/about-your-destination/kiruna/",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S60",
+      "title": "Invigningen av nya Kiruna",
+      "publisher": "SVT Nyheter Norrbotten",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/lokalt/norrbotten/invigningen-av-nya-kiruna",
+      "published": "2022-08-31",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S61",
+      "title": "Historic opening: an Arctic community moves to make room for mining",
+      "publisher": "High North News",
+      "type": "bao",
+      "url": "https://en.highnorthnews.com/home/historic-opening-an-arctic-community-moves-to-make-room-for-mining/413464",
+      "published": "2022-09-14",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S62",
+      "title": "Gamla stadshuset (QR-promenad)",
+      "publisher": "Kiruna kommun",
+      "type": "goc",
+      "url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/qr-promenad/gamla-stadshuset.html",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S63",
+      "title": "Kiruna Town Hall in Sweden by Henning Larsen",
+      "publisher": "Dezeen",
+      "type": "bao",
+      "url": "https://www.dezeen.com/2018/11/22/kiruna-town-hall-henning-larsen-sweden-artic-circle/",
+      "published": "2018-11-22",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S64",
+      "title": "Arctic town Kiruna is colder after the move",
+      "publisher": "University of Gothenburg",
+      "type": "goc",
+      "url": "https://gu.se/en/news/arctic-town-kiruna-is-colder-after-the-move",
+      "published": "2025-10-29",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S65",
+      "title": "Jakten på metaller hotar renarnas sista väg förbi Kiruna: \"Slutet för samebyn\"",
+      "publisher": "SVT Nyheter",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/inrikes/jakten-pa-metaller-hotar-renarnas-sista-vag-forbi-kiruna-slutet-for-samebyn",
+      "published": "2026-09-03",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S66",
+      "title": "Gabna sameby bryter med LKAB: \"Samråden är ett skådespel\"",
+      "publisher": "SVT Sápmi",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/sapmi/gabna-sameby-bryter-med-lkab-samraden-ar-ett-skadespel",
+      "published": "2025-12-01",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S67",
+      "title": "Samer: Ingenstans kvar att flytta",
+      "publisher": "TT (trên TV4)",
+      "type": "bao",
+      "url": "https://www.tv4.se/artikel/tt-250719-jordartsamer1-7fa4812b/samer-ingenstans-kvar-att-flytta",
+      "published": "2025-07-19",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S70",
+      "title": "The story",
+      "publisher": "Icehotel",
+      "type": "goc",
+      "url": "https://www.icehotel.com/the-story",
+      "published": null,
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S71",
+      "title": "Trenden \"nocturism\" ger rekordår för turismen i Kiruna",
+      "publisher": "SVT Nyheter Norrbotten",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/lokalt/norrbotten/trenden-nocturism-ger-rekordar-for-turismen-i-kiruna-besokare-soker-sig-till-morker",
+      "published": "2025-03-01",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S79",
+      "title": "Här försvinner Kirunas klassiska skyline",
+      "publisher": "SVT Nyheter Norrbotten",
+      "type": "bao",
+      "url": "https://www.svt.se/nyheter/lokalt/norrbotten/har-forsvinner-kirunas-klassiska-skyline--otv5cs",
+      "published": "2023-10-13",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S80",
+      "title": "Havsis vintern 2017–2018 (mùa băng \"bình thường\" về độ dài: đầu tháng 11 tới 24/5)",
+      "publisher": "SMHI",
+      "type": "goc",
+      "url": "https://www.smhi.se/klimat/klimatet-da-och-nu/arets-vatten/vattenaret/2018-07-09-havsis-vintern-2017-2018",
+      "published": "2018-07-09",
+      "accessed": "2026-11-28"
+    },
+    {
+      "id": "S82",
+      "title": "Anders Lindberg: \"LKAB can increase Europe's self-sufficiency\" (mục lịch sử phốt-pho và phương pháp Thomas)",
+      "publisher": "LKAB",
+      "type": "goc",
+      "url": "https://lkab.com/en/articles/lkab-can-increase-europes-self-sufficiency-of-critical-minerals/",
+      "published": "2024-03-20",
+      "accessed": "2026-11-28"
+    }
+  ]
+}

@@ -44,15 +44,17 @@ window.HH_DATA = {
   {
    "tai": 9.61,
    "loi": "Others kept arriving. A sailor from Hastings.",
-   "hanh_dong": "[lia-theo-vat] Trang sổ hình hòn đảo: con tàu giấy nhỏ thứ nhất ghé, thả xuống một người que xách túi đi vào làng (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng); Wob ở bến vẫy chào",
+   "hanh_dong": "[lia-theo-vat] Trang sổ hình hòn đảo: con tàu giấy nhỏ thứ nhất ghé, thả xuống một người que xách túi đi vào làng (người que/giấy dạng chung, nhỏ, KHÔNG mặt chi tiết, không ai là một người cụ thể, vẽ tôn trọng); Wob ĐỨNG Ở MÉP TRANG (không bước vào cảnh) đánh một dấu bút chì nhỏ lên mép hình hòn đảo: dấu 1",
    "gag": "",
-   "dao_cu": [],
+   "dao_cu": [
+    "but-chi"
+   ],
    "sfx": []
   },
   {
    "tai": 12.73,
    "loi": "A Dutchman whose ship was wrecked.",
-   "hanh_dong": "Một mảnh ván trôi dạt vào bờ, người que thứ hai trèo lên bến; Wob đưa tay kéo lên",
+   "hanh_dong": "MỘT việc duy nhất: một mảnh ván trôi dạt vào bờ, người que thứ hai trèo lên bến. Wob không chạm, không chào",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -60,9 +62,11 @@ window.HH_DATA = {
   {
    "tai": 14.65,
    "loi": "An American whaler, and later an American whaling captain.",
-   "hanh_dong": "Tàu giấy thứ ba rồi thứ tư (mỗi tàu một hình cá voi nhỏ trên buồm, không cờ) thả thêm hai người que; Wob vẫy chào, đếm đủ bốn ngón tay",
+   "hanh_dong": "Tàu giấy thứ ba rồi thứ tư (mỗi tàu một hình cá voi nhỏ trên buồm, không cờ) thả thêm hai người que; Wob ở mép trang đánh tiếp dấu 2, 3, 4, rồi gõ đầu bút đếm lại đủ bốn dấu bút chì",
    "gag": "",
-   "dao_cu": [],
+   "dao_cu": [
+    "but-chi"
+   ],
    "sfx": []
   },
   {

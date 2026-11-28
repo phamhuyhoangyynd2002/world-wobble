@@ -22,8 +22,8 @@ window.HH_DATA = {
   {
    "tai": 0.75,
    "loi": "There is no airstrip on Tristan.",
-   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; máy bay giấy lượn tới tìm chỗ đáp, lượn một vòng quanh đỉnh",
-   "gag": "Máy bay giấy thử đáp lên sườn núi, trượt xuống như cầu trượt, lủi thủi bay ra khỏi trang; Wob ở mép trang che mắt",
+   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: núi lửa giữa biển; một chiếc máy bay giấy bay vào và LAO THẲNG vào sườn núi đúng \"airstrip\" (≈ 50.70 s), KHÔNG lượn vòng tìm chỗ đáp",
+   "gag": "Máy bay trượt xuống sườn núi như cầu trượt, nằm bẹp ở chân núi 0,6 s; Wob ở mép trang che mắt",
    "dao_cu": [
     "may-bay-giay"
    ],
@@ -35,7 +35,7 @@ window.HH_DATA = {
   {
    "tai": 2.85,
    "loi": "You go by sea, from Cape Town in South Africa,",
-   "hanh_dong": "Máy bay giấy bay trở lại, tự gấp lại thành một chiếc thuyền giấy và đáp xuống nước, nổi bập bềnh; Wob giơ ngón cái",
+   "hanh_dong": "Máy bay giấy nằm ở chân núi tự mở nếp gấp thành một chiếc thuyền giấy đúng \"sea,\" (≈ 52.65 s), trượt xuống nước nổi bập bềnh; Wob ở mép trang thổi phù cho thuyền trôi về phía Cape Town (mép phải trang)",
    "gag": "Máy bay tự gấp thành thuyền",
    "dao_cu": [
     "thuyen-giay"

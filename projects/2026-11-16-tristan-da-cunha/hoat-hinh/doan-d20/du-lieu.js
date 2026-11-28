@@ -39,9 +39,9 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 4.31,
+   "tai": 7.48,
    "loi": "Soldiers leave. That's their job.",
-   "hanh_dong": "Wob vẫy theo con tàu một cái, hạ tay",
+   "hanh_dong": "Wob ngoài mép trang vẫy theo con tàu một cái đúng \"leave.\" (≈ 221.37 s), hạ tay ở \"job.\" (≈ 222.53 s), giữ tỉnh bơ 0,8 s trước \"So why\" (223.41 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

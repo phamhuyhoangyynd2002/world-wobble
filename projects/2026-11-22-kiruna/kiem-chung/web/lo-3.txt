@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Kiruna" (Sweden). The episode asks: "Why do people live in Kiruna?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C17: The ore railway from Kiruna was built west over the mountains to the port of Narvik on the Norwegian coast, which LKAB says stays ice-free all year thanks to the warm Gulf Stream.
+C18: The railway reached Kiruna around 1900, the line to Narvik was completed in 1902, and it was officially inaugurated by King Oscar II in 1903.
+C19: According to Trafikverket, about 12 loaded ore trains a day run from Kiruna to Narvik; Luleå remains an LKAB ore port, and winter shipping there relies on icebreaker assistance.
+C20: Kiruna considers 1900 its year of birth, when the King approved the town plan.
+C21: Hjalmar Lundbohm, a geologist who became LKAB's first managing director, wanted Kiruna to be a model community and engaged a leading town planner (Per-Olov Hallman) to design a plan adapted to the climate.
+C22: Kiruna had about 7,500 inhabitants in 1910.
+C23: Kiruna Municipality had 22,402 inhabitants on 31 December 2025 (Statistics Sweden), and its land area of 19,307 km² is slightly larger than the land area of the US state of New Jersey (about 19,049 km², 2020 Census).
+C24: LKAB states that it produces more than 80 percent of the iron ore mined in the European Union (86 percent in 2025, per its annual report).
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

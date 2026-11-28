@@ -14,7 +14,7 @@ window.HH_DATA = {
  "bat_dau_tuyet_doi": 34.324,
  "lop": "hien-tai",
  "boi_canh": "Như d03 (bàn, sổ map-tristan). BẢN ĐỒ TRÊN SỔ có thêm một chấm đảo nhỏ ở PHÍA BẮC Tristan (vị trí St Helena −15.96, −5.71 tính bằng cùng phép chiếu orthographic của map-tristan trong manifest: center [−12.28, −37.11], zoom 1.6, anchor 1320,560), KHÔNG nhãn, không tên, không mũ, không lính; chấm chỉ sáng ở nhịp cuối",
- "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); dây giày đã xỏ lại (đầu đoạn); cầm bút chì; cuối đoạn tay không",
+ "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); dây giày đã xỏ lại trong lúc chèn d04 (không diễn); cầm bút chì; cuối đoạn tay không",
  "vao": "cat",
  "ra": "giay",
  "chu_tren_do_vat": [
@@ -24,7 +24,7 @@ window.HH_DATA = {
   {
    "tai": 0.05,
    "loi": "Nearly all of them still voted for the island with the volcano.",
-   "hanh_dong": "Wob xỏ lại dây giày, ngẩng lên, giơ bưu thiếp mặt tranh núi lửa cạnh mặt, mắt mở to (soc); tay kia giơ một lá phiếu giấy nhỏ, đặt lá phiếu lên hình núi lửa",
+   "hanh_dong": "Wob ngẩng lên, giơ bưu thiếp mặt tranh núi lửa cạnh mặt, mắt mở to (soc); tay kia đặt một lá phiếu giấy nhỏ lên hình núi lửa đúng \"volcano.\" (≈ 36.79 s)",
    "gag": "",
    "dao_cu": [
     "buu-thiep",
@@ -58,11 +58,14 @@ window.HH_DATA = {
   {
    "tai": 8.9,
    "loi": "I guessed wrong. Twice.",
-   "hanh_dong": "Hai bong bóng ý nghĩ bật lên trên đầu Wob: một con tàu buồm giấy, một mảnh ván trôi; đúng \"Twice.\" lần lượt vỡ \"bụp\"",
-   "gag": "Bong bóng thứ hai vỡ bắn mảnh giấy vụn lên mặt Wob",
-   "dao_cu": [],
+   "hanh_dong": "[va-cham-vat-ly] Từ sau \"all?\" (≈ 42.86 s) Wob đã cầm sẵn một con tàu buồm giấy (giả thuyết 1) và một mảnh ván giấy (giả thuyết 2). Thả tàu lên vùng biển trên bản đồ trong sổ ở ≈ 43.22 s, tàu NỔI ≥ 0,5 s rồi mới chìm đúng \"wrong.\" (≈ 43.66 s), rồi thả ván, ván nổi một chút rồi chìm đúng \"Twice.\" (≈ 44.38 s)",
+   "gag": "Hai thứ lần lượt chìm nghỉm, vòng sóng giấy lan ra; Wob nhìn chỗ chìm, giữ 0,6 s trước \"The answer,\" (45.34 s)",
+   "dao_cu": [
+    "tau-buom",
+    "van-giay"
+   ],
    "sfx": [
-    "pop",
+    "drop",
     "pop"
    ]
   },

@@ -11,10 +11,10 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 20.0,
- "bat_dau_tuyet_doi": 685.188,
+ "bat_dau_tuyet_doi": 685.38,
  "lop": "duoi",
  "boi_canh": "ĐUÔI TẬP theo skill mo-ket mục 2, dựng bằng templates/hoat-hinh/_chung/mo-ket/duoi-tap.js. Bàn kỷ vật (cùng bàn d01), đèn ấm. Bên trái (x 96–900): kệ gỗ giấy hai tầng: bình xịt còn niêm phong (binhXit, thẻ SANTA CRUZ / DEL ISLOTE), tờ lịch hầm còn băng dính (toLich, thẻ WHITTIER), lọ gần như không có opal (loOpal, thẻ COOBER PEDY), tủ đông nhỏ có cá (tuDong, thẻ OYMYAKON) cạnh kệ; BƯU THIẾP là kỷ vật MỚI (thêm khoá \"buuThiep\" vào VE của duoi-tap.js: chỉ thêm), đứng trên kệ, MẶT TEM QUAY RA, thẻ \"TRISTAN\" / \"DA CUNHA\" hai dòng. Thẻ kệ chữ ≥ 45 px. Bản đồ giấy trừu tượng trái dưới (x < 1100, không biên giới thật, không vùng Đông Nam Á), ghim KHÔNG nhãn. TẮT \"mặt trời nhô\" (ghimRung matTroi: false). Bên phải: vùng end screen để TRỐNG: endScreen {khung: [[1180,160],[1180,500]], vong: [1460,922]} (khung 560×315, vòng Ø200). CAMERA KHOÁ CỨNG cả đoạn",
- "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50; dây thừng đã gỡ, cuộn lại để trên bàn)",
+ "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong) (bộ ở nhà như d48–d50). Khung 0 còn bị dây thừng quấn thành kiện hàng (liên tục từ d50); trong 0–0,6 s dây tuột thành cuộn dưới chân, để lại trên bàn tới hết đoạn; từ 685.98 s cầm bưu thiếp",
  "vao": "cat",
  "ra": "cuoi-video",
  "chu_tren_do_vat": [
@@ -28,11 +28,13 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "",
-   "hanh_dong": "Khung đầu (cắt từ d50) đã đủ bàn, kệ, kỷ vật cũ; Wob cầm bưu thiếp. Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
-   "gag": "",
+   "hanh_dong": "Khung 0 (cắt cứng từ d50): đủ bàn, kệ, kỷ vật cũ; Wob CÒN bị dây quấn thành kiện hàng có nơ, đứng cạnh bưu thiếp nằm trên bàn; nhún một cái, dây tuột thành cuộn dưới chân (pop); Wob nhặt bưu thiếp từ bàn đúng 685.98 s (giây 0,6 của đoạn). Hai khung và vòng giấy trống bật lên trong 0–1,2 s đầu đoạn (dt.endScreen) rồi ĐỨNG YÊN tuyệt đối tới khung cuối (≥ 18 s ổn định). Bên trong khung và vòng không vẽ gì, không chữ; MỌI chuyển động của Wob, dây, bưu thiếp ở x < 1100; sau giây 1,2 của đoạn toàn vùng x ≥ 1150 không vật chuyển động, không chữ",
+   "gag": "Wob thoát khỏi kiện hàng bằng một cú nhún",
    "dao_cu": [
     "khung-anh-trong",
-    "vong-tron-trong"
+    "vong-tron-trong",
+    "day-thung",
+    "buu-thiep"
    ],
    "sfx": [
     "pop"
@@ -41,7 +43,7 @@ window.HH_DATA = {
   {
    "tai": 0.6,
    "loi": "The postcard goes on the shelf, stamp out, beside the spray that's still sealed and the tunnel timetable.",
-   "hanh_dong": "Wob đặt bưu thiếp đứng lên kệ, MẶT TEM quay ra (dt.datLen), cạnh bình xịt (tem niêm phong nguyên) và tờ lịch hầm; thẻ TRISTAN / DA CUNHA dưới bưu thiếp",
+   "hanh_dong": "Wob đặt bưu thiếp đứng lên kệ, MẶT TEM quay ra (dt.datLen), cạnh bình xịt (tem niêm phong nguyên) và tờ lịch hầm; thẻ TRISTAN / DA CUNHA dưới bưu thiếp. Lọ gần như không có opal vẫn đứng trên kệ, KHÔNG nhịp riêng (lời mới bỏ câu lọ opal)",
    "gag": "",
    "dao_cu": [
     "buu-thiep",
@@ -52,16 +54,6 @@ window.HH_DATA = {
   },
   {
    "tai": 6.688,
-   "loi": "The jar of almost no opals rattles.",
-   "hanh_dong": "Lọ opal tự lắc lách cách một cái (dt.rung)",
-   "gag": "",
-   "dao_cu": [
-    "lo-opal"
-   ],
-   "sfx": []
-  },
-  {
-   "tai": 9.162,
    "loi": "The fish keeps watch from the freezer.",
    "hanh_dong": "Nắp tủ đông hé một khe, đôi mắt cá ló ra nhìn quanh như lính gác rồi nắp khép lại (KHÔNG vẫy đuôi như tập 4)",
    "gag": "Cá canh gác từ tủ đông",
@@ -72,9 +64,9 @@ window.HH_DATA = {
    "sfx": []
   },
   {
-   "tai": 11.188,
-   "loi": "Somewhere much colder, a town is moving out, house by house, away from the mine that feeds it.",
-   "hanh_dong": "CHỈ từ chữ \"Somewhere\": bản đồ giấy trừu tượng mở ra ở trái dưới; ghim đỏ mới (không nhãn) cắm vào vùng biển rộng phía nam (nơi vừa đi); từ ghim đó một dãy chấm bút nhỏ (GỌI LẠI dãy chấm cảnh 3) chạy lên tới một ghim trống KHÔNG nhãn rung ở vùng rất xa phía bắc, vài bông tuyết giấy rơi quanh; cạnh ghim một tháp giếng mỏ giấy tí hon và một dãy nhà giấy tí hon nhích từng căn sang ngang xa khỏi tháp. Wob run run (lanh-run). Không tên nơi, không số, không chữ",
+   "tai": 8.713,
+   "loi": "Somewhere much colder, a town is moving out, house by house,",
+   "hanh_dong": "CHỈ từ chữ \"Somewhere\": bản đồ giấy trừu tượng mở ra ở trái dưới; ghim đỏ mới (không nhãn) cắm vào vùng biển rộng phía nam (nơi vừa đi); từ ghim đó một dãy chấm bút nhỏ (GỌI LẠI dãy chấm cảnh 3) chạy lên tới một ghim trống KHÔNG nhãn rung ở vùng rất xa phía bắc, vài bông tuyết giấy rơi quanh; cạnh ghim một dãy nhà giấy tí hon nhích từng căn sang ngang đúng \"house by house\". Wob run run (lanh-run). Không tên nơi, không số, không chữ",
    "gag": "",
    "dao_cu": [
     "ban-do-giay",
@@ -86,9 +78,19 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 14.85,
+   "tai": 12.375,
+   "loi": "away from the mine that feeds it.",
+   "hanh_dong": "Một tháp giếng mỏ giấy tí hon hiện cạnh ghim; dãy nhà tí hon nhích xa dần khỏi tháp; Wob nhìn, gật nhẹ",
+   "gag": "",
+   "dao_cu": [
+    "ban-do-giay"
+   ],
+   "sfx": []
+  },
+  {
+   "tai": 14.484,
    "loi": "",
-   "hanh_dong": "Wob quay sang phải, chỉ tay về phía hai khung trống (bàn tay dừng ở x ≤ 1100), chớp mắt, đứng thở tới hết; nhạc nhỏ dần nhưng không tắt; không mờ đen",
+   "hanh_dong": "Hết lời: Wob quay sang phải, chỉ tay về phía hai khung trống (bàn tay dừng ở x ≤ 1100), chớp mắt, đứng thở tới hết đoạn; nhạc nhỏ dần nhưng không tắt; không mờ đen",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -98,7 +100,7 @@ window.HH_DATA = {
   {
    "scene": 17,
    "bat_dau": 0.6,
-   "thoi_luong": 16.056,
+   "thoi_luong": 13.584,
    "tu": [
     {
      "text": "The",
@@ -193,162 +195,127 @@ window.HH_DATA = {
     {
      "text": "The",
      "start": 6.688,
-     "end": 6.85
-    },
-    {
-     "text": "jar",
-     "start": 6.863,
-     "end": 7.138
-    },
-    {
-     "text": "of",
-     "start": 7.15,
-     "end": 7.225
-    },
-    {
-     "text": "almost",
-     "start": 7.238,
-     "end": 7.65
-    },
-    {
-     "text": "no",
-     "start": 7.662,
-     "end": 7.912
-    },
-    {
-     "text": "opals",
-     "start": 7.925,
-     "end": 8.25
-    },
-    {
-     "text": "rattles.",
-     "start": 8.262,
-     "end": 8.8
-    },
-    {
-     "text": "The",
-     "start": 9.162,
-     "end": 9.338
+     "end": 6.863
     },
     {
      "text": "fish",
-     "start": 9.35,
-     "end": 9.588
+     "start": 6.875,
+     "end": 7.113
     },
     {
      "text": "keeps",
-     "start": 9.6,
-     "end": 9.85
+     "start": 7.125,
+     "end": 7.375
     },
     {
      "text": "watch",
-     "start": 9.862,
-     "end": 10.087
+     "start": 7.387,
+     "end": 7.612
     },
     {
      "text": "from",
-     "start": 10.1,
-     "end": 10.25
+     "start": 7.625,
+     "end": 7.775
     },
     {
      "text": "the",
-     "start": 10.262,
-     "end": 10.325
+     "start": 7.788,
+     "end": 7.85
     },
     {
      "text": "freezer.",
-     "start": 10.338,
-     "end": 10.825
+     "start": 7.863,
+     "end": 8.35
     },
     {
      "text": "Somewhere",
-     "start": 11.188,
-     "end": 11.613
+     "start": 8.713,
+     "end": 9.138
     },
     {
      "text": "much",
-     "start": 11.625,
-     "end": 11.838
+     "start": 9.15,
+     "end": 9.363
     },
     {
      "text": "colder,",
-     "start": 11.85,
-     "end": 12.288
+     "start": 9.375,
+     "end": 9.813
     },
     {
      "text": "a",
-     "start": 12.625,
-     "end": 12.65
+     "start": 10.15,
+     "end": 10.175
     },
     {
      "text": "town",
-     "start": 12.662,
-     "end": 12.925
+     "start": 10.188,
+     "end": 10.45
     },
     {
      "text": "is",
-     "start": 12.938,
-     "end": 13.038
+     "start": 10.463,
+     "end": 10.563
     },
     {
      "text": "moving",
-     "start": 13.05,
-     "end": 13.375
+     "start": 10.575,
+     "end": 10.9
     },
     {
      "text": "out,",
-     "start": 13.387,
-     "end": 13.575
+     "start": 10.912,
+     "end": 11.1
     },
     {
      "text": "house",
-     "start": 13.912,
-     "end": 14.137
+     "start": 11.438,
+     "end": 11.662
     },
     {
      "text": "by",
-     "start": 14.15,
-     "end": 14.325
+     "start": 11.675,
+     "end": 11.85
     },
     {
      "text": "house,",
-     "start": 14.338,
-     "end": 14.775
+     "start": 11.862,
+     "end": 12.3
     },
     {
      "text": "away",
-     "start": 14.85,
-     "end": 15.1
+     "start": 12.375,
+     "end": 12.625
     },
     {
      "text": "from",
-     "start": 15.112,
-     "end": 15.288
+     "start": 12.637,
+     "end": 12.813
     },
     {
      "text": "the",
-     "start": 15.3,
-     "end": 15.362
+     "start": 12.825,
+     "end": 12.887
     },
     {
      "text": "mine",
-     "start": 15.375,
-     "end": 15.65
+     "start": 12.9,
+     "end": 13.175
     },
     {
      "text": "that",
-     "start": 15.662,
-     "end": 15.775
+     "start": 13.188,
+     "end": 13.3
     },
     {
      "text": "feeds",
-     "start": 15.788,
-     "end": 16.112
+     "start": 13.313,
+     "end": 13.637
     },
     {
      "text": "it.",
-     "start": 16.125,
-     "end": 16.275
+     "start": 13.65,
+     "end": 13.8
     }
    ],
    "khau_hinh": [
@@ -369,11 +336,11 @@ window.HH_DATA = {
     },
     {
      "start": 1.267,
-     "end": 1.567,
+     "end": 1.533,
      "value": "D"
     },
     {
-     "start": 1.567,
+     "start": 1.533,
      "end": 1.733,
      "value": "D"
     },
@@ -384,16 +351,11 @@ window.HH_DATA = {
     },
     {
      "start": 1.833,
-     "end": 1.933,
+     "end": 1.967,
      "value": "B"
     },
     {
-     "start": 1.933,
-     "end": 2.067,
-     "value": "C"
-    },
-    {
-     "start": 2.067,
+     "start": 1.967,
      "end": 2.2,
      "value": "C"
     },
@@ -514,43 +476,58 @@ window.HH_DATA = {
     },
     {
      "start": 6.333,
-     "end": 7.033,
+     "end": 6.833,
      "value": "X"
     },
     {
-     "start": 7.033,
-     "end": 7.3,
+     "start": 6.833,
+     "end": 6.933,
+     "value": "B"
+    },
+    {
+     "start": 6.933,
+     "end": 7.1,
+     "value": "X"
+    },
+    {
+     "start": 7.1,
+     "end": 7.2,
+     "value": "B"
+    },
+    {
+     "start": 7.2,
+     "end": 7.333,
+     "value": "B"
+    },
+    {
+     "start": 7.333,
+     "end": 7.5,
+     "value": "B"
+    },
+    {
+     "start": 7.5,
+     "end": 7.667,
      "value": "D"
     },
     {
-     "start": 7.3,
-     "end": 7.4,
-     "value": "D"
+     "start": 7.667,
+     "end": 7.767,
+     "value": "B"
     },
     {
-     "start": 7.4,
-     "end": 7.7,
-     "value": "C"
-    },
-    {
-     "start": 7.7,
-     "end": 7.833,
-     "value": "D"
-    },
-    {
-     "start": 7.833,
+     "start": 7.767,
      "end": 7.9,
      "value": "C"
     },
     {
      "start": 7.9,
-     "end": 8.0,
-     "value": "B"
+     "end": 8.033,
+     "value": "X"
     },
     {
-     "start": 8.0,
+     "start": 8.033,
      "end": 8.233,
-     "value": "D"
+     "value": "C"
     },
     {
      "start": 8.233,
@@ -559,237 +536,152 @@ window.HH_DATA = {
     },
     {
      "start": 8.367,
-     "end": 8.5,
+     "end": 8.9,
+     "value": "X"
+    },
+    {
+     "start": 8.9,
+     "end": 9.0,
      "value": "C"
     },
     {
-     "start": 8.5,
-     "end": 8.6,
+     "start": 9.0,
+     "end": 9.1,
+     "value": "C"
+    },
+    {
+     "start": 9.1,
+     "end": 9.2,
+     "value": "D"
+    },
+    {
+     "start": 9.2,
+     "end": 9.333,
+     "value": "F"
+    },
+    {
+     "start": 9.333,
+     "end": 9.533,
      "value": "B"
     },
     {
-     "start": 8.6,
-     "end": 8.7,
-     "value": "X"
-    },
-    {
-     "start": 8.7,
-     "end": 8.833,
-     "value": "C"
-    },
-    {
-     "start": 8.833,
-     "end": 9.4,
-     "value": "X"
-    },
-    {
-     "start": 9.4,
-     "end": 9.5,
-     "value": "X"
-    },
-    {
-     "start": 9.5,
+     "start": 9.533,
      "end": 9.733,
      "value": "D"
     },
     {
      "start": 9.733,
      "end": 9.833,
-     "value": "C"
+     "value": "B"
     },
     {
      "start": 9.833,
-     "end": 9.967,
-     "value": "B"
-    },
-    {
-     "start": 9.967,
-     "end": 10.1,
-     "value": "D"
-    },
-    {
-     "start": 10.1,
      "end": 10.233,
-     "value": "G"
+     "value": "X"
     },
     {
      "start": 10.233,
-     "end": 10.4,
-     "value": "C"
-    },
-    {
-     "start": 10.4,
-     "end": 10.533,
-     "value": "X"
-    },
-    {
-     "start": 10.533,
-     "end": 10.7,
-     "value": "C"
-    },
-    {
-     "start": 10.7,
-     "end": 10.833,
+     "end": 10.333,
      "value": "B"
+    },
+    {
+     "start": 10.333,
+     "end": 10.5,
+     "value": "F"
+    },
+    {
+     "start": 10.5,
+     "end": 10.667,
+     "value": "D"
+    },
+    {
+     "start": 10.667,
+     "end": 10.833,
+     "value": "D"
     },
     {
      "start": 10.833,
-     "end": 11.433,
-     "value": "X"
-    },
-    {
-     "start": 11.433,
-     "end": 11.5,
+     "end": 10.933,
      "value": "D"
     },
     {
-     "start": 11.5,
-     "end": 11.667,
-     "value": "C"
-    },
-    {
-     "start": 11.667,
-     "end": 11.833,
+     "start": 10.933,
+     "end": 11.133,
      "value": "F"
     },
     {
-     "start": 11.833,
-     "end": 11.933,
+     "start": 11.133,
+     "end": 11.533,
+     "value": "X"
+    },
+    {
+     "start": 11.533,
+     "end": 11.867,
+     "value": "F"
+    },
+    {
+     "start": 11.867,
+     "end": 12.033,
      "value": "B"
     },
     {
-     "start": 11.933,
-     "end": 12.0,
-     "value": "B"
-    },
-    {
-     "start": 12.0,
-     "end": 12.133,
-     "value": "D"
-    },
-    {
-     "start": 12.133,
-     "end": 12.233,
-     "value": "B"
-    },
-    {
-     "start": 12.233,
+     "start": 12.033,
      "end": 12.3,
-     "value": "B"
+     "value": "F"
     },
     {
      "start": 12.3,
+     "end": 12.7,
+     "value": "B"
+    },
+    {
+     "start": 12.7,
      "end": 12.8,
-     "value": "X"
+     "value": "B"
     },
     {
      "start": 12.8,
-     "end": 13.133,
-     "value": "F"
-    },
-    {
-     "start": 13.133,
-     "end": 13.3,
+     "end": 12.9,
      "value": "D"
     },
     {
-     "start": 13.3,
-     "end": 13.4,
-     "value": "D"
+     "start": 12.9,
+     "end": 12.967,
+     "value": "A"
     },
     {
-     "start": 13.4,
-     "end": 13.6,
-     "value": "F"
+     "start": 12.967,
+     "end": 13.1,
+     "value": "C"
     },
     {
-     "start": 13.6,
-     "end": 14.0,
+     "start": 13.1,
+     "end": 13.233,
+     "value": "C"
+    },
+    {
+     "start": 13.233,
+     "end": 13.333,
+     "value": "B"
+    },
+    {
+     "start": 13.333,
+     "end": 13.5,
      "value": "X"
     },
     {
-     "start": 14.0,
+     "start": 13.5,
+     "end": 13.567,
+     "value": "C"
+    },
+    {
+     "start": 13.567,
+     "end": 13.733,
+     "value": "B"
+    },
+    {
+     "start": 13.733,
      "end": 14.2,
-     "value": "F"
-    },
-    {
-     "start": 14.2,
-     "end": 14.333,
-     "value": "X"
-    },
-    {
-     "start": 14.333,
-     "end": 14.5,
-     "value": "B"
-    },
-    {
-     "start": 14.5,
-     "end": 14.7,
-     "value": "F"
-    },
-    {
-     "start": 14.7,
-     "end": 14.833,
-     "value": "F"
-    },
-    {
-     "start": 14.833,
-     "end": 14.933,
-     "value": "X"
-    },
-    {
-     "start": 14.933,
-     "end": 15.167,
-     "value": "C"
-    },
-    {
-     "start": 15.167,
-     "end": 15.3,
-     "value": "B"
-    },
-    {
-     "start": 15.3,
-     "end": 15.433,
-     "value": "D"
-    },
-    {
-     "start": 15.433,
-     "end": 15.5,
-     "value": "C"
-    },
-    {
-     "start": 15.5,
-     "end": 15.6,
-     "value": "D"
-    },
-    {
-     "start": 15.6,
-     "end": 15.733,
-     "value": "C"
-    },
-    {
-     "start": 15.733,
-     "end": 15.833,
-     "value": "B"
-    },
-    {
-     "start": 15.833,
-     "end": 15.967,
-     "value": "X"
-    },
-    {
-     "start": 15.967,
-     "end": 16.133,
-     "value": "C"
-    },
-    {
-     "start": 16.133,
-     "end": 16.2,
-     "value": "B"
-    },
-    {
-     "start": 16.2,
-     "end": 16.667,
      "value": "X"
     }
    ]

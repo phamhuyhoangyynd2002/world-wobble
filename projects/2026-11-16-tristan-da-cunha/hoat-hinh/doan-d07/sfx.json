@@ -1,0 +1,37 @@
+[
+ {
+  "ten": "pop",
+  "tai": 4.618,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 7.393,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 8.638,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "whoosh",
+  "tai": 13.625,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "bonk",
+  "tai": 22.09,
+  "am_luong": 0.3
+ },
+ {
+  "ten": "song",
+  "tai": 23.563,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 26.463,
+  "am_luong": 0.5
+ }
+]

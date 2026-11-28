@@ -1,0 +1,48 @@
+
+
+[
+{
+"id": "C29",
+"verdict": "sai",
+"correct_value": "SVT broadcast the entire church relocation live over two days, on 19–20 August 2025. The event was called \"Den stora kyrkflytten\" (The Great Church Move), not \"Den stora kyrkvandringen\".",
+"note": "SVT and LKAB confirm the two-day live broadcast, but their event title is \"Den stora kyrkflytten\". The name \"Den stora kyrkvandringen\" appears in Eltel's coverage, not in the official SVT or LKAB event naming; therefore the claim is incorrect as worded.",
+"sources": [
+{
+"title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+"type": "goc",
+"published": "2025-08-19"
+},
+{
+"title": "The moving of Kiruna Church",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/events/the-moving-of-kiruna-church/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Om kyrkflytten",
+"publisher": "Svenska kyrkan, Luleå stift",
+"url": "https://www.svenskakyrkan.se/luleastift/nyheter/biskopen-valsignar-kiruna-kyrka",
+"type": "goc",
+"published": "2025-08-14"
+},
+{
+"title": "Eltel håller i kommunikationen när Kiruna kyrka flyttas",
+"publisher": "Eltel Networks",
+"url": "https://www.eltelnetworks.se/sv/eltel-haller-i-kommunikationen-nar-kiruna-kyrka-flyttas/",
+"type": "khac",
+"published": "2025-08-20"
+},
+{
+"title": "The Big Church Move in Kiruna",
+"publisher": "SVT Sales",
+"url": "https://b2b.svt.se/download/18.3892e2021999e24998d346f/1759822150421/Sales%2520katalog%25202025-V3.pdf",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+

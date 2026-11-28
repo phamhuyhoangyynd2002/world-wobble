@@ -1,0 +1,188 @@
+
+
+[
+{
+"id": "C33",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirmed that the church relocation was completed on 20 August 2025 and announced its updated deformation forecast on 28 August, identifying approximately 6,000 additional people and 2,700 homes affected by continued mining over the next ten years.",
+"sources": [
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "Continued mining affects more of Kiruna",
+"publisher": "LKAB",
+"url": "https://news.cision.com/lkab/r/continued-mining-affects-more-of-kiruna,c4225883",
+"type": "goc",
+"published": "2025-08-28"
+},
+{
+"title": "Updated impact area in Kiruna",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/updated-impact-area-in-kiruna/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C34",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB explicitly reports approximately 12,000 people, 5,400 residences and two thirds of the community affected; Kiruna Municipality separately reports approximately 6,000 affected homes, so the 5,400 figure should specifically be attributed to LKAB.",
+"sources": [
+{
+"title": "LKAB in Kiruna: mining and critical minerals for the future",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/lkab-in-kiruna/",
+"type": "goc",
+"published": null
+},
+{
+"title": "LKAB har släppt en ny deformationsprognos",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/aktuellt/nyhetsarkiv/nyheter/2025-08-29-lkab-har-slappt-en-ny-deformationsprognos.html",
+"type": "goc",
+"published": "2025-08-29"
+}
+]
+},
+{
+"id": "C35",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB describes replacement-property arrangements and monetary compensation based on market value plus 25 percent, with market valuation conducted by an independent authorized valuer; the precise options depend on the type of replacement property selected.",
+"sources": [
+{
+"title": "For those affected by the urban transformation: Residents",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/for-those-affected/residents/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C36",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Lapland explicitly describes the new city centre as being three kilometres east of the old town centre.",
+"sources": [
+{
+"title": "City transformation",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/en/city-transformation/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Kiruna City Hall",
+"publisher": "Henning Larsen",
+"url": "https://www.henninglarsen.com/projects/kiruna-city-hall",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C37",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB announced a three-day celebration from 1 to 3 September 2022, with the official inauguration of the new downtown scheduled for 2 September.",
+"sources": [
+{
+"title": "Historic event in Kiruna – time to relocate parts of city",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/an-historic-event-is-about-to-take-place-in-kiruna-its-now-time-to-relocate-parts-of-a-city/",
+"type": "goc",
+"published": "2022-06-28"
+}
+]
+},
+{
+"id": "C38",
+"verdict": "dung",
+"correct_value": null,
+"note": "The architect and municipality confirm that Kristallen was designed by Henning Larsen, has a circular exterior, was completed in 2018 and was officially inaugurated in November 2018.",
+"sources": [
+{
+"title": "Kiruna City Hall",
+"publisher": "Henning Larsen",
+"url": "https://www.henninglarsen.com/projects/kiruna-city-hall",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna City Hall shortlisted in World Architecture Festival Awards",
+"publisher": "Henning Larsen",
+"url": "https://henninglarsen.com/news/kiruna-city-hall-shortlisted-in-world-architecture-festival-awards",
+"type": "goc",
+"published": "2019-07-04"
+},
+{
+"title": "Hur såg planeringen ut med det nya stadshuset Kristallen?",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/faq/faq---stadsomvandling/kommunala-byggnader/kommunala-byggnader/hur-sag-planeringen-ut-med-det-nya-stadshuset-kristallen.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C39",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality confirms that the old town hall's clock tower was dismantled in 2017 and relocated beside the new town hall, Kristallen, where it stands today.",
+"sources": [
+{
+"title": "Klocktornet",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/startsida/besokare/avslutade-projekt/klocktornet.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kirunas gamla stadshus Igloo",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan/kirunas-gamla-stadshus-igloo.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C40",
+"verdict": "dung",
+"correct_value": null,
+"note": "Astronomical daylight calculations give approximately 11 December to 1 January, or 22 days, for Kiruna; the precise dates can differ with observation location and horizon, and polar night does not mean continuous darkness because twilight remains.",
+"sources": [
+{
+"title": "Daylight Hours in Kiruna, Sweden by Month",
+"publisher": "SunCast",
+"url": "https://suncastapp.com/tools/daylight/kiruna",
+"type": "khac",
+"published": null
+},
+{
+"title": "Kiruna Airport December Weather, Average Temperature (Sweden)",
+"publisher": "Weather Spark",
+"url": "https://weatherspark.com/m/148465/12/Average-Weather-in-December-at-Kiruna-Airport-Sweden",
+"type": "khac",
+"published": null
+},
+{
+"title": "Kiruna Sunrise and Sunset Times",
+"publisher": "Sunrise-Sunset.org",
+"url": "https://sunrise-sunset.org/se/kiruna",
+"type": "khac",
+"published": null
+}
+]
+}
+]
+

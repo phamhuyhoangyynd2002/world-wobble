@@ -22,7 +22,7 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "A volcano.",
-   "hanh_dong": "[chen-ve-tay] Hình to: núi lửa hình nón đội mây, làn khói mảnh bốc lên ở chân núi cạnh dãy mái nhà nhỏ; Wob nhỏ ở mép khung mắt tròn xoe (soc)",
+   "hanh_dong": "[chen-ve-tay] Hình to: núi lửa hình nón đội mây, làn khói mảnh bốc lên ở chân núi cạnh dãy mái nhà nhỏ; Wob nhỏ ở mép khung GIẬT LÙI một bước, mắt tròn xoe (soc), đúng \"volcano.\" (≈ 5.89 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": [
@@ -32,7 +32,7 @@ window.HH_DATA = {
   {
    "tai": 1.301,
    "loi": "They were taken to England,",
-   "hanh_dong": "Lia nhoè sang: một con tàu nhỏ chở những chấm người (không mặt) rời đảo, đảo lùi về sau",
+   "hanh_dong": "[lia-nhoe] Lia nhoè sang: một con tàu nhỏ chở những chấm người (không mặt) rời đảo, đảo lùi về sau; Wob ở mép khung quay đầu nhìn theo con tàu",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -40,7 +40,7 @@ window.HH_DATA = {
   {
    "tai": 2.863,
    "loi": "then voted to go back.",
-   "hanh_dong": "Cận: một lá phiếu giấy gấp đôi (không chữ, không số) rơi vào khe hộp gỗ; giữ 0,5 s",
+   "hanh_dong": "Cận: một lá phiếu giấy gấp đôi (không chữ, không số) rơi vào khe hộp gỗ, chạm đáy đúng \"back.\" (≈ 8.99 s); Wob ở mép khung gật một cái đúng lúc lá phiếu chạm đáy; giữ tới cắt 9.57 s",
    "gag": "",
    "dao_cu": [
     "la-phieu"

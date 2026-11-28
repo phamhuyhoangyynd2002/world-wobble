@@ -23,13 +23,13 @@ window.HH_DATA = {
    "tai": 0.0,
    "loi": "Think of a shared kitchen where everyone gets the same ladle, so nobody empties the pot.",
    "hanh_dong": "[bong-bong-tuong-tuong] Người que múc súp lần lượt bằng những cái muôi y hệt nhau",
-   "gag": "Wob lén cầm cái muôi to gấp đôi; cái muôi tự co lại bằng cỡ của mọi người",
+   "gag": "Wob lén rút ra cái muôi to gấp đôi ở \"same ladle,\" (≈ 368.29 s), lấy đà múc; đúng \"pot.\" (≈ 369.94 s) cái muôi to kẹt cứng ở miệng nồi, Wob treo lơ lửng trên cán muôi; giữ tới cắt 370.54 s",
    "dao_cu": [
     "muoi-mui"
    ],
    "sfx": [
     "whoosh",
-    "pop"
+    "bonk"
    ]
   }
  ],

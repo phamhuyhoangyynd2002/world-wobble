@@ -41,9 +41,17 @@ window.HH_DATA = {
   },
   {
    "tai": 12.15,
-   "loi": "All the land on Tristan is owned in common. No outsider can buy a piece of it.",
-   "hanh_dong": "Góc nhìn từ trên: các ô ruộng khác màu khít nhau như tấm chăn chắp mảnh; Wob bé tí đứng giữa một đường tường, dang tay ướm thử một ô rồi rụt tay về ngay ở \"No outsider\"",
+   "loi": "All the land on Tristan is owned in common.",
+   "hanh_dong": "[wob-be-ti] Góc nhìn từ trên: các ô ruộng khác màu khít nhau như tấm chăn chắp mảnh; Wob bé tí đứng giữa một đường tường",
    "gag": "",
+   "dao_cu": [],
+   "sfx": []
+  },
+  {
+   "tai": 14.2,
+   "loi": "No outsider can buy a piece of it.",
+   "hanh_dong": "[take-cham] CẮT vào trung cảnh Wob cạnh bức tường đá: Wob dang tay ướm thử một ô ruộng, rồi đúng \"outsider\" (≈ 288.07 s) rụt tay về ngay, giấu tay sau lưng; giữ 0,6 s tới cắt 289.77 s",
+   "gag": "Wob rụt tay như chạm phải bếp nóng",
    "dao_cu": [],
    "sfx": []
   }

@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Kiruna" (Sweden). The episode asks: "Why do people live in Kiruna?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C41: Kiruna's average January temperature is about minus 11 °C (−11.3 °C, about 12 °F) according to SMHI's 1991–2020 normals for Kiruna Airport.
+C42: A University of Gothenburg study (Jennie Sjöholm, Urban Design International, 2025) found that winter temperatures in Kiruna's new centre can be up to 10 °C lower than at the old centre, because it lies in a hollow where cold air collects and its narrow streets and tall buildings block the low winter sun.
+C43: Kiruna's North Sámi name is Giron, from the mountain Gironvárri (Kiirunavaara); giron means rock ptarmigan, a bird whose plumage turns white in winter.
+C44: In Kiruna the midnight sun lasts from about late May to mid-July, roughly seven weeks, during which the sun does not set.
+C45: Kiruna's average July temperature is about 13 °C (13.2 °C) according to SMHI's 1991–2020 normals for Kiruna Airport.
+C46: According to SMHI's 1991–2020 normals for Kiruna, the last spring frost occurs on average around 1 June and the first autumn frost around 4 September.
+C47: Most buildings in Kiruna's old centre are demolished and replaced rather than moved, and many residents are unhappy at losing the streets they grew up in.
+C48: In October 2023 the tall apartment blocks by architect Ralph Erskine that formed Kiruna's classic skyline in the old centre were demolished.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

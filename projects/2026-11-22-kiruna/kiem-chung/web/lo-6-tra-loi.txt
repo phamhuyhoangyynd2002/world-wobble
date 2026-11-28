@@ -1,0 +1,181 @@
+
+
+[
+{
+"id": "C41",
+"verdict": "dung",
+"correct_value": "-11.3 °C (approximately 12 °F)",
+"note": "The published 1991–2020 Kiruna Airport climate normal is -11.3 °C for January, consistent with the claim, although the search result reporting this figure is secondary rather than the original SMHI dataset.",
+"sources": [
+{
+"title": "What is the weather like in Kiruna?",
+"publisher": "SverigesForetagsGuide",
+"url": "https://sverigesforetagsguide.se/en/faq/weather-and-seasons/weather-in-kiruna/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C42",
+"verdict": "sai",
+"correct_value": "Approximately 10 °C colder on average in the new centre, according to the reported research.",
+"note": "The University of Gothenburg research supports the temperature difference and the explanations involving cold-air accumulation, narrow streets and tall buildings, but SVT reports an average difference of 10 °C rather than a maximum difference of up to 10 °C.",
+"sources": [
+{
+"title": "Kiruna: The Arctic town that forgot about winter",
+"publisher": "Urban Design International / Springer Nature",
+"url": "https://link.springer.com/article/10.1057/s41289-025-00277-4",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kirunaborna har rätt – nya centrum är en köldhåla",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/kirunaborna-har-ratt-nya-centrum-ar-en-koldhala?lokalmeny=1",
+"type": "bao",
+"published": "2025-10-30"
+}
+]
+},
+{
+"id": "C43",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Official Swedish language research confirms that Giron means mountain ptarmigan and that the name derives from Gironvárri (Kirunavaara), but the additional claim about the bird's plumage changing to white in winter was not independently verified in the search.",
+"sources": [
+{
+"title": "Israel Ruong i Kiruna",
+"publisher": "Institute for Language and Folklore (Institutet för språk och folkminnen)",
+"url": "https://www.isof.se/folkminnen/amnesomraden/nationella-minoriteters-kultur/samisk-kultur/pa-resa-i-sabme-med-israel-ruong/israel-ruong-i-kiruna",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna city",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/en/destinations/kiruna/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C44",
+"verdict": "dung",
+"correct_value": "Approximately 28 May to 14 July, around 48 days.",
+"note": "Kiruna's tourism authority and other established local sources confirm that the midnight sun lasts from late May until mid-July, when the sun remains above the horizon continuously.",
+"sources": [
+{
+"title": "Midnight sun",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/en/midnight-sun/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Kiruna",
+"publisher": "Swedavia",
+"url": "https://www.swedavia.com/kiruna/about-your-destination/kiruna/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Midnight sun in Sweden",
+"publisher": "Swedish Tourist Association",
+"url": "https://www.swedishtouristassociation.com/activities/the-midnight-sun/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C45",
+"verdict": "dung",
+"correct_value": "13.2 °C",
+"note": "The published 1991–2020 Kiruna Airport climate normal is 13.2 °C for July, consistent with the rounded figure, although the search result reporting this figure is secondary rather than the original SMHI dataset.",
+"sources": [
+{
+"title": "What is the weather like in Kiruna?",
+"publisher": "SverigesForetagsGuide",
+"url": "https://sverigesforetagsguide.se/en/faq/weather-and-seasons/weather-in-kiruna/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C46",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The search did not locate an SMHI source establishing average last spring frost and first autumn frost dates of 1 June and 4 September for Kiruna; frost dates also depend on the definition of frost and the calculation method.",
+"sources": [
+{
+"title": "Kiruna Airport - Weather History and Averages",
+"publisher": "Overcast Data",
+"url": "https://www.overcastdata.com/en/station/stn-020440/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C47",
+"verdict": "dung",
+"correct_value": "Most affected buildings are demolished and their functions recreated in new buildings; selected historic buildings are relocated. Residents have expressed varying degrees of sadness and dissatisfaction.",
+"note": "The municipality and academic research confirm that demolition is much more common than physical relocation, while reporting from The Local documents residents' concerns about losing familiar streets and neighbourhoods, although opinions are not unanimous.",
+"sources": [
+{
+"title": "Kiruna: The Arctic town that forgot about winter",
+"publisher": "Urban Design International / Springer Nature",
+"url": "https://link.springer.com/article/10.1057/s41289-025-00277-4",
+"type": "goc",
+"published": null
+},
+{
+"title": "Vilka byggnader rivs?",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/faq/faq---stadsomvandling/stadsomvandling/stadsomvandling/vilka-byggnader-rivs.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Stunning memory park for moved Swedish town",
+"publisher": "The Local Sweden",
+"url": "https://www.thelocal.se/20151221/in-pictures-kirunas-memory-park",
+"type": "bao",
+"published": null
+},
+{
+"title": "Reframing Kiruna’s Relocation—Spatial Production or a Sustainable Transformation?",
+"publisher": "Sustainability / MDPI",
+"url": "https://www.mdpi.com/2071-1050/13/7/3811",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C48",
+"verdict": "dung",
+"correct_value": "October 13, 2023",
+"note": "SVT reported on October 13, 2023 that the final buildings in the Ortdrivaren block, designed by Ralph Erskine and forming part of Kiruna's distinctive skyline, were being demolished.",
+"sources": [
+{
+"title": "Här försvinner Kirunas klassiska skyline",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/har-forsvinner-kirunas-klassiska-skyline--otv5cs",
+"type": "bao",
+"published": "2023-10-13"
+},
+{
+"title": "Gamla centrum fortsätter avvecklas",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/aktuellt/nyhetsarkiv/nyheter/2024-04-11-gamla-centrum-fortsatter-avvecklas.html",
+"type": "goc",
+"published": "2024-04-11"
+}
+]
+}
+]
+

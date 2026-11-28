@@ -1,0 +1,159 @@
+
+
+[
+{
+"id": "C01",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches did not establish both the county location and position north of the Arctic Circle using a sufficiently reliable source.",
+"sources": []
+},
+{
+"id": "C02",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirms that underground mining causes ground deformation and that the old centre is being phased out as the new city centre develops approximately 3 km further east.",
+"sources": [
+{
+"title": "Urban transformation up to 2035",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/news/urban-transformation-up-to-2035/",
+"type": "goc",
+"published": "2018-10-26"
+},
+{
+"title": "Responsible community development – Annual and Sustainability Report 2025",
+"publisher": "LKAB",
+"url": "https://lkab.com/wp-content/uploads/2026/03/LKAB-InBrief-Annual-and-Sustainability-Report-2025-20260327.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": null,
+"note": "The municipality confirms that buildings, homes and businesses are being relocated or dismantled, the old town hall clock tower moved to the new centre in 2017, and Kiruna Church was transported on 19–20 August 2025.",
+"sources": [
+{
+"title": "Urban transformation in Kiruna",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/lkab-in-kiruna/",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Bell Tower – Kristallen & Kin Museum",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kristallen--kin-museum.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna Church",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan/kiruna-kyrka.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "The moving of Kiruna Church",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/events/the-moving-of-kiruna-church/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB's own history attributes the 1736 report to Sámi man Amund Amundson Mangi and specifies a reward of 100 riksdaler and lifelong exemption from taxes, while acknowledging uncertainty in the historical record.",
+"sources": [
+{
+"title": "A history of LKAB",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/who-we-are/a-history-of-lkab/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C05",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality explicitly identifies 1900 as the town's birth year because the Crown approved its town plan that year.",
+"sources": [
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirms the 01:15–01:45 nightly production blasting window in Kiruna, prior evacuation, several hours of ventilation afterwards and occasional surface vibrations.",
+"sources": [
+{
+"title": "Blasting",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/our-environmental-efforts/blasting/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB explicitly describes its Kiruna operation as the world's largest underground iron ore mine; this verdict verifies the company's attribution, not independent confirmation of the superlative.",
+"sources": [
+{
+"title": "Community development",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/",
+"type": "goc",
+"published": null
+},
+{
+"title": "From mine to port",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/from-mine-to-port/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C08",
+"verdict": "dung",
+"correct_value": "1,365 metres (approximately 4,478 feet)",
+"note": "LKAB identifies 1,365 metres as the current main haulage level in Kiruna, and its November 2026 announcement reconfirms this depth.",
+"sources": [
+{
+"title": "The moving of Kiruna Church",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/events/the-moving-of-kiruna-church/",
+"type": "goc",
+"published": null
+},
+{
+"title": "LKAB investigates deeper mining operations – pre-feasibility studies for new main haulage levels underway",
+"publisher": "LKAB",
+"url": "https://news.cision.com/lkab/r/lkab-investigates-deeper-mining-operations---pre-feasibility-studies-for-new-main-haulage-levels-und%2Cc4426995",
+"type": "goc",
+"published": "2026-11-20"
+}
+]
+}
+]
+

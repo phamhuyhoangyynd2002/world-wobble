@@ -22,25 +22,27 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "Picture being handed the keys to a big city, with buses, shops and a doctor down the road.",
-   "hanh_dong": "[bong-bong-tuong-tuong] Hình to: chùm chìa khoá khổng lồ được trao vào tay Wob, các móc khoá hình xe buýt, cửa hàng, chữ thập bệnh viện lần lượt lóe lên đúng chữ",
-   "gag": "",
+   "hanh_dong": "[day-vao-cham] Bong bóng tưởng tượng, hình to: chùm chìa khoá khổng lồ được trao vào tay Wob, các móc khoá hình xe buýt, cửa hàng, chữ thập bệnh viện lần lượt lóe lên đúng chữ",
+   "gag": "Đúng \"keys\" (≈ 550.75 s) chùm chìa nặng tới mức kéo Wob ngồi bệt xuống, hai tay vẫn ôm chùm chìa",
    "dao_cu": [
     "chia-khoa"
    ],
    "sfx": [
     "whoosh",
-    "pop"
+    "bonk"
    ]
   },
   {
    "tai": 5.625,
    "loi": "Now picture handing them back, and asking for the key to a small house beside a volcano that erupted the year before.",
-   "hanh_dong": "Wob đặt chùm chìa khoá to xuống, đổi lấy một chiếc chìa nhỏ bằng sắt cũ treo trên móc hình núi lửa; Wob cầm chìa nhỏ bằng hai tay, nhìn nó",
-   "gag": "",
+   "hanh_dong": "[lui-ra-toan-canh] Wob (vẫn ngồi bệt) đẩy chùm chìa khoá to trả lại, đổi lấy một chiếc chìa nhỏ bằng sắt cũ; camera lùi từ chiếc chìa nhỏ ra cả chiếc móc hình núi lửa",
+   "gag": "Đúng \"key\" (≈ 557.63 s) cầm chìa nhỏ, Wob bật đứng dậy nhẹ tênh; giữ 0,6 s",
    "dao_cu": [
     "chia-khoa"
    ],
-   "sfx": []
+   "sfx": [
+    "boing"
+   ]
   }
  ],
  "loi": [

@@ -32,7 +32,7 @@ window.HH_DATA = {
   {
    "tai": 2.425,
    "loi": "Two fishing ships, the Tristania and the Frances Repetto, carried everyone to Nightingale Island for the night.",
-   "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa",
+   "hanh_dong": "Hai tàu cá nhỏ chở đầy người que (không mặt) rời bến trong ánh chiều; một hòn đảo nhỏ khác nhô lên phía xa; Wob ngoài mép trang nhìn theo hai tàu đúng \"Nightingale\" (≈ 485.63 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -56,7 +56,7 @@ window.HH_DATA = {
   {
    "tai": 15.887,
    "loi": "They took what they could carry.",
-   "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag",
+   "hanh_dong": "Cận một chiếc va li nhỏ và một cái bọc vải trên boong tàu; không người, không gag; đúng \"carry.\" (≈ 495.34 s) bàn tay Wob đặt lên mép trang cạnh chiếc va li (KHÔNG chạm va li)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

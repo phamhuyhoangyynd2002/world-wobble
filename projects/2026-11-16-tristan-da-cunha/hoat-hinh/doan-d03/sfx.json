@@ -1,0 +1,42 @@
+[
+ {
+  "ten": "lat-giay",
+  "tai": 0.45,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "bonk",
+  "tai": 0.5,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "bonk",
+  "tai": 0.883,
+  "am_luong": 0.28
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 7.237,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 7.8,
+  "am_luong": 0.6
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 10.925,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "boing",
+  "tai": 15.65,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 17.212,
+  "am_luong": 0.5
+ }
+]

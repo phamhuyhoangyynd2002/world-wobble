@@ -13,18 +13,19 @@ window.HH_DATA = {
  "thoi_luong": 17.634,
  "bat_dau_tuyet_doi": 437.67,
  "lop": "hoi-uc",
- "boi_canh": "Vẽ tay lùi dần (phong-quy-mo): con tem → quầy bưu điện → cả hòn đảo có thùng tôm hùm, xấp tem, tiền xu như hàng gửi đi → quả địa cầu giấy; rồi lại quầy; rồi boong tàu có túi thư",
+ "boi_canh": "Vẽ tay lùi dần (phong-quy-mo): con tem → quầy bưu điện → cả hòn đảo có thùng tôm hùm, xấp tem (nét mực đen trắng, KHÔNG chim cánh cụt), tiền xu như hàng gửi đi → quả địa cầu giấy; rồi lại quầy; rồi boong tàu có túi thư. Tem trên bưu thiếp KHÔNG chim cánh cụt",
  "trang_phuc": "Wob vẽ tay, áo mưa cam mũ trùm hạ, ba lô nhỏ; lấy bốn củ khoai từ túi hông ba lô (củ nhặt ở d15 là một trong bốn)",
  "vao": "cat",
  "ra": "giay",
  "chu_tren_do_vat": [
-  "CAPE TOWN"
+  "CAPE TOWN",
+  "POST OFFICE"
  ],
  "nhip": [
   {
    "tai": 0.0,
    "loi": "Now zoom out, from the stamp to the whole economy.",
-   "hanh_dong": "[lui-ra-toan-canh] Từ con tem lùi ra quầy, ra bưu điện, ra cả hòn đảo; quanh đảo hiện thùng tôm hùm, xấp tem và tiền xu xếp như hàng gửi đi; Wob bé tí trên quầy",
+   "hanh_dong": "[lui-ra-toan-canh] Lùi ĐÚNG 3 bậc, mỗi bậc giữ ≥ 0,8 s: con tem → quầy bưu điện (Wob bé tí trên quầy) → cả hòn đảo; quanh đảo hiện thùng tôm hùm, xấp tem (đen trắng, KHÔNG chim cánh cụt) và tiền xu xếp như hàng gửi đi",
    "gag": "",
    "dao_cu": [],
    "sfx": [
@@ -66,7 +67,7 @@ window.HH_DATA = {
   {
    "tai": 14.163,
    "loi": "via Cape Town, taking the long way home.",
-   "hanh_dong": "Lùi lần cuối: túi thư vải (nhãn CAPE TOWN lóe lên) trên boong tàu, tàu nhỏ dần trên biển xám; phủ dần thành giấy",
+   "hanh_dong": "[lia-theo-vat] Camera lia theo túi thư vải trên boong tàu: nhãn CAPE TOWN trên túi ≥ 45 px, hiện ≥ 1 s quanh \"Cape Town\" (≈ 452.13 s); tàu chở túi thư chạy ra khỏi khung về mép phải trên biển xám, RỒI mới phủ dần thành giấy",
    "gag": "",
    "dao_cu": [
     "tui-thu"

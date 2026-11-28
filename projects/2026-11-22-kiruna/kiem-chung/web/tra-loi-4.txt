@@ -1,0 +1,209 @@
+
+
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Church is a large red wooden building completed in 1912 and is widely regarded as one of Sweden's most beloved and significant wooden buildings.",
+"sources": [
+{
+"title": "Kiruna Kyrka - Konst och Kulturhistoria",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kiruna-kyrka.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "This Swedish church is being moved down the road before a mine swallows its town",
+"publisher": "Associated Press",
+"url": "https://www.ap.org/news-highlights/spotlights/2025/this-swedish-church-is-being-moved-down-the-road-before-a-mine-swallows-its-town/",
+"type": "bao",
+"published": "2025-08-19"
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": null,
+"note": "The church was transported intact on 19–20 August 2025 over approximately 5 km using remote-controlled self-propelled modular transporters with 224 wheels.",
+"sources": [
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+"publisher": "SVT",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+"type": "bao",
+"published": null
+},
+{
+"title": "Pressemelding: Nøkkeltall - flyttingen av Kiruna kirke",
+"publisher": "Veidekke",
+"url": "https://mb.cision.com/Public/17348/4219377/a9a4548173e2dce1.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C27",
+"verdict": "mau-thuan",
+"correct_value": "LKAB: 672.4 tonnes; Church of Sweden: approximately 600 tonnes.",
+"note": "The two organisations publish different figures, apparently reflecting different levels of precision or estimates, rather than establishing a single agreed weight.",
+"sources": [
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "Kiruna kyrka",
+"publisher": "Church of Sweden, Jukkasjärvi Parish",
+"url": "https://www.svenskakyrkan.se/jukkasjarvi/kiruna-kyrka",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirms that the road was widened from 9 to 24 metres and that preparatory widening work had been underway for a year before the two-day relocation.",
+"sources": [
+{
+"title": "Date set: Kiruna Church to be moved on 19-20 August",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/date-set-kiruna-church-to-be-moved-on-19-20-august/",
+"type": "goc",
+"published": "2025-04-10"
+},
+{
+"title": "Historic Swedish church begins slow move to new location",
+"publisher": "RTÉ / AFP",
+"url": "https://www.rte.ie/news/europe/2025/0819/1529073-sweden-church/",
+"type": "bao",
+"published": "2025-08-19"
+},
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+}
+]
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "SVT livestreamed the relocation and AP explicitly says it billed the coverage as 'The Great Church Walk'; AP also confirms daily pauses for traditional Swedish fika.",
+"sources": [
+{
+"title": "This Swedish church is being moved down the road before a mine swallows its town",
+"publisher": "Associated Press",
+"url": "https://www.ap.org/news-highlights/spotlights/2025/this-swedish-church-is-being-moved-down-the-road-before-a-mine-swallows-its-town/",
+"type": "bao",
+"published": "2025-08-19"
+},
+{
+"title": "Den stora kyrkflytten – kunskap och gemenskap i sin finaste tv-form",
+"publisher": "SVT",
+"url": "https://omoss.svt.se/arkiv/bloggarkiv/2025-08-21-den-stora-kyrkflytten---kunskap-och-gemenskap-i-sin-finaste-tv-form.html",
+"type": "goc",
+"published": "2025-08-21"
+}
+]
+},
+{
+"id": "C30",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirms thousands of visitors gathered along the route, while AP and ITV independently report the King's attendance at the relocation.",
+"sources": [
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "This Swedish church is being moved down the road before a mine swallows its town",
+"publisher": "Associated Press",
+"url": "https://www.ap.org/news-highlights/spotlights/2025/this-swedish-church-is-being-moved-down-the-road-before-a-mine-swallows-its-town/",
+"type": "bao",
+"published": "2025-08-19"
+},
+{
+"title": "113-year-old Swedish church receives royal welcome at its new home after a two day journey",
+"publisher": "ITV News",
+"url": "https://www.itv.com/news/2025-08-20/113-year-old-swedish-church-receives-royal-welcome-at-new-home",
+"type": "bao",
+"published": "2025-08-20"
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": null,
+"note": "The church was rotated 180 degrees, changing the altar's direction from east to west while preserving the building's orientation towards the town and its congregation.",
+"sources": [
+{
+"title": "Kiruna Church has found a new home – a historic move completed as planned",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "Kiruna Kyrka - Konst och Kulturhistoria",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kiruna-kyrka.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "sai",
+"correct_value": "As of November 2026, the church remains closed and is planned to reopen in 2027; the parish's February 2026 update indicated that spring 2027 was hoped for, rather than confirming a specific reopening date.",
+"note": "The closure and 2027 reopening are confirmed by the Church of Sweden, but its latest published update found in this search does not establish an exact reopening date.",
+"sources": [
+{
+"title": "Kiruna kyrka",
+"publisher": "Church of Sweden, Jukkasjärvi Parish",
+"url": "https://www.svenskakyrkan.se/jukkasjarvi/kiruna-kyrka",
+"type": "goc",
+"published": null
+},
+{
+"title": "Inga synliga skador på altartavlan i Kiruna kyrka efter flytten",
+"publisher": "LKAB",
+"url": "https://lkab.com/nyheter/inga-synliga-skador-pa-altartavlan-i-kiruna-kyrka-efter-flytten/",
+"type": "goc",
+"published": "2026-02-24"
+},
+{
+"title": "Välkommen till församlingens veckomässor",
+"publisher": "Church of Sweden, Jukkasjärvi Parish",
+"url": "https://www.svenskakyrkan.se/jukkasjarvi/nyheter/valkommen-till-forsamlingens-veckomassor",
+"type": "goc",
+"published": "2026-11-27"
+}
+]
+}
+]
+

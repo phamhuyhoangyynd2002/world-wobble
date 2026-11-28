@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Kiruna" (Sweden). The episode asks: "Why do people live in Kiruna?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C33: On 28 August 2025, eight days after Kiruna Church reached its new site on 20 August, LKAB presented a new ground-deformation forecast under which about 6,000 more people and about 2,700 more homes in Kiruna would be affected and need to be compensated over the next ten years.
+C34: According to LKAB, Kiruna's urban transformation now affects about 12,000 people and about 5,400 homes in total, roughly two thirds of the town.
+C35: Kiruna homeowners affected by the mine can choose an equivalent replacement home built by LKAB or a payment of the market value plus 25 percent, assessed by an independent certified valuer.
+C36: Kiruna's new city centre lies about 3 km east of the old centre.
+C37: Kiruna's new city centre was inaugurated with a three-day festival on 1 to 3 September 2022.
+C38: Kiruna's new town hall, Kristallen ('The Crystal'), designed by Henning Larsen, is a round building that opened in November 2018.
+C39: The clock tower of Kiruna's old town hall was moved to the new centre and stands beside the new town hall, Kristallen.
+C40: In Kiruna the polar night, when the sun does not rise above the horizon, lasts from about 11 December to 1 January, roughly three weeks (exact dates vary by a day or two with terrain).
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

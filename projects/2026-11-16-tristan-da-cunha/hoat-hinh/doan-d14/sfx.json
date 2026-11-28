@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "lat-giay",
+  "tai": 0.02,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "pop",
+  "tai": 4.292,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "pop",
+  "tai": 5.117,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 6.38,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 6.805,
+  "am_luong": 0.3
+ }
+]

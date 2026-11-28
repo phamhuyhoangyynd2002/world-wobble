@@ -24,7 +24,7 @@ window.HH_DATA = {
   {
    "tai": 0.4,
    "loi": "This postcard arrived this morning.",
-   "hanh_dong": "[day-vao-cham] Khung 0 đã có hình: Wob giơ sẵn tấm bưu thiếp ngang mặt, tem góc phải trên rõ nét; camera đẩy chậm 1,0→1,05. Đúng \"arrived\" Wob lắc bưu thiếp: vài hạt muối biển trắng và một giọt nước rơi xuống mặt bàn",
+   "hanh_dong": "[day-vao-cham] Khung 0 đã có hình: Wob giơ sẵn tấm bưu thiếp CẠNH mặt (mép trong cách mắt Wob ≥ 40 px, khung 0 thấy rõ mắt Wob), tem góc phải trên rõ nét; camera đẩy chậm 1,0→1,05. Đúng \"arrived\" Wob lắc bưu thiếp: vài hạt muối biển trắng và một giọt nước rơi xuống mặt bàn",
    "gag": "Wob nhìn giọt nước trên bàn, rồi nhìn thẳng người xem, giữ 0,6 s",
    "dao_cu": [
     "buu-thiep"

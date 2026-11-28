@@ -1,0 +1,92 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-28",
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "Kiruna is a town in Norrbotten County in the far north of Sweden, located north of the Arctic Circle.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NE: 'Kiruna, kommun och tätort (stad) i Lappland (Norrbottens län)'. SMHI: trạm Kiruna Flygplats ở 67,827°B, 20,339°Đ, tức trên vòng Bắc Cực (~66,56°B) khoảng 1,3° vĩ, ~140 km. Kiruna kommun tự gọi là 'the northernmost municipality in Sweden'. Lưu ý: Swedavia ghi '250 kilometres north of the polar circle' là quá xa so với toạ độ; lời đọc không nêu khoảng cách nên không ảnh hưởng.",
+      "nguon": [
+        {"title": "Kiruna", "publisher": "Nationalencyklopedin (NE)", "url": "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/kiruna", "type": "bach-khoa", "published": null},
+        {"title": "Station Kiruna Flygplats (lufttemperatur), metadata toạ độ", "publisher": "SMHI Open Data", "url": "https://opendata-download-metobs.smhi.se/api/version/1.0/parameter/2/station/180940.json", "type": "goc", "published": null},
+        {"title": "Geography", "publisher": "Kiruna kommun", "url": "https://kiruna.se/arkiv/samlingssidor/in-english/geography.html", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "Kiruna Municipality had about 22,400 inhabitants at the end of 2025 (Statistics Sweden) and covers roughly 19,000–19,500 km², about the size of the US state of New Jersey (land area about 19,050 km²).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "SCB Statistikdatabasen (mở qua API v2): TAB6646 và TAB628 cho Kiruna (2584) 22.402 người, mốc 31/12/2025. Diện tích: TAB628 đất 19.307 km² (mốc 1/1/2026); TAB6420: đất 19.307 + nước nội địa 1.400,37 = tổng 20.707,37 km². Kiruna kommun (trang Geography): 'Covering 19,447 square kilometres'. Không mở được văn bản kommun ghi 19.163 km² đất + 1.390 km² nước (tổng các số đó là 20.553, không phải 19.447), nên không dùng. New Jersey: EBSCO 'Land area: 7,354 sq mi' (≈ 19.047 km²), 'Total area: 8,723 sq mi' (≈ 22.590 km²); trang Census bị chặn 403. Kết luận: '19,000–19,500 km²' đúng nếu hiểu là diện tích đất (SCB 19.307, kommun 19.447); nếu tính cả mặt nước thì ~20.700 km², ra ngoài khoảng đó. 'About the size of New Jersey' đứng được cả hai cách so (đất 19.307 vs 19.047; tổng 20.707 vs 22.590). Đề nghị chữ trên hình, nếu có, ghi 'land area'.",
+      "nguon": [
+        {"title": "Folkmängd efter region, födelseland och kön. År 2025 (TAB6646, Kiruna)", "publisher": "Statistiska centralbyrån (SCB)", "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB6646/data?lang=en&valueCodes[Region]=2584&valueCodes[Fodelseregion]=TOTfod&valueCodes[Kon]=TotSa&valueCodes[ContentsCode]=0000086S&valueCodes[Tid]=2025", "type": "goc", "published": "2026"},
+        {"title": "Befolkningstäthet, folkmängd och landareal efter region och kön (TAB628, Kiruna 2025)", "publisher": "Statistiska centralbyrån (SCB)", "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB628/data?lang=en&valueCodes[Region]=2584&valueCodes[Kon]=1%2B2&valueCodes[ContentsCode]=BE0101U2,BE0101U3&valueCodes[Tid]=2025", "type": "goc", "published": "2026"},
+        {"title": "Land- och vattenareal per den 1 januari efter region och arealtyp (TAB6420, Kiruna 2026)", "publisher": "Statistiska centralbyrån (SCB)", "url": "https://statistikdatabasen.scb.se/api/v2/tables/TAB6420/data?lang=en&valueCodes[Region]=2584&valueCodes[ArealTyp]=01,02,05&valueCodes[ContentsCode]=000007DY&valueCodes[Tid]=2026", "type": "goc", "published": "2026"},
+        {"title": "Geography", "publisher": "Kiruna kommun", "url": "https://kiruna.se/arkiv/samlingssidor/in-english/geography.html", "type": "goc", "published": null},
+        {"title": "New Jersey (Research Starters)", "publisher": "EBSCO", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/new-jersey", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C40",
+      "statement": "In Kiruna the polar night, when the sun does not rise above the horizon, lasts from about 11 December to 1 January, roughly three weeks (exact dates vary by a day or two with terrain).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "SMHI (blog khí tượng viên Misha Lundgren, 30/11/2022): ở Kiruna mặt trời lặn lần cuối ngày 10/12 lúc 11:49, 'därefter tar polarnatten vid', và 'går solen över horisonten igen den 2 januari' → đêm vùng cực 11/12–1/1, 22 ngày. SMHI 10/12/2020: 'Kiruna: solen ned 11:41 den 10, därefter polarnatt'. Lưu ý: trang kiến thức chung của SMHI ghi đêm vùng cực ở Kiruna kéo dài 27 ngày (không nêu cách tính; độ dài phụ thuộc khúc xạ, mép trên hay tâm mặt trời, địa hình), nên giữ chữ 'about'/'roughly'; ngày 11/12–1/1 khớp tính toán năm cụ thể của SMHI.",
+      "nguon": [
+        {"title": "Dags för mörker igen längst i norr", "publisher": "SMHI", "url": "https://www.smhi.se/blogg/blogg/2022-11-30-dags-for-morker-igen-langst-i-norr", "type": "goc", "published": "2022-11-30"},
+        {"title": "Polarnatt del II", "publisher": "SMHI", "url": "https://www.smhi.se/blogg/blogg/2020-12-10-polarnatt-del-ii", "type": "goc", "published": "2020-12-10"},
+        {"title": "Midnattssol och polarnatt", "publisher": "SMHI Kunskapsbanken", "url": "https://www.smhi.se/kunskapsbanken/meteorologi/solens-upp--och-nedgang/midnattssol-och-polarnatt", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C43",
+      "statement": "Kiruna's North Sámi name is Giron, from the mountain Gironvárri (Kiirunavaara); giron means rock ptarmigan, a bird whose plumage turns white in winter.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Phần 'tên Bắc Sámi là Giron': SVT Sápmi 10/4/2025 'Kiruna är Giron på samiska'. Phần 'lông trắng mùa đông': Animal Diversity Web (Đại học Michigan) 'pure white plumage in winter, except for a black tail'. Phần từ nguyên 'giron = gà gô đá (Lagopus muta)', 'Gironvárri': Wiktionary dẫn cơ sở dữ liệu từ nguyên Álgu (Viện Ngôn ngữ Phần Lan, Kotus) 'gīron = ptarmigan, Lagopus muta'; FOTW 'Kiirunavaara ... meaning ptarmigan mountain'. SNL ('fra nordsamisk Gironvárri, av giron fjellrype og várri fjell') và lex.dk ('samisk giron fjeldrype') chỉ thấy qua đoạn trích tìm kiếm, mở trực tiếp bị 403; isof.se, Sametinget, NE (mục Ortnamnet cần đăng nhập), Álgu đều không mở được. Không nguồn nào nói khác. Hạn chế: phần từ nguyên chưa có nguồn goc/bach-khoa mở được; nếu cổng đòi chặt thì nên nói 'the name is usually traced to...' hoặc giữ mức C.",
+      "nguon": [
+        {"title": "Sameföreningarna om gatunamnen: Äntligen", "publisher": "SVT Nyheter Sápmi", "url": "https://www.svt.se/nyheter/sapmi/sameforeningarna-om-gatunamnen-antligen", "type": "bao", "published": "2025-04-10"},
+        {"title": "Lagopus muta (rock ptarmigan)", "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology", "url": "https://animaldiversity.org/accounts/Lagopus_muta/", "type": "goc", "published": null},
+        {"title": "giron / gīron (Northern Sami), dẫn Álgu database", "publisher": "Wiktionary", "url": "https://en.wiktionary.org/wiki/giron", "type": "khac", "published": null}
+      ]
+    },
+    {
+      "id": "C44",
+      "statement": "In Kiruna the midnight sun lasts from about late May to mid-July, roughly seven weeks, during which the sun does not set.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "SMHI Kunskapsbanken: theo 'Den Svenska Almanackan', Kiruna có mặt trời nửa đêm 'från den 29 maj till och med den 14 juli (2013)', 47 ngày liền. SMHI blog (Misha Lundgren, 22/5/2023): 'Till ... Kiruna kommer midnattssolen den 28:e maj'; SMHI 19/5/2021: 'från den 28 maj är det ljust dygnet runt'. SVT Norrbotten 21/5/2020: ở Kiruna 'dröjer det då till mitten av juli innan solen åter sjunker under horisonten'. Swedavia: 27/5–14/7. 47–50 ngày ≈ 7 tuần: đúng.",
+      "nguon": [
+        {"title": "Midnattssol och polarnatt", "publisher": "SMHI Kunskapsbanken", "url": "https://www.smhi.se/kunskapsbanken/meteorologi/solens-upp--och-nedgang/midnattssol-och-polarnatt", "type": "goc", "published": null},
+        {"title": "Nu är det midnattssol igen längst i norr", "publisher": "SMHI", "url": "https://www.smhi.se/blogg/blogg/2023-05-22-nu-ar-det-midnattssol-igen-langst-i-norr", "type": "goc", "published": "2023-05-22"},
+        {"title": "Dags för midnattssol igen", "publisher": "SMHI", "url": "https://www.smhi.se/blogg/blogg/2021-05-19-dags-for-midnattssol-igen", "type": "goc", "published": "2021-05-19"},
+        {"title": "Midnattssolen gör entré: nu går solen inte ner", "publisher": "SVT Nyheter Norrbotten", "url": "https://www.svt.se/nyheter/lokalt/norrbotten/midnattssolen-gor-entre-nu-gar-solen-inte-ner", "type": "bao", "published": "2020-05-21"}
+      ]
+    },
+    {
+      "id": "C54",
+      "statement": "Gabna's chair Lars-Marcus Kuhmunen has said the community has nowhere left to move, while LKAB chief executive Jan Moström has said the problem is that both parties need the same land (TT, July 2025).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bài TT đăng trên TV4 ngày 19/7/2025 (đề tên TT): Kuhmunen, chủ tịch Gabna sameby: 'Det finns ingenstans kvar för oss att flytta'; CEO LKAB Jan Moström: 'Problemet vi har är att vi behöver samma mark'. Lời kịch bản là diễn ý đúng. Kết quả tìm kiếm cũng cho thấy cùng bài TT đăng ngày 14/7/2025 trên TV4 và trên Börskollen; không tìm thấy bản trên SvD, Aftonbladet, NSD hay Norran (có thể nằm sau paywall).",
+      "nguon": [
+        {"title": "Samer: Ingenstans kvar att flytta (TT)", "publisher": "TV4 Nyheter / TT Nyhetsbyrån", "url": "https://www.tv4.se/artikel/tt-250719-jordartsamer1-7fa4812b/samer-ingenstans-kvar-att-flytta", "type": "bao", "published": "2025-07-19"}
+      ]
+    },
+    {
+      "id": "C55",
+      "statement": "Gabna reindeer herding community has asked the European Court of Human Rights to examine its case over the land affected by LKAB's mining plans.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Chỉ có một nguồn uy tín: TT (TV4, 19/7/2025) 'Gabna sameby har bett Europadomstolen för mänskliga rättigheter granska ärendet', kèm lo ngại đã quá muộn vì EU cho mỏ 'snabbspår'. Không có xác nhận độc lập: thông cáo của chính Gabna ngày 1/12/2025 (đăng lại trên Cultural Survival) không nhắc ECHR; Reuters 15/4/2026 (qua Arctic Today) chỉ nói người chăn tuần lộc 'have vowed to fight the mine in the courts'; tìm 'Gabna' với 'Europadomstolen' không ra kết quả nào khác; HUDOC không truy vấn được. Không rõ đơn đã nộp chính thức, số hồ sơ hay tình trạng thụ lý. Câu trong kịch bản ('has asked ... to look at the case') khớp đúng lời TT nên vẫn 'dung', nhưng nên ghi nguồn trong lời hoặc mô tả ('according to the Swedish news agency TT') và không nói như một vụ kiện đã được Toà thụ lý.",
+      "nguon": [
+        {"title": "Samer: Ingenstans kvar att flytta (TT)", "publisher": "TV4 Nyheter / TT Nyhetsbyrån", "url": "https://www.tv4.se/artikel/tt-250719-jordartsamer1-7fa4812b/samer-ingenstans-kvar-att-flytta", "type": "bao", "published": "2025-07-19"},
+        {"title": "Gabna Sámi reindeer herding community terminates agreement with LKAB (press release)", "publisher": "Gabna Sameby via Cultural Survival", "url": "https://www.culturalsurvival.org/node/15103", "type": "goc", "published": "2025-12-01"},
+        {"title": "LKAB plan for Swedish rare earths mine could breach Sami rights, report says (Reuters)", "publisher": "Arctic Today / Reuters", "url": "https://www.arctictoday.com/lkab-plan-for-swedish-rare-earths-mine-could-breach-sami-rights-report-says/", "type": "bao", "published": "2026-04-15"}
+      ]
+    }
+  ]
+}

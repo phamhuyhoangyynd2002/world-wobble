@@ -16,7 +16,7 @@ window.HH_DATA = {
  "boi_canh": "Như d41; sổ mở trang hình hòn đảo vẽ tay",
  "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); tay không",
  "vao": "cat",
- "ra": "cat",
+ "ra": "giay",
  "chu_tren_do_vat": [],
  "nhip": [
   {
@@ -33,6 +33,16 @@ window.HH_DATA = {
    "tai": 3.775,
    "loi": "It didn't have their land, shared between them, or their say in how it was run.",
    "hanh_dong": "[day-vao-cham] Wob đặt bàn tay lên hình hòn đảo trong sổ, nhìn xuống, gật nhẹ; camera đẩy chậm; giữ 0,6 s",
+   "gag": "",
+   "dao_cu": [
+    "so-du-lich"
+   ],
+   "sfx": []
+  },
+  {
+   "tai": 7.9,
+   "loi": "",
+   "hanh_dong": "[lao-vao-hinh-ve] Sau \"run.\" camera lao vào hình hòn đảo dưới tay Wob; 0,4 s cuối phủ thành giấy phẳng #EFE3C8 (nối giay sang bến cảng d44, vào lại hồi ức sáng hôm sau)",
    "gag": "",
    "dao_cu": [
     "so-du-lich"

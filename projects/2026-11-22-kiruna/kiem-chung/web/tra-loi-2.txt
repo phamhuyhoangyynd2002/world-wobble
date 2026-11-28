@@ -1,0 +1,188 @@
+
+
+[
+{
+"id": "C09",
+"verdict": "sai",
+"correct_value": "Kiruna uses large-scale sublevel caving. The hanging-wall rock progressively fractures and caves into mined-out areas, producing underground rock movement and surface subsidence.",
+"note": "LKAB confirms sublevel caving and progressive cave-in, but the claim that no large voids remain is an oversimplification: mined-out voids are created and progressively filled by caved rock, not necessarily eliminated completely.",
+"sources": [
+{
+"title": "Measures for safer and more efficient mining",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/news/measures-for-safer-and-more-efficient-mining/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Managing geotechnical uncertainty and risk in mining",
+"publisher": "Journal of the Southern African Institute of Mining and Metallurgy",
+"url": "https://doi.org/10.17159/2411-9717/v9n2/2023",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": "The ore body extends eastward beneath the old town and northward, remaining open at depth. Continued mining expands the predicted ground-deformation impact area.",
+"note": "LKAB explicitly confirmed both directions of ore-body extension in its August 2025 update and reported an expanded deformation forecast affecting additional homes and residents.",
+"sources": [
+{
+"title": "Continued mining affects more of Kiruna",
+"publisher": "LKAB",
+"url": "https://news.cision.com/lkab/r/continued-mining-affects-more-of-kiruna,c4225883",
+"type": "goc",
+"published": "2025-08-28"
+},
+{
+"title": "Twist and Tango – Mines moving cities in Arctic Sweden",
+"publisher": "FIG Working Week",
+"url": "https://www.fig.net/resources/proceedings/fig_proceedings/fig2025/papers/ts05d/TS05D_janonius_lowgren_13063.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": "18 May 2020; magnitude ML 4.1; largest mining-induced earthquake in Scandinavia; 13 underground workers evacuated without injuries.",
+"note": "A 2024 peer-reviewed study confirms ML 4.1 and identifies the event as Scandinavia's largest mining-induced earthquake; LKAB confirms that 13 workers escaped unharmed, although its operational measurements reported ML 3.3 and Mw 4.2.",
+"sources": [
+{
+"title": "Retrieving Seismic Source Characteristics Using Seismic and Infrasound Data: The 2020 ML 4.1 Kiruna Minequake, Sweden",
+"publisher": "Geophysical Research Letters",
+"url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL109276",
+"type": "goc",
+"published": "2024-06-14"
+},
+{
+"title": "Analysis of the seismic event in Kiruna on May 18th completed",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/news/analysis-of-the-seismic-event-in-kiruna-on-may-18th-completed/",
+"type": "goc",
+"published": "2020-08-03"
+},
+{
+"title": "Earthquake rattles workers inside Arctic iron mine",
+"publisher": "Sveriges Radio",
+"url": "https://www.sverigesradio.se/artikel/7475598",
+"type": "bao",
+"published": "2020-05-18"
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": "607,818 commercial guest nights in 2024, a record for Kiruna.",
+"note": "Kiruna Lapland reported the exact figure and described it as a new record, while SVT independently reported the same number.",
+"sources": [
+{
+"title": "Kiruna når all time high under 2024",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/nyheter/kiruna-all-time-high-2024/",
+"type": "goc",
+"published": "2025-02-21"
+},
+{
+"title": "Trenden ”nocturism” ger rekordår för turismen i Kiruna – söker sig till mörker",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/trenden-nocturism-ger-rekordar-for-turismen-i-kiruna-besokare-soker-sig-till-morker",
+"type": "bao",
+"published": "2025-03-01"
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": "ICEHOTEL is located in Jukkasjärvi, approximately 17 km from Kiruna.",
+"note": "ICEHOTEL's official website explicitly identifies Jukkasjärvi as its location and gives the distance from Kiruna as 17 kilometres.",
+"sources": [
+{
+"title": "Swedish Lapland Jukkasjärvi & What to Expect",
+"publisher": "ICEHOTEL",
+"url": "https://www.icehotel.com/swedish-lapland",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Story of ICEHOTEL",
+"publisher": "ICEHOTEL",
+"url": "https://www.icehotel.com/the-story",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "ICEHOTEL's official history confirms that an ice-sculpting workshop was held in Jukkasjärvi in 1989, but the searched sources do not independently establish Kiruna's founding year as 1900, so the complete 89-year comparison remains unverified.",
+"sources": [
+{
+"title": "The Story of ICEHOTEL",
+"publisher": "ICEHOTEL",
+"url": "https://www.icehotel.com/the-story",
+"type": "goc",
+"published": null
+},
+{
+"title": "PRESS KIT",
+"publisher": "ICEHOTEL",
+"url": "https://press.icehotel.com/press-kit",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "dung",
+"correct_value": "Up to 68 wagons and approximately 750 metres per train.",
+"note": "The Swedish Transport Administration confirms that Malmbanan accommodates trains up to 750 metres long with 68 wagons, and specifically reports approximately 12 loaded ore trains daily from Kiruna toward Narvik; the seven-football-pitch comparison is mathematically reasonable using 105-metre pitches.",
+"sources": [
+{
+"title": "Malmbanan, Boden-Riksgränsen",
+"publisher": "Trafikverket (Swedish Transport Administration)",
+"url": "https://www.trafikverket.se/vara-projekt/alla-strak/malmbanan/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "mau-thuan",
+"correct_value": "The northern Bay of Bothnia generally experiences an ice season extending approximately from November to May, but the duration of continuous ice cover around Luleå varies with winter conditions.",
+"note": "Official and regional sources confirm substantial winter sea ice around Luleå, but distinguish the broader November–May Baltic ice season from the shorter period when Luleå's local waters and recreational ice routes are frozen; five to six months should not be presented as a fixed annual duration.",
+"sources": [
+{
+"title": "Ice season in the Baltic Sea",
+"publisher": "Finnish Meteorological Institute",
+"url": "https://en.ilmatieteenlaitos.fi/ice-season-in-the-baltic-sea",
+"type": "goc",
+"published": null
+},
+{
+"title": "Swedish ice service",
+"publisher": "SMHI (Swedish Meteorological and Hydrological Institute)",
+"url": "https://www.smhi.se/en/services/scandinavian-waters/swedish-ice-service",
+"type": "goc",
+"published": "2025-03-24"
+},
+{
+"title": "Winter in Luleå",
+"publisher": "Visit Luleå",
+"url": "https://visitlulea.se/en/winter/",
+"type": "khac",
+"published": null
+}
+]
+}
+]
+

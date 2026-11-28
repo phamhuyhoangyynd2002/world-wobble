@@ -13,7 +13,7 @@ window.HH_DATA = {
  "thoi_luong": 7.074,
  "bat_dau_tuyet_doi": 430.596,
  "lop": "hoi-uc",
- "boi_canh": "Vẽ tay: chín mẫu tem trên giấy hoá thành chín con tem thật có răng cưa (vẫn nét mực đen trắng); bưu thiếp của Wob",
+ "boi_canh": "Vẽ tay: chín mẫu tem trên giấy hoá thành chín con tem thật có răng cưa, VẪN nét mực ĐEN TRẮNG: núi lửa, thuyền dài, nhà mái thấp…; KHÔNG chim cánh cụt, KHÔNG mệnh giá (tem Tristan thật hay có chim cánh cụt: ở đây tuyệt đối không); dòng TRISTAN DA CUNHA trên tem chỉ vẽ khi tem ≥ 45 px; bưu thiếp của Wob (tem trên đó cũng không chim cánh cụt)",
  "trang_phuc": "Wob vẽ tay to, áo mưa cam mũ trùm hạ, cầm bưu thiếp",
  "vao": "cat",
  "ra": "cat",

@@ -11,9 +11,9 @@ window.HH_DATA = {
   "ti_le": 1.3333333333
  },
  "thoi_luong": 8.763,
- "bat_dau_tuyet_doi": 641.087,
+ "bat_dau_tuyet_doi": 641.287,
  "lop": "hien-tai",
- "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, sáng (đèn ấm thường); áo mưa cam trên móc tường, ba lô nhỏ dựa chân đèn; sổ mở có dãy chấm bút trên bàn (như d01); trên trang sổ hình cây phả hệ nhỏ của đảo (cành, lá, không chữ)",
+ "boi_canh": "Bàn kỷ vật dưới đèn bàn ấm (cùng bàn mọi tập), sổ du lịch, sáng (đèn ấm thường); áo mưa cam trên móc tường, ba lô nhỏ dựa chân đèn; sổ mở có dãy chấm bút trên bàn (như d01); trên trang sổ hình cây phả hệ nhỏ của đảo (cành, lá, không chữ); hộp phiếu gỗ nhỏ (từ d39) đứng cạnh sổ (để d50 đặt lá cạnh hộp phiếu)",
  "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp mặt viết quay về Wob; chiếc lá giấy nhỏ có mặt Wob",
  "vao": "cat",
  "ra": "chen",
@@ -37,8 +37,8 @@ window.HH_DATA = {
   {
    "tai": 3.125,
    "loi": "Outsiders can't buy land, and you can't settle without family on the island. You asked anyway.",
-   "hanh_dong": "Trên trang sổ cạnh bưu thiếp: cây phả hệ nhỏ của đảo; Wob đặt một chiếc lá giấy mang mặt mình cạnh cây",
-   "gag": "Chiếc lá không dính vào cành nào, trượt xuống mặt bàn; Wob nhặt lên, thử dán lần nữa, lá lại rơi; Wob đặt nó nằm cạnh bưu thiếp",
+   "hanh_dong": "Trên trang sổ cạnh bưu thiếp: cây phả hệ nhỏ của đảo, cành nào cũng kín lá nhọn; Wob cầm một chiếc lá giấy TRÒN XOE mang mặt mình, ướm vào cây",
+   "gag": "Wob ướm chiếc lá tròn vào hai chỗ, nhìn lá mình rồi nhìn hàng lá nhọn, tự lặng lẽ đặt lá nằm cạnh bưu thiếp, vuốt phẳng; giữ 0,6 s (Wob tự hiểu, KHÔNG phải đồ vật tự chặn Wob)",
    "dao_cu": [
     "so-du-lich",
     "la-giay"
@@ -49,93 +49,103 @@ window.HH_DATA = {
  "loi": [
   {
    "scene": 16,
-   "bat_dau": -6.575,
-   "thoi_luong": 49.776,
+   "bat_dau": -6.775,
+   "thoi_luong": 49.968,
    "tu": [
     {
      "text": "So,",
-     "start": -6.475,
-     "end": -6.063
+     "start": -6.675,
+     "end": -6.263
     },
     {
      "text": "the",
-     "start": -6.025,
-     "end": -5.937
+     "start": -6.225,
+     "end": -6.137
     },
     {
      "text": "postcard.",
-     "start": -5.925,
-     "end": -5.312
+     "start": -6.125,
+     "end": -5.512
     },
     {
      "text": "I",
-     "start": -4.95,
-     "end": -4.787
+     "start": -5.15,
+     "end": -4.987
     },
     {
      "text": "wrote",
-     "start": -4.775,
-     "end": -4.575
+     "start": -4.975,
+     "end": -4.762
     },
     {
      "text": "it",
-     "start": -4.562,
-     "end": -4.487
+     "start": -4.75,
+     "end": -4.675
     },
     {
-     "text": "on",
-     "start": -4.475,
-     "end": -4.287
-    },
-    {
-     "text": "deck,",
-     "start": -4.275,
-     "end": -3.925
-    },
-    {
-     "text": "with",
-     "start": -3.687,
-     "end": -3.562
+     "text": "at",
+     "start": -4.663,
+     "end": -4.575
     },
     {
      "text": "the",
-     "start": -3.55,
-     "end": -3.45
+     "start": -4.563,
+     "end": -4.475
     },
     {
-     "text": "island",
-     "start": -3.437,
-     "end": -3.062
+     "text": "post",
+     "start": -4.463,
+     "end": -4.125
     },
     {
-     "text": "shrinking",
+     "text": "office",
+     "start": -4.112,
+     "end": -3.762
+    },
+    {
+     "text": "counter,",
+     "start": -3.75,
+     "end": -3.337
+    },
+    {
+     "text": "the",
      "start": -3.05,
-     "end": -2.65
+     "end": -2.95
     },
     {
-     "text": "behind",
-     "start": -2.637,
-     "end": -2.213
+     "text": "day",
+     "start": -2.938,
+     "end": -2.775
     },
     {
-     "text": "the",
-     "start": -2.2,
-     "end": -2.163
+     "text": "before",
+     "start": -2.762,
+     "end": -2.45
     },
     {
-     "text": "ship,",
-     "start": -2.15,
-     "end": -1.8
+     "text": "my",
+     "start": -2.437,
+     "end": -2.312
+    },
+    {
+     "text": "ship",
+     "start": -2.3,
+     "end": -2.025
+    },
+    {
+     "text": "left,",
+     "start": -2.012,
+     "end": -1.675
     },
     {
      "text": "and",
-     "start": -1.387,
-     "end": -1.3
+     "start": -1.363,
+     "end": -1.288
     },
     {
      "text": "I",
-     "start": -1.288,
-     "end": -1.25
+     "start": -1.275,
+     "end": -1.238
     },
     {
      "text": "haven't",
@@ -174,7 +184,7 @@ window.HH_DATA = {
     },
     {
      "text": "me.",
-     "start": 1.263,
+     "start": 1.262,
      "end": 1.438
     },
     {
@@ -195,7 +205,7 @@ window.HH_DATA = {
     {
      "text": "here.",
      "start": 2.475,
-     "end": 2.763
+     "end": 2.762
     },
     {
      "text": "Outsiders",
@@ -219,8 +229,8 @@ window.HH_DATA = {
     },
     {
      "text": "and",
-     "start": 4.888,
-     "end": 5.013
+     "start": 4.887,
+     "end": 5.012
     },
     {
      "text": "you",
@@ -229,7 +239,7 @@ window.HH_DATA = {
     },
     {
      "text": "can't",
-     "start": 5.113,
+     "start": 5.112,
      "end": 5.4
     },
     {
@@ -239,18 +249,18 @@ window.HH_DATA = {
     },
     {
      "text": "without",
-     "start": 5.788,
+     "start": 5.787,
      "end": 6.1
     },
     {
      "text": "family",
-     "start": 6.113,
+     "start": 6.112,
      "end": 6.575
     },
     {
      "text": "on",
-     "start": 6.587,
-     "end": 6.662
+     "start": 6.588,
+     "end": 6.663
     },
     {
      "text": "the",
@@ -259,7 +269,7 @@ window.HH_DATA = {
     },
     {
      "text": "island.",
-     "start": 6.763,
+     "start": 6.762,
      "end": 7.212
     },
     {
@@ -270,7 +280,7 @@ window.HH_DATA = {
     {
      "text": "asked",
      "start": 7.825,
-     "end": 8.113
+     "end": 8.112
     },
     {
      "text": "anyway.",
@@ -300,7 +310,7 @@ window.HH_DATA = {
     {
      "text": "the",
      "start": 9.95,
-     "end": 10.012
+     "end": 10.013
     },
     {
      "text": "sea",
@@ -324,7 +334,7 @@ window.HH_DATA = {
     },
     {
      "text": "hospital",
-     "start": 11.538,
+     "start": 11.537,
      "end": 12.075
     },
     {
@@ -364,7 +374,7 @@ window.HH_DATA = {
     },
     {
      "text": "sea.",
-     "start": 13.538,
+     "start": 13.537,
      "end": 13.963
     },
     {
@@ -414,7 +424,7 @@ window.HH_DATA = {
     },
     {
      "text": "their",
-     "start": 17.538,
+     "start": 17.537,
      "end": 17.65
     },
     {
@@ -424,13 +434,13 @@ window.HH_DATA = {
     },
     {
      "text": "do",
-     "start": 18.038,
+     "start": 18.037,
      "end": 18.213
     },
     {
      "text": "fine",
      "start": 18.225,
-     "end": 18.538
+     "end": 18.537
     },
     {
      "text": "here.",
@@ -444,8 +454,8 @@ window.HH_DATA = {
     },
     {
      "text": "are",
-     "start": 19.387,
-     "end": 19.487
+     "start": 19.388,
+     "end": 19.488
     },
     {
      "text": "neither,",
@@ -474,13 +484,13 @@ window.HH_DATA = {
     },
     {
      "text": "the",
-     "start": 21.538,
+     "start": 21.537,
      "end": 21.625
     },
     {
      "text": "gong.",
-     "start": 21.637,
-     "end": 22.012
+     "start": 21.638,
+     "end": 22.013
     },
     {
      "text": "Twice.",
@@ -494,12 +504,12 @@ window.HH_DATA = {
     },
     {
      "text": "still",
-     "start": 23.538,
+     "start": 23.537,
      "end": 23.85
     },
     {
      "text": "want",
-     "start": 23.863,
+     "start": 23.862,
      "end": 24.012
     },
     {
@@ -514,7 +524,7 @@ window.HH_DATA = {
     },
     {
      "text": "here.",
-     "start": 24.288,
+     "start": 24.287,
      "end": 24.575
     },
     {
@@ -524,7 +534,7 @@ window.HH_DATA = {
     },
     {
      "text": "me.",
-     "start": 25.688,
+     "start": 25.687,
      "end": 25.913
     },
     {
@@ -534,27 +544,27 @@ window.HH_DATA = {
     },
     {
      "text": "it",
-     "start": 26.662,
+     "start": 26.663,
      "end": 26.725
     },
     {
      "text": "at",
-     "start": 26.737,
+     "start": 26.738,
      "end": 26.813
     },
     {
      "text": "my",
      "start": 26.825,
-     "end": 26.987
+     "end": 26.988
     },
     {
      "text": "desk,",
      "start": 27.0,
-     "end": 27.463
+     "end": 27.462
     },
     {
      "text": "I",
-     "start": 27.838,
+     "start": 27.837,
      "end": 27.913
     },
     {
@@ -564,8 +574,8 @@ window.HH_DATA = {
     },
     {
      "text": "with",
-     "start": 28.237,
-     "end": 28.387
+     "start": 28.238,
+     "end": 28.388
     },
     {
      "text": "every",
@@ -574,7 +584,7 @@ window.HH_DATA = {
     },
     {
      "text": "word,",
-     "start": 28.637,
+     "start": 28.638,
      "end": 29.05
     },
     {
@@ -584,13 +594,13 @@ window.HH_DATA = {
     },
     {
      "text": "the",
-     "start": 29.813,
+     "start": 29.812,
      "end": 29.9
     },
     {
      "text": "part",
-     "start": 29.912,
-     "end": 30.262
+     "start": 29.913,
+     "end": 30.263
     },
     {
      "text": "where",
@@ -599,13 +609,13 @@ window.HH_DATA = {
     },
     {
      "text": "they",
-     "start": 30.387,
+     "start": 30.388,
      "end": 30.5
     },
     {
      "text": "wouldn't",
-     "start": 30.512,
-     "end": 30.762
+     "start": 30.513,
+     "end": 30.763
     },
     {
      "text": "have",
@@ -615,7 +625,7 @@ window.HH_DATA = {
     {
      "text": "me.",
      "start": 31.025,
-     "end": 31.213
+     "end": 31.212
     },
     {
      "text": "It's",
@@ -624,8 +634,8 @@ window.HH_DATA = {
     },
     {
      "text": "their",
-     "start": 31.813,
-     "end": 31.963
+     "start": 31.812,
+     "end": 31.962
     },
     {
      "text": "island,",
@@ -634,22 +644,22 @@ window.HH_DATA = {
     },
     {
      "text": "by",
-     "start": 32.662,
+     "start": 32.663,
      "end": 32.825
     },
     {
      "text": "family",
-     "start": 32.838,
+     "start": 32.837,
      "end": 33.387
     },
     {
      "text": "and",
-     "start": 33.438,
+     "start": 33.437,
      "end": 33.55
     },
     {
      "text": "by",
-     "start": 33.563,
+     "start": 33.562,
      "end": 33.737
     },
     {
@@ -659,7 +669,7 @@ window.HH_DATA = {
     },
     {
      "text": "I'm",
-     "start": 34.563,
+     "start": 34.562,
      "end": 34.763
     },
     {
@@ -674,7 +684,7 @@ window.HH_DATA = {
     },
     {
      "text": "anyway.",
-     "start": 35.262,
+     "start": 35.263,
      "end": 35.713
     },
     {
@@ -685,7 +695,7 @@ window.HH_DATA = {
     {
      "text": "MOVE.",
      "start": 36.3,
-     "end": 36.662
+     "end": 36.663
     },
     {
      "text": "If",
@@ -694,13 +704,13 @@ window.HH_DATA = {
     },
     {
      "text": "they",
-     "start": 37.237,
+     "start": 37.238,
      "end": 37.313
     },
     {
      "text": "ever",
      "start": 37.325,
-     "end": 37.512
+     "end": 37.513
     },
     {
      "text": "need",
@@ -709,28 +719,28 @@ window.HH_DATA = {
     },
     {
      "text": "someone",
-     "start": 37.713,
+     "start": 37.712,
      "end": 38.0
     },
     {
      "text": "to",
-     "start": 38.012,
+     "start": 38.013,
      "end": 38.075
     },
     {
      "text": "hold",
-     "start": 38.088,
-     "end": 38.338
+     "start": 38.087,
+     "end": 38.337
     },
     {
      "text": "a",
      "start": 38.35,
-     "end": 38.387
+     "end": 38.388
     },
     {
      "text": "rope",
      "start": 38.4,
-     "end": 38.688
+     "end": 38.687
     },
     {
      "text": "and",
@@ -739,8 +749,8 @@ window.HH_DATA = {
     },
     {
      "text": "not",
-     "start": 38.987,
-     "end": 39.162
+     "start": 38.988,
+     "end": 39.163
     },
     {
      "text": "become",
@@ -749,18 +759,18 @@ window.HH_DATA = {
     },
     {
      "text": "cargo,",
-     "start": 39.512,
+     "start": 39.513,
      "end": 40.037
     },
     {
      "text": "I'm",
-     "start": 40.412,
+     "start": 40.413,
      "end": 40.55
     },
     {
      "text": "packed.",
-     "start": 40.563,
-     "end": 40.963
+     "start": 40.562,
+     "end": 40.962
     },
     {
      "text": "What",
@@ -769,18 +779,18 @@ window.HH_DATA = {
     },
     {
      "text": "would",
-     "start": 41.512,
+     "start": 41.513,
      "end": 41.625
     },
     {
      "text": "you",
-     "start": 41.637,
+     "start": 41.638,
      "end": 41.7
     },
     {
      "text": "sail",
-     "start": 41.713,
-     "end": 41.963
+     "start": 41.712,
+     "end": 41.962
     },
     {
      "text": "a",
@@ -794,7 +804,7 @@ window.HH_DATA = {
     },
     {
      "text": "to",
-     "start": 42.213,
+     "start": 42.212,
      "end": 42.275
     },
     {
@@ -804,7 +814,7 @@ window.HH_DATA = {
     },
     {
      "text": "back",
-     "start": 42.438,
+     "start": 42.437,
      "end": 42.638
     },
     {
@@ -815,157 +825,177 @@ window.HH_DATA = {
    ],
    "khau_hinh": [
     {
-     "start": -6.575,
-     "end": -6.275,
+     "start": -6.775,
+     "end": -6.475,
      "value": "X"
     },
     {
-     "start": -6.275,
-     "end": -6.142,
+     "start": -6.475,
+     "end": -6.342,
      "value": "C"
     },
     {
-     "start": -6.142,
-     "end": -6.042,
+     "start": -6.342,
+     "end": -6.242,
      "value": "C"
     },
     {
-     "start": -6.042,
-     "end": -5.875,
+     "start": -6.242,
+     "end": -6.075,
      "value": "X"
     },
     {
-     "start": -5.875,
-     "end": -5.775,
+     "start": -6.075,
+     "end": -5.975,
      "value": "X"
     },
     {
-     "start": -5.775,
-     "end": -5.642,
+     "start": -5.975,
+     "end": -5.842,
      "value": "D"
     },
     {
+     "start": -5.842,
+     "end": -5.742,
+     "value": "B"
+    },
+    {
+     "start": -5.742,
+     "end": -5.642,
+     "value": "B"
+    },
+    {
      "start": -5.642,
-     "end": -5.542,
+     "end": -5.508,
      "value": "B"
     },
     {
-     "start": -5.542,
-     "end": -5.442,
-     "value": "B"
-    },
-    {
-     "start": -5.442,
-     "end": -5.308,
-     "value": "B"
-    },
-    {
-     "start": -5.308,
-     "end": -4.775,
+     "start": -5.508,
+     "end": -4.975,
      "value": "X"
     },
     {
-     "start": -4.775,
-     "end": -4.675,
+     "start": -4.975,
+     "end": -4.875,
      "value": "C"
     },
     {
-     "start": -4.675,
+     "start": -4.875,
      "end": -4.542,
      "value": "D"
     },
     {
      "start": -4.542,
-     "end": -4.408,
+     "end": -4.275,
+     "value": "X"
+    },
+    {
+     "start": -4.275,
+     "end": -4.108,
      "value": "D"
     },
     {
-     "start": -4.408,
-     "end": -4.242,
-     "value": "C"
-    },
-    {
-     "start": -4.242,
-     "end": -4.175,
-     "value": "X"
-    },
-    {
-     "start": -4.175,
-     "end": -4.075,
-     "value": "C"
-    },
-    {
-     "start": -4.075,
-     "end": -3.975,
+     "start": -4.108,
+     "end": -4.008,
      "value": "B"
     },
     {
-     "start": -3.975,
-     "end": -3.542,
-     "value": "X"
-    },
-    {
-     "start": -3.542,
-     "end": -3.442,
-     "value": "X"
-    },
-    {
-     "start": -3.442,
-     "end": -3.242,
-     "value": "B"
-    },
-    {
-     "start": -3.242,
-     "end": -3.042,
+     "start": -4.008,
+     "end": -3.842,
      "value": "C"
     },
     {
-     "start": -3.042,
+     "start": -3.842,
+     "end": -3.675,
+     "value": "B"
+    },
+    {
+     "start": -3.675,
+     "end": -3.608,
+     "value": "B"
+    },
+    {
+     "start": -3.608,
+     "end": -3.475,
+     "value": "F"
+    },
+    {
+     "start": -3.475,
+     "end": -3.308,
+     "value": "B"
+    },
+    {
+     "start": -3.308,
+     "end": -2.942,
+     "value": "X"
+    },
+    {
+     "start": -2.942,
      "end": -2.842,
      "value": "B"
     },
     {
      "start": -2.842,
-     "end": -2.508,
-     "value": "C"
+     "end": -2.708,
+     "value": "D"
     },
     {
-     "start": -2.508,
+     "start": -2.708,
+     "end": -2.608,
+     "value": "B"
+    },
+    {
+     "start": -2.608,
      "end": -2.375,
-     "value": "B"
-    },
-    {
-     "start": -2.375,
-     "end": -2.208,
-     "value": "C"
-    },
-    {
-     "start": -2.208,
-     "end": -2.042,
-     "value": "B"
-    },
-    {
-     "start": -2.042,
-     "end": -1.842,
-     "value": "C"
-    },
-    {
-     "start": -1.842,
-     "end": -1.208,
      "value": "X"
     },
     {
+     "start": -2.375,
+     "end": -2.308,
+     "value": "C"
+    },
+    {
+     "start": -2.308,
+     "end": -1.975,
+     "value": "B"
+    },
+    {
+     "start": -1.975,
+     "end": -1.842,
+     "value": "B"
+    },
+    {
+     "start": -1.842,
+     "end": -1.742,
+     "value": "B"
+    },
+    {
+     "start": -1.742,
+     "end": -1.275,
+     "value": "X"
+    },
+    {
+     "start": -1.275,
+     "end": -1.208,
+     "value": "D"
+    },
+    {
      "start": -1.208,
+     "end": -1.042,
+     "value": "C"
+    },
+    {
+     "start": -1.042,
      "end": -0.942,
      "value": "C"
     },
     {
      "start": -0.942,
-     "end": -0.875,
+     "end": -0.842,
      "value": "B"
     },
     {
-     "start": -0.875,
+     "start": -0.842,
      "end": -0.775,
      "value": "C"
     },
@@ -986,13 +1016,8 @@ window.HH_DATA = {
     },
     {
      "start": -0.208,
-     "end": 0.325,
-     "value": "X"
-    },
-    {
-     "start": 0.325,
      "end": 0.425,
-     "value": "B"
+     "value": "X"
     },
     {
      "start": 0.425,
@@ -1111,8 +1136,13 @@ window.HH_DATA = {
     },
     {
      "start": 5.592,
-     "end": 5.792,
+     "end": 5.692,
      "value": "D"
+    },
+    {
+     "start": 5.692,
+     "end": 5.792,
+     "value": "C"
     },
     {
      "start": 5.792,
@@ -1211,11 +1241,11 @@ window.HH_DATA = {
     },
     {
      "start": 9.925,
-     "end": 10.025,
+     "end": 9.992,
      "value": "C"
     },
     {
-     "start": 10.025,
+     "start": 9.992,
      "end": 10.092,
      "value": "B"
     },
@@ -1266,8 +1296,13 @@ window.HH_DATA = {
     },
     {
      "start": 11.725,
-     "end": 11.992,
+     "end": 11.858,
      "value": "C"
+    },
+    {
+     "start": 11.858,
+     "end": 11.992,
+     "value": "X"
     },
     {
      "start": 11.992,
@@ -1366,13 +1401,8 @@ window.HH_DATA = {
     },
     {
      "start": 15.625,
-     "end": 15.692,
-     "value": "B"
-    },
-    {
-     "start": 15.692,
      "end": 15.792,
-     "value": "C"
+     "value": "B"
     },
     {
      "start": 15.792,
@@ -1391,6 +1421,11 @@ window.HH_DATA = {
     },
     {
      "start": 17.225,
+     "end": 17.458,
+     "value": "D"
+    },
+    {
+     "start": 17.458,
      "end": 17.558,
      "value": "D"
     },
@@ -1411,11 +1446,11 @@ window.HH_DATA = {
     },
     {
      "start": 18.025,
-     "end": 18.125,
+     "end": 18.158,
      "value": "B"
     },
     {
-     "start": 18.125,
+     "start": 18.158,
      "end": 18.258,
      "value": "B"
     },
@@ -1511,8 +1546,13 @@ window.HH_DATA = {
     },
     {
      "start": 22.725,
-     "end": 22.925,
+     "end": 22.858,
      "value": "B"
+    },
+    {
+     "start": 22.858,
+     "end": 22.925,
+     "value": "C"
     },
     {
      "start": 22.925,
@@ -1521,11 +1561,11 @@ window.HH_DATA = {
     },
     {
      "start": 22.992,
-     "end": 23.592,
+     "end": 23.625,
      "value": "X"
     },
     {
-     "start": 23.592,
+     "start": 23.625,
      "end": 23.958,
      "value": "B"
     },
@@ -1621,13 +1661,8 @@ window.HH_DATA = {
     },
     {
      "start": 28.025,
-     "end": 28.292,
-     "value": "B"
-    },
-    {
-     "start": 28.292,
      "end": 28.392,
-     "value": "C"
+     "value": "B"
     },
     {
      "start": 28.392,
@@ -1701,16 +1736,11 @@ window.HH_DATA = {
     },
     {
      "start": 30.925,
-     "end": 31.025,
+     "end": 31.058,
      "value": "C"
     },
     {
-     "start": 31.025,
-     "end": 31.092,
-     "value": "A"
-    },
-    {
-     "start": 31.092,
+     "start": 31.058,
      "end": 31.192,
      "value": "B"
     },
@@ -1856,16 +1886,11 @@ window.HH_DATA = {
     },
     {
      "start": 37.592,
-     "end": 37.858,
+     "end": 37.892,
      "value": "C"
     },
     {
-     "start": 37.858,
-     "end": 37.925,
-     "value": "D"
-    },
-    {
-     "start": 37.925,
+     "start": 37.892,
      "end": 37.992,
      "value": "C"
     },
@@ -1966,6 +1991,11 @@ window.HH_DATA = {
     },
     {
      "start": 41.725,
+     "end": 41.858,
+     "value": "C"
+    },
+    {
+     "start": 41.858,
      "end": 41.925,
      "value": "C"
     },
@@ -1996,7 +2026,7 @@ window.HH_DATA = {
     },
     {
      "start": 42.858,
-     "end": 43.258,
+     "end": 43.225,
      "value": "X"
     }
    ]

@@ -14,7 +14,7 @@ window.HH_DATA = {
  "bat_dau_tuyet_doi": 9.575,
  "lop": "hien-tai",
  "boi_canh": "Như d01 (bàn, đèn ấm, sổ map-tristan, dãy chấm bút trên bàn, vé tàu đã xé). Sau \"Tristan da Cunha\" camera hạ xuống trang sổ cho nhịp sợi chỉ (trang ≥ 60% khung); rồi cận mặt tranh bưu thiếp cho thẻ ~220",
- "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp (như d01); từ nhịp sợi chỉ cầm cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3); tới \"the nearest other people\" Wob đã tháo dây giày đỏ một chiếc giày (đứng một chân tới hết đoạn, rồi xỏ lại dây trong khoảng lặng đầu d05)",
+ "trang_phuc": "Ở NHÀ: không áo mưa, không mũ, không đeo ba lô (rig noPack); áo mưa cam treo trên móc tường sau bàn, ba lô nhỏ dựa chân đèn bàn (dấu chuyến đi đã xong); cầm bưu thiếp (như d01); từ nhịp sợi chỉ cầm cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3); tới \"the nearest other people\" Wob đã tháo dây giày đỏ một chiếc giày (đứng một chân tới hết đoạn; dây giày xỏ lại trong lúc chèn d04, không diễn)",
  "vao": "cat",
  "ra": "chen",
  "chu_tren_do_vat": [
@@ -40,7 +40,7 @@ window.HH_DATA = {
   {
    "tai": 1.612,
    "loi": "Hi, I'm Wob. I visit odd places and ask why anyone stays.",
-   "hanh_dong": "[giu-tinh-bo] LỜI CHÀO NHẬN DIỆN (skill mo-ket): Wob quay ra người xem, vẫy tay; không thẻ hộ chiếu ở đây (thẻ vào ở chữ Tristan da Cunha)",
+   "hanh_dong": "[day-vao-cham] LỜI CHÀO NHẬN DIỆN (skill mo-ket): Wob quay ra người xem, vẫy tay; không thẻ hộ chiếu ở đây (thẻ vào ở chữ Tristan da Cunha)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -58,9 +58,9 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 7.874,
+   "tai": 7.824,
    "loi": "Tristan da Cunha, in the middle of the South Atlantic.",
-   "hanh_dong": "THẺ HỘ CHIẾU giấy: tên nơi XUỐNG HAI DÒNG \"TRISTAN\" / \"DA CUNHA\" cỡ ≥ 72 px hệ 1920, dòng SOUTH ATLANTIC và dòng Would Wob move here? ≥ 54 px, một ô con dấu vuông còn trống; thẻ ở góc trái trên x 96–900, y 54–540 lật vào góc trái trên đúng chữ \"Tristan\" (≈ 17.5 s), hiện ĐỦ 3 s rồi lật đi, xong trước chữ \"Guinness\". Wob đứng nửa phải khung, mặt Wob không bị thẻ che; không vào vùng logo x > 1500, y < 150",
+   "hanh_dong": "THẺ HỘ CHIẾU giấy: tên nơi XUỐNG HAI DÒNG \"TRISTAN\" / \"DA CUNHA\" cỡ ≥ 72 px hệ 1920, dòng SOUTH ATLANTIC và dòng Would Wob move here? ≥ 54 px, một ô con dấu vuông còn trống; thẻ ở góc trái trên x 96–900, y 54–540 bắt đầu lật vào góc trái trên ở 17.40 s, PHẲNG 17.50–20.50 s (đủ 3 s, đúng chữ \"Tristan\"), lật đi xong trước \"Guinness\" (20.76 s). Camera ĐỨNG YÊN trong lúc thẻ hiện và lật đi. Wob đứng nửa phải khung, mặt Wob không bị thẻ che; không vào vùng logo x > 1500, y < 150",
    "gag": "",
    "dao_cu": [
     "the-ho-chieu"
@@ -70,10 +70,10 @@ window.HH_DATA = {
    ]
   },
   {
-   "tai": 11.187,
+   "tai": 11.227,
    "loi": "Guinness lists it as the most remote inhabited island, measured by the distance to the nearest other people.",
-   "hanh_dong": "[trang-so-ban-do] Camera hạ xuống trang sổ: Wob buộc đầu cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3) vào chấm Tristan rồi kéo sợi chỉ đi về PHÍA BẮC tìm chấm có người gần nhất; kéo mãi chưa tới chấm nào thì cuộn chỉ hết",
-   "gag": "Cuộn chỉ hết giữa chừng: Wob tháo dây giày đỏ của mình nối vào, kéo tiếp, đứng một chân; đầu dây vẫn chưa chạm chấm nào, giữ 0,6 s",
+   "hanh_dong": "[trang-so-ban-do] Camera hạ xuống trang sổ, CHỈ bắt đầu từ 20.80 s (thẻ đã đi hẳn): đầu cuộn chỉ xanh đậm #2F4A6B (thay thước dây: thước dây là đạo cụ gag tập 3) ĐÃ BUỘC SẴN vào chấm Tristan khi camera tới (không diễn động tác buộc); Wob kéo sợi chỉ đi về PHÍA BẮC tìm chấm có người gần nhất; kéo mãi chưa tới chấm nào thì cuộn chỉ hết",
+   "gag": "Cuộn chỉ hết giữa chừng: Wob tháo dây giày đỏ của mình nối vào, kéo tiếp, đứng một chân; đầu dây vẫn chưa chạm chấm nào; GIỮ Wob đứng một chân ≥ 0,6 s trước \"As of\" (26.64 s)",
    "dao_cu": [
     "cuon-chi",
     "day-giay",

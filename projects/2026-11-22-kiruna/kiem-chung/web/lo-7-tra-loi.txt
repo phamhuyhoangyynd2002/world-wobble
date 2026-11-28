@@ -1,0 +1,202 @@
+
+
+[
+{
+"id": "C49",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "SVT reported on 3 December 2025 that two tenants had started a petition in Thule protesting the forced relocation, but the report does not establish that the petition specifically argued the compensation offered was insufficient.",
+"sources": [
+{
+"title": "Hyresgäster rasar mot höjda hyror – ”tvättstugeupproret” är igång",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/sapmi/hyresgaster-rasar-mot-hojda-hyror-tvattstugeupproret-ar-igang",
+"type": "bao",
+"published": "2025-12-03"
+},
+{
+"title": "Kirunabor tvingas flytta – kräver högre ersättning",
+"publisher": "TV4",
+"url": "https://www.tv4.se/artikel/1Nd6i7DidVJXpJWEVlomIf/tvingas-flytta-vaedjar-om-hoegre-ersaettning-vaeldigt-vemodigt",
+"type": "bao",
+"published": "2025-12-01"
+}
+]
+},
+{
+"id": "C50",
+"verdict": "dung",
+"correct_value": null,
+"note": "A July 2025 TT report confirms that Gabna's former migration route followed Lake Luossajärvi, was blocked by mining and settlement, and that the community subsequently used the passage behind Luossavaara; a municipal environmental assessment also documents the northern migration route.",
+"sources": [
+{
+"title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+"publisher": "Sweden Herald (TT)",
+"url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+"type": "bao",
+"published": "2025-07-19"
+},
+{
+"title": "Miljökonsekvensbeskrivning – Östra industriområdet etapp 3",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/download/18.50174f1f174bf24f3156550/1601297139285/p2013-000001-mkb-ostra-industriomradet-etapp-3--antagandehandling.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C51",
+"verdict": "dung",
+"correct_value": null,
+"note": "The July 2025 TT report places the Per Geijer deposit at the passage behind Luossavaara used by Gabna between summer and winter grazing areas and reports that a new mine would cut off that passage.",
+"sources": [
+{
+"title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+"publisher": "Sweden Herald (TT)",
+"url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+"type": "bao",
+"published": "2025-07-19"
+},
+{
+"title": "LKAB responded",
+"publisher": "Business and Human Rights Centre",
+"url": "https://www.business-humanrights.org/en/latest-news/lkab-responded/",
+"type": "khac",
+"published": "2023-02-27"
+}
+]
+},
+{
+"id": "C52",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB describes the Kiruna deposit as one of Europe's largest known rare earth deposits, and its official project information confirms strategic project designation under the EU Critical Raw Materials Act in 2025.",
+"sources": [
+{
+"title": "LKAB's REEMap projects designated as strategic under the EU's Critical Raw Materials Act",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/our-transformation/lkabs-projects-designated-as-strategic-under-the-eus-critical-raw-materials-act/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Information on Europe's largest deposit of rare earth elements",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press-eu23/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Europe's largest rare earths mine: How EU funding clashes with environmental laws",
+"publisher": "Euronews",
+"url": "https://www.euronews.com/my-europe/2026/01/22/europes-largest-rare-earths-mine-how-eu-funding-clashes-with-environmental-laws",
+"type": "bao",
+"published": "2026-01-22"
+}
+]
+},
+{
+"id": "C53",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB identifies rare earth elements from its Kiruna mineral deposits as important for electric vehicles and explains that rare earth elements are used in the permanent magnets of electric motors.",
+"sources": [
+{
+"title": "Information on Europe's largest deposit of rare earth elements",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press-eu23/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Rare earth elements",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/our-transformation/critical-minerals/rare-earth-elements/",
+"type": "goc",
+"published": null
+},
+{
+"title": "LKAB reports improved Mineral Resources",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/press/lkab-reports-improved-mineral-resources/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C54",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The July 2025 TT report confirms Kuhmunen said there was nowhere left for Gabna to move, but the searched sources did not establish the attributed statement by LKAB CEO Jan Moström that both parties need the same land.",
+"sources": [
+{
+"title": "Samer: Ingenstans kvar att flytta",
+"publisher": "Börskollen (TT)",
+"url": "https://www.borskollen.se/nyheter/27/samer-ingenstans-kvar-att-flytta",
+"type": "bao",
+"published": "2025-07-14"
+},
+{
+"title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+"publisher": "Sweden Herald (TT)",
+"url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+"type": "bao",
+"published": "2025-07-19"
+}
+]
+},
+{
+"id": "C55",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The searches did not locate a reliable source confirming that Gabna has submitted an application to the European Court of Human Rights concerning LKAB's mining plans; this claim should not be presented as established fact.",
+"sources": [
+{
+"title": "State of Proceedings Online",
+"publisher": "European Court of Human Rights",
+"url": "https://app.echr.coe.int/sop/en-GB",
+"type": "goc",
+"published": null
+},
+{
+"title": "Apply to the Court",
+"publisher": "European Court of Human Rights",
+"url": "https://www.echr.coe.int/apply-to-the-court",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C56",
+"verdict": "dung",
+"correct_value": null,
+"note": "On 1 December 2025 SVT reported that Gabna terminated its cooperation agreement because consultations did not influence LKAB's mining processes, while LKAB announced that it wanted continued dialogue and new cooperation arrangements.",
+"sources": [
+{
+"title": "Gabna sameby bryter med LKAB: ”Samråden är ett skådespel”",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/sapmi/gabna-sameby-bryter-med-lkab-samraden-ar-ett-skadespel",
+"type": "bao",
+"published": "2025-12-01"
+},
+{
+"title": "Förändring i samverkan mellan LKAB och Gabna sameby i Kiruna",
+"publisher": "LKAB",
+"url": "https://lkab.com/nyheter/forandring-i-samverkan-mellan-lkab-och-gabna-sameby-i-kiruna/",
+"type": "goc",
+"published": "2025-12-01"
+},
+{
+"title": "LKAB: Vill ha fortsatt dialog med sameby",
+"publisher": "Sveriges Radio",
+"url": "https://www.sverigesradio.se/artikel/lkab-vill-ha-fortsatt-dialog-med-sameby",
+"type": "bao",
+"published": "2025-12-01"
+}
+]
+}
+]
+

@@ -26,7 +26,7 @@ window.HH_DATA = {
   {
    "tai": 0.15,
    "loi": "Napoleon.",
-   "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc; giữ 0,8 s",
+   "hanh_dong": "[lat-the] CẮT CỨNG vào trang sổ: chỉ một chiếc mũ hai sừng màu đen (phác, KHÔNG mặt, không người) rơi xuống đậu trên chấm đảo phía bắc, chạm trang 0–3 khung trước \"Napoleon.\" (177.89 s); giữ tới \"After\"",
    "gag": "",
    "dao_cu": [
     "mu-hai-sung",
@@ -39,7 +39,7 @@ window.HH_DATA = {
   {
    "tai": 1.29,
    "loi": "After his final defeat, Britain exiled Napoleon to St Helena, another lonely island,",
-   "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; chiếc mũ hai sừng khẽ nghiêng như ngồi chờ",
+   "hanh_dong": "Nhãn St Helena hiện cạnh chấm có mũ, nhãn Tristan cạnh chấm dưới; đúng \"lonely\" (≈ 183.35 s) chiếc mũ hai sừng khẽ xoay vành về phía chấm Tristan như ngó xuống",
    "gag": "",
    "dao_cu": [
     "map-napoleon",

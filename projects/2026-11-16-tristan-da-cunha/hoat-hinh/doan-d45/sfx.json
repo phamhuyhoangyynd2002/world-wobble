@@ -1,0 +1,27 @@
+[
+ {
+  "ten": "whoosh",
+  "tai": 0,
+  "am_luong": 0.45
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 0.3,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 1.62,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 2.12,
+  "am_luong": 0.2
+ },
+ {
+  "ten": "bonk",
+  "tai": 3.14,
+  "am_luong": 0.75
+ }
+]

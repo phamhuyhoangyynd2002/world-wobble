@@ -22,8 +22,8 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "I packed and unpacked the small backpack until it filed a complaint.",
-   "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần, mỗi lần nhanh hơn; lần ba ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ)",
-   "gag": "Ba lô quay lưng lại với Wob, khoá kéo mím chặt",
+   "hanh_dong": "[leo-thang-ba-lan] Hình to: Wob nhét đồ vào ba lô nhỏ rồi lôi ra, ba lần trong ≈ 84.28–86.26 s (mỗi lần ≥ 0,6 s, lần sau nhanh hơn); ba lô giơ lên một tờ giấy bé có hình mặt cau có (không chữ) đúng \"filed\" (≈ 86.61 s)",
+   "gag": "Ba lô quay lưng lại với Wob đúng \"complaint\" (≈ 87.06 s), khoá kéo mím chặt; giữ tới cắt 87.78 s",
    "dao_cu": [
     "ba-lo-nho"
    ],

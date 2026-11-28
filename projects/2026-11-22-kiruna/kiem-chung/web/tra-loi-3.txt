@@ -1,0 +1,209 @@
+
+
+[
+{
+"id": "C17",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB confirms that the Iron Ore Line connects Kiruna with Narvik on the Norwegian coast and explicitly attributes Narvik's year-round ice-free port to the Gulf Stream.",
+"sources": [
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Narvik: our gateway to the world",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/community-development/lkab-in-narvik/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C18",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality confirms that the railway reached Kiruna around the turn of the century, reached Narvik two years later, and was inaugurated by King Oscar II in 1903.",
+"sources": [
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C19",
+"verdict": "dung",
+"correct_value": null,
+"note": "Trafikverket confirms approximately 12 loaded ore trains daily from Kiruna to Narvik; LKAB confirms Luleå remains an ore-export port, and official port and maritime sources confirm winter icebreaker assistance.",
+"sources": [
+{
+"title": "Malmbanan, Boden-Riksgränsen",
+"publisher": "Trafikverket",
+"url": "https://www.trafikverket.se/vara-projekt/alla-strak/malmbanan/",
+"type": "goc",
+"published": null
+},
+{
+"title": "From mine to port",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/from-mine-to-port/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Vessel calls",
+"publisher": "Port of Luleå",
+"url": "https://portlulea.com/en/maritime-services/vessel-calls/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Assistance restrictions",
+"publisher": "Swedish Maritime Administration",
+"url": "https://www.sjofartsverket.se/globalassets/tjanster/isbrytning/pdf-vintersjofart/vintersjofart_engelska_2026_web10.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality explicitly identifies 1900 as the town's birth year because the Crown approved its first town plan that year.",
+"sources": [
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna's old town plan",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan.html?open.12.78ac1b93173d009ef4d6a0a0=true",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C21",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality and Kiruna Lapland confirm Lundbohm's geological background, his vision of a model community, and his engagement of Per-Olov Hallman to create a climate-adapted town plan.",
+"sources": [
+{
+"title": "Kiruna",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/en/destinations/kiruna/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna from the beginning",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/stadsomvandling/startsida/invanare/bakgrund/kiruna-fran-borjan.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Mönsterstaden Kiruna",
+"publisher": "Government Offices of Sweden",
+"url": "https://www.regeringen.se/contentassets/e392c0b308c043d98345acc7d1f9edc6/gruvverksamheten-i-kiruna-och-malmberget---vissa-administrativa-forutsattningar-for-utvecklingen/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "Kiruna Municipality reports approximately 7,500 inhabitants in 1910, consistent with historical academic research reporting 7,468.",
+"sources": [
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+},
+{
+"title": "Corporate paternalism on the rocks: a historical analysis of power relations in a mining town",
+"publisher": "Management & Organizational History",
+"url": "https://doi.org/10.1080/17449359.2021.1977142",
+"type": "bach-khoa",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "mau-thuan",
+"correct_value": "Kiruna's land area is 19,307 km². The 2025 population is reported as either 22,379 or 22,402 in sources citing Statistics Sweden. New Jersey's 2020 land area is approximately 19,049 km².",
+"note": "The land-area comparison is correct, but published 2025 population figures conflict: Regionfakta reports 22,379 while other datasets and a 2026 County Administrative Board report give 22,402.",
+"sources": [
+{
+"title": "Areal och befolkningstäthet",
+"publisher": "Regionfakta (Statistics Sweden data)",
+"url": "https://www.regionfakta.com/norrbottens-lan/norrbottens-lan/kiruna/geografi/areal-och-befolkningstathet/",
+"type": "khac",
+"published": "2026-03-04"
+},
+{
+"title": "Befolkningsförändring senaste året",
+"publisher": "Regionfakta",
+"url": "https://www.regionfakta.com/norrbottens-lan/norrbottens-lan/kiruna/befolkning-och-hushall/befolkning/befolkningsforandring-senaste-aret/",
+"type": "khac",
+"published": "2026-02-25"
+},
+{
+"title": "Bostadsmarknadsanalys 2026 Norrbottens län",
+"publisher": "County Administrative Board of Norrbotten",
+"url": "https://www.lansstyrelsen.se/download/18.11a69ad819eb685a1ac3ae00/1781599655873/Bostadsmarknadsanalys%202026.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "NJ County Land Area and Population",
+"publisher": "Bergen County Government (US Census Bureau data)",
+"url": "https://bergencountynj.gov/wp-content/uploads/2026/01/GLANCE202512.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB's 2025 Annual and Sustainability Report explicitly states that it produced 86 percent of all iron ore in the European Union, supporting the claim of more than 80 percent.",
+"sources": [
+{
+"title": "Annual and Sustainability Report 2025",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/financial-information/annual-reports/annual-and-sustainability-report-2025/",
+"type": "goc",
+"published": null
+},
+{
+"title": "What we do",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/what-we-do/",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+

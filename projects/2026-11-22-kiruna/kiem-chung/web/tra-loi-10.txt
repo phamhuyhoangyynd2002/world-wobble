@@ -1,0 +1,84 @@
+
+
+[
+{
+"id": "C23",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "Kiruna Municipality's official website reports 19,447 km², while a municipal government document specifies 19,163 km² of land and 1,390 km² of water; the New Jersey land-area comparison is approximately correct at 19,050 km², but an exact Statistics Sweden figure for Kiruna's population at 31 December 2025 was not verified in this search session.",
+"sources": [
+{
+"title": "Geografi",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/kommun--demokrati/kommunfakta/geografi.html?open.12.78ac1b93173d009ef4d6a0a0=true",
+"type": "goc",
+"published": null
+},
+{
+"title": "Handlingsprogram för skydd mot olyckor",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/download/18.77f8afa19545e1ec1180f8/1741720875368/Handlingsprogram%20LSO%20Kiruna%202025.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "U.S. Census Bureau QuickFacts: New Jersey",
+"publisher": "U.S. Census Bureau",
+"url": "https://www.census.gov/quickfacts/fact/table/NJ/LND110220",
+"type": "goc",
+"published": null
+},
+{
+"title": "Population statistics - Quarter 3, 2026",
+"publisher": "Statistics Sweden",
+"url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/pong/tables-and-graphs/population-statistics---month-quarter-half-year/population-statistics---quarter-3-2026/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "SVT broadcast the two-day church relocation live under the Swedish title Den stora kyrkflytten, with separate first-day and second-day broadcasts; the Church of Sweden confirms that viewers could follow the entire move through SVT's 30 cameras for approximately 18 hours.",
+"sources": [
+{
+"title": "Den stora kyrkflytten",
+"publisher": "SVT Play",
+"url": "https://www.svtplay.se/den-stora-kyrkflytten",
+"type": "goc",
+"published": null
+},
+{
+"title": "Första dagen",
+"publisher": "SVT Play",
+"url": "https://www.svtplay.se/video/KnDgQ9G/den-stora-kyrkflytten/forsta-dagen",
+"type": "goc",
+"published": "2025-08-19"
+},
+{
+"title": "Andra dagen",
+"publisher": "SVT Play",
+"url": "https://www.svtplay.se/video/KMyy33m/den-stora-kyrkflytten/andra-dagen",
+"type": "goc",
+"published": "2025-08-20"
+},
+{
+"title": "Biskopen välsignar Kiruna kyrka",
+"publisher": "Church of Sweden (Luleå Diocese)",
+"url": "https://www.svenskakyrkan.se/luleastift/nyheter/biskopen-valsignar-kiruna-kyrka",
+"type": "goc",
+"published": "2025-08-14"
+},
+{
+"title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+"type": "goc",
+"published": "2025-08-19"
+}
+]
+}
+]
+

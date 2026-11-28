@@ -1,0 +1,167 @@
+{
+  "assets": {
+    "map-kiruna": {
+      "file": "assets/ban-do/map-kiruna.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        20.225,
+        67.856
+      ],
+      "zoom": 4,
+      "anchor": [
+        1320,
+        520
+      ],
+      "highlight": [
+        "SWE"
+      ],
+      "marks": [
+        {
+          "x": 1320,
+          "y": 520,
+          "label": "Kiruna",
+          "lon": 20.225,
+          "lat": 67.856
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        1,
+        2,
+        5,
+        12,
+        13,
+        16
+      ],
+      "created": "2026-11-28"
+    },
+    "map-kiruna-rail": {
+      "file": "assets/ban-do/map-kiruna-rail.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        19.8,
+        67
+      ],
+      "zoom": 12,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [
+        "SWE"
+      ],
+      "marks": [
+        {
+          "x": 987,
+          "y": 397,
+          "label": "Kiruna",
+          "lon": 20.225,
+          "lat": 67.856
+        },
+        {
+          "x": 808,
+          "y": 297,
+          "label": "Narvik",
+          "lon": 17.427,
+          "lat": 68.438
+        },
+        {
+          "x": 1111,
+          "y": 765,
+          "label": "Luleå",
+          "lon": 22.155,
+          "lat": 65.584
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        6,
+        7,
+        16
+      ],
+      "created": "2026-11-28"
+    },
+    "map-kiruna-centre": {
+      "file": "assets/ban-do/map-kiruna-centre.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        20.26,
+        67.855
+      ],
+      "zoom": 900,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 792,
+          "y": 540,
+          "label": "Old centre",
+          "lon": 20.225,
+          "lat": 67.855
+        },
+        {
+          "x": 1104,
+          "y": 451,
+          "label": "New centre (approx.)",
+          "lon": 20.29,
+          "lat": 67.862
+        },
+        {
+          "x": 576,
+          "y": 858,
+          "label": "Kiirunavaara",
+          "lon": 20.18,
+          "lat": 67.83
+        },
+        {
+          "x": 816,
+          "y": 285,
+          "label": "Luossavaara",
+          "lon": 20.23,
+          "lat": 67.875
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "created": "2026-11-28"
+    }
+  }
+}

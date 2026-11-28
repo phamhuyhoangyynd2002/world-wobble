@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 10.175,
    "loi": "On the eighth of October, a big tremor brought rock down east of the village.",
-   "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961",
+   "hanh_dong": "Vài tảng đá giấy lăn xuống sườn phía đông làng, bụi bốc nhẹ; thẻ 8 Oct 1961; Wob ngoài mép trang lặng lẽ nhìn theo tảng đá lăn đúng \"rock\" (≈ 467.82 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -49,7 +49,7 @@ window.HH_DATA = {
   {
    "tai": 14.325,
    "loi": "The next morning, a crack opened between the houses and the fish cannery, and the ground swelled.",
-   "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm",
+   "hanh_dong": "Sáng: một vết nứt chạy giữa dãy mái nhà và toà nhà máy đồ hộp; mặt đất phồng lên chậm; Wob ngoài mép trang lùi nửa bước khỏi mép gần vết nứt đúng \"crack\" (≈ 470.69 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []
@@ -57,7 +57,7 @@ window.HH_DATA = {
   {
    "tai": 19.488,
    "loi": "That night, everyone was sent out to the huts at the Potato Patches.",
-   "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa",
+   "hanh_dong": "Đêm: những chòi nhỏ giữa các ô ruộng tường đá, ánh đèn dầu le lói qua khe cửa; làng tối om phía xa; Wob ngồi xuống mép trang khi đèn chòi le lói, đúng \"huts\" (≈ 476.79 s)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

@@ -1,0 +1,32 @@
+[
+ {
+  "ten": "xuoc-dia",
+  "tai": 1.53,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "lat-giay",
+  "tai": 4.01,
+  "am_luong": 0.5
+ },
+ {
+  "ten": "pop",
+  "tai": 5.45,
+  "am_luong": 0.4
+ },
+ {
+  "ten": "pop",
+  "tai": 10.67,
+  "am_luong": 0.55
+ },
+ {
+  "ten": "whoosh",
+  "tai": 12.134,
+  "am_luong": 0.25
+ },
+ {
+  "ten": "bonk",
+  "tai": 14.534,
+  "am_luong": 0.3
+ }
+]

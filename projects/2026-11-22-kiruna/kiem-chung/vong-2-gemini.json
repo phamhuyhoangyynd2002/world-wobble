@@ -1,0 +1,1497 @@
+{
+  "vong": 2,
+  "model": "Gemini web (ChatGPT web)",
+  "nguon": "gemini-web",
+  "ngay": "2026-11-28",
+  "lo_da_nhan": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "Kiruna is a town in Norrbotten County in the far north of Sweden, located north of the Arctic Circle.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The searches did not establish both the county location and position north of the Arctic Circle using a sufficiently reliable source.",
+      "nguon": []
+    },
+    {
+      "id": "C02",
+      "statement": "LKAB's underground iron ore mine in Kiirunavaara, next to Kiruna, causes ground deformation that spreads toward the town, so Kiruna's old centre is being dismantled and the centre relocated about 3 km to the east.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirms that underground mining causes ground deformation and that the old centre is being phased out as the new city centre develops approximately 3 km further east.",
+      "nguon": [
+        {
+          "title": "Urban transformation up to 2035",
+          "url": "https://lkab.com/en/news/urban-transformation-up-to-2035/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2018-10-26",
+          "url_song": true
+        },
+        {
+          "title": "Responsible community development – Annual and Sustainability Report 2025",
+          "url": "https://lkab.com/wp-content/uploads/2026/03/LKAB-InBrief-Annual-and-Sustainability-Report-2025-20260327.pdf",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "Kiruna's urban transformation involves replacing or moving homes and shops, moving the old town hall's clock tower to the new centre, and moving the large red wooden Kiruna Church (moved in August 2025).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The municipality confirms that buildings, homes and businesses are being relocated or dismantled, the old town hall clock tower moved to the new centre in 2017, and Kiruna Church was transported on 19–20 August 2025.",
+      "nguon": [
+        {
+          "title": "Urban transformation in Kiruna",
+          "url": "https://lkab.com/en/community-development/lkab-in-kiruna/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Bell Tower – Kristallen & Kin Museum",
+          "url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kristallen--kin-museum.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Church",
+          "url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan/kiruna-kyrka.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The moving of Kiruna Church",
+          "url": "https://lkab.com/en/events/the-moving-of-kiruna-church/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "According to LKAB's company history, in 1736 a Sámi man named Amund Amundson Mangi reported the iron ore deposits in the Kiruna area to the Swedish state, and was rewarded with money and exemption from taxes for life.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB's own history attributes the 1736 report to Sámi man Amund Amundson Mangi and specifies a reward of 100 riksdaler and lifelong exemption from taxes, while acknowledging uncertainty in the historical record.",
+      "nguon": [
+        {
+          "title": "A history of LKAB",
+          "url": "https://lkab.com/en/who-we-are/a-history-of-lkab/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "Kiruna counts 1900 as its founding year, the year the King approved its town plan.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality explicitly identifies 1900 as the town's birth year because the Crown approved its town plan that year.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "LKAB's Kiruna mine carries out its production blasting every night between 01:15 and 01:45; the blasting area is evacuated beforehand, the mine is ventilated for a few hours afterwards, and vibrations can sometimes be felt above ground.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirms the 01:15–01:45 nightly production blasting window in Kiruna, prior evacuation, several hours of ventilation afterwards and occasional surface vibrations.",
+      "nguon": [
+        {
+          "title": "Blasting",
+          "url": "https://lkab.com/en/what-we-do/our-environmental-efforts/blasting/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "LKAB, the Swedish state-owned mining company that operates the Kiruna mine, describes it as the world's largest underground iron ore mine (a description from LKAB itself, not independently confirmed).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB explicitly describes its Kiruna operation as the world's largest underground iron ore mine; this verdict verifies the company's attribution, not independent confirmation of the superlative.",
+      "nguon": [
+        {
+          "title": "Community development",
+          "url": "https://lkab.com/en/community-development/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "From mine to port",
+          "url": "https://lkab.com/en/what-we-do/from-mine-to-port/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "statement": "The current main haulage level of LKAB's Kiruna mine is at a depth of 1,365 metres (about 4,480 feet).",
+      "verdict": "dung",
+      "gia_tri_dung": "1,365 metres (approximately 4,478 feet)",
+      "ghi_chu": "LKAB identifies 1,365 metres as the current main haulage level in Kiruna, and its November 2026 announcement reconfirms this depth.",
+      "nguon": [
+        {
+          "title": "The moving of Kiruna Church",
+          "url": "https://lkab.com/en/events/the-moving-of-kiruna-church/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "LKAB investigates deeper mining operations – pre-feasibility studies for new main haulage levels underway",
+          "url": "https://news.cision.com/lkab/r/lkab-investigates-deeper-mining-operations---pre-feasibility-studies-for-new-main-haulage-levels-und%2Cc4426995",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2026-11-20",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "LKAB mines Kiruna by sublevel caving: ore is extracted level by level from below and the overlying rock caves in behind the mining, so the ground surface above gradually subsides.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB explicitly identifies sublevel caving as its underground mining method and explains that the hanging-wall rock progressively fragments and caves into mined-out areas, causing mining-induced surface subsidence.",
+      "nguon": [
+        {
+          "title": "Measures for safer and more efficient mining",
+          "url": "https://lkab.com/en/news/measures-for-safer-and-more-efficient-mining/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "The Kiruna ore body continues eastward beneath the old town (and northward), so ground deformation from mining continues to spread toward the town.",
+      "verdict": "dung",
+      "gia_tri_dung": "The ore body extends eastward beneath the old town and northward, remaining open at depth. Continued mining expands the predicted ground-deformation impact area.",
+      "ghi_chu": "LKAB explicitly confirmed both directions of ore-body extension in its August 2025 update and reported an expanded deformation forecast affecting additional homes and residents.",
+      "nguon": [
+        {
+          "title": "Continued mining affects more of Kiruna",
+          "url": "https://news.cision.com/lkab/r/continued-mining-affects-more-of-kiruna,c4225883",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-28",
+          "url_song": true
+        },
+        {
+          "title": "Twist and Tango – Mines moving cities in Arctic Sweden",
+          "url": "https://www.fig.net/resources/proceedings/fig_proceedings/fig2025/papers/ts05d/TS05D_janonius_lowgren_13063.pdf",
+          "publisher": "FIG Working Week",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "On 18 May 2020 a magnitude 4.1 (ML, Swedish National Seismic Network) seismic event occurred at LKAB's Kiruna mine, the largest mining-induced earthquake recorded in Sweden; no one among the people in the mine was injured.",
+      "verdict": "dung",
+      "gia_tri_dung": "18 May 2020; magnitude ML 4.1; largest mining-induced earthquake in Scandinavia; 13 underground workers evacuated without injuries.",
+      "ghi_chu": "A 2024 peer-reviewed study confirms ML 4.1 and identifies the event as Scandinavia's largest mining-induced earthquake; LKAB confirms that 13 workers escaped unharmed, although its operational measurements reported ML 3.3 and Mw 4.2.",
+      "nguon": [
+        {
+          "title": "Retrieving Seismic Source Characteristics Using Seismic and Infrasound Data: The 2020 ML 4.1 Kiruna Minequake, Sweden",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL109276",
+          "publisher": "Geophysical Research Letters",
+          "type": "goc",
+          "published": "2024-06-14",
+          "url_song": true
+        },
+        {
+          "title": "Analysis of the seismic event in Kiruna on May 18th completed",
+          "url": "https://lkab.com/en/news/analysis-of-the-seismic-event-in-kiruna-on-may-18th-completed/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2020-08-03",
+          "url_song": true
+        },
+        {
+          "title": "Earthquake rattles workers inside Arctic iron mine",
+          "url": "https://www.sverigesradio.se/artikel/7475598",
+          "publisher": "Sveriges Radio",
+          "type": "bao",
+          "published": "2020-05-18",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "Kiruna recorded 607,818 commercial guest nights in 2024, a record for the municipality.",
+      "verdict": "dung",
+      "gia_tri_dung": "607,818 commercial guest nights in 2024, a record for Kiruna.",
+      "ghi_chu": "Kiruna Lapland reported the exact figure and described it as a new record, while SVT independently reported the same number.",
+      "nguon": [
+        {
+          "title": "Kiruna når all time high under 2024",
+          "url": "https://kirunalapland.se/nyheter/kiruna-all-time-high-2024/",
+          "publisher": "Kiruna Lapland",
+          "type": "goc",
+          "published": "2025-02-21",
+          "url_song": true
+        },
+        {
+          "title": "Trenden ”nocturism” ger rekordår för turismen i Kiruna – söker sig till mörker",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/trenden-nocturism-ger-rekordar-for-turismen-i-kiruna-besokare-soker-sig-till-morker",
+          "publisher": "SVT Nyheter",
+          "type": "bao",
+          "published": "2025-03-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "Icehotel is located in the village of Jukkasjärvi, about 17 km (about 11 miles) from Kiruna.",
+      "verdict": "dung",
+      "gia_tri_dung": "ICEHOTEL is located in Jukkasjärvi, approximately 17 km from Kiruna.",
+      "ghi_chu": "ICEHOTEL's official website explicitly identifies Jukkasjärvi as its location and gives the distance from Kiruna as 17 kilometres.",
+      "nguon": [
+        {
+          "title": "Swedish Lapland Jukkasjärvi & What to Expect",
+          "url": "https://www.icehotel.com/swedish-lapland",
+          "publisher": "ICEHOTEL",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Story of ICEHOTEL",
+          "url": "https://www.icehotel.com/the-story",
+          "publisher": "ICEHOTEL",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "Icehotel in Jukkasjärvi began in 1989 as an art gallery built of ice and snow (the Arctic Hall), 89 years after Kiruna's founding year of 1900.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "ICEHOTEL confirms that Arctic Hall opened in 1989 as an ice-and-snow art gallery; Kiruna Municipality identifies 1900 as Kiruna's birth year, making the difference exactly 89 years.",
+      "nguon": [
+        {
+          "title": "The Story of ICEHOTEL",
+          "url": "https://www.icehotel.com/the-story",
+          "publisher": "ICEHOTEL",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "Iron ore trains on the Malmbanan line between Kiruna and Narvik run with up to 68 wagons and are about 750 m long, roughly the length of seven 105-metre football pitches.",
+      "verdict": "dung",
+      "gia_tri_dung": "Up to 68 wagons and approximately 750 metres per train.",
+      "ghi_chu": "The Swedish Transport Administration confirms that Malmbanan accommodates trains up to 750 metres long with 68 wagons, and specifically reports approximately 12 loaded ore trains daily from Kiruna toward Narvik; the seven-football-pitch comparison is mathematically reasonable using 105-metre pitches.",
+      "nguon": [
+        {
+          "title": "Malmbanan, Boden-Riksgränsen",
+          "url": "https://www.trafikverket.se/vara-projekt/alla-strak/malmbanan/",
+          "publisher": "Trafikverket (Swedish Transport Administration)",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "The sea off Luleå, Sweden's ore port on the northern Gulf of Bothnia east of Kiruna, freezes over every winter.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Visit Luleå explicitly states that the sea freezes every year because of the Gulf of Bothnia's relatively low salinity, although ice coverage and timing vary with winter conditions.",
+      "nguon": [
+        {
+          "title": "Winter",
+          "url": "https://visitlulea.se/en/winter/",
+          "publisher": "Visit Luleå",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Winter facts",
+          "url": "https://visitlulea.se/en/plan/plan-articles/frequently-asked-questions/winter-facts/",
+          "publisher": "Visit Luleå",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "The ore railway from Kiruna was built west over the mountains to the port of Narvik on the Norwegian coast, which LKAB says stays ice-free all year thanks to the warm Gulf Stream.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirms that the Iron Ore Line connects Kiruna with Narvik on the Norwegian coast and explicitly attributes Narvik's year-round ice-free port to the Gulf Stream.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Narvik: our gateway to the world",
+          "url": "https://lkab.com/en/community-development/lkab-in-narvik/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "The railway reached Kiruna around 1900, the line to Narvik was completed in 1902, and it was officially inaugurated by King Oscar II in 1903.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality confirms that the railway reached Kiruna around the turn of the century, reached Narvik two years later, and was inaugurated by King Oscar II in 1903.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "According to Trafikverket, about 12 loaded ore trains a day run from Kiruna to Narvik; Luleå remains an LKAB ore port, and winter shipping there relies on icebreaker assistance.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trafikverket confirms approximately 12 loaded ore trains daily from Kiruna to Narvik; LKAB confirms Luleå remains an ore-export port, and official port and maritime sources confirm winter icebreaker assistance.",
+      "nguon": [
+        {
+          "title": "Malmbanan, Boden-Riksgränsen",
+          "url": "https://www.trafikverket.se/vara-projekt/alla-strak/malmbanan/",
+          "publisher": "Trafikverket",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "From mine to port",
+          "url": "https://lkab.com/en/what-we-do/from-mine-to-port/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Vessel calls",
+          "url": "https://portlulea.com/en/maritime-services/vessel-calls/",
+          "publisher": "Port of Luleå",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Assistance restrictions",
+          "url": "https://www.sjofartsverket.se/globalassets/tjanster/isbrytning/pdf-vintersjofart/vintersjofart_engelska_2026_web10.pdf",
+          "publisher": "Swedish Maritime Administration",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "Kiruna considers 1900 its year of birth, when the King approved the town plan.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality explicitly identifies 1900 as the town's birth year because the Crown approved its first town plan that year.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna's old town plan",
+          "url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan.html?open.12.78ac1b93173d009ef4d6a0a0=true",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "Hjalmar Lundbohm, a geologist who became LKAB's first managing director, wanted Kiruna to be a model community and engaged a leading town planner (Per-Olov Hallman) to design a plan adapted to the climate.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality and Kiruna Lapland confirm Lundbohm's geological background, his vision of a model community, and his engagement of Per-Olov Hallman to create a climate-adapted town plan.",
+      "nguon": [
+        {
+          "title": "Kiruna",
+          "url": "https://kirunalapland.se/en/destinations/kiruna/",
+          "publisher": "Kiruna Lapland",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna from the beginning",
+          "url": "https://kiruna.se/stadsomvandling/startsida/invanare/bakgrund/kiruna-fran-borjan.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Mönsterstaden Kiruna",
+          "url": "https://www.regeringen.se/contentassets/e392c0b308c043d98345acc7d1f9edc6/gruvverksamheten-i-kiruna-och-malmberget---vissa-administrativa-forutsattningar-for-utvecklingen/",
+          "publisher": "Government Offices of Sweden",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "Kiruna had about 7,500 inhabitants in 1910.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality reports approximately 7,500 inhabitants in 1910, consistent with historical academic research reporting 7,468.",
+      "nguon": [
+        {
+          "title": "History",
+          "url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Corporate paternalism on the rocks: a historical analysis of power relations in a mining town",
+          "url": "https://doi.org/10.1080/17449359.2021.1977142",
+          "publisher": "Management & Organizational History",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "Kiruna Municipality had about 22,400 inhabitants at the end of 2025 (Statistics Sweden) and covers roughly 19,000–19,500 km², about the size of the US state of New Jersey (land area about 19,050 km²).",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality's official website reports 19,447 km², while a municipal government document specifies 19,163 km² of land and 1,390 km² of water; the New Jersey land-area comparison is approximately correct at 19,050 km², but an exact Statistics Sweden figure for Kiruna's population at 31 December 2025 was not verified in this search session.",
+      "nguon": [
+        {
+          "title": "Geografi",
+          "url": "https://kiruna.se/kommun--demokrati/kommunfakta/geografi.html?open.12.78ac1b93173d009ef4d6a0a0=true",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Handlingsprogram för skydd mot olyckor",
+          "url": "https://kiruna.se/download/18.77f8afa19545e1ec1180f8/1741720875368/Handlingsprogram%20LSO%20Kiruna%202025.pdf",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "U.S. Census Bureau QuickFacts: New Jersey",
+          "url": "https://www.census.gov/quickfacts/fact/table/NJ/LND110220",
+          "publisher": "U.S. Census Bureau",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Population statistics - Quarter 3, 2026",
+          "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/pong/tables-and-graphs/population-statistics---month-quarter-half-year/population-statistics---quarter-3-2026/",
+          "publisher": "Statistics Sweden",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "LKAB states that it produces more than 80 percent of the iron ore mined in the European Union (86 percent in 2025, per its annual report).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB's 2025 Annual and Sustainability Report explicitly states that it produced 86 percent of all iron ore in the European Union, supporting the claim of more than 80 percent.",
+      "nguon": [
+        {
+          "title": "Annual and Sustainability Report 2025",
+          "url": "https://lkab.com/en/financial-information/annual-reports/annual-and-sustainability-report-2025/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "What we do",
+          "url": "https://lkab.com/en/what-we-do/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "Kiruna Church is a large red wooden church completed in 1912 and is one of the town's best-loved buildings.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Church is a large red wooden building completed in 1912 and is widely regarded as one of Sweden's most beloved and significant wooden buildings.",
+      "nguon": [
+        {
+          "title": "Kiruna Kyrka - Konst och Kulturhistoria",
+          "url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kiruna-kyrka.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "This Swedish church is being moved down the road before a mine swallows its town",
+          "url": "https://www.ap.org/news-highlights/spotlights/2025/this-swedish-church-is-being-moved-down-the-road-before-a-mine-swallows-its-town/",
+          "publisher": "Associated Press",
+          "type": "bao",
+          "published": "2025-08-19",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "On 19 and 20 August 2025 Kiruna Church was moved in one piece about 5 km to the new city centre on remote-controlled self-propelled trailers with more than 200 wheels.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The church was transported intact on 19–20 August 2025 over approximately 5 km using remote-controlled self-propelled modular transporters with 224 wheels.",
+      "nguon": [
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        },
+        {
+          "title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+          "publisher": "SVT",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Pressemelding: Nøkkeltall - flyttingen av Kiruna kirke",
+          "url": "https://mb.cision.com/Public/17348/4219377/a9a4548173e2dce1.pdf",
+          "publisher": "Veidekke",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "LKAB gave the weight of Kiruna Church as about 672 tonnes; the Church of Sweden gives about 600 tonnes.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "LKAB: 672.4 tonnes; Church of Sweden: approximately 600 tonnes.",
+      "ghi_chu": "The two organisations publish different figures, apparently reflecting different levels of precision or estimates, rather than establishing a single agreed weight.",
+      "nguon": [
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        },
+        {
+          "title": "Kiruna kyrka",
+          "url": "https://www.svenskakyrkan.se/jukkasjarvi/kiruna-kyrka",
+          "publisher": "Church of Sweden, Jukkasjärvi Parish",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "To move Kiruna Church, the road was widened from 9 to 24 metres, work that took about a year according to LKAB, for a move that took two days.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirms that the road was widened from 9 to 24 metres and that preparatory widening work had been underway for a year before the two-day relocation.",
+      "nguon": [
+        {
+          "title": "Date set: Kiruna Church to be moved on 19-20 August",
+          "url": "https://lkab.com/en/press/date-set-kiruna-church-to-be-moved-on-19-20-august/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-04-10",
+          "url_song": true
+        },
+        {
+          "title": "Historic Swedish church begins slow move to new location",
+          "url": "https://www.rte.ie/news/europe/2025/0819/1529073-sweden-church/",
+          "publisher": "RTÉ / AFP",
+          "type": "bao",
+          "published": "2025-08-19",
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "Swedish public broadcaster SVT broadcast the whole two-day Kiruna Church move live (19–20 August 2025).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "SVT's own coverage and the Church of Sweden confirm that the entire two-day move on 19–20 August 2025 was available through a live broadcast, described as 18 hours of coverage using 30 cameras.",
+      "nguon": [
+        {
+          "title": "Biskopen välsignar Kiruna kyrka",
+          "url": "https://www.svenskakyrkan.se/luleastift/nyheter/biskopen-valsignar-kiruna-kyrka",
+          "publisher": "Church of Sweden – Diocese of Luleå",
+          "type": "goc",
+          "published": "2025-08-14",
+          "url_song": true
+        },
+        {
+          "title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+          "publisher": "SVT Nyheter",
+          "type": "goc",
+          "published": "2025-08-19",
+          "url_song": true
+        },
+        {
+          "title": "Det här händer under kyrkflytten i Kiruna",
+          "url": "https://www.svt.se/nyheter/sapmi/det-har-hander-under-kyrkflytten-i-kiruna",
+          "publisher": "SVT Nyheter",
+          "type": "goc",
+          "published": "2025-08-19",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "Thousands of people watched the Kiruna Church move along the route, and King Carl XVI Gustaf attended.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirms thousands of visitors gathered along the route, while AP and ITV independently report the King's attendance at the relocation.",
+      "nguon": [
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        },
+        {
+          "title": "This Swedish church is being moved down the road before a mine swallows its town",
+          "url": "https://www.ap.org/news-highlights/spotlights/2025/this-swedish-church-is-being-moved-down-the-road-before-a-mine-swallows-its-town/",
+          "publisher": "Associated Press",
+          "type": "bao",
+          "published": "2025-08-19",
+          "url_song": true
+        },
+        {
+          "title": "113-year-old Swedish church receives royal welcome at its new home after a two day journey",
+          "url": "https://www.itv.com/news/2025-08-20/113-year-old-swedish-church-receives-royal-welcome-at-new-home",
+          "publisher": "ITV News",
+          "type": "bao",
+          "published": "2025-08-20",
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "At its new site Kiruna Church was rotated 180 degrees, so that its front still faces the town.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The church was rotated 180 degrees, changing the altar's direction from east to west while preserving the building's orientation towards the town and its congregation.",
+      "nguon": [
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Kyrka - Konst och Kulturhistoria",
+          "url": "https://kiruna.se/konst-och-kulturhistoria/startsida/kulturmiljoer/kulturstigar/kiruna-stadsvandring/kiruna-kyrka.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "As of November 2026 Kiruna Church remains closed after the move; the Church of Sweden's Kiruna parish hopes to reopen it in 2027.",
+      "verdict": "dung",
+      "gia_tri_dung": "Kiruna Church is scheduled to reopen during the first half of 2027.",
+      "ghi_chu": "The Church of Sweden's Kiruna parish confirms that the church remains closed and that reopening is estimated for sometime in 2027; Kiruna Lapland specifies the first half of that year.",
+      "nguon": [
+        {
+          "title": "Kiruna kyrka",
+          "url": "https://kirunakyrka.se/",
+          "publisher": "Church of Sweden, Jukkasjärvi Parish",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Church",
+          "url": "https://kirunalapland.se/en/kiruna-church/",
+          "publisher": "Kiruna Lapland",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "statement": "On 28 August 2025, eight days after Kiruna Church reached its new site on 20 August, LKAB presented a new ground-deformation forecast under which about 6,000 more people and about 2,700 more homes in Kiruna would be affected and need to be compensated over the next ten years.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB confirmed that the church relocation was completed on 20 August 2025 and announced its updated deformation forecast on 28 August, identifying approximately 6,000 additional people and 2,700 homes affected by continued mining over the next ten years.",
+      "nguon": [
+        {
+          "title": "Kiruna Church has found a new home – a historic move completed as planned",
+          "url": "https://lkab.com/en/press/kiruna-church-has-found-a-new-home-a-historic-move-completed-as-planned/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-20",
+          "url_song": true
+        },
+        {
+          "title": "Continued mining affects more of Kiruna",
+          "url": "https://news.cision.com/lkab/r/continued-mining-affects-more-of-kiruna,c4225883",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-08-28",
+          "url_song": true
+        },
+        {
+          "title": "Updated impact area in Kiruna",
+          "url": "https://lkab.com/en/community-development/updated-impact-area-in-kiruna/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "According to LKAB, Kiruna's urban transformation now affects about 12,000 people and about 5,400 homes in total, roughly two thirds of the town.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB explicitly reports approximately 12,000 people, 5,400 residences and two thirds of the community affected; Kiruna Municipality separately reports approximately 6,000 affected homes, so the 5,400 figure should specifically be attributed to LKAB.",
+      "nguon": [
+        {
+          "title": "LKAB in Kiruna: mining and critical minerals for the future",
+          "url": "https://lkab.com/en/community-development/lkab-in-kiruna/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "LKAB har släppt en ny deformationsprognos",
+          "url": "https://kiruna.se/stadsomvandling/aktuellt/nyhetsarkiv/nyheter/2025-08-29-lkab-har-slappt-en-ny-deformationsprognos.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": "2025-08-29",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Kiruna homeowners affected by the mine can choose an equivalent replacement home built by LKAB or a payment of the market value plus 25 percent, assessed by an independent certified valuer.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB describes replacement-property arrangements and monetary compensation based on market value plus 25 percent, with market valuation conducted by an independent authorized valuer; the precise options depend on the type of replacement property selected.",
+      "nguon": [
+        {
+          "title": "For those affected by the urban transformation: Residents",
+          "url": "https://lkab.com/en/community-development/for-those-affected/residents/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "Kiruna's new city centre lies about 3 km east of the old centre.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Lapland explicitly describes the new city centre as being three kilometres east of the old town centre.",
+      "nguon": [
+        {
+          "title": "City transformation",
+          "url": "https://kirunalapland.se/en/city-transformation/",
+          "publisher": "Kiruna Lapland",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna City Hall",
+          "url": "https://www.henninglarsen.com/projects/kiruna-city-hall",
+          "publisher": "Henning Larsen",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "statement": "Kiruna's new city centre was inaugurated with a three-day festival on 1 to 3 September 2022.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB announced a three-day celebration from 1 to 3 September 2022, with the official inauguration of the new downtown scheduled for 2 September.",
+      "nguon": [
+        {
+          "title": "Historic event in Kiruna – time to relocate parts of city",
+          "url": "https://lkab.com/en/press/an-historic-event-is-about-to-take-place-in-kiruna-its-now-time-to-relocate-parts-of-a-city/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2022-06-28",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "statement": "Kiruna's new town hall, Kristallen ('The Crystal'), designed by Henning Larsen, is a round building that opened in November 2018.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The architect and municipality confirm that Kristallen was designed by Henning Larsen, has a circular exterior, was completed in 2018 and was officially inaugurated in November 2018.",
+      "nguon": [
+        {
+          "title": "Kiruna City Hall",
+          "url": "https://www.henninglarsen.com/projects/kiruna-city-hall",
+          "publisher": "Henning Larsen",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna City Hall shortlisted in World Architecture Festival Awards",
+          "url": "https://henninglarsen.com/news/kiruna-city-hall-shortlisted-in-world-architecture-festival-awards",
+          "publisher": "Henning Larsen",
+          "type": "goc",
+          "published": "2019-07-04",
+          "url_song": true
+        },
+        {
+          "title": "Hur såg planeringen ut med det nya stadshuset Kristallen?",
+          "url": "https://kiruna.se/faq/faq---stadsomvandling/kommunala-byggnader/kommunala-byggnader/hur-sag-planeringen-ut-med-det-nya-stadshuset-kristallen.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "The clock tower of Kiruna's old town hall was moved to the new centre and stands beside the new town hall, Kristallen.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Kiruna Municipality confirms that the old town hall's clock tower was dismantled in 2017 and relocated beside the new town hall, Kristallen, where it stands today.",
+      "nguon": [
+        {
+          "title": "Klocktornet",
+          "url": "https://kiruna.se/stadsomvandling/startsida/besokare/avslutade-projekt/klocktornet.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kirunas gamla stadshus Igloo",
+          "url": "https://kiruna.se/stadsomvandling/startsida/invanare/kirunas-gamla-stadsplan/kirunas-gamla-stadshus-igloo.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "statement": "In Kiruna the polar night, when the sun does not rise above the horizon, lasts from about 11 December to 1 January, roughly three weeks (exact dates vary by a day or two with terrain).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Astronomical daylight calculations give approximately 11 December to 1 January, or 22 days, for Kiruna; the precise dates can differ with observation location and horizon, and polar night does not mean continuous darkness because twilight remains.",
+      "nguon": [
+        {
+          "title": "Daylight Hours in Kiruna, Sweden by Month",
+          "url": "https://suncastapp.com/tools/daylight/kiruna",
+          "publisher": "SunCast",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Airport December Weather, Average Temperature (Sweden)",
+          "url": "https://weatherspark.com/m/148465/12/Average-Weather-in-December-at-Kiruna-Airport-Sweden",
+          "publisher": "Weather Spark",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna Sunrise and Sunset Times",
+          "url": "https://sunrise-sunset.org/se/kiruna",
+          "publisher": "Sunrise-Sunset.org",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C41",
+      "statement": "Kiruna's average January temperature is about minus 11 °C (−11.3 °C, about 12 °F) according to SMHI's 1991–2020 normals for Kiruna Airport.",
+      "verdict": "dung",
+      "gia_tri_dung": "-11.3 °C (approximately 12 °F)",
+      "ghi_chu": "The published 1991–2020 Kiruna Airport climate normal is -11.3 °C for January, consistent with the claim, although the search result reporting this figure is secondary rather than the original SMHI dataset.",
+      "nguon": [
+        {
+          "title": "What is the weather like in Kiruna?",
+          "url": "https://sverigesforetagsguide.se/en/faq/weather-and-seasons/weather-in-kiruna/",
+          "publisher": "SverigesForetagsGuide",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "statement": "A University of Gothenburg study (Jennie Sjöholm, 2025) found that winter temperatures in Kiruna's new centre can be noticeably lower than at the old centre, because it lies in a hollow where cold air collects and its narrow streets and tall buildings block the low winter sun.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "A University of Gothenburg publication dated 29 October 2025, featuring researcher Jennie Sjöholm, reports that the new centre can be up to 10°C colder in winter because it lies in a depression where cold air accumulates and its tall buildings and narrow streets restrict sunlight.",
+      "nguon": [
+        {
+          "title": "Kiruna har blivit kallare efter flytten",
+          "url": "https://www.gu.se/nyheter/kiruna-har-blivit-kallare-efter-flytten",
+          "publisher": "University of Gothenburg",
+          "type": "goc",
+          "published": "2025-10-29",
+          "url_song": true
+        },
+        {
+          "title": "Kirunaborna har rätt – nya centrum är en köldhåla",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/kirunaborna-har-ratt-nya-centrum-ar-en-koldhala?lokalmeny=1&nyhetsmeny=1",
+          "publisher": "SVT Nyheter",
+          "type": "bao",
+          "published": "2025-10-30",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C43",
+      "statement": "Kiruna's North Sámi name is Giron, from the mountain Gironvárri (Kiirunavaara); giron means rock ptarmigan, a bird whose plumage turns white in winter.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official Swedish language research confirms that Giron means mountain ptarmigan and that the name derives from Gironvárri (Kirunavaara), but the additional claim about the bird's plumage changing to white in winter was not independently verified in the search.",
+      "nguon": [
+        {
+          "title": "Israel Ruong i Kiruna",
+          "url": "https://www.isof.se/folkminnen/amnesomraden/nationella-minoriteters-kultur/samisk-kultur/pa-resa-i-sabme-med-israel-ruong/israel-ruong-i-kiruna",
+          "publisher": "Institute for Language and Folklore (Institutet för språk och folkminnen)",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna city",
+          "url": "https://kirunalapland.se/en/destinations/kiruna/",
+          "publisher": "Kiruna Lapland",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "statement": "In Kiruna the midnight sun lasts from about late May to mid-July, roughly seven weeks, during which the sun does not set.",
+      "verdict": "dung",
+      "gia_tri_dung": "Approximately 28 May to 14 July, around 48 days.",
+      "ghi_chu": "Kiruna's tourism authority and other established local sources confirm that the midnight sun lasts from late May until mid-July, when the sun remains above the horizon continuously.",
+      "nguon": [
+        {
+          "title": "Midnight sun",
+          "url": "https://kirunalapland.se/en/midnight-sun/",
+          "publisher": "Kiruna Lapland",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Kiruna",
+          "url": "https://www.swedavia.com/kiruna/about-your-destination/kiruna/",
+          "publisher": "Swedavia",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Midnight sun in Sweden",
+          "url": "https://www.swedishtouristassociation.com/activities/the-midnight-sun/",
+          "publisher": "Swedish Tourist Association",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C45",
+      "statement": "Kiruna's average July temperature is about 13 °C (13.2 °C) according to SMHI's 1991–2020 normals for Kiruna Airport.",
+      "verdict": "dung",
+      "gia_tri_dung": "13.2 °C",
+      "ghi_chu": "The published 1991–2020 Kiruna Airport climate normal is 13.2 °C for July, consistent with the rounded figure, although the search result reporting this figure is secondary rather than the original SMHI dataset.",
+      "nguon": [
+        {
+          "title": "What is the weather like in Kiruna?",
+          "url": "https://sverigesforetagsguide.se/en/faq/weather-and-seasons/weather-in-kiruna/",
+          "publisher": "SverigesForetagsGuide",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C47",
+      "statement": "Most buildings in Kiruna's old centre are demolished and replaced rather than moved, and many residents are unhappy at losing the streets they grew up in.",
+      "verdict": "dung",
+      "gia_tri_dung": "Most affected buildings are demolished and their functions recreated in new buildings; selected historic buildings are relocated. Residents have expressed varying degrees of sadness and dissatisfaction.",
+      "ghi_chu": "The municipality and academic research confirm that demolition is much more common than physical relocation, while reporting from The Local documents residents' concerns about losing familiar streets and neighbourhoods, although opinions are not unanimous.",
+      "nguon": [
+        {
+          "title": "Kiruna: The Arctic town that forgot about winter",
+          "url": "https://link.springer.com/article/10.1057/s41289-025-00277-4",
+          "publisher": "Urban Design International / Springer Nature",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Vilka byggnader rivs?",
+          "url": "https://kiruna.se/faq/faq---stadsomvandling/stadsomvandling/stadsomvandling/vilka-byggnader-rivs.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Stunning memory park for moved Swedish town",
+          "url": "https://www.thelocal.se/20151221/in-pictures-kirunas-memory-park",
+          "publisher": "The Local Sweden",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Reframing Kiruna’s Relocation—Spatial Production or a Sustainable Transformation?",
+          "url": "https://www.mdpi.com/2071-1050/13/7/3811",
+          "publisher": "Sustainability / MDPI",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C48",
+      "statement": "In October 2023 the tall apartment blocks by architect Ralph Erskine that formed Kiruna's classic skyline in the old centre were demolished.",
+      "verdict": "dung",
+      "gia_tri_dung": "October 13, 2023",
+      "ghi_chu": "SVT reported on October 13, 2023 that the final buildings in the Ortdrivaren block, designed by Ralph Erskine and forming part of Kiruna's distinctive skyline, were being demolished.",
+      "nguon": [
+        {
+          "title": "Här försvinner Kirunas klassiska skyline",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/har-forsvinner-kirunas-klassiska-skyline--otv5cs",
+          "publisher": "SVT Nyheter",
+          "type": "bao",
+          "published": "2023-10-13",
+          "url_song": true
+        },
+        {
+          "title": "Gamla centrum fortsätter avvecklas",
+          "url": "https://kiruna.se/stadsomvandling/aktuellt/nyhetsarkiv/nyheter/2024-04-11-gamla-centrum-fortsatter-avvecklas.html",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": "2024-04-11",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C49",
+      "statement": "In December 2025 tenants in Kiruna's Thule neighbourhood started a petition against their forced relocation.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "SVT reported on 3 December 2025 that two tenants in Kiruna's Thule neighbourhood had started a petition protesting relocation as their residential area was threatened by mining-related redevelopment.",
+      "nguon": [
+        {
+          "title": "Hyresgäster rasar mot höjda hyror – ”tvättstugeupproret” är igång",
+          "url": "https://www.svt.se/nyheter/sapmi/hyresgaster-rasar-mot-hojda-hyror-tvattstugeupproret-ar-igang?mobilmeny=1",
+          "publisher": "SVT Nyheter",
+          "type": "bao",
+          "published": "2025-12-03",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C50",
+      "statement": "Gabna, a Sámi reindeer herding community (sameby) near Kiruna, moves its reindeer between summer and winter pastures through the area north of the town; its former route along Lake Luossajärvi was blocked by the mine and the town, and the herds now pass behind the mountain Luossavaara.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "A July 2025 TT report confirms that Gabna's former migration route followed Lake Luossajärvi, was blocked by mining and settlement, and that the community subsequently used the passage behind Luossavaara; a municipal environmental assessment also documents the northern migration route.",
+      "nguon": [
+        {
+          "title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+          "url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+          "publisher": "Sweden Herald (TT)",
+          "type": "bao",
+          "published": "2025-07-19",
+          "url_song": true
+        },
+        {
+          "title": "Miljökonsekvensbeskrivning – Östra industriområdet etapp 3",
+          "url": "https://kiruna.se/download/18.50174f1f174bf24f3156550/1601297139285/p2013-000001-mkb-ostra-industriomradet-etapp-3--antagandehandling.pdf",
+          "publisher": "Kiruna Municipality",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C51",
+      "statement": "LKAB's planned Per Geijer rare earth and iron deposit lies on the migration route that Gabna's reindeer still use behind Luossavaara.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The July 2025 TT report places the Per Geijer deposit at the passage behind Luossavaara used by Gabna between summer and winter grazing areas and reports that a new mine would cut off that passage.",
+      "nguon": [
+        {
+          "title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+          "url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+          "publisher": "Sweden Herald (TT)",
+          "type": "bao",
+          "published": "2025-07-19",
+          "url_song": true
+        },
+        {
+          "title": "LKAB responded",
+          "url": "https://www.business-humanrights.org/en/latest-news/lkab-responded/",
+          "publisher": "Business and Human Rights Centre",
+          "type": "khac",
+          "published": "2023-02-27",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C52",
+      "statement": "LKAB describes Per Geijer as one of the largest rare earth deposits in Europe, and the EU has designated it a strategic project under the Critical Raw Materials Act.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB describes the Kiruna deposit as one of Europe's largest known rare earth deposits, and its official project information confirms strategic project designation under the EU Critical Raw Materials Act in 2025.",
+      "nguon": [
+        {
+          "title": "LKAB's REEMap projects designated as strategic under the EU's Critical Raw Materials Act",
+          "url": "https://lkab.com/en/what-we-do/our-transformation/lkabs-projects-designated-as-strategic-under-the-eus-critical-raw-materials-act/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Information on Europe's largest deposit of rare earth elements",
+          "url": "https://lkab.com/en/press-eu23/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Europe's largest rare earths mine: How EU funding clashes with environmental laws",
+          "url": "https://www.euronews.com/my-europe/2026/01/22/europes-largest-rare-earths-mine-how-eu-funding-clashes-with-environmental-laws",
+          "publisher": "Euronews",
+          "type": "bao",
+          "published": "2026-01-22",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C53",
+      "statement": "LKAB argues that rare earth elements from Per Geijer are needed for the permanent magnets used in electric vehicles.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB identifies rare earth elements from its Kiruna mineral deposits as important for electric vehicles and explains that rare earth elements are used in the permanent magnets of electric motors.",
+      "nguon": [
+        {
+          "title": "Information on Europe's largest deposit of rare earth elements",
+          "url": "https://lkab.com/en/press-eu23/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Rare earth elements",
+          "url": "https://lkab.com/en/what-we-do/our-transformation/critical-minerals/rare-earth-elements/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "LKAB reports improved Mineral Resources",
+          "url": "https://lkab.com/en/press/lkab-reports-improved-mineral-resources/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C54",
+      "statement": "Gabna's chair Lars-Marcus Kuhmunen has said the community has nowhere left to move, while LKAB chief executive Jan Moström has said the problem is that both parties need the same land (TT, July 2025).",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The July 2025 TT report confirms Kuhmunen said there was nowhere left for Gabna to move, but the searched sources did not establish the attributed statement by LKAB CEO Jan Moström that both parties need the same land.",
+      "nguon": [
+        {
+          "title": "Samer: Ingenstans kvar att flytta",
+          "url": "https://www.borskollen.se/nyheter/27/samer-ingenstans-kvar-att-flytta",
+          "publisher": "Börskollen (TT)",
+          "type": "bao",
+          "published": "2025-07-14",
+          "url_song": true
+        },
+        {
+          "title": "Sami Reindeer Herding Threatened by Rare Earth Mining in Sweden",
+          "url": "https://swedenherald.com/article/sami-reindeer-herding-threatened-by-rare-earth-mining-in-sweden-f0261",
+          "publisher": "Sweden Herald (TT)",
+          "type": "bao",
+          "published": "2025-07-19",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C55",
+      "statement": "Gabna reindeer herding community has asked the European Court of Human Rights to examine its case over the land affected by LKAB's mining plans.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The searches did not locate a reliable source confirming that Gabna has submitted an application to the European Court of Human Rights concerning LKAB's mining plans; this claim should not be presented as established fact.",
+      "nguon": [
+        {
+          "title": "State of Proceedings Online",
+          "url": "https://app.echr.coe.int/sop/en-GB",
+          "publisher": "European Court of Human Rights",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Apply to the Court",
+          "url": "https://www.echr.coe.int/apply-to-the-court",
+          "publisher": "European Court of Human Rights",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C56",
+      "statement": "On 1 December 2025 Gabna ended its cooperation agreement with LKAB, saying consultations had not changed any mining decisions; LKAB responded that it would seek a new form of dialogue.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "On 1 December 2025 SVT reported that Gabna terminated its cooperation agreement because consultations did not influence LKAB's mining processes, while LKAB announced that it wanted continued dialogue and new cooperation arrangements.",
+      "nguon": [
+        {
+          "title": "Gabna sameby bryter med LKAB: ”Samråden är ett skådespel”",
+          "url": "https://www.svt.se/nyheter/sapmi/gabna-sameby-bryter-med-lkab-samraden-ar-ett-skadespel",
+          "publisher": "SVT Nyheter",
+          "type": "bao",
+          "published": "2025-12-01",
+          "url_song": true
+        },
+        {
+          "title": "Förändring i samverkan mellan LKAB och Gabna sameby i Kiruna",
+          "url": "https://lkab.com/nyheter/forandring-i-samverkan-mellan-lkab-och-gabna-sameby-i-kiruna/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": "2025-12-01",
+          "url_song": true
+        },
+        {
+          "title": "LKAB: Vill ha fortsatt dialog med sameby",
+          "url": "https://www.sverigesradio.se/artikel/lkab-vill-ha-fortsatt-dialog-med-sameby",
+          "publisher": "Sveriges Radio",
+          "type": "bao",
+          "published": "2025-12-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C57",
+      "statement": "The Kiruna-area iron ore is rich in phosphorus, which made iron brittle in older production processes; after the Thomas process was invented in the 1870s, phosphorus-rich ore became valuable, one reason the Swedish ore fields became profitable to mine.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "LKAB explicitly confirms that phosphorus made the iron brittle in older production processes and that the Thomas process, invented in the 1870s, made phosphorus-rich ore valuable and helped make Swedish ore-field deposits profitable to extract.",
+      "nguon": [
+        {
+          "title": "Anders Lindberg: LKAB can increase Europe’s self-sufficiency",
+          "url": "https://lkab.com/en/articles/lkab-can-increase-europes-self-sufficiency-of-critical-minerals/",
+          "publisher": "LKAB",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Swedish Geological Survey report",
+          "url": "https://resource.sgu.se/dokument/publikation/c/c718rapport/c718-rapport.pdf",
+          "publisher": "Sveriges geologiska undersökning (SGU)",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        },
+        {
+          "title": "The Promise of Kiruna’s Iron Ore in the Swedish Imagination, c. 1901–1915",
+          "url": "https://journals.ub.umu.se/index.php/jns/article/view/941",
+          "publisher": "Journal of Northern Studies",
+          "type": "khac",
+          "published": "2020-01-07",
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 12,
+    "ghi_chu": "giao diện web miễn phí, không tính token"
+  }
+}

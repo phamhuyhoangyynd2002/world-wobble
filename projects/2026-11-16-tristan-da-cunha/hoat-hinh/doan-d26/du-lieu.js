@@ -32,15 +32,15 @@ window.HH_DATA = {
   {
    "tai": 4.825,
    "loi": "There are even two lobsters on the coat of arms.",
-   "hanh_dong": "Huy hiệu vẽ tay: hai con tôm hùm đứng hai bên khiên như lính gác",
-   "gag": "Một con tôm hùm khẽ đổi chân, đứng nghiêm lại khi thấy Wob nhìn",
+   "hanh_dong": "[luot-smootherstep] Camera lướt từ con tôm hùm đang bò sang huy hiệu vẽ tay (≈ 319.66 s): hai con tôm hùm đứng hai bên khiên như lính gác; Wob đứng nghiêm cạnh khiên, bắt chước dáng hai con tôm",
+   "gag": "Đúng \"arms.\" (≈ 321.51 s) Wob liếc sang, một con tôm hùm khẽ đổi chân rồi đứng nghiêm lại",
    "dao_cu": [],
    "sfx": []
   },
   {
    "tai": 7.513,
    "loi": "The fishery brings in roughly four-fifths of the territory's revenue, according to the Marine Stewardship Council.",
-   "hanh_dong": "Chiếc bánh vẽ tay chia năm phần, bốn phần lần lượt hiện hình tôm hùm, một phần trống (KHÔNG chữ, không số: mức C, lời đã rào); Wob đưa tay định lấy miếng trống, rụt lại",
+   "hanh_dong": "[day-vao-cham] Chiếc bánh vẽ tay chia năm phần, bốn phần lần lượt hiện hình tôm hùm, một phần trống (KHÔNG chữ, không số: mức C, lời đã rào); Wob gạch ô tôm hùm trên bảng kẹp",
    "gag": "",
    "dao_cu": [],
    "sfx": [

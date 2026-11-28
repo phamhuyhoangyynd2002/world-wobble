@@ -1,0 +1,174 @@
+
+
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB explicitly identifies sublevel caving as its underground mining method and explains that the hanging-wall rock progressively fragments and caves into mined-out areas, causing mining-induced surface subsidence.",
+"sources": [
+{
+"title": "Measures for safer and more efficient mining",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/news/measures-for-safer-and-more-efficient-mining/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "dung",
+"correct_value": null,
+"note": "ICEHOTEL confirms that Arctic Hall opened in 1989 as an ice-and-snow art gallery; Kiruna Municipality identifies 1900 as Kiruna's birth year, making the difference exactly 89 years.",
+"sources": [
+{
+"title": "The Story of ICEHOTEL",
+"publisher": "ICEHOTEL",
+"url": "https://www.icehotel.com/the-story",
+"type": "goc",
+"published": null
+},
+{
+"title": "History",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/arkiv/samlingssidor/in-english/history.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": null,
+"note": "Visit Luleå explicitly states that the sea freezes every year because of the Gulf of Bothnia's relatively low salinity, although ice coverage and timing vary with winter conditions.",
+"sources": [
+{
+"title": "Winter",
+"publisher": "Visit Luleå",
+"url": "https://visitlulea.se/en/winter/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Winter facts",
+"publisher": "Visit Luleå",
+"url": "https://visitlulea.se/en/plan/plan-articles/frequently-asked-questions/winter-facts/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "sai",
+"correct_value": "Kiruna Municipality had 22,402 inhabitants at the end of 2025 and covers 19,447 km². The stated area range of 19,100–19,300 km² is incorrect.",
+"note": "The population figure is supported by 2025 statistics, but Kiruna Municipality officially reports 19,447 km², exceeding the claimed range; the population comparison does not rescue the incorrect geographical figure.",
+"sources": [
+{
+"title": "Population statistics - Quarter 3, 2026",
+"publisher": "Statistics Sweden (SCB)",
+"url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/pong/tables-and-graphs/population-statistics---month-quarter-half-year/population-statistics---quarter-3-2026/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna 2025 — population statistics",
+"publisher": "Statistikdatabas.se",
+"url": "https://www.statistikdatabas.se/kiruna",
+"type": "khac",
+"published": null
+},
+{
+"title": "Geografi",
+"publisher": "Kiruna Municipality",
+"url": "https://kiruna.se/kommun--demokrati/kommunfakta/geografi.html",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C29",
+"verdict": "sai",
+"correct_value": "SVT broadcast the church relocation live through Den stora kyrkflytten, using 30 cameras over approximately 18 hours. The Church of Sweden also mentions a church-coffee event on the second day, not a daily fika break.",
+"note": "The live broadcast and title are confirmed, but the claimed daily fika break is unsupported and appears to confuse the second-day church-coffee event with a recurring broadcast break.",
+"sources": [
+{
+"title": "Den stora kyrkflytten",
+"publisher": "SVT Play",
+"url": "https://www.svtplay.se/den-stora-kyrkflytten",
+"type": "goc",
+"published": null
+},
+{
+"title": "Biskopen välsignar Kiruna kyrka",
+"publisher": "Church of Sweden, Luleå Diocese",
+"url": "https://www.svenskakyrkan.se/luleastift/nyheter/biskopen-valsignar-kiruna-kyrka",
+"type": "goc",
+"published": "2025-08-14"
+}
+]
+},
+{
+"id": "C32",
+"verdict": "dung",
+"correct_value": "Kiruna Church is scheduled to reopen during the first half of 2027.",
+"note": "The Church of Sweden's Kiruna parish confirms that the church remains closed and that reopening is estimated for sometime in 2027; Kiruna Lapland specifies the first half of that year.",
+"sources": [
+{
+"title": "Kiruna kyrka",
+"publisher": "Church of Sweden, Jukkasjärvi Parish",
+"url": "https://kirunakyrka.se/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Kiruna Church",
+"publisher": "Kiruna Lapland",
+"url": "https://kirunalapland.se/en/kiruna-church/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C42",
+"verdict": "dung",
+"correct_value": null,
+"note": "A University of Gothenburg publication dated 29 October 2025, featuring researcher Jennie Sjöholm, reports that the new centre can be up to 10°C colder in winter because it lies in a depression where cold air accumulates and its tall buildings and narrow streets restrict sunlight.",
+"sources": [
+{
+"title": "Kiruna har blivit kallare efter flytten",
+"publisher": "University of Gothenburg",
+"url": "https://www.gu.se/nyheter/kiruna-har-blivit-kallare-efter-flytten",
+"type": "goc",
+"published": "2025-10-29"
+},
+{
+"title": "Kirunaborna har rätt – nya centrum är en köldhåla",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/kirunaborna-har-ratt-nya-centrum-ar-en-koldhala?lokalmeny=1&nyhetsmeny=1",
+"type": "bao",
+"published": "2025-10-30"
+}
+]
+},
+{
+"id": "C49",
+"verdict": "dung",
+"correct_value": null,
+"note": "SVT reported on 3 December 2025 that two tenants in Kiruna's Thule neighbourhood had started a petition protesting relocation as their residential area was threatened by mining-related redevelopment.",
+"sources": [
+{
+"title": "Hyresgäster rasar mot höjda hyror – ”tvättstugeupproret” är igång",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/sapmi/hyresgaster-rasar-mot-hojda-hyror-tvattstugeupproret-ar-igang?mobilmeny=1",
+"type": "bao",
+"published": "2025-12-03"
+}
+]
+}
+]
+

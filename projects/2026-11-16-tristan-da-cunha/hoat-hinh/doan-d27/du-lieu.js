@@ -50,7 +50,7 @@ window.HH_DATA = {
     "binh-oxy"
    ],
    "sfx": [
-    "ting"
+    "cong"
    ]
   },
   {
@@ -66,24 +66,25 @@ window.HH_DATA = {
   {
    "tai": 14.726,
    "loi": "I slept through it. I slept through it again.",
-   "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob)",
+   "hanh_dong": "Wob ngủ ngáy trong chăn, bong bóng z bay ra; sóng âm lướt qua đầu không chạm, hai lần (lần hai sóng âm vòng né qua đầu Wob); cồng gõ 2 lần: 343.00 s và 344.20 s",
    "gag": "",
    "dao_cu": [],
    "sfx": [
-    "ting"
+    "cong",
+    "cong"
    ]
   },
   {
    "tai": 17.425,
    "loi": "On the next calm morning, I slept sitting up in my boots, right next to the bottle.",
-   "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực",
-   "gag": "Búa gõ \"boong\": cả người Wob rung bần bật như chuông, mắt mở trừng, còn rung thêm hai giây sau khi tiếng đã tắt",
+   "hanh_dong": "Wob ngồi ngủ dựa vào giá treo bình ôxy, áo mưa, mũ trùm lên, giày đỏ, ba lô nhỏ ôm trước ngực; ngồi ngủ 345.70–347.60 s",
+   "gag": "Búa gõ \"boong\" ở 347.60 s (giữa \"sitting up in my boots\"): cả người Wob rung bần bật như chuông 1,5 s (tới ≈ 349.10 s), mắt mở trừng GIỮ tới cắt 350.02 s",
    "dao_cu": [
     "binh-oxy",
     "ba-lo-nho"
    ],
    "sfx": [
-    "ting",
+    "cong",
     "boing"
    ]
   }

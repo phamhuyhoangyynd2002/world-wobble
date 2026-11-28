@@ -23,9 +23,19 @@ window.HH_DATA = {
  "nhip": [
   {
    "tai": 0.75,
-   "loi": "So who started all this? I had a theory ready. The explorer.",
-   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: con tàu buồm, mũi tên chỉ vào đảo, dấu ?; đúng \"The explorer.\" Wob vẽ thêm một lá cờ trơn (không biểu tượng) lên cột buồm, mắt sáng rỡ (hao-hung)",
+   "loi": "So who started all this? I had a theory ready.",
+   "hanh_dong": "[so-do-ve-tay] Từ giấy phẳng nét mực vẽ dần: con tàu buồm, mũi tên chỉ vào đảo, dấu ?; Wob ở mép trang cầm bút vẽ, gõ bút lên dấu ? (ngam-nghi)",
    "gag": "",
+   "dao_cu": [
+    "so-phac-thao"
+   ],
+   "sfx": []
+  },
+  {
+   "tai": 3.95,
+   "loi": "The explorer.",
+   "hanh_dong": "[day-vao-cham] Camera đẩy vào con tàu: đúng \"explorer.\" (≈ 144.20 s) Wob vẽ thêm cho tàu một mỏ neo thả xuống sát bờ đảo (ông ấy chắc ở lại), gật gù đắc ý (hao-hung); giữ 0,6 s trước cắt 145.03 s",
+   "gag": "Mỏ neo Wob vẽ thả \"tõm\" sát bờ (gài cho d13: tàu kéo neo lên đi tiếp)",
    "dao_cu": [
     "so-phac-thao"
    ],

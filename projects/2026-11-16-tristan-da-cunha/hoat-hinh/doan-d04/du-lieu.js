@@ -22,8 +22,8 @@ window.HH_DATA = {
   {
    "tai": 0.0,
    "loi": "In England they'd had buses, shops and dry socks.",
-   "hanh_dong": "[bong-bong-tuong-tuong] Hình to: xe buýt hai tầng chạy qua đúng \"buses\", cửa hàng bật đèn đúng \"shops\", dây phơi tất khô cong đúng \"socks\"",
-   "gag": "Một chiếc tất khô tới mức cứng đơ, đứng thẳng được trên dây phơi; Wob gõ nó kêu cộc cộc",
+   "hanh_dong": "[bong-bong-tuong-tuong] Hình to: xe buýt hai tầng chạy vào 0–3 khung trước \"buses\" (≈ 32.10 s), cửa hàng bật đèn 0–3 khung trước \"shops\" (≈ 32.83 s), dây phơi tất khô",
+   "gag": "Một chiếc tất khô tới mức cứng đơ ĐÃ đứng thẳng trên dây phơi từ ≈ 33.40 s (trước \"socks\"); Wob gõ nó kêu cộc ở ≈ 33.80 s; giữ tới cắt 34.32 s",
    "dao_cu": [
     "tat-kho"
    ],

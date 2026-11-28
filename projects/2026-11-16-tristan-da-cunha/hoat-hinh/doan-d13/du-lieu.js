@@ -41,7 +41,7 @@ window.HH_DATA = {
   {
    "tai": 6.662,
    "loi": "He sailed on.",
-   "hanh_dong": "[take-cham] Tàu buồm giấy không dừng, lướt ra khỏi khung",
+   "hanh_dong": "[take-cham] Tàu buồm giấy kéo mỏ neo lên (mỏ neo Wob vẽ ở d12), không dừng, lướt ra khỏi khung",
    "gag": "Tàu giấy vẫy lại Wob một cái rất lịch sự bằng cánh buồm rồi đi tiếp không ngoái lại; tay Wob khựng giữa không trung, giữ 0,6 s",
    "dao_cu": [
     "tau-buom"

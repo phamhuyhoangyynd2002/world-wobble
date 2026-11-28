@@ -1,0 +1,56 @@
+
+
+[
+{
+"id": "C57",
+"verdict": "dung",
+"correct_value": null,
+"note": "LKAB explicitly confirms that phosphorus made the iron brittle in older production processes and that the Thomas process, invented in the 1870s, made phosphorus-rich ore valuable and helped make Swedish ore-field deposits profitable to extract.",
+"sources": [
+{
+"title": "Anders Lindberg: LKAB can increase Europe’s self-sufficiency",
+"publisher": "LKAB",
+"url": "https://lkab.com/en/articles/lkab-can-increase-europes-self-sufficiency-of-critical-minerals/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Swedish Geological Survey report",
+"publisher": "Sveriges geologiska undersökning (SGU)",
+"url": "https://resource.sgu.se/dokument/publikation/c/c718rapport/c718-rapport.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Promise of Kiruna’s Iron Ore in the Swedish Imagination, c. 1901–1915",
+"publisher": "Journal of Northern Studies",
+"url": "https://journals.ub.umu.se/index.php/jns/article/view/941",
+"type": "khac",
+"published": "2020-01-07"
+}
+]
+},
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "The European Space Agency confirms that Kiruna is in Norrbotten County and approximately 145 km north of the Arctic Circle.",
+"sources": [
+{
+"title": "Kiruna, Sweden",
+"publisher": "European Space Agency (ESA)",
+"url": "https://www.esa.int/media/kiruna-sweden-en-377564",
+"type": "goc",
+"published": "2020-11-27"
+},
+{
+"title": "Kiruna – Northern Lights and Arctic adventures",
+"publisher": "Visit Sweden",
+"url": "https://visitsweden.com/where-to-go/northern-sweden/norrbotten/kiruna/",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+

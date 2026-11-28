@@ -29,7 +29,7 @@ window.HH_DATA = {
  "nhip": [
   {
    "tai": 0.05,
-   "loi": "about two thousand eight hundred kilometres away.",
+   "loi": "about two thousand eight hundred kilometres away. That's roughly seventeen hundred and fifty miles.",
    "hanh_dong": "[trang-so-ban-do] CẬN trang sổ (trang ≥ 70% khung): map-tristan-route; nét đứt Cape Town → Tristan vẽ dần đúng \"two thousand eight hundred\", thẻ ~2,810 km · ~1,750 mi bật lên ở \"miles\"",
    "gag": "",
    "dao_cu": [
@@ -43,7 +43,7 @@ window.HH_DATA = {
   {
    "tai": 5.613,
    "loi": "The crossing usually takes around six days.",
-   "hanh_dong": "Một con tàu giấy tí hon bò theo nét đứt, thẻ ~6 days dán cạnh; Wob ở mép trang đếm sáu ngón tay (giơ đủ 6 bằng hai tay)",
+   "hanh_dong": "Một con tàu giấy tí hon bò theo nét đứt, thẻ ~6 days dán cạnh; Wob ở mép trang dán sáu mặt trời giấy nhỏ dọc nét đứt, mỗi ngày một cái (không đếm ngón tay: đã dùng nhiều ở tập 3, 4)",
    "gag": "",
    "dao_cu": [],
    "sfx": []

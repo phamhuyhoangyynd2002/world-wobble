@@ -10,7 +10,7 @@ window.HH_DATA = {
   "cao": 1440,
   "ti_le": 1.3333333333
  },
- "thoi_luong": 8.82,
+ "thoi_luong": 9.05,
  "bat_dau_tuyet_doi": 109.85,
  "lop": "hoi-uc",
  "boi_canh": "Vẽ tay: toàn cảnh núi lửa hình nón từ xuồng, mây quấn đỉnh như cái mũ, vách đá dựng",
@@ -33,7 +33,7 @@ window.HH_DATA = {
    "tai": 7.25,
    "loi": "wearing a cloud like a hat.",
    "hanh_dong": "Cận đỉnh núi: đám mây quấn đỉnh",
-   "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ rồi đội lại; Wob trong xuồng kéo mũ trùm lên chào lại",
+   "gag": "Đám mây trên đỉnh nhấc lên chào như cái mũ ở \"cloud\" (≈ 117.44 s) rồi đội lại; Wob trong xuồng nhấc mũ trùm (đang LÊN) khỏi đầu chào lại ở \"like\" (≈ 117.78 s), trùm lại xong ở ≈ 118.20 s, giữ mặt tỉnh bơ tới 118.82 s (cắt 118.90 s)",
    "dao_cu": [],
    "sfx": [
     "boing"

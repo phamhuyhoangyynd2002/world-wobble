@@ -1,0 +1,34 @@
+
+
+[
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "SVT's own coverage and the Church of Sweden confirm that the entire two-day move on 19–20 August 2025 was available through a live broadcast, described as 18 hours of coverage using 30 cameras.",
+"sources": [
+{
+"title": "Biskopen välsignar Kiruna kyrka",
+"publisher": "Church of Sweden – Diocese of Luleå",
+"url": "https://www.svenskakyrkan.se/luleastift/nyheter/biskopen-valsignar-kiruna-kyrka",
+"type": "goc",
+"published": "2025-08-14"
+},
+{
+"title": "Här flyttas Kiruna kyrka från gamla till nya centrum",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-flytten-av-kiruna-kyrka-har",
+"type": "goc",
+"published": "2025-08-19"
+},
+{
+"title": "Det här händer under kyrkflytten i Kiruna",
+"publisher": "SVT Nyheter",
+"url": "https://www.svt.se/nyheter/sapmi/det-har-hander-under-kyrkflytten-i-kiruna",
+"type": "goc",
+"published": "2025-08-19"
+}
+]
+}
+]
+

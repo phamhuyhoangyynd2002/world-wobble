@@ -30,8 +30,8 @@ window.HH_DATA = {
   {
    "tai": 4.388,
    "loi": "I raised one hand. The other one stayed in my pocket.",
-   "hanh_dong": "[leo-thang-ba-lan] Wob giơ một tay lên biểu quyết cho con phố nhà mình",
-   "gag": "Tay kia của Wob cứ thò lên nửa chừng rồi rụt về, ba lần; lần ba Wob dùng tay đang giơ ấn nó xuống (Wob không có túi: tay giấu ra sau lưng)",
+   "hanh_dong": "[leo-thang-ba-lan] Wob giơ một tay lên biểu quyết cho con phố nhà mình đúng \"raised\" (≈ 566.02 s)",
+   "gag": "Tay kia của Wob cứ thò lên nửa chừng rồi rụt về, ba lần trong ≈ 567.35–568.47 s; lần ba bị tay đang giơ ấn xuống đúng \"pocket.\" (≈ 568.47 s), giữ 0,6 s tới cắt 569.13 s (Wob không có túi: tay giấu ra sau lưng)",
    "dao_cu": [],
    "sfx": [
     "boing"
