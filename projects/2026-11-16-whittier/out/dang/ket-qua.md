@@ -6,6 +6,8 @@
 
 ## Việc còn lại
 - Phụ đề dịch vi, ja, es (out/phu-de/captions.{vi,ja,es}.srt, Claude dịch, 221 câu, giữ mốc): chưa tải lên vì trang Subtitles chưa hiện nút Add lúc video còn đang xử lý (26/11 ~02:00). Tải lên sau khi video xử lý xong.
-- Ghim bình luận sau khi công khai (27/11 22:00): nội dung ở out/dang/noi-dung.json → binh_luan_ghim.
+- ~~Ghim bình luận sau khi công khai (27/11 22:00)~~ Đã làm 29/11.
 - Mô tả bỏ Sources (theo người làm kênh, như tập 1–2). Link trong mô tả chưa bấm được cho tới khi kênh xác minh điện thoại.
 - Không bật kiếm tiền (giọng Edge).
+
+- 29/11/2026: bình luận ghim đã đăng và ghim dưới tên @WorldWobble (kiểm lại sau khi tải lại trang: "Pinned by @WorldWobble").
