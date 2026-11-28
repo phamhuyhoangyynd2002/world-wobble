@@ -32,3 +32,4 @@
 | muoi.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (muỗi vo ve bay ngang; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | lat-giay.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (lật một trang sổ; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
 | song.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (con sóng nhỏ vỗ bờ; thêm 26/11/2026 cho tập 4) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |
+| cong.wav | Tự tổng hợp bằng sfx/nguon/tao_sfx.py (búa gõ bình ôxy cũ, "cồng" ngày đánh cá; thêm 28/11/2026 cho tập 5) | Tự tạo, thuộc kênh | có | không | sfx/nguon/tao_sfx.py |

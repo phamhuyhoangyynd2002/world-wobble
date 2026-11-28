@@ -1,0 +1,60 @@
+[
+ {
+  "id": "C36",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The Tristan da Cunha Government confirms that the Island Council sets a quota of one adult breeding cow per household; livestock numbers, including sheep, are restricted to conserve pasture and prevent overgrazing.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Farming",
+    "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/economyfarming.php",
+    "type": "goc",
+    "published": "2015-01-01"
+   },
+   {
+    "title": "Tristan da Cunha Economy",
+    "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/economy.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha Sheep and Woollen Industry",
+    "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/economywool.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C38",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The island's official postal history confirms that Allan Crawford submitted nine proposed designs with his 1946 petition, featuring values in pence and potatoes; specialist philatelic sources confirm that the petition was rejected.",
+  "sources": [
+   {
+    "title": "Stamp Issue: The 'Potato Essays' – A Petition for Postage Stamps",
+    "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+    "type": "goc",
+    "published": "2015-04-08"
+   },
+   {
+    "title": "Tristan da Cunha – The 1954 Issue is Born",
+    "publisher": "Cameo – The Journal of the West Africa Study Circle",
+    "url": "https://www.wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+    "type": "khac",
+    "published": "2015-10-01"
+   },
+   {
+    "title": "The Westfield Philatelist, Vol. 14, No. 1",
+    "publisher": "Westfield Stamp Club",
+    "url": "https://westfieldstampclub.org/wp-content/uploads/2024/04/WSC_News_2020-09.pdf",
+    "type": "khac",
+    "published": "2020-09-01"
+   }
+  ]
+ }
+]

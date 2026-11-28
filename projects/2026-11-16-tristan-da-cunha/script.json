@@ -1575,7 +1575,7 @@
       "chapter": "What the Postcard Says",
       "lop": "hien-tai",
       "role": "outro khuôn mới (khác tập 1–4): Wob đọc to mặt sau bưu thiếp mình viết trên boong lúc rời đảo (callback hook), lá thư gửi chính mình nêu cái giá cụ thể và lỗi của Wob (ngủ quên tiếng cồng), Wob ở bàn đồng ý từng chữ, rồi mới đóng dấu WOULD MOVE; đảo không nhận vì không có liên hệ gia đình; callback dây thừng; câu hỏi bình luận mới. Không tóm ba vế, không 'Would I move', không cặp suits, không 'changed my mind'",
-      "narration": "So, the postcard. I wrote it on deck, with the island shrinking behind the ship, and I haven't read it since. It says: Dear me. You can't move here. Outsiders can't buy land, and you can't settle without family on the island. You asked anyway. The harbour opens when the sea agrees. The big hospital is a week or so away by sea. Groceries get ordered months ahead. Patient people who like their neighbours do fine here. You are neither, yet. You slept through the gong. Twice. You still want to live here. Love, me. Reading it at my desk, I agree with every word, including the part where they wouldn't have me. It's their island, by family and by ballot. I'm stamping it anyway. WOULD MOVE. If they ever need someone to hold a rope and not become cargo, I'm packed. What would you sail a week to get back to?",
+      "narration": "So, the postcard. I wrote it at the post office counter, the day before my ship left, and I haven't read it since. It says: Dear me. You can't move here. Outsiders can't buy land, and you can't settle without family on the island. You asked anyway. The harbour opens when the sea agrees. The big hospital is a week or so away by sea. Groceries get ordered months ahead. Patient people who like their neighbours do fine here. You are neither, yet. You slept through the gong. Twice. You still want to live here. Love, me. Reading it at my desk, I agree with every word, including the part where they wouldn't have me. It's their island, by family and by ballot. I'm stamping it anyway. WOULD MOVE. If they ever need someone to hold a rope and not become cargo, I'm packed. What would you sail a week to get back to?",
       "verdict": {
         "label": "WOULD MOVE",
         "reason": "Shared land, a lobster fishery and an island run by its own people won Wob over, and the costs are real (a harbour that opens on calm days, serious care a voyage away, orders placed months ahead); but newcomers can't buy land or settle without family on the island, so the move stays a wish, and Wob still sleeps through the gong.",
@@ -1587,8 +1587,8 @@
           "y": "Bàn kỷ vật, sáng. Wob (ở nhà, không ba lô) lật bưu thiếp sang mặt viết: chữ viết tay nhỏ chi chít kín tới mép"
         },
         {
-          "cue": "with the island shrinking behind the ship",
-          "y": "Chèn nhanh hồi ức: Wob viết trên boong, đảo nhỏ dần sau lưng"
+          "cue": "at the post office counter",
+          "y": "Hồi ức chớp nhanh: quầy bưu điện gỗ trên đảo, Wob (áo mưa cam, ba lô nhỏ) cúi viết bưu thiếp, củ khoai đặt cạnh tay"
         },
         {
           "cue": "Dear me",
@@ -1685,15 +1685,11 @@
       "type": "duoi",
       "lop": "hien-tai",
       "role": "đuôi tập: bưu thiếp lên kệ (mặt tem ra ngoài) cạnh bình xịt còn niêm phong (tập 4), tờ lịch hầm (tập 3), lọ gần như không có opal (tập 2), cá trong tủ đông (tập 1); nhá tập 6 Kiruna bằng nét đặc thù, không tên, không số; không khuôn 'Next:'",
-      "narration": "The postcard goes on the shelf, stamp out, beside the spray that's still sealed and the tunnel timetable. The jar of almost no opals rattles. The fish keeps watch from the freezer. Somewhere much colder, a town is moving out, house by house, away from the mine that feeds it.",
+      "narration": "The postcard goes on the shelf, stamp out, beside the spray that's still sealed and the tunnel timetable. The fish keeps watch from the freezer. Somewhere much colder, a town is moving out, house by house, away from the mine that feeds it.",
       "y_hinh": [
         {
           "cue": "The postcard goes on the shelf",
           "y": "Bàn kỷ vật. Wob đặt bưu thiếp đứng trên kệ, mặt tem nét mực đen trắng (núi lửa + thuyền dài) quay ra, thẻ TRISTAN DA CUNHA; cạnh bình xịt (thẻ SANTA CRUZ DEL ISLOTE) và tờ lịch hầm (thẻ WHITTIER)"
-        },
-        {
-          "cue": "The jar of almost no opals rattles",
-          "y": "Lọ opal (thẻ COOBER PEDY) tự lắc lách cách một cái"
         },
         {
           "cue": "The fish keeps watch from the freezer",

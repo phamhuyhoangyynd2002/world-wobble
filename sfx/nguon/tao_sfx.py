@@ -246,3 +246,20 @@ def song(d=2.6):  # một con sóng nhỏ vỗ vào bờ: nhiễu trầm dâng l
 for name, fn in {"muoi": muoi, "lat-giay": lat_giay, "song": song}.items():
     write(name, fn())
     print("ok", name)
+
+# Thêm 28/11/2026 cho tập 5 (Tristan da Cunha): "cồng" báo ngày đánh cá là búa gõ vào bình ôxy cũ.
+# Không dùng random nên không làm đổi các file phía trên.
+
+def cong(d=2.2):  # búa gõ bình kim loại rỗng: tiếng cạch ngắn + các hoạ âm không hài hoà ngân dài, hơi rung
+    n = int(SR * d); out = []
+    parts = [(410, 1.0, 1.6), (1093, 0.55, 2.4), (1987, 0.35, 3.4), (3120, 0.18, 5.0), (4460, 0.08, 7.0)]
+    for i in range(n):
+        t = i / SR
+        s = sum(a * math.exp(-k * t) * math.sin(2 * math.pi * f * t * (1 + 0.0015 * math.sin(2 * math.pi * 5.5 * t)))
+                for f, a, k in parts)
+        click = math.exp(-t / 0.004) * math.sin(2 * math.pi * 2600 * t) * 0.8
+        out.append((s + click) * min(1.0, t / 0.0015))
+    return out
+
+write("cong", cong())
+print("ok", "cong")

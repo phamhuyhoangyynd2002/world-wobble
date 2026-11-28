@@ -17,7 +17,8 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ],
   "ket_qua": [
     {
@@ -945,15 +946,31 @@
     },
     {
       "id": "C36",
-      "statement": "Tristan da Cunha's Island Council limits each household to one adult breeding cow, a limit set to prevent overgrazing.",
-      "verdict": "khong-ro",
+      "statement": "Tristan da Cunha's Island Council sets a quota of one adult breeding cow per household, and the island government says cattle and sheep numbers are controlled to prevent overgrazing.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "The official Tristan da Cunha website confirms the Island Council sets a quota of one adult breeding cow per household, but does not establish that preventing overgrazing is the reason for the limit.",
+      "ghi_chu": "The Tristan da Cunha Government confirms that the Island Council sets a quota of one adult breeding cow per household; livestock numbers, including sheep, are restricted to conserve pasture and prevent overgrazing.",
       "nguon": [
         {
           "title": "Tristan da Cunha Farming",
           "url": "https://www.tristandc.com/economyfarming.php",
-          "publisher": "Tristan da Cunha Government",
+          "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+          "type": "goc",
+          "published": "2015-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Sheep and Woollen Industry",
+          "url": "https://www.tristandc.com/economywool.php",
+          "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
           "type": "goc",
           "published": null,
           "url_song": true
@@ -995,49 +1012,33 @@
     },
     {
       "id": "C38",
-      "statement": "In 1946 Allan Crawford drew a set of stamp designs for Tristan da Cunha, with values in pence and potatoes, and submitted them with a petition for postage stamps, which was refused.",
-      "verdict": "mau-thuan",
+      "statement": "In 1946 Allan Crawford helped draw up a set of stamp designs for Tristan da Cunha, with values in pence and potatoes, which were submitted with a petition for postage stamps; the petition was refused.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "The 1946 petition, potato-and-pence denominations, and its rejection are confirmed by official sources, but authorship of the drawings is not entirely consistent: the Tristan da Cunha government credits Allan Crawford with designing the stamps, while philatelic accounts also credit draughtsman Jimmy Brown with drawing some designs.",
+      "ghi_chu": "The island's official postal history confirms that Allan Crawford submitted nine proposed designs with his 1946 petition, featuring values in pence and potatoes; specialist philatelic sources confirm that the petition was rejected.",
       "nguon": [
-        {
-          "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
-          "url": "https://www.tristandc.com/assocallancrawford.php",
-          "publisher": "Tristan da Cunha Government",
-          "type": "goc",
-          "published": null,
-          "url_song": true
-        },
         {
           "title": "Stamp Issue: The 'Potato Essays' – A Petition for Postage Stamps",
           "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
-          "publisher": "Tristan da Cunha Government",
+          "publisher": "Tristan da Cunha Government & Tristan da Cunha Association",
           "type": "goc",
           "published": "2015-04-08",
           "url_song": true
         },
         {
           "title": "Tristan da Cunha – The 1954 Issue is Born",
-          "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
-          "publisher": "Cameo, West Africa Study Circle",
+          "url": "https://www.wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+          "publisher": "Cameo – The Journal of the West Africa Study Circle",
           "type": "khac",
           "published": "2015-10-01",
           "url_song": true
         },
         {
-          "title": "TRISTAN TOPICS",
-          "url": "https://stampssa.africa/wp-content/uploads/2024/10/Volume-58.-No-10.-October-1982.pdf",
-          "publisher": "The South African Philatelist",
-          "type": "khac",
-          "published": "1982-10-01",
-          "url_song": true
-        },
-        {
-          "title": "The 'Potato Essays' – A Petition for Postage Stamps",
+          "title": "The Westfield Philatelist, Vol. 14, No. 1",
           "url": "https://westfieldstampclub.org/wp-content/uploads/2024/04/WSC_News_2020-09.pdf",
           "publisher": "Westfield Stamp Club",
           "type": "khac",
-          "published": null,
+          "published": "2020-09-01",
           "url_song": true
         }
       ]
@@ -1816,7 +1817,7 @@
     }
   ],
   "usage": {
-    "calls": 14,
+    "calls": 15,
     "ghi_chu": "giao diện web miễn phí, không tính token"
   }
 }

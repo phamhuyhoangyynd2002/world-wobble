@@ -379,14 +379,13 @@
     },
     {
       "id": "C36",
-      "statement": "In 2019 Tristan da Cunha's Island Council reduced the limit from two adult breeding cows per household to one, because of overgrazing.",
-      "verdict": "khong-ro",
+      "statement": "Tristan da Cunha's Island Council sets a quota of one adult breeding cow per household, and the island government says cattle and sheep numbers are controlled to prevent overgrazing.",
+      "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Chỉ xác nhận được hạn mức hiện tại một bò cái giống mỗi hộ (trang Farming, Reviewed 2019-03-16) và việc gia súc bị giới hạn, đã giảm để chống chăn thả quá mức (trang Farming, Discover 2023, National Geographic); không nguồn nào đã mở nói năm 2019 là năm đổi, hay hạn mức trước đó là hai con; tìm thêm văn bản Island Council không thấy.",
+      "ghi_chu": "Kiểm lại 28/11 theo statement mới (tách hạn mức bò khỏi việc kiểm soát số gia súc). Trang Farming trên site chính quyền đảo (Reviewed 2019-03-16): bò thuộc từng nhà, Sở Nông nghiệp quản theo 'a quota which is established by the Island Council', 'Currently the quota is one adult breeding cow per household'; câu mở trang: 'cattle and sheep are the main livestock, with numbers controlled to prevent overgrazing' (chủ ngữ gồm cả bò và cừu, khớp vế thứ hai). Discover (2023): 'Tristan has already reduced each family's livestock allotment to alleviate grazing pressure'. Lưu ý: hạn mức theo bản rà soát 2019; tìm thêm (danh mục luật Tristan trên sainthelena.gov.sh có Calf Pen By-Laws nhưng không thấy nội dung) chưa thấy nguồn mới hơn nói đã đổi. Bò ở The Caves, Stony Beach nằm ngoài hạn mức; hạn mức theo hộ chỉ áp cho bò, và cùng trang nói có 'an unknown number of sheep' thả trên núi, nên vế 'controlled' là lời của chính quyền đảo, statement đã ghi đúng là 'the island government says'.",
       "nguon": [
         {"title": "Farming", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfarming.php", "type": "goc", "published": "2019-03-16"},
-        {"title": "Balancing Faraway Life on Tristan da Cunha (Sasha Chapman)", "publisher": "Discover Magazine", "url": "https://www.discovermagazine.com/planet-earth/balancing-faraway-life-on-tristan-da-cunha", "type": "bao", "published": "2023-04-21"},
-        {"title": "Hard-core locavore: eating on the world's most remote island", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island", "type": "bao", "published": null}
+        {"title": "Balancing Faraway Life on Tristan da Cunha (Sasha Chapman)", "publisher": "Discover Magazine", "url": "https://www.discovermagazine.com/planet-earth/balancing-faraway-life-on-tristan-da-cunha", "type": "bao", "published": "2023-04-21"}
       ]
     },
     {
@@ -402,23 +401,25 @@
     },
     {
       "id": "C38",
-      "statement": "In 1946 Allan Crawford drew nine stamp designs for Tristan da Cunha, with values in pence and potatoes, and submitted them with a petition for postage stamps, which was refused.",
+      "statement": "In 1946 Allan Crawford helped draw up a set of stamp designs for Tristan da Cunha, with values in pence and potatoes, which were submitted with a petition for postage stamps; the petition was refused.",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Trang tem 2015 của Bưu điện Tristan: chín mẫu, mệnh giá 'in pence and potatoes', nộp kèm thỉnh nguyện năm 1946 và 'The petition for stamps however was refused'; blog Stamp Forgeries ghi mẫu do Crawford tạo năm 1946; lưu ý trang của đảo nói Crawford vẽ cùng trung sĩ hoạ viên Jimmy Brown.",
+      "ghi_chu": "Kiểm lại 28/11 theo statement mới. Trang tem 201501 của Bưu điện Tristan: Crawford và trung sĩ hoạ viên Jimmy Brown 'worked together to produce some rough designs', ra 9 mẫu 'with face values in pence and potatoes'; 'The 9 designs in black and white were used later in 1946 as part of a petition for stamps', 'The petition for stamps however was refused'. Cáo phó Crawford trên Polar Record (Holdgate, 2007): năm 1946, khi ở Pretoria, ông vẽ bộ 'potato stamps' có giá bằng tiền Anh kèm giá bằng khoai, mẫu này 'never gained official recognition'. Chữ 'helped' khớp việc vẽ cùng Jimmy Brown.",
       "nguon": [
         {"title": "Stamps: The 'Potato Essays' – A Petition for Postage Stamps (issue 201501)", "publisher": "Tristan da Cunha Post Office (tristandc.com)", "url": "https://www.tristandc.com/po/stamps201501.php", "type": "goc", "published": "2015-04-08"},
+        {"title": "Obituary: Allan Bryant Crawford (Martin Holdgate), Polar Record 43(227): 383–384", "publisher": "Cambridge University Press", "url": "https://doi.org/10.1017/S0032247407006791", "type": "goc", "published": null},
         {"title": "Tristan da Cunha locals (potato essays, 1946)", "publisher": "Stamp Forgeries of the World (blog)", "url": "https://stampforgeries.blogspot.com/2021/05/tristan-da-cunha-locals.html", "type": "khac", "published": "2021-05-27"}
       ]
     },
     {
       "id": "C39",
-      "statement": "In 1946 Allan Crawford had local penny stamp sheets printed in red for Tristan da Cunha; each stamp showed a penguin and its value was four potatoes (four potatoes equalling one old penny).",
+      "statement": "In 1946 Allan Crawford had local penny stamp sheets printed for Tristan da Cunha; each stamp showed a penguin and its value was four potatoes (four potatoes equalling one old penny).",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Trang tem 2015 của Bưu điện Tristan: Crawford cho in 20.000 tờ tem penny (Hortors, Johannesburg), 'each stamp depicted a penguin', giá '4 potatoes printed in red', 4 củ khoai bằng 1 penny cũ; năm 1946 lấy từ blog Stamp Forgeries (mẫu 1946, tem 1d chim cánh cụt in tờ 35 con); chỉ một nguồn nói màu đỏ và câu của nguồn có thể hiểu là chữ giá in đỏ.",
+      "ghi_chu": "Kiểm lại 28/11 theo statement mới (đã bỏ 'in red'). Trang tem 201501 của Bưu điện Tristan: 'Allan had 20,000 penny sheets made, each stamp depicted a penguin and its value was 4 potatoes', in tờ 35 con ở Hortors Ltd (Johannesburg); thời chiến 'used potatoes as currency with 4 potatoes equalling 1 old penny (1d)'. Năm 1946: trang của đảo không ghi năm in, nhưng đặt việc in trước câu 'used later in 1946 as part of a petition'; cáo phó Polar Record (2007) ghi Crawford vẽ bộ tem khoai năm 1946; blog Stamp Forgeries và danh mục đấu giá David Feldman (chỉ thấy tiêu đề '1946 1d. Potato local', trang chặn 403) cũng ghi 1946. Năm in là suy từ trình tự, chưa có câu nguyên văn 'printed in 1946' ở nguồn gốc.",
       "nguon": [
         {"title": "Stamps: The 'Potato Essays' – A Petition for Postage Stamps (issue 201501)", "publisher": "Tristan da Cunha Post Office (tristandc.com)", "url": "https://www.tristandc.com/po/stamps201501.php", "type": "goc", "published": "2015-04-08"},
+        {"title": "Obituary: Allan Bryant Crawford (Martin Holdgate), Polar Record 43(227): 383–384", "publisher": "Cambridge University Press", "url": "https://doi.org/10.1017/S0032247407006791", "type": "goc", "published": null},
         {"title": "Tristan da Cunha locals (potato essays, 1946)", "publisher": "Stamp Forgeries of the World (blog)", "url": "https://stampforgeries.blogspot.com/2021/05/tristan-da-cunha-locals.html", "type": "khac", "published": "2021-05-27"}
       ]
     },
@@ -695,10 +696,10 @@
     },
     {
       "id": "C66",
-      "statement": "Serious medical cases from Tristan da Cunha are taken to hospital in Cape Town, roughly a week or more away by sea (about six days by the usual ships; some sources give 7 to 10 days).",
+      "statement": "Serious medical cases from Tristan da Cunha are taken to hospital in Cape Town, roughly a week away by sea (about six days on the usual ships, sometimes longer in bad weather).",
       "verdict": "dung",
       "gia_tri_dung": null,
-      "ghi_chu": "Trang bệnh viện: ca nặng đưa tới Cape Town; lịch tàu: hành trình 'will normally take six days'; BBC (2025): 'can take up to two weeks, depending on the weather'; gov.uk (2026): 'usual two week trip by sea'; ý chính 'khoảng một tuần hoặc hơn' khớp, nhưng khoảng '7 to 10 days' không thấy nguyên văn ở nguồn uy tín đã mở (chỉ có hướng dẫn du lịch 5–10 ngày), nên thay bằng 'up to two weeks in bad weather' sẽ chắc hơn.",
+      "ghi_chu": "Kiểm lại 28/11 theo statement mới. Trang Camogli Hospital: 'More complex and serious cases are transported to Cape Town for treatment'; trang Shipping Schedules: 'The 2810 km or 1750 mile journey from Cape Town harbour will normally take six days'; BBC (Schönfeld 2025, đăng lại trên South Atlantic News): chuyến đi Cape Town khoảng 2.800 km có thể mất tới khoảng hai tuần, thời tiết là biến số chính, sóng lớn có lúc giữ tàu ngoài khơi năm ngày. Câu 'usual two week trip by sea' của gov.uk (2026) tính từ Anh tới đảo, không phải Cape Town, nên không mâu thuẫn.",
       "nguon": [
         {"title": "Camogli Hospital", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/hospital.php", "type": "goc", "published": null},
         {"title": "Shipping Schedules", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/shipping.php", "type": "goc", "published": null},
