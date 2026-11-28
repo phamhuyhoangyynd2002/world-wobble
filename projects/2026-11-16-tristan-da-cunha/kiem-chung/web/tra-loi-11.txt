@@ -1,0 +1,157 @@
+[
+ {
+  "id": "C17",
+  "verdict": "dung",
+  "correct_value": "Approximately 2,437 km north of Tristan da Cunha",
+  "note": "The UN confirms Napoleon's exile on St Helena from 1815 to 1821, while official island information identifies St Helena as the nearest inhabited community, approximately 2,437 km north of Tristan.",
+  "sources": [
+   {
+    "title": "A/AC.109/2011/7",
+    "publisher": "United Nations",
+    "url": "https://documents.un.org/api/symbol/access?l=en&s=A%2FAC.109%2F2011%2F7&t=pdf",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Visiting Tristan",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/visits.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C26",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The island's official website identifies exactly these seven surviving family surnames among resident islanders, although expatriates also live there.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Edinburgh of the Seven Seas",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/settlement.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C27",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official island website confirms that the Potato Patches are rectilinear walled fields and every island family owns and cultivates several patches.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Patches Plain",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/patches.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha Economy",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/economy.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C34",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "BBC reporting confirms the early-morning hammering of an old oxygen gas cylinder, while Atlantic Guardians confirms that the gong announces fishing days.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha: The lobsters keeping Earth's remotest town afloat",
+    "publisher": "BBC",
+    "url": "https://bbc.com.im/future/article/20250915-tristan-da-cunha-the-lobsters-keeping-earths-remotest-town-afloat",
+    "type": "bao",
+    "published": "2025-09-16"
+   },
+   {
+    "title": "Sustainable fishing - Atlantic Guardians",
+    "publisher": "Atlantic Guardians",
+    "url": "https://atlanticguardians.org/explore/the-marine-protection-zone/sustainable-fishing/",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C36",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The island's official website confirms that the Island Council reduced the household breeding-cow quota from two to one, effective at the end of April 2019, to address overgrazing.",
+  "sources": [
+   {
+    "title": "Improving Tristan's cattle herd",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/news-2017-12-01-bulls.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C38",
+  "verdict": "mau-thuan",
+  "correct_value": null,
+  "note": "The official island account describes ten designs, while other philatelic accounts describe nine proposed designs; the petition was refused.",
+  "sources": [
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha - The 1954 Issue is Born",
+    "publisher": "Cameo, West Africa Study Circle",
+    "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+    "type": "khac",
+    "published": "2015-10-01"
+   }
+  ]
+ },
+ {
+  "id": "C39",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "Philatelic records confirm that the red 1946 local 1d penguin label was printed by Crawford and denominated at four potatoes.",
+  "sources": [
+   {
+    "title": "Lot 51783 - 1946 1d. Potato local typographed (value 4 potatoes)",
+    "publisher": "David Feldman International Auctioneers",
+    "url": "https://www.davidfeldman.com/dfsa-auctions/2021-autumn-auction-series/british-empire/51783/tristan-da-cunha-1946-1d-potato-local-typographed/",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C40",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official 8 April 2015 issue description confirms a sheetlet reproducing the nine designs submitted with Crawford's 1946 petition, alongside an additional historical stamp.",
+  "sources": [
+   {
+    "title": "Stamp Issue: The 'Potato Essays'",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+    "type": "goc",
+    "published": "2015-04-08"
+   }
+  ]
+ }
+]

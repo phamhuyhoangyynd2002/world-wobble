@@ -1,0 +1,191 @@
+[
+ {
+  "id": "C46",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The island's official website confirms the 8 October earthquake and landslide, the fissure and ground uplift the following morning, and the overnight evacuation of 264 islanders and 31 expatriates to the Potato Patches.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/history1961-1963.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha Earth Science News: Disaster Management Planning",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/earthdisastermanagement.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C58",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official historical account confirms the December 1962 Colonial Office ballot and the 148–5 vote in favour of returning.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://tristandc.com/history1961-1963.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "HOME on a VOLCANO",
+    "publisher": "New Zealand Listener",
+    "url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19660204.2.4.1",
+    "type": "bao",
+    "published": "1966-02-04"
+   }
+  ]
+ },
+ {
+  "id": "C59",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official account records the advance party arriving on 9 April 1963, so April 1963 is correct.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://tristandc.com/history1961-1963.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha Families: Tristan da Cunha's Population History",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/community/population-history.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C62",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official Tristan da Cunha website confirms an 11-metre entrance and approximately 70 days per year suitable for safe harbour traffic; other published estimates range from 60–70 to approximately 90 days, reflecting differing sources or definitions of accessibility.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Calshot Harbour",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://tristandc.com/harbour.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "The Overseas Territories: Security, Success and Sustainability",
+    "publisher": "UK Government",
+    "url": "https://www.bvi.gov.vg/sites/default/files/resources/The%20Overseas%20Territories%20Security%2C%20Success%20and%20Sustainability.pdf",
+    "type": "goc",
+    "published": "2012-06-28"
+   },
+   {
+    "title": "A Biophysical Profile of the Tristan da Cunha Archipelago",
+    "publisher": "Pew Charitable Trusts",
+    "url": "https://www.pew.org/-/media/assets/2019/07/cp_on_a_remote_archipelago_rich_biodiversity_faces_threats.pdf",
+    "type": "khac",
+    "published": "2017-01-01"
+   },
+   {
+    "title": "Tristan da Cunha: Report of the United Kingdom",
+    "publisher": "United Nations",
+    "url": "https://digitallibrary.un.org/nanna/record/767233/files/A_AC.109_2014_7-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+    "type": "goc",
+    "published": "2014-01-01"
+   }
+  ]
+ },
+ {
+  "id": "C63",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official healthcare-centre information confirms two normally resident expatriate doctors and states that complex and serious cases are transported to Cape Town; the island's lack of an airport means evacuation is by sea.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Camogli Healthcare Centre",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/hospital.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Health - St Helena, Ascension and Tristan da Cunha Travel Advice",
+    "publisher": "UK Foreign, Commonwealth & Development Office",
+    "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Healthcare in the Overseas Territories and access to UK care",
+    "publisher": "House of Commons Library",
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+    "type": "khac",
+    "published": "2023-05-25"
+   }
+  ]
+ },
+ {
+  "id": "C66",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The island government gives a normal Cape Town voyage of approximately six days, while the House of Commons Library reports 7–10 days; both support describing the journey as roughly a week or longer, depending on the vessel and conditions.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Shipping Schedules",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://tristandc.com/shipping.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Healthcare in the Overseas Territories and access to UK care",
+    "publisher": "House of Commons Library",
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+    "type": "khac",
+    "published": "2023-05-25"
+   },
+   {
+    "title": "Health - St Helena, Ascension and Tristan da Cunha Travel Advice",
+    "publisher": "UK Foreign, Commonwealth & Development Office",
+    "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Sean Burns Seriously Ill",
+    "publisher": "The St Helena Independent",
+    "url": "https://www.independent.sh/wp-content/uploads/2023/03/St-Helena-Independent-20230317.pdf",
+    "type": "bao",
+    "published": "2023-03-17"
+   }
+  ]
+ },
+ {
+  "id": "C67",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The official Island Store page explicitly says goods must be ordered months before incoming ships arrive, and National Geographic independently describes orders being placed a couple of months in advance.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Island Store (Supermarket)",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/supermarket.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Hard-Core Locavore: Eating on the World's Most Remote Island",
+    "publisher": "National Geographic",
+    "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island",
+    "type": "bao",
+    "published": null
+   }
+  ]
+ }
+]

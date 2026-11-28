@@ -1,0 +1,192 @@
+[
+{
+"id": "C41",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The 1952 first issue is confirmed, but no reliable source found establishes worldwide demand or first-year revenue for the administration.",
+"sources": [
+{
+"title": "Tristan da Cunha - The 1954 Issue is Born",
+"publisher": "West Africa Study Circle",
+"url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+"type": "khac",
+"published": "2015-10-01"
+},
+{
+"title": "Tristan da Cunha",
+"publisher": "Smithsonian National Postal Museum",
+"url": "https://postalmuseum.si.edu/exhibition/international-philately-africa-southern-africa/tristan-da-cunha",
+"type": "bach-khoa",
+"published": null
+}
+]
+},
+{
+"id": "C42",
+"verdict": "dung",
+"correct_value": null,
+"note": "Official economic information identifies stamp and coin sales to international collectors as foreign earnings, while a United Nations report confirms that these sales fund government services.",
+"sources": [
+{
+"title": "Tristan da Cunha Economy",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economy.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "A/AC.109/2010/8",
+"publisher": "United Nations",
+"url": "https://digitallibrary.un.org/record/678860/files/A_AC.109_2010_8-EN.pdf",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Coins",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/coins.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C43",
+"verdict": "dung",
+"correct_value": null,
+"note": "The UK Parliament confirms routing through Cape Town and carriage by contracted South African vessels; current shipping information confirms that ships normally carry mail.",
+"sources": [
+{
+"title": "Tristan Da Cunha: Post And Supplies",
+"publisher": "UK Parliament",
+"url": "https://hansard.parliament.uk/Lords/2004-05-12/debates/1bf54822-a246-4284-8b11-e629a258b7b9/TristanDaCunhaPostAndSupplies",
+"type": "goc",
+"published": "2004-05-12"
+},
+{
+"title": "Tristan da Cunha Shipping Schedules",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/shipping.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Shipping Policy",
+"publisher": "Tristan da Cunha Post Office and Tourism Department",
+"url": "https://shop.tristand.com/policies/shipping-policy",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C44",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official history places the new volcanic cone between the Settlement and the canning factory, and contemporary geological research documents the nearby eruption and lava flow.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The 1961 eruption",
+"publisher": "Mitchell and Thomé",
+"url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+"type": "khac",
+"published": "1970-01-01"
+}
+]
+},
+{
+"id": "C45",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official island history records earthquakes and landslides during August and September 1961, preceding the October eruption.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The 1961 eruption",
+"publisher": "Mitchell and Thomé",
+"url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+"type": "khac",
+"published": "1970-01-01"
+}
+]
+},
+{
+"id": "C46",
+"verdict": "sai",
+"correct_value": "On 8 October families moved overnight to relatives' homes in the western district; on 9 October the community evacuated to the Potato Patches, where most people spent the night outdoors.",
+"note": "The official history places the move to the Potato Patches on 9 October, not the night of 8 October, and another historical account states that most people slept outdoors rather than in huts.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Fiftieth Anniversary of the Evacuation of Tristan",
+"publisher": "Peaceful Societies, University of North Carolina Greensboro",
+"url": "https://peacefulsocieties.uncg.edu/fiftieth-anniversary-of-the-evacuation-of-tristan/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C47",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official chronology confirms that the fissure opened on 9 October, the rising ground developed into a volcanic cone by 10 October, and the island was evacuated.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The 1961 eruption",
+"publisher": "Mitchell and Thomé",
+"url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+"type": "khac",
+"published": "1970-01-01"
+}
+]
+},
+{
+"id": "C48",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official historical account confirms that Tristania and Frances Repetto transported the evacuated population to Nightingale Island on 10 October for overnight shelter.",
+"sources": [
+{
+"title": "60th Anniversary of Tristan's 1961 Volcano, Part 1",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/po/stamps202109.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Earth Science News: Disaster Management Planning",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/earthdisastermanagement.php",
+"type": "goc",
+"published": null
+}
+]
+}
+]

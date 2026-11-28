@@ -1,0 +1,45 @@
+[
+ {
+  "id": "C38",
+  "verdict": "mau-thuan",
+  "correct_value": null,
+  "note": "The 1946 petition, potato-and-pence denominations, and its rejection are confirmed by official sources, but authorship of the drawings is not entirely consistent: the Tristan da Cunha government credits Allan Crawford with designing the stamps, while philatelic accounts also credit draughtsman Jimmy Brown with drawing some designs.",
+  "sources": [
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Stamp Issue: The 'Potato Essays' – A Petition for Postage Stamps",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+    "type": "goc",
+    "published": "2015-04-08"
+   },
+   {
+    "title": "Tristan da Cunha – The 1954 Issue is Born",
+    "publisher": "Cameo, West Africa Study Circle",
+    "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+    "type": "khac",
+    "published": "2015-10-01"
+   },
+   {
+    "title": "TRISTAN TOPICS",
+    "publisher": "The South African Philatelist",
+    "url": "https://stampssa.africa/wp-content/uploads/2024/10/Volume-58.-No-10.-October-1982.pdf",
+    "type": "khac",
+    "published": "1982-10-01"
+   },
+   {
+    "title": "The 'Potato Essays' – A Petition for Postage Stamps",
+    "publisher": "Westfield Stamp Club",
+    "url": "https://westfieldstampclub.org/wp-content/uploads/2024/04/WSC_News_2020-09.pdf",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ }
+]

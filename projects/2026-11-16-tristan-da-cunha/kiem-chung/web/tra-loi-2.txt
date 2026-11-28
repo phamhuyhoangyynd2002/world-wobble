@@ -1,0 +1,217 @@
+
+
+[
+{
+"id": "C09",
+"verdict": "dung",
+"correct_value": null,
+"note": "The UK government confirms that large vessels anchor offshore because the harbour cannot accommodate them, with passengers transferred to the island by smaller boats.",
+"sources": [
+{
+"title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+"publisher": "GOV.UK",
+"url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Information for Visiting Ships and Yachts",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/visitsships.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C10",
+"verdict": "dung",
+"correct_value": "Queen Mary's Peak: 2,060 m (6,760 ft)",
+"note": "NASA and the British Geological Survey confirm the summit elevation; the island is volcanic and its summit is frequently obscured by clouds.",
+"sources": [
+{
+"title": "Tristan da Cunha, South Atlantic Ocean",
+"publisher": "NASA Earth Observatory",
+"url": "https://science.nasa.gov/earth/earth-observatory/tristan-da-cunha-south-atlantic-ocean-80456/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Volcanism on Tristan da Cunha",
+"publisher": "British Geological Survey",
+"url": "https://www.bgs.ac.uk/geology-projects/volcanoes/volcanism-on-tristan-da-cunha/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C11",
+"verdict": "dung",
+"correct_value": "The north-western coastal area of the main island",
+"note": "CTBTO confirms that the only relatively flat area is around the capital on the north-western coast, although the settlement occupies gently sloping land rather than an entirely flat plain.",
+"sources": [
+{
+"title": "HA09, Tristan da Cunha, United Kingdom",
+"publisher": "Comprehensive Nuclear-Test-Ban Treaty Organization",
+"url": "https://www.ctbto.org/our-work/station-profiles/ha09-tristan-da-cunha-united-kingdom",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Edinburgh of the Seven Seas",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/settlement.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C12",
+"verdict": "dung",
+"correct_value": "Edinburgh of the Seven Seas, named after Prince Alfred's visit on 5 August 1867",
+"note": "The Tristan da Cunha Government confirms that Prince Alfred, Queen Victoria's second son, visited aboard HMS Galatea in 1867 and that the settlement was named in his honour.",
+"sources": [
+{
+"title": "Tristan da Cunha Tribute to HRH Prince Philip Duke of Edinburgh",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/news-2021-04-09-hrhprincephilip.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Anniversary Day",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/newsanniversaryday.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Prince Alfred and the train to nowhere",
+"publisher": "State Library of Queensland",
+"url": "https://www.slq.qld.gov.au/blog/prince-alfred-and-train-nowhere",
+"type": "khac",
+"published": "2018-02-26"
+}
+]
+},
+{
+"id": "C13",
+"verdict": "dung",
+"correct_value": "The Settlement",
+"note": "The island's official website explicitly states that the village is locally always referred to as 'The Settlement'.",
+"sources": [
+{
+"title": "Tristan da Cunha Edinburgh of the Seven Seas",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/settlement.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C14",
+"verdict": "dung",
+"correct_value": "1506",
+"note": "The island government and historical research identify Tristão da Cunha as the Portuguese discoverer in 1506 while travelling towards the Cape of Good Hope; he gave the island his name.",
+"sources": [
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Man and Nature in the Tristan da Cunha Islands",
+"publisher": "IUCN",
+"url": "https://portals.iucn.org/library/efiles/documents/mono-006.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "The Early History of Tristan da Cunha",
+"publisher": "Tristan da Cunha historical archive",
+"url": "https://www.tristan.it/TRISTAN/tristanlibri/tristan_annals.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C15",
+"verdict": "dung",
+"correct_value": "First recorded landing: February 1643, by the Dutch vessel Heemstede",
+"note": "Historical records identify the Heemstede crew's landing in February 1643 as the first documented landing; Tristão da Cunha did not land during his discovery voyage.",
+"sources": [
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Early History of Tristan da Cunha",
+"publisher": "Tristan da Cunha historical archive",
+"url": "https://www.tristan.it/TRISTAN/tristanlibri/tristan_annals.pdf",
+"type": "khac",
+"published": null
+},
+{
+"title": "Tristan da Cunha Islands",
+"publisher": "Atlas of Mutual Heritage",
+"url": "https://www.atlasofmutualheritage.nl/page/10317/tristan-da-cunha-islands",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C16",
+"verdict": "dung",
+"correct_value": "Permanent British settlement: 1816–1817; Pieter Groen arrived following the Emily shipwreck in 1836; Andrea Repetto and Gaetano Lavarello survived the Italia shipwreck in 1892",
+"note": "The island government's history confirms Pieter Groen's arrival after the Emily shipwreck in 1836, while historical accounts of the Italia wreck identify the two Italian survivors who remained on the island; both events occurred after the founding settlement.",
+"sources": [
+{
+"title": "Tristan da Cunha A Growing Community 1817 - 1853",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1817-1853.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha",
+"publisher": "Camogli Maritime Museum",
+"url": "https://museomarinaro.it/en/tristan-da-cunha/",
+"type": "khac",
+"published": null
+},
+{
+"title": "The maritime museum of Camogli - Shipwreck of Italia",
+"publisher": "Camogli Maritime Museum",
+"url": "https://sealitproject.eu/sites/default/files/Camogli_Draft_Revised.pdf",
+"type": "khac",
+"published": null
+}
+]
+}
+]
+
+Bạn có thích tính cách này không?
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

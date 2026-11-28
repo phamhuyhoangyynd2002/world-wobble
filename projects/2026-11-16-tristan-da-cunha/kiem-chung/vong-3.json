@@ -1,0 +1,46 @@
+{
+  "vong": 3,
+  "model": "claude-opus-5-5 (phiên chính, đọc trang gốc qua WebFetch)",
+  "ngay": "2026-11-28",
+  "ket_qua": [
+    {
+      "id": "C38",
+      "statement": "In 1946 Allan Crawford helped draw up a set of stamp designs for Tristan da Cunha, with values in pence and potatoes, which were submitted with a petition for postage stamps; the petition was refused.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang chính quyền đảo: \"They came up with 9 designs\", \"face values in pence and potatoes\", \"submitted to the UK Postmaster General\", \"The petition for stamps however was refused\"; lời đã đổi thành Crawford giúp vẽ (tài liệu sưu tầm tem ghi thêm người vẽ kỹ thuật) và bỏ số mẫu (nguồn ghi 9 hoặc 10).",
+      "nguon": [
+        {
+          "title": "Stamp Issue: The Potato Essays - A Petition for Postage Stamps",
+          "publisher": "Tristan da Cunha Government",
+          "url": "https://www.tristandc.com/po/stamps201501.php",
+          "type": "goc",
+          "published": "2015-04-08"
+        },
+        {
+          "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+          "publisher": "Tristan da Cunha Government",
+          "url": "https://www.tristandc.com/assocallancrawford.php",
+          "type": "goc",
+          "published": null
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "Tristan da Cunha's Island Council sets a quota of one adult breeding cow per household, and the island government says cattle and sheep numbers are controlled to prevent overgrazing.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Farming của chính quyền đảo (rà lại 2019-03-16): \"Currently the quota is one adult breeding cow per household.\" và \"cattle and sheep are the main livestock, with numbers controlled to prevent overgrazing.\"; lời bỏ ý \"cắt từ hai xuống một\" vì không có nguồn gốc.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Farming",
+          "publisher": "Tristan da Cunha Government",
+          "url": "https://www.tristandc.com/economyfarming.php",
+          "type": "goc",
+          "published": "2019-03-16"
+        }
+      ]
+    }
+  ]
+}

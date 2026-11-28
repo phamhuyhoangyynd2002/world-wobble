@@ -1,0 +1,163 @@
+[
+ {
+  "id": "C33",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "The MSC directly supports the 30–40 days per year figure; the broader 18–72-day seasonal range requires separate confirmation and should not be treated as an equivalent annual estimate.",
+  "sources": [
+   {
+    "title": "World’s most remote inhabited archipelago becomes model of sustainability",
+    "publisher": "Marine Stewardship Council",
+    "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing",
+    "type": "goc",
+    "published": "2020-12-18"
+   }
+  ]
+ },
+ {
+  "id": "C34",
+  "verdict": "mau-thuan",
+  "correct_value": null,
+  "note": "A source describes a fishing gong but gives different ringing times by season (4:30 a.m. in summer and 6:30 a.m. in winter); the precise 5 a.m. time and the two-fisherman decision procedure were not independently confirmed.",
+  "sources": [
+   {
+    "title": "Sustainable fishing",
+    "publisher": "Atlantic Guardians",
+    "url": "https://atlanticguardians.org/explore/the-marine-protection-zone/sustainable-fishing/",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C36",
+  "verdict": "sai",
+  "correct_value": "One adult breeding cow per household, effective from the end of April 2019; no sheep quota was established in the cited farming page.",
+  "note": "The 2019 farming page confirms the cattle quota but does not establish a sheep-number cap; the Island Council reduced the cattle quota from two breeding cows to one because of overgrazing.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Farming",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/economyfarming.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Improving Tristan's cattle herd",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/news-2017-12-01-bulls.php",
+    "type": "goc",
+    "published": "2017-12-01"
+   },
+   {
+    "title": "Tristan da Cunha's Farm Animals",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps202408.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C37",
+  "verdict": "dung",
+  "correct_value": "1 January 1952",
+  "note": "The Tristan Government confirms that the first official stamps were overprinted St Helena definitives and that before 1952 islanders relied on visiting ships to carry mail.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Post Office",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/postoffice.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha - The 1954 Issue is Born",
+    "publisher": "The Journal of the West Africa Study Circle, Cameo",
+    "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+    "type": "khac",
+    "published": "2015-10-01"
+   },
+   {
+    "title": "Postmark puzzles probed",
+    "publisher": "The South African Philatelist",
+    "url": "https://stampssa.africa/wp-content/uploads/2023/04/SAP-Mar-1973.pdf",
+    "type": "khac",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C38",
+  "verdict": "sai",
+  "correct_value": "A set of 10 stamps, not nine, according to the Tristan Association's biographical account; the 2015 commemorative sheet reproduces nine designs.",
+  "note": "The official association biography says Crawford designed 10 stamps during his 1946–47 return, while the 2015 commemorative issue describes nine designs submitted with the petition.",
+  "sources": [
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "The 'Potato Essays' - A Petition for Postage Stamps",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps201501.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C39",
+  "verdict": "sai",
+  "correct_value": "The nine designs submitted with the 1946 petition were denominated in pence and potatoes; four potatoes equalled one old penny. The individual penguin design was the 1d/4-potato local stamp, not every design.",
+  "note": "The official account distinguishes the nine petition designs from the earlier potato stamp: the latter depicted a penguin and was valued at four potatoes, whereas the nine designs had different subjects and denominations.",
+  "sources": [
+   {
+    "title": "The 'Potato Essays' - A Petition for Postage Stamps",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps201501.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "60th and 50th Anniversaries of Decimalisation",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps202103.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Association",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C40",
+  "verdict": "dung",
+  "correct_value": "8 April 2015",
+  "note": "The Tristan Government's official stamp announcement confirms the issue date and identifies the commemorative sheetlet as reproducing nine designs from Crawford's 1946 petition.",
+  "sources": [
+   {
+    "title": "Stamp Issue: The 'Potato Essays'",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "The 'Potato Essays' - A Petition for Postage Stamps",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps201501.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ }
+]

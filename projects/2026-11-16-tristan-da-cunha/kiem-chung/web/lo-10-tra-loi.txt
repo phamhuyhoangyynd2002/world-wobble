@@ -1,0 +1,44 @@
+
+
+[
+{
+"id": "C35",
+"verdict": "dung",
+"correct_value": null,
+"note": "Tristan's official website confirms that each small powerboat carries two fishermen who haul lobster traps using a winch; the island-based fleet consists of 7–8 m motorboats.",
+"sources": [
+{
+"title": "Tristan da Cunha Fishing",
+"publisher": "Tristan da Cunha Government",
+"url": "https://tristandc.com/economyfishing.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan Lobster Fisheries",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/po/stamps201903.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Sustainable fishing",
+"publisher": "Atlantic Guardians",
+"url": "https://atlanticguardians.org/explore/the-marine-protection-zone/sustainable-fishing/",
+"type": "khac",
+"published": null
+}
+]
+}
+]
+
+Bạn đang dùng phiên bản ChatGPT miễn phí. Nâng cấp gói đăng ký để sử dụng các mô hình nâng cao, bộ nhớ tốt hơn và tạo ảnh chất lượng cao hơn.
+Dùng thử Plus miễn phí
+Bạn có thích tính cách này không?
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

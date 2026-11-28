@@ -1,0 +1,181 @@
+
+
+[
+{
+"id": "C01",
+"verdict": "dung",
+"correct_value": null,
+"note": "The eruption began in October 1961, prompting the evacuation of the entire community via Cape Town to Southampton, England; a secret ballot subsequently supported returning, although the actual return took place in November 1963.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha",
+"publisher": "UK Parliament, Hansard",
+"url": "https://hansard.parliament.uk/commons/1961-10-17/debates/c3c850a3-0ece-4398-9609-e66adff231f3/TristanDaCunha",
+"type": "goc",
+"published": "1961-10-17"
+},
+{
+"title": "The remote island that was evacuated to 10,000km away",
+"publisher": "BBC World Service",
+"url": "https://bbc.com.im/programmes/w3ct74qj",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C02",
+"verdict": "dung",
+"correct_value": null,
+"note": "Guinness World Records identifies Tristan da Cunha as the world's most remote inhabited island and gives the distance to the nearest inhabited land, St Helena, as 2,435 km.",
+"sources": [
+{
+"title": "Most remote inhabited island",
+"publisher": "Guinness World Records",
+"url": "https://www.guinnessworldrecords.com/world-records/66683-most-remote-inhabited-island",
+"type": "bach-khoa",
+"published": null
+}
+]
+},
+{
+"id": "C03",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official population update of 18 November 2026 confirms 220 resident islanders, including 18 overseas, and 40 additional people living on the island, giving 242 people when the overseas islanders are excluded.",
+"sources": [
+{
+"title": "Population Update",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/population.php",
+"type": "goc",
+"published": "2026-11-18"
+}
+]
+},
+{
+"id": "C04",
+"verdict": "dung",
+"correct_value": null,
+"note": "The secret ballot took place on 3 December 1962 at RAF Calshot, with 148 votes in favour of returning and five against.",
+"sources": [
+{
+"title": "HOME on a VOLCANO",
+"publisher": "New Zealand Listener",
+"url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19660204.2.4.1",
+"type": "bao",
+"published": "1966-02-04"
+},
+{
+"title": "They'd never seen a car or a TV: The people evacuated to the UK from the world's most remote inhabited island in 1961",
+"publisher": "BBC",
+"url": "https://bbc.com.im/culture/article/20261002-the-people-evacuated-to-the-uk-from-the-worlds-most-remote-inhabited-island-in-1961",
+"type": "bao",
+"published": "2026-10-02"
+},
+{
+"title": "Margaret Mackay: Angry Island, Part V, Chapter 7",
+"publisher": "University of Chicago Library",
+"url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5G%2A.html",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C05",
+"verdict": "dung",
+"correct_value": null,
+"note": "Official visitor information confirms that Tristan da Cunha has no airport and that scheduled access is exclusively by ship.",
+"sources": [
+{
+"title": "Visiting Tristan",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/visits.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+"publisher": "UK Government",
+"url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C06",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official Tristan da Cunha visitor information gives Cape Town as the departure point for scheduled ships and the distance as approximately 2,810 km (1,750 miles).",
+"sources": [
+{
+"title": "Tristan da Cunha Shipping Schedules",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/shipping.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Visiting Tristan",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/visits.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C07",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official shipping information states that the journey normally takes six days, while the 2026 schedule shows individual sailing times of approximately five to eight days.",
+"sources": [
+{
+"title": "Tristan da Cunha Shipping Schedules",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/shipping.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+"publisher": "UK Government",
+"url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C08",
+"verdict": "dung",
+"correct_value": null,
+"note": "The provisional 2026 official shipping schedule lists nine sailings: three by MFV Edinburgh, five by MV Lance and one by SA Agulhas II.",
+"sources": [
+{
+"title": "Tristan da Cunha Shipping Schedules",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/shipping.php",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

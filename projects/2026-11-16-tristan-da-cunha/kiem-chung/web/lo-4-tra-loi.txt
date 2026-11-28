@@ -1,0 +1,176 @@
+
+
+[
+{
+"id": "C25",
+"verdict": "dung",
+"correct_value": null,
+"note": "Tristan Government and ANSA confirm that Andrea Repetto and Gaetano Lavarello, both from Camogli, settled permanently on Tristan after the Italia caught fire and ran aground in 1892.",
+"sources": [
+{
+"title": "Celebration of the link between Tristan and Camogli",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/news-2024-05-23-camoglitdcevent.php",
+"type": "goc",
+"published": "2024-05-23"
+},
+{
+"title": "From Camogli to Tristan da Cunha, links between Italy and the islands of the South Atlantic",
+"publisher": "ANSA",
+"url": "https://www.ansa.it/amp/english/news/news_from_embassies/2026/01/28/from-camogli-to-tristan-da-cunha-links-between-italy-and-the-islands_b345d5c1-3426-4836-94c3-7176604fedc5.html",
+"type": "bao",
+"published": "2026-01-28"
+},
+{
+"title": "Camogli Draft Revised",
+"publisher": "SEALIT Project",
+"url": "https://sealitproject.eu/sites/default/files/Camogli_Draft_Revised.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C26",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Tristan Government explicitly identifies exactly seven surviving family surnames among present island residents: Glass, Swain, Green, Rogers, Hagan, Repetto and Lavarello.",
+"sources": [
+{
+"title": "Edinburgh of the Seven Seas",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/settlement.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C27",
+"verdict": "sai",
+"correct_value": "The Potato Patches are walled fields on Patches Plain, south of the Settlement; every island family owns and cultivates several patches.",
+"note": "The government confirms the stone-walled fields and family cultivation, but locates the Patches Plain south of the Settlement rather than west; the NPR description places the patches a few miles west.",
+"sources": [
+{
+"title": "Tristan da Cunha Patches Plain",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/patches.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha: The busiest place you've never seen",
+"publisher": "NPR",
+"url": "https://apps.npr.org/life-on-tristan-da-cunha/",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C28",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Tristan Government explicitly states that all land is communally owned and outsiders are not allowed to buy land or settle on the island.",
+"sources": [
+{
+"title": "Tristan da Cunha Economy",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economy.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C29",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Tristan Government explicitly confirms that potatoes are grown year after year on the same plots at the Patches without crop rotation.",
+"sources": [
+{
+"title": "Tristan da Cunha Farming",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economyfarming.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C30",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Tristan Government explicitly states that surplus potatoes are used for cattle feed.",
+"sources": [
+{
+"title": "Tristan da Cunha Farming",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economyfarming.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C31",
+"verdict": "dung",
+"correct_value": null,
+"note": "The UK Parliament describes the sustainable lobster fishery as the mainstay of the island's economy, while the Tristan Government confirms that its 2002 flag displays two Tristan spiny lobsters flanking the shield of the territorial arms.",
+"sources": [
+{
+"title": "House of Commons Hansard Written Answers for 25 Apr 2012",
+"publisher": "UK Parliament",
+"url": "https://publications.parliament.uk/pa/cm201212/cmhansrd/cm120425/text/120425w0003.htm",
+"type": "goc",
+"published": "2012-04-25"
+},
+{
+"title": "Tristan da Cunha Government",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/government.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Fishing",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economyfishing.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C32",
+"verdict": "dung",
+"correct_value": null,
+"note": "The MSC's 17 December 2020 article states that the lobster fishery contributes 80% of the territory's revenue; the Tristan Government identifies lobster-industry royalties as an important source of foreign earnings alongside stamp and coin sales, without specifying a percentage.",
+"sources": [
+{
+"title": "World's most remote inhabited archipelago becomes model of sustainability",
+"publisher": "Marine Stewardship Council",
+"url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing",
+"type": "khac",
+"published": "2020-12-17"
+},
+{
+"title": "Tristan da Cunha Economy",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/economy.php",
+"type": "goc",
+"published": null
+}
+]
+}
+]
+
+Bạn đang dùng phiên bản ChatGPT miễn phí. Nâng cấp gói đăng ký để sử dụng các mô hình nâng cao, bộ nhớ tốt hơn và tạo ảnh chất lượng cao hơn.
+Dùng thử Plus miễn phí
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

@@ -1,0 +1,117 @@
+{
+  "assets": {
+    "map-tristan": {
+      "file": "assets/ban-do/map-tristan.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "orthographic",
+      "center": [
+        -12.28,
+        -37.11
+      ],
+      "zoom": 1.6,
+      "anchor": [
+        1320,
+        560
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1320,
+          "y": 560,
+          "label": "Tristan da Cunha",
+          "lon": -12.28,
+          "lat": -37.11
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [],
+      "created": "2026-11-28"
+    },
+    "map-tristan-route": {
+      "file": "assets/ban-do/map-tristan-route.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        3,
+        -35
+      ],
+      "zoom": 4,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1289,
+          "y": 512,
+          "label": "Cape Town",
+          "lon": 18.42,
+          "lat": -33.92
+        },
+        {
+          "x": 634,
+          "y": 596,
+          "label": "Tristan da Cunha",
+          "lon": -12.28,
+          "lat": -37.11
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [],
+      "created": "2026-11-28"
+    },
+    "map-napoleon": {
+      "file": "assets/ban-do/map-napoleon.svg",
+      "kind": "ban-do",
+      "basis": "public-domain",
+      "license": "Natural Earth (public domain), bản theo quan điểm Việt Nam; vẽ bằng D3",
+      "author": "World Wobble (vẽ bằng code)",
+      "source_url": "https://www.naturalearthdata.com/",
+      "attribution": null,
+      "projection": "mercator",
+      "center": [
+        -9,
+        -26.5
+      ],
+      "zoom": 3.5,
+      "anchor": [
+        960,
+        540
+      ],
+      "highlight": [],
+      "marks": [
+        {
+          "x": 1021,
+          "y": 329,
+          "label": "St Helena",
+          "lon": -5.71,
+          "lat": -15.96
+        },
+        {
+          "x": 899,
+          "y": 774,
+          "label": "Tristan",
+          "lon": -12.28,
+          "lat": -37.11
+        }
+      ],
+      "vung_bien_dong": false,
+      "chu_quyen_da_kiem": null,
+      "scenes": [],
+      "created": "2026-11-28"
+    }
+  }
+}

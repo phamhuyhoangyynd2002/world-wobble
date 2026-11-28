@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Tristan da Cunha" (United Kingdom (overseas territory)). The episode asks: "Why do people live on Tristan da Cunha?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C57: A survey party of twelve Tristan islanders left England in August 1962 and reached Tristan da Cunha in early September 1962 to inspect the island.
+C58: In a secret ballot organised by the Colonial Office in December 1962, adult Tristan islanders in England voted 148 to 5 in favour of returning to Tristan da Cunha.
+C59: An advance party of 51 Tristan islanders, who left Tilbury in March 1963, arrived back on Tristan da Cunha on 9 April 1963.
+C60: The main group of 198 Tristan islanders, who sailed from Southampton on the Bornholm on 24 October 1963, arrived back on Tristan da Cunha on 10 November 1963.
+C61: Tristan da Cunha's Calshot Harbour opened in 1967 and is named after Calshot in Hampshire, England, where the evacuated islanders were housed in 1962–63.
+C62: Calshot Harbour on Tristan da Cunha has an entrance about 11 m (36 ft) wide, and weather conditions make it safe for boats to enter and leave on only about 70 days a year (roughly one day in five).
+C63: Tristan da Cunha's Camogli Healthcare Centre is normally staffed by two doctors; complex and serious cases are transferred to Cape Town, and expectant mothers travel to Cape Town to give birth.
+C64: On the night of 12–13 February 2008 Tristan da Cunha's fish factory burned down together with the island's electricity generators; full 24-hour power was restored on 14 March 2008, about a month later.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

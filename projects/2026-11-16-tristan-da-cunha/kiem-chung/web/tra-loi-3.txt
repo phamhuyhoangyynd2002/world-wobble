@@ -1,0 +1,230 @@
+
+
+[
+{
+"id": "C17",
+"verdict": "mau-thuan",
+"correct_value": "St Helena is the nearest inhabited place. The distance is reported as 2,173 km by NASA and 2,437 km by the Tristan da Cunha official website.",
+"note": "The nearest inhabited place is correctly identified as St Helena, but reliable sources give substantially different distances, so the figure of 2,437 km is not universally established.",
+"sources": [
+{
+"title": "Tristan da Cunha Edinburgh of the Seven Seas",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/settlement.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha, South Atlantic Ocean",
+"publisher": "NASA Earth Observatory",
+"url": "https://science.nasa.gov/earth/earth-observatory/tristan-da-cunha-south-atlantic-ocean-80456/",
+"type": "goc",
+"published": "2013-02-18"
+},
+{
+"title": "What to know about Tristan da Cunha, the island with a suspected hantavirus case",
+"publisher": "Reuters",
+"url": "https://www.reuters.com/world/what-know-about-tristan-da-cunha-island-with-suspected-hantavirus-case-2026-05-08/",
+"type": "bao",
+"published": "2026-05-08"
+}
+]
+},
+{
+"id": "C18",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official island history confirms both strategic concerns: preventing a possible French rescue attempt involving Napoleon on St Helena and preventing American ships from using Tristan as a base during the Anglo-American War of 1812–1814.",
+"sources": [
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Perilous shipwreck, misery and unhappiness: the British military at Tristan da Cunha, 1816–1817",
+"publisher": "Journal of Historical Geography, Elsevier",
+"url": "https://www.sciencedirect.com/science/article/pii/S0305748802904081/pdf?md5=7402bf76511a3c58ec48dc905c5ab8be&pid=1-s2.0-S0305748802904081-main.pdf",
+"type": "khac",
+"published": "2003-10-01"
+}
+]
+},
+{
+"id": "C19",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official island history confirms that a British garrison aboard HMS Falmouth took possession of Tristan da Cunha on 14 August 1816 on behalf of King George III.",
+"sources": [
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha celebrated 200 years of British Rule on 14th August 2016",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/newsanniversaryday.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "2026 Anniversary Day marked with King's Message",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/news-2026-08-17-anniversaryday2026.php",
+"type": "goc",
+"published": "2026-08-17"
+}
+]
+},
+{
+"id": "C20",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official history confirms that the Admiralty dismissed the island's strategic importance and that the remaining garrison was withdrawn aboard HMS Euridice in November 1817.",
+"sources": [
+{
+"title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1506-1817.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Records",
+"publisher": "British Museum Quarterly",
+"url": "https://penelope.uchicago.edu/Thayer/E/Journals/BrMusQ/9/4/Tristan_da_Cunha_Records%2A.html",
+"type": "khac",
+"published": null
+},
+{
+"title": "Perilous shipwreck, misery and unhappiness: the British military at Tristan da Cunha, 1816–1817",
+"publisher": "Journal of Historical Geography, Elsevier",
+"url": "https://www.sciencedirect.com/science/article/pii/S0305748802904081/pdf?md5=7402bf76511a3c58ec48dc905c5ab8be&pid=1-s2.0-S0305748802904081-main.pdf",
+"type": "khac",
+"published": "2003-10-01"
+}
+]
+},
+{
+"id": "C21",
+"verdict": "dung",
+"correct_value": null,
+"note": "Historical records confirm that Corporal William Glass, a Scot serving in the Royal Artillery, received permission to remain with his wife Maria and two children when the garrison was withdrawn; two other men also remained.",
+"sources": [
+{
+"title": "Tristan da Cunha Records",
+"publisher": "British Museum Quarterly",
+"url": "https://penelope.uchicago.edu/Thayer/E/Journals/BrMusQ/9/4/Tristan_da_Cunha_Records%2A.html",
+"type": "khac",
+"published": null
+},
+{
+"title": "Add MS 43846 - Documents relating to the early history of the British settlement on the island",
+"publisher": "British Library Archives and Manuscripts Catalogue",
+"url": "https://searcharchives.bl.uk/catalog/032-002056989",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha A Growing Community 1817 - 1853",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1817-1853.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C22",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official island history confirms that William Glass and the two stonemasons established a communal arrangement called 'the firm', with equal shares of stock and stores, equally divided profits and no member superior to another, formalised in an agreement signed on 7 November 1817.",
+"sources": [
+{
+"title": "Tristan da Cunha A Growing Community 1817 - 1853",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1817-1853.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Add MS 43846 - Documents relating to the early history of the British settlement on the island",
+"publisher": "British Library Archives and Manuscripts Catalogue",
+"url": "https://searcharchives.bl.uk/catalog/032-002056989",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C23",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official island history confirms all four settlers and their stated arrival years: Thomas Swain in 1826, Pieter Groen in 1836 after the Emily shipwreck, Thomas Rogers in 1836 and Captain Andrew Hagan in 1849.",
+"sources": [
+{
+"title": "Tristan da Cunha A Growing Community 1817 - 1853",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/history1817-1853.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Edinburgh of the Seven Seas",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/settlement.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "prelims",
+"publisher": "The People's Book Prize",
+"url": "https://www.archive.peoplesbookprize.com/Extracts/i670.extract.pdf",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C24",
+"verdict": "dung",
+"correct_value": null,
+"note": "The official population history records five women and accompanying children arriving from St Helena aboard the Duke of Gloucester on 12 April 1827; contemporary historical accounts identify Captain Amm as responsible for bringing them.",
+"sources": [
+{
+"title": "Tristan da Cunha Families: Tristan da Cunha's Population History",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/community/population-history.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The Utmost Parts of the Earth",
+"publisher": "William F. Taylor, Anglican History",
+"url": "https://anglicanhistory.org/africa/taylor_tristan1856.html",
+"type": "khac",
+"published": "1856-01-01"
+},
+{
+"title": "Angry Island, Part II, Chapter 5",
+"publisher": "Margaret Mackay",
+"url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/2E%2A.html",
+"type": "khac",
+"published": null
+}
+]
+}
+]
+
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

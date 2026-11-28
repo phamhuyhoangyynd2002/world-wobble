@@ -1,0 +1,1822 @@
+{
+  "vong": 2,
+  "model": "Gemini web (ChatGPT web)",
+  "nguon": "gemini-web",
+  "ngay": "2026-11-28",
+  "lo_da_nhan": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "In October 1961 a volcanic eruption next to the Settlement forced the entire population of Tristan da Cunha to evacuate; the islanders were taken via Cape Town to England, and in a secret ballot in December 1962 they voted to return.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The eruption began in October 1961, prompting the evacuation of the entire community via Cape Town to Southampton, England; a secret ballot subsequently supported returning, although the actual return took place in November 1963.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha",
+          "url": "https://hansard.parliament.uk/commons/1961-10-17/debates/c3c850a3-0ece-4398-9609-e66adff231f3/TristanDaCunha",
+          "publisher": "UK Parliament, Hansard",
+          "type": "goc",
+          "published": "1961-10-17",
+          "url_song": true
+        },
+        {
+          "title": "The remote island that was evacuated to 10,000km away",
+          "url": "https://bbc.com.im/programmes/w3ct74qj",
+          "publisher": "BBC World Service",
+          "type": "bao",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "Guinness World Records lists Tristan da Cunha as the most remote inhabited island, measured by its distance (about 2,435 km) to the nearest inhabited land, St Helena.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness World Records identifies Tristan da Cunha as the world's most remote inhabited island and gives the distance to the nearest inhabited land, St Helena, as 2,435 km.",
+      "nguon": [
+        {
+          "title": "Most remote inhabited island",
+          "url": "https://www.guinnessworldrecords.com/world-records/66683-most-remote-inhabited-island",
+          "publisher": "Guinness World Records",
+          "type": "bach-khoa",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "According to the Tristan da Cunha Government's population update of 18 November 2026, there were 220 islanders (18 of them temporarily overseas), plus 40 non-islanders, giving 242 people on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official population update of 18 November 2026 confirms 220 resident islanders, including 18 overseas, and 40 additional people living on the island, giving 242 people when the overseas islanders are excluded.",
+      "nguon": [
+        {
+          "title": "Population Update",
+          "url": "https://www.tristandc.com/population.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": "2026-11-18",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "In the secret ballot held in December 1962 among adult Tristan islanders living in England, 148 voted to return to Tristan da Cunha and 5 voted against.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The secret ballot took place on 3 December 1962 at RAF Calshot, with 148 votes in favour of returning and five against.",
+      "nguon": [
+        {
+          "title": "HOME on a VOLCANO",
+          "url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19660204.2.4.1",
+          "publisher": "New Zealand Listener",
+          "type": "bao",
+          "published": "1966-02-04",
+          "url_song": true
+        },
+        {
+          "title": "They'd never seen a car or a TV: The people evacuated to the UK from the world's most remote inhabited island in 1961",
+          "url": "https://bbc.com.im/culture/article/20261002-the-people-evacuated-to-the-uk-from-the-worlds-most-remote-inhabited-island-in-1961",
+          "publisher": "BBC",
+          "type": "bao",
+          "published": "2026-10-02",
+          "url_song": null
+        },
+        {
+          "title": "Margaret Mackay: Angry Island, Part V, Chapter 7",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5G%2A.html",
+          "publisher": "University of Chicago Library",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "Tristan da Cunha has no airstrip or airport; the island can only be reached by sea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official visitor information confirms that Tristan da Cunha has no airport and that scheduled access is exclusively by ship.",
+      "nguon": [
+        {
+          "title": "Visiting Tristan",
+          "url": "https://www.tristandc.com/visits.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+          "publisher": "UK Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "Ships to Tristan da Cunha usually sail from Cape Town, South Africa, which is about 2,810 km (1,750 miles) from the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Tristan da Cunha visitor information gives Cape Town as the departure point for scheduled ships and the distance as approximately 2,810 km (1,750 miles).",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Shipping Schedules",
+          "url": "https://www.tristandc.com/shipping.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Visiting Tristan",
+          "url": "https://www.tristandc.com/visits.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "The sea voyage from Cape Town to Tristan da Cunha usually takes about six days (five to eight days depending on the ship, per the 2026 schedule).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official shipping information states that the journey normally takes six days, while the 2026 schedule shows individual sailing times of approximately five to eight days.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Shipping Schedules",
+          "url": "https://www.tristandc.com/shipping.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+          "publisher": "UK Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "statement": "The Tristan da Cunha Government's 2026 shipping schedule lists nine sailings from Cape Town to Tristan (three by MFV Edinburgh, five by MV Lance and one by SA Agulhas II).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The provisional 2026 official shipping schedule lists nine sailings: three by MFV Edinburgh, five by MV Lance and one by SA Agulhas II.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Shipping Schedules",
+          "url": "https://www.tristandc.com/shipping.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "Large ships cannot berth at Tristan da Cunha's small harbour; they anchor offshore and passengers and cargo are transferred ashore by small boat.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The UK government confirms that large vessels anchor offshore because the harbour cannot accommodate them, with passengers transferred to the island by smaller boats.",
+      "nguon": [
+        {
+          "title": "Safety and security - St Helena, Ascension and Tristan da Cunha travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/safety-and-security",
+          "publisher": "GOV.UK",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Information for Visiting Ships and Yachts",
+          "url": "https://www.tristandc.com/visitsships.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "Tristan da Cunha is a single volcanic island; its summit, Queen Mary's Peak, rises to just over 2,000 m (about 2,060 m, roughly 6,760 ft) and is often capped by cloud.",
+      "verdict": "dung",
+      "gia_tri_dung": "Queen Mary's Peak: 2,060 m (6,760 ft)",
+      "ghi_chu": "NASA and the British Geological Survey confirm the summit elevation; the island is volcanic and its summit is frequently obscured by clouds.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha, South Atlantic Ocean",
+          "url": "https://science.nasa.gov/earth/earth-observatory/tristan-da-cunha-south-atlantic-ocean-80456/",
+          "publisher": "NASA Earth Observatory",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Volcanism on Tristan da Cunha",
+          "url": "https://www.bgs.ac.uk/geology-projects/volcanoes/volcanism-on-tristan-da-cunha/",
+          "publisher": "British Geological Survey",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "Tristan da Cunha's only settlement lies on a narrow coastal plain at the foot of the volcano, on the island's north-west side.",
+      "verdict": "dung",
+      "gia_tri_dung": "The north-western coastal area of the main island",
+      "ghi_chu": "CTBTO confirms that the only relatively flat area is around the capital on the north-western coast, although the settlement occupies gently sloping land rather than an entirely flat plain.",
+      "nguon": [
+        {
+          "title": "HA09, Tristan da Cunha, United Kingdom",
+          "url": "https://www.ctbto.org/our-work/station-profiles/ha09-tristan-da-cunha-united-kingdom",
+          "publisher": "Comprehensive Nuclear-Test-Ban Treaty Organization",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Edinburgh of the Seven Seas",
+          "url": "https://www.tristandc.com/settlement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "The settlement's official name, Edinburgh of the Seven Seas, comes from the 1867 visit of Prince Alfred, Duke of Edinburgh (Queen Victoria's second son), aboard HMS Galatea.",
+      "verdict": "dung",
+      "gia_tri_dung": "Edinburgh of the Seven Seas, named after Prince Alfred's visit on 5 August 1867",
+      "ghi_chu": "The Tristan da Cunha Government confirms that Prince Alfred, Queen Victoria's second son, visited aboard HMS Galatea in 1867 and that the settlement was named in his honour.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Tribute to HRH Prince Philip Duke of Edinburgh",
+          "url": "https://www.tristandc.com/news-2021-04-09-hrhprincephilip.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Anniversary Day",
+          "url": "https://www.tristandc.com/newsanniversaryday.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Prince Alfred and the train to nowhere",
+          "url": "https://www.slq.qld.gov.au/blog/prince-alfred-and-train-nowhere",
+          "publisher": "State Library of Queensland",
+          "type": "khac",
+          "published": "2018-02-26",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "Tristan islanders do not normally use the name Edinburgh of the Seven Seas; they call the village 'the Settlement'.",
+      "verdict": "dung",
+      "gia_tri_dung": "The Settlement",
+      "ghi_chu": "The island's official website explicitly states that the village is locally always referred to as 'The Settlement'.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Edinburgh of the Seven Seas",
+          "url": "https://www.tristandc.com/settlement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "Tristan da Cunha was sighted in 1506 by the Portuguese commander Tristão da Cunha on a voyage towards the Cape of Good Hope, and the island is named after him.",
+      "verdict": "dung",
+      "gia_tri_dung": "1506",
+      "ghi_chu": "The island government and historical research identify Tristão da Cunha as the Portuguese discoverer in 1506 while travelling towards the Cape of Good Hope; he gave the island his name.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Man and Nature in the Tristan da Cunha Islands",
+          "url": "https://portals.iucn.org/library/efiles/documents/mono-006.pdf",
+          "publisher": "IUCN",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Early History of Tristan da Cunha",
+          "url": "https://www.tristan.it/TRISTAN/tristanlibri/tristan_annals.pdf",
+          "publisher": "Tristan da Cunha historical archive",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "Tristão da Cunha did not settle the island; the first recorded landing on Tristan da Cunha was made by the crew of the Dutch ship Heemstede in 1643.",
+      "verdict": "dung",
+      "gia_tri_dung": "First recorded landing: February 1643, by the Dutch vessel Heemstede",
+      "ghi_chu": "Historical records identify the Heemstede crew's landing in February 1643 as the first documented landing; Tristão da Cunha did not land during his discovery voyage.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Early History of Tristan da Cunha",
+          "url": "https://www.tristan.it/TRISTAN/tristanlibri/tristan_annals.pdf",
+          "publisher": "Tristan da Cunha historical archive",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Islands",
+          "url": "https://www.atlasofmutualheritage.nl/page/10317/tristan-da-cunha-islands",
+          "publisher": "Atlas of Mutual Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "Shipwrecks later brought settlers to Tristan da Cunha, for example Pieter Groen from the wrecked Emily in 1836 and two Italian sailors from the Italia in 1892, decades after the island was first settled in 1816–1817.",
+      "verdict": "dung",
+      "gia_tri_dung": "Permanent British settlement: 1816–1817; Pieter Groen arrived following the Emily shipwreck in 1836; Andrea Repetto and Gaetano Lavarello survived the Italia shipwreck in 1892",
+      "ghi_chu": "The island government's history confirms Pieter Groen's arrival after the Emily shipwreck in 1836, while historical accounts of the Italia wreck identify the two Italian survivors who remained on the island; both events occurred after the founding settlement.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha A Growing Community 1817 - 1853",
+          "url": "https://www.tristandc.com/history1817-1853.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha",
+          "url": "https://museomarinaro.it/en/tristan-da-cunha/",
+          "publisher": "Camogli Maritime Museum",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The maritime museum of Camogli - Shipwreck of Italia",
+          "url": "https://sealitproject.eu/sites/default/files/Camogli_Draft_Revised.pdf",
+          "publisher": "Camogli Maritime Museum",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "After his final defeat, Napoleon was held in exile by Britain on St Helena, the nearest inhabited place to Tristan da Cunha, more than 2,000 km to the north.",
+      "verdict": "dung",
+      "gia_tri_dung": "Approximately 2,437 km north of Tristan da Cunha",
+      "ghi_chu": "The UN confirms Napoleon's exile on St Helena from 1815 to 1821, while official island information identifies St Helena as the nearest inhabited community, approximately 2,437 km north of Tristan.",
+      "nguon": [
+        {
+          "title": "A/AC.109/2011/7",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=A%2FAC.109%2F2011%2F7&t=pdf",
+          "publisher": "United Nations",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Visiting Tristan",
+          "url": "https://www.tristandc.com/visits.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "Britain took Tristan da Cunha in 1816 because it feared France could use the island as a base for an attempt to rescue Napoleon from St Helena, and to stop American ships using it as a base as they had during the War of 1812.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island history confirms both strategic concerns: preventing a possible French rescue attempt involving Napoleon on St Helena and preventing American ships from using Tristan as a base during the Anglo-American War of 1812–1814.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Perilous shipwreck, misery and unhappiness: the British military at Tristan da Cunha, 1816–1817",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0305748802904081/pdf?md5=7402bf76511a3c58ec48dc905c5ab8be&pid=1-s2.0-S0305748802904081-main.pdf",
+          "publisher": "Journal of Historical Geography, Elsevier",
+          "type": "khac",
+          "published": "2003-10-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "On 14 August 1816 a British garrison landed from HMS Falmouth and formally took possession of Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island history confirms that a British garrison aboard HMS Falmouth took possession of Tristan da Cunha on 14 August 1816 on behalf of King George III.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha celebrated 200 years of British Rule on 14th August 2016",
+          "url": "https://www.tristandc.com/newsanniversaryday.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "2026 Anniversary Day marked with King's Message",
+          "url": "https://www.tristandc.com/news-2026-08-17-anniversaryday2026.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": "2026-08-17",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "The British garrison was withdrawn from Tristan da Cunha in November 1817, aboard HMS Euridice, because the Admiralty judged the island of little strategic value.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official history confirms that the Admiralty dismissed the island's strategic importance and that the remaining garrison was withdrawn aboard HMS Euridice in November 1817.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Discovery & Settlement 1506 - 1817",
+          "url": "https://www.tristandc.com/history1506-1817.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Records",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Journals/BrMusQ/9/4/Tristan_da_Cunha_Records%2A.html",
+          "publisher": "British Museum Quarterly",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Perilous shipwreck, misery and unhappiness: the British military at Tristan da Cunha, 1816–1817",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0305748802904081/pdf?md5=7402bf76511a3c58ec48dc905c5ab8be&pid=1-s2.0-S0305748802904081-main.pdf",
+          "publisher": "Journal of Historical Geography, Elsevier",
+          "type": "khac",
+          "published": "2003-10-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "When the garrison left Tristan da Cunha in 1817, Corporal William Glass, a Scot, was given permission to remain on the island with his wife and children.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Historical records confirm that Corporal William Glass, a Scot serving in the Royal Artillery, received permission to remain with his wife Maria and two children when the garrison was withdrawn; two other men also remained.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Records",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Journals/BrMusQ/9/4/Tristan_da_Cunha_Records%2A.html",
+          "publisher": "British Museum Quarterly",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Add MS 43846 - Documents relating to the early history of the British settlement on the island",
+          "url": "https://searcharchives.bl.uk/catalog/032-002056989",
+          "publisher": "British Library Archives and Manuscripts Catalogue",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha A Growing Community 1817 - 1853",
+          "url": "https://www.tristandc.com/history1817-1853.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "On 7 November 1817 William Glass and two stonemasons signed an agreement to live as a community, sharing stock, stores and profits equally, with no member claiming superiority over the others.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island history confirms that William Glass and the two stonemasons established a communal arrangement called 'the firm', with equal shares of stock and stores, equally divided profits and no member superior to another, formalised in an agreement signed on 7 November 1817.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha A Growing Community 1817 - 1853",
+          "url": "https://www.tristandc.com/history1817-1853.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Add MS 43846 - Documents relating to the early history of the British settlement on the island",
+          "url": "https://searcharchives.bl.uk/catalog/032-002056989",
+          "publisher": "British Library Archives and Manuscripts Catalogue",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "Later settlers on Tristan da Cunha included Thomas Swain, a sailor from Hastings (1826); Pieter Groen from Katwijk in the Netherlands, shipwrecked on the Emily (1836); Thomas Rogers, an American whaler (1836); and Andrew Hagan, an American whaling captain (1849).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island history confirms all four settlers and their stated arrival years: Thomas Swain in 1826, Pieter Groen in 1836 after the Emily shipwreck, Thomas Rogers in 1836 and Captain Andrew Hagan in 1849.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha A Growing Community 1817 - 1853",
+          "url": "https://www.tristandc.com/history1817-1853.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Edinburgh of the Seven Seas",
+          "url": "https://www.tristandc.com/settlement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "prelims",
+          "url": "https://www.archive.peoplesbookprize.com/Extracts/i670.extract.pdf",
+          "publisher": "The People's Book Prize",
+          "type": "khac",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "In 1827 Captain Simon Amm of the Duke of Gloucester brought five women from St Helena to Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official population history records five women and accompanying children arriving from St Helena aboard the Duke of Gloucester on 12 April 1827; contemporary historical accounts identify Captain Amm as responsible for bringing them.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Families: Tristan da Cunha's Population History",
+          "url": "https://www.tristandc.com/community/population-history.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Utmost Parts of the Earth",
+          "url": "https://anglicanhistory.org/africa/taylor_tristan1856.html",
+          "publisher": "William F. Taylor, Anglican History",
+          "type": "khac",
+          "published": "1856-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Angry Island, Part II, Chapter 5",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/2E%2A.html",
+          "publisher": "Margaret Mackay",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "In 1892 two Italian sailors from Camogli, Andrea Repetto and Gaetano Lavarello, came ashore after their ship, the Italia, caught fire and ran aground at Tristan da Cunha, and they settled on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tristan Government and ANSA confirm that Andrea Repetto and Gaetano Lavarello, both from Camogli, settled permanently on Tristan after the Italia caught fire and ran aground in 1892.",
+      "nguon": [
+        {
+          "title": "Celebration of the link between Tristan and Camogli",
+          "url": "https://www.tristandc.com/news-2024-05-23-camoglitdcevent.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": "2024-05-23",
+          "url_song": true
+        },
+        {
+          "title": "From Camogli to Tristan da Cunha, links between Italy and the islands of the South Atlantic",
+          "url": "https://www.ansa.it/amp/english/news/news_from_embassies/2026/01/28/from-camogli-to-tristan-da-cunha-links-between-italy-and-the-islands_b345d5c1-3426-4836-94c3-7176604fedc5.html",
+          "publisher": "ANSA",
+          "type": "bao",
+          "published": "2026-01-28",
+          "url_song": true
+        },
+        {
+          "title": "Camogli Draft Revised",
+          "url": "https://sealitproject.eu/sites/default/files/Camogli_Draft_Revised.pdf",
+          "publisher": "SEALIT Project",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "Nearly all Tristan da Cunha islanders today carry one of seven traditional surnames: Glass, Swain, Green, Rogers, Hagan, Repetto and Lavarello.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The island's official website identifies exactly these seven surviving family surnames among resident islanders, although expatriates also live there.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Edinburgh of the Seven Seas",
+          "url": "https://www.tristandc.com/settlement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "The Potato Patches on Tristan da Cunha are walled fields a few kilometres from the Settlement, where every island family farms at least part time.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island website confirms that the Potato Patches are rectilinear walled fields and every island family owns and cultivates several patches.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Patches Plain",
+          "url": "https://www.tristandc.com/patches.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "All land on Tristan da Cunha is held in common, and outsiders are not permitted to buy land on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Tristan Government explicitly states that all land is communally owned and outsiders are not allowed to buy land or settle on the island.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "Potatoes on Tristan da Cunha are grown in the same walled plots at the Potato Patches year after year, without crop rotation.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Tristan Government explicitly confirms that potatoes are grown year after year on the same plots at the Patches without crop rotation.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Farming",
+          "url": "https://www.tristandc.com/economyfarming.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "On Tristan da Cunha, surplus potatoes are fed to cattle.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Tristan Government explicitly states that surplus potatoes are used for cattle feed.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Farming",
+          "url": "https://www.tristandc.com/economyfarming.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "The Tristan rock lobster fishery is the foundation of Tristan da Cunha's economy, and the island's coat of arms (granted in 2002) is supported by two Tristan rock lobsters.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The UK Parliament describes the sustainable lobster fishery as the mainstay of the island's economy, while the Tristan Government confirms that its 2002 flag displays two Tristan spiny lobsters flanking the shield of the territorial arms.",
+      "nguon": [
+        {
+          "title": "House of Commons Hansard Written Answers for 25 Apr 2012",
+          "url": "https://publications.parliament.uk/pa/cm201212/cmhansrd/cm120425/text/120425w0003.htm",
+          "publisher": "UK Parliament",
+          "type": "goc",
+          "published": "2012-04-25",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Government",
+          "url": "https://www.tristandc.com/government.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Fishing",
+          "url": "https://www.tristandc.com/economyfishing.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "According to the Marine Stewardship Council (2020), the Tristan rock lobster fishery provides about 80% of the territory's revenue; the Tristan Government describes lobster royalties as its main source of foreign income without giving a percentage.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The MSC's 17 December 2020 article states that the lobster fishery contributes 80% of the territory's revenue; the Tristan Government identifies lobster-industry royalties as an important source of foreign earnings alongside stamp and coin sales, without specifying a percentage.",
+      "nguon": [
+        {
+          "title": "World's most remote inhabited archipelago becomes model of sustainability",
+          "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing",
+          "publisher": "Marine Stewardship Council",
+          "type": "khac",
+          "published": "2020-12-17",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "statement": "Tristan da Cunha's small lobster boats can only fish on days when weather and sea allow; sources give different figures, from about 30–40 days a year (MSC, 2020) to 18–72 days a season (BBC, 2025).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The MSC directly supports the 30–40 days per year figure; the broader 18–72-day seasonal range requires separate confirmation and should not be treated as an equivalent annual estimate.",
+      "nguon": [
+        {
+          "title": "World’s most remote inhabited archipelago becomes model of sustainability",
+          "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing",
+          "publisher": "Marine Stewardship Council",
+          "type": "goc",
+          "published": "2020-12-18",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "On Tristan da Cunha, fishing days are announced early in the morning, when the weather is judged suitable, by striking an old oxygen bottle with a hammer (the 'fishing gong').",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "BBC reporting confirms the early-morning hammering of an old oxygen gas cylinder, while Atlantic Guardians confirms that the gong announces fishing days.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha: The lobsters keeping Earth's remotest town afloat",
+          "url": "https://bbc.com.im/future/article/20250915-tristan-da-cunha-the-lobsters-keeping-earths-remotest-town-afloat",
+          "publisher": "BBC",
+          "type": "bao",
+          "published": "2025-09-16",
+          "url_song": null
+        },
+        {
+          "title": "Sustainable fishing - Atlantic Guardians",
+          "url": "https://atlanticguardians.org/explore/the-marine-protection-zone/sustainable-fishing/",
+          "publisher": "Atlantic Guardians",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Tristan da Cunha's lobster fishery uses small motorboats crewed by two fishermen each, who haul their traps using a winch.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tristan's official website confirms that each small powerboat carries two fishermen who haul lobster traps using a winch; the island-based fleet consists of 7–8 m motorboats.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Fishing",
+          "url": "https://tristandc.com/economyfishing.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan Lobster Fisheries",
+          "url": "https://www.tristandc.com/po/stamps201903.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Sustainable fishing",
+          "url": "https://atlanticguardians.org/explore/the-marine-protection-zone/sustainable-fishing/",
+          "publisher": "Atlantic Guardians",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "Tristan da Cunha's Island Council limits each household to one adult breeding cow, a limit set to prevent overgrazing.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Tristan da Cunha website confirms the Island Council sets a quota of one adult breeding cow per household, but does not establish that preventing overgrazing is the reason for the limit.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Farming",
+          "url": "https://www.tristandc.com/economyfarming.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "statement": "Tristan da Cunha had no postage stamps until 1 January 1952, when St Helena stamps overprinted 'TRISTAN DA CUNHA' were issued; before that, mail was carried by passing ships.",
+      "verdict": "dung",
+      "gia_tri_dung": "1 January 1952",
+      "ghi_chu": "The Tristan Government confirms that the first official stamps were overprinted St Helena definitives and that before 1952 islanders relied on visiting ships to carry mail.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Post Office",
+          "url": "https://www.tristandc.com/postoffice.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha - The 1954 Issue is Born",
+          "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+          "publisher": "The Journal of the West Africa Study Circle, Cameo",
+          "type": "khac",
+          "published": "2015-10-01",
+          "url_song": true
+        },
+        {
+          "title": "Postmark puzzles probed",
+          "url": "https://stampssa.africa/wp-content/uploads/2023/04/SAP-Mar-1973.pdf",
+          "publisher": "The South African Philatelist",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "statement": "In 1946 Allan Crawford drew a set of stamp designs for Tristan da Cunha, with values in pence and potatoes, and submitted them with a petition for postage stamps, which was refused.",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": null,
+      "ghi_chu": "The 1946 petition, potato-and-pence denominations, and its rejection are confirmed by official sources, but authorship of the drawings is not entirely consistent: the Tristan da Cunha government credits Allan Crawford with designing the stamps, while philatelic accounts also credit draughtsman Jimmy Brown with drawing some designs.",
+      "nguon": [
+        {
+          "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+          "url": "https://www.tristandc.com/assocallancrawford.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Stamp Issue: The 'Potato Essays' – A Petition for Postage Stamps",
+          "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": "2015-04-08",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha – The 1954 Issue is Born",
+          "url": "https://wasc.org.uk/Cameo%20digital/Cameo%2096%20complete.pdf",
+          "publisher": "Cameo, West Africa Study Circle",
+          "type": "khac",
+          "published": "2015-10-01",
+          "url_song": true
+        },
+        {
+          "title": "TRISTAN TOPICS",
+          "url": "https://stampssa.africa/wp-content/uploads/2024/10/Volume-58.-No-10.-October-1982.pdf",
+          "publisher": "The South African Philatelist",
+          "type": "khac",
+          "published": "1982-10-01",
+          "url_song": true
+        },
+        {
+          "title": "The 'Potato Essays' – A Petition for Postage Stamps",
+          "url": "https://westfieldstampclub.org/wp-content/uploads/2024/04/WSC_News_2020-09.pdf",
+          "publisher": "Westfield Stamp Club",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "In 1946 Allan Crawford had local penny stamp sheets printed for Tristan da Cunha; each stamp showed a penguin and its value was four potatoes (four potatoes equalling one old penny).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Historical philatelic sources confirm Crawford's 1946 penguin design, printing of the one-penny potato stamp, and its value of four potatoes; these were promotional local labels rather than officially issued postage stamps.",
+      "nguon": [
+        {
+          "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+          "url": "https://www.tristandc.com/assocallancrawford.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Origin of the Tristan da Cunha 'Potatoes' Stamp",
+          "url": "https://stampssa.africa/wp-content/uploads/2024/10/Volume-58.-No-10.-October-1982.pdf",
+          "publisher": "The SA Philatelist",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "60th and 50th Anniversaries of Decimalisation",
+          "url": "https://www.tristandc.com/po/stamps202103.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "statement": "In 2015 Tristan da Cunha issued a stamp sheetlet reproducing the nine designs Allan Crawford submitted with his 1946 petition.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official 8 April 2015 issue description confirms a sheetlet reproducing the nine designs submitted with Crawford's 1946 petition, alongside an additional historical stamp.",
+      "nguon": [
+        {
+          "title": "Stamp Issue: The 'Potato Essays'",
+          "url": "https://www.tristandc.com/po/ponews-2015-04-08.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": "2015-04-08",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "statement": "Sales of Tristan da Cunha stamps and coins to collectors are a source of foreign income for the island's government today.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Official economic information identifies stamp and coin sales to international collectors as foreign earnings, while a United Nations report confirms that these sales fund government services.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "A/AC.109/2010/8",
+          "url": "https://digitallibrary.un.org/record/678860/files/A_AC.109_2010_8-EN.pdf",
+          "publisher": "United Nations",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Coins",
+          "url": "https://www.tristandc.com/coins.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C43",
+      "statement": "Mail to and from Tristan da Cunha is routed via Cape Town and carried by the ships that sail between Cape Town and the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The UK Parliament confirms routing through Cape Town and carriage by contracted South African vessels; current shipping information confirms that ships normally carry mail.",
+      "nguon": [
+        {
+          "title": "Tristan Da Cunha: Post And Supplies",
+          "url": "https://hansard.parliament.uk/Lords/2004-05-12/debates/1bf54822-a246-4284-8b11-e629a258b7b9/TristanDaCunhaPostAndSupplies",
+          "publisher": "UK Parliament",
+          "type": "goc",
+          "published": "2004-05-12",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Shipping Schedules",
+          "url": "https://www.tristandc.com/shipping.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Shipping Policy",
+          "url": "https://shop.tristand.com/policies/shipping-policy",
+          "publisher": "Tristan da Cunha Post Office and Tourism Department",
+          "type": "goc",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "statement": "The 1961 eruption on Tristan da Cunha formed a new volcanic cone and lava flow immediately east of the Settlement, only a few hundred feet from the village.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official history places the new volcanic cone between the Settlement and the canning factory, and contemporary geological research documents the nearby eruption and lava flow.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The 1961 eruption",
+          "url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+          "publisher": "Mitchell and Thomé",
+          "type": "khac",
+          "published": "1970-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C45",
+      "statement": "Earth tremors were felt on Tristan da Cunha from August 1961, in the weeks before the October 1961 eruption.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official island history records earthquakes and landslides during August and September 1961, preceding the October eruption.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The 1961 eruption",
+          "url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+          "publisher": "Mitchell and Thomé",
+          "type": "khac",
+          "published": "1970-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C46",
+      "statement": "On 8 October 1961 an earthquake and landslide hit the east of the Settlement; the next morning a fissure opened between the Settlement and the canning factory and the ground rose, and the islanders and expatriates were evacuated to huts at the Potato Patches for that night.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The island's official website confirms the 8 October earthquake and landslide, the fissure and ground uplift the following morning, and the overnight evacuation of 264 islanders and 31 expatriates to the Potato Patches.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Earth Science News: Disaster Management Planning",
+          "url": "https://www.tristandc.com/earthdisastermanagement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C47",
+      "statement": "On 9 October 1961 a fissure opened between the Settlement and the fish cannery and the ground bulged; on 10 October it developed into a new volcanic cone and the island was evacuated.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official chronology confirms that the fissure opened on 9 October, the rising ground developed into a volcanic cone by 10 October, and the island was evacuated.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The 1961 eruption",
+          "url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+          "publisher": "Mitchell and Thomé",
+          "type": "khac",
+          "published": "1970-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C48",
+      "statement": "On 10 October 1961 the fishing vessels Tristania and Frances Repetto took the evacuated population of Tristan da Cunha to Nightingale Island, where they spent the night.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official historical account confirms that Tristania and Frances Repetto transported the evacuated population to Nightingale Island on 10 October for overnight shelter.",
+      "nguon": [
+        {
+          "title": "60th Anniversary of Tristan's 1961 Volcano, Part 1",
+          "url": "https://www.tristandc.com/po/stamps202109.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Earth Science News: Disaster Management Planning",
+          "url": "https://www.tristandc.com/earthdisastermanagement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C49",
+      "statement": "On 11 October 1961 the Dutch liner Tjisadane picked up the evacuated Tristan islanders and took them to Cape Town.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The evacuation account confirms that the Dutch liner Tjisadane collected the islanders on 11 October 1961 and transported them to Cape Town, arriving on 16 October.",
+      "nguon": [
+        {
+          "title": "TRISTAN DA CUNHA",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The 1961 Evacuation of Tristan da Cunha",
+          "url": "https://www.tristandc.com/earthdisastermanagement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C50",
+      "statement": "264 Tristan islanders were evacuated in 1961, taken to Cape Town and then on to England (arriving at Southampton on 3 November 1961).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The evacuation records confirm that 264 islanders were evacuated, transferred from Cape Town to the Stirling Castle, and arrived in Southampton on 3 November 1961; 31 expatriates were evacuated separately from the island community.",
+      "nguon": [
+        {
+          "title": "The 1961 Evacuation of Tristan da Cunha",
+          "url": "https://www.tristandc.com/earthdisastermanagement.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The remote island that was evacuated to 10,000km away",
+          "url": "https://bbc.com.im/programmes/w3ct74qj",
+          "publisher": "BBC World Service",
+          "type": "bao",
+          "published": null,
+          "url_song": null
+        }
+      ]
+    },
+    {
+      "id": "C51",
+      "statement": "The 1961 lava flow destroyed Tristan da Cunha's fish cannery, but most of the Settlement's houses were left undamaged.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Royal Society expedition confirmed that the lava destroyed the local canning factory while most of the settlement escaped undamaged.",
+      "nguon": [
+        {
+          "title": "Volcanic venture",
+          "url": "https://www.royalsociety.org/blog/2021/08/volcanic-venture/",
+          "publisher": "The Royal Society",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The 1961 eruption",
+          "url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+          "publisher": "Mitchell and Thomé, scientific publication (1970)",
+          "type": "khac",
+          "published": "1970-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C52",
+      "statement": "From January 1962 the evacuated Tristan islanders were housed at a former Royal Air Force camp at Calshot, near Southampton, Hampshire, after first staying at Pendell Camp in Surrey.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The islanders were initially accommodated at Pendell Camp in Surrey before moving to former RAF Calshot on 23 January 1962.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Islanders",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "RAF Calshot and the Tristan da Cunha Evacuees",
+          "url": "https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/",
+          "publisher": "New Forest Heritage",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha: Centenary of the RAF 1918–2018",
+          "url": "https://www.tristandc.com/po/stamps201806.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C53",
+      "statement": "According to a written answer in the UK House of Commons on 28 February 1962, 113 Tristan islanders in England had found employment and 14 were still seeking work.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The written parliamentary answer of 28 February 1962 explicitly states that 113 islanders had found employment and 14 were still seeking work.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Islanders",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": "1962-02-28",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C54",
+      "statement": "In England the Tristan islanders had little immunity to influenza, and they also endured the harsh winter of 1962–63.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "A December 1961 parliamentary answer confirms their unusual susceptibility to colds and influenza because of previous isolation from viruses, while the Tristan historical record confirms influenza epidemics during the severe winter of 1962–63.",
+      "nguon": [
+        {
+          "title": "Written Answers",
+          "url": "https://hansard.parliament.uk/commons/1961-12-18/debates/8e1487e4-0dad-48e8-9d7b-df8d7ab09282/WrittenAnswers",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": "1961-12-18",
+          "url_song": true
+        },
+        {
+          "title": "Centenary of the RAF 1918–2018",
+          "url": "https://www.tristandc.com/po/stamps201806.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C55",
+      "statement": "On 24 July 1962 the UK Colonial Secretary told Parliament that the Tristan islanders should remain in Britain, citing the risk of further eruptions and the difficulty of maintaining services and landing on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "On 24 July 1962 Secretary of State for the Colonies Duncan Sandys stated that the Government considered remaining in Britain the best course, citing another eruption, difficulties maintaining services and living standards, and the increased difficulty of landing or leaving the island.",
+      "nguon": [
+        {
+          "title": "Former Inhabitants (Future)",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/jul/24/former-inhabitants-future",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": "1962-07-24",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C56",
+      "statement": "A Royal Society expedition to Tristan da Cunha from January to March 1962 found the eruption less destructive than feared, with most of the Settlement intact.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The Royal Society confirms that its expedition arrived on 29 January 1962, found the eruption less destructive than initially feared, and documented that most of the settlement had escaped damage; the team returned on 20 March.",
+      "nguon": [
+        {
+          "title": "Volcanic venture",
+          "url": "https://www.royalsociety.org/blog/2021/08/volcanic-venture/",
+          "publisher": "The Royal Society",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan Da Cunha – Scientific Expedition",
+          "url": "https://hansard.parliament.uk/Commons/1962-02-08/debates/45a824fa-7244-469b-9908-97b88cf58ba1/TristanDaCunha",
+          "publisher": "UK Parliament – Hansard",
+          "type": "goc",
+          "published": "1962-02-08",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C57",
+      "statement": "A survey party of twelve Tristan islanders left England in August 1962 and reached Tristan da Cunha in early September 1962 to inspect the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The historical account confirms that a resettlement survey party including 12 islanders left on 9 August 1962 and returned to Tristan on 8 September 1962 to assess conditions and prepare the settlement for possible resettlement.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha's Population History",
+          "url": "https://www.tristandc.com/community/population-history.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C58",
+      "statement": "In December 1962 the British Colonial Office arranged a ballot of the Tristan islanders in England, who voted 148 to 5 in favour of returning to Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official historical account confirms the December 1962 Colonial Office ballot and the 148–5 vote in favour of returning.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "HOME on a VOLCANO",
+          "url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19660204.2.4.1",
+          "publisher": "New Zealand Listener",
+          "type": "bao",
+          "published": "1966-02-04",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C59",
+      "statement": "An advance party of Tristan islanders arrived back on Tristan da Cunha in April 1963.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official account records the advance party arriving on 9 April 1963, so April 1963 is correct.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Families: Tristan da Cunha's Population History",
+          "url": "https://www.tristandc.com/community/population-history.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C60",
+      "statement": "The main group of 198 Tristan islanders, who sailed from Southampton on the Bornholm on 24 October 1963, arrived back on Tristan da Cunha on 10 November 1963.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The historical account confirms that the main resettlement group of 198 islanders departed Southampton aboard the Danish ferry Bornholm on 24 October 1963 and arrived on Tristan on 10 November 1963.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+          "url": "https://www.tristandc.com/history1961-1963.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Common colds on Tristan da Cunha",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D83E74AB677CCBC74E71A319EAD6C330/S0022172400021483a.pdf/common-colds-on-tristan-da-cunha.pdf",
+          "publisher": "Journal of Hygiene, Cambridge University Press",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C61",
+      "statement": "Tristan da Cunha's Calshot Harbour opened in 1967 and is named after Calshot in Hampshire, England, where the evacuated islanders were housed in 1962–63.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The island's harbour history confirms that Calshot Harbour opened in 1967 and was named after the Hampshire village where Tristan islanders were housed following the 1961 volcanic evacuation.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Calshot Harbour",
+          "url": "https://www.tristandc.com/harbour.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Former Inhabitants (Future), Hansard, 24 July 1962",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/jul/24/former-inhabitants-future",
+          "publisher": "UK Parliament",
+          "type": "goc",
+          "published": "1962-07-24",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C62",
+      "statement": "Calshot Harbour on Tristan da Cunha has an entrance about 11 m (36 ft) wide; according to the Tristan da Cunha Government, weather makes it safe for boats to enter and leave on only about 70 days a year (other sources give about 60 or 90).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Tristan da Cunha website confirms an 11-metre entrance and approximately 70 days per year suitable for safe harbour traffic; other published estimates range from 60–70 to approximately 90 days, reflecting differing sources or definitions of accessibility.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Calshot Harbour",
+          "url": "https://tristandc.com/harbour.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "The Overseas Territories: Security, Success and Sustainability",
+          "url": "https://www.bvi.gov.vg/sites/default/files/resources/The%20Overseas%20Territories%20Security%2C%20Success%20and%20Sustainability.pdf",
+          "publisher": "UK Government",
+          "type": "goc",
+          "published": "2012-06-28",
+          "url_song": false
+        },
+        {
+          "title": "A Biophysical Profile of the Tristan da Cunha Archipelago",
+          "url": "https://www.pew.org/-/media/assets/2019/07/cp_on_a_remote_archipelago_rich_biodiversity_faces_threats.pdf",
+          "publisher": "Pew Charitable Trusts",
+          "type": "khac",
+          "published": "2017-01-01",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha: Report of the United Kingdom",
+          "url": "https://digitallibrary.un.org/nanna/record/767233/files/A_AC.109_2014_7-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+          "publisher": "United Nations",
+          "type": "goc",
+          "published": "2014-01-01",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C63",
+      "statement": "Tristan da Cunha's Camogli Healthcare Centre is normally staffed by two doctors, and complex and serious cases are transferred to Cape Town by sea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official healthcare-centre information confirms two normally resident expatriate doctors and states that complex and serious cases are transported to Cape Town; the island's lack of an airport means evacuation is by sea.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Camogli Healthcare Centre",
+          "url": "https://www.tristandc.com/hospital.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Health - St Helena, Ascension and Tristan da Cunha Travel Advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Healthcare in the Overseas Territories and access to UK care",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+          "publisher": "House of Commons Library",
+          "type": "khac",
+          "published": "2023-05-25",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C64",
+      "statement": "On the night of 12–13 February 2008 Tristan da Cunha's fish factory burned down together with the island's electricity generators; full 24-hour power was restored on 14 March 2008, about a month later.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The island's contemporary incident report confirms that the factory and electricity generators were destroyed in the overnight fire of 12–13 February 2008 and that full 24-hour electricity was restored on Friday 14 March 2008, approximately one month later.",
+      "nguon": [
+        {
+          "title": "Factory Fire on 13th February 2008",
+          "url": "https://www.tristandc.com/newsfactoryfire.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "2008 Factory Fire's effect on Tristan's Electricity Supply",
+          "url": "https://www.tristandc.com/electric-supply.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha: Fires, Hansard, 21 February 2008",
+          "url": "https://hansard.parliament.uk/commons/2008-02-21/debates/080221135000042/TristanDaCunhaFires",
+          "publisher": "UK Parliament",
+          "type": "goc",
+          "published": "2008-02-21",
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C65",
+      "statement": "Outsiders cannot buy land on Tristan da Cunha, and people without a family connection to the island are not normally allowed to settle there.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Tristan da Cunha's official island website explicitly states that outsiders cannot buy land or settle on the island; however, the specific family-connection criterion is not independently established by the sources found.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Economy",
+          "url": "https://www.tristandc.com/economy.php",
+          "publisher": "Tristan da Cunha",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha :: the Oval Partnership",
+          "url": "https://www.ovalpartnership.com/en/project/Tristan-da-Cunha",
+          "publisher": "The Oval Partnership",
+          "type": "khac",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Entry Control (Landing) (Tristan da Cunha) Regulations",
+          "url": "https://www.sainthelena.gov.sh/documents/entry-control-tdac-ordinance/",
+          "publisher": "Government of St Helena",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C66",
+      "statement": "Serious medical cases from Tristan da Cunha are taken to hospital in Cape Town, roughly a week away by sea (about six days on the usual ships, sometimes longer in bad weather).",
+      "verdict": "mau-thuan",
+      "gia_tri_dung": "Approximately 6–10 days by sea, depending on the vessel and conditions.",
+      "ghi_chu": "Cape Town is the normal destination for serious medical referrals, but published journey estimates differ: the island government says the voyage normally takes six days, while a 2023 UK Parliament briefing gives 7–10 days; UK travel advice also warns that bad weather can extend the journey.",
+      "nguon": [
+        {
+          "title": "Health - St Helena, Ascension and Tristan da Cunha travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Healthcare in the Overseas Territories and access to UK care",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+          "publisher": "House of Commons Library",
+          "type": "goc",
+          "published": "2023-05-25",
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Shipping Schedules",
+          "url": "https://tristandc.com/shipping.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Tristan da Cunha Camogli Healthcare Centre",
+          "url": "https://www.tristandc.com/hospital.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Medical Emergency on the MFV Edinburgh",
+          "url": "https://www.tristandc.com/news-2020-07-27-edinburgh-medevac.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    },
+    {
+      "id": "C67",
+      "statement": "Goods for Tristan da Cunha's only shop, the Island Store, must be ordered months in advance (at least a couple of months before the ship that brings them).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "The official Island Store page explicitly says goods must be ordered months before incoming ships arrive, and National Geographic independently describes orders being placed a couple of months in advance.",
+      "nguon": [
+        {
+          "title": "Tristan da Cunha Island Store (Supermarket)",
+          "url": "https://www.tristandc.com/supermarket.php",
+          "publisher": "Tristan da Cunha Government",
+          "type": "goc",
+          "published": null,
+          "url_song": true
+        },
+        {
+          "title": "Hard-Core Locavore: Eating on the World's Most Remote Island",
+          "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island",
+          "publisher": "National Geographic",
+          "type": "bao",
+          "published": null,
+          "url_song": true
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 14,
+    "ghi_chu": "giao diện web miễn phí, không tính token"
+  }
+}

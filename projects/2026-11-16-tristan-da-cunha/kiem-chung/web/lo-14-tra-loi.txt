@@ -1,0 +1,89 @@
+[
+ {
+  "id": "C36",
+  "verdict": "khong-ro",
+  "correct_value": null,
+  "note": "The official Tristan da Cunha website confirms the Island Council sets a quota of one adult breeding cow per household, but does not establish that preventing overgrazing is the reason for the limit.",
+  "sources": [
+   {
+    "title": "Tristan da Cunha Farming",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/economyfarming.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C39",
+  "verdict": "dung",
+  "correct_value": null,
+  "note": "Historical philatelic sources confirm Crawford's 1946 penguin design, printing of the one-penny potato stamp, and its value of four potatoes; these were promotional local labels rather than officially issued postage stamps.",
+  "sources": [
+   {
+    "title": "A tribute to the work of Allan Crawford for Tristan da Cunha",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/assocallancrawford.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "The Origin of the Tristan da Cunha 'Potatoes' Stamp",
+    "publisher": "The SA Philatelist",
+    "url": "https://stampssa.africa/wp-content/uploads/2024/10/Volume-58.-No-10.-October-1982.pdf",
+    "type": "khac",
+    "published": null
+   },
+   {
+    "title": "60th and 50th Anniversaries of Decimalisation",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/po/stamps202103.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ },
+ {
+  "id": "C66",
+  "verdict": "mau-thuan",
+  "correct_value": "Approximately 6–10 days by sea, depending on the vessel and conditions.",
+  "note": "Cape Town is the normal destination for serious medical referrals, but published journey estimates differ: the island government says the voyage normally takes six days, while a 2023 UK Parliament briefing gives 7–10 days; UK travel advice also warns that bad weather can extend the journey.",
+  "sources": [
+   {
+    "title": "Health - St Helena, Ascension and Tristan da Cunha travel advice",
+    "publisher": "UK Foreign, Commonwealth & Development Office",
+    "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Healthcare in the Overseas Territories and access to UK care",
+    "publisher": "House of Commons Library",
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+    "type": "goc",
+    "published": "2023-05-25"
+   },
+   {
+    "title": "Tristan da Cunha Shipping Schedules",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://tristandc.com/shipping.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Tristan da Cunha Camogli Healthcare Centre",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/hospital.php",
+    "type": "goc",
+    "published": null
+   },
+   {
+    "title": "Medical Emergency on the MFV Edinburgh",
+    "publisher": "Tristan da Cunha Government",
+    "url": "https://www.tristandc.com/news-2020-07-27-edinburgh-medevac.php",
+    "type": "goc",
+    "published": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,722 @@
+{
+  "vong": 1,
+  "model": "claude-opus-5-5",
+  "ngay": "2026-11-28",
+  "ket_qua": [
+    {
+      "id": "C01",
+      "statement": "In October 1961 a volcanic eruption next to the Settlement forced the entire population of Tristan da Cunha to evacuate; the islanders were taken via Cape Town to England, and in a secret ballot in December 1962 they voted to return.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của chính quyền đảo, Hansard 17/10/1961 và TIME 14/12/1962 khớp: phun trào 10/10/1961 sát làng, sơ tán toàn bộ, qua Cape Town sang Anh, bỏ phiếu kín tháng 12/1962 để về.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha", "type": "goc", "published": "1961-10-17"},
+        {"title": "Tristan Da Cunha: Paradise Enow", "publisher": "TIME", "url": "https://time.com/archive/6810589/tristan-da-cunha-paradise-enow/", "type": "bao", "published": "1962-12-14"}
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "Guinness World Records lists Tristan da Cunha as the most remote inhabited island, measured by its distance (about 2,435 km) to the nearest inhabited land, St Helena.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang kỷ lục Guinness ghi đúng tiêu chí 'remotest inhabited island', 2.435 km (1.315 hải lý) tới đất có người gần nhất là St Helena; lưu ý đảo Gough có trạm khí tượng nhưng Guinness không tính.",
+      "nguon": [
+        {"title": "Most remote inhabited island", "publisher": "Guinness World Records", "url": "https://www.guinnessworldrecords.com/world-records/66683-most-remote-inhabited-island", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "According to the Tristan da Cunha Government's population update of 18 November 2026, there were 220 islanders (18 of them temporarily overseas), plus 40 non-islanders, giving 242 people on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang dân số cập nhật 18/11/2026 ghi đúng 220 người đảo (18 đang ở nước ngoài), 40 người ngoài đảo, tổng 242 trên đảo.",
+      "nguon": [
+        {"title": "Population (Tristan Resident Family Totals)", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/population.php", "type": "goc", "published": "2026-11-18"}
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "In the secret ballot held in December 1962 among adult Tristan islanders living in England, 148 voted to return to Tristan da Cunha and 5 voted against.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "TIME (12/1962) ghi bỏ phiếu kín của người lớn, 148–5; trang chính quyền đảo cũng ghi 148–5, ngày 2/12/1962.",
+      "nguon": [
+        {"title": "Tristan Da Cunha: Paradise Enow", "publisher": "TIME", "url": "https://time.com/archive/6810589/tristan-da-cunha-paradise-enow/", "type": "bao", "published": "1962-12-14"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "60th Anniversary of the Tristan Volcanic Eruption Part 3: Resettlement", "publisher": "Tristan da Cunha (shop.tristandc.com news)", "url": "https://shop.tristandc.com/blogs/news/60th-anniversary-of-the-tristan-volcanic-eruption-part-3-resettlement", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "Tristan da Cunha has no airstrip or airport; the island can only be reached by sea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Visiting Tristan của chính quyền đảo: 'There is no airport', mọi chuyến tàu theo lịch đi từ Cape Town hoặc tàu du lịch.",
+      "nguon": [
+        {"title": "Visiting Tristan", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/visits.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha: Island at the End of the World", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/travel/article/tristan-da-cunha", "type": "bao", "published": null}
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "Ships to Tristan da Cunha usually sail from Cape Town, South Africa, which is about 2,810 km (1,750 miles) from the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Visiting Tristan ghi mọi tàu theo lịch đi từ Cape Town, cách khoảng 2.810 km (1.750 dặm) theo đường chim bay.",
+      "nguon": [
+        {"title": "Visiting Tristan", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/visits.php", "type": "goc", "published": null},
+        {"title": "Extremities of the Earth: The Most Remote Inhabited Island", "publisher": "Library of Congress (Worlds Revealed)", "url": "https://blogs.loc.gov/maps/2017/12/extremities-of-the-earth-the-most-remote-inhabited-island/", "type": "goc", "published": "2017-12-01"}
+      ]
+    },
+    {
+      "id": "C07",
+      "statement": "The sea voyage from Cape Town to Tristan da Cunha usually takes about six days (five to eight days depending on the ship, per the 2026 schedule).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Lịch tàu 2026 nói hành trình 'will normally take six days', các chuyến lượt đi trong bảng dài 5–8 ngày.",
+      "nguon": [
+        {"title": "Shipping Schedules", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/shipping.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C08",
+      "statement": "The Tristan da Cunha Government's 2026 shipping schedule lists nine sailings from Cape Town to Tristan (three by MFV Edinburgh, five by MV Lance and one by SA Agulhas II).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bảng lịch tàu 2026 (tạm tính) có 9 chuyến rời Cape Town: Edinburgh 3, Lance 5, SA Agulhas II 1.",
+      "nguon": [
+        {"title": "Shipping Schedules", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/shipping.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C09",
+      "statement": "Large ships cannot berth at Tristan da Cunha's small harbour; they anchor offshore and passengers and cargo are transferred ashore by small boat.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Calshot Harbour: tàu viễn dương và du thuyền không vào được cảng, thả neo ngoài khơi, xuồng địa phương chở người và hàng vào.",
+      "nguon": [
+        {"title": "Calshot Harbour", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/harbour.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C10",
+      "statement": "Tristan da Cunha is a single volcanic island; its summit, Queen Mary's Peak, rises to just over 2,000 m (about 2,060 m, roughly 6,760 ft) and is often capped by cloud.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "NASA Earth Observatory (2024) ghi Queen Mary's Peak cao 2.060 m (6.760 ft); chi tiết 'thường có mây chụp' không thấy trong nguồn đã mở nhưng không phải số liệu.",
+      "nguon": [
+        {"title": "Remote Tristan da Cunha", "publisher": "NASA Earth Observatory", "url": "https://science.nasa.gov/earth/earth-observatory/remote-tristan-da-cunha-152936", "type": "goc", "published": "2024-06-15"}
+      ]
+    },
+    {
+      "id": "C11",
+      "statement": "Tristan da Cunha's only settlement lies on a narrow coastal plain at the foot of the volcano, on the island's north-west side.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Britannica 1911 đặt làng trên đồng bằng phía tây bắc; trang của đảo nói 'north coast', dưới vách đá 800 m, nên 'north-west' hợp lý.",
+      "nguon": [
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null},
+        {"title": "Edinburgh of the Seven Seas", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/settlement.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C12",
+      "statement": "The settlement's official name, Edinburgh of the Seven Seas, comes from the 1867 visit of Prince Alfred, Duke of Edinburgh (Queen Victoria's second son), aboard HMS Galatea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử 1853–1942 và trang Settlement của đảo ghi đúng: Hoàng tử Alfred, con trai thứ hai của Nữ hoàng Victoria, tới trên HMS Galatea năm 1867.",
+      "nguon": [
+        {"title": "Isolation & Hardship 1853 - 1942", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1853-1942.php", "type": "goc", "published": null},
+        {"title": "Edinburgh of the Seven Seas", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/settlement.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C13",
+      "statement": "Tristan islanders do not normally use the name Edinburgh of the Seven Seas; they call the village 'the Settlement'.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: làng 'always referred to as The Settlement', tên chính thức 'never used locally'.",
+      "nguon": [
+        {"title": "Edinburgh of the Seven Seas", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/settlement.php", "type": "goc", "published": null},
+        {"title": "Isolation & Hardship 1853 - 1942", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1853-1942.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C14",
+      "statement": "Tristan da Cunha was sighted in 1506 by the Portuguese commander Tristão da Cunha on a voyage towards the Cape of Good Hope, and the island is named after him.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: Tristão da Cunha phát hiện năm 1506 'en route to the Cape of Good Hope'; Britannica 1911 ghi chuyến đi Ấn Độ (cùng hải trình vòng mũi Hảo Vọng).",
+      "nguon": [
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C15",
+      "statement": "Tristão da Cunha did not settle the island; the first recorded landing on Tristan da Cunha was made by the crew of the Dutch ship Heemstede in 1643.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo ghi lần đổ bộ được ghi chép đầu tiên là thủy thủ tàu Hà Lan Heemstede năm 1643; có tin chưa chắc về một tàu Bồ Đào Nha ghé năm 1520 nhưng không được xác nhận.",
+      "nguon": [
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C16",
+      "statement": "Shipwrecks later brought settlers to Tristan da Cunha, for example Pieter Groen from the wrecked Emily in 1836 and two Italian sailors from the Italia in 1892, decades after the island was first settled in 1816–1817.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: Pieter Groen đắm tàu Emily năm 1836; hai thủy thủ tàu Italia ở lại năm 1892; định cư lâu dài bắt đầu từ đồn binh 1816/17.",
+      "nguon": [
+        {"title": "A Growing Community 1817 - 1853", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1817-1853.php", "type": "goc", "published": null},
+        {"title": "Isolation & Hardship 1853 - 1942", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1853-1942.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C17",
+      "statement": "After his final defeat, Napoleon was held in exile by Britain on St Helena, the nearest inhabited place to Tristan da Cunha, more than 2,000 km to the north.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Guinness: St Helena là đất có người gần nhất, 2.435 km (ghi hướng 'north-east', thực tế lệch bắc-đông bắc nên 'to the north' là nói gần đúng); napoleon.org: Napoleon đầu hàng quân Anh 14/7/1815 và bị bên bắt giữ đày ra St Helena; trang lịch sử của đảo xác nhận Napoleon bị giam ở St Helena sau Waterloo.",
+      "nguon": [
+        {"title": "Most remote inhabited island", "publisher": "Guinness World Records", "url": "https://www.guinnessworldrecords.com/world-records/66683-most-remote-inhabited-island", "type": "goc", "published": null},
+        {"title": "Timeline: Consulate/1st French Empire", "publisher": "Fondation Napoléon (napoleon.org)", "url": "https://www.napoleon.org/en/young-historians/napodoc/timeline-consulate1st-french-empire/", "type": "khac", "published": null},
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C18",
+      "statement": "Britain took Tristan da Cunha in 1816 because it feared France could use the island as a base for an attempt to rescue Napoleon from St Helena, and to stop American ships using it as a base as they had during the War of 1812.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo nêu cả hai lý do (lo Pháp dùng đảo khi Napoleon bị giam ở St Helena; ngăn tàu Mỹ dùng làm căn cứ như trong chiến tranh 1812–14); Britannica 1911 nêu lý do tàu Mỹ.",
+      "nguon": [
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C19",
+      "statement": "On 14 August 1816 a British garrison landed from HMS Falmouth and formally took possession of Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: ngày 14/8/1816 đồn binh trên HMS Falmouth chiếm đảo nhân danh vua George III.",
+      "nguon": [
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C20",
+      "statement": "The British garrison was withdrawn from Tristan da Cunha in November 1817, aboard HMS Euridice, because the Admiralty judged the island of little strategic value.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: đồn binh rút trên HMS Euridice tháng 11/1817 vì Bộ Hải quân gạt đi tầm quan trọng chiến lược của đảo.",
+      "nguon": [
+        {"title": "Discovery & Settlement 1506 - 1817", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1506-1817.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C21",
+      "statement": "When the garrison left Tristan da Cunha in 1817, Corporal William Glass, a Scot, was given permission to remain on the island with his wife and children.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: hạ sĩ William Glass, người Scotland, thuyết phục chỉ huy cho ở lại cùng vợ Maria và hai con; Britannica 1911 ghi ở lại 'at their own request'.",
+      "nguon": [
+        {"title": "A Growing Community 1817 - 1853", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1817-1853.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C22",
+      "statement": "On 7 November 1817 William Glass and two stonemasons signed an agreement to live as a community, sharing stock, stores and profits equally, with no member claiming superiority over the others.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo ghi thỏa thuận 7/11/1817: chia đều gia súc, kho, lợi nhuận, 'no one superior over another'; hai thợ đá Burnell và Nankivel đi cùng (Britannica 1911: 'two masons').",
+      "nguon": [
+        {"title": "A Growing Community 1817 - 1853", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1817-1853.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha (Encyclopaedia Britannica, 1911)", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/Britannica_1911*.html", "type": "bach-khoa", "published": null}
+      ]
+    },
+    {
+      "id": "C23",
+      "statement": "Later settlers on Tristan da Cunha included Thomas Swain, a sailor from Hastings (1826); Pieter Groen from Katwijk in the Netherlands, shipwrecked on the Emily (1836); Thomas Rogers, an American whaler (1836); and Andrew Hagan, an American whaling captain (1849).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử 1817–1853 của đảo ghi đúng cả bốn người, nơi gốc và năm.",
+      "nguon": [
+        {"title": "A Growing Community 1817 - 1853", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1817-1853.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C24",
+      "statement": "In 1827 Captain Simon Amm of the Duke of Gloucester brought five women from St Helena to Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: thuyền trưởng Simon Amm tàu Duke of Gloucester quay lại năm 1827 với năm phụ nữ tình nguyện từ St Helena.",
+      "nguon": [
+        {"title": "A Growing Community 1817 - 1853", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1817-1853.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C25",
+      "statement": "In 1892 two Italian sailors from Camogli, Andrea Repetto and Gaetano Lavarello, came ashore after their ship, the Italia, caught fire and ran aground at Tristan da Cunha, and they settled on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang lịch sử của đảo: tàu Italia cháy giữa biển rồi được cho mắc cạn ở Seal Bay; Repetto và Lavarello người Camogli ở lại.",
+      "nguon": [
+        {"title": "Isolation & Hardship 1853 - 1942", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1853-1942.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C26",
+      "statement": "Nearly all Tristan da Cunha islanders today carry one of seven traditional surnames: Glass, Swain, Green, Rogers, Hagan, Repetto and Lavarello.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bảng dân số chính thức 18/11/2026: 215 trên 220 người đảo mang bảy họ này (Green 57, Swain 57, Repetto 32, Glass 31, Rogers 21, Lavarello 10, Hagan 7); 5 người còn lại mang họ Behrens, Collins, Gerber, White; 'nearly all' khớp.",
+      "nguon": [
+        {"title": "Population (Tristan Resident Family Totals)", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/population.php", "type": "goc", "published": "2026-11-18"}
+      ]
+    },
+    {
+      "id": "C27",
+      "statement": "The Potato Patches on Tristan da Cunha are walled fields a few kilometres from the Settlement, where every island family farms at least part time.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Discover (2023): 'a series of walled fields 2 miles west of The Settlement', mỗi gia đình trồng khoai ở đó; Library of Congress: 'all Tristan families are farmers at least part-time' trên ruộng gia đình ở the Patches; trang Farming: ruộng nhỏ có tường chắn gió.",
+      "nguon": [
+        {"title": "Balancing Faraway Life on Tristan da Cunha (Sasha Chapman)", "publisher": "Discover Magazine", "url": "https://www.discovermagazine.com/planet-earth/balancing-faraway-life-on-tristan-da-cunha", "type": "bao", "published": "2023-04-21"},
+        {"title": "Extremities of the Earth: The Most Remote Inhabited Island", "publisher": "Library of Congress (Worlds Revealed)", "url": "https://blogs.loc.gov/maps/2017/12/extremities-of-the-earth-the-most-remote-inhabited-island/", "type": "goc", "published": "2017-12-01"},
+        {"title": "Farming", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfarming.php", "type": "goc", "published": "2019-03-16"}
+      ]
+    },
+    {
+      "id": "C28",
+      "statement": "All land on Tristan da Cunha is held in common, and outsiders are not permitted to buy land on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Economy của đảo: 'All land is communally owned. No outsiders are allowed to buy land or settle on Tristan.'",
+      "nguon": [
+        {"title": "Economy", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economy.php", "type": "goc", "published": null},
+        {"title": "Extremities of the Earth: The Most Remote Inhabited Island", "publisher": "Library of Congress (Worlds Revealed)", "url": "https://blogs.loc.gov/maps/2017/12/extremities-of-the-earth-the-most-remote-inhabited-island/", "type": "goc", "published": "2017-12-01"}
+      ]
+    },
+    {
+      "id": "C29",
+      "statement": "Potatoes on Tristan da Cunha are grown in the same walled plots at the Potato Patches year after year, without crop rotation.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Farming: khoai trồng ở the Patches 'year after year on the same plot, with no rotation', ruộng có tường bao.",
+      "nguon": [
+        {"title": "Farming", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfarming.php", "type": "goc", "published": "2019-03-16"}
+      ]
+    },
+    {
+      "id": "C30",
+      "statement": "On Tristan da Cunha, surplus potatoes are fed to cattle.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Farming: khoai thừa dùng làm thức ăn cho bò.",
+      "nguon": [
+        {"title": "Farming", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfarming.php", "type": "goc", "published": "2019-03-16"}
+      ]
+    },
+    {
+      "id": "C31",
+      "statement": "The Tristan rock lobster fishery is the foundation of Tristan da Cunha's economy, and the island's coat of arms (granted in 2002) is supported by two Tristan rock lobsters.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Fishing: nghề tôm hùm là 'mainstay of the island's economy'; trang tem cờ của đảo: cờ và huy hiệu công bố 20/10/2002, khiên 'flanked by two Tristan da Cunha Spiny Lobster'.",
+      "nguon": [
+        {"title": "Fishing", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfishing.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha Stamps: Flags of Tristan da Cunha", "publisher": "Tristan da Cunha Post Office", "url": "https://www.tristandc.com/po/stamps202407.php", "type": "goc", "published": "2024-07-01"}
+      ]
+    },
+    {
+      "id": "C32",
+      "statement": "According to the Marine Stewardship Council (2020), the Tristan rock lobster fishery provides about 80% of the territory's revenue; the Tristan Government describes lobster royalties as its main source of foreign income without giving a percentage.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Bài MSC 18/12/2020 ghi 'contributing 80 per cent of the territory's revenue'; trang Economy của đảo nêu tiền bản quyền tôm hùm và tem, xu là nguồn thu ngoại tệ, không có tỉ lệ.",
+      "nguon": [
+        {"title": "Tristan da Cunha lobster: a remote model of sustainable fishing", "publisher": "Marine Stewardship Council", "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing", "type": "goc", "published": "2020-12-18"},
+        {"title": "Economy", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economy.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C33",
+      "statement": "Tristan da Cunha's small lobster boats can only fish on days when weather and sea allow; sources give different figures, from about 30–40 days a year (MSC, 2020) to 18–72 days a season (BBC, 2025).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "MSC 2020 ghi thuyền nhỏ chỉ đánh được khoảng 30–40 ngày mỗi năm; bài BBC của Nick Schönfeld (2025) ghi 18–72 ngày mỗi mùa; khẳng định đã nói rõ các nguồn lệch nhau.",
+      "nguon": [
+        {"title": "Tristan da Cunha lobster: a remote model of sustainable fishing", "publisher": "Marine Stewardship Council", "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing", "type": "goc", "published": "2020-12-18"},
+        {"title": "Tristan da Cunha: The lobsters keeping Earth's remotest town afloat (Nick Schönfeld, BBC)", "publisher": "BBC, republished by South Atlantic News", "url": "https://southatlanticnews.com/?p=3422", "type": "bao", "published": "2025-09-20"}
+      ]
+    },
+    {
+      "id": "C34",
+      "statement": "On Tristan da Cunha, fishing days are announced early in the morning, when the weather is judged suitable, by striking an old oxygen bottle with a hammer (the 'fishing gong').",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "BBC (2025): 'The fishing gong is calling. At 05:00 local time, the clang of a hammer on an old oxygen gas cylinder'; MSC (2020): trước bình minh hai ngư dân kinh nghiệm xem trời, trời tốt thì đánh hiệu báo ngày đi biển.",
+      "nguon": [
+        {"title": "Tristan da Cunha: The lobsters keeping Earth's remotest town afloat (Nick Schönfeld, BBC)", "publisher": "BBC, republished by South Atlantic News", "url": "https://southatlanticnews.com/?p=3422", "type": "bao", "published": "2025-09-20"},
+        {"title": "Tristan da Cunha lobster: a remote model of sustainable fishing", "publisher": "Marine Stewardship Council", "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing", "type": "goc", "published": "2020-12-18"}
+      ]
+    },
+    {
+      "id": "C35",
+      "statement": "Tristan da Cunha's lobster fishery uses small motorboats crewed by two fishermen each, who haul their traps using a winch.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Fishing của đảo: 'Each boat contains two fishermen', bẫy 'raised twice a day by a winch' (bài BBC 2025 tả một chuyến có thêm người học việc).",
+      "nguon": [
+        {"title": "Fishing", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfishing.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C36",
+      "statement": "In 2019 Tristan da Cunha's Island Council reduced the limit from two adult breeding cows per household to one, because of overgrazing.",
+      "verdict": "khong-ro",
+      "gia_tri_dung": null,
+      "ghi_chu": "Chỉ xác nhận được hạn mức hiện tại một bò cái giống mỗi hộ (trang Farming, Reviewed 2019-03-16) và việc gia súc bị giới hạn, đã giảm để chống chăn thả quá mức (trang Farming, Discover 2023, National Geographic); không nguồn nào đã mở nói năm 2019 là năm đổi, hay hạn mức trước đó là hai con; tìm thêm văn bản Island Council không thấy.",
+      "nguon": [
+        {"title": "Farming", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfarming.php", "type": "goc", "published": "2019-03-16"},
+        {"title": "Balancing Faraway Life on Tristan da Cunha (Sasha Chapman)", "publisher": "Discover Magazine", "url": "https://www.discovermagazine.com/planet-earth/balancing-faraway-life-on-tristan-da-cunha", "type": "bao", "published": "2023-04-21"},
+        {"title": "Hard-core locavore: eating on the world's most remote island", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island", "type": "bao", "published": null}
+      ]
+    },
+    {
+      "id": "C37",
+      "statement": "Tristan da Cunha had no postage stamps until 1 January 1952, when St Helena stamps overprinted 'TRISTAN DA CUNHA' were issued; before that, mail was carried by passing ships.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Post Office: không có tem tới 1952, tem đầu là tem St Helena in đè, trước đó nhờ tàu ghé mang thư; Mackay (1964) ghi ngày 1/1/1952.",
+      "nguon": [
+        {"title": "Post Office", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/postoffice.php", "type": "goc", "published": null},
+        {"title": "Angry Island (Margaret Mackay, 1964), Part V ch. 1", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5A*.html", "type": "khac", "published": "1964-01-01"}
+      ]
+    },
+    {
+      "id": "C38",
+      "statement": "In 1946 Allan Crawford drew nine stamp designs for Tristan da Cunha, with values in pence and potatoes, and submitted them with a petition for postage stamps, which was refused.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang tem 2015 của Bưu điện Tristan: chín mẫu, mệnh giá 'in pence and potatoes', nộp kèm thỉnh nguyện năm 1946 và 'The petition for stamps however was refused'; blog Stamp Forgeries ghi mẫu do Crawford tạo năm 1946; lưu ý trang của đảo nói Crawford vẽ cùng trung sĩ hoạ viên Jimmy Brown.",
+      "nguon": [
+        {"title": "Stamps: The 'Potato Essays' – A Petition for Postage Stamps (issue 201501)", "publisher": "Tristan da Cunha Post Office (tristandc.com)", "url": "https://www.tristandc.com/po/stamps201501.php", "type": "goc", "published": "2015-04-08"},
+        {"title": "Tristan da Cunha locals (potato essays, 1946)", "publisher": "Stamp Forgeries of the World (blog)", "url": "https://stampforgeries.blogspot.com/2021/05/tristan-da-cunha-locals.html", "type": "khac", "published": "2021-05-27"}
+      ]
+    },
+    {
+      "id": "C39",
+      "statement": "In 1946 Allan Crawford had local penny stamp sheets printed in red for Tristan da Cunha; each stamp showed a penguin and its value was four potatoes (four potatoes equalling one old penny).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang tem 2015 của Bưu điện Tristan: Crawford cho in 20.000 tờ tem penny (Hortors, Johannesburg), 'each stamp depicted a penguin', giá '4 potatoes printed in red', 4 củ khoai bằng 1 penny cũ; năm 1946 lấy từ blog Stamp Forgeries (mẫu 1946, tem 1d chim cánh cụt in tờ 35 con); chỉ một nguồn nói màu đỏ và câu của nguồn có thể hiểu là chữ giá in đỏ.",
+      "nguon": [
+        {"title": "Stamps: The 'Potato Essays' – A Petition for Postage Stamps (issue 201501)", "publisher": "Tristan da Cunha Post Office (tristandc.com)", "url": "https://www.tristandc.com/po/stamps201501.php", "type": "goc", "published": "2015-04-08"},
+        {"title": "Tristan da Cunha locals (potato essays, 1946)", "publisher": "Stamp Forgeries of the World (blog)", "url": "https://stampforgeries.blogspot.com/2021/05/tristan-da-cunha-locals.html", "type": "khac", "published": "2021-05-27"}
+      ]
+    },
+    {
+      "id": "C40",
+      "statement": "In 2015 Tristan da Cunha issued a stamp sheetlet reproducing the nine designs Allan Crawford submitted with his 1946 petition.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang tem 201501 của Bưu điện Tristan: tờ tem phát hành 8/4/2015 (mười tem 50p) in lại chín mẫu đen trắng của Crawford cùng tem St Helena in đè năm 1952, ra mắt ở Europhilex 2015.",
+      "nguon": [
+        {"title": "Stamps: The 'Potato Essays' – A Petition for Postage Stamps (issue 201501)", "publisher": "Tristan da Cunha Post Office (tristandc.com)", "url": "https://www.tristandc.com/po/stamps201501.php", "type": "goc", "published": "2015-04-08"}
+      ]
+    },
+    {
+      "id": "C42",
+      "statement": "Sales of Tristan da Cunha stamps and coins to collectors are a source of foreign income for the island's government today.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Economy của đảo: thu nhập từ nước ngoài gồm tiền bản quyền tôm hùm và bán tem, xu cho người sưu tầm.",
+      "nguon": [
+        {"title": "Economy", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economy.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C43",
+      "statement": "Mail to and from Tristan da Cunha is routed via Cape Town and carried by the ships that sail between Cape Town and the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Post Office: địa chỉ gửi 'Via Cape Town, South Africa'; trang lịch tàu: mọi tàu (đều xuất phát Cape Town) thường chở thư, hàng, khách.",
+      "nguon": [
+        {"title": "Post Office", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/postoffice.php", "type": "goc", "published": null},
+        {"title": "Shipping Schedules", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/shipping.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C44",
+      "statement": "The 1961 eruption on Tristan da Cunha formed a new volcanic cone and lava flow immediately east of the Settlement, only a few hundred feet from the village.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Royal Society: vòm dung nham hình thành 'just a few hundred feet east of the village', dung nham chảy phía bắc và đông làng.",
+      "nguon": [
+        {"title": "Volcanic venture", "publisher": "The Royal Society (blog)", "url": "https://royalsociety.org/blog/2021/08/volcanic-venture", "type": "goc", "published": "2021-08-01"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C45",
+      "statement": "Earth tremors were felt on Tristan da Cunha from August 1961, in the weeks before the October 1961 eruption.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Royal Society: rung chấn cục bộ đầu tiên tháng 8/1961, dày và mạnh dần qua tháng 9; trang của đảo cũng nói động đất từ tháng 8–9/1961.",
+      "nguon": [
+        {"title": "Volcanic venture", "publisher": "The Royal Society (blog)", "url": "https://royalsociety.org/blog/2021/08/volcanic-venture", "type": "goc", "published": "2021-08-01"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C46",
+      "statement": "On 8 October 1961 an earthquake and landslide hit the east of the Settlement; the next morning a fissure opened between the Settlement and the canning factory and the ground rose, and the islanders and expatriates were evacuated to huts at the Potato Patches for that night.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: 8/10 'a large earthquake and landslide particularly affected the eastern settlement', sáng hôm sau khe nứt mở giữa làng và xưởng đóng hộp, đất phồng lên, rồi 264 người đảo và 31 người ngoài được đưa ra lều ở Potato Patches qua đêm; Mackay (1964) tả cùng trình tự (đá lở tối 8/10, đêm sau ngủ ở lều đá tại the Patches).",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "Angry Island (Margaret Mackay, 1964), Part V ch. 3", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5C*.html", "type": "khac", "published": "1964-01-01"}
+      ]
+    },
+    {
+      "id": "C47",
+      "statement": "On 9 October 1961 a fissure opened between the Settlement and the fish cannery and the ground bulged; on 10 October it developed into a new volcanic cone and the island was evacuated.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: 9/10 khe nứt mở giữa làng và xưởng đóng hộp, đất phồng lên; 10/10 thành nón núi lửa mới và đảo được sơ tán; Hansard xác nhận phun trào 10/10.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha", "type": "goc", "published": "1961-10-17"}
+      ]
+    },
+    {
+      "id": "C48",
+      "statement": "On 10 October 1961 the fishing vessels Tristania and Frances Repetto took the evacuated population of Tristan da Cunha to Nightingale Island, where they spent the night.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo nêu tên hai tàu Tristania và Frances Repetto đưa dân sang Nightingale ngày 10/10; Hansard nói hai tàu cá của công ty phát triển; Mackay tả đêm trên Nightingale.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha", "type": "goc", "published": "1961-10-17"},
+        {"title": "Angry Island (Margaret Mackay, 1964), Part V ch. 4", "publisher": "LacusCurtius (University of Chicago)", "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Tristan_da_Cunha/_Texts/MACAI/5D*.html", "type": "khac", "published": "1964-01-01"}
+      ]
+    },
+    {
+      "id": "C49",
+      "statement": "On 11 October 1961 the Dutch liner Tjisadane picked up the evacuated Tristan islanders and took them to Cape Town.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Hansard 17/10/1961: sáng hôm sau dân được chuyển lên 'liner Tjisadane' đi Cape Town; trang của đảo ghi ngày 11/10, tới Cape Town 16/10.",
+      "nguon": [
+        {"title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha", "type": "goc", "published": "1961-10-17"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C50",
+      "statement": "264 Tristan islanders were evacuated in 1961, taken to Cape Town and then on to England (arriving at Southampton on 3 November 1961).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: 264 người đảo (cùng 31 người ngoài) sơ tán, tới Southampton ngày 3/11/1961; Hansard: từ Cape Town đi tàu Stirling Castle sang Anh.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "HC Deb 17 October 1961 vol 646 cc2-5, Tristan da Cunha", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha", "type": "goc", "published": "1961-10-17"}
+      ]
+    },
+    {
+      "id": "C51",
+      "statement": "The 1961 lava flow destroyed Tristan da Cunha's fish cannery, but most of the Settlement's houses were left undamaged.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Royal Society: xưởng đóng hộp bị phá huỷ, 'Most of the settlement had escaped undamaged'; trang của đảo: dung nham phá xưởng đóng hộp và Big Beach.",
+      "nguon": [
+        {"title": "Volcanic venture", "publisher": "The Royal Society (blog)", "url": "https://royalsociety.org/blog/2021/08/volcanic-venture", "type": "goc", "published": "2021-08-01"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C52",
+      "statement": "From January 1962 the evacuated Tristan islanders were housed at a former Royal Air Force camp at Calshot, near Southampton, Hampshire, after first staying at Pendell Camp in Surrey.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Hansard 28/2/1962: dân đảo chuyển tới Calshot ngày 23/1/1962; trang của đảo: trước ở Pendell Camp (Surrey), rồi trại RAF Calshot cũ bên Southampton Water.",
+      "nguon": [
+        {"title": "HC Deb 28 February 1962 vol 654 c139W, Tristan da Cunha Islanders", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders", "type": "goc", "published": "1962-02-28"},
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C53",
+      "statement": "According to a written answer in the UK House of Commons on 28 February 1962, 113 Tristan islanders in England had found employment and 14 were still seeking work.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trả lời viết của Bộ trưởng Lao động Hare ngày 28/2/1962: đã tìm việc cho 113 người, chỉ 14 người còn tìm việc.",
+      "nguon": [
+        {"title": "HC Deb 28 February 1962 vol 654 c139W, Tristan da Cunha Islanders", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders", "type": "goc", "published": "1962-02-28"}
+      ]
+    },
+    {
+      "id": "C54",
+      "statement": "In England the Tristan islanders had little immunity to influenza, and they also endured the harsh winter of 1962–63.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo nhắc các trận dịch cúm và 'appalling 1962/3 winter' trong thời gian ở Anh.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C55",
+      "statement": "On 24 July 1962 the UK Colonial Secretary told Parliament that the Tristan islanders should remain in Britain, citing the risk of further eruptions and the difficulty of maintaining services and landing on the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trả lời viết 24/7/1962 của Duncan Sandys (Bộ trưởng Thuộc địa): nguy cơ phun trào, khó duy trì dịch vụ, khó lên xuống đảo, nên 'the best course is for them to remain in this country'.",
+      "nguon": [
+        {"title": "HC Deb 24 July 1962 vol 663 c134W, Former Inhabitants (Future)", "publisher": "Hansard, UK Parliament", "url": "https://api.parliament.uk/historic-hansard/written-answers/1962/jul/24/former-inhabitants-future", "type": "goc", "published": "1962-07-24"}
+      ]
+    },
+    {
+      "id": "C56",
+      "statement": "A Royal Society expedition to Tristan da Cunha from January to March 1962 found the eruption less destructive than feared, with most of the Settlement intact.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Royal Society: đoàn tới 29/1/1962, được đón 20/3/1962, thấy phun trào ít tàn phá hơn lo ngại, phần lớn làng không hư hại.",
+      "nguon": [
+        {"title": "Volcanic venture", "publisher": "The Royal Society (blog)", "url": "https://royalsociety.org/blog/2021/08/volcanic-venture", "type": "goc", "published": "2021-08-01"}
+      ]
+    },
+    {
+      "id": "C57",
+      "statement": "A survey party of twelve Tristan islanders left England in August 1962 and reached Tristan da Cunha in early September 1962 to inspect the island.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo và bài kỷ niệm 60 năm: mười hai người rời Southampton 9/8/1962, tới Tristan 8/9/1962.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "60th Anniversary of the Tristan Volcanic Eruption Part 3: Resettlement", "publisher": "Tristan da Cunha (shop.tristandc.com news)", "url": "https://shop.tristandc.com/blogs/news/60th-anniversary-of-the-tristan-volcanic-eruption-part-3-resettlement", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C58",
+      "statement": "In December 1962 the British Colonial Office arranged a ballot of the Tristan islanders in England, who voted 148 to 5 in favour of returning to Tristan da Cunha.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: 'the British Colonial Office arranged a hasty ballot in December but the community voted 148 to 5 in favour of returning' (bối cảnh 1962); TIME 14/12/1962: bỏ phiếu kín của người lớn, 148–5.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "Tristan Da Cunha: Paradise Enow", "publisher": "TIME", "url": "https://time.com/archive/6810589/tristan-da-cunha-paradise-enow/", "type": "bao", "published": "1962-12-14"}
+      ]
+    },
+    {
+      "id": "C59",
+      "statement": "An advance party of Tristan islanders arrived back on Tristan da Cunha in April 1963.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: nhóm đi trước 51 người rời Tilbury 17/3 trên RMS Amazon, 'arriving on Tristan on 9th April' (bối cảnh 1963).",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C60",
+      "statement": "The main group of 198 Tristan islanders, who sailed from Southampton on the Bornholm on 24 October 1963, arrived back on Tristan da Cunha on 10 November 1963.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang của đảo: 198 người rời Southampton trên tàu Bornholm ngày 24/10/1963, tới 10/11/1963.",
+      "nguon": [
+        {"title": "Volcanic Interlude 1961 - 1963", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/history1961-1963.php", "type": "goc", "published": null},
+        {"title": "60th Anniversary of the Tristan Volcanic Eruption Part 3: Resettlement", "publisher": "Tristan da Cunha (shop.tristandc.com news)", "url": "https://shop.tristandc.com/blogs/news/60th-anniversary-of-the-tristan-volcanic-eruption-part-3-resettlement", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C61",
+      "statement": "Tristan da Cunha's Calshot Harbour opened in 1967 and is named after Calshot in Hampshire, England, where the evacuated islanders were housed in 1962–63.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Calshot Harbour: 'first opened in 1967', đặt theo làng Calshot (Hampshire) nơi dân đảo ở năm 1962–63.",
+      "nguon": [
+        {"title": "Calshot Harbour", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/harbour.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C62",
+      "statement": "Calshot Harbour on Tristan da Cunha has an entrance about 11 m (36 ft) wide; according to the Tristan da Cunha Government, weather makes it safe for boats to enter and leave on only about 70 days a year (other sources give about 60 or 90).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Calshot Harbour: cửa '11 metres wide', thời tiết 'only good enough 70 days a year to allow safe harbour traffic'; MSC (2020) ghi cảng vào được khoảng 90 ngày, National Geographic ghi đảo chỉ tiếp cận bằng thuyền 60 ngày; khẳng định đã nêu đúng nguồn và độ lệch.",
+      "nguon": [
+        {"title": "Calshot Harbour", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/harbour.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha lobster: a remote model of sustainable fishing", "publisher": "Marine Stewardship Council", "url": "https://www.msc.org/media-centre/news-opinion/news/2020/12/18/tristan-da-cunha-lobster-remote-model-sustainable-fishing", "type": "goc", "published": "2020-12-18"},
+        {"title": "Hard-core locavore: eating on the world's most remote island", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island", "type": "bao", "published": null}
+      ]
+    },
+    {
+      "id": "C63",
+      "statement": "Tristan da Cunha's Camogli Healthcare Centre is normally staffed by two doctors, and complex and serious cases are transferred to Cape Town by sea.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Camogli Hospital: 'normally two expatriate doctors', 'More complex and serious cases are transported to Cape Town'; trang Visiting Tristan: 'There is no airport', chỉ đến bằng tàu, nên chuyển viện đi đường biển; South Atlantic News (2025) tả bệnh nhân chuyển viện đi tàu theo lịch hoặc tàu hàng ghé; gov.uk (2026) nhắc 'two GPs' của đảo.",
+      "nguon": [
+        {"title": "Camogli Hospital", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/hospital.php", "type": "goc", "published": null},
+        {"title": "Visiting Tristan", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/visits.php", "type": "goc", "published": null},
+        {"title": "Anatomy of a Maritime Medical Emergency", "publisher": "South Atlantic News", "url": "https://southatlanticnews.com/?p=2712", "type": "khac", "published": null},
+        {"title": "Defence medics parachute into Tristan da Cunha to treat hantavirus patient", "publisher": "UK Government (gov.uk)", "url": "https://www.gov.uk/government/news/defence-medics-parachute-into-tristan-da-cunha-to-treat-hantavirus-patient", "type": "goc", "published": "2026-05-10"}
+      ]
+    },
+    {
+      "id": "C64",
+      "statement": "On the night of 12–13 February 2008 Tristan da Cunha's fish factory burned down together with the island's electricity generators; full 24-hour power was restored on 14 March 2008, about a month later.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Peaceful Societies (dẫn tin tristandc.com): cháy rạng sáng 13/2/2008, thiêu xưởng cá và máy phát điện chính; điện đầy đủ trở lại thứ Sáu 14/3/2008; trang Fishing của đảo xác nhận xưởng cháy năm 2008.",
+      "nguon": [
+        {"title": "Major Disaster on Tristan da Cunha", "publisher": "Peaceful Societies, UNC Greensboro", "url": "https://peacefulsocieties.uncg.edu/?p=254", "type": "khac", "published": "2008-02-21"},
+        {"title": "Tristan da Cunha power restored (update)", "publisher": "Peaceful Societies, UNC Greensboro", "url": "https://peacefulsocieties.uncg.edu/?p=267", "type": "khac", "published": "2008-04-03"},
+        {"title": "Fishing", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economyfishing.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C65",
+      "statement": "Outsiders cannot buy land on Tristan da Cunha, and people without a family connection to the island are not normally allowed to settle there.",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Economy của đảo: 'No outsiders are allowed to buy land or settle on Tristan.'",
+      "nguon": [
+        {"title": "Economy", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/economy.php", "type": "goc", "published": null}
+      ]
+    },
+    {
+      "id": "C66",
+      "statement": "Serious medical cases from Tristan da Cunha are taken to hospital in Cape Town, roughly a week or more away by sea (about six days by the usual ships; some sources give 7 to 10 days).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang bệnh viện: ca nặng đưa tới Cape Town; lịch tàu: hành trình 'will normally take six days'; BBC (2025): 'can take up to two weeks, depending on the weather'; gov.uk (2026): 'usual two week trip by sea'; ý chính 'khoảng một tuần hoặc hơn' khớp, nhưng khoảng '7 to 10 days' không thấy nguyên văn ở nguồn uy tín đã mở (chỉ có hướng dẫn du lịch 5–10 ngày), nên thay bằng 'up to two weeks in bad weather' sẽ chắc hơn.",
+      "nguon": [
+        {"title": "Camogli Hospital", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/hospital.php", "type": "goc", "published": null},
+        {"title": "Shipping Schedules", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/shipping.php", "type": "goc", "published": null},
+        {"title": "Tristan da Cunha: The lobsters keeping Earth's remotest town afloat (Nick Schönfeld, BBC)", "publisher": "BBC, republished by South Atlantic News", "url": "https://southatlanticnews.com/?p=3422", "type": "bao", "published": "2025-09-20"},
+        {"title": "Defence medics parachute into Tristan da Cunha to treat hantavirus patient", "publisher": "UK Government (gov.uk)", "url": "https://www.gov.uk/government/news/defence-medics-parachute-into-tristan-da-cunha-to-treat-hantavirus-patient", "type": "goc", "published": "2026-05-10"}
+      ]
+    },
+    {
+      "id": "C67",
+      "statement": "Goods for Tristan da Cunha's only shop, the Island Store, must be ordered months in advance (at least a couple of months before the ship that brings them).",
+      "verdict": "dung",
+      "gia_tri_dung": null,
+      "ghi_chu": "Trang Island Store của đảo: 'Goods need to be ordered months in advance of the arrival of incoming ships'; National Geographic: đơn cho 'single grocery store' đặt 'a couple of months in advance'; Discover (2023) gọi đây là 'the island's only shop'.",
+      "nguon": [
+        {"title": "Tristan da Cunha Island Store (Supermarket)", "publisher": "Tristan da Cunha Government & Tristan da Cunha Association", "url": "https://www.tristandc.com/supermarket.php", "type": "goc", "published": null},
+        {"title": "Hard-core locavore: eating on the world's most remote island", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island", "type": "bao", "published": null},
+        {"title": "Balancing Faraway Life on Tristan da Cunha (Sasha Chapman)", "publisher": "Discover Magazine", "url": "https://www.discovermagazine.com/planet-earth/balancing-faraway-life-on-tristan-da-cunha", "type": "bao", "published": "2023-04-21"}
+      ]
+    }
+  ]
+}

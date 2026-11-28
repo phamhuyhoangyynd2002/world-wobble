@@ -1,0 +1,183 @@
+
+
+[
+{
+"id": "C49",
+"verdict": "dung",
+"correct_value": null,
+"note": "The evacuation account confirms that the Dutch liner Tjisadane collected the islanders on 11 October 1961 and transported them to Cape Town, arriving on 16 October.",
+"sources": [
+{
+"title": "TRISTAN DA CUNHA",
+"publisher": "UK Parliament – Hansard",
+"url": "https://api.parliament.uk/historic-hansard/commons/1961/oct/17/tristan-da-cunha",
+"type": "goc",
+"published": null
+},
+{
+"title": "The 1961 Evacuation of Tristan da Cunha",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/earthdisastermanagement.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C50",
+"verdict": "dung",
+"correct_value": null,
+"note": "The evacuation records confirm that 264 islanders were evacuated, transferred from Cape Town to the Stirling Castle, and arrived in Southampton on 3 November 1961; 31 expatriates were evacuated separately from the island community.",
+"sources": [
+{
+"title": "The 1961 Evacuation of Tristan da Cunha",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/earthdisastermanagement.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "The remote island that was evacuated to 10,000km away",
+"publisher": "BBC World Service",
+"url": "https://bbc.com.im/programmes/w3ct74qj",
+"type": "bao",
+"published": null
+}
+]
+},
+{
+"id": "C51",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Royal Society expedition confirmed that the lava destroyed the local canning factory while most of the settlement escaped undamaged.",
+"sources": [
+{
+"title": "Volcanic venture",
+"publisher": "The Royal Society",
+"url": "https://www.royalsociety.org/blog/2021/08/volcanic-venture/",
+"type": "goc",
+"published": null
+},
+{
+"title": "The 1961 eruption",
+"publisher": "Mitchell and Thomé, scientific publication (1970)",
+"url": "https://ftp.space.dtu.dk/pub/jrgm/age_TDC_literature/Mitchell-Thome_1970_Tristan.pdf",
+"type": "khac",
+"published": "1970-01-01"
+}
+]
+},
+{
+"id": "C52",
+"verdict": "dung",
+"correct_value": null,
+"note": "The islanders were initially accommodated at Pendell Camp in Surrey before moving to former RAF Calshot on 23 January 1962.",
+"sources": [
+{
+"title": "Tristan da Cunha Islanders",
+"publisher": "UK Parliament – Hansard",
+"url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders",
+"type": "goc",
+"published": null
+},
+{
+"title": "RAF Calshot and the Tristan da Cunha Evacuees",
+"publisher": "New Forest Heritage",
+"url": "https://nfhwa.org/raf-calshot-tristan-da-cunha-evacuees/",
+"type": "khac",
+"published": null
+},
+{
+"title": "Tristan da Cunha: Centenary of the RAF 1918–2018",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/po/stamps201806.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C53",
+"verdict": "dung",
+"correct_value": null,
+"note": "The written parliamentary answer of 28 February 1962 explicitly states that 113 islanders had found employment and 14 were still seeking work.",
+"sources": [
+{
+"title": "Tristan da Cunha Islanders",
+"publisher": "UK Parliament – Hansard",
+"url": "https://api.parliament.uk/historic-hansard/written-answers/1962/feb/28/tristan-da-cunha-islanders",
+"type": "goc",
+"published": "1962-02-28"
+}
+]
+},
+{
+"id": "C54",
+"verdict": "dung",
+"correct_value": null,
+"note": "A December 1961 parliamentary answer confirms their unusual susceptibility to colds and influenza because of previous isolation from viruses, while the Tristan historical record confirms influenza epidemics during the severe winter of 1962–63.",
+"sources": [
+{
+"title": "Written Answers",
+"publisher": "UK Parliament – Hansard",
+"url": "https://hansard.parliament.uk/commons/1961-12-18/debates/8e1487e4-0dad-48e8-9d7b-df8d7ab09282/WrittenAnswers",
+"type": "goc",
+"published": "1961-12-18"
+},
+{
+"title": "Centenary of the RAF 1918–2018",
+"publisher": "Tristan da Cunha Government",
+"url": "https://www.tristandc.com/po/stamps201806.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C55",
+"verdict": "dung",
+"correct_value": null,
+"note": "On 24 July 1962 Secretary of State for the Colonies Duncan Sandys stated that the Government considered remaining in Britain the best course, citing another eruption, difficulties maintaining services and living standards, and the increased difficulty of landing or leaving the island.",
+"sources": [
+{
+"title": "Former Inhabitants (Future)",
+"publisher": "UK Parliament – Hansard",
+"url": "https://api.parliament.uk/historic-hansard/written-answers/1962/jul/24/former-inhabitants-future",
+"type": "goc",
+"published": "1962-07-24"
+}
+]
+},
+{
+"id": "C56",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Royal Society confirms that its expedition arrived on 29 January 1962, found the eruption less destructive than initially feared, and documented that most of the settlement had escaped damage; the team returned on 20 March.",
+"sources": [
+{
+"title": "Volcanic venture",
+"publisher": "The Royal Society",
+"url": "https://www.royalsociety.org/blog/2021/08/volcanic-venture/",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan Da Cunha – Scientific Expedition",
+"publisher": "UK Parliament – Hansard",
+"url": "https://hansard.parliament.uk/Commons/1962-02-08/debates/45a824fa-7244-469b-9908-97b88cf58ba1/TristanDaCunha",
+"type": "goc",
+"published": "1962-02-08"
+}
+]
+}
+]
+
+Bạn đang dùng phiên bản ChatGPT miễn phí. Nâng cấp gói đăng ký để sử dụng các mô hình nâng cao, bộ nhớ tốt hơn và tạo ảnh chất lượng cao hơn.
+Dùng thử Plus miễn phí
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

@@ -1,0 +1,207 @@
+
+
+[
+{
+"id": "C57",
+"verdict": "dung",
+"correct_value": null,
+"note": "The historical account confirms that a resettlement survey party including 12 islanders left on 9 August 1962 and returned to Tristan on 8 September 1962 to assess conditions and prepare the settlement for possible resettlement.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha's Population History",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/community/population-history.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C58",
+"verdict": "khong-ro",
+"correct_value": null,
+"note": "The historical account confirms a December 1962 ballot and a 148–5 vote favouring return, but does not establish that the ballot was secret or explicitly specify that only adult islanders participated.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C59",
+"verdict": "mau-thuan",
+"correct_value": "51 according to the historical resettlement account; another population-history record gives 63 returning on 9 April 1963.",
+"note": "The historical account confirms that 51 islanders left Tilbury on 17 March aboard RMS Amazon, transferred to MV Boissevain in Rio de Janeiro and arrived on 9 April, but the population-history record gives 63 returnees for that date, creating a discrepancy in the reported party size.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha's Population History",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/community/population-history.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Common colds on Tristan da Cunha",
+"publisher": "Journal of Hygiene, Cambridge University Press",
+"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D83E74AB677CCBC74E71A319EAD6C330/S0022172400021483a.pdf/common-colds-on-tristan-da-cunha.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C60",
+"verdict": "dung",
+"correct_value": null,
+"note": "The historical account confirms that the main resettlement group of 198 islanders departed Southampton aboard the Danish ferry Bornholm on 24 October 1963 and arrived on Tristan on 10 November 1963.",
+"sources": [
+{
+"title": "Tristan da Cunha Volcanic Interlude 1961 - 1963",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/history1961-1963.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Common colds on Tristan da Cunha",
+"publisher": "Journal of Hygiene, Cambridge University Press",
+"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D83E74AB677CCBC74E71A319EAD6C330/S0022172400021483a.pdf/common-colds-on-tristan-da-cunha.pdf",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C61",
+"verdict": "dung",
+"correct_value": null,
+"note": "The island's harbour history confirms that Calshot Harbour opened in 1967 and was named after the Hampshire village where Tristan islanders were housed following the 1961 volcanic evacuation.",
+"sources": [
+{
+"title": "Tristan da Cunha Calshot Harbour",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/harbour.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Former Inhabitants (Future), Hansard, 24 July 1962",
+"publisher": "UK Parliament",
+"url": "https://api.parliament.uk/historic-hansard/written-answers/1962/jul/24/former-inhabitants-future",
+"type": "goc",
+"published": "1962-07-24"
+}
+]
+},
+{
+"id": "C62",
+"verdict": "dung",
+"correct_value": null,
+"note": "The harbour information page gives an entrance width of 11 metres and approximately 70 days annually when weather conditions permit safe harbour traffic, although this is an approximate operational figure rather than a guaranteed number of usable days.",
+"sources": [
+{
+"title": "Tristan da Cunha Calshot Harbour",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/harbour.php",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C63",
+"verdict": "sai",
+"correct_value": "Normally two expatriate doctors; complex and serious cases are transported to Cape Town. Expectant mothers were routinely sent to Cape Town for deliveries before the improved Camogli Healthcare Centre opened in 2017, but local births have also taken place.",
+"note": "The two-doctor staffing and Cape Town referrals are confirmed, but the claim that expectant mothers travel to Cape Town for childbirth as a general current practice is misleading: the new healthcare centre opened in 2017 and local births have been documented, including five babies born there by 2022.",
+"sources": [
+{
+"title": "Tristan da Cunha Camogli Healthcare Centre",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/hospital.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Family News 2005 to 2007",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/newsfamily05-07.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Healthcare in the Overseas Territories and access to UK care",
+"publisher": "House of Commons Library",
+"url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+"type": "goc",
+"published": "2023-05-25"
+},
+{
+"title": "Tristan da Cunha – General Practitioner with Anaesthetics Experience",
+"publisher": "NI-CO",
+"url": "https://nico.org.uk/tristan-da-cunha-general-practitioner-with-anaesthetics-experience/",
+"type": "khac",
+"published": null
+}
+]
+},
+{
+"id": "C64",
+"verdict": "dung",
+"correct_value": null,
+"note": "The island's contemporary incident report confirms that the factory and electricity generators were destroyed in the overnight fire of 12–13 February 2008 and that full 24-hour electricity was restored on Friday 14 March 2008, approximately one month later.",
+"sources": [
+{
+"title": "Factory Fire on 13th February 2008",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/newsfactoryfire.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "2008 Factory Fire's effect on Tristan's Electricity Supply",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/electric-supply.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha: Fires, Hansard, 21 February 2008",
+"publisher": "UK Parliament",
+"url": "https://hansard.parliament.uk/commons/2008-02-21/debates/080221135000042/TristanDaCunhaFires",
+"type": "goc",
+"published": "2008-02-21"
+}
+]
+}
+]
+
+Bạn đang dùng phiên bản ChatGPT miễn phí. Nâng cấp gói đăng ký để sử dụng các mô hình nâng cao, bộ nhớ tốt hơn và tạo ảnh chất lượng cao hơn.
+Dùng thử Plus miễn phí
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+Cải thiện độ chính xác cho tài liệu và nghiên cứu
+Nâng cấp lên gói Plus và dùng khả năng lập luận cao hơn để tổng hợp tài liệu, nghiên cứu, tệp và thông tin phức tạp.
+Dùng thử gói Plus miễn phí
+
+
+
+
+Suy luận

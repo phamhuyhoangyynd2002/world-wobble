@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Tristan da Cunha" (United Kingdom (overseas territory)). The episode asks: "Why do people live on Tristan da Cunha?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C41: When Tristan da Cunha's first stamps were issued in 1952, there was worldwide demand from collectors and the stamps produced revenue for the administration from the first year.
+C42: Sales of Tristan da Cunha stamps and coins to collectors are a source of foreign income for the island's government today.
+C43: Mail to and from Tristan da Cunha is routed via Cape Town and carried by the ships that sail between Cape Town and the island.
+C44: The 1961 eruption on Tristan da Cunha formed a new volcanic cone and lava flow immediately east of the Settlement, only a few hundred feet from the village.
+C45: Earth tremors were felt on Tristan da Cunha from August 1961, in the weeks before the October 1961 eruption.
+C46: On 8 October 1961 a strong earthquake caused a rockfall and landslide east of the Settlement, and that night the islanders and expatriates slept in the huts at the Potato Patches.
+C47: On 9 October 1961 a fissure opened between the Settlement and the fish cannery and the ground bulged; on 10 October it developed into a new volcanic cone and the island was evacuated.
+C48: On 10 October 1961 the fishing vessels Tristania and Frances Repetto took the evacuated population of Tristan da Cunha to Nightingale Island, where they spent the night.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

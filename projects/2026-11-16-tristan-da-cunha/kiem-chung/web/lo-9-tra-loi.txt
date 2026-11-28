@@ -1,0 +1,102 @@
+
+
+[
+{
+"id": "C65",
+"verdict": "dung",
+"correct_value": null,
+"note": "Tristan da Cunha's official island website explicitly states that outsiders cannot buy land or settle on the island; however, the specific family-connection criterion is not independently established by the sources found.",
+"sources": [
+{
+"title": "Tristan da Cunha Economy",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/economy.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha :: the Oval Partnership",
+"publisher": "The Oval Partnership",
+"url": "https://www.ovalpartnership.com/en/project/Tristan-da-Cunha",
+"type": "khac",
+"published": null
+},
+{
+"title": "Entry Control (Landing) (Tristan da Cunha) Regulations",
+"publisher": "Government of St Helena",
+"url": "https://www.sainthelena.gov.sh/documents/entry-control-tdac-ordinance/",
+"type": "goc",
+"published": null
+}
+]
+},
+{
+"id": "C66",
+"verdict": "mau-thuan",
+"correct_value": "Approximately six days according to the official shipping information; 7–10 days according to a 2023 UK Parliament briefing.",
+"note": "Medical evacuations for serious cases normally go to Cape Town, but published sources disagree about the sea journey: the island shipping website says six days, while the UK Parliament briefing gives 7–10 days.",
+"sources": [
+{
+"title": "Health - St Helena, Ascension and Tristan da Cunha travel advice",
+"publisher": "UK Foreign, Commonwealth & Development Office",
+"url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Shipping Schedules",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/shipping.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Healthcare in the Overseas Territories and access to UK care",
+"publisher": "House of Commons Library, UK Parliament",
+"url": "https://researchbriefings.files.parliament.uk/documents/CBP-9802/CBP-9802.pdf",
+"type": "goc",
+"published": "2023-05-25"
+}
+]
+},
+{
+"id": "C67",
+"verdict": "dung",
+"correct_value": null,
+"note": "The Island Store's information page explicitly confirms that goods must be ordered months before incoming ships arrive, a practice also documented by National Geographic.",
+"sources": [
+{
+"title": "Tristan da Cunha Island Store (Supermarket)",
+"publisher": "Tristan da Cunha",
+"url": "https://www.tristandc.com/supermarket.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Tristan da Cunha Shops",
+"publisher": "Tristan da Cunha",
+"url": "https://tristandc.com/shops.php",
+"type": "goc",
+"published": null
+},
+{
+"title": "Hard-Core Locavore: Eating on the World’s Most Remote Island",
+"publisher": "National Geographic",
+"url": "https://www.nationalgeographic.com/culture/article/hard-core-locavore-eating-on-the-worlds-most-remote-island",
+"type": "bao",
+"published": null
+}
+]
+}
+]
+
+Bạn đang dùng phiên bản ChatGPT miễn phí. Nâng cấp gói đăng ký để sử dụng các mô hình nâng cao, bộ nhớ tốt hơn và tạo ảnh chất lượng cao hơn.
+Dùng thử Plus miễn phí
+Cho đến nay, cuộc hội thoại này có hữu ích với bạn không?
+ChatGPT có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng.
+Phản hồi mới nhất
+
+
+
+
+Suy luận

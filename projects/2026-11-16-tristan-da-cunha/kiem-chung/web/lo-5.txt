@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Tristan da Cunha" (United Kingdom (overseas territory)). The episode asks: "Why do people live on Tristan da Cunha?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C33: Tristan da Cunha's small lobster boats can only fish on days when weather and sea allow; sources give different figures, from about 30–40 days a year (MSC, 2020) to 18–72 days a season (BBC, 2025).
+C34: On Tristan da Cunha, fishing days are announced at about 5 a.m. by striking an old oxygen bottle with a hammer (the 'fishing gong'), after two experienced fishermen have judged the weather suitable.
+C35: Tristan da Cunha's lobster fishery uses small motorboats crewed by two fishermen each, who haul their traps using a winch.
+C36: According to the Tristan da Cunha Government's farming page (last revised 2019), the Island Council limited each household to one adult breeding cow and also capped sheep numbers to prevent overgrazing; limits may have changed since.
+C37: Tristan da Cunha had no postage stamps until 1 January 1952, when St Helena stamps overprinted 'TRISTAN DA CUNHA' were issued; before that, mail was carried by passing ships.
+C38: In 1946 Allan Crawford drew a set of nine stamp designs for Tristan da Cunha and sent them with a petition for postage stamps to the British Postmaster General.
+C39: Allan Crawford's 1946 Tristan da Cunha 'potato' stamp designs each showed a penguin and were denominated in potatoes (one penny equal to four potatoes); the petition was refused.
+C40: Tristan da Cunha issued Allan Crawford's 1946 'Potato Essays' designs as a set of postage stamps on 8 April 2015.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.

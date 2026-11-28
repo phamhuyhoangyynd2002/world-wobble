@@ -1,0 +1,25 @@
+You are an independent, skeptical fact-checker for an English-language YouTube documentary about the place "Tristan da Cunha" (United Kingdom (overseas territory)). The episode asks: "Why do people live on Tristan da Cunha?".
+
+Check each claim below using Google Search. Assume every claim may be wrong until you find it stated in a reliable source. Prefer primary sources (national statistics offices, government or municipal websites, peer-reviewed papers, official weather-service data), then reputable encyclopedias (e.g. Britannica), then reputable news outlets. Wikipedia, travel blogs, forums, social media and other YouTube videos do not count as sources on their own.
+
+For each claim decide:
+- "dung": reliable sources support the claim as worded (numbers may be rounded the same way).
+- "sai": reliable sources contradict it; give the correct value.
+- "mau-thuan": reliable sources disagree with each other, or the claim depends on a definition that sources treat differently (e.g. "coldest inhabited place").
+- "khong-ro": you could not find a reliable source either way.
+
+Reply with ONLY a JSON array, no prose, one object per claim, in this exact shape:
+[{"id": "C01", "verdict": "dung|sai|mau-thuan|khong-ro", "correct_value": "string or null", "note": "one short sentence", "sources": [{"title": "page title", "publisher": "site or organisation", "url": "https://...", "type": "goc|bach-khoa|bao|khac", "published": "YYYY-MM-DD or null"}]}]
+
+Claims:
+C17: After his final defeat, Napoleon was held in exile by Britain on St Helena, which is the nearest inhabited place to Tristan da Cunha, about 2,437 km away.
+C18: Britain took Tristan da Cunha in 1816 because it feared France could use the island as a base for an attempt to rescue Napoleon from St Helena, and to stop American ships using it as a base as they had during the War of 1812.
+C19: On 14 August 1816 a British garrison landed from HMS Falmouth and formally took possession of Tristan da Cunha.
+C20: The British garrison was withdrawn from Tristan da Cunha in November 1817, aboard HMS Euridice, because the Admiralty judged the island of little strategic value.
+C21: When the garrison left Tristan da Cunha in 1817, Corporal William Glass, a Scot, was given permission to remain on the island with his wife and children.
+C22: On 7 November 1817 William Glass and two stonemasons signed an agreement to live as a community, sharing stock, stores and profits equally, with no member claiming superiority over the others.
+C23: Later settlers on Tristan da Cunha included Thomas Swain, a sailor from Hastings (1826); Pieter Groen from Katwijk in the Netherlands, shipwrecked on the Emily (1836); Thomas Rogers, an American whaler (1836); and Andrew Hagan, an American whaling captain (1849).
+C24: In 1827 Captain Simon Amm of the Duke of Gloucester brought five women from St Helena to Tristan da Cunha.
+
+Run a Google Search for EVERY claim before you answer, and list only URLs you actually found in this search session. If you could not search or did not find the claim in a source, use "khong-ro" and say so in the note; do not answer from memory.
+If the full array does not fit, stop after a complete object and write CONTINUE on the last line; do not cut an object in half.
