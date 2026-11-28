@@ -1,0 +1,1533 @@
+{
+ "so_ung_vien": 1343,
+ "da_loai": {
+  "cau_mo": 73,
+  "it_tu": 2,
+  "khung_trong": 0
+ },
+ "chon": [
+  {
+   "start": 0.42,
+   "end": 39.59,
+   "duration": 39.2,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare."
+  },
+  {
+   "start": 72.44,
+   "end": 106.07,
+   "duration": 33.6,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry."
+  },
+  {
+   "start": 156.31,
+   "end": 204.32,
+   "duration": 48.0,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger."
+  },
+  {
+   "start": 259.09,
+   "end": 305.07,
+   "duration": 46.0,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch."
+  },
+  {
+   "start": 436.59,
+   "end": 486.73,
+   "duration": 50.1,
+   "chapter": "The Sea Comes Indoors",
+   "claims": [
+    "C22",
+    "C23",
+    "C24"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "like a guest who turned up early.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "like a guest who turned up early. I pulled my legs in. I pulled my hat in. I pulled in everything I could reach. My backpack, on the floor, didn't have that option. It drifted off down the lane like it had somewhere better to be. Back home, I set the backpack on my desk. It's still drying. For the people out there, that night isn't a funny story. The Guardian reported that islanders sometimes wake up to find water in their homes. These islands sit only about two metres above the sea on average. That's roughly six and a half feet. A local report in twenty fourteen, cited by The Guardian, found erosion along about forty-five percent of the archipelago's coastline. One small island nearby has disappeared completely. Global sea levels are expected to rise by up to thirty centimetres by twenty fifty. That's about a foot."
+  }
+ ],
+ "tat_ca": [
+  {
+   "start": 259.09,
+   "end": 305.07,
+   "duration": 46.0,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch."
+  },
+  {
+   "start": 259.09,
+   "end": 312.05,
+   "duration": 53.0,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 14.0,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community."
+  },
+  {
+   "start": 259.09,
+   "end": 289.48,
+   "duration": 30.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated."
+  },
+  {
+   "start": 259.09,
+   "end": 296.97,
+   "duration": 37.9,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "score": 13.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open."
+  },
+  {
+   "start": 272.67,
+   "end": 320.35,
+   "duration": 47.7,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing."
+  },
+  {
+   "start": 272.67,
+   "end": 322.56,
+   "duration": 49.9,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine."
+  },
+  {
+   "start": 272.67,
+   "end": 328.59,
+   "duration": 55.9,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed."
+  },
+  {
+   "start": 272.67,
+   "end": 330.0,
+   "duration": 57.3,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 13.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed. I changed my mind."
+  },
+  {
+   "start": 259.09,
+   "end": 292.89,
+   "duration": 33.8,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "score": 12.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "3 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched."
+  },
+  {
+   "start": 259.09,
+   "end": 295.65,
+   "duration": 36.6,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "score": 12.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "3 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full."
+  },
+  {
+   "start": 259.09,
+   "end": 302.49,
+   "duration": 43.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14"
+   ],
+   "score": 12.5,
+   "ly_do": [
+    "mở: câu hỏi, ngắn 5 từ",
+    "3 khẳng định"
+   ],
+   "cau_mo": "How many people live here?",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack."
+  },
+  {
+   "start": 156.31,
+   "end": 204.32,
+   "duration": 48.0,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger."
+  },
+  {
+   "start": 156.31,
+   "end": 210.3,
+   "duration": 54.0,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger. They piled up coral, stone and shells, plus whatever the sea washed up, and later they poured cement."
+  },
+  {
+   "start": 156.31,
+   "end": 214.05,
+   "duration": 57.7,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger. They piled up coral, stone and shells, plus whatever the sea washed up, and later they poured cement. Some of the ground under me was built by somebody's great-grandparents."
+  },
+  {
+   "start": 272.67,
+   "end": 305.07,
+   "duration": 32.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch."
+  },
+  {
+   "start": 272.67,
+   "end": 312.05,
+   "duration": 39.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community."
+  },
+  {
+   "start": 272.67,
+   "end": 318.46,
+   "duration": 45.8,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once."
+  },
+  {
+   "start": 272.67,
+   "end": 326.74,
+   "duration": 54.1,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C14",
+    "C15"
+   ],
+   "score": 12.0,
+   "ly_do": [
+    "mở: có con số, ngắn 7 từ, câu thứ hai ngắn (twist)",
+    "2 khẳng định"
+   ],
+   "cau_mo": "The one before, in two thousand five,",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell."
+  },
+  {
+   "start": 0.42,
+   "end": 39.59,
+   "duration": 39.2,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare."
+  },
+  {
+   "start": 0.42,
+   "end": 41.36,
+   "duration": 40.9,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one?"
+  },
+  {
+   "start": 0.42,
+   "end": 43.14,
+   "duration": 42.7,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small."
+  },
+  {
+   "start": 0.42,
+   "end": 47.93,
+   "duration": 47.5,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong."
+  },
+  {
+   "start": 0.42,
+   "end": 53.15,
+   "duration": 52.7,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack."
+  },
+  {
+   "start": 0.42,
+   "end": 54.94,
+   "duration": 54.5,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "kết câu ngắn",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack. That was my first mistake."
+  },
+  {
+   "start": 156.31,
+   "end": 199.92,
+   "duration": 43.6,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too."
+  },
+  {
+   "start": 156.31,
+   "end": 201.47,
+   "duration": 45.2,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I dug with my hands for a while.",
+   "tu_trong_5s": 19,
+   "teaser": null,
+   "text": "I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed."
+  },
+  {
+   "start": 268.02,
+   "end": 320.35,
+   "duration": 52.3,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Colombia's national census in twenty eighteen counted a little over four hundred.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing."
+  },
+  {
+   "start": 268.02,
+   "end": 322.56,
+   "duration": 54.5,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Colombia's national census in twenty eighteen counted a little over four hundred.",
+   "tu_trong_5s": 14,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine."
+  },
+  {
+   "start": 274.97,
+   "end": 320.35,
+   "duration": 45.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing."
+  },
+  {
+   "start": 274.97,
+   "end": 322.56,
+   "duration": 47.6,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine."
+  },
+  {
+   "start": 274.97,
+   "end": 328.59,
+   "duration": 53.6,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed."
+  },
+  {
+   "start": 274.97,
+   "end": 330.0,
+   "duration": 55.0,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed. I changed my mind."
+  },
+  {
+   "start": 274.97,
+   "end": 331.46,
+   "duration": 56.5,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed. I changed my mind. Small might be fine."
+  },
+  {
+   "start": 274.97,
+   "end": 332.92,
+   "duration": 58.0,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C15"
+   ],
+   "score": 11.5,
+   "ly_do": [
+    "mở: có con số, ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "counted five hundred and eighty.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 286.14,
+    "den": 288.19,
+    "cau": "I bought a clicker counter anyway."
+   },
+   "text": "counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community. In the evening I sat in the little square, next to the cross, and the whole island seemed to stroll past at least once. Somebody's radio was playing. Somebody's dinner smelled better than mine. I ate my crackers very slowly, to make them last as long as the smell. And my spray was still sealed. I changed my mind. Small might be fine. Small might be great."
+  },
+  {
+   "start": 150.42,
+   "end": 204.32,
+   "duration": 53.9,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 11.0,
+   "ly_do": [
+    "mở: ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "I borrowed a plastic spade.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger."
+  },
+  {
+   "start": 152.29,
+   "end": 204.32,
+   "duration": 52.0,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+   ],
+   "score": 11.0,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "The ground was coral and cement.",
+   "tu_trong_5s": 17,
+   "teaser": null,
+   "text": "The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed. And since the island was small, they made it bigger."
+  },
+  {
+   "start": 256.64,
+   "end": 305.07,
+   "duration": 48.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 11.0,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "Next, an easy question, I thought.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "Next, an easy question, I thought. How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch."
+  },
+  {
+   "start": 256.64,
+   "end": 312.05,
+   "duration": 55.4,
+   "chapter": "Nobody Agrees on the Headcount",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "score": 11.0,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "4 khẳng định"
+   ],
+   "cau_mo": "Next, an easy question, I thought.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "text": "Next, an easy question, I thought. How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch. A foundation and the Colombian Navy repainted the fronts of the houses, and nine murals went up, painted with the community."
+  },
+  {
+   "start": 0.42,
+   "end": 35.48,
+   "duration": 35.1,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though."
+  },
+  {
+   "start": 0.42,
+   "end": 51.25,
+   "duration": 50.8,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: chỉ vào vật lạ trong hình, ngắn 5 từ",
+    "3 khẳng định",
+    "trùng mở đầu bản dài"
+   ],
+   "cau_mo": "This is my mosquito spray.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more."
+  },
+  {
+   "start": 5.13,
+   "end": 39.59,
+   "duration": 34.5,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare."
+  },
+  {
+   "start": 5.13,
+   "end": 41.36,
+   "duration": 36.2,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one?"
+  },
+  {
+   "start": 5.13,
+   "end": 43.14,
+   "duration": 38.0,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small."
+  },
+  {
+   "start": 5.13,
+   "end": 47.93,
+   "duration": 42.8,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong."
+  },
+  {
+   "start": 5.13,
+   "end": 53.15,
+   "duration": 48.0,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 50.91,
+    "den": 53.05,
+    "cau": "I'd packed a huge backpack."
+   },
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack."
+  },
+  {
+   "start": 5.13,
+   "end": 54.94,
+   "duration": 49.8,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "packed solid with houses.",
+   "tu_trong_5s": 15,
+   "teaser": {
+    "tu": 50.91,
+    "den": 53.05,
+    "cau": "I'd packed a huge backpack."
+   },
+   "text": "packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack. That was my first mistake."
+  },
+  {
+   "start": 8.32,
+   "end": 39.59,
+   "duration": 31.3,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": null,
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare."
+  },
+  {
+   "start": 8.32,
+   "end": 41.36,
+   "duration": 33.0,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": null,
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one?"
+  },
+  {
+   "start": 8.32,
+   "end": 43.14,
+   "duration": 34.8,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": null,
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small."
+  },
+  {
+   "start": 8.32,
+   "end": 47.93,
+   "duration": 39.6,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": null,
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong."
+  },
+  {
+   "start": 8.32,
+   "end": 53.15,
+   "duration": 44.8,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 50.91,
+    "den": 53.05,
+    "cau": "I'd packed a huge backpack."
+   },
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack."
+  },
+  {
+   "start": 8.32,
+   "end": 54.94,
+   "duration": 46.6,
+   "chapter": "The Spray I Never Opened",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 6 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "Nothing there wanted to bite me.",
+   "tu_trong_5s": 17,
+   "teaser": {
+    "tu": 50.91,
+    "den": 53.05,
+    "cau": "I'd packed a huge backpack."
+   },
+   "text": "Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare. So why squeeze onto this one? The answer was very small. The clue rode in my side pocket the whole way, and I still guessed wrong. I came to see if there was room for one more. I'd packed a huge backpack. That was my first mistake."
+  },
+  {
+   "start": 72.44,
+   "end": 106.07,
+   "duration": 33.6,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry."
+  },
+  {
+   "start": 72.44,
+   "end": 110.53,
+   "duration": 38.1,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry. Then I tried a shortcut between a pair of houses. My backpack tried it too."
+  },
+  {
+   "start": 72.44,
+   "end": 113.18,
+   "duration": 40.7,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry. Then I tried a shortcut between a pair of houses. My backpack tried it too. Only one of us made it through. I pulled."
+  },
+  {
+   "start": 72.44,
+   "end": 114.87,
+   "duration": 42.4,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry. Then I tried a shortcut between a pair of houses. My backpack tried it too. Only one of us made it through. I pulled. The backpack pulled back."
+  },
+  {
+   "start": 72.44,
+   "end": 116.78,
+   "duration": 44.3,
+   "chapter": "An Island Made Mostly of Houses",
+   "claims": [
+    "C07"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: Wob làm một việc cụ thể, ngắn 8 từ, câu thứ hai ngắn (twist)",
+    "1 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I found that out on the way back.",
+   "tu_trong_5s": 19,
+   "teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry. Then I tried a shortcut between a pair of houses. My backpack tried it too. Only one of us made it through. I pulled. The backpack pulled back. The houses didn't move at all."
+  },
+  {
+   "start": 144.11,
+   "end": 199.92,
+   "duration": 55.8,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I had a theory.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 152.28,
+    "den": 154.57,
+    "cau": "The ground was coral and cement."
+   },
+   "text": "I had a theory. Treasure. A tiny island, a long time ago, somebody must have buried something. I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too."
+  },
+  {
+   "start": 144.11,
+   "end": 201.47,
+   "duration": 57.4,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 4 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I had a theory.",
+   "tu_trong_5s": 13,
+   "teaser": {
+    "tu": 152.28,
+    "den": 154.57,
+    "cau": "The ground was coral and cement."
+   },
+   "text": "I had a theory. Treasure. A tiny island, a long time ago, somebody must have buried something. I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too. So the fishermen stayed."
+  },
+  {
+   "start": 150.42,
+   "end": 199.92,
+   "duration": 49.5,
+   "chapter": "The Real Reason Is Tiny",
+   "claims": [
+    "C08",
+    "C09",
+    "C10"
+   ],
+   "score": 10.5,
+   "ly_do": [
+    "mở: ngắn 5 từ, câu thứ hai ngắn (twist)",
+    "3 khẳng định",
+    "kết câu ngắn"
+   ],
+   "cau_mo": "I borrowed a plastic spade.",
+   "tu_trong_5s": 15,
+   "teaser": null,
+   "text": "I borrowed a plastic spade. The ground was coral and cement. The spade folded like a napkin. I dug with my hands for a while. I found one lost button and a strong sense of shame. Then I asked around about the island's past, and the real story beat treasure easily. About a hundred and fifty years ago, this was a bare little island with nobody living on it. Fishermen working these waters used it to rest and to wait out storms. That explains a stop. It doesn't explain a town. The town part comes down to something very small. Night fell, the fishermen settled in, and nothing bit them. The islands next door have mangroves and beaches, and that's where the biting crowd hangs out. Locals say this island had neither, so the mosquitoes stayed over there. Picture a party where everyone's invited except the guest who bites. You'd stay at that party too."
+  }
+ ]
+}

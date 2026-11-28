@@ -1,0 +1,72 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "D:/YouTube/world-wobble/video/tap-04-santa-cruz-del-islote/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 0.42,
+   "end": 39.59,
+   "tieu_de": "Why I never had to open it",
+   "wob": "ngam-nghi",
+   "crop_x": 0.8,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 9.93,
+    "den": 11.71,
+    "cau": "Hi, I'm Wob."
+   },
+   "cau_mo": "This is my mosquito spray.",
+   "claims": [
+    "C01",
+    "C02",
+    "C03"
+   ],
+   "text": "This is my mosquito spray. I took it to a tiny, warm island in the Caribbean, packed solid with houses. The seal's still on. Nothing there wanted to bite me. Hi, I'm Wob. I visit odd places and ask why anyone stays. The island is Santa Cruz del Islote, off Colombia's Caribbean coast. From the boat, it looked like someone had parked a neighbourhood on the sea. It covers about as much ground as two soccer fields. Newspapers often call it one of the most densely populated islands in the world. No one agrees on the headcount, though. Around it sit bigger islands, with beaches, trees and room to spare."
+  },
+  {
+   "id": "k2",
+   "start": 78.26,
+   "end": 106.07,
+   "tieu_de": "Where do you park a car here?",
+   "wob": "soc",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 80.48,
+    "den": 84.82,
+    "cau": "Colombia's twenty eighteen census counted a hundred and twenty."
+   },
+   "cau_mo": "I found that out on the way back.",
+   "claims": [
+    "C07"
+   ],
+   "text": "I found that out on the way back. Up close, the island does have land under it. Just not much. More than a hundred houses stand shoulder to shoulder. Colombia's twenty eighteen census counted a hundred and twenty. There's a school, a restaurant and a little square. In the square stands a cross, and the cross gave the island its name. There are no cars. A car here would run out of island long before it ran out of fuel. I looked for somewhere to put my bag down. I'm still looking. So I walked around the whole island before lunch. I finished before I got hungry."
+  },
+  {
+   "id": "k4",
+   "start": 259.09,
+   "end": 305.07,
+   "tieu_de": "Three counts, three answers",
+   "wob": "nghi-ngo",
+   "crop_x": 0.75,
+   "toan_canh": true,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 276.77,
+    "den": 279.18,
+    "cau": "Estimates vary, to put it gently."
+   },
+   "cau_mo": "How many people live here?",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "text": "How many people live here? A figure you'll see everywhere is about twelve hundred. A man who'd lived here his whole life told CNN it was closer to nine hundred. Colombia's national census in twenty eighteen counted a little over four hundred. The one before, in two thousand five, counted five hundred and eighty. Estimates vary, to put it gently. Think of a jar of jelly beans at a fair. Everyone guesses, nobody agrees, and the beans keep hopping on and off boats. I bought a clicker counter anyway. It overheated. I gave up counting and just watched. Whatever the real number is, the island is full. Doors stand open. Neighbours chat across the lane without raising their voices, because the lane is narrower than my backpack. Kids dart between walls that almost touch."
+  }
+ ]
+}
