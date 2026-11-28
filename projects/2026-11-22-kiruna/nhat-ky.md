@@ -57,3 +57,8 @@
   - SEO (out/seo.md): tiêu đề đề xuất "Kiruna, the Arctic Town Moving Away From Its Own Mine", thumbnail A "I OUTWALKED A CHURCH"; Sources chỉ miền gốc (không bbc.com.im).
   - Nhãn vòng 2 trong kiem-chung/vong-2-gemini.json ghi "Gemini web (ChatGPT web)": vòng 2 tập này thực chạy bằng ChatGPT web; không sửa tay file của người kiểm chứng, ghi chú ở đây.
   - luu_o_d --giao: D:\YouTube\world-wobble\video\tap-06-kiruna\ (video.mp4, video-no-music.mp4, captions.srt, chapters.txt, seo.md, bao-cao-xac-thuc.md); file trung gian ở du-an\2026-11-22-kiruna\.
+- 29/11/2026 · Clip dọc (người làm kênh yêu cầu): 3 clip, 3 chương khác nhau, bỏ chương cuối (lộ phán quyết) và đoạn lời giải tàu quặng (giữ lý do xem bản dài).
+  - k1 1:05,33–1:52,70 (47 s, chương "Woken at a Quarter Past One"): mở "At a quarter past one in the morning, the glass started to hum.", câu mồi "The town where the ground shivers", Wob soc, crop_x 0,2 (bản đầu crop 0,5 cắt nửa Wob trên giường), C06–C08.
+  - k2 5:00,99–5:49,00 (48 s, "Overtaking a Church"): mở "I went back that August, because a church was going for a walk.", câu mồi "I tried to outwalk a church", Wob cuoi-lan, toàn cảnh (crop giữa cắt Wob ở mép trái và cụt nhà thờ; toàn cảnh thấy logo nhỏ của bản dài, chấp nhận), C25–C28.
+  - k3 7:50,94–8:29,30 (42 s, "Midnight Sun, Midday Dark"): teaser "At noon, the sky went pink at the edges, then gave up." (8:01,81–8:05,15), câu mồi "Three weeks without a sunrise", Wob lanh-run, C40–C42; một khung giữa clip Wob sát mép phải, chấp nhận.
+  - kiem_5_giay ĐẠT cả 3; xem mắt 5giay + khung từng clip. ke-hoach.json thêm claims từ timeline (bản đầu thiếu). Nguồn: video ở ổ D. Chép k1–k3 (.mp4, .md) sang D:\YouTube\world-wobble\video\tap-06-kiruna\clip-doc\.

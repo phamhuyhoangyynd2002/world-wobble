@@ -1,0 +1,56 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "D:/YouTube/world-wobble/video/tap-06-kiruna/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 65.33,
+   "end": 112.7,
+   "tieu_de": "The town where the ground shivers",
+   "wob": "soc",
+   "crop_x": 0.2,
+   "toan_canh": false,
+   "teaser": null,
+   "claims": [
+    "C06",
+    "C07",
+    "C08"
+   ]
+  },
+  {
+   "id": "k2",
+   "start": 300.99,
+   "end": 349.0,
+   "tieu_de": "I tried to outwalk a church",
+   "wob": "cuoi-lan",
+   "crop_x": 0.5,
+   "toan_canh": true,
+   "teaser": null,
+   "claims": [
+    "C25",
+    "C26",
+    "C27",
+    "C28"
+   ]
+  },
+  {
+   "id": "k3",
+   "start": 470.94,
+   "end": 509.3,
+   "tieu_de": "Three weeks without a sunrise",
+   "wob": "lanh-run",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": {
+    "tu": 481.81,
+    "den": 485.15
+   },
+   "claims": [
+    "C40",
+    "C41",
+    "C42"
+   ]
+  }
+ ]
+}

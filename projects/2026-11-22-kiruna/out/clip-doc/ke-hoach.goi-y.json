@@ -1,0 +1,117 @@
+{
+ "_ghi_chu": "Xem SKILL.md mục 2. tieu_de: câu mồi ≤ 7 từ, ý lấy từ lời của đoạn. teaser: null hoặc {tu, den} (giây tuyệt đối, nằm trong đoạn) để đặt câu đắt nhất lên đầu clip. crop_x 0–1, toan_canh, giu_tren như SKILL.md.",
+ "nguon": "out/video.mp4",
+ "handle": "@WorldWobble",
+ "clips": [
+  {
+   "id": "k1",
+   "start": 154.55,
+   "end": 194.97,
+   "tieu_de": "Two Terrible Guesses",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 187.28,
+    "den": 188.83,
+    "cau": "My bottom agreed."
+   },
+   "cau_mo": "My nose went numb.",
+   "claims": [
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+   ],
+   "text": "My nose went numb. Lovely. And wrong. Tourism is big here now. In twenty twenty-four, Kiruna had a record year, with more than six hundred thousand commercial guest nights. But the town came first, and the tourists followed. My second guess was the hotel made of ice, in the village of Jukkasjärvi, about seventeen kilometres away. That's roughly eleven miles. I sat on an ice bed in my coat to think it over. Icehotel began in nineteen eighty-nine as an art gallery made of ice and snow. That's eighty-nine years after the town. Wrong again. My bottom agreed. The real answer rolled past me at a level crossing on the way back. An ore train."
+  },
+  {
+   "id": "k2",
+   "start": 198.72,
+   "end": 242.96,
+   "tieu_de": "Two Terrible Guesses",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": null,
+   "cau_mo": "Roughly seven football pitches of iron.",
+   "claims": [
+    "C16",
+    "C17",
+    "C18",
+    "C57"
+   ],
+   "text": "Roughly seven football pitches of iron. I started counting wagons and lost count. Twice. First, the ore had a flaw. It is rich in phosphorus, and in older furnaces that made the iron brittle. In the eighteen-seventies, a new method, the Thomas process, turned that flaw into a selling point. That left the bigger problem. Iron is no use inside a mountain. It has to reach the sea. Sweden's own coast is to the east, at Luleå, on the Gulf of Bothnia. That sea freezes over every winter. So they ran a railway the other way, over the mountains, to Narvik on the Norwegian coast. Warm water from the Gulf Stream keeps Narvik's harbour ice-free all year. The line reached Kiruna around nineteen hundred and was joined up to Narvik in nineteen oh two."
+  },
+  {
+   "id": "k3",
+   "start": 260.47,
+   "end": 295.48,
+   "tieu_de": "Two Terrible Guesses",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": null,
+   "cau_mo": "Kiruna counts nineteen hundred as its birth year,",
+   "claims": [
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24"
+   ],
+   "text": "Kiruna counts nineteen hundred as its birth year, when the king approved its town plan. The mining company's first managing director, a geologist called Hjalmar Lundbohm, wanted a model town. He brought in a leading planner to fit the streets to the climate. By nineteen ten, about seven thousand five hundred people lived here. At the end of twenty twenty-five, the municipality had about twenty-two thousand four hundred. They're spread over an area about the size of New Jersey. And the mine still matters far beyond the town. LKAB says it produces more than eighty percent of the iron ore mined in the European Union."
+  },
+  {
+   "id": "k4",
+   "start": 307.24,
+   "end": 357.0,
+   "tieu_de": "Overtaking a Church",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 332.46,
+    "den": 335.51,
+    "cau": "A year of roadworks, for a trip of two days."
+   },
+   "cau_mo": "finished in nineteen twelve, and much loved.",
+   "claims": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30"
+   ],
+   "text": "finished in nineteen twelve, and much loved. The mine needed its ground. So on the nineteenth and twentieth of August, twenty twenty-five, it rolled about five kilometres to the new centre, in one piece. It rode on remote-controlled trailers with more than two hundred wheels. LKAB put its weight at about six hundred and seventy tonnes. To make room, the road was widened from nine metres to twenty-four, which took a year, according to LKAB. A year of roadworks, for a trip of two days. My plan was simple. Walk beside the church, all the way. I overtook it almost at once. I stopped. I waited. I overtook it again. It was slower than a slow walk. I tried walking backwards. Still too fast. The people along the road had a better system. Swedish television showed the whole move live, both days."
+  },
+  {
+   "id": "k5",
+   "start": 485.4,
+   "end": 538.28,
+   "tieu_de": "Midnight Sun, Midday Dark",
+   "wob": "hao-hung",
+   "crop_x": 0.5,
+   "toan_canh": false,
+   "teaser": null,
+   "goi_y_teaser": {
+    "tu": 535.19,
+    "den": 538.18,
+    "cau": "July averages about thirteen Celsius."
+   },
+   "cau_mo": "January averages about minus eleven Celsius.",
+   "claims": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45"
+   ],
+   "text": "January averages about minus eleven Celsius. That's around twelve Fahrenheit. And the new centre has a problem of its own. According to a University of Gothenburg study, winter temperatures there can be noticeably lower than at the old site. Cold air pools in the dip where it was built, the way water fills a bowl. Narrow streets and tall blocks keep the low sun off the pavement. On the new square, the wind found me in seconds. The town's North Sámi name is Giron. It comes from the mountain, and giron means rock ptarmigan, a small bird that turns white in winter. I would have liked to grow feathers and sit in a snowbank. Instead I went back to my room, slid the key off my key ring again, and put it in a drawer. I went back once more, in June, for the light. From late May to mid-July, about seven weeks, the sun doesn't set here at all. July averages about thirteen Celsius."
+  }
+ ]
+}

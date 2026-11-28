@@ -1,0 +1,79 @@
+{
+ "k1": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 44.7,
+   "khung0_ti_le_giay": 0.01,
+   "chuyen_dong": [
+    26.39,
+    8.18,
+    5.97,
+    6.67,
+    6.36,
+    9.49,
+    10.73,
+    8.3,
+    41.73,
+    11.84
+   ],
+   "tu_trong_5s": 21,
+   "cau_mo": "At a quarter past one in the morning, the glass started to hum.",
+   "diem_cau_mo": 0.0,
+   "uu": []
+  }
+ },
+ "k2": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.0,
+   "khung0_do_lech": 52.2,
+   "khung0_ti_le_giay": 0.01,
+   "chuyen_dong": [
+    6.24,
+    6.93,
+    6.17,
+    5.95,
+    4.92,
+    3.95,
+    4.1,
+    9.63,
+    31.84,
+    18.13
+   ],
+   "tu_trong_5s": 17,
+   "cau_mo": "I went back that August, because a church was going for a walk.",
+   "diem_cau_mo": 2.5,
+   "uu": [
+    "Wob làm một việc cụ thể",
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ },
+ "k3": {
+  "loi": [],
+  "do": {
+   "tieng_vao_s": 0.09,
+   "khung0_do_lech": 31.8,
+   "khung0_ti_le_giay": 0.0,
+   "chuyen_dong": [
+    4.7,
+    4.93,
+    7.01,
+    41.36,
+    5.69,
+    18.06,
+    38.2,
+    5.54,
+    8.02,
+    9.04
+   ],
+   "tu_trong_5s": 17,
+   "cau_mo": "At noon, the sky went pink at the edges,",
+   "diem_cau_mo": 1.0,
+   "uu": [
+    "câu thứ hai ngắn (twist)"
+   ]
+  }
+ }
+}
